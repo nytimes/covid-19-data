@@ -12,8 +12,6 @@
 # The JSON is in this form:
 # {state name}.{county name}.{date}.deaths
 # {state name}.{county name}.{date}.cases
-# The file index.html shows how to use this JSON file as an API with
-# jQuery.
 
 REPO="$1"
 if [ -z "$REPO" ] ; then
