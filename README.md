@@ -27,7 +27,7 @@ date,state,fips,cases,deaths
 ```
 ### County-Level Data
 
-County-level data can be found in the [counties.csv](us-counties.csv) file. For counties, we provide a FIPS code.
+County-level data can be found in the [counties.csv](us-counties.csv) file. For counties, we provide a [FIPS code](https://en.wikipedia.org/wiki/FIPS_county_code).
 
 ```
 date,county,state,fips,cases,deaths
