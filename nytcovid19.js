@@ -7,9 +7,7 @@ nytcovid19={
     urlCounties:'https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv'
 }
 
-
-
-nytcovid19.getData=async(urlStates=nytcovid19.urlStates,urlCounties=nytcovid19.urlCounties)=>{
+nytcovid19.getStates=async(urlStates=nytcovid19.urlStates)=>{
     let txt = await (await fetch(urlStates)).text()
     let arr =txt.split(/[\n\r]+/).map(r=>r.split(','))
     let labels=arr[0]
@@ -21,9 +19,14 @@ nytcovid19.getData=async(urlStates=nytcovid19.urlStates,urlCounties=nytcovid19.u
         dt[r[1]][labels[3]]=parseFloat(r[3]) // cases
         dt[r[1]][labels[4]]=parseFloat(r[4]) // deaths
     })
-    txt = await (await fetch(urlCounties)).text()
-    arr =txt.split(/[\n\r]+/).map(r=>r.split(','))
-    labels=arr[0]
+    return dt
+}
+
+nytcovid19.getAllData=async(urlStates=nytcovid19.urlStates,urlCounties=nytcovid19.urlCounties)=>{
+    let dt = await nytcovid19.getStates(urlStates=nytcovid19.urlStates)
+    let txt = await (await fetch(urlCounties)).text()
+    let arr =txt.split(/[\n\r]+/).map(r=>r.split(','))
+    let labels=arr[0]
     arr.slice(1).forEach(r=>{
         if(!dt[r[2]].counties){
             dt[r[2]].counties={}
@@ -36,8 +39,6 @@ nytcovid19.getData=async(urlStates=nytcovid19.urlStates,urlCounties=nytcovid19.u
     })
     return dt
 }
-
-
 
 if(typeof(define)!='undefined'){
     define(nytcovid19)
