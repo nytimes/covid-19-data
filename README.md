@@ -1,3 +1,5 @@
+<img src="https://user-images.githubusercontent.com/395641/77785874-37cc4b80-7033-11ea-8bf2-c4c7f2c45acf.png" width="200" alt="The New York Times Logo" />
+
 # Coronavirus (Covid-19) Data in the United States
 
 [ [U.S. State-Level Data](us-states.csv) | [U.S. County-Level Data](us-counties.csv) ]
