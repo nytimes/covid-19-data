@@ -14,7 +14,10 @@ import java.util.*
 import java.util.logging.Logger
 import java.util.stream.StreamSupport
 
-
+/**
+ * Build using: ./gradlew build
+ * Run using: ./gradlew run
+ */
 class NewCasesPerDay : Application() {
 
     private val logger: Logger = Logger.getAnonymousLogger()
