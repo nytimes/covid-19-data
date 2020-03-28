@@ -39,7 +39,7 @@ class NewCasesPerDay : Application() {
         xAxis.label = "Date"
         yAxis.label = "Cases"
         val lineChart = LineChart(xAxis, yAxis)
-        lineChart.title = state
+        lineChart.title = "New Cases Per Day : $state"
 
         // Get Data
         val fr = FileReader("us-states.csv")
@@ -54,7 +54,7 @@ class NewCasesPerDay : Application() {
 
         // Create Series
         val series = XYChart.Series<String, Number>()
-        series.name = "cases-per-day"
+        series.name = "New cases"
 
         var floor = 0
         for (rec in stateRecords) {
