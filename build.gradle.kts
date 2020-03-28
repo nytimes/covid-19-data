@@ -7,9 +7,15 @@
 plugins {
     // Apply the Kotlin JVM plugin to add support for Kotlin.
     id("org.jetbrains.kotlin.jvm") version "1.3.70"
+    id("org.openjfx.javafxplugin") version "0.0.8"
 
     // Apply the application plugin to add support for building a CLI application.
     application
+}
+
+javafx {
+    version = "14"
+    modules( "javafx.controls")
 }
 
 repositories {
@@ -36,5 +42,5 @@ dependencies {
 
 application {
     // Define the main class for the application.
-    mainClassName = "com.jp.covid.data.AppKt"
+    mainClassName = "com.jp.covid.data.NewCasesPerDay"
 }
