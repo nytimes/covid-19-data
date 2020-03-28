@@ -11,20 +11,20 @@ import org.apache.commons.csv.CSVFormat
 import org.apache.commons.csv.CSVRecord
 import java.io.FileReader
 import java.util.*
-import java.util.logging.Logger
 import java.util.stream.StreamSupport
 
 /**
  * Build using: ./gradlew build
- * Run using: ./gradlew run
+ * Run using: ./gradlew run --args="new york"
  */
 class NewCasesPerDay : Application() {
 
-    private val logger: Logger = Logger.getAnonymousLogger()
-
     companion object {
+        private var state: String? = null
+
         @JvmStatic
         fun main(args: Array<String>) {
+            state = args.joinToString(separator = " ")
             launch(NewCasesPerDay::class.java)
         }
     }
@@ -32,7 +32,6 @@ class NewCasesPerDay : Application() {
     override fun start(stage: Stage) {
 
         stage.title = "Covid-19 Chart"
-        val state = "Washington"
 
         // Create chart
         val xAxis = CategoryAxis()
@@ -50,7 +49,6 @@ class NewCasesPerDay : Application() {
 
         val stateRecords = csvStream
                 .filter { r -> r.get("state").equals(state, ignoreCase = true) }
-                .peek { r -> logger.info(r.toString()) }
                 .toArray()
 
 
@@ -66,7 +64,6 @@ class NewCasesPerDay : Application() {
             val perDay = cases - floor
             floor = cases
             series.data.add(XYChart.Data(date, perDay))
-            logger.info("$floor : $perDay")
         }
 
         val scene = Scene(lineChart, 800.0, 600.0)
