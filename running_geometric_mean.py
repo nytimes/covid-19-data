@@ -47,7 +47,7 @@ if __name__ == '__main__':
     peru_cases = [1, 6, 7, 9, 11, 17, 22, 38, 43, 71, 86, 117,
                 145, 234, 263, 318, 363, 395, 416, 480, 580, 635, 671]
 
-    df = pd.read_csv('./covid-19-data/us-states.csv')
+    df = pd.read_csv('./us-states.csv')
     plot_gmean_rates(peru_cases, 'Peru', filename='./Plots/Peru.png')
 
     usa_cases = df[df['date'] >= '2020-03-01'].groupby('date')['cases'].sum()
