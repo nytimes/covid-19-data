@@ -4,10 +4,11 @@ import matplotlib.pyplot as plt
 
 caseThreshold = 100
 
-countyData = pd.read_csv('us-counties.csv', header=0)
-statePopulationData = pd.read_csv('populations.csv', header=0)
+countyData = pd.read_csv('/data/us-counties.csv', header=0)
+statePopulationData = pd.read_csv('/data/state_populations.csv', header=0)
 
 #join state populations w/ county data
-pd.DataFrame.merge(countyData, statePopulationData, left_on='state', right_on='state_name') = countyData
+countyData = pd.merge(countyData, statePopulationData, on='state').rename(columns={"population": "state_population"})
 
 print(countyData.head())
+
