@@ -44,7 +44,7 @@ def plot_gmean_rates(cases_list, location, filename=False):
 #utah_cases =
 
 if __name__ == '__main__':
-    peru_cases = [1, 6, 7, 9, 11, 17, 22, 38, 43, 71, 86, 117,
+    peru_cases = [6, 7, 9, 11, 17, 22, 38, 43, 71, 86, 117,
                 145, 234, 263, 318, 363, 395, 416, 480, 580, 635, 671]
 
     df = pd.read_csv('./us-states.csv')
