@@ -23,21 +23,22 @@ masterData = pd.merge(covidData, statePopulationData, on='state').rename(columns
 masterData = pd.merge(masterData, countyPopulationData, on=['state','county']).rename(columns={"2019": "county_population"})
 masterData.county_population = masterData.county_population.str.replace(",","").astype(int)
 
-#masterData.county_population = masterData.county_population.astype(int)
+#print to csv
+masterData.to_csv("masterData.csv", index_label="index")
 
 ##analysis 1: Bay Area vs. Non Bay Area, raw counts
 
 #filter for CA
-californiaData = masterData[masterData['state'] == 'California']
+#californiaData = masterData[masterData['state'] == 'California']
 
 #filter to bayArea and notBayArea
-bayAreaData = californiaData[(californiaData['county'] == 'San Francisco') | (californiaData['county'] == 'San Mateo') | (californiaData['county'] == 'Marin') | (californiaData['county'] == 'Contra Costa') | (californiaData['county'] == 'Alameda') | (californiaData['county'] == 'Santa Clara')]
-outsideBayAreaData = californiaData[(californiaData['county'] != 'San Francisco') & (californiaData['county'] != 'San Mateo') & (californiaData['county'] != 'Marin') & (californiaData['county'] != 'Contra Costa') & (californiaData['county'] != 'Alameda') & (californiaData['county'] != 'Santa Clara')]
+#bayAreaData = californiaData[(californiaData['county'] == 'San Francisco') | (californiaData['county'] == 'San Mateo') | (californiaData['county'] == 'Marin') | (californiaData['county'] == 'Contra Costa') | (californiaData['county'] == 'Alameda') | (californiaData['county'] == 'Santa Clara')]
+#outsideBayAreaData = californiaData[(californiaData['county'] != 'San Francisco') & (californiaData['county'] != 'San Mateo') & (californiaData['county'] != 'Marin') & (californiaData['county'] != 'Contra Costa') & (californiaData['county'] != 'Alameda') & (californiaData['county'] != 'Santa Clara')]
 
 #group and aggregate
-bayAreaData = bayAreaData.groupby('date').agg({'cases': np.sum, 'deaths' : np.sum, 'county_population' : np.sum})
-outsideBayAreaData = outsideBayAreaData.groupby('date').agg({'cases': np.sum, 'deaths' : np.sum, 'county_population' : np.sum})
+#bayAreaData = bayAreaData.groupby('date').agg({'cases': np.sum, 'deaths' : np.sum, 'county_population' : np.sum})
+#outsideBayAreaData = outsideBayAreaData.groupby('date').agg({'cases': np.sum, 'deaths' : np.sum, 'county_population' : np.sum})
 
 #filter by case count
-bayAreaData = bayAreaData[bayAreaData['cases'] >= caseThreshold]
-outsideBayAreaData = outsideBayAreaData[outsideBayAreaData['cases'] >= caseThreshold]
+#bayAreaData = bayAreaData[bayAreaData['cases'] >= caseThreshold]
+#outsideBayAreaData = outsideBayAreaData[outsideBayAreaData['cases'] >= caseThreshold]
