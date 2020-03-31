@@ -1,4 +1,4 @@
-#!/usr/share/rvm/rubies/ruby-2.6.0/bin/ruby
+#!/usr/bin/env ruby
 require 'json'
 require 'csv'
 
