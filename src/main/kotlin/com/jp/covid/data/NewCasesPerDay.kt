@@ -10,6 +10,9 @@ import javafx.stage.Stage
 import org.apache.commons.csv.CSVFormat
 import org.apache.commons.csv.CSVRecord
 import java.io.FileReader
+import java.text.SimpleDateFormat
+import java.time.LocalDate
+import java.time.ZoneId
 import java.util.*
 import java.util.stream.StreamSupport
 
@@ -57,18 +60,22 @@ class NewCasesPerDay : Application() {
         perDaySeries.name = "New cases"
 
         val totalCountSeries = XYChart.Series<String, Number>()
-        totalCountSeries.name ="total"
+        totalCountSeries.name = "total"
 
-
+        val formatter = SimpleDateFormat("yyyy-MM-dd")
         var floor = 0
         for (rec in stateRecords) {
             val r = (rec as CSVRecord)
             val date = r.get("date").toString()
+//            val isOld = formatter.parse(date).toInstant().isBefore(LocalDate.now().minusDays(40).atStartOfDay(ZoneId.systemDefault()).toInstant())
+//            if (isOld) {
+//                continue
+//            }
             val cases: Int = Integer.parseInt((r.get("cases")))
             val perDay = cases - floor
             floor = cases
             perDaySeries.data.add(XYChart.Data(date, perDay))
-            totalCountSeries.data.add(XYChart.Data(date,cases))
+            totalCountSeries.data.add(XYChart.Data(date, cases))
         }
 
         val scene = Scene(lineChart, 800.0, 600.0)
