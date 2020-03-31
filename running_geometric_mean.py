@@ -9,7 +9,8 @@ from ipdb import set_trace
 def calc_daily_rates(daily_values):
     new_ratio = np.roll(daily_values, -1) / daily_values
     new_ratio = new_ratio[:-1]
-    raw_rates = np.log(new_ratio)
+    #raw_rates = np.log(new_ratio)
+    raw_rates = new_ratio
     return raw_rates
 
 
@@ -45,7 +46,7 @@ def plot_gmean_rates(cases_list, location, filename=False):
 
 if __name__ == '__main__':
     peru_cases = [6, 7, 9, 11, 17, 22, 38, 43, 71, 86, 117,
-                145, 234, 263, 318, 363, 395, 416, 480, 580, 635, 671]
+                145, 234, 263, 318, 363, 395, 416, 480, 580, 635, 671, 852, 950]
 
     df = pd.read_csv('./us-states.csv')
     plot_gmean_rates(peru_cases, 'Peru', filename='./Plots/Peru.png')
