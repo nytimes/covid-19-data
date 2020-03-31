@@ -53,8 +53,12 @@ class NewCasesPerDay : Application() {
 
 
         // Create Series
-        val series = XYChart.Series<String, Number>()
-        series.name = "New cases"
+        val perDaySeries = XYChart.Series<String, Number>()
+        perDaySeries.name = "New cases"
+
+        val totalCountSeries = XYChart.Series<String, Number>()
+        totalCountSeries.name ="total"
+
 
         var floor = 0
         for (rec in stateRecords) {
@@ -63,11 +67,13 @@ class NewCasesPerDay : Application() {
             val cases: Int = Integer.parseInt((r.get("cases")))
             val perDay = cases - floor
             floor = cases
-            series.data.add(XYChart.Data(date, perDay))
+            perDaySeries.data.add(XYChart.Data(date, perDay))
+            totalCountSeries.data.add(XYChart.Data(date,cases))
         }
 
         val scene = Scene(lineChart, 800.0, 600.0)
-        lineChart.data.add(series)
+        lineChart.data.add(perDaySeries)
+        lineChart.data.add(totalCountSeries)
 
         stage.scene = scene
         stage.show()
