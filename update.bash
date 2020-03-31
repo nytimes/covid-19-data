@@ -7,6 +7,8 @@ function build_json_files {
   done
 }
 
+#assumes one follows these steps
+#https://gist.github.com/CristinaSolana/1885435
 function sync_with_original_repo {
   git fetch upstream
   git pull upstream master
@@ -16,5 +18,5 @@ function sync_with_original_repo {
   git push origin json
 }
 
-
+#now run this in cron periodically
 sync_with_original_repo
