@@ -84,9 +84,9 @@ All cases for the five boroughs of New York City (New York, Kings, Queens, Bronx
 
 Four counties (Cass, Clay, Jackson and Platte) overlap the municipality of Kansas City, Mo. The cases and deaths that we show for these four counties are only for the portions exclusive of Kansas City. Cases and deaths for Kansas City are reported as their own line.
 
-* Joplin, Mo.
+* Alameda, Calif.
 
-Joplin is reported separately from Jasper and Newton Counties. 
+Counts for Alameda County include cases and deaths from Berkeley and the Grand Princess cruise ship.
 
 * Chicago
 
@@ -104,6 +104,8 @@ If you use it in an online presentation, we would appreciate it if you would lin
 If you use this data, please let us know at covid-data@nytimes.com and indicate if you would be willing to talk to a reporter about your research.
 
 See our [LICENSE](LICENSE) for the full terms of use for this data.
+
+This license is co-extensive with the Creative Commons Attribution-NonCommercial 4.0 International license, and licensees should refer to that license ([CC BY-NC](https://creativecommons.org/licenses/by-nc/4.0/legalcode)) if they have questions about the scope of the license.
 
 
 ## Contact Us
