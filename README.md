@@ -84,9 +84,9 @@ All cases for the five boroughs of New York City (New York, Kings, Queens, Bronx
 
 Four counties (Cass, Clay, Jackson and Platte) overlap the municipality of Kansas City, Mo. The cases and deaths that we show for these four counties are only for the portions exclusive of Kansas City. Cases and deaths for Kansas City are reported as their own line.
 
-* Joplin, Mo.
+* Alameda, Calif.
 
-Joplin is reported separately from Jasper and Newton Counties. 
+Counts for Alameda County include cases and deaths from Berkeley and the Grand Princess cruise ship.
 
 * Chicago
 
