@@ -105,6 +105,8 @@ If you use this data, please let us know at covid-data@nytimes.com and indicate 
 
 See our [LICENSE](LICENSE) for the full terms of use for this data.
 
+This license is co-extensive with the Creative Commons Attribution-NonCommercial 4.0 International license, and licensees should refer to that license ([CC BY-NC](https://creativecommons.org/licenses/by-nc/4.0/legalcode)) if they have questions about the scope of the license.
+
 
 ## Contact Us
 
