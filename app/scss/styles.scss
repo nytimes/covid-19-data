@@ -1,0 +1,36 @@
+@import "./partials/reset";
+
+// Media queries mixin
+
+@mixin respond-at($media) {
+  @media only screen and (min-width: $media) {
+    @content;
+  }
+}
+$bp-xsmall: 600px;
+$bp-small: 780px;
+$bp-med: 1060px;
+$bp-large: 1400px;
+
+// Colors
+body {
+  --background-color: white;
+  --background-color-text: black;
+  --primary-color: black;
+  --primary-light: rgb(226, 226, 226);
+  --primary-dark: grey;
+  --alert: #ff930f;
+  --alert-green: #3dbc12;
+  --alert-green-dark: #2a8e08;
+
+  &.dark-mode {
+    --background-color: white;
+    --background-color-text: black;
+    --primary-color: black;
+    --primary-light: rgb(226, 226, 226);
+    --primary-dark: grey;
+    --alert: #ff930f;
+    --alert-green: #3dbc12;
+    --alert-green-dark: #2a8e08;
+  }
+}
