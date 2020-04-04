@@ -1,0 +1,12 @@
+.cards-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  @supports (display: grid) {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 250px));
+    grid-column-gap: 10px;
+    grid-row-gap: 15px;
+  }
+}

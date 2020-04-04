@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Covid-19 Graphs</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="https://use.typekit.net/pmr7ssp.css" />
   </head>
   <body>
     <header>
@@ -11,13 +13,74 @@
       <h2>View statistics by state</h2>
     </header>
     <section id="chart">
-      <h3>Choose states below to view them in the chart</h3>
+      <h3>Choose a state below to view it in the chart</h3>
 
       <!-- chart -->
     </section>
-    <section id="state-list">
-      <div id="states-container">
-        <!-- add list of states -->
+    <section class="cards-container">
+      <div class="data-card">
+        <details class="data-card__contents" open>
+          <summary class="data-card__header">
+            <h1 class="data-card__data-title">Mississippi</h1>
+          </summary>
+          <div class="data-card__stats-container">
+            <span class="data-card__stats">Total Cases:</span>
+            <span class="data-card__stats data-card__stats--highlighted"
+              >10,000</span
+            >
+          </div>
+          <div class="data-card__stats-container">
+            <span class="data-card__stats">Total Deaths:</span
+            ><span class="data-card__stats data-card__stats--highlighted"
+              >10,000</span
+            >
+          </div>
+          <div class="data-card__stats-container">
+            <span class="data-card__stats">First Case:</span
+            ><span class="data-card__stats data-card__stats--highlighted"
+              >January 1, 2020</span
+            >
+          </div>
+          <div class="data-card__stats-container">
+            <span class="data-card__stats">First Death:</span
+            ><span class="data-card__stats data-card__stats--highlighted"
+              >January 1, 2020</span
+            >
+          </div>
+        </details>
+        <button class="data-card__select-button">View on chart</button>
+      </div>
+      <div class="data-card">
+        <details class="data-card__contents" open>
+          <summary class="data-card__header">
+            <h1 class="data-card__data-title">Mississippi</h1>
+          </summary>
+          <div class="data-card__stats-container">
+            <span class="data-card__stats">Total Cases:</span>
+            <span class="data-card__stats data-card__stats--highlighted"
+              >10,000</span
+            >
+          </div>
+          <div class="data-card__stats-container">
+            <span class="data-card__stats">Total Deaths:</span
+            ><span class="data-card__stats data-card__stats--highlighted"
+              >10,000</span
+            >
+          </div>
+          <div class="data-card__stats-container">
+            <span class="data-card__stats">First Case:</span
+            ><span class="data-card__stats data-card__stats--highlighted"
+              >January 1, 2020</span
+            >
+          </div>
+          <div class="data-card__stats-container">
+            <span class="data-card__stats">First Death:</span
+            ><span class="data-card__stats data-card__stats--highlighted"
+              >January 1, 2020</span
+            >
+          </div>
+        </details>
+        <button class="data-card__select-button">View on chart</button>
       </div>
     </section>
     <footer>
