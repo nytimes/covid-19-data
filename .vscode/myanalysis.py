@@ -16,23 +16,6 @@ population_city_density[['city', 'state']] = population_city_density.citystate.s
 
 population_state_density = pd.read_csv('state_density.csv')
 population_state_density = population_state_density.rename(columns={'State': 'state', 'Density': 'density', 'Pop': 'population', 'LandArea': 'area'})
-interesting = [
-    ['New York', 'New York City'],
-    ['New York', 'New York'],
-    ['New Jersey', 'Bergen'],
-    ['New Jersey', 'Newark'],
-    ['New Jersey', 'Jersey City'],
-    ['Washington', 'King'],
-    ['Washington', 'Seattle'],
-    ['Washington', 'Bellevue'],
-    ['Washington', 'Snohomish'],
-    ['California', 'Los Angeles'],
-    ['Califorina', 'San Francisco'],
-    ['Illinois', 'Chicago'],
-    ['Ohio', 'Cuyahoga'],
-    ['Louisiana', 'Orleans'],
-    ['Louisiana', 'New Orleans']
-]
 
 county_cities = [
     ['New York', 'New York City', ['New York']],
@@ -43,7 +26,6 @@ county_cities = [
     ['Louisiana', 'Orleans', ['New Orleans']]
 ]
 
-interesting_places = pd.DataFrame(interesting, columns = ['state', 'city'])
 county_cities_map = pd.DataFrame(county_cities, columns = ['state', 'county', 'cities'])
 
 def plottotalcases(state, county = 'all'):
