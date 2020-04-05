@@ -7,16 +7,15 @@ import numpy as np
 
 
 # %%
-state_cov_data = pd.read_csv('../us-states.csv')
-county_cov_data = pd.read_csv('../us-counties.csv')
+state_cov_data = pd.read_csv('us-states.csv')
+county_cov_data = pd.read_csv('us-counties.csv')
 
-population_city_density = pd.read_csv('../city_density.csv')
+population_city_density = pd.read_csv('city_density.csv')
 population_city_density = population_city_density.rename(columns={'City': 'citystate', 'Population Density (Persons/Square Mile)': 'density', '2016 Population': 'population', 'Land Area (Square Miles)': 'area'} )
 population_city_density[['city', 'state']] = population_city_density.citystate.str.split(', ', expand=True)
 
-population_state_density = pd.read_csv('../state_density.csv')
+population_state_density = pd.read_csv('state_density.csv')
 population_state_density = population_state_density.rename(columns={'State': 'state', 'Density': 'density', 'Pop': 'population', 'LandArea': 'area'})
-
 interesting = [
     ['New York', 'New York City'],
     ['New York', 'New York'],
@@ -32,13 +31,16 @@ interesting = [
     ['Illinois', 'Chicago'],
     ['Ohio', 'Cuyahoga'],
     ['Louisiana', 'Orleans'],
+    ['Louisiana', 'New Orleans']
 ]
 
 county_cities = [
     ['New York', 'New York City', ['New York']],
     ['New Jersey', 'Bergen', ['Newark', 'Jersey City']],
     ['Washington', 'King', ['Bellevue', 'Seattle']],
-    ['California', 'Los Angeles', ['Los Angeles']]
+    ['California', 'Los Angeles', ['Los Angeles']],
+    ['Illinois', 'Cook', ['Chicago']],
+    ['Louisiana', 'Orleans', ['New Orleans']]
 ]
 
 interesting_places = pd.DataFrame(interesting, columns = ['state', 'city'])
@@ -69,7 +71,7 @@ ax.set_title('Total state cases with starting case count = ' + str(starting_case
 ax.set_xlabel('Days since hitting ' + str(starting_cases) + ' cases')
 ax.set_ylabel('Cases')
 
-for p in interesting_places.itertuples():
+for p in county_cities_map.itertuples():
     plottotalcases(p.state)
 
 ax.legend()
@@ -79,12 +81,12 @@ ax.legend()
 starting_cases = 200
 fig = plt.figure(figsize=(14,10))
 ax = fig.add_axes([0,0,1,1])
-ax.set_title('Total city cases with starting case count = ' + str(starting_cases))
+ax.set_title('Total county cases with starting case count = ' + str(starting_cases))
 ax.set_xlabel('Days since hitting ' + str(starting_cases) + ' cases')
 ax.set_ylabel('Cases')
 
-for p in interesting_places.itertuples():
-    plottotalcases(p.state, p.city)
+for p in county_cities_map.itertuples():
+    plottotalcases(p.state, p.county)
 
 ax.legend()
 
@@ -109,7 +111,7 @@ def stateplotpercapita(state):
             ax.set_ylim(0, max(data['cases'].max(), ax.get_ylim()[1]))
             ax.plot(data_asarray, label=state)
 
-for p in interesting_places.itertuples():
+for p in county_cities_map.itertuples():
     stateplotpercapita(p.state)
 
 ax.legend()
@@ -135,7 +137,7 @@ def stateplotbydensity(state):
             ax.set_ylim(0, max(data['cases'].max(), ax.get_ylim()[1]))
             ax.plot(data_asarray, label=state)
 
-for p in interesting_places.itertuples():
+for p in county_cities_map.itertuples():
     stateplotpercapita(p.state)
 
 ax.legend()
@@ -150,24 +152,25 @@ ax.set_ylabel('Cases per capita')
 ax.set_ylim(0, 0.0001)
 
 def cityplotbydensity(state, city):
-    county = city in county_cities_map[county_cities_map.state == 'Washington'].cities.values[0]
+    county = 'not found'
+    for x in county_cities_map.itertuples():
+        if city in x.cities and state == x.state:
+            county = x.county
 
-
-    data = county_cov_data[county_cov_data.county == city][['date', 'cases']]
+    data = county_cov_data[county_cov_data.county == county][['date', 'cases']]
     data = data[data.cases >= starting_cases]
     city_density = population_city_density[population_city_density.state == state][population_city_density.city == city]
     if (len(city_density)):
-        print('found ' + city + ', ' + state)
         data.cases = data.cases / city_density.density.values[0]
-        print(data.cases.head())
         if len(data['cases']):
             data_asarray = data.cases.values
             ax.set_xlim(0, max(data_asarray.size, ax.get_xlim()[1]))
             ax.set_ylim(0, max(data['cases'].max(), ax.get_ylim()[1]))
             ax.plot(data_asarray, label=city + ', ' + state)
 
-for p in interesting_places.itertuples():
-    cityplotbydensity(p.state, p.city)
+for p in county_cities_map.itertuples():
+    for c in p.cities:
+        cityplotbydensity(p.state, c)
 
 ax.legend()
 
