@@ -21,6 +21,7 @@ county_cities = [
     ['New York', 'New York City', ['New York']],
     ['New Jersey', 'Bergen', ['Newark', 'Jersey City']],
     ['Washington', 'King', ['Bellevue', 'Seattle']],
+    ['Washington', 'Snohomish', ['Everett']],
     ['California', 'Los Angeles', ['Los Angeles']],
     ['Illinois', 'Cook', ['Chicago']],
     ['Louisiana', 'Orleans', ['New Orleans']],
@@ -28,6 +29,7 @@ county_cities = [
 ]
 
 county_cities_map = pd.DataFrame(county_cities, columns = ['state', 'county', 'cities'])
+states = county_cities_map.state
 
 def plottotalcases(state, county = 'all'):
     if county == 'all':
@@ -54,8 +56,8 @@ ax.set_title('Total state cases with starting case count = ' + str(starting_case
 ax.set_xlabel('Days since hitting ' + str(starting_cases) + ' cases')
 ax.set_ylabel('Cases')
 
-for p in county_cities_map.itertuples():
-    plottotalcases(p.state)
+for s in states.unique():
+    plottotalcases(s)
 
 ax.legend()
 
@@ -94,8 +96,8 @@ def stateplotpercapita(state):
             ax.set_ylim(0, max(data['cases'].max(), ax.get_ylim()[1]))
             ax.plot(data_asarray, label=state)
 
-for p in county_cities_map.itertuples():
-    stateplotpercapita(p.state)
+for s in states.unique():
+    stateplotpercapita(s)
 
 ax.legend()
 
@@ -120,8 +122,8 @@ def stateplotbydensity(state):
             ax.set_ylim(0, max(data['cases'].max(), ax.get_ylim()[1]))
             ax.plot(data_asarray, label=state)
 
-for p in county_cities_map.itertuples():
-    stateplotpercapita(p.state)
+for s in states.unique():
+    stateplotpercapita(s)
 
 ax.legend()
 
@@ -156,44 +158,3 @@ for p in county_cities_map.itertuples():
         cityplotbydensity(p.state, c)
 
 ax.legend()
-
-# %%
-# def doplotbydate(fulldf, date, state):
-#     statedata = fulldf[fulldf.state == state][['date', 'cases']]
-#     data = data[data.date >= date]
-#     doplot(data, state)
-
-# def doplotbymincases(fulldf, min, state):
-#     data = fulldf[fulldf.state == state][['date', 'cases']]
-#     data = data[data.cases >= min]
-#     data.sort_values('cases', 0, True, True)
-#     doplot(data, state)
-
-# def doplot(fulldf, state):
-#     plt.figure(figsize=(14,10))
-#     data_asarray = fulldf.cases.values
-#     plt.yscale('log')
-#     plt.xlabel('date')
-#     plt.ylabel('cases')
-#     plt.plot(data_asarray, label=state)
-#     plt.legend()
-
-
-# # %%
-# date = '2020-03-15'
-# minimum_cases = 100
-# doplotbymincases(data, minimum_cases, 'New York')
-# doplotbymincases(data, minimum_cases, 'New Jersey')
-# doplotbymincases(data, minimum_cases, 'Washington')
-# doplotbymincases(data, minimum_cases, 'Ohio')
-# doplotbymincases(data, minimum_cases, 'California')
-# doplotbymincases(data, minimum_cases, 'Illinois')
-# doplotbymincases(data, minimum_cases, 'Michigan')
-# doplotbymincases(data, minimum_cases, 'Florida')
-# doplotbymincases(data, minimum_cases, 'Oregon')
-# doplotbymincases(data, minimum_cases, 'Rhode Island')
-
-
-# %%
-
-
