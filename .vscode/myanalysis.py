@@ -7,16 +7,49 @@ import numpy as np
 
 
 # %%
-statedata = pd.read_csv('../us-states.csv')
-countydata = pd.read_csv('../us-counties.csv')
+state_cov_data = pd.read_csv('../us-states.csv')
+county_cov_data = pd.read_csv('../us-counties.csv')
 
-# %%
-def doplottotalcases(state, county = 'all'):
+population_city_density = pd.read_csv('../city_density.csv')
+population_city_density = population_city_density.rename(columns={'City': 'citystate', 'Population Density (Persons/Square Mile)': 'density', '2016 Population': 'population', 'Land Area (Square Miles)': 'area'} )
+population_city_density[['city', 'state']] = population_city_density.citystate.str.split(', ', expand=True)
+
+population_state_density = pd.read_csv('../state_density.csv')
+population_state_density = population_state_density.rename(columns={'State': 'state', 'Density': 'density', 'Pop': 'population', 'LandArea': 'area'})
+
+interesting = [
+    ['New York', 'New York City'],
+    ['New York', 'New York'],
+    ['New Jersey', 'Bergen'],
+    ['New Jersey', 'Newark'],
+    ['New Jersey', 'Jersey City'],
+    ['Washington', 'King'],
+    ['Washington', 'Seattle'],
+    ['Washington', 'Bellevue'],
+    ['Washington', 'Snohomish'],
+    ['California', 'Los Angeles'],
+    ['Califorina', 'San Francisco'],
+    ['Illinois', 'Chicago'],
+    ['Ohio', 'Cuyahoga'],
+    ['Louisiana', 'Orleans'],
+]
+
+county_cities = [
+    ['New York', 'New York City', ['New York']],
+    ['New Jersey', 'Bergen', ['Newark', 'Jersey City']],
+    ['Washington', 'King', ['Bellevue', 'Seattle']],
+    ['California', 'Los Angeles', ['Los Angeles']]
+]
+
+interesting_places = pd.DataFrame(interesting, columns = ['state', 'city'])
+county_cities_map = pd.DataFrame(county_cities, columns = ['state', 'county', 'cities'])
+
+def plottotalcases(state, county = 'all'):
     if county == 'all':
-        data = statedata[statedata.state == state][['date', 'cases']]
+        data = state_cov_data[state_cov_data.state == state][['date', 'cases']]
     else:
-        data = countydata[countydata.state == state][['date', 'cases', 'county']]
-        data = data[countydata.county == county][['date', 'cases']]
+        data = county_cov_data[county_cov_data.state == state][['date', 'cases', 'county']]
+        data = data[county_cov_data.county == county][['date', 'cases']]
 
     data = data[data.cases >= starting_cases]
     if len(data['cases']):
@@ -28,30 +61,16 @@ def doplottotalcases(state, county = 'all'):
         else:
             ax.plot(data_asarray, label=county + ',  ' + state)
 
-
 # %%
 starting_cases = 1000
 fig = plt.figure(figsize=(14,10))
 ax = fig.add_axes([0,0,1,1])
-ax.set_title('Growth of cases with starting case count = ' + str(starting_cases))
-ax.set_xlabel('Days since hitting starting case count')
+ax.set_title('Total state cases with starting case count = ' + str(starting_cases))
+ax.set_xlabel('Days since hitting ' + str(starting_cases) + ' cases')
 ax.set_ylabel('Cases')
 
-interesting_states = pd.Series([
-    'Washington',
-    'New York',
-    'Florida',
-    'California',
-    'New Jersey',
-    'Ohio',
-    'Florida',
-    'Oregon',
-    'Michigan',
-    'Illinois'
-    ])
-
-for s in np.sort(statedata[statedata.state.isin(interesting_states)].state.unique()):
-    doplottotalcases(s)
+for p in interesting_places.itertuples():
+    plottotalcases(p.state)
 
 ax.legend()
 
@@ -60,23 +79,12 @@ ax.legend()
 starting_cases = 200
 fig = plt.figure(figsize=(14,10))
 ax = fig.add_axes([0,0,1,1])
-ax.set_title('Growth of cases with starting case count = ' + str(starting_cases))
-ax.set_xlabel('Days since hitting starting case count')
+ax.set_title('Total city cases with starting case count = ' + str(starting_cases))
+ax.set_xlabel('Days since hitting ' + str(starting_cases) + ' cases')
 ax.set_ylabel('Cases')
 
-doplottotalcases('New York', 'New York City')
-doplottotalcases('New York', 'Rockland')
-doplottotalcases('New York', 'Suffolk')
-doplottotalcases('New York', 'Westchester')
-doplottotalcases('California', 'Los Angeles')
-doplottotalcases('Louisiana', 'Orleans')
-doplottotalcases('California', 'San Francisco')
-doplottotalcases('Washington', 'King')
-doplottotalcases('Washington', 'Snohomish')
-doplottotalcases('Illinois', 'Cook')
-doplottotalcases('Ohio', 'Cuyahoga')
-doplottotalcases('New Jersey', 'Bergen')
-
+for p in interesting_places.itertuples():
+    plottotalcases(p.state, p.city)
 
 ax.legend()
 
@@ -84,38 +92,86 @@ ax.legend()
 starting_cases = 1000
 fig = plt.figure(figsize=(14,10))
 ax = fig.add_axes([0,0,1,1])
-ax.set_title('Growth per capita with starting case count = ' + str(starting_cases))
-ax.set_xlabel('Days since hitting starting case count')
+ax.set_title('State growth per capita with starting case count = ' + str(starting_cases))
+ax.set_xlabel('Days since hitting ' + str(starting_cases) + ' cases')
 ax.set_ylabel('Cases per capita')
-ax.set_ylim(0, 0.000001)
-def doplotpercapita(fulldata, state, population):
-    data = fulldata[fulldata.state == state][['date', 'cases']]
-    data = data[data.cases >= starting_cases]
-    data.cases = data.cases / population
-    if len(data['cases']):
-        data_asarray = data.cases.values
-        ax.set_xlim(0, max(data_asarray.size, ax.get_xlim()[1]))
-        ax.set_ylim(0, max(data['cases'].max(), ax.get_ylim()[1]))
-        ax.plot(data_asarray, label=state)
+ax.set_ylim(0, 0.0001)
 
-doplotpercapita(statedata, 'New York', 19453561)
-doplotpercapita(statedata, 'Washington', 7614893)
-doplotpercapita(statedata, 'New Jersey', 8882190)
-doplotpercapita(statedata, 'Colorado', 5758736)
-doplotpercapita(statedata, 'California', 39512223)
-doplotpercapita(statedata, 'Oregon', 4217737)
-doplotpercapita(statedata, 'Louisiana', 4648794)
-doplotpercapita(statedata, 'Florida', 21477737)
-doplotpercapita(statedata, 'Illinois', 12671821)
-doplotpercapita(statedata, 'Michigan', 9986857)
-doplotpercapita(statedata, 'Ohio',11689100)
+def stateplotpercapita(state):
+    data = state_cov_data[state_cov_data.state == state][['date', 'cases']]
+    data = data[data.cases >= starting_cases]
+    state_population = population_state_density[population_state_density.state == state]
+    if len(state_population):
+       data.cases = data.cases / state_population.population.values[0]
+       if len(data['cases']):
+            data_asarray = data.cases.values
+            ax.set_xlim(0, max(data_asarray.size, ax.get_xlim()[1]))
+            ax.set_ylim(0, max(data['cases'].max(), ax.get_ylim()[1]))
+            ax.plot(data_asarray, label=state)
+
+for p in interesting_places.itertuples():
+    stateplotpercapita(p.state)
 
 ax.legend()
 
+# %%
+starting_cases = 200
+fig = plt.figure(figsize=(14,10))
+ax = fig.add_axes([0,0,1,1])
+ax.set_title('State cases by population density starting case count = ' + str(starting_cases))
+ax.set_xlabel('Days since hitting ' + str(starting_cases) + ' cases')
+ax.set_ylabel('Cases by state population density')
+ax.set_ylim(0, 0.0001)
+
+def stateplotbydensity(state):
+    data = state_cov_data[state_cov_data.state == state][['date', 'cases']]
+    data = data[data.cases >= starting_cases]
+    state_density = population_state_density[population_state_density.state == state]
+    if len(state_density):
+        data.cases = data.cases / state_density.density.values[0]
+        if len(data['cases']):
+            data_asarray = data.cases.values
+            ax.set_xlim(0, max(data_asarray.size, ax.get_xlim()[1]))
+            ax.set_ylim(0, max(data['cases'].max(), ax.get_ylim()[1]))
+            ax.plot(data_asarray, label=state)
+
+for p in interesting_places.itertuples():
+    stateplotpercapita(p.state)
+
+ax.legend()
+
+# %%
+starting_cases = 20
+fig = plt.figure(figsize=(14,10))
+ax = fig.add_axes([0,0,1,1])
+ax.set_title('City growth by population density starting case count = ' + str(starting_cases))
+ax.set_xlabel('Days since hitting ' + str(starting_cases) + ' cases')
+ax.set_ylabel('Cases per capita')
+ax.set_ylim(0, 0.0001)
+
+def cityplotbydensity(state, city):
+    county = city in county_cities_map[county_cities_map.state == 'Washington'].cities.values[0]
 
 
+    data = county_cov_data[county_cov_data.county == city][['date', 'cases']]
+    data = data[data.cases >= starting_cases]
+    city_density = population_city_density[population_city_density.state == state][population_city_density.city == city]
+    if (len(city_density)):
+        print('found ' + city + ', ' + state)
+        data.cases = data.cases / city_density.density.values[0]
+        print(data.cases.head())
+        if len(data['cases']):
+            data_asarray = data.cases.values
+            ax.set_xlim(0, max(data_asarray.size, ax.get_xlim()[1]))
+            ax.set_ylim(0, max(data['cases'].max(), ax.get_ylim()[1]))
+            ax.plot(data_asarray, label=city + ', ' + state)
 
-# # %%
+for p in interesting_places.itertuples():
+    cityplotbydensity(p.state, p.city)
+
+ax.legend()
+
+# %%
 # def doplotbydate(fulldf, date, state):
 #     statedata = fulldf[fulldf.state == state][['date', 'cases']]
 #     data = data[data.date >= date]
