@@ -90,7 +90,11 @@ Counts for Alameda County include cases and deaths from Berkeley and the Grand P
 
 * Chicago
 
-All cases and deaths for Chicago are reported as part of Cook County. 
+All cases and deaths for Chicago are reported as part of Cook County.
+
+* Guam
+
+Counts for Guam include cases reported from the USS Theodore Roosevelt.
 
 
 ## License and Attribution
