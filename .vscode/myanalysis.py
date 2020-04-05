@@ -149,7 +149,7 @@ def cityplotbydensity(state, city):
             data_asarray = data.cases.values
             ax.set_xlim(0, max(data_asarray.size, ax.get_xlim()[1]))
             ax.set_ylim(0, max(data['cases'].max(), ax.get_ylim()[1]))
-            ax.plot(data_asarray, label=city + ', ' + state)
+            ax.plot(data_asarray, label=city + ', ' + state + ' (' + str(city_density.density.values[0]) + ' people/mi^2)')
 
 for p in county_cities_map.itertuples():
     for c in p.cities:
