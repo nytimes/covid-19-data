@@ -23,7 +23,8 @@ county_cities = [
     ['Washington', 'King', ['Bellevue', 'Seattle']],
     ['California', 'Los Angeles', ['Los Angeles']],
     ['Illinois', 'Cook', ['Chicago']],
-    ['Louisiana', 'Orleans', ['New Orleans']]
+    ['Louisiana', 'Orleans', ['New Orleans']],
+    ['Ohio', 'Cuyahoga', ['Cleveland']]
 ]
 
 county_cities_map = pd.DataFrame(county_cities, columns = ['state', 'county', 'cities'])
@@ -130,7 +131,7 @@ fig = plt.figure(figsize=(14,10))
 ax = fig.add_axes([0,0,1,1])
 ax.set_title('City growth by population density starting case count = ' + str(starting_cases))
 ax.set_xlabel('Days since hitting ' + str(starting_cases) + ' cases')
-ax.set_ylabel('Cases per capita')
+ax.set_ylabel('Cases per population density value')
 ax.set_ylim(0, 0.0001)
 
 def cityplotbydensity(state, city):
