@@ -1,6 +1,7 @@
 # To add a new cell, type '# %%'
 # To add a new markdown cell, type '# %% [markdown]'
-# %%
+#****************************************************************
+#  %%
 import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
@@ -9,14 +10,16 @@ import bokeh.models as bmod
 from bokeh.palettes import Dark2_5 as palette
 import itertools
 
-# %% [markdown]
+#****************************************************************
+#  %% [markdown]
 # # Setup
 # 1. Read in the covid-19-data from nytimes for state and county (https://github.com/nytimes/covid-19-data)
 # 2. Pull in a city density table
 # 3. Pull in a state density table
 # 4. Identify list of states, counties and cities to graph
 
-# %%
+#****************************************************************
+#  %%
 state_cov_data = pd.read_csv('us-states.csv')
 county_cov_data = pd.read_csv('us-counties.csv')
 
@@ -49,10 +52,12 @@ county_cities_map = pd.DataFrame(county_cities, columns = ['state', 'county', 'c
 states = county_cities_map.state
 
 
-# %% [markdown]
+#****************************************************************
+#  %% [markdown]
 # # State Totals
 # The total number of cases for each interesting state starting with a minimum number of cases
-# %%
+#****************************************************************
+#  %%
 def plottotalcases(state, county = 'all'):
     if county == 'all':
         data = state_cov_data[state_cov_data.state == state][['date', 'cases']]
@@ -70,7 +75,8 @@ def plottotalcases(state, county = 'all'):
         else:
             ax.plot(data_asarray, label=county + ',  ' + state)
 
-# %%
+#****************************************************************
+#  %%
 starting_cases = 1000
 fig = plt.figure(figsize=(14,10))
 ax = fig.add_axes([0,0,1,1])
@@ -83,7 +89,8 @@ for s in states.unique():
 
 ax.legend()
 
-# %%
+#****************************************************************
+#  %%
 starting_cases = 1000
 
 # output to static HTML file
@@ -108,7 +115,7 @@ def plottotalcases_bokeh(state, county = 'all', color = 'black'):
         if (county == 'all'):
             fig_bokeh.line(data.cases.reset_index().index.tolist(), data_asarray, color=next(colors), line_width=2, legend_label=state)
         else:
-            fig_bokeh.line(data_asarray, color=next(colors), line_width=2, legend_label=county + ',  ' + state)
+            fig_bokeh.line(data.cases.reset_index().index.tolist(), data_asarray, color=next(colors), line_width=2, legend_label=county + ',  ' + state)
 
 # show the results
 for s in states.unique():
@@ -116,7 +123,8 @@ for s in states.unique():
 
 bplt.show(fig_bokeh)
 
-# %% [markdown]
+#****************************************************************
+#  %% [markdown]
 # # County Total cases by state county
 # The total number of cases for each interesting county starting with a minimum number of cases
 
@@ -132,7 +140,8 @@ for p in county_cities_map.itertuples():
 
 ax.legend()
 
-# %% [markdown]
+#****************************************************************
+#  %% [markdown]
 # # State per capita
 # To better get a sense of how different states may be handling the virus outbreak, you can
 # adjust the graphs to account for the number of people who live in each state. A state that has
@@ -143,7 +152,8 @@ ax.legend()
 # This graph indicates that New York, New Jersey, and Louisiana, are getting far more cases per day
 # than the other states, regardless of how many people live in each state.
 
-# %%
+#****************************************************************
+#  %%
 starting_cases = 1000
 fig = plt.figure(figsize=(14,10))
 ax = fig.add_axes([0,0,1,1])
@@ -169,7 +179,8 @@ for s in states.unique():
 
 ax.legend()
 
-# %% [markdown]
+#****************************************************************
+#  %% [markdown]
 # # State normalized by population density
 #
 # Each state has a population and an area in which this population lives. *Pretend* for a moment that Texas only has 100,000
@@ -182,7 +193,8 @@ ax.legend()
 # This graph removes this consideration from the comparison between states. As you can see, New Jersey is doing far worse than
 # than Ohio, Washington and California.
 
-# %%
+#****************************************************************
+#  %%
 starting_cases = 200
 fig = plt.figure(figsize=(14,10))
 ax = fig.add_axes([0,0,1,1])
@@ -208,7 +220,8 @@ for s in states.unique():
 
 ax.legend()
 
-# %% [markdown]
+#****************************************************************
+#  %% [markdown]
 # # Cities normalized by population density
 # Ohhhh, but I hear you say... Well the area of California is far larger than than of New York. Therefore, the population
 # density of California can EASILY be lower than that of New York, so this will still skew the results. In addition, each
@@ -222,7 +235,8 @@ ax.legend()
 # the number of virus cases is growing there far faster than even New York and New Orleans (which both suck!). I'd be much more worried if I lived there.
 # Note that Cleveland and Seattle are pretty flat, which is really good.
 
-# %%
+#****************************************************************
+#  %%
 starting_cases = 20
 fig = plt.figure(figsize=(14,10))
 ax = fig.add_axes([0,0,1,1])
@@ -255,4 +269,5 @@ for p in county_cities_map.itertuples():
 ax.legend()
 
 
-# %%
+#****************************************************************
+#  %%
