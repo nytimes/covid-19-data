@@ -4,7 +4,10 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
-
+import bokeh.plotting as bplt
+import bokeh.models as bmod
+from bokeh.palettes import Dark2_5 as palette
+import itertools
 
 # %% [markdown]
 # # Setup
@@ -45,6 +48,7 @@ county_cities = [
 county_cities_map = pd.DataFrame(county_cities, columns = ['state', 'county', 'cities'])
 states = county_cities_map.state
 
+
 # %% [markdown]
 # # State Totals
 # The total number of cases for each interesting state starting with a minimum number of cases
@@ -80,6 +84,37 @@ for s in states.unique():
 ax.legend()
 
 # %%
+starting_cases = 1000
+
+# output to static HTML file
+bplt.output_notebook()
+
+# create a new plot with a title and axis labels
+fig_bokeh = bplt.figure(title='Total state cases with starting case count = ' + str(starting_cases), x_axis_label='Days since hitting ' + str(starting_cases) + ' cases', y_axis_label='Cases', plot_width=1000, plot_height=1000)
+colors = itertools.cycle(palette)
+
+def plottotalcases_bokeh(state, county = 'all', color = 'black'):
+    if county == 'all':
+        data = state_cov_data[state_cov_data.state == state][['date', 'cases']]
+    else:
+        data = county_cov_data[county_cov_data.state == state][['date', 'cases', 'county']]
+        data = data[county_cov_data.county == county][['date', 'cases']]
+
+    data = data[data.cases >= starting_cases]
+    if len(data['cases']):
+        data_asarray = data.cases.values
+        fig_bokeh.x_range = bmod.Range1d(0, data_asarray.size)
+        fig_bokeh.y_range = bmod.Range1d(0, data['cases'].max())
+        if (county == 'all'):
+            fig_bokeh.line(data.cases.reset_index().index.tolist(), data_asarray, color=next(colors), line_width=2, legend_label=state)
+        else:
+            fig_bokeh.line(data_asarray, color=next(colors), line_width=2, legend_label=county + ',  ' + state)
+
+# show the results
+for s in states.unique():
+    plottotalcases_bokeh(s)
+
+bplt.show(fig_bokeh)
 
 # %% [markdown]
 # # County Total cases by state county
