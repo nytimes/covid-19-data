@@ -3,6 +3,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  padding: 2em 1em;
   @supports (display: grid) {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 250px));

@@ -6,83 +6,99 @@
     <title>Covid-19 Graphs</title>
     <link rel="stylesheet" href="./css/styles.css" />
     <link rel="stylesheet" href="https://use.typekit.net/pmr7ssp.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
   </head>
   <body>
     <header>
       <h1>Covid-19 Graphs</h1>
       <h2>View statistics by state</h2>
     </header>
-    <section id="chart">
+    <section id="chart" class="chart">
       <h3>Choose a state below to view it in the chart</h3>
-
+      <div class="chart__data-selector">
+        <h4>Select Data To View:</h4>
+        <button
+          value="cases"
+          id="cases-select"
+          class="selected-item js-data-select-button selected-item--selected"
+        >
+          Total Daily Cases
+          <?xml version="1.0" encoding="utf-8"?>
+        </button>
+        <button
+          value="deaths"
+          id="deaths-select"
+          class="selected-item js-data-select-button"
+        >
+          Total Daily Deaths
+          <?xml version="1.0" encoding="utf-8"?>
+        </button>
+        <button
+          value="newCases"
+          id="newCases-select"
+          class="selected-item js-data-select-button"
+        >
+          Daily New Cases
+          <?xml version="1.0" encoding="utf-8"?>
+        </button>
+        <button
+          value="newDeaths"
+          id="newDeaths-select"
+          class="selected-item js-data-select-button"
+        >
+          Daily New Deaths
+          <?xml version="1.0" encoding="utf-8"?>
+        </button>
+      </div>
+      <div class="chart-container">
+        <canvas id="dataChart"></canvas>
+        <div class="chart__selected-items">
+          <button
+            value="all"
+            id="remove-item"
+            class="selected-item js-select-button"
+          >
+            View All States
+            <?xml version="1.0" encoding="utf-8"?>
+          </button>
+          <button
+            value="clear"
+            id="remove-item"
+            class="selected-item js-clear-button"
+          >
+            Clear Chart
+            <?xml version="1.0" encoding="utf-8"?>
+            <svg
+              version="1.1"
+              id="Layer_1"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              x="0px"
+              y="0px"
+              viewBox="0 0 10 10"
+              style="enable-background: new 0 0 10 10;"
+              xml:space="preserve"
+              height="1em"
+            >
+              <style type="text/css">
+                .st0 {
+                  fill: currentColor;
+                }
+              </style>
+              <path
+                class="st0"
+                d="M5,0C2.3,0,0.1,2.3,0.1,5c0,2.7,2.2,4.9,4.9,4.9S9.9,7.7,9.9,5C9.9,2.3,7.7,0,5,0z M8.2,7.4L7.4,8.2L4.9,5.8
+          L2.5,8.2L1.7,7.4L4.1,5L1.7,2.6l0.8-0.8l2.4,2.4l2.4-2.4l0.8,0.8L5.8,5L8.2,7.4z"
+              />
+            </svg>
+          </button>
+        </div>
+        <div class="chart__selected-items" id="chartSelected"></div>
+      </div>
       <!-- chart -->
     </section>
-    <section class="cards-container">
-      <div class="data-card">
-        <details class="data-card__contents" open>
-          <summary class="data-card__header">
-            <h1 class="data-card__data-title">Mississippi</h1>
-          </summary>
-          <div class="data-card__stats-container">
-            <span class="data-card__stats">Total Cases:</span>
-            <span class="data-card__stats data-card__stats--highlighted"
-              >10,000</span
-            >
-          </div>
-          <div class="data-card__stats-container">
-            <span class="data-card__stats">Total Deaths:</span
-            ><span class="data-card__stats data-card__stats--highlighted"
-              >10,000</span
-            >
-          </div>
-          <div class="data-card__stats-container">
-            <span class="data-card__stats">First Case:</span
-            ><span class="data-card__stats data-card__stats--highlighted"
-              >January 1, 2020</span
-            >
-          </div>
-          <div class="data-card__stats-container">
-            <span class="data-card__stats">First Death:</span
-            ><span class="data-card__stats data-card__stats--highlighted"
-              >January 1, 2020</span
-            >
-          </div>
-        </details>
-        <button class="data-card__select-button">View on chart</button>
-      </div>
-      <div class="data-card">
-        <details class="data-card__contents" open>
-          <summary class="data-card__header">
-            <h1 class="data-card__data-title">Mississippi</h1>
-          </summary>
-          <div class="data-card__stats-container">
-            <span class="data-card__stats">Total Cases:</span>
-            <span class="data-card__stats data-card__stats--highlighted"
-              >10,000</span
-            >
-          </div>
-          <div class="data-card__stats-container">
-            <span class="data-card__stats">Total Deaths:</span
-            ><span class="data-card__stats data-card__stats--highlighted"
-              >10,000</span
-            >
-          </div>
-          <div class="data-card__stats-container">
-            <span class="data-card__stats">First Case:</span
-            ><span class="data-card__stats data-card__stats--highlighted"
-              >January 1, 2020</span
-            >
-          </div>
-          <div class="data-card__stats-container">
-            <span class="data-card__stats">First Death:</span
-            ><span class="data-card__stats data-card__stats--highlighted"
-              >January 1, 2020</span
-            >
-          </div>
-        </details>
-        <button class="data-card__select-button">View on chart</button>
-      </div>
-    </section>
+    <section id="cards-container" class="cards-container"></section>
     <footer>
       <!-- data from ny times -->
       <!-- how to contribute w/ github icon -->

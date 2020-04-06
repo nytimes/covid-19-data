@@ -9,7 +9,7 @@
   background-color: var(--card-background);
   margin: 5px;
   min-width: 200px;
-  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.25);
 
   &__contents {
     display: flex;
@@ -88,8 +88,9 @@
 
   &__stats {
     font-size: 0.6em;
-    width: 45%;
+    width: 35%;
     text-align: left;
+    flex: 1 1 auto;
   }
 
   &__stats--highlighted {

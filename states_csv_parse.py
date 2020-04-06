@@ -8,12 +8,20 @@ def states_parse():
         csvData = csv.reader(csvfile, delimiter=",", quotechar="|")
 
         jsonData = {
-            "national": {"cases": 0, "deaths": 0, "firstCase": "", "firstDeath": ""}
+            "national": {
+                "cases": 0,
+                "deaths": 0,
+                "firstCase": "",
+                "firstDeath": "",
+                "lastDate": "",
+            },
+            "states": {},
         }
         # iterate through csv
         for row in csvData:  # iterate through the rows of the csv
             date = row[0]
             if date != "date":  # check to make sure it's not the first row
+                jsonData["national"]["lastDate"] = date
                 state = row[1]
                 fips = int(row[2])
                 cases = int(row[3])
@@ -24,12 +32,14 @@ def states_parse():
                 if jsonData["national"]["deaths"] == 0 and deaths != 0:
                     jsonData["national"]["firstDeath"] = date
 
-                if state in jsonData:  # if the item already exists in the dict
-                    dataLength = len(jsonData[state]["data"])
-                    previousData = jsonData[state]["data"][dataLength - 1]
+                if (
+                    state in jsonData["states"]
+                ):  # if the item already exists in the dict
+                    dataLength = len(jsonData["states"][state]["data"])
+                    previousData = jsonData["states"][state]["data"][dataLength - 1]
                     newCases = cases - previousData["cases"]
                     newDeaths = deaths - previousData["deaths"]
-                    jsonData[state]["data"].append(
+                    jsonData["states"][state]["data"].append(
                         {
                             "date": date,
                             "cases": cases,
@@ -38,10 +48,13 @@ def states_parse():
                             "newDeaths": newDeaths,
                         }
                     )
-                    jsonData[state]["deaths"] = deaths
-                    jsonData[state]["cases"] = cases
-                    if "firstDeath" not in jsonData[state].keys() and deaths != 0:
-                        jsonData[state]["firstDeath"] = date
+                    jsonData["states"][state]["deaths"] = deaths
+                    jsonData["states"][state]["cases"] = cases
+                    if (
+                        "firstDeath" not in jsonData["states"][state].keys()
+                        and deaths != 0
+                    ):
+                        jsonData["states"][state]["firstDeath"] = date
 
                     jsonData["national"]["cases"] = (
                         jsonData["national"]["cases"] + newCases
@@ -52,7 +65,7 @@ def states_parse():
 
                 else:  # if the item doesn't exist
                     if deaths != 0:  # if there are deaths in the first record
-                        jsonData[state] = {
+                        jsonData["states"][state] = {
                             "name": state,
                             "fips": fips,
                             "firstCase": date,
@@ -76,7 +89,7 @@ def states_parse():
                             jsonData["national"]["deaths"] + deaths
                         )
                     else:  # if there are no deaths in the first record
-                        jsonData[state] = {
+                        jsonData["states"][state] = {
                             "name": state,
                             "fips": fips,
                             "firstCase": date,
