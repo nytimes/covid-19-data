@@ -1,8 +1,12 @@
 #  %%
 import pandas as pd
+import matplotlib as mpl
 import matplotlib.pyplot as plt
 import numpy as np
 from datetime import datetime
+
+mpl.rcParams['lines.linewidth'] = 3.0
+mpl.rcParams['figure.figsize'] = [14,14]
 
 #  %% [markdown]
 # **********************************************************************************************************
@@ -13,7 +17,7 @@ from datetime import datetime
 # 4. Identify list of states, counties and cities to graph
 # **********************************************************************************************************
 #  %%
-state_cov_data = pd.read_csv('us-states.csv')
+state_cov_data = pd.read_csv('./us-states.csv')
 county_cov_data = pd.read_csv('us-counties.csv')
 
 population_city_density = pd.read_csv('city_density.csv')
@@ -44,12 +48,6 @@ county_cities = [
 county_cities_map = pd.DataFrame(county_cities, columns = ['state', 'county', 'cities'])
 states = county_cities_map.state
 
-
-#  %% [markdown]
-# **********************************************************************************************************
-# # State Totals
-# The total number of cases for each interesting state starting with a minimum number of cases
-# **********************************************************************************************************
 #  %%
 def plottotalcases(state, county = 'all'):
     if county == 'all':
@@ -63,19 +61,27 @@ def plottotalcases(state, county = 'all'):
         data_asarray = data.cases.values
         ax.set_xlim(0, max(data_asarray.size, ax.get_xlim()[1]))
         ax.set_ylim(0, max(data['cases'].max(), ax.get_ylim()[1]))
+        ax.set_ylim(0, ax.get_ylim()[1] * 1.01)
+
         if (county == 'all'):
             ax.plot(data_asarray, label=state)
         else:
             ax.plot(data_asarray, label=county + ',  ' + state)
 
 #****************************************************************
-#  %%
+# %% [markdown]
+# **********************************************************************************************************
+# # State Totals
+# The total number of cases for each interesting county starting with a minimum number of cases
+# **********************************************************************************************************
+# %%
 starting_cases = 1000
-fig = plt.figure(figsize=(14,10))
+fig = plt.figure()
 ax = fig.add_axes([0,0,1,1])
 ax.set_title('Total state cases with starting case count = ' + str(starting_cases) + ' Date: ' + datetime.now().strftime('%x'))
 ax.set_xlabel('Days since hitting ' + str(starting_cases) + ' cases')
 ax.set_ylabel('Cases')
+plt.setp(ax.lines)
 
 for s in states.unique():
     plottotalcases(s)
@@ -88,7 +94,7 @@ ax.legend()
 # The total number of cases for each interesting county starting with a minimum number of cases
 # **********************************************************************************************************
 starting_cases = 200
-fig = plt.figure(figsize=(14,10))
+fig = plt.figure()
 ax = fig.add_axes([0,0,1,1])
 ax.set_title('Total county cases with starting case count = ' + str(starting_cases) + ' Date: ' + datetime.now().strftime('%x'))
 ax.set_xlabel('Days since hitting ' + str(starting_cases) + ' cases')
@@ -101,7 +107,7 @@ ax.legend()
 
 #  %% [markdown]
 # **********************************************************************************************************
-# # State per capita
+# # State cases adjusted for population
 # To better get a sense of how different states may be handling the virus outbreak, you can
 # adjust the graphs to account for the number of people who live in each state. A state that has
 # 100,000 people vs 8,000,000 people will obviously look far better with regard to total cases
@@ -113,11 +119,11 @@ ax.legend()
 # **********************************************************************************************************
 #  %%
 starting_cases = 1000
-fig = plt.figure(figsize=(14,10))
+fig = plt.figure()
 ax = fig.add_axes([0,0,1,1])
-ax.set_title('State growth per capita with starting case count = ' + str(starting_cases) + ' Date: ' + datetime.now().strftime('%x'))
+ax.set_title(datetime.now().strftime('%x') + ' State cases adjusted for population\nStarting case count = ' + str(starting_cases))
 ax.set_xlabel('Days since hitting ' + str(starting_cases) + ' cases')
-ax.set_ylabel('Cases per capita')
+ax.set_ylabel('Cases adjusted for state population')
 ax.set_ylim(0, 0.0001)
 
 def stateplotpercapita(state):
@@ -125,12 +131,17 @@ def stateplotpercapita(state):
     data = data[data.cases >= starting_cases]
     state_population = population_state_density[population_state_density.state == state]
     if len(state_population):
-       data.cases = data.cases / state_population.population.values[0]
+       plotdata = data.cases / state_population.population.values[0]
        if len(data['cases']):
-            data_asarray = data.cases.values
+            data_asarray = plotdata.values
             ax.set_xlim(0, max(data_asarray.size, ax.get_xlim()[1]))
-            ax.set_ylim(0, max(data['cases'].max(), ax.get_ylim()[1]))
+            ax.set_ylim(0, max(data_asarray.max(), ax.get_ylim()[1]))
+            ax.set_ylim(0, ax.get_ylim()[1] * 1.01)
+            ax.set_yticklabels([''])
             ax.plot(data_asarray, label=state)
+            lastindex = len(data_asarray) - 1
+            ax.annotate(str(data.cases.max()) + ' cases', xy=(lastindex + .1, data_asarray[lastindex]))
+
 
 for s in states.unique():
     stateplotpercapita(s)
@@ -139,7 +150,7 @@ ax.legend()
 
 #  %% [markdown]
 # **********************************************************************************************************
-# # State normalized by population density
+# # State cases adjusted for population density
 #
 # Each state has a population and an area in which this population lives. *Pretend* for a moment that Texas only has 100,000
 # people total. Also *pretend* that Rhode Island has 100,000 people. However, you also know that the
@@ -153,33 +164,38 @@ ax.legend()
 # **********************************************************************************************************
 #  %%
 starting_cases = 200
-fig = plt.figure(figsize=(14,10))
+fig = plt.figure()
 ax = fig.add_axes([0,0,1,1])
-ax.set_title('State cases by population density starting case count = ' + str(starting_cases) + ' Date: ' + datetime.now().strftime('%x'))
+ax.set_title(datetime.now().strftime('%x') + ' State cases adjusted for population density\nStarting case count = ' + str(starting_cases))
 ax.set_xlabel('Days since hitting ' + str(starting_cases) + ' cases')
-ax.set_ylabel('Cases by state population density')
-ax.set_ylim(0, 0.0001)
+ax.set_ylabel('Cases adjusted for state population density')
+ax.set_ylim(0, 0)
 
 def stateplotbydensity(state):
     data = state_cov_data[state_cov_data.state == state][['date', 'cases']]
     data = data[data.cases >= starting_cases]
     state_density = population_state_density[population_state_density.state == state]
     if len(state_density):
-        data.cases = data.cases / state_density.density.values[0]
+        plotdata = data.cases / state_density.density.values[0]
         if len(data['cases']):
-            data_asarray = data.cases.values
+            data_asarray = plotdata.values
             ax.set_xlim(0, max(data_asarray.size, ax.get_xlim()[1]))
-            ax.set_ylim(0, max(data['cases'].max(), ax.get_ylim()[1]))
+            ax.set_ylim(0, max(data_asarray.max(), ax.get_ylim()[1]))
+            ax.set_ylim(0, ax.get_ylim()[1] * 1.01)
+            ax.set_yticklabels([''])
             ax.plot(data_asarray, label=state)
+            lastindex = len(data_asarray) - 1
+            ax.annotate(str(data.cases.tail(1).values[0]) + ' cases', xy=(lastindex + .1, data_asarray[lastindex]))
+
 
 for s in states.unique():
-    stateplotpercapita(s)
+    stateplotbydensity(s)
 
 ax.legend()
 
 #  %% [markdown]
 # **********************************************************************************************************
-# # Cities normalized by population density
+# # City cases adjusted for population density
 # Ohhhh, but I hear you say... Well the area of California is far larger than than of New York. Therefore, the population
 # density of California can EASILY be lower than that of New York, so this skews the results to make California look better.
 # In addition, each state likely has a hotspot city and in those cities the population density may be FAR higher and thus
@@ -198,11 +214,11 @@ ax.legend()
 # **********************************************************************************************************
 #  %%
 starting_cases = 20
-fig = plt.figure(figsize=(14,10))
+fig = plt.figure()
 ax = fig.add_axes([0,0,1,1])
-ax.set_title('City growth by population density starting case count = ' + str(starting_cases) + ' Date: ' + datetime.now().strftime('%x'))
+ax.set_title(datetime.now().strftime('%x') + ' City cases adjusted for population density\nStarting case count = ' + str(starting_cases))
 ax.set_xlabel('Days since hitting ' + str(starting_cases) + ' cases')
-ax.set_ylabel('Cases per population density value')
+ax.set_ylabel('Cases adjusted for population density')
 ax.set_ylim(0, 0.0001)
 
 def cityplotbydensity(state, city):
@@ -215,18 +231,65 @@ def cityplotbydensity(state, city):
     data = data[data.cases >= starting_cases]
     city_density = population_city_density[population_city_density.state == state][population_city_density.city == city]
     if (len(city_density)):
-        data.cases = data.cases / city_density.density.values[0]
+        plotdata = data.cases / city_density.density.values[0]
         if len(data['cases']):
-            data_asarray = data.cases.values
+            data_asarray = plotdata.values
             ax.set_xlim(0, max(data_asarray.size, ax.get_xlim()[1]))
-            ax.set_ylim(0, max(data['cases'].max(), ax.get_ylim()[1]))
+            ax.set_ylim(0, max(data_asarray.max(), ax.get_ylim()[1]))
+            ax.set_ylim(0, ax.get_ylim()[1] * 1.01)
+            ax.set_yticklabels([''])
             ax.plot(data_asarray, label=city + ', ' + state + ' (' + str(city_density.density.values[0]) + ' people/mi^2)')
+            lastindex = len(data_asarray) - 1
+            ax.annotate(str(data.cases.tail(1).values[0]) + ' cases', xy=(lastindex + .1, data_asarray[lastindex]))
 
 for p in county_cities_map.itertuples():
     for c in p.cities:
         cityplotbydensity(p.state, c)
 
 ax.legend()
+
+#  %% [markdown]
+# **********************************************************************************************************
+# # City deaths adjusted for population density
+#
+# **********************************************************************************************************
+#  %%
+starting_deaths = 1
+fig = plt.figure()
+ax = fig.add_axes([0,0,1,1])
+ax.set_title(datetime.now().strftime('%x') + ' City deaths adjusted for population density')
+ax.set_xlabel('Days since first death')
+ax.set_ylabel('Deaths adjusted for population density')
+ax.set_ylim(0, 0.0001)
+
+def cityplotbydensity(state, city):
+    county = 'not found'
+    for x in county_cities_map.itertuples():
+        if city in x.cities and state == x.state:
+            county = x.county
+
+    data = county_cov_data[county_cov_data.state == state][county_cov_data.county == county][['date', 'deaths']]
+    data = data[data.deaths >= starting_deaths]
+    city_density = population_city_density[population_city_density.state == state][population_city_density.city == city]
+    if (len(city_density)):
+        plotdata = data.deaths / city_density.density.values[0]
+        if len(data['deaths']):
+            value_array = plotdata.values
+            ax.set_xlim(0, max(value_array.size, ax.get_xlim()[1]))
+            ax.set_ylim(0, max(value_array.max(), ax.get_ylim()[1]))
+            ax.set_ylim(0, ax.get_ylim()[1] * 1.01)
+            ax.set_yticklabels([''])
+            ax.plot(value_array, label=city + ', ' + state + ' (' + str(city_density.density.values[0]) + ' people/mi^2)')
+            lastindex = len(value_array) - 1
+            ax.annotate(str(data.deaths.tail(1).values[0]) + ' deaths', xy=(lastindex + .1, value_array[lastindex]))
+
+
+for p in county_cities_map.itertuples():
+    for c in p.cities:
+        cityplotbydensity(p.state, c)
+
+ax.legend()
+
 
 # %% [markdown]
 # **********************************************************************************************************
