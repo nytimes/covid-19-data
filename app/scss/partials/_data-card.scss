@@ -1,0 +1,130 @@
+.data-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  line-height: 1em;
+  padding: 10px;
+  border-radius: 1em;
+  background-color: var(--card-background);
+  margin: 5px;
+  min-width: 200px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.25);
+
+  &--selected {
+    background-color: var(--alert-green-dark);
+    transition: background-color 2s ease;
+  }
+
+  &__contents {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+    summary {
+      &::before {
+        top: 10px;
+        left: 10px;
+        border: 8px solid transparent;
+        border-left-color: var(--background-color-text);
+        position: absolute;
+        display: inline-block;
+        content: "";
+        @include respond-at($bp-xsmall) {
+          display: none;
+        }
+      }
+    }
+
+    &[open] > summary {
+      &::before {
+        top: 10px;
+        left: 10px;
+        border: 8px solid transparent;
+        border-top-color: black;
+        position: absolute;
+        display: inline-block;
+        content: "";
+        @include respond-at($bp-xsmall) {
+          display: none;
+        }
+      }
+    }
+
+    @include respond-at($bp-xsmall) {
+      &::before {
+        display: none;
+      }
+    }
+  }
+
+  &__header {
+    cursor: pointer;
+    margin-bottom: 10px;
+    list-style: none;
+    padding: 5px;
+    text-align: center;
+    position: relative;
+    @include respond-at($bp-xsmall) {
+      cursor: inherit;
+    }
+
+    &:hover {
+      background-color: blue;
+      @include respond-at($bp-xsmall) {
+        background-color: inherit;
+      }
+    }
+  }
+
+  &__data-title {
+    font-size: 0.8em;
+    font-family: benton-sans-condensed, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  &__stats-container {
+    display: flex;
+    width: 100%;
+  }
+
+  &__stats {
+    font-size: 0.6em;
+    width: 35%;
+    text-align: left;
+    flex: 1 1 auto;
+  }
+
+  &__stats--highlighted {
+    font-family: benton-sans, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    text-align: right;
+  }
+
+  &__select-button {
+    font-size: 0.6em;
+    margin: 10px 10px 5px;
+    font-family: benton-sans, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    padding: 5px;
+    background: inherit;
+    color: inherit;
+    border: 1px solid var(--primary-color);
+    border-radius: 5px;
+
+    &:hover {
+      background: var(--primary-color);
+      color: var(--primary-light);
+    }
+
+    &:active {
+      background: var(--primary-color-active);
+      color: var(--primary-light);
+    }
+  }
+}

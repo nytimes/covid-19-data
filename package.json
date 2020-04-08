@@ -1,0 +1,29 @@
+{
+  "name": "covid-19-data",
+  "version": "1.0.0",
+  "description": "To use the python scripts, just use the commandline and type `$ python states-csv-parse.py` or `$ python counties-csv-parse.py` to run the script. I found that for some reason there's an error that sometimes shows up in the county data script if I don't run it in Python 3, so for that just do `$ python3 states-csv-parse.py` or `$ python3 counties-csv-parse.py` if you have it available.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rlahoda/covid-19-data.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rlahoda/covid-19-data/issues"
+  },
+  "homepage": "https://github.com/rlahoda/covid-19-data#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "autoprefixer": "^9.7.5",
+    "browser-sync": "^2.26.7",
+    "cssnano": "^4.1.10",
+    "gulp": "^4.0.2",
+    "gulp-postcss": "^8.0.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5"
+  }
+}

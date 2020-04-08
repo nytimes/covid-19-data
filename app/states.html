@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Covid-19 Graphs</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="https://use.typekit.net/pmr7ssp.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Covid-19 Graphs</h1>
+      <h2>View statistics by state</h2>
+    </header>
+    <section id="chart" class="chart">
+      <h3>Choose a state below to view it in the chart</h3>
+      <div class="chart__data-selector">
+        <h4>Select Data To View:</h4>
+        <button
+          value="cases"
+          id="cases-select"
+          class="selected-item js-data-select-button selected-item--selected"
+        >
+          Total Daily Cases
+          <?xml version="1.0" encoding="utf-8"?>
+        </button>
+        <button
+          value="deaths"
+          id="deaths-select"
+          class="selected-item js-data-select-button"
+        >
+          Total Daily Deaths
+        </button>
+        <button
+          value="newCases"
+          id="newCases-select"
+          class="selected-item js-data-select-button"
+        >
+          Daily New Cases
+        </button>
+        <button
+          value="newDeaths"
+          id="newDeaths-select"
+          class="selected-item js-data-select-button"
+        >
+          Daily New Deaths
+        </button>
+      </div>
+      <div class="chart-container">
+        <canvas id="dataChart"></canvas>
+        <div class="chart__selected-items">
+          <button
+            value="all"
+            id="remove-item"
+            class="selected-item js-select-button"
+          >
+            View All States
+          </button>
+          <button
+            value="clear"
+            id="remove-item"
+            class="selected-item js-clear-button"
+          >
+            Clear Chart
+            <?xml version="1.0" encoding="utf-8"?>
+            <svg
+              version="1.1"
+              id="Layer_1"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              x="0px"
+              y="0px"
+              viewBox="0 0 10 10"
+              style="enable-background: new 0 0 10 10;"
+              xml:space="preserve"
+              height="1em"
+            >
+              <style type="text/css">
+                .st0 {
+                  fill: currentColor;
+                }
+              </style>
+              <path
+                class="st0"
+                d="M5,0C2.3,0,0.1,2.3,0.1,5c0,2.7,2.2,4.9,4.9,4.9S9.9,7.7,9.9,5C9.9,2.3,7.7,0,5,0z M8.2,7.4L7.4,8.2L4.9,5.8
+          L2.5,8.2L1.7,7.4L4.1,5L1.7,2.6l0.8-0.8l2.4,2.4l2.4-2.4l0.8,0.8L5.8,5L8.2,7.4z"
+              />
+            </svg>
+          </button>
+        </div>
+        <div class="chart__selected-items" id="chartSelected"></div>
+      </div>
+      <!-- chart -->
+    </section>
+    <section class="cards-section">
+      <div class="card-sort__container">
+        <div class="card-sort">
+          Sort States By:
+          <button
+            id="name-sort"
+            value="name"
+            class="selected-item selected-item--selected js-sort-button"
+          >
+            State Name
+          </button>
+          <button
+            id="total-cases-sort"
+            value="cases"
+            class="selected-item js-sort-button"
+          >
+            Total Cases
+          </button>
+          <button
+            id="total-deaths-sort"
+            value="deaths"
+            class="selected-item js-sort-button"
+          >
+            Total Deaths
+          </button>
+          <button
+            id="first-case-sort"
+            value="firstCase"
+            class="selected-item js-sort-button"
+          >
+            First Case
+          </button>
+          <button
+            id="first-death-sort"
+            value="firstDeath"
+            class="selected-item js-sort-button"
+          >
+            First Death
+          </button>
+          <button
+            value="sortDirection"
+            class="selected-item js-sort-select-button"
+          >
+            Sort Order: <span id="sort-order">A/Z</span>
+          </button>
+        </div>
+      </div>
+      <div id="cards-container" class="cards-container"></div>
+    </section>
+    <footer>
+      <!-- data from ny times -->
+      <!-- how to contribute w/ github icon -->
+    </footer>
+  </body>
+  <script src="./js/states.js" type="module"></script>
+</html>
