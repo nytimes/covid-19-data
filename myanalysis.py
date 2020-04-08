@@ -6,7 +6,7 @@ import numpy as np
 from datetime import datetime
 
 mpl.rcParams['lines.linewidth'] = 4.0
-default_figsize=[18, 14]
+default_figsize=[12, 9]
 
 #  %% [markdown]
 # **********************************************************************************************************
