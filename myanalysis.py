@@ -6,7 +6,7 @@ import numpy as np
 from datetime import datetime
 
 mpl.rcParams['lines.linewidth'] = 3.0
-mpl.rcParams['figure.figsize'] = [14,14]
+plt.rcParams['figure.figsize'] = [18,14]
 
 #  %% [markdown]
 # **********************************************************************************************************
@@ -17,7 +17,7 @@ mpl.rcParams['figure.figsize'] = [14,14]
 # 4. Identify list of states, counties and cities to graph
 # **********************************************************************************************************
 #  %%
-state_cov_data = pd.read_csv('./us-states.csv')
+state_cov_data = pd.read_csv('us-states.csv')
 county_cov_data = pd.read_csv('us-counties.csv')
 
 population_city_density = pd.read_csv('city_density.csv')
@@ -68,11 +68,9 @@ def plottotalcases(state, county = 'all'):
         else:
             ax.plot(data_asarray, label=county + ',  ' + state)
 
-#****************************************************************
 # %% [markdown]
 # **********************************************************************************************************
 # # State Totals
-# The total number of cases for each interesting county starting with a minimum number of cases
 # **********************************************************************************************************
 # %%
 starting_cases = 1000
@@ -91,7 +89,6 @@ ax.legend()
 #  %% [markdown]
 # **********************************************************************************************************
 # # County Totals
-# The total number of cases for each interesting county starting with a minimum number of cases
 # **********************************************************************************************************
 starting_cases = 200
 fig = plt.figure()
@@ -291,76 +288,76 @@ for p in county_cities_map.itertuples():
 ax.legend()
 
 
-# %% [markdown]
-# **********************************************************************************************************
-# # Use Bokeh for plotting just for kicks
-# **********************************************************************************************************
-#  %%
-import bokeh.plotting as bplt
-import bokeh.models as bmod
-from bokeh.palettes import Dark2_5 as palette
-import itertools
-#  %%
-starting_cases = 1000
+# # %% [markdown]
+# # **********************************************************************************************************
+# # # Use Bokeh for plotting just for kicks
+# # **********************************************************************************************************
+# #  %%
+# import bokeh.plotting as bplt
+# import bokeh.models as bmod
+# from bokeh.palettes import Dark2_5 as palette
+# import itertools
+# #  %%
+# starting_cases = 1000
 
-# output to static HTML file
-bplt.output_notebook()
+# # output to static HTML file
+# bplt.output_notebook()
 
-# create a new plot with a title and axis labels
-fig_bokeh = bplt.figure(title='Total state cases with starting case count = ' + str(starting_cases), x_axis_label='Days since hitting ' + str(starting_cases) + ' cases', y_axis_label='Cases', plot_width=1200, plot_height=1000)
-colors = itertools.cycle(palette)
+# # create a new plot with a title and axis labels
+# fig_bokeh = bplt.figure(title='Total state cases with starting case count = ' + str(starting_cases), x_axis_label='Days since hitting ' + str(starting_cases) + ' cases', y_axis_label='Cases', plot_width=1200, plot_height=1000)
+# colors = itertools.cycle(palette)
 
-def plottotalcases_bokeh(state, county = 'all', color = 'black'):
-    if county == 'all':
-        data = state_cov_data[state_cov_data.state == state][['date', 'cases']]
-    else:
-        data = county_cov_data[county_cov_data.state == state][['date', 'cases', 'county']]
-        data = data[county_cov_data.county == county][['date', 'cases']]
+# def plottotalcases_bokeh(state, county = 'all', color = 'black'):
+#     if county == 'all':
+#         data = state_cov_data[state_cov_data.state == state][['date', 'cases']]
+#     else:
+#         data = county_cov_data[county_cov_data.state == state][['date', 'cases', 'county']]
+#         data = data[county_cov_data.county == county][['date', 'cases']]
 
-    data = data[data.cases >= starting_cases]
-    if len(data['cases']):
-        data_asarray = data.cases.values
-        # fig_bokeh.x_range = bmod.Range1d(0, data_asarray.size)
-        # fig_bokeh.y_range = bmod.Range1d(0, data['cases'].max())
-        if (county == 'all'):
-            fig_bokeh.line(data.cases.reset_index().index.tolist(), data_asarray, color=next(colors), line_width=2, legend_label=state)
-        else:
-            fig_bokeh.line(data.cases.reset_index().index.tolist(), data_asarray, color=next(colors), line_width=2, legend_label=county + ',  ' + state)
+#     data = data[data.cases >= starting_cases]
+#     if len(data['cases']):
+#         data_asarray = data.cases.values
+#         # fig_bokeh.x_range = bmod.Range1d(0, data_asarray.size)
+#         # fig_bokeh.y_range = bmod.Range1d(0, data['cases'].max())
+#         if (county == 'all'):
+#             fig_bokeh.line(data.cases.reset_index().index.tolist(), data_asarray, color=next(colors), line_width=2, legend_label=state)
+#         else:
+#             fig_bokeh.line(data.cases.reset_index().index.tolist(), data_asarray, color=next(colors), line_width=2, legend_label=county + ',  ' + state)
 
-# show the results
-for s in states.unique():
-    plottotalcases_bokeh(s)
+# # show the results
+# for s in states.unique():
+#     plottotalcases_bokeh(s)
 
-bplt.show(fig_bokeh)
-#  %%
-starting_cases = 200
+# bplt.show(fig_bokeh)
+# #  %%
+# starting_cases = 200
 
-# output to static HTML file
-bplt.output_notebook()
+# # output to static HTML file
+# bplt.output_notebook()
 
-# create a new plot with a title and axis labels
-fig_bokeh = bplt.figure(title='Total county cases with starting case count = ' + str(starting_cases), x_axis_label='Days since hitting ' + str(starting_cases) + ' cases', y_axis_label='Cases', plot_width=1200, plot_height=1000)
-colors = itertools.cycle(palette)
+# # create a new plot with a title and axis labels
+# fig_bokeh = bplt.figure(title='Total county cases with starting case count = ' + str(starting_cases), x_axis_label='Days since hitting ' + str(starting_cases) + ' cases', y_axis_label='Cases', plot_width=1200, plot_height=1000)
+# colors = itertools.cycle(palette)
 
-def plottotalcases_bokeh(state, county = 'all', color = 'black'):
-    if county == 'all':
-        data = state_cov_data[state_cov_data.state == state][['date', 'cases']]
-    else:
-        data = county_cov_data[county_cov_data.state == state][['date', 'cases', 'county']]
-        data = data[county_cov_data.county == county][['date', 'cases']]
+# def plottotalcases_bokeh(state, county = 'all', color = 'black'):
+#     if county == 'all':
+#         data = state_cov_data[state_cov_data.state == state][['date', 'cases']]
+#     else:
+#         data = county_cov_data[county_cov_data.state == state][['date', 'cases', 'county']]
+#         data = data[county_cov_data.county == county][['date', 'cases']]
 
-    data = data[data.cases >= starting_cases]
-    if len(data['cases']):
-        data_asarray = data.cases.values
-        # fig_bokeh.x_range = bmod.Range1d(0, data_asarray.size)
-        # fig_bokeh.y_range = bmod.Range1d(0, data['cases'].max())
-        if (county == 'all'):
-            fig_bokeh.line(data.cases.reset_index().index.tolist(), data_asarray, color=next(colors), line_width=2, legend_label=state)
-        else:
-            fig_bokeh.line(data.cases.reset_index().index.tolist(), data_asarray, color=next(colors), line_width=2, legend_label=county + ',  ' + state)
+#     data = data[data.cases >= starting_cases]
+#     if len(data['cases']):
+#         data_asarray = data.cases.values
+#         # fig_bokeh.x_range = bmod.Range1d(0, data_asarray.size)
+#         # fig_bokeh.y_range = bmod.Range1d(0, data['cases'].max())
+#         if (county == 'all'):
+#             fig_bokeh.line(data.cases.reset_index().index.tolist(), data_asarray, color=next(colors), line_width=2, legend_label=state)
+#         else:
+#             fig_bokeh.line(data.cases.reset_index().index.tolist(), data_asarray, color=next(colors), line_width=2, legend_label=county + ',  ' + state)
 
-# show the results
-for p in county_cities_map.itertuples():
-    plottotalcases_bokeh(p.state, p.county)
+# # show the results
+# for p in county_cities_map.itertuples():
+#     plottotalcases_bokeh(p.state, p.county)
 
-bplt.show(fig_bokeh)
+# bplt.show(fig_bokeh)
