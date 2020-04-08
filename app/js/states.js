@@ -1,8 +1,33 @@
 import { states } from "./data.js";
 import sort from "./sort.js";
 
-let items = ["New York"];
 let dataParam = "cases";
+let dataItems = Object.keys(states.states);
+let sortParam = "name";
+let sortOrder = "az";
+
+const ctx = document.getElementById("dataChart").getContext("2d");
+chart = new Chart(ctx, {
+  // The type of chart we want to create
+  type: "line",
+
+  // The data for our dataset
+  data: { datasets: [] },
+
+  options: {
+    aspectRatio: 2,
+    scales: {
+      xAxes: [
+        {
+          type: "time",
+          time: {
+            unit: "day",
+          },
+        },
+      ],
+    },
+  },
+});
 
 function button(id) {
   return `<button value="${id}" id="remove-item" class="selected-item js-clear-button">
@@ -34,50 +59,10 @@ L2.5,8.2L1.7,7.4L4.1,5L1.7,2.6l0.8-0.8l2.4,2.4l2.4-2.4l0.8,0.8L5.8,5L8.2,7.4z"
 </button>`;
 }
 
-function chartGenerate() {
-  console.log(items);
-
+function selectionGenerate() {
   const buttonsArr = [];
-  const series = items.map((state) => {
-    buttonsArr.push(button(state));
-    const stats = states.states[state];
-
-    const data = stats.data.map((d) => {
-      return {
-        x: new Date(d.date),
-        y: d[dataParam],
-      };
-    });
-    return {
-      label: state,
-      data: data,
-      backgroundColor: "rgba(0, 0, 0, 0)",
-      borderColor: "#" + Math.floor(Math.random() * 16777215).toString(16),
-    };
-  });
-
-  const ctx = document.getElementById("dataChart").getContext("2d");
-  chart = new Chart(ctx, {
-    // The type of chart we want to create
-    type: "line",
-
-    // The data for our dataset
-    data: { datasets: [...series] },
-
-    options: {
-      aspectRatio: 2,
-      events: ["click"],
-      scales: {
-        xAxes: [
-          {
-            type: "time",
-            time: {
-              unit: "day",
-            },
-          },
-        ],
-      },
-    },
+  dataItems.map((i) => {
+    buttonsArr.push(button(i));
   });
 
   const selectedContainer = document.querySelector("#chartSelected");
@@ -87,6 +72,34 @@ function chartGenerate() {
   for (const button of clearButtons) {
     button.addEventListener("click", dataClear);
   }
+}
+
+function dataGenerate(data) {
+  const processedDataArr = data.data.map((d) => {
+    return {
+      x: new Date(d.date),
+      y: d[dataParam],
+    };
+  });
+  return {
+    label: data.name,
+    data: processedDataArr,
+    backgroundColor: "rgba(0, 0, 0, 0)",
+    borderColor: "#" + Math.floor(Math.random() * 16777215).toString(16),
+  };
+}
+
+function chartGenerate() {
+  const sortedData = dataItems.sort();
+  const buttonsArr = [];
+  const chartData = sortedData.map((state) => {
+    buttonsArr.push(button(state));
+    const stats = states.states[state];
+    return dataGenerate(stats);
+  });
+  chart.data.datasets = chartData;
+  chart.update();
+  selectionGenerate();
 }
 
 function dataSelectButtons() {
@@ -99,7 +112,7 @@ function dataSelectButtons() {
 
 function dataCards() {
   const statesArr = Object.values(states.states);
-  const sortedStates = sort(statesArr, "name", "az");
+  const sortedStates = sort(statesArr, sortParam, sortOrder);
   let statesDisplay = "";
   sortedStates.map((state) => {
     const firstCaseDate = moment(state.firstCase).format("MMMM D, YYYY");
@@ -109,7 +122,7 @@ function dataCards() {
     }
 
     statesDisplay += `
-          <div class="data-card">
+          <div class="data-card" id="${state.name}">
           <details class="data-card__contents" open>
             <summary class="data-card__header">
               <h1 class="data-card__data-title">${state.name}</h1>
@@ -157,19 +170,71 @@ function dataCards() {
   const cardsButtons = document.querySelectorAll(".js-select-button");
 
   for (const button of cardsButtons) {
-    button.addEventListener("click", dataSet);
+    button.addEventListener("click", dataAdd);
   }
 }
 
-function dataSet(event) {
+function sortelectButtons() {
+  const selectButtons = document.querySelectorAll(".js-sort-button");
+
+  for (const button of selectButtons) {
+    button.addEventListener("click", sortTypeSet);
+  }
+}
+function sortTypeSet(event) {
+  const id = event.target.value;
+  if (sortParam !== id) {
+    sortParam = id;
+    const activeButton = document.querySelectorAll(".js-sort-button");
+    for (const button of activeButton) {
+      button.classList.remove("selected-item--selected");
+      button.disabled = false;
+    }
+    const cardsContainer = document.querySelector(`#${event.target.id}`);
+    cardsContainer.classList.add("selected-item--selected");
+    cardsContainer.disabled = true;
+  }
+  dataCards();
+}
+
+function sortOrderButton() {
+  const selectButtons = document.querySelectorAll(".js-sort-select-button");
+
+  for (const button of selectButtons) {
+    button.addEventListener("click", sortOrderSet);
+  }
+}
+function sortOrderSet(event) {
+  const activeButton = document.querySelector("#sort-order");
+  if (sortOrder === "az") {
+    sortOrder = "za";
+    activeButton.innerHTML = "Z/A";
+  } else {
+    sortOrder = "az";
+    activeButton.innerHTML = "A/Z";
+  }
+
+  dataCards();
+}
+
+function dataAdd(event) {
   const id = event.target.value;
   if (id === "all") {
     const itemList = Object.keys(states.states);
-    items = itemList.sort();
-    chartGenerate();
-  } else if (!items.includes(id)) {
-    items.push(id);
-    chartGenerate();
+    dataItems = itemList.sort();
+    selectionGenerate();
+  } else if (!dataItems.includes(id)) {
+    const stats = states.states[id];
+    const dataSeries = dataGenerate(stats);
+    const dataSets = [...chart.data.datasets];
+    dataSets.push(dataSeries);
+    chart.data.datasets = sort(dataSets, "label", "az");
+    chart.update();
+    const sortedItems = [...dataItems, id];
+    dataItems = sortedItems.sort();
+    selectionGenerate();
+    // const card = document.querySelector(`#${id}`);
+    // card.classList.add("data-card--selected");
   }
 }
 function dataTypeSet(event) {
@@ -177,7 +242,7 @@ function dataTypeSet(event) {
   if (dataParam !== id) {
     dataParam = id;
     chartGenerate();
-    const activeButton = document.querySelectorAll(".selected-item--selected");
+    const activeButton = document.querySelectorAll(".js-data-select-button");
     for (const button of activeButton) {
       button.classList.remove("selected-item--selected");
       button.disabled = false;
@@ -190,15 +255,24 @@ function dataTypeSet(event) {
 
 function dataClear(event) {
   const id = event.target.value;
-  if (items.includes(id)) {
-    const newArr = items.filter((i) => i !== id);
-    items = newArr;
-    chartGenerate();
+  if (dataItems.includes(id)) {
+    const newArr = chart.data.datasets.filter((i) => i.label !== id);
+    const sortedArr = newArr.sort();
+    chart.data.datasets = sortedArr;
+    const filteredItems = dataItems.filter((i) => i !== id);
+    const sortedItems = filteredItems.sort();
+    dataItems = sortedItems;
+    chart.update();
+    selectionGenerate();
   } else if (id === "clear") {
-    items = [];
-    chartGenerate();
+    chart.data.datasets = [];
+    chart.update();
+    dataItems = [];
+    selectionGenerate();
   }
 }
 dataCards();
 chartGenerate();
 dataSelectButtons();
+sortelectButtons();
+sortOrderButton();

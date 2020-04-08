@@ -32,7 +32,6 @@
           class="selected-item js-data-select-button"
         >
           Total Daily Deaths
-          <?xml version="1.0" encoding="utf-8"?>
         </button>
         <button
           value="newCases"
@@ -40,7 +39,6 @@
           class="selected-item js-data-select-button"
         >
           Daily New Cases
-          <?xml version="1.0" encoding="utf-8"?>
         </button>
         <button
           value="newDeaths"
@@ -48,7 +46,6 @@
           class="selected-item js-data-select-button"
         >
           Daily New Deaths
-          <?xml version="1.0" encoding="utf-8"?>
         </button>
       </div>
       <div class="chart-container">
@@ -60,7 +57,6 @@
             class="selected-item js-select-button"
           >
             View All States
-            <?xml version="1.0" encoding="utf-8"?>
           </button>
           <button
             value="clear"
@@ -98,7 +94,55 @@
       </div>
       <!-- chart -->
     </section>
-    <section id="cards-container" class="cards-container"></section>
+    <section class="cards-section">
+      <div class="card-sort__container">
+        <div class="card-sort">
+          Sort States By:
+          <button
+            id="name-sort"
+            value="name"
+            class="selected-item selected-item--selected js-sort-button"
+          >
+            State Name
+          </button>
+          <button
+            id="total-cases-sort"
+            value="cases"
+            class="selected-item js-sort-button"
+          >
+            Total Cases
+          </button>
+          <button
+            id="total-deaths-sort"
+            value="deaths"
+            class="selected-item js-sort-button"
+          >
+            Total Deaths
+          </button>
+          <button
+            id="first-case-sort"
+            value="firstCase"
+            class="selected-item js-sort-button"
+          >
+            First Case
+          </button>
+          <button
+            id="first-death-sort"
+            value="firstDeath"
+            class="selected-item js-sort-button"
+          >
+            First Death
+          </button>
+          <button
+            value="sortDirection"
+            class="selected-item js-sort-select-button"
+          >
+            Sort Order: <span id="sort-order">A/Z</span>
+          </button>
+        </div>
+      </div>
+      <div id="cards-container" class="cards-container"></div>
+    </section>
     <footer>
       <!-- data from ny times -->
       <!-- how to contribute w/ github icon -->
