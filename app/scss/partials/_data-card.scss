@@ -4,12 +4,17 @@
   align-items: center;
   justify-content: center;
   line-height: 1em;
-  padding: 10px;
+  padding: 4px;
   border-radius: 1em;
   background-color: var(--card-background);
-  margin: 5px;
+  margin: 2px;
   min-width: 200px;
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.25);
+
+  @include respond-at($bp-xsmall) {
+    padding: 10px;
+    margin: 5px;
+  }
 
   &--selected {
     background-color: var(--alert-green-dark);
@@ -25,16 +30,16 @@
 
     summary {
       &::before {
-        top: 10px;
+        top: 8px;
         left: 10px;
         border: 8px solid transparent;
         border-left-color: var(--background-color-text);
         position: absolute;
         display: inline-block;
         content: "";
-        @include respond-at($bp-xsmall) {
-          display: none;
-        }
+        // @include respond-at($bp-xsmall) {
+        //   display: none;
+        // }
       }
     }
 
@@ -47,9 +52,9 @@
         position: absolute;
         display: inline-block;
         content: "";
-        @include respond-at($bp-xsmall) {
-          display: none;
-        }
+        // @include respond-at($bp-xsmall) {
+        //   display: none;
+        // }
       }
     }
 
@@ -64,18 +69,18 @@
     cursor: pointer;
     margin-bottom: 10px;
     list-style: none;
+    display: flex;
+
+    justify-content: center;
     padding: 5px;
     text-align: center;
     position: relative;
-    @include respond-at($bp-xsmall) {
-      cursor: inherit;
-    }
+    // @include respond-at($bp-xsmall) {
+    //   cursor: inherit;
+    // }
 
     &:hover {
-      background-color: blue;
-      @include respond-at($bp-xsmall) {
-        background-color: inherit;
-      }
+      background-color: var(--primary-light);
     }
   }
 

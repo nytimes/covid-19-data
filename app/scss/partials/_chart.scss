@@ -54,7 +54,11 @@
   display: flex;
   align-items: center;
   border: none;
-  margin: 10px;
+  margin: 5px;
+
+  @include respond-at($bp-xsmall) {
+    margin: 10px;
+  }
 
   &:hover {
     background-color: var(--primary-color);
@@ -66,8 +70,10 @@
     color: var(--primary-color);
   }
 
-  svg {
+  .selected-item__icon {
     padding-left: 10px;
+    display: flex;
+    align-items: center;
   }
 
   & > * {
