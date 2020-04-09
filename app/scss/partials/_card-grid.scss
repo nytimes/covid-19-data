@@ -23,6 +23,10 @@
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.25);
 }
 
+.sort-order--reversed svg {
+  transform: (rotate(180deg));
+}
+
 .cards-container {
   width: 100%;
   display: flex;
@@ -33,6 +37,24 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 250px));
     grid-column-gap: 10px;
-    grid-row-gap: 15px;
+    grid-row-gap: 10px;
+    @include respond-at($bp-xsmall) {
+      grid-row-gap: 15px;
+    }
   }
+}
+
+.sort-order-icon {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding-left: 10px;
+}
+
+.sort-selector svg {
+  display: none;
+}
+
+.selected-item--selected svg {
+  display: block;
 }

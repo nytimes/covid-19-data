@@ -64,30 +64,6 @@
             class="selected-item js-clear-button"
           >
             Clear Chart
-            <?xml version="1.0" encoding="utf-8"?>
-            <svg
-              version="1.1"
-              id="Layer_1"
-              xmlns="http://www.w3.org/2000/svg"
-              xmlns:xlink="http://www.w3.org/1999/xlink"
-              x="0px"
-              y="0px"
-              viewBox="0 0 10 10"
-              style="enable-background: new 0 0 10 10;"
-              xml:space="preserve"
-              height="1em"
-            >
-              <style type="text/css">
-                .st0 {
-                  fill: currentColor;
-                }
-              </style>
-              <path
-                class="st0"
-                d="M5,0C2.3,0,0.1,2.3,0.1,5c0,2.7,2.2,4.9,4.9,4.9S9.9,7.7,9.9,5C9.9,2.3,7.7,0,5,0z M8.2,7.4L7.4,8.2L4.9,5.8
-          L2.5,8.2L1.7,7.4L4.1,5L1.7,2.6l0.8-0.8l2.4,2.4l2.4-2.4l0.8,0.8L5.8,5L8.2,7.4z"
-              />
-            </svg>
           </button>
         </div>
         <div class="chart__selected-items" id="chartSelected"></div>
@@ -101,43 +77,132 @@
           <button
             id="name-sort"
             value="name"
-            class="selected-item selected-item--selected js-sort-button"
+            class="selected-item selected-item--selected sort-selector js-sort-button"
           >
-            State Name
+            State Name<span class="sort-order-icon" id="name-sort-icon">
+              <?xml version="1.0" encoding="utf-8"?>
+              <svg
+                version="1.1"
+                id="Layer_1"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                x="0px"
+                y="0px"
+                viewBox="0 0 22 22"
+                style="enable-background: new 0 0 22 22;"
+                fill="currentColor"
+                xml:space="preserve"
+                height="1em"
+              >
+                <polygon
+                  points="18.3,10.2 11.9,16.8 11.9,0 9.1,0 9.1,16.8 2.7,10.2 2.7,14.3 10.5,22 18.3,14.3 "
+                />
+              </svg>
+            </span>
           </button>
           <button
             id="total-cases-sort"
             value="cases"
-            class="selected-item js-sort-button"
+            class="selected-item sort-selector js-sort-button"
           >
-            Total Cases
+            Total Cases<span class="sort-order-icon" id="total-cases-sort-icon">
+              <?xml version="1.0" encoding="utf-8"?>
+              <svg
+                version="1.1"
+                id="Layer_1"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                x="0px"
+                y="0px"
+                viewBox="0 0 22 22"
+                style="enable-background: new 0 0 22 22;"
+                fill="currentColor"
+                xml:space="preserve"
+                height="1em"
+              >
+                <polygon
+                  points="18.3,10.2 11.9,16.8 11.9,0 9.1,0 9.1,16.8 2.7,10.2 2.7,14.3 10.5,22 18.3,14.3 "
+                />
+              </svg>
+            </span>
           </button>
           <button
             id="total-deaths-sort"
             value="deaths"
-            class="selected-item js-sort-button"
+            class="selected-item sort-selector js-sort-button"
           >
-            Total Deaths
+            Total Deaths<span class="sort-order-icon" id="total-deaths-icon">
+              <?xml version="1.0" encoding="utf-8"?>
+              <svg
+                version="1.1"
+                id="Layer_1"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                x="0px"
+                y="0px"
+                viewBox="0 0 22 22"
+                style="enable-background: new 0 0 22 22;"
+                fill="currentColor"
+                xml:space="preserve"
+                height="1em"
+              >
+                <polygon
+                  points="18.3,10.2 11.9,16.8 11.9,0 9.1,0 9.1,16.8 2.7,10.2 2.7,14.3 10.5,22 18.3,14.3 "
+                />
+              </svg>
+            </span>
           </button>
           <button
             id="first-case-sort"
             value="firstCase"
-            class="selected-item js-sort-button"
+            class="selected-item sort-selector js-sort-button"
           >
-            First Case
+            First Case<span class="sort-order-icon" id="first-case-sort-icon">
+              <?xml version="1.0" encoding="utf-8"?>
+              <svg
+                version="1.1"
+                id="Layer_1"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                x="0px"
+                y="0px"
+                viewBox="0 0 22 22"
+                style="enable-background: new 0 0 22 22;"
+                fill="currentColor"
+                xml:space="preserve"
+                height="1em"
+              >
+                <polygon
+                  points="18.3,10.2 11.9,16.8 11.9,0 9.1,0 9.1,16.8 2.7,10.2 2.7,14.3 10.5,22 18.3,14.3 "
+                />
+              </svg>
+            </span>
           </button>
           <button
             id="first-death-sort"
             value="firstDeath"
-            class="selected-item js-sort-button"
+            class="selected-item sort-selector js-sort-button"
           >
-            First Death
-          </button>
-          <button
-            value="sortDirection"
-            class="selected-item js-sort-select-button"
-          >
-            Sort Order: <span id="sort-order">A/Z</span>
+            First Death<span class="sort-order-icon" id="first-death-sort-icon">
+              <?xml version="1.0" encoding="utf-8"?>
+              <svg
+                version="1.1"
+                id="Layer_1"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                x="0px"
+                y="0px"
+                viewBox="0 0 22 22"
+                style="enable-background: new 0 0 22 22;"
+                fill="currentColor"
+                xml:space="preserve"
+                height="1em"
+              >
+                <polygon
+                  points="18.3,10.2 11.9,16.8 11.9,0 9.1,0 9.1,16.8 2.7,10.2 2.7,14.3 10.5,22 18.3,14.3 "
+                />
+              </svg>
+            </span>
           </button>
         </div>
       </div>

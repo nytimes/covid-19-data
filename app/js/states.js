@@ -32,6 +32,7 @@ chart = new Chart(ctx, {
 function button(id) {
   return `<button value="${id}" id="remove-item" class="selected-item js-clear-button">
   ${id}
+  <span class="selected-item__icon">
   <?xml version="1.0" encoding="utf-8"?>
   <svg
     version="1.1"
@@ -55,13 +56,13 @@ function button(id) {
       d="M5,0C2.3,0,0.1,2.3,0.1,5c0,2.7,2.2,4.9,4.9,4.9S9.9,7.7,9.9,5C9.9,2.3,7.7,0,5,0z M8.2,7.4L7.4,8.2L4.9,5.8
 L2.5,8.2L1.7,7.4L4.1,5L1.7,2.6l0.8-0.8l2.4,2.4l2.4-2.4l0.8,0.8L5.8,5L8.2,7.4z"
     />
-  </svg>
+  </svg></span>
 </button>`;
 }
 
 function selectionGenerate() {
   const buttonsArr = [];
-  dataItems.map((i) => {
+  dataItems.map(i => {
     buttonsArr.push(button(i));
   });
 
@@ -75,7 +76,7 @@ function selectionGenerate() {
 }
 
 function dataGenerate(data) {
-  const processedDataArr = data.data.map((d) => {
+  const processedDataArr = data.data.map(d => {
     return {
       x: new Date(d.date),
       y: d[dataParam],
@@ -92,7 +93,7 @@ function dataGenerate(data) {
 function chartGenerate() {
   const sortedData = dataItems.sort();
   const buttonsArr = [];
-  const chartData = sortedData.map((state) => {
+  const chartData = sortedData.map(state => {
     buttonsArr.push(button(state));
     const stats = states.states[state];
     return dataGenerate(stats);
@@ -114,7 +115,7 @@ function dataCards() {
   const statesArr = Object.values(states.states);
   const sortedStates = sort(statesArr, sortParam, sortOrder);
   let statesDisplay = "";
-  sortedStates.map((state) => {
+  sortedStates.map(state => {
     const firstCaseDate = moment(state.firstCase).format("MMMM D, YYYY");
     let firstDeathDate = "";
     if (state.firstDeath) {
@@ -174,13 +175,14 @@ function dataCards() {
   }
 }
 
-function sortelectButtons() {
+function sortSelectButtons() {
   const selectButtons = document.querySelectorAll(".js-sort-button");
 
   for (const button of selectButtons) {
     button.addEventListener("click", sortTypeSet);
   }
 }
+
 function sortTypeSet(event) {
   const id = event.target.value;
   if (sortParam !== id) {
@@ -188,32 +190,20 @@ function sortTypeSet(event) {
     const activeButton = document.querySelectorAll(".js-sort-button");
     for (const button of activeButton) {
       button.classList.remove("selected-item--selected");
-      button.disabled = false;
     }
-    const cardsContainer = document.querySelector(`#${event.target.id}`);
-    cardsContainer.classList.add("selected-item--selected");
-    cardsContainer.disabled = true;
-  }
-  dataCards();
-}
 
-function sortOrderButton() {
-  const selectButtons = document.querySelectorAll(".js-sort-select-button");
-
-  for (const button of selectButtons) {
-    button.addEventListener("click", sortOrderSet);
-  }
-}
-function sortOrderSet(event) {
-  const activeButton = document.querySelector("#sort-order");
-  if (sortOrder === "az") {
-    sortOrder = "za";
-    activeButton.innerHTML = "Z/A";
+    const selectedButton = document.querySelector(`#${event.target.id}`);
+    selectedButton.classList.add("selected-item--selected");
   } else {
-    sortOrder = "az";
-    activeButton.innerHTML = "A/Z";
+    const sortContainer = document.querySelector(".card-sort");
+    if (sortOrder === "az") {
+      sortOrder = "za";
+      sortContainer.classList.add("sort-order--reversed");
+    } else {
+      sortOrder = "az";
+      sortContainer.classList.remove("sort-order--reversed");
+    }
   }
-
   dataCards();
 }
 
@@ -256,10 +246,10 @@ function dataTypeSet(event) {
 function dataClear(event) {
   const id = event.target.value;
   if (dataItems.includes(id)) {
-    const newArr = chart.data.datasets.filter((i) => i.label !== id);
+    const newArr = chart.data.datasets.filter(i => i.label !== id);
     const sortedArr = newArr.sort();
     chart.data.datasets = sortedArr;
-    const filteredItems = dataItems.filter((i) => i !== id);
+    const filteredItems = dataItems.filter(i => i !== id);
     const sortedItems = filteredItems.sort();
     dataItems = sortedItems;
     chart.update();
@@ -271,8 +261,43 @@ function dataClear(event) {
     selectionGenerate();
   }
 }
+
+function disableCollapse() {
+  // const width = window.innerWidth;
+  const details = document.querySelectorAll(".data-card__contents");
+  // if (width > 600) {
+  for (const item of details) {
+    item.addEventListener("click", e => {
+      e.preventDefault();
+    });
+    //   }
+    // } else if (width <= 600) {
+    //   for (const item of details) {
+    //     item.removeEventListener("click");
+    //   }
+  }
+}
+
+// window.onresize = disableCollapse;
+function setCollapse() {
+  const width = window.innerWidth;
+  const details = document.querySelectorAll(".data-card__contents");
+  if (width <= 600) {
+    for (const item of details) {
+      item.open = false;
+    }
+  } else if (width > 600) {
+    for (const item of details) {
+      item.open = true;
+    }
+  }
+}
+
+window.onloadend = setCollapse;
+window.onresize = setCollapse;
+
 dataCards();
 chartGenerate();
 dataSelectButtons();
-sortelectButtons();
-sortOrderButton();
+sortSelectButtons();
+// disableCollapse();
