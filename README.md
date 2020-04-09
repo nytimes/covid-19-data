@@ -42,6 +42,14 @@ date,county,state,fips,cases,deaths
 
 In some cases, the geographies where cases are reported do not map to standard county boundaries. See the list of [geographic exceptions](#geographic-exceptions) for more detail on these.
 
+### Population data
+
+Two additional files are provided:
+
+- `pop_est_2019.csv` provides estimated 2019 population by county.
+  Data are from [U.S. Census Bureau, Population Division, "Annual Estimates of the Resident Population for Counties in the United States: April 1, 2010 to July 1, 2019 (CO-EST2019-ANNRES)"](https://www.census.gov/data/tables/time-series/demo/popest/2010s-counties-total.html).
+- `co_fips.csv` cross-links FIPS codes with state and county names.
+
 ## Methodology and Definitions
 
 The data is the product of dozens of journalists working across several time zones to monitor news conferences, analyze data releases and seek clarification from public officials on how they categorize cases. 
