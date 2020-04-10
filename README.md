@@ -47,7 +47,7 @@ In some cases, the geographies where cases are reported do not map to standard c
 Two additional files are provided:
 
 - `pop_est_2019.csv` provides estimated 2019 population by county.
-  Data are from [U.S. Census Bureau, Population Division, "Annual Estimates of the Resident Population for Counties in the United States: April 1, 2010 to July 1, 2019 (CO-EST2019-ANNRES)"](https://www.census.gov/data/tables/time-series/demo/popest/2010s-counties-total.html).
+  Data are from [U.S. Census Bureau, Population Division, "Annual Estimates of the Resident Population for Counties in the United States: April 1, 2010 to July 1, 2019 (CO-EST2019-ANNRES)"](https://www2.census.gov/programs-surveys/popest/tables/2010-2019/counties/totals/co-est2019-annres.xlsx).
 - `co_fips.csv` cross-links FIPS codes with state and county names.
 
 ## Methodology and Definitions
