@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./css/styles.css" />
     <link rel="stylesheet" href="https://use.typekit.net/pmr7ssp.css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+
     <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
   </head>
   <body>
@@ -46,6 +47,20 @@
           class="selected-item js-data-select-button"
         >
           Daily New Deaths
+        </button>
+        <button
+          value="casesPop"
+          id="casesPop-select"
+          class="selected-item js-data-select-button"
+        >
+          Cases % of Pop
+        </button>
+        <button
+          value="deathsPop"
+          id="deathsPop-select"
+          class="selected-item js-data-select-button"
+        >
+          Deaths % of Pop
         </button>
       </div>
       <div class="chart-container">
@@ -204,13 +219,98 @@
               </svg>
             </span>
           </button>
+          <button
+            id="population-sort"
+            value="population"
+            class="selected-item sort-selector js-sort-button"
+          >
+            Population<span class="sort-order-icon" id="population-sort-icon">
+              <?xml version="1.0" encoding="utf-8"?>
+              <svg
+                version="1.1"
+                id="Layer_1"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                x="0px"
+                y="0px"
+                viewBox="0 0 22 22"
+                style="enable-background: new 0 0 22 22;"
+                fill="currentColor"
+                xml:space="preserve"
+                height="1em"
+              >
+                <polygon
+                  points="18.3,10.2 11.9,16.8 11.9,0 9.1,0 9.1,16.8 2.7,10.2 2.7,14.3 10.5,22 18.3,14.3 "
+                />
+              </svg>
+            </span>
+          </button>
+          <button
+            id="cases-pop-sort"
+            value="casesPop"
+            class="selected-item sort-selector js-sort-button"
+          >
+            Cases % of Pop<span
+              class="sort-order-icon"
+              id="cases-pop-sort-icon"
+            >
+              <?xml version="1.0" encoding="utf-8"?>
+              <svg
+                version="1.1"
+                id="Layer_1"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                x="0px"
+                y="0px"
+                viewBox="0 0 22 22"
+                style="enable-background: new 0 0 22 22;"
+                fill="currentColor"
+                xml:space="preserve"
+                height="1em"
+              >
+                <polygon
+                  points="18.3,10.2 11.9,16.8 11.9,0 9.1,0 9.1,16.8 2.7,10.2 2.7,14.3 10.5,22 18.3,14.3 "
+                />
+              </svg>
+            </span>
+          </button>
+          <button
+            id="deaths-pop-sort"
+            value="deathsPop"
+            class="selected-item sort-selector js-sort-button"
+          >
+            Deaths % of Pop<span
+              class="sort-order-icon"
+              id="deaths-pop-sort-icon"
+            >
+              <?xml version="1.0" encoding="utf-8"?>
+              <svg
+                version="1.1"
+                id="Layer_1"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                x="0px"
+                y="0px"
+                viewBox="0 0 22 22"
+                style="enable-background: new 0 0 22 22;"
+                fill="currentColor"
+                xml:space="preserve"
+                height="1em"
+              >
+                <polygon
+                  points="18.3,10.2 11.9,16.8 11.9,0 9.1,0 9.1,16.8 2.7,10.2 2.7,14.3 10.5,22 18.3,14.3 "
+                />
+              </svg>
+            </span>
+          </button>
         </div>
       </div>
       <div id="cards-container" class="cards-container"></div>
     </section>
     <footer>
-      <!-- data from ny times -->
-      <!-- how to contribute w/ github icon -->
+      <span class="footer__text"
+        >Design ©2020 <a href="https://roblahoda.com">Rob Lahoda</a></span
+      >
     </footer>
   </body>
   <script src="./js/states.js" type="module"></script>

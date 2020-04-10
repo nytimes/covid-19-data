@@ -6,8 +6,12 @@ let dataItems = Object.keys(states.states);
 let sortParam = "name";
 let sortOrder = "az";
 
+function numberWithCommas(x) {
+  return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+}
+
 const ctx = document.getElementById("dataChart").getContext("2d");
-chart = new Chart(ctx, {
+const chart = new Chart(ctx, {
   // The type of chart we want to create
   type: "line",
 
@@ -15,13 +19,18 @@ chart = new Chart(ctx, {
   data: { datasets: [] },
 
   options: {
+    legend: {
+      display: false,
+    },
     aspectRatio: 2,
     scales: {
       xAxes: [
         {
           type: "time",
           time: {
+            tooltipFormat: "MMMM D, YYYY",
             unit: "day",
+            displayFormats: { day: "MM/D" },
           },
         },
       ],
@@ -29,10 +38,11 @@ chart = new Chart(ctx, {
   },
 });
 
-function button(id) {
-  return `<button value="${id}" id="remove-item" class="selected-item js-clear-button">
+function button(id, color) {
+  const str = id.replace(/\s+/g, "-").toLowerCase();
+  return `<button value="${id}" id="select-${str}"class="selected-item js-clear-button"style="border:solid 3px ${color};">
   ${id}
-  <span class="selected-item__icon">
+  <span class="selected-item__icon" >
   <?xml version="1.0" encoding="utf-8"?>
   <svg
     version="1.1"
@@ -61,13 +71,13 @@ L2.5,8.2L1.7,7.4L4.1,5L1.7,2.6l0.8-0.8l2.4,2.4l2.4-2.4l0.8,0.8L5.8,5L8.2,7.4z"
 }
 
 function selectionGenerate() {
-  const buttonsArr = [];
-  dataItems.map(i => {
-    buttonsArr.push(button(i));
-  });
+  // const buttonsArr = [];
+  // dataItems.map(i => {
+  //   buttonsArr.push(button(i));
+  // });
 
-  const selectedContainer = document.querySelector("#chartSelected");
-  selectedContainer.innerHTML = buttonsArr.join("");
+  // const selectedContainer = document.querySelector("#chartSelected");
+  // selectedContainer.innerHTML = buttonsArr.join("");
   const clearButtons = document.querySelectorAll(".js-clear-button");
 
   for (const button of clearButtons) {
@@ -77,9 +87,13 @@ function selectionGenerate() {
 
 function dataGenerate(data) {
   const processedDataArr = data.data.map(d => {
+    let dataItem = d[dataParam];
+    if (dataParam === "casesPop" || dataParam === "deathsPop") {
+      dataItem = d[dataParam].toFixed(4);
+    }
     return {
       x: new Date(d.date),
-      y: d[dataParam],
+      y: dataItem,
     };
   });
   return {
@@ -94,11 +108,15 @@ function chartGenerate() {
   const sortedData = dataItems.sort();
   const buttonsArr = [];
   const chartData = sortedData.map(state => {
-    buttonsArr.push(button(state));
     const stats = states.states[state];
-    return dataGenerate(stats);
+    const stateData = dataGenerate(stats);
+
+    buttonsArr.push(button(state, stateData.borderColor));
+    return stateData;
   });
   chart.data.datasets = chartData;
+  const selectedContainer = document.querySelector("#chartSelected");
+  selectedContainer.innerHTML = buttonsArr.join("");
   chart.update();
   selectionGenerate();
 }
@@ -131,13 +149,13 @@ function dataCards() {
             <div class="data-card__stats-container">
               <span class="data-card__stats">Total Cases:</span>
               <span class="data-card__stats data-card__stats--highlighted"
-                >${state.cases}</span
+                >${numberWithCommas(state.cases)}</span
               >
             </div>
             <div class="data-card__stats-container">
               <span class="data-card__stats">Total Deaths:</span
               ><span class="data-card__stats data-card__stats--highlighted"
-                >${state.deaths}</span
+                >${numberWithCommas(state.deaths)}</span
               >
             </div>
             <div class="data-card__stats-container">
@@ -160,6 +178,29 @@ function dataCards() {
                 `
               }
             </div>
+            <div class="data-card__stats-container">
+            <span class="data-card__stats">Population:</span
+            ><span class="data-card__stats data-card__stats--highlighted"
+              >${state.population > 0 ? state.population : "Not Available"}
+          </div>
+          <div class="data-card__stats-container">
+          <span class="data-card__stats">% Pop Cases:</span
+          ><span class="data-card__stats data-card__stats--highlighted"
+            >${
+              state.casesPop > 0
+                ? state.casesPop.toFixed(4) + "%"
+                : "Not Available"
+            }
+        </div>
+        <div class="data-card__stats-container">
+        <span class="data-card__stats">% Pop Deaths:</span
+        ><span class="data-card__stats data-card__stats--highlighted"
+          >${
+            state.deathsPop > 0
+              ? state.deathsPop.toFixed(4) + "%"
+              : "Not Available"
+          }
+      </div>
           </details>
           <button class="data-card__select-button js-select-button" value="${
             state.name
@@ -212,7 +253,7 @@ function dataAdd(event) {
   if (id === "all") {
     const itemList = Object.keys(states.states);
     dataItems = itemList.sort();
-    selectionGenerate();
+    chartGenerate();
   } else if (!dataItems.includes(id)) {
     const stats = states.states[id];
     const dataSeries = dataGenerate(stats);
@@ -222,7 +263,7 @@ function dataAdd(event) {
     chart.update();
     const sortedItems = [...dataItems, id];
     dataItems = sortedItems.sort();
-    selectionGenerate();
+    chartGenerate();
     // const card = document.querySelector(`#${id}`);
     // card.classList.add("data-card--selected");
   }
@@ -253,32 +294,18 @@ function dataClear(event) {
     const sortedItems = filteredItems.sort();
     dataItems = sortedItems;
     chart.update();
-    selectionGenerate();
+    const str = id.replace(/\s+/g, "-").toLowerCase();
+    const button = document.querySelector(`#select-${str}`);
+    button.remove();
+    // chartGenerate();
   } else if (id === "clear") {
     chart.data.datasets = [];
     chart.update();
     dataItems = [];
-    selectionGenerate();
+    chartGenerate();
   }
 }
 
-function disableCollapse() {
-  // const width = window.innerWidth;
-  const details = document.querySelectorAll(".data-card__contents");
-  // if (width > 600) {
-  for (const item of details) {
-    item.addEventListener("click", e => {
-      e.preventDefault();
-    });
-    //   }
-    // } else if (width <= 600) {
-    //   for (const item of details) {
-    //     item.removeEventListener("click");
-    //   }
-  }
-}
-
-// window.onresize = disableCollapse;
 function setCollapse() {
   const width = window.innerWidth;
   const details = document.querySelectorAll(".data-card__contents");
@@ -300,4 +327,3 @@ dataCards();
 chartGenerate();
 dataSelectButtons();
 sortSelectButtons();
-// disableCollapse();
