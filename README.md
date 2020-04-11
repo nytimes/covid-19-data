@@ -14,7 +14,7 @@ The data begins with the first reported coronavirus case in Washington State on 
 
 Data on cumulative coronavirus cases and deaths can be found in two files for states and counties.
 
-Each row of data reports cumulative counts based on our best reporting up to the moment we publish an update. We do our best to revise earlier entries in the data when we receive new information.
+Each row of data reports cumulative counts based on our best reporting up to the moment we publish an update. We do our best to revise earlier entries in the data when we receive new information. If a county is not listed for a date, then there were were zero reported confirmed cases and deaths.
 
 Both files contain [FIPS codes](https://www.census.gov/quickfacts/fact/note/US/fips), a standard geographic identifier, to make it easier for an analyst to combine this data with other data sets like a map file or population data.
 
@@ -76,21 +76,31 @@ Sometimes, cases are first reported in one county and then moved to another coun
 
 ### Geographic Exceptions
 
-* New York City
+* New York
 
-All cases for the five boroughs of New York City (New York, Kings, Queens, Bronx and Richmond counties) are assigned to a single area called New York City.
+All cases for the five boroughs of New York City (New York, Kings, Queens, Bronx and Richmond counties) are assigned to a single area called New York City. There is a large jump in the number of deaths on April 6th due to switching from data from New York City to data from New York state for deaths.
+
+For all New York state counties, starting on April 8th we are reporting deaths by place of fatality instead of residence of individual.
 
 * Kansas City, Mo.
 
 Four counties (Cass, Clay, Jackson and Platte) overlap the municipality of Kansas City, Mo. The cases and deaths that we show for these four counties are only for the portions exclusive of Kansas City. Cases and deaths for Kansas City are reported as their own line.
 
-* Alameda, Calif.
+* Alameda County, Calif.
 
 Counts for Alameda County include cases and deaths from Berkeley and the Grand Princess cruise ship.
 
+* Douglas County, Neb.
+
+Counts for Douglas County include cases brought to the state from the Diamond Princess cruise ship.
+
 * Chicago
 
-All cases and deaths for Chicago are reported as part of Cook County. 
+All cases and deaths for Chicago are reported as part of Cook County.
+
+* Guam
+
+Counts for Guam include cases reported from the USS Theodore Roosevelt.
 
 
 ## License and Attribution
