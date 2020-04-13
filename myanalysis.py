@@ -1,3 +1,12 @@
+# %% [markdown]
+# * Update 04/13/2020 - Added new cases trend graphs to the start and reordered the graphs (again) to tell a better story as to how the analysis progressed.
+# * Update 04/12/2020
+# * Update 04/11/2020
+# * Update 04/10/2020
+# * Updated 04/09/2020 - From what I'm seeing on these graphs, all the cities and states I show here are showing flattening -- except New York, LA and Chicago, with NY still being the worst and not improving at all. At least it's no longer growing exponentially I guess.
+# * Looks like the press is starting to ask some of the same questions I'm asking with this analysis:
+#     * https://www.mercurynews.com/2020/04/08/how-california-has-contained-coronavirus-and-new-york-has-not/
+# * I moved the graphs that negate the effects of city population density to the top, since that's mostly what I've been interested in seeing.
 #  %%
 import pandas as pd
 import matplotlib as mpl
@@ -6,7 +15,7 @@ import numpy as np
 from datetime import datetime
 
 mpl.rcParams['lines.linewidth'] = 4.0
-default_figsize=[12, 9]
+default_figsize=[16, 9]
 
 #  %% [markdown]
 # **********************************************************************************************************
@@ -34,6 +43,7 @@ county_cities_east = [
     ['South Carolina', 'Charleston', ['Charleston']],
     ['Florida', 'Miami-Dade', ['Miami']],
     ['Florida', 'Broward', ['Fort Lauderdale']],
+    ['Florida', 'Duval', ['Jacksonville']]
 ]
 county_cities_west = [
     ['New York', 'New York City', ['New York']],
@@ -41,6 +51,12 @@ county_cities_west = [
     ['Washington', 'Snohomish', ['Everett']],
     ['California', 'Los Angeles', ['Los Angeles']],
     ['California', 'San Francisco', ['San Francisco']],
+    ['California', 'San Diego', ['San Diego']],
+    ['Texas', 'Harris', ['Houston']],
+    ['Texas', 'Bexar', ['San Antonio']],
+    ['Texas', 'Dallas', ['Dallas']],
+    ['Texas', 'Travis', ['Austin']],
+    ['Arizona', 'Maricopa', ['Phoenix']]
 ]
 
 county_cities_midwest = [
@@ -49,7 +65,8 @@ county_cities_midwest = [
     ['Louisiana', 'Orleans', ['New Orleans']],
     ['Ohio', 'Cuyahoga', ['Cleveland']],
     ['Michigan', 'Wayne', ['Detroit']],
-    ['Indiana', 'Hamilton', ['Carmel']]
+    ['Indiana', 'Hamilton', ['Carmel']],
+    ['Pennsylvania', 'Philadelphia', ['Philadelphia']]
 ]
 
 county_cities_east_map = pd.DataFrame(county_cities_east, columns = ['state', 'county', 'cities'])
@@ -59,8 +76,69 @@ county_cities_midwest_map = pd.DataFrame(county_cities_midwest, columns = ['stat
 states_east = county_cities_east_map.state.unique()
 states_west = county_cities_west_map.state.unique()
 states_midwest = county_cities_midwest_map.state.unique()
+states = np.unique(np.concatenate((states_east, states_midwest, states_west)))
 
-#  %%
+# %% [markdown]
+# **********************************************************************************************************
+# # New cases per day
+# This trend line is a moving average of new cases over time.
+# **********************************************************************************************************
+# %%
+fig = plt.figure(figsize=[16,9])
+ax = fig.add_axes([0,0,1,1])
+ax.set_title(datetime.now().strftime('%x') + ' Newly reported cases per day trend')
+ax.set_xlabel('Days')
+ax.set_ylabel('New cases')
+ax.set_ylim(0, 0.0001)
+
+def movingaverage(values, window):
+    weights = np.repeat(1.0, window)/window
+    sma = np.convolve(values, weights, 'valid')
+    return sma
+
+def plotnewcases(state='US'):
+    if (state == 'US'):
+        total_cases_by_date = state_cov_data.groupby('date').sum()
+        minimum_cases = 100
+    else:
+        total_cases_by_date = state_cov_data[state_cov_data.state == state].groupby('date').sum()
+        minimum_cases = 15
+
+    total_cases_by_date = total_cases_by_date.reset_index()
+    total_cases_by_date = total_cases_by_date[total_cases_by_date.cases > minimum_cases]
+    delta_cases = total_cases_by_date.cases.to_numpy()[1:] - total_cases_by_date.head(len(total_cases_by_date)-1).cases.to_numpy()[0:]
+
+    delta_cases_ma = movingaverage(delta_cases, 7)
+
+    ax.set_xlim(0, max(delta_cases.size, ax.get_xlim()[1]))
+    ax.set_ylim(0, max(delta_cases.max(), ax.get_ylim()[1]))
+    ax.set_ylim(0, ax.get_ylim()[1] * 1.01)
+    ax.set_yticklabels([''])
+    ax.plot(delta_cases_ma, label=state)
+    lastindex_ma = len(delta_cases_ma) - 1
+    ax.annotate(str(delta_cases[len(delta_cases)-1]), xy=(lastindex_ma + .1, delta_cases_ma[lastindex_ma]))
+    ax.legend()
+
+plotnewcases()
+plotnewcases("New York")
+plotnewcases("New Jersey")
+
+fig = plt.figure(figsize=[16,9])
+ax = fig.add_axes([0,0,1,1])
+ax.set_title(datetime.now().strftime('%x') + ' Newly reported cases per day trend')
+ax.set_xlabel('Days')
+ax.set_ylabel('New cases')
+ax.set_ylim(0, 0.0001)
+
+for state in states:
+    if (state != "New York"):
+        plotnewcases(state)
+
+# %% [markdown]
+# **********************************************************************************************************
+# # State Totals
+# **********************************************************************************************************
+# %%
 def plottotalcases(state, county = 'all'):
     if county == 'all':
         data = state_cov_data[state_cov_data.state == state][['date', 'cases']]
@@ -80,11 +158,6 @@ def plottotalcases(state, county = 'all'):
         else:
             ax.plot(data_asarray, label=county + ',  ' + state)
 
-# %% [markdown]
-# **********************************************************************************************************
-# # State Totals
-# **********************************************************************************************************
-# %%
 for dataset in [states_east, states_midwest, states_west]:
     starting_cases = 1000
     fig = plt.figure(figsize=default_figsize)
@@ -169,7 +242,7 @@ for dataset in [states_east, states_midwest, states_west]:
 # and Texas also gets 5,000 case, then you can say with high confidence that the people in Texas are likely completely
 # ignoring advice to keep a minimum distance from others. I mean how else could they have the same number of cases as Rhode Island
 # where the same number of people are packed together?
-
+#
 # This graph removes this consideration from the comparison between states. As you can see, New Jersey is doing far worse than
 # than Ohio, Washington and California.
 # **********************************************************************************************************
@@ -207,17 +280,7 @@ for dataset in [states_east, states_midwest, states_west]:
 
 #  %% [markdown]
 # **********************************************************************************************************
-# # City cases adjusted for population density
-# Ohhhh, but I hear you say... Well the area of California is far larger than than of New York. Therefore, the population
-# density of California can EASILY be lower than that of New York, so this skews the results to make California look better.
-# In addition, each state likely has a hotspot city and in those cities the population density may be FAR higher and thus
-# far more likely to spread a virus in the city's immediate area than the state overall.
-# In other words the population density of Los Angeles is probably FAR higher than that of California overall, so ranking
-# by state-wide density isn't really a good way to compare a physically large state like California to a much smaller state
-# like NY or Ohio.
-#
-# Ok, then lets look at individual cities in each of the states!
-#
+# # City total cases adjusted for population density
 # This graph shows that even though Detroit Michigan's population density is around 5x less than that of New York City,
 # the number of virus cases is growing there far faster than even New York and New Orleans (which both suck!). I'd be much
 # more worried if I lived in Detroit right now.
@@ -264,7 +327,6 @@ for dataset in [county_cities_east_map, county_cities_midwest_map, county_cities
 #  %% [markdown]
 # **********************************************************************************************************
 # # City deaths adjusted for population density
-#
 # **********************************************************************************************************
 #  %%
 for dataset in [county_cities_east_map, county_cities_midwest_map, county_cities_west_map]:
