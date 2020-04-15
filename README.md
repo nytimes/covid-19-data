@@ -82,6 +82,10 @@ All cases for the five boroughs of New York City (New York, Kings, Queens, Bronx
 
 For all New York state counties, starting on April 8th we are reporting deaths by place of fatality instead of residence of individual.
 
+* Georgia
+
+Starting April 12th, our case count excludes cases labeled by the state as "Non-Georgia Resident" leading to a one day drop in cases. These cases were previously included as cases with "Unknown" county.
+
 * Kansas City, Mo.
 
 Four counties (Cass, Clay, Jackson and Platte) overlap the municipality of Kansas City, Mo. The cases and deaths that we show for these four counties are only for the portions exclusive of Kansas City. Cases and deaths for Kansas City are reported as their own line.
