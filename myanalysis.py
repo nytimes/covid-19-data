@@ -1,4 +1,5 @@
 # %% [markdown]
+# * Update 04/15/2020
 # * Update 04/13/2020 - Added new cases trend graphs to the start and reordered the graphs (again) to tell a better story as to how the analysis progressed.
 # * Update 04/12/2020
 # * Update 04/11/2020
