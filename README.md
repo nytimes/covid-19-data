@@ -1,6 +1,6 @@
 # Coronavirus (Covid-19) Data in the United States
 
-[ [U.S. State-Level Data](us-states.csv) ([Raw CSV](https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-states.csv)) | [U.S. County-Level Data](us-counties.csv) ([Raw CSV](https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv)) ]
+[ [U.S. Data](us.csv) ([Raw CSV](https://raw.githubusercontent.com/nytimes/covid-19-data/master/us.csv)) | [U.S. State-Level Data](us-states.csv) ([Raw CSV](https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-states.csv)) | [U.S. County-Level Data](us-counties.csv) ([Raw CSV](https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv)) ]
 
 The New York Times is releasing a series of data files with cumulative counts of coronavirus cases in the United States, at the state and county level, over time. We are compiling this time series data from state and local governments and health departments in an attempt to provide a complete record of the ongoing outbreak.
 
@@ -12,13 +12,23 @@ The data begins with the first reported coronavirus case in Washington State on 
 
 ## United States Data
 
-Data on cumulative coronavirus cases and deaths can be found in two files for states and counties.
+Data on cumulative coronavirus cases and deaths can be found in three files, one for each of these geographic levels: U.S., states and counties.
+ 
+Each row of data reports cumulative counts based on our best reporting up to the moment we publish an update. We do our best to revise earlier entries in the data when we receive new information. If a county is not listed for a date, then there were zero reported confirmed cases and deaths.
 
-Each row of data reports cumulative counts based on our best reporting up to the moment we publish an update. We do our best to revise earlier entries in the data when we receive new information. If a county is not listed for a date, then there were were zero reported confirmed cases and deaths.
-
-Both files contain [FIPS codes](https://www.census.gov/quickfacts/fact/note/US/fips), a standard geographic identifier, to make it easier for an analyst to combine this data with other data sets like a map file or population data.
+State and county files contain [FIPS codes](https://www.census.gov/quickfacts/fact/note/US/fips), a standard geographic identifier, to make it easier for an analyst to combine this data with other data sets like a map file or population data.
 
 Download all the data or clone this repository by clicking the green "Clone or download" button above.
+
+### U.S. National-Level Data
+
+The daily number of cases and deaths nationwide, including states, U.S. territories and the District of Columbia, can be found in the [us.csv](us.csv) file.  ([Raw CSV file here.](https://raw.githubusercontent.com/nytimes/covid-19-data/master/us.csv))
+
+```
+date,cases,deaths
+2020-01-21,1,0
+...
+```
 
 ### State-Level Data
 
@@ -115,7 +125,7 @@ If you use this data, you must attribute it to “The New York Times” in any p
 
 If you use it in an online presentation, we would appreciate it if you would link to our U.S. tracking page at [https://www.nytimes.com/interactive/2020/us/coronavirus-us-cases.html](https://www.nytimes.com/interactive/2020/us/coronavirus-us-cases.html).
 
-If you use this data, please let us know at covid-data@nytimes.com and indicate if you would be willing to talk to a reporter about your research.
+If you use this data, please let us know at covid-data@nytimes.com.
 
 See our [LICENSE](LICENSE) for the full terms of use for this data.
 
