@@ -910,7 +910,7 @@ date,state,fips,cases,deaths
 2020-03-19,Colorado,08,278,5
 2020-03-19,Connecticut,09,159,4
 2020-03-19,Delaware,10,30,0
-2020-03-19,District of Columbia,11,68,0
+2020-03-19,District of Columbia,11,39,0
 2020-03-19,Florida,12,434,8
 2020-03-19,Georgia,13,282,10
 2020-03-19,Guam,66,12,0
@@ -964,7 +964,7 @@ date,state,fips,cases,deaths
 2020-03-20,Colorado,08,364,5
 2020-03-20,Connecticut,09,194,4
 2020-03-20,Delaware,10,39,0
-2020-03-20,District of Columbia,11,77,1
+2020-03-20,District of Columbia,11,71,0
 2020-03-20,Florida,12,564,9
 2020-03-20,Georgia,13,482,14
 2020-03-20,Guam,66,14,0
@@ -1018,7 +1018,7 @@ date,state,fips,cases,deaths
 2020-03-21,Colorado,08,475,6
 2020-03-21,Connecticut,09,223,5
 2020-03-21,Delaware,10,45,0
-2020-03-21,District of Columbia,11,98,1
+2020-03-21,District of Columbia,11,77,1
 2020-03-21,Florida,12,764,11
 2020-03-21,Georgia,13,552,20
 2020-03-21,Guam,66,15,0
@@ -1072,7 +1072,7 @@ date,state,fips,cases,deaths
 2020-03-22,Colorado,08,591,7
 2020-03-22,Connecticut,09,327,8
 2020-03-22,Delaware,10,56,0
-2020-03-22,District of Columbia,11,116,2
+2020-03-22,District of Columbia,11,98,1
 2020-03-22,Florida,12,1000,13
 2020-03-22,Georgia,13,620,25
 2020-03-22,Guam,66,27,1
@@ -1126,7 +1126,7 @@ date,state,fips,cases,deaths
 2020-03-23,Colorado,08,721,10
 2020-03-23,Connecticut,09,415,10
 2020-03-23,Delaware,10,87,0
-2020-03-23,District of Columbia,11,138,2
+2020-03-23,District of Columbia,11,116,2
 2020-03-23,Florida,12,1222,18
 2020-03-23,Georgia,13,800,25
 2020-03-23,Guam,66,29,1
@@ -1180,7 +1180,7 @@ date,state,fips,cases,deaths
 2020-03-24,Colorado,08,912,11
 2020-03-24,Connecticut,09,618,12
 2020-03-24,Delaware,10,104,0
-2020-03-24,District of Columbia,11,183,2
+2020-03-24,District of Columbia,11,137,2
 2020-03-24,Florida,12,1467,19
 2020-03-24,Georgia,13,1097,38
 2020-03-24,Guam,66,32,1
@@ -1234,7 +1234,7 @@ date,state,fips,cases,deaths
 2020-03-25,Colorado,08,1086,19
 2020-03-25,Connecticut,09,875,19
 2020-03-25,Delaware,10,119,0
-2020-03-25,District of Columbia,11,231,3
+2020-03-25,District of Columbia,11,183,2
 2020-03-25,Florida,12,1965,23
 2020-03-25,Georgia,13,1387,47
 2020-03-25,Guam,66,32,1
@@ -1288,7 +1288,7 @@ date,state,fips,cases,deaths
 2020-03-26,Colorado,08,1432,24
 2020-03-26,Connecticut,09,1012,21
 2020-03-26,Delaware,10,143,1
-2020-03-26,District of Columbia,11,267,3
+2020-03-26,District of Columbia,11,231,3
 2020-03-26,Florida,12,2477,29
 2020-03-26,Georgia,13,1643,56
 2020-03-26,Guam,66,49,1
@@ -1342,7 +1342,7 @@ date,state,fips,cases,deaths
 2020-03-27,Colorado,08,1735,31
 2020-03-27,Connecticut,09,1291,27
 2020-03-27,Delaware,10,165,2
-2020-03-27,District of Columbia,11,304,4
+2020-03-27,District of Columbia,11,267,3
 2020-03-27,Florida,12,3198,46
 2020-03-27,Georgia,13,2198,64
 2020-03-27,Guam,66,53,1
@@ -1396,7 +1396,7 @@ date,state,fips,cases,deaths
 2020-03-28,Colorado,08,2061,44
 2020-03-28,Connecticut,09,1524,33
 2020-03-28,Delaware,10,214,5
-2020-03-28,District of Columbia,11,342,4
+2020-03-28,District of Columbia,11,304,4
 2020-03-28,Florida,12,4038,56
 2020-03-28,Georgia,13,2447,79
 2020-03-28,Guam,66,57,1
@@ -1451,7 +1451,7 @@ date,state,fips,cases,deaths
 2020-03-29,Colorado,08,2315,47
 2020-03-29,Connecticut,09,1993,34
 2020-03-29,Delaware,10,232,6
-2020-03-29,District of Columbia,11,342,4
+2020-03-29,District of Columbia,11,342,5
 2020-03-29,Florida,12,4942,59
 2020-03-29,Georgia,13,2683,83
 2020-03-29,Guam,66,58,1
@@ -1506,7 +1506,7 @@ date,state,fips,cases,deaths
 2020-03-30,Colorado,08,2628,51
 2020-03-30,Connecticut,09,2571,36
 2020-03-30,Delaware,10,264,7
-2020-03-30,District of Columbia,11,495,9
+2020-03-30,District of Columbia,11,401,9
 2020-03-30,Florida,12,5694,71
 2020-03-30,Georgia,13,3032,102
 2020-03-30,Guam,66,60,1
@@ -1874,7 +1874,7 @@ date,state,fips,cases,deaths
 2020-04-05,South Carolina,45,2049,44
 2020-04-05,South Dakota,46,240,2
 2020-04-05,Tennessee,47,3538,50
-2020-04-05,Texas,48,7094,137
+2020-04-05,Texas,48,7091,136
 2020-04-05,Utah,49,1605,8
 2020-04-05,Vermont,50,512,22
 2020-04-05,Virgin Islands,78,42,0
@@ -1929,7 +1929,7 @@ date,state,fips,cases,deaths
 2020-04-06,South Carolina,45,2232,48
 2020-04-06,South Dakota,46,288,4
 2020-04-06,Tennessee,47,3753,65
-2020-04-06,Texas,48,8115,160
+2020-04-06,Texas,48,8104,159
 2020-04-06,Utah,49,1675,13
 2020-04-06,Vermont,50,543,23
 2020-04-06,Virgin Islands,78,43,1
@@ -1946,7 +1946,7 @@ date,state,fips,cases,deaths
 2020-04-07,Colorado,08,5429,179
 2020-04-07,Connecticut,09,7781,277
 2020-04-07,Delaware,10,928,16
-2020-04-07,District of Columbia,11,1211,22
+2020-04-07,District of Columbia,11,1211,24
 2020-04-07,Florida,12,14739,295
 2020-04-07,Georgia,13,9156,348
 2020-04-07,Guam,66,274,4
@@ -1984,7 +1984,7 @@ date,state,fips,cases,deaths
 2020-04-07,South Carolina,45,2417,51
 2020-04-07,South Dakota,46,320,6
 2020-04-07,Tennessee,47,4010,72
-2020-04-07,Texas,48,8974,178
+2020-04-07,Texas,48,8968,177
 2020-04-07,Utah,49,1752,13
 2020-04-07,Vermont,50,575,23
 2020-04-07,Virgin Islands,78,45,1
@@ -2039,7 +2039,7 @@ date,state,fips,cases,deaths
 2020-04-08,South Carolina,45,2552,63
 2020-04-08,South Dakota,46,393,6
 2020-04-08,Tennessee,47,4246,83
-2020-04-08,Texas,48,9900,195
+2020-04-08,Texas,48,9897,195
 2020-04-08,Utah,49,1875,13
 2020-04-08,Vermont,50,605,23
 2020-04-08,Virgin Islands,78,45,1
@@ -2151,7 +2151,7 @@ date,state,fips,cases,deaths
 2020-04-10,South Carolina,45,3065,72
 2020-04-10,South Dakota,46,536,7
 2020-04-10,Tennessee,47,4793,104
-2020-04-10,Texas,48,12288,247
+2020-04-10,Texas,48,12290,246
 2020-04-10,Utah,49,2103,17
 2020-04-10,Vermont,50,679,24
 2020-04-10,Virgin Islands,78,46,1
@@ -2207,7 +2207,7 @@ date,state,fips,cases,deaths
 2020-04-11,South Carolina,45,3207,80
 2020-04-11,South Dakota,46,626,6
 2020-04-11,Tennessee,47,4983,107
-2020-04-11,Texas,48,13206,266
+2020-04-11,Texas,48,13208,265
 2020-04-11,Utah,49,2206,18
 2020-04-11,Vermont,50,711,25
 2020-04-11,Virgin Islands,78,51,1
@@ -2263,7 +2263,7 @@ date,state,fips,cases,deaths
 2020-04-12,South Carolina,45,3319,82
 2020-04-12,South Dakota,46,730,6
 2020-04-12,Tennessee,47,5144,107
-2020-04-12,Texas,48,13774,289
+2020-04-12,Texas,48,13776,288
 2020-04-12,Utah,49,2303,18
 2020-04-12,Vermont,50,727,27
 2020-04-12,Virgin Islands,78,51,1
@@ -2284,7 +2284,7 @@ date,state,fips,cases,deaths
 2020-04-13,District of Columbia,11,1955,52
 2020-04-13,Florida,12,21011,498
 2020-04-13,Georgia,13,13125,479
-2020-04-13,Guam,66,716,6
+2020-04-13,Guam,66,719,6
 2020-04-13,Hawaii,15,502,9
 2020-04-13,Idaho,16,1453,33
 2020-04-13,Illinois,17,22025,800
@@ -2431,7 +2431,7 @@ date,state,fips,cases,deaths
 2020-04-15,South Carolina,45,3656,107
 2020-04-15,South Dakota,46,1168,6
 2020-04-15,Tennessee,47,5878,137
-2020-04-15,Texas,48,16103,395
+2020-04-15,Texas,48,16106,395
 2020-04-15,Utah,49,2549,20
 2020-04-15,Vermont,50,759,30
 2020-04-15,Virgin Islands,78,51,1
@@ -2446,7 +2446,7 @@ date,state,fips,cases,deaths
 2020-04-16,Arizona,04,4234,152
 2020-04-16,Arkansas,05,1620,37
 2020-04-16,California,06,28142,971
-2020-04-16,Colorado,08,8675,355
+2020-04-16,Colorado,08,8675,374
 2020-04-16,Connecticut,09,15884,971
 2020-04-16,Delaware,10,2075,52
 2020-04-16,District of Columbia,11,2350,81
@@ -2487,7 +2487,7 @@ date,state,fips,cases,deaths
 2020-04-16,South Carolina,45,3931,109
 2020-04-16,South Dakota,46,1311,7
 2020-04-16,Tennessee,47,6090,144
-2020-04-16,Texas,48,16926,428
+2020-04-16,Texas,48,16928,428
 2020-04-16,Utah,49,2683,21
 2020-04-16,Vermont,50,768,35
 2020-04-16,Virgin Islands,78,51,1
@@ -2506,7 +2506,7 @@ date,state,fips,cases,deaths
 2020-04-17,Connecticut,09,16809,1036
 2020-04-17,Delaware,10,2323,61
 2020-04-17,District of Columbia,11,2476,86
-2020-04-17,Florida,12,24745,726
+2020-04-17,Florida,12,24745,725
 2020-04-17,Georgia,13,16658,661
 2020-04-17,Guam,66,796,6
 2020-04-17,Hawaii,15,547,9
@@ -2527,7 +2527,7 @@ date,state,fips,cases,deaths
 2020-04-17,Montana,30,422,8
 2020-04-17,Nebraska,31,1216,24
 2020-04-17,Nevada,32,3524,151
-2020-04-17,New Hampshire,33,1287,40
+2020-04-17,New Hampshire,33,1287,37
 2020-04-17,New Jersey,34,78467,3840
 2020-04-17,New Mexico,35,1711,51
 2020-04-17,New York,36,229642,12822
@@ -2543,7 +2543,7 @@ date,state,fips,cases,deaths
 2020-04-17,South Carolina,45,4086,116
 2020-04-17,South Dakota,46,1411,7
 2020-04-17,Tennessee,47,6438,150
-2020-04-17,Texas,48,18130,461
+2020-04-17,Texas,48,18131,461
 2020-04-17,Utah,49,2813,23
 2020-04-17,Vermont,50,779,35
 2020-04-17,Virgin Islands,78,51,2
@@ -2552,3 +2552,59 @@ date,state,fips,cases,deaths
 2020-04-17,West Virginia,54,776,16
 2020-04-17,Wisconsin,55,4045,205
 2020-04-17,Wyoming,56,305,2
+2020-04-18,Alabama,01,4723,147
+2020-04-18,Alaska,02,312,7
+2020-04-18,American Samoa,60,0,0
+2020-04-18,Arizona,04,4719,181
+2020-04-18,Arkansas,05,1777,38
+2020-04-18,California,06,30829,1146
+2020-04-18,Colorado,08,9433,409
+2020-04-18,Connecticut,09,17550,1086
+2020-04-18,Delaware,10,2538,67
+2020-04-18,District of Columbia,11,2666,91
+2020-04-18,Florida,12,25484,747
+2020-04-18,Georgia,13,17014,670
+2020-04-18,Guam,66,805,6
+2020-04-18,Hawaii,15,568,9
+2020-04-18,Idaho,16,1577,44
+2020-04-18,Illinois,17,29160,1272
+2020-04-18,Indiana,18,10641,545
+2020-04-18,Iowa,19,2513,74
+2020-04-18,Kansas,20,1820,86
+2020-04-18,Kentucky,21,2707,145
+2020-04-18,Louisiana,22,23580,1267
+2020-04-18,Maine,23,847,32
+2020-04-18,Maryland,24,12308,463
+2020-04-18,Massachusetts,25,36372,1560
+2020-04-18,Michigan,26,30717,2307
+2020-04-18,Minnesota,27,2213,121
+2020-04-18,Mississippi,28,3974,152
+2020-04-18,Missouri,29,5517,194
+2020-04-18,Montana,30,426,10
+2020-04-18,Nebraska,31,1348,28
+2020-04-18,Nevada,32,3626,155
+2020-04-18,New Hampshire,33,1342,38
+2020-04-18,New Jersey,34,81420,4070
+2020-04-18,New Mexico,35,1798,53
+2020-04-18,New York,36,236763,13362
+2020-04-18,North Carolina,37,6140,175
+2020-04-18,North Dakota,38,528,9
+2020-04-18,Northern Mariana Islands,69,14,2
+2020-04-18,Ohio,39,10222,451
+2020-04-18,Oklahoma,40,2570,139
+2020-04-18,Oregon,41,1844,72
+2020-04-18,Pennsylvania,42,31742,1150
+2020-04-18,Puerto Rico,72,1118,60
+2020-04-18,Rhode Island,44,4491,137
+2020-04-18,South Carolina,45,4246,119
+2020-04-18,South Dakota,46,1542,7
+2020-04-18,Tennessee,47,6637,152
+2020-04-18,Texas,48,18927,487
+2020-04-18,Utah,49,2942,25
+2020-04-18,Vermont,50,803,37
+2020-04-18,Virgin Islands,78,53,3
+2020-04-18,Virginia,51,8053,258
+2020-04-18,Washington,53,11802,629
+2020-04-18,West Virginia,54,825,18
+2020-04-18,Wisconsin,55,4199,212
+2020-04-18,Wyoming,56,309,2
