@@ -1,4 +1,7 @@
 # %% [markdown]
+# * Update 04/19/2020 - Added plotly graphs
+# * Update 04/15/2020
+# * Update 04/14/2020
 # * Update 04/13/2020 - Added new cases trend graphs to the start and reordered the graphs (again) to tell a better story as to how the analysis progressed.
 # * Update 04/12/2020
 # * Update 04/11/2020
@@ -17,6 +20,7 @@ import plotly.graph_objects as go
 
 mpl.rcParams['lines.linewidth'] = 4.0
 default_figsize=[16, 9]
+default_width=3
 
 #  %% [markdown]
 # **********************************************************************************************************
@@ -47,7 +51,6 @@ county_cities_east = [
     ['Florida', 'Duval', ['Jacksonville']]
 ]
 county_cities_west = [
-    ['New York', 'New York City', ['New York']],
     ['Washington', 'King', ['Seattle']],
     ['Washington', 'Snohomish', ['Everett']],
     ['California', 'Los Angeles', ['Los Angeles']],
@@ -61,7 +64,6 @@ county_cities_west = [
 ]
 
 county_cities_midwest = [
-    ['New York', 'New York City', ['New York']],
     ['Illinois', 'Cook', ['Chicago']],
     ['Louisiana', 'Orleans', ['New Orleans']],
     ['Ohio', 'Cuyahoga', ['Cleveland']],
@@ -107,16 +109,9 @@ def plotnewcases(plot, state='US'):
     df = pd.DataFrame(delta_cases_ma, columns=['new'])
     df['days'] = df.index
 
-    if (plot == None):
-        plot = go.Figure()
-        plot.add_trace(go.Scatter(x=df.days, y=df.new, mode='lines', name=state, line = { 'width': 4 }))
-        return plot
-    else:
-        plot.add_trace(go.Scatter(x=df.days, y=df.new, mode='lines', name=state))
-        return plot
+    plot.add_trace(go.Scatter(x=df.days, y=df.new, mode='lines', name=state, line = { 'width': default_width }))
 
-plot = plotnewcases(None)
-
+plot = go.Figure()
 for state in states:
     plotnewcases(plot, state)
 
@@ -134,15 +129,12 @@ plot.update_layout(
 
 plot.show()
 
-
-
-plot.show()
 # %% [markdown]
 # **********************************************************************************************************
 # # State Totals
 # **********************************************************************************************************
 # %%
-def plottotalcases(state, county = 'all'):
+def plottotalcases(plot, state, county = 'all'):
     if county == 'all':
         data = state_cov_data[state_cov_data.state == state][['date', 'cases']]
     else:
@@ -151,46 +143,58 @@ def plottotalcases(state, county = 'all'):
 
     data = data[data.cases >= starting_cases]
     if len(data['cases']):
-        data_asarray = data.cases.values
-        ax.set_xlim(0, max(data_asarray.size, ax.get_xlim()[1]))
-        ax.set_ylim(0, max(data['cases'].max(), ax.get_ylim()[1]))
-        ax.set_ylim(0, ax.get_ylim()[1] * 1.01)
+        data.index = [x for x in range(0, len(data))]
 
         if (county == 'all'):
-            ax.plot(data_asarray, label=state)
+            plot.add_trace(go.Scatter(x=data.index, y=data.cases, mode='lines', name=state, line = { 'width': default_width }))
         else:
-            ax.plot(data_asarray, label=county + ',  ' + state)
+            plot.add_trace(go.Scatter(x=data.index, y=data.cases, mode='lines', name=county + ', ' + state, line = { 'width': default_width }))
+
+plot = go.Figure()
 
 for dataset in [states_east, states_midwest, states_west]:
     starting_cases = 1000
-    fig = plt.figure(figsize=default_figsize)
-    ax = fig.add_axes([0,0,1,1])
-    ax.set_title('Total state cases with starting case count = ' + str(starting_cases) + ' Date: ' + datetime.now().strftime('%x'))
-    ax.set_xlabel('Days since hitting ' + str(starting_cases) + ' cases')
-    ax.set_ylabel('Cases')
-    plt.setp(ax.lines)
-
     for s in dataset:
-        plottotalcases(s)
+        plottotalcases(plot, s)
 
-    ax.legend()
+plot.update_layout(
+    title = {
+        'text': datetime.now().strftime('%x') + ' State total cases',
+        'x': 0.5,
+        'xanchor': 'center'
+    },
+    width = 1200,
+    height = 800,
+    xaxis_title = 'Days',
+    yaxis_title = 'Total state cases'
+    )
+
+plot.show()
+
 
 #  %% [markdown]
 # **********************************************************************************************************
 # # County Totals
 # **********************************************************************************************************
+plot = go.Figure()
+
 for dataset in [county_cities_east_map, county_cities_midwest_map, county_cities_west_map]:
     starting_cases = 200
-    fig = plt.figure(figsize=default_figsize)
-    ax = fig.add_axes([0,0,1,1])
-    ax.set_title('Total county cases with starting case count = ' + str(starting_cases) + ' Date: ' + datetime.now().strftime('%x'))
-    ax.set_xlabel('Days since hitting ' + str(starting_cases) + ' cases')
-    ax.set_ylabel('Cases')
-
     for p in dataset.itertuples():
-        plottotalcases(p.state, p.county)
+        plottotalcases(plot, p.state, p.county)
 
-    ax.legend()
+plot.update_layout(
+    title = {
+        'text': datetime.now().strftime('%x') + ' County total cases',
+        'x': 0.5,
+        'xanchor': 'center'
+    },
+    width = 1200,
+    height = 800,
+    xaxis_title = 'Days',
+    yaxis_title = 'Total county cases'
+    )
+plot.show()
 
 #  %% [markdown]
 # **********************************************************************************************************
@@ -205,35 +209,35 @@ for dataset in [county_cities_east_map, county_cities_midwest_map, county_cities
 # than the other states, regardless of how many people live in each state.
 # **********************************************************************************************************
 #  %%
+
+def stateplotpercapita(plot, state):
+    data = state_cov_data[state_cov_data.state == state][['date', 'cases']]
+    data = data[data.cases >= starting_cases]
+    state_population = population_state_density[population_state_density.state == state]
+    if len(state_population):
+        data.index = [x for x in range(0, len(data))]
+        plotdata = data.cases / state_population.population.values[0]
+        if len(data['cases']):
+            plot.add_trace(go.Scatter(x=data.index, y=data.cases, mode='lines', name=state, line = { 'width': default_width }))
+
+plot = go.Figure()
 for dataset in [states_east, states_midwest, states_west]:
     starting_cases = 1000
-    fig = plt.figure(figsize=default_figsize)
-    ax = fig.add_axes([0,0,1,1])
-    ax.set_title(datetime.now().strftime('%x') + ' State cases adjusted for population\nStarting case count = ' + str(starting_cases))
-    ax.set_xlabel('Days since hitting ' + str(starting_cases) + ' cases')
-    ax.set_ylabel('Cases adjusted for state population')
-    ax.set_ylim(0, 0.0001)
-
-    def stateplotpercapita(state):
-        data = state_cov_data[state_cov_data.state == state][['date', 'cases']]
-        data = data[data.cases >= starting_cases]
-        state_population = population_state_density[population_state_density.state == state]
-        if len(state_population):
-            plotdata = data.cases / state_population.population.values[0]
-            if len(data['cases']):
-                    data_asarray = plotdata.values
-                    ax.set_xlim(0, max(data_asarray.size, ax.get_xlim()[1]))
-                    ax.set_ylim(0, max(data_asarray.max(), ax.get_ylim()[1]))
-                    ax.set_ylim(0, ax.get_ylim()[1] * 1.01)
-                    ax.set_yticklabels([''])
-                    ax.plot(data_asarray, label=state)
-                    lastindex = len(data_asarray) - 1
-                    ax.annotate(str(data.cases.max()) + ' cases', xy=(lastindex + .1, data_asarray[lastindex]))
-
     for s in dataset:
-        stateplotpercapita(s)
+        stateplotpercapita(plot, s)
 
-    ax.legend()
+plot.update_layout(
+    title = {
+        'text': datetime.now().strftime('%x') + ' State cases adjusted for population\nStarting case count = ' + str(starting_cases),
+        'x': 0.5,
+        'xanchor': 'center'
+    },
+    width = 1200,
+    height = 800,
+    xaxis_title = 'Days since hitting ' + str(starting_cases) + ' cases',
+    yaxis_title = 'Cases adjusted for state population'
+    )
+plot.show()
 
 #  %% [markdown]
 # **********************************************************************************************************
@@ -250,36 +254,36 @@ for dataset in [states_east, states_midwest, states_west]:
 # than Ohio, Washington and California.
 # **********************************************************************************************************
 #  %%
+def stateplotbydensity(plot, state):
+    data = state_cov_data[state_cov_data.state == state][['date', 'cases']]
+    data = data[data.cases >= starting_cases]
+    state_density = population_state_density[population_state_density.state == state]
+    if len(state_density):
+        data.index = [x for x in range(0, len(data))]
+        plotdata = data.cases / state_density.density.values[0]
+        if len(data['cases']):
+            lastindex = len(data) - 1
+            plot.add_trace(go.Scatter(x=data.index, y=data.cases, mode='lines', name=state, line = { 'width': default_width }))
+
+plot = go.Figure()
 for dataset in [states_east, states_midwest, states_west]:
     starting_cases = 200
-    fig = plt.figure(figsize=default_figsize)
-    ax = fig.add_axes([0,0,1,1])
-    ax.set_title(datetime.now().strftime('%x') + ' State cases adjusted for population density\nStarting case count = ' + str(starting_cases))
-    ax.set_xlabel('Days since hitting ' + str(starting_cases) + ' cases')
-    ax.set_ylabel('Cases adjusted for state population density')
-    ax.set_ylim(0, 0)
-
-    def stateplotbydensity(state):
-        data = state_cov_data[state_cov_data.state == state][['date', 'cases']]
-        data = data[data.cases >= starting_cases]
-        state_density = population_state_density[population_state_density.state == state]
-        if len(state_density):
-            plotdata = data.cases / state_density.density.values[0]
-            if len(data['cases']):
-                data_asarray = plotdata.values
-                ax.set_xlim(0, max(data_asarray.size, ax.get_xlim()[1]))
-                ax.set_ylim(0, max(data_asarray.max(), ax.get_ylim()[1]))
-                ax.set_ylim(0, ax.get_ylim()[1] * 1.01)
-                ax.set_yticklabels([''])
-                ax.plot(data_asarray, label=state)
-                lastindex = len(data_asarray) - 1
-                ax.annotate(str(data.cases.tail(1).values[0]) + ' cases', xy=(lastindex + .1, data_asarray[lastindex]))
-
 
     for s in dataset:
-        stateplotbydensity(s)
+        stateplotbydensity(plot, s)
 
-    ax.legend()
+plot.update_layout(
+    title = {
+        'text': datetime.now().strftime('%x') + ' State cases adjusted for population density\nStarting case count = ' + str(starting_cases),
+        'x': 0.5,
+        'xanchor': 'center'
+    },
+    width = 1200,
+    height = 800,
+    xaxis_title = 'Days since hitting ' + str(starting_cases) + ' cases',
+    yaxis_title = 'Cases adjusted for state population density'
+    )
+plot.show()
 
 #  %% [markdown]
 # **********************************************************************************************************
@@ -291,154 +295,83 @@ for dataset in [states_east, states_midwest, states_west]:
 # Note that Cleveland and Seattle, and Los Angeles are pretty flat, which is good.
 # **********************************************************************************************************
 #  %%
+def cityplotbydensity(plot, state, city):
+    county = 'not found'
+    for x in dataset.itertuples():
+        if city in x.cities and state == x.state:
+            county = x.county
+
+    data = county_cov_data[county_cov_data.state == state][county_cov_data.county == county][['date', 'cases']]
+    data = data[data.cases >= starting_cases]
+    city_density = population_city_density[population_city_density.state == state][population_city_density.city == city]
+    if (len(city_density)):
+        data.index = [x for x in range(0, len(data))]
+        plotdata = data.cases / city_density.density.values[0]
+        if len(data['cases']):
+            lastindex = len(data) - 1
+            plot.add_trace(go.Scatter(x=data.index, y=data.cases, mode='lines', name=city + ', ' + state, line = { 'width': default_width }))
+
+plot = go.Figure()
 for dataset in [county_cities_east_map, county_cities_midwest_map, county_cities_west_map]:
     starting_cases = 20
-    fig = plt.figure(figsize=default_figsize)
-    ax = fig.add_axes([0,0,1,1])
-    ax.set_title(datetime.now().strftime('%x') + ' City cases adjusted for population density\nStarting case count = ' + str(starting_cases))
-    ax.set_xlabel('Days since hitting ' + str(starting_cases) + ' cases')
-    ax.set_ylabel('Cases adjusted for population density')
-    ax.set_ylim(0, 0.0001)
-
-    def cityplotbydensity(state, city):
-        county = 'not found'
-        for x in dataset.itertuples():
-            if city in x.cities and state == x.state:
-                county = x.county
-
-        data = county_cov_data[county_cov_data.state == state][county_cov_data.county == county][['date', 'cases']]
-        data = data[data.cases >= starting_cases]
-        city_density = population_city_density[population_city_density.state == state][population_city_density.city == city]
-        if (len(city_density)):
-            plotdata = data.cases / city_density.density.values[0]
-            if len(data['cases']):
-                data_asarray = plotdata.values
-                ax.set_xlim(0, max(data_asarray.size, ax.get_xlim()[1]))
-                ax.set_ylim(0, max(data_asarray.max(), ax.get_ylim()[1]))
-                ax.set_ylim(0, ax.get_ylim()[1] * 1.01)
-                ax.set_yticklabels([''])
-                ax.plot(data_asarray, label=city + ', ' + state + ' (' + str(city_density.density.values[0]) + ' people/mi^2)')
-                lastindex = len(data_asarray) - 1
-                ax.annotate(str(data.cases.tail(1).values[0]) + ' cases', xy=(lastindex + .1, data_asarray[lastindex]))
 
     for p in dataset.itertuples():
         for c in p.cities:
-            cityplotbydensity(p.state, c)
+            cityplotbydensity(plot, p.state, c)
 
-    ax.legend()
+plot.update_layout(
+    title = {
+        'text': datetime.now().strftime('%x') + ' City cases adjusted for population density\nStarting case count = ' + str(starting_cases),
+        'x': 0.5,
+        'xanchor': 'center'
+    },
+    width = 1200,
+    height = 800,
+    xaxis_title = 'Days since hitting ' + str(starting_cases) + ' cases',
+    yaxis_title = 'Cases adjusted for city population density'
+    )
+plot.show()
 
 #  %% [markdown]
 # **********************************************************************************************************
 # # City deaths adjusted for population density
 # **********************************************************************************************************
 #  %%
+def cityplotbydensity(plot, state, city):
+    county = 'not found'
+    for x in dataset.itertuples():
+        if city in x.cities and state == x.state:
+            county = x.county
+
+    data = county_cov_data[county_cov_data.state == state][county_cov_data.county == county][['date', 'deaths']]
+    data = data[data.deaths >= starting_deaths]
+    city_density = population_city_density[population_city_density.state == state][population_city_density.city == city]
+    if (len(city_density)):
+        data.index = [x for x in range(0, len(data))]
+        plotdata = data.deaths / city_density.density.values[0]
+        if len(data['deaths']):
+            plot.add_trace(go.Scatter(x=data.index, y=plotdata.values, mode='lines', name=city + ', ' + state, line = { 'width': default_width }))
+
+plot = go.Figure()
 for dataset in [county_cities_east_map, county_cities_midwest_map, county_cities_west_map]:
     starting_deaths = 1
-    fig = plt.figure(figsize=default_figsize)
-    ax = fig.add_axes([0,0,1,1])
-    ax.set_title(datetime.now().strftime('%x') + ' City deaths adjusted for population density')
-    ax.set_xlabel('Days since first death')
-    ax.set_ylabel('Deaths adjusted for population density')
-    ax.set_ylim(0, 0.0001)
-
-    def cityplotbydensity(state, city):
-        county = 'not found'
-        for x in dataset.itertuples():
-            if city in x.cities and state == x.state:
-                county = x.county
-
-        data = county_cov_data[county_cov_data.state == state][county_cov_data.county == county][['date', 'deaths']]
-        data = data[data.deaths >= starting_deaths]
-        city_density = population_city_density[population_city_density.state == state][population_city_density.city == city]
-        if (len(city_density)):
-            plotdata = data.deaths / city_density.density.values[0]
-            if len(data['deaths']):
-                value_array = plotdata.values
-                ax.set_xlim(0, max(value_array.size, ax.get_xlim()[1]))
-                ax.set_ylim(0, max(value_array.max(), ax.get_ylim()[1]))
-                ax.set_ylim(0, ax.get_ylim()[1] * 1.01)
-                ax.set_yticklabels([''])
-                ax.plot(value_array, label=city + ', ' + state + ' (' + str(city_density.density.values[0]) + ' people/mi^2)')
-                lastindex = len(value_array) - 1
-                ax.annotate(str(data.deaths.tail(1).values[0]) + ' deaths', xy=(lastindex + .1, value_array[lastindex]))
-
-
     for p in dataset.itertuples():
         for c in p.cities:
-            cityplotbydensity(p.state, c)
+            cityplotbydensity(plot, p.state, c)
 
-    ax.legend()
+plot.update_layout(
+    title = {
+        'text': datetime.now().strftime('%x') + ' City deaths adjusted for population density\nStarting case count = ' + str(starting_cases),
+        'x': 0.5,
+        'xanchor': 'center'
+    },
+    width = 1200,
+    height = 800,
+    xaxis_title = 'Days since first death',
+    yaxis_title = 'Deaths adjusted for city population density'
+    )
+
+plot.show()
+
+
 # %%
-# # %% [markdown]
-# # **********************************************************************************************************
-# # # Use Bokeh for plotting just for kicks
-# # **********************************************************************************************************
-# #  %%
-# import bokeh.plotting as bplt
-# import bokeh.models as bmod
-# from bokeh.palettes import Dark2_5 as palette
-# import itertools
-# #  %%
-# starting_cases = 1000
-
-# # output to static HTML file
-# bplt.output_notebook()
-
-# # create a new plot with a title and axis labels
-# fig_bokeh = bplt.figure(title='Total state cases with starting case count = ' + str(starting_cases), x_axis_label='Days since hitting ' + str(starting_cases) + ' cases', y_axis_label='Cases', plot_width=1200, plot_height=1000)
-# colors = itertools.cycle(palette)
-
-# def plottotalcases_bokeh(state, county = 'all', color = 'black'):
-#     if county == 'all':
-#         data = state_cov_data[state_cov_data.state == state][['date', 'cases']]
-#     else:
-#         data = county_cov_data[county_cov_data.state == state][['date', 'cases', 'county']]
-#         data = data[county_cov_data.county == county][['date', 'cases']]
-
-#     data = data[data.cases >= starting_cases]
-#     if len(data['cases']):
-#         data_asarray = data.cases.values
-#         # fig_bokeh.x_range = bmod.Range1d(0, data_asarray.size)
-#         # fig_bokeh.y_range = bmod.Range1d(0, data['cases'].max())
-#         if (county == 'all'):
-#             fig_bokeh.line(data.cases.reset_index().index.tolist(), data_asarray, color=next(colors), line_width=2, legend_label=state)
-#         else:
-#             fig_bokeh.line(data.cases.reset_index().index.tolist(), data_asarray, color=next(colors), line_width=2, legend_label=county + ',  ' + state)
-
-# # show the results
-# for s in states.unique():
-#     plottotalcases_bokeh(s)
-
-# bplt.show(fig_bokeh)
-# #  %%
-# starting_cases = 200
-
-# # output to static HTML file
-# bplt.output_notebook()
-
-# # create a new plot with a title and axis labels
-# fig_bokeh = bplt.figure(title='Total county cases with starting case count = ' + str(starting_cases), x_axis_label='Days since hitting ' + str(starting_cases) + ' cases', y_axis_label='Cases', plot_width=1200, plot_height=1000)
-# colors = itertools.cycle(palette)
-
-# def plottotalcases_bokeh(state, county = 'all', color = 'black'):
-#     if county == 'all':
-#         data = state_cov_data[state_cov_data.state == state][['date', 'cases']]
-#     else:
-#         data = county_cov_data[county_cov_data.state == state][['date', 'cases', 'county']]
-#         data = data[county_cov_data.county == county][['date', 'cases']]
-
-#     data = data[data.cases >= starting_cases]
-#     if len(data['cases']):
-#         data_asarray = data.cases.values
-#         # fig_bokeh.x_range = bmod.Range1d(0, data_asarray.size)
-#         # fig_bokeh.y_range = bmod.Range1d(0, data['cases'].max())
-#         if (county == 'all'):
-#             fig_bokeh.line(data.cases.reset_index().index.tolist(), data_asarray, color=next(colors), line_width=2, legend_label=state)
-#         else:
-#             fig_bokeh.line(data.cases.reset_index().index.tolist(), data_asarray, color=next(colors), line_width=2, legend_label=county + ',  ' + state)
-
-# # show the results
-# for p in county_cities_map.itertuples():
-#     plottotalcases_bokeh(p.state, p.county)
-
-# bplt.show(fig_bokeh)
