@@ -116,6 +116,10 @@ All cases and deaths for Chicago are reported as part of Cook County.
 
 Counts for Guam include cases reported from the USS Theodore Roosevelt.
 
+* Puerto Rico
+
+We are trying to resolve some inconsistencies with our Puerto Rico data. The territory's health department has said they have been double counting some coronavirus patients in official reports, leading to a higher number of cases reported than actually confirmed. They do not yet know the extent of the problem but are working to resolve it. Additionally, from approximately April 12th through April 18th, the count of deaths for Puerto Rico include some probable Covid-19 related deaths that were not lab-confirmed. We will revise the numbers for these dates as possible.
+
 
 ## License and Attribution
 
