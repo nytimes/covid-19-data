@@ -68,6 +68,12 @@ For those reasons, our data will in some cases not exactly match with the inform
 
 Confirmed cases are patients who test positive for the coronavirus. We consider a case confirmed when it is reported by a federal, state, territorial or local government agency.
 
+* "Probable" Cases
+
+ Some states and counties are starting to report "probable" Covid-19 cases and deaths that do not have a positive laboratory test. For the time being, we are attempting to continue only counting lab-confirmed cases and deaths while we explore the possibility of switching metholodologies or reporting both numbers separately.
+
+ However, in Colorado, Ohio and Pennsylvania health authorities have stopped reporting a lab-confirmed only number and so our numbers for those areas include "probable" cases.
+
 * Dates
 
 For each date, we show the cumulative number of confirmed cases and deaths as reported that day in that county or state. All cases and deaths are counted on the date they are first announced.
