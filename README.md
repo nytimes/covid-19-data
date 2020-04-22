@@ -70,13 +70,17 @@ Confirmed cases are patients who test positive for the coronavirus. We consider 
 
 * "Probable" Cases
 
- Some states and counties are starting to report "probable" Covid-19 cases and deaths that do not have a positive laboratory test. For the time being, we are attempting to continue only counting lab-confirmed cases and deaths while we explore the possibility of switching metholodologies or reporting both numbers separately.
+Some states and counties are starting to report "probable" Covid-19 cases and deaths that do not have a positive laboratory test. For the time being, we are attempting to continue only counting lab-confirmed cases and deaths while we explore the possibility of switching methodologies or reporting both numbers separately.
 
- However, in Colorado, Ohio, Pennsylvania and Virginia health authorities have stopped reporting a lab-confirmed only number and so our numbers for those areas include "probable" cases. In Idaho our cases number is only lab-confirmed cases, but deaths include deaths of "probable" cases.
+However, in Colorado, Ohio, Pennsylvania and Virginia health authorities have stopped reporting a lab-confirmed only number and so our numbers for those areas include "probable" cases. In Idaho our cases number is only lab-confirmed cases, but deaths include deaths of "probable" cases.
 
 * Dates
 
 For each date, we show the cumulative number of confirmed cases and deaths as reported that day in that county or state. All cases and deaths are counted on the date they are first announced.
+
+* Declining Counts
+
+In some cases, the number of cases or deaths for a state or county will decline. This can occur when a state or county corrects an error in the number of cases or deaths they've reported in the past, or when a state moves cases from one county to another. When we are able, we will historically revise counts for all impacted dates. In other cases, this will be reflected in a single-day drop in the number of cases or deaths.
 
 * Counties
 
@@ -101,6 +105,10 @@ For all New York state counties, starting on April 8th we are reporting deaths b
 * Georgia
 
 Starting April 12th, our case count excludes cases labeled by the state as "Non-Georgia Resident" leading to a one day drop in cases. These cases were previously included as cases with "Unknown" county.
+
+* Alabama
+
+Alabama's numbers for April 17th contained an [error](https://twitter.com/ALPublicHealth/status/1251531524958289920) in reporting of lab test results that the state is working to correct.
 
 * Kansas City, Mo.
 
