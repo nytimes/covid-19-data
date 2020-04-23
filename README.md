@@ -68,11 +68,13 @@ For those reasons, our data will in some cases not exactly match with the inform
 
 Confirmed cases are patients who test positive for the coronavirus. We consider a case confirmed when it is reported by a federal, state, territorial or local government agency.
 
-* "Probable" Cases
+* "Probable" Cases and Deaths
 
-Some states and counties are starting to report "probable" Covid-19 cases and deaths that do not have a positive laboratory test. For the time being, we are attempting to continue only counting lab-confirmed cases and deaths while we explore the possibility of switching methodologies or reporting both numbers separately.
+Some states and counties are starting to report "probable" Covid-19 cases and deaths meeting a [standard definition](https://cdn.ymaws.com/www.cste.org/resource/resmgr/2020ps/interim-20-id-01_covid-19.pdf), but which do not have a positive laboratory test. For the time being, we are attempting to continue only counting lab-confirmed cases and deaths while we explore the possibility of switching methodologies or reporting both numbers separately.
 
-However, in Colorado, Ohio, Pennsylvania and Virginia health authorities have stopped reporting a lab-confirmed only number and so our numbers for those areas include "probable" cases. In Idaho our cases number is only lab-confirmed cases, but deaths include deaths of "probable" cases.
+However, in Colorado health authorities have stopped reporting a lab-confirmed only number of cases and deaths. In Ohio, Pennsylvania and Virginia officials report lab-confirmed and probable cases and deaths separately at the state level but combine lab-confirmed and probable cases at the county level. Our numbers combine both case types.
+
+In Idaho and Louisiana our total cases number includes only lab-confirmed cases, but our deaths number does include the deaths of probable Covid-19 cases.
 
 * Dates
 
@@ -132,9 +134,9 @@ Counts for Guam include cases reported from the USS Theodore Roosevelt.
 
 * Puerto Rico
 
-We are trying to resolve some inconsistencies with our Puerto Rico data. Starting April 21st, the territory's health department revised their number of cases downward, saying they had been double counting some coronavirus patients in official reports, leading to a higher number of cases reported than actually confirmed. The territory's online dashboard is not yet updated.
+We are trying to resolve some inconsistencies with our Puerto Rico data. Starting April 21st, the territory's health department revised their number of cases downward, saying they had been double counting some coronavirus patients in official reports, leading to a higher number of cases reported than actually confirmed. The territory's online dashboard has not yet been updated.
 
-Additionally, from approximately April 12th through April 18th, the count of deaths for Puerto Rico include some probable Covid-19 related deaths that were not lab-confirmed. We will revise the numbers for these dates as possible.
+Additionally, from approximately April 12th through April 18th, the count of deaths for Puerto Rico include some probable Covid-19 related deaths that were not lab-confirmed. Starting April 19th these have been removed. We will revise the numbers for the 12th to 18th as possible.
 
 
 ## License and Attribution
