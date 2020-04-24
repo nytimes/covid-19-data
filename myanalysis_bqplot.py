@@ -1,8 +1,6 @@
 # %% [markdown]
-# * Update 04/22/2020
-# * Update 04/21/2020
-# * UPdate 04/18/2020
 # * Update 04/15/2020
+# * Update 04/14/2020
 # * Update 04/13/2020 - Added new cases trend graphs to the start and reordered the graphs (again) to tell a better story as to how the analysis progressed.
 # * Update 04/12/2020
 # * Update 04/11/2020
@@ -12,15 +10,12 @@
 #     * https://www.mercurynews.com/2020/04/08/how-california-has-contained-coronavirus-and-new-york-has-not/
 # * I moved the graphs that negate the effects of city population density to the top, since that's mostly what I've been interested in seeing.
 #  %%
-import time
-t0 = time.clock()
-
-# %%
 import pandas as pd
 import matplotlib as mpl
 import matplotlib.pyplot as plt
 import numpy as np
 from datetime import datetime
+import plotly.graph_objects as go
 
 mpl.rcParams['lines.linewidth'] = 4.0
 default_figsize=[16, 9]
@@ -92,19 +87,13 @@ states = np.unique(np.concatenate((states_east, states_midwest, states_west)))
 # This trend line is a moving average of new cases over time.
 # **********************************************************************************************************
 # %%
-fig = plt.figure(figsize=[16,9])
-ax = fig.add_axes([0,0,1,1])
-ax.set_title(datetime.now().strftime('%x') + ' Newly reported cases per day trend')
-ax.set_xlabel('Days')
-ax.set_ylabel('New cases')
-ax.set_ylim(0, 0.0001)
 
 def movingaverage(values, window):
     weights = np.repeat(1.0, window)/window
     sma = np.convolve(values, weights, 'valid')
     return sma
 
-def plotnewcases(state='US'):
+def plotnewcases(plot, state='US'):
     if (state == 'US'):
         total_cases_by_date = state_cov_data.groupby('date').sum()
         minimum_cases = 100
@@ -117,37 +106,42 @@ def plotnewcases(state='US'):
     delta_cases = total_cases_by_date.cases.to_numpy()[1:] - total_cases_by_date.head(len(total_cases_by_date)-1).cases.to_numpy()[0:]
 
     delta_cases_ma = movingaverage(delta_cases, 7)
+    df = pd.DataFrame(delta_cases_ma, columns=['new'])
+    df['days'] = df.index
 
-    ax.set_xlim(0, max(delta_cases.size, ax.get_xlim()[1]))
-    ax.set_ylim(0, max(delta_cases.max(), ax.get_ylim()[1]))
-    ax.set_ylim(0, ax.get_ylim()[1] * 1.01)
-    ax.set_yticklabels([''])
-    ax.plot(delta_cases_ma, label=state)
-    lastindex_ma = len(delta_cases_ma) - 1
-    ax.annotate(str(delta_cases[len(delta_cases)-1]), xy=(lastindex_ma + .1, delta_cases_ma[lastindex_ma]))
-    ax.legend()
+    if (plot == None):
+        plot = go.Figure()
+        plot.add_trace(go.Scatter(x=df.days, y=df.new, mode='lines', name=state, line = { 'width': 4 }))
+        return plot
+    else:
+        plot.add_trace(go.Scatter(x=df.days, y=df.new, mode='lines', name=state))
+        return plot
 
-plotnewcases()
-plotnewcases("New York")
-plotnewcases("New Jersey")
-
-fig = plt.figure(figsize=[16,9])
-ax = fig.add_axes([0,0,1,1])
-ax.set_title(datetime.now().strftime('%x') + ' Newly reported cases per day trend')
-ax.set_xlabel('Days')
-ax.set_ylabel('New cases')
-ax.set_ylim(0, 0.0001)
+plot = plotnewcases(None)
 
 for state in states:
-    if (state != "New York"):
-        plotnewcases(state)
+    plotnewcases(plot, state)
+
+plot.update_layout(
+    title = {
+        'text': datetime.now().strftime('%x') + ' Newly reported cases per day trend',
+        'x': 0.5,
+        'xanchor': 'center'
+    },
+    width = 1200,
+    height = 800,
+    xaxis_title = 'Days',
+    yaxis_title = 'New Cases'
+    )
+
+plot.show()
 
 # %% [markdown]
 # **********************************************************************************************************
 # # State Totals
 # **********************************************************************************************************
 # %%
-def plottotalcases(state, county = 'all'):
+def plottotalcases(plot, state, county = 'all'):
     if county == 'all':
         data = state_cov_data[state_cov_data.state == state][['date', 'cases']]
     else:
@@ -157,17 +151,21 @@ def plottotalcases(state, county = 'all'):
     data = data[data.cases >= starting_cases]
     if len(data['cases']):
         data_asarray = data.cases.values
-        ax.set_xlim(0, max(data_asarray.size, ax.get_xlim()[1]))
-        ax.set_ylim(0, max(data['cases'].max(), ax.get_ylim()[1]))
-        ax.set_ylim(0, ax.get_ylim()[1] * 1.01)
 
         if (county == 'all'):
             ax.plot(data_asarray, label=state)
+
+            plot = go.Figure()
+            plot.add_trace(go.Scatter(x=df.days, y=df.new, mode='lines', name=state, line = { 'width': 4 }))
+            return plot
         else:
             ax.plot(data_asarray, label=county + ',  ' + state)
 
+            plot.add_trace(go.Scatter(x=df.days, y=df.new, mode='lines', name=state))
+
 for dataset in [states_east, states_midwest, states_west]:
     starting_cases = 1000
+
     fig = plt.figure(figsize=default_figsize)
     ax = fig.add_axes([0,0,1,1])
     ax.set_title('Total state cases with starting case count = ' + str(starting_cases) + ' Date: ' + datetime.now().strftime('%x'))
@@ -374,8 +372,6 @@ for dataset in [county_cities_east_map, county_cities_midwest_map, county_cities
 
     ax.legend()
 # %%
-print('Total run time: ', time.clock() - t0)
-
 # # %% [markdown]
 # # **********************************************************************************************************
 # # # Use Bokeh for plotting just for kicks

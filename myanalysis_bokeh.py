@@ -10,30 +10,19 @@
 # * Looks like the press is starting to ask some of the same questions I'm asking with this analysis:
 #     * https://www.mercurynews.com/2020/04/08/how-california-has-contained-coronavirus-and-new-york-has-not/
 # * I moved the graphs that negate the effects of city population density to the top, since that's mostly what I've been interested in seeing.
+
 #  %%
 import pandas as pd
-import matplotlib as mpl
-import matplotlib.pyplot as plt
 import numpy as np
 from datetime import datetime
-import plotly.graph_objects as go
-from plotly.subplots import make_subplots
+from bokeh.plotting import figure
+from bokeh.models import HoverTool, LinearColorMapper, CategoricalColorMapper
+from bokeh.io import output_notebook, show
+from bokeh.palettes import Spectral11
+from bokeh.transform import factor_cmap
 
-mpl.rcParams['lines.linewidth'] = 4.0
-default_figsize=[16, 9]
 default_width=2
-allplots = make_subplots(
-    rows=7, cols=1,
-    # subplot_titles=(
-    #     'New cases per day by state',
-    #     'State Totals',
-    #     'County Totals',
-    #     'State cases adjusted for population',
-    #     'State cases adjusted for population density',
-    #     'City total cases adjusted for population density',
-    #     'City deaths adjusted for population density'
-    #     )
-    )
+output_notebook()
 
 #  %% [markdown]
 # **********************************************************************************************************
@@ -105,7 +94,7 @@ def movingaverage(values, window):
     sma = np.convolve(values, weights, 'valid')
     return sma
 
-def plotnewcases(row, state='US'):
+def plotnewcases(row, state='US', color='none'):
     if (state == 'US'):
         total_cases_by_date = state_cov_data.groupby('date').sum()
         minimum_cases = 100
@@ -121,16 +110,31 @@ def plotnewcases(row, state='US'):
     df = pd.DataFrame(delta_cases_ma, columns=['new'])
     df['days'] = df.index
 
-    allplots.add_trace(
-        go.Scatter(x=df.days, y=df.new, mode='lines', name=state, line = { 'width': default_width }),
-        row=row, col=1
-    )
+    p.line('days', 'new', source=df,
+        line_width=default_width,
+        legend_label=state,
+        color=color)
+    return df
+
+hover = HoverTool(
+    tooltips=[
+        ('day', '$index'),
+        ('new cases', '@new{0,0}')
+    ]
+)
+p = figure(width=800, height=500, tools=[hover])
 
 row = 1
-allplots.add_annotation(text = 'New cases per day by state', row=row, col=1)
-for state in states:
-    plotnewcases(row, state)
+for state, color in zip(states, Spectral11):
+    plotnewcases(row, state, color)
 
+show(p)
+
+# %%
+print (
+    'hello'
+    )
+print ('goodbye')
 
 # %% [markdown]
 # **********************************************************************************************************
