@@ -15,10 +15,16 @@ import pandas as pd
 import numpy as np
 from datetime import datetime
 import plotly.graph_objects as go
+import plotly
 
 default_line_thickness=2
-default_width = 880
-default_height = 550
+default_width = 1280
+default_height = 800
+
+html_graphs = open("CovidAnalysis.html",'w')
+html_graphs.write("<html><head></head><body>"+"\n")
+html_graphs.write('<h1>Data as of ' + datetime.now().strftime('%m/%d/%y')+ '<br/></h1>')
+html_graphs.write('Please wait to load all the graphs. This page is not setup to be fast loading. :)<br/><br/>Also be aware that you can now can single click on a location in the legend to show and hide that location in the graph. If you double click, you will hide all other locations, except for the one you double clicked.')
 
 #  %% [markdown]
 # **********************************************************************************************************
@@ -77,7 +83,7 @@ county_cities_midwest_map = pd.DataFrame(county_cities_midwest, columns = ['stat
 states_east = county_cities_east_map.state.unique()
 states_west = county_cities_west_map.state.unique()
 states_midwest = county_cities_midwest_map.state.unique()
-states = np.unique(np.concatenate((states_east, states_midwest, states_west)))
+states = pd.unique(np.concatenate((states_east, states_midwest, states_west)))
 
 # %% [markdown]
 # **********************************************************************************************************
@@ -112,6 +118,21 @@ def plotnewcases(row, state='US'):
 
 row = 1
 layout = go.Layout(
+        title = 'New cases for US',
+        width=default_width,
+        height=default_height
+)
+fig = go.Figure(layout=layout)
+plotnewcases(row)
+
+fig.show()
+plotly.offline.plot(fig, filename='Chart_'+str(row)+'.html',auto_open=False)
+html_graphs.write("  <object data=\""+'Chart_'+str(row)+'.html'+"\" width=" + str(default_width * 1.10) + " height=" + str(default_height* 1.10) + "\"></object>"+"\n")
+
+#############################
+
+row += 1
+layout = go.Layout(
         title = 'New cases by state',
         width=default_width,
         height=default_height
@@ -121,6 +142,8 @@ for state in states:
     plotnewcases(row, state)
 
 fig.show()
+plotly.offline.plot(fig, filename='Chart_'+str(row)+'.html',auto_open=False)
+html_graphs.write("  <object data=\""+'Chart_'+str(row)+'.html'+"\" width=" + str(default_width * 1.10) + " height=" + str(default_height* 1.10) + "\"></object>"+"\n")
 
 # %% [markdown]
 # **********************************************************************************************************
@@ -148,23 +171,24 @@ def plottotalcases(row, state, county = 'all'):
             )
 
 row += 1
-layout.title = 'Total cases by state'
-fig = go.Figure(layout=layout)
-
 starting_cases = 1000
+layout.title = 'Total cases by state after hitting ' + str(starting_cases) + ' cases'
+fig = go.Figure(layout=layout)
 for s in states:
     plottotalcases(row, s)
 
 fig.show()
+plotly.offline.plot(fig, filename='Chart_'+str(row)+'.html',auto_open=False)
+html_graphs.write("  <object data=\""+'Chart_'+str(row)+'.html'+"\" width=" + str(default_width * 1.10) + " height=" + str(default_height* 1.10) + "\"></object>"+"\n")
 
 #  %% [markdown]
 # **********************************************************************************************************
 # # County Totals
 # **********************************************************************************************************
 row += 1
-layout.title = 'Total cases by county'
-fig = go.Figure(layout=layout)
 starting_cases = 200
+layout.title = 'Total cases by county after hitting ' + str(starting_cases) + ' cases'
+fig = go.Figure(layout=layout)
 
 for dataset in [county_cities_east_map, county_cities_midwest_map, county_cities_west_map]:
     starting_cases = 200
@@ -172,6 +196,8 @@ for dataset in [county_cities_east_map, county_cities_midwest_map, county_cities
         plottotalcases(row, p.state, p.county)
 
 fig.show()
+plotly.offline.plot(fig, filename='Chart_'+str(row)+'.html',auto_open=False)
+html_graphs.write("  <object data=\""+'Chart_'+str(row)+'.html'+"\" width=" + str(default_width * 1.10) + " height=" + str(default_height* 1.10) + "\"></object>"+"\n")
 
 #  %% [markdown]
 # **********************************************************************************************************
@@ -199,14 +225,16 @@ def stateplotpercapita(row, state):
             )
 
 row += 1
-layout.title = 'Total State Cases adjusted for population'
+starting_cases = 1000
+layout.title = 'Total State Cases adjusted for population after hitting ' + str(starting_cases) + ' cases'
 fig=go.Figure(layout=layout)
 
 for dataset in [states_east, states_midwest, states_west]:
-    starting_cases = 1000
     for s in dataset:
         stateplotpercapita(row, s)
 fig.show()
+plotly.offline.plot(fig, filename='Chart_'+str(row)+'.html',auto_open=False)
+html_graphs.write("  <object data=\""+'Chart_'+str(row)+'.html'+"\" width=" + str(default_width * 1.10) + " height=" + str(default_height* 1.10) + "\"></object>"+"\n")
 
 #  %% [markdown]
 # **********************************************************************************************************
@@ -237,14 +265,16 @@ def stateplotbydensity(row, state):
             )
 
 row += 1
-layout.title = 'Total State Cases adjusted for population density'
+starting_cases = 200
+layout.title = 'Total State Cases adjusted for population density after hitting ' + str(starting_cases) + ' cases'
 fig=go.Figure(layout=layout)
 
 for dataset in [states_east, states_midwest, states_west]:
-    starting_cases = 200
     for s in dataset:
         stateplotbydensity(row, s)
 fig.show()
+plotly.offline.plot(fig, filename='Chart_'+str(row)+'.html',auto_open=False)
+html_graphs.write("  <object data=\""+'Chart_'+str(row)+'.html'+"\" width=" + str(default_width * 1.10) + " height=" + str(default_height* 1.10) + "\"></object>"+"\n")
 
 #  %% [markdown]
 # **********************************************************************************************************
@@ -275,16 +305,19 @@ def cityplotbydensity(row, state, city):
             )
 
 row += 1
-layout.title = 'Total City cases adjusted for population density'
+starting_cases = 20
+layout.title = 'Total City cases adjusted for population density after hitting ' + str(starting_cases) + ' cases'
 fig=go.Figure(layout=layout)
 
 for dataset in [county_cities_east_map, county_cities_midwest_map, county_cities_west_map]:
-    starting_cases = 20
     for p in dataset.itertuples():
         for c in p.cities:
             cityplotbydensity(row, p.state, c)
 
 fig.show()
+plotly.offline.plot(fig, filename='Chart_'+str(row)+'.html',auto_open=False)
+html_graphs.write("  <object data=\""+'Chart_'+str(row)+'.html'+"\" width=" + str(default_width * 1.10) + " height=" + str(default_height* 1.10) + "\"></object>"+"\n")
+
 
 #  %% [markdown]
 # **********************************************************************************************************
@@ -309,7 +342,7 @@ def citydeathsplotbydensity(row, state, city):
             )
 
 row += 1
-layout.title = 'Total City deaths adjusted for population density'
+layout.title = 'Total City deaths adjusted for population density after the first death recorded'
 fig=go.Figure(layout=layout)
 for dataset in [county_cities_east_map, county_cities_midwest_map, county_cities_west_map]:
     starting_deaths = 1
@@ -317,7 +350,11 @@ for dataset in [county_cities_east_map, county_cities_midwest_map, county_cities
         for c in p.cities:
             citydeathsplotbydensity(row, p.state, c)
 fig.show()
+plotly.offline.plot(fig, filename='Chart_'+str(row)+'.html',auto_open=False)
+html_graphs.write("  <object data=\""+'Chart_'+str(row)+'.html'+"\" width=" + str(default_width * 1.10) + " height=" + str(default_height* 1.10) + "\"></object>"+"\n")
 
+html_graphs.write('</body></html')
+html_graphs.close()
 
 # %%
 
