@@ -12,28 +12,13 @@
 # * I moved the graphs that negate the effects of city population density to the top, since that's mostly what I've been interested in seeing.
 #  %%
 import pandas as pd
-import matplotlib as mpl
-import matplotlib.pyplot as plt
 import numpy as np
 from datetime import datetime
 import plotly.graph_objects as go
-from plotly.subplots import make_subplots
 
-mpl.rcParams['lines.linewidth'] = 4.0
-default_figsize=[16, 9]
-default_width=2
-allplots = make_subplots(
-    rows=7, cols=1,
-    # subplot_titles=(
-    #     'New cases per day by state',
-    #     'State Totals',
-    #     'County Totals',
-    #     'State cases adjusted for population',
-    #     'State cases adjusted for population density',
-    #     'City total cases adjusted for population density',
-    #     'City deaths adjusted for population density'
-    #     )
-    )
+default_line_thickness=2
+default_width = 880
+default_height = 550
 
 #  %% [markdown]
 # **********************************************************************************************************
@@ -121,16 +106,21 @@ def plotnewcases(row, state='US'):
     df = pd.DataFrame(delta_cases_ma, columns=['new'])
     df['days'] = df.index
 
-    allplots.add_trace(
-        go.Scatter(x=df.days, y=df.new, mode='lines', name=state, line = { 'width': default_width }),
-        row=row, col=1
+    fig.add_trace(
+        go.Scatter(x=df.days, y=df.new, mode='lines', name=state, line = { 'width': default_line_thickness })
     )
 
 row = 1
-allplots.add_annotation(text = 'New cases per day by state', row=row, col=1)
+layout = go.Layout(
+        title = 'New cases by state',
+        width=default_width,
+        height=default_height
+)
+fig = go.Figure(layout=layout)
 for state in states:
     plotnewcases(row, state)
 
+fig.show()
 
 # %% [markdown]
 # **********************************************************************************************************
@@ -149,36 +139,39 @@ def plottotalcases(row, state, county = 'all'):
         data.index = [x for x in range(0, len(data))]
 
         if (county == 'all'):
-            allplots.add_trace(
-                go.Scatter(x=data.index, y=data.cases, mode='lines', name=state, line = { 'width': default_width }),
-                row=row, col=1
+            fig.add_trace(
+                go.Scatter(x=data.index, y=data.cases, mode='lines', name=state, line = { 'width': default_line_thickness })
             )
         else:
-            allplots.add_trace(
-                go.Scatter(x=data.index, y=data.cases, mode='lines', name=county + ', ' + state, line = { 'width': default_width }),
-                row=row, col=1
+            fig.add_trace(
+                go.Scatter(x=data.index, y=data.cases, mode='lines', name=county + ', ' + state, line = { 'width': default_line_thickness })
             )
 
 row += 1
-allplots.add_annotation(text = 'Total Cases by State', row=row, col=1)
+layout.title = 'Total cases by state'
+fig = go.Figure(layout=layout)
 
-for dataset in [states_east, states_west, states_midwest]:
-    starting_cases = 1000
-    for s in dataset:
-        plottotalcases(row, s)
+starting_cases = 1000
+for s in states:
+    plottotalcases(row, s)
 
+fig.show()
 
 #  %% [markdown]
 # **********************************************************************************************************
 # # County Totals
 # **********************************************************************************************************
 row += 1
-allplots.add_annotation(text = 'Total Cases by County', row=row, col=1)
+layout.title = 'Total cases by county'
+fig = go.Figure(layout=layout)
+starting_cases = 200
 
 for dataset in [county_cities_east_map, county_cities_midwest_map, county_cities_west_map]:
     starting_cases = 200
     for p in dataset.itertuples():
         plottotalcases(row, p.state, p.county)
+
+fig.show()
 
 #  %% [markdown]
 # **********************************************************************************************************
@@ -201,18 +194,19 @@ def stateplotpercapita(row, state):
         data.index = [x for x in range(0, len(data))]
         plotdata = data.cases / state_population.population.values[0]
         if len(data['cases']):
-            allplots.add_trace(
-                go.Scatter(x=data.index, y=data.cases, mode='lines', name=state, line = { 'width': default_width }),
-                row=row, col=1
+            fig.add_trace(
+                go.Scatter(x=data.index, y=data.cases, mode='lines', name=state, line = { 'width': default_line_thickness })
             )
 
 row += 1
-allplots.add_annotation(text = 'Total State Cases adjusted for population', row=row, col=1)
+layout.title = 'Total State Cases adjusted for population'
+fig=go.Figure(layout=layout)
+
 for dataset in [states_east, states_midwest, states_west]:
     starting_cases = 1000
     for s in dataset:
         stateplotpercapita(row, s)
-
+fig.show()
 
 #  %% [markdown]
 # **********************************************************************************************************
@@ -238,18 +232,19 @@ def stateplotbydensity(row, state):
         plotdata = data.cases / state_density.density.values[0]
         if len(data['cases']):
             lastindex = len(data) - 1
-            allplots.add_trace(
-                go.Scatter(x=data.index, y=data.cases, mode='lines', name=state, line = { 'width': default_width }),
-                row=row, col=1
+            fig.add_trace(
+                go.Scatter(x=data.index, y=data.cases, mode='lines', name=state, line = { 'width': default_line_thickness })
             )
 
 row += 1
-allplots.add_annotation(text = 'Total State Cases adjusted for population density', row=row, col=1)
+layout.title = 'Total State Cases adjusted for population density'
+fig=go.Figure(layout=layout)
+
 for dataset in [states_east, states_midwest, states_west]:
     starting_cases = 200
     for s in dataset:
         stateplotbydensity(row, s)
-
+fig.show()
 
 #  %% [markdown]
 # **********************************************************************************************************
@@ -275,13 +270,13 @@ def cityplotbydensity(row, state, city):
         plotdata = data.cases / city_density.density.values[0]
         if len(data['cases']):
             lastindex = len(data) - 1
-            allplots.add_trace(
-                go.Scatter(x=data.index, y=data.cases, mode='lines', name=city + ', ' + state, line = { 'width': default_width }),
-                row=row, col=1
+            fig.add_trace(
+                go.Scatter(x=data.index, y=data.cases, mode='lines', name=city + ', ' + state, line = { 'width': default_line_thickness })
             )
 
 row += 1
-allplots.add_annotation(text = 'Total City cases adjusted for population density', row=row, col=1)
+layout.title = 'Total City cases adjusted for population density'
+fig=go.Figure(layout=layout)
 
 for dataset in [county_cities_east_map, county_cities_midwest_map, county_cities_west_map]:
     starting_cases = 20
@@ -289,6 +284,7 @@ for dataset in [county_cities_east_map, county_cities_midwest_map, county_cities
         for c in p.cities:
             cityplotbydensity(row, p.state, c)
 
+fig.show()
 
 #  %% [markdown]
 # **********************************************************************************************************
@@ -308,25 +304,19 @@ def citydeathsplotbydensity(row, state, city):
         data.index = [x for x in range(0, len(data))]
         plotdata = data.deaths / city_density.density.values[0]
         if len(data['deaths']):
-            allplots.add_trace(
-                go.Scatter(x=data.index, y=plotdata.values, mode='lines', name=city + ', ' + state, line = { 'width': default_width }),
-                row=row, col=1
+            fig.add_trace(
+                go.Scatter(x=data.index, y=plotdata.values, mode='lines', name=city + ', ' + state, line = { 'width': default_line_thickness })
             )
 
 row += 1
-allplots.add_annotation(text = 'Total City deaths adjusted for population density', row=row, col=1)
+layout.title = 'Total City deaths adjusted for population density'
+fig=go.Figure(layout=layout)
 for dataset in [county_cities_east_map, county_cities_midwest_map, county_cities_west_map]:
     starting_deaths = 1
     for p in dataset.itertuples():
         for c in p.cities:
             citydeathsplotbydensity(row, p.state, c)
-
-allplots.update_layout(
-    width = 1200,
-    height = 5600,
-)
-
-allplots.show()
+fig.show()
 
 
 # %%
