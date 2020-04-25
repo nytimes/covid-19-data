@@ -1696,7 +1696,7 @@ date,state,fips,cases,deaths
 2020-04-02,New Hampshire,33,479,5
 2020-04-02,New Jersey,34,25590,539
 2020-04-02,New Mexico,35,403,7
-2020-04-02,New York,36,92770,2653
+2020-04-02,New York,36,92381,2373
 2020-04-02,North Carolina,37,1857,17
 2020-04-02,North Dakota,38,159,3
 2020-04-02,Northern Mariana Islands,69,8,1
@@ -1916,7 +1916,7 @@ date,state,fips,cases,deaths
 2020-04-06,New Hampshire,33,715,9
 2020-04-06,New Jersey,34,41090,1005
 2020-04-06,New Mexico,35,686,12
-2020-04-06,New York,36,130703,4758
+2020-04-06,New York,36,130689,4758
 2020-04-06,North Carolina,37,2870,40
 2020-04-06,North Dakota,38,225,3
 2020-04-06,Northern Mariana Islands,69,8,1
@@ -2050,7 +2050,6 @@ date,state,fips,cases,deaths
 2020-04-08,Wyoming,56,230,0
 2020-04-09,Alabama,01,2838,78
 2020-04-09,Alaska,02,233,5
-2020-04-09,American Samoa,60,0,0
 2020-04-09,Arizona,04,3018,89
 2020-04-09,Arkansas,05,1146,21
 2020-04-09,California,06,20191,548
@@ -2106,7 +2105,6 @@ date,state,fips,cases,deaths
 2020-04-09,Wyoming,56,239,0
 2020-04-10,Alabama,01,3008,80
 2020-04-10,Alaska,02,244,5
-2020-04-10,American Samoa,60,0,0
 2020-04-10,Arizona,04,3112,97
 2020-04-10,Arkansas,05,1202,24
 2020-04-10,California,06,21366,594
@@ -2162,7 +2160,6 @@ date,state,fips,cases,deaths
 2020-04-10,Wyoming,56,253,0
 2020-04-11,Alabama,01,3262,93
 2020-04-11,Alaska,02,255,6
-2020-04-11,American Samoa,60,0,0
 2020-04-11,Arizona,04,3393,112
 2020-04-11,Arkansas,05,1228,25
 2020-04-11,California,06,22421,632
@@ -2218,7 +2215,6 @@ date,state,fips,cases,deaths
 2020-04-11,Wyoming,56,261,0
 2020-04-12,Alabama,01,3583,93
 2020-04-12,Alaska,02,270,6
-2020-04-12,American Samoa,60,0,0
 2020-04-12,Arizona,04,3539,117
 2020-04-12,Arkansas,05,1280,27
 2020-04-12,California,06,23323,676
@@ -2274,7 +2270,6 @@ date,state,fips,cases,deaths
 2020-04-12,Wyoming,56,270,0
 2020-04-13,Alabama,01,3805,104
 2020-04-13,Alaska,02,275,6
-2020-04-13,American Samoa,60,0,0
 2020-04-13,Arizona,04,3702,122
 2020-04-13,Arkansas,05,1475,30
 2020-04-13,California,06,24334,725
@@ -2330,7 +2325,6 @@ date,state,fips,cases,deaths
 2020-04-13,Wyoming,56,275,1
 2020-04-14,Alabama,01,3953,114
 2020-04-14,Alaska,02,283,7
-2020-04-14,American Samoa,60,0,0
 2020-04-14,Arizona,04,3806,131
 2020-04-14,Arkansas,05,1498,32
 2020-04-14,California,06,25758,778
@@ -2386,7 +2380,6 @@ date,state,fips,cases,deaths
 2020-04-14,Wyoming,56,282,1
 2020-04-15,Alabama,01,4241,123
 2020-04-15,Alaska,02,291,7
-2020-04-15,American Samoa,60,0,0
 2020-04-15,Arizona,04,3962,142
 2020-04-15,Arkansas,05,1599,34
 2020-04-15,California,06,27107,885
@@ -2442,7 +2435,6 @@ date,state,fips,cases,deaths
 2020-04-15,Wyoming,56,288,2
 2020-04-16,Alabama,01,4404,137
 2020-04-16,Alaska,02,298,7
-2020-04-16,American Samoa,60,0,0
 2020-04-16,Arizona,04,4234,152
 2020-04-16,Arkansas,05,1620,37
 2020-04-16,California,06,28142,971
@@ -2498,7 +2490,6 @@ date,state,fips,cases,deaths
 2020-04-16,Wyoming,56,296,2
 2020-04-17,Alabama,01,4572,151
 2020-04-17,Alaska,02,307,7
-2020-04-17,American Samoa,60,0,0
 2020-04-17,Arizona,04,4507,174
 2020-04-17,Arkansas,05,1695,37
 2020-04-17,California,06,29398,1050
@@ -2554,7 +2545,6 @@ date,state,fips,cases,deaths
 2020-04-17,Wyoming,56,305,2
 2020-04-18,Alabama,01,4723,147
 2020-04-18,Alaska,02,312,7
-2020-04-18,American Samoa,60,0,0
 2020-04-18,Arizona,04,4719,181
 2020-04-18,Arkansas,05,1777,38
 2020-04-18,California,06,30829,1146
@@ -2610,7 +2600,6 @@ date,state,fips,cases,deaths
 2020-04-18,Wyoming,56,309,2
 2020-04-19,Alabama,01,4903,160
 2020-04-19,Alaska,02,317,7
-2020-04-19,American Samoa,60,0,0
 2020-04-19,Arizona,04,4929,188
 2020-04-19,Arkansas,05,1781,39
 2020-04-19,California,06,31544,1176
@@ -2666,7 +2655,6 @@ date,state,fips,cases,deaths
 2020-04-19,Wyoming,56,313,2
 2020-04-20,Alabama,01,5078,164
 2020-04-20,Alaska,02,319,7
-2020-04-20,American Samoa,60,0,0
 2020-04-20,Arizona,04,5064,191
 2020-04-20,Arkansas,05,1971,42
 2020-04-20,California,06,33862,1223
@@ -2722,7 +2710,6 @@ date,state,fips,cases,deaths
 2020-04-20,Wyoming,56,317,2
 2020-04-21,Alabama,01,5327,186
 2020-04-21,Alaska,02,327,7
-2020-04-21,American Samoa,60,0,0
 2020-04-21,Arizona,04,5251,213
 2020-04-21,Arkansas,05,2262,43
 2020-04-21,California,06,35844,1316
@@ -2777,8 +2764,7 @@ date,state,fips,cases,deaths
 2020-04-21,Wisconsin,55,4620,243
 2020-04-21,Wyoming,56,322,6
 2020-04-22,Alabama,01,5610,201
-2020-04-22,Alaska,02,335,9
-2020-04-22,American Samoa,60,0,0
+2020-04-22,Alaska,02,333,7
 2020-04-22,Arizona,04,5459,236
 2020-04-22,Arkansas,05,2392,44
 2020-04-22,California,06,37573,1425
@@ -2823,7 +2809,7 @@ date,state,fips,cases,deaths
 2020-04-22,South Carolina,45,4761,140
 2020-04-22,South Dakota,46,1858,9
 2020-04-22,Tennessee,47,7704,177
-2020-04-22,Texas,48,21769,572
+2020-04-22,Texas,48,21769,571
 2020-04-22,Utah,49,3451,34
 2020-04-22,Vermont,50,823,40
 2020-04-22,Virgin Islands,78,54,3
@@ -2833,8 +2819,7 @@ date,state,fips,cases,deaths
 2020-04-22,Wisconsin,55,4845,247
 2020-04-22,Wyoming,56,326,6
 2020-04-23,Alabama,01,5832,197
-2020-04-23,Alaska,02,337,9
-2020-04-23,American Samoa,60,0,0
+2020-04-23,Alaska,02,335,7
 2020-04-23,Arizona,04,5769,257
 2020-04-23,Arkansas,05,2599,45
 2020-04-23,California,06,39534,1553
@@ -2874,7 +2859,7 @@ date,state,fips,cases,deaths
 2020-04-23,Oklahoma,40,3017,179
 2020-04-23,Oregon,41,2127,83
 2020-04-23,Pennsylvania,42,38334,1713
-2020-04-23,Puerto Rico,72,915,46
+2020-04-23,Puerto Rico,72,1230,46
 2020-04-23,Rhode Island,44,6256,189
 2020-04-23,South Carolina,45,4917,150
 2020-04-23,South Dakota,46,1956,9
@@ -2888,3 +2873,58 @@ date,state,fips,cases,deaths
 2020-04-23,West Virginia,54,981,31
 2020-04-23,Wisconsin,55,5052,257
 2020-04-23,Wyoming,56,332,7
+2020-04-24,Alabama,01,6026,209
+2020-04-24,Alaska,02,337,7
+2020-04-24,Arizona,04,6045,268
+2020-04-24,Arkansas,05,2810,47
+2020-04-24,California,06,41368,1619
+2020-04-24,Colorado,08,12255,672
+2020-04-24,Connecticut,09,23921,1764
+2020-04-24,Delaware,10,3442,100
+2020-04-24,District of Columbia,11,3528,153
+2020-04-24,Florida,12,30525,1045
+2020-04-24,Georgia,13,21575,889
+2020-04-24,Guam,66,997,6
+2020-04-24,Hawaii,15,595,13
+2020-04-24,Idaho,16,1750,54
+2020-04-24,Illinois,17,39658,1804
+2020-04-24,Indiana,18,13680,741
+2020-04-24,Iowa,19,4459,107
+2020-04-24,Kansas,20,2830,117
+2020-04-24,Kentucky,21,3779,203
+2020-04-24,Louisiana,22,26140,1601
+2020-04-24,Maine,23,965,47
+2020-04-24,Maryland,24,16618,723
+2020-04-24,Massachusetts,25,50969,2556
+2020-04-24,Michigan,26,36627,3084
+2020-04-24,Minnesota,27,3185,221
+2020-04-24,Mississippi,28,5434,209
+2020-04-24,Missouri,29,6625,267
+2020-04-24,Montana,30,444,14
+2020-04-24,Nebraska,31,2475,51
+2020-04-24,Nevada,32,4398,203
+2020-04-24,New Hampshire,33,1720,53
+2020-04-24,New Jersey,34,102196,5617
+2020-04-24,New Mexico,35,2524,84
+2020-04-24,New York,36,271621,16162
+2020-04-24,North Carolina,37,8052,270
+2020-04-24,North Dakota,38,748,15
+2020-04-24,Northern Mariana Islands,69,14,2
+2020-04-24,Ohio,39,15169,690
+2020-04-24,Oklahoma,40,3121,188
+2020-04-24,Oregon,41,2177,86
+2020-04-24,Pennsylvania,42,40298,1786
+2020-04-24,Puerto Rico,72,1276,51
+2020-04-24,Rhode Island,44,6699,202
+2020-04-24,South Carolina,45,5070,157
+2020-04-24,South Dakota,46,2040,10
+2020-04-24,Tennessee,47,8679,180
+2020-04-24,Texas,48,23650,625
+2020-04-24,Utah,49,3782,39
+2020-04-24,Vermont,50,827,44
+2020-04-24,Virgin Islands,78,54,3
+2020-04-24,Virginia,51,11596,413
+2020-04-24,Washington,53,13120,731
+2020-04-24,West Virginia,54,1010,32
+2020-04-24,Wisconsin,55,5356,262
+2020-04-24,Wyoming,56,349,7
