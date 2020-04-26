@@ -30,8 +30,9 @@ default_grid_color = 'rgba(225, 225, 225, 255)'
 
 webpage_folder = 'webpage/'
 html_graphs = open(webpage_folder + "CovidAnalysis.html",'w',)
-html_graphs.write("<html><head><style>div {margin:5%; font-family: \"Verdana\"}</style></head><body>"+"\n")
+html_graphs.write("<html><head><style>div {margin-left:50px; margin-right:5%; font-family: \"Verdana\"}</style></head><body>"+"\n")
 html_graphs.write('<div style=\'margin:50px\'><h1>Data as of ' + datetime.now().strftime('%m/%d/%y')+ '<br/></h1>')
+#html_graphs.write('<div style=\'margin:50px\'><h1>Data as of 04/25/2020<br/></h1>')
 html_graphs.write('''
 Please wait to load all the graphs. This page is not setup to be fast loading. :)<br/><br/>
 Also be aware that you can now can single click on a location in the legend to show and hide that
@@ -50,6 +51,8 @@ double clicked.
 state_cov_data = pd.read_csv('us-states.csv')
 county_cov_data = pd.read_csv('us-counties.csv')
 
+population_county = pd.read_csv('county-population-2013.csv')
+
 population_city_density = pd.read_csv('city_density.csv')
 population_city_density = population_city_density.rename(columns={'City': 'citystate', 'Population Density (Persons/Square Mile)': 'density', '2016 Population': 'population', 'Land Area (Square Miles)': 'area'} )
 population_city_density[['city', 'state']] = population_city_density.citystate.str.split(', ', expand=True)
@@ -58,45 +61,54 @@ population_state_density = pd.read_csv('state_density.csv')
 population_state_density = population_state_density.rename(columns={'State': 'state', 'Density': 'density', 'Pop': 'population', 'LandArea': 'area'})
 
 county_cities_east = [
+    ['District of Columbia', 'District of Columbia', ['District of Columbia']],
+    ['Massachusetts', 'Suffolk', ['Boston']],
     ['New York', 'New York City', ['New York']],
     ['New Jersey', 'Bergen', ['Newark', 'Jersey City']],
-    ['Massachusetts', 'Suffolk', ['Boston']],
-    ['South Carolina', 'Charleston', ['Charleston']],
-    ['Florida', 'Miami-Dade', ['Miami']],
-    ['Florida', 'Broward', ['Fort Lauderdale']],
-    ['Florida', 'Duval', ['Jacksonville']]
+    ['Pennsylvania', 'Philadelphia', ['Philadelphia']]
 ]
+
 county_cities_west = [
-    ['Washington', 'King', ['Seattle']],
-    ['Washington', 'Snohomish', ['Everett']],
+    ['Arizona', 'Maricopa', ['Phoenix']],
     ['California', 'Los Angeles', ['Los Angeles']],
     ['California', 'San Francisco', ['San Francisco']],
     ['California', 'San Diego', ['San Diego']],
+    ['Washington', 'King', ['Seattle']],
+    ['Washington', 'Snohomish', ['Everett']]
+]
+
+county_cities_south = [
+    ['Florida', 'Miami-Dade', ['Miami']],
+    ['Florida', 'Broward', ['Fort Lauderdale']],
+    ['Florida', 'Duval', ['Jacksonville']],
+    ['Georgia', 'Fulton', ['Atlanta']],
+    ['Louisiana', 'Orleans', ['New Orleans']],
+    ['South Carolina', 'Charleston', ['Charleston']],
+    ['Tennessee', 'Davidson', ['Nashville']],
     ['Texas', 'Harris', ['Houston']],
     ['Texas', 'Bexar', ['San Antonio']],
     ['Texas', 'Dallas', ['Dallas']],
-    ['Texas', 'Travis', ['Austin']],
-    ['Arizona', 'Maricopa', ['Phoenix']]
+    ['Texas', 'Travis', ['Austin']]
 ]
 
 county_cities_midwest = [
     ['Illinois', 'Cook', ['Chicago']],
-    ['Louisiana', 'Orleans', ['New Orleans']],
-    ['Ohio', 'Cuyahoga', ['Cleveland']],
-    ['Michigan', 'Wayne', ['Detroit']],
     ['Indiana', 'Hamilton', ['Carmel']],
-    ['Pennsylvania', 'Philadelphia', ['Philadelphia']],
-    ['Georgia', 'Fulton', ['Atlanta']],
-    ['Tennessee', 'Davidson', ['Nashville']]
+    ['Indiana', 'Marion', ['Indianapolis']],
+    ['Michigan', 'Wayne', ['Detroit']],
+    ['Wisconsin', 'Milwaukee', ['Milwaukee']],
+    ['Ohio', 'Cuyahoga', ['Cleveland']]
 ]
 
 county_cities_east_map = pd.DataFrame(county_cities_east, columns = ['state', 'county', 'cities'])
 county_cities_west_map = pd.DataFrame(county_cities_west, columns = ['state', 'county', 'cities'])
 county_cities_midwest_map = pd.DataFrame(county_cities_midwest, columns = ['state', 'county', 'cities'])
+county_cities_south_map = pd.DataFrame(county_cities_south, columns = ['state', 'county', 'cities'])
 
 states_east = county_cities_east_map.state.unique()
 states_west = county_cities_west_map.state.unique()
 states_midwest = county_cities_midwest_map.state.unique()
+states_south = county_cities_south_map.state.unique()
 states = pd.unique(np.concatenate((states_east, states_midwest, states_west)))
 
 # %% [markdown]
@@ -233,7 +245,7 @@ html_graphs.write("  <object data=\""+'Chart_'+str(row)+'.html'+"\" width=" + st
 # # County Totals
 # **********************************************************************************************************
 row += 1
-starting_cases = 225
+starting_cases = 200
 layout = go.Layout(
         title = 'Total cases by county after hitting ' + str(starting_cases) + ' cases',
         plot_bgcolor = default_plot_color,
@@ -246,8 +258,7 @@ layout = go.Layout(
 )
 fig = go.Figure(layout=layout)
 
-for dataset in [county_cities_east_map, county_cities_midwest_map, county_cities_west_map]:
-    starting_cases = 225
+for dataset in [county_cities_east_map, county_cities_midwest_map, county_cities_south_map, county_cities_west_map]:
     for p in dataset.itertuples():
         plottotalcases(row, p.state, p.county)
 
@@ -269,7 +280,7 @@ def stateplotpercapita(row, state):
         plotdata = (data.cases / state_population.population.values[0]) * 1000
         if len(data['cases']):
             fig.add_trace(
-                go.Scatter(x=data.index, y=plotdata, mode='lines', name=state, line = { 'width': default_line_thickness },
+                go.Scatter(x=data.index, y=plotdata, mode='lines', name=state + ' (' + str.format('{0:,}', state_population.population.values[0]) + ' people)', line = { 'width': default_line_thickness },
                 hovertemplate='cases per 1000: %{y:,.0f}<br>day: %{x}')
             )
 
@@ -283,24 +294,65 @@ layout = go.Layout(
         width=default_width,
         height=default_height,
         xaxis_title='Days since ' + str(starting_cases) + ' cases were hit',
-        yaxis_title='Total cases per 1000 people'
+        yaxis_title='Total cases per 1,000 people'
 )
 fig=go.Figure(layout=layout)
 
-for dataset in [states_east, states_midwest, states_west]:
+for dataset in [states_east, states_midwest, states_south, states_west]:
     for s in dataset:
         stateplotpercapita(row, s)
 fig.show()
 plotly.offline.plot(fig, filename=webpage_folder + 'Chart_'+str(row)+'.html',auto_open=False)
 html_graphs.write('''
 <br/><br/><div>
-<h1>State cases adjusted for population</h1><br/>
+<h1>State and County cases adjusted for population</h1><br/>
 To better get a sense of how different states may be handling the virus outbreak, you can
 adjust the graphs to account for the number of people who live in each state. A state that has
 100,000 people vs 8,000,000 people will obviously look far better with regard to total cases
 because they have 80x less people. By factoring in the population of a state, this is difference
 is accounted for.
 </div>''')
+html_graphs.write("  <object data=\""+'Chart_'+str(row)+'.html'+"\" width=" + str(default_width * 1.10) + " height=" + str(default_height* 1.10) + "\"></object>"+"\n")
+
+#  %% [markdown]
+# **********************************************************************************************************
+# # County cases adjusted for population
+# **********************************************************************************************************
+#  %%
+def countyplotpercapita(row, state, county):
+    data = county_cov_data[county_cov_data.state == state][['date', 'cases', 'county']]
+    data = data[county_cov_data.county == county][['date', 'cases']]
+    data = data[data.cases >= starting_cases]
+    county_population = population_county[population_county.state == state][population_county.county == county]
+    if len(county_population):
+        data.index = [x for x in range(0, len(data))]
+        plotdata = (data.cases / county_population.population2013.values[0]) * 1000
+        if len(data['cases']):
+            fig.add_trace(
+                go.Scatter(x=data.index, y=plotdata, mode='lines', name=county + ', ' + state + ' (' + str.format('{0:,}', county_population.population2013.values[0]) + ' people)', line = { 'width': default_line_thickness },
+                hovertemplate='cases per 1000: %{y:,.0f}<br>day: %{x}')
+            )
+
+row += 1
+starting_cases = 1000
+layout = go.Layout(
+        title = 'Total county cases per 1,000 people after hitting ' + str(starting_cases) + ' cases',
+        plot_bgcolor = default_plot_color,
+        xaxis_gridcolor = default_grid_color,
+        yaxis_gridcolor = default_grid_color,
+        width=default_width,
+        height=default_height,
+        xaxis_title='Days since ' + str(starting_cases) + ' cases were hit',
+        yaxis_title='Total cases per 1,000 people'
+)
+fig=go.Figure(layout=layout)
+
+for dataset in [county_cities_east_map, county_cities_midwest_map, county_cities_south_map, county_cities_west_map]:
+    for p in dataset.itertuples():
+        countyplotpercapita(row, p.state, p.county)
+
+fig.show()
+plotly.offline.plot(fig, filename=webpage_folder + 'Chart_'+str(row)+'.html',auto_open=False)
 html_graphs.write("  <object data=\""+'Chart_'+str(row)+'.html'+"\" width=" + str(default_width * 1.10) + " height=" + str(default_height* 1.10) + "\"></object>"+"\n")
 
 #  %% [markdown]
@@ -318,12 +370,12 @@ def stateplotbydensity(row, state):
         if len(data['cases']):
             lastindex = len(data) - 1
             fig.add_trace(
-                go.Scatter(x=data.index, y=plotdata, mode='lines', name=state, line = { 'width': default_line_thickness },
+                go.Scatter(x=data.index, y=plotdata, mode='lines', name=state + ' (' + str.format('{0:,}', int(round(state_density.density.values[0],0))) + ' ppl/mi^2)', line = { 'width': default_line_thickness },
                 hovertemplate='density adjusted cases: %{y:,.0f}<br>day: %{x}')
             )
 
 row += 1
-starting_cases = 225
+starting_cases = 200
 layout = go.Layout(
         title = 'Total state trend after hitting ' + str(starting_cases) + ' cases factoring out population density',
         plot_bgcolor = default_plot_color,
@@ -336,7 +388,7 @@ layout = go.Layout(
 )
 fig=go.Figure(layout=layout)
 
-for dataset in [states_east, states_midwest, states_west]:
+for dataset in [states_east, states_midwest, states_south, states_west]:
     for s in dataset:
         stateplotbydensity(row, s)
 fig.show()
@@ -353,6 +405,62 @@ where the same number of people are packed together?<br/>
 <br/>
 This graph removes this consideration from the comparison between states. As you can see, New Jersey is doing far worse than
 than Ohio, Washington and California.
+</div>''')
+html_graphs.write("  <object data=\""+'Chart_'+str(row)+'.html'+"\" width=" + str(default_width * 1.10) + " height=" + str(default_height* 1.10) + "\"></object>"+"\n")
+
+#  %% [markdown]
+# **********************************************************************************************************
+# # City cases adjusted for population
+# **********************************************************************************************************
+#  %%
+def cityplotpercapita(row, state, city):
+    county = 'not found'
+    for x in dataset.itertuples():
+        if city in x.cities and state == x.state:
+            county = x.county
+
+    cov_at_county_level = county_cov_data[county_cov_data.state == state][county_cov_data.county == county][['date', 'cases']]
+    cov_at_county_level = cov_at_county_level[cov_at_county_level.cases >= starting_cases]
+    city_population = population_city_density[population_city_density.state == state][population_city_density.city == city]
+    if (len(city_population)):
+        cov_at_county_level.index = [x for x in range(0, len(cov_at_county_level))]
+        plotdata = (cov_at_county_level.cases / city_population.population.values[0]) * 1000
+        if len(cov_at_county_level['cases']):
+            lastindex = len(cov_at_county_level) - 1
+            fig.add_trace(
+                go.Scatter(x=cov_at_county_level.index, y=plotdata, mode='lines', name=city + ', ' + state + ' (' + str.format('{0:,}', city_population.population.values[0],0) + ' people)', line = { 'width': default_line_thickness },
+                    hovertemplate='cases per 1000: %{y:,.3f}<br>day: %{x}')
+            )
+
+row += 1
+starting_cases = 20
+layout = go.Layout(
+        title = 'Total city cases per 1,000 people after hitting ' + str(starting_cases) + ' cases',
+        plot_bgcolor = default_plot_color,
+        xaxis_gridcolor = default_grid_color,
+        yaxis_gridcolor = default_grid_color,
+        width=default_width,
+        height=default_height,
+        xaxis_title='Days since ' + str(starting_cases) + ' cases were hit',
+        yaxis_title='Total cases per 1,000 people'
+)
+fig=go.Figure(layout=layout)
+
+for dataset in [county_cities_east_map, county_cities_midwest_map, county_cities_south_map, county_cities_west_map]:
+    for p in dataset.itertuples():
+        for c in p.cities:
+            cityplotpercapita(row, p.state, c)
+
+fig.show()
+plotly.offline.plot(fig, filename=webpage_folder + 'Chart_'+str(row)+'.html',auto_open=False)
+html_graphs.write('''
+<br/><br/><div>
+<h1>City total cases adjusted for population</h1><br/>
+To better get a sense of how different cities may be handling the virus outbreak, you can
+adjust the graphs to account for the number of people who live in each city. A city that has
+100,000 people vs 8,000,000 people will obviously look far better with regard to total cases
+because they have 80x less people. By factoring in the population of a city, this is difference
+is accounted for.
 </div>''')
 html_graphs.write("  <object data=\""+'Chart_'+str(row)+'.html'+"\" width=" + str(default_width * 1.10) + " height=" + str(default_height* 1.10) + "\"></object>"+"\n")
 
@@ -376,7 +484,7 @@ def cityplotbydensity(row, state, city):
         if len(data['cases']):
             lastindex = len(data) - 1
             fig.add_trace(
-                go.Scatter(x=data.index, y=plotdata, mode='lines', name=city + ', ' + state, line = { 'width': default_line_thickness },
+                go.Scatter(x=data.index, y=plotdata, mode='lines', name=city + ', ' + state + ' (' + str.format('{0:,}', int(round(city_density.density.values[0],0))) + ' ppl/mi^2)', line = { 'width': default_line_thickness },
                     hovertemplate='density adjusted cases: %{y:,.3f}<br>day: %{x}')
             )
 
@@ -394,7 +502,7 @@ layout = go.Layout(
 )
 fig=go.Figure(layout=layout)
 
-for dataset in [county_cities_east_map, county_cities_midwest_map, county_cities_west_map]:
+for dataset in [county_cities_east_map, county_cities_midwest_map, county_cities_south_map, county_cities_west_map]:
     for p in dataset.itertuples():
         for c in p.cities:
             cityplotbydensity(row, p.state, c)
@@ -406,7 +514,8 @@ html_graphs.write('''
 <h1>City total cases adjusted for population density</h1><br/>
 Same trends as described for state cases adjusted for population density, but applied at the city level instead. The intent of
 this graph is to discount the consideration that some cities growth rates are so fast because those cities are so densely populated.
-This was a common explanation as to why New York was growing so much faster than other cities.
+This was a common explanation as to why New York was growing so much faster than other cities. Though even when taking density into account,
+New York's trend <b>still</b> beats all others.
 </div>''')
 html_graphs.write("  <object data=\""+'Chart_'+str(row)+'.html'+"\" width=" + str(default_width * 1.10) + " height=" + str(default_height* 1.10) + "\"></object>"+"\n")
 
@@ -430,23 +539,23 @@ def citydeathsplotbydensity(row, state, city):
         plotdata = data.deaths / city_density.density.values[0]
         if len(data['deaths']):
             fig.add_trace(
-                go.Scatter(x=data.index, y=plotdata.values, mode='lines', name=city + ', ' + state, line = { 'width': default_line_thickness },
+                go.Scatter(x=data.index, y=plotdata.values, mode='lines', name=city + ', ' + state + ' (' + str.format('{0:,}', int(round(city_density.density.values[0],0))) + ' ppl/mi^2)', line = { 'width': default_line_thickness },
                 hovertemplate='density adjusted deaths: %{y}<br>day: %{x}')
             )
 
 row += 1
 layout = go.Layout(
-        title = 'Total city deaths trend after hitting ' + str(starting_cases) + ' cases factoring out population density',
+        title = 'Total city deaths trend after the first death factoring out population density',
         plot_bgcolor = default_plot_color,
         xaxis_gridcolor = default_grid_color,
         yaxis_gridcolor = default_grid_color,
         width=default_width,
         height=default_height,
         xaxis_title='Days since first person died from covid-19',
-        yaxis_title='Total density adjusted cases'
+        yaxis_title='Total density adjusted deaths'
 )
 fig=go.Figure(layout=layout)
-for dataset in [county_cities_east_map, county_cities_midwest_map, county_cities_west_map]:
+for dataset in [county_cities_east_map, county_cities_midwest_map, county_cities_south_map, county_cities_west_map]:
     starting_deaths = 1
     for p in dataset.itertuples():
         for c in p.cities:
