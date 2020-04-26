@@ -25,13 +25,19 @@ import plotly
 default_line_thickness=2
 default_width = 1280
 default_height = 800
+default_plot_color = 'rgba(0, 0, 0, 0)'
+default_grid_color = 'rgba(225, 225, 225, 255)'
 
 webpage_folder = 'webpage/'
 html_graphs = open(webpage_folder + "CovidAnalysis.html",'w',)
-html_graphs.write("<html><head></head><body>"+"\n")
-html_graphs.write('<h1>Data as of ' + datetime.now().strftime('%m/%d/%y')+ '<br/></h1>')
-html_graphs.write('Please wait to load all the graphs. This page is not setup to be fast loading. :)<br/><br/>Also be aware that you can now can single click on a location in the legend to show and hide that location in the graph. If you double click, you will hide all other locations, except for the one you double clicked.')
-
+html_graphs.write("<html><head><style>div {margin:5%; font-family: \"Verdana\"}</style></head><body>"+"\n")
+html_graphs.write('<div style=\'margin:50px\'><h1>Data as of ' + datetime.now().strftime('%m/%d/%y')+ '<br/></h1>')
+html_graphs.write('''
+Please wait to load all the graphs. This page is not setup to be fast loading. :)<br/><br/>
+Also be aware that you can now can single click on a location in the legend to show and hide that
+location in the graph. If you double click, you will hide all other locations, except for the one you
+double clicked.
+</div>''')
 #  %% [markdown]
 # **********************************************************************************************************
 # # Setup
@@ -96,7 +102,6 @@ states = pd.unique(np.concatenate((states_east, states_midwest, states_west)))
 # %% [markdown]
 # **********************************************************************************************************
 # # New cases per day
-# This trend line is a moving average of new cases over time.
 # **********************************************************************************************************
 # %%
 def movingaverage(values, window):
@@ -128,6 +133,9 @@ def plotnewcases(row, state='US'):
 row = 1
 layout = go.Layout(
         title = 'New cases for US',
+        plot_bgcolor = default_plot_color,
+        xaxis_gridcolor = default_grid_color,
+        yaxis_gridcolor = default_grid_color,
         width=default_width,
         height=default_height,
         xaxis_title='Days since 100 cases were hit',
@@ -139,10 +147,10 @@ plotnewcases(row)
 fig.show()
 plotly.offline.plot(fig, filename=webpage_folder + 'Chart_'+str(row)+'.html',auto_open=False)
 html_graphs.write('''
-<br/><br/>
+<br/><br/><div>
 <h1>New cases per day</h1><br/>
 This trend line is a moving average of new cases over time. First for the US overall then by state (not all are represented here, just ones I found most interesting.
-<br/>''')
+</div>''')
 html_graphs.write("  <object data=\""+'Chart_'+str(row)+'.html'+"\" width=" + str(default_width * 1.10) + " height=" + str(default_height* 1.10) + "\"></object>"+"\n")
 
 
@@ -151,6 +159,9 @@ html_graphs.write("  <object data=\""+'Chart_'+str(row)+'.html'+"\" width=" + st
 row += 1
 layout = go.Layout(
         title = 'New cases by state',
+        plot_bgcolor = default_plot_color,
+        xaxis_gridcolor = default_grid_color,
+        yaxis_gridcolor = default_grid_color,
         width=default_width,
         height=default_height,
         xaxis_title='Days since 15 cases were hit',
@@ -196,6 +207,9 @@ row += 1
 starting_cases = 1000
 layout = go.Layout(
         title = 'Total cases by state after hitting ' + str(starting_cases) + ' cases',
+        plot_bgcolor = default_plot_color,
+        xaxis_gridcolor = default_grid_color,
+        yaxis_gridcolor = default_grid_color,
         width=default_width,
         height=default_height,
         xaxis_title='Days since ' + str(starting_cases) + ' cases were hit',
@@ -209,9 +223,9 @@ for s in states:
 fig.show()
 plotly.offline.plot(fig, filename=webpage_folder + 'Chart_'+str(row)+'.html',auto_open=False)
 html_graphs.write('''
-<br/><br/>
-<h1>State Total cases</h1>
-<br/>''')
+<br/><br/><div>
+<h1>State and County Total cases</h1>
+</div>''')
 html_graphs.write("  <object data=\""+'Chart_'+str(row)+'.html'+"\" width=" + str(default_width * 1.10) + " height=" + str(default_height* 1.10) + "\"></object>"+"\n")
 
 #  %% [markdown]
@@ -219,9 +233,12 @@ html_graphs.write("  <object data=\""+'Chart_'+str(row)+'.html'+"\" width=" + st
 # # County Totals
 # **********************************************************************************************************
 row += 1
-starting_cases = 200
+starting_cases = 225
 layout = go.Layout(
         title = 'Total cases by county after hitting ' + str(starting_cases) + ' cases',
+        plot_bgcolor = default_plot_color,
+        xaxis_gridcolor = default_grid_color,
+        yaxis_gridcolor = default_grid_color,
         width=default_width,
         height=default_height,
         xaxis_title='Days since ' + str(starting_cases) + ' cases were hit',
@@ -230,29 +247,17 @@ layout = go.Layout(
 fig = go.Figure(layout=layout)
 
 for dataset in [county_cities_east_map, county_cities_midwest_map, county_cities_west_map]:
-    starting_cases = 200
+    starting_cases = 225
     for p in dataset.itertuples():
         plottotalcases(row, p.state, p.county)
 
 fig.show()
 plotly.offline.plot(fig, filename=webpage_folder + 'Chart_'+str(row)+'.html',auto_open=False)
-html_graphs.write('''
-<br/><br/>
-<h1>County Total cases</h1><br/>
-<br/>''')
 html_graphs.write("  <object data=\""+'Chart_'+str(row)+'.html'+"\" width=" + str(default_width * 1.10) + " height=" + str(default_height* 1.10) + "\"></object>"+"\n")
 
 #  %% [markdown]
 # **********************************************************************************************************
 # # State cases adjusted for population
-# To better get a sense of how different states may be handling the virus outbreak, you can
-# adjust the graphs to account for the number of people who live in each state. A state that has
-# 100,000 people vs 8,000,000 people will obviously look far better with regard to total cases
-# because they have 80x less people. By factoring in the population of a state, this is difference
-# is accounted for.
-#
-# This graph indicates that New York, New Jersey, and Louisiana, are getting far more cases per day
-# than the other states, regardless of how many people live in each state.
 # **********************************************************************************************************
 #  %%
 def stateplotpercapita(row, state):
@@ -272,6 +277,9 @@ row += 1
 starting_cases = 1000
 layout = go.Layout(
         title = 'Total state cases per 1,000 people after hitting ' + str(starting_cases) + ' cases',
+        plot_bgcolor = default_plot_color,
+        xaxis_gridcolor = default_grid_color,
+        yaxis_gridcolor = default_grid_color,
         width=default_width,
         height=default_height,
         xaxis_title='Days since ' + str(starting_cases) + ' cases were hit',
@@ -285,29 +293,19 @@ for dataset in [states_east, states_midwest, states_west]:
 fig.show()
 plotly.offline.plot(fig, filename=webpage_folder + 'Chart_'+str(row)+'.html',auto_open=False)
 html_graphs.write('''
-<br/><br/>
+<br/><br/><div>
 <h1>State cases adjusted for population</h1><br/>
 To better get a sense of how different states may be handling the virus outbreak, you can
 adjust the graphs to account for the number of people who live in each state. A state that has
 100,000 people vs 8,000,000 people will obviously look far better with regard to total cases
 because they have 80x less people. By factoring in the population of a state, this is difference
 is accounted for.
-<br/>''')
+</div>''')
 html_graphs.write("  <object data=\""+'Chart_'+str(row)+'.html'+"\" width=" + str(default_width * 1.10) + " height=" + str(default_height* 1.10) + "\"></object>"+"\n")
 
 #  %% [markdown]
 # **********************************************************************************************************
 # # State cases adjusted for population density
-#
-# Each state has a population and an area in which this population lives. *Pretend* for a moment that Texas only has 100,000
-# people total. Also *pretend* that Rhode Island has 100,000 people. However, you also know that the
-# land area of Rhode Island is much, much smaller than that of Texas. So, if Rhode Island gets 5,000 cases of the virus
-# and Texas also gets 5,000 case, then you can say with high confidence that the people in Texas are likely completely
-# ignoring advice to keep a minimum distance from others. I mean how else could they have the same number of cases as Rhode Island
-# where the same number of people are packed together?
-#
-# This graph removes this consideration from the comparison between states. As you can see, New Jersey is doing far worse than
-# than Ohio, Washington and California.
 # **********************************************************************************************************
 #  %%
 def stateplotbydensity(row, state):
@@ -325,9 +323,12 @@ def stateplotbydensity(row, state):
             )
 
 row += 1
-starting_cases = 200
+starting_cases = 225
 layout = go.Layout(
         title = 'Total state trend after hitting ' + str(starting_cases) + ' cases factoring out population density',
+        plot_bgcolor = default_plot_color,
+        xaxis_gridcolor = default_grid_color,
+        yaxis_gridcolor = default_grid_color,
         width=default_width,
         height=default_height,
         xaxis_title='Days since ' + str(starting_cases) + ' cases were hit',
@@ -341,7 +342,7 @@ for dataset in [states_east, states_midwest, states_west]:
 fig.show()
 plotly.offline.plot(fig, filename=webpage_folder + 'Chart_'+str(row)+'.html',auto_open=False)
 html_graphs.write('''
-<br/><br/>
+<br/><br/><div>
 <h1>State cases adjusted for population density</h1><br/>
 Each state has a population and an area in which this population lives. *Pretend* for a moment that Texas only has 100,000
 people total. Also *pretend* that Rhode Island has 100,000 people. However, you also know that the
@@ -352,17 +353,12 @@ where the same number of people are packed together?<br/>
 <br/>
 This graph removes this consideration from the comparison between states. As you can see, New Jersey is doing far worse than
 than Ohio, Washington and California.
-<br/>''')
+</div>''')
 html_graphs.write("  <object data=\""+'Chart_'+str(row)+'.html'+"\" width=" + str(default_width * 1.10) + " height=" + str(default_height* 1.10) + "\"></object>"+"\n")
 
 #  %% [markdown]
 # **********************************************************************************************************
 # # City total cases adjusted for population density
-# This graph shows that even though Detroit Michigan's population density is around 5x less than that of New York City,
-# the number of virus cases is growing there far faster than even New York and New Orleans (which both suck!). I'd be much
-# more worried if I lived in Detroit right now.
-#
-# Note that Cleveland and Seattle, and Los Angeles are pretty flat, which is good.
 # **********************************************************************************************************
 #  %%
 def cityplotbydensity(row, state, city):
@@ -388,6 +384,9 @@ row += 1
 starting_cases = 20
 layout = go.Layout(
         title = 'Total city trend after hitting ' + str(starting_cases) + ' cases factoring out population density',
+        plot_bgcolor = default_plot_color,
+        xaxis_gridcolor = default_grid_color,
+        yaxis_gridcolor = default_grid_color,
         width=default_width,
         height=default_height,
         xaxis_title='Days since ' + str(starting_cases) + ' cases were hit',
@@ -403,14 +402,12 @@ for dataset in [county_cities_east_map, county_cities_midwest_map, county_cities
 fig.show()
 plotly.offline.plot(fig, filename=webpage_folder + 'Chart_'+str(row)+'.html',auto_open=False)
 html_graphs.write('''
-<br/><br/>
+<br/><br/><div>
 <h1>City total cases adjusted for population density</h1><br/>
-This graph shows that even though Detroit Michigan's population density is around 5x less than that of New York City,
-the number of virus cases is growing there far faster than even New York and New Orleans (which both suck!). I'd be much
-more worried if I lived in Detroit right now.<br/>
-<br/>
-Note that Cleveland and Seattle, and Los Angeles are pretty flat, which is good.
-<br/>''')
+Same trends as described for state cases adjusted for population density, but applied at the city level instead. The intent of
+this graph is to discount the consideration that some cities growth rates are so fast because those cities are so densely populated.
+This was a common explanation as to why New York was growing so much faster than other cities.
+</div>''')
 html_graphs.write("  <object data=\""+'Chart_'+str(row)+'.html'+"\" width=" + str(default_width * 1.10) + " height=" + str(default_height* 1.10) + "\"></object>"+"\n")
 
 
@@ -440,6 +437,9 @@ def citydeathsplotbydensity(row, state, city):
 row += 1
 layout = go.Layout(
         title = 'Total city deaths trend after hitting ' + str(starting_cases) + ' cases factoring out population density',
+        plot_bgcolor = default_plot_color,
+        xaxis_gridcolor = default_grid_color,
+        yaxis_gridcolor = default_grid_color,
         width=default_width,
         height=default_height,
         xaxis_title='Days since first person died from covid-19',
@@ -454,10 +454,10 @@ for dataset in [county_cities_east_map, county_cities_midwest_map, county_cities
 fig.show()
 plotly.offline.plot(fig, filename=webpage_folder + 'Chart_'+str(row)+'.html',auto_open=False)
 html_graphs.write('''
-<br/><br/>
+<br/><br/><div>
 <h1>City <b>deaths</b> adjusted for population density</h1><br/>
 See description above concerning cases adjusted for population density. This is the same, but is about deaths, not just cases.
-<br/>''')
+</div>''')
 html_graphs.write("  <object data=\""+'Chart_'+str(row)+'.html'+"\" width=" + str(default_width * 1.10) + " height=" + str(default_height* 1.10) + "\"></object>"+"\n")
 
 html_graphs.write('</body></html')
