@@ -1,4 +1,5 @@
 # %% [markdown]
+# * Update 04/25/2020
 # * Update 04/19/2020 - Added plotly graphs
 # * Update 04/15/2020
 # * Update 04/14/2020
@@ -11,6 +12,10 @@
 #     * https://www.mercurynews.com/2020/04/08/how-california-has-contained-coronavirus-and-new-york-has-not/
 # * I moved the graphs that negate the effects of city population density to the top, since that's mostly what I've been interested in seeing.
 #  %%
+import time
+t0 = time.clock()
+
+#  %%
 import pandas as pd
 import numpy as np
 from datetime import datetime
@@ -21,7 +26,8 @@ default_line_thickness=2
 default_width = 1280
 default_height = 800
 
-html_graphs = open("CovidAnalysis.html",'w')
+webpage_folder = 'webpage/'
+html_graphs = open(webpage_folder + "CovidAnalysis.html",'w',)
 html_graphs.write("<html><head></head><body>"+"\n")
 html_graphs.write('<h1>Data as of ' + datetime.now().strftime('%m/%d/%y')+ '<br/></h1>')
 html_graphs.write('Please wait to load all the graphs. This page is not setup to be fast loading. :)<br/><br/>Also be aware that you can now can single click on a location in the legend to show and hide that location in the graph. If you double click, you will hide all other locations, except for the one you double clicked.')
@@ -73,7 +79,9 @@ county_cities_midwest = [
     ['Ohio', 'Cuyahoga', ['Cleveland']],
     ['Michigan', 'Wayne', ['Detroit']],
     ['Indiana', 'Hamilton', ['Carmel']],
-    ['Pennsylvania', 'Philadelphia', ['Philadelphia']]
+    ['Pennsylvania', 'Philadelphia', ['Philadelphia']],
+    ['Georgia', 'Fulton', ['Atlanta']],
+    ['Tennessee', 'Davidson', ['Nashville']]
 ]
 
 county_cities_east_map = pd.DataFrame(county_cities_east, columns = ['state', 'county', 'cities'])
@@ -113,21 +121,30 @@ def plotnewcases(row, state='US'):
     df['days'] = df.index
 
     fig.add_trace(
-        go.Scatter(x=df.days, y=df.new, mode='lines', name=state, line = { 'width': default_line_thickness })
+        go.Scatter(x=df.days, y=df.new, mode='lines', name=state, line = { 'width': default_line_thickness },
+        hovertemplate='new cases: %{y:,.0f}<br>day: %{x}')
     )
 
 row = 1
 layout = go.Layout(
         title = 'New cases for US',
         width=default_width,
-        height=default_height
+        height=default_height,
+        xaxis_title='Days since 100 cases were hit',
+        yaxis_title='New cases'
 )
 fig = go.Figure(layout=layout)
 plotnewcases(row)
 
 fig.show()
-plotly.offline.plot(fig, filename='Chart_'+str(row)+'.html',auto_open=False)
+plotly.offline.plot(fig, filename=webpage_folder + 'Chart_'+str(row)+'.html',auto_open=False)
+html_graphs.write('''
+<br/><br/>
+<h1>New cases per day</h1><br/>
+This trend line is a moving average of new cases over time. First for the US overall then by state (not all are represented here, just ones I found most interesting.
+<br/>''')
 html_graphs.write("  <object data=\""+'Chart_'+str(row)+'.html'+"\" width=" + str(default_width * 1.10) + " height=" + str(default_height* 1.10) + "\"></object>"+"\n")
+
 
 #############################
 
@@ -135,14 +152,17 @@ row += 1
 layout = go.Layout(
         title = 'New cases by state',
         width=default_width,
-        height=default_height
+        height=default_height,
+        xaxis_title='Days since 15 cases were hit',
+        yaxis_title='New cases'
 )
+
 fig = go.Figure(layout=layout)
 for state in states:
     plotnewcases(row, state)
 
 fig.show()
-plotly.offline.plot(fig, filename='Chart_'+str(row)+'.html',auto_open=False)
+plotly.offline.plot(fig, filename=webpage_folder + 'Chart_'+str(row)+'.html',auto_open=False)
 html_graphs.write("  <object data=\""+'Chart_'+str(row)+'.html'+"\" width=" + str(default_width * 1.10) + " height=" + str(default_height* 1.10) + "\"></object>"+"\n")
 
 # %% [markdown]
@@ -163,22 +183,35 @@ def plottotalcases(row, state, county = 'all'):
 
         if (county == 'all'):
             fig.add_trace(
-                go.Scatter(x=data.index, y=data.cases, mode='lines', name=state, line = { 'width': default_line_thickness })
+                go.Scatter(x=data.index, y=data.cases, mode='lines', name=state, line = { 'width': default_line_thickness },
+                hovertemplate='total cases: %{y:,.0f}<br>day: %{x}')
             )
         else:
             fig.add_trace(
-                go.Scatter(x=data.index, y=data.cases, mode='lines', name=county + ', ' + state, line = { 'width': default_line_thickness })
+                go.Scatter(x=data.index, y=data.cases, mode='lines', name=county + ', ' + state, line = { 'width': default_line_thickness },
+                hovertemplate='total cases: %{y:,.0f}<br>day: %{x}')
             )
 
 row += 1
 starting_cases = 1000
-layout.title = 'Total cases by state after hitting ' + str(starting_cases) + ' cases'
+layout = go.Layout(
+        title = 'Total cases by state after hitting ' + str(starting_cases) + ' cases',
+        width=default_width,
+        height=default_height,
+        xaxis_title='Days since ' + str(starting_cases) + ' cases were hit',
+        yaxis_title='Total cases'
+)
+
 fig = go.Figure(layout=layout)
 for s in states:
     plottotalcases(row, s)
 
 fig.show()
-plotly.offline.plot(fig, filename='Chart_'+str(row)+'.html',auto_open=False)
+plotly.offline.plot(fig, filename=webpage_folder + 'Chart_'+str(row)+'.html',auto_open=False)
+html_graphs.write('''
+<br/><br/>
+<h1>State Total cases</h1>
+<br/>''')
 html_graphs.write("  <object data=\""+'Chart_'+str(row)+'.html'+"\" width=" + str(default_width * 1.10) + " height=" + str(default_height* 1.10) + "\"></object>"+"\n")
 
 #  %% [markdown]
@@ -187,7 +220,13 @@ html_graphs.write("  <object data=\""+'Chart_'+str(row)+'.html'+"\" width=" + st
 # **********************************************************************************************************
 row += 1
 starting_cases = 200
-layout.title = 'Total cases by county after hitting ' + str(starting_cases) + ' cases'
+layout = go.Layout(
+        title = 'Total cases by county after hitting ' + str(starting_cases) + ' cases',
+        width=default_width,
+        height=default_height,
+        xaxis_title='Days since ' + str(starting_cases) + ' cases were hit',
+        yaxis_title='Total cases'
+)
 fig = go.Figure(layout=layout)
 
 for dataset in [county_cities_east_map, county_cities_midwest_map, county_cities_west_map]:
@@ -196,7 +235,11 @@ for dataset in [county_cities_east_map, county_cities_midwest_map, county_cities
         plottotalcases(row, p.state, p.county)
 
 fig.show()
-plotly.offline.plot(fig, filename='Chart_'+str(row)+'.html',auto_open=False)
+plotly.offline.plot(fig, filename=webpage_folder + 'Chart_'+str(row)+'.html',auto_open=False)
+html_graphs.write('''
+<br/><br/>
+<h1>County Total cases</h1><br/>
+<br/>''')
 html_graphs.write("  <object data=\""+'Chart_'+str(row)+'.html'+"\" width=" + str(default_width * 1.10) + " height=" + str(default_height* 1.10) + "\"></object>"+"\n")
 
 #  %% [markdown]
@@ -218,22 +261,38 @@ def stateplotpercapita(row, state):
     state_population = population_state_density[population_state_density.state == state]
     if len(state_population):
         data.index = [x for x in range(0, len(data))]
-        plotdata = data.cases / state_population.population.values[0]
+        plotdata = (data.cases / state_population.population.values[0]) * 1000
         if len(data['cases']):
             fig.add_trace(
-                go.Scatter(x=data.index, y=data.cases, mode='lines', name=state, line = { 'width': default_line_thickness })
+                go.Scatter(x=data.index, y=plotdata, mode='lines', name=state, line = { 'width': default_line_thickness },
+                hovertemplate='cases per 1000: %{y:,.0f}<br>day: %{x}')
             )
 
 row += 1
 starting_cases = 1000
-layout.title = 'Total State Cases adjusted for population after hitting ' + str(starting_cases) + ' cases'
+layout = go.Layout(
+        title = 'Total state cases per 1,000 people after hitting ' + str(starting_cases) + ' cases',
+        width=default_width,
+        height=default_height,
+        xaxis_title='Days since ' + str(starting_cases) + ' cases were hit',
+        yaxis_title='Total cases per 1000 people'
+)
 fig=go.Figure(layout=layout)
 
 for dataset in [states_east, states_midwest, states_west]:
     for s in dataset:
         stateplotpercapita(row, s)
 fig.show()
-plotly.offline.plot(fig, filename='Chart_'+str(row)+'.html',auto_open=False)
+plotly.offline.plot(fig, filename=webpage_folder + 'Chart_'+str(row)+'.html',auto_open=False)
+html_graphs.write('''
+<br/><br/>
+<h1>State cases adjusted for population</h1><br/>
+To better get a sense of how different states may be handling the virus outbreak, you can
+adjust the graphs to account for the number of people who live in each state. A state that has
+100,000 people vs 8,000,000 people will obviously look far better with regard to total cases
+because they have 80x less people. By factoring in the population of a state, this is difference
+is accounted for.
+<br/>''')
 html_graphs.write("  <object data=\""+'Chart_'+str(row)+'.html'+"\" width=" + str(default_width * 1.10) + " height=" + str(default_height* 1.10) + "\"></object>"+"\n")
 
 #  %% [markdown]
@@ -257,23 +316,43 @@ def stateplotbydensity(row, state):
     state_density = population_state_density[population_state_density.state == state]
     if len(state_density):
         data.index = [x for x in range(0, len(data))]
-        plotdata = data.cases / state_density.density.values[0]
+        plotdata = (data.cases / state_density.density.values[0])
         if len(data['cases']):
             lastindex = len(data) - 1
             fig.add_trace(
-                go.Scatter(x=data.index, y=data.cases, mode='lines', name=state, line = { 'width': default_line_thickness })
+                go.Scatter(x=data.index, y=plotdata, mode='lines', name=state, line = { 'width': default_line_thickness },
+                hovertemplate='density adjusted cases: %{y:,.0f}<br>day: %{x}')
             )
 
 row += 1
 starting_cases = 200
-layout.title = 'Total State Cases adjusted for population density after hitting ' + str(starting_cases) + ' cases'
+layout = go.Layout(
+        title = 'Total state trend after hitting ' + str(starting_cases) + ' cases factoring out population density',
+        width=default_width,
+        height=default_height,
+        xaxis_title='Days since ' + str(starting_cases) + ' cases were hit',
+        yaxis_title='Total density adjusted cases'
+)
 fig=go.Figure(layout=layout)
 
 for dataset in [states_east, states_midwest, states_west]:
     for s in dataset:
         stateplotbydensity(row, s)
 fig.show()
-plotly.offline.plot(fig, filename='Chart_'+str(row)+'.html',auto_open=False)
+plotly.offline.plot(fig, filename=webpage_folder + 'Chart_'+str(row)+'.html',auto_open=False)
+html_graphs.write('''
+<br/><br/>
+<h1>State cases adjusted for population density</h1><br/>
+Each state has a population and an area in which this population lives. *Pretend* for a moment that Texas only has 100,000
+people total. Also *pretend* that Rhode Island has 100,000 people. However, you also know that the
+land area of Rhode Island is much, much smaller than that of Texas. So, if Rhode Island gets 5,000 cases of the virus
+and Texas also gets 5,000 case, then you can say with high confidence that the people in Texas are likely completely
+ignoring advice to keep a minimum distance from others. I mean how else could they have the same number of cases as Rhode Island
+where the same number of people are packed together?<br/>
+<br/>
+This graph removes this consideration from the comparison between states. As you can see, New Jersey is doing far worse than
+than Ohio, Washington and California.
+<br/>''')
 html_graphs.write("  <object data=\""+'Chart_'+str(row)+'.html'+"\" width=" + str(default_width * 1.10) + " height=" + str(default_height* 1.10) + "\"></object>"+"\n")
 
 #  %% [markdown]
@@ -301,12 +380,19 @@ def cityplotbydensity(row, state, city):
         if len(data['cases']):
             lastindex = len(data) - 1
             fig.add_trace(
-                go.Scatter(x=data.index, y=data.cases, mode='lines', name=city + ', ' + state, line = { 'width': default_line_thickness })
+                go.Scatter(x=data.index, y=plotdata, mode='lines', name=city + ', ' + state, line = { 'width': default_line_thickness },
+                    hovertemplate='density adjusted cases: %{y:,.3f}<br>day: %{x}')
             )
 
 row += 1
 starting_cases = 20
-layout.title = 'Total City cases adjusted for population density after hitting ' + str(starting_cases) + ' cases'
+layout = go.Layout(
+        title = 'Total city trend after hitting ' + str(starting_cases) + ' cases factoring out population density',
+        width=default_width,
+        height=default_height,
+        xaxis_title='Days since ' + str(starting_cases) + ' cases were hit',
+        yaxis_title='Total density adjusted cases'
+)
 fig=go.Figure(layout=layout)
 
 for dataset in [county_cities_east_map, county_cities_midwest_map, county_cities_west_map]:
@@ -315,7 +401,16 @@ for dataset in [county_cities_east_map, county_cities_midwest_map, county_cities
             cityplotbydensity(row, p.state, c)
 
 fig.show()
-plotly.offline.plot(fig, filename='Chart_'+str(row)+'.html',auto_open=False)
+plotly.offline.plot(fig, filename=webpage_folder + 'Chart_'+str(row)+'.html',auto_open=False)
+html_graphs.write('''
+<br/><br/>
+<h1>City total cases adjusted for population density</h1><br/>
+This graph shows that even though Detroit Michigan's population density is around 5x less than that of New York City,
+the number of virus cases is growing there far faster than even New York and New Orleans (which both suck!). I'd be much
+more worried if I lived in Detroit right now.<br/>
+<br/>
+Note that Cleveland and Seattle, and Los Angeles are pretty flat, which is good.
+<br/>''')
 html_graphs.write("  <object data=\""+'Chart_'+str(row)+'.html'+"\" width=" + str(default_width * 1.10) + " height=" + str(default_height* 1.10) + "\"></object>"+"\n")
 
 
@@ -338,11 +433,18 @@ def citydeathsplotbydensity(row, state, city):
         plotdata = data.deaths / city_density.density.values[0]
         if len(data['deaths']):
             fig.add_trace(
-                go.Scatter(x=data.index, y=plotdata.values, mode='lines', name=city + ', ' + state, line = { 'width': default_line_thickness })
+                go.Scatter(x=data.index, y=plotdata.values, mode='lines', name=city + ', ' + state, line = { 'width': default_line_thickness },
+                hovertemplate='density adjusted deaths: %{y}<br>day: %{x}')
             )
 
 row += 1
-layout.title = 'Total City deaths adjusted for population density after the first death recorded'
+layout = go.Layout(
+        title = 'Total city deaths trend after hitting ' + str(starting_cases) + ' cases factoring out population density',
+        width=default_width,
+        height=default_height,
+        xaxis_title='Days since first person died from covid-19',
+        yaxis_title='Total density adjusted cases'
+)
 fig=go.Figure(layout=layout)
 for dataset in [county_cities_east_map, county_cities_midwest_map, county_cities_west_map]:
     starting_deaths = 1
@@ -350,12 +452,22 @@ for dataset in [county_cities_east_map, county_cities_midwest_map, county_cities
         for c in p.cities:
             citydeathsplotbydensity(row, p.state, c)
 fig.show()
-plotly.offline.plot(fig, filename='Chart_'+str(row)+'.html',auto_open=False)
+plotly.offline.plot(fig, filename=webpage_folder + 'Chart_'+str(row)+'.html',auto_open=False)
+html_graphs.write('''
+<br/><br/>
+<h1>City <b>deaths</b> adjusted for population density</h1><br/>
+See description above concerning cases adjusted for population density. This is the same, but is about deaths, not just cases.
+<br/>''')
 html_graphs.write("  <object data=\""+'Chart_'+str(row)+'.html'+"\" width=" + str(default_width * 1.10) + " height=" + str(default_height* 1.10) + "\"></object>"+"\n")
 
 html_graphs.write('</body></html')
 html_graphs.close()
 
 # %%
+print('Total run time: ', time.clock() - t0)
 
 
+
+
+
+# %%
