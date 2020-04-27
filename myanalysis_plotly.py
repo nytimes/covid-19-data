@@ -52,6 +52,9 @@ state_cov_data = pd.read_csv('us-states.csv')
 county_cov_data = pd.read_csv('us-counties.csv')
 
 population_county = pd.read_csv('county-population-2013.csv')
+population_county.drop(columns={'Core_Based_Statistical_Area'}, inplace=True)
+population_county.rename(columns={'population2013': 'population'}, inplace=True)
+population_county.index = [population_county.county, population_county.state]
 
 population_city_density = pd.read_csv('city_density.csv')
 population_city_density = population_city_density.rename(columns={'City': 'citystate', 'Population Density (Persons/Square Mile)': 'density', '2016 Population': 'population', 'Land Area (Square Miles)': 'area'} )
@@ -60,10 +63,36 @@ population_city_density[['city', 'state']] = population_city_density.citystate.s
 population_state_density = pd.read_csv('state_density.csv')
 population_state_density = population_state_density.rename(columns={'State': 'state', 'Density': 'density', 'Pop': 'population', 'LandArea': 'area'})
 
+# Create a state abbreviation to full name mapping dataframe.
+state_abbrev = pd.read_csv('StateAbbrev.csv')
+state_abbrev.index = state_abbrev.abbrev
+state_abbrev.drop(columns='abbrev', inplace=True)
+
+# Get the land area table for county, split the 'county, SS' column into two.
+county_land_area = pd.read_csv('LandArea.csv')
+county_density = county_land_area['Areaname'].str.split(', ', n=1, expand=True)
+county_density.rename(columns={0: 'county', 1: 'state'}, inplace=True)
+county_density.dropna(inplace=True)
+county_density.state = county_density.state.map(state_abbrev.state)
+
+county_land_area['county'] = county_density.county
+county_land_area['state'] = county_density.state
+county_land_area.dropna(inplace=True)
+county_land_area['key'] = county_land_area.county + ',' + county_land_area.state
+county_land_area.drop_duplicates(subset='key', inplace=True)
+county_land_area.index = county_land_area.key
+county_land_area.drop(columns={'Areaname', 'county', 'state', 'key'}, inplace=True)
+
+county_density['population'] = population_county.loc[list(county_density.itertuples(name=None, index=False))].population.values
+county_density['key'] = county_density.county + ',' + county_density.state
+county_density['area'] = county_density.key.map(county_land_area.land_area)
+county_density['density'] = county_density.population / county_density.area
+county_density.dropna(subset=['density'], inplace=True)
+
 county_cities_east = [
     ['District of Columbia', 'District of Columbia', ['District of Columbia']],
     ['Massachusetts', 'Suffolk', ['Boston']],
-    ['New York', 'New York City', ['New York']],
+    ['New York', 'Bronx', ['New York']],
     ['New Jersey', 'Bergen', ['Newark', 'Jersey City']],
     ['Pennsylvania', 'Philadelphia', ['Philadelphia']]
 ]
@@ -323,13 +352,13 @@ def countyplotpercapita(row, state, county):
     data = county_cov_data[county_cov_data.state == state][['date', 'cases', 'county']]
     data = data[county_cov_data.county == county][['date', 'cases']]
     data = data[data.cases >= starting_cases]
-    county_population = population_county[population_county.state == state][population_county.county == county]
+    county_population = population_county[(population_county.state == state) & (population_county.county == county)]
     if len(county_population):
         data.index = [x for x in range(0, len(data))]
-        plotdata = (data.cases / county_population.population2013.values[0]) * 1000
+        plotdata = (data.cases / county_population.population.values[0]) * 1000
         if len(data['cases']):
             fig.add_trace(
-                go.Scatter(x=data.index, y=plotdata, mode='lines', name=county + ', ' + state + ' (' + str.format('{0:,}', county_population.population2013.values[0]) + ' people)', line = { 'width': default_line_thickness },
+                go.Scatter(x=data.index, y=plotdata, mode='lines', name=county + ', ' + state + ' (' + str.format('{0:,}', county_population.population.values[0]) + ' people)', line = { 'width': default_line_thickness },
                 hovertemplate='cases per 1000: %{y:,.0f}<br>day: %{x}')
             )
 
@@ -396,7 +425,7 @@ plotly.offline.plot(fig, filename=webpage_folder + 'Chart_'+str(row)+'.html',aut
 html_graphs.write('''
 <br/><br/><div>
 <h1>State cases adjusted for population density</h1><br/>
-Each state has a population and an area in which this population lives. *Pretend* for a moment that Texas only has 100,000
+Each state and county obviously has a population and an area in which this population lives. *Pretend* for a moment that Texas only has 100,000
 people total. Also *pretend* that Rhode Island has 100,000 people. However, you also know that the
 land area of Rhode Island is much, much smaller than that of Texas. So, if Rhode Island gets 5,000 cases of the virus
 and Texas also gets 5,000 case, then you can say with high confidence that the people in Texas are likely completely
@@ -406,6 +435,47 @@ where the same number of people are packed together?<br/>
 This graph removes this consideration from the comparison between states. As you can see, New Jersey is doing far worse than
 than Ohio, Washington and California.
 </div>''')
+html_graphs.write("  <object data=\""+'Chart_'+str(row)+'.html'+"\" width=" + str(default_width * 1.10) + " height=" + str(default_height* 1.10) + "\"></object>"+"\n")
+
+
+#  %% [markdown]
+# **********************************************************************************************************
+# # County cases adjusted for population density
+# **********************************************************************************************************
+#  %%
+def countyplotbydensity(row, county, state):
+    data = county_cov_data[(county_cov_data.county == county) & (county_cov_data.state == state)][['date', 'cases']]
+    data = data[data.cases >= starting_cases]
+    density = county_density[(county_density.county == county) & (county_density.state == state)]
+    if len(density):
+        data.index = [x for x in range(0, len(data))]
+        plotdata = (data.cases / density.density.values[0])
+        if len(data['cases']):
+            lastindex = len(data) - 1
+            fig.add_trace(
+                go.Scatter(x=data.index, y=plotdata, mode='lines', name=state + ' - ' + county + ' (' + str.format('{0:,}', int(round(density.density))) + ' ppl/mi^2)', line = { 'width': default_line_thickness },
+                hovertemplate='density adjusted cases: %{y:,.0f}<br>day: %{x}')
+            )
+
+row += 1
+starting_cases = 200
+layout = go.Layout(
+        title = 'Total county trend after hitting ' + str(starting_cases) + ' cases factoring out population density',
+        plot_bgcolor = default_plot_color,
+        xaxis_gridcolor = default_grid_color,
+        yaxis_gridcolor = default_grid_color,
+        width=default_width,
+        height=default_height,
+        xaxis_title='Days since ' + str(starting_cases) + ' cases were hit',
+        yaxis_title='Total density adjusted cases'
+)
+fig=go.Figure(layout=layout)
+
+for dataset in [county_cities_east_map, county_cities_midwest_map, county_cities_south_map, county_cities_west_map]:
+    for p in dataset.itertuples():
+        countyplotbydensity(row, p.county, p.state)
+fig.show()
+plotly.offline.plot(fig, filename=webpage_folder + 'Chart_'+str(row)+'.html',auto_open=False)
 html_graphs.write("  <object data=\""+'Chart_'+str(row)+'.html'+"\" width=" + str(default_width * 1.10) + " height=" + str(default_height* 1.10) + "\"></object>"+"\n")
 
 #  %% [markdown]
