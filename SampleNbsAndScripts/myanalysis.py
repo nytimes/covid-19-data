@@ -1,16 +1,3 @@
-# %% [markdown]
-# * Update 04/22/2020
-# * Update 04/21/2020
-# * UPdate 04/18/2020
-# * Update 04/15/2020
-# * Update 04/13/2020 - Added new cases trend graphs to the start and reordered the graphs (again) to tell a better story as to how the analysis progressed.
-# * Update 04/12/2020
-# * Update 04/11/2020
-# * Update 04/10/2020
-# * Updated 04/09/2020 - From what I'm seeing on these graphs, all the cities and states I show here are showing flattening -- except New York, LA and Chicago, with NY still being the worst and not improving at all. At least it's no longer growing exponentially I guess.
-# * Looks like the press is starting to ask some of the same questions I'm asking with this analysis:
-#     * https://www.mercurynews.com/2020/04/08/how-california-has-contained-coronavirus-and-new-york-has-not/
-# * I moved the graphs that negate the effects of city population density to the top, since that's mostly what I've been interested in seeing.
 #  %%
 import time
 t0 = time.clock()
