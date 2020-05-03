@@ -93,6 +93,9 @@ county_cities_east = [
     ['District of Columbia', 'District of Columbia', ['District of Columbia']],
     ['Massachusetts', 'Suffolk', ['Boston']],
     ['New York', 'Bronx', ['New York']],
+    ['New York', 'Queens', ['New York']],
+    ['New York', 'Kings', ['New York']],
+    ['New York', 'New York City', ['New York']],
     ['New Jersey', 'Bergen', ['Newark', 'Jersey City']],
     ['Pennsylvania', 'Philadelphia', ['Philadelphia']]
 ]
@@ -150,26 +153,37 @@ def movingaverage(values, window):
     sma = np.convolve(values, weights, 'valid')
     return sma
 
-def plotnewcases(row, state='US'):
-    if (state == 'US'):
+def plotnewcases(row, state='all', county='all'):
+    if (state == 'all'):
         total_cases_by_date = state_cov_data.groupby('date').sum()
-        minimum_cases = 100
-    else:
+        minimum_cases = 0
+    elif (county == 'all'):
         total_cases_by_date = state_cov_data[state_cov_data.state == state].groupby('date').sum()
-        minimum_cases = 15
+        minimum_cases = 0
+    else:
+        total_cases_by_date = county_cov_data[(county_cov_data.state == state) & (county_cov_data.county == county)].groupby('date').sum()
+        minimum_cases = 0
 
-    total_cases_by_date = total_cases_by_date.reset_index()
-    total_cases_by_date = total_cases_by_date[total_cases_by_date.cases > minimum_cases]
-    delta_cases = total_cases_by_date.cases.to_numpy()[1:] - total_cases_by_date.head(len(total_cases_by_date)-1).cases.to_numpy()[0:]
+    if (len(total_cases_by_date) > 0):
+        total_cases_by_date = total_cases_by_date.reset_index()
+        total_cases_by_date = total_cases_by_date[total_cases_by_date.cases > minimum_cases]
+        delta_cases = total_cases_by_date.cases.to_numpy()[1:] - total_cases_by_date.head(len(total_cases_by_date)-1).cases.to_numpy()[0:]
 
-    delta_cases_ma = movingaverage(delta_cases, 7)
-    df = pd.DataFrame(delta_cases_ma, columns=['new'])
-    df['days'] = df.index
+        delta_cases_ma = movingaverage(delta_cases, 7)
+        df = pd.DataFrame(delta_cases_ma, columns=['new'])
+        df['days'] = df.index
+        df = df[df.new.gt(0).idxmax():]
+        df.reset_index(inplace=True)
 
-    fig.add_trace(
-        go.Scatter(x=df.days, y=df.new, mode='lines', name=state, line = { 'width': default_line_thickness },
-        hovertemplate='new cases: %{y:,.0f}<br>day: %{x}')
-    )
+        if (state != 'all' and county != 'all'):
+            name = state + ' - ' + county
+        else:
+            name = state
+
+        fig.add_trace(
+            go.Scatter(x=df.days, y=df.new, mode='lines', name=name, line = { 'width': default_line_thickness },
+            hovertemplate='new cases: %{y:,.0f}<br>day: %{x}')
+        )
 
 row = 1
 layout = go.Layout(
@@ -216,6 +230,28 @@ for state in states:
 fig.show()
 plotly.offline.plot(fig, filename=webpage_folder + 'Chart_'+str(row)+'.html',auto_open=False)
 html_graphs.write("  <object data=\""+'Chart_'+str(row)+'.html'+"\" width=" + str(default_width * 1.10) + " height=" + str(default_height* 1.10) + "\"></object>"+"\n")
+
+row += 1
+layout = go.Layout(
+        title = 'New cases by county',
+        plot_bgcolor = default_plot_color,
+        xaxis_gridcolor = default_grid_color,
+        yaxis_gridcolor = default_grid_color,
+        width=default_width,
+        height=default_height,
+        xaxis_title='Days since first case',
+        yaxis_title='New cases'
+)
+
+fig = go.Figure(layout=layout)
+for dataset in [county_cities_east_map, county_cities_midwest_map, county_cities_south_map, county_cities_west_map]:
+    for p in dataset.itertuples():
+        plotnewcases(row, p.state, p.county)
+
+fig.show()
+plotly.offline.plot(fig, filename=webpage_folder + 'Chart_'+str(row)+'.html',auto_open=False)
+html_graphs.write("  <object data=\""+'Chart_'+str(row)+'.html'+"\" width=" + str(default_width * 1.10) + " height=" + str(default_height* 1.10) + "\"></object>"+"\n")
+
 
 # %% [markdown]
 # **********************************************************************************************************
