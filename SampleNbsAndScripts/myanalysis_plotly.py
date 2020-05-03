@@ -80,58 +80,62 @@ county_density['density'] = county_density.population / county_density.area
 county_density.dropna(subset=['density'], inplace=True)
 
 county_cities_east = [
-    ['District of Columbia', 'District of Columbia', ['District of Columbia']],
-    ['Massachusetts', 'Suffolk', ['Boston']],
-    ['New York', 'Bronx', ['New York']],
-    ['New York', 'Queens', ['New York']],
-    ['New York', 'Kings', ['New York']],
-    ['New York', 'New York City', ['New York']],
-    ['New Jersey', 'Bergen', ['Newark', 'Jersey City']],
-    ['Pennsylvania', 'Philadelphia', ['Philadelphia']]
+    ['District of Columbia', 'District of Columbia', ['District of Columbia'], False],
+    ['Massachusetts', 'Suffolk', ['Boston'], False],
+    ['New York', 'Bronx', ['New York'], False],
+    ['New York', 'Queens', ['New York'], False],
+    ['New York', 'Kings', ['New York'], False],
+    ['New York', 'New York City', ['New York'], False],
+    ['New Jersey', 'Bergen', ['Newark', 'Jersey City'], False],
+    ['Pennsylvania', 'Philadelphia', ['Philadelphia'], False]
 ]
 
 county_cities_west = [
-    ['Arizona', 'Maricopa', ['Phoenix']],
-    ['California', 'Los Angeles', ['Los Angeles']],
-    ['California', 'San Francisco', ['San Francisco']],
-    ['California', 'San Diego', ['San Diego']],
-    ['Washington', 'King', ['Seattle']],
-    ['Washington', 'Snohomish', ['Everett']]
+    ['Arizona', 'Maricopa', ['Phoenix'], False],
+    ['California', 'Los Angeles', ['Los Angeles'], False],
+    ['California', 'San Francisco', ['San Francisco'], False],
+    ['California', 'San Diego', ['San Diego'], False],
+    ['Washington', 'King', ['Seattle'], True],
+    ['Washington', 'Snohomish', ['Everett'], True]
 ]
 
 county_cities_south = [
-    ['Florida', 'Miami-Dade', ['Miami']],
-    ['Florida', 'Broward', ['Fort Lauderdale']],
-    ['Florida', 'Duval', ['Jacksonville']],
-    ['Georgia', 'Fulton', ['Atlanta']],
-    ['Louisiana', 'Orleans', ['New Orleans']],
-    ['South Carolina', 'Charleston', ['Charleston']],
-    ['Tennessee', 'Davidson', ['Nashville']],
-    ['Texas', 'Harris', ['Houston']],
-    ['Texas', 'Bexar', ['San Antonio']],
-    ['Texas', 'Dallas', ['Dallas']],
-    ['Texas', 'Travis', ['Austin']]
+    ['Florida', 'Miami-Dade', ['Miami'], False],
+    ['Florida', 'Broward', ['Fort Lauderdale'], False],
+    ['Florida', 'Duval', ['Jacksonville'], False],
+    ['Georgia', 'Fulton', ['Atlanta'], False],
+    ['Louisiana', 'Orleans', ['New Orleans'], False],
+    ['South Carolina', 'Charleston', ['Charleston'], True],
+    ['Tennessee', 'Davidson', ['Nashville'], False],
+    ['Texas', 'Harris', ['Houston'], False],
+    ['Texas', 'Bexar', ['San Antonio'], False],
+    ['Texas', 'Dallas', ['Dallas'], False],
+    ['Texas', 'Travis', ['Austin'], False]
 ]
 
 county_cities_midwest = [
-    ['Illinois', 'Cook', ['Chicago']],
-    ['Indiana', 'Hamilton', ['Carmel']],
-    ['Indiana', 'Marion', ['Indianapolis']],
-    ['Michigan', 'Wayne', ['Detroit']],
-    ['Wisconsin', 'Milwaukee', ['Milwaukee']],
-    ['Ohio', 'Cuyahoga', ['Cleveland']]
+    ['Illinois', 'Cook', ['Chicago'], False],
+    ['Indiana', 'Hamilton', ['Carmel'], False],
+    ['Indiana', 'Marion', ['Indianapolis'], False],
+    ['Michigan', 'Wayne', ['Detroit'], False],
+    ['Wisconsin', 'Milwaukee', ['Milwaukee'], False],
+    ['Ohio', 'Cuyahoga', ['Cleveland'], True]
 ]
 
-county_cities_east_map = pd.DataFrame(county_cities_east, columns = ['state', 'county', 'cities'])
-county_cities_west_map = pd.DataFrame(county_cities_west, columns = ['state', 'county', 'cities'])
-county_cities_midwest_map = pd.DataFrame(county_cities_midwest, columns = ['state', 'county', 'cities'])
-county_cities_south_map = pd.DataFrame(county_cities_south, columns = ['state', 'county', 'cities'])
+county_cities_east_map = pd.DataFrame(county_cities_east, columns = ['state', 'county', 'cities', 'show_by_default'])
+county_cities_west_map = pd.DataFrame(county_cities_west, columns = ['state', 'county', 'cities', 'show_by_default'])
+county_cities_midwest_map = pd.DataFrame(county_cities_midwest, columns = ['state', 'county', 'cities', 'show_by_default'])
+county_cities_south_map = pd.DataFrame(county_cities_south, columns = ['state', 'county', 'cities', 'show_by_default'])
 
-states_east = county_cities_east_map.state.unique()
-states_west = county_cities_west_map.state.unique()
-states_midwest = county_cities_midwest_map.state.unique()
-states_south = county_cities_south_map.state.unique()
-states = pd.unique(np.concatenate((states_east, states_midwest, states_west)))
+states_east = county_cities_east_map.drop(columns=['cities', 'county']).drop_duplicates()
+states_west = county_cities_west_map.drop(columns=['cities', 'county']).drop_duplicates()
+states_midwest = county_cities_midwest_map.drop(columns=['cities', 'county']).drop_duplicates()
+states_south = county_cities_south_map.drop(columns=['cities', 'county']).drop_duplicates()
+states = pd.concat([states_east, states_midwest, states_west, states_south])
+states.reset_index(inplace=True)
+
+counties_cities = pd.concat([county_cities_east_map, county_cities_west_map, county_cities_midwest_map, county_cities_south_map])
+counties_cities.reset_index(inplace=True)
 
 # %% [markdown]
 # **********************************************************************************************************
@@ -143,7 +147,7 @@ def movingaverage(values, window):
     sma = np.convolve(values, weights, 'valid')
     return sma
 
-def plotnewcases(row, state='all', county='all'):
+def plotnewcases(row, state='all', county='all', show_by_default=True):
     if (state == 'all'):
         total_cases_by_date = state_cov_data.groupby('date').sum()
         minimum_cases = 100
@@ -170,9 +174,14 @@ def plotnewcases(row, state='all', county='all'):
         else:
             name = state
 
+        if (show_by_default):
+            visible = True
+        else:
+            visible = 'legendonly'
+
         fig.add_trace(
             go.Scatter(x=df.days, y=df.new, mode='lines', name=name, line = { 'width': default_line_thickness },
-            hovertemplate='new cases: %{y:,.0f}<br>day: %{x}')
+            hovertemplate='new cases: %{y:,.0f}<br>day: %{x}', visible=visible)
         )
 
 row = 1
@@ -214,8 +223,8 @@ layout = go.Layout(
 )
 
 fig = go.Figure(layout=layout)
-for state in states:
-    plotnewcases(row, state)
+for index, state in states.iterrows():
+    plotnewcases(row, state.state, 'all', state.show_by_default)
 
 fig.show()
 plotly.offline.plot(fig, filename=webpage_folder + 'Chart_'+str(row)+'.html',auto_open=False)
@@ -234,9 +243,8 @@ layout = go.Layout(
 )
 
 fig = go.Figure(layout=layout)
-for dataset in [county_cities_east_map, county_cities_midwest_map, county_cities_south_map, county_cities_west_map]:
-    for p in dataset.itertuples():
-        plotnewcases(row, p.state, p.county)
+for index, r in counties_cities.iterrows():
+    plotnewcases(row, r.state, r.county, r.show_by_default)
 
 fig.show()
 plotly.offline.plot(fig, filename=webpage_folder + 'Chart_'+str(row)+'.html',auto_open=False)
@@ -248,7 +256,7 @@ html_graphs.write("  <object data=\""+'Chart_'+str(row)+'.html'+"\" width=" + st
 # # State Totals
 # **********************************************************************************************************
 # %%
-def plottotalcases(row, state, county = 'all'):
+def plottotalcases(row, state, county = 'all', show_by_default=True):
     if county == 'all':
         data = state_cov_data[state_cov_data.state == state][['date', 'cases']]
     else:
@@ -259,15 +267,20 @@ def plottotalcases(row, state, county = 'all'):
     if len(data['cases']):
         data.index = [x for x in range(0, len(data))]
 
+        if (show_by_default):
+            visible = True
+        else:
+            visible = 'legendonly'
+
         if (county == 'all'):
             fig.add_trace(
                 go.Scatter(x=data.index, y=data.cases, mode='lines', name=state, line = { 'width': default_line_thickness },
-                hovertemplate='total cases: %{y:,.0f}<br>day: %{x}')
+                hovertemplate='total cases: %{y:,.0f}<br>day: %{x}', visible=visible)
             )
         else:
             fig.add_trace(
                 go.Scatter(x=data.index, y=data.cases, mode='lines', name=county + ', ' + state, line = { 'width': default_line_thickness },
-                hovertemplate='total cases: %{y:,.0f}<br>day: %{x}')
+                hovertemplate='total cases: %{y:,.0f}<br>day: %{x}', visible=visible)
             )
 
 row += 1
@@ -284,8 +297,8 @@ layout = go.Layout(
 )
 
 fig = go.Figure(layout=layout)
-for s in states:
-    plottotalcases(row, s)
+for index, s in states.iterrows():
+    plottotalcases(row, s.state, 'all', s.show_by_default)
 
 fig.show()
 plotly.offline.plot(fig, filename=webpage_folder + 'Chart_'+str(row)+'.html',auto_open=False)
@@ -313,9 +326,8 @@ layout = go.Layout(
 )
 fig = go.Figure(layout=layout)
 
-for dataset in [county_cities_east_map, county_cities_midwest_map, county_cities_south_map, county_cities_west_map]:
-    for p in dataset.itertuples():
-        plottotalcases(row, p.state, p.county)
+for index, r in counties_cities.iterrows():
+    plottotalcases(row, r.state, r.county, r.show_by_default)
 
 fig.show()
 plotly.offline.plot(fig, filename=webpage_folder + 'Chart_'+str(row)+'.html',auto_open=False)
@@ -326,7 +338,7 @@ html_graphs.write("  <object data=\""+'Chart_'+str(row)+'.html'+"\" width=" + st
 # # State cases adjusted for population
 # **********************************************************************************************************
 #  %%
-def stateplotpercapita(row, state):
+def stateplotpercapita(row, state, show_by_default):
     data = state_cov_data[state_cov_data.state == state][['date', 'cases']]
     data = data[data.cases >= starting_cases]
     state_population = population_state_density[population_state_density.state == state]
@@ -334,9 +346,14 @@ def stateplotpercapita(row, state):
         data.index = [x for x in range(0, len(data))]
         plotdata = (data.cases / state_population.population.values[0]) * 1000
         if len(data['cases']):
+            if (show_by_default):
+                visible = True
+            else:
+                visible = 'legendonly'
+
             fig.add_trace(
                 go.Scatter(x=data.index, y=plotdata, mode='lines', name=state + ' (' + str.format('{0:,}', state_population.population.values[0]) + ' people)', line = { 'width': default_line_thickness },
-                hovertemplate='cases per 1000: %{y:,.0f}<br>day: %{x}')
+                hovertemplate='cases per 1000: %{y:,.0f}<br>day: %{x}', visible=visible)
             )
 
 row += 1
@@ -353,9 +370,9 @@ layout = go.Layout(
 )
 fig=go.Figure(layout=layout)
 
-for dataset in [states_east, states_midwest, states_south, states_west]:
-    for s in dataset:
-        stateplotpercapita(row, s)
+for index, s in states.iterrows():
+    stateplotpercapita(row, s.state, s.show_by_default )
+
 fig.show()
 plotly.offline.plot(fig, filename=webpage_folder + 'Chart_'+str(row)+'.html',auto_open=False)
 html_graphs.write('''
@@ -374,7 +391,7 @@ html_graphs.write("  <object data=\""+'Chart_'+str(row)+'.html'+"\" width=" + st
 # # County cases adjusted for population
 # **********************************************************************************************************
 #  %%
-def countyplotpercapita(row, state, county):
+def countyplotpercapita(row, state, county, show_by_default):
     data = county_cov_data[county_cov_data.state == state][['date', 'cases', 'county']]
     data = data[county_cov_data.county == county][['date', 'cases']]
     data = data[data.cases >= starting_cases]
@@ -383,9 +400,14 @@ def countyplotpercapita(row, state, county):
         data.index = [x for x in range(0, len(data))]
         plotdata = (data.cases / county_population.population.values[0]) * 1000
         if len(data['cases']):
+            if (show_by_default):
+                visible = True
+            else:
+                visible = 'legendonly'
+
             fig.add_trace(
                 go.Scatter(x=data.index, y=plotdata, mode='lines', name=county + ', ' + state + ' (' + str.format('{0:,}', county_population.population.values[0]) + ' people)', line = { 'width': default_line_thickness },
-                hovertemplate='cases per 1000: %{y:,.0f}<br>day: %{x}')
+                hovertemplate='cases per 1000: %{y:,.0f}<br>day: %{x}', visible=visible)
             )
 
 row += 1
@@ -402,9 +424,8 @@ layout = go.Layout(
 )
 fig=go.Figure(layout=layout)
 
-for dataset in [county_cities_east_map, county_cities_midwest_map, county_cities_south_map, county_cities_west_map]:
-    for p in dataset.itertuples():
-        countyplotpercapita(row, p.state, p.county)
+for index, r in counties_cities.iterrows():
+    countyplotpercapita(row, r.state, r.county, r.show_by_default)
 
 fig.show()
 plotly.offline.plot(fig, filename=webpage_folder + 'Chart_'+str(row)+'.html',auto_open=False)
@@ -415,7 +436,7 @@ html_graphs.write("  <object data=\""+'Chart_'+str(row)+'.html'+"\" width=" + st
 # # State cases adjusted for population density
 # **********************************************************************************************************
 #  %%
-def stateplotbydensity(row, state):
+def stateplotbydensity(row, state, show_by_default):
     data = state_cov_data[state_cov_data.state == state][['date', 'cases']]
     data = data[data.cases >= starting_cases]
     state_density = population_state_density[population_state_density.state == state]
@@ -424,9 +445,14 @@ def stateplotbydensity(row, state):
         plotdata = (data.cases / state_density.density.values[0])
         if len(data['cases']):
             lastindex = len(data) - 1
+            if (show_by_default):
+                visible = True
+            else:
+                visible = 'legendonly'
+
             fig.add_trace(
                 go.Scatter(x=data.index, y=plotdata, mode='lines', name=state + ' (' + str.format('{0:,}', int(round(state_density.density.values[0],0))) + ' ppl/mi^2)', line = { 'width': default_line_thickness },
-                hovertemplate='density adjusted cases: %{y:,.0f}<br>day: %{x}')
+                hovertemplate='density adjusted cases: %{y:,.0f}<br>day: %{x}', visible=visible)
             )
 
 row += 1
@@ -443,9 +469,9 @@ layout = go.Layout(
 )
 fig=go.Figure(layout=layout)
 
-for dataset in [states_east, states_midwest, states_south, states_west]:
-    for s in dataset:
-        stateplotbydensity(row, s)
+for index, s in states.iterrows():
+    stateplotbydensity(row, s.state, s.show_by_default)
+
 fig.show()
 plotly.offline.plot(fig, filename=webpage_folder + 'Chart_'+str(row)+'.html',auto_open=False)
 html_graphs.write('''
@@ -469,7 +495,7 @@ html_graphs.write("  <object data=\""+'Chart_'+str(row)+'.html'+"\" width=" + st
 # # County cases adjusted for population density
 # **********************************************************************************************************
 #  %%
-def countyplotbydensity(row, county, state):
+def countyplotbydensity(row, county, state, show_by_default):
     data = county_cov_data[(county_cov_data.county == county) & (county_cov_data.state == state)][['date', 'cases']]
     data = data[data.cases >= starting_cases]
     density = county_density[(county_density.county == county) & (county_density.state == state)]
@@ -478,9 +504,14 @@ def countyplotbydensity(row, county, state):
         plotdata = (data.cases / density.density.values[0])
         if len(data['cases']):
             lastindex = len(data) - 1
+            if (show_by_default):
+                visible = True
+            else:
+                visible = 'legendonly'
+
             fig.add_trace(
                 go.Scatter(x=data.index, y=plotdata, mode='lines', name=state + ' - ' + county + ' (' + str.format('{0:,}', int(round(density.density))) + ' ppl/mi^2)', line = { 'width': default_line_thickness },
-                hovertemplate='density adjusted cases: %{y:,.0f}<br>day: %{x}')
+                hovertemplate='density adjusted cases: %{y:,.0f}<br>day: %{x}', visible=visible)
             )
 
 row += 1
@@ -497,9 +528,8 @@ layout = go.Layout(
 )
 fig=go.Figure(layout=layout)
 
-for dataset in [county_cities_east_map, county_cities_midwest_map, county_cities_south_map, county_cities_west_map]:
-    for p in dataset.itertuples():
-        countyplotbydensity(row, p.county, p.state)
+for index, r in counties_cities.iterrows():
+    countyplotbydensity(row, r.county, r.state, r.show_by_default)
 fig.show()
 plotly.offline.plot(fig, filename=webpage_folder + 'Chart_'+str(row)+'.html',auto_open=False)
 html_graphs.write("  <object data=\""+'Chart_'+str(row)+'.html'+"\" width=" + str(default_width * 1.10) + " height=" + str(default_height* 1.10) + "\"></object>"+"\n")
@@ -509,9 +539,9 @@ html_graphs.write("  <object data=\""+'Chart_'+str(row)+'.html'+"\" width=" + st
 # # City cases adjusted for population
 # **********************************************************************************************************
 #  %%
-def cityplotpercapita(row, state, city):
+def cityplotpercapita(row, state, city, show_by_default):
     county = 'not found'
-    for x in dataset.itertuples():
+    for index, x in counties_cities.iterrows():
         if city in x.cities and state == x.state:
             county = x.county
 
@@ -523,9 +553,14 @@ def cityplotpercapita(row, state, city):
         plotdata = (cov_at_county_level.cases / city_population.population.values[0]) * 1000
         if len(cov_at_county_level['cases']):
             lastindex = len(cov_at_county_level) - 1
+            if (show_by_default):
+                visible = True
+            else:
+                visible = 'legendonly'
+
             fig.add_trace(
                 go.Scatter(x=cov_at_county_level.index, y=plotdata, mode='lines', name=city + ', ' + state + ' (' + str.format('{0:,}', city_population.population.values[0],0) + ' people)', line = { 'width': default_line_thickness },
-                    hovertemplate='cases per 1000: %{y:,.3f}<br>day: %{x}')
+                    hovertemplate='cases per 1000: %{y:,.3f}<br>day: %{x}', visible=visible)
             )
 
 row += 1
@@ -542,10 +577,9 @@ layout = go.Layout(
 )
 fig=go.Figure(layout=layout)
 
-for dataset in [county_cities_east_map, county_cities_midwest_map, county_cities_south_map, county_cities_west_map]:
-    for p in dataset.itertuples():
-        for c in p.cities:
-            cityplotpercapita(row, p.state, c)
+for index, r in counties_cities.iterrows():
+    for c in r.cities:
+        cityplotpercapita(row, r.state, c, r.show_by_default)
 
 fig.show()
 plotly.offline.plot(fig, filename=webpage_folder + 'Chart_'+str(row)+'.html',auto_open=False)
@@ -565,9 +599,9 @@ html_graphs.write("  <object data=\""+'Chart_'+str(row)+'.html'+"\" width=" + st
 # # City total cases adjusted for population density
 # **********************************************************************************************************
 #  %%
-def cityplotbydensity(row, state, city):
+def cityplotbydensity(row, state, city, show_by_default):
     county = 'not found'
-    for x in dataset.itertuples():
+    for index, x in counties_cities.iterrows():
         if city in x.cities and state == x.state:
             county = x.county
 
@@ -579,9 +613,14 @@ def cityplotbydensity(row, state, city):
         plotdata = data.cases / city_density.density.values[0]
         if len(data['cases']):
             lastindex = len(data) - 1
+            if (show_by_default):
+                visible = True
+            else:
+                visible = 'legendonly'
+
             fig.add_trace(
                 go.Scatter(x=data.index, y=plotdata, mode='lines', name=city + ', ' + state + ' (' + str.format('{0:,}', int(round(city_density.density.values[0],0))) + ' ppl/mi^2)', line = { 'width': default_line_thickness },
-                    hovertemplate='density adjusted cases: %{y:,.3f}<br>day: %{x}')
+                    hovertemplate='density adjusted cases: %{y:,.3f}<br>day: %{x}', visible=visible)
             )
 
 row += 1
@@ -598,10 +637,9 @@ layout = go.Layout(
 )
 fig=go.Figure(layout=layout)
 
-for dataset in [county_cities_east_map, county_cities_midwest_map, county_cities_south_map, county_cities_west_map]:
-    for p in dataset.itertuples():
-        for c in p.cities:
-            cityplotbydensity(row, p.state, c)
+for index, r in counties_cities.iterrows():
+    for c in r.cities:
+        cityplotbydensity(row, r.state, c, r.show_by_default)
 
 fig.show()
 plotly.offline.plot(fig, filename=webpage_folder + 'Chart_'+str(row)+'.html',auto_open=False)
@@ -621,9 +659,9 @@ html_graphs.write("  <object data=\""+'Chart_'+str(row)+'.html'+"\" width=" + st
 # # City deaths adjusted for population density
 # **********************************************************************************************************
 #  %%
-def citydeathsplotbydensity(row, state, city):
+def citydeathsplotbydensity(row, state, city, show_by_default):
     county = 'not found'
-    for x in dataset.itertuples():
+    for index, x in counties_cities.iterrows():
         if city in x.cities and state == x.state:
             county = x.county
 
@@ -634,9 +672,14 @@ def citydeathsplotbydensity(row, state, city):
         data.index = [x for x in range(0, len(data))]
         plotdata = data.deaths / city_density.density.values[0]
         if len(data['deaths']):
+            if (show_by_default):
+                visible = True
+            else:
+                visible = 'legendonly'
+
             fig.add_trace(
                 go.Scatter(x=data.index, y=plotdata.values, mode='lines', name=city + ', ' + state + ' (' + str.format('{0:,}', int(round(city_density.density.values[0],0))) + ' ppl/mi^2)', line = { 'width': default_line_thickness },
-                hovertemplate='density adjusted deaths: %{y}<br>day: %{x}')
+                hovertemplate='density adjusted deaths: %{y}<br>day: %{x}', visible=visible)
             )
 
 row += 1
@@ -651,11 +694,12 @@ layout = go.Layout(
         yaxis_title='Total density adjusted deaths'
 )
 fig=go.Figure(layout=layout)
-for dataset in [county_cities_east_map, county_cities_midwest_map, county_cities_south_map, county_cities_west_map]:
-    starting_deaths = 1
-    for p in dataset.itertuples():
-        for c in p.cities:
-            citydeathsplotbydensity(row, p.state, c)
+starting_deaths = 1
+
+for index, r in counties_cities.iterrows():
+    for c in r.cities:
+        citydeathsplotbydensity(row, r.state, c, r.show_by_default)
+
 fig.show()
 plotly.offline.plot(fig, filename=webpage_folder + 'Chart_'+str(row)+'.html',auto_open=False)
 html_graphs.write('''
@@ -665,6 +709,7 @@ See description above concerning cases adjusted for population density. This is 
 </div>''')
 html_graphs.write("  <object data=\""+'Chart_'+str(row)+'.html'+"\" width=" + str(default_width * 1.10) + " height=" + str(default_height* 1.10) + "\"></object>"+"\n")
 
+# %%
 html_graphs.write('</body></html')
 html_graphs.close()
 
