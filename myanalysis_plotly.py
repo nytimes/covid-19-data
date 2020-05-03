@@ -156,13 +156,13 @@ def movingaverage(values, window):
 def plotnewcases(row, state='all', county='all'):
     if (state == 'all'):
         total_cases_by_date = state_cov_data.groupby('date').sum()
-        minimum_cases = 0
+        minimum_cases = 100
     elif (county == 'all'):
         total_cases_by_date = state_cov_data[state_cov_data.state == state].groupby('date').sum()
-        minimum_cases = 0
+        minimum_cases = 15
     else:
         total_cases_by_date = county_cov_data[(county_cov_data.state == state) & (county_cov_data.county == county)].groupby('date').sum()
-        minimum_cases = 0
+        minimum_cases = 15
 
     if (len(total_cases_by_date) > 0):
         total_cases_by_date = total_cases_by_date.reset_index()
@@ -193,7 +193,7 @@ layout = go.Layout(
         yaxis_gridcolor = default_grid_color,
         width=default_width,
         height=default_height,
-        xaxis_title='Days since 100 cases were hit',
+        xaxis_title='Days since new cases started increasing',
         yaxis_title='New cases'
 )
 fig = go.Figure(layout=layout)
@@ -219,7 +219,7 @@ layout = go.Layout(
         yaxis_gridcolor = default_grid_color,
         width=default_width,
         height=default_height,
-        xaxis_title='Days since 15 cases were hit',
+        xaxis_title='Days since new cases started increasing',
         yaxis_title='New cases'
 )
 
@@ -239,7 +239,7 @@ layout = go.Layout(
         yaxis_gridcolor = default_grid_color,
         width=default_width,
         height=default_height,
-        xaxis_title='Days since first case',
+        xaxis_title='Days since new cases started increasing',
         yaxis_title='New cases'
 )
 
