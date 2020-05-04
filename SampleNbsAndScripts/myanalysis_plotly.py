@@ -85,6 +85,9 @@ county_cities_east = [
     ['New York', 'Bronx', ['New York'], False],
     ['New York', 'Queens', ['New York'], False],
     ['New York', 'Kings', ['New York'], False],
+    ['New York', 'Manhattan', ['New York'], False],
+    ['New York', 'Brooklyn', ['New York'], False],
+    ['New York', 'Staten Island', ['New York'], False],
     ['New York', 'New York City', ['New York'], False],
     ['New Jersey', 'Bergen', ['Newark', 'Jersey City'], False],
     ['Pennsylvania', 'Philadelphia', ['Philadelphia'], False]
@@ -147,7 +150,7 @@ def movingaverage(values, window):
     sma = np.convolve(values, weights, 'valid')
     return sma
 
-def plotnewcases(row, state='all', county='all', show_by_default=True):
+def plotnewcases(state='all', county='all', show_by_default=True):
     if (state == 'all'):
         total_cases_by_date = state_cov_data.groupby('date').sum()
         minimum_cases = 100
@@ -196,7 +199,7 @@ layout = go.Layout(
         yaxis_title='New cases'
 )
 fig = go.Figure(layout=layout)
-plotnewcases(row)
+plotnewcases()
 
 fig.show()
 plotly.offline.plot(fig, filename=webpage_folder + 'Chart_'+str(row)+'.html',auto_open=False)
@@ -224,7 +227,7 @@ layout = go.Layout(
 
 fig = go.Figure(layout=layout)
 for index, state in states.iterrows():
-    plotnewcases(row, state.state, 'all', state.show_by_default)
+    plotnewcases(state.state, 'all', state.show_by_default)
 
 fig.show()
 plotly.offline.plot(fig, filename=webpage_folder + 'Chart_'+str(row)+'.html',auto_open=False)
@@ -244,7 +247,7 @@ layout = go.Layout(
 
 fig = go.Figure(layout=layout)
 for index, r in counties_cities.iterrows():
-    plotnewcases(row, r.state, r.county, r.show_by_default)
+    plotnewcases(r.state, r.county, r.show_by_default)
 
 fig.show()
 plotly.offline.plot(fig, filename=webpage_folder + 'Chart_'+str(row)+'.html',auto_open=False)
@@ -256,7 +259,7 @@ html_graphs.write("  <object data=\""+'Chart_'+str(row)+'.html'+"\" width=" + st
 # # State Totals
 # **********************************************************************************************************
 # %%
-def plottotalcases(row, state, county = 'all', show_by_default=True):
+def plottotalcases(state, county = 'all', show_by_default=True):
     if county == 'all':
         data = state_cov_data[state_cov_data.state == state][['date', 'cases']]
     else:
@@ -298,7 +301,7 @@ layout = go.Layout(
 
 fig = go.Figure(layout=layout)
 for index, s in states.iterrows():
-    plottotalcases(row, s.state, 'all', s.show_by_default)
+    plottotalcases(s.state, 'all', s.show_by_default)
 
 fig.show()
 plotly.offline.plot(fig, filename=webpage_folder + 'Chart_'+str(row)+'.html',auto_open=False)
@@ -327,7 +330,7 @@ layout = go.Layout(
 fig = go.Figure(layout=layout)
 
 for index, r in counties_cities.iterrows():
-    plottotalcases(row, r.state, r.county, r.show_by_default)
+    plottotalcases(r.state, r.county, r.show_by_default)
 
 fig.show()
 plotly.offline.plot(fig, filename=webpage_folder + 'Chart_'+str(row)+'.html',auto_open=False)
@@ -338,7 +341,7 @@ html_graphs.write("  <object data=\""+'Chart_'+str(row)+'.html'+"\" width=" + st
 # # State cases adjusted for population
 # **********************************************************************************************************
 #  %%
-def stateplotpercapita(row, state, show_by_default):
+def stateplotpercapita(state, show_by_default):
     data = state_cov_data[state_cov_data.state == state][['date', 'cases']]
     data = data[data.cases >= starting_cases]
     state_population = population_state_density[population_state_density.state == state]
@@ -371,7 +374,7 @@ layout = go.Layout(
 fig=go.Figure(layout=layout)
 
 for index, s in states.iterrows():
-    stateplotpercapita(row, s.state, s.show_by_default )
+    stateplotpercapita(s.state, s.show_by_default )
 
 fig.show()
 plotly.offline.plot(fig, filename=webpage_folder + 'Chart_'+str(row)+'.html',auto_open=False)
@@ -391,7 +394,7 @@ html_graphs.write("  <object data=\""+'Chart_'+str(row)+'.html'+"\" width=" + st
 # # County cases adjusted for population
 # **********************************************************************************************************
 #  %%
-def countyplotpercapita(row, state, county, show_by_default):
+def countyplotpercapita(state, county, show_by_default):
     data = county_cov_data[county_cov_data.state == state][['date', 'cases', 'county']]
     data = data[county_cov_data.county == county][['date', 'cases']]
     data = data[data.cases >= starting_cases]
@@ -425,7 +428,7 @@ layout = go.Layout(
 fig=go.Figure(layout=layout)
 
 for index, r in counties_cities.iterrows():
-    countyplotpercapita(row, r.state, r.county, r.show_by_default)
+    countyplotpercapita(r.state, r.county, r.show_by_default)
 
 fig.show()
 plotly.offline.plot(fig, filename=webpage_folder + 'Chart_'+str(row)+'.html',auto_open=False)
@@ -436,7 +439,7 @@ html_graphs.write("  <object data=\""+'Chart_'+str(row)+'.html'+"\" width=" + st
 # # State cases adjusted for population density
 # **********************************************************************************************************
 #  %%
-def stateplotbydensity(row, state, show_by_default):
+def stateplotbydensity(state, show_by_default):
     data = state_cov_data[state_cov_data.state == state][['date', 'cases']]
     data = data[data.cases >= starting_cases]
     state_density = population_state_density[population_state_density.state == state]
@@ -470,7 +473,7 @@ layout = go.Layout(
 fig=go.Figure(layout=layout)
 
 for index, s in states.iterrows():
-    stateplotbydensity(row, s.state, s.show_by_default)
+    stateplotbydensity(s.state, s.show_by_default)
 
 fig.show()
 plotly.offline.plot(fig, filename=webpage_folder + 'Chart_'+str(row)+'.html',auto_open=False)
@@ -495,7 +498,7 @@ html_graphs.write("  <object data=\""+'Chart_'+str(row)+'.html'+"\" width=" + st
 # # County cases adjusted for population density
 # **********************************************************************************************************
 #  %%
-def countyplotbydensity(row, county, state, show_by_default):
+def countyplotbydensity(county, state, show_by_default):
     data = county_cov_data[(county_cov_data.county == county) & (county_cov_data.state == state)][['date', 'cases']]
     data = data[data.cases >= starting_cases]
     density = county_density[(county_density.county == county) & (county_density.state == state)]
@@ -529,7 +532,7 @@ layout = go.Layout(
 fig=go.Figure(layout=layout)
 
 for index, r in counties_cities.iterrows():
-    countyplotbydensity(row, r.county, r.state, r.show_by_default)
+    countyplotbydensity(r.county, r.state, r.show_by_default)
 fig.show()
 plotly.offline.plot(fig, filename=webpage_folder + 'Chart_'+str(row)+'.html',auto_open=False)
 html_graphs.write("  <object data=\""+'Chart_'+str(row)+'.html'+"\" width=" + str(default_width * 1.10) + " height=" + str(default_height* 1.10) + "\"></object>"+"\n")
@@ -539,7 +542,7 @@ html_graphs.write("  <object data=\""+'Chart_'+str(row)+'.html'+"\" width=" + st
 # # City cases adjusted for population
 # **********************************************************************************************************
 #  %%
-def cityplotpercapita(row, state, city, show_by_default):
+def cityplotpercapita(state, city, show_by_default):
     county = 'not found'
     for index, x in counties_cities.iterrows():
         if city in x.cities and state == x.state:
@@ -577,9 +580,9 @@ layout = go.Layout(
 )
 fig=go.Figure(layout=layout)
 
-for index, r in counties_cities.iterrows():
+for index, r in counties_cities[~counties_cities['cities'].apply(tuple).duplicated()].iterrows():
     for c in r.cities:
-        cityplotpercapita(row, r.state, c, r.show_by_default)
+        cityplotpercapita(r.state, c, r.show_by_default)
 
 fig.show()
 plotly.offline.plot(fig, filename=webpage_folder + 'Chart_'+str(row)+'.html',auto_open=False)
@@ -599,7 +602,7 @@ html_graphs.write("  <object data=\""+'Chart_'+str(row)+'.html'+"\" width=" + st
 # # City total cases adjusted for population density
 # **********************************************************************************************************
 #  %%
-def cityplotbydensity(row, state, city, show_by_default):
+def cityplotbydensity(state, city, show_by_default):
     county = 'not found'
     for index, x in counties_cities.iterrows():
         if city in x.cities and state == x.state:
@@ -637,9 +640,9 @@ layout = go.Layout(
 )
 fig=go.Figure(layout=layout)
 
-for index, r in counties_cities.iterrows():
+for index, r in counties_cities[~counties_cities['cities'].apply(tuple).duplicated()].iterrows():
     for c in r.cities:
-        cityplotbydensity(row, r.state, c, r.show_by_default)
+        cityplotbydensity(r.state, c, r.show_by_default)
 
 fig.show()
 plotly.offline.plot(fig, filename=webpage_folder + 'Chart_'+str(row)+'.html',auto_open=False)
@@ -659,7 +662,7 @@ html_graphs.write("  <object data=\""+'Chart_'+str(row)+'.html'+"\" width=" + st
 # # City deaths adjusted for population density
 # **********************************************************************************************************
 #  %%
-def citydeathsplotbydensity(row, state, city, show_by_default):
+def citydeathsplotbydensity(state, city, show_by_default):
     county = 'not found'
     for index, x in counties_cities.iterrows():
         if city in x.cities and state == x.state:
@@ -696,9 +699,9 @@ layout = go.Layout(
 fig=go.Figure(layout=layout)
 starting_deaths = 1
 
-for index, r in counties_cities.iterrows():
+for index, r in counties_cities[~counties_cities['cities'].apply(tuple).duplicated()].iterrows():
     for c in r.cities:
-        citydeathsplotbydensity(row, r.state, c, r.show_by_default)
+        citydeathsplotbydensity(r.state, c, r.show_by_default)
 
 fig.show()
 plotly.offline.plot(fig, filename=webpage_folder + 'Chart_'+str(row)+'.html',auto_open=False)
