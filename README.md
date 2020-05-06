@@ -164,6 +164,10 @@ The total cases number includes lab-confirmed and probable cases starting around
 
 The state reports lab-confirmed and probable cases and deaths separately at the state level but combine lab-confirmed and probable cases and deaths at the county level. Our statewide and county numbers combine both case types.
 
+* Puerto Rico
+
+Our number of cases for Puerto Rico includes the results of serological cases in their total number of cases, we believe this more closely matches the definition of probable cases than confirmed cases as reported elsewhere. Our number of deaths is only deaths with a confirmed test.
+
 ## License and Attribution
 
 In general, we are making this data publicly available for broad, noncommercial public use including by medical and public health researchers, policymakers, analysts and local news media.
