@@ -1,5 +1,9 @@
 # Coronavirus (Covid-19) Data in the United States
 
+**NEW:** Starting with data for May 6th, this data reports the total combined number of confirmed and probable Covid-19 cases and deaths where available. Many states and localities have started to report this data using criteria that were developed by states and the federal government.
+
+This will cause a spike in the cases and deaths data for some areas while we work to revise our historical data with those probable cases and deaths.
+
 [ [U.S. Data](us.csv) ([Raw CSV](https://raw.githubusercontent.com/nytimes/covid-19-data/master/us.csv)) | [U.S. State-Level Data](us-states.csv) ([Raw CSV](https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-states.csv)) | [U.S. County-Level Data](us-counties.csv) ([Raw CSV](https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv)) ]
 
 The New York Times is releasing a series of data files with cumulative counts of coronavirus cases in the United States, at the state and county level, over time. We are compiling this time series data from state and local governments and health departments in an attempt to provide a complete record of the ongoing outbreak.
@@ -14,7 +18,7 @@ The data begins with the first reported coronavirus case in Washington State on 
 
 Data on cumulative coronavirus cases and deaths can be found in three files, one for each of these geographic levels: U.S., states and counties.
  
-Each row of data reports cumulative counts based on our best reporting up to the moment we publish an update. We do our best to revise earlier entries in the data when we receive new information. If a county is not listed for a date, then there were zero reported confirmed cases and deaths.
+Each row of data reports cumulative counts based on our best reporting up to the moment we publish an update. We do our best to revise earlier entries in the data when we receive new information. If a county is not listed for a date, then there were zero reported cases and deaths.
 
 State and county files contain [FIPS codes](https://www.census.gov/quickfacts/fact/note/US/fips), a standard geographic identifier, to make it easier for an analyst to combine this data with other data sets like a map file or population data.
 
@@ -150,7 +154,7 @@ The total cases number includes only lab-confirmed cases, but the deaths number 
 
 * Louisiana
 
-The total cases number and total deaths number include only lab-confirmed cases and deaths. The state appears to be reporting the deaths of probable Covid-19 cases separately from the total number of deaths statewide or in each parish but we are not yet including those cases in our numbers.
+The total cases number and total deaths number include only lab-confirmed cases and deaths. The state appears to be reporting the deaths of probable Covid-19 cases separately from the total number of deaths statewide and in each parish but we are not yet including those cases in our numbers.
 
 * Ohio
 
