@@ -1,8 +1,8 @@
 # Coronavirus (Covid-19) Data in the United States
 
-**NEW:** Starting with data for May 6th, this data reports the total combined number of confirmed and probable Covid-19 cases and deaths where available. Many states and localities have started to report this data using criteria that were developed by states and the federal government.
+**NEW:** The data in the counties.csv, states.csv and us.csv now include both confirmed and probable Covid-19 cases and deaths. Because of changes in how states and local health departments are reporting their data, it is no longer possible to report a comprehensive “confirmed-only” dataset. Please see [our note for a full explanation](PROBABLE-CASES-NOTE.md) of the differences and how probable cases are defined.
 
-This will cause a spike in the cases and deaths data for some areas while we work to revise our historical data with those probable cases and deaths.
+---
 
 [ [U.S. Data](us.csv) ([Raw CSV](https://raw.githubusercontent.com/nytimes/covid-19-data/master/us.csv)) | [U.S. State-Level Data](us-states.csv) ([Raw CSV](https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-states.csv)) | [U.S. County-Level Data](us-counties.csv) ([Raw CSV](https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv)) ]
 
@@ -55,6 +55,7 @@ date,county,state,fips,cases,deaths
 ```
 
 In some cases, the geographies where cases are reported do not map to standard county boundaries. See the list of [geographic exceptions](#geographic-exceptions) for more detail on these.
+
 
 ## Methodology and Definitions
 
