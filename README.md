@@ -71,19 +71,25 @@ For those reasons, our data will in some cases not exactly match with the inform
 
 * Confirmed Cases
 
-Confirmed cases are patients who test positive for the coronavirus. We consider a case confirmed when it is reported by a federal, state, territorial or local government agency.
+Confirmed cases and deaths are counts of individuals whose coronavirus infections were confirmed by a laboratory test and reported by a federal, state, territorial or local government agency.
+
+The number of cases includes all cases, including those who have since recovered or died.
 
 * "Probable" Cases and Deaths
 
+Probable cases and deaths count individuals who did not have a confirmed test but were evaluated using criteria developed by states and the federal government.
+
 On April 5, the Council of State and Territorial Epidemiologists Centers [advised states](https://int.nyt.com/data/documenthelper/6908-cste-interim-20-id-01-covid-19/85d47e89b637cd643d50/optimized/full.pdf) to include both confirmed cases, based on laboratory testing, and probable cases, based on specific criteria for symptoms and exposure. The Centers for Disease Control adopted these definitions and national CDC data began including confirmed and probable cases on April 14.
 
-Some states and counties are starting to report these "probable" Covid-19 cases and deaths. For the time being, we are attempting to continue only counting lab-confirmed cases and deaths while we explore the possibility of switching methodologies or reporting both numbers separately.
+Some governments continue to report only confirmed cases, while others are reporting both confirmed and probable numbers. And there is also another set of governments that are reporting the two types of numbers combined without providing a way to separate the confirmed from the probable.
 
-Please see the Geographic Exceptions section below for more details.
+Please see the Geographic Exceptions section below for more details on specific areas, with the understanding that this changes frequently.
 
 * Dates
 
 For each date, we show the cumulative number of confirmed cases and deaths as reported that day in that county or state. All cases and deaths are counted on the date they are first announced.
+
+Each date includes all cases and deaths announced that day through midnight Eastern Time. As the West Coast and Hawaii tend to release all of their new data early enough in the day.
 
 * Declining Counts
 
