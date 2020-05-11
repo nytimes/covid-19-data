@@ -1,5 +1,9 @@
 # Coronavirus (Covid-19) Data in the United States
 
+**NEW:** The data in the counties.csv, states.csv and us.csv now include both confirmed and probable Covid-19 cases and deaths. Because of changes in how states and local health departments are reporting their data, it is no longer possible to report a comprehensive “confirmed-only” dataset. Please see [our note for a full explanation](PROBABLE-CASES-NOTE.md) of the differences and how probable cases are defined.
+
+---
+
 [ [U.S. Data](us.csv) ([Raw CSV](https://raw.githubusercontent.com/nytimes/covid-19-data/master/us.csv)) | [U.S. State-Level Data](us-states.csv) ([Raw CSV](https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-states.csv)) | [U.S. County-Level Data](us-counties.csv) ([Raw CSV](https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv)) ]
 
 The New York Times is releasing a series of data files with cumulative counts of coronavirus cases in the United States, at the state and county level, over time. We are compiling this time series data from state and local governments and health departments in an attempt to provide a complete record of the ongoing outbreak.
@@ -14,7 +18,7 @@ The data begins with the first reported coronavirus case in Washington State on 
 
 Data on cumulative coronavirus cases and deaths can be found in three files, one for each of these geographic levels: U.S., states and counties.
  
-Each row of data reports cumulative counts based on our best reporting up to the moment we publish an update. We do our best to revise earlier entries in the data when we receive new information. If a county is not listed for a date, then there were zero reported confirmed cases and deaths.
+Each row of data reports cumulative counts based on our best reporting up to the moment we publish an update. We do our best to revise earlier entries in the data when we receive new information. If a county is not listed for a date, then there were zero reported cases and deaths.
 
 State and county files contain [FIPS codes](https://www.census.gov/quickfacts/fact/note/US/fips), a standard geographic identifier, to make it easier for an analyst to combine this data with other data sets like a map file or population data.
 
@@ -52,6 +56,7 @@ date,county,state,fips,cases,deaths
 
 In some cases, the geographies where cases are reported do not map to standard county boundaries. See the list of [geographic exceptions](#geographic-exceptions) for more detail on these.
 
+
 ## Methodology and Definitions
 
 The data is the product of dozens of journalists working across several time zones to monitor news conferences, analyze data releases and seek clarification from public officials on how they categorize cases. 
@@ -66,19 +71,25 @@ For those reasons, our data will in some cases not exactly match with the inform
 
 * Confirmed Cases
 
-Confirmed cases are patients who test positive for the coronavirus. We consider a case confirmed when it is reported by a federal, state, territorial or local government agency.
+Confirmed cases and deaths are counts of individuals whose coronavirus infections were confirmed by a laboratory test and reported by a federal, state, territorial or local government agency.
+
+The number of cases includes all cases, including those who have since recovered or died.
 
 * "Probable" Cases and Deaths
 
+Probable cases and deaths count individuals who did not have a confirmed test but were evaluated using criteria developed by states and the federal government.
+
 On April 5, the Council of State and Territorial Epidemiologists Centers [advised states](https://int.nyt.com/data/documenthelper/6908-cste-interim-20-id-01-covid-19/85d47e89b637cd643d50/optimized/full.pdf) to include both confirmed cases, based on laboratory testing, and probable cases, based on specific criteria for symptoms and exposure. The Centers for Disease Control adopted these definitions and national CDC data began including confirmed and probable cases on April 14.
 
-Some states and counties are starting to report these "probable" Covid-19 cases and deaths. For the time being, we are attempting to continue only counting lab-confirmed cases and deaths while we explore the possibility of switching methodologies or reporting both numbers separately.
+Some governments continue to report only confirmed cases, while others are reporting both confirmed and probable numbers. And there is also another set of governments that are reporting the two types of numbers combined without providing a way to separate the confirmed from the probable.
 
-Please see the Geographic Exceptions section below for more details.
+Please see the Geographic Exceptions section below for more details on specific areas, with the understanding that this changes frequently.
 
 * Dates
 
 For each date, we show the cumulative number of confirmed cases and deaths as reported that day in that county or state. All cases and deaths are counted on the date they are first announced.
+
+Each date includes all cases and deaths announced that day through midnight Eastern Time. As the West Coast and Hawaii tend to release all of their new data early enough in the day.
 
 * Declining Counts
 
@@ -150,7 +161,7 @@ The total cases number includes only lab-confirmed cases, but the deaths number 
 
 * Louisiana
 
-The total cases number includes only lab-confirmed cases, but the deaths number does include the deaths of probable Covid-19 cases. However, the state warns that the reporting of probable deaths could be delayed and come in batches.
+The total cases number and total deaths number include only lab-confirmed cases and deaths. The state appears to be reporting the deaths of probable Covid-19 cases separately from the total number of deaths statewide and in each parish but we are not yet including those cases in our numbers.
 
 * Ohio
 
@@ -163,6 +174,10 @@ The total cases number includes lab-confirmed and probable cases starting around
 * Virginia
 
 The state reports lab-confirmed and probable cases and deaths separately at the state level but combine lab-confirmed and probable cases and deaths at the county level. Our statewide and county numbers combine both case types.
+
+* Puerto Rico
+
+Our number of cases for Puerto Rico includes the results of serological cases in their total number of cases, we believe this more closely matches the definition of probable cases than confirmed cases as reported elsewhere. Our number of deaths is only deaths with a confirmed test.
 
 ## License and Attribution
 
