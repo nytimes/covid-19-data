@@ -25,9 +25,13 @@ html_graphs.write('<div style=\'margin:50px\'><h1>Data as of ' + datetime.now().
 #html_graphs.write('<div style=\'margin:50px\'><h1>Data as of 04/25/2020<br/></h1>')
 html_graphs.write('''
 Please wait to load all the graphs. This page is not setup to be fast loading. :)<br/><br/>
-Also be aware that you can now can single click on a location in the legend to show and hide that
-location in the graph. If you double click, you will hide all other locations, except for the one you
-double clicked.
+
+<h2> Things you can do on each graph </h2>
+<ul>
+<li> Hover your mouse over a trend line to find which location it refers to.
+<li> Single click on a location to show and hide that location's trend line.
+<li> Double click on a location to show only that location OR show ALL locations in that graph.
+</ul>
 </div>''')
 #  %% [markdown]
 # **********************************************************************************************************
@@ -79,66 +83,100 @@ county_density['area'] = county_density.key.map(county_land_area.land_area)
 county_density['density'] = county_density.population / county_density.area
 county_density.dropna(subset=['density'], inplace=True)
 
-county_cities_east = [
+interesting_locations_east = [
+    ['Connecticut', '', [], False],
+    ['Delaware', '', [], False],
     ['District of Columbia', 'District of Columbia', ['District of Columbia'], False],
+    ['Maine', '', [], False],
+    ['Maryland', '', [], False],
     ['Massachusetts', 'Suffolk', ['Boston'], False],
+    ['New Hampshire', '', [], False],
+    ['New Jersey', 'Bergen', ['Newark', 'Jersey City'], False],
     ['New York', 'Bronx', ['New York'], False],
-    ['New York', 'Queens', ['New York'], False],
+    ['New York', 'Brooklyn', ['New York'], False],
     ['New York', 'Kings', ['New York'], False],
     ['New York', 'Manhattan', ['New York'], False],
-    ['New York', 'Brooklyn', ['New York'], False],
-    ['New York', 'Staten Island', ['New York'], False],
     ['New York', 'New York City', ['New York'], False],
-    ['New Jersey', 'Bergen', ['Newark', 'Jersey City'], False],
-    ['Pennsylvania', 'Philadelphia', ['Philadelphia'], False]
+    ['New York', 'Queens', ['New York'], False],
+    ['New York', 'Staten Island', ['New York'], False],
+    ['Pennsylvania', 'Philadelphia', ['Philadelphia'], False],
+    ['Rhode Island', '', [], False],
+    ['Vermont', '', [], False],
+    ['Virginia', '', [], False],
+    ['West Virginia', '', [], False]
 ]
 
-county_cities_west = [
+interesting_locations_west = [
+    ['Alaska', '', [], False],
     ['Arizona', 'Maricopa', ['Phoenix'], False],
     ['California', 'Los Angeles', ['Los Angeles'], False],
-    ['California', 'San Francisco', ['San Francisco'], False],
     ['California', 'San Diego', ['San Diego'], False],
+    ['California', 'San Francisco', ['San Francisco'], False],
+    ['Colorado', '', [], False],
+    ['Hawaii', '', [], False],
+    ['Idaho', '', [], False],
+    ['Montana', '', [], False],
+    ['Nevada', '', [], False],
+    ['New Mexico', '', [], False],
+    ['Oregon', '', [], False],
+    ['Utah', '', [], False],
     ['Washington', 'King', ['Seattle'], True],
-    ['Washington', 'Snohomish', ['Everett'], True]
+    ['Washington', 'Snohomish', ['Everett'], True],
+    ['Wyoming', '', [], False],
 ]
 
-county_cities_south = [
-    ['Florida', 'Miami-Dade', ['Miami'], False],
+interesting_locations_south = [
+    ['Alabama', '', [], False],
+    ['Arkansas', '', [], False],
     ['Florida', 'Broward', ['Fort Lauderdale'], False],
     ['Florida', 'Duval', ['Jacksonville'], False],
+    ['Florida', 'Miami-Dade', ['Miami'], False],
     ['Georgia', 'Fulton', ['Atlanta'], False],
     ['Louisiana', 'Orleans', ['New Orleans'], False],
+    ['Mississippi', '', [], False],
+    ['North Carolina', '', [], False],
+    ['Oklahoma', '', [], False],
     ['South Carolina', 'Charleston', ['Charleston'], True],
-    ['Tennessee', 'Davidson', ['Nashville'], False],
-    ['Texas', 'Harris', ['Houston'], False],
+    ['Tennessee', 'Davidson', ['Nashville'], True],
     ['Texas', 'Bexar', ['San Antonio'], False],
     ['Texas', 'Dallas', ['Dallas'], False],
-    ['Texas', 'Travis', ['Austin'], False]
+    ['Texas', 'Harris', ['Houston'], False],
+    ['Texas', 'Potter', ['Amarillo'], True],
+    ['Texas', 'Travis', ['Austin'], False],
 ]
 
-county_cities_midwest = [
+interesting_locations_midwest = [
     ['Illinois', 'Cook', ['Chicago'], False],
     ['Indiana', 'Hamilton', ['Carmel'], False],
     ['Indiana', 'Marion', ['Indianapolis'], False],
+    ['Iowa', 'Polk', ['Des Moines'], True],
+    ['Kansas', '', [], False],
+    ['Kentucky', 'Muhlenberg', ['Central City'], True],
     ['Michigan', 'Wayne', ['Detroit'], False],
+    ['Minnesota', '', [], False],
+    ['Missouri', '', [], False],
+    ['Nebraska', '', [], False],
+    ['North Dakota', '', [], False],
+    ['Ohio', 'Cuyahoga', ['Cleveland'], True],
+    ['South Dakota', '', [], False],
     ['Wisconsin', 'Milwaukee', ['Milwaukee'], False],
-    ['Ohio', 'Cuyahoga', ['Cleveland'], True]
 ]
 
-county_cities_east_map = pd.DataFrame(county_cities_east, columns = ['state', 'county', 'cities', 'show_by_default'])
-county_cities_west_map = pd.DataFrame(county_cities_west, columns = ['state', 'county', 'cities', 'show_by_default'])
-county_cities_midwest_map = pd.DataFrame(county_cities_midwest, columns = ['state', 'county', 'cities', 'show_by_default'])
-county_cities_south_map = pd.DataFrame(county_cities_south, columns = ['state', 'county', 'cities', 'show_by_default'])
+interesting_locations_east_df = pd.DataFrame(interesting_locations_east, columns = ['state', 'county', 'cities', 'show_by_default'])
+interesting_locations_west_df = pd.DataFrame(interesting_locations_west, columns = ['state', 'county', 'cities', 'show_by_default'])
+interesting_locations_midwest_df = pd.DataFrame(interesting_locations_midwest, columns = ['state', 'county', 'cities', 'show_by_default'])
+interesting_locations_south_df = pd.DataFrame(interesting_locations_south, columns = ['state', 'county', 'cities', 'show_by_default'])
 
-states_east = county_cities_east_map.drop(columns=['cities', 'county']).drop_duplicates()
-states_west = county_cities_west_map.drop(columns=['cities', 'county']).drop_duplicates()
-states_midwest = county_cities_midwest_map.drop(columns=['cities', 'county']).drop_duplicates()
-states_south = county_cities_south_map.drop(columns=['cities', 'county']).drop_duplicates()
-states = pd.concat([states_east, states_midwest, states_west, states_south])
-states.reset_index(inplace=True)
+interesting_states_east = interesting_locations_east_df.sort_values(by='show_by_default').drop_duplicates(subset='state', keep='last')
+interesting_states_west = interesting_locations_west_df.sort_values(by='show_by_default').drop_duplicates(subset='state', keep='last')
+interesting_states_midwest = interesting_locations_midwest_df.sort_values(by='show_by_default').drop_duplicates(subset='state', keep='last')
+interesting_states_south = interesting_locations_south_df.sort_values(by='show_by_default').drop_duplicates(subset='state', keep='last')
+interesting_states = pd.concat([interesting_states_east, interesting_states_midwest, interesting_states_west, interesting_states_south])
+interesting_states.reset_index(inplace=True)
+interesting_states.sort_values(by='state', inplace=True)
 
-counties_cities = pd.concat([county_cities_east_map, county_cities_west_map, county_cities_midwest_map, county_cities_south_map])
-counties_cities.reset_index(inplace=True)
+interesting_locations = pd.concat([interesting_locations_east_df, interesting_locations_west_df, interesting_locations_midwest_df, interesting_locations_south_df])
+interesting_locations.reset_index(inplace=True)
 
 # %% [markdown]
 # **********************************************************************************************************
@@ -212,7 +250,8 @@ html_graphs.write("  <object data=\""+'Chart_'+str(row)+'.html'+"\" width=" + st
 
 
 #############################
-
+# New cases by state
+#############################
 row += 1
 layout = go.Layout(
         title = 'New cases by state',
@@ -226,13 +265,16 @@ layout = go.Layout(
 )
 
 fig = go.Figure(layout=layout)
-for index, state in states.iterrows():
+for index, state in interesting_states.iterrows():
     plotnewcases(state.state, 'all', state.show_by_default)
 
 fig.show()
 plotly.offline.plot(fig, filename=webpage_folder + 'Chart_'+str(row)+'.html',auto_open=False)
 html_graphs.write("  <object data=\""+'Chart_'+str(row)+'.html'+"\" width=" + str(default_width * 1.10) + " height=" + str(default_height* 1.10) + "\"></object>"+"\n")
 
+#############################
+# New cases by county
+#############################
 row += 1
 layout = go.Layout(
         title = 'New cases by county',
@@ -246,7 +288,7 @@ layout = go.Layout(
 )
 
 fig = go.Figure(layout=layout)
-for index, r in counties_cities.iterrows():
+for index, r in interesting_locations.iterrows():
     plotnewcases(r.state, r.county, r.show_by_default)
 
 fig.show()
@@ -300,7 +342,7 @@ layout = go.Layout(
 )
 
 fig = go.Figure(layout=layout)
-for index, s in states.iterrows():
+for index, s in interesting_states.iterrows():
     plottotalcases(s.state, 'all', s.show_by_default)
 
 fig.show()
@@ -308,13 +350,14 @@ plotly.offline.plot(fig, filename=webpage_folder + 'Chart_'+str(row)+'.html',aut
 html_graphs.write('''
 <br/><br/><div>
 <h1>State and County Total cases</h1>
+The simplest count is just a total number of cases per state and then per interesting county. Nothing more than what each state is reporting
+as new cases on a daily basis.
 </div>''')
 html_graphs.write("  <object data=\""+'Chart_'+str(row)+'.html'+"\" width=" + str(default_width * 1.10) + " height=" + str(default_height* 1.10) + "\"></object>"+"\n")
 
-#  %% [markdown]
-# **********************************************************************************************************
-# # County Totals
-# **********************************************************************************************************
+###########################
+# County Totals
+###########################
 row += 1
 starting_cases = 200
 layout = go.Layout(
@@ -329,7 +372,7 @@ layout = go.Layout(
 )
 fig = go.Figure(layout=layout)
 
-for index, r in counties_cities.iterrows():
+for index, r in interesting_locations.iterrows():
     plottotalcases(r.state, r.county, r.show_by_default)
 
 fig.show()
@@ -373,7 +416,7 @@ layout = go.Layout(
 )
 fig=go.Figure(layout=layout)
 
-for index, s in states.iterrows():
+for index, s in interesting_states.iterrows():
     stateplotpercapita(s.state, s.show_by_default )
 
 fig.show()
@@ -381,18 +424,18 @@ plotly.offline.plot(fig, filename=webpage_folder + 'Chart_'+str(row)+'.html',aut
 html_graphs.write('''
 <br/><br/><div>
 <h1>State and County cases adjusted for population</h1><br/>
-To better get a sense of how different states may be handling the virus outbreak, you can
-adjust the graphs to account for the number of people who live in each state. A state that has
-100,000 people vs 8,000,000 people will obviously look far better with regard to total cases
-because they have 80x less people. By factoring in the population of a state, this is difference
-is accounted for.
+Total cases is one thing, but to better get a sense of how different states and counties may be handling the virus compared to others,
+you can adjust the graphs to account for the number of people who live in each state. A state that has 100,000 people vs
+one that has 8,000,000 people should obviously have far fewer total cases because they have 80x less people. By factoring
+in the population, a state or county with a low population may show a slope as high as other states with far more people.
+This would indicate that the lower population state isn't likely effectively quarantining nearly as much as a higher
+population state.
 </div>''')
 html_graphs.write("  <object data=\""+'Chart_'+str(row)+'.html'+"\" width=" + str(default_width * 1.10) + " height=" + str(default_height* 1.10) + "\"></object>"+"\n")
 
-#  %% [markdown]
-# **********************************************************************************************************
-# # County cases adjusted for population
-# **********************************************************************************************************
+#################################################
+# County cases adjusted for population
+#################################################
 #  %%
 def countyplotpercapita(state, county, show_by_default):
     data = county_cov_data[county_cov_data.state == state][['date', 'cases', 'county']]
@@ -414,7 +457,7 @@ def countyplotpercapita(state, county, show_by_default):
             )
 
 row += 1
-starting_cases = 1000
+starting_cases = 50
 layout = go.Layout(
         title = 'Total county cases per 1,000 people after hitting ' + str(starting_cases) + ' cases',
         plot_bgcolor = default_plot_color,
@@ -427,7 +470,7 @@ layout = go.Layout(
 )
 fig=go.Figure(layout=layout)
 
-for index, r in counties_cities.iterrows():
+for index, r in interesting_locations.iterrows():
     countyplotpercapita(r.state, r.county, r.show_by_default)
 
 fig.show()
@@ -461,7 +504,7 @@ def stateplotbydensity(state, show_by_default):
 row += 1
 starting_cases = 200
 layout = go.Layout(
-        title = 'Total state trend after hitting ' + str(starting_cases) + ' cases factoring out population density',
+        title = 'Total state trend after hitting ' + str(starting_cases) + ' cases factoring in population density',
         plot_bgcolor = default_plot_color,
         xaxis_gridcolor = default_grid_color,
         yaxis_gridcolor = default_grid_color,
@@ -472,7 +515,7 @@ layout = go.Layout(
 )
 fig=go.Figure(layout=layout)
 
-for index, s in states.iterrows():
+for index, s in interesting_states.iterrows():
     stateplotbydensity(s.state, s.show_by_default)
 
 fig.show()
@@ -480,15 +523,12 @@ plotly.offline.plot(fig, filename=webpage_folder + 'Chart_'+str(row)+'.html',aut
 html_graphs.write('''
 <br/><br/><div>
 <h1>State cases adjusted for population density</h1><br/>
-Each state and county obviously has a population and an area in which this population lives. *Pretend* for a moment that Texas only has 100,000
-people total. Also *pretend* that Rhode Island has 100,000 people. However, you also know that the
-land area of Rhode Island is much, much smaller than that of Texas. So, if Rhode Island gets 5,000 cases of the virus
-and Texas also gets 5,000 case, then you can say with high confidence that the people in Texas are likely completely
-ignoring advice to keep a minimum distance from others. I mean how else could they have the same number of cases as Rhode Island
-where the same number of people are packed together?<br/>
+Each state and county obviously has a population and an area in which this population lives. *Pretend* for a moment that Texas only has 1,000,000
+people total. Also *pretend* that Rhode Island has 1,000,000 people. The land area of Rhode Island is much, much smaler than that of Texas. So, if both states
+have a total of 5,000 covid-19 cases over the same number of days since the outbreak began in that state, you can say with high confidence that the people
+in Texas are likely not effectively managing to stay as safe as they are in Rhode Island.<br/>
 <br/>
-This graph removes this consideration from the comparison between states. As you can see, New Jersey is doing far worse than
-than Ohio, Washington and California.
+This graph factors in this consideration for comparison between states and counties
 </div>''')
 html_graphs.write("  <object data=\""+'Chart_'+str(row)+'.html'+"\" width=" + str(default_width * 1.10) + " height=" + str(default_height* 1.10) + "\"></object>"+"\n")
 
@@ -518,9 +558,9 @@ def countyplotbydensity(county, state, show_by_default):
             )
 
 row += 1
-starting_cases = 200
+starting_cases = 50
 layout = go.Layout(
-        title = 'Total county trend after hitting ' + str(starting_cases) + ' cases factoring out population density',
+        title = 'Total county trend after hitting ' + str(starting_cases) + ' cases factoring in population density',
         plot_bgcolor = default_plot_color,
         xaxis_gridcolor = default_grid_color,
         yaxis_gridcolor = default_grid_color,
@@ -531,11 +571,54 @@ layout = go.Layout(
 )
 fig=go.Figure(layout=layout)
 
-for index, r in counties_cities.iterrows():
+for index, r in interesting_locations.iterrows():
     countyplotbydensity(r.county, r.state, r.show_by_default)
 fig.show()
 plotly.offline.plot(fig, filename=webpage_folder + 'Chart_'+str(row)+'.html',auto_open=False)
 html_graphs.write("  <object data=\""+'Chart_'+str(row)+'.html'+"\" width=" + str(default_width * 1.10) + " height=" + str(default_height* 1.10) + "\"></object>"+"\n")
+
+# Do Washington Only
+row += 1
+starting_cases = 10
+layout = go.Layout(
+        title = 'Washington State county trends after hitting ' + str(starting_cases) + ' cases factoring in population density',
+        plot_bgcolor = default_plot_color,
+        xaxis_gridcolor = default_grid_color,
+        yaxis_gridcolor = default_grid_color,
+        width=default_width,
+        height=default_height,
+        xaxis_title='Days since ' + str(starting_cases) + ' cases were hit',
+        yaxis_title='Total density adjusted cases'
+)
+fig=go.Figure(layout=layout)
+
+for index, r in county_density[county_density.state == 'Washington'].iterrows():
+    countyplotbydensity(r.county, r.state, True)
+fig.show()
+plotly.offline.plot(fig, filename=webpage_folder + 'Chart_'+str(row)+'.html',auto_open=False)
+html_graphs.write("  <object data=\""+'Chart_'+str(row)+'.html'+"\" width=" + str(default_width * 1.10) + " height=" + str(default_height* 1.10) + "\"></object>"+"\n")
+
+# Do Ohio Only
+row += 1
+starting_cases = 10
+layout = go.Layout(
+        title = 'Ohio State county trends after hitting ' + str(starting_cases) + ' cases factoring in population density',
+        plot_bgcolor = default_plot_color,
+        xaxis_gridcolor = default_grid_color,
+        yaxis_gridcolor = default_grid_color,
+        width=default_width,
+        height=default_height,
+        xaxis_title='Days since ' + str(starting_cases) + ' cases were hit',
+        yaxis_title='Total density adjusted cases'
+)
+fig=go.Figure(layout=layout)
+
+for index, r in county_density[county_density.state == 'Ohio'].iterrows():
+    countyplotbydensity(r.county, r.state, True)
+fig.show()
+plotly.offline.plot(fig, filename=webpage_folder + 'Chart_'+str(row)+'.html',auto_open=False)
+html_graphs.write("  <object data=\""+'Chart_'+str(row)+'.html'+"\" width=" + str(default_width * 1.10) + " height=" + str(default_height* 1.10) + "\"></object>"+"\n")
+
 
 #  %% [markdown]
 # **********************************************************************************************************
@@ -544,7 +627,7 @@ html_graphs.write("  <object data=\""+'Chart_'+str(row)+'.html'+"\" width=" + st
 #  %%
 def cityplotpercapita(state, city, show_by_default):
     county = 'not found'
-    for index, x in counties_cities.iterrows():
+    for index, x in interesting_locations.iterrows():
         if city in x.cities and state == x.state:
             county = x.county
 
@@ -580,7 +663,7 @@ layout = go.Layout(
 )
 fig=go.Figure(layout=layout)
 
-for index, r in counties_cities[~counties_cities['cities'].apply(tuple).duplicated()].iterrows():
+for index, r in interesting_locations[~interesting_locations['cities'].apply(tuple).duplicated()].iterrows():
     for c in r.cities:
         cityplotpercapita(r.state, c, r.show_by_default)
 
@@ -589,9 +672,8 @@ plotly.offline.plot(fig, filename=webpage_folder + 'Chart_'+str(row)+'.html',aut
 html_graphs.write('''
 <br/><br/><div>
 <h1>City total cases adjusted for population</h1><br/>
-To better get a sense of how different cities may be handling the virus outbreak, you can
-adjust the graphs to account for the number of people who live in each city. A city that has
-100,000 people vs 8,000,000 people will obviously look far better with regard to total cases
+You can do the same types of adjustments as we did for state and county at the city level.
+A city that has 100,000 people vs 8,000,000 people will obviously look far better with regard to total cases
 because they have 80x less people. By factoring in the population of a city, this is difference
 is accounted for.
 </div>''')
@@ -604,7 +686,7 @@ html_graphs.write("  <object data=\""+'Chart_'+str(row)+'.html'+"\" width=" + st
 #  %%
 def cityplotbydensity(state, city, show_by_default):
     county = 'not found'
-    for index, x in counties_cities.iterrows():
+    for index, x in interesting_locations.iterrows():
         if city in x.cities and state == x.state:
             county = x.county
 
@@ -629,7 +711,7 @@ def cityplotbydensity(state, city, show_by_default):
 row += 1
 starting_cases = 20
 layout = go.Layout(
-        title = 'Total city trend after hitting ' + str(starting_cases) + ' cases factoring out population density',
+        title = 'Total city trend after hitting ' + str(starting_cases) + ' cases factoring in population density',
         plot_bgcolor = default_plot_color,
         xaxis_gridcolor = default_grid_color,
         yaxis_gridcolor = default_grid_color,
@@ -640,7 +722,7 @@ layout = go.Layout(
 )
 fig=go.Figure(layout=layout)
 
-for index, r in counties_cities[~counties_cities['cities'].apply(tuple).duplicated()].iterrows():
+for index, r in interesting_locations[~interesting_locations['cities'].apply(tuple).duplicated()].iterrows():
     for c in r.cities:
         cityplotbydensity(r.state, c, r.show_by_default)
 
@@ -652,7 +734,7 @@ html_graphs.write('''
 Same trends as described for state cases adjusted for population density, but applied at the city level instead. The intent of
 this graph is to discount the consideration that some cities growth rates are so fast because those cities are so densely populated.
 This was a common explanation as to why New York was growing so much faster than other cities. Though even when taking density into account,
-New York's trend <b>still</b> beats all others.
+New York's trend <b>still</b> beats all others, but other cities are much closer!
 </div>''')
 html_graphs.write("  <object data=\""+'Chart_'+str(row)+'.html'+"\" width=" + str(default_width * 1.10) + " height=" + str(default_height* 1.10) + "\"></object>"+"\n")
 
@@ -664,7 +746,7 @@ html_graphs.write("  <object data=\""+'Chart_'+str(row)+'.html'+"\" width=" + st
 #  %%
 def citydeathsplotbydensity(state, city, show_by_default):
     county = 'not found'
-    for index, x in counties_cities.iterrows():
+    for index, x in interesting_locations.iterrows():
         if city in x.cities and state == x.state:
             county = x.county
 
@@ -687,7 +769,7 @@ def citydeathsplotbydensity(state, city, show_by_default):
 
 row += 1
 layout = go.Layout(
-        title = 'Total city deaths trend after the first death factoring out population density',
+        title = 'Total city deaths trend after the first death factoring in population density',
         plot_bgcolor = default_plot_color,
         xaxis_gridcolor = default_grid_color,
         yaxis_gridcolor = default_grid_color,
@@ -699,7 +781,7 @@ layout = go.Layout(
 fig=go.Figure(layout=layout)
 starting_deaths = 1
 
-for index, r in counties_cities[~counties_cities['cities'].apply(tuple).duplicated()].iterrows():
+for index, r in interesting_locations[~interesting_locations['cities'].apply(tuple).duplicated()].iterrows():
     for c in r.cities:
         citydeathsplotbydensity(r.state, c, r.show_by_default)
 
