@@ -82,6 +82,7 @@ county_density['key'] = county_density.county + ',' + county_density.state
 county_density['area'] = county_density.key.map(county_land_area.land_area)
 county_density['density'] = county_density.population / county_density.area
 county_density.dropna(subset=['density'], inplace=True)
+county_density.drop_duplicates(subset= ['county', 'state'], inplace=True)
 
 interesting_locations_east = [
     ['Connecticut', '', [], False],
@@ -577,48 +578,26 @@ fig.show()
 plotly.offline.plot(fig, filename=webpage_folder + 'Chart_'+str(row)+'.html',auto_open=False)
 html_graphs.write("  <object data=\""+'Chart_'+str(row)+'.html'+"\" width=" + str(default_width * 1.10) + " height=" + str(default_height* 1.10) + "\"></object>"+"\n")
 
-# Do Washington Only
-row += 1
-starting_cases = 10
-layout = go.Layout(
-        title = 'Washington State county trends after hitting ' + str(starting_cases) + ' cases factoring in population density',
-        plot_bgcolor = default_plot_color,
-        xaxis_gridcolor = default_grid_color,
-        yaxis_gridcolor = default_grid_color,
-        width=default_width,
-        height=default_height,
-        xaxis_title='Days since ' + str(starting_cases) + ' cases were hit',
-        yaxis_title='Total density adjusted cases'
-)
-fig=go.Figure(layout=layout)
+# Do all states
+for index, s in interesting_states.iterrows():
+    starting_cases = 5
+    layout = go.Layout(
+            title = s.state + ' State county trends after hitting ' + str(starting_cases) + ' cases factoring in population density',
+            plot_bgcolor = default_plot_color,
+            xaxis_gridcolor = default_grid_color,
+            yaxis_gridcolor = default_grid_color,
+            width=default_width,
+            height=default_height,
+            xaxis_title='Days since ' + str(starting_cases) + ' cases were hit',
+            yaxis_title='Total density adjusted cases'
+    )
+    fig=go.Figure(layout=layout)
 
-for index, r in county_density[county_density.state == 'Washington'].iterrows():
-    countyplotbydensity(r.county, r.state, True)
-fig.show()
-plotly.offline.plot(fig, filename=webpage_folder + 'Chart_'+str(row)+'.html',auto_open=False)
-html_graphs.write("  <object data=\""+'Chart_'+str(row)+'.html'+"\" width=" + str(default_width * 1.10) + " height=" + str(default_height* 1.10) + "\"></object>"+"\n")
-
-# Do Ohio Only
-row += 1
-starting_cases = 10
-layout = go.Layout(
-        title = 'Ohio State county trends after hitting ' + str(starting_cases) + ' cases factoring in population density',
-        plot_bgcolor = default_plot_color,
-        xaxis_gridcolor = default_grid_color,
-        yaxis_gridcolor = default_grid_color,
-        width=default_width,
-        height=default_height,
-        xaxis_title='Days since ' + str(starting_cases) + ' cases were hit',
-        yaxis_title='Total density adjusted cases'
-)
-fig=go.Figure(layout=layout)
-
-for index, r in county_density[county_density.state == 'Ohio'].iterrows():
-    countyplotbydensity(r.county, r.state, True)
-fig.show()
-plotly.offline.plot(fig, filename=webpage_folder + 'Chart_'+str(row)+'.html',auto_open=False)
-html_graphs.write("  <object data=\""+'Chart_'+str(row)+'.html'+"\" width=" + str(default_width * 1.10) + " height=" + str(default_height* 1.10) + "\"></object>"+"\n")
-
+    for index, r in county_density[county_density.state == s.state].iterrows():
+        countyplotbydensity(r.county, r.state, True)
+    # fig.show()
+    plotly.offline.plot(fig, filename=webpage_folder + s.state + '_by_density.html', auto_open=False)
+    html_graphs.write("<br/><a style=\'margin:50px\' href='" + s.state + "_by_density.html'>" + s.state + "</a>\n")
 
 #  %% [markdown]
 # **********************************************************************************************************
