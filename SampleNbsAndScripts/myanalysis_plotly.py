@@ -11,6 +11,7 @@ import numpy as np
 from datetime import datetime
 import plotly.graph_objects as go
 import plotly
+import plotly.io as pio
 
 default_line_thickness=2
 default_width = 1280
@@ -20,8 +21,17 @@ default_grid_color = 'rgba(225, 225, 225, 255)'
 
 webpage_folder = 'webpage/'
 html_graphs = open(webpage_folder + "CovidAnalysis.html",'w',)
-html_graphs.write("<html><head><style>div {margin-left:50px; margin-right:5%; font-family: \"Verdana\"}</style></head><body>"+"\n")
-html_graphs.write('<div style=\'margin:50px\'><h1>Data as of ' + datetime.now().strftime('%m/%d/%y')+ '<br/></h1>')
+html_graphs.write('''
+<html><head>
+<style>
+div {margin-left:50px; margin-right:5%; font-family: \"Verdana\"}
+table {margin-left: 50px; margin-right:5%; float:left}
+tr {text-align: center}
+a {font-family: \"Verdana\"}
+img {width: 500px}
+</style></head><body>\n
+''')
+html_graphs.write('<div><h1>Data as of ' + datetime.now().strftime('%m/%d/%y')+ '<br/></h1>')
 #html_graphs.write('<div style=\'margin:50px\'><h1>Data as of 04/25/2020<br/></h1>')
 html_graphs.write('''
 Please wait to load all the graphs. This page is not setup to be fast loading. :)<br/><br/>
@@ -576,7 +586,7 @@ for index, r in interesting_locations.iterrows():
     countyplotbydensity(r.county, r.state, r.show_by_default)
 fig.show()
 plotly.offline.plot(fig, filename=webpage_folder + 'Chart_'+str(row)+'.html',auto_open=False)
-html_graphs.write("  <object data=\""+'Chart_'+str(row)+'.html'+"\" width=" + str(default_width * 1.10) + " height=" + str(default_height* 1.10) + "\"></object>"+"\n")
+html_graphs.write("  <object data=\""+'Chart_'+str(row)+'.html'+"\" width=" + str(default_width * 1.10) + " height=" + str(default_height* 1.10) + "\"></object>"+"<br/>\n")
 
 # Do all states
 for index, s in interesting_states.iterrows():
@@ -595,9 +605,10 @@ for index, s in interesting_states.iterrows():
 
     for index, r in county_density[county_density.state == s.state].iterrows():
         countyplotbydensity(r.county, r.state, True)
-    # fig.show()
+    pio.write_image(fig, webpage_folder + s.state + '_by_density.jpg')
     plotly.offline.plot(fig, filename=webpage_folder + s.state + '_by_density.html', auto_open=False)
-    html_graphs.write("<br/><a style=\'margin:50px\' href='" + s.state + "_by_density.html'>" + s.state + "</a>\n")
+    basename=s.state + '_by_density'
+    html_graphs.write("<a href='" + basename + ".html'><table><tr><td>" + s.state + "</td></tr><tr><td><img src='" + basename + ".jpg'/></td></tr></table></a>\n")
 
 #  %% [markdown]
 # **********************************************************************************************************
@@ -649,7 +660,7 @@ for index, r in interesting_locations[~interesting_locations['cities'].apply(tup
 fig.show()
 plotly.offline.plot(fig, filename=webpage_folder + 'Chart_'+str(row)+'.html',auto_open=False)
 html_graphs.write('''
-<br/><br/><div>
+<br/><br/><div style=\"clear: both\">
 <h1>City total cases adjusted for population</h1><br/>
 You can do the same types of adjustments as we did for state and county at the city level.
 A city that has 100,000 people vs 8,000,000 people will obviously look far better with regard to total cases
