@@ -35,14 +35,22 @@ html_graphs.write('<div><h1>Data as of ' + datetime.now().strftime('%m/%d/%y')+ 
 #html_graphs.write('<div style=\'margin:50px\'><h1>Data as of 04/25/2020<br/></h1>')
 html_graphs.write('''
 Please wait to load all the graphs. This page is not setup to be fast loading. :)<br/><br/>
+</div>
+''')
 
-<h2> Things you can do on each graph </h2>
-<ul>
-<li> Hover your mouse over a trend line to find which location it refers to.
-<li> Single click on a location to show and hide that location's trend line.
-<li> Double click on a location to show only that location OR show ALL locations in that graph.
-</ul>
-</div>''')
+instructions = '''
+<div>
+    <h2> Things you can do on each graph </h2>
+    <ul>
+    <li> Hover your mouse over a trend line to find which location it refers to.
+    <li> Single click on a location to show and hide that location's trend line.
+    <li> Double click on a location to show only that location OR show ALL locations in that graph.
+    </ul>
+</div>
+'''
+
+html_graphs.write(instructions)
+
 #  %% [markdown]
 # **********************************************************************************************************
 # # Setup
@@ -56,6 +64,7 @@ state_cov_data = pd.read_csv('us-states.csv')
 county_cov_data = pd.read_csv('us-counties.csv')
 
 population_county = pd.read_csv('county-population-2013.csv')
+population_county.loc[population_county.state == 'Louisiana'] = population_county[population_county.state == 'Louisiana'].replace(regex=[' Parish'], value='')
 population_county.drop(columns={'Core_Based_Statistical_Area'}, inplace=True)
 population_county.rename(columns={'population2013': 'population'}, inplace=True)
 population_county.index = [population_county.county, population_county.state]
@@ -110,6 +119,7 @@ interesting_locations_east = [
     ['New York', 'New York City', ['New York'], False],
     ['New York', 'Queens', ['New York'], False],
     ['New York', 'Staten Island', ['New York'], False],
+    ['New York', 'New York City', [''], False], # This is not a county, but the county_cov_data treats it as one.
     ['Pennsylvania', 'Philadelphia', ['Philadelphia'], False],
     ['Rhode Island', '', [], False],
     ['Vermont', '', [], False],
@@ -215,26 +225,27 @@ def plotnewcases(state='all', county='all', show_by_default=True):
         total_cases_by_date = total_cases_by_date[total_cases_by_date.cases > minimum_cases]
         delta_cases = total_cases_by_date.cases.to_numpy()[1:] - total_cases_by_date.head(len(total_cases_by_date)-1).cases.to_numpy()[0:]
 
-        delta_cases_ma = movingaverage(delta_cases, 7)
-        df = pd.DataFrame(delta_cases_ma, columns=['new'])
-        df['days'] = df.index
-        df = df[df.new.gt(0).idxmax():]
-        df.reset_index(inplace=True)
+        if (len(delta_cases) > 0):
+            delta_cases_ma = movingaverage(delta_cases, 7)
+            df = pd.DataFrame(delta_cases_ma, columns=['new'])
+            df['days'] = df.index
+            df = df[df.new.gt(0).idxmax():]
+            df.reset_index(inplace=True)
 
-        if (state != 'all' and county != 'all'):
-            name = state + ' - ' + county
-        else:
-            name = state
+            if (state != 'all' and county != 'all'):
+                name = state + ' - ' + county
+            else:
+                name = state
 
-        if (show_by_default):
-            visible = True
-        else:
-            visible = 'legendonly'
+            if (show_by_default):
+                visible = True
+            else:
+                visible = 'legendonly'
 
-        fig.add_trace(
-            go.Scatter(x=df.days, y=df.new, mode='lines', name=name, line = { 'width': default_line_thickness },
-            hovertemplate='new cases: %{y:,.0f}<br>day: %{x}', visible=visible)
-        )
+            fig.add_trace(
+                go.Scatter(x=df.days, y=df.new, mode='lines', name=name, line = { 'width': default_line_thickness },
+                hovertemplate='new cases: %{y:,.0f}<br>day: %{x}', visible=visible)
+            )
 
 row = 1
 layout = go.Layout(
@@ -256,7 +267,7 @@ html_graphs.write('''
 <br/><br/><div>
 <h1>New cases per day</h1><br/>
 This trend line is a moving average of new cases over time. First for the US overall then by state (not all are represented here, just ones I found most interesting.
-</div>''')
+</div>\n<div>\n''')
 html_graphs.write("  <object data=\""+'Chart_'+str(row)+'.html'+"\" width=" + str(default_width * 1.10) + " height=" + str(default_height* 1.10) + "\"></object>"+"\n")
 
 
@@ -276,8 +287,10 @@ layout = go.Layout(
 )
 
 fig = go.Figure(layout=layout)
+
+# Show all states by default.
 for index, state in interesting_states.iterrows():
-    plotnewcases(state.state, 'all', state.show_by_default)
+    plotnewcases(state.state, 'all', True)
 
 fig.show()
 plotly.offline.plot(fig, filename=webpage_folder + 'Chart_'+str(row)+'.html',auto_open=False)
@@ -305,7 +318,31 @@ for index, r in interesting_locations.iterrows():
 fig.show()
 plotly.offline.plot(fig, filename=webpage_folder + 'Chart_'+str(row)+'.html',auto_open=False)
 html_graphs.write("  <object data=\""+'Chart_'+str(row)+'.html'+"\" width=" + str(default_width * 1.10) + " height=" + str(default_height* 1.10) + "\"></object>"+"\n")
+html_graphs.write("\n</div>")
+#####################################
+# Do all states & counties
+#####################################
+for index, s in interesting_states.iterrows():
+    layout = go.Layout(
+            title = s.state + ' State counties new cases',
+            plot_bgcolor = default_plot_color,
+            xaxis_gridcolor = default_grid_color,
+            yaxis_gridcolor = default_grid_color,
+            width=default_width,
+            height=default_height,
+            xaxis_title='Days since counts started increasing',
+            yaxis_title='New cases'
+    )
+    fig=go.Figure(layout=layout)
 
+    for index, c in population_county[population_county.state == s.state].iterrows():
+        plotnewcases(s.state, c.county, True)
+
+    basename=s.state + '_new_cases'
+    pio.write_image(fig, webpage_folder + basename + '.jpg')
+    plotly.offline.plot(fig, filename=webpage_folder + basename + '.html', auto_open=False)
+    html_graphs.write("<a target='_blank' href='" + basename + ".html'><table><tr><td>" + s.state + "</td></tr><tr><td><img src='" + basename + ".jpg'/></td></tr></table></a>\n")
+html_graphs.write('<div style=\"clear:both\"></div>')
 
 # %% [markdown]
 # **********************************************************************************************************
@@ -588,7 +625,7 @@ fig.show()
 plotly.offline.plot(fig, filename=webpage_folder + 'Chart_'+str(row)+'.html',auto_open=False)
 html_graphs.write("  <object data=\""+'Chart_'+str(row)+'.html'+"\" width=" + str(default_width * 1.10) + " height=" + str(default_height* 1.10) + "\"></object>"+"<br/>\n")
 
-# Do all states
+# Do all states & counties
 for index, s in interesting_states.iterrows():
     starting_cases = 5
     layout = go.Layout(
@@ -605,10 +642,12 @@ for index, s in interesting_states.iterrows():
 
     for index, r in county_density[county_density.state == s.state].iterrows():
         countyplotbydensity(r.county, r.state, True)
-    pio.write_image(fig, webpage_folder + s.state + '_by_density.jpg')
-    plotly.offline.plot(fig, filename=webpage_folder + s.state + '_by_density.html', auto_open=False)
+
     basename=s.state + '_by_density'
+    pio.write_image(fig, webpage_folder + basename + '.jpg')
+    plotly.offline.plot(fig, filename=webpage_folder + basename + '.html', auto_open=False)
     html_graphs.write("<a target='_blank' href='" + basename + ".html'><table><tr><td>" + s.state + "</td></tr><tr><td><img src='" + basename + ".jpg'/></td></tr></table></a>\n")
+html_graphs.write('<div style=\"clear:both\"></div>')
 
 #  %% [markdown]
 # **********************************************************************************************************
@@ -660,7 +699,7 @@ for index, r in interesting_locations[~interesting_locations['cities'].apply(tup
 fig.show()
 plotly.offline.plot(fig, filename=webpage_folder + 'Chart_'+str(row)+'.html',auto_open=False)
 html_graphs.write('''
-<br/><br/><div style=\"clear: both\">
+<br/><br/><div>">
 <h1>City total cases adjusted for population</h1><br/>
 You can do the same types of adjustments as we did for state and county at the city level.
 A city that has 100,000 people vs 8,000,000 people will obviously look far better with regard to total cases
