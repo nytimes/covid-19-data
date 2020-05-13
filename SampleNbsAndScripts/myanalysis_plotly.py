@@ -608,7 +608,7 @@ for index, s in interesting_states.iterrows():
     pio.write_image(fig, webpage_folder + s.state + '_by_density.jpg')
     plotly.offline.plot(fig, filename=webpage_folder + s.state + '_by_density.html', auto_open=False)
     basename=s.state + '_by_density'
-    html_graphs.write("<a href='" + basename + ".html'><table><tr><td>" + s.state + "</td></tr><tr><td><img src='" + basename + ".jpg'/></td></tr></table></a>\n")
+    html_graphs.write("<a target='_blank' href='" + basename + ".html'><table><tr><td>" + s.state + "</td></tr><tr><td><img src='" + basename + ".jpg'/></td></tr></table></a>\n")
 
 #  %% [markdown]
 # **********************************************************************************************************
