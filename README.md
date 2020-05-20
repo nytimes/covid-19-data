@@ -200,7 +200,7 @@ The total cases number includes only lab-confirmed cases, but the deaths number 
 
 * Louisiana
 
-The total cases number and total deaths number include only lab-confirmed cases and deaths. The state appears to be reporting the deaths of probable Covid-19 cases separately from the total number of deaths statewide and in each parish but we are not yet including those cases in our numbers.
+The total cases number and total deaths number include only lab-confirmed cases and deaths. The state is reporting the deaths of probable Covid-19 cases separately from their total number of deaths statewide and in each parish, and we are including those deaths in our total number of deaths for the state.
 
 * Ohio
 
