@@ -188,6 +188,10 @@ Additionally, from approximately April 12th through April 18th, the count of dea
 
 On May 25, North Dakota annoucned that due to a laboratory equipment malfunction they were removing 82 positive results from their total case count, pending a retest of the samples.
 
+* Connecticut
+
+On May 27, Connecticut [announced](https://portal.ct.gov/Office-of-the-Governor/News/Press-Releases/2020/05-2020/Governor-Lamont-Coronavirus-Update-May-27) announced that they were removing 356 positive cases, which were determined to be duplicates, from their total case count.
+
 #### Probable Cases and Deaths
 
 * Colorado
