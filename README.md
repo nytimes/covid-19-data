@@ -192,6 +192,10 @@ On May 25, North Dakota annoucned that due to a laboratory equipment malfunction
 
 On May 27, Connecticut [announced](https://portal.ct.gov/Office-of-the-Governor/News/Press-Releases/2020/05-2020/Governor-Lamont-Coronavirus-Update-May-27) announced that they were removing 356 positive cases, which were determined to be duplicates, from their total case count.
 
+* Louisiana
+
+On May 29, Louisiana announced that due to a technical error they would not have an update on the number of total cases that day.
+
 #### Probable Cases and Deaths
 
 * Colorado
