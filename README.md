@@ -192,9 +192,15 @@ On May 25, North Dakota annoucned that due to a laboratory equipment malfunction
 
 On May 27, Connecticut [announced](https://portal.ct.gov/Office-of-the-Governor/News/Press-Releases/2020/05-2020/Governor-Lamont-Coronavirus-Update-May-27) announced that they were removing 356 positive cases, which were determined to be duplicates, from their total case count.
 
+The number of deaths reported by the state in four counties on June 1 was anomalously high and several deaths are removed in the data for June 2.
+
 * Louisiana
 
 On May 29, Louisiana announced that due to a technical error they would not have an update on the number of total cases that day.
+
+* Massachusetts
+
+On April 24, Massachusetts reported the results of a large number of backlogged tests performed by Quest Diagnostics dating back to April 13, leading to a large one day jump in the number of total cases.
 
 #### Probable Cases and Deaths
 
@@ -209,6 +215,10 @@ Numbers reflect the combined number of lab-confirmed and probable cases and deat
 * Louisiana
 
 The total cases number and total deaths number include only lab-confirmed cases and deaths. The state is reporting the deaths of probable Covid-19 cases separately from their total number of deaths statewide and in each parish, and we are including those deaths in our total number of deaths for the state.
+
+* Massachusetts
+
+On June 1, Massachusetts started reporting probable cases and deaths in their data. The total number of cases and deaths on that day include probable cases and deaths going back to March 1, leading to a large one day jump in the totals.
 
 * Ohio
 
