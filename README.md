@@ -222,7 +222,7 @@ On June 1, Massachusetts started reporting probable cases and deaths in their da
 
 * Michigan
 
-On June 1, we began recording probable cases and deaths reported by Michigan's county and regional health districts and adding them to the individual county and statewide totals.
+On June 1, we began recording probable cases and deaths reported by Michigan's county and regional health districts and adding them to the individual county and statewide totals. On June 5, the state also started to report probable cases and deaths statewide, leading to a jump in total cases and deaths.
 
 * Ohio
 
