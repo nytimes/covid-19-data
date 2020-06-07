@@ -99,7 +99,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-06-06,Navajo,Arizona,04017,2152,72,,,,
 2020-06-06,Pima,Arizona,04019,2950,205,,,,
 2020-06-06,Pinal,Arizona,04021,1067,41,,,,
-2020-06-06,Santa Cruz,Arizona,04023,540,4,,,,
+2020-06-06,Santa Cruz,Arizona,04023,596,5,,,,
 2020-06-06,Yavapai,Arizona,04025,326,6,,,,
 2020-06-06,Yuma,Arizona,04027,1850,24,,,,
 2020-06-06,Arkansas,Arkansas,05001,7,0,7,0,,
@@ -191,13 +191,13 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-06-06,Humboldt,California,06023,111,4,111,4,,
 2020-06-06,Imperial,California,06025,2778,32,2778,32,,
 2020-06-06,Inyo,California,06027,21,1,21,1,,
-2020-06-06,Kern,California,06029,2624,46,2624,46,,
-2020-06-06,Kings,California,06031,1483,6,1483,6,,
+2020-06-06,Kern,California,06029,2660,46,2660,46,,
+2020-06-06,Kings,California,06031,1492,6,1492,6,,
 2020-06-06,Lake,California,06033,30,0,30,0,,
 2020-06-06,Lassen,California,06035,6,0,6,0,,
 2020-06-06,Los Angeles,California,06037,62338,2620,62338,2620,,
 2020-06-06,Madera,California,06039,163,3,163,3,,
-2020-06-06,Marin,California,06041,551,17,551,17,,
+2020-06-06,Marin,California,06041,571,17,571,17,,
 2020-06-06,Mariposa,California,06043,16,1,16,1,,
 2020-06-06,Mendocino,California,06045,33,0,33,0,,
 2020-06-06,Merced,California,06047,334,7,334,7,,
@@ -632,7 +632,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-06-06,Logan,Illinois,17107,10,0,10,0,,
 2020-06-06,Macon,Illinois,17115,202,21,202,21,,
 2020-06-06,Macoupin,Illinois,17117,46,2,46,2,,
-2020-06-06,Madison,Illinois,17119,634,65,634,65,,
+2020-06-06,Madison,Illinois,17119,636,65,636,65,,
 2020-06-06,Marion,Illinois,17121,55,0,55,0,,
 2020-06-06,Marshall,Illinois,17123,5,0,5,0,,
 2020-06-06,Mason,Illinois,17125,18,0,18,0,,
@@ -647,7 +647,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-06-06,Morgan,Illinois,17137,46,1,46,1,,
 2020-06-06,Moultrie,Illinois,17139,12,0,12,0,,
 2020-06-06,Ogle,Illinois,17141,225,4,225,4,,
-2020-06-06,Peoria,Illinois,17143,309,11,309,11,,
+2020-06-06,Peoria,Illinois,17143,310,11,310,11,,
 2020-06-06,Perry,Illinois,17145,42,0,42,0,,
 2020-06-06,Piatt,Illinois,17147,11,0,11,0,,
 2020-06-06,Pike,Illinois,17149,1,0,1,0,,
@@ -775,13 +775,13 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-06-06,Appanoose,Iowa,19007,17,3,17,3,,
 2020-06-06,Audubon,Iowa,19009,13,1,13,1,,
 2020-06-06,Benton,Iowa,19011,43,1,43,1,,
-2020-06-06,Black Hawk,Iowa,19013,1789,49,1789,49,,
+2020-06-06,Black Hawk,Iowa,19013,1789,50,1789,50,,
 2020-06-06,Boone,Iowa,19015,72,0,72,0,,
 2020-06-06,Bremer,Iowa,19017,71,6,71,6,,
 2020-06-06,Buchanan,Iowa,19019,34,1,34,1,,
 2020-06-06,Buena Vista,Iowa,19021,1112,2,1112,2,,
 2020-06-06,Butler,Iowa,19023,16,1,16,1,,
-2020-06-06,Calhoun,Iowa,19025,11,0,11,0,,
+2020-06-06,Calhoun,Iowa,19025,12,0,12,0,,
 2020-06-06,Carroll,Iowa,19027,16,1,16,1,,
 2020-06-06,Cass,Iowa,19029,13,0,13,0,,
 2020-06-06,Cedar,Iowa,19031,50,1,50,1,,
@@ -805,7 +805,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-06-06,Floyd,Iowa,19067,19,1,19,1,,
 2020-06-06,Franklin,Iowa,19069,25,0,25,0,,
 2020-06-06,Fremont,Iowa,19071,4,0,4,0,,
-2020-06-06,Greene,Iowa,19073,15,0,15,0,,
+2020-06-06,Greene,Iowa,19073,14,0,14,0,,
 2020-06-06,Grundy,Iowa,19075,19,0,19,0,,
 2020-06-06,Guthrie,Iowa,19077,55,3,55,3,,
 2020-06-06,Hamilton,Iowa,19079,81,0,81,0,,
@@ -872,7 +872,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-06-06,Anderson,Kansas,20003,1,0,1,,0,
 2020-06-06,Atchison,Kansas,20005,23,0,20,,3,
 2020-06-06,Barber,Kansas,20007,1,0,1,,0,
-2020-06-06,Barton,Kansas,20009,44,2,44,2,0,
+2020-06-06,Barton,Kansas,20009,45,2,45,2,,
 2020-06-06,Bourbon,Kansas,20011,8,1,7,1,1,
 2020-06-06,Brown,Kansas,20013,7,0,6,,1,
 2020-06-06,Butler,Kansas,20015,40,0,37,,3,
@@ -1200,7 +1200,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-06-06,Worcester,Massachusetts,25027,11696,820,,,,
 2020-06-06,Alcona,Michigan,26001,21,1,17,1,4,0
 2020-06-06,Allegan,Michigan,26005,263,6,226,6,37,0
-2020-06-06,Alpena,Michigan,26007,103,9,95,9,8,0
+2020-06-06,Alpena,Michigan,26007,104,9,96,9,8,0
 2020-06-06,Antrim,Michigan,26009,13,0,12,,1,
 2020-06-06,Arenac,Michigan,26011,38,1,34,1,4,0
 2020-06-06,Baraga,Michigan,26013,1,0,1,,0,
@@ -1224,7 +1224,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-06-06,Genesee,Michigan,26049,2525,280,2050,254,475,26
 2020-06-06,Gladwin,Michigan,26051,18,1,18,1,0,0
 2020-06-06,Gogebic,Michigan,26053,5,1,5,1,0,0
-2020-06-06,Grand Traverse,Michigan,26055,35,5,29,5,6,0
+2020-06-06,Grand Traverse,Michigan,26055,36,5,30,5,6,0
 2020-06-06,Gratiot,Michigan,26057,88,11,77,11,11,0
 2020-06-06,Hillsdale,Michigan,26059,180,24,170,24,10,0
 2020-06-06,Houghton,Michigan,26061,8,0,7,,1,
@@ -1491,7 +1491,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-06-06,Howell,Missouri,29091,12,0,12,0,,
 2020-06-06,Iron,Missouri,29093,2,0,2,0,,
 2020-06-06,Jackson,Missouri,29095,696,22,696,22,,
-2020-06-06,Jasper,Missouri,29097,44,0,44,0,,
+2020-06-06,Jasper,Missouri,29097,45,0,45,0,,
 2020-06-06,Jefferson,Missouri,29099,398,18,398,18,,
 2020-06-06,Johnson,Missouri,29101,77,0,77,0,,
 2020-06-06,Kansas City,Missouri,,1501,27,1501,27,,
@@ -1515,7 +1515,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-06-06,Montgomery,Missouri,29139,11,0,11,0,,
 2020-06-06,Morgan,Missouri,29141,9,0,9,0,,
 2020-06-06,New Madrid,Missouri,29143,21,1,21,1,,
-2020-06-06,Newton,Missouri,29145,29,1,29,1,,
+2020-06-06,Newton,Missouri,29145,32,1,32,1,,
 2020-06-06,Nodaway,Missouri,29147,14,0,14,0,,
 2020-06-06,Oregon,Missouri,29149,2,0,2,0,,
 2020-06-06,Osage,Missouri,29151,5,0,5,0,,
@@ -1542,7 +1542,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-06-06,St. Clair,Missouri,29185,2,0,2,0,,
 2020-06-06,St. Francois,Missouri,29187,39,2,39,2,,
 2020-06-06,St. Louis,Missouri,29189,5029,460,5029,460,,
-2020-06-06,St. Louis city,Missouri,29510,2053,134,2053,134,,
+2020-06-06,St. Louis city,Missouri,29510,2068,135,2068,135,,
 2020-06-06,Ste. Genevieve,Missouri,29186,12,1,12,1,,
 2020-06-06,Stoddard,Missouri,29207,106,5,106,5,,
 2020-06-06,Stone,Missouri,29209,8,0,8,0,,
@@ -1828,7 +1828,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-06-06,Davidson,North Carolina,37057,505,13,505,13,,
 2020-06-06,Davie,North Carolina,37059,115,2,115,2,,
 2020-06-06,Duplin,North Carolina,37061,976,19,976,19,,
-2020-06-06,Durham,North Carolina,37063,2025,49,2025,49,,
+2020-06-06,Durham,North Carolina,37063,2067,49,2067,49,,
 2020-06-06,Edgecombe,North Carolina,37065,221,9,221,9,,
 2020-06-06,Forsyth,North Carolina,37067,1721,17,1721,17,,
 2020-06-06,Franklin,North Carolina,37069,185,21,185,21,,
@@ -2148,7 +2148,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-06-06,Berks,Pennsylvania,42011,4184,333,4041,,143,
 2020-06-06,Blair,Pennsylvania,42013,53,1,49,,4,
 2020-06-06,Bradford,Pennsylvania,42015,46,3,42,,4,
-2020-06-06,Bucks,Pennsylvania,42017,5243,529,4939,471,304,58
+2020-06-06,Bucks,Pennsylvania,42017,5243,529,4972,471,271,58
 2020-06-06,Butler,Pennsylvania,42019,244,12,217,,27,
 2020-06-06,Cambria,Pennsylvania,42021,59,2,43,,16,
 2020-06-06,Cameron,Pennsylvania,42023,2,0,2,,0,
@@ -2505,7 +2505,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-06-06,Baylor,Texas,48023,1,0,1,0,,
 2020-06-06,Bee,Texas,48025,22,0,22,0,,
 2020-06-06,Bell,Texas,48027,446,5,446,5,,
-2020-06-06,Bexar,Texas,48029,3155,78,3155,78,,
+2020-06-06,Bexar,Texas,48029,3302,78,3302,78,,
 2020-06-06,Blanco,Texas,48031,11,1,11,1,,
 2020-06-06,Bosque,Texas,48035,7,0,7,0,,
 2020-06-06,Bowie,Texas,48037,312,13,312,13,,
@@ -2520,7 +2520,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-06-06,Caldwell,Texas,48055,76,0,76,0,,
 2020-06-06,Calhoun,Texas,48057,38,3,38,3,,
 2020-06-06,Callahan,Texas,48059,10,1,10,1,,
-2020-06-06,Cameron,Texas,48061,863,39,863,39,,
+2020-06-06,Cameron,Texas,48061,892,39,892,39,,
 2020-06-06,Camp,Texas,48063,91,0,91,0,,
 2020-06-06,Carson,Texas,48065,6,0,6,0,,
 2020-06-06,Cass,Texas,48067,31,1,31,1,,
@@ -2633,7 +2633,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-06-06,Lipscomb,Texas,48295,5,0,5,0,,
 2020-06-06,Live Oak,Texas,48297,9,0,9,0,,
 2020-06-06,Llano,Texas,48299,3,0,3,0,,
-2020-06-06,Lubbock,Texas,48303,734,50,734,50,,
+2020-06-06,Lubbock,Texas,48303,741,50,741,50,,
 2020-06-06,Lynn,Texas,48305,8,1,8,1,,
 2020-06-06,Madison,Texas,48313,10,0,10,0,,
 2020-06-06,Marion,Texas,48315,17,1,17,1,,
@@ -2695,7 +2695,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-06-06,Stephens,Texas,48429,4,0,4,0,,
 2020-06-06,Swisher,Texas,48437,18,1,18,1,,
 2020-06-06,Tarrant,Texas,48439,6073,176,6073,176,,
-2020-06-06,Taylor,Texas,48441,340,5,339,5,1,0
+2020-06-06,Taylor,Texas,48441,340,5,340,5,0,0
 2020-06-06,Terry,Texas,48445,13,0,13,0,,
 2020-06-06,Titus,Texas,48449,616,3,616,3,,
 2020-06-06,Tom Green,Texas,48451,78,1,78,1,,
@@ -2743,7 +2743,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-06-06,Salt Lake,Utah,49035,6096,81,6096,81,,0
 2020-06-06,San Juan,Utah,49037,333,5,333,4,,1
 2020-06-06,Sanpete,Utah,49039,14,0,14,0,,
-2020-06-06,Sevier,Utah,49041,9,0,9,0,,
+2020-06-06,Sevier,Utah,49041,10,0,10,0,,
 2020-06-06,Summit,Utah,49043,426,0,426,,,
 2020-06-06,Tooele,Utah,49045,145,0,145,,,
 2020-06-06,Uintah,Utah,49047,10,0,10,,,
@@ -2751,7 +2751,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-06-06,Utah,Utah,49049,2183,17,2183,11,,6
 2020-06-06,Wasatch,Utah,49051,326,2,326,1,,1
 2020-06-06,Washington,Utah,49053,455,0,455,,,
-2020-06-06,Weber,Utah,49057,342,8,342,8,,
+2020-06-06,Weber,Utah,49057,369,8,369,8,,
 2020-06-06,Addison,Vermont,50001,65,2,65,2,,
 2020-06-06,Bennington,Vermont,50003,66,1,66,1,,
 2020-06-06,Caledonia,Vermont,50005,16,0,16,0,,
@@ -2935,7 +2935,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-06-06,Walla Walla,Washington,53071,113,2,113,2,,
 2020-06-06,Whatcom,Washington,53073,409,37,409,37,,
 2020-06-06,Whitman,Washington,53075,20,0,20,0,,
-2020-06-06,Yakima,Washington,53077,4392,100,4392,100,,
+2020-06-06,Yakima,Washington,53077,4539,100,4539,100,,
 2020-06-06,Barbour,West Virginia,54001,8,1,8,1,0,
 2020-06-06,Berkeley,West Virginia,54003,343,8,329,8,14,
 2020-06-06,Boone,West Virginia,54005,11,0,11,0,0,
@@ -3042,7 +3042,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-06-06,Price,Wisconsin,55099,2,0,2,0,,
 2020-06-06,Racine,Wisconsin,55101,1906,47,1906,47,,
 2020-06-06,Richland,Wisconsin,55103,14,4,14,4,,
-2020-06-06,Rock,Wisconsin,55105,767,21,685,21,82,
+2020-06-06,Rock,Wisconsin,55105,770,21,685,21,85,
 2020-06-06,Rusk,Wisconsin,55107,5,0,5,0,,
 2020-06-06,Sauk,Wisconsin,55111,81,3,81,3,,
 2020-06-06,Sawyer,Wisconsin,55113,8,0,8,0,,
