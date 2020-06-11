@@ -5,7 +5,6 @@
 #  %%
 import time
 t0 = time.clock()
-
 #  %%
 import pandas as pd
 import numpy as np
