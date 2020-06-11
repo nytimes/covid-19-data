@@ -1,5 +1,6 @@
 # %% [markdown]
-# * Looks like the press is starting to ask some of the same questions I'm asking with this analysis:
+# * Reference Sites
+#     * https://github.com/greazer/covid-19-data
 #     * https://www.mercurynews.com/2020/04/08/how-california-has-contained-coronavirus-and-new-york-has-not/
 #  %%
 import time
