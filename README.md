@@ -198,6 +198,8 @@ The number of deaths reported by the state in four counties on June 1 was anomal
 
 On May 29, Louisiana announced that due to a technical error they would not have an update on the number of total cases that day.
 
+On June 13, Louisiana's reported an additional 560 backlogged cases from multiple labs and facilities from between April 25 and June 9.
+
 * Massachusetts
 
 On April 24, Massachusetts reported the results of a large number of backlogged tests performed by Quest Diagnostics dating back to April 13, leading to a large one day jump in the number of total cases.
