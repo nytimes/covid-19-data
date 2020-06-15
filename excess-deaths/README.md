@@ -263,7 +263,7 @@ covid-data@nytimes.com
 
 ## Contributors
 
-Allison McCann, Jin Wu and Josh Katz have been leading our data collection efforts. 
+Allison McCann, Jin Wu, Josh Katz and Denise Lu have been leading our data collection efforts. 
 
 Elian Peltier contributed reporting from Paris, Muktita Suhartono from Bangkok, Carlotta Gall from Istanbul, Anatoly Kurmanaev from Caracas, Venezuela, Monika Pronczuk from Brussels, José María León Cabrera from Quito, Ecuador, Irit Pazner from Jerusalem, Mirelis Morales from Lima and Manuela Andreoni from Rio de Janeiro.
 
