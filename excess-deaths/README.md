@@ -263,8 +263,8 @@ covid-data@nytimes.com
 
 ## Contributors
 
-Allison McCann and Jin Wu have been leading our data collection efforts. 
+Allison McCann, Jin Wu and Josh Katz have been leading our data collection efforts. 
 
-Josh Katz contributed reporting from New York, Elian Peltier from Paris, Muktita Suhartono from Bangkok, Carlotta Gall from Istanbul, Anatoly Kurmanaev from Caracas, Venezuela, Monika Pronczuk from Brussels, José María León Cabrera from Quito, Ecuador, Irit Pazner from Jerusalem, Mirelis Morales from Lima and Manuela Andreoni from Rio de Janeiro.
+Elian Peltier contributed reporting from Paris, Muktita Suhartono from Bangkok, Carlotta Gall from Istanbul, Anatoly Kurmanaev from Caracas, Venezuela, Monika Pronczuk from Brussels, José María León Cabrera from Quito, Ecuador, Irit Pazner from Jerusalem, Mirelis Morales from Lima and Manuela Andreoni from Rio de Janeiro.
 
 Thank you to Stéphane Helleringer, Johns Hopkins University; Tim Riffe, Max Planck Institute for Demographic Research; Lasse Skafte Vestergaard, EuroMOMO; Vladimir Shkolnikov, Max Planck Institute for Demographic Research; Jenny Garcia, Institut National d'Études Démographiques; Tom Moultrie, University of Cape Town; Isaac Sasson, Tel Aviv University; Patrick Gerland, United Nations; S V Subramanian, Harvard University; Paulo Lotufo, University of São Paulo; and Marcelo Oliveira.
