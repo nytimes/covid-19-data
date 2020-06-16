@@ -198,6 +198,8 @@ The number of deaths reported by the state in four counties on June 1 was anomal
 
 On May 29, Louisiana announced that due to a technical error they would not have an update on the number of total cases that day.
 
+On June 13, Louisiana's reported an additional 560 backlogged cases from multiple labs and facilities from between April 25 and June 9.
+
 * Massachusetts
 
 On April 24, Massachusetts reported the results of a large number of backlogged tests performed by Quest Diagnostics dating back to April 13, leading to a large one day jump in the number of total cases.
@@ -212,6 +214,10 @@ Numbers reflect the combined number of lab-confirmed and probable cases and deat
 
 Numbers reflect the combined number of lab-confirmed and probable cases and deaths as reported by the state.
 
+* Illinois
+
+On June 8, Illinois started reporting probable cases and deaths in their data. We are including these cases and deaths in our total numbers for the state.
+
 * Louisiana
 
 The total cases number and total deaths number include only lab-confirmed cases and deaths. The state is reporting the deaths of probable Covid-19 cases separately from their total number of deaths statewide and in each parish, and we are including those deaths in our total number of deaths for the state.
@@ -222,7 +228,7 @@ On June 1, Massachusetts started reporting probable cases and deaths in their da
 
 * Michigan
 
-On June 1, we began recording probable cases and deaths reported by Michigan's county and regional health districts and adding them to the individual county and statewide totals.
+On June 1, we began recording probable cases and deaths reported by Michigan's county and regional health districts and adding them to the individual county and statewide totals. On June 5, the state also started to report probable cases and deaths statewide, leading to a jump in total cases and deaths.
 
 * Ohio
 
