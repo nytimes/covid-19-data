@@ -198,11 +198,21 @@ The number of deaths reported by the state in four counties on June 1 was anomal
 
 On May 29, Louisiana announced that due to a technical error they would not have an update on the number of total cases that day.
 
-On June 13, Louisiana's reported an additional 560 backlogged cases from multiple labs and facilities from between April 25 and June 9.
+On June 13, Louisiana reported an additional 560 backlogged cases from multiple labs and facilities from between April 25 and June 9.
+
+On June 16, Louisiana reported an additional 148 backlogged cases, the majority of which date back to mid-April.
 
 * Massachusetts
 
 On April 24, Massachusetts reported the results of a large number of backlogged tests performed by Quest Diagnostics dating back to April 13, leading to a large one day jump in the number of total cases.
+
+* Texas
+
+On June 16, Texas reported an additional 1,476 backlogged cases from prison inmates in Anderson and Brazoria counties.
+
+* Washington
+
+On June 17, Washington began removing from their totals deaths where Covid-19 was not a factor, for instance homicides, overdoses, suicides and car accidents. Four deaths from King County and three from Yakima county that were due to homicide, suicide or overdose were removed.
 
 #### Probable Cases and Deaths
 
