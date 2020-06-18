@@ -210,6 +210,10 @@ On April 24, Massachusetts reported the results of a large number of backlogged 
 
 On June 16, Texas reported an additional 1,476 backlogged cases from prison inmates in Anderson and Brazoria counties.
 
+* Washington
+
+On June 17, Washington began removing from their totals deaths where Covid-19 was not a factor, for instance homicides, overdoses, suicides and car accidents. Four deaths from King County and three from Yakima county that were due to homicide, suicide or overdose were removed.
+
 #### Probable Cases and Deaths
 
 * Colorado
