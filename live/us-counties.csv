@@ -98,7 +98,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-06-20,Graham,Arizona,04009,61,2,,,,
 2020-06-20,Greenlee,Arizona,04011,13,1,,,,
 2020-06-20,La Paz,Arizona,04012,268,4,,,,
-2020-06-20,Maricopa,Arizona,04013,28303,633,25945,585,2358,48
+2020-06-20,Maricopa,Arizona,04013,28303,633,28088,603,215,30
 2020-06-20,Mohave,Arizona,04015,717,72,,,,
 2020-06-20,Navajo,Arizona,04017,2984,95,,,,
 2020-06-20,Pima,Arizona,04019,5313,242,,,,
@@ -213,7 +213,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-06-20,Placer,California,06061,476,9,476,9,,
 2020-06-20,Plumas,California,06063,5,0,5,0,,
 2020-06-20,Riverside,California,06065,12778,410,12778,410,,
-2020-06-20,Sacramento,California,06067,1975,67,1975,67,,
+2020-06-20,Sacramento,California,06067,2068,67,2068,67,,
 2020-06-20,San Benito,California,06069,161,2,161,2,,
 2020-06-20,San Bernardino,California,06071,8714,230,8714,230,,
 2020-06-20,San Diego,California,06073,10415,332,10415,332,,
@@ -311,7 +311,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-06-20,New Castle,Delaware,10003,4569,197,4373,184,196,13
 2020-06-20,Sussex,Delaware,10005,4487,153,3807,147,680,6
 2020-06-20,Unknown,Delaware,,19,0,16,,3,
-2020-06-20,District of Columbia,District of Columbia,11001,9952,530,9952,530,,
+2020-06-20,District of Columbia,District of Columbia,11001,9984,531,9984,531,,
 2020-06-20,Alachua,Florida,12001,633,11,633,11,,
 2020-06-20,Baker,Florida,12003,39,4,39,4,,
 2020-06-20,Bay,Florida,12005,175,4,175,4,,
@@ -682,98 +682,98 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-06-20,Williamson,Illinois,17199,91,4,91,4,,
 2020-06-20,Winnebago,Illinois,17201,2824,85,2824,85,,
 2020-06-20,Woodford,Illinois,17203,32,2,32,2,,
-2020-06-20,Adams,Indiana,18001,29,2,28,1,1,1
-2020-06-20,Allen,Indiana,18003,2341,101,2331,91,10,10
-2020-06-20,Bartholomew,Indiana,18005,571,46,566,43,5,3
-2020-06-20,Benton,Indiana,18007,38,0,38,0,0,0
-2020-06-20,Blackford,Indiana,18009,33,2,32,2,1,0
-2020-06-20,Boone,Indiana,18011,399,42,381,39,18,3
+2020-06-20,Adams,Indiana,18001,37,2,36,1,1,1
+2020-06-20,Allen,Indiana,18003,2382,101,2368,91,14,10
+2020-06-20,Bartholomew,Indiana,18005,570,46,565,43,5,3
+2020-06-20,Benton,Indiana,18007,39,0,39,0,0,0
+2020-06-20,Blackford,Indiana,18009,35,2,32,2,3,0
+2020-06-20,Boone,Indiana,18011,406,43,388,40,18,3
 2020-06-20,Brown,Indiana,18013,37,1,37,1,0,0
 2020-06-20,Carroll,Indiana,18015,103,2,103,2,0,0
-2020-06-20,Cass,Indiana,18017,1616,10,1613,9,3,1
-2020-06-20,Clark,Indiana,18019,596,50,586,43,10,7
+2020-06-20,Cass,Indiana,18017,1627,10,1624,9,3,1
+2020-06-20,Clark,Indiana,18019,599,50,589,43,10,7
 2020-06-20,Clay,Indiana,18021,56,3,56,3,0,0
-2020-06-20,Clinton,Indiana,18023,269,2,268,1,1,1
+2020-06-20,Clinton,Indiana,18023,270,2,269,1,1,1
 2020-06-20,Crawford,Indiana,18025,28,1,27,0,1,1
-2020-06-20,Daviess,Indiana,18027,131,18,129,16,2,2
-2020-06-20,DeKalb,Indiana,18033,134,4,133,3,1,1
-2020-06-20,Dearborn,Indiana,18029,185,23,184,22,1,1
-2020-06-20,Decatur,Indiana,18031,253,35,238,32,15,3
-2020-06-20,Delaware,Indiana,18035,409,46,407,45,2,1
+2020-06-20,Daviess,Indiana,18027,132,18,130,16,2,2
+2020-06-20,DeKalb,Indiana,18033,140,4,139,3,1,1
+2020-06-20,Dearborn,Indiana,18029,187,23,186,22,1,1
+2020-06-20,Decatur,Indiana,18031,254,35,239,32,15,3
+2020-06-20,Delaware,Indiana,18035,410,47,408,46,2,1
 2020-06-20,Dubois,Indiana,18037,249,6,249,6,0,0
-2020-06-20,Elkhart,Indiana,18039,2532,41,2477,38,55,3
+2020-06-20,Elkhart,Indiana,18039,2593,41,2538,38,55,3
 2020-06-20,Fayette,Indiana,18041,133,7,85,7,48,0
-2020-06-20,Floyd,Indiana,18043,344,45,342,43,2,2
+2020-06-20,Floyd,Indiana,18043,346,45,344,43,2,2
 2020-06-20,Fountain,Indiana,18045,24,2,24,2,0,0
 2020-06-20,Franklin,Indiana,18047,127,9,120,8,7,1
-2020-06-20,Fulton,Indiana,18049,60,1,60,1,0,0
-2020-06-20,Gibson,Indiana,18051,25,2,25,2,0,0
-2020-06-20,Grant,Indiana,18053,347,28,272,25,75,3
-2020-06-20,Greene,Indiana,18055,188,32,183,29,5,3
-2020-06-20,Hamilton,Indiana,18057,1372,101,1359,96,13,5
-2020-06-20,Hancock,Indiana,18059,389,32,385,31,4,1
+2020-06-20,Fulton,Indiana,18049,61,1,61,1,0,0
+2020-06-20,Gibson,Indiana,18051,26,2,26,2,0,0
+2020-06-20,Grant,Indiana,18053,352,28,275,25,77,3
+2020-06-20,Greene,Indiana,18055,189,32,184,29,5,3
+2020-06-20,Hamilton,Indiana,18057,1378,102,1365,97,13,5
+2020-06-20,Hancock,Indiana,18059,392,33,388,32,4,1
 2020-06-20,Harrison,Indiana,18061,202,24,200,22,2,2
-2020-06-20,Hendricks,Indiana,18063,1319,109,1296,94,23,15
-2020-06-20,Henry,Indiana,18065,210,15,205,15,5,0
-2020-06-20,Howard,Indiana,18067,499,51,494,48,5,3
-2020-06-20,Huntington,Indiana,18069,58,2,58,2,0,0
-2020-06-20,Jackson,Indiana,18071,431,4,427,3,4,1
-2020-06-20,Jasper,Indiana,18073,90,1,89,1,1,0
-2020-06-20,Jay,Indiana,18075,65,0,63,0,2,0
-2020-06-20,Jefferson,Indiana,18077,56,1,55,1,1,0
-2020-06-20,Jennings,Indiana,18079,160,6,158,4,2,2
-2020-06-20,Johnson,Indiana,18081,1213,124,1185,116,28,8
-2020-06-20,Knox,Indiana,18083,41,0,40,0,1,0
-2020-06-20,Kosciusko,Indiana,18085,366,3,362,2,4,1
-2020-06-20,LaGrange,Indiana,18087,355,3,354,3,1,0
-2020-06-20,LaPorte,Indiana,18091,483,25,482,25,1,0
-2020-06-20,Lake,Indiana,18089,4361,248,4326,233,35,15
-2020-06-20,Lawrence,Indiana,18093,188,25,187,24,1,1
+2020-06-20,Hendricks,Indiana,18063,1331,110,1307,94,24,16
+2020-06-20,Henry,Indiana,18065,211,15,206,15,5,0
+2020-06-20,Howard,Indiana,18067,502,51,497,48,5,3
+2020-06-20,Huntington,Indiana,18069,57,2,57,2,0,0
+2020-06-20,Jackson,Indiana,18071,432,4,428,3,4,1
+2020-06-20,Jasper,Indiana,18073,91,1,90,1,1,0
+2020-06-20,Jay,Indiana,18075,66,0,63,0,3,0
+2020-06-20,Jefferson,Indiana,18077,57,1,56,1,1,0
+2020-06-20,Jennings,Indiana,18079,161,11,159,9,2,2
+2020-06-20,Johnson,Indiana,18081,1217,125,1189,117,28,8
+2020-06-20,Knox,Indiana,18083,42,0,41,0,1,0
+2020-06-20,Kosciusko,Indiana,18085,378,3,374,2,4,1
+2020-06-20,LaGrange,Indiana,18087,367,4,365,4,2,0
+2020-06-20,LaPorte,Indiana,18091,484,25,483,25,1,0
+2020-06-20,Lake,Indiana,18089,4392,249,4356,234,36,15
+2020-06-20,Lawrence,Indiana,18093,190,25,189,24,1,1
 2020-06-20,Madison,Indiana,18095,628,73,618,63,10,10
-2020-06-20,Marion,Indiana,18097,11007,711,10885,665,122,46
-2020-06-20,Marshall,Indiana,18099,344,3,344,3,0,0
+2020-06-20,Marion,Indiana,18097,11026,713,10904,667,122,46
+2020-06-20,Marshall,Indiana,18099,347,3,347,3,0,0
 2020-06-20,Martin,Indiana,18101,20,0,20,0,0,0
-2020-06-20,Miami,Indiana,18103,180,1,177,1,3,0
-2020-06-20,Monroe,Indiana,18105,209,28,207,26,2,2
-2020-06-20,Montgomery,Indiana,18107,272,20,270,19,2,1
-2020-06-20,Morgan,Indiana,18109,310,32,301,30,9,2
-2020-06-20,Newton,Indiana,18111,88,11,87,10,1,1
-2020-06-20,Noble,Indiana,18113,360,28,358,27,2,1
+2020-06-20,Miami,Indiana,18103,179,2,176,2,3,0
+2020-06-20,Monroe,Indiana,18105,210,28,208,26,2,2
+2020-06-20,Montgomery,Indiana,18107,274,20,272,19,2,1
+2020-06-20,Morgan,Indiana,18109,313,32,304,30,9,2
+2020-06-20,Newton,Indiana,18111,89,11,88,10,1,1
+2020-06-20,Noble,Indiana,18113,358,28,356,27,2,1
 2020-06-20,Ohio,Indiana,18115,13,0,13,0,0,0
 2020-06-20,Orange,Indiana,18117,134,25,132,23,2,2
-2020-06-20,Owen,Indiana,18119,39,1,39,1,0,0
+2020-06-20,Owen,Indiana,18119,40,1,40,1,0,0
 2020-06-20,Parke,Indiana,18121,25,0,20,0,5,0
-2020-06-20,Perry,Indiana,18123,112,3,101,2,11,1
+2020-06-20,Perry,Indiana,18123,114,4,103,3,11,1
 2020-06-20,Pike,Indiana,18125,6,0,6,0,0,0
-2020-06-20,Porter,Indiana,18127,620,38,611,36,9,2
-2020-06-20,Posey,Indiana,18129,23,0,23,0,0,0
-2020-06-20,Pulaski,Indiana,18131,54,1,53,1,1,0
+2020-06-20,Porter,Indiana,18127,622,38,613,36,9,2
+2020-06-20,Posey,Indiana,18129,24,0,24,0,0,0
+2020-06-20,Pulaski,Indiana,18131,55,1,54,1,1,0
 2020-06-20,Putnam,Indiana,18133,163,8,158,8,5,0
 2020-06-20,Randolph,Indiana,18135,96,3,71,3,25,0
 2020-06-20,Ripley,Indiana,18137,111,7,111,7,0,0
 2020-06-20,Rush,Indiana,18139,71,3,51,3,20,0
-2020-06-20,Scott,Indiana,18143,149,7,147,6,2,1
-2020-06-20,Shelby,Indiana,18145,618,32,408,24,210,8
+2020-06-20,Scott,Indiana,18143,151,7,149,6,2,1
+2020-06-20,Shelby,Indiana,18145,617,32,407,24,210,8
 2020-06-20,Spencer,Indiana,18147,27,1,24,1,3,0
-2020-06-20,St. Joseph,Indiana,18141,1638,58,1628,53,10,5
+2020-06-20,St. Joseph,Indiana,18141,1656,61,1646,56,10,5
 2020-06-20,Starke,Indiana,18149,60,4,58,3,2,1
 2020-06-20,Steuben,Indiana,18151,108,2,108,2,0,0
 2020-06-20,Sullivan,Indiana,18153,42,1,41,1,1,0
 2020-06-20,Switzerland,Indiana,18155,24,0,22,0,2,0
-2020-06-20,Tippecanoe,Indiana,18157,513,8,510,7,3,1
+2020-06-20,Tippecanoe,Indiana,18157,529,8,526,7,3,1
 2020-06-20,Tipton,Indiana,18159,29,2,28,1,1,1
 2020-06-20,Union,Indiana,18161,27,0,12,0,15,0
-2020-06-20,Vanderburgh,Indiana,18163,340,6,337,6,3,0
+2020-06-20,Vanderburgh,Indiana,18163,344,6,341,6,3,0
 2020-06-20,Vermillion,Indiana,18165,14,0,13,0,1,0
-2020-06-20,Vigo,Indiana,18167,208,9,207,8,1,1
-2020-06-20,Wabash,Indiana,18169,91,2,89,2,2,0
+2020-06-20,Vigo,Indiana,18167,209,9,208,8,1,1
+2020-06-20,Wabash,Indiana,18169,94,2,92,2,2,0
 2020-06-20,Warren,Indiana,18171,15,1,14,1,1,0
-2020-06-20,Warrick,Indiana,18173,180,31,178,29,2,2
+2020-06-20,Warrick,Indiana,18173,181,31,179,29,2,2
 2020-06-20,Washington,Indiana,18175,61,1,61,1,0,0
 2020-06-20,Wayne,Indiana,18177,278,6,107,6,171,0
-2020-06-20,Wells,Indiana,18179,65,0,65,0,0,0
-2020-06-20,White,Indiana,18181,245,10,245,10,0,0
-2020-06-20,Whitley,Indiana,18183,69,4,69,4,0,0
+2020-06-20,Wells,Indiana,18179,72,0,65,0,7,0
+2020-06-20,White,Indiana,18181,246,10,246,10,0,0
+2020-06-20,Whitley,Indiana,18183,71,4,71,4,0,0
 2020-06-20,Adair,Iowa,19001,12,0,12,0,,
 2020-06-20,Adams,Iowa,19003,7,0,7,0,,
 2020-06-20,Allamakee,Iowa,19005,121,4,121,4,,
@@ -1150,23 +1150,23 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-06-20,West Carroll,Louisiana,22123,103,3,103,3,,
 2020-06-20,West Feliciana,Louisiana,22125,226,14,226,14,,
 2020-06-20,Winn,Louisiana,22127,224,5,224,5,,
-2020-06-20,Androscoggin,Maine,23001,445,4,,4,,
+2020-06-20,Androscoggin,Maine,23001,448,4,,4,,
 2020-06-20,Aroostook,Maine,23003,11,1,,1,,
-2020-06-20,Cumberland,Maine,23005,1516,58,,58,,
+2020-06-20,Cumberland,Maine,23005,1534,58,,58,,
 2020-06-20,Franklin,Maine,23007,38,1,,1,,
-2020-06-20,Hancock,Maine,23009,13,1,,1,,
-2020-06-20,Kennebec,Maine,23011,138,9,,9,,
-2020-06-20,Knox,Maine,23013,23,1,,1,,
+2020-06-20,Hancock,Maine,23009,14,1,,1,,
+2020-06-20,Kennebec,Maine,23011,137,9,,9,,
+2020-06-20,Knox,Maine,23013,24,1,,1,,
 2020-06-20,Lincoln,Maine,23015,21,0,,,,
 2020-06-20,Oxford,Maine,23017,34,0,,,,
 2020-06-20,Penobscot,Maine,23019,102,2,,2,,
-2020-06-20,Piscataquis,Maine,23021,1,0,,,,
+2020-06-20,Piscataquis,Maine,23021,2,0,,,,
 2020-06-20,Sagadahoc,Maine,23023,30,0,,,,
 2020-06-20,Somerset,Maine,23025,26,0,,,,
-2020-06-20,Unknown,Maine,,1,0,,,,
+2020-06-20,Unknown,Maine,,2,0,,,,
 2020-06-20,Waldo,Maine,23027,55,14,,14,,
 2020-06-20,Washington,Maine,23029,2,0,,,,
-2020-06-20,York,Maine,23031,457,11,,11,,
+2020-06-20,York,Maine,23031,458,11,,11,,
 2020-06-20,Allegany,Maryland,24001,188,17,188,17,0,0
 2020-06-20,Anne Arundel,Maryland,24003,4889,200,4880,191,9,9
 2020-06-20,Baltimore,Maryland,24005,7502,448,7480,426,22,22
@@ -1291,92 +1291,92 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-06-20,Wayne,Michigan,26163,22018,2683,21234,2565,784,118
 2020-06-20,Wexford,Michigan,26165,22,3,15,3,7,0
 2020-06-20,Aitkin,Minnesota,27001,13,0,13,0,,
-2020-06-20,Anoka,Minnesota,27003,1836,96,1836,96,,
-2020-06-20,Becker,Minnesota,27005,48,0,48,0,,
-2020-06-20,Beltrami,Minnesota,27007,23,0,23,0,,
-2020-06-20,Benton,Minnesota,27009,200,3,200,3,,
+2020-06-20,Anoka,Minnesota,27003,1867,99,1867,99,,
+2020-06-20,Becker,Minnesota,27005,50,0,50,0,,
+2020-06-20,Beltrami,Minnesota,27007,24,0,24,0,,
+2020-06-20,Benton,Minnesota,27009,201,3,201,3,,
 2020-06-20,Big Stone,Minnesota,27011,14,0,14,0,,
-2020-06-20,Blue Earth,Minnesota,27013,174,2,174,2,,
-2020-06-20,Brown,Minnesota,27015,21,2,21,2,,
+2020-06-20,Blue Earth,Minnesota,27013,191,2,191,2,,
+2020-06-20,Brown,Minnesota,27015,22,2,22,2,,
 2020-06-20,Carlton,Minnesota,27017,81,0,81,0,,
-2020-06-20,Carver,Minnesota,27019,287,1,287,1,,
+2020-06-20,Carver,Minnesota,27019,293,1,293,1,,
 2020-06-20,Cass,Minnesota,27021,12,2,12,2,,
-2020-06-20,Chippewa,Minnesota,27023,64,1,64,1,,
-2020-06-20,Chisago,Minnesota,27025,82,1,82,1,,
-2020-06-20,Clay,Minnesota,27027,521,37,521,37,,
+2020-06-20,Chippewa,Minnesota,27023,66,1,66,1,,
+2020-06-20,Chisago,Minnesota,27025,83,1,83,1,,
+2020-06-20,Clay,Minnesota,27027,522,37,522,37,,
 2020-06-20,Clearwater,Minnesota,27029,6,0,6,0,,
 2020-06-20,Cook,Minnesota,27031,1,0,1,0,,
-2020-06-20,Cottonwood,Minnesota,27033,118,0,118,0,,
-2020-06-20,Crow Wing,Minnesota,27035,92,11,92,11,,
-2020-06-20,Dakota,Minnesota,27037,1847,81,1847,81,,
-2020-06-20,Dodge,Minnesota,27039,62,0,62,0,,
-2020-06-20,Douglas,Minnesota,27041,53,0,53,0,,
-2020-06-20,Faribault,Minnesota,27043,30,0,30,0,,
+2020-06-20,Cottonwood,Minnesota,27033,121,0,121,0,,
+2020-06-20,Crow Wing,Minnesota,27035,93,11,93,11,,
+2020-06-20,Dakota,Minnesota,27037,1878,81,1878,81,,
+2020-06-20,Dodge,Minnesota,27039,63,0,63,0,,
+2020-06-20,Douglas,Minnesota,27041,54,0,54,0,,
+2020-06-20,Faribault,Minnesota,27043,31,0,31,0,,
 2020-06-20,Fillmore,Minnesota,27045,21,0,21,0,,
-2020-06-20,Freeborn,Minnesota,27047,243,0,243,0,,
-2020-06-20,Goodhue,Minnesota,27049,101,7,101,7,,
+2020-06-20,Freeborn,Minnesota,27047,245,0,245,0,,
+2020-06-20,Goodhue,Minnesota,27049,102,7,102,7,,
 2020-06-20,Grant,Minnesota,27051,6,0,6,0,,
-2020-06-20,Hennepin,Minnesota,27053,10607,740,10607,740,,
-2020-06-20,Houston,Minnesota,27055,7,0,7,0,,
+2020-06-20,Hennepin,Minnesota,27053,10705,744,10705,744,,
+2020-06-20,Houston,Minnesota,27055,10,0,10,0,,
 2020-06-20,Hubbard,Minnesota,27057,5,0,5,0,,
-2020-06-20,Isanti,Minnesota,27059,52,0,52,0,,
+2020-06-20,Isanti,Minnesota,27059,53,0,53,0,,
 2020-06-20,Itasca,Minnesota,27061,59,12,59,12,,
 2020-06-20,Jackson,Minnesota,27063,50,0,50,0,,
 2020-06-20,Kanabec,Minnesota,27065,13,1,13,1,,
-2020-06-20,Kandiyohi,Minnesota,27067,554,1,554,1,,
+2020-06-20,Kandiyohi,Minnesota,27067,560,1,560,1,,
 2020-06-20,Kittson,Minnesota,27069,1,0,1,0,,
 2020-06-20,Koochiching,Minnesota,27071,9,0,9,0,,
 2020-06-20,Lac qui Parle,Minnesota,27073,4,0,4,0,,
 2020-06-20,Lake,Minnesota,27075,4,0,4,0,,
-2020-06-20,Le Sueur,Minnesota,27079,54,1,54,1,,
+2020-06-20,Le Sueur,Minnesota,27079,57,1,57,1,,
 2020-06-20,Lincoln,Minnesota,27081,6,0,6,0,,
-2020-06-20,Lyon,Minnesota,27083,258,2,258,2,,
+2020-06-20,Lyon,Minnesota,27083,270,2,270,2,,
 2020-06-20,Mahnomen,Minnesota,27087,6,1,6,1,,
 2020-06-20,Marshall,Minnesota,27089,12,0,12,0,,
 2020-06-20,Martin,Minnesota,27091,147,5,147,5,,
-2020-06-20,McLeod,Minnesota,27085,64,0,64,0,,
+2020-06-20,McLeod,Minnesota,27085,66,0,66,0,,
 2020-06-20,Meeker,Minnesota,27093,51,1,51,1,,
 2020-06-20,Mille Lacs,Minnesota,27095,29,1,29,1,,
 2020-06-20,Morrison,Minnesota,27097,54,1,54,1,,
-2020-06-20,Mower,Minnesota,27099,755,2,755,2,,
+2020-06-20,Mower,Minnesota,27099,784,2,784,2,,
 2020-06-20,Murray,Minnesota,27101,47,0,47,0,,
-2020-06-20,Nicollet,Minnesota,27103,105,12,105,12,,
-2020-06-20,Nobles,Minnesota,27105,1628,6,1628,6,,
+2020-06-20,Nicollet,Minnesota,27103,107,12,107,12,,
+2020-06-20,Nobles,Minnesota,27105,1630,6,1630,6,,
 2020-06-20,Norman,Minnesota,27107,18,0,18,0,,
-2020-06-20,Olmsted,Minnesota,27109,846,14,846,14,,
-2020-06-20,Otter Tail,Minnesota,27111,83,1,83,1,,
+2020-06-20,Olmsted,Minnesota,27109,869,14,869,14,,
+2020-06-20,Otter Tail,Minnesota,27111,85,1,85,1,,
 2020-06-20,Pennington,Minnesota,27113,50,0,50,0,,
 2020-06-20,Pine,Minnesota,27115,96,0,96,0,,
 2020-06-20,Pipestone,Minnesota,27117,14,0,14,0,,
-2020-06-20,Polk,Minnesota,27119,67,2,67,2,,
+2020-06-20,Polk,Minnesota,27119,71,2,71,2,,
 2020-06-20,Pope,Minnesota,27121,10,0,10,0,,
-2020-06-20,Ramsey,Minnesota,27123,4180,207,4180,207,,
+2020-06-20,Ramsey,Minnesota,27123,4244,209,4244,209,,
 2020-06-20,Red Lake,Minnesota,27125,3,0,3,0,,
 2020-06-20,Redwood,Minnesota,27127,12,0,12,0,,
-2020-06-20,Renville,Minnesota,27129,12,0,12,0,,
-2020-06-20,Rice,Minnesota,27131,740,4,740,4,,
+2020-06-20,Renville,Minnesota,27129,12,1,12,1,,
+2020-06-20,Rice,Minnesota,27131,743,4,743,4,,
 2020-06-20,Rock,Minnesota,27133,26,0,26,0,,
 2020-06-20,Roseau,Minnesota,27135,6,0,6,0,,
-2020-06-20,Scott,Minnesota,27139,555,4,555,4,,
-2020-06-20,Sherburne,Minnesota,27141,272,4,272,4,,
+2020-06-20,Scott,Minnesota,27139,561,4,561,4,,
+2020-06-20,Sherburne,Minnesota,27141,273,4,273,4,,
 2020-06-20,Sibley,Minnesota,27143,28,2,28,2,,
-2020-06-20,St. Louis,Minnesota,27137,132,14,132,14,,
-2020-06-20,Stearns,Minnesota,27145,2126,19,2126,19,,
-2020-06-20,Steele,Minnesota,27147,183,0,183,0,,
+2020-06-20,St. Louis,Minnesota,27137,135,14,135,14,,
+2020-06-20,Stearns,Minnesota,27145,2131,19,2131,19,,
+2020-06-20,Steele,Minnesota,27147,186,0,186,0,,
 2020-06-20,Stevens,Minnesota,27149,2,0,2,0,,
 2020-06-20,Swift,Minnesota,27151,20,1,20,1,,
-2020-06-20,Todd,Minnesota,27153,386,2,386,2,,
+2020-06-20,Todd,Minnesota,27153,388,2,388,2,,
 2020-06-20,Traverse,Minnesota,27155,5,0,5,0,,
-2020-06-20,Unknown,Minnesota,,89,32,57,0,32,32
+2020-06-20,Unknown,Minnesota,,100,32,68,0,32,32
 2020-06-20,Wabasha,Minnesota,27157,27,0,27,0,,
 2020-06-20,Wadena,Minnesota,27159,10,0,10,0,,
-2020-06-20,Waseca,Minnesota,27161,36,0,36,0,,
-2020-06-20,Washington,Minnesota,27163,843,37,843,37,,
-2020-06-20,Watonwan,Minnesota,27165,128,0,128,0,,
+2020-06-20,Waseca,Minnesota,27161,37,0,37,0,,
+2020-06-20,Washington,Minnesota,27163,868,38,868,38,,
+2020-06-20,Watonwan,Minnesota,27165,137,0,137,0,,
 2020-06-20,Wilkin,Minnesota,27167,20,3,20,3,,
-2020-06-20,Winona,Minnesota,27169,93,15,93,15,,
-2020-06-20,Wright,Minnesota,27171,394,2,394,2,,
-2020-06-20,Yellow Medicine,Minnesota,27173,14,0,14,0,,
+2020-06-20,Winona,Minnesota,27169,94,15,94,15,,
+2020-06-20,Wright,Minnesota,27171,397,2,397,2,,
+2020-06-20,Yellow Medicine,Minnesota,27173,22,0,22,0,,
 2020-06-20,Adams,Mississippi,28001,227,18,,,,
 2020-06-20,Alcorn,Mississippi,28003,32,1,,,,
 2020-06-20,Amite,Mississippi,28005,73,2,,,,
@@ -1558,7 +1558,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-06-20,St. Charles,Missouri,29183,944,72,944,72,,
 2020-06-20,St. Clair,Missouri,29185,2,0,2,0,,
 2020-06-20,St. Francois,Missouri,29187,50,2,50,2,,
-2020-06-20,St. Louis,Missouri,29189,5769,547,5769,547,,
+2020-06-20,St. Louis,Missouri,29189,5825,550,5825,550,,
 2020-06-20,St. Louis city,Missouri,29510,2319,154,2319,154,,
 2020-06-20,Ste. Genevieve,Missouri,29186,14,1,14,1,,
 2020-06-20,Stoddard,Missouri,29207,127,7,127,7,,
@@ -1829,7 +1829,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-06-20,Beaufort,North Carolina,37013,55,0,55,0,,
 2020-06-20,Bertie,North Carolina,37015,136,4,136,4,,
 2020-06-20,Bladen,North Carolina,37017,262,2,262,2,,
-2020-06-20,Brunswick,North Carolina,37019,328,5,328,5,,
+2020-06-20,Brunswick,North Carolina,37019,339,5,339,5,,
 2020-06-20,Buncombe,North Carolina,37021,494,35,494,35,,
 2020-06-20,Burke,North Carolina,37023,895,17,895,17,,
 2020-06-20,Cabarrus,North Carolina,37025,835,25,835,25,,
@@ -2058,30 +2058,30 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-06-20,Williams,Ohio,39171,59,1,,,,
 2020-06-20,Wood,Ohio,39173,332,51,,,,
 2020-06-20,Wyandot,Ohio,39175,55,4,,,,
-2020-06-20,Adair,Oklahoma,40001,103,4,103,4,,
+2020-06-20,Adair,Oklahoma,40001,104,4,104,4,,
 2020-06-20,Alfalfa,Oklahoma,40003,1,0,1,0,,
-2020-06-20,Atoka,Oklahoma,40005,11,0,11,0,,
+2020-06-20,Atoka,Oklahoma,40005,13,0,13,0,,
 2020-06-20,Beaver,Oklahoma,40007,30,0,30,0,,
 2020-06-20,Beckham,Oklahoma,40009,8,0,8,0,,
-2020-06-20,Blaine,Oklahoma,40011,13,0,13,0,,
-2020-06-20,Bryan,Oklahoma,40013,68,1,68,1,,
-2020-06-20,Caddo,Oklahoma,40015,181,10,181,10,,
-2020-06-20,Canadian,Oklahoma,40017,186,3,186,3,,
-2020-06-20,Carter,Oklahoma,40019,63,1,63,1,,
-2020-06-20,Cherokee,Oklahoma,40021,60,1,60,1,,
+2020-06-20,Blaine,Oklahoma,40011,14,0,14,0,,
+2020-06-20,Bryan,Oklahoma,40013,69,1,69,1,,
+2020-06-20,Caddo,Oklahoma,40015,180,10,180,10,,
+2020-06-20,Canadian,Oklahoma,40017,192,3,192,3,,
+2020-06-20,Carter,Oklahoma,40019,66,1,66,1,,
+2020-06-20,Cherokee,Oklahoma,40021,65,1,65,1,,
 2020-06-20,Choctaw,Oklahoma,40023,107,1,107,1,,
 2020-06-20,Cimarron,Oklahoma,40025,1,0,1,0,,
-2020-06-20,Cleveland,Oklahoma,40027,620,40,620,40,,
+2020-06-20,Cleveland,Oklahoma,40027,640,40,640,40,,
 2020-06-20,Coal,Oklahoma,40029,6,0,6,0,,
-2020-06-20,Comanche,Oklahoma,40031,361,5,361,5,,
+2020-06-20,Comanche,Oklahoma,40031,364,5,364,5,,
 2020-06-20,Cotton,Oklahoma,40033,5,2,5,2,,
-2020-06-20,Craig,Oklahoma,40035,17,0,17,0,,
-2020-06-20,Creek,Oklahoma,40037,121,7,121,7,,
-2020-06-20,Custer,Oklahoma,40039,45,0,45,0,,
-2020-06-20,Delaware,Oklahoma,40041,114,16,114,16,,
+2020-06-20,Craig,Oklahoma,40035,18,0,18,0,,
+2020-06-20,Creek,Oklahoma,40037,122,7,122,7,,
+2020-06-20,Custer,Oklahoma,40039,49,0,49,0,,
+2020-06-20,Delaware,Oklahoma,40041,115,16,115,16,,
 2020-06-20,Dewey,Oklahoma,40043,4,0,4,0,,
-2020-06-20,Garfield,Oklahoma,40047,54,1,54,1,,
-2020-06-20,Garvin,Oklahoma,40049,41,1,41,1,,
+2020-06-20,Garfield,Oklahoma,40047,55,1,55,1,,
+2020-06-20,Garvin,Oklahoma,40049,43,1,43,1,,
 2020-06-20,Grady,Oklahoma,40051,123,4,123,4,,
 2020-06-20,Grant,Oklahoma,40053,2,0,2,0,,
 2020-06-20,Greer,Oklahoma,40055,66,7,66,7,,
@@ -2092,44 +2092,44 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-06-20,Jackson,Oklahoma,40065,32,3,32,3,,
 2020-06-20,Jefferson,Oklahoma,40067,4,0,4,0,,
 2020-06-20,Johnston,Oklahoma,40069,8,0,8,0,,
-2020-06-20,Kay,Oklahoma,40071,77,7,77,7,,
-2020-06-20,Kingfisher,Oklahoma,40073,17,0,17,0,,
+2020-06-20,Kay,Oklahoma,40071,79,7,79,7,,
+2020-06-20,Kingfisher,Oklahoma,40073,18,0,18,0,,
 2020-06-20,Kiowa,Oklahoma,40075,6,0,6,0,,
 2020-06-20,Latimer,Oklahoma,40077,7,1,7,1,,
-2020-06-20,Le Flore,Oklahoma,40079,25,1,25,1,,
+2020-06-20,Le Flore,Oklahoma,40079,26,1,26,1,,
 2020-06-20,Lincoln,Oklahoma,40081,25,2,25,2,,
 2020-06-20,Logan,Oklahoma,40083,26,1,26,1,,
 2020-06-20,Love,Oklahoma,40085,25,0,25,0,,
 2020-06-20,Major,Oklahoma,40093,7,1,7,1,,
-2020-06-20,Marshall,Oklahoma,40095,21,0,21,0,,
-2020-06-20,Mayes,Oklahoma,40097,60,4,60,4,,
-2020-06-20,McClain,Oklahoma,40087,121,4,121,4,,
-2020-06-20,McCurtain,Oklahoma,40089,200,2,200,2,,
-2020-06-20,McIntosh,Oklahoma,40091,27,1,27,1,,
+2020-06-20,Marshall,Oklahoma,40095,22,0,22,0,,
+2020-06-20,Mayes,Oklahoma,40097,65,4,65,4,,
+2020-06-20,McClain,Oklahoma,40087,124,4,124,4,,
+2020-06-20,McCurtain,Oklahoma,40089,245,2,245,2,,
+2020-06-20,McIntosh,Oklahoma,40091,29,1,29,1,,
 2020-06-20,Murray,Oklahoma,40099,13,0,13,0,,
-2020-06-20,Muskogee,Oklahoma,40101,88,9,88,9,,
+2020-06-20,Muskogee,Oklahoma,40101,92,9,92,9,,
 2020-06-20,Noble,Oklahoma,40103,26,0,26,0,,
 2020-06-20,Nowata,Oklahoma,40105,27,1,27,1,,
-2020-06-20,Okfuskee,Oklahoma,40107,6,0,6,0,,
-2020-06-20,Oklahoma,Oklahoma,40109,1946,65,1946,65,,
-2020-06-20,Okmulgee,Oklahoma,40111,36,0,36,0,,
-2020-06-20,Osage,Oklahoma,40113,125,8,125,8,,
-2020-06-20,Ottawa,Oklahoma,40115,42,2,42,2,,
-2020-06-20,Pawnee,Oklahoma,40117,46,2,46,2,,
-2020-06-20,Payne,Oklahoma,40119,208,1,208,1,,
-2020-06-20,Pittsburg,Oklahoma,40121,47,3,47,3,,
-2020-06-20,Pontotoc,Oklahoma,40123,24,2,24,2,,
-2020-06-20,Pottawatomie,Oklahoma,40125,80,4,80,4,,
-2020-06-20,Pushmataha,Oklahoma,40127,8,0,8,0,,
-2020-06-20,Rogers,Oklahoma,40131,122,5,122,5,,
+2020-06-20,Okfuskee,Oklahoma,40107,7,0,7,0,,
+2020-06-20,Oklahoma,Oklahoma,40109,1990,65,1990,65,,
+2020-06-20,Okmulgee,Oklahoma,40111,40,0,40,0,,
+2020-06-20,Osage,Oklahoma,40113,130,8,130,8,,
+2020-06-20,Ottawa,Oklahoma,40115,43,2,43,2,,
+2020-06-20,Pawnee,Oklahoma,40117,47,2,47,2,,
+2020-06-20,Payne,Oklahoma,40119,215,1,215,1,,
+2020-06-20,Pittsburg,Oklahoma,40121,48,3,48,3,,
+2020-06-20,Pontotoc,Oklahoma,40123,23,2,23,2,,
+2020-06-20,Pottawatomie,Oklahoma,40125,83,4,83,4,,
+2020-06-20,Pushmataha,Oklahoma,40127,9,0,9,0,,
+2020-06-20,Rogers,Oklahoma,40131,123,5,123,5,,
 2020-06-20,Seminole,Oklahoma,40133,33,3,33,3,,
 2020-06-20,Sequoyah,Oklahoma,40135,22,3,22,3,,
-2020-06-20,Stephens,Oklahoma,40137,48,1,48,1,,
-2020-06-20,Texas,Oklahoma,40139,977,6,977,6,,
+2020-06-20,Stephens,Oklahoma,40137,49,1,49,1,,
+2020-06-20,Texas,Oklahoma,40139,978,6,978,6,,
 2020-06-20,Tillman,Oklahoma,40141,23,1,23,1,,
-2020-06-20,Tulsa,Oklahoma,40143,2070,65,2070,65,,
-2020-06-20,Wagoner,Oklahoma,40145,194,17,194,17,,
-2020-06-20,Washington,Oklahoma,40147,365,38,365,38,,
+2020-06-20,Tulsa,Oklahoma,40143,2206,66,2206,66,,
+2020-06-20,Wagoner,Oklahoma,40145,202,17,202,17,,
+2020-06-20,Washington,Oklahoma,40147,367,38,367,38,,
 2020-06-20,Washita,Oklahoma,40149,3,0,3,0,,
 2020-06-20,Woods,Oklahoma,40151,5,0,5,0,,
 2020-06-20,Woodward,Oklahoma,40153,12,0,12,0,,
@@ -2202,7 +2202,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-06-20,Jefferson,Pennsylvania,42065,20,1,16,,4,
 2020-06-20,Juniata,Pennsylvania,42067,109,5,102,,7,
 2020-06-20,Lackawanna,Pennsylvania,42069,1622,200,1565,,57,
-2020-06-20,Lancaster,Pennsylvania,42071,3949,346,3911,329,38,17
+2020-06-20,Lancaster,Pennsylvania,42071,3949,346,3949,329,0,17
 2020-06-20,Lawrence,Pennsylvania,42073,90,9,81,,9,
 2020-06-20,Lebanon,Pennsylvania,42075,1240,40,1193,,47,
 2020-06-20,Lehigh,Pennsylvania,42077,4072,278,4027,,45,
@@ -2319,67 +2319,67 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-06-20,Providence,Rhode Island,44007,12363,637,12363,637,,
 2020-06-20,Unknown,Rhode Island,,1813,97,1813,97,,
 2020-06-20,Washington,Rhode Island,44009,516,61,516,61,,
-2020-06-20,Abbeville,South Carolina,45001,73,0,73,0,0,0
-2020-06-20,Aiken,South Carolina,45003,261,9,261,9,0,0
+2020-06-20,Abbeville,South Carolina,45001,86,0,86,0,0,0
+2020-06-20,Aiken,South Carolina,45003,267,9,267,9,0,0
 2020-06-20,Allendale,South Carolina,45005,45,3,45,3,0,0
-2020-06-20,Anderson,South Carolina,45007,400,10,400,10,0,0
-2020-06-20,Bamberg,South Carolina,45009,54,0,54,0,0,0
-2020-06-20,Barnwell,South Carolina,45011,57,1,57,1,0,0
-2020-06-20,Beaufort,South Carolina,45013,760,15,760,15,0,0
-2020-06-20,Berkeley,South Carolina,45015,515,20,515,20,0,0
-2020-06-20,Calhoun,South Carolina,45017,58,1,58,1,0,0
-2020-06-20,Charleston,South Carolina,45019,1554,19,1554,19,0,0
-2020-06-20,Cherokee,South Carolina,45021,99,6,99,6,0,0
-2020-06-20,Chester,South Carolina,45023,131,1,131,1,0,0
-2020-06-20,Chesterfield,South Carolina,45025,306,9,306,9,0,0
-2020-06-20,Clarendon,South Carolina,45027,349,41,349,41,0,0
-2020-06-20,Colleton,South Carolina,45029,217,19,217,19,0,0
-2020-06-20,Darlington,South Carolina,45031,371,13,371,13,0,0
-2020-06-20,Dillon,South Carolina,45033,219,5,219,5,0,0
-2020-06-20,Dorchester,South Carolina,45035,323,3,323,3,0,0
-2020-06-20,Edgefield,South Carolina,45037,63,2,63,2,0,0
-2020-06-20,Fairfield,South Carolina,45039,246,20,246,20,0,0
-2020-06-20,Florence,South Carolina,45041,878,44,878,44,0,0
-2020-06-20,Georgetown,South Carolina,45043,227,3,227,3,0,0
-2020-06-20,Greenville,South Carolina,45045,3416,73,3413,73,3,0
-2020-06-20,Greenwood,South Carolina,45047,345,5,345,5,0,0
-2020-06-20,Hampton,South Carolina,45049,53,1,53,1,0,0
-2020-06-20,Horry,South Carolina,45051,1697,39,1697,39,0,0
-2020-06-20,Jasper,South Carolina,45053,67,3,67,3,0,0
-2020-06-20,Kershaw,South Carolina,45055,503,16,502,16,1,0
-2020-06-20,Lancaster,South Carolina,45057,300,10,298,10,2,0
-2020-06-20,Laurens,South Carolina,45059,203,4,202,4,1,0
-2020-06-20,Lee,South Carolina,45061,246,19,246,19,0,0
-2020-06-20,Lexington,South Carolina,45063,1381,42,1377,42,4,0
-2020-06-20,Marion,South Carolina,45067,122,5,122,5,0,0
-2020-06-20,Marlboro,South Carolina,45069,253,3,253,3,0,0
+2020-06-20,Anderson,South Carolina,45007,423,10,423,10,0,0
+2020-06-20,Bamberg,South Carolina,45009,60,0,60,0,0,0
+2020-06-20,Barnwell,South Carolina,45011,59,1,59,1,0,0
+2020-06-20,Beaufort,South Carolina,45013,816,15,816,15,0,0
+2020-06-20,Berkeley,South Carolina,45015,563,20,563,20,0,0
+2020-06-20,Calhoun,South Carolina,45017,62,1,62,1,0,0
+2020-06-20,Charleston,South Carolina,45019,1728,19,1728,19,0,0
+2020-06-20,Cherokee,South Carolina,45021,103,6,103,6,0,0
+2020-06-20,Chester,South Carolina,45023,135,1,134,1,1,0
+2020-06-20,Chesterfield,South Carolina,45025,309,9,309,9,0,0
+2020-06-20,Clarendon,South Carolina,45027,357,41,357,41,0,0
+2020-06-20,Colleton,South Carolina,45029,234,19,234,19,0,0
+2020-06-20,Darlington,South Carolina,45031,373,13,373,13,0,0
+2020-06-20,Dillon,South Carolina,45033,223,5,223,5,0,0
+2020-06-20,Dorchester,South Carolina,45035,353,3,353,3,0,0
+2020-06-20,Edgefield,South Carolina,45037,65,2,65,2,0,0
+2020-06-20,Fairfield,South Carolina,45039,253,20,253,20,0,0
+2020-06-20,Florence,South Carolina,45041,901,45,901,45,0,0
+2020-06-20,Georgetown,South Carolina,45043,240,3,240,3,0,0
+2020-06-20,Greenville,South Carolina,45045,3541,73,3536,73,5,0
+2020-06-20,Greenwood,South Carolina,45047,353,5,353,5,0,0
+2020-06-20,Hampton,South Carolina,45049,54,1,54,1,0,0
+2020-06-20,Horry,South Carolina,45051,1818,39,1818,39,0,0
+2020-06-20,Jasper,South Carolina,45053,72,3,72,3,0,0
+2020-06-20,Kershaw,South Carolina,45055,520,16,519,16,1,0
+2020-06-20,Lancaster,South Carolina,45057,315,10,313,10,2,0
+2020-06-20,Laurens,South Carolina,45059,220,4,219,4,1,0
+2020-06-20,Lee,South Carolina,45061,251,20,251,20,0,0
+2020-06-20,Lexington,South Carolina,45063,1456,42,1451,42,5,0
+2020-06-20,Marion,South Carolina,45067,141,5,141,5,0,0
+2020-06-20,Marlboro,South Carolina,45069,261,3,261,3,0,0
 2020-06-20,McCormick,South Carolina,45065,11,1,11,1,0,0
-2020-06-20,Newberry,South Carolina,45071,117,3,117,3,0,0
-2020-06-20,Oconee,South Carolina,45073,105,0,105,0,0,0
-2020-06-20,Orangeburg,South Carolina,45075,457,8,457,8,0,0
-2020-06-20,Pickens,South Carolina,45077,430,4,429,4,1,0
-2020-06-20,Richland,South Carolina,45079,2541,74,2531,74,10,0
-2020-06-20,Saluda,South Carolina,45081,179,1,179,1,0,0
-2020-06-20,Spartanburg,South Carolina,45083,1146,38,1146,38,0,0
-2020-06-20,Sumter,South Carolina,45085,736,20,736,20,0,0
+2020-06-20,Newberry,South Carolina,45071,125,3,125,3,0,0
+2020-06-20,Oconee,South Carolina,45073,110,1,110,1,0,0
+2020-06-20,Orangeburg,South Carolina,45075,471,8,471,8,0,0
+2020-06-20,Pickens,South Carolina,45077,466,4,464,4,2,0
+2020-06-20,Richland,South Carolina,45079,2641,76,2629,76,12,0
+2020-06-20,Saluda,South Carolina,45081,180,1,180,1,0,0
+2020-06-20,Spartanburg,South Carolina,45083,1183,38,1183,38,0,0
+2020-06-20,Sumter,South Carolina,45085,776,20,776,20,0,0
 2020-06-20,Union,South Carolina,45087,54,0,54,0,0,0
-2020-06-20,Williamsburg,South Carolina,45089,322,15,322,15,0,0
-2020-06-20,York,South Carolina,45091,741,11,740,11,1,0
+2020-06-20,Williamsburg,South Carolina,45089,329,15,329,15,0,0
+2020-06-20,York,South Carolina,45091,783,11,782,11,1,0
 2020-06-20,Aurora,South Dakota,46003,34,0,34,0,,
-2020-06-20,Beadle,South Dakota,46005,476,6,476,6,,
+2020-06-20,Beadle,South Dakota,46005,481,6,481,6,,
 2020-06-20,Bennett,South Dakota,46007,2,0,2,0,,
 2020-06-20,Bon Homme,South Dakota,46009,11,0,11,0,,
-2020-06-20,Brookings,South Dakota,46011,47,0,47,0,,
-2020-06-20,Brown,South Dakota,46013,321,2,321,2,,
+2020-06-20,Brookings,South Dakota,46011,48,0,48,0,,
+2020-06-20,Brown,South Dakota,46013,323,2,323,2,,
 2020-06-20,Brule,South Dakota,46015,15,0,15,0,,
-2020-06-20,Buffalo,South Dakota,46017,58,0,58,0,,
-2020-06-20,Charles Mix,South Dakota,46023,45,0,45,0,,
+2020-06-20,Buffalo,South Dakota,46017,66,0,66,0,,
+2020-06-20,Charles Mix,South Dakota,46023,47,0,47,0,,
 2020-06-20,Clark,South Dakota,46025,11,0,11,0,,
-2020-06-20,Clay,South Dakota,46027,70,0,70,0,,
-2020-06-20,Codington,South Dakota,46029,47,0,47,0,,
-2020-06-20,Corson,South Dakota,46031,13,0,13,0,,
-2020-06-20,Custer,South Dakota,46033,3,0,3,0,,
-2020-06-20,Davison,South Dakota,46035,33,1,33,1,,
+2020-06-20,Clay,South Dakota,46027,73,0,73,0,,
+2020-06-20,Codington,South Dakota,46029,49,0,49,0,,
+2020-06-20,Corson,South Dakota,46031,15,0,15,0,,
+2020-06-20,Custer,South Dakota,46033,6,0,6,0,,
+2020-06-20,Davison,South Dakota,46035,34,1,34,1,,
 2020-06-20,Day,South Dakota,46037,13,0,13,0,,
 2020-06-20,Deuel,South Dakota,46039,1,0,1,0,,
 2020-06-20,Dewey,South Dakota,46041,4,0,4,0,,
@@ -2390,39 +2390,39 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-06-20,Grant,South Dakota,46051,13,0,13,0,,
 2020-06-20,Gregory,South Dakota,46053,1,0,1,0,,
 2020-06-20,Hamlin,South Dakota,46057,10,0,10,0,,
-2020-06-20,Hand,South Dakota,46059,6,0,6,0,,
+2020-06-20,Hand,South Dakota,46059,7,0,7,0,,
 2020-06-20,Hanson,South Dakota,46061,3,0,3,0,,
-2020-06-20,Hughes,South Dakota,46065,29,0,29,0,,
+2020-06-20,Hughes,South Dakota,46065,31,0,31,0,,
 2020-06-20,Hutchinson,South Dakota,46067,10,0,10,0,,
 2020-06-20,Hyde,South Dakota,46069,3,0,3,0,,
 2020-06-20,Jackson,South Dakota,46071,6,1,6,1,,
 2020-06-20,Jerauld,South Dakota,46073,39,1,39,1,,
-2020-06-20,Kingsbury,South Dakota,46077,3,0,3,0,,
+2020-06-20,Kingsbury,South Dakota,46077,4,0,4,0,,
 2020-06-20,Lake,South Dakota,46079,17,1,17,1,,
 2020-06-20,Lawrence,South Dakota,46081,16,0,16,0,,
-2020-06-20,Lincoln,South Dakota,46083,278,1,278,1,,
-2020-06-20,Lyman,South Dakota,46085,44,0,44,0,,
+2020-06-20,Lincoln,South Dakota,46083,317,1,317,1,,
+2020-06-20,Lyman,South Dakota,46085,46,0,46,0,,
 2020-06-20,Marshall,South Dakota,46091,5,0,5,0,,
 2020-06-20,McCook,South Dakota,46087,8,1,8,1,,
 2020-06-20,McPherson,South Dakota,46089,3,0,3,0,,
-2020-06-20,Meade,South Dakota,46093,41,1,41,1,,
+2020-06-20,Meade,South Dakota,46093,42,1,42,1,,
 2020-06-20,Mellette,South Dakota,46095,2,0,2,0,,
-2020-06-20,Miner,South Dakota,46097,4,0,4,0,,
-2020-06-20,Minnehaha,South Dakota,46099,3526,54,3526,54,,
+2020-06-20,Miner,South Dakota,46097,5,0,5,0,,
+2020-06-20,Minnehaha,South Dakota,46099,3503,54,3503,54,,
 2020-06-20,Moody,South Dakota,46101,21,0,21,0,,
-2020-06-20,Oglala Lakota,South Dakota,46102,53,0,53,0,,
-2020-06-20,Pennington,South Dakota,46103,437,10,437,10,,
+2020-06-20,Oglala Lakota,South Dakota,46102,54,0,54,0,,
+2020-06-20,Pennington,South Dakota,46103,446,10,446,10,,
 2020-06-20,Roberts,South Dakota,46109,40,0,40,0,,
 2020-06-20,Sanborn,South Dakota,46111,12,0,12,0,,
 2020-06-20,Spink,South Dakota,46115,6,0,6,0,,
-2020-06-20,Stanley,South Dakota,46117,11,0,11,0,,
+2020-06-20,Stanley,South Dakota,46117,12,0,12,0,,
 2020-06-20,Sully,South Dakota,46119,1,0,1,0,,
 2020-06-20,Todd,South Dakota,46121,50,1,50,1,,
 2020-06-20,Tripp,South Dakota,46123,9,0,9,0,,
 2020-06-20,Turner,South Dakota,46125,25,0,25,0,,
-2020-06-20,Union,South Dakota,46127,114,1,114,1,,
+2020-06-20,Union,South Dakota,46127,116,1,116,1,,
 2020-06-20,Walworth,South Dakota,46129,7,0,7,0,,
-2020-06-20,Yankton,South Dakota,46135,64,0,64,0,,
+2020-06-20,Yankton,South Dakota,46135,65,0,65,0,,
 2020-06-20,Ziebach,South Dakota,46137,2,0,2,0,,
 2020-06-20,Anderson,Tennessee,47001,74,2,70,,4,
 2020-06-20,Bedford,Tennessee,47003,416,4,416,,0,
@@ -2538,7 +2538,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-06-20,Bosque,Texas,48035,7,0,7,0,,
 2020-06-20,Bowie,Texas,48037,394,15,394,15,,
 2020-06-20,Brazoria,Texas,48039,1609,18,1609,18,,
-2020-06-20,Brazos,Texas,48041,1163,25,1163,25,,
+2020-06-20,Brazos,Texas,48041,1225,25,1225,25,,
 2020-06-20,Brewster,Texas,48043,24,0,24,0,,
 2020-06-20,Briscoe,Texas,48045,1,0,1,0,,
 2020-06-20,Brooks,Texas,48047,2,0,2,0,,
@@ -2593,7 +2593,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-06-20,Fayette,Texas,48149,52,2,52,2,,
 2020-06-20,Fisher,Texas,48151,2,1,2,1,,
 2020-06-20,Floyd,Texas,48153,18,0,18,0,,
-2020-06-20,Fort Bend,Texas,48157,2882,50,2882,50,,
+2020-06-20,Fort Bend,Texas,48157,2951,50,2951,50,,
 2020-06-20,Franklin,Texas,48159,30,0,30,0,,
 2020-06-20,Freestone,Texas,48161,18,0,18,0,,
 2020-06-20,Frio,Texas,48163,119,0,119,0,,
