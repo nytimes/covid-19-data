@@ -202,6 +202,8 @@ On June 13, Louisiana reported an additional 560 backlogged cases from multiple 
 
 On June 16, Louisiana reported an additional 148 backlogged cases, the majority of which date back to mid-April.
 
+On June 19, Louisiana removed 1,666 duplicate and out of state cases from their total.
+
 * Massachusetts
 
 On April 24, Massachusetts reported the results of a large number of backlogged tests performed by Quest Diagnostics dating back to April 13, leading to a large one day jump in the number of total cases.
