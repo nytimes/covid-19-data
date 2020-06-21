@@ -208,6 +208,10 @@ On June 19, Louisiana removed 1,666 duplicate and out of state cases from their 
 
 On April 24, Massachusetts reported the results of a large number of backlogged tests performed by Quest Diagnostics dating back to April 13, leading to a large one day jump in the number of total cases.
 
+* Mississippi
+
+Starting June 18, the Mississippi State Department of Health reports they have been experiencing technical difficulties that have limited their ability to update case and death counts.
+
 * Texas
 
 On June 16, Texas reported an additional 1,476 backlogged cases from prison inmates in Anderson and Brazoria counties.
