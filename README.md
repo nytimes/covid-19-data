@@ -210,7 +210,7 @@ On April 24, Massachusetts reported the results of a large number of backlogged 
 
 * Mississippi
 
-Starting June 18, the Mississippi State Department of Health reports they have been experiencing technical difficulties that have limited their ability to update case and death counts.
+From June 18 to 21, the Mississippi State Department of Health reported technical difficulties that prevented them from updating their case and death counts.
 
 * Texas
 

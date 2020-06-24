@@ -1,6 +1,6 @@
 # Excess Deaths During the Coronavirus Pandemic
 
-The New York Times is releasing data that documents the number of deaths from all causes that have occurred during the coronavirus pandemic for 25 countries. We are compiling this time series data from national and municipal health departments, vital statistics offices and other official sources in order to better understand the true toll of the pandemic and provide a record for researchers and the public.
+The New York Times is releasing data that documents the number of deaths from all causes that have occurred during the coronavirus pandemic for 28 countries. We are compiling this time series data from national and municipal health departments, vital statistics offices and other official sources in order to better understand the true toll of the pandemic and provide a record for researchers and the public.
 
 Official Covid-19 death tolls offer a limited view of the impact of the outbreak because they often exclude people who have not been tested and those who died at home. All-cause mortality is widely used by demographers and other researchers to understand the full impact of deadly events, including epidemics, wars and natural disasters. The totals in this data include deaths from Covid-19 as well as those from other causes, likely including people who could not be treated or did not seek treatment for other conditions. 
 
@@ -25,18 +25,18 @@ Turkey,Istanbul,weekly,2020-04-06,2020-04-12,2020,4,15,2193,1429,764,2018-2019 w
 
 The deaths fields have the following definitions:
 
-**deaths**: The total number of confirmed deaths recorded from any cause.
-**expected_deaths**: The baseline number of expected deaths, calculated from a historical average. See [expected deaths](#expected-deaths).
-**excess_deaths**: The number of deaths minus the expected deaths.
+**deaths**: The total number of confirmed deaths recorded from any cause.  
+**expected_deaths**: The baseline number of expected deaths, calculated from a historical average. See [expected deaths](#expected-deaths).  
+**excess_deaths**: The number of deaths minus the expected deaths.  
 
 The time fields have the following definitions:
 
-**frequency**: Weekly or monthly, depending on how the data is recorded.
-**start_date**: The first date included in the period.
-**end_date**: The last date included in the period.
-**month**: Numerical month.
-**week**: Epidemiological week, which is a standardized way of counting weeks to allow for year-over-year comparisons. Most countries start epi weeks on Mondays, but others vary.
-**baseline**: The years used to calculate expected_deaths.
+**frequency**: Weekly or monthly, depending on how the data is recorded.  
+**start_date**: The first date included in the period.  
+**end_date**: The last date included in the period.  
+**month**: Numerical month.  
+**week**: Epidemiological week, which is a standardized way of counting weeks to allow for year-over-year comparisons. Most countries start epi weeks on Mondays, but others vary.  
+**baseline**: The years used to calculate expected_deaths.  
 
 ## Methodology
 
@@ -84,9 +84,9 @@ Data frequency: weekly
 
 **Brazil**
 
-Source: Data for five cities in Brazil — São Paulo, Rio de Janeiro, Fortaleza, Manaus and Recife — is from the [Registro Civil](https://registrocivil.org.br/) and the Ministry of Health.  
+Source: Data for six cities in Brazil — São Paulo, Rio de Janeiro, Fortaleza, Manaus, Recife and Belem — is from the [Registro Civil](https://registrocivil.org.br/) and the Ministry of Health.  
 Baseline years: 2016-2019  
-Data frequency: weekly  
+Data frequency: monthly 
 
 **Denmark**
 
@@ -146,7 +146,13 @@ Data frequency: weekly
 
 Source: [Statistics Norway](https://www.ssb.no/statbank/table/07995/)  
 Baseline years: 2015-2019  
-Data frequency: weekly  
+Data frequency: weekly
+
+**Mexico City, Mexico**
+
+Source: [Death certificate records in 2019 and 2020 via General Directorate of the Civil Registry](http://www.rcivil.cdmx.gob.mx/solicitudactas/busqueda/registrales?clase_acta=DEFUNCION)[, collected by Mario Romero and Laurianne Despeghel](https://github.com/mariorz/folio-deceso); 2016-2018 mortality from National Institute of Statistics, Geography and Informatics (INEGI)  
+Baseline years: 2016-2019  
+Data frequency: weekly    
 
 **Peru**
 
@@ -164,7 +170,13 @@ Data frequency: weekly
 
 Source: [Moscow City Government](https://data.mos.ru/opendata/7704111479-dinamika-registratsii-aktov-grajdanskogo-sostoyaniya?pageNumber=13&versionNumber=3&releaseNumber=42&fbclid=IwAR23dK1YBLeGipw4UPg4hi_w6cDOE94fuZ0Z7lwx28u-rAZCEoqAAaIQpF8)  
 Baseline years: 2015-2019  
-Data frequency: monthly  
+Data frequency: monthly
+
+**South Korea**
+
+Source: [Statistics Korea](http://kosis.kr/statisticsList/statisticsListIndex.do?menuId=M_01_01&vwcd=MT_ZTITLE&parmTabId=M_01_01#SelectStatsBoxDiv)  
+Baseline years: 2015-2019  
+Data frequency: monthly    
 
 **Sweden**
 
@@ -181,8 +193,8 @@ Data frequency: weekly
 
 **Thailand**
 
-Sources: [Bureau of Registration Administration](https://www.cdg.co.th/website/en/industries/government/civil-registration-and-the-national-identification-card-system-the-bureau-of-registration-administration-the-department-of-provincial-administration-2/) [Department of Provincial Administration](https://www.dopa.go.th/main/web_index)
-Baseline years: 2015-2019
+Sources: [Bureau of Registration Administration](https://www.cdg.co.th/website/en/industries/government/civil-registration-and-the-national-identification-card-system-the-bureau-of-registration-administration-the-department-of-provincial-administration-2/) [Department of Provincial Administration](https://www.dopa.go.th/main/web_index)  
+Baseline years: 2015-2019  
 Data frequency: monthly
 
 **United Kingdom**
@@ -193,47 +205,52 @@ Data frequency: weekly
 
 
 **United States**
-Source: [Centers for Disease Control and Prevention](https://www.cdc.gov/nchs/nvss/vsrr/covid_weekly/)
+
+Source: [Centers for Disease Control and Prevention](https://www.cdc.gov/nchs/nvss/vsrr/covid_weekly/)  
+Baseline years: 2015-2019  
+Data frequency: weekly    
+
+
+**Boston, United States**
+
+Source: [Massachusetts Department of Public Health](https://www.mass.gov/lists/death-data)  
 Baseline years: 2015-2019  
 Data frequency: weekly  
 
 
-**Boston, United States**
-Source: Massachusetts Department of Public Health
-Baseline years: 2015-2019
-Data frequency: weekly
-
-
 **Chicago, United States**
-Source: Illinois Department of Public Health
-Baseline years: 2017-2019
-Data frequency: weekly
+
+Source: [Illinois Department of Public Health](https://www.dph.illinois.gov/data-statistics/vital-statistics/death-statistics)  
+Baseline years: 2017-2019  
+Data frequency: weekly  
 
 
 **Denver, United States**
-Source: Colorado Department of Public Health and Environment
-Baseline years: 2017-2019
-Data frequency: monthly
+
+Source: [Colorado Department of Public Health and Environment](https://www.colorado.gov/pacific/cdphe/vital-statistics-program)  
+Baseline years: 2017-2019  
+Data frequency: monthly  
 
 
 **Detroit, United States**
-Source: Michigan Department of Health and Human Services
-Baseline years: 2017-2019
-Data frequency: weekly
+
+Source: [Michigan Department of Health and Human Services](https://www.michigan.gov/mdhhs/0,5885,7-339-73970_2944_4669_4686---,00.html)  
+Baseline years: 2017-2019  
+Data frequency: weekly  
 
 
 **Miami, United States**
-Source: Florida Department of Health
-Baseline years: 2015-2019
-Data frequency: monthly
+
+Source: [Florida Department of Health](http://www.floridahealth.gov/statistics-and-data/index.html)  
+Baseline years: 2015-2019  
+Data frequency: monthly  
 
 
 **New York City, United States**
-Source: [Centers for Disease Control and Prevention](https://gis.cdc.gov/grasp/fluview/mortality.html)
-Baseline years: 2015-2019
-Data frequency: weekly
 
-
+Source: [Centers for Disease Control and Prevention](https://gis.cdc.gov/grasp/fluview/mortality.html)  
+Baseline years: 2015-2019  
+Data frequency: weekly  
 
 
 
