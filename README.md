@@ -146,7 +146,7 @@ Sometimes, cases are first reported in one county and then moved to another coun
 
 * New York
 
-All cases for the five boroughs of New York City (New York, Kings, Queens, Bronx and Richmond counties) are assigned to a single area called New York City. There is a large jump in the number of deaths on April 6th due to switching from data from New York City to data from New York state for deaths. We are not currently including the probable deaths reported by New York City.
+All cases for the five boroughs of New York City (New York, Kings, Queens, Bronx and Richmond counties) are assigned to a single area called New York City. There is a large jump in the number of deaths on April 6th due to switching from data from New York City to data from New York state for deaths.
 
 For all New York state counties, starting on April 8th we are reporting deaths by place of fatality instead of residence of individual. There were no new deaths reported by the state on April 17th or April 18th.
 
@@ -161,6 +161,10 @@ Alabama's numbers for April 17th contained an [error](https://twitter.com/ALPubl
 * Kansas City, Mo.
 
 Four counties (Cass, Clay, Jackson and Platte) overlap the municipality of Kansas City, Mo. The cases and deaths that we show for these four counties are only for the portions exclusive of Kansas City. Cases and deaths for Kansas City are reported as their own line.
+
+* Joplin, Mo.
+
+Starting June 25, cases and deaths for Joplin are reported separately from Jasper and Newton counties. The cases and deaths reported for those counties are only for the portions exclusive of Joplin. Joplin cases and deaths previously appeared in the counts for those counties or as Unknown.
 
 * Alameda County, Calif.
 
@@ -182,11 +186,9 @@ Counts for Guam include cases reported from the USS Theodore Roosevelt.
 
 On April 21, the territory's health department revised their number of cases downward, saying they had been double counting some coronavirus patients in official reports, leading to a higher number of cases reported than actually confirmed. 
 
-Additionally, from approximately April 12th through April 18th, the count of deaths for Puerto Rico include some probable Covid-19 related deaths that were not lab-confirmed. Starting April 19th these have been removed. We will revise the numbers for the 12th to 18th as possible.
-
 * North Dakota
 
-On May 25, North Dakota annoucned that due to a laboratory equipment malfunction they were removing 82 positive results from their total case count, pending a retest of the samples.
+On May 25, North Dakota announced that due to a laboratory equipment malfunction they were removing 82 positive results from their total case count, pending a retest of the samples.
 
 * Connecticut
 
@@ -246,13 +248,17 @@ On June 1, Massachusetts started reporting probable cases and deaths in their da
 
 On June 1, we began recording probable cases and deaths reported by Michigan's county and regional health districts and adding them to the individual county and statewide totals. On June 5, the state also started to report probable cases and deaths statewide, leading to a jump in total cases and deaths.
 
+* New Jersey
+
+On June 25, New Jersey began reporting probable deaths, adding 1,854 probable deaths that may date back to earlier in the outbreak to their total.
+
 * Ohio
 
 The state reports lab-confirmed and probable cases and deaths separately at the state level but combine lab-confirmed and probable cases and deaths at the county level. Our statewide and county numbers combine both case types.
 
 * Pennsylvania
 
-The total cases number includes lab-confirmed and probable cases starting around April 16th, but the deaths number does not include probable deaths, except for on April 21st and April 22nd when it does.
+The total cases number includes lab-confirmed and probable cases starting around April 16th.
 
 * Virginia
 
@@ -260,7 +266,9 @@ The state reports lab-confirmed and probable cases and deaths separately at the 
 
 * Puerto Rico
 
-Our number of cases for Puerto Rico includes the results of serological cases in their total number of cases, we believe this more closely matches the definition of probable cases than confirmed cases as reported elsewhere. Our number of deaths is only deaths with a confirmed test.
+Puerto Rico reports confirmed and probable cases and deaths separately. Our statewide and municipality numbers combine both case types.
+
+Starting April 12, the count of deaths for Puerto Rico include some probable Covid-19 related deaths. From April 19 to April 22, these were then removed. Starting April 23, the numbers again include probable deaths. We will revise these numbers as possible.
 
 ## License and Attribution
 
