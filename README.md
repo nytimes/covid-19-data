@@ -264,6 +264,10 @@ The total cases number includes lab-confirmed and probable cases starting around
 
 The state reports lab-confirmed and probable cases and deaths separately at the state level but combine lab-confirmed and probable cases and deaths at the county level. Our statewide and county numbers combine both case types.
 
+* Wisconsin
+
+Wisconsin started reporting probable cases and deaths on June 10, causing a large spike in the number of cases on that day. The total number of cases that day includes 2,407 newly reported probable cases.
+
 * Puerto Rico
 
 Puerto Rico reports confirmed and probable cases and deaths separately. Our statewide and municipality numbers combine both case types.
