@@ -44,8 +44,8 @@ instructions = '''
     <h2> Things you can do on each graph </h2>
     <ul>
     <li> Hover your mouse over a trend line to find which location it refers to.
-    <li> Single click on a location to show and hide that location's trend line.
-    <li> Double click on a location to show only that location OR show ALL locations in that graph.
+    <li> Single click on a location <b>in the legend</b> to show and hide that location's trend line.
+    <li> Double click on a location <b>in the legend</b> to show only that location OR show ALL locations in that graph.
     </ul>
 </div>
 '''
@@ -257,7 +257,6 @@ plotdeltas(total_new_cases_by_date, 'new cases', 'new cases: %{y:,.0f}<br>day: %
 plotdeltas(total_deaths_by_date, 'deaths', 'deaths: %{y:,.0f}<br>day: %{x}')
 fig.show()
 
-# %%
 plotly.offline.plot(fig, filename=webpage_folder + 'Chart_'+str(row)+'.html',auto_open=False)
 html_graphs.write('''
 <br/><br/><div>
@@ -320,7 +319,7 @@ plotly.offline.plot(fig, filename=webpage_folder + 'Chart_'+str(row)+'.html',aut
 html_graphs.write("  <object data=\""+'Chart_'+str(row)+'.html'+"\" width=" + str(default_width * 1.10) + " height=" + str(default_height* 1.10) + "\"></object>"+"\n")
 # %%
 #############################
-# New cases by county
+# New cases by interesting county
 #############################
 row += 1
 layout = go.Layout(
@@ -343,7 +342,32 @@ for index, r in interesting_locations.iterrows():
 fig.show()
 plotly.offline.plot(fig, filename=webpage_folder + 'Chart_'+str(row)+'.html',auto_open=False)
 html_graphs.write("  <object data=\""+'Chart_'+str(row)+'.html'+"\" width=" + str(default_width * 1.10) + " height=" + str(default_height* 1.10) + "\"></object>"+"\n")
-html_graphs.write("\n</div>")
+# %%
+#############################
+# Daily deaths by interesting county
+#############################
+row += 1
+layout = go.Layout(
+        title = 'Daily deaths by county',
+        plot_bgcolor = default_plot_color,
+        xaxis_gridcolor = default_grid_color,
+        yaxis_gridcolor = default_grid_color,
+        width=default_width,
+        height=default_height,
+        xaxis_title='Days',
+        yaxis_title='New cases'
+)
+
+fig = go.Figure(layout=layout)
+for index, r in interesting_locations.iterrows():
+    if (r.county != ''):
+        total_new_cases_by_date = generate_delta_df(r.state, r.county, 'deaths')
+        plotdeltas(total_new_cases_by_date, r.state + ', ' + r.county, 'deaths: %{y:,.0f}<br>day: %{x}', r.show_by_default)
+
+fig.show()
+plotly.offline.plot(fig, filename=webpage_folder + 'Chart_'+str(row)+'.html',auto_open=False)
+html_graphs.write("  <object data=\""+'Chart_'+str(row)+'.html'+"\" width=" + str(default_width * 1.10) + " height=" + str(default_height* 1.10) + "\"></object>"+"\n")
+html_graphs.write("\n</div>\n")
 # %%
 #####################################
 # Do all states & counties
