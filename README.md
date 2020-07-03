@@ -150,6 +150,8 @@ All cases for the five boroughs of New York City (New York, Kings, Queens, Bronx
 
 For all New York state counties, starting on April 8th we are reporting deaths by place of fatality instead of residence of individual. There were no new deaths reported by the state on April 17th or April 18th.
 
+On June 30, the New York City health department announced an additional 692 deaths in New York City residents, most of which had taken place outside the city more than three weeks ago. We are counting these deaths when they are in excess of the number of deaths in New York City residents counted by the state.
+
 * Georgia
 
 Starting April 12th, our case count excludes cases labeled by the state as "Non-Georgia Resident" leading to a one day drop in cases. These cases were previously included as cases with "Unknown" county.
@@ -209,6 +211,8 @@ On June 19, Louisiana removed 1,666 duplicate and out of state cases from their 
 * Massachusetts
 
 On April 24, Massachusetts reported the results of a large number of backlogged tests performed by Quest Diagnostics dating back to April 13, leading to a large one day jump in the number of total cases.
+
+On June 30, the number of confirmed and probable deaths declined due to Massachusetts removing duplicate reports.
 
 * Mississippi
 
