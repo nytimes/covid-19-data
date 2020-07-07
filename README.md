@@ -62,7 +62,7 @@ County-level data can be found in the [counties.csv](us-counties.csv) file. ([Ra
 
 ```
 date,county,state,fips,cases,deaths
-2020-01-21,Washington,Snohomish,53061,1,0
+2020-01-21,Snohomish,Washington,53061,1,0
 ...
 ```
 
