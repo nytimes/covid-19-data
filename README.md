@@ -20,7 +20,7 @@ We are providing two sets of data with cumulative counts of coronavirus cases an
 
 The historical data files are at the top level of the directory and contain data up to, but not including the current day. The live data files are in the [live/](live/) directory.
 
-A key difference between the historical and live files is that the numbers in the historical files are the final counts at the end of each day, while the live files have figures that may be a partial count released during the day but cannot necessarily be considered the final, end-of-day tally..
+A key difference between the historical and live files is that the numbers in the historical files are the final counts at the end of each day, while the live files have figures that may be a partial count released during the day but cannot necessarily be considered the final, end-of-day tally.
 
 The historical and live data are released in three files, one for each of these geographic levels: U.S., states and counties.
  
@@ -104,21 +104,38 @@ In most instances, the process of recording cases has been straightforward. But 
 
 For those reasons, our data will in some cases not exactly match with the information reported by states and counties. Those differences include these cases: When the federal government arranged flights to the United States for Americans exposed to the coronavirus in China and Japan, our team recorded those cases in the states where the patients subsequently were treated, even though local health departments generally did not. When a resident of Florida died in Los Angeles, we recorded her death as having occurred in California rather than Florida, though officials in Florida counted her case in their own records. And when officials in some states reported new cases without immediately identifying where the patients were being treated, we attempted to add information about their locations later, once it became available.
 
+* "Probable" and “Confirmed Cases and Deaths
+
+Cases and deaths can be reported as either “confirmed” or “probable.” Our total cases and deaths include both. The number of cases includes all cases, including those who have since recovered or died.
+
+On April 5, the Council of State and Territorial Epidemiologists [advised states](https://int.nyt.com/data/documenthelper/6908-cste-interim-20-id-01-covid-19/85d47e89b637cd643d50/optimized/full.pdf) to include both confirmed cases, based on confirmatory laboratory testing, and probable cases, based on specific criteria for testing, symptoms and exposure. The Centers for Disease Control adopted these definitions and national CDC data began including confirmed and probable cases on April 14.
+
+Some governments continue to report only confirmed cases, while others are reporting both confirmed and probable numbers. And there is also another set of governments that is reporting the two types of numbers combined without providing a way to separate the confirmed from the probable.
+
+The Geographic Exceptions section below has more details on specific areas. The methodology of individual states changes frequently.
+
 * Confirmed Cases
 
-Confirmed cases and deaths are counts of individuals whose coronavirus infections were confirmed by a laboratory test and reported by a federal, state, territorial or local government agency.
+Confirmed cases are counts of individuals whose coronavirus infections were confirmed by a laboratory test and reported by a federal, state, territorial or local government agency. Only tests that detect viral RNA in a sample are considered confirmatory. These are often called molecular or RT-PCR tests.
 
-The number of cases includes all cases, including those who have since recovered or died.
+* Probable Cases
 
-* "Probable" Cases and Deaths
+Probable cases count individuals who did not have a confirmed test but were evaluated by public health officials using criteria developed by states and the federal government and reported by a health department.
 
-Probable cases and deaths count individuals who did not have a confirmed test but were evaluated using criteria developed by states and the federal government.
+Public health officials consider laboratory, epidemiological, clinical and vital records evidence.
+Tests that detect antigens or antibodies are considered evidence towards a “probable” case, but are not sufficient on their own, according to the Council of State and Territorial Epidemiologists.
 
-On April 5, the Council of State and Territorial Epidemiologists Centers [advised states](https://int.nyt.com/data/documenthelper/6908-cste-interim-20-id-01-covid-19/85d47e89b637cd643d50/optimized/full.pdf) to include both confirmed cases, based on laboratory testing, and probable cases, based on specific criteria for symptoms and exposure. The Centers for Disease Control adopted these definitions and national CDC data began including confirmed and probable cases on April 14.
+* Confirmed Deaths
 
-Some governments continue to report only confirmed cases, while others are reporting both confirmed and probable numbers. And there is also another set of governments that are reporting the two types of numbers combined without providing a way to separate the confirmed from the probable.
+Confirmed deaths are individuals who have died and meet the definition for a confirmed Covid-19 case. Some states reconcile these records with death certificates to remove deaths from their count where Covid-19 is not listed as the cause of death. We follow health departments in removing non-Covid-19 deaths among confirmed cases when we have information to unambiguously know the deaths were not due to Covid-19, i.e. in cases of homicide, suicide, car crash or drug overdose.
 
-Please see the Geographic Exceptions section below for more details on specific areas, with the understanding that this changes frequently.
+* “Probable” Deaths
+
+Probable deaths are deaths where Covid-19 is listed on the death certificate as the cause of death or a significant contributing condition, but where there has been no positive confirmatory laboratory test.
+
+Deaths among probable cases tracked by a state or local health department where a death certificate has not yet been filed may also be counted as a probable death.
+
+For more on how states count confirmed and probable deaths, see this [article](https://www.nytimes.com/interactive/2020/06/19/us/us-coronavirus-covid-death-toll.htmlhttps://www.nytimes.com/interactive/2020/06/19/us/us-coronavirus-covid-death-toll.html).
 
 * Dates
 
@@ -144,21 +161,25 @@ Sometimes, cases are first reported in one county and then moved to another coun
 
 ### Geographic Exceptions
 
-* New York
+* Alabama
 
-All cases for the five boroughs of New York City (New York, Kings, Queens, Bronx and Richmond counties) are assigned to a single area called New York City. There is a large jump in the number of deaths on April 6th due to switching from data from New York City to data from New York state for deaths.
-
-For all New York state counties, starting on April 8th we are reporting deaths by place of fatality instead of residence of individual. There were no new deaths reported by the state on April 17th or April 18th.
-
-On June 30, the New York City health department announced an additional 692 deaths in New York City residents, most of which had taken place outside the city more than three weeks ago. We are counting these deaths when they are in excess of the number of deaths in New York City residents counted by the state.
+Alabama's numbers for April 17th contained an [error](https://twitter.com/ALPublicHealth/status/1251531524958289920) in reporting of lab test results that the state is working to correct. The number of deaths drops on April 23rd for an unknown reason.
 
 * Georgia
 
 Starting April 12th, our case count excludes cases labeled by the state as "Non-Georgia Resident" leading to a one day drop in cases. These cases were previously included as cases with "Unknown" county.
 
-* Alabama
+* Michigan
 
-Alabama's numbers for April 17th contained an [error](https://twitter.com/ALPublicHealth/status/1251531524958289920) in reporting of lab test results that the state is working to correct. The number of deaths drops on April 23rd for an unknown reason.
+Totals for each county in Michigan include cases and deaths among federal and state prison inmates which are reported separately by the state Department of Health. Prison cases and deaths are included starting April 15.
+
+* New York
+
+All cases for the five boroughs of New York City (New York, Kings, Queens, Bronx and Richmond counties) are assigned to a single area called New York City. There is a large jump in the number of deaths on April 6th due to switching from data from New York City to data from New York state for deaths. We are not currently including the probable deaths reported by New York City.
+
+For all New York state counties, starting on April 8th we are reporting deaths by place of fatality instead of residence of individual. There were no new deaths reported by the state on April 17th or April 18th.
+
+On June 30, the New York City health department announced an additional 692 deaths in New York City residents, most of which had taken place outside the city more than three weeks ago. We are counting these deaths when they are in excess of the number of deaths in New York City residents counted by the state.
 
 * Kansas City, Mo.
 
@@ -185,6 +206,8 @@ All cases and deaths for Chicago are reported as part of Cook County.
 Counts for Guam include cases reported from the USS Theodore Roosevelt.
 
 * Puerto Rico
+
+Data for Puerto Rico's county-equivalent municipios are available starting on May 5. This data was not available at the beginning of the outbreak and so all cases and deaths were assigned to Unknown.
 
 On April 21, the territory's health department revised their number of cases downward, saying they had been double counting some coronavirus patients in official reports, leading to a higher number of cases reported than actually confirmed. 
 
