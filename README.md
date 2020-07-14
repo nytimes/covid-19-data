@@ -179,6 +179,8 @@ All cases for the five boroughs of New York City (New York, Kings, Queens, Bronx
 
 For all New York state counties, starting on April 8th we are reporting deaths by place of fatality instead of residence of individual. There were no new deaths reported by the state on April 17th or April 18th.
 
+On June 30, the New York City health department announced an additional 692 deaths in New York City residents, most of which had taken place outside the city more than three weeks ago. We are counting these deaths when they are in excess of the number of deaths in New York City residents counted by the state.
+
 * Kansas City, Mo.
 
 Four counties (Cass, Clay, Jackson and Platte) overlap the municipality of Kansas City, Mo. The cases and deaths that we show for these four counties are only for the portions exclusive of Kansas City. Cases and deaths for Kansas City are reported as their own line.
