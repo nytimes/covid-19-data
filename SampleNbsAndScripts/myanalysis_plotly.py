@@ -68,8 +68,10 @@ population_county = pd.read_csv('county-population-2013.csv')
 population_county.loc[population_county.state == 'Louisiana'] = population_county[population_county.state == 'Louisiana'].replace(regex=[' Parish'], value='')
 population_county.drop(columns={'Core_Based_Statistical_Area'}, inplace=True)
 population_county.rename(columns={'population2013': 'population'}, inplace=True)
-population_county.index = [population_county.county, population_county.state]
-
+population_county['key'] = population_county.county + ',' + population_county.state
+population_county.drop_duplicates(subset='key', inplace=True)
+population_county.index = population_county.key
+#%%
 population_city_density = pd.read_csv('city_density.csv')
 population_city_density = population_city_density.rename(columns={'City': 'citystate', 'Population Density (Persons/Square Mile)': 'density', '2016 Population': 'population', 'Land Area (Square Miles)': 'area'} )
 population_city_density[['city', 'state']] = population_city_density.citystate.str.split(', ', expand=True)
@@ -96,14 +98,15 @@ county_land_area['key'] = county_land_area.county + ',' + county_land_area.state
 county_land_area.drop_duplicates(subset='key', inplace=True)
 county_land_area.index = county_land_area.key
 county_land_area.drop(columns={'Areaname', 'county', 'state', 'key'}, inplace=True)
-
-county_density['population'] = population_county.loc[list(county_density.itertuples(name=None, index=False))].population.values
+#%%
 county_density['key'] = county_density.county + ',' + county_density.state
 county_density['area'] = county_density.key.map(county_land_area.land_area)
+county_density['population'] = county_density.key.map(population_county.population)
+#%%
 county_density['density'] = county_density.population / county_density.area
 county_density.dropna(subset=['density'], inplace=True)
 county_density.drop_duplicates(subset= ['county', 'state'], inplace=True)
-
+#%%
 interesting_locations_east = [
     ['Connecticut', '', [], False],
     ['Delaware', '', [], False],
