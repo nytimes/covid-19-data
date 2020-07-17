@@ -200,7 +200,7 @@ interesting_states.reset_index(inplace=True)
 interesting_states.sort_values(by='state', inplace=True)
 
 # FOR DEBUGGING ONLY 
-#interesting_states = interesting_states[interesting_states.state == 'Washington']
+# interesting_states = interesting_states[interesting_states['state'].isin(['Washington', 'New York'])]
 
 interesting_locations = pd.concat([interesting_locations_east_df, interesting_locations_west_df, interesting_locations_midwest_df, interesting_locations_south_df])
 interesting_locations.reset_index(inplace=True)
@@ -210,10 +210,13 @@ interesting_locations.reset_index(inplace=True)
 # # New cases per day for US
 # **********************************************************************************************************
 # %%
-def movingaverage(values, window):
-    weights = np.repeat(1.0, window)/window
-    sma = np.convolve(values, weights, 'valid')
-    return sma
+def movingaverage(df, window):
+    if len(df) > window:
+        values = df['diff'].to_numpy()
+        weights = np.repeat(1.0, window)/window
+        sma = np.convolve(values, weights, 'valid')
+        df['diff'][window-1:] = sma
+    return df
 
 def generate_delta_df(state, county, column):
     if (state == 'all'):
@@ -224,15 +227,13 @@ def generate_delta_df(state, county, column):
         totals_by_date = county_cov_data[(county_cov_data.state == state) & (county_cov_data.county == county)].groupby('date').sum()
 
     deltas = totals_by_date[column].to_numpy()[1:] - totals_by_date.head(len(totals_by_date)-1)[column].to_numpy()[0:]
-    return deltas
+    totals_by_date['diff'] = 0
+    totals_by_date['diff'][1:] = deltas
+    return totals_by_date
 
 def plotdeltas(deltas_df, name_of_plot, hover_template, show_by_default=True):
     if (len(deltas_df) > 0):
-        deltas_ma = movingaverage(deltas_df, 7)
-        df_to_plot = pd.DataFrame(deltas_ma, columns=['new'])
-        df_to_plot['days'] = df_to_plot.index
-        df_to_plot = df_to_plot[df_to_plot.new.gt(0).idxmax():]
-        df_to_plot.reset_index(inplace=True)
+        df_with_ma = movingaverage(deltas_df, 7)
 
         if (show_by_default):
             visible = True
@@ -240,7 +241,7 @@ def plotdeltas(deltas_df, name_of_plot, hover_template, show_by_default=True):
             visible = 'legendonly'
 
         fig.add_trace(
-            go.Scatter(x=df_to_plot.days, y=df_to_plot.new, mode='lines', name=name_of_plot, line = { 'width': default_line_thickness },
+            go.Scatter(x=df_with_ma.index.to_numpy(), y=df_with_ma['diff'], mode='lines', name=name_of_plot, line = { 'width': default_line_thickness },
             hovertemplate=hover_template, visible=visible)
         )
 
@@ -284,7 +285,7 @@ layout = go.Layout(
         width=default_width,
         height=default_height,
         xaxis_title='Days',
-        yaxis_title='New cases / New Deaths'
+        yaxis_title='New cases'
 )
 
 fig = go.Figure(layout=layout)
@@ -367,8 +368,8 @@ layout = go.Layout(
 fig = go.Figure(layout=layout)
 for index, r in interesting_locations.iterrows():
     if (r.county != ''):
-        total_new_cases_by_date = generate_delta_df(r.state, r.county, 'deaths')
-        plotdeltas(total_new_cases_by_date, r.state + ', ' + r.county, 'deaths: %{y:,.0f}<br>day: %{x}', r.show_by_default)
+        total_deaths_by_date = generate_delta_df(r.state, r.county, 'deaths')
+        plotdeltas(total_deaths_by_date, r.state + ', ' + r.county, 'deaths: %{y:,.0f}<br>day: %{x}', r.show_by_default)
 
 fig.show()
 plotly.offline.plot(fig, filename=webpage_folder + 'Chart_'+str(row)+'.html',auto_open=False)
@@ -414,7 +415,7 @@ for index, s in interesting_states.iterrows():
             yaxis_gridcolor = default_grid_color,
             width=default_width,
             height=default_height,
-            xaxis_title='Days since counts started increasing',
+            xaxis_title='Days',
             yaxis_title='New cases'
     )
     fig=go.Figure(layout=layout)
@@ -424,6 +425,27 @@ for index, s in interesting_states.iterrows():
         plotdeltas(total_new_cases_by_date, c.county, '')
 
     basename=s.state + '_new_cases_by_county'
+    pio.write_image(fig, webpage_folder + basename + '.jpg')
+    plotly.offline.plot(fig, filename=webpage_folder + basename + '.html', auto_open=False)
+    state_chunk_graphs.write("<object data=\"" + basename + ".html\" width=" + str(default_width * 1.10) + " height=" + str(default_height* 1.10) + "\"></object>"+"\n")
+
+    layout = go.Layout(
+            title = s.state + ' State deaths by county',
+            plot_bgcolor = default_plot_color,
+            xaxis_gridcolor = default_grid_color,
+            yaxis_gridcolor = default_grid_color,
+            width=default_width,
+            height=default_height,
+            xaxis_title='Days',
+            yaxis_title='Deaths'
+    )
+    fig=go.Figure(layout=layout)
+
+    for index, c in population_county[population_county.state == s.state].iterrows():
+        total_deaths_by_date = generate_delta_df(s.state, c.county, 'deaths')
+        plotdeltas(total_deaths_by_date, c.county, '')
+
+    basename=s.state + '_deaths_by_county'
     pio.write_image(fig, webpage_folder + basename + '.jpg')
     plotly.offline.plot(fig, filename=webpage_folder + basename + '.html', auto_open=False)
     state_chunk_graphs.write("<object data=\"" + basename + ".html\" width=" + str(default_width * 1.10) + " height=" + str(default_height* 1.10) + "\"></object>"+"\n")
