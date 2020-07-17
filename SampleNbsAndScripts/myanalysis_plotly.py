@@ -199,6 +199,9 @@ interesting_states = pd.concat([interesting_states_east, interesting_states_midw
 interesting_states.reset_index(inplace=True)
 interesting_states.sort_values(by='state', inplace=True)
 
+# FOR DEBUGGING ONLY 
+#interesting_states = interesting_states[interesting_states.state == 'Washington']
+
 interesting_locations = pd.concat([interesting_locations_east_df, interesting_locations_west_df, interesting_locations_midwest_df, interesting_locations_south_df])
 interesting_locations.reset_index(inplace=True)
 
@@ -281,7 +284,7 @@ layout = go.Layout(
         width=default_width,
         height=default_height,
         xaxis_title='Days',
-        yaxis_title='New cases'
+        yaxis_title='New cases / New Deaths'
 )
 
 fig = go.Figure(layout=layout)
@@ -326,7 +329,7 @@ html_graphs.write("  <object data=\""+'Chart_'+str(row)+'.html'+"\" width=" + st
 #############################
 row += 1
 layout = go.Layout(
-        title = 'New cases by county',
+        title = 'New cases by interesting county',
         plot_bgcolor = default_plot_color,
         xaxis_gridcolor = default_grid_color,
         yaxis_gridcolor = default_grid_color,
@@ -351,7 +354,7 @@ html_graphs.write("  <object data=\""+'Chart_'+str(row)+'.html'+"\" width=" + st
 #############################
 row += 1
 layout = go.Layout(
-        title = 'Daily deaths by county',
+        title = 'Daily deaths by interesting county',
         plot_bgcolor = default_plot_color,
         xaxis_gridcolor = default_grid_color,
         yaxis_gridcolor = default_grid_color,
@@ -375,9 +378,37 @@ html_graphs.write("\n</div>\n")
 #####################################
 # Do all states & counties
 #####################################
+
 for index, s in interesting_states.iterrows():
+
     layout = go.Layout(
-            title = s.state + ' State counties new cases',
+            title = s.state + ' State new cases and new deaths',
+            plot_bgcolor = default_plot_color,
+            xaxis_gridcolor = default_grid_color,
+            yaxis_gridcolor = default_grid_color,
+            width=default_width,
+            height=default_height,
+            xaxis_title='Days',
+            yaxis_title='New Cases / New Deaths'
+    )
+
+    fig = go.Figure(layout=layout)
+
+    total_new_cases_by_date = generate_delta_df(s.state, 'all', 'cases')
+    total_deaths_by_date = generate_delta_df(s.state, 'all', 'deaths')
+    plotdeltas(total_new_cases_by_date, s.state + ' new cases', 'cases: %{y:,.0f}<br>day: %{x}')
+    plotdeltas(total_deaths_by_date, s.state + ' deaths', 'deaths: %{y:,.0f}<br>day: %{x}')
+
+    basename=s.state + '_new_cases'
+    pio.write_image(fig, webpage_folder + basename + '.jpg')
+    plotly.offline.plot(fig, filename=webpage_folder + basename + '.html', auto_open=False)
+    state_chunk_file = s.state + '_new_chunk.html'
+    state_chunk_graphs = open(webpage_folder + state_chunk_file,'w',)
+    state_chunk_graphs.write("<object data=\"" + basename + ".html\" width=" + str(default_width * 1.10) + " height=" + str(default_height* 1.10) + "\"></object>"+"\n")
+    html_graphs.write("<a target='_blank' href='" + state_chunk_file + "'><table><tr><td>" + s.state + "</td></tr><tr><td><img src='" + basename + ".jpg'/></td></tr></table></a>\n")
+
+    layout = go.Layout(
+            title = s.state + ' State new cases by county',
             plot_bgcolor = default_plot_color,
             xaxis_gridcolor = default_grid_color,
             yaxis_gridcolor = default_grid_color,
@@ -392,10 +423,12 @@ for index, s in interesting_states.iterrows():
         total_new_cases_by_date = generate_delta_df(s.state, c.county, 'cases')
         plotdeltas(total_new_cases_by_date, c.county, '')
 
-    basename=s.state + '_new_cases'
+    basename=s.state + '_new_cases_by_county'
     pio.write_image(fig, webpage_folder + basename + '.jpg')
     plotly.offline.plot(fig, filename=webpage_folder + basename + '.html', auto_open=False)
-    html_graphs.write("<a target='_blank' href='" + basename + ".html'><table><tr><td>" + s.state + "</td></tr><tr><td><img src='" + basename + ".jpg'/></td></tr></table></a>\n")
+    state_chunk_graphs.write("<object data=\"" + basename + ".html\" width=" + str(default_width * 1.10) + " height=" + str(default_height* 1.10) + "\"></object>"+"\n")
+
+    state_chunk_graphs.close()
 html_graphs.write('<div style=\"clear:both\"></div>')
 
 # %% [markdown]
