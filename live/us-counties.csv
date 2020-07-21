@@ -186,13 +186,13 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-07-20,Yell,Arkansas,05149,916,13,916,13,,
 2020-07-20,Alameda,California,06001,9277,162,9277,162,,
 2020-07-20,Alpine,California,06003,2,0,2,0,,
-2020-07-20,Amador,California,06005,52,0,52,0,,
+2020-07-20,Amador,California,06005,55,0,55,0,,
 2020-07-20,Butte,California,06007,640,5,640,5,,
 2020-07-20,Calaveras,California,06009,89,0,89,0,,
 2020-07-20,Colusa,California,06011,223,0,223,0,,
 2020-07-20,Contra Costa,California,06013,5731,99,5731,99,,
 2020-07-20,Del Norte,California,06015,66,0,66,0,,
-2020-07-20,El Dorado,California,06017,394,0,394,0,,
+2020-07-20,El Dorado,California,06017,443,1,443,1,,
 2020-07-20,Fresno,California,06019,10639,100,10639,100,,
 2020-07-20,Glenn,California,06021,215,0,215,0,,
 2020-07-20,Humboldt,California,06023,195,4,195,4,,
@@ -204,11 +204,11 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-07-20,Lassen,California,06035,512,0,512,0,,
 2020-07-20,Los Angeles,California,06037,159045,4104,159045,4104,,
 2020-07-20,Madera,California,06039,1451,13,1451,13,,
-2020-07-20,Marin,California,06041,4359,40,4359,40,,
+2020-07-20,Marin,California,06041,4376,40,4376,40,,
 2020-07-20,Mariposa,California,06043,38,1,38,1,,
 2020-07-20,Mendocino,California,06045,199,0,199,0,,
 2020-07-20,Merced,California,06047,2694,22,2694,22,,
-2020-07-20,Mono,California,06051,83,1,83,1,,
+2020-07-20,Mono,California,06051,84,1,84,1,,
 2020-07-20,Monterey,California,06053,3353,19,3353,19,,
 2020-07-20,Napa,California,06055,633,5,633,5,,
 2020-07-20,Nevada,California,06057,228,1,228,1,,
@@ -218,7 +218,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-07-20,Riverside,California,06065,30340,588,30340,588,,
 2020-07-20,Sacramento,California,06067,7325,96,7325,96,,
 2020-07-20,San Benito,California,06069,458,2,458,2,,
-2020-07-20,San Bernardino,California,06071,23928,328,23928,328,,
+2020-07-20,San Bernardino,California,06071,24099,329,24099,329,,
 2020-07-20,San Diego,California,06073,23747,478,23747,478,,
 2020-07-20,San Francisco,California,06075,5308,52,5308,52,,
 2020-07-20,San Joaquin,California,06077,8321,94,8321,94,,
@@ -229,7 +229,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-07-20,Santa Cruz,California,06087,772,3,772,3,,
 2020-07-20,Shasta,California,06089,242,7,242,7,,
 2020-07-20,Sierra,California,06091,1,0,1,0,,
-2020-07-20,Siskiyou,California,06093,50,0,50,0,,
+2020-07-20,Siskiyou,California,06093,51,0,51,0,,
 2020-07-20,Solano,California,06095,2764,34,2764,34,,
 2020-07-20,Sonoma,California,06097,2169,20,2169,20,,
 2020-07-20,Stanislaus,California,06099,6508,63,6508,63,,
@@ -237,7 +237,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-07-20,Tehama,California,06103,138,1,138,1,,
 2020-07-20,Trinity,California,06105,3,0,3,0,,
 2020-07-20,Tulare,California,06107,6896,167,6896,167,,
-2020-07-20,Tuolumne,California,06109,85,0,85,0,,
+2020-07-20,Tuolumne,California,06109,101,0,101,0,,
 2020-07-20,Ventura,California,06111,5748,58,5748,58,,
 2020-07-20,Yolo,California,06113,1162,32,1162,32,,
 2020-07-20,Yuba,California,06115,270,3,270,3,,
@@ -262,7 +262,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-07-20,Douglas,Colorado,08035,1357,54,,,,
 2020-07-20,Eagle,Colorado,08037,850,9,,,,
 2020-07-20,Elbert,Colorado,08039,70,2,,,,
-2020-07-20,El Paso,Colorado,08041,3650,122,,,,
+2020-07-20,El Paso,Colorado,08041,3673,122,,,,
 2020-07-20,Fremont,Colorado,08043,77,0,,,,
 2020-07-20,Garfield,Colorado,08045,528,4,,,,
 2020-07-20,Gilpin,Colorado,08047,12,0,,,,
@@ -302,7 +302,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-07-20,Summit,Colorado,08117,306,4,,,,
 2020-07-20,Teller,Colorado,08119,81,2,,,,
 2020-07-20,Washington,Colorado,08121,46,0,,,,
-2020-07-20,Weld,Colorado,08123,3244,139,,,,
+2020-07-20,Weld,Colorado,08123,3257,139,,,,
 2020-07-20,Yuma,Colorado,08125,56,0,,,,
 2020-07-20,Fairfield,Connecticut,09001,17112,1399,16466,1087,646,312
 2020-07-20,Hartford,Connecticut,09003,12082,1406,11403,1089,679,317
@@ -553,14 +553,14 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-07-20,Maui,Hawaii,15009,135,6,,,,
 2020-07-20,Ada,Idaho,16001,5999,33,5658,28,341,5
 2020-07-20,Adams,Idaho,16003,15,0,14,0,1,0
-2020-07-20,Bannock,Idaho,16005,222,1,190,1,32,0
+2020-07-20,Bannock,Idaho,16005,247,1,215,1,32,0
 2020-07-20,Bear Lake,Idaho,16007,6,0,6,0,0,0
 2020-07-20,Benewah,Idaho,16009,36,0,36,0,0,0
-2020-07-20,Bingham,Idaho,16011,122,2,113,2,9,0
+2020-07-20,Bingham,Idaho,16011,136,2,127,2,9,0
 2020-07-20,Blaine,Idaho,16013,558,5,543,,15,
 2020-07-20,Boise,Idaho,16015,20,0,16,0,4,0
 2020-07-20,Bonner,Idaho,16017,100,0,100,0,0,0
-2020-07-20,Bonneville,Idaho,16019,358,1,285,1,73,0
+2020-07-20,Bonneville,Idaho,16019,363,1,285,1,78,0
 2020-07-20,Boundary,Idaho,16021,13,0,13,0,0,0
 2020-07-20,Camas,Idaho,16025,1,0,1,,0,
 2020-07-20,Canyon,Idaho,16027,3317,19,3213,19,104,0
@@ -570,24 +570,24 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-07-20,Clearwater,Idaho,16035,8,0,7,0,1,0
 2020-07-20,Custer,Idaho,16037,6,0,6,0,0,0
 2020-07-20,Elmore,Idaho,16039,125,2,122,2,3,0
-2020-07-20,Franklin,Idaho,16041,37,0,33,0,4,0
+2020-07-20,Franklin,Idaho,16041,38,0,34,0,4,0
 2020-07-20,Fremont,Idaho,16043,26,0,24,0,2,0
 2020-07-20,Gem,Idaho,16045,101,0,94,0,7,0
 2020-07-20,Gooding,Idaho,16047,95,0,80,,15,
 2020-07-20,Idaho,Idaho,16049,17,0,16,0,1,0
-2020-07-20,Jefferson,Idaho,16051,57,0,43,0,14,0
+2020-07-20,Jefferson,Idaho,16051,57,1,43,0,14,1
 2020-07-20,Jerome,Idaho,16053,356,6,312,,44,
 2020-07-20,Kootenai,Idaho,16055,1067,1,1056,1,11,0
-2020-07-20,Latah,Idaho,16057,47,0,41,0,6,0
+2020-07-20,Latah,Idaho,16057,48,0,41,0,7,0
 2020-07-20,Lemhi,Idaho,16059,6,0,6,0,0,0
 2020-07-20,Lincoln,Idaho,16063,45,0,39,,6,
-2020-07-20,Madison,Idaho,16065,100,0,75,0,25,0
+2020-07-20,Madison,Idaho,16065,102,0,75,0,27,0
 2020-07-20,Minidoka,Idaho,16067,317,1,289,,28,
 2020-07-20,Nez Perce,Idaho,16069,116,19,103,19,13,0
 2020-07-20,Oneida,Idaho,16071,8,0,8,0,0,0
 2020-07-20,Owyhee,Idaho,16073,147,0,135,0,12,0
 2020-07-20,Payette,Idaho,16075,244,2,221,2,23,0
-2020-07-20,Power,Idaho,16077,24,0,22,0,2,0
+2020-07-20,Power,Idaho,16077,26,0,23,0,3,0
 2020-07-20,Shoshone,Idaho,16079,28,0,28,0,0,0
 2020-07-20,Teton,Idaho,16081,48,0,45,0,3,0
 2020-07-20,Twin Falls,Idaho,16083,946,26,827,,119,
@@ -637,11 +637,11 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-07-20,Jersey,Illinois,17083,54,1,54,1,,
 2020-07-20,Jo Daviess,Illinois,17085,66,1,66,1,,
 2020-07-20,Johnson,Illinois,17087,42,0,42,0,,
-2020-07-20,Kane,Illinois,17089,8448,289,8448,289,,
+2020-07-20,Kane,Illinois,17089,8473,290,8473,290,,
 2020-07-20,Kankakee,Illinois,17091,1582,66,1582,66,,
 2020-07-20,Kendall,Illinois,17093,1184,23,1184,23,,
 2020-07-20,Knox,Illinois,17095,193,0,193,0,,
-2020-07-20,Lake,Illinois,17097,10896,433,10896,433,,
+2020-07-20,Lake,Illinois,17097,10897,433,10897,433,,
 2020-07-20,LaSalle,Illinois,17099,343,18,343,18,,
 2020-07-20,Lawrence,Illinois,17101,27,0,27,0,,
 2020-07-20,Lee,Illinois,17103,117,2,117,2,,
@@ -798,7 +798,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-07-20,Boone,Iowa,19015,188,1,188,1,,
 2020-07-20,Bremer,Iowa,19017,136,7,136,7,,
 2020-07-20,Buchanan,Iowa,19019,73,1,73,1,,
-2020-07-20,Buena Vista,Iowa,19021,1756,12,1756,12,,
+2020-07-20,Buena Vista,Iowa,19021,1757,12,1757,12,,
 2020-07-20,Butler,Iowa,19023,83,2,83,2,,
 2020-07-20,Calhoun,Iowa,19025,70,2,70,2,,
 2020-07-20,Carroll,Iowa,19027,135,1,135,1,,
@@ -814,7 +814,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-07-20,Crawford,Iowa,19047,691,3,691,3,,
 2020-07-20,Dallas,Iowa,19049,1567,34,1567,34,,
 2020-07-20,Davis,Iowa,19051,46,1,46,1,,
-2020-07-20,Decatur,Iowa,19053,15,0,15,0,,
+2020-07-20,Decatur,Iowa,19053,16,0,16,0,,
 2020-07-20,Delaware,Iowa,19055,66,1,66,1,,
 2020-07-20,Des Moines,Iowa,19057,115,2,115,2,,
 2020-07-20,Dickinson,Iowa,19059,343,3,343,3,,
@@ -836,7 +836,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-07-20,Humboldt,Iowa,19091,70,1,70,1,,
 2020-07-20,Ida,Iowa,19093,25,0,25,0,,
 2020-07-20,Iowa,Iowa,19095,66,1,66,1,,
-2020-07-20,Jackson,Iowa,19097,96,0,96,0,,
+2020-07-20,Jackson,Iowa,19097,97,0,97,0,,
 2020-07-20,Jasper,Iowa,19099,412,17,412,17,,
 2020-07-20,Jefferson,Iowa,19101,66,0,66,0,,
 2020-07-20,Johnson,Iowa,19103,1631,10,1631,10,,
@@ -864,7 +864,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-07-20,Palo Alto,Iowa,19147,63,0,63,0,,
 2020-07-20,Plymouth,Iowa,19149,380,6,380,6,,
 2020-07-20,Pocahontas,Iowa,19151,110,1,110,1,,
-2020-07-20,Polk,Iowa,19153,8450,189,8450,189,,
+2020-07-20,Polk,Iowa,19153,8452,189,8452,189,,
 2020-07-20,Pottawattamie,Iowa,19155,925,15,925,15,,
 2020-07-20,Poweshiek,Iowa,19157,114,8,114,8,,
 2020-07-20,Ringgold,Iowa,19159,17,1,17,1,,
@@ -876,7 +876,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-07-20,Tama,Iowa,19171,509,29,509,29,,
 2020-07-20,Taylor,Iowa,19173,81,0,81,0,,
 2020-07-20,Union,Iowa,19175,56,1,56,1,,
-2020-07-20,Unknown,Iowa,,25,0,25,0,,
+2020-07-20,Unknown,Iowa,,20,0,20,0,,
 2020-07-20,Van Buren,Iowa,19177,22,1,22,1,,
 2020-07-20,Wapello,Iowa,19179,740,31,740,31,,
 2020-07-20,Warren,Iowa,19181,415,1,415,1,,
@@ -890,15 +890,15 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-07-20,Wright,Iowa,19197,417,1,417,1,,
 2020-07-20,Allen,Kansas,20001,10,0,10,,0,
 2020-07-20,Anderson,Kansas,20003,24,0,24,,,
-2020-07-20,Atchison,Kansas,20005,49,0,49,,,
+2020-07-20,Atchison,Kansas,20005,50,0,50,,,
 2020-07-20,Barber,Kansas,20007,3,0,1,,2,
-2020-07-20,Barton,Kansas,20009,75,3,75,3,,
+2020-07-20,Barton,Kansas,20009,77,3,77,3,,
 2020-07-20,Bourbon,Kansas,20011,62,1,59,1,3,
 2020-07-20,Brown,Kansas,20013,25,0,9,,16,
 2020-07-20,Butler,Kansas,20015,139,0,137,0,2,
 2020-07-20,Chase,Kansas,20017,6,0,6,,0,
 2020-07-20,Chautauqua,Kansas,20019,5,0,4,,1,
-2020-07-20,Cherokee,Kansas,20021,62,1,62,1,0,
+2020-07-20,Cherokee,Kansas,20021,63,1,63,1,,
 2020-07-20,Cheyenne,Kansas,20023,2,0,2,,0,
 2020-07-20,Clark,Kansas,20025,38,1,33,1,5,
 2020-07-20,Clay,Kansas,20027,13,2,11,2,2,
@@ -939,7 +939,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-07-20,Kiowa,Kansas,20097,5,0,2,,3,
 2020-07-20,Labette,Kansas,20099,92,0,27,,65,
 2020-07-20,Lane,Kansas,20101,5,0,4,,1,
-2020-07-20,Leavenworth,Kansas,20103,1306,7,1252,7,54,
+2020-07-20,Leavenworth,Kansas,20103,1306,7,1285,7,21,
 2020-07-20,Lincoln,Kansas,20105,5,0,,,,
 2020-07-20,Linn,Kansas,20107,23,0,15,,8,
 2020-07-20,Logan,Kansas,20109,2,0,2,,0,
@@ -962,7 +962,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-07-20,Ottawa,Kansas,20143,26,0,4,,22,
 2020-07-20,Pawnee,Kansas,20145,7,0,1,,6,
 2020-07-20,Phillips,Kansas,20147,39,6,39,6,,
-2020-07-20,Pottawatomie,Kansas,20149,102,0,96,,6,
+2020-07-20,Pottawatomie,Kansas,20149,102,0,101,,1,
 2020-07-20,Pratt,Kansas,20151,29,0,28,,1,
 2020-07-20,Reno,Kansas,20155,175,0,165,0,10,
 2020-07-20,Republic,Kansas,20157,21,0,21,,0,
@@ -971,10 +971,10 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-07-20,Rooks,Kansas,20163,11,0,10,,1,
 2020-07-20,Rush,Kansas,20165,4,0,,,,
 2020-07-20,Russell,Kansas,20167,5,0,1,,4,
-2020-07-20,Saline,Kansas,20169,281,3,268,3,13,
+2020-07-20,Saline,Kansas,20169,301,3,301,3,,
 2020-07-20,Scott,Kansas,20171,20,0,19,,1,
 2020-07-20,Sedgwick,Kansas,20173,3162,32,2766,32,396,
-2020-07-20,Seward,Kansas,20175,1105,2,1105,2,,
+2020-07-20,Seward,Kansas,20175,1121,4,1121,4,,
 2020-07-20,Shawnee,Kansas,20177,1205,14,1191,14,14,
 2020-07-20,Sheridan,Kansas,20179,7,0,5,,2,
 2020-07-20,Sherman,Kansas,20181,9,0,9,,0,
@@ -990,7 +990,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-07-20,Wilson,Kansas,20205,7,0,4,,3,
 2020-07-20,Woodson,Kansas,20207,11,0,11,,,
 2020-07-20,Wyandotte,Kansas,20209,3825,89,3701,89,124,
-2020-07-20,Adair,Kentucky,21001,176,19,176,19,,0
+2020-07-20,Adair,Kentucky,21001,179,19,179,19,,0
 2020-07-20,Allen,Kentucky,21003,200,7,,,,
 2020-07-20,Anderson,Kentucky,21005,36,1,,,,
 2020-07-20,Ballard,Kentucky,21007,25,0,,,,
@@ -998,7 +998,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-07-20,Bath,Kentucky,21011,23,1,,,,
 2020-07-20,Bell,Kentucky,21013,160,1,,,,
 2020-07-20,Boone,Kentucky,21015,839,23,761,23,78,0
-2020-07-20,Bourbon,Kentucky,21017,55,1,,,,
+2020-07-20,Bourbon,Kentucky,21017,60,1,,,,
 2020-07-20,Boyd,Kentucky,21019,122,3,,,,
 2020-07-20,Boyle,Kentucky,21021,60,0,,,,
 2020-07-20,Bracken,Kentucky,21023,24,0,,,,
@@ -1012,11 +1012,11 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-07-20,Carlisle,Kentucky,21039,14,1,,,,
 2020-07-20,Carroll,Kentucky,21041,125,2,,,,
 2020-07-20,Carter,Kentucky,21043,70,1,,,,
-2020-07-20,Casey,Kentucky,21045,128,6,128,6,,0
+2020-07-20,Casey,Kentucky,21045,130,7,130,7,,
 2020-07-20,Christian,Kentucky,21047,424,4,,,,
 2020-07-20,Clark,Kentucky,21049,121,7,,,,
 2020-07-20,Clay,Kentucky,21051,115,4,,,,
-2020-07-20,Clinton,Kentucky,21053,14,0,14,0,,0
+2020-07-20,Clinton,Kentucky,21053,15,0,15,0,,0
 2020-07-20,Crittenden,Kentucky,21055,20,1,,,,
 2020-07-20,Cumberland,Kentucky,21057,20,0,20,0,,0
 2020-07-20,Daviess,Kentucky,21059,575,8,569,7,6,1
@@ -1069,7 +1069,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-07-20,Martin,Kentucky,21159,15,0,,,,
 2020-07-20,Mason,Kentucky,21161,44,1,,,,
 2020-07-20,McCracken,Kentucky,21145,245,3,,,,
-2020-07-20,McCreary,Kentucky,21147,20,0,20,0,0,0
+2020-07-20,McCreary,Kentucky,21147,21,0,21,0,,0
 2020-07-20,McLean,Kentucky,21149,36,0,36,0,,0
 2020-07-20,Meade,Kentucky,21163,50,2,,,,
 2020-07-20,Menifee,Kentucky,21165,19,0,,,,
@@ -1078,7 +1078,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-07-20,Monroe,Kentucky,21171,61,2,,,,
 2020-07-20,Montgomery,Kentucky,21173,89,0,,,,
 2020-07-20,Morgan,Kentucky,21175,23,0,,,,
-2020-07-20,Muhlenberg,Kentucky,21177,595,9,591,9,4,0
+2020-07-20,Muhlenberg,Kentucky,21177,598,9,591,9,7,0
 2020-07-20,Nelson,Kentucky,21179,147,2,,,,
 2020-07-20,Nicholas,Kentucky,21181,17,0,,,,
 2020-07-20,Ohio,Kentucky,21183,309,1,309,1,,0
@@ -1089,16 +1089,16 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-07-20,Perry,Kentucky,21193,123,2,,,,
 2020-07-20,Pike,Kentucky,21195,156,3,,,,
 2020-07-20,Powell,Kentucky,21197,30,0,,,,
-2020-07-20,Pulaski,Kentucky,21199,179,2,179,2,,0
+2020-07-20,Pulaski,Kentucky,21199,182,2,182,2,,0
 2020-07-20,Robertson,Kentucky,21201,2,0,,,,
 2020-07-20,Rockcastle,Kentucky,21203,40,0,,,,
 2020-07-20,Rowan,Kentucky,21205,44,0,,,,
-2020-07-20,Russell,Kentucky,21207,84,5,84,5,,0
+2020-07-20,Russell,Kentucky,21207,88,5,88,5,,0
 2020-07-20,Scott,Kentucky,21209,169,0,,,,
 2020-07-20,Shelby,Kentucky,21211,620,21,,,,
 2020-07-20,Simpson,Kentucky,21213,108,4,104,4,4,0
 2020-07-20,Spencer,Kentucky,21215,62,0,,,,
-2020-07-20,Taylor,Kentucky,21217,76,1,76,1,,0
+2020-07-20,Taylor,Kentucky,21217,79,1,79,1,,0
 2020-07-20,Todd,Kentucky,21219,28,0,,,,
 2020-07-20,Trigg,Kentucky,21221,37,0,,,,
 2020-07-20,Trimble,Kentucky,21223,25,0,,,,
@@ -1510,7 +1510,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-07-20,Clark,Missouri,29045,2,0,2,0,,
 2020-07-20,Clay,Missouri,29047,630,21,630,21,,
 2020-07-20,Clinton,Missouri,29049,38,0,38,0,,
-2020-07-20,Cole,Missouri,29051,181,2,181,2,,
+2020-07-20,Cole,Missouri,29051,196,2,196,2,,
 2020-07-20,Cooper,Missouri,29053,35,0,35,0,,
 2020-07-20,Crawford,Missouri,29055,28,0,28,0,,
 2020-07-20,Dade,Missouri,29057,4,0,4,0,,
@@ -1550,7 +1550,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-07-20,Madison,Missouri,29123,11,0,11,0,,
 2020-07-20,Maries,Missouri,29125,7,0,7,0,,
 2020-07-20,Marion,Missouri,29127,50,0,50,0,,
-2020-07-20,McDonald,Missouri,29119,924,3,924,3,,
+2020-07-20,McDonald,Missouri,29119,938,4,938,4,,
 2020-07-20,Mercer,Missouri,29129,8,0,8,0,,
 2020-07-20,Miller,Missouri,29131,42,0,42,0,,
 2020-07-20,Mississippi,Missouri,29133,100,0,100,0,,
@@ -1672,7 +1672,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-07-20,Deuel,Nebraska,31049,1,0,1,0,,
 2020-07-20,Dixon,Nebraska,31051,56,2,56,2,,
 2020-07-20,Dodge,Nebraska,31053,723,8,723,8,,
-2020-07-20,Douglas,Nebraska,31055,8798,123,8798,123,,
+2020-07-20,Douglas,Nebraska,31055,8798,116,8798,116,,
 2020-07-20,Dundy,Nebraska,31057,2,0,2,0,,
 2020-07-20,Fillmore,Nebraska,31059,20,1,20,1,,
 2020-07-20,Franklin,Nebraska,31061,8,0,8,0,,
@@ -1698,7 +1698,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-07-20,Knox,Nebraska,31107,25,0,25,0,,
 2020-07-20,Lancaster,Nebraska,31109,2482,14,2482,14,,
 2020-07-20,Lincoln,Nebraska,31111,67,2,67,2,,
-2020-07-20,Madison,Nebraska,31119,400,4,400,4,,
+2020-07-20,Madison,Nebraska,31119,403,4,403,4,,
 2020-07-20,McPherson,Nebraska,31117,3,0,3,0,,
 2020-07-20,Merrick,Nebraska,31121,41,0,41,0,,
 2020-07-20,Morrill,Nebraska,31123,53,0,53,0,,
@@ -1727,7 +1727,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-07-20,Thayer,Nebraska,31169,19,0,19,0,,
 2020-07-20,Thomas,Nebraska,31171,1,0,1,0,,
 2020-07-20,Thurston,Nebraska,31173,183,1,183,1,,
-2020-07-20,Unknown,Nebraska,,19,0,19,,,
+2020-07-20,Unknown,Nebraska,,16,4,16,4,,
 2020-07-20,Valley,Nebraska,31175,9,0,9,0,,
 2020-07-20,Washington,Nebraska,31177,76,1,76,1,,
 2020-07-20,Wayne,Nebraska,31179,35,0,35,0,,
@@ -1960,7 +1960,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-07-20,Swain,North Carolina,37173,80,2,80,2,,
 2020-07-20,Transylvania,North Carolina,37175,90,1,90,1,,
 2020-07-20,Tyrrell,North Carolina,37177,66,1,66,1,,
-2020-07-20,Union,North Carolina,37179,2215,32,2215,32,,
+2020-07-20,Union,North Carolina,37179,2215,33,2215,33,,
 2020-07-20,Vance,North Carolina,37181,637,40,637,40,,
 2020-07-20,Wake,North Carolina,37183,8974,93,8974,93,,
 2020-07-20,Warren,North Carolina,37185,208,6,208,6,,
@@ -2817,7 +2817,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-07-20,Walker,Texas,48471,2606,28,2606,28,,
 2020-07-20,Waller,Texas,48473,298,0,298,0,,
 2020-07-20,Ward,Texas,48475,67,1,67,1,,
-2020-07-20,Washington,Texas,48477,391,34,391,34,,
+2020-07-20,Washington,Texas,48477,400,34,400,34,,
 2020-07-20,Webb,Texas,48479,4131,66,4131,66,,
 2020-07-20,Wharton,Texas,48481,420,1,420,1,,
 2020-07-20,Wheeler,Texas,48483,27,0,27,0,,
@@ -3027,7 +3027,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-07-20,Garfield,Washington,53023,2,0,2,0,,
 2020-07-20,Grant,Washington,53025,971,7,971,7,,0
 2020-07-20,Grays Harbor,Washington,53027,66,1,66,1,,
-2020-07-20,Island,Washington,53029,216,12,216,12,,
+2020-07-20,Island,Washington,53029,217,12,217,12,,
 2020-07-20,Jefferson,Washington,53031,50,0,50,0,,
 2020-07-20,King,Washington,53033,13341,657,13341,657,,
 2020-07-20,Kitsap,Washington,53035,399,3,399,3,,
@@ -3051,7 +3051,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-07-20,Walla Walla,Washington,53071,303,3,303,3,,
 2020-07-20,Whatcom,Washington,53073,788,43,788,43,,
 2020-07-20,Whitman,Washington,53075,66,0,66,0,,
-2020-07-20,Yakima,Washington,53077,9545,208,9545,208,,
+2020-07-20,Yakima,Washington,53077,9610,208,9610,208,,
 2020-07-20,Barbour,West Virginia,54001,25,1,25,1,0,
 2020-07-20,Berkeley,West Virginia,54003,568,10,549,10,19,
 2020-07-20,Boone,West Virginia,54005,58,0,58,0,0,
