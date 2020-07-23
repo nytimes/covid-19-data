@@ -199,8 +199,8 @@ interesting_states = pd.concat([interesting_states_east, interesting_states_midw
 interesting_states.reset_index(inplace=True)
 interesting_states.sort_values(by='state', inplace=True)
 
-# FOR DEBUGGING ONLY 
-# interesting_states = interesting_states[interesting_states['state'].isin(['Washington', 'New York'])]
+#FOR DEBUGGING ONLY 
+#interesting_states = interesting_states[interesting_states['state'].isin(['Washington', 'New York'])]
 
 interesting_locations = pd.concat([interesting_locations_east_df, interesting_locations_west_df, interesting_locations_midwest_df, interesting_locations_south_df])
 interesting_locations.reset_index(inplace=True)
@@ -400,13 +400,12 @@ for index, s in interesting_states.iterrows():
     plotdeltas(total_new_cases_by_date, s.state + ' new cases', 'cases: %{y:,.0f}<br>day: %{x}')
     plotdeltas(total_deaths_by_date, s.state + ' deaths', 'deaths: %{y:,.0f}<br>day: %{x}')
 
-    basename=s.state + '_new_cases'
-    pio.write_image(fig, webpage_folder + basename + '.jpg')
-    plotly.offline.plot(fig, filename=webpage_folder + basename + '.html', auto_open=False)
+    basename_new_cases_all=s.state + '_new_cases'
+    pio.write_image(fig, webpage_folder + basename_new_cases_all + '.jpg')
+    plotly.offline.plot(fig, filename=webpage_folder + basename_new_cases_all + '.html', auto_open=False)
     state_chunk_file = s.state + '_new_chunk.html'
     state_chunk_graphs = open(webpage_folder + state_chunk_file,'w',)
-    state_chunk_graphs.write("<object data=\"" + basename + ".html\" width=" + str(default_width * 1.10) + " height=" + str(default_height* 1.10) + "\"></object>"+"\n")
-    html_graphs.write("<a target='_blank' href='" + state_chunk_file + "'><table><tr><td>" + s.state + "</td></tr><tr><td><img src='" + basename + ".jpg'/></td></tr></table></a>\n")
+    state_chunk_graphs.write("<object data=\"" + basename_new_cases_all + ".html\" width=" + str(default_width * 1.10) + " height=" + str(default_height* 1.10) + "\"></object>"+"\n")
 
     layout = go.Layout(
             title = s.state + ' State new cases by county',
@@ -418,16 +417,16 @@ for index, s in interesting_states.iterrows():
             xaxis_title='Days',
             yaxis_title='New cases'
     )
-    fig=go.Figure(layout=layout)
+    fig = go.Figure(layout=layout)
 
     for index, c in population_county[population_county.state == s.state].iterrows():
-        total_new_cases_by_date = generate_delta_df(s.state, c.county, 'cases')
-        plotdeltas(total_new_cases_by_date, c.county, '')
+        total_new_cases_by_county = generate_delta_df(s.state, c.county, 'cases')
+        plotdeltas(total_new_cases_by_county, c.county,'')
 
-    basename=s.state + '_new_cases_by_county'
-    pio.write_image(fig, webpage_folder + basename + '.jpg')
-    plotly.offline.plot(fig, filename=webpage_folder + basename + '.html', auto_open=False)
-    state_chunk_graphs.write("<object data=\"" + basename + ".html\" width=" + str(default_width * 1.10) + " height=" + str(default_height* 1.10) + "\"></object>"+"\n")
+    basename_new_cases_by_county=s.state + '_new_cases_by_county'
+    pio.write_image(fig, webpage_folder + basename_new_cases_by_county + '.jpg')
+    plotly.offline.plot(fig, filename=webpage_folder + basename_new_cases_by_county + '.html', auto_open=False)
+    state_chunk_graphs.write("<object data=\"" + basename_new_cases_by_county + ".html\" width=" + str(default_width * 1.10) + " height=" + str(default_height* 1.10) + "\"></object>"+"\n")
 
     layout = go.Layout(
             title = s.state + ' State deaths by county',
@@ -443,14 +442,25 @@ for index, s in interesting_states.iterrows():
 
     for index, c in population_county[population_county.state == s.state].iterrows():
         total_deaths_by_date = generate_delta_df(s.state, c.county, 'deaths')
-        plotdeltas(total_deaths_by_date, c.county, '')
+        plotdeltas(total_deaths_by_date, c.county,'')
 
-    basename=s.state + '_deaths_by_county'
-    pio.write_image(fig, webpage_folder + basename + '.jpg')
-    plotly.offline.plot(fig, filename=webpage_folder + basename + '.html', auto_open=False)
-    state_chunk_graphs.write("<object data=\"" + basename + ".html\" width=" + str(default_width * 1.10) + " height=" + str(default_height* 1.10) + "\"></object>"+"\n")
-
+    basename_deaths_by_county=s.state + '_deaths_by_county'
+    pio.write_image(fig, webpage_folder + basename_deaths_by_county + '.jpg')
+    plotly.offline.plot(fig, filename=webpage_folder + basename_deaths_by_county + '.html', auto_open=False)
+    state_chunk_graphs.write("<object data=\"" + basename_deaths_by_county + ".html\" width=" + str(default_width * 1.10) + " height=" + str(default_height* 1.10) + "\"></object>"+"\n")
     state_chunk_graphs.close()
+
+    main_page_entry = f'''
+<a target='_blank' href='{state_chunk_file}'>
+  <table style="border-color: black; border-width: 1px; border-style: solid;">
+    <tr><td colspan="2">{s.state}</td></tr>
+    <tr><td rowspan="2"><img src='{basename_new_cases_all}.jpg'/></td><td style="width: 200px; height: 200px; margin: 0px; padding: 0px;"><img style="width:200px;" src='{basename_new_cases_by_county}.jpg'/></td></tr>
+    <tr><td style="width: 200px; height: 200px; margin: 0px; padding: 0px;"><img style="width: 200px;" src='{basename_deaths_by_county}.jpg'/></td></tr>
+  </table>
+</a>\n
+'''
+    html_graphs.write(main_page_entry)
+
 html_graphs.write('<div style=\"clear:both\"></div>')
 
 # %% [markdown]
@@ -756,6 +766,7 @@ for index, s in interesting_states.iterrows():
     pio.write_image(fig, webpage_folder + basename + '.jpg')
     plotly.offline.plot(fig, filename=webpage_folder + basename + '.html', auto_open=False)
     html_graphs.write("<a target='_blank' href='" + basename + ".html'><table><tr><td>" + s.state + "</td></tr><tr><td><img src='" + basename + ".jpg'/></td></tr></table></a>\n")
+
 html_graphs.write('<div style=\"clear:both\"></div>')
 
 #  %% [markdown]
