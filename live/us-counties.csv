@@ -220,7 +220,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-07-26,San Benito,California,06069,525,2,525,2,,
 2020-07-26,San Bernardino,California,06071,28990,376,28990,376,,
 2020-07-26,San Diego,California,06073,26764,533,26764,533,,
-2020-07-26,San Francisco,California,06075,5790,56,5790,56,,
+2020-07-26,San Francisco,California,06075,5935,56,5935,56,,
 2020-07-26,San Joaquin,California,06077,10190,110,10190,110,,
 2020-07-26,San Luis Obispo,California,06079,1500,8,1500,8,,
 2020-07-26,San Mateo,California,06081,5022,117,5022,117,,
@@ -317,7 +317,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-07-26,New Castle,Delaware,10003,6414,284,6240,239,174,45
 2020-07-26,Sussex,Delaware,10005,5488,190,4834,175,654,15
 2020-07-26,Unknown,Delaware,,182,0,181,,1,
-2020-07-26,District of Columbia,District of Columbia,11001,11717,581,11717,581,,
+2020-07-26,District of Columbia,District of Columbia,11001,11780,581,11780,581,,
 2020-07-26,Alachua,Florida,12001,3050,18,,18,,
 2020-07-26,Baker,Florida,12003,285,4,,4,,
 2020-07-26,Bay,Florida,12005,2862,15,,15,,
@@ -828,7 +828,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-07-26,Guthrie,Iowa,19077,118,5,118,5,,
 2020-07-26,Hamilton,Iowa,19079,217,1,217,1,,
 2020-07-26,Hancock,Iowa,19081,102,2,102,2,,
-2020-07-26,Hardin,Iowa,19083,132,0,132,0,,
+2020-07-26,Hardin,Iowa,19083,131,0,131,0,,
 2020-07-26,Harrison,Iowa,19085,82,0,82,0,,
 2020-07-26,Henry,Iowa,19087,104,3,104,3,,
 2020-07-26,Howard,Iowa,19089,44,0,44,0,,
@@ -1175,48 +1175,48 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-07-26,West Carroll,Louisiana,22123,218,5,218,5,,
 2020-07-26,West Feliciana,Louisiana,22125,315,15,315,15,,
 2020-07-26,Winn,Louisiana,22127,351,5,351,5,,
-2020-07-26,Androscoggin,Maine,23001,532,5,477,5,55,
-2020-07-26,Aroostook,Maine,23003,31,1,28,1,3,
-2020-07-26,Cumberland,Maine,23005,2004,68,1797,68,207,
-2020-07-26,Franklin,Maine,23007,45,1,42,1,3,
+2020-07-26,Androscoggin,Maine,23001,534,5,479,5,55,
+2020-07-26,Aroostook,Maine,23003,31,1,29,1,2,
+2020-07-26,Cumberland,Maine,23005,2011,68,1800,68,211,
+2020-07-26,Franklin,Maine,23007,46,1,43,1,3,
 2020-07-26,Hancock,Maine,23009,19,1,16,1,3,
-2020-07-26,Kennebec,Maine,23011,157,10,146,10,11,
+2020-07-26,Kennebec,Maine,23011,158,10,147,10,11,
 2020-07-26,Knox,Maine,23013,25,1,20,1,5,
 2020-07-26,Lincoln,Maine,23015,33,0,27,0,6,
-2020-07-26,Oxford,Maine,23017,48,0,34,0,14,
+2020-07-26,Oxford,Maine,23017,49,0,35,0,14,
 2020-07-26,Penobscot,Maine,23019,139,5,126,5,13,
 2020-07-26,Piscataquis,Maine,23021,3,0,3,0,0,
-2020-07-26,Sagadahoc,Maine,23023,40,0,39,0,1,
+2020-07-26,Sagadahoc,Maine,23023,43,0,42,0,1,
 2020-07-26,Somerset,Maine,23025,34,1,30,1,4,
 2020-07-26,Unknown,Maine,,1,0,1,0,0,
 2020-07-26,Waldo,Maine,23027,60,14,56,14,4,
-2020-07-26,Washington,Maine,23029,5,0,5,0,0,
-2020-07-26,York,Maine,23031,614,12,540,12,74,
-2020-07-26,Allegany,Maryland,24001,252,18,252,18,0,0
-2020-07-26,Anne Arundel,Maryland,24003,6351,214,6343,206,8,8
-2020-07-26,Baltimore,Maryland,24005,10813,524,10793,504,20,20
-2020-07-26,Baltimore city,Maryland,24510,10224,397,10210,383,14,14
-2020-07-26,Calvert,Maryland,24009,529,27,528,26,1,1
-2020-07-26,Caroline,Maryland,24011,393,3,393,3,0,0
-2020-07-26,Carroll,Maryland,24013,1357,115,1355,113,2,2
-2020-07-26,Cecil,Maryland,24015,597,30,596,29,1,1
-2020-07-26,Charles,Maryland,24017,1721,90,1719,88,2,2
-2020-07-26,Dorchester,Maryland,24019,305,5,305,5,0,0
-2020-07-26,Frederick,Maryland,24021,2877,120,2870,113,7,7
+2020-07-26,Washington,Maine,23029,7,0,7,0,0,
+2020-07-26,York,Maine,23031,621,12,547,12,74,
+2020-07-26,Allegany,Maryland,24001,256,18,256,18,0,0
+2020-07-26,Anne Arundel,Maryland,24003,6388,214,6380,206,8,8
+2020-07-26,Baltimore,Maryland,24005,10944,525,10924,505,20,20
+2020-07-26,Baltimore city,Maryland,24510,10367,400,10353,386,14,14
+2020-07-26,Calvert,Maryland,24009,536,27,535,26,1,1
+2020-07-26,Caroline,Maryland,24011,403,3,403,3,0,0
+2020-07-26,Carroll,Maryland,24013,1371,115,1369,113,2,2
+2020-07-26,Cecil,Maryland,24015,598,30,597,29,1,1
+2020-07-26,Charles,Maryland,24017,1732,90,1730,88,2,2
+2020-07-26,Dorchester,Maryland,24019,317,5,317,5,0,0
+2020-07-26,Frederick,Maryland,24021,2886,120,2879,113,7,7
 2020-07-26,Garrett,Maryland,24023,42,0,42,0,0,0
-2020-07-26,Harford,Maryland,24025,1582,67,1579,64,3,3
-2020-07-26,Howard,Maryland,24027,3319,102,3313,96,6,6
-2020-07-26,Kent,Maryland,24029,229,23,228,22,1,1
-2020-07-26,Montgomery,Maryland,24031,16960,782,16922,744,38,38
-2020-07-26,Prince George's,Maryland,24033,21890,730,21890,730,,
-2020-07-26,Queen Anne's,Maryland,24035,358,23,357,22,1,1
+2020-07-26,Harford,Maryland,24025,1600,67,1597,64,3,3
+2020-07-26,Howard,Maryland,24027,3333,102,3327,96,6,6
+2020-07-26,Kent,Maryland,24029,230,23,229,22,1,1
+2020-07-26,Montgomery,Maryland,24031,17058,783,17020,745,38,38
+2020-07-26,Prince George's,Maryland,24033,21890,730,21890,730,,0
+2020-07-26,Queen Anne's,Maryland,24035,367,23,366,22,1,1
 2020-07-26,Somerset,Maryland,24039,114,3,114,3,0,0
-2020-07-26,St. Mary's,Maryland,24037,822,52,822,52,0,0
-2020-07-26,Talbot,Maryland,24041,298,4,298,4,0,0
-2020-07-26,Unknown,Maryland,,0,14,0,0,,14
-2020-07-26,Washington,Maryland,24043,864,30,864,30,0,0
-2020-07-26,Wicomico,Maryland,24045,1228,42,1228,42,0,0
-2020-07-26,Worcester,Maryland,24047,492,18,491,17,1,1
+2020-07-26,St. Mary's,Maryland,24037,834,52,834,52,0,0
+2020-07-26,Talbot,Maryland,24041,308,4,308,4,0,0
+2020-07-26,Unknown,Maryland,,0,16,0,0,,16
+2020-07-26,Washington,Maryland,24043,871,30,871,30,0,0
+2020-07-26,Wicomico,Maryland,24045,1239,42,1239,42,0,0
+2020-07-26,Worcester,Maryland,24047,501,18,500,17,1,1
 2020-07-26,Barnstable,Massachusetts,25001,1684,155,,,,
 2020-07-26,Berkshire,Massachusetts,25003,638,45,,,,
 2020-07-26,Bristol,Massachusetts,25005,8843,616,,,,
@@ -1585,7 +1585,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-07-26,Scott,Missouri,29201,286,13,286,13,,
 2020-07-26,Shannon,Missouri,29203,40,0,40,0,,
 2020-07-26,Shelby,Missouri,29205,9,0,9,0,,
-2020-07-26,St. Charles,Missouri,29183,2866,86,2866,86,,
+2020-07-26,St. Charles,Missouri,29183,2884,86,2884,86,,
 2020-07-26,St. Clair,Missouri,29185,12,0,12,0,,
 2020-07-26,Ste. Genevieve,Missouri,29186,37,1,37,1,,
 2020-07-26,St. Francois,Missouri,29187,252,2,252,2,,
@@ -1603,12 +1603,12 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-07-26,Webster,Missouri,29225,93,1,93,1,,
 2020-07-26,Worth,Missouri,29227,5,0,5,0,,
 2020-07-26,Wright,Missouri,29229,53,0,53,0,,
-2020-07-26,Beaverhead,Montana,30001,31,0,31,0,,
+2020-07-26,Beaverhead,Montana,30001,26,0,26,0,,
 2020-07-26,Big Horn,Montana,30003,217,5,217,5,,
 2020-07-26,Blaine,Montana,30005,7,0,7,0,,
-2020-07-26,Broadwater,Montana,30007,9,0,9,0,,
-2020-07-26,Carbon,Montana,30009,46,0,46,0,,
-2020-07-26,Cascade,Montana,30013,111,2,111,2,,
+2020-07-26,Broadwater,Montana,30007,10,0,10,0,,
+2020-07-26,Carbon,Montana,30009,47,0,47,0,,
+2020-07-26,Cascade,Montana,30013,115,2,115,2,,
 2020-07-26,Chouteau,Montana,30015,3,0,3,0,,
 2020-07-26,Custer,Montana,30017,47,0,47,0,,
 2020-07-26,Daniels,Montana,30019,1,0,1,0,,
@@ -1616,20 +1616,20 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-07-26,Deer Lodge,Montana,30023,14,0,14,0,,
 2020-07-26,Fallon,Montana,30025,2,0,2,0,,
 2020-07-26,Fergus,Montana,30027,4,0,4,0,,
-2020-07-26,Flathead,Montana,30029,174,2,174,2,,
-2020-07-26,Gallatin,Montana,30031,760,1,760,1,,
+2020-07-26,Flathead,Montana,30029,190,2,190,2,,
+2020-07-26,Gallatin,Montana,30031,767,1,767,1,,
 2020-07-26,Garfield,Montana,30033,12,0,12,0,,
 2020-07-26,Glacier,Montana,30035,51,1,51,1,,
 2020-07-26,Golden Valley,Montana,30037,3,0,3,0,,
 2020-07-26,Granite,Montana,30039,6,0,6,0,,
 2020-07-26,Hill,Montana,30041,39,0,39,0,,
-2020-07-26,Jefferson,Montana,30043,18,0,18,0,,
+2020-07-26,Jefferson,Montana,30043,19,0,19,0,,
 2020-07-26,Judith Basin,Montana,30045,1,0,1,0,,
-2020-07-26,Lake,Montana,30047,136,1,136,1,,
-2020-07-26,Lewis and Clark,Montana,30049,101,1,101,1,,
+2020-07-26,Lake,Montana,30047,139,1,139,1,,
+2020-07-26,Lewis and Clark,Montana,30049,104,1,104,1,,
 2020-07-26,Liberty,Montana,30051,1,0,1,0,,
-2020-07-26,Lincoln,Montana,30053,53,1,53,1,,
-2020-07-26,Madison,Montana,30057,58,1,58,1,,
+2020-07-26,Lincoln,Montana,30053,55,1,55,1,,
+2020-07-26,Madison,Montana,30057,61,1,61,1,,
 2020-07-26,McCone,Montana,30055,1,0,1,0,,
 2020-07-26,Meagher,Montana,30059,4,0,4,0,,
 2020-07-26,Missoula,Montana,30063,204,1,204,1,,0
@@ -1637,22 +1637,22 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-07-26,Park,Montana,30067,40,0,40,0,,
 2020-07-26,Pondera,Montana,30073,8,0,8,0,,
 2020-07-26,Powder River,Montana,30075,1,0,1,0,,
-2020-07-26,Ravalli,Montana,30081,51,1,51,1,,
+2020-07-26,Ravalli,Montana,30081,62,1,62,1,,
 2020-07-26,Richland,Montana,30083,41,0,41,0,,
-2020-07-26,Roosevelt,Montana,30085,9,0,9,0,,
+2020-07-26,Roosevelt,Montana,30085,10,0,10,0,,
 2020-07-26,Rosebud,Montana,30087,19,1,19,1,,
 2020-07-26,Sanders,Montana,30089,7,0,7,0,,
 2020-07-26,Sheridan,Montana,30091,3,0,3,0,,
-2020-07-26,Silver Bow,Montana,30093,35,0,35,0,,
+2020-07-26,Silver Bow,Montana,30093,39,0,39,0,,
 2020-07-26,Stillwater,Montana,30095,16,0,16,0,,
 2020-07-26,Sweet Grass,Montana,30097,4,1,4,1,,
 2020-07-26,Teton,Montana,30099,15,0,15,0,,
 2020-07-26,Toole,Montana,30101,31,6,31,6,,
 2020-07-26,Treasure,Montana,30103,2,0,2,0,,
-2020-07-26,Valley,Montana,30105,7,0,7,0,,
+2020-07-26,Valley,Montana,30105,8,0,8,0,,
 2020-07-26,Wheatland,Montana,30107,2,0,2,0,,
 2020-07-26,Wibaux,Montana,30109,1,0,1,0,,
-2020-07-26,Yellowstone,Montana,30111,843,21,843,21,,
+2020-07-26,Yellowstone,Montana,30111,872,21,872,21,,
 2020-07-26,Adams,Nebraska,31001,324,11,324,11,,
 2020-07-26,Antelope,Nebraska,31003,17,1,17,1,,
 2020-07-26,Banner,Nebraska,31007,2,0,2,0,,
@@ -2231,7 +2231,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-07-26,Washington,Oregon,41067,2457,22,,,,
 2020-07-26,Yamhill,Oregon,41071,271,9,,,,
 2020-07-26,Adams,Pennsylvania,42001,442,17,426,,16,
-2020-07-26,Allegheny,Pennsylvania,42003,7161,222,6953,,208,
+2020-07-26,Allegheny,Pennsylvania,42003,7248,222,6953,,295,
 2020-07-26,Armstrong,Pennsylvania,42005,151,6,151,,0,
 2020-07-26,Beaver,Pennsylvania,42007,1101,82,1069,,32,
 2020-07-26,Bedford,Pennsylvania,42009,113,4,106,,7,
@@ -2511,7 +2511,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-07-26,Coffee,Tennessee,47031,261,0,254,,7,
 2020-07-26,Crockett,Tennessee,47033,141,3,127,,14,
 2020-07-26,Cumberland,Tennessee,47035,290,6,289,,1,
-2020-07-26,Davidson,Tennessee,47037,19374,186,19349,175,25,11
+2020-07-26,Davidson,Tennessee,47037,19349,186,19349,174,,12
 2020-07-26,Decatur,Tennessee,47039,89,0,60,,29,
 2020-07-26,DeKalb,Tennessee,47041,198,1,198,,0,
 2020-07-26,Dickson,Tennessee,47043,471,0,471,,0,
@@ -3063,41 +3063,41 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-07-26,Boone,West Virginia,54005,70,0,70,0,0,
 2020-07-26,Braxton,West Virginia,54007,8,0,8,0,0,
 2020-07-26,Brooke,West Virginia,54009,48,0,47,0,1,
-2020-07-26,Cabell,West Virginia,54011,268,2,259,2,9,
+2020-07-26,Cabell,West Virginia,54011,281,2,272,2,9,
 2020-07-26,Calhoun,West Virginia,54013,5,0,5,0,0,
 2020-07-26,Clay,West Virginia,54015,17,1,17,1,0,
-2020-07-26,Doddridge,West Virginia,54017,1,0,1,0,0,
+2020-07-26,Doddridge,West Virginia,54017,2,0,2,0,0,
 2020-07-26,Fayette,West Virginia,54019,114,5,114,5,0,
 2020-07-26,Gilmer,West Virginia,54021,14,0,14,0,0,
-2020-07-26,Grant,West Virginia,54023,39,0,38,0,1,
+2020-07-26,Grant,West Virginia,54023,41,0,40,0,1,
 2020-07-26,Greenbrier,West Virginia,54025,81,3,81,3,0,
 2020-07-26,Hampshire,West Virginia,54027,56,1,56,1,0,
-2020-07-26,Hancock,West Virginia,54029,83,0,79,0,4,
-2020-07-26,Hardy,West Virginia,54031,50,0,49,0,1,
-2020-07-26,Harrison,West Virginia,54033,157,1,156,1,1,
+2020-07-26,Hancock,West Virginia,54029,85,0,81,0,4,
+2020-07-26,Hardy,West Virginia,54031,51,0,50,0,1,
+2020-07-26,Harrison,West Virginia,54033,160,1,159,1,1,
 2020-07-26,Jackson,West Virginia,54035,153,19,153,19,0,
 2020-07-26,Jefferson,West Virginia,54037,280,4,275,4,5,
-2020-07-26,Kanawha,West Virginia,54039,667,20,655,20,12,
+2020-07-26,Kanawha,West Virginia,54039,683,20,671,20,12,
 2020-07-26,Lewis,West Virginia,54041,25,2,24,2,1,
 2020-07-26,Lincoln,West Virginia,54043,48,0,46,0,2,
-2020-07-26,Logan,West Virginia,54045,76,1,76,1,0,
-2020-07-26,Marion,West Virginia,54049,157,2,153,2,4,
-2020-07-26,Marshall,West Virginia,54051,97,0,96,0,1,
-2020-07-26,Mason,West Virginia,54053,40,1,40,1,0,
+2020-07-26,Logan,West Virginia,54045,86,1,86,1,0,
+2020-07-26,Marion,West Virginia,54049,158,2,154,2,4,
+2020-07-26,Marshall,West Virginia,54051,98,0,97,0,1,
+2020-07-26,Mason,West Virginia,54053,41,1,41,1,0,
 2020-07-26,McDowell,West Virginia,54047,15,0,14,0,1,
 2020-07-26,Mercer,West Virginia,54055,84,0,84,0,0,
-2020-07-26,Mineral,West Virginia,54057,95,3,93,3,2,
-2020-07-26,Mingo,West Virginia,54059,87,2,85,2,2,
-2020-07-26,Monongalia,West Virginia,54061,816,5,800,5,16,
+2020-07-26,Mineral,West Virginia,54057,96,3,94,3,2,
+2020-07-26,Mingo,West Virginia,54059,93,2,91,2,2,
+2020-07-26,Monongalia,West Virginia,54061,817,5,801,5,16,
 2020-07-26,Monroe,West Virginia,54063,19,0,18,0,1,
 2020-07-26,Morgan,West Virginia,54065,25,0,24,0,1,
 2020-07-26,Nicholas,West Virginia,54067,23,1,22,1,1,
-2020-07-26,Ohio,West Virginia,54069,228,3,228,3,0,
+2020-07-26,Ohio,West Virginia,54069,230,3,230,3,0,
 2020-07-26,Pendleton,West Virginia,54071,28,1,27,1,1,
 2020-07-26,Pleasants,West Virginia,54073,7,0,6,0,1,
 2020-07-26,Pocahontas,West Virginia,54075,40,0,39,0,1,
 2020-07-26,Preston,West Virginia,54077,119,2,97,2,22,
-2020-07-26,Putnam,West Virginia,54079,136,0,135,0,1,
+2020-07-26,Putnam,West Virginia,54079,140,0,139,0,1,
 2020-07-26,Raleigh,West Virginia,54081,130,0,126,0,4,
 2020-07-26,Randolph,West Virginia,54083,205,0,201,0,4,
 2020-07-26,Ritchie,West Virginia,54085,3,0,3,0,0,
@@ -3111,7 +3111,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-07-26,Webster,West Virginia,54101,3,0,3,0,0,
 2020-07-26,Wetzel,West Virginia,54103,40,0,40,0,0,
 2020-07-26,Wirt,West Virginia,54105,6,0,6,0,0,
-2020-07-26,Wood,West Virginia,54107,221,3,211,3,10,
+2020-07-26,Wood,West Virginia,54107,222,3,212,3,10,
 2020-07-26,Wyoming,West Virginia,54109,15,0,15,0,0,
 2020-07-26,Adams,Wisconsin,55001,60,2,60,2,,
 2020-07-26,Ashland,Wisconsin,55003,14,0,14,0,,
@@ -3125,7 +3125,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-07-26,Clark,Wisconsin,55019,156,7,156,7,,
 2020-07-26,Columbia,Wisconsin,55021,187,1,187,1,,
 2020-07-26,Crawford,Wisconsin,55023,51,0,51,0,,
-2020-07-26,Dane,Wisconsin,55025,3781,33,3781,33,,
+2020-07-26,Dane,Wisconsin,55025,3825,33,3825,33,,
 2020-07-26,Dodge,Wisconsin,55027,609,5,609,5,,
 2020-07-26,Door,Wisconsin,55029,82,3,82,3,,
 2020-07-26,Douglas,Wisconsin,55031,89,0,89,0,,
