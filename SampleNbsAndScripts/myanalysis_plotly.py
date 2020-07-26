@@ -12,6 +12,7 @@ from datetime import datetime
 import plotly.graph_objects as go
 import plotly
 import plotly.io as pio
+from plotly.subplots import make_subplots
 
 default_line_thickness=2
 default_width = 1280
@@ -46,7 +47,14 @@ instructions = '''
     <li> Hover your mouse over a trend line to find which location it refers to.
     <li> Single click on a location <b>in the legend</b> to show and hide that location's trend line.
     <li> Double click on a location <b>in the legend</b> to show only that location OR show ALL locations in that graph.
+    <li> Click and drag on a graph to zoom into a particular area.
     </ul>
+
+    <h2> Data Sources </h2>
+    <ul> 
+    <li> Covid-19 cases and deaths data from https://github.com/nytimes/covid-19-data.
+    <li> Population and Land Area data from random places I found information from the internet. Most was sourced via US Census data and tend to be at least 10 years old.
+    </ul> 
 </div>
 '''
 
@@ -246,31 +254,56 @@ def plotdeltas(deltas_df, name_of_plot, hover_template, show_by_default=True):
         )
 
 # %%
+#############################
+# New cases and Deaths in US
+#############################
 row = 1
-layout = go.Layout(
-        title = 'New cases and daily deaths for US',
-        plot_bgcolor = default_plot_color,
-        xaxis_gridcolor = default_grid_color,
-        yaxis_gridcolor = default_grid_color,
-        width=default_width,
-        height=default_height,
-        xaxis_title='Days',
-        yaxis_title='New cases & daily deaths'
-)
-fig = go.Figure(layout=layout)
+fig = make_subplots(specs=[[{"secondary_y": True}]])
 total_new_cases_by_date = generate_delta_df("all", "", "cases")
 total_deaths_by_date = generate_delta_df("all", "", "deaths")
 plotdeltas(total_new_cases_by_date, 'new cases', 'new cases: %{y:,.0f}<br>day: %{x}')
 plotdeltas(total_deaths_by_date, 'deaths', 'deaths: %{y:,.0f}<br>day: %{x}')
+
+cases_by_date = state_cov_data.groupby('date').sum()
+mortality_by_date = cases_by_date['deaths'][14:] / cases_by_date['cases'][:]
+mortality_by_date.dropna(inplace=True)
+fig.add_trace(
+    go.Scatter(x=mortality_by_date.index, y=mortality_by_date.values, mode='lines', name='mortality rate', line = { 'width': default_line_thickness }),
+    secondary_y=True
+)
+fig.update_layout(
+    title = 'New cases, daily deaths, and 2-week mortality for US',
+    plot_bgcolor = default_plot_color,
+    xaxis_gridcolor = default_grid_color,
+    yaxis_gridcolor = default_grid_color,
+    width=default_width,
+    height=default_height,
+    xaxis_title='Days',
+    yaxis_title='New cases & daily deaths'
+)
+fig.update_yaxes(title_text="2-week mortality rate", secondary_y=True)
 fig.show()
 
 plotly.offline.plot(fig, filename=webpage_folder + 'Chart_'+str(row)+'.html',auto_open=False)
 html_graphs.write('''
 <br/><br/><div>
-<h1>New cases per day</h1><br/>
-This trend line is a moving average of new cases & deaths over time. First for the US overall then by state (not all are represented here, just ones I found most interesting.
-</div>\n<div>\n''')
+<h1>New cases, Daily Deaths and 2-week Mortality for US</h1><br/>
+This is a combination plot showing a 7 day moving average of number of new cases per day, number of deaths per day, 
+and a 2-week mortality rate for the US overall. Note that the scale for the mortality rate appears along the right hand side of the graph, 
+while the scale for cases and deaths is along the left.<br/>
+<br/>
+The 2-week mortality rate is calculated by taking the total number of deaths that occurred by each date, and dividing it by the total number of new cases that occurred
+2 weeks earlier. Therefore, the desired line should be trending downward indicating that the number of deaths compared against the number of cases found is going down. 
+This could be due to more people being tested and testing as positive while the absolute mortality of covid-19 stays constant, but it also could be due to better treatment 
+of those infected. Note that a .03 mortality rate is believed to be about 30x higher than that of influenza. But also remember that disregarding age, a .03 mortality rate 
+implies that if you are infected, you have a 97% chance of surviving. <br/>
+<br/>
+For reference here is a table of Covid-19 mortality by age group (from: https://www.acsh.org/news/2020/06/23/coronavirus-covid-deaths-us-age-race-14863)<br/>
+<img src="mortality_by_age.png"><br/>
+</div>\n<div>\n
+''')
 html_graphs.write("  <object data=\""+'Chart_'+str(row)+'.html'+"\" width=" + str(default_width * 1.10) + " height=" + str(default_height* 1.10) + "\"></object>"+"\n")
+
 
 # %%
 #############################
@@ -297,6 +330,9 @@ for index, state in interesting_states.iterrows():
 
 fig.show()
 plotly.offline.plot(fig, filename=webpage_folder + 'Chart_'+str(row)+'.html',auto_open=False)
+html_graphs.write('''
+<h1>New Cases and Deaths by State</h1>\n
+''')
 html_graphs.write("  <object data=\""+'Chart_'+str(row)+'.html'+"\" width=" + str(default_width * 1.10) + " height=" + str(default_height* 1.10) + "\"></object>"+"\n")
 # %%
 #############################
@@ -348,6 +384,9 @@ for index, r in interesting_locations.iterrows():
 
 fig.show()
 plotly.offline.plot(fig, filename=webpage_folder + 'Chart_'+str(row)+'.html',auto_open=False)
+html_graphs.write('''
+<h1>New Cases and Deaths in Locations Interesting to Me</h1>\n
+''')
 html_graphs.write("  <object data=\""+'Chart_'+str(row)+'.html'+"\" width=" + str(default_width * 1.10) + " height=" + str(default_height* 1.10) + "\"></object>"+"\n")
 # %%
 #############################
@@ -379,7 +418,11 @@ html_graphs.write("\n</div>\n")
 #####################################
 # Do all states & counties
 #####################################
-
+html_graphs.write('''
+<div>
+<h1>State New Cases and Death Breakdowns</h1>\n
+</div>
+''')
 for index, s in interesting_states.iterrows():
 
     layout = go.Layout(
@@ -393,12 +436,31 @@ for index, s in interesting_states.iterrows():
             yaxis_title='New Cases / New Deaths'
     )
 
-    fig = go.Figure(layout=layout)
-
+    fig = make_subplots(specs=[[{"secondary_y": True}]])
     total_new_cases_by_date = generate_delta_df(s.state, 'all', 'cases')
     total_deaths_by_date = generate_delta_df(s.state, 'all', 'deaths')
     plotdeltas(total_new_cases_by_date, s.state + ' new cases', 'cases: %{y:,.0f}<br>day: %{x}')
     plotdeltas(total_deaths_by_date, s.state + ' deaths', 'deaths: %{y:,.0f}<br>day: %{x}')
+
+    cases_by_date = state_cov_data[state_cov_data.state == s.state].groupby('date').sum()
+    mortality_by_date = cases_by_date['deaths'][14:] / cases_by_date['cases'][:]
+    mortality_by_date.dropna(inplace=True)
+    fig.add_trace(
+        go.Scatter(x=mortality_by_date.index, y=mortality_by_date.values, mode='lines', name='mortality rate', line = { 'width': default_line_thickness }),
+        secondary_y=True
+    )
+
+    fig.update_layout(
+        title = 'New cases, daily deaths, and 2-week Mortality for US',
+        plot_bgcolor = default_plot_color,
+        xaxis_gridcolor = default_grid_color,
+        yaxis_gridcolor = default_grid_color,
+        width=default_width,
+        height=default_height,
+        xaxis_title='Days',
+        yaxis_title='New cases & daily deaths'
+    )
+    fig.update_yaxes(title_text="2-week mortality rate", secondary_y=True)
 
     basename_new_cases_all=s.state + '_new_cases'
     pio.write_image(fig, webpage_folder + basename_new_cases_all + '.jpg')
