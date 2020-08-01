@@ -5,6 +5,7 @@
 #  %%
 import time
 t0 = time.clock()
+
 #  %%
 import pandas as pd
 import numpy as np
@@ -239,7 +240,7 @@ def generate_delta_df(state, county, column):
     totals_by_date['diff'][1:] = deltas
     return totals_by_date
 
-def plotdeltas(deltas_df, name_of_plot, hover_template, show_by_default=True):
+def plotmovingaverage(deltas_df, name_of_plot, hover_template, show_by_default=True):
     if (len(deltas_df) > 0):
         df_with_ma = movingaverage(deltas_df, 7)
 
@@ -261,8 +262,8 @@ row = 1
 fig = make_subplots(specs=[[{"secondary_y": True}]])
 total_new_cases_by_date = generate_delta_df("all", "", "cases")
 total_deaths_by_date = generate_delta_df("all", "", "deaths")
-plotdeltas(total_new_cases_by_date, 'new cases', 'new cases: %{y:,.0f}<br>day: %{x}')
-plotdeltas(total_deaths_by_date, 'deaths', 'deaths: %{y:,.0f}<br>day: %{x}')
+plotmovingaverage(total_new_cases_by_date, 'new cases', 'new cases: %{y:,.0f}<br>day: %{x}')
+plotmovingaverage(total_deaths_by_date, 'deaths', 'deaths: %{y:,.0f}<br>day: %{x}')
 
 cases_by_date = state_cov_data.groupby('date').sum()
 mortality_by_date = cases_by_date['deaths'][14:] / cases_by_date['cases'][:]
@@ -326,7 +327,7 @@ fig = go.Figure(layout=layout)
 # Show all states by default.
 for index, state in interesting_states.iterrows():
     total_new_cases_by_date = generate_delta_df(state.state, 'all', 'cases')
-    plotdeltas(total_new_cases_by_date, state.state, 'new cases: %{y:,.0f}<br>day: %{x}')
+    plotmovingaverage(total_new_cases_by_date, state.state, 'new cases: %{y:,.0f}<br>day: %{x}')
 
 fig.show()
 plotly.offline.plot(fig, filename=webpage_folder + 'Chart_'+str(row)+'.html',auto_open=False)
@@ -355,7 +356,7 @@ fig = go.Figure(layout=layout)
 # Show all states by default.
 for index, state in interesting_states.iterrows():
     total_deaths_by_date = generate_delta_df(state.state, 'all', 'deaths')
-    plotdeltas(total_deaths_by_date, state.state, 'deaths: %{y:,.0f}<br>day: %{x}')
+    plotmovingaverage(total_deaths_by_date, state.state, 'deaths: %{y:,.0f}<br>day: %{x}')
 
 fig.show()
 plotly.offline.plot(fig, filename=webpage_folder + 'Chart_'+str(row)+'.html',auto_open=False)
@@ -380,7 +381,7 @@ fig = go.Figure(layout=layout)
 for index, r in interesting_locations.iterrows():
     if (r.county != ''):
         total_new_cases_by_date = generate_delta_df(r.state, r.county, 'cases')
-        plotdeltas(total_new_cases_by_date, r.state + ', ' + r.county, 'new cases: %{y:,.0f}<br>day: %{x}', r.show_by_default)
+        plotmovingaverage(total_new_cases_by_date, r.state + ', ' + r.county, 'new cases: %{y:,.0f}<br>day: %{x}', r.show_by_default)
 
 fig.show()
 plotly.offline.plot(fig, filename=webpage_folder + 'Chart_'+str(row)+'.html',auto_open=False)
@@ -408,7 +409,7 @@ fig = go.Figure(layout=layout)
 for index, r in interesting_locations.iterrows():
     if (r.county != ''):
         total_deaths_by_date = generate_delta_df(r.state, r.county, 'deaths')
-        plotdeltas(total_deaths_by_date, r.state + ', ' + r.county, 'deaths: %{y:,.0f}<br>day: %{x}', r.show_by_default)
+        plotmovingaverage(total_deaths_by_date, r.state + ', ' + r.county, 'deaths: %{y:,.0f}<br>day: %{x}', r.show_by_default)
 
 fig.show()
 plotly.offline.plot(fig, filename=webpage_folder + 'Chart_'+str(row)+'.html',auto_open=False)
@@ -439,8 +440,8 @@ for index, s in interesting_states.iterrows():
     fig = make_subplots(specs=[[{"secondary_y": True}]])
     total_new_cases_by_date = generate_delta_df(s.state, 'all', 'cases')
     total_deaths_by_date = generate_delta_df(s.state, 'all', 'deaths')
-    plotdeltas(total_new_cases_by_date, s.state + ' new cases', 'cases: %{y:,.0f}<br>day: %{x}')
-    plotdeltas(total_deaths_by_date, s.state + ' deaths', 'deaths: %{y:,.0f}<br>day: %{x}')
+    plotmovingaverage(total_new_cases_by_date, s.state + ' new cases', 'cases: %{y:,.0f}<br>day: %{x}')
+    plotmovingaverage(total_deaths_by_date, s.state + ' deaths', 'deaths: %{y:,.0f}<br>day: %{x}')
 
     cases_by_date = state_cov_data[state_cov_data.state == s.state].groupby('date').sum()
     mortality_by_date = cases_by_date['deaths'][14:] / cases_by_date['cases'][:]
@@ -483,7 +484,7 @@ for index, s in interesting_states.iterrows():
 
     for index, c in population_county[population_county.state == s.state].iterrows():
         total_new_cases_by_county = generate_delta_df(s.state, c.county, 'cases')
-        plotdeltas(total_new_cases_by_county, c.county,'')
+        plotmovingaverage(total_new_cases_by_county, c.county,'')
 
     basename_new_cases_by_county=s.state + '_new_cases_by_county'
     pio.write_image(fig, webpage_folder + basename_new_cases_by_county + '.jpg')
@@ -504,7 +505,7 @@ for index, s in interesting_states.iterrows():
 
     for index, c in population_county[population_county.state == s.state].iterrows():
         total_deaths_by_date = generate_delta_df(s.state, c.county, 'deaths')
-        plotdeltas(total_deaths_by_date, c.county,'')
+        plotmovingaverage(total_deaths_by_date, c.county,'')
 
     basename_deaths_by_county=s.state + '_deaths_by_county'
     pio.write_image(fig, webpage_folder + basename_deaths_by_county + '.jpg')
