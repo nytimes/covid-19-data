@@ -5,14 +5,17 @@
 #  %%
 import time
 t0 = time.clock()
-
-print('Hello from ' + os.name + '!!!!')
-
+# %%
+import os
+from IPython.core.display import display, HTML
 if (os.name == 'nt'):
-    basefolder = './'
+    datafolder = './'
+    color = 'red'
 else:
-    basefolder = './Users/jimgries/'
+    datafolder = './Users/jimgries/'
+    color = 'green'
 
+display(HTML(F'<H1>Hello from <span style="color:{color};">' + str.upper(os.name) + '</span>!!!!</H1>'))
 #  %%
 import pandas as pd
 import numpy as np
