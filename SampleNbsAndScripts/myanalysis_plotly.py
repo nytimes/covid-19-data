@@ -9,10 +9,10 @@ t0 = time.clock()
 import os
 from IPython.core.display import display, HTML
 if (os.name == 'nt'):
-    datafolder = './'
+    basefolder = './'
     color = 'red'
 else:
-    datafolder = './Users/jimgries/'
+    basefolder = './Users/jimgries/'
     color = 'green'
 
 display(HTML(F'<H1>Hello from <span style="color:{color};">' + str.upper(os.name) + '</span>!!!!</H1>'))
