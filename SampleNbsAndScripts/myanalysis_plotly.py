@@ -6,6 +6,13 @@
 import time
 t0 = time.clock()
 
+print('Hello from ' + os.name + '!!!!')
+
+if (os.name == 'nt'):
+    basefolder = './'
+else:
+    basefolder = './Users/jimgries/'
+
 #  %%
 import pandas as pd
 import numpy as np
@@ -22,7 +29,7 @@ default_plot_color = 'rgba(0, 0, 0, 0)'
 default_grid_color = 'rgba(225, 225, 225, 255)'
 
 # %%
-webpage_folder = 'webpage/'
+webpage_folder = basefolder + 'webpage/'
 html_graphs = open(webpage_folder + "CovidAnalysis.html",'w',)
 html_graphs.write('''
 <html><head>
@@ -70,10 +77,12 @@ html_graphs.write(instructions)
 # 4. Identify list of states, counties and cities to graph
 # **********************************************************************************************************
 #  %%
-state_cov_data = pd.read_csv('us-states.csv')
-county_cov_data = pd.read_csv('us-counties.csv')
+datafolder = basefolder
 
-population_county = pd.read_csv('county-population-2013.csv')
+state_cov_data = pd.read_csv(datafolder + 'us-states.csv')
+county_cov_data = pd.read_csv(datafolder + 'us-counties.csv')
+
+population_county = pd.read_csv(datafolder + 'county-population-2013.csv')
 population_county.loc[population_county.state == 'Louisiana'] = population_county[population_county.state == 'Louisiana'].replace(regex=[' Parish'], value='')
 population_county.drop(columns={'Core_Based_Statistical_Area'}, inplace=True)
 population_county.rename(columns={'population2013': 'population'}, inplace=True)
@@ -81,20 +90,20 @@ population_county['key'] = population_county.county + ',' + population_county.st
 population_county.drop_duplicates(subset='key', inplace=True)
 population_county.index = population_county.key
 #%%
-population_city_density = pd.read_csv('city_density.csv')
+population_city_density = pd.read_csv(datafolder + 'city_density.csv')
 population_city_density = population_city_density.rename(columns={'City': 'citystate', 'Population Density (Persons/Square Mile)': 'density', '2016 Population': 'population', 'Land Area (Square Miles)': 'area'} )
 population_city_density[['city', 'state']] = population_city_density.citystate.str.split(', ', expand=True)
 
-population_state_density = pd.read_csv('state_density.csv')
+population_state_density = pd.read_csv(datafolder + 'state_density.csv')
 population_state_density = population_state_density.rename(columns={'State': 'state', 'Density': 'density', 'Pop': 'population', 'LandArea': 'area'})
 
 # Create a state abbreviation to full name mapping dataframe.
-state_abbrev = pd.read_csv('StateAbbrev.csv')
+state_abbrev = pd.read_csv(datafolder + 'StateAbbrev.csv')
 state_abbrev.index = state_abbrev.abbrev
 state_abbrev.drop(columns='abbrev', inplace=True)
 
 # Get the land area table for county, split the 'county, SS' column into two.
-county_land_area = pd.read_csv('LandAreaCounties.csv')
+county_land_area = pd.read_csv(datafolder + 'LandAreaCounties.csv')
 county_density = county_land_area['Areaname'].str.split(', ', n=1, expand=True)
 county_density.rename(columns={0: 'county', 1: 'state'}, inplace=True)
 county_density.dropna(inplace=True)
