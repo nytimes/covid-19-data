@@ -217,7 +217,7 @@ On May 25, North Dakota announced that due to a laboratory equipment malfunction
 
 * Connecticut
 
-On May 27, Connecticut [announced](https://portal.ct.gov/Office-of-the-Governor/News/Press-Releases/2020/05-2020/Governor-Lamont-Coronavirus-Update-May-27) announced that they were removing 356 positive cases, which were determined to be duplicates, from their total case count.
+On May 27, Connecticut [announced](https://portal.ct.gov/Office-of-the-Governor/News/Press-Releases/2020/05-2020/Governor-Lamont-Coronavirus-Update-May-27) that they were removing 356 positive cases, which were determined to be duplicates, from their total case count.
 
 The number of deaths reported by the state in four counties on June 1 was anomalously high and several deaths are removed in the data for June 2.
 
