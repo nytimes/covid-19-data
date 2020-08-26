@@ -94,7 +94,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-08-25,Wrangell City and Borough,Alaska,02275,15,0,15,0,,
 2020-08-25,Yukon-Koyukuk Census Area,Alaska,02290,68,1,68,1,,
 2020-08-25,Apache,Arizona,04001,3309,148,,,,
-2020-08-25,Cochise,Arizona,04003,1803,59,1803,59,,
+2020-08-25,Cochise,Arizona,04003,1805,60,1805,60,,
 2020-08-25,Coconino,Arizona,04005,3264,122,,,,
 2020-08-25,Gila,Arizona,04007,1083,44,,,,
 2020-08-25,Graham,Arizona,04009,694,22,,,,
@@ -105,9 +105,9 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-08-25,Navajo,Arizona,04017,5523,216,,,,
 2020-08-25,Pima,Arizona,04019,20919,553,,,,
 2020-08-25,Pinal,Arizona,04021,9232,178,,,,
-2020-08-25,Santa Cruz,Arizona,04023,2743,56,2743,55,,1
-2020-08-25,Yavapai,Arizona,04025,2259,76,2240,76,19,0
-2020-08-25,Yuma,Arizona,04027,12085,305,12072,305,13,
+2020-08-25,Santa Cruz,Arizona,04023,2742,56,2742,56,,0
+2020-08-25,Yavapai,Arizona,04025,2259,76,2246,76,13,0
+2020-08-25,Yuma,Arizona,04027,12085,305,12082,305,3,
 2020-08-25,Arkansas,Arkansas,05001,265,2,265,2,,
 2020-08-25,Ashley,Arkansas,05003,380,7,380,7,,
 2020-08-25,Baxter,Arkansas,05005,116,0,116,0,,
@@ -184,115 +184,115 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-08-25,White,Arkansas,05145,462,8,462,8,,
 2020-08-25,Woodruff,Arkansas,05147,27,0,27,0,,
 2020-08-25,Yell,Arkansas,05149,1111,21,1111,21,,
-2020-08-25,Alameda,California,06001,16807,234,16807,234,,
+2020-08-25,Alameda,California,06001,17296,240,17296,240,,
 2020-08-25,Alpine,California,06003,2,0,2,0,,
 2020-08-25,Amador,California,06005,226,14,226,14,,
-2020-08-25,Butte,California,06007,1664,18,1664,18,,
+2020-08-25,Butte,California,06007,1699,18,1699,18,,
 2020-08-25,Calaveras,California,06009,197,2,197,2,,
-2020-08-25,Colusa,California,06011,426,5,426,5,,
-2020-08-25,Contra Costa,California,06013,12663,169,12663,169,,
-2020-08-25,Del Norte,California,06015,116,1,116,1,,
+2020-08-25,Colusa,California,06011,429,5,429,5,,
+2020-08-25,Contra Costa,California,06013,13123,171,13123,171,,
+2020-08-25,Del Norte,California,06015,121,1,121,1,,
 2020-08-25,El Dorado,California,06017,924,2,924,2,,
-2020-08-25,Fresno,California,06019,23414,226,23414,226,,
+2020-08-25,Fresno,California,06019,23618,226,23618,226,,
 2020-08-25,Glenn,California,06021,421,3,421,3,,
-2020-08-25,Humboldt,California,06023,359,4,359,4,,
-2020-08-25,Imperial,California,06025,10396,271,10396,271,,
+2020-08-25,Humboldt,California,06023,360,4,360,4,,
+2020-08-25,Imperial,California,06025,10486,271,10486,271,,
 2020-08-25,Inyo,California,06027,144,11,144,11,,
-2020-08-25,Kern,California,06029,28234,240,28234,240,,
+2020-08-25,Kern,California,06029,28520,251,28520,251,,
 2020-08-25,Kings,California,06031,5957,69,5957,69,,
-2020-08-25,Lake,California,06033,299,3,299,3,,
-2020-08-25,Lassen,California,06035,704,0,704,0,,
-2020-08-25,Los Angeles,California,06037,232893,5558,232893,5558,,
-2020-08-25,Madera,California,06039,3484,50,3484,50,,
-2020-08-25,Marin,California,06041,5942,85,5942,85,,
+2020-08-25,Lake,California,06033,302,3,302,3,,
+2020-08-25,Lassen,California,06035,714,0,714,0,,
+2020-08-25,Los Angeles,California,06037,233777,5605,233777,5605,,
+2020-08-25,Madera,California,06039,3509,51,3509,51,,
+2020-08-25,Marin,California,06041,5965,94,5965,94,,
 2020-08-25,Mariposa,California,06043,70,2,70,2,,
 2020-08-25,Mendocino,California,06045,645,16,645,16,,
-2020-08-25,Merced,California,06047,7653,106,7653,106,,
+2020-08-25,Merced,California,06047,7690,110,7690,110,,
 2020-08-25,Modoc,California,06049,5,0,5,0,,
 2020-08-25,Mono,California,06051,162,2,162,2,,
-2020-08-25,Monterey,California,06053,7274,52,7274,52,,
-2020-08-25,Napa,California,06055,1349,13,1349,13,,
-2020-08-25,Nevada,California,06057,423,3,423,3,,
-2020-08-25,Orange,California,06059,46307,897,46307,897,,
-2020-08-25,Placer,California,06061,2795,31,2795,31,,
+2020-08-25,Monterey,California,06053,7393,53,7393,53,,
+2020-08-25,Napa,California,06055,1366,13,1366,13,,
+2020-08-25,Nevada,California,06057,424,5,424,5,,
+2020-08-25,Orange,California,06059,46642,912,46642,912,,
+2020-08-25,Placer,California,06061,2833,32,2833,32,,
 2020-08-25,Plumas,California,06063,37,0,37,0,,
-2020-08-25,Riverside,California,06065,50744,972,50744,972,,
-2020-08-25,Sacramento,California,06067,16330,246,16330,246,,
-2020-08-25,San Benito,California,06069,978,7,978,7,,
-2020-08-25,San Bernardino,California,06071,45246,692,45246,692,,
-2020-08-25,San Diego,California,06073,36790,660,36790,660,,
+2020-08-25,Riverside,California,06065,51200,978,51200,978,,
+2020-08-25,Sacramento,California,06067,16622,252,16622,252,,
+2020-08-25,San Benito,California,06069,987,7,987,7,,
+2020-08-25,San Bernardino,California,06071,45666,695,45666,695,,
+2020-08-25,San Diego,California,06073,36792,660,36792,660,,
 2020-08-25,San Francisco,California,06075,8984,77,8984,77,,
-2020-08-25,San Joaquin,California,06077,16131,297,16131,297,,
-2020-08-25,San Luis Obispo,California,06079,2735,21,2735,21,,
+2020-08-25,San Joaquin,California,06077,16565,297,16565,297,,
+2020-08-25,San Luis Obispo,California,06079,2769,21,2769,21,,
 2020-08-25,San Mateo,California,06081,7788,130,7788,130,,
-2020-08-25,Santa Barbara,California,06083,7800,88,7800,88,,
-2020-08-25,Santa Clara,California,06085,16151,225,16151,225,,
+2020-08-25,Santa Barbara,California,06083,7869,89,7869,89,,
+2020-08-25,Santa Clara,California,06085,16306,234,16306,234,,
 2020-08-25,Santa Cruz,California,06087,1698,7,1698,7,,
-2020-08-25,Shasta,California,06089,545,11,545,11,,
+2020-08-25,Shasta,California,06089,553,11,553,11,,
 2020-08-25,Sierra,California,06091,6,0,6,0,,
-2020-08-25,Siskiyou,California,06093,124,0,124,0,,
-2020-08-25,Solano,California,06095,5211,46,5211,46,,
+2020-08-25,Siskiyou,California,06093,125,0,125,0,,
+2020-08-25,Solano,California,06095,5236,46,5236,46,,
 2020-08-25,Sonoma,California,06097,5212,73,5212,73,,
-2020-08-25,Stanislaus,California,06099,13483,232,13483,232,,
+2020-08-25,Stanislaus,California,06099,13521,237,13521,237,,
 2020-08-25,Sutter,California,06101,1283,8,1283,8,,
-2020-08-25,Tehama,California,06103,381,1,381,1,,
+2020-08-25,Tehama,California,06103,388,1,388,1,,
 2020-08-25,Trinity,California,06105,11,0,11,0,,
-2020-08-25,Tulare,California,06107,13431,216,13431,216,,
-2020-08-25,Tuolumne,California,06109,177,2,177,2,,
-2020-08-25,Ventura,California,06111,10126,103,10126,103,,
-2020-08-25,Yolo,California,06113,2239,47,2239,47,,
+2020-08-25,Tulare,California,06107,13609,216,13609,216,,
+2020-08-25,Tuolumne,California,06109,179,2,179,2,,
+2020-08-25,Ventura,California,06111,10261,105,10261,105,,
+2020-08-25,Yolo,California,06113,2255,50,2255,50,,
 2020-08-25,Yuba,California,06115,880,4,880,4,,
-2020-08-25,Adams,Colorado,08001,7297,194,,,,
-2020-08-25,Alamosa,Colorado,08003,236,9,,,,
-2020-08-25,Arapahoe,Colorado,08005,8034,367,,,,
-2020-08-25,Archuleta,Colorado,08007,45,0,,,,
+2020-08-25,Adams,Colorado,08001,7334,196,,,,
+2020-08-25,Alamosa,Colorado,08003,237,9,,,,
+2020-08-25,Arapahoe,Colorado,08005,8051,367,,,,
+2020-08-25,Archuleta,Colorado,08007,46,0,,,,
 2020-08-25,Baca,Colorado,08009,15,0,,,,
 2020-08-25,Bent,Colorado,08011,11,0,,,,
-2020-08-25,Boulder,Colorado,08013,2239,79,,79,,0
-2020-08-25,Broomfield,Colorado,08014,515,32,,,,
-2020-08-25,Chaffee,Colorado,08015,311,19,,,,
+2020-08-25,Boulder,Colorado,08013,2250,79,,79,,0
+2020-08-25,Broomfield,Colorado,08014,523,33,,,,
+2020-08-25,Chaffee,Colorado,08015,314,19,,,,
 2020-08-25,Cheyenne,Colorado,08017,9,0,,,,
 2020-08-25,Clear Creek,Colorado,08019,34,1,,,,
 2020-08-25,Conejos,Colorado,08021,31,0,,,,
-2020-08-25,Costilla,Colorado,08023,27,0,,,,
+2020-08-25,Costilla,Colorado,08023,29,0,,,,
 2020-08-25,Crowley,Colorado,08025,73,1,,,,
 2020-08-25,Custer,Colorado,08027,13,0,,,,
-2020-08-25,Delta,Colorado,08029,140,1,,,,
-2020-08-25,Denver,Colorado,08031,10931,426,10931,426,0,0
+2020-08-25,Delta,Colorado,08029,147,1,,,,
+2020-08-25,Denver,Colorado,08031,11038,426,10931,426,107,0
 2020-08-25,Dolores,Colorado,08033,2,0,,,,
-2020-08-25,Douglas,Colorado,08035,2024,60,,,,
-2020-08-25,Eagle,Colorado,08037,1166,10,,,,
+2020-08-25,Douglas,Colorado,08035,2031,60,,,,
+2020-08-25,Eagle,Colorado,08037,1167,10,,,,
 2020-08-25,Elbert,Colorado,08039,117,2,,,,
-2020-08-25,El Paso,Colorado,08041,5837,152,,,,
-2020-08-25,Fremont,Colorado,08043,146,0,,,,
-2020-08-25,Garfield,Colorado,08045,818,4,,,,
+2020-08-25,El Paso,Colorado,08041,5845,152,,,,
+2020-08-25,Fremont,Colorado,08043,152,0,,,,
+2020-08-25,Garfield,Colorado,08045,821,4,,,,
 2020-08-25,Gilpin,Colorado,08047,17,0,,,,
-2020-08-25,Grand,Colorado,08049,56,1,,,,
+2020-08-25,Grand,Colorado,08049,57,1,,,,
 2020-08-25,Gunnison,Colorado,08051,286,7,,,,
 2020-08-25,Hinsdale,Colorado,08053,3,0,,,,
 2020-08-25,Huerfano,Colorado,08055,8,1,,,,
 2020-08-25,Jackson,Colorado,08057,9,0,,,,
-2020-08-25,Jefferson,Colorado,08059,4605,235,,,,
-2020-08-25,Kit Carson,Colorado,08063,69,3,,,,
+2020-08-25,Jefferson,Colorado,08059,4645,235,,,,
+2020-08-25,Kit Carson,Colorado,08063,74,3,,,,
 2020-08-25,Lake,Colorado,08065,80,0,,,,
-2020-08-25,La Plata,Colorado,08067,232,2,,,,
-2020-08-25,Larimer,Colorado,08069,1817,37,,,,
+2020-08-25,La Plata,Colorado,08067,234,2,,,,
+2020-08-25,Larimer,Colorado,08069,1840,38,,,,
 2020-08-25,Las Animas,Colorado,08071,19,0,,,,
 2020-08-25,Lincoln,Colorado,08073,8,0,,,,
-2020-08-25,Logan,Colorado,08075,665,5,,,,
-2020-08-25,Mesa,Colorado,08077,388,5,,,,
+2020-08-25,Logan,Colorado,08075,672,5,,,,
+2020-08-25,Mesa,Colorado,08077,393,5,,,,
 2020-08-25,Mineral,Colorado,08079,19,0,,,,
 2020-08-25,Moffat,Colorado,08081,33,1,,,,
-2020-08-25,Montezuma,Colorado,08083,121,5,,,,
-2020-08-25,Montrose,Colorado,08085,336,13,,,,
-2020-08-25,Morgan,Colorado,08087,706,47,,,,
+2020-08-25,Montezuma,Colorado,08083,122,5,,,,
+2020-08-25,Montrose,Colorado,08085,339,13,,,,
+2020-08-25,Morgan,Colorado,08087,708,47,,,,
 2020-08-25,Otero,Colorado,08089,81,6,,,,
-2020-08-25,Ouray,Colorado,08091,20,1,,,,
+2020-08-25,Ouray,Colorado,08091,21,1,,,,
 2020-08-25,Park,Colorado,08093,43,1,,,,
 2020-08-25,Phillips,Colorado,08095,19,0,,,,
-2020-08-25,Pitkin,Colorado,08097,193,2,,,,
-2020-08-25,Prowers,Colorado,08099,78,0,,,,
-2020-08-25,Pueblo,Colorado,08101,802,34,,,,
+2020-08-25,Pitkin,Colorado,08097,195,2,,,,
+2020-08-25,Prowers,Colorado,08099,79,0,,,,
+2020-08-25,Pueblo,Colorado,08101,806,34,,,,
 2020-08-25,Rio Blanco,Colorado,08103,21,0,,,,
 2020-08-25,Rio Grande,Colorado,08105,94,2,,,,
 2020-08-25,Routt,Colorado,08107,131,8,,,,
@@ -300,24 +300,24 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-08-25,San Juan,Colorado,08111,2,0,,,,
 2020-08-25,San Miguel,Colorado,08113,93,0,,,,
 2020-08-25,Sedgwick,Colorado,08115,12,1,,,,
-2020-08-25,Summit,Colorado,08117,352,4,263,,89,
-2020-08-25,Teller,Colorado,08119,155,3,,,,
+2020-08-25,Summit,Colorado,08117,358,4,263,,95,
+2020-08-25,Teller,Colorado,08119,157,3,,,,
 2020-08-25,Washington,Colorado,08121,52,0,,,,
-2020-08-25,Weld,Colorado,08123,3956,146,,94,,52
+2020-08-25,Weld,Colorado,08123,3965,146,,94,,52
 2020-08-25,Yuma,Colorado,08125,63,0,,,,
-2020-08-25,Fairfield,Connecticut,09001,18605,1411,17899,1098,706,313
-2020-08-25,Hartford,Connecticut,09003,13180,1422,12532,1102,648,320
+2020-08-25,Fairfield,Connecticut,09001,18622,1412,17916,1099,706,313
+2020-08-25,Hartford,Connecticut,09003,13184,1424,12538,1105,646,319
 2020-08-25,Litchfield,Connecticut,09005,1658,139,1588,118,70,21
-2020-08-25,Middlesex,Connecticut,09007,1434,192,1371,154,63,38
-2020-08-25,New Haven,Connecticut,09009,13518,1111,13083,959,435,152
-2020-08-25,New London,Connecticut,09011,1517,105,1450,78,67,27
-2020-08-25,Tolland,Connecticut,09013,1085,65,1023,51,62,14
-2020-08-25,Unknown,Connecticut,,234,0,224,0,10,0
+2020-08-25,Middlesex,Connecticut,09007,1436,192,1373,154,63,38
+2020-08-25,New Haven,Connecticut,09009,13524,1110,13091,960,433,150
+2020-08-25,New London,Connecticut,09011,1520,106,1453,79,67,27
+2020-08-25,Tolland,Connecticut,09013,1090,65,1028,51,62,14
+2020-08-25,Unknown,Connecticut,,226,0,214,0,12,0
 2020-08-25,Windham,Connecticut,09015,780,15,770,14,10,1
-2020-08-25,Kent,Delaware,10001,2553,109,2386,99,167,10
-2020-08-25,New Castle,Delaware,10003,7865,299,7678,254,187,45
-2020-08-25,Sussex,Delaware,10005,6249,196,5593,179,656,17
-2020-08-25,Unknown,Delaware,,275,0,273,,2,
+2020-08-25,Kent,Delaware,10001,2556,109,2391,99,165,10
+2020-08-25,New Castle,Delaware,10003,7890,299,7706,254,184,45
+2020-08-25,Sussex,Delaware,10005,6239,195,5588,178,651,17
+2020-08-25,Unknown,Delaware,,277,0,275,,2,
 2020-08-25,District of Columbia,District of Columbia,11001,13684,604,13684,604,,
 2020-08-25,Alachua,Florida,12001,5023,31,,31,,
 2020-08-25,Baker,Florida,12003,1118,4,,4,,
@@ -387,510 +387,510 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-08-25,Wakulla,Florida,12129,863,6,,6,,
 2020-08-25,Walton,Florida,12131,1588,20,,20,,
 2020-08-25,Washington,Florida,12133,989,14,,14,,
-2020-08-25,Appling,Georgia,13001,853,22,853,22,,
-2020-08-25,Atkinson,Georgia,13003,382,3,382,3,,
-2020-08-25,Bacon,Georgia,13005,492,8,492,8,,
+2020-08-25,Appling,Georgia,13001,856,23,856,23,,
+2020-08-25,Atkinson,Georgia,13003,386,3,386,3,,
+2020-08-25,Bacon,Georgia,13005,493,8,493,8,,
 2020-08-25,Baker,Georgia,13007,73,3,73,3,,
-2020-08-25,Baldwin,Georgia,13009,1415,46,1415,46,,
-2020-08-25,Banks,Georgia,13011,337,8,337,8,,
-2020-08-25,Barrow,Georgia,13013,1587,36,1587,36,,
-2020-08-25,Bartow,Georgia,13015,2256,67,2256,67,,
-2020-08-25,Ben Hill,Georgia,13017,603,8,603,8,,
-2020-08-25,Berrien,Georgia,13019,365,3,365,3,,
-2020-08-25,Bibb,Georgia,13021,5302,98,5302,98,,
-2020-08-25,Bleckley,Georgia,13023,316,12,316,12,,
-2020-08-25,Brantley,Georgia,13025,292,8,292,8,,
-2020-08-25,Brooks,Georgia,13027,453,20,453,20,,
-2020-08-25,Bryan,Georgia,13029,793,9,793,9,,
-2020-08-25,Bulloch,Georgia,13031,1511,19,1511,19,,
-2020-08-25,Burke,Georgia,13033,621,7,621,7,,
-2020-08-25,Butts,Georgia,13035,535,40,535,40,,
-2020-08-25,Calhoun,Georgia,13037,225,7,225,7,,
-2020-08-25,Camden,Georgia,13039,946,7,946,7,,
-2020-08-25,Candler,Georgia,13043,304,11,304,11,,
-2020-08-25,Carroll,Georgia,13045,2232,56,2232,56,,
-2020-08-25,Catoosa,Georgia,13047,803,17,803,17,,
-2020-08-25,Charlton,Georgia,13049,544,5,544,5,,
-2020-08-25,Chatham,Georgia,13051,6730,115,6730,115,,
-2020-08-25,Chattahoochee,Georgia,13053,942,2,942,2,,
-2020-08-25,Chattooga,Georgia,13055,422,5,422,5,,
-2020-08-25,Cherokee,Georgia,13057,4412,72,4412,72,,
-2020-08-25,Clarke,Georgia,13059,2511,25,2511,25,,
+2020-08-25,Baldwin,Georgia,13009,1467,47,1467,47,,
+2020-08-25,Banks,Georgia,13011,346,8,346,8,,
+2020-08-25,Barrow,Georgia,13013,1629,36,1629,36,,
+2020-08-25,Bartow,Georgia,13015,2292,67,2292,67,,
+2020-08-25,Ben Hill,Georgia,13017,605,10,605,10,,
+2020-08-25,Berrien,Georgia,13019,367,3,367,3,,
+2020-08-25,Bibb,Georgia,13021,5340,106,5340,106,,
+2020-08-25,Bleckley,Georgia,13023,328,15,328,15,,
+2020-08-25,Brantley,Georgia,13025,296,8,296,8,,
+2020-08-25,Brooks,Georgia,13027,455,20,455,20,,
+2020-08-25,Bryan,Georgia,13029,799,9,799,9,,
+2020-08-25,Bulloch,Georgia,13031,1525,21,1525,21,,
+2020-08-25,Burke,Georgia,13033,631,7,631,7,,
+2020-08-25,Butts,Georgia,13035,541,40,541,40,,
+2020-08-25,Calhoun,Georgia,13037,226,7,226,7,,
+2020-08-25,Camden,Georgia,13039,957,7,957,7,,
+2020-08-25,Candler,Georgia,13043,317,11,317,11,,
+2020-08-25,Carroll,Georgia,13045,2216,56,2216,56,,
+2020-08-25,Catoosa,Georgia,13047,809,17,809,17,,
+2020-08-25,Charlton,Georgia,13049,545,5,545,5,,
+2020-08-25,Chatham,Georgia,13051,6760,116,6760,116,,
+2020-08-25,Chattahoochee,Georgia,13053,978,2,978,2,,
+2020-08-25,Chattooga,Georgia,13055,465,5,465,5,,
+2020-08-25,Cherokee,Georgia,13057,4459,72,4459,72,,
+2020-08-25,Clarke,Georgia,13059,2564,27,2564,27,,
 2020-08-25,Clay,Georgia,13061,110,2,110,2,,
-2020-08-25,Clayton,Georgia,13063,6087,122,6087,122,,
-2020-08-25,Clinch,Georgia,13065,269,4,269,4,,
-2020-08-25,Cobb,Georgia,13067,16055,370,16055,370,,
-2020-08-25,Coffee,Georgia,13069,1715,34,1715,34,,
-2020-08-25,Colquitt,Georgia,13071,1693,25,1693,25,,
-2020-08-25,Columbia,Georgia,13073,2978,40,2978,40,,
+2020-08-25,Clayton,Georgia,13063,6124,128,6124,128,,
+2020-08-25,Clinch,Georgia,13065,271,4,271,4,,
+2020-08-25,Cobb,Georgia,13067,16144,373,16144,373,,
+2020-08-25,Coffee,Georgia,13069,1721,36,1721,36,,
+2020-08-25,Colquitt,Georgia,13071,1702,26,1702,26,,
+2020-08-25,Columbia,Georgia,13073,2995,41,2995,41,,
 2020-08-25,Cook,Georgia,13075,497,10,497,10,,
-2020-08-25,Coweta,Georgia,13077,2025,26,2025,26,,
-2020-08-25,Crawford,Georgia,13079,146,1,146,1,,
-2020-08-25,Crisp,Georgia,13081,436,15,436,15,,
-2020-08-25,Dade,Georgia,13083,180,3,180,3,,
-2020-08-25,Dawson,Georgia,13085,590,6,590,6,,
-2020-08-25,Decatur,Georgia,13087,923,20,923,20,,
-2020-08-25,DeKalb,Georgia,13089,16004,280,16004,280,,
-2020-08-25,Dodge,Georgia,13091,289,5,289,5,,
+2020-08-25,Coweta,Georgia,13077,2041,26,2041,26,,
+2020-08-25,Crawford,Georgia,13079,143,1,143,1,,
+2020-08-25,Crisp,Georgia,13081,448,15,448,15,,
+2020-08-25,Dade,Georgia,13083,183,3,183,3,,
+2020-08-25,Dawson,Georgia,13085,599,6,599,6,,
+2020-08-25,Decatur,Georgia,13087,929,20,929,20,,
+2020-08-25,DeKalb,Georgia,13089,16086,287,16086,287,,
+2020-08-25,Dodge,Georgia,13091,295,5,295,5,,
 2020-08-25,Dooly,Georgia,13093,282,14,282,14,,
-2020-08-25,Dougherty,Georgia,13095,2922,174,2922,174,,
-2020-08-25,Douglas,Georgia,13097,3048,62,3048,62,,
-2020-08-25,Early,Georgia,13099,400,32,400,32,,
-2020-08-25,Echols,Georgia,13101,230,2,230,2,,
-2020-08-25,Effingham,Georgia,13103,962,14,962,14,,
-2020-08-25,Elbert,Georgia,13105,422,1,422,1,,
-2020-08-25,Emanuel,Georgia,13107,662,20,662,20,,
-2020-08-25,Evans,Georgia,13109,334,4,334,4,,
+2020-08-25,Dougherty,Georgia,13095,2925,176,2925,176,,
+2020-08-25,Douglas,Georgia,13097,3060,62,3060,62,,
+2020-08-25,Early,Georgia,13099,402,32,402,32,,
+2020-08-25,Echols,Georgia,13101,231,2,231,2,,
+2020-08-25,Effingham,Georgia,13103,975,14,975,14,,
+2020-08-25,Elbert,Georgia,13105,431,1,431,1,,
+2020-08-25,Emanuel,Georgia,13107,688,21,688,21,,
+2020-08-25,Evans,Georgia,13109,336,4,336,4,,
 2020-08-25,Fannin,Georgia,13111,416,6,416,6,,
-2020-08-25,Fayette,Georgia,13113,1419,36,1419,36,,
-2020-08-25,Floyd,Georgia,13115,2028,28,2028,28,,
-2020-08-25,Forsyth,Georgia,13117,2814,31,2814,31,,
-2020-08-25,Franklin,Georgia,13119,503,9,503,9,,
-2020-08-25,Fulton,Georgia,13121,23825,490,23825,490,,
-2020-08-25,Gilmer,Georgia,13123,718,5,718,5,,
+2020-08-25,Fayette,Georgia,13113,1434,36,1434,36,,
+2020-08-25,Floyd,Georgia,13115,2086,29,2086,29,,
+2020-08-25,Forsyth,Georgia,13117,2884,32,2884,32,,
+2020-08-25,Franklin,Georgia,13119,514,10,514,10,,
+2020-08-25,Fulton,Georgia,13121,23987,497,23987,497,,
+2020-08-25,Gilmer,Georgia,13123,719,5,719,5,,
 2020-08-25,Glascock,Georgia,13125,34,2,34,2,,
-2020-08-25,Glynn,Georgia,13127,2891,64,2891,64,,
-2020-08-25,Gordon,Georgia,13129,1444,25,1444,25,,
-2020-08-25,Grady,Georgia,13131,627,8,627,8,,
-2020-08-25,Greene,Georgia,13133,400,14,400,14,,
-2020-08-25,Gwinnett,Georgia,13135,23178,306,23178,306,,
-2020-08-25,Habersham,Georgia,13137,1268,57,1268,57,,
-2020-08-25,Hall,Georgia,13139,7020,116,7020,116,,
-2020-08-25,Hancock,Georgia,13141,348,39,348,39,,
-2020-08-25,Haralson,Georgia,13143,293,7,293,7,,
-2020-08-25,Harris,Georgia,13145,711,19,711,19,,
-2020-08-25,Hart,Georgia,13147,385,10,385,10,,
+2020-08-25,Glynn,Georgia,13127,2907,64,2907,64,,
+2020-08-25,Gordon,Georgia,13129,1461,25,1461,25,,
+2020-08-25,Grady,Georgia,13131,628,8,628,8,,
+2020-08-25,Greene,Georgia,13133,409,15,409,15,,
+2020-08-25,Gwinnett,Georgia,13135,23411,309,23411,309,,
+2020-08-25,Habersham,Georgia,13137,1279,59,1279,59,,
+2020-08-25,Hall,Georgia,13139,7116,118,7116,118,,
+2020-08-25,Hancock,Georgia,13141,351,39,351,39,,
+2020-08-25,Haralson,Georgia,13143,296,7,296,7,,
+2020-08-25,Harris,Georgia,13145,711,21,711,21,,
+2020-08-25,Hart,Georgia,13147,390,10,390,10,,
 2020-08-25,Heard,Georgia,13149,161,5,161,5,,
-2020-08-25,Henry,Georgia,13151,4145,67,4145,67,,
-2020-08-25,Houston,Georgia,13153,2508,63,2508,63,,
-2020-08-25,Irwin,Georgia,13155,200,2,200,2,,
-2020-08-25,Jackson,Georgia,13157,1311,22,1311,22,,
-2020-08-25,Jasper,Georgia,13159,189,2,189,2,,
-2020-08-25,Jeff Davis,Georgia,13161,600,9,600,9,,
-2020-08-25,Jefferson,Georgia,13163,620,13,620,13,,
-2020-08-25,Jenkins,Georgia,13165,283,24,283,24,,
-2020-08-25,Johnson,Georgia,13167,287,13,287,13,,
-2020-08-25,Jones,Georgia,13169,422,5,422,5,,
-2020-08-25,Lamar,Georgia,13171,313,15,313,15,,
-2020-08-25,Lanier,Georgia,13173,244,5,244,5,,
-2020-08-25,Laurens,Georgia,13175,1227,36,1227,36,,
-2020-08-25,Lee,Georgia,13177,637,23,637,23,,
-2020-08-25,Liberty,Georgia,13179,878,13,878,13,,
+2020-08-25,Henry,Georgia,13151,4166,68,4166,68,,
+2020-08-25,Houston,Georgia,13153,2543,64,2543,64,,
+2020-08-25,Irwin,Georgia,13155,204,2,204,2,,
+2020-08-25,Jackson,Georgia,13157,1351,22,1351,22,,
+2020-08-25,Jasper,Georgia,13159,191,3,191,3,,
+2020-08-25,Jeff Davis,Georgia,13161,603,9,603,9,,
+2020-08-25,Jefferson,Georgia,13163,624,13,624,13,,
+2020-08-25,Jenkins,Georgia,13165,286,24,286,24,,
+2020-08-25,Johnson,Georgia,13167,290,13,290,13,,
+2020-08-25,Jones,Georgia,13169,430,5,430,5,,
+2020-08-25,Lamar,Georgia,13171,315,16,315,16,,
+2020-08-25,Lanier,Georgia,13173,246,5,246,5,,
+2020-08-25,Laurens,Georgia,13175,1244,39,1244,39,,
+2020-08-25,Lee,Georgia,13177,643,23,643,23,,
+2020-08-25,Liberty,Georgia,13179,884,14,884,14,,
 2020-08-25,Lincoln,Georgia,13181,188,6,188,6,,
 2020-08-25,Long,Georgia,13183,172,2,172,2,,
-2020-08-25,Lowndes,Georgia,13185,3368,57,3368,57,,
-2020-08-25,Lumpkin,Georgia,13187,559,12,559,12,,
-2020-08-25,Macon,Georgia,13193,195,10,195,10,,
-2020-08-25,Madison,Georgia,13195,496,7,496,7,,
+2020-08-25,Lowndes,Georgia,13185,3379,59,3379,59,,
+2020-08-25,Lumpkin,Georgia,13187,596,12,596,12,,
+2020-08-25,Macon,Georgia,13193,197,10,197,10,,
+2020-08-25,Madison,Georgia,13195,503,7,503,7,,
 2020-08-25,Marion,Georgia,13197,163,5,163,5,,
-2020-08-25,McDuffie,Georgia,13189,480,12,480,12,,
-2020-08-25,McIntosh,Georgia,13191,232,4,232,4,,
-2020-08-25,Meriwether,Georgia,13199,459,8,459,8,,
-2020-08-25,Miller,Georgia,13201,199,0,199,0,,
-2020-08-25,Mitchell,Georgia,13205,688,42,688,42,,
-2020-08-25,Monroe,Georgia,13207,576,33,576,33,,
-2020-08-25,Montgomery,Georgia,13209,201,2,201,2,,
-2020-08-25,Morgan,Georgia,13211,381,2,381,2,,
-2020-08-25,Murray,Georgia,13213,683,3,683,3,,
-2020-08-25,Muscogee,Georgia,13215,5304,122,5304,122,,
-2020-08-25,Newton,Georgia,13217,2168,58,2168,58,,
-2020-08-25,Oconee,Georgia,13219,516,20,516,20,,
-2020-08-25,Oglethorpe,Georgia,13221,265,8,265,8,,
-2020-08-25,Paulding,Georgia,13223,2082,30,2082,30,,
-2020-08-25,Peach,Georgia,13225,540,16,540,16,,
-2020-08-25,Pickens,Georgia,13227,477,6,477,6,,
-2020-08-25,Pierce,Georgia,13229,495,10,495,10,,
-2020-08-25,Pike,Georgia,13231,266,8,266,8,,
-2020-08-25,Polk,Georgia,13233,1074,12,1074,12,,
-2020-08-25,Pulaski,Georgia,13235,165,4,165,4,,
-2020-08-25,Putnam,Georgia,13237,573,19,573,19,,
+2020-08-25,McDuffie,Georgia,13189,489,12,489,12,,
+2020-08-25,McIntosh,Georgia,13191,231,4,231,4,,
+2020-08-25,Meriwether,Georgia,13199,463,8,463,8,,
+2020-08-25,Miller,Georgia,13201,200,0,200,0,,
+2020-08-25,Mitchell,Georgia,13205,694,42,694,42,,
+2020-08-25,Monroe,Georgia,13207,582,35,582,35,,
+2020-08-25,Montgomery,Georgia,13209,202,2,202,2,,
+2020-08-25,Morgan,Georgia,13211,394,2,394,2,,
+2020-08-25,Murray,Georgia,13213,685,3,685,3,,
+2020-08-25,Muscogee,Georgia,13215,5330,125,5330,125,,
+2020-08-25,Newton,Georgia,13217,2189,58,2189,58,,
+2020-08-25,Oconee,Georgia,13219,525,20,525,20,,
+2020-08-25,Oglethorpe,Georgia,13221,270,9,270,9,,
+2020-08-25,Paulding,Georgia,13223,2106,30,2106,30,,
+2020-08-25,Peach,Georgia,13225,546,16,546,16,,
+2020-08-25,Pickens,Georgia,13227,490,6,490,6,,
+2020-08-25,Pierce,Georgia,13229,499,11,499,11,,
+2020-08-25,Pike,Georgia,13231,267,8,267,8,,
+2020-08-25,Polk,Georgia,13233,1122,12,1122,12,,
+2020-08-25,Pulaski,Georgia,13235,168,6,168,6,,
+2020-08-25,Putnam,Georgia,13237,597,20,597,20,,
 2020-08-25,Quitman,Georgia,13239,32,1,32,1,,
-2020-08-25,Rabun,Georgia,13241,255,4,255,4,,
-2020-08-25,Randolph,Georgia,13243,305,27,305,27,,
-2020-08-25,Richmond,Georgia,13245,5691,114,5691,114,,
-2020-08-25,Rockdale,Georgia,13247,1597,28,1597,28,,
-2020-08-25,Schley,Georgia,13249,90,2,90,2,,
-2020-08-25,Screven,Georgia,13251,268,9,268,9,,
-2020-08-25,Seminole,Georgia,13253,264,8,264,8,,
-2020-08-25,Spalding,Georgia,13255,1115,45,1115,45,,
-2020-08-25,Stephens,Georgia,13257,756,19,756,19,,
-2020-08-25,Stewart,Georgia,13259,316,10,316,10,,
-2020-08-25,Sumter,Georgia,13261,824,57,824,57,,
-2020-08-25,Talbot,Georgia,13263,152,5,152,5,,
+2020-08-25,Rabun,Georgia,13241,257,5,257,5,,
+2020-08-25,Randolph,Georgia,13243,307,27,307,27,,
+2020-08-25,Richmond,Georgia,13245,5731,115,5731,115,,
+2020-08-25,Rockdale,Georgia,13247,1613,28,1613,28,,
+2020-08-25,Schley,Georgia,13249,92,2,92,2,,
+2020-08-25,Screven,Georgia,13251,274,9,274,9,,
+2020-08-25,Seminole,Georgia,13253,269,8,269,8,,
+2020-08-25,Spalding,Georgia,13255,1126,48,1126,48,,
+2020-08-25,Stephens,Georgia,13257,766,21,766,21,,
+2020-08-25,Stewart,Georgia,13259,315,10,315,10,,
+2020-08-25,Sumter,Georgia,13261,826,57,826,57,,
+2020-08-25,Talbot,Georgia,13263,153,5,153,5,,
 2020-08-25,Taliaferro,Georgia,13265,18,0,18,0,,
-2020-08-25,Tattnall,Georgia,13267,648,5,648,5,,
-2020-08-25,Taylor,Georgia,13269,118,4,118,4,,
-2020-08-25,Telfair,Georgia,13271,331,13,331,13,,
-2020-08-25,Terrell,Georgia,13273,311,31,311,31,,
-2020-08-25,Thomas,Georgia,13275,1332,46,1332,46,,
-2020-08-25,Tift,Georgia,13277,1448,47,1448,47,,
-2020-08-25,Toombs,Georgia,13279,982,12,982,12,,
-2020-08-25,Towns,Georgia,13281,184,5,184,5,,
-2020-08-25,Treutlen,Georgia,13283,179,3,179,3,,
-2020-08-25,Troup,Georgia,13285,2512,79,2512,79,,
+2020-08-25,Tattnall,Georgia,13267,651,5,651,5,,
+2020-08-25,Taylor,Georgia,13269,121,5,121,5,,
+2020-08-25,Telfair,Georgia,13271,332,13,332,13,,
+2020-08-25,Terrell,Georgia,13273,313,31,313,31,,
+2020-08-25,Thomas,Georgia,13275,1341,47,1341,47,,
+2020-08-25,Tift,Georgia,13277,1451,48,1451,48,,
+2020-08-25,Toombs,Georgia,13279,1000,12,1000,12,,
+2020-08-25,Towns,Georgia,13281,187,5,187,5,,
+2020-08-25,Treutlen,Georgia,13283,185,3,185,3,,
+2020-08-25,Troup,Georgia,13285,2516,79,2516,79,,
 2020-08-25,Turner,Georgia,13287,274,19,274,19,,
-2020-08-25,Twiggs,Georgia,13289,168,6,168,6,,
-2020-08-25,Union,Georgia,13291,413,7,413,7,,
-2020-08-25,Unknown,Georgia,,2668,4,2668,4,,
-2020-08-25,Upson,Georgia,13293,663,53,663,53,,
-2020-08-25,Walker,Georgia,13295,912,20,912,20,,
-2020-08-25,Walton,Georgia,13297,1371,43,1371,43,,
-2020-08-25,Ware,Georgia,13299,1302,41,1302,41,,
-2020-08-25,Warren,Georgia,13301,110,3,110,3,,
-2020-08-25,Washington,Georgia,13303,587,3,587,3,,
-2020-08-25,Wayne,Georgia,13305,927,19,927,19,,
-2020-08-25,Webster,Georgia,13307,38,2,38,2,,
-2020-08-25,Wheeler,Georgia,13309,137,3,137,3,,
-2020-08-25,White,Georgia,13311,442,9,442,9,,
-2020-08-25,Whitfield,Georgia,13313,3851,47,3851,47,,
-2020-08-25,Wilcox,Georgia,13315,212,20,212,20,,
-2020-08-25,Wilkes,Georgia,13317,214,3,214,3,,
-2020-08-25,Wilkinson,Georgia,13319,280,13,280,13,,
-2020-08-25,Worth,Georgia,13321,487,24,487,24,,
+2020-08-25,Twiggs,Georgia,13289,169,6,169,6,,
+2020-08-25,Union,Georgia,13291,423,7,423,7,,
+2020-08-25,Unknown,Georgia,,2725,4,2725,4,,
+2020-08-25,Upson,Georgia,13293,634,53,634,53,,
+2020-08-25,Walker,Georgia,13295,925,20,925,20,,
+2020-08-25,Walton,Georgia,13297,1403,44,1403,44,,
+2020-08-25,Ware,Georgia,13299,1306,42,1306,42,,
+2020-08-25,Warren,Georgia,13301,114,5,114,5,,
+2020-08-25,Washington,Georgia,13303,592,3,592,3,,
+2020-08-25,Wayne,Georgia,13305,931,22,931,22,,
+2020-08-25,Webster,Georgia,13307,39,2,39,2,,
+2020-08-25,Wheeler,Georgia,13309,141,4,141,4,,
+2020-08-25,White,Georgia,13311,450,9,450,9,,
+2020-08-25,Whitfield,Georgia,13313,3859,47,3859,47,,
+2020-08-25,Wilcox,Georgia,13315,213,20,213,20,,
+2020-08-25,Wilkes,Georgia,13317,216,3,216,3,,
+2020-08-25,Wilkinson,Georgia,13319,283,14,283,14,,
+2020-08-25,Worth,Georgia,13321,488,24,488,24,,
 2020-08-25,Unknown,Guam,,1953,8,1945,8,8,0
-2020-08-25,Hawaii,Hawaii,15001,209,0,,,,
-2020-08-25,Honolulu,Hawaii,15003,6181,41,,,,
+2020-08-25,Hawaii,Hawaii,15001,220,0,,,,
+2020-08-25,Honolulu,Hawaii,15003,6382,41,,,,
 2020-08-25,Kauai,Hawaii,15007,56,0,,,,
-2020-08-25,Maui,Hawaii,15009,300,7,,,,
-2020-08-25,Ada,Idaho,16001,10700,111,10021,104,679,7
+2020-08-25,Maui,Hawaii,15009,303,7,,,,
+2020-08-25,Ada,Idaho,16001,10779,113,10088,107,691,6
 2020-08-25,Adams,Idaho,16003,25,0,24,,1,
-2020-08-25,Bannock,Idaho,16005,605,2,566,,39,
+2020-08-25,Bannock,Idaho,16005,615,2,575,,40,
 2020-08-25,Bear Lake,Idaho,16007,37,0,37,,0,
-2020-08-25,Benewah,Idaho,16009,95,1,95,1,0,0
-2020-08-25,Bingham,Idaho,16011,417,4,396,,21,
-2020-08-25,Blaine,Idaho,16013,595,6,577,,18,
-2020-08-25,Boise,Idaho,16015,57,1,45,1,12,0
-2020-08-25,Bonner,Idaho,16017,202,0,196,0,6,0
-2020-08-25,Bonneville,Idaho,16019,1604,7,1263,,341,
+2020-08-25,Benewah,Idaho,16009,103,1,103,1,0,0
+2020-08-25,Bingham,Idaho,16011,424,5,403,,21,
+2020-08-25,Blaine,Idaho,16013,596,6,578,,18,
+2020-08-25,Boise,Idaho,16015,59,1,46,1,13,0
+2020-08-25,Bonner,Idaho,16017,210,0,204,0,6,0
+2020-08-25,Bonneville,Idaho,16019,1619,8,1287,,332,
 2020-08-25,Boundary,Idaho,16021,42,0,42,0,0,0
 2020-08-25,Butte,Idaho,16023,4,0,4,,0,
 2020-08-25,Camas,Idaho,16025,2,0,2,,0,
-2020-08-25,Canyon,Idaho,16027,6825,65,6472,,353,
+2020-08-25,Canyon,Idaho,16027,6910,70,6537,,373,
 2020-08-25,Caribou,Idaho,16029,35,0,34,,1,
-2020-08-25,Cassia,Idaho,16031,570,1,518,,52,
-2020-08-25,Clark,Idaho,16033,16,0,13,,3,
+2020-08-25,Cassia,Idaho,16031,572,3,521,,51,
+2020-08-25,Clark,Idaho,16033,18,0,15,,3,
 2020-08-25,Clearwater,Idaho,16035,21,0,20,,1,
 2020-08-25,Custer,Idaho,16037,18,0,18,,0,
-2020-08-25,Elmore,Idaho,16039,265,3,221,3,44,0
+2020-08-25,Elmore,Idaho,16039,271,3,223,3,48,0
 2020-08-25,Franklin,Idaho,16041,57,0,49,,8,
-2020-08-25,Fremont,Idaho,16043,103,1,90,,13,
+2020-08-25,Fremont,Idaho,16043,104,1,91,,13,
 2020-08-25,Gem,Idaho,16045,205,2,184,,21,
-2020-08-25,Gooding,Idaho,16047,201,0,175,,26,
-2020-08-25,Idaho,Idaho,16049,39,0,39,,0,
-2020-08-25,Jefferson,Idaho,16051,318,1,275,,43,
-2020-08-25,Jerome,Idaho,16053,571,6,507,,64,
-2020-08-25,Kootenai,Idaho,16055,2074,26,2058,26,16,0
-2020-08-25,Latah,Idaho,16057,192,0,183,,9,
-2020-08-25,Lemhi,Idaho,16059,68,0,50,,18,
-2020-08-25,Lewis,Idaho,16061,8,0,8,,0,
-2020-08-25,Lincoln,Idaho,16063,63,0,56,,7,
-2020-08-25,Madison,Idaho,16065,219,0,179,,40,
-2020-08-25,Minidoka,Idaho,16067,529,2,491,,38,
-2020-08-25,Nez Perce,Idaho,16069,243,19,223,10,20,9
-2020-08-25,Oneida,Idaho,16071,18,0,15,,3,
+2020-08-25,Gooding,Idaho,16047,209,0,181,,28,
+2020-08-25,Idaho,Idaho,16049,40,0,40,,0,
+2020-08-25,Jefferson,Idaho,16051,325,1,282,,43,
+2020-08-25,Jerome,Idaho,16053,576,6,512,,64,
+2020-08-25,Kootenai,Idaho,16055,2120,27,2103,27,17,0
+2020-08-25,Latah,Idaho,16057,215,0,206,,9,
+2020-08-25,Lemhi,Idaho,16059,69,0,51,,18,
+2020-08-25,Lewis,Idaho,16061,9,0,9,,0,
+2020-08-25,Lincoln,Idaho,16063,64,0,57,,7,
+2020-08-25,Madison,Idaho,16065,222,0,181,,41,
+2020-08-25,Minidoka,Idaho,16067,540,2,503,,37,
+2020-08-25,Nez Perce,Idaho,16069,259,19,239,10,20,9
+2020-08-25,Oneida,Idaho,16071,20,0,17,,3,
 2020-08-25,Owyhee,Idaho,16073,290,4,264,,26,
-2020-08-25,Payette,Idaho,16075,570,4,503,,67,
-2020-08-25,Power,Idaho,16077,109,0,103,,6,
-2020-08-25,Shoshone,Idaho,16079,184,11,183,11,1,0
-2020-08-25,Teton,Idaho,16081,125,0,104,,21,
-2020-08-25,Twin Falls,Idaho,16083,1604,34,1443,,161,
+2020-08-25,Payette,Idaho,16075,586,4,512,,74,
+2020-08-25,Power,Idaho,16077,114,0,107,,7,
+2020-08-25,Shoshone,Idaho,16079,192,11,190,11,2,0
+2020-08-25,Teton,Idaho,16081,125,0,105,,20,
+2020-08-25,Twin Falls,Idaho,16083,1611,35,1450,,161,
 2020-08-25,Valley,Idaho,16085,78,1,75,1,3,0
-2020-08-25,Washington,Idaho,16087,257,3,242,,15,
-2020-08-25,Adams,Illinois,17001,727,7,727,7,,
-2020-08-25,Alexander,Illinois,17003,40,0,40,0,,
-2020-08-25,Bond,Illinois,17005,107,3,107,3,,
-2020-08-25,Boone,Illinois,17007,827,23,827,23,,
+2020-08-25,Washington,Idaho,16087,258,3,243,,15,
+2020-08-25,Adams,Illinois,17001,730,7,730,7,,
+2020-08-25,Alexander,Illinois,17003,41,0,41,0,,
+2020-08-25,Bond,Illinois,17005,117,3,117,3,,
+2020-08-25,Boone,Illinois,17007,835,23,835,23,,
 2020-08-25,Brown,Illinois,17009,16,0,16,0,,
-2020-08-25,Bureau,Illinois,17011,322,4,322,4,,
-2020-08-25,Calhoun,Illinois,17013,22,0,22,0,,
-2020-08-25,Carroll,Illinois,17015,115,4,115,4,,
-2020-08-25,Cass,Illinois,17017,287,11,287,11,,
-2020-08-25,Champaign,Illinois,17019,2078,20,2078,20,,
-2020-08-25,Christian,Illinois,17021,185,5,185,5,,
+2020-08-25,Bureau,Illinois,17011,330,4,330,4,,
+2020-08-25,Calhoun,Illinois,17013,24,0,24,0,,
+2020-08-25,Carroll,Illinois,17015,113,4,113,4,,
+2020-08-25,Cass,Illinois,17017,290,11,290,11,,
+2020-08-25,Champaign,Illinois,17019,2100,20,2100,20,,
+2020-08-25,Christian,Illinois,17021,191,5,191,5,,
 2020-08-25,Clark,Illinois,17023,112,2,112,2,,
-2020-08-25,Clay,Illinois,17025,60,0,60,0,,
-2020-08-25,Clinton,Illinois,17027,606,17,606,17,,
-2020-08-25,Coles,Illinois,17029,786,21,786,21,,
-2020-08-25,Cook,Illinois,17031,121894,5015,121894,5015,,
-2020-08-25,Crawford,Illinois,17033,57,0,57,0,,
-2020-08-25,Cumberland,Illinois,17035,109,3,109,3,,
-2020-08-25,DeKalb,Illinois,17037,1080,33,1080,33,,
-2020-08-25,De Witt,Illinois,17039,38,1,38,1,,
-2020-08-25,Douglas,Illinois,17041,189,4,189,4,,
-2020-08-25,DuPage,Illinois,17043,13909,530,13909,530,,
-2020-08-25,Edgar,Illinois,17045,61,0,61,0,,
+2020-08-25,Clay,Illinois,17025,61,0,61,0,,
+2020-08-25,Clinton,Illinois,17027,632,17,632,17,,
+2020-08-25,Coles,Illinois,17029,798,21,798,21,,
+2020-08-25,Cook,Illinois,17031,122423,5022,122423,5022,,
+2020-08-25,Crawford,Illinois,17033,61,0,61,0,,
+2020-08-25,Cumberland,Illinois,17035,114,3,114,3,,
+2020-08-25,DeKalb,Illinois,17037,1102,33,1102,33,,
+2020-08-25,De Witt,Illinois,17039,39,1,39,1,,
+2020-08-25,Douglas,Illinois,17041,195,4,195,4,,
+2020-08-25,DuPage,Illinois,17043,14001,531,14001,531,,
+2020-08-25,Edgar,Illinois,17045,60,0,60,0,,
 2020-08-25,Edwards,Illinois,17047,31,0,31,0,,
-2020-08-25,Effingham,Illinois,17049,398,1,398,1,,
-2020-08-25,Fayette,Illinois,17051,120,3,120,3,,
-2020-08-25,Ford,Illinois,17053,70,2,70,2,,
-2020-08-25,Franklin,Illinois,17055,293,1,293,1,,
-2020-08-25,Fulton,Illinois,17057,73,0,73,0,,
+2020-08-25,Effingham,Illinois,17049,412,1,412,1,,
+2020-08-25,Fayette,Illinois,17051,127,3,127,3,,
+2020-08-25,Ford,Illinois,17053,68,2,68,2,,
+2020-08-25,Franklin,Illinois,17055,298,1,298,1,,
+2020-08-25,Fulton,Illinois,17057,72,0,72,0,,
 2020-08-25,Gallatin,Illinois,17059,60,2,60,2,,
-2020-08-25,Greene,Illinois,17061,98,0,98,0,,
-2020-08-25,Grundy,Illinois,17063,436,5,436,5,,
+2020-08-25,Greene,Illinois,17061,97,0,97,0,,
+2020-08-25,Grundy,Illinois,17063,441,5,441,5,,
 2020-08-25,Hamilton,Illinois,17065,42,0,42,0,,
-2020-08-25,Hancock,Illinois,17067,116,1,116,1,,
+2020-08-25,Hancock,Illinois,17067,118,1,118,1,,
 2020-08-25,Hardin,Illinois,17069,18,0,18,0,,
-2020-08-25,Henderson,Illinois,17071,36,0,36,0,,
-2020-08-25,Henry,Illinois,17073,396,1,396,1,,
+2020-08-25,Henderson,Illinois,17071,37,0,37,0,,
+2020-08-25,Henry,Illinois,17073,406,1,406,1,,
 2020-08-25,Iroquois,Illinois,17075,284,18,284,18,,
-2020-08-25,Jackson,Illinois,17077,851,20,851,20,,
-2020-08-25,Jasper,Illinois,17079,89,7,89,7,,
-2020-08-25,Jefferson,Illinois,17081,402,31,402,31,,
-2020-08-25,Jersey,Illinois,17083,229,2,229,2,,
-2020-08-25,Jo Daviess,Illinois,17085,166,2,166,2,,
-2020-08-25,Johnson,Illinois,17087,95,0,95,0,,
-2020-08-25,Kane,Illinois,17089,10863,308,10863,308,,
-2020-08-25,Kankakee,Illinois,17091,2123,71,2123,71,,
-2020-08-25,Kendall,Illinois,17093,1629,25,1629,25,,
-2020-08-25,Knox,Illinois,17095,425,3,425,3,,
-2020-08-25,Lake,Illinois,17097,13939,455,13939,455,,
-2020-08-25,LaSalle,Illinois,17099,1115,39,1115,39,,
-2020-08-25,Lawrence,Illinois,17101,87,0,87,0,,
+2020-08-25,Jackson,Illinois,17077,862,20,862,20,,
+2020-08-25,Jasper,Illinois,17079,91,7,91,7,,
+2020-08-25,Jefferson,Illinois,17081,411,31,411,31,,
+2020-08-25,Jersey,Illinois,17083,239,3,239,3,,
+2020-08-25,Jo Daviess,Illinois,17085,168,2,168,2,,
+2020-08-25,Johnson,Illinois,17087,96,0,96,0,,
+2020-08-25,Kane,Illinois,17089,10932,308,10932,308,,
+2020-08-25,Kankakee,Illinois,17091,2141,71,2141,71,,
+2020-08-25,Kendall,Illinois,17093,1640,25,1640,25,,
+2020-08-25,Knox,Illinois,17095,429,3,429,3,,
+2020-08-25,Lake,Illinois,17097,14046,459,14046,459,,
+2020-08-25,LaSalle,Illinois,17099,1128,42,1128,42,,
+2020-08-25,Lawrence,Illinois,17101,89,0,89,0,,
 2020-08-25,Lee,Illinois,17103,218,1,218,1,,
-2020-08-25,Livingston,Illinois,17105,170,3,170,3,,
-2020-08-25,Logan,Illinois,17107,228,1,228,1,,
-2020-08-25,Macon,Illinois,17115,852,24,852,24,,
-2020-08-25,Macoupin,Illinois,17117,301,3,301,3,,
-2020-08-25,Madison,Illinois,17119,3606,91,3606,91,,
-2020-08-25,Marion,Illinois,17121,234,0,234,0,,
-2020-08-25,Marshall,Illinois,17123,39,0,39,0,,
-2020-08-25,Mason,Illinois,17125,72,1,72,1,,
-2020-08-25,Massac,Illinois,17127,56,0,56,0,,
-2020-08-25,McDonough,Illinois,17109,161,15,161,15,,
-2020-08-25,McHenry,Illinois,17111,3680,115,3624,115,56,0
-2020-08-25,McLean,Illinois,17113,1138,16,1138,16,,
-2020-08-25,Menard,Illinois,17129,63,0,63,0,,
-2020-08-25,Mercer,Illinois,17131,90,4,90,4,,
-2020-08-25,Monroe,Illinois,17133,402,14,402,14,,
-2020-08-25,Montgomery,Illinois,17135,223,7,223,7,,
+2020-08-25,Livingston,Illinois,17105,173,3,173,3,,
+2020-08-25,Logan,Illinois,17107,237,1,237,1,,
+2020-08-25,Macon,Illinois,17115,866,24,866,24,,
+2020-08-25,Macoupin,Illinois,17117,302,3,302,3,,
+2020-08-25,Madison,Illinois,17119,3666,92,3666,92,,
+2020-08-25,Marion,Illinois,17121,245,0,245,0,,
+2020-08-25,Marshall,Illinois,17123,40,0,40,0,,
+2020-08-25,Mason,Illinois,17125,73,1,73,1,,
+2020-08-25,Massac,Illinois,17127,60,1,60,1,,
+2020-08-25,McDonough,Illinois,17109,165,15,165,15,,
+2020-08-25,McHenry,Illinois,17111,3722,115,3667,115,55,0
+2020-08-25,McLean,Illinois,17113,1188,16,1188,16,,
+2020-08-25,Menard,Illinois,17129,67,0,67,0,,
+2020-08-25,Mercer,Illinois,17131,91,4,91,4,,
+2020-08-25,Monroe,Illinois,17133,413,14,413,14,,
+2020-08-25,Montgomery,Illinois,17135,230,7,230,7,,
 2020-08-25,Morgan,Illinois,17137,480,18,480,18,,
-2020-08-25,Moultrie,Illinois,17139,133,0,133,0,,
-2020-08-25,Ogle,Illinois,17141,473,5,473,5,,
-2020-08-25,Peoria,Illinois,17143,2191,38,2191,38,,
-2020-08-25,Perry,Illinois,17145,271,6,271,6,,
+2020-08-25,Moultrie,Illinois,17139,136,0,136,0,,
+2020-08-25,Ogle,Illinois,17141,476,5,476,5,,
+2020-08-25,Peoria,Illinois,17143,2224,39,2224,39,,
+2020-08-25,Perry,Illinois,17145,272,6,272,6,,
 2020-08-25,Piatt,Illinois,17147,70,0,70,0,,
-2020-08-25,Pike,Illinois,17149,57,0,57,0,,
+2020-08-25,Pike,Illinois,17149,63,0,63,0,,
 2020-08-25,Pope,Illinois,17151,11,0,11,0,,
-2020-08-25,Pulaski,Illinois,17153,106,1,106,1,,
+2020-08-25,Pulaski,Illinois,17153,107,1,107,1,,
 2020-08-25,Putnam,Illinois,17155,13,0,13,0,,
-2020-08-25,Randolph,Illinois,17157,647,7,647,7,,
-2020-08-25,Richland,Illinois,17159,54,1,54,1,,
-2020-08-25,Rock Island,Illinois,17161,2061,53,2061,53,,
-2020-08-25,Saline,Illinois,17165,155,2,155,2,,
+2020-08-25,Randolph,Illinois,17157,667,7,667,7,,
+2020-08-25,Richland,Illinois,17159,58,1,58,1,,
+2020-08-25,Rock Island,Illinois,17161,2091,56,2091,56,,
+2020-08-25,Saline,Illinois,17165,155,3,155,3,,
 2020-08-25,Sangamon,Illinois,17167,1689,38,1689,38,,
 2020-08-25,Schuyler,Illinois,17169,19,0,19,0,,
 2020-08-25,Scott,Illinois,17171,41,0,41,0,,
-2020-08-25,Shelby,Illinois,17173,153,2,153,2,,
+2020-08-25,Shelby,Illinois,17173,158,3,158,3,,
 2020-08-25,Stark,Illinois,17175,10,0,10,0,,
-2020-08-25,St. Clair,Illinois,17163,5449,173,5449,173,,
-2020-08-25,Stephenson,Illinois,17177,368,6,368,6,,
-2020-08-25,Tazewell,Illinois,17179,959,9,959,9,,
-2020-08-25,Union,Illinois,17181,400,23,400,23,,
-2020-08-25,Unknown,Illinois,,1361,209,0,0,1361,209
-2020-08-25,Vermilion,Illinois,17183,298,2,298,2,,
-2020-08-25,Wabash,Illinois,17185,93,1,93,1,,
-2020-08-25,Warren,Illinois,17187,230,0,230,0,,
-2020-08-25,Washington,Illinois,17189,92,1,92,1,,
-2020-08-25,Wayne,Illinois,17191,86,2,86,2,,
+2020-08-25,St. Clair,Illinois,17163,5503,174,5503,174,,
+2020-08-25,Stephenson,Illinois,17177,369,6,369,6,,
+2020-08-25,Tazewell,Illinois,17179,981,9,981,9,,
+2020-08-25,Union,Illinois,17181,402,23,402,23,,
+2020-08-25,Unknown,Illinois,,1362,209,0,0,1362,209
+2020-08-25,Vermilion,Illinois,17183,302,3,302,3,,
+2020-08-25,Wabash,Illinois,17185,94,1,94,1,,
+2020-08-25,Warren,Illinois,17187,231,0,231,0,,
+2020-08-25,Washington,Illinois,17189,98,1,98,1,,
+2020-08-25,Wayne,Illinois,17191,88,2,88,2,,
 2020-08-25,White,Illinois,17193,113,0,113,0,,
 2020-08-25,Whiteside,Illinois,17195,466,18,466,18,,
-2020-08-25,Will,Illinois,17197,10830,354,10830,354,,
-2020-08-25,Williamson,Illinois,17199,716,9,716,9,,
-2020-08-25,Winnebago,Illinois,17201,4070,147,4070,147,,
-2020-08-25,Woodford,Illinois,17203,247,3,247,3,,
-2020-08-25,Adams,Indiana,18001,161,3,160,2,1,1
-2020-08-25,Allen,Indiana,18003,4676,182,4650,172,26,10
-2020-08-25,Bartholomew,Indiana,18005,1027,54,1013,50,14,4
+2020-08-25,Will,Illinois,17197,11020,357,11020,357,,
+2020-08-25,Williamson,Illinois,17199,747,10,747,10,,
+2020-08-25,Winnebago,Illinois,17201,4087,148,4087,148,,
+2020-08-25,Woodford,Illinois,17203,250,4,250,4,,
+2020-08-25,Adams,Indiana,18001,162,3,161,2,1,1
+2020-08-25,Allen,Indiana,18003,4740,183,4714,173,26,10
+2020-08-25,Bartholomew,Indiana,18005,1038,54,1023,50,15,4
 2020-08-25,Benton,Indiana,18007,76,0,76,0,0,0
 2020-08-25,Blackford,Indiana,18009,76,2,70,2,6,0
-2020-08-25,Boone,Indiana,18011,804,49,785,46,19,3
+2020-08-25,Boone,Indiana,18011,808,49,789,46,19,3
 2020-08-25,Brown,Indiana,18013,83,2,83,2,0,0
-2020-08-25,Carroll,Indiana,18015,249,11,249,11,0,0
-2020-08-25,Cass,Indiana,18017,1845,10,1842,9,3,1
-2020-08-25,Clark,Indiana,18019,1618,58,1601,51,17,7
-2020-08-25,Clay,Indiana,18021,207,5,207,5,0,0
-2020-08-25,Clinton,Indiana,18023,522,7,521,6,1,1
-2020-08-25,Crawford,Indiana,18025,56,1,55,0,1,1
-2020-08-25,Daviess,Indiana,18027,409,25,407,23,2,2
-2020-08-25,Dearborn,Indiana,18029,563,30,556,28,7,2
-2020-08-25,Decatur,Indiana,18031,397,36,374,33,23,3
-2020-08-25,DeKalb,Indiana,18033,287,5,286,4,1,1
-2020-08-25,Delaware,Indiana,18035,901,54,897,53,4,1
-2020-08-25,Dubois,Indiana,18037,796,17,796,17,0,0
-2020-08-25,Elkhart,Indiana,18039,5475,99,5384,95,91,4
-2020-08-25,Fayette,Indiana,18041,372,8,282,8,90,0
-2020-08-25,Floyd,Indiana,18043,1001,57,997,54,4,3
-2020-08-25,Fountain,Indiana,18045,82,2,82,2,0,0
-2020-08-25,Franklin,Indiana,18047,271,23,261,22,10,1
-2020-08-25,Fulton,Indiana,18049,198,2,196,2,2,0
-2020-08-25,Gibson,Indiana,18051,289,4,288,4,1,0
-2020-08-25,Grant,Indiana,18053,897,33,601,30,296,3
-2020-08-25,Greene,Indiana,18055,340,38,335,35,5,3
-2020-08-25,Hamilton,Indiana,18057,3560,115,3529,106,31,9
-2020-08-25,Hancock,Indiana,18059,790,44,777,41,13,3
-2020-08-25,Harrison,Indiana,18061,440,26,437,24,3,2
-2020-08-25,Hendricks,Indiana,18063,2199,127,2171,110,28,17
-2020-08-25,Henry,Indiana,18065,563,21,555,21,8,0
-2020-08-25,Howard,Indiana,18067,1034,64,1026,61,8,3
-2020-08-25,Huntington,Indiana,18069,157,3,154,3,3,0
-2020-08-25,Jackson,Indiana,18071,676,8,672,7,4,1
-2020-08-25,Jasper,Indiana,18073,302,2,301,2,1,0
+2020-08-25,Carroll,Indiana,18015,249,12,249,12,0,0
+2020-08-25,Cass,Indiana,18017,1847,10,1844,9,3,1
+2020-08-25,Clark,Indiana,18019,1642,58,1625,51,17,7
+2020-08-25,Clay,Indiana,18021,209,5,209,5,0,0
+2020-08-25,Clinton,Indiana,18023,524,7,523,6,1,1
+2020-08-25,Crawford,Indiana,18025,57,1,56,0,1,1
+2020-08-25,Daviess,Indiana,18027,418,25,416,23,2,2
+2020-08-25,Dearborn,Indiana,18029,565,30,558,28,7,2
+2020-08-25,Decatur,Indiana,18031,401,37,376,34,25,3
+2020-08-25,DeKalb,Indiana,18033,295,5,294,4,1,1
+2020-08-25,Delaware,Indiana,18035,912,55,908,54,4,1
+2020-08-25,Dubois,Indiana,18037,804,17,804,17,0,0
+2020-08-25,Elkhart,Indiana,18039,5489,101,5398,97,91,4
+2020-08-25,Fayette,Indiana,18041,385,8,295,8,90,0
+2020-08-25,Floyd,Indiana,18043,1014,57,1010,54,4,3
+2020-08-25,Fountain,Indiana,18045,84,2,83,2,1,0
+2020-08-25,Franklin,Indiana,18047,274,24,264,23,10,1
+2020-08-25,Fulton,Indiana,18049,200,2,198,2,2,0
+2020-08-25,Gibson,Indiana,18051,295,4,294,4,1,0
+2020-08-25,Grant,Indiana,18053,903,33,606,30,297,3
+2020-08-25,Greene,Indiana,18055,343,38,338,35,5,3
+2020-08-25,Hamilton,Indiana,18057,3619,115,3588,106,31,9
+2020-08-25,Hancock,Indiana,18059,793,44,780,41,13,3
+2020-08-25,Harrison,Indiana,18061,452,26,449,24,3,2
+2020-08-25,Hendricks,Indiana,18063,2216,128,2188,111,28,17
+2020-08-25,Henry,Indiana,18065,568,21,560,21,8,0
+2020-08-25,Howard,Indiana,18067,1039,64,1031,61,8,3
+2020-08-25,Huntington,Indiana,18069,156,3,153,3,3,0
+2020-08-25,Jackson,Indiana,18071,677,8,673,7,4,1
+2020-08-25,Jasper,Indiana,18073,303,2,302,2,1,0
 2020-08-25,Jay,Indiana,18075,120,0,114,0,6,0
-2020-08-25,Jefferson,Indiana,18077,199,3,198,3,1,0
-2020-08-25,Jennings,Indiana,18079,257,14,254,12,3,2
-2020-08-25,Johnson,Indiana,18081,1978,128,1942,120,36,8
-2020-08-25,Knox,Indiana,18083,280,3,279,3,1,0
-2020-08-25,Kosciusko,Indiana,18085,1005,13,986,12,19,1
-2020-08-25,LaGrange,Indiana,18087,583,11,581,11,2,0
-2020-08-25,Lake,Indiana,18089,8760,310,8700,292,60,18
-2020-08-25,LaPorte,Indiana,18091,1118,31,1114,31,4,0
-2020-08-25,Lawrence,Indiana,18093,420,29,418,27,2,2
-2020-08-25,Madison,Indiana,18095,1217,78,1201,67,16,11
-2020-08-25,Marion,Indiana,18097,17757,794,17593,743,164,51
+2020-08-25,Jefferson,Indiana,18077,200,3,199,3,1,0
+2020-08-25,Jennings,Indiana,18079,262,14,259,12,3,2
+2020-08-25,Johnson,Indiana,18081,1994,128,1956,120,38,8
+2020-08-25,Knox,Indiana,18083,283,3,282,3,1,0
+2020-08-25,Kosciusko,Indiana,18085,1013,14,994,12,19,2
+2020-08-25,LaGrange,Indiana,18087,584,11,582,11,2,0
+2020-08-25,Lake,Indiana,18089,8804,310,8744,292,60,18
+2020-08-25,LaPorte,Indiana,18091,1126,31,1122,31,4,0
+2020-08-25,Lawrence,Indiana,18093,426,29,424,27,2,2
+2020-08-25,Madison,Indiana,18095,1229,78,1213,67,16,11
+2020-08-25,Marion,Indiana,18097,17854,796,17690,745,164,51
 2020-08-25,Marshall,Indiana,18099,858,23,858,23,0,0
-2020-08-25,Martin,Indiana,18101,75,0,75,0,0,0
-2020-08-25,Miami,Indiana,18103,310,2,306,2,4,0
-2020-08-25,Monroe,Indiana,18105,957,40,952,36,5,4
+2020-08-25,Martin,Indiana,18101,79,0,78,0,1,0
+2020-08-25,Miami,Indiana,18103,311,2,307,2,4,0
+2020-08-25,Monroe,Indiana,18105,973,40,968,36,5,4
 2020-08-25,Montgomery,Indiana,18107,390,22,388,21,2,1
-2020-08-25,Morgan,Indiana,18109,565,38,553,35,12,3
+2020-08-25,Morgan,Indiana,18109,567,38,555,35,12,3
 2020-08-25,Newton,Indiana,18111,134,11,133,10,1,1
-2020-08-25,Noble,Indiana,18113,777,31,773,30,4,1
+2020-08-25,Noble,Indiana,18113,779,31,775,30,4,1
 2020-08-25,Ohio,Indiana,18115,70,7,70,7,0,0
-2020-08-25,Orange,Indiana,18117,216,26,214,24,2,2
-2020-08-25,Owen,Indiana,18119,133,2,132,1,1,1
+2020-08-25,Orange,Indiana,18117,218,26,216,24,2,2
+2020-08-25,Owen,Indiana,18119,134,2,133,1,1,1
 2020-08-25,Parke,Indiana,18121,81,2,75,2,6,0
 2020-08-25,Perry,Indiana,18123,206,14,195,13,11,1
-2020-08-25,Pike,Indiana,18125,80,1,80,1,0,0
-2020-08-25,Porter,Indiana,18127,1593,42,1582,40,11,2
+2020-08-25,Pike,Indiana,18125,82,1,82,1,0,0
+2020-08-25,Porter,Indiana,18127,1610,43,1599,41,11,2
 2020-08-25,Posey,Indiana,18129,202,0,202,0,0,0
 2020-08-25,Pulaski,Indiana,18131,94,1,92,1,2,0
-2020-08-25,Putnam,Indiana,18133,406,8,401,8,5,0
-2020-08-25,Randolph,Indiana,18135,182,6,150,6,32,0
-2020-08-25,Ripley,Indiana,18137,234,8,234,8,0,0
-2020-08-25,Rush,Indiana,18139,166,4,127,4,39,0
-2020-08-25,Scott,Indiana,18143,309,12,303,10,6,2
-2020-08-25,Shelby,Indiana,18145,1020,36,607,28,413,8
+2020-08-25,Putnam,Indiana,18133,411,8,406,8,5,0
+2020-08-25,Randolph,Indiana,18135,184,7,151,7,33,0
+2020-08-25,Ripley,Indiana,18137,235,8,235,8,0,0
+2020-08-25,Rush,Indiana,18139,167,4,128,4,39,0
+2020-08-25,Scott,Indiana,18143,311,12,305,10,6,2
+2020-08-25,Shelby,Indiana,18145,1040,36,608,28,432,8
 2020-08-25,Spencer,Indiana,18147,153,3,150,3,3,0
-2020-08-25,Starke,Indiana,18149,191,8,189,7,2,1
+2020-08-25,Starke,Indiana,18149,193,8,191,7,2,1
 2020-08-25,Steuben,Indiana,18151,246,3,246,3,0,0
-2020-08-25,St. Joseph,Indiana,18141,4557,93,4540,88,17,5
-2020-08-25,Sullivan,Indiana,18153,262,5,258,5,4,0
+2020-08-25,St. Joseph,Indiana,18141,4709,95,4692,90,17,5
+2020-08-25,Sullivan,Indiana,18153,270,6,266,6,4,0
 2020-08-25,Switzerland,Indiana,18155,65,0,63,0,2,0
-2020-08-25,Tippecanoe,Indiana,18157,1467,14,1464,13,3,1
-2020-08-25,Tipton,Indiana,18159,173,21,170,19,3,2
+2020-08-25,Tippecanoe,Indiana,18157,1478,14,1475,13,3,1
+2020-08-25,Tipton,Indiana,18159,175,21,172,19,3,2
 2020-08-25,Union,Indiana,18161,80,0,57,0,23,0
-2020-08-25,Vanderburgh,Indiana,18163,2364,17,2361,17,3,0
+2020-08-25,Vanderburgh,Indiana,18163,2385,17,2382,17,3,0
 2020-08-25,Vermillion,Indiana,18165,82,0,81,0,1,0
-2020-08-25,Vigo,Indiana,18167,1050,16,1046,15,4,1
-2020-08-25,Wabash,Indiana,18169,199,5,195,5,4,0
-2020-08-25,Warren,Indiana,18171,35,1,34,1,1,0
-2020-08-25,Warrick,Indiana,18173,701,32,699,30,2,2
-2020-08-25,Washington,Indiana,18175,190,1,190,1,0,0
-2020-08-25,Wayne,Indiana,18177,820,10,490,10,330,0
-2020-08-25,Wells,Indiana,18179,211,2,195,2,16,0
-2020-08-25,White,Indiana,18181,414,11,414,11,0,0
-2020-08-25,Whitley,Indiana,18183,192,6,192,6,0,0
+2020-08-25,Vigo,Indiana,18167,1079,16,1075,15,4,1
+2020-08-25,Wabash,Indiana,18169,203,5,199,5,4,0
+2020-08-25,Warren,Indiana,18171,36,1,35,1,1,0
+2020-08-25,Warrick,Indiana,18173,708,32,706,30,2,2
+2020-08-25,Washington,Indiana,18175,195,1,195,1,0,0
+2020-08-25,Wayne,Indiana,18177,829,10,499,10,330,0
+2020-08-25,Wells,Indiana,18179,216,2,200,2,16,0
+2020-08-25,White,Indiana,18181,417,11,417,11,0,0
+2020-08-25,Whitley,Indiana,18183,194,6,194,6,0,0
 2020-08-25,Adair,Iowa,19001,43,1,43,1,,
 2020-08-25,Adams,Iowa,19003,20,0,20,0,,
 2020-08-25,Allamakee,Iowa,19005,168,4,168,4,,
-2020-08-25,Appanoose,Iowa,19007,67,3,67,3,,
+2020-08-25,Appanoose,Iowa,19007,68,3,68,3,,
 2020-08-25,Audubon,Iowa,19009,36,1,36,1,,
 2020-08-25,Benton,Iowa,19011,182,1,182,1,,
-2020-08-25,Black Hawk,Iowa,19013,3526,71,3526,71,,
-2020-08-25,Boone,Iowa,19015,324,3,324,3,,
+2020-08-25,Black Hawk,Iowa,19013,3531,71,3531,71,,
+2020-08-25,Boone,Iowa,19015,322,3,322,3,,
 2020-08-25,Bremer,Iowa,19017,266,7,266,7,,
-2020-08-25,Buchanan,Iowa,19019,164,1,164,1,,
+2020-08-25,Buchanan,Iowa,19019,165,1,165,1,,
 2020-08-25,Buena Vista,Iowa,19021,1817,12,1817,12,,
-2020-08-25,Butler,Iowa,19023,164,2,164,2,,
-2020-08-25,Calhoun,Iowa,19025,104,2,104,2,,
-2020-08-25,Carroll,Iowa,19027,306,2,306,2,,
+2020-08-25,Butler,Iowa,19023,165,2,165,2,,
+2020-08-25,Calhoun,Iowa,19025,103,2,103,2,,
+2020-08-25,Carroll,Iowa,19027,308,2,308,2,,
 2020-08-25,Cass,Iowa,19029,104,2,104,2,,
 2020-08-25,Cedar,Iowa,19031,146,1,146,1,,
-2020-08-25,Cerro Gordo,Iowa,19033,724,20,724,20,,
-2020-08-25,Cherokee,Iowa,19035,128,1,128,1,,
+2020-08-25,Cerro Gordo,Iowa,19033,725,20,725,20,,
+2020-08-25,Cherokee,Iowa,19035,129,1,129,1,,
 2020-08-25,Chickasaw,Iowa,19037,87,0,87,0,,
-2020-08-25,Clarke,Iowa,19039,216,3,216,3,,
-2020-08-25,Clay,Iowa,19041,231,2,231,2,,
-2020-08-25,Clayton,Iowa,19043,163,3,163,3,,
-2020-08-25,Clinton,Iowa,19045,686,7,686,7,,
-2020-08-25,Crawford,Iowa,19047,794,3,794,3,,
+2020-08-25,Clarke,Iowa,19039,217,3,217,3,,
+2020-08-25,Clay,Iowa,19041,232,2,232,2,,
+2020-08-25,Clayton,Iowa,19043,164,3,164,3,,
+2020-08-25,Clinton,Iowa,19045,692,7,692,7,,
+2020-08-25,Crawford,Iowa,19047,796,3,796,3,,
 2020-08-25,Dallas,Iowa,19049,2132,36,2132,36,,
 2020-08-25,Davis,Iowa,19051,77,2,77,2,,
-2020-08-25,Decatur,Iowa,19053,36,0,36,0,,
-2020-08-25,Delaware,Iowa,19055,175,2,175,2,,
-2020-08-25,Des Moines,Iowa,19057,432,3,432,3,,
-2020-08-25,Dickinson,Iowa,19059,402,5,402,5,,
-2020-08-25,Dubuque,Iowa,19061,1915,35,1915,35,,
-2020-08-25,Emmet,Iowa,19063,214,7,214,7,,
+2020-08-25,Decatur,Iowa,19053,37,0,37,0,,
+2020-08-25,Delaware,Iowa,19055,177,2,177,2,,
+2020-08-25,Des Moines,Iowa,19057,436,3,436,3,,
+2020-08-25,Dickinson,Iowa,19059,403,5,403,5,,
+2020-08-25,Dubuque,Iowa,19061,1918,35,1918,35,,
+2020-08-25,Emmet,Iowa,19063,213,7,213,7,,
 2020-08-25,Fayette,Iowa,19065,126,1,126,1,,
 2020-08-25,Floyd,Iowa,19067,186,3,186,3,,
-2020-08-25,Franklin,Iowa,19069,275,16,275,16,,
+2020-08-25,Franklin,Iowa,19069,274,16,274,16,,
 2020-08-25,Fremont,Iowa,19071,54,0,54,0,,
 2020-08-25,Greene,Iowa,19073,48,0,48,0,,
 2020-08-25,Grundy,Iowa,19075,113,1,113,1,,
-2020-08-25,Guthrie,Iowa,19077,158,5,158,5,,
+2020-08-25,Guthrie,Iowa,19077,159,5,159,5,,
 2020-08-25,Hamilton,Iowa,19079,248,2,248,2,,
 2020-08-25,Hancock,Iowa,19081,138,2,138,2,,
 2020-08-25,Hardin,Iowa,19083,214,1,214,1,,
-2020-08-25,Harrison,Iowa,19085,136,1,136,1,,
+2020-08-25,Harrison,Iowa,19085,139,1,139,1,,
 2020-08-25,Henry,Iowa,19087,205,4,205,4,,
-2020-08-25,Howard,Iowa,19089,94,0,94,0,,
+2020-08-25,Howard,Iowa,19089,105,1,105,1,,
 2020-08-25,Humboldt,Iowa,19091,100,2,100,2,,
 2020-08-25,Ida,Iowa,19093,36,0,36,0,,
 2020-08-25,Iowa,Iowa,19095,107,1,107,1,,
-2020-08-25,Jackson,Iowa,19097,180,1,180,1,,
-2020-08-25,Jasper,Iowa,19099,524,30,524,30,,
+2020-08-25,Jackson,Iowa,19097,182,1,182,1,,
+2020-08-25,Jasper,Iowa,19099,525,30,525,30,,
 2020-08-25,Jefferson,Iowa,19101,106,0,106,0,,
-2020-08-25,Johnson,Iowa,19103,2650,24,2650,24,,
+2020-08-25,Johnson,Iowa,19103,2686,24,2686,24,,
 2020-08-25,Jones,Iowa,19105,156,2,156,2,,
-2020-08-25,Keokuk,Iowa,19107,49,1,49,1,,
+2020-08-25,Keokuk,Iowa,19107,47,1,47,1,,
 2020-08-25,Kossuth,Iowa,19109,113,0,113,0,,
-2020-08-25,Lee,Iowa,19111,277,5,277,5,,
+2020-08-25,Lee,Iowa,19111,280,5,280,5,,
 2020-08-25,Linn,Iowa,19113,2769,91,2769,91,,
 2020-08-25,Louisa,Iowa,19115,383,14,383,14,,
 2020-08-25,Lucas,Iowa,19117,83,5,83,5,,
 2020-08-25,Lyon,Iowa,19119,136,2,136,2,,
 2020-08-25,Madison,Iowa,19121,150,2,150,2,,
 2020-08-25,Mahaska,Iowa,19123,168,18,168,18,,
-2020-08-25,Marion,Iowa,19125,330,0,330,0,,
+2020-08-25,Marion,Iowa,19125,335,0,335,0,,
 2020-08-25,Marshall,Iowa,19127,1571,28,1571,28,,
 2020-08-25,Mills,Iowa,19129,118,1,118,1,,
 2020-08-25,Mitchell,Iowa,19131,91,0,91,0,,
-2020-08-25,Monona,Iowa,19133,105,1,105,1,,
+2020-08-25,Monona,Iowa,19133,104,1,104,1,,
 2020-08-25,Monroe,Iowa,19135,93,8,93,8,,
 2020-08-25,Montgomery,Iowa,19137,68,4,68,4,,
-2020-08-25,Muscatine,Iowa,19139,930,48,930,48,,
-2020-08-25,O'Brien,Iowa,19141,168,7,168,7,,
+2020-08-25,Muscatine,Iowa,19139,933,48,933,48,,
+2020-08-25,O'Brien,Iowa,19141,169,7,169,7,,
 2020-08-25,Osceola,Iowa,19143,91,0,91,0,,
-2020-08-25,Page,Iowa,19145,104,0,104,0,,
+2020-08-25,Page,Iowa,19145,105,0,105,0,,
 2020-08-25,Palo Alto,Iowa,19147,105,0,105,0,,
-2020-08-25,Plymouth,Iowa,19149,624,15,624,15,,
+2020-08-25,Plymouth,Iowa,19149,627,15,627,15,,
 2020-08-25,Pocahontas,Iowa,19151,122,2,122,2,,
-2020-08-25,Polk,Iowa,19153,11874,217,11874,217,,
-2020-08-25,Pottawattamie,Iowa,19155,1520,31,1520,31,,
+2020-08-25,Polk,Iowa,19153,11906,217,11906,217,,
+2020-08-25,Pottawattamie,Iowa,19155,1521,32,1521,32,,
 2020-08-25,Poweshiek,Iowa,19157,178,8,178,8,,
 2020-08-25,Ringgold,Iowa,19159,30,1,30,1,,
-2020-08-25,Sac,Iowa,19161,102,0,102,0,,
-2020-08-25,Scott,Iowa,19163,2025,19,2025,19,,
+2020-08-25,Sac,Iowa,19161,103,0,103,0,,
+2020-08-25,Scott,Iowa,19163,2021,18,2021,18,,
 2020-08-25,Shelby,Iowa,19165,209,1,209,1,,
-2020-08-25,Sioux,Iowa,19167,796,3,796,3,,
-2020-08-25,Story,Iowa,19169,1609,16,1609,16,,
-2020-08-25,Tama,Iowa,19171,587,29,587,29,,
+2020-08-25,Sioux,Iowa,19167,797,3,797,3,,
+2020-08-25,Story,Iowa,19169,1625,16,1625,16,,
+2020-08-25,Tama,Iowa,19171,588,29,588,29,,
 2020-08-25,Taylor,Iowa,19173,107,0,107,0,,
 2020-08-25,Union,Iowa,19175,90,3,90,3,,
-2020-08-25,Unknown,Iowa,,23,0,23,0,,
-2020-08-25,Van Buren,Iowa,19177,48,1,48,1,,
+2020-08-25,Unknown,Iowa,,7,0,7,0,,
+2020-08-25,Van Buren,Iowa,19177,47,1,47,1,,
 2020-08-25,Wapello,Iowa,19179,1023,45,1023,45,,
-2020-08-25,Warren,Iowa,19181,662,5,662,5,,
-2020-08-25,Washington,Iowa,19183,317,11,317,11,,
+2020-08-25,Warren,Iowa,19181,661,5,661,5,,
+2020-08-25,Washington,Iowa,19183,318,11,318,11,,
 2020-08-25,Wayne,Iowa,19185,39,2,39,2,,
-2020-08-25,Webster,Iowa,19187,698,8,698,8,,
-2020-08-25,Winnebago,Iowa,19189,145,3,145,3,,
-2020-08-25,Winneshiek,Iowa,19191,180,1,180,1,,
-2020-08-25,Woodbury,Iowa,19193,3972,54,3972,54,,
-2020-08-25,Worth,Iowa,19195,76,0,76,0,,
-2020-08-25,Wright,Iowa,19197,495,1,495,1,,
+2020-08-25,Webster,Iowa,19187,701,8,701,8,,
+2020-08-25,Winnebago,Iowa,19189,146,5,146,5,,
+2020-08-25,Winneshiek,Iowa,19191,183,1,183,1,,
+2020-08-25,Woodbury,Iowa,19193,3980,54,3980,54,,
+2020-08-25,Worth,Iowa,19195,75,0,75,0,,
+2020-08-25,Wright,Iowa,19197,494,1,494,1,,
 2020-08-25,Allen,Kansas,20001,23,0,23,,0,
 2020-08-25,Anderson,Kansas,20003,32,0,32,,0,
 2020-08-25,Atchison,Kansas,20005,157,0,157,,,
@@ -908,17 +908,17 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-08-25,Cloud,Kansas,20029,45,1,45,1,0,
 2020-08-25,Coffey,Kansas,20031,76,8,76,8,,
 2020-08-25,Comanche,Kansas,20033,9,0,3,,6,
-2020-08-25,Cowley,Kansas,20035,240,3,226,3,14,
+2020-08-25,Cowley,Kansas,20035,240,3,232,3,8,
 2020-08-25,Crawford,Kansas,20037,443,1,6,1,437,
 2020-08-25,Decatur,Kansas,20039,6,0,5,,1,
 2020-08-25,Dickinson,Kansas,20041,61,1,61,1,0,
 2020-08-25,Doniphan,Kansas,20043,58,0,13,,45,
-2020-08-25,Douglas,Kansas,20045,1017,8,1017,8,,
+2020-08-25,Douglas,Kansas,20045,1037,8,1037,8,,
 2020-08-25,Edwards,Kansas,20047,22,0,6,,16,
 2020-08-25,Elk,Kansas,20049,1,0,1,,0,
 2020-08-25,Ellis,Kansas,20051,256,1,248,1,8,0
 2020-08-25,Ellsworth,Kansas,20053,23,0,23,,0,
-2020-08-25,Finney,Kansas,20055,1846,12,1846,12,,
+2020-08-25,Finney,Kansas,20055,1853,12,1853,12,,
 2020-08-25,Ford,Kansas,20057,2257,10,1738,10,519,
 2020-08-25,Franklin,Kansas,20059,250,2,250,2,,
 2020-08-25,Geary,Kansas,20061,257,2,194,2,63,
@@ -933,7 +933,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-08-25,Harvey,Kansas,20079,277,5,91,1,186,4
 2020-08-25,Haskell,Kansas,20081,53,0,21,,32,
 2020-08-25,Hodgeman,Kansas,20083,13,0,4,,9,
-2020-08-25,Jackson,Kansas,20085,181,1,178,1,3,
+2020-08-25,Jackson,Kansas,20085,185,1,185,1,,
 2020-08-25,Jefferson,Kansas,20087,106,0,99,0,7,
 2020-08-25,Jewell,Kansas,20089,14,1,14,1,0,
 2020-08-25,Johnson,Kansas,20091,7418,112,7411,112,7,
@@ -946,10 +946,10 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-08-25,Lincoln,Kansas,20105,6,0,,,,
 2020-08-25,Linn,Kansas,20107,53,0,15,,38,
 2020-08-25,Logan,Kansas,20109,3,0,2,,1,
-2020-08-25,Lyon,Kansas,20111,820,14,408,14,412,
+2020-08-25,Lyon,Kansas,20111,828,14,408,14,420,
 2020-08-25,Marion,Kansas,20115,61,1,7,1,54,
 2020-08-25,Marshall,Kansas,20117,14,0,13,,1,
-2020-08-25,McPherson,Kansas,20113,182,1,179,1,3,
+2020-08-25,McPherson,Kansas,20113,190,1,190,1,,
 2020-08-25,Meade,Kansas,20119,66,0,66,,,
 2020-08-25,Miami,Kansas,20121,187,0,,,,
 2020-08-25,Mitchell,Kansas,20123,28,0,28,,0,
@@ -968,7 +968,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-08-25,Pottawatomie,Kansas,20149,142,0,103,0,39,
 2020-08-25,Pratt,Kansas,20151,40,0,40,,0,
 2020-08-25,Rawlins,Kansas,20153,1,0,,,,
-2020-08-25,Reno,Kansas,20155,659,1,659,1,,
+2020-08-25,Reno,Kansas,20155,666,1,666,1,,
 2020-08-25,Republic,Kansas,20157,36,0,36,,,
 2020-08-25,Rice,Kansas,20159,42,0,30,,12,
 2020-08-25,Riley,Kansas,20161,618,5,606,5,12,
@@ -977,9 +977,9 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-08-25,Russell,Kansas,20167,23,0,23,,,
 2020-08-25,Saline,Kansas,20169,439,9,439,9,,
 2020-08-25,Scott,Kansas,20171,88,0,88,,,
-2020-08-25,Sedgwick,Kansas,20173,6652,48,6351,48,301,
-2020-08-25,Seward,Kansas,20175,1293,4,1293,4,,
-2020-08-25,Shawnee,Kansas,20177,1994,21,1994,21,,
+2020-08-25,Sedgwick,Kansas,20173,6652,48,6404,48,248,
+2020-08-25,Seward,Kansas,20175,1317,4,1317,4,,
+2020-08-25,Shawnee,Kansas,20177,2010,21,2010,21,,
 2020-08-25,Sheridan,Kansas,20179,7,0,7,,0,
 2020-08-25,Sherman,Kansas,20181,17,0,17,,0,
 2020-08-25,Smith,Kansas,20183,3,0,2,,1,
@@ -996,191 +996,191 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-08-25,Wilson,Kansas,20205,17,0,4,,13,
 2020-08-25,Woodson,Kansas,20207,12,0,12,,0,
 2020-08-25,Wyandotte,Kansas,20209,5761,111,5637,111,124,
-2020-08-25,Adair,Kentucky,21001,257,19,257,19,,0
-2020-08-25,Allen,Kentucky,21003,245,8,,,,
-2020-08-25,Anderson,Kentucky,21005,104,1,,,,
-2020-08-25,Ballard,Kentucky,21007,39,0,,,,
-2020-08-25,Barren,Kentucky,21009,472,6,450,5,22,1
+2020-08-25,Adair,Kentucky,21001,259,19,259,19,,0
+2020-08-25,Allen,Kentucky,21003,243,8,,,,
+2020-08-25,Anderson,Kentucky,21005,107,1,,,,
+2020-08-25,Ballard,Kentucky,21007,41,0,,,,
+2020-08-25,Barren,Kentucky,21009,475,6,450,5,25,1
 2020-08-25,Bath,Kentucky,21011,53,1,,,,
-2020-08-25,Bell,Kentucky,21013,368,6,,,,
-2020-08-25,Boone,Kentucky,21015,1231,25,1171,25,60,
+2020-08-25,Bell,Kentucky,21013,371,7,,,,
+2020-08-25,Boone,Kentucky,21015,1239,25,1176,25,63,
 2020-08-25,Bourbon,Kentucky,21017,113,1,,,,
-2020-08-25,Boyd,Kentucky,21019,218,4,,,,
+2020-08-25,Boyd,Kentucky,21019,221,4,,,,
 2020-08-25,Boyle,Kentucky,21021,189,0,,,,
 2020-08-25,Bracken,Kentucky,21023,37,0,,,,
 2020-08-25,Breathitt,Kentucky,21025,49,0,,,,
-2020-08-25,Breckinridge,Kentucky,21027,91,2,,,,
-2020-08-25,Bullitt,Kentucky,21029,548,5,136,,412,
+2020-08-25,Breckinridge,Kentucky,21027,92,2,,,,
+2020-08-25,Bullitt,Kentucky,21029,556,5,136,,420,
 2020-08-25,Butler,Kentucky,21031,314,16,314,16,,0
-2020-08-25,Caldwell,Kentucky,21033,64,0,,,,
-2020-08-25,Calloway,Kentucky,21035,369,5,,,,
-2020-08-25,Campbell,Kentucky,21037,654,13,653,13,1,0
-2020-08-25,Carlisle,Kentucky,21039,56,1,,,,
+2020-08-25,Caldwell,Kentucky,21033,65,0,,,,
+2020-08-25,Calloway,Kentucky,21035,371,5,,,,
+2020-08-25,Campbell,Kentucky,21037,658,13,656,13,2,0
+2020-08-25,Carlisle,Kentucky,21039,57,1,,,,
 2020-08-25,Carroll,Kentucky,21041,187,2,,,,
-2020-08-25,Carter,Kentucky,21043,111,3,,,,
-2020-08-25,Casey,Kentucky,21045,234,13,234,13,,
-2020-08-25,Christian,Kentucky,21047,832,11,,,,
-2020-08-25,Clark,Kentucky,21049,227,8,,,,
+2020-08-25,Carter,Kentucky,21043,110,3,,,,
+2020-08-25,Casey,Kentucky,21045,237,13,237,13,,
+2020-08-25,Christian,Kentucky,21047,839,11,,,,
+2020-08-25,Clark,Kentucky,21049,232,8,,,,
 2020-08-25,Clay,Kentucky,21051,197,6,,,,
-2020-08-25,Clinton,Kentucky,21053,61,1,61,1,,0
+2020-08-25,Clinton,Kentucky,21053,63,1,63,1,,0
 2020-08-25,Crittenden,Kentucky,21055,38,1,,,,
-2020-08-25,Cumberland,Kentucky,21057,80,0,80,0,,0
-2020-08-25,Daviess,Kentucky,21059,928,10,928,10,,0
+2020-08-25,Cumberland,Kentucky,21057,83,0,83,0,,0
+2020-08-25,Daviess,Kentucky,21059,928,11,928,10,,1
 2020-08-25,Edmonson,Kentucky,21061,127,12,127,12,0,0
-2020-08-25,Elliott,Kentucky,21063,19,0,,,,
-2020-08-25,Estill,Kentucky,21065,29,0,,,,
+2020-08-25,Elliott,Kentucky,21063,20,0,,,,
+2020-08-25,Estill,Kentucky,21065,28,0,,,,
 2020-08-25,Fayette,Kentucky,21067,5129,53,5129,53,,
 2020-08-25,Fleming,Kentucky,21069,65,0,,,,
-2020-08-25,Floyd,Kentucky,21071,136,2,,,,
-2020-08-25,Franklin,Kentucky,21073,433,11,,,,
-2020-08-25,Fulton,Kentucky,21075,109,2,,,,
-2020-08-25,Gallatin,Kentucky,21077,88,8,,,,
-2020-08-25,Garrard,Kentucky,21079,102,2,,,,
+2020-08-25,Floyd,Kentucky,21071,139,2,,,,
+2020-08-25,Franklin,Kentucky,21073,442,11,,,,
+2020-08-25,Fulton,Kentucky,21075,111,2,,,,
+2020-08-25,Gallatin,Kentucky,21077,89,8,,,,
+2020-08-25,Garrard,Kentucky,21079,108,2,,,,
 2020-08-25,Grant,Kentucky,21081,133,6,133,6,,0
-2020-08-25,Graves,Kentucky,21083,617,28,,,,
-2020-08-25,Grayson,Kentucky,21085,239,11,,,,
-2020-08-25,Green,Kentucky,21087,111,5,111,5,,0
-2020-08-25,Greenup,Kentucky,21089,169,1,,,,
+2020-08-25,Graves,Kentucky,21083,623,28,,,,
+2020-08-25,Grayson,Kentucky,21085,243,11,,,,
+2020-08-25,Green,Kentucky,21087,116,5,116,5,,0
+2020-08-25,Greenup,Kentucky,21089,182,1,,,,
 2020-08-25,Hancock,Kentucky,21091,56,0,50,0,6,0
-2020-08-25,Hardin,Kentucky,21093,847,8,841,7,6,1
-2020-08-25,Harlan,Kentucky,21095,267,6,,,,
+2020-08-25,Hardin,Kentucky,21093,860,8,851,7,9,1
+2020-08-25,Harlan,Kentucky,21095,273,6,,,,
 2020-08-25,Harrison,Kentucky,21097,139,0,,,,
 2020-08-25,Hart,Kentucky,21099,129,1,129,1,,0
 2020-08-25,Henderson,Kentucky,21101,413,4,413,4,,0
-2020-08-25,Henry,Kentucky,21103,156,1,,,,
-2020-08-25,Hickman,Kentucky,21105,63,0,,,,
-2020-08-25,Hopkins,Kentucky,21107,480,37,473,36,7,1
-2020-08-25,Jackson,Kentucky,21109,178,15,,,,
+2020-08-25,Henry,Kentucky,21103,157,2,,,,
+2020-08-25,Hickman,Kentucky,21105,66,0,,,,
+2020-08-25,Hopkins,Kentucky,21107,488,37,482,36,6,1
+2020-08-25,Jackson,Kentucky,21109,187,15,,,,
 2020-08-25,Jefferson,Kentucky,21111,11503,277,11503,277,,
-2020-08-25,Jessamine,Kentucky,21113,416,0,412,,4,
+2020-08-25,Jessamine,Kentucky,21113,420,0,420,,0,
 2020-08-25,Johnson,Kentucky,21115,101,1,,,,
-2020-08-25,Kenton,Kentucky,21117,1644,41,1632,41,12,0
+2020-08-25,Kenton,Kentucky,21117,1656,41,1639,41,17,0
 2020-08-25,Knott,Kentucky,21119,88,1,,,,
-2020-08-25,Knox,Kentucky,21121,312,9,,,,
-2020-08-25,Larue,Kentucky,21123,92,1,92,1,,0
-2020-08-25,Laurel,Kentucky,21125,513,5,,,,
+2020-08-25,Knox,Kentucky,21121,317,9,,,,
+2020-08-25,Larue,Kentucky,21123,93,1,93,1,,0
+2020-08-25,Laurel,Kentucky,21125,523,5,,,,
 2020-08-25,Lawrence,Kentucky,21127,40,0,,,,
-2020-08-25,Lee,Kentucky,21129,11,0,,,,
+2020-08-25,Lee,Kentucky,21129,13,0,,,,
 2020-08-25,Leslie,Kentucky,21131,38,0,,,,
-2020-08-25,Letcher,Kentucky,21133,67,2,,,,
-2020-08-25,Lewis,Kentucky,21135,115,6,,,,
+2020-08-25,Letcher,Kentucky,21133,68,2,,,,
+2020-08-25,Lewis,Kentucky,21135,116,9,,,,
 2020-08-25,Lincoln,Kentucky,21137,132,2,,,,
 2020-08-25,Livingston,Kentucky,21139,42,1,,,,
-2020-08-25,Logan,Kentucky,21141,385,26,385,26,,0
+2020-08-25,Logan,Kentucky,21141,391,26,385,26,6,0
 2020-08-25,Lyon,Kentucky,21143,34,4,,,,
-2020-08-25,Madison,Kentucky,21151,805,2,,,,
+2020-08-25,Madison,Kentucky,21151,828,2,,,,
 2020-08-25,Magoffin,Kentucky,21153,60,0,,,,
-2020-08-25,Marion,Kentucky,21155,166,2,166,2,0,0
-2020-08-25,Marshall,Kentucky,21157,177,2,,,,
+2020-08-25,Marion,Kentucky,21155,167,2,166,2,1,0
+2020-08-25,Marshall,Kentucky,21157,183,2,,,,
 2020-08-25,Martin,Kentucky,21159,49,0,,,,
-2020-08-25,Mason,Kentucky,21161,71,2,,,,
-2020-08-25,McCracken,Kentucky,21145,460,5,,,,
-2020-08-25,McCreary,Kentucky,21147,68,0,68,0,,0
+2020-08-25,Mason,Kentucky,21161,79,2,,,,
+2020-08-25,McCracken,Kentucky,21145,469,5,,,,
+2020-08-25,McCreary,Kentucky,21147,71,0,71,0,,0
 2020-08-25,McLean,Kentucky,21149,53,0,53,0,,0
-2020-08-25,Meade,Kentucky,21163,142,3,142,3,,0
-2020-08-25,Menifee,Kentucky,21165,29,0,,,,
-2020-08-25,Mercer,Kentucky,21167,104,1,,,,
+2020-08-25,Meade,Kentucky,21163,144,3,144,3,,0
+2020-08-25,Menifee,Kentucky,21165,31,0,,,,
+2020-08-25,Mercer,Kentucky,21167,106,1,,,,
 2020-08-25,Metcalfe,Kentucky,21169,81,2,81,2,,0
-2020-08-25,Monroe,Kentucky,21171,114,2,,,,
-2020-08-25,Montgomery,Kentucky,21173,170,1,,,,
-2020-08-25,Morgan,Kentucky,21175,40,0,,,,
+2020-08-25,Monroe,Kentucky,21171,115,2,,,,
+2020-08-25,Montgomery,Kentucky,21173,174,1,,,,
+2020-08-25,Morgan,Kentucky,21175,41,0,,,,
 2020-08-25,Muhlenberg,Kentucky,21177,672,11,649,11,23,0
-2020-08-25,Nelson,Kentucky,21179,316,2,316,2,,0
+2020-08-25,Nelson,Kentucky,21179,323,2,323,2,,0
 2020-08-25,Nicholas,Kentucky,21181,22,1,,,,
 2020-08-25,Ohio,Kentucky,21183,394,9,394,9,,0
-2020-08-25,Oldham,Kentucky,21185,757,22,,,,
+2020-08-25,Oldham,Kentucky,21185,770,22,,,,
 2020-08-25,Owen,Kentucky,21187,75,0,,,,
-2020-08-25,Owsley,Kentucky,21189,25,0,,,,
-2020-08-25,Pendleton,Kentucky,21191,59,0,,,,
-2020-08-25,Perry,Kentucky,21193,269,7,,,,
+2020-08-25,Owsley,Kentucky,21189,26,0,,,,
+2020-08-25,Pendleton,Kentucky,21191,62,0,,,,
+2020-08-25,Perry,Kentucky,21193,272,7,,,,
 2020-08-25,Pike,Kentucky,21195,298,3,,,,
-2020-08-25,Powell,Kentucky,21197,70,0,,,,
-2020-08-25,Pulaski,Kentucky,21199,475,6,475,6,,0
-2020-08-25,Robertson,Kentucky,21201,3,0,,,,
-2020-08-25,Rockcastle,Kentucky,21203,108,0,,,,
-2020-08-25,Rowan,Kentucky,21205,89,0,,,,
-2020-08-25,Russell,Kentucky,21207,159,5,159,5,,0
-2020-08-25,Scott,Kentucky,21209,504,2,,,,
+2020-08-25,Powell,Kentucky,21197,71,0,,,,
+2020-08-25,Pulaski,Kentucky,21199,487,6,487,6,,0
+2020-08-25,Robertson,Kentucky,21201,4,0,,,,
+2020-08-25,Rockcastle,Kentucky,21203,110,0,,,,
+2020-08-25,Rowan,Kentucky,21205,103,0,,,,
+2020-08-25,Russell,Kentucky,21207,163,5,163,5,,0
+2020-08-25,Scott,Kentucky,21209,513,4,,,,
 2020-08-25,Shelby,Kentucky,21211,872,23,,,,
-2020-08-25,Simpson,Kentucky,21213,193,7,189,7,4,0
-2020-08-25,Spencer,Kentucky,21215,160,0,,,,
-2020-08-25,Taylor,Kentucky,21217,181,4,181,4,0,0
-2020-08-25,Todd,Kentucky,21219,46,0,,,,
-2020-08-25,Trigg,Kentucky,21221,68,0,,,,
+2020-08-25,Simpson,Kentucky,21213,198,7,189,7,9,0
+2020-08-25,Spencer,Kentucky,21215,161,0,,,,
+2020-08-25,Taylor,Kentucky,21217,184,4,184,4,,0
+2020-08-25,Todd,Kentucky,21219,52,0,,,,
+2020-08-25,Trigg,Kentucky,21221,71,0,,,,
 2020-08-25,Trimble,Kentucky,21223,41,0,,,,
 2020-08-25,Union,Kentucky,21225,84,0,84,0,,0
-2020-08-25,Warren,Kentucky,21227,2998,25,2887,25,111,
-2020-08-25,Washington,Kentucky,21229,116,1,115,1,1,0
+2020-08-25,Warren,Kentucky,21227,3076,25,2887,25,189,
+2020-08-25,Washington,Kentucky,21229,117,1,117,1,,0
 2020-08-25,Wayne,Kentucky,21231,86,0,85,0,1,0
-2020-08-25,Webster,Kentucky,21233,109,2,109,2,,
-2020-08-25,Whitley,Kentucky,21235,178,1,,,,
-2020-08-25,Wolfe,Kentucky,21237,27,0,,,,
-2020-08-25,Woodford,Kentucky,21239,202,0,,,,
-2020-08-25,Acadia,Louisiana,22001,2748,93,2748,93,,
-2020-08-25,Allen,Louisiana,22003,1409,37,1409,37,,
-2020-08-25,Ascension,Louisiana,22005,3226,87,3226,87,,
-2020-08-25,Assumption,Louisiana,22007,631,21,631,21,,
-2020-08-25,Avoyelles,Louisiana,22009,1218,43,1218,43,,
-2020-08-25,Beauregard,Louisiana,22011,941,29,941,29,,
-2020-08-25,Bienville,Louisiana,22013,403,30,403,30,,
-2020-08-25,Bossier,Louisiana,22015,2557,91,2557,91,,
-2020-08-25,Caddo,Louisiana,22017,7180,310,7180,310,,
-2020-08-25,Calcasieu,Louisiana,22019,7284,178,7284,178,,
+2020-08-25,Webster,Kentucky,21233,109,2,109,2,,0
+2020-08-25,Whitley,Kentucky,21235,179,1,,,,
+2020-08-25,Wolfe,Kentucky,21237,26,0,,,,
+2020-08-25,Woodford,Kentucky,21239,201,0,,,,
+2020-08-25,Acadia,Louisiana,22001,2776,93,2776,93,,
+2020-08-25,Allen,Louisiana,22003,1426,37,1426,37,,
+2020-08-25,Ascension,Louisiana,22005,3245,90,3245,90,,
+2020-08-25,Assumption,Louisiana,22007,651,21,651,21,,
+2020-08-25,Avoyelles,Louisiana,22009,1248,43,1248,43,,
+2020-08-25,Beauregard,Louisiana,22011,924,31,924,31,,
+2020-08-25,Bienville,Louisiana,22013,409,30,409,30,,
+2020-08-25,Bossier,Louisiana,22015,2619,92,2619,92,,
+2020-08-25,Caddo,Louisiana,22017,7117,311,7117,311,,
+2020-08-25,Calcasieu,Louisiana,22019,7256,178,7256,178,,
 2020-08-25,Caldwell,Louisiana,22021,271,3,271,3,,
-2020-08-25,Cameron,Louisiana,22023,175,1,175,1,,
-2020-08-25,Catahoula,Louisiana,22025,351,6,351,6,,
-2020-08-25,Claiborne,Louisiana,22027,331,12,331,12,,
-2020-08-25,Concordia,Louisiana,22029,411,9,411,9,,
-2020-08-25,De Soto,Louisiana,22031,803,30,803,30,,
-2020-08-25,East Baton Rouge,Louisiana,22033,13412,403,13412,403,,
-2020-08-25,East Carroll,Louisiana,22035,529,2,529,2,,
-2020-08-25,East Feliciana,Louisiana,22037,862,43,862,43,,
-2020-08-25,Evangeline,Louisiana,22039,1006,23,1006,23,,
-2020-08-25,Franklin,Louisiana,22041,1042,26,1042,26,,
-2020-08-25,Grant,Louisiana,22043,382,25,382,25,,
-2020-08-25,Iberia,Louisiana,22045,2670,81,2670,81,,
-2020-08-25,Iberville,Louisiana,22047,1330,52,1330,52,,
-2020-08-25,Jackson,Louisiana,22049,421,20,421,20,,
-2020-08-25,Jefferson,Louisiana,22051,16171,538,16171,538,,
-2020-08-25,Jefferson Davis,Louisiana,22053,1120,34,1120,34,,
-2020-08-25,Lafayette,Louisiana,22055,8168,106,8168,106,,
-2020-08-25,Lafourche,Louisiana,22057,3111,107,3111,107,,
+2020-08-25,Cameron,Louisiana,22023,201,1,201,1,,
+2020-08-25,Catahoula,Louisiana,22025,354,6,354,6,,
+2020-08-25,Claiborne,Louisiana,22027,342,12,342,12,,
+2020-08-25,Concordia,Louisiana,22029,420,9,420,9,,
+2020-08-25,De Soto,Louisiana,22031,804,31,804,31,,
+2020-08-25,East Baton Rouge,Louisiana,22033,13391,404,13391,404,,
+2020-08-25,East Carroll,Louisiana,22035,530,2,530,2,,
+2020-08-25,East Feliciana,Louisiana,22037,865,44,865,44,,
+2020-08-25,Evangeline,Louisiana,22039,1019,24,1019,24,,
+2020-08-25,Franklin,Louisiana,22041,1059,26,1059,26,,
+2020-08-25,Grant,Louisiana,22043,388,26,388,26,,
+2020-08-25,Iberia,Louisiana,22045,2686,81,2686,81,,
+2020-08-25,Iberville,Louisiana,22047,1311,53,1311,53,,
+2020-08-25,Jackson,Louisiana,22049,425,20,425,20,,
+2020-08-25,Jefferson,Louisiana,22051,16159,539,16159,539,,
+2020-08-25,Jefferson Davis,Louisiana,22053,1149,34,1149,34,,
+2020-08-25,Lafayette,Louisiana,22055,8136,109,8136,109,,
+2020-08-25,Lafourche,Louisiana,22057,3211,107,3211,107,,
 2020-08-25,LaSalle,Louisiana,22059,379,5,379,5,,
-2020-08-25,Lincoln,Louisiana,22061,885,39,885,39,,
-2020-08-25,Livingston,Louisiana,22063,3279,62,3279,62,,
-2020-08-25,Madison,Louisiana,22065,655,6,655,6,,
-2020-08-25,Morehouse,Louisiana,22067,570,15,570,15,,
-2020-08-25,Natchitoches,Louisiana,22069,894,22,894,22,,
-2020-08-25,Orleans,Louisiana,22071,11214,570,11214,570,,
-2020-08-25,Ouachita,Louisiana,22073,5389,124,5389,124,,
-2020-08-25,Plaquemines,Louisiana,22075,489,19,489,19,,
-2020-08-25,Pointe Coupee,Louisiana,22077,894,36,894,36,,
-2020-08-25,Rapides,Louisiana,22079,3703,131,3703,131,,
-2020-08-25,Red River,Louisiana,22081,300,19,300,19,,
-2020-08-25,Richland,Louisiana,22083,667,9,667,9,,
-2020-08-25,Sabine,Louisiana,22085,712,13,712,13,,
-2020-08-25,St. Bernard,Louisiana,22087,1196,25,1196,25,,
-2020-08-25,St. Charles,Louisiana,22089,1587,54,1587,54,,
-2020-08-25,St. Helena,Louisiana,22091,307,2,307,2,,
-2020-08-25,St. James,Louisiana,22093,749,34,749,34,,
-2020-08-25,St. John the Baptist,Louisiana,22095,1490,94,1490,94,,
-2020-08-25,St. Landry,Louisiana,22097,3001,108,3001,108,,
-2020-08-25,St. Martin,Louisiana,22099,1839,51,1839,51,,
-2020-08-25,St. Mary,Louisiana,22101,1726,65,1726,65,,
-2020-08-25,St. Tammany,Louisiana,22103,5841,226,5841,226,,
-2020-08-25,Tangipahoa,Louisiana,22105,3959,88,3959,88,,
-2020-08-25,Tensas,Louisiana,22107,127,1,127,1,,
-2020-08-25,Terrebonne,Louisiana,22109,3333,94,3333,94,,
-2020-08-25,Union,Louisiana,22111,788,39,788,39,,
-2020-08-25,Unknown,Louisiana,,388,141,247,0,141,141
-2020-08-25,Vermilion,Louisiana,22113,1789,38,1789,38,,
-2020-08-25,Vernon,Louisiana,22115,898,36,898,36,,
-2020-08-25,Washington,Louisiana,22117,1415,59,1415,59,,
-2020-08-25,Webster,Louisiana,22119,988,19,988,19,,
-2020-08-25,West Baton Rouge,Louisiana,22121,787,38,787,38,,
-2020-08-25,West Carroll,Louisiana,22123,321,8,321,8,,
-2020-08-25,West Feliciana,Louisiana,22125,468,19,468,19,,
-2020-08-25,Winn,Louisiana,22127,517,15,517,15,,
+2020-08-25,Lincoln,Louisiana,22061,883,39,883,39,,
+2020-08-25,Livingston,Louisiana,22063,3313,63,3313,63,,
+2020-08-25,Madison,Louisiana,22065,671,7,671,7,,
+2020-08-25,Morehouse,Louisiana,22067,580,15,580,15,,
+2020-08-25,Natchitoches,Louisiana,22069,898,22,898,22,,
+2020-08-25,Orleans,Louisiana,22071,11229,572,11229,572,,
+2020-08-25,Ouachita,Louisiana,22073,5355,125,5355,125,,
+2020-08-25,Plaquemines,Louisiana,22075,487,19,487,19,,
+2020-08-25,Pointe Coupee,Louisiana,22077,917,36,917,36,,
+2020-08-25,Rapides,Louisiana,22079,3679,133,3679,133,,
+2020-08-25,Red River,Louisiana,22081,309,19,309,19,,
+2020-08-25,Richland,Louisiana,22083,664,9,664,9,,
+2020-08-25,Sabine,Louisiana,22085,735,13,735,13,,
+2020-08-25,St. Bernard,Louisiana,22087,1203,25,1203,25,,
+2020-08-25,St. Charles,Louisiana,22089,1611,54,1611,54,,
+2020-08-25,St. Helena,Louisiana,22091,368,2,368,2,,
+2020-08-25,St. James,Louisiana,22093,752,35,752,35,,
+2020-08-25,St. John the Baptist,Louisiana,22095,1499,95,1499,95,,
+2020-08-25,St. Landry,Louisiana,22097,3006,109,3006,109,,
+2020-08-25,St. Martin,Louisiana,22099,1928,54,1928,54,,
+2020-08-25,St. Mary,Louisiana,22101,1739,66,1739,66,,
+2020-08-25,St. Tammany,Louisiana,22103,5859,226,5859,226,,
+2020-08-25,Tangipahoa,Louisiana,22105,3939,90,3939,90,,
+2020-08-25,Tensas,Louisiana,22107,134,1,134,1,,
+2020-08-25,Terrebonne,Louisiana,22109,3259,94,3259,94,,
+2020-08-25,Union,Louisiana,22111,796,39,796,39,,
+2020-08-25,Unknown,Louisiana,,331,141,190,0,141,141
+2020-08-25,Vermilion,Louisiana,22113,1842,38,1842,38,,
+2020-08-25,Vernon,Louisiana,22115,927,36,927,36,,
+2020-08-25,Washington,Louisiana,22117,1426,59,1426,59,,
+2020-08-25,Webster,Louisiana,22119,993,19,993,19,,
+2020-08-25,West Baton Rouge,Louisiana,22121,809,38,809,38,,
+2020-08-25,West Carroll,Louisiana,22123,310,8,310,8,,
+2020-08-25,West Feliciana,Louisiana,22125,504,19,504,19,,
+2020-08-25,Winn,Louisiana,22127,531,15,531,15,,
 2020-08-25,Androscoggin,Maine,23001,594,10,535,10,59,
 2020-08-25,Aroostook,Maine,23003,37,1,36,1,1,
 2020-08-25,Cumberland,Maine,23005,2166,70,1935,70,231,
@@ -1213,7 +1213,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-08-25,Howard,Maryland,24027,4272,117,4266,111,6,6
 2020-08-25,Kent,Maryland,24029,256,23,255,22,1,1
 2020-08-25,Montgomery,Maryland,24031,19638,815,19599,776,39,39
-2020-08-25,Prince George's,Maryland,24033,25922,780,25922,771,,9
+2020-08-25,Prince George's,Maryland,24033,26042,780,26042,773,,7
 2020-08-25,Queen Anne's,Maryland,24035,524,26,523,25,1,1
 2020-08-25,Somerset,Maryland,24039,181,3,181,3,0,0
 2020-08-25,St. Mary's,Maryland,24037,1086,54,1086,54,0,0
@@ -1222,105 +1222,105 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-08-25,Washington,Maryland,24043,1241,32,1241,32,0,0
 2020-08-25,Wicomico,Maryland,24045,1480,47,1480,47,0,0
 2020-08-25,Worcester,Maryland,24047,767,23,766,22,1,1
-2020-08-25,Barnstable,Massachusetts,25001,1818,164,1585,,233,
-2020-08-25,Berkshire,Massachusetts,25003,682,46,641,,41,
-2020-08-25,Bristol,Massachusetts,25005,9603,650,8954,,649,
-2020-08-25,Dukes,Massachusetts,25007,69,0,51,,18,
-2020-08-25,Essex,Massachusetts,25009,18510,1220,17654,,856,
-2020-08-25,Franklin,Massachusetts,25011,420,61,381,,39,
-2020-08-25,Hampden,Massachusetts,25013,7808,737,7538,,270,
-2020-08-25,Hampshire,Massachusetts,25015,1244,134,1130,,114,
-2020-08-25,Middlesex,Massachusetts,25017,27158,2053,24800,,2358,
-2020-08-25,Nantucket,Massachusetts,25019,39,1,36,,3,
-2020-08-25,Norfolk,Massachusetts,25021,10885,1005,9382,,1503,
-2020-08-25,Plymouth,Massachusetts,25023,9483,737,8955,,528,
-2020-08-25,Suffolk,Massachusetts,25025,22904,1095,21786,,1118,
-2020-08-25,Unknown,Massachusetts,,1410,5,298,,1112,
-2020-08-25,Worcester,Massachusetts,25027,13989,1041,13230,,759,
-2020-08-25,Alcona,Michigan,26001,30,2,26,2,4,0
+2020-08-25,Barnstable,Massachusetts,25001,1824,164,1591,,233,
+2020-08-25,Berkshire,Massachusetts,25003,686,46,645,,41,
+2020-08-25,Bristol,Massachusetts,25005,9621,652,8972,,649,
+2020-08-25,Dukes,Massachusetts,25007,72,0,54,,18,
+2020-08-25,Essex,Massachusetts,25009,18563,1222,17707,,856,
+2020-08-25,Franklin,Massachusetts,25011,421,61,382,,39,
+2020-08-25,Hampden,Massachusetts,25013,7825,739,7555,,270,
+2020-08-25,Hampshire,Massachusetts,25015,1249,135,1135,,114,
+2020-08-25,Middlesex,Massachusetts,25017,27248,2054,24890,,2358,
+2020-08-25,Nantucket,Massachusetts,25019,41,1,38,,3,
+2020-08-25,Norfolk,Massachusetts,25021,10909,1006,9406,,1503,
+2020-08-25,Plymouth,Massachusetts,25023,9503,737,8975,,528,
+2020-08-25,Suffolk,Massachusetts,25025,22973,1097,21855,,1118,
+2020-08-25,Unknown,Massachusetts,,1469,5,308,,1161,
+2020-08-25,Worcester,Massachusetts,25027,14016,1042,13257,,759,
+2020-08-25,Alcona,Michigan,26001,31,2,27,2,4,0
 2020-08-25,Alger,Michigan,26003,17,0,16,0,1,0
-2020-08-25,Allegan,Michigan,26005,600,6,538,6,62,0
-2020-08-25,Alpena,Michigan,26007,131,14,117,14,14,0
-2020-08-25,Antrim,Michigan,26009,52,0,46,0,6,0
+2020-08-25,Allegan,Michigan,26005,606,6,543,6,63,0
+2020-08-25,Alpena,Michigan,26007,132,14,118,14,14,0
+2020-08-25,Antrim,Michigan,26009,53,0,46,0,7,0
 2020-08-25,Arenac,Michigan,26011,51,3,45,3,6,0
 2020-08-25,Baraga,Michigan,26013,8,0,6,0,2,0
-2020-08-25,Barry,Michigan,26015,204,2,181,2,23,0
-2020-08-25,Bay,Michigan,26017,780,39,697,39,83,0
-2020-08-25,Benzie,Michigan,26019,42,1,38,1,4,0
-2020-08-25,Berrien,Michigan,26021,1614,69,1371,69,243,0
-2020-08-25,Branch,Michigan,26023,1221,26,1183,26,38,0
-2020-08-25,Calhoun,Michigan,26025,886,43,778,42,108,1
-2020-08-25,Cass,Michigan,26027,387,15,362,15,25,0
-2020-08-25,Charlevoix,Michigan,26029,70,2,62,2,8,0
+2020-08-25,Barry,Michigan,26015,208,2,184,2,24,0
+2020-08-25,Bay,Michigan,26017,786,40,703,40,83,0
+2020-08-25,Benzie,Michigan,26019,41,2,38,2,3,0
+2020-08-25,Berrien,Michigan,26021,1622,69,1375,69,247,0
+2020-08-25,Branch,Michigan,26023,1223,26,1185,26,38,0
+2020-08-25,Calhoun,Michigan,26025,897,44,788,43,109,1
+2020-08-25,Cass,Michigan,26027,393,15,367,15,26,0
+2020-08-25,Charlevoix,Michigan,26029,71,2,63,2,8,0
 2020-08-25,Cheboygan,Michigan,26031,65,2,56,2,9,0
-2020-08-25,Chippewa,Michigan,26033,49,0,35,0,14,0
-2020-08-25,Clare,Michigan,26035,94,3,86,3,8,0
-2020-08-25,Clinton,Michigan,26037,456,13,385,13,71,0
+2020-08-25,Chippewa,Michigan,26033,52,0,36,0,16,0
+2020-08-25,Clare,Michigan,26035,97,3,88,3,9,0
+2020-08-25,Clinton,Michigan,26037,461,13,388,13,73,0
 2020-08-25,Crawford,Michigan,26039,113,5,104,5,9,0
-2020-08-25,Delta,Michigan,26041,133,3,106,3,27,0
+2020-08-25,Delta,Michigan,26041,134,3,106,3,28,0
 2020-08-25,Dickinson,Michigan,26043,61,2,60,2,1,0
-2020-08-25,Eaton,Michigan,26045,492,8,432,8,60,0
-2020-08-25,Emmet,Michigan,26047,108,2,98,2,10,0
-2020-08-25,Genesee,Michigan,26049,3869,303,3138,278,731,25
-2020-08-25,Gladwin,Michigan,26051,74,2,67,2,7,0
-2020-08-25,Gogebic,Michigan,26053,143,1,133,1,10,0
-2020-08-25,Grand Traverse,Michigan,26055,289,5,255,5,34,0
-2020-08-25,Gratiot,Michigan,26057,183,15,165,15,18,0
-2020-08-25,Hillsdale,Michigan,26059,294,25,271,25,23,0
-2020-08-25,Houghton,Michigan,26061,59,0,50,0,9,0
+2020-08-25,Eaton,Michigan,26045,497,8,435,8,62,0
+2020-08-25,Emmet,Michigan,26047,108,2,97,2,11,0
+2020-08-25,Genesee,Michigan,26049,3888,303,3150,278,738,25
+2020-08-25,Gladwin,Michigan,26051,75,2,68,2,7,0
+2020-08-25,Gogebic,Michigan,26053,142,1,132,1,10,0
+2020-08-25,Grand Traverse,Michigan,26055,298,6,262,6,36,
+2020-08-25,Gratiot,Michigan,26057,187,15,169,15,18,0
+2020-08-25,Hillsdale,Michigan,26059,297,26,274,26,23,0
+2020-08-25,Houghton,Michigan,26061,61,0,52,0,9,0
 2020-08-25,Huron,Michigan,26063,194,4,166,4,28,0
-2020-08-25,Ingham,Michigan,26065,1705,36,1657,36,48,0
-2020-08-25,Ionia,Michigan,26067,291,7,257,7,34,0
-2020-08-25,Iosco,Michigan,26069,140,12,116,11,24,1
-2020-08-25,Iron,Michigan,26071,25,1,25,1,0,0
-2020-08-25,Isabella,Michigan,26073,337,9,297,9,40,0
-2020-08-25,Jackson,Michigan,26075,2498,59,2476,58,22,1
-2020-08-25,Kalamazoo,Michigan,26077,1844,86,1702,84,142,2
+2020-08-25,Ingham,Michigan,26065,1714,37,1665,37,49,0
+2020-08-25,Ionia,Michigan,26067,292,7,258,7,34,0
+2020-08-25,Iosco,Michigan,26069,141,12,117,11,24,1
+2020-08-25,Iron,Michigan,26071,26,1,26,1,0,0
+2020-08-25,Isabella,Michigan,26073,354,9,312,9,42,0
+2020-08-25,Jackson,Michigan,26075,2509,60,2486,59,23,1
+2020-08-25,Kalamazoo,Michigan,26077,1857,86,1714,84,143,2
 2020-08-25,Kalkaska,Michigan,26079,62,4,48,4,14,0
-2020-08-25,Kent,Michigan,26081,8119,160,7405,157,714,3
-2020-08-25,Keweenaw,Michigan,26083,3,0,3,0,0,0
+2020-08-25,Kent,Michigan,26081,8171,162,7454,159,717,3
+2020-08-25,Keweenaw,Michigan,26083,2,0,2,0,0,0
 2020-08-25,Lake,Michigan,26085,29,0,28,0,1,0
 2020-08-25,Lapeer,Michigan,26087,828,42,745,41,83,1
-2020-08-25,Leelanau,Michigan,26089,84,0,77,0,7,0
-2020-08-25,Lenawee,Michigan,26091,1236,17,1194,17,42,0
-2020-08-25,Livingston,Michigan,26093,1069,30,876,30,193,0
-2020-08-25,Luce,Michigan,26095,33,0,33,0,0,0
-2020-08-25,Mackinac,Michigan,26097,33,0,25,0,8,0
-2020-08-25,Macomb,Michigan,26099,12396,963,11981,925,415,38
-2020-08-25,Manistee,Michigan,26101,58,1,50,1,8,0
+2020-08-25,Leelanau,Michigan,26089,84,1,77,1,7,0
+2020-08-25,Lenawee,Michigan,26091,1243,17,1200,17,43,0
+2020-08-25,Livingston,Michigan,26093,1078,30,891,30,187,0
+2020-08-25,Luce,Michigan,26095,120,0,120,0,0,0
+2020-08-25,Mackinac,Michigan,26097,32,0,24,0,8,0
+2020-08-25,Macomb,Michigan,26099,12498,966,12066,928,432,38
+2020-08-25,Manistee,Michigan,26101,60,1,51,1,9,0
 2020-08-25,Marquette,Michigan,26103,233,11,201,11,32,0
-2020-08-25,Mason,Michigan,26105,114,0,101,0,13,0
-2020-08-25,Mecosta,Michigan,26107,80,2,73,2,7,0
-2020-08-25,Menominee,Michigan,26109,229,0,199,0,30,0
-2020-08-25,Midland,Michigan,26111,385,10,301,10,84,0
+2020-08-25,Mason,Michigan,26105,115,0,102,0,13,0
+2020-08-25,Mecosta,Michigan,26107,82,2,75,2,7,0
+2020-08-25,Menominee,Michigan,26109,233,0,203,0,30,0
+2020-08-25,Midland,Michigan,26111,389,11,304,11,85,0
 2020-08-25,Missaukee,Michigan,26113,43,1,29,1,14,0
-2020-08-25,Monroe,Michigan,26115,1198,26,1056,24,142,2
-2020-08-25,Montcalm,Michigan,26117,213,3,193,3,20,0
+2020-08-25,Monroe,Michigan,26115,1230,26,1084,24,146,2
+2020-08-25,Montcalm,Michigan,26117,216,3,196,3,20,0
 2020-08-25,Montmorency,Michigan,26119,12,0,11,0,1,0
-2020-08-25,Muskegon,Michigan,26121,1506,63,1453,63,53,0
-2020-08-25,Newaygo,Michigan,26123,285,0,271,0,14,0
-2020-08-25,Oakland,Michigan,26125,17358,1152,13826,1109,3532,43
-2020-08-25,Oceana,Michigan,26127,497,6,471,6,26,0
+2020-08-25,Muskegon,Michigan,26121,1907,64,1851,64,56,0
+2020-08-25,Newaygo,Michigan,26123,287,0,273,0,14,0
+2020-08-25,Oakland,Michigan,26125,17459,1155,13896,1112,3563,43
+2020-08-25,Oceana,Michigan,26127,498,6,472,6,26,0
 2020-08-25,Ogemaw,Michigan,26129,55,3,41,3,14,0
 2020-08-25,Ontonagon,Michigan,26131,33,0,32,0,1,0
 2020-08-25,Osceola,Michigan,26133,74,0,67,0,7,0
 2020-08-25,Oscoda,Michigan,26135,29,1,22,1,7,0
-2020-08-25,Otsego,Michigan,26137,150,11,118,11,32,0
-2020-08-25,Ottawa,Michigan,26139,2014,63,1892,58,122,5
+2020-08-25,Otsego,Michigan,26137,152,11,119,11,33,0
+2020-08-25,Ottawa,Michigan,26139,2021,63,1898,58,123,5
 2020-08-25,Presque Isle,Michigan,26141,21,1,19,1,2,0
-2020-08-25,Roscommon,Michigan,26143,71,4,58,4,13,0
-2020-08-25,Saginaw,Michigan,26145,2391,130,2249,127,142,3
-2020-08-25,Sanilac,Michigan,26151,117,6,114,5,3,1
+2020-08-25,Roscommon,Michigan,26143,72,4,58,4,14,0
+2020-08-25,Saginaw,Michigan,26145,2411,130,2264,127,147,3
+2020-08-25,Sanilac,Michigan,26151,118,7,115,6,3,1
 2020-08-25,Schoolcraft,Michigan,26153,15,0,14,0,1,0
-2020-08-25,Shiawassee,Michigan,26155,387,29,361,28,26,1
+2020-08-25,Shiawassee,Michigan,26155,400,29,373,28,27,1
 2020-08-25,St. Clair,Michigan,26147,889,53,763,52,126,1
-2020-08-25,St. Joseph,Michigan,26149,667,11,581,11,86,0
-2020-08-25,Tuscola,Michigan,26157,422,29,380,29,42,0
-2020-08-25,Unknown,Michigan,,604,4,593,4,11,0
-2020-08-25,Van Buren,Michigan,26159,579,14,514,13,65,1
-2020-08-25,Washtenaw,Michigan,26161,3306,124,2867,121,439,3
-2020-08-25,Wayne,Michigan,26163,30191,2862,28555,2727,1636,135
-2020-08-25,Wexford,Michigan,26165,94,4,75,4,19,0
+2020-08-25,St. Joseph,Michigan,26149,670,11,582,11,88,0
+2020-08-25,Tuscola,Michigan,26157,427,29,383,29,44,0
+2020-08-25,Unknown,Michigan,,319,4,308,4,11,0
+2020-08-25,Van Buren,Michigan,26159,582,14,516,13,66,1
+2020-08-25,Washtenaw,Michigan,26161,3328,124,2890,121,438,3
+2020-08-25,Wayne,Michigan,26163,30358,2865,28670,2729,1688,136
+2020-08-25,Wexford,Michigan,26165,95,4,76,4,19,0
 2020-08-25,Aitkin,Minnesota,27001,45,1,45,1,,
 2020-08-25,Anoka,Minnesota,27003,4412,118,4412,118,,
 2020-08-25,Becker,Minnesota,27005,181,2,181,2,,
@@ -1409,205 +1409,205 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-08-25,Winona,Minnesota,27169,310,17,310,17,,
 2020-08-25,Wright,Minnesota,27171,1114,6,1114,6,,
 2020-08-25,Yellow Medicine,Minnesota,27173,68,1,68,1,,
-2020-08-25,Adams,Mississippi,28001,739,28,,,,
-2020-08-25,Alcorn,Mississippi,28003,526,6,,,,
-2020-08-25,Amite,Mississippi,28005,262,6,,,,
+2020-08-25,Adams,Mississippi,28001,744,30,,,,
+2020-08-25,Alcorn,Mississippi,28003,565,6,,,,
+2020-08-25,Amite,Mississippi,28005,265,6,,,,
 2020-08-25,Attala,Mississippi,28007,571,25,,,,
-2020-08-25,Benton,Mississippi,28009,195,1,,,,
-2020-08-25,Bolivar,Mississippi,28011,1351,42,,,,
-2020-08-25,Calhoun,Mississippi,28013,451,9,,,,
-2020-08-25,Carroll,Mississippi,28015,284,11,,,,
-2020-08-25,Chickasaw,Mississippi,28017,562,20,,,,
-2020-08-25,Choctaw,Mississippi,28019,151,4,,,,
-2020-08-25,Claiborne,Mississippi,28021,426,15,,,,
-2020-08-25,Clarke,Mississippi,28023,416,28,,,,
-2020-08-25,Clay,Mississippi,28025,449,14,,,,
-2020-08-25,Coahoma,Mississippi,28027,910,14,,,,
-2020-08-25,Copiah,Mississippi,28029,1038,30,,,,
-2020-08-25,Covington,Mississippi,28031,702,17,,,,
-2020-08-25,DeSoto,Mississippi,28033,4320,38,,,,
-2020-08-25,Forrest,Mississippi,28035,2047,61,,,,
-2020-08-25,Franklin,Mississippi,28037,170,3,,,,
+2020-08-25,Benton,Mississippi,28009,187,1,,,,
+2020-08-25,Bolivar,Mississippi,28011,1380,42,,,,
+2020-08-25,Calhoun,Mississippi,28013,456,10,,,,
+2020-08-25,Carroll,Mississippi,28015,287,11,,,,
+2020-08-25,Chickasaw,Mississippi,28017,560,20,,,,
+2020-08-25,Choctaw,Mississippi,28019,152,4,,,,
+2020-08-25,Claiborne,Mississippi,28021,427,15,,,,
+2020-08-25,Clarke,Mississippi,28023,419,28,,,,
+2020-08-25,Clay,Mississippi,28025,462,14,,,,
+2020-08-25,Coahoma,Mississippi,28027,923,16,,,,
+2020-08-25,Copiah,Mississippi,28029,1039,31,,,,
+2020-08-25,Covington,Mississippi,28031,703,17,,,,
+2020-08-25,DeSoto,Mississippi,28033,4365,41,,,,
+2020-08-25,Forrest,Mississippi,28035,2043,61,,,,
+2020-08-25,Franklin,Mississippi,28037,169,3,,,,
 2020-08-25,George,Mississippi,28039,672,12,,,,
-2020-08-25,Greene,Mississippi,28041,282,14,,,,
-2020-08-25,Grenada,Mississippi,28043,902,28,,,,
-2020-08-25,Hancock,Mississippi,28045,457,18,,,,
-2020-08-25,Harrison,Mississippi,28047,3061,46,,,,
-2020-08-25,Hinds,Mississippi,28049,6292,132,,,,
-2020-08-25,Holmes,Mississippi,28051,1013,50,,,,
-2020-08-25,Humphreys,Mississippi,28053,328,12,,,,
-2020-08-25,Issaquena,Mississippi,28055,94,2,,,,
-2020-08-25,Itawamba,Mississippi,28057,483,14,,,,
-2020-08-25,Jackson,Mississippi,28059,2775,54,,,,
-2020-08-25,Jasper,Mississippi,28061,462,12,,,,
+2020-08-25,Greene,Mississippi,28041,284,14,,,,
+2020-08-25,Grenada,Mississippi,28043,903,30,,,,
+2020-08-25,Hancock,Mississippi,28045,463,18,,,,
+2020-08-25,Harrison,Mississippi,28047,3100,48,,,,
+2020-08-25,Hinds,Mississippi,28049,6317,135,,,,
+2020-08-25,Holmes,Mississippi,28051,1019,52,,,,
+2020-08-25,Humphreys,Mississippi,28053,329,13,,,,
+2020-08-25,Issaquena,Mississippi,28055,95,2,,,,
+2020-08-25,Itawamba,Mississippi,28057,495,14,,,,
+2020-08-25,Jackson,Mississippi,28059,2830,57,,,,
+2020-08-25,Jasper,Mississippi,28061,465,12,,,,
 2020-08-25,Jefferson,Mississippi,28063,211,8,,,,
-2020-08-25,Jefferson Davis,Mississippi,28065,271,7,,,,
-2020-08-25,Jones,Mississippi,28067,2080,69,,,,
-2020-08-25,Kemper,Mississippi,28069,260,14,,,,
-2020-08-25,Lafayette,Mississippi,28071,1178,32,,,,
-2020-08-25,Lamar,Mississippi,28073,1360,24,,,,
-2020-08-25,Lauderdale,Mississippi,28075,1634,102,,,,
-2020-08-25,Lawrence,Mississippi,28077,377,9,,,,
-2020-08-25,Leake,Mississippi,28079,862,27,,,,
-2020-08-25,Lee,Mississippi,28081,2036,48,,,,
-2020-08-25,Leflore,Mississippi,28083,1206,70,,,,
-2020-08-25,Lincoln,Mississippi,28085,926,46,,,,
-2020-08-25,Lowndes,Mississippi,28087,1227,47,,,,
-2020-08-25,Madison,Mississippi,28089,2792,79,,,,
-2020-08-25,Marion,Mississippi,28091,760,25,,,,
-2020-08-25,Marshall,Mississippi,28093,879,11,,,,
-2020-08-25,Monroe,Mississippi,28095,974,56,,,,
-2020-08-25,Montgomery,Mississippi,28097,390,12,,,,
-2020-08-25,Neshoba,Mississippi,28099,1403,97,,,,
-2020-08-25,Newton,Mississippi,28101,627,13,,,,
-2020-08-25,Noxubee,Mississippi,28103,510,13,,,,
-2020-08-25,Oktibbeha,Mississippi,28105,1304,46,,,,
-2020-08-25,Panola,Mississippi,28107,1248,21,,,,
-2020-08-25,Pearl River,Mississippi,28109,697,45,,,,
-2020-08-25,Perry,Mississippi,28111,284,9,,,,
-2020-08-25,Pike,Mississippi,28113,1073,40,,,,
-2020-08-25,Pontotoc,Mississippi,28115,983,9,,,,
-2020-08-25,Prentiss,Mississippi,28117,557,12,,,,
-2020-08-25,Quitman,Mississippi,28119,303,2,,,,
-2020-08-25,Rankin,Mississippi,28121,2688,47,,,,
-2020-08-25,Scott,Mississippi,28123,1069,21,,,,
-2020-08-25,Sharkey,Mississippi,28125,240,7,,,,
-2020-08-25,Simpson,Mississippi,28127,897,38,,,,
+2020-08-25,Jefferson Davis,Mississippi,28065,280,7,,,,
+2020-08-25,Jones,Mississippi,28067,2087,69,,,,
+2020-08-25,Kemper,Mississippi,28069,263,14,,,,
+2020-08-25,Lafayette,Mississippi,28071,1202,34,,,,
+2020-08-25,Lamar,Mississippi,28073,1387,25,,,,
+2020-08-25,Lauderdale,Mississippi,28075,1672,103,,,,
+2020-08-25,Lawrence,Mississippi,28077,391,10,,,,
+2020-08-25,Leake,Mississippi,28079,866,29,,,,
+2020-08-25,Lee,Mississippi,28081,2041,49,,,,
+2020-08-25,Leflore,Mississippi,28083,1208,73,,,,
+2020-08-25,Lincoln,Mississippi,28085,937,49,,,,
+2020-08-25,Lowndes,Mississippi,28087,1237,52,,,,
+2020-08-25,Madison,Mississippi,28089,2802,81,,,,
+2020-08-25,Marion,Mississippi,28091,761,25,,,,
+2020-08-25,Marshall,Mississippi,28093,899,11,,,,
+2020-08-25,Monroe,Mississippi,28095,984,56,,,,
+2020-08-25,Montgomery,Mississippi,28097,396,14,,,,
+2020-08-25,Neshoba,Mississippi,28099,1404,99,,,,
+2020-08-25,Newton,Mississippi,28101,634,13,,,,
+2020-08-25,Noxubee,Mississippi,28103,514,14,,,,
+2020-08-25,Oktibbeha,Mississippi,28105,1319,46,,,,
+2020-08-25,Panola,Mississippi,28107,1257,21,,,,
+2020-08-25,Pearl River,Mississippi,28109,708,46,,,,
+2020-08-25,Perry,Mississippi,28111,285,9,,,,
+2020-08-25,Pike,Mississippi,28113,1092,40,,,,
+2020-08-25,Pontotoc,Mississippi,28115,1003,9,,,,
+2020-08-25,Prentiss,Mississippi,28117,581,12,,,,
+2020-08-25,Quitman,Mississippi,28119,305,3,,,,
+2020-08-25,Rankin,Mississippi,28121,2708,54,,,,
+2020-08-25,Scott,Mississippi,28123,1074,21,,,,
+2020-08-25,Sharkey,Mississippi,28125,243,8,,,,
+2020-08-25,Simpson,Mississippi,28127,907,39,,,,
 2020-08-25,Smith,Mississippi,28129,454,13,,,,
-2020-08-25,Stone,Mississippi,28131,290,9,,,,
-2020-08-25,Sunflower,Mississippi,28133,1204,33,,,,
-2020-08-25,Tallahatchie,Mississippi,28135,602,11,,,,
-2020-08-25,Tate,Mississippi,28137,833,31,,,,
-2020-08-25,Tippah,Mississippi,28139,500,15,,,,
-2020-08-25,Tishomingo,Mississippi,28141,511,18,,,,
-2020-08-25,Tunica,Mississippi,28143,429,10,,,,
-2020-08-25,Union,Mississippi,28145,826,20,,,,
-2020-08-25,Walthall,Mississippi,28147,548,24,,,,
-2020-08-25,Warren,Mississippi,28149,1248,41,,,,
-2020-08-25,Washington,Mississippi,28151,1930,57,,,,
-2020-08-25,Wayne,Mississippi,28153,833,21,,,,
-2020-08-25,Webster,Mississippi,28155,282,13,,,,
-2020-08-25,Wilkinson,Mississippi,28157,258,14,,,,
-2020-08-25,Winston,Mississippi,28159,682,18,,,,
-2020-08-25,Yalobusha,Mississippi,28161,348,10,,,,
-2020-08-25,Yazoo,Mississippi,28163,930,18,,,,
-2020-08-25,Adair,Missouri,29001,211,0,211,0,,
-2020-08-25,Andrew,Missouri,29003,110,1,110,1,,
+2020-08-25,Stone,Mississippi,28131,296,9,,,,
+2020-08-25,Sunflower,Mississippi,28133,1216,34,,,,
+2020-08-25,Tallahatchie,Mississippi,28135,610,12,,,,
+2020-08-25,Tate,Mississippi,28137,836,32,,,,
+2020-08-25,Tippah,Mississippi,28139,517,15,,,,
+2020-08-25,Tishomingo,Mississippi,28141,528,18,,,,
+2020-08-25,Tunica,Mississippi,28143,431,10,,,,
+2020-08-25,Union,Mississippi,28145,838,20,,,,
+2020-08-25,Walthall,Mississippi,28147,551,24,,,,
+2020-08-25,Warren,Mississippi,28149,1260,43,,,,
+2020-08-25,Washington,Mississippi,28151,1944,57,,,,
+2020-08-25,Wayne,Mississippi,28153,840,21,,,,
+2020-08-25,Webster,Mississippi,28155,292,13,,,,
+2020-08-25,Wilkinson,Mississippi,28157,273,15,,,,
+2020-08-25,Winston,Mississippi,28159,688,18,,,,
+2020-08-25,Yalobusha,Mississippi,28161,350,11,,,,
+2020-08-25,Yazoo,Mississippi,28163,935,19,,,,
+2020-08-25,Adair,Missouri,29001,212,0,212,0,,
+2020-08-25,Andrew,Missouri,29003,108,1,108,1,,
 2020-08-25,Atchison,Missouri,29005,20,0,20,0,,
-2020-08-25,Audrain,Missouri,29007,244,1,244,1,,
-2020-08-25,Barry,Missouri,29009,323,4,323,4,,
-2020-08-25,Barton,Missouri,29011,83,0,83,0,,
-2020-08-25,Bates,Missouri,29013,61,1,61,1,,
-2020-08-25,Benton,Missouri,29015,145,1,145,1,,
+2020-08-25,Audrain,Missouri,29007,243,1,243,1,,
+2020-08-25,Barry,Missouri,29009,326,4,326,4,,
+2020-08-25,Barton,Missouri,29011,84,0,84,0,,
+2020-08-25,Bates,Missouri,29013,62,1,62,1,,
+2020-08-25,Benton,Missouri,29015,147,1,147,1,,
 2020-08-25,Bollinger,Missouri,29017,97,1,97,1,,
-2020-08-25,Boone,Missouri,29019,1995,6,1995,6,,
-2020-08-25,Buchanan,Missouri,29021,1188,10,1188,10,,
+2020-08-25,Boone,Missouri,29019,2065,6,2065,6,,
+2020-08-25,Buchanan,Missouri,29021,1197,10,1197,10,,
 2020-08-25,Butler,Missouri,29023,354,2,354,2,,
 2020-08-25,Caldwell,Missouri,29025,40,1,40,1,,
-2020-08-25,Callaway,Missouri,29027,259,2,259,2,,
-2020-08-25,Camden,Missouri,29029,455,8,455,8,,
-2020-08-25,Cape Girardeau,Missouri,29031,893,6,863,6,30,
+2020-08-25,Callaway,Missouri,29027,260,2,260,2,,
+2020-08-25,Camden,Missouri,29029,471,8,471,8,,
+2020-08-25,Cape Girardeau,Missouri,29031,893,6,868,6,25,
 2020-08-25,Carroll,Missouri,29033,107,0,107,0,,
 2020-08-25,Carter,Missouri,29035,27,1,27,1,,
-2020-08-25,Cass,Missouri,29037,1031,16,1031,16,,
+2020-08-25,Cass,Missouri,29037,1044,16,1044,16,,
 2020-08-25,Cedar,Missouri,29039,46,0,46,0,,
-2020-08-25,Chariton,Missouri,29041,22,0,22,0,,
-2020-08-25,Christian,Missouri,29043,552,2,540,2,12,
+2020-08-25,Chariton,Missouri,29041,23,0,23,0,,
+2020-08-25,Christian,Missouri,29043,609,2,572,2,37,
 2020-08-25,Clark,Missouri,29045,33,0,33,0,,
-2020-08-25,Clay,Missouri,29047,1269,34,1269,34,,
-2020-08-25,Clinton,Missouri,29049,115,0,115,0,,
-2020-08-25,Cole,Missouri,29051,722,3,722,3,,
-2020-08-25,Cooper,Missouri,29053,187,0,187,0,,
-2020-08-25,Crawford,Missouri,29055,146,1,146,1,,
+2020-08-25,Clay,Missouri,29047,1285,34,1285,34,,
+2020-08-25,Clinton,Missouri,29049,118,0,118,0,,
+2020-08-25,Cole,Missouri,29051,729,4,729,4,,
+2020-08-25,Cooper,Missouri,29053,188,0,188,0,,
+2020-08-25,Crawford,Missouri,29055,148,1,148,1,,
 2020-08-25,Dade,Missouri,29057,20,0,20,0,,
-2020-08-25,Dallas,Missouri,29059,90,1,90,1,,
+2020-08-25,Dallas,Missouri,29059,93,1,93,1,,
 2020-08-25,Daviess,Missouri,29061,19,0,19,0,,
 2020-08-25,DeKalb,Missouri,29063,52,1,52,1,,
-2020-08-25,Dent,Missouri,29065,32,0,32,0,,
+2020-08-25,Dent,Missouri,29065,31,0,31,0,,
 2020-08-25,Douglas,Missouri,29067,98,2,98,2,,
-2020-08-25,Dunklin,Missouri,29069,446,4,446,4,,
-2020-08-25,Franklin,Missouri,29071,877,19,877,19,,
-2020-08-25,Gasconade,Missouri,29073,47,0,47,0,,
+2020-08-25,Dunklin,Missouri,29069,452,4,452,4,,
+2020-08-25,Franklin,Missouri,29071,889,19,889,19,,
+2020-08-25,Gasconade,Missouri,29073,49,0,49,0,,
 2020-08-25,Gentry,Missouri,29075,89,9,89,9,,
-2020-08-25,Greene,Missouri,29077,2585,24,2556,23,29,1
+2020-08-25,Greene,Missouri,29077,2662,25,2633,24,29,1
 2020-08-25,Grundy,Missouri,29079,34,1,34,1,,
 2020-08-25,Harrison,Missouri,29081,62,1,62,1,,
 2020-08-25,Henry,Missouri,29083,107,3,107,3,,
 2020-08-25,Hickory,Missouri,29085,53,0,53,0,,
 2020-08-25,Holt,Missouri,29087,55,0,55,0,,
-2020-08-25,Howard,Missouri,29089,86,0,86,0,,
-2020-08-25,Howell,Missouri,29091,202,2,202,2,,
-2020-08-25,Iron,Missouri,29093,40,0,40,0,,
-2020-08-25,Jackson,Missouri,29095,5071,73,5071,73,,
-2020-08-25,Jasper,Missouri,29097,1466,14,1466,14,,
-2020-08-25,Jefferson,Missouri,29099,2471,40,2471,40,,
+2020-08-25,Howard,Missouri,29089,90,0,90,0,,
+2020-08-25,Howell,Missouri,29091,206,3,206,3,,
+2020-08-25,Iron,Missouri,29093,42,0,42,0,,
+2020-08-25,Jackson,Missouri,29095,5116,73,5116,73,,
+2020-08-25,Jasper,Missouri,29097,1477,14,1477,14,,
+2020-08-25,Jefferson,Missouri,29099,2518,40,2518,40,,
 2020-08-25,Johnson,Missouri,29101,551,3,551,3,,
-2020-08-25,Joplin,Missouri,,657,21,657,21,,
-2020-08-25,Kansas City,Missouri,,8509,96,8509,96,,
+2020-08-25,Joplin,Missouri,,660,21,660,21,,
+2020-08-25,Kansas City,Missouri,,8538,96,8538,96,,
 2020-08-25,Knox,Missouri,29103,38,0,38,0,,
-2020-08-25,Laclede,Missouri,29105,263,1,263,1,,
-2020-08-25,Lafayette,Missouri,29107,215,2,215,2,,
-2020-08-25,Lawrence,Missouri,29109,317,2,317,2,,
+2020-08-25,Laclede,Missouri,29105,267,1,267,1,,
+2020-08-25,Lafayette,Missouri,29107,217,2,217,2,,
+2020-08-25,Lawrence,Missouri,29109,319,2,319,2,,
 2020-08-25,Lewis,Missouri,29111,54,1,54,1,,
-2020-08-25,Lincoln,Missouri,29113,505,1,505,1,,
-2020-08-25,Linn,Missouri,29115,41,1,41,1,,
-2020-08-25,Livingston,Missouri,29117,68,1,68,1,,
+2020-08-25,Lincoln,Missouri,29113,510,1,510,1,,
+2020-08-25,Linn,Missouri,29115,44,1,44,1,,
+2020-08-25,Livingston,Missouri,29117,69,1,69,1,,
 2020-08-25,Macon,Missouri,29121,72,0,72,0,,
 2020-08-25,Madison,Missouri,29123,77,0,77,0,,
 2020-08-25,Maries,Missouri,29125,35,0,35,0,,
-2020-08-25,Marion,Missouri,29127,349,1,349,1,,
+2020-08-25,Marion,Missouri,29127,360,1,360,1,,
 2020-08-25,McDonald,Missouri,29119,1031,9,1031,9,,
 2020-08-25,Mercer,Missouri,29129,15,0,15,0,,
-2020-08-25,Miller,Missouri,29131,205,1,205,1,,
+2020-08-25,Miller,Missouri,29131,212,1,212,1,,
 2020-08-25,Mississippi,Missouri,29133,214,0,214,0,,
-2020-08-25,Moniteau,Missouri,29135,175,2,175,2,,
-2020-08-25,Monroe,Missouri,29137,55,0,55,0,,
+2020-08-25,Moniteau,Missouri,29135,176,2,176,2,,
+2020-08-25,Monroe,Missouri,29137,56,0,56,0,,
 2020-08-25,Montgomery,Missouri,29139,49,1,49,1,,
-2020-08-25,Morgan,Missouri,29141,108,0,108,0,,
-2020-08-25,New Madrid,Missouri,29143,341,3,341,3,,
-2020-08-25,Newton,Missouri,29145,1020,11,1020,11,,
-2020-08-25,Nodaway,Missouri,29147,295,1,295,1,,
-2020-08-25,Oregon,Missouri,29149,31,0,31,0,,
-2020-08-25,Osage,Missouri,29151,70,1,70,1,,
+2020-08-25,Morgan,Missouri,29141,109,0,109,0,,
+2020-08-25,New Madrid,Missouri,29143,342,3,342,3,,
+2020-08-25,Newton,Missouri,29145,1028,11,1028,11,,
+2020-08-25,Nodaway,Missouri,29147,297,1,297,1,,
+2020-08-25,Oregon,Missouri,29149,32,0,32,0,,
+2020-08-25,Osage,Missouri,29151,71,1,71,1,,
 2020-08-25,Ozark,Missouri,29153,17,0,17,0,,
-2020-08-25,Pemiscot,Missouri,29155,305,9,305,9,,
-2020-08-25,Perry,Missouri,29157,297,4,297,4,,
-2020-08-25,Pettis,Missouri,29159,742,6,742,6,,
-2020-08-25,Phelps,Missouri,29161,152,0,152,0,,
+2020-08-25,Pemiscot,Missouri,29155,308,9,308,9,,
+2020-08-25,Perry,Missouri,29157,308,4,308,4,,
+2020-08-25,Pettis,Missouri,29159,746,7,746,7,,
+2020-08-25,Phelps,Missouri,29161,164,0,164,0,,
 2020-08-25,Pike,Missouri,29163,132,1,132,1,,
 2020-08-25,Platte,Missouri,29165,454,11,454,11,,
 2020-08-25,Polk,Missouri,29167,300,1,300,1,,
-2020-08-25,Pulaski,Missouri,29169,330,1,330,1,,
+2020-08-25,Pulaski,Missouri,29169,336,1,336,1,,
 2020-08-25,Putnam,Missouri,29171,19,1,19,1,,
-2020-08-25,Ralls,Missouri,29173,89,0,89,0,,
-2020-08-25,Randolph,Missouri,29175,109,1,109,1,,
+2020-08-25,Ralls,Missouri,29173,91,0,91,0,,
+2020-08-25,Randolph,Missouri,29175,110,1,110,1,,
 2020-08-25,Ray,Missouri,29177,122,0,122,0,,
 2020-08-25,Reynolds,Missouri,29179,19,0,19,0,,
 2020-08-25,Ripley,Missouri,29181,83,0,83,0,,
 2020-08-25,Saline,Missouri,29195,525,7,525,7,,
 2020-08-25,Schuyler,Missouri,29197,13,0,13,0,,
 2020-08-25,Scotland,Missouri,29199,18,1,18,1,,
-2020-08-25,Scott,Missouri,29201,548,13,548,13,,
+2020-08-25,Scott,Missouri,29201,551,13,551,13,,
 2020-08-25,Shannon,Missouri,29203,47,1,47,1,,
-2020-08-25,Shelby,Missouri,29205,44,0,44,0,,
-2020-08-25,St. Charles,Missouri,29183,5297,106,5297,106,,
+2020-08-25,Shelby,Missouri,29205,45,0,45,0,,
+2020-08-25,St. Charles,Missouri,29183,5338,106,5338,106,,
 2020-08-25,St. Clair,Missouri,29185,26,0,26,0,,
-2020-08-25,Ste. Genevieve,Missouri,29186,91,1,91,1,,
+2020-08-25,Ste. Genevieve,Missouri,29186,97,1,97,1,,
 2020-08-25,St. Francois,Missouri,29187,845,4,845,4,,
 2020-08-25,St. Louis,Missouri,29189,18210,720,18210,720,,
-2020-08-25,St. Louis city,Missouri,29510,5951,184,5854,184,97,
+2020-08-25,St. Louis city,Missouri,29510,5978,187,5881,187,97,
 2020-08-25,Stoddard,Missouri,29207,273,9,273,9,,
-2020-08-25,Stone,Missouri,29209,245,1,245,1,,
-2020-08-25,Sullivan,Missouri,29211,160,0,160,0,,
-2020-08-25,Taney,Missouri,29213,864,3,864,3,,
-2020-08-25,Texas,Missouri,29215,78,1,78,1,,
+2020-08-25,Stone,Missouri,29209,247,1,247,1,,
+2020-08-25,Sullivan,Missouri,29211,166,0,166,0,,
+2020-08-25,Taney,Missouri,29213,868,3,868,3,,
+2020-08-25,Texas,Missouri,29215,79,1,79,1,,
 2020-08-25,Vernon,Missouri,29217,71,0,71,0,,
-2020-08-25,Warren,Missouri,29219,299,0,299,0,,
-2020-08-25,Washington,Missouri,29221,199,1,199,1,,
+2020-08-25,Warren,Missouri,29219,305,0,305,0,,
+2020-08-25,Washington,Missouri,29221,200,1,200,1,,
 2020-08-25,Wayne,Missouri,29223,73,0,73,0,,
-2020-08-25,Webster,Missouri,29225,181,1,181,1,,
+2020-08-25,Webster,Missouri,29225,185,1,185,1,,
 2020-08-25,Worth,Missouri,29227,10,0,10,0,,
-2020-08-25,Wright,Missouri,29229,78,0,78,0,,
+2020-08-25,Wright,Missouri,29229,79,0,79,0,,
 2020-08-25,Beaverhead,Montana,30001,69,0,69,0,,
 2020-08-25,Big Horn,Montana,30003,603,15,603,15,,
 2020-08-25,Blaine,Montana,30005,15,0,15,0,,
@@ -1638,7 +1638,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-08-25,McCone,Montana,30055,7,0,7,0,,
 2020-08-25,Meagher,Montana,30059,4,0,4,0,,
 2020-08-25,Mineral,Montana,30061,2,0,2,0,,
-2020-08-25,Missoula,Montana,30063,408,3,408,3,,
+2020-08-25,Missoula,Montana,30063,410,3,408,3,2,
 2020-08-25,Musselshell,Montana,30065,7,0,7,0,,
 2020-08-25,Park,Montana,30067,63,0,63,0,,
 2020-08-25,Phillips,Montana,30071,109,0,109,0,,
@@ -1662,46 +1662,46 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-08-25,Wheatland,Montana,30107,3,0,3,0,,
 2020-08-25,Wibaux,Montana,30109,5,0,5,0,,
 2020-08-25,Yellowstone,Montana,30111,1816,41,1816,41,,
-2020-08-25,Adams,Nebraska,31001,384,11,384,11,,
+2020-08-25,Adams,Nebraska,31001,387,11,387,11,,
 2020-08-25,Antelope,Nebraska,31003,23,1,23,1,,
 2020-08-25,Arthur,Nebraska,31005,1,0,1,0,,
 2020-08-25,Banner,Nebraska,31007,3,0,3,0,,
-2020-08-25,Boone,Nebraska,31011,16,0,16,0,,
+2020-08-25,Boone,Nebraska,31011,18,0,18,0,,
 2020-08-25,Box Butte,Nebraska,31013,19,0,19,0,,
 2020-08-25,Boyd,Nebraska,31015,10,0,10,0,,
-2020-08-25,Brown,Nebraska,31017,2,0,2,0,,
-2020-08-25,Buffalo,Nebraska,31019,582,3,582,3,,
-2020-08-25,Burt,Nebraska,31021,57,0,57,0,,
-2020-08-25,Butler,Nebraska,31023,73,0,73,0,,
-2020-08-25,Cass,Nebraska,31025,236,2,236,2,,
-2020-08-25,Cedar,Nebraska,31027,42,0,42,0,,
+2020-08-25,Brown,Nebraska,31017,3,0,3,0,,
+2020-08-25,Buffalo,Nebraska,31019,591,3,591,3,,
+2020-08-25,Burt,Nebraska,31021,60,0,60,0,,
+2020-08-25,Butler,Nebraska,31023,75,0,75,0,,
+2020-08-25,Cass,Nebraska,31025,241,2,241,2,,
+2020-08-25,Cedar,Nebraska,31027,44,0,44,0,,
 2020-08-25,Chase,Nebraska,31029,11,0,11,0,,
 2020-08-25,Cherry,Nebraska,31031,5,0,5,0,,
 2020-08-25,Cheyenne,Nebraska,31033,28,0,28,0,,
-2020-08-25,Clay,Nebraska,31035,54,0,54,0,,
-2020-08-25,Colfax,Nebraska,31037,713,4,713,4,,
-2020-08-25,Cuming,Nebraska,31039,74,0,74,0,,
-2020-08-25,Custer,Nebraska,31041,66,4,66,4,,
-2020-08-25,Dakota,Nebraska,31043,1963,42,1963,42,,
-2020-08-25,Dawes,Nebraska,31045,53,0,53,0,,
-2020-08-25,Dawson,Nebraska,31047,988,10,988,10,,
+2020-08-25,Clay,Nebraska,31035,53,0,53,0,,
+2020-08-25,Colfax,Nebraska,31037,714,4,714,4,,
+2020-08-25,Cuming,Nebraska,31039,78,0,78,0,,
+2020-08-25,Custer,Nebraska,31041,67,4,67,4,,
+2020-08-25,Dakota,Nebraska,31043,1966,42,1966,42,,
+2020-08-25,Dawes,Nebraska,31045,57,0,57,0,,
+2020-08-25,Dawson,Nebraska,31047,989,9,989,9,,
 2020-08-25,Deuel,Nebraska,31049,2,0,2,0,,
-2020-08-25,Dixon,Nebraska,31051,58,2,58,2,,
-2020-08-25,Dodge,Nebraska,31053,868,11,868,11,,
-2020-08-25,Douglas,Nebraska,31055,12735,153,12735,153,,
+2020-08-25,Dixon,Nebraska,31051,57,2,57,2,,
+2020-08-25,Dodge,Nebraska,31053,876,11,876,11,,
+2020-08-25,Douglas,Nebraska,31055,12878,153,12878,153,,
 2020-08-25,Dundy,Nebraska,31057,5,0,5,0,,
 2020-08-25,Fillmore,Nebraska,31059,30,1,30,1,,
 2020-08-25,Franklin,Nebraska,31061,17,0,17,0,,
-2020-08-25,Frontier,Nebraska,31063,5,0,5,0,,
-2020-08-25,Furnas,Nebraska,31065,19,1,19,1,,
-2020-08-25,Gage,Nebraska,31067,118,4,118,4,,
+2020-08-25,Frontier,Nebraska,31063,6,0,6,0,,
+2020-08-25,Furnas,Nebraska,31065,20,1,20,1,,
+2020-08-25,Gage,Nebraska,31067,123,4,123,4,,
 2020-08-25,Garden,Nebraska,31069,6,0,6,0,,
 2020-08-25,Garfield,Nebraska,31071,6,0,6,0,,
-2020-08-25,Gosper,Nebraska,31073,22,0,22,0,,
+2020-08-25,Gosper,Nebraska,31073,23,0,23,0,,
 2020-08-25,Greeley,Nebraska,31077,10,0,10,0,,
 2020-08-25,Hall,Nebraska,31079,1819,46,1819,46,,
 2020-08-25,Hamilton,Nebraska,31081,106,13,106,13,,
-2020-08-25,Harlan,Nebraska,31083,3,0,3,0,,
+2020-08-25,Harlan,Nebraska,31083,4,0,4,0,,
 2020-08-25,Hitchcock,Nebraska,31087,2,0,2,0,,
 2020-08-25,Holt,Nebraska,31089,17,0,17,0,,
 2020-08-25,Hooker,Nebraska,31091,4,0,4,0,,
@@ -1709,184 +1709,184 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-08-25,Jefferson,Nebraska,31095,19,0,19,0,,
 2020-08-25,Johnson,Nebraska,31097,21,0,21,0,,
 2020-08-25,Kearney,Nebraska,31099,97,0,97,0,,
-2020-08-25,Keith,Nebraska,31101,46,0,46,0,,
+2020-08-25,Keith,Nebraska,31101,47,0,47,0,,
 2020-08-25,Kimball,Nebraska,31105,15,0,15,0,,
-2020-08-25,Knox,Nebraska,31107,49,0,49,0,,
-2020-08-25,Lancaster,Nebraska,31109,3641,20,3641,20,,
-2020-08-25,Lincoln,Nebraska,31111,254,2,254,2,,
+2020-08-25,Knox,Nebraska,31107,56,0,56,0,,
+2020-08-25,Lancaster,Nebraska,31109,3707,20,3707,20,,
+2020-08-25,Lincoln,Nebraska,31111,257,2,257,2,,
 2020-08-25,Logan,Nebraska,31113,3,0,3,0,,
 2020-08-25,Madison,Nebraska,31119,576,6,576,6,,
 2020-08-25,McPherson,Nebraska,31117,6,0,6,0,,
-2020-08-25,Merrick,Nebraska,31121,62,0,62,0,,
+2020-08-25,Merrick,Nebraska,31121,63,0,63,0,,
 2020-08-25,Morrill,Nebraska,31123,64,0,64,0,,
 2020-08-25,Nance,Nebraska,31125,11,0,11,0,,
-2020-08-25,Nemaha,Nebraska,31127,61,0,61,0,,
-2020-08-25,Nuckolls,Nebraska,31129,7,0,7,0,,
-2020-08-25,Otoe,Nebraska,31131,91,1,91,1,,
+2020-08-25,Nemaha,Nebraska,31127,68,0,68,0,,
+2020-08-25,Nuckolls,Nebraska,31129,9,0,9,0,,
+2020-08-25,Otoe,Nebraska,31131,94,1,94,1,,
 2020-08-25,Pawnee,Nebraska,31133,10,0,10,0,,
 2020-08-25,Perkins,Nebraska,31135,28,7,28,7,,
-2020-08-25,Phelps,Nebraska,31137,54,0,54,0,,
-2020-08-25,Pierce,Nebraska,31139,56,1,56,1,,
-2020-08-25,Platte,Nebraska,31141,830,3,830,3,,
-2020-08-25,Polk,Nebraska,31143,31,0,31,0,,
+2020-08-25,Phelps,Nebraska,31137,55,0,55,0,,
+2020-08-25,Pierce,Nebraska,31139,57,1,57,1,,
+2020-08-25,Platte,Nebraska,31141,832,3,832,3,,
+2020-08-25,Polk,Nebraska,31143,32,0,32,0,,
 2020-08-25,Red Willow,Nebraska,31145,18,0,18,0,,
 2020-08-25,Richardson,Nebraska,31147,30,1,30,1,,
 2020-08-25,Rock,Nebraska,31149,5,0,5,0,,
-2020-08-25,Saline,Nebraska,31151,617,2,617,2,,
-2020-08-25,Sarpy,Nebraska,31153,2715,15,2715,15,,
-2020-08-25,Saunders,Nebraska,31155,189,2,189,2,,
-2020-08-25,Scotts Bluff,Nebraska,31157,331,6,331,6,,
+2020-08-25,Saline,Nebraska,31151,620,2,620,2,,
+2020-08-25,Sarpy,Nebraska,31153,2721,15,2721,15,,
+2020-08-25,Saunders,Nebraska,31155,196,2,196,2,,
+2020-08-25,Scotts Bluff,Nebraska,31157,342,6,342,6,,
 2020-08-25,Seward,Nebraska,31159,147,2,147,2,,
 2020-08-25,Sheridan,Nebraska,31161,14,0,14,0,,
 2020-08-25,Sherman,Nebraska,31163,15,1,15,1,,
 2020-08-25,Sioux,Nebraska,31165,5,0,5,0,,
 2020-08-25,Stanton,Nebraska,31167,32,0,32,0,,
 2020-08-25,Thayer,Nebraska,31169,27,0,27,0,,
-2020-08-25,Thomas,Nebraska,31171,3,0,3,0,,
+2020-08-25,Thomas,Nebraska,31171,4,0,4,0,,
 2020-08-25,Thurston,Nebraska,31173,217,4,217,4,,
 2020-08-25,Valley,Nebraska,31175,18,0,18,0,,
-2020-08-25,Washington,Nebraska,31177,158,1,158,1,,
-2020-08-25,Wayne,Nebraska,31179,45,0,45,0,,
-2020-08-25,Webster,Nebraska,31181,11,0,11,0,,
+2020-08-25,Washington,Nebraska,31177,163,1,163,1,,
+2020-08-25,Wayne,Nebraska,31179,46,0,46,0,,
+2020-08-25,Webster,Nebraska,31181,13,0,13,0,,
 2020-08-25,Wheeler,Nebraska,31183,1,0,1,0,,
-2020-08-25,York,Nebraska,31185,102,0,102,0,,
+2020-08-25,York,Nebraska,31185,104,0,104,0,,
 2020-08-25,Carson City,Nevada,32510,412,8,412,8,,
 2020-08-25,Churchill,Nevada,32001,91,1,91,1,,
-2020-08-25,Clark,Nevada,32003,56796,1028,56796,1028,,
+2020-08-25,Clark,Nevada,32003,57131,1058,57131,1058,,
 2020-08-25,Douglas,Nevada,32005,231,1,231,1,,
-2020-08-25,Elko,Nevada,32007,731,3,731,3,,
+2020-08-25,Elko,Nevada,32007,735,3,735,3,,
 2020-08-25,Eureka,Nevada,32011,5,0,5,0,,
 2020-08-25,Humboldt,Nevada,32013,109,4,109,4,,
-2020-08-25,Lander,Nevada,32015,56,1,56,1,,
-2020-08-25,Lincoln,Nevada,32017,7,0,7,0,,
+2020-08-25,Lander,Nevada,32015,57,1,57,1,,
+2020-08-25,Lincoln,Nevada,32017,6,0,6,0,,
 2020-08-25,Lyon,Nevada,32019,303,6,303,6,,
 2020-08-25,Mineral,Nevada,32021,12,0,12,0,,
 2020-08-25,Nye,Nevada,32023,470,14,463,14,7,
-2020-08-25,Pershing,Nevada,32027,17,0,17,0,,
+2020-08-25,Pershing,Nevada,32027,19,0,19,0,,
 2020-08-25,Storey,Nevada,32029,6,0,6,0,,
-2020-08-25,Washoe,Nevada,32031,6816,133,6816,133,,
-2020-08-25,White Pine,Nevada,32033,25,1,25,1,,
+2020-08-25,Washoe,Nevada,32031,6904,133,6904,133,,
+2020-08-25,White Pine,Nevada,32033,24,1,24,1,,
 2020-08-25,Belknap,New Hampshire,33001,122,4,122,4,,
-2020-08-25,Carroll,New Hampshire,33003,99,1,99,1,,
-2020-08-25,Cheshire,New Hampshire,33005,119,3,119,3,,
+2020-08-25,Carroll,New Hampshire,33003,100,1,100,1,,
+2020-08-25,Cheshire,New Hampshire,33005,121,3,121,3,,
 2020-08-25,Coos,New Hampshire,33007,17,0,17,0,,
 2020-08-25,Grafton,New Hampshire,33009,109,1,109,1,,
-2020-08-25,Hillsborough,New Hampshire,33011,3983,284,3983,284,,
-2020-08-25,Merrimack,New Hampshire,33013,494,23,494,23,,
-2020-08-25,Rockingham,New Hampshire,33015,1771,99,1771,99,,
-2020-08-25,Strafford,New Hampshire,33017,376,13,376,13,,
-2020-08-25,Sullivan,New Hampshire,33019,44,1,44,1,,
-2020-08-25,Atlantic,New Jersey,34001,3694,252,3680,238,14,14
-2020-08-25,Bergen,New Jersey,34003,21596,2032,21352,1788,244,244
-2020-08-25,Burlington,New Jersey,34005,6327,482,6287,442,40,40
-2020-08-25,Camden,New Jersey,34007,9033,584,8979,530,54,54
-2020-08-25,Cape May,New Jersey,34009,887,91,881,85,6,6
-2020-08-25,Cumberland,New Jersey,34011,3520,159,3508,147,12,12
-2020-08-25,Essex,New Jersey,34013,20365,2114,20131,1881,234,233
-2020-08-25,Gloucester,New Jersey,34015,3575,220,3568,213,7,7
-2020-08-25,Hudson,New Jersey,34017,20218,1510,20052,1344,166,166
-2020-08-25,Hunterdon,New Jersey,34019,1250,124,1196,70,54,54
-2020-08-25,Mercer,New Jersey,34021,8306,624,8267,586,39,38
-2020-08-25,Middlesex,New Jersey,34023,18499,1420,18293,1215,206,205
-2020-08-25,Monmouth,New Jersey,34025,10690,860,10594,764,96,96
-2020-08-25,Morris,New Jersey,34027,7574,830,7427,683,147,147
-2020-08-25,Ocean,New Jersey,34029,11013,1025,10946,958,67,67
-2020-08-25,Passaic,New Jersey,34031,18334,1246,18187,1099,147,147
+2020-08-25,Hillsborough,New Hampshire,33011,3987,284,3987,284,,
+2020-08-25,Merrimack,New Hampshire,33013,495,23,495,23,,
+2020-08-25,Rockingham,New Hampshire,33015,1775,99,1775,99,,
+2020-08-25,Strafford,New Hampshire,33017,378,13,378,13,,
+2020-08-25,Sullivan,New Hampshire,33019,46,1,46,1,,
+2020-08-25,Atlantic,New Jersey,34001,3700,252,3686,238,14,14
+2020-08-25,Bergen,New Jersey,34003,21639,2033,21395,1789,244,244
+2020-08-25,Burlington,New Jersey,34005,6344,482,6304,442,40,40
+2020-08-25,Camden,New Jersey,34007,9055,585,9001,531,54,54
+2020-08-25,Cape May,New Jersey,34009,888,91,882,85,6,6
+2020-08-25,Cumberland,New Jersey,34011,3528,159,3516,147,12,12
+2020-08-25,Essex,New Jersey,34013,20393,2115,20159,1881,234,234
+2020-08-25,Gloucester,New Jersey,34015,3586,220,3579,213,7,7
+2020-08-25,Hudson,New Jersey,34017,20224,1510,20058,1344,166,166
+2020-08-25,Hunterdon,New Jersey,34019,1251,124,1197,70,54,54
+2020-08-25,Mercer,New Jersey,34021,8313,626,8274,587,39,39
+2020-08-25,Middlesex,New Jersey,34023,18525,1421,18319,1215,206,206
+2020-08-25,Monmouth,New Jersey,34025,10703,860,10607,764,96,96
+2020-08-25,Morris,New Jersey,34027,7586,830,7439,683,147,147
+2020-08-25,Ocean,New Jersey,34029,11064,1025,10997,958,67,67
+2020-08-25,Passaic,New Jersey,34031,18353,1249,18206,1102,147,147
 2020-08-25,Salem,New Jersey,34033,966,88,960,82,6,6
-2020-08-25,Somerset,New Jersey,34035,5425,564,5351,490,74,74
-2020-08-25,Sussex,New Jersey,34037,1406,198,1369,161,37,37
-2020-08-25,Union,New Jersey,34039,17158,1352,16992,1186,166,166
-2020-08-25,Unknown,New Jersey,,318,0,318,0,0,
-2020-08-25,Warren,New Jersey,34041,1394,171,1381,158,13,13
-2020-08-25,Bernalillo,New Mexico,35001,5619,149,5619,149,,
+2020-08-25,Somerset,New Jersey,34035,5432,564,5358,490,74,74
+2020-08-25,Sussex,New Jersey,34037,1417,198,1380,161,37,37
+2020-08-25,Union,New Jersey,34039,17176,1350,17010,1184,166,166
+2020-08-25,Unknown,New Jersey,,310,0,310,0,0,
+2020-08-25,Warren,New Jersey,34041,1397,171,1384,158,13,13
+2020-08-25,Bernalillo,New Mexico,35001,5633,149,5633,149,,
 2020-08-25,Catron,New Mexico,35003,5,1,5,1,,
-2020-08-25,Chaves,New Mexico,35005,625,6,625,6,,
-2020-08-25,Cibola,New Mexico,35006,721,19,721,19,,
+2020-08-25,Chaves,New Mexico,35005,627,6,627,6,,
+2020-08-25,Cibola,New Mexico,35006,722,19,722,19,,
 2020-08-25,Colfax,New Mexico,35007,19,1,19,1,,
-2020-08-25,Curry,New Mexico,35009,640,3,640,3,,
-2020-08-25,Doña Ana,New Mexico,35013,2737,38,2737,38,,
-2020-08-25,Eddy,New Mexico,35015,426,5,426,5,,
+2020-08-25,Curry,New Mexico,35009,645,3,645,3,,
+2020-08-25,Doña Ana,New Mexico,35013,2744,40,2744,40,,
+2020-08-25,Eddy,New Mexico,35015,433,5,433,5,,
 2020-08-25,Grant,New Mexico,35017,76,2,76,2,,
 2020-08-25,Guadalupe,New Mexico,35019,33,1,33,1,,
 2020-08-25,Harding,New Mexico,35021,2,0,2,0,,
 2020-08-25,Hidalgo,New Mexico,35023,93,1,93,1,,
-2020-08-25,Lea,New Mexico,35025,1049,9,1049,9,,
+2020-08-25,Lea,New Mexico,35025,1052,9,1052,9,,
 2020-08-25,Lincoln,New Mexico,35027,164,2,164,2,,
 2020-08-25,Los Alamos,New Mexico,35028,24,0,24,0,,
 2020-08-25,Luna,New Mexico,35029,273,5,273,5,,
-2020-08-25,McKinley,New Mexico,35031,4159,239,4159,239,,
+2020-08-25,McKinley,New Mexico,35031,4164,239,4164,239,,
 2020-08-25,Mora,New Mexico,35033,6,0,6,0,,
-2020-08-25,Otero,New Mexico,35035,1116,11,1116,11,,
+2020-08-25,Otero,New Mexico,35035,1117,11,1117,11,,
 2020-08-25,Quay,New Mexico,35037,60,1,60,1,,
-2020-08-25,Rio Arriba,New Mexico,35039,347,10,347,10,,
+2020-08-25,Rio Arriba,New Mexico,35039,349,11,349,11,,
 2020-08-25,Roosevelt,New Mexico,35041,191,1,191,1,,
-2020-08-25,Sandoval,New Mexico,35043,1199,35,1199,35,,
-2020-08-25,San Juan,New Mexico,35045,3149,189,3149,189,,
+2020-08-25,Sandoval,New Mexico,35043,1202,35,1202,35,,
+2020-08-25,San Juan,New Mexico,35045,3158,189,3158,189,,
 2020-08-25,San Miguel,New Mexico,35047,67,0,67,0,,
-2020-08-25,Santa Fe,New Mexico,35049,781,3,781,3,,
+2020-08-25,Santa Fe,New Mexico,35049,786,3,786,3,,
 2020-08-25,Sierra,New Mexico,35051,37,1,37,1,,
 2020-08-25,Socorro,New Mexico,35053,76,6,76,6,,
 2020-08-25,Taos,New Mexico,35055,116,2,116,2,,
 2020-08-25,Torrance,New Mexico,35057,107,1,107,1,,
 2020-08-25,Union,New Mexico,35059,32,2,32,2,,
-2020-08-25,Valencia,New Mexico,35061,520,4,520,4,,
-2020-08-25,Albany,New York,36001,2701,120,2701,120,,
-2020-08-25,Allegany,New York,36003,85,2,85,2,,
-2020-08-25,Broome,New York,36007,1250,81,1250,81,,
-2020-08-25,Cattaraugus,New York,36009,182,6,182,6,,
-2020-08-25,Cayuga,New York,36011,167,2,167,2,,
-2020-08-25,Chautauqua,New York,36013,289,4,289,4,,
+2020-08-25,Valencia,New Mexico,35061,522,4,522,4,,
+2020-08-25,Albany,New York,36001,2711,120,2711,120,,
+2020-08-25,Allegany,New York,36003,86,2,86,2,,
+2020-08-25,Broome,New York,36007,1256,82,1256,82,,
+2020-08-25,Cattaraugus,New York,36009,184,6,184,6,,
+2020-08-25,Cayuga,New York,36011,174,2,174,2,,
+2020-08-25,Chautauqua,New York,36013,305,4,305,4,,
 2020-08-25,Chemung,New York,36015,194,2,194,2,,
 2020-08-25,Chenango,New York,36017,223,6,223,6,,
-2020-08-25,Clinton,New York,36019,142,5,142,5,,
-2020-08-25,Columbia,New York,36021,562,47,562,47,,
+2020-08-25,Clinton,New York,36019,146,5,146,5,,
+2020-08-25,Columbia,New York,36021,564,47,564,47,,
 2020-08-25,Cortland,New York,36023,98,1,98,1,,
 2020-08-25,Delaware,New York,36025,109,4,109,4,,
-2020-08-25,Dutchess,New York,36027,4777,153,4777,153,,
-2020-08-25,Erie,New York,36029,9491,605,9491,605,,
-2020-08-25,Essex,New York,36031,108,2,108,2,,
+2020-08-25,Dutchess,New York,36027,4790,153,4790,153,,
+2020-08-25,Erie,New York,36029,9546,605,9546,605,,
+2020-08-25,Essex,New York,36031,109,2,109,2,,
 2020-08-25,Franklin,New York,36033,56,1,56,1,,
 2020-08-25,Fulton,New York,36035,309,28,309,28,,
-2020-08-25,Genesee,New York,36037,290,6,290,6,,
+2020-08-25,Genesee,New York,36037,291,6,291,6,,
 2020-08-25,Greene,New York,36039,305,13,305,13,,
-2020-08-25,Hamilton,New York,36041,12,1,12,1,,
-2020-08-25,Herkimer,New York,36043,289,10,289,10,,
-2020-08-25,Jefferson,New York,36045,145,1,145,1,,
+2020-08-25,Hamilton,New York,36041,13,1,13,1,,
+2020-08-25,Herkimer,New York,36043,290,10,290,10,,
+2020-08-25,Jefferson,New York,36045,146,1,146,1,,
 2020-08-25,Lewis,New York,36049,47,5,47,5,,
-2020-08-25,Livingston,New York,36051,180,6,180,6,,
-2020-08-25,Madison,New York,36053,432,9,432,9,,
-2020-08-25,Monroe,New York,36055,5331,255,5331,255,,
-2020-08-25,Montgomery,New York,36057,196,7,196,7,,
-2020-08-25,Nassau,New York,36059,44284,2196,44284,2196,,
-2020-08-25,New York City,New York,,237032,23662,232395,19025,4637,4637
-2020-08-25,Niagara,New York,36063,1576,89,1576,89,,
-2020-08-25,Oneida,New York,36065,2245,120,2245,120,,
-2020-08-25,Onondaga,New York,36067,3768,179,3768,179,,
+2020-08-25,Livingston,New York,36051,181,6,181,6,,
+2020-08-25,Madison,New York,36053,434,9,434,9,,
+2020-08-25,Monroe,New York,36055,5349,255,5349,255,,
+2020-08-25,Montgomery,New York,36057,196,8,196,8,,
+2020-08-25,Nassau,New York,36059,44348,2196,44348,2196,,
+2020-08-25,New York City,New York,,237263,23666,232626,19029,4637,4637
+2020-08-25,Niagara,New York,36063,1586,89,1586,89,,
+2020-08-25,Oneida,New York,36065,2256,120,2256,120,,
+2020-08-25,Onondaga,New York,36067,3792,179,3792,179,,
 2020-08-25,Ontario,New York,36069,381,28,381,28,,
-2020-08-25,Orange,New York,36071,11358,409,11358,409,,
+2020-08-25,Orange,New York,36071,11369,409,11369,409,,
 2020-08-25,Orleans,New York,36073,304,55,304,55,,
-2020-08-25,Oswego,New York,36075,282,3,282,3,,
+2020-08-25,Oswego,New York,36075,285,3,285,3,,
 2020-08-25,Otsego,New York,36077,124,4,124,4,,
-2020-08-25,Putnam,New York,36079,1475,63,1475,63,,
-2020-08-25,Rensselaer,New York,36083,818,41,818,41,,
-2020-08-25,Rockland,New York,36087,14139,508,14139,508,,
-2020-08-25,Saratoga,New York,36091,816,15,816,15,,
-2020-08-25,Schenectady,New York,36093,1182,41,1182,41,,
+2020-08-25,Putnam,New York,36079,1480,63,1480,63,,
+2020-08-25,Rensselaer,New York,36083,819,41,819,41,,
+2020-08-25,Rockland,New York,36087,14149,508,14149,508,,
+2020-08-25,Saratoga,New York,36091,824,15,824,15,,
+2020-08-25,Schenectady,New York,36093,1206,41,1206,41,,
 2020-08-25,Schoharie,New York,36095,69,2,69,2,,
 2020-08-25,Schuyler,New York,36097,24,0,24,,,
-2020-08-25,Seneca,New York,36099,95,1,95,1,,
+2020-08-25,Seneca,New York,36099,96,1,96,1,,
 2020-08-25,Steuben,New York,36101,310,39,310,39,,
 2020-08-25,St. Lawrence,New York,36089,267,4,267,4,,
-2020-08-25,Suffolk,New York,36103,44519,2001,44519,2001,,
-2020-08-25,Sullivan,New York,36105,1495,37,1495,37,,
+2020-08-25,Suffolk,New York,36103,44561,2001,44561,2001,,
+2020-08-25,Sullivan,New York,36105,1499,37,1499,37,,
 2020-08-25,Tioga,New York,36107,206,21,206,21,,
-2020-08-25,Tompkins,New York,36109,244,0,244,0,,
-2020-08-25,Ulster,New York,36111,2134,82,2134,82,,
-2020-08-25,Warren,New York,36113,315,30,315,30,,
+2020-08-25,Tompkins,New York,36109,245,0,245,0,,
+2020-08-25,Ulster,New York,36111,2137,82,2137,82,,
+2020-08-25,Warren,New York,36113,316,30,316,30,,
 2020-08-25,Washington,New York,36115,266,14,266,14,,
 2020-08-25,Wayne,New York,36117,275,3,275,3,,
-2020-08-25,Westchester,New York,36119,36709,1449,36709,1449,,
-2020-08-25,Wyoming,New York,36121,124,5,124,5,,
+2020-08-25,Westchester,New York,36119,36741,1449,36741,1449,,
+2020-08-25,Wyoming,New York,36121,125,5,125,5,,
 2020-08-25,Yates,New York,36123,60,6,60,6,,
 2020-08-25,Alamance,North Carolina,37001,2931,44,2931,44,,
 2020-08-25,Alexander,North Carolina,37003,374,2,374,2,,
@@ -1938,7 +1938,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-08-25,Hyde,North Carolina,37095,80,0,80,0,,
 2020-08-25,Iredell,North Carolina,37097,2230,18,2230,18,,
 2020-08-25,Jackson,North Carolina,37099,472,7,472,7,,
-2020-08-25,Johnston,North Carolina,37101,3658,50,3658,50,,
+2020-08-25,Johnston,North Carolina,37101,3710,50,3710,50,,
 2020-08-25,Jones,North Carolina,37103,126,6,126,6,,
 2020-08-25,Lee,North Carolina,37105,1390,11,1390,11,,
 2020-08-25,Lenoir,North Carolina,37107,735,11,735,11,,
@@ -1947,7 +1947,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-08-25,Madison,North Carolina,37115,58,1,58,1,,
 2020-08-25,Martin,North Carolina,37117,316,7,316,7,,
 2020-08-25,McDowell,North Carolina,37111,757,24,757,24,,
-2020-08-25,Mecklenburg,North Carolina,37119,24472,282,24472,282,,
+2020-08-25,Mecklenburg,North Carolina,37119,24602,289,24602,289,,
 2020-08-25,Mitchell,North Carolina,37121,90,4,90,4,,
 2020-08-25,Montgomery,North Carolina,37123,804,17,804,17,,
 2020-08-25,Moore,North Carolina,37125,1225,21,1225,21,,
@@ -1979,7 +1979,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-08-25,Tyrrell,North Carolina,37177,103,2,103,2,,
 2020-08-25,Union,North Carolina,37179,3766,47,3766,47,,
 2020-08-25,Vance,North Carolina,37181,866,42,866,42,,
-2020-08-25,Wake,North Carolina,37183,14033,193,14004,193,29,
+2020-08-25,Wake,North Carolina,37183,14097,196,14032,196,65,
 2020-08-25,Warren,North Carolina,37185,281,6,281,6,,
 2020-08-25,Washington,North Carolina,37187,168,4,168,4,,
 2020-08-25,Watauga,North Carolina,37189,388,0,388,0,,
@@ -2044,94 +2044,94 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-08-25,Williams,North Dakota,38105,338,2,338,2,,
 2020-08-25,Saipan,Northern Mariana Islands,69110,53,2,53,2,,
 2020-08-25,Tinian,Northern Mariana Islands,69120,1,0,1,0,,
-2020-08-25,Adams,Ohio,39001,84,4,,,,
-2020-08-25,Allen,Ohio,39003,1010,49,,,,
+2020-08-25,Adams,Ohio,39001,85,4,,,,
+2020-08-25,Allen,Ohio,39003,1028,49,,,,
 2020-08-25,Ashland,Ohio,39005,162,3,,,,
 2020-08-25,Ashtabula,Ohio,39007,595,46,,,,
-2020-08-25,Athens,Ohio,39009,373,2,,,,
-2020-08-25,Auglaize,Ohio,39011,365,8,,,,
-2020-08-25,Belmont,Ohio,39013,674,26,,,,
-2020-08-25,Brown,Ohio,39015,190,2,,,,
-2020-08-25,Butler,Ohio,39017,3478,69,,,,
-2020-08-25,Carroll,Ohio,39019,122,6,,,,
-2020-08-25,Champaign,Ohio,39021,234,2,,,,
-2020-08-25,Clark,Ohio,39023,1351,20,,,,
-2020-08-25,Clermont,Ohio,39025,1153,13,,,,
-2020-08-25,Clinton,Ohio,39027,216,6,,,,
-2020-08-25,Columbiana,Ohio,39029,1771,63,,,,
-2020-08-25,Coshocton,Ohio,39031,209,9,,,,
+2020-08-25,Athens,Ohio,39009,374,2,,,,
+2020-08-25,Auglaize,Ohio,39011,366,8,,,,
+2020-08-25,Belmont,Ohio,39013,676,26,,,,
+2020-08-25,Brown,Ohio,39015,191,2,,,,
+2020-08-25,Butler,Ohio,39017,3536,69,,,,
+2020-08-25,Carroll,Ohio,39019,123,6,,,,
+2020-08-25,Champaign,Ohio,39021,237,2,,,,
+2020-08-25,Clark,Ohio,39023,1360,21,,,,
+2020-08-25,Clermont,Ohio,39025,1174,13,,,,
+2020-08-25,Clinton,Ohio,39027,220,7,,,,
+2020-08-25,Columbiana,Ohio,39029,1773,63,,,,
+2020-08-25,Coshocton,Ohio,39031,210,9,,,,
 2020-08-25,Crawford,Ohio,39033,189,5,,,,
-2020-08-25,Cuyahoga,Ohio,39035,15032,552,,,,
-2020-08-25,Darke,Ohio,39037,548,31,,,,
-2020-08-25,Defiance,Ohio,39039,191,5,,,,
-2020-08-25,Delaware,Ohio,39041,1527,20,,,,
-2020-08-25,Erie,Ohio,39043,710,33,,,,
-2020-08-25,Fairfield,Ohio,39045,1594,39,,,,
-2020-08-25,Fayette,Ohio,39047,172,1,,,,
-2020-08-25,Franklin,Ohio,39049,20659,554,,,,
-2020-08-25,Fulton,Ohio,39051,177,1,,,,
-2020-08-25,Gallia,Ohio,39053,121,2,,,,
+2020-08-25,Cuyahoga,Ohio,39035,15088,552,,,,
+2020-08-25,Darke,Ohio,39037,551,31,,,,
+2020-08-25,Defiance,Ohio,39039,192,5,,,,
+2020-08-25,Delaware,Ohio,39041,1546,20,,,,
+2020-08-25,Erie,Ohio,39043,720,35,,,,
+2020-08-25,Fairfield,Ohio,39045,1609,39,,,,
+2020-08-25,Fayette,Ohio,39047,175,1,,,,
+2020-08-25,Franklin,Ohio,39049,20794,554,,,,
+2020-08-25,Fulton,Ohio,39051,178,1,,,,
+2020-08-25,Gallia,Ohio,39053,129,2,,,,
 2020-08-25,Geauga,Ohio,39055,595,46,,,,
-2020-08-25,Greene,Ohio,39057,885,15,,,,
-2020-08-25,Guernsey,Ohio,39059,128,7,,,,
-2020-08-25,Hamilton,Ohio,39061,10606,281,,,,
-2020-08-25,Hancock,Ohio,39063,476,5,,,,
-2020-08-25,Hardin,Ohio,39065,204,13,,,,
+2020-08-25,Greene,Ohio,39057,896,16,,,,
+2020-08-25,Guernsey,Ohio,39059,129,7,,,,
+2020-08-25,Hamilton,Ohio,39061,10663,281,,,,
+2020-08-25,Hancock,Ohio,39063,489,6,,,,
+2020-08-25,Hardin,Ohio,39065,205,13,,,,
 2020-08-25,Harrison,Ohio,39067,28,1,,,,
-2020-08-25,Henry,Ohio,39069,172,2,,,,
-2020-08-25,Highland,Ohio,39071,183,3,,,,
-2020-08-25,Hocking,Ohio,39073,131,9,,,,
+2020-08-25,Henry,Ohio,39069,174,2,,,,
+2020-08-25,Highland,Ohio,39071,185,3,,,,
+2020-08-25,Hocking,Ohio,39073,132,9,,,,
 2020-08-25,Holmes,Ohio,39075,342,7,,,,
 2020-08-25,Huron,Ohio,39077,462,6,,,,
-2020-08-25,Jackson,Ohio,39079,137,0,,,,
-2020-08-25,Jefferson,Ohio,39081,261,4,,,,
-2020-08-25,Knox,Ohio,39083,236,13,,,,
-2020-08-25,Lake,Ohio,39085,1254,44,,,,
-2020-08-25,Lawrence,Ohio,39087,395,6,,,,
-2020-08-25,Licking,Ohio,39089,1499,56,,,,
-2020-08-25,Logan,Ohio,39091,219,2,,,,
-2020-08-25,Lorain,Ohio,39093,2022,81,,,,
-2020-08-25,Lucas,Ohio,39095,6117,338,,,,
-2020-08-25,Madison,Ohio,39097,654,11,,,,
-2020-08-25,Mahoning,Ohio,39099,2788,262,,,,
-2020-08-25,Marion,Ohio,39101,2986,45,,,,
-2020-08-25,Medina,Ohio,39103,1098,36,,,,
-2020-08-25,Meigs,Ohio,39105,85,0,,,,
-2020-08-25,Mercer,Ohio,39107,772,14,,,,
-2020-08-25,Miami,Ohio,39109,992,40,,,,
+2020-08-25,Jackson,Ohio,39079,142,0,,,,
+2020-08-25,Jefferson,Ohio,39081,263,4,,,,
+2020-08-25,Knox,Ohio,39083,238,13,,,,
+2020-08-25,Lake,Ohio,39085,1262,44,,,,
+2020-08-25,Lawrence,Ohio,39087,397,7,,,,
+2020-08-25,Licking,Ohio,39089,1512,56,,,,
+2020-08-25,Logan,Ohio,39091,223,2,,,,
+2020-08-25,Lorain,Ohio,39093,2036,81,,,,
+2020-08-25,Lucas,Ohio,39095,6149,339,,,,
+2020-08-25,Madison,Ohio,39097,655,11,,,,
+2020-08-25,Mahoning,Ohio,39099,2795,262,,,,
+2020-08-25,Marion,Ohio,39101,2991,45,,,,
+2020-08-25,Medina,Ohio,39103,1110,36,,,,
+2020-08-25,Meigs,Ohio,39105,87,0,,,,
+2020-08-25,Mercer,Ohio,39107,775,14,,,,
+2020-08-25,Miami,Ohio,39109,996,40,,,,
 2020-08-25,Monroe,Ohio,39111,102,18,,,,
-2020-08-25,Montgomery,Ohio,39113,5081,116,,,,
+2020-08-25,Montgomery,Ohio,39113,5144,115,,,,
 2020-08-25,Morgan,Ohio,39115,43,0,,,,
-2020-08-25,Morrow,Ohio,39117,214,2,,,,
-2020-08-25,Muskingum,Ohio,39119,291,1,,,,
+2020-08-25,Morrow,Ohio,39117,217,2,,,,
+2020-08-25,Muskingum,Ohio,39119,294,1,,,,
 2020-08-25,Noble,Ohio,39121,21,0,,,,
-2020-08-25,Ottawa,Ohio,39123,435,28,,,,
+2020-08-25,Ottawa,Ohio,39123,436,28,,,,
 2020-08-25,Paulding,Ohio,39125,77,0,,,,
-2020-08-25,Perry,Ohio,39127,207,5,,,,
-2020-08-25,Pickaway,Ohio,39129,2448,42,,,,
-2020-08-25,Pike,Ohio,39131,93,0,,,,
-2020-08-25,Portage,Ohio,39133,828,65,,,,
-2020-08-25,Preble,Ohio,39135,317,3,,,,
-2020-08-25,Putnam,Ohio,39137,266,17,,,,
-2020-08-25,Richland,Ohio,39139,674,16,,,,
-2020-08-25,Ross,Ohio,39141,619,9,,,,
+2020-08-25,Perry,Ohio,39127,216,5,,,,
+2020-08-25,Pickaway,Ohio,39129,2456,42,,,,
+2020-08-25,Pike,Ohio,39131,97,0,,,,
+2020-08-25,Portage,Ohio,39133,834,65,,,,
+2020-08-25,Preble,Ohio,39135,320,3,,,,
+2020-08-25,Putnam,Ohio,39137,273,17,,,,
+2020-08-25,Richland,Ohio,39139,679,16,,,,
+2020-08-25,Ross,Ohio,39141,626,9,,,,
 2020-08-25,Sandusky,Ohio,39143,483,17,,,,
-2020-08-25,Scioto,Ohio,39145,308,1,,,,
-2020-08-25,Seneca,Ohio,39147,297,10,,,,
-2020-08-25,Shelby,Ohio,39149,293,4,,,,
-2020-08-25,Stark,Ohio,39151,2166,149,,,,
-2020-08-25,Summit,Ohio,39153,4188,232,,,,
-2020-08-25,Trumbull,Ohio,39155,1710,115,,,,
-2020-08-25,Tuscarawas,Ohio,39157,834,15,,,,
-2020-08-25,Union,Ohio,39159,330,1,,,,
-2020-08-25,Van Wert,Ohio,39161,80,2,,,,
+2020-08-25,Scioto,Ohio,39145,312,1,,,,
+2020-08-25,Seneca,Ohio,39147,296,10,,,,
+2020-08-25,Shelby,Ohio,39149,308,4,,,,
+2020-08-25,Stark,Ohio,39151,2192,150,,,,
+2020-08-25,Summit,Ohio,39153,4219,232,,,,
+2020-08-25,Trumbull,Ohio,39155,1715,116,,,,
+2020-08-25,Tuscarawas,Ohio,39157,840,16,,,,
+2020-08-25,Union,Ohio,39159,333,1,,,,
+2020-08-25,Van Wert,Ohio,39161,81,2,,,,
 2020-08-25,Vinton,Ohio,39163,36,2,,,,
-2020-08-25,Warren,Ohio,39165,2130,41,,,,
-2020-08-25,Washington,Ohio,39167,222,23,,,,
-2020-08-25,Wayne,Ohio,39169,657,61,,,,
-2020-08-25,Williams,Ohio,39171,149,3,,,,
-2020-08-25,Wood,Ohio,39173,1243,60,,,,
-2020-08-25,Wyandot,Ohio,39175,175,10,,,,
+2020-08-25,Warren,Ohio,39165,2155,41,,,,
+2020-08-25,Washington,Ohio,39167,223,23,,,,
+2020-08-25,Wayne,Ohio,39169,672,61,,,,
+2020-08-25,Williams,Ohio,39171,152,3,,,,
+2020-08-25,Wood,Ohio,39173,1255,60,,,,
+2020-08-25,Wyandot,Ohio,39175,176,10,,,,
 2020-08-25,Adair,Oklahoma,40001,413,6,413,6,,
 2020-08-25,Alfalfa,Oklahoma,40003,12,0,12,0,,
 2020-08-25,Atoka,Oklahoma,40005,101,1,101,1,,
@@ -2210,43 +2210,43 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-08-25,Washita,Oklahoma,40149,42,0,42,0,,
 2020-08-25,Woods,Oklahoma,40151,24,0,24,0,,
 2020-08-25,Woodward,Oklahoma,40153,75,0,75,0,,
-2020-08-25,Baker,Oregon,41001,64,1,60,,4,
-2020-08-25,Benton,Oregon,41003,202,6,177,,25,
-2020-08-25,Clackamas,Oregon,41005,1833,57,1832,57,1,
-2020-08-25,Clatsop,Oregon,41007,93,0,89,,4,
-2020-08-25,Columbia,Oregon,41009,125,1,112,,13,
-2020-08-25,Coos,Oregon,41011,99,0,75,,24,
+2020-08-25,Baker,Oregon,41001,67,1,61,,6,
+2020-08-25,Benton,Oregon,41003,206,6,182,,24,
+2020-08-25,Clackamas,Oregon,41005,1852,57,1832,57,20,
+2020-08-25,Clatsop,Oregon,41007,94,0,90,,4,
+2020-08-25,Columbia,Oregon,41009,126,1,112,,14,
+2020-08-25,Coos,Oregon,41011,101,0,76,,25,
 2020-08-25,Crook,Oregon,41013,54,1,46,,8,
 2020-08-25,Curry,Oregon,41015,20,0,20,,0,
-2020-08-25,Deschutes,Oregon,41017,672,11,637,,35,
+2020-08-25,Deschutes,Oregon,41017,673,11,638,,35,
 2020-08-25,Douglas,Oregon,41019,169,2,152,,17,
 2020-08-25,Gilliam,Oregon,41021,4,0,4,,0,
 2020-08-25,Grant,Oregon,41023,8,0,8,,0,
 2020-08-25,Harney,Oregon,41025,11,0,11,,0,
 2020-08-25,Hood River,Oregon,41027,225,0,203,,22,
-2020-08-25,Jackson,Oregon,41029,713,2,634,,79,
-2020-08-25,Jefferson,Oregon,41031,448,6,415,,33,
+2020-08-25,Jackson,Oregon,41029,728,2,648,,80,
+2020-08-25,Jefferson,Oregon,41031,452,6,419,,33,
 2020-08-25,Josephine,Oregon,41033,151,2,127,,24,
 2020-08-25,Klamath,Oregon,41035,225,2,219,,6,
 2020-08-25,Lake,Oregon,41037,32,0,24,,8,
-2020-08-25,Lane,Oregon,41039,656,5,582,,74,
-2020-08-25,Lincoln,Oregon,41041,453,11,437,,16,
-2020-08-25,Linn,Oregon,41043,362,12,328,,34,
-2020-08-25,Malheur,Oregon,41045,1044,16,1030,,14,
-2020-08-25,Marion,Oregon,41047,3547,75,3397,,150,
-2020-08-25,Morrow,Oregon,41049,424,3,394,,30,
-2020-08-25,Multnomah,Oregon,41051,5718,115,5717,115,1,
-2020-08-25,Polk,Oregon,41053,395,13,379,,16,
+2020-08-25,Lane,Oregon,41039,659,5,585,,74,
+2020-08-25,Lincoln,Oregon,41041,456,13,439,,17,
+2020-08-25,Linn,Oregon,41043,365,12,333,,32,
+2020-08-25,Malheur,Oregon,41045,1064,16,1047,,17,
+2020-08-25,Marion,Oregon,41047,3587,77,3433,,154,
+2020-08-25,Morrow,Oregon,41049,430,3,400,,30,
+2020-08-25,Multnomah,Oregon,41051,5761,115,5717,115,44,
+2020-08-25,Polk,Oregon,41053,396,13,380,,16,
 2020-08-25,Sherman,Oregon,41055,16,0,14,,2,
 2020-08-25,Tillamook,Oregon,41057,37,0,33,,4,
-2020-08-25,Umatilla,Oregon,41059,2566,35,2425,35,141,
-2020-08-25,Union,Oregon,41061,408,2,376,,32,
-2020-08-25,Wallowa,Oregon,41063,21,1,20,,1,
+2020-08-25,Umatilla,Oregon,41059,2587,35,2445,35,142,0
+2020-08-25,Union,Oregon,41061,409,2,377,,32,
+2020-08-25,Wallowa,Oregon,41063,22,1,21,,1,
 2020-08-25,Wasco,Oregon,41065,207,3,176,,31,
-2020-08-25,Washington,Oregon,41067,3575,36,3575,36,0,
-2020-08-25,Yamhill,Oregon,41071,597,14,597,14,0,0
+2020-08-25,Washington,Oregon,41067,3610,36,3575,36,35,
+2020-08-25,Yamhill,Oregon,41071,604,14,597,14,7,0
 2020-08-25,Adams,Pennsylvania,42001,574,23,556,,18,
-2020-08-25,Allegheny,Pennsylvania,42003,9990,306,9681,,309,
+2020-08-25,Allegheny,Pennsylvania,42003,9990,309,9681,,309,
 2020-08-25,Armstrong,Pennsylvania,42005,291,9,290,,1,
 2020-08-25,Beaver,Pennsylvania,42007,1515,96,1473,,42,
 2020-08-25,Bedford,Pennsylvania,42009,161,5,144,,17,
@@ -2259,7 +2259,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-08-25,Cameron,Pennsylvania,42023,8,0,8,,0,
 2020-08-25,Carbon,Pennsylvania,42025,416,28,412,,4,
 2020-08-25,Centre,Pennsylvania,42027,427,11,381,,46,
-2020-08-25,Chester,Pennsylvania,42029,5505,352,5248,351,257,1
+2020-08-25,Chester,Pennsylvania,42029,5527,352,5248,352,279,0
 2020-08-25,Clarion,Pennsylvania,42031,96,3,87,,9,
 2020-08-25,Clearfield,Pennsylvania,42033,212,1,168,,44,
 2020-08-25,Clinton,Pennsylvania,42035,130,5,115,,15,
@@ -2267,7 +2267,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-08-25,Crawford,Pennsylvania,42039,192,2,167,,25,
 2020-08-25,Cumberland,Pennsylvania,42041,1469,72,1385,,84,
 2020-08-25,Dauphin,Pennsylvania,42043,3179,161,3097,,82,
-2020-08-25,Delaware,Pennsylvania,42045,10120,769,9848,769,272,
+2020-08-25,Delaware,Pennsylvania,42045,10152,769,9848,769,304,
 2020-08-25,Elk,Pennsylvania,42047,64,2,49,,15,
 2020-08-25,Erie,Pennsylvania,42049,1305,30,1121,,184,
 2020-08-25,Fayette,Pennsylvania,42051,663,6,636,,27,
@@ -2295,7 +2295,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-08-25,Northampton,Pennsylvania,42095,4068,297,3944,,124,
 2020-08-25,Northumberland,Pennsylvania,42097,638,30,590,,48,
 2020-08-25,Perry,Pennsylvania,42099,162,5,147,,15,
-2020-08-25,Philadelphia,Pennsylvania,42101,33054,1759,33054,1736,,23
+2020-08-25,Philadelphia,Pennsylvania,42101,33139,1759,33139,1736,,23
 2020-08-25,Pike,Pennsylvania,42103,535,21,510,,25,
 2020-08-25,Potter,Pennsylvania,42105,24,0,21,,3,
 2020-08-25,Schuylkill,Pennsylvania,42107,975,51,942,,33,
@@ -2309,7 +2309,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-08-25,Warren,Pennsylvania,42123,26,1,20,,6,
 2020-08-25,Washington,Pennsylvania,42125,983,24,937,,46,
 2020-08-25,Wayne,Pennsylvania,42127,175,10,168,,7,
-2020-08-25,Westmoreland,Pennsylvania,42129,1748,49,1696,39,52,10
+2020-08-25,Westmoreland,Pennsylvania,42129,1748,49,1696,49,52,0
 2020-08-25,Wyoming,Pennsylvania,42131,65,8,62,,3,
 2020-08-25,York,Pennsylvania,42133,3158,116,3097,,61,
 2020-08-25,Adjuntas,Puerto Rico,72001,117,,59,,58,
@@ -2397,52 +2397,52 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-08-25,Providence,Rhode Island,44007,16142,826,16142,826,,
 2020-08-25,Unknown,Rhode Island,,2239,24,2239,24,,
 2020-08-25,Washington,Rhode Island,44009,659,65,659,65,,
-2020-08-25,Abbeville,South Carolina,45001,392,10,387,8,5,2
-2020-08-25,Aiken,South Carolina,45003,2239,56,2062,47,177,9
-2020-08-25,Allendale,South Carolina,45005,275,6,270,6,5,0
-2020-08-25,Anderson,South Carolina,45007,2893,96,2877,88,16,8
-2020-08-25,Bamberg,South Carolina,45009,519,27,514,27,5,0
-2020-08-25,Barnwell,South Carolina,45011,503,11,494,11,9,0
-2020-08-25,Beaufort,South Carolina,45013,4580,64,4554,62,26,2
-2020-08-25,Berkeley,South Carolina,45015,4612,76,4576,72,36,4
-2020-08-25,Calhoun,South Carolina,45017,411,16,409,14,2,2
-2020-08-25,Charleston,South Carolina,45019,13405,226,13314,211,91,15
-2020-08-25,Cherokee,South Carolina,45021,761,31,759,29,2,2
-2020-08-25,Chester,South Carolina,45023,810,17,801,16,9,1
-2020-08-25,Chesterfield,South Carolina,45025,913,23,875,23,38,0
-2020-08-25,Clarendon,South Carolina,45027,947,61,941,59,6,2
-2020-08-25,Colleton,South Carolina,45029,867,36,862,35,5,1
-2020-08-25,Darlington,South Carolina,45031,1567,44,1545,43,22,1
-2020-08-25,Dillon,South Carolina,45033,714,28,710,28,4,0
-2020-08-25,Dorchester,South Carolina,45035,3451,68,3396,66,55,2
-2020-08-25,Edgefield,South Carolina,45037,464,8,448,7,16,1
+2020-08-25,Abbeville,South Carolina,45001,388,10,384,9,4,1
+2020-08-25,Aiken,South Carolina,45003,2255,57,2077,48,178,9
+2020-08-25,Allendale,South Carolina,45005,279,6,274,6,5,0
+2020-08-25,Anderson,South Carolina,45007,2942,99,2927,91,15,8
+2020-08-25,Bamberg,South Carolina,45009,523,27,518,27,5,0
+2020-08-25,Barnwell,South Carolina,45011,514,12,505,12,9,0
+2020-08-25,Beaufort,South Carolina,45013,4596,64,4569,62,27,2
+2020-08-25,Berkeley,South Carolina,45015,4640,76,4600,72,40,4
+2020-08-25,Calhoun,South Carolina,45017,405,15,404,14,1,1
+2020-08-25,Charleston,South Carolina,45019,13440,228,13344,213,96,15
+2020-08-25,Cherokee,South Carolina,45021,762,31,760,29,2,2
+2020-08-25,Chester,South Carolina,45023,824,17,815,16,9,1
+2020-08-25,Chesterfield,South Carolina,45025,922,24,883,24,39,0
+2020-08-25,Clarendon,South Carolina,45027,951,61,945,59,6,2
+2020-08-25,Colleton,South Carolina,45029,872,36,867,35,5,1
+2020-08-25,Darlington,South Carolina,45031,1576,45,1547,43,29,2
+2020-08-25,Dillon,South Carolina,45033,720,28,715,28,5,0
+2020-08-25,Dorchester,South Carolina,45035,3463,68,3407,66,56,2
+2020-08-25,Edgefield,South Carolina,45037,467,9,450,8,17,1
 2020-08-25,Fairfield,South Carolina,45039,618,26,603,26,15,0
-2020-08-25,Florence,South Carolina,45041,4052,143,4027,141,25,2
-2020-08-25,Georgetown,South Carolina,45043,1667,35,1635,35,32,0
-2020-08-25,Greenville,South Carolina,45045,11620,244,11582,230,38,14
-2020-08-25,Greenwood,South Carolina,45047,1678,30,1663,25,15,5
-2020-08-25,Hampton,South Carolina,45049,513,17,506,16,7,1
-2020-08-25,Horry,South Carolina,45051,9112,177,9053,168,59,9
+2020-08-25,Florence,South Carolina,45041,4079,145,4050,143,29,2
+2020-08-25,Georgetown,South Carolina,45043,1677,35,1638,35,39,0
+2020-08-25,Greenville,South Carolina,45045,11804,245,11767,232,37,13
+2020-08-25,Greenwood,South Carolina,45047,1720,30,1705,26,15,4
+2020-08-25,Hampton,South Carolina,45049,519,18,512,17,7,1
+2020-08-25,Horry,South Carolina,45051,9157,178,9087,168,70,10
 2020-08-25,Jasper,South Carolina,45053,669,18,667,17,2,1
-2020-08-25,Kershaw,South Carolina,45055,1518,29,1479,28,39,1
-2020-08-25,Lancaster,South Carolina,45057,1554,31,1508,28,46,3
-2020-08-25,Laurens,South Carolina,45059,1424,54,1415,50,9,4
-2020-08-25,Lee,South Carolina,45061,610,30,610,30,0,0
-2020-08-25,Lexington,South Carolina,45063,5492,131,5374,128,118,3
-2020-08-25,Marion,South Carolina,45067,646,17,645,17,1,0
-2020-08-25,Marlboro,South Carolina,45069,652,5,635,5,17,0
-2020-08-25,McCormick,South Carolina,45065,151,4,149,3,2,1
-2020-08-25,Newberry,South Carolina,45071,923,13,911,12,12,1
-2020-08-25,Oconee,South Carolina,45073,960,16,958,14,2,2
-2020-08-25,Orangeburg,South Carolina,45075,2757,94,2739,91,18,3
-2020-08-25,Pickens,South Carolina,45077,2047,31,2038,29,9,2
-2020-08-25,Richland,South Carolina,45079,9997,185,9737,179,260,6
-2020-08-25,Saluda,South Carolina,45081,521,11,516,9,5,2
-2020-08-25,Spartanburg,South Carolina,45083,4715,127,4691,120,24,7
-2020-08-25,Sumter,South Carolina,45085,2731,59,2727,57,4,2
-2020-08-25,Union,South Carolina,45087,435,5,434,5,1,0
-2020-08-25,Williamsburg,South Carolina,45089,1146,36,1132,33,14,3
-2020-08-25,York,South Carolina,45091,4020,39,3974,39,46,0
+2020-08-25,Kershaw,South Carolina,45055,1534,29,1496,28,38,1
+2020-08-25,Lancaster,South Carolina,45057,1563,31,1517,28,46,3
+2020-08-25,Laurens,South Carolina,45059,1449,54,1440,50,9,4
+2020-08-25,Lee,South Carolina,45061,615,30,615,30,0,0
+2020-08-25,Lexington,South Carolina,45063,5518,133,5398,130,120,3
+2020-08-25,Marion,South Carolina,45067,650,17,649,17,1,0
+2020-08-25,Marlboro,South Carolina,45069,656,5,638,5,18,0
+2020-08-25,McCormick,South Carolina,45065,153,4,151,3,2,1
+2020-08-25,Newberry,South Carolina,45071,929,13,917,12,12,1
+2020-08-25,Oconee,South Carolina,45073,995,16,993,14,2,2
+2020-08-25,Orangeburg,South Carolina,45075,2761,93,2744,91,17,2
+2020-08-25,Pickens,South Carolina,45077,2100,31,2092,29,8,2
+2020-08-25,Richland,South Carolina,45079,10084,187,9814,181,270,6
+2020-08-25,Saluda,South Carolina,45081,526,11,521,9,5,2
+2020-08-25,Spartanburg,South Carolina,45083,4778,127,4754,120,24,7
+2020-08-25,Sumter,South Carolina,45085,2754,60,2750,58,4,2
+2020-08-25,Union,South Carolina,45087,440,5,439,5,1,0
+2020-08-25,Williamsburg,South Carolina,45089,1152,36,1136,33,16,3
+2020-08-25,York,South Carolina,45091,4049,39,4004,39,45,0
 2020-08-25,Aurora,South Dakota,46003,42,0,42,,0,
 2020-08-25,Beadle,South Dakota,46005,619,9,619,,0,
 2020-08-25,Bennett,South Dakota,46007,11,0,11,,0,
@@ -2509,381 +2509,382 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-08-25,Walworth,South Dakota,46129,32,0,32,,0,
 2020-08-25,Yankton,South Dakota,46135,185,3,185,,0,
 2020-08-25,Ziebach,South Dakota,46137,46,0,46,,0,
-2020-08-25,Anderson,Tennessee,47001,839,8,824,,15,
-2020-08-25,Bedford,Tennessee,47003,1057,14,1020,,37,
-2020-08-25,Benton,Tennessee,47005,223,3,214,,9,
+2020-08-25,Anderson,Tennessee,47001,841,8,825,,16,
+2020-08-25,Bedford,Tennessee,47003,1064,14,1025,,39,
+2020-08-25,Benton,Tennessee,47005,224,4,215,,9,
 2020-08-25,Bledsoe,Tennessee,47007,768,3,765,,3,
-2020-08-25,Blount,Tennessee,47009,1744,15,1706,,38,
-2020-08-25,Bradley,Tennessee,47011,2359,16,2299,,60,
-2020-08-25,Campbell,Tennessee,47013,302,2,285,,17,
+2020-08-25,Blount,Tennessee,47009,1753,16,1715,,38,
+2020-08-25,Bradley,Tennessee,47011,2370,16,2309,,61,
+2020-08-25,Campbell,Tennessee,47013,304,2,285,,19,
 2020-08-25,Cannon,Tennessee,47015,186,0,175,,11,
-2020-08-25,Carroll,Tennessee,47017,516,6,447,,69,
-2020-08-25,Carter,Tennessee,47019,736,14,707,,29,
-2020-08-25,Cheatham,Tennessee,47021,694,10,686,,8,
-2020-08-25,Chester,Tennessee,47023,336,4,295,,41,
-2020-08-25,Claiborne,Tennessee,47025,345,2,324,,21,
+2020-08-25,Carroll,Tennessee,47017,525,7,454,,71,
+2020-08-25,Carter,Tennessee,47019,743,16,712,,31,
+2020-08-25,Cheatham,Tennessee,47021,692,10,684,,8,
+2020-08-25,Chester,Tennessee,47023,343,4,302,,41,
+2020-08-25,Claiborne,Tennessee,47025,346,3,324,,22,
 2020-08-25,Clay,Tennessee,47027,103,0,97,,6,
-2020-08-25,Cocke,Tennessee,47029,606,6,572,,34,
-2020-08-25,Coffee,Tennessee,47031,695,6,642,,53,
-2020-08-25,Crockett,Tennessee,47033,359,12,327,,32,
-2020-08-25,Cumberland,Tennessee,47035,709,8,705,,4,
-2020-08-25,Davidson,Tennessee,47037,25384,246,25280,229,104,17
+2020-08-25,Cocke,Tennessee,47029,612,6,578,,34,
+2020-08-25,Coffee,Tennessee,47031,700,6,644,,56,
+2020-08-25,Crockett,Tennessee,47033,362,13,329,,33,
+2020-08-25,Cumberland,Tennessee,47035,712,8,706,,6,
+2020-08-25,Davidson,Tennessee,47037,25384,249,25280,229,104,20
 2020-08-25,Decatur,Tennessee,47039,272,4,214,,58,
-2020-08-25,DeKalb,Tennessee,47041,417,5,410,,7,
-2020-08-25,Dickson,Tennessee,47043,851,8,791,,60,
-2020-08-25,Dyer,Tennessee,47045,862,9,815,,47,
-2020-08-25,Fayette,Tennessee,47047,820,10,807,,13,
-2020-08-25,Fentress,Tennessee,47049,149,0,146,,3,
-2020-08-25,Franklin,Tennessee,47051,426,4,415,,11,
-2020-08-25,Gibson,Tennessee,47053,995,13,830,,165,
-2020-08-25,Giles,Tennessee,47055,428,14,425,,3,
-2020-08-25,Grainger,Tennessee,47057,249,1,236,,13,
-2020-08-25,Greene,Tennessee,47059,730,10,688,,42,
+2020-08-25,DeKalb,Tennessee,47041,424,5,415,,9,
+2020-08-25,Dickson,Tennessee,47043,861,8,798,,63,
+2020-08-25,Dyer,Tennessee,47045,866,9,818,,48,
+2020-08-25,Fayette,Tennessee,47047,824,10,811,,13,
+2020-08-25,Fentress,Tennessee,47049,161,0,148,,13,
+2020-08-25,Franklin,Tennessee,47051,427,4,416,,11,
+2020-08-25,Gibson,Tennessee,47053,1005,13,836,,169,
+2020-08-25,Giles,Tennessee,47055,430,14,427,,3,
+2020-08-25,Grainger,Tennessee,47057,250,1,237,,13,
+2020-08-25,Greene,Tennessee,47059,738,11,696,,42,
 2020-08-25,Grundy,Tennessee,47061,142,2,139,,3,
-2020-08-25,Hamblen,Tennessee,47063,1580,18,1516,,64,
-2020-08-25,Hamilton,Tennessee,47065,7496,68,7371,68,125,
+2020-08-25,Hamblen,Tennessee,47063,1588,20,1524,,64,
+2020-08-25,Hamilton,Tennessee,47065,7586,69,7461,69,125,0
 2020-08-25,Hancock,Tennessee,47067,88,2,81,,7,
-2020-08-25,Hardeman,Tennessee,47069,1179,22,1126,,53,
-2020-08-25,Hardin,Tennessee,47071,620,8,536,,84,
-2020-08-25,Hawkins,Tennessee,47073,637,12,624,,13,
-2020-08-25,Haywood,Tennessee,47075,702,10,671,,31,
-2020-08-25,Henderson,Tennessee,47077,793,6,645,,148,
-2020-08-25,Henry,Tennessee,47079,410,4,401,,9,
-2020-08-25,Hickman,Tennessee,47081,331,1,316,,15,
+2020-08-25,Hardeman,Tennessee,47069,1183,22,1130,,53,
+2020-08-25,Hardin,Tennessee,47071,624,9,535,,89,
+2020-08-25,Hawkins,Tennessee,47073,636,12,623,,13,
+2020-08-25,Haywood,Tennessee,47075,705,10,674,,31,
+2020-08-25,Henderson,Tennessee,47077,796,6,646,,150,
+2020-08-25,Henry,Tennessee,47079,412,4,403,,9,
+2020-08-25,Hickman,Tennessee,47081,333,1,318,,15,
 2020-08-25,Houston,Tennessee,47083,73,0,71,,2,
 2020-08-25,Humphreys,Tennessee,47085,155,3,142,,13,
-2020-08-25,Jackson,Tennessee,47087,189,1,181,,8,
-2020-08-25,Jefferson,Tennessee,47089,721,6,642,,79,
-2020-08-25,Johnson,Tennessee,47091,387,1,383,,4,
+2020-08-25,Jackson,Tennessee,47087,193,1,184,,9,
+2020-08-25,Jefferson,Tennessee,47089,721,6,641,,80,
+2020-08-25,Johnson,Tennessee,47091,392,1,388,,4,
 2020-08-25,Knox,Tennessee,47093,6246,55,6029,55,217,
 2020-08-25,Lake,Tennessee,47095,820,1,814,,6,
-2020-08-25,Lauderdale,Tennessee,47097,637,12,605,,32,
-2020-08-25,Lawrence,Tennessee,47099,703,8,697,,6,
+2020-08-25,Lauderdale,Tennessee,47097,669,12,632,,37,
+2020-08-25,Lawrence,Tennessee,47099,717,9,710,,7,
 2020-08-25,Lewis,Tennessee,47101,117,1,117,,0,
 2020-08-25,Lincoln,Tennessee,47103,386,1,380,,6,
-2020-08-25,Loudon,Tennessee,47105,879,3,855,,24,
-2020-08-25,Macon,Tennessee,47111,882,14,874,,8,
-2020-08-25,Madison,Tennessee,47113,1571,31,1525,,46,
-2020-08-25,Marion,Tennessee,47115,300,5,296,,4,
-2020-08-25,Marshall,Tennessee,47117,472,4,467,,5,
-2020-08-25,Maury,Tennessee,47119,1593,11,1584,,9,
-2020-08-25,McMinn,Tennessee,47107,717,20,707,,10,
-2020-08-25,McNairy,Tennessee,47109,490,8,409,,81,
+2020-08-25,Loudon,Tennessee,47105,888,3,863,,25,
+2020-08-25,Macon,Tennessee,47111,882,15,874,,8,
+2020-08-25,Madison,Tennessee,47113,1590,34,1537,,53,
+2020-08-25,Marion,Tennessee,47115,300,5,297,,3,
+2020-08-25,Marshall,Tennessee,47117,474,4,469,,5,
+2020-08-25,Maury,Tennessee,47119,1599,13,1590,,9,
+2020-08-25,McMinn,Tennessee,47107,722,20,712,,10,
+2020-08-25,McNairy,Tennessee,47109,493,8,409,,84,
 2020-08-25,Meigs,Tennessee,47121,134,2,134,,0,
-2020-08-25,Monroe,Tennessee,47123,608,10,594,,14,
-2020-08-25,Montgomery,Tennessee,47125,2330,27,2279,,51,
-2020-08-25,Moore,Tennessee,47127,84,0,81,,3,
-2020-08-25,Morgan,Tennessee,47129,184,1,174,,10,
-2020-08-25,Obion,Tennessee,47131,757,5,742,,15,
-2020-08-25,Overton,Tennessee,47133,360,1,346,,14,
+2020-08-25,Monroe,Tennessee,47123,621,12,606,,15,
+2020-08-25,Montgomery,Tennessee,47125,2345,28,2286,,59,
+2020-08-25,Moore,Tennessee,47127,85,0,81,,4,
+2020-08-25,Morgan,Tennessee,47129,185,1,175,,10,
+2020-08-25,Obion,Tennessee,47131,759,6,744,,15,
+2020-08-25,Overton,Tennessee,47133,375,1,352,,23,
 2020-08-25,Perry,Tennessee,47135,98,0,88,,10,
-2020-08-25,Pickett,Tennessee,47137,46,1,44,,2,
-2020-08-25,Polk,Tennessee,47139,305,10,298,,7,
-2020-08-25,Putnam,Tennessee,47141,2149,23,2110,,39,
-2020-08-25,Rhea,Tennessee,47143,616,2,616,,0,
+2020-08-25,Pickett,Tennessee,47137,50,1,43,,7,
+2020-08-25,Polk,Tennessee,47139,306,10,299,,7,
+2020-08-25,Putnam,Tennessee,47141,2171,24,2113,,58,
+2020-08-25,Rhea,Tennessee,47143,618,2,618,,0,
 2020-08-25,Roane,Tennessee,47145,587,2,561,,26,
-2020-08-25,Robertson,Tennessee,47147,1751,25,1745,,6,
-2020-08-25,Rutherford,Tennessee,47149,7486,64,7467,,19,
-2020-08-25,Scott,Tennessee,47151,153,2,150,,3,
+2020-08-25,Robertson,Tennessee,47147,1772,25,1763,,9,
+2020-08-25,Rutherford,Tennessee,47149,7523,67,7498,,25,
+2020-08-25,Scott,Tennessee,47151,154,2,150,,4,
 2020-08-25,Sequatchie,Tennessee,47153,138,1,137,,1,
-2020-08-25,Sevier,Tennessee,47155,2154,11,2090,,64,
-2020-08-25,Shelby,Tennessee,47157,26406,380,26265,366,141,14
-2020-08-25,Smith,Tennessee,47159,497,8,486,,11,
-2020-08-25,Stewart,Tennessee,47161,89,0,89,,0,
-2020-08-25,Sullivan,Tennessee,47163,1474,22,1397,,77,
-2020-08-25,Sumner,Tennessee,47165,3889,82,3870,,19,
-2020-08-25,Tipton,Tennessee,47167,1337,13,1299,,38,
+2020-08-25,Sevier,Tennessee,47155,2157,11,2094,,63,
+2020-08-25,Shelby,Tennessee,47157,26528,370,26374,352,154,18
+2020-08-25,Smith,Tennessee,47159,501,8,487,,14,
+2020-08-25,Stewart,Tennessee,47161,91,0,90,,1,
+2020-08-25,Sullivan,Tennessee,47163,1495,22,1418,,77,
+2020-08-25,Sumner,Tennessee,47165,3903,83,3882,,21,
+2020-08-25,Tipton,Tennessee,47167,1349,13,1305,,44,
 2020-08-25,Trousdale,Tennessee,47169,1592,6,1589,,3,
-2020-08-25,Unicoi,Tennessee,47171,212,1,209,,3,
-2020-08-25,Union,Tennessee,47173,208,1,198,,10,
-2020-08-25,Van Buren,Tennessee,47175,54,0,53,,1,
-2020-08-25,Warren,Tennessee,47177,741,7,695,,46,
-2020-08-25,Washington,Tennessee,47179,1597,7,1547,,50,
-2020-08-25,Wayne,Tennessee,47181,261,2,255,,6,
-2020-08-25,Weakley,Tennessee,47183,742,9,688,,54,
-2020-08-25,White,Tennessee,47185,435,7,421,,14,
-2020-08-25,Williamson,Tennessee,47187,4157,27,4136,,21,
-2020-08-25,Wilson,Tennessee,47189,2664,30,2655,,9,
-2020-08-25,Anderson,Texas,48001,2431,18,2431,,,
+2020-08-25,Unicoi,Tennessee,47171,213,1,210,,3,
+2020-08-25,Union,Tennessee,47173,210,1,200,,10,
+2020-08-25,Unknown,Tennessee,,20,1,0,,20,
+2020-08-25,Van Buren,Tennessee,47175,57,0,53,,4,
+2020-08-25,Warren,Tennessee,47177,745,7,696,,49,
+2020-08-25,Washington,Tennessee,47179,1601,8,1554,,47,
+2020-08-25,Wayne,Tennessee,47181,266,2,259,,7,
+2020-08-25,Weakley,Tennessee,47183,749,11,695,,54,
+2020-08-25,White,Tennessee,47185,446,7,431,,15,
+2020-08-25,Williamson,Tennessee,47187,4165,27,4144,,21,
+2020-08-25,Wilson,Tennessee,47189,2672,30,2662,,10,
+2020-08-25,Anderson,Texas,48001,2449,18,2449,,,
 2020-08-25,Andrews,Texas,48003,356,8,356,,,
-2020-08-25,Angelina,Texas,48005,2168,62,1968,14,200,48
+2020-08-25,Angelina,Texas,48005,2168,63,1968,14,200,49
 2020-08-25,Aransas,Texas,48007,198,16,198,,,
-2020-08-25,Archer,Texas,48009,39,0,39,,,
-2020-08-25,Armstrong,Texas,48011,10,0,10,,,
-2020-08-25,Atascosa,Texas,48013,544,23,544,1,,22
+2020-08-25,Archer,Texas,48009,40,0,40,,,
+2020-08-25,Armstrong,Texas,48011,11,0,11,,,
+2020-08-25,Atascosa,Texas,48013,551,23,551,1,,22
 2020-08-25,Austin,Texas,48015,398,5,398,,,
-2020-08-25,Bailey,Texas,48017,196,4,196,,,
+2020-08-25,Bailey,Texas,48017,198,4,198,,,
 2020-08-25,Bandera,Texas,48019,106,3,106,,,
-2020-08-25,Bastrop,Texas,48021,1536,25,1536,2,,23
-2020-08-25,Baylor,Texas,48023,12,0,12,,,
-2020-08-25,Bee,Texas,48025,1473,18,1473,,,
-2020-08-25,Bell,Texas,48027,4534,55,4534,34,,21
-2020-08-25,Bexar,Texas,48029,45376,998,37072,725,8304,273
-2020-08-25,Blanco,Texas,48031,127,5,127,,,
-2020-08-25,Bosque,Texas,48035,197,5,197,,,
-2020-08-25,Bowie,Texas,48037,904,58,904,58,,
-2020-08-25,Brazoria,Texas,48039,8662,124,8662,62,,62
+2020-08-25,Bastrop,Texas,48021,1542,25,1542,2,,23
+2020-08-25,Baylor,Texas,48023,13,0,13,,,
+2020-08-25,Bee,Texas,48025,1489,20,1489,,,
+2020-08-25,Bell,Texas,48027,4636,58,4636,35,,23
+2020-08-25,Bexar,Texas,48029,45500,1007,37168,741,8332,266
+2020-08-25,Blanco,Texas,48031,122,5,122,,,
+2020-08-25,Bosque,Texas,48035,200,5,200,,,
+2020-08-25,Bowie,Texas,48037,923,62,923,62,,
+2020-08-25,Brazoria,Texas,48039,8824,127,8824,62,,65
 2020-08-25,Brazos,Texas,48041,4433,53,4433,53,,0
-2020-08-25,Brewster,Texas,48043,189,2,189,,,
+2020-08-25,Brewster,Texas,48043,188,2,188,,,
 2020-08-25,Briscoe,Texas,48045,12,1,12,,,
 2020-08-25,Brooks,Texas,48047,197,14,197,,,
 2020-08-25,Brown,Texas,48049,599,26,447,26,152,
 2020-08-25,Burleson,Texas,48051,275,6,275,,,
-2020-08-25,Burnet,Texas,48053,605,12,605,,,
-2020-08-25,Caldwell,Texas,48055,1210,31,1210,30,,1
-2020-08-25,Calhoun,Texas,48057,579,7,579,3,,4
-2020-08-25,Callahan,Texas,48059,57,3,57,1,,2
-2020-08-25,Cameron,Texas,48061,19862,657,19862,526,,131
-2020-08-25,Camp,Texas,48063,274,7,274,,,
+2020-08-25,Burnet,Texas,48053,630,12,630,,,
+2020-08-25,Caldwell,Texas,48055,1217,32,1217,30,,2
+2020-08-25,Calhoun,Texas,48057,586,7,586,3,,4
+2020-08-25,Callahan,Texas,48059,60,3,60,1,,2
+2020-08-25,Cameron,Texas,48061,19862,668,19862,526,,142
+2020-08-25,Camp,Texas,48063,280,7,280,,,
 2020-08-25,Carson,Texas,48065,17,0,17,,,
-2020-08-25,Cass,Texas,48067,227,9,227,9,,0
-2020-08-25,Castro,Texas,48069,214,4,214,1,,3
+2020-08-25,Cass,Texas,48067,229,9,229,9,,0
+2020-08-25,Castro,Texas,48069,219,4,219,1,,3
 2020-08-25,Chambers,Texas,48071,1123,11,1123,11,,
-2020-08-25,Cherokee,Texas,48073,1339,14,1339,2,,12
-2020-08-25,Childress,Texas,48075,52,0,52,,,
-2020-08-25,Clay,Texas,48077,59,1,59,,,
-2020-08-25,Cochran,Texas,48079,35,1,35,,,
-2020-08-25,Coke,Texas,48081,45,2,45,,,
-2020-08-25,Coleman,Texas,48083,44,2,44,,,
-2020-08-25,Collin,Texas,48085,10641,113,10641,113,,
+2020-08-25,Cherokee,Texas,48073,1353,14,1353,2,,12
+2020-08-25,Childress,Texas,48075,51,0,51,,,
+2020-08-25,Clay,Texas,48077,60,1,60,,,
+2020-08-25,Cochran,Texas,48079,36,1,36,,,
+2020-08-25,Coke,Texas,48081,48,3,48,,,
+2020-08-25,Coleman,Texas,48083,45,2,45,,,
+2020-08-25,Collin,Texas,48085,10474,105,10474,105,,0
 2020-08-25,Collingsworth,Texas,48087,15,0,15,,,
 2020-08-25,Colorado,Texas,48089,421,3,421,,,
-2020-08-25,Comal,Texas,48091,2889,93,2293,81,596,12
-2020-08-25,Comanche,Texas,48093,184,3,184,1,,2
-2020-08-25,Concho,Texas,48095,35,0,35,,,
-2020-08-25,Cooke,Texas,48097,288,4,288,,,
-2020-08-25,Coryell,Texas,48099,781,8,781,2,,6
+2020-08-25,Comal,Texas,48091,2889,94,2293,81,596,13
+2020-08-25,Comanche,Texas,48093,206,3,206,1,,2
+2020-08-25,Concho,Texas,48095,41,0,41,,,
+2020-08-25,Cooke,Texas,48097,298,4,298,,,
+2020-08-25,Coryell,Texas,48099,786,9,786,2,,7
 2020-08-25,Cottle,Texas,48101,18,2,18,1,,1
 2020-08-25,Crane,Texas,48103,70,2,70,,,
-2020-08-25,Crockett,Texas,48105,160,4,160,,,
-2020-08-25,Crosby,Texas,48107,75,1,75,1,,0
-2020-08-25,Culberson,Texas,48109,22,2,22,,,
-2020-08-25,Dallam,Texas,48111,202,6,202,,,
-2020-08-25,Dallas,Texas,48113,71662,883,69086,857,2576,26
-2020-08-25,Dawson,Texas,48115,187,8,187,1,,7
-2020-08-25,Deaf Smith,Texas,48117,897,19,897,19,,0
+2020-08-25,Crockett,Texas,48105,161,5,161,,,
+2020-08-25,Crosby,Texas,48107,80,1,80,1,,0
+2020-08-25,Culberson,Texas,48109,23,2,23,,,
+2020-08-25,Dallam,Texas,48111,204,6,204,,,
+2020-08-25,Dallas,Texas,48113,71662,899,69086,857,2576,42
+2020-08-25,Dawson,Texas,48115,189,8,189,1,,7
+2020-08-25,Deaf Smith,Texas,48117,915,19,915,19,,0
 2020-08-25,Delta,Texas,48119,18,0,18,,,
-2020-08-25,Denton,Texas,48121,9235,118,9235,93,,25
-2020-08-25,DeWitt,Texas,48123,782,24,782,1,,23
-2020-08-25,Dickens,Texas,48125,10,1,10,,,
-2020-08-25,Dimmit,Texas,48127,171,5,171,,,
+2020-08-25,Denton,Texas,48121,9406,119,9406,98,,21
+2020-08-25,DeWitt,Texas,48123,798,24,798,1,,23
+2020-08-25,Dickens,Texas,48125,13,1,13,,,
+2020-08-25,Dimmit,Texas,48127,174,5,174,,,
 2020-08-25,Donley,Texas,48129,52,1,52,,,
-2020-08-25,Duval,Texas,48131,229,8,229,,,
-2020-08-25,Eastland,Texas,48133,103,2,103,,,
-2020-08-25,Ector,Texas,48135,4057,66,2703,66,1354,
+2020-08-25,Duval,Texas,48131,230,9,230,,,
+2020-08-25,Eastland,Texas,48133,106,2,106,,,
+2020-08-25,Ector,Texas,48135,4120,66,2750,66,1370,
 2020-08-25,Edwards,Texas,48137,34,0,34,,,
-2020-08-25,Ellis,Texas,48139,3486,55,3486,12,,43
+2020-08-25,Ellis,Texas,48139,3562,55,3562,12,,43
 2020-08-25,El Paso,Texas,48141,19622,397,19622,397,,
-2020-08-25,Erath,Texas,48143,618,7,618,1,,6
-2020-08-25,Falls,Texas,48145,151,3,151,,,
-2020-08-25,Fannin,Texas,48147,388,10,388,2,,8
-2020-08-25,Fayette,Texas,48149,353,15,353,2,,13
-2020-08-25,Fisher,Texas,48151,48,1,48,1,,0
+2020-08-25,Erath,Texas,48143,633,8,633,1,,7
+2020-08-25,Falls,Texas,48145,156,3,156,,,
+2020-08-25,Fannin,Texas,48147,559,10,559,2,,8
+2020-08-25,Fayette,Texas,48149,354,15,354,2,,13
+2020-08-25,Fisher,Texas,48151,50,1,50,1,,0
 2020-08-25,Floyd,Texas,48153,98,7,98,,,
 2020-08-25,Foard,Texas,48155,3,0,3,,,
-2020-08-25,Fort Bend,Texas,48157,14640,216,14640,137,,79
+2020-08-25,Fort Bend,Texas,48157,14645,220,14645,138,,82
 2020-08-25,Franklin,Texas,48159,101,4,101,,,
-2020-08-25,Freestone,Texas,48161,372,0,372,,,
-2020-08-25,Frio,Texas,48163,613,7,613,,,
-2020-08-25,Gaines,Texas,48165,228,5,228,,,
-2020-08-25,Galveston,Texas,48167,10400,132,10400,32,,100
+2020-08-25,Freestone,Texas,48161,374,0,374,,,
+2020-08-25,Frio,Texas,48163,622,7,622,,,
+2020-08-25,Gaines,Texas,48165,236,5,236,,,
+2020-08-25,Galveston,Texas,48167,10430,135,10430,32,,103
 2020-08-25,Garza,Texas,48169,102,3,102,,,
-2020-08-25,Gillespie,Texas,48171,193,6,193,,,
+2020-08-25,Gillespie,Texas,48171,196,6,196,,,
 2020-08-25,Glasscock,Texas,48173,6,0,6,,,
 2020-08-25,Goliad,Texas,48175,121,6,121,,,
-2020-08-25,Gonzales,Texas,48177,783,12,783,2,,10
-2020-08-25,Gray,Texas,48179,239,3,239,2,,1
-2020-08-25,Grayson,Texas,48181,1383,18,1383,2,,16
-2020-08-25,Gregg,Texas,48183,1897,43,1897,36,,7
-2020-08-25,Grimes,Texas,48185,979,29,979,1,,28
-2020-08-25,Guadalupe,Texas,48187,1858,66,1858,,,
+2020-08-25,Gonzales,Texas,48177,795,12,795,2,,10
+2020-08-25,Gray,Texas,48179,241,3,241,2,,1
+2020-08-25,Grayson,Texas,48181,1391,20,1391,2,,18
+2020-08-25,Gregg,Texas,48183,1922,43,1922,36,,7
+2020-08-25,Grimes,Texas,48185,977,29,977,1,,28
+2020-08-25,Guadalupe,Texas,48187,1871,67,1871,,,
 2020-08-25,Hale,Texas,48189,1554,40,1554,36,,4
 2020-08-25,Hall,Texas,48191,16,1,16,,,
-2020-08-25,Hamilton,Texas,48193,96,3,96,1,,2
-2020-08-25,Hansford,Texas,48195,99,3,99,2,,1
+2020-08-25,Hamilton,Texas,48193,97,3,97,1,,2
+2020-08-25,Hansford,Texas,48195,100,3,100,2,,1
 2020-08-25,Hardeman,Texas,48197,22,0,22,0,,0
-2020-08-25,Hardin,Texas,48199,1217,18,1217,5,,13
-2020-08-25,Harris,Texas,48201,99290,2030,99290,1212,,818
-2020-08-25,Harrison,Texas,48203,777,35,777,35,,
+2020-08-25,Hardin,Texas,48199,1233,19,1233,5,,14
+2020-08-25,Harris,Texas,48201,100171,2072,100171,1228,,844
+2020-08-25,Harrison,Texas,48203,779,35,779,35,,
 2020-08-25,Hartley,Texas,48205,99,2,99,2,,
-2020-08-25,Haskell,Texas,48207,50,1,50,,,
-2020-08-25,Hays,Texas,48209,5297,53,5297,45,,8
-2020-08-25,Hemphill,Texas,48211,47,0,47,,,
-2020-08-25,Henderson,Texas,48213,755,15,755,0,,15
-2020-08-25,Hidalgo,Texas,48215,25109,1101,25109,1101,,
-2020-08-25,Hill,Texas,48217,345,8,345,1,,7
-2020-08-25,Hockley,Texas,48219,242,5,242,1,,4
-2020-08-25,Hood,Texas,48221,703,21,703,3,,18
-2020-08-25,Hopkins,Texas,48223,234,4,234,,,
-2020-08-25,Houston,Texas,48225,327,8,327,,,
-2020-08-25,Howard,Texas,48227,253,8,253,1,,7
-2020-08-25,Hudspeth,Texas,48229,36,2,36,,,
-2020-08-25,Hunt,Texas,48231,1363,25,1363,3,,22
-2020-08-25,Hutchinson,Texas,48233,139,3,139,,,
+2020-08-25,Haskell,Texas,48207,51,1,51,,,
+2020-08-25,Hays,Texas,48209,5308,53,5308,45,,8
+2020-08-25,Hemphill,Texas,48211,53,0,53,,,
+2020-08-25,Henderson,Texas,48213,765,16,765,0,,16
+2020-08-25,Hidalgo,Texas,48215,25169,1101,25169,1101,,
+2020-08-25,Hill,Texas,48217,346,8,346,1,,7
+2020-08-25,Hockley,Texas,48219,246,5,246,1,,4
+2020-08-25,Hood,Texas,48221,725,21,725,3,,18
+2020-08-25,Hopkins,Texas,48223,236,5,236,,,
+2020-08-25,Houston,Texas,48225,526,8,526,,,
+2020-08-25,Howard,Texas,48227,258,8,258,1,,7
+2020-08-25,Hudspeth,Texas,48229,37,2,37,,,
+2020-08-25,Hunt,Texas,48231,1385,25,1385,3,,22
+2020-08-25,Hutchinson,Texas,48233,142,3,142,,,
 2020-08-25,Irion,Texas,48235,9,0,9,,,
-2020-08-25,Jack,Texas,48237,116,0,116,,,
-2020-08-25,Jackson,Texas,48239,477,13,477,1,,12
+2020-08-25,Jack,Texas,48237,120,0,120,,,
+2020-08-25,Jackson,Texas,48239,486,13,486,1,,12
 2020-08-25,Jasper,Texas,48241,393,17,393,2,,15
 2020-08-25,Jeff Davis,Texas,48243,8,0,8,,,
-2020-08-25,Jefferson,Texas,48245,6499,103,6499,30,,73
+2020-08-25,Jefferson,Texas,48245,6559,104,6559,30,,74
 2020-08-25,Jim Hogg,Texas,48247,73,2,73,,,
-2020-08-25,Jim Wells,Texas,48249,942,23,942,,,
-2020-08-25,Johnson,Texas,48251,2393,40,2393,9,,31
-2020-08-25,Jones,Texas,48253,601,0,601,,,
-2020-08-25,Karnes,Texas,48255,720,10,720,,,
-2020-08-25,Kaufman,Texas,48257,2656,32,2656,2,,30
-2020-08-25,Kendall,Texas,48259,193,4,193,,,
+2020-08-25,Jim Wells,Texas,48249,943,23,943,,,
+2020-08-25,Johnson,Texas,48251,2427,42,2427,9,,33
+2020-08-25,Jones,Texas,48253,604,0,604,,,
+2020-08-25,Karnes,Texas,48255,730,10,730,,,
+2020-08-25,Kaufman,Texas,48257,2685,33,2685,2,,31
+2020-08-25,Kendall,Texas,48259,198,4,198,,,
 2020-08-25,Kenedy,Texas,48261,7,1,7,,,
-2020-08-25,Kent,Texas,48263,6,0,6,,,
-2020-08-25,Kerr,Texas,48265,426,9,426,,,
+2020-08-25,Kent,Texas,48263,7,0,7,,,
+2020-08-25,Kerr,Texas,48265,430,9,430,,,
 2020-08-25,Kimble,Texas,48267,16,1,16,,,
 2020-08-25,Kinney,Texas,48271,22,1,22,,,
-2020-08-25,Kleberg,Texas,48273,563,21,563,1,,20
+2020-08-25,Kleberg,Texas,48273,567,21,567,1,,20
 2020-08-25,Knox,Texas,48275,64,8,64,,,
-2020-08-25,Lamar,Texas,48277,791,21,791,9,,12
-2020-08-25,Lamb,Texas,48279,263,19,263,,,
-2020-08-25,Lampasas,Texas,48281,141,5,141,,,
-2020-08-25,La Salle,Texas,48283,367,2,367,,,
-2020-08-25,Lavaca,Texas,48285,661,28,661,1,,27
-2020-08-25,Lee,Texas,48287,188,13,188,,,
+2020-08-25,Lamar,Texas,48277,791,24,791,9,,15
+2020-08-25,Lamb,Texas,48279,267,19,267,,,
+2020-08-25,Lampasas,Texas,48281,143,5,143,,,
+2020-08-25,La Salle,Texas,48283,365,2,365,,,
+2020-08-25,Lavaca,Texas,48285,665,28,665,1,,27
+2020-08-25,Lee,Texas,48287,191,13,191,,,
 2020-08-25,Leon,Texas,48289,167,4,167,,,
-2020-08-25,Liberty,Texas,48291,1376,39,1376,3,,36
-2020-08-25,Limestone,Texas,48293,381,5,381,1,,4
+2020-08-25,Liberty,Texas,48291,1602,41,1602,3,,38
+2020-08-25,Limestone,Texas,48293,389,5,389,1,,4
 2020-08-25,Lipscomb,Texas,48295,23,0,23,,,
 2020-08-25,Live Oak,Texas,48297,282,5,282,,,
-2020-08-25,Llano,Texas,48299,99,1,99,,,
-2020-08-25,Lubbock,Texas,48303,6918,94,6885,94,33,
+2020-08-25,Llano,Texas,48299,100,1,100,,,
+2020-08-25,Lubbock,Texas,48303,6975,94,6918,94,57,
 2020-08-25,Lynn,Texas,48305,76,4,76,1,,3
-2020-08-25,Madison,Texas,48313,690,3,690,,,
+2020-08-25,Madison,Texas,48313,779,4,779,,,
 2020-08-25,Marion,Texas,48315,139,10,139,,,
 2020-08-25,Martin,Texas,48317,70,5,70,1,,4
-2020-08-25,Mason,Texas,48319,64,0,64,,,
+2020-08-25,Mason,Texas,48319,67,0,67,,,
 2020-08-25,Matagorda,Texas,48321,887,38,887,5,,33
-2020-08-25,Maverick,Texas,48323,3117,67,3117,1,,66
-2020-08-25,McCulloch,Texas,48307,74,1,74,,,
-2020-08-25,McLennan,Texas,48309,5796,80,5796,80,,
+2020-08-25,Maverick,Texas,48323,3168,67,3168,1,,66
+2020-08-25,McCulloch,Texas,48307,75,1,75,,,
+2020-08-25,McLennan,Texas,48309,5907,81,5907,81,,
 2020-08-25,McMullen,Texas,48311,11,0,11,,,
-2020-08-25,Medina,Texas,48325,1070,34,1070,2,,32
+2020-08-25,Medina,Texas,48325,1073,34,1073,2,,32
 2020-08-25,Menard,Texas,48327,20,0,20,,,
 2020-08-25,Midland,Texas,48329,3094,64,3094,64,,
-2020-08-25,Milam,Texas,48331,400,4,400,1,,3
+2020-08-25,Milam,Texas,48331,402,4,402,1,,3
 2020-08-25,Mills,Texas,48333,31,0,31,,,
-2020-08-25,Mitchell,Texas,48335,72,1,72,,,
-2020-08-25,Montague,Texas,48337,109,3,109,1,,2
-2020-08-25,Montgomery,Texas,48339,8122,113,8122,100,,13
-2020-08-25,Moore,Texas,48341,1103,17,1103,13,,4
-2020-08-25,Morris,Texas,48343,141,3,141,,,
+2020-08-25,Mitchell,Texas,48335,73,1,73,,,
+2020-08-25,Montague,Texas,48337,110,3,110,1,,2
+2020-08-25,Montgomery,Texas,48339,8268,115,8268,105,,10
+2020-08-25,Moore,Texas,48341,1109,18,1109,13,,5
+2020-08-25,Morris,Texas,48343,142,3,142,,,
 2020-08-25,Motley,Texas,48345,6,0,6,,,
-2020-08-25,Nacogdoches,Texas,48347,1279,45,1279,17,,28
-2020-08-25,Navarro,Texas,48349,1252,20,1037,20,215,
+2020-08-25,Nacogdoches,Texas,48347,1292,45,1292,17,,28
+2020-08-25,Navarro,Texas,48349,1269,21,1048,21,221,
 2020-08-25,Newton,Texas,48351,162,6,162,,,
-2020-08-25,Nolan,Texas,48353,145,4,145,,,
-2020-08-25,Nueces,Texas,48355,18181,316,14584,316,3597,
-2020-08-25,Ochiltree,Texas,48357,102,3,102,2,,1
+2020-08-25,Nolan,Texas,48353,147,4,147,,,
+2020-08-25,Nueces,Texas,48355,18349,327,14721,327,3628,
+2020-08-25,Ochiltree,Texas,48357,103,3,103,2,,1
 2020-08-25,Oldham,Texas,48359,14,1,14,1,,0
-2020-08-25,Orange,Texas,48361,1736,33,1736,2,,31
-2020-08-25,Palo Pinto,Texas,48363,405,10,405,2,,8
-2020-08-25,Panola,Texas,48365,302,20,302,,,
-2020-08-25,Parker,Texas,48367,1580,23,1580,1,,22
-2020-08-25,Parmer,Texas,48369,372,7,372,,,
-2020-08-25,Pecos,Texas,48371,272,2,272,,,
-2020-08-25,Polk,Texas,48373,843,15,774,15,69,0
-2020-08-25,Potter,Texas,48375,3943,51,3943,51,,
+2020-08-25,Orange,Texas,48361,1744,34,1744,2,,32
+2020-08-25,Palo Pinto,Texas,48363,412,10,412,2,,8
+2020-08-25,Panola,Texas,48365,305,20,305,,,
+2020-08-25,Parker,Texas,48367,1607,23,1607,1,,22
+2020-08-25,Parmer,Texas,48369,379,7,379,,,
+2020-08-25,Pecos,Texas,48371,284,3,284,,,
+2020-08-25,Polk,Texas,48373,843,16,774,15,69,1
+2020-08-25,Potter,Texas,48375,3966,51,3966,51,,
 2020-08-25,Presidio,Texas,48377,49,4,49,,,
-2020-08-25,Rains,Texas,48379,55,1,55,,,
-2020-08-25,Randall,Texas,48381,2077,32,2077,32,,
+2020-08-25,Rains,Texas,48379,58,1,58,,,
+2020-08-25,Randall,Texas,48381,2102,33,2102,33,,
 2020-08-25,Reagan,Texas,48383,77,5,77,,,
-2020-08-25,Real,Texas,48385,99,5,99,,,
-2020-08-25,Red River,Texas,48387,143,13,143,4,,9
-2020-08-25,Reeves,Texas,48389,161,5,161,,,
-2020-08-25,Refugio,Texas,48391,251,9,251,,,
-2020-08-25,Roberts,Texas,48393,6,0,6,,,
-2020-08-25,Robertson,Texas,48395,244,3,244,,,
-2020-08-25,Rockwall,Texas,48397,1274,21,1274,18,,3
-2020-08-25,Runnels,Texas,48399,177,3,177,,,
-2020-08-25,Rusk,Texas,48401,446,3,446,2,,1
+2020-08-25,Real,Texas,48385,100,5,100,,,
+2020-08-25,Red River,Texas,48387,144,14,144,4,,10
+2020-08-25,Reeves,Texas,48389,167,5,167,,,
+2020-08-25,Refugio,Texas,48391,251,10,251,,,
+2020-08-25,Roberts,Texas,48393,8,0,8,,,
+2020-08-25,Robertson,Texas,48395,246,3,246,,,
+2020-08-25,Rockwall,Texas,48397,1290,26,1290,26,,
+2020-08-25,Runnels,Texas,48399,183,3,183,,,
+2020-08-25,Rusk,Texas,48401,556,4,556,2,,2
 2020-08-25,Sabine,Texas,48403,72,6,72,,,
 2020-08-25,San Augustine,Texas,48405,205,12,186,12,19,0
-2020-08-25,San Jacinto,Texas,48407,193,8,193,,,
-2020-08-25,San Patricio,Texas,48409,1202,52,1202,,,
+2020-08-25,San Jacinto,Texas,48407,197,8,197,,,
+2020-08-25,San Patricio,Texas,48409,1208,52,1208,,,
 2020-08-25,San Saba,Texas,48411,33,0,33,,,
-2020-08-25,Schleicher,Texas,48413,36,1,36,,,
-2020-08-25,Scurry,Texas,48415,515,2,515,,,
-2020-08-25,Shackelford,Texas,48417,20,0,20,,,
-2020-08-25,Shelby,Texas,48419,426,19,426,6,,13
-2020-08-25,Sherman,Texas,48421,50,0,50,,,
-2020-08-25,Smith,Texas,48423,3451,52,3045,43,406,9
-2020-08-25,Somervell,Texas,48425,113,2,113,,,
-2020-08-25,Starr,Texas,48427,3041,117,3041,117,,0
-2020-08-25,Stephens,Texas,48429,111,3,111,,,
+2020-08-25,Schleicher,Texas,48413,38,1,38,,,
+2020-08-25,Scurry,Texas,48415,532,2,532,,,
+2020-08-25,Shackelford,Texas,48417,21,0,21,,,
+2020-08-25,Shelby,Texas,48419,428,19,428,6,,13
+2020-08-25,Sherman,Texas,48421,49,0,49,,,
+2020-08-25,Smith,Texas,48423,3562,53,3137,45,425,8
+2020-08-25,Somervell,Texas,48425,114,2,114,,,
+2020-08-25,Starr,Texas,48427,3041,118,3041,117,,1
+2020-08-25,Stephens,Texas,48429,114,3,114,,,
 2020-08-25,Sterling,Texas,48431,1,0,1,,,
-2020-08-25,Stonewall,Texas,48433,7,1,7,,,
+2020-08-25,Stonewall,Texas,48433,8,1,8,,,
 2020-08-25,Sutton,Texas,48435,76,2,76,,,
-2020-08-25,Swisher,Texas,48437,88,3,88,,,
-2020-08-25,Tarrant,Texas,48439,39920,564,37924,515,1996,49
-2020-08-25,Taylor,Texas,48441,2368,32,1343,29,1025,3
+2020-08-25,Swisher,Texas,48437,91,3,91,,,
+2020-08-25,Tarrant,Texas,48439,40331,570,38283,519,2048,51
+2020-08-25,Taylor,Texas,48441,2387,33,1348,29,1039,4
 2020-08-25,Terrell,Texas,48443,3,0,3,,,
-2020-08-25,Terry,Texas,48445,188,3,188,,,
+2020-08-25,Terry,Texas,48445,191,3,191,,,
 2020-08-25,Throckmorton,Texas,48447,4,2,4,,,
-2020-08-25,Titus,Texas,48449,1446,19,1446,14,,5
-2020-08-25,Tom Green,Texas,48451,3094,43,2131,16,963,27
-2020-08-25,Travis,Texas,48453,25890,362,25890,362,,
-2020-08-25,Trinity,Texas,48455,169,4,169,,,
+2020-08-25,Titus,Texas,48449,1446,20,1446,14,,6
+2020-08-25,Tom Green,Texas,48451,3110,43,2131,16,979,27
+2020-08-25,Travis,Texas,48453,26017,366,26017,366,,
+2020-08-25,Trinity,Texas,48455,172,4,172,,,
 2020-08-25,Tyler,Texas,48457,175,3,175,,,
-2020-08-25,Upshur,Texas,48459,312,5,312,,,
+2020-08-25,Upshur,Texas,48459,316,5,316,,,
 2020-08-25,Upton,Texas,48461,18,1,18,,,
-2020-08-25,Uvalde,Texas,48463,654,16,654,,,
+2020-08-25,Uvalde,Texas,48463,660,16,660,,,
 2020-08-25,Val Verde,Texas,48465,1881,86,1881,86,,
-2020-08-25,Van Zandt,Texas,48467,488,12,488,1,,11
-2020-08-25,Victoria,Texas,48469,3738,71,3738,65,,6
-2020-08-25,Walker,Texas,48471,3340,46,3340,27,,19
+2020-08-25,Van Zandt,Texas,48467,499,12,499,1,,11
+2020-08-25,Victoria,Texas,48469,3749,71,3749,65,,6
+2020-08-25,Walker,Texas,48471,3344,46,3344,27,,19
 2020-08-25,Waller,Texas,48473,635,5,635,,,
-2020-08-25,Ward,Texas,48475,102,1,102,,,
-2020-08-25,Washington,Texas,48477,560,43,560,34,,9
-2020-08-25,Webb,Texas,48479,10164,227,10164,227,,
-2020-08-25,Wharton,Texas,48481,1152,39,1152,,,
-2020-08-25,Wheeler,Texas,48483,40,0,40,,,
-2020-08-25,Wichita,Texas,48485,1227,14,1227,2,,12
+2020-08-25,Ward,Texas,48475,103,1,103,,,
+2020-08-25,Washington,Texas,48477,561,44,561,34,,10
+2020-08-25,Webb,Texas,48479,10345,229,10345,229,,
+2020-08-25,Wharton,Texas,48481,1156,40,1156,,,
+2020-08-25,Wheeler,Texas,48483,41,0,41,,,
+2020-08-25,Wichita,Texas,48485,1242,14,1242,2,,12
 2020-08-25,Wilbarger,Texas,48487,95,2,95,,,
-2020-08-25,Willacy,Texas,48489,817,40,817,1,,39
-2020-08-25,Williamson,Texas,48491,7927,114,7747,113,180,1
-2020-08-25,Wilson,Texas,48493,524,24,524,5,,19
+2020-08-25,Willacy,Texas,48489,818,41,818,1,,40
+2020-08-25,Williamson,Texas,48491,7927,115,7747,113,180,2
+2020-08-25,Wilson,Texas,48493,530,24,530,5,,19
 2020-08-25,Winkler,Texas,48495,88,1,88,,,
-2020-08-25,Wise,Texas,48497,604,11,604,3,,8
-2020-08-25,Wood,Texas,48499,378,13,378,1,,12
-2020-08-25,Yoakum,Texas,48501,139,4,139,,,
-2020-08-25,Young,Texas,48503,209,6,209,1,,5
-2020-08-25,Zapata,Texas,48505,242,3,242,,,
-2020-08-25,Zavala,Texas,48507,283,9,283,9,,
+2020-08-25,Wise,Texas,48497,620,11,620,3,,8
+2020-08-25,Wood,Texas,48499,386,13,386,1,,12
+2020-08-25,Yoakum,Texas,48501,142,4,142,,,
+2020-08-25,Young,Texas,48503,211,6,211,1,,5
+2020-08-25,Zapata,Texas,48505,247,3,247,,,
+2020-08-25,Zavala,Texas,48507,287,9,287,9,,
 2020-08-25,Beaver,Utah,49001,31,0,31,0,,
-2020-08-25,Box Elder,Utah,49003,431,3,431,3,,
-2020-08-25,Cache,Utah,49005,2046,6,2046,6,,
+2020-08-25,Box Elder,Utah,49003,434,3,434,3,,
+2020-08-25,Cache,Utah,49005,2054,6,2054,6,,
 2020-08-25,Carbon,Utah,49007,72,0,72,0,,
-2020-08-25,Davis,Utah,49011,3625,22,,,,
+2020-08-25,Davis,Utah,49011,3670,22,,,,
 2020-08-25,Duchesne,Utah,49013,92,0,92,,,
 2020-08-25,Emery,Utah,49015,16,0,16,0,,
 2020-08-25,Garfield,Utah,49017,49,2,49,2,,0
 2020-08-25,Grand,Utah,49019,54,1,54,1,,
-2020-08-25,Iron,Utah,49021,606,2,606,2,,0
+2020-08-25,Iron,Utah,49021,608,2,608,2,,0
 2020-08-25,Juab,Utah,49023,92,1,92,1,,
 2020-08-25,Kane,Utah,49025,62,1,62,1,,0
 2020-08-25,Millard,Utah,49027,140,0,140,0,,
-2020-08-25,Morgan,Utah,49029,54,0,,,,
+2020-08-25,Morgan,Utah,49029,56,0,,,,
 2020-08-25,Piute,Utah,49031,6,0,6,0,,
 2020-08-25,Rich,Utah,49033,11,0,11,0,,
-2020-08-25,Salt Lake,Utah,49035,22958,225,22958,225,,0
+2020-08-25,Salt Lake,Utah,49035,23122,227,23122,226,,1
 2020-08-25,San Juan,Utah,49037,662,28,,,,
 2020-08-25,Sanpete,Utah,49039,156,1,156,1,,
 2020-08-25,Sevier,Utah,49041,89,1,89,1,,
-2020-08-25,Summit,Utah,49043,815,1,,,,
-2020-08-25,Tooele,Utah,49045,644,0,,,,
+2020-08-25,Summit,Utah,49043,821,1,,,,
+2020-08-25,Tooele,Utah,49045,648,0,,,,
 2020-08-25,Uintah,Utah,49047,92,0,92,,,
-2020-08-25,Unknown,Utah,,16,0,16,,0,
-2020-08-25,Utah,Utah,49049,10187,43,,,,
-2020-08-25,Wasatch,Utah,49051,615,5,,,,
-2020-08-25,Washington,Utah,49053,2715,21,2715,21,,0
+2020-08-25,Unknown,Utah,,17,1,17,1,0,0
+2020-08-25,Utah,Utah,49049,10316,45,,,,
+2020-08-25,Wasatch,Utah,49051,621,5,,,,
+2020-08-25,Washington,Utah,49053,2735,22,2735,22,,0
 2020-08-25,Wayne,Utah,49055,2,0,2,0,,
-2020-08-25,Weber,Utah,49057,3113,28,,,,
+2020-08-25,Weber,Utah,49057,3140,29,,,,
 2020-08-25,Addison,Vermont,50001,77,2,77,2,,
 2020-08-25,Bennington,Vermont,50003,96,1,96,1,,
 2020-08-25,Caledonia,Vermont,50005,30,0,30,0,,
@@ -3035,46 +3036,46 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-08-25,St. Croix,Virgin Islands,78010,394,5,394,5,,
 2020-08-25,St. John,Virgin Islands,78020,32,0,32,,,
 2020-08-25,St. Thomas,Virgin Islands,78030,572,7,572,7,,
-2020-08-25,Adams,Washington,53001,552,6,552,6,,
+2020-08-25,Adams,Washington,53001,568,6,568,6,,
 2020-08-25,Asotin,Washington,53003,49,2,49,2,,
-2020-08-25,Benton,Washington,53005,4171,125,4001,122,170,3
+2020-08-25,Benton,Washington,53005,4191,125,4023,122,168,3
 2020-08-25,Chelan,Washington,53007,1688,13,1687,12,1,1
-2020-08-25,Clallam,Washington,53009,196,1,196,1,,
-2020-08-25,Clark,Washington,53011,2437,54,2435,52,2,2
+2020-08-25,Clallam,Washington,53009,198,1,198,1,,
+2020-08-25,Clark,Washington,53011,2457,55,2455,53,2,2
 2020-08-25,Columbia,Washington,53013,13,1,13,1,,
-2020-08-25,Cowlitz,Washington,53015,520,6,520,6,,
-2020-08-25,Douglas,Washington,53017,1119,8,1118,7,1,1
+2020-08-25,Cowlitz,Washington,53015,524,6,524,6,,
+2020-08-25,Douglas,Washington,53017,1120,8,1119,7,1,1
 2020-08-25,Ferry,Washington,53019,24,0,24,0,,
-2020-08-25,Franklin,Washington,53021,3980,56,3843,55,137,1
+2020-08-25,Franklin,Washington,53021,3987,56,3851,55,136,1
 2020-08-25,Garfield,Washington,53023,4,0,4,0,,
 2020-08-25,Grant,Washington,53025,2170,14,2136,14,34,
 2020-08-25,Grays Harbor,Washington,53027,215,5,215,5,,
-2020-08-25,Island,Washington,53029,268,15,265,12,3,3
-2020-08-25,Jefferson,Washington,53031,69,0,69,0,,
-2020-08-25,King,Washington,53033,18843,735,18826,718,17,17
-2020-08-25,Kitsap,Washington,53035,938,9,937,8,1,1
+2020-08-25,Island,Washington,53029,270,15,267,12,3,3
+2020-08-25,Jefferson,Washington,53031,70,0,70,0,,
+2020-08-25,King,Washington,53033,18896,734,18879,717,17,17
+2020-08-25,Kitsap,Washington,53035,939,9,938,8,1,1
 2020-08-25,Kittitas,Washington,53037,448,21,448,21,,
 2020-08-25,Klickitat,Washington,53039,166,3,166,3,,
-2020-08-25,Lewis,Washington,53041,308,4,308,4,,
+2020-08-25,Lewis,Washington,53041,315,4,315,4,,
 2020-08-25,Lincoln,Washington,53043,31,1,31,1,,
-2020-08-25,Mason,Washington,53045,292,1,292,1,,
-2020-08-25,Okanogan,Washington,53047,971,9,971,9,,
-2020-08-25,Pacific,Washington,53049,60,2,60,2,,
+2020-08-25,Mason,Washington,53045,295,1,295,1,,
+2020-08-25,Okanogan,Washington,53047,970,9,970,9,,
+2020-08-25,Pacific,Washington,53049,60,3,60,3,,
 2020-08-25,Pend Oreille,Washington,53051,53,0,53,0,,
-2020-08-25,Pierce,Washington,53053,7222,173,6570,173,652,
+2020-08-25,Pierce,Washington,53053,7265,176,6591,176,674,
 2020-08-25,San Juan,Washington,53055,30,0,30,0,,
-2020-08-25,Skagit,Washington,53057,984,24,983,23,1,1
+2020-08-25,Skagit,Washington,53057,986,24,985,23,1,1
 2020-08-25,Skamania,Washington,53059,58,1,58,1,,
-2020-08-25,Snohomish,Washington,53061,6833,218,6024,206,809,12
-2020-08-25,Spokane,Washington,53063,5051,127,5048,124,3,3
+2020-08-25,Snohomish,Washington,53061,6858,218,6049,206,809,12
+2020-08-25,Spokane,Washington,53063,5080,130,5077,127,3,3
 2020-08-25,Stevens,Washington,53065,123,1,123,1,,
-2020-08-25,Thurston,Washington,53067,937,13,936,12,1,1
+2020-08-25,Thurston,Washington,53067,946,13,945,12,1,1
 2020-08-25,Unknown,Washington,,2,2,0,0,2,2
 2020-08-25,Wahkiakum,Washington,53069,6,0,6,0,,
-2020-08-25,Walla Walla,Washington,53071,711,5,710,4,1,1
+2020-08-25,Walla Walla,Washington,53071,719,5,718,4,1,1
 2020-08-25,Whatcom,Washington,53073,1067,50,1057,40,10,10
 2020-08-25,Whitman,Washington,53075,262,1,261,0,1,1
-2020-08-25,Yakima,Washington,53077,11490,248,11477,235,13,13
+2020-08-25,Yakima,Washington,53077,11503,250,11490,237,13,13
 2020-08-25,Barbour,West Virginia,54001,33,1,33,1,0,0
 2020-08-25,Berkeley,West Virginia,54003,769,11,740,11,29,0
 2020-08-25,Boone,West Virginia,54005,130,0,130,0,0,0
@@ -3130,99 +3131,99 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-08-25,Wirt,West Virginia,54105,7,0,7,0,0,0
 2020-08-25,Wood,West Virginia,54107,292,5,273,5,19,0
 2020-08-25,Wyoming,West Virginia,54109,51,3,51,3,0,0
-2020-08-25,Adams,Wisconsin,55001,99,2,99,2,,
-2020-08-25,Ashland,Wisconsin,55003,31,1,31,1,,
-2020-08-25,Barron,Wisconsin,55005,358,3,358,3,,
-2020-08-25,Bayfield,Wisconsin,55007,41,1,41,1,,
-2020-08-25,Brown,Wisconsin,55009,4969,57,4969,57,,
-2020-08-25,Buffalo,Wisconsin,55011,54,2,54,2,,
+2020-08-25,Adams,Wisconsin,55001,102,3,102,3,,
+2020-08-25,Ashland,Wisconsin,55003,33,1,33,1,,
+2020-08-25,Barron,Wisconsin,55005,359,3,359,3,,
+2020-08-25,Bayfield,Wisconsin,55007,42,1,42,1,,
+2020-08-25,Brown,Wisconsin,55009,5074,57,5074,57,,
+2020-08-25,Buffalo,Wisconsin,55011,56,2,56,2,,
 2020-08-25,Burnett,Wisconsin,55013,33,1,33,1,,
-2020-08-25,Calumet,Wisconsin,55015,450,2,450,2,,
-2020-08-25,Chippewa,Wisconsin,55017,302,0,302,0,,
+2020-08-25,Calumet,Wisconsin,55015,452,2,452,2,,
+2020-08-25,Chippewa,Wisconsin,55017,304,0,304,0,,
 2020-08-25,Clark,Wisconsin,55019,230,8,230,8,,
-2020-08-25,Columbia,Wisconsin,55021,326,2,326,2,,
-2020-08-25,Crawford,Wisconsin,55023,96,0,96,0,,
-2020-08-25,Dane,Wisconsin,55025,5158,39,5158,39,,
-2020-08-25,Dodge,Wisconsin,55027,1034,5,1034,5,,
-2020-08-25,Door,Wisconsin,55029,126,3,126,3,,
-2020-08-25,Douglas,Wisconsin,55031,241,0,241,0,,
+2020-08-25,Columbia,Wisconsin,55021,329,2,329,2,,
+2020-08-25,Crawford,Wisconsin,55023,98,0,98,0,,
+2020-08-25,Dane,Wisconsin,55025,5161,39,5161,39,,
+2020-08-25,Dodge,Wisconsin,55027,1046,5,1046,5,,
+2020-08-25,Door,Wisconsin,55029,127,3,127,3,,
+2020-08-25,Douglas,Wisconsin,55031,242,0,242,0,,
 2020-08-25,Dunn,Wisconsin,55033,155,0,155,0,,
-2020-08-25,Eau Claire,Wisconsin,55035,728,6,728,6,,
+2020-08-25,Eau Claire,Wisconsin,55035,737,6,737,6,,
 2020-08-25,Florence,Wisconsin,55037,22,0,22,0,,
-2020-08-25,Fond du Lac,Wisconsin,55039,974,9,974,9,,
-2020-08-25,Forest,Wisconsin,55041,65,4,65,4,,
-2020-08-25,Grant,Wisconsin,55043,421,16,421,16,,
-2020-08-25,Green,Wisconsin,55045,250,1,250,1,,
-2020-08-25,Green Lake,Wisconsin,55047,83,0,83,0,,
-2020-08-25,Iowa,Wisconsin,55049,110,0,110,0,,
-2020-08-25,Iron,Wisconsin,55051,110,1,110,1,,
+2020-08-25,Fond du Lac,Wisconsin,55039,993,10,993,10,,
+2020-08-25,Forest,Wisconsin,55041,66,4,66,4,,
+2020-08-25,Grant,Wisconsin,55043,423,16,423,16,,
+2020-08-25,Green,Wisconsin,55045,255,1,255,1,,
+2020-08-25,Green Lake,Wisconsin,55047,87,0,87,0,,
+2020-08-25,Iowa,Wisconsin,55049,111,0,111,0,,
+2020-08-25,Iron,Wisconsin,55051,111,1,111,1,,
 2020-08-25,Jackson,Wisconsin,55053,71,1,71,1,,
-2020-08-25,Jefferson,Wisconsin,55055,824,6,824,6,,
-2020-08-25,Juneau,Wisconsin,55057,173,1,173,1,,
+2020-08-25,Jefferson,Wisconsin,55055,829,6,829,6,,
+2020-08-25,Juneau,Wisconsin,55057,177,1,177,1,,
 2020-08-25,Kenosha,Wisconsin,55059,2899,61,2899,61,,
-2020-08-25,Kewaunee,Wisconsin,55061,156,2,156,2,,
-2020-08-25,La Crosse,Wisconsin,55063,1047,1,1047,1,,
-2020-08-25,Lafayette,Wisconsin,55065,182,0,182,0,,
-2020-08-25,Langlade,Wisconsin,55067,76,2,76,2,,
+2020-08-25,Kewaunee,Wisconsin,55061,155,2,155,2,,
+2020-08-25,La Crosse,Wisconsin,55063,1060,1,1060,1,,
+2020-08-25,Lafayette,Wisconsin,55065,184,0,184,0,,
+2020-08-25,Langlade,Wisconsin,55067,77,2,77,2,,
 2020-08-25,Lincoln,Wisconsin,55069,76,1,76,1,,
-2020-08-25,Manitowoc,Wisconsin,55071,457,1,457,1,,
-2020-08-25,Marathon,Wisconsin,55073,733,13,733,13,,
-2020-08-25,Marinette,Wisconsin,55075,565,6,565,6,,
-2020-08-25,Marquette,Wisconsin,55077,82,1,82,1,,
+2020-08-25,Manitowoc,Wisconsin,55071,468,1,468,1,,
+2020-08-25,Marathon,Wisconsin,55073,738,13,738,13,,
+2020-08-25,Marinette,Wisconsin,55075,570,6,570,6,,
+2020-08-25,Marquette,Wisconsin,55077,83,1,83,1,,
 2020-08-25,Menominee,Wisconsin,55078,28,0,28,0,,
-2020-08-25,Milwaukee,Wisconsin,55079,23281,479,23281,479,,
-2020-08-25,Monroe,Wisconsin,55081,266,2,266,2,,
-2020-08-25,Oconto,Wisconsin,55083,372,1,372,1,,
-2020-08-25,Oneida,Wisconsin,55085,193,0,193,0,,
-2020-08-25,Outagamie,Wisconsin,55087,1576,17,1576,17,,
-2020-08-25,Ozaukee,Wisconsin,55089,882,19,882,19,,
+2020-08-25,Milwaukee,Wisconsin,55079,23396,482,23396,482,,
+2020-08-25,Monroe,Wisconsin,55081,267,2,267,2,,
+2020-08-25,Oconto,Wisconsin,55083,376,1,376,1,,
+2020-08-25,Oneida,Wisconsin,55085,198,0,198,0,,
+2020-08-25,Outagamie,Wisconsin,55087,1606,19,1606,19,,
+2020-08-25,Ozaukee,Wisconsin,55089,887,19,887,19,,
 2020-08-25,Pepin,Wisconsin,55091,47,0,47,0,,
-2020-08-25,Pierce,Wisconsin,55093,271,4,271,4,,
-2020-08-25,Polk,Wisconsin,55095,156,2,156,2,,
-2020-08-25,Portage,Wisconsin,55097,512,0,512,0,,
-2020-08-25,Price,Wisconsin,55099,33,0,33,0,,
-2020-08-25,Racine,Wisconsin,55101,3840,85,3840,85,,
-2020-08-25,Richland,Wisconsin,55103,41,4,41,4,,
-2020-08-25,Rock,Wisconsin,55105,1722,26,1571,26,151,
-2020-08-25,Rusk,Wisconsin,55107,23,1,23,1,,
-2020-08-25,Sauk,Wisconsin,55111,590,3,590,3,,
-2020-08-25,Sawyer,Wisconsin,55113,143,0,143,0,,
-2020-08-25,Shawano,Wisconsin,55115,234,0,234,0,,
-2020-08-25,Sheboygan,Wisconsin,55117,962,8,962,8,,
-2020-08-25,St. Croix,Wisconsin,55109,602,7,602,7,,
+2020-08-25,Pierce,Wisconsin,55093,276,5,276,5,,
+2020-08-25,Polk,Wisconsin,55095,162,2,162,2,,
+2020-08-25,Portage,Wisconsin,55097,524,1,524,1,,
+2020-08-25,Price,Wisconsin,55099,34,0,34,0,,
+2020-08-25,Racine,Wisconsin,55101,3867,86,3867,86,,
+2020-08-25,Richland,Wisconsin,55103,42,4,42,4,,
+2020-08-25,Rock,Wisconsin,55105,1733,26,1582,26,151,
+2020-08-25,Rusk,Wisconsin,55107,24,1,24,1,,
+2020-08-25,Sauk,Wisconsin,55111,598,3,598,3,,
+2020-08-25,Sawyer,Wisconsin,55113,147,0,147,0,,
+2020-08-25,Shawano,Wisconsin,55115,239,0,239,0,,
+2020-08-25,Sheboygan,Wisconsin,55117,972,8,972,8,,
+2020-08-25,St. Croix,Wisconsin,55109,618,7,618,7,,
 2020-08-25,Taylor,Wisconsin,55119,85,3,85,3,,
-2020-08-25,Trempealeau,Wisconsin,55121,395,2,395,2,,
-2020-08-25,Unknown,Wisconsin,,4614,8,,,,
+2020-08-25,Trempealeau,Wisconsin,55121,400,2,400,2,,
+2020-08-25,Unknown,Wisconsin,,4663,8,,,,
 2020-08-25,Vernon,Wisconsin,55123,86,0,86,0,,
-2020-08-25,Vilas,Wisconsin,55125,93,0,93,0,,
-2020-08-25,Walworth,Wisconsin,55127,1614,26,1614,26,,
+2020-08-25,Vilas,Wisconsin,55125,95,0,95,0,,
+2020-08-25,Walworth,Wisconsin,55127,1631,26,1631,26,,
 2020-08-25,Washburn,Wisconsin,55129,56,0,56,0,,
-2020-08-25,Washington,Wisconsin,55131,1477,27,1477,27,,
-2020-08-25,Waukesha,Wisconsin,55133,5267,70,5267,70,,
-2020-08-25,Waupaca,Wisconsin,55135,604,17,604,17,,
+2020-08-25,Washington,Wisconsin,55131,1516,28,1516,28,,
+2020-08-25,Waukesha,Wisconsin,55133,5286,71,5286,71,,
+2020-08-25,Waupaca,Wisconsin,55135,620,17,620,17,,
 2020-08-25,Waushara,Wisconsin,55137,135,1,135,1,,
-2020-08-25,Winnebago,Wisconsin,55139,1371,20,1371,20,,
-2020-08-25,Wood,Wisconsin,55141,418,2,418,2,,
-2020-08-25,Albany,Wyoming,56001,127,0,113,,14,
+2020-08-25,Winnebago,Wisconsin,55139,1383,21,1383,21,,
+2020-08-25,Wood,Wisconsin,55141,421,2,421,2,,
+2020-08-25,Albany,Wyoming,56001,127,0,114,,13,
 2020-08-25,Big Horn,Wyoming,56003,39,1,35,,4,
 2020-08-25,Campbell,Wyoming,56005,164,1,138,,26,
 2020-08-25,Carbon,Wyoming,56007,185,2,159,,26,
-2020-08-25,Converse,Wyoming,56009,36,0,26,,10,
+2020-08-25,Converse,Wyoming,56009,37,0,26,,11,
 2020-08-25,Crook,Wyoming,56011,14,0,14,,0,
-2020-08-25,Fremont,Wyoming,56013,574,13,506,,68,
-2020-08-25,Goshen,Wyoming,56015,46,1,40,,6,
+2020-08-25,Fremont,Wyoming,56013,577,13,508,,69,
+2020-08-25,Goshen,Wyoming,56015,50,1,43,,7,
 2020-08-25,Hot Springs,Wyoming,56017,29,0,25,,4,
 2020-08-25,Johnson,Wyoming,56019,27,1,22,,5,
-2020-08-25,Laramie,Wyoming,56021,545,4,401,,144,
+2020-08-25,Laramie,Wyoming,56021,552,4,405,,147,
 2020-08-25,Lincoln,Wyoming,56023,108,0,82,,26,
-2020-08-25,Natrona,Wyoming,56025,273,1,233,,40,
+2020-08-25,Natrona,Wyoming,56025,276,1,237,,39,
 2020-08-25,Niobrara,Wyoming,56027,2,0,1,,1,
 2020-08-25,Park,Wyoming,56029,158,0,145,,13,
 2020-08-25,Platte,Wyoming,56031,7,1,6,,1,
-2020-08-25,Sheridan,Wyoming,56033,121,1,92,,29,
+2020-08-25,Sheridan,Wyoming,56033,124,1,91,,33,
 2020-08-25,Sublette,Wyoming,56035,48,1,39,,9,
-2020-08-25,Sweetwater,Wyoming,56037,290,2,274,,16,
-2020-08-25,Teton,Wyoming,56039,408,1,374,,34,
+2020-08-25,Sweetwater,Wyoming,56037,295,2,277,,18,
+2020-08-25,Teton,Wyoming,56039,412,1,378,,34,
 2020-08-25,Uinta,Wyoming,56041,283,2,235,,48,
 2020-08-25,Washakie,Wyoming,56043,107,5,99,,8,
-2020-08-25,Weston,Wyoming,56045,12,0,9,,3,
+2020-08-25,Weston,Wyoming,56045,13,0,10,,3,
