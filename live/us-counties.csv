@@ -222,7 +222,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-09-24,San Benito,California,06069,1314,11,1314,11,,
 2020-09-24,San Bernardino,California,06071,53121,908,53121,908,,
 2020-09-24,San Diego,California,06073,45488,767,45488,767,,
-2020-09-24,San Francisco,California,06075,10904,99,10904,99,,
+2020-09-24,San Francisco,California,06075,10949,99,10949,99,,
 2020-09-24,San Joaquin,California,06077,20060,434,20060,434,,
 2020-09-24,San Luis Obispo,California,06079,3479,29,3479,29,,
 2020-09-24,San Mateo,California,06081,9664,144,9664,144,,
@@ -301,7 +301,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-09-24,San Juan,Colorado,08111,6,0,,,,
 2020-09-24,San Miguel,Colorado,08113,96,0,,,,
 2020-09-24,Sedgwick,Colorado,08115,14,1,,,,
-2020-09-24,Summit,Colorado,08117,428,4,298,,130,
+2020-09-24,Summit,Colorado,08117,428,4,304,,124,
 2020-09-24,Teller,Colorado,08119,174,4,,,,
 2020-09-24,Washington,Colorado,08121,60,0,,,,
 2020-09-24,Weld,Colorado,08123,4597,149,,94,,55
@@ -319,7 +319,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-09-24,New Castle,Delaware,10003,9777,310,9557,261,220,49
 2020-09-24,Sussex,Delaware,10005,6673,204,6033,187,640,17
 2020-09-24,Unknown,Delaware,,482,0,480,,2,
-2020-09-24,District of Columbia,District of Columbia,11001,15050,621,15050,621,,
+2020-09-24,District of Columbia,District of Columbia,11001,15106,621,15106,621,,
 2020-09-24,Alachua,Florida,12001,7735,49,,49,,
 2020-09-24,Baker,Florida,12003,1426,11,,11,,
 2020-09-24,Bay,Florida,12005,5924,101,,101,,
@@ -548,7 +548,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-09-24,Wilkes,Georgia,13317,261,5,261,5,,
 2020-09-24,Wilkinson,Georgia,13319,333,18,333,18,,
 2020-09-24,Worth,Georgia,13321,523,30,523,30,,
-2020-09-24,Unknown,Guam,,3204,38,3204,38,0,0
+2020-09-24,Unknown,Guam,,3232,39,3232,39,0,0
 2020-09-24,Hawaii,Hawaii,15001,680,15,,,,
 2020-09-24,Honolulu,Hawaii,15003,10604,97,,,,
 2020-09-24,Kauai,Hawaii,15007,57,0,,,,
@@ -792,106 +792,106 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-09-24,Wells,Indiana,18179,267,3,250,3,17,0
 2020-09-24,White,Indiana,18181,482,14,482,14,0,0
 2020-09-24,Whitley,Indiana,18183,255,6,255,6,0,0
-2020-09-24,Adair,Iowa,19001,68,1,68,1,,
+2020-09-24,Adair,Iowa,19001,69,1,69,1,,
 2020-09-24,Adams,Iowa,19003,33,0,33,0,,
-2020-09-24,Allamakee,Iowa,19005,252,6,252,6,,
+2020-09-24,Allamakee,Iowa,19005,254,6,254,6,,
 2020-09-24,Appanoose,Iowa,19007,129,3,129,3,,
-2020-09-24,Audubon,Iowa,19009,74,1,74,1,,
-2020-09-24,Benton,Iowa,19011,302,1,302,1,,
-2020-09-24,Black Hawk,Iowa,19013,4421,88,4421,88,,
-2020-09-24,Boone,Iowa,19015,493,8,493,8,,
-2020-09-24,Bremer,Iowa,19017,475,7,475,7,,
+2020-09-24,Audubon,Iowa,19009,77,1,77,1,,
+2020-09-24,Benton,Iowa,19011,303,1,303,1,,
+2020-09-24,Black Hawk,Iowa,19013,4429,88,4429,88,,
+2020-09-24,Boone,Iowa,19015,496,8,496,8,,
+2020-09-24,Bremer,Iowa,19017,476,7,476,7,,
 2020-09-24,Buchanan,Iowa,19019,262,1,262,1,,
-2020-09-24,Buena Vista,Iowa,19021,1959,12,1959,12,,
+2020-09-24,Buena Vista,Iowa,19021,1964,12,1964,12,,
 2020-09-24,Butler,Iowa,19023,265,2,265,2,,
 2020-09-24,Calhoun,Iowa,19025,179,2,179,2,,
 2020-09-24,Carroll,Iowa,19027,650,5,650,5,,
-2020-09-24,Cass,Iowa,19029,148,2,148,2,,
-2020-09-24,Cedar,Iowa,19031,233,1,233,1,,
+2020-09-24,Cass,Iowa,19029,152,2,152,2,,
+2020-09-24,Cedar,Iowa,19031,236,1,236,1,,
 2020-09-24,Cerro Gordo,Iowa,19033,1017,21,1017,21,,
-2020-09-24,Cherokee,Iowa,19035,222,2,222,2,,
-2020-09-24,Chickasaw,Iowa,19037,240,0,240,0,,
-2020-09-24,Clarke,Iowa,19039,262,3,262,3,,
-2020-09-24,Clay,Iowa,19041,309,4,309,4,,
-2020-09-24,Clayton,Iowa,19043,237,3,237,3,,
-2020-09-24,Clinton,Iowa,19045,1092,20,1092,20,,
-2020-09-24,Crawford,Iowa,19047,1042,5,1042,5,,
-2020-09-24,Dallas,Iowa,19049,2741,38,2741,38,,
+2020-09-24,Cherokee,Iowa,19035,231,2,231,2,,
+2020-09-24,Chickasaw,Iowa,19037,242,0,242,0,,
+2020-09-24,Clarke,Iowa,19039,264,3,264,3,,
+2020-09-24,Clay,Iowa,19041,310,4,310,4,,
+2020-09-24,Clayton,Iowa,19043,238,3,238,3,,
+2020-09-24,Clinton,Iowa,19045,1096,20,1096,20,,
+2020-09-24,Crawford,Iowa,19047,1052,5,1052,5,,
+2020-09-24,Dallas,Iowa,19049,2748,38,2748,38,,
 2020-09-24,Davis,Iowa,19051,122,4,122,4,,
 2020-09-24,Decatur,Iowa,19053,66,0,66,0,,
-2020-09-24,Delaware,Iowa,19055,365,3,365,3,,
-2020-09-24,Des Moines,Iowa,19057,751,7,751,7,,
+2020-09-24,Delaware,Iowa,19055,376,3,376,3,,
+2020-09-24,Des Moines,Iowa,19057,761,7,761,7,,
 2020-09-24,Dickinson,Iowa,19059,503,6,503,6,,
-2020-09-24,Dubuque,Iowa,19061,2985,41,2985,41,,
-2020-09-24,Emmet,Iowa,19063,254,10,254,10,,
-2020-09-24,Fayette,Iowa,19065,205,2,205,2,,
-2020-09-24,Floyd,Iowa,19067,310,3,310,3,,
+2020-09-24,Dubuque,Iowa,19061,3061,41,3061,41,,
+2020-09-24,Emmet,Iowa,19063,255,10,255,10,,
+2020-09-24,Fayette,Iowa,19065,207,2,207,2,,
+2020-09-24,Floyd,Iowa,19067,312,3,312,3,,
 2020-09-24,Franklin,Iowa,19069,346,18,346,18,,
-2020-09-24,Fremont,Iowa,19071,104,0,104,0,,
+2020-09-24,Fremont,Iowa,19071,105,0,105,0,,
 2020-09-24,Greene,Iowa,19073,99,0,99,0,,
-2020-09-24,Grundy,Iowa,19075,218,3,218,3,,
+2020-09-24,Grundy,Iowa,19075,219,3,219,3,,
 2020-09-24,Guthrie,Iowa,19077,240,6,240,6,,
 2020-09-24,Hamilton,Iowa,19079,323,3,323,3,,
 2020-09-24,Hancock,Iowa,19081,177,2,177,2,,
-2020-09-24,Hardin,Iowa,19083,293,1,293,1,,
+2020-09-24,Hardin,Iowa,19083,294,1,294,1,,
 2020-09-24,Harrison,Iowa,19085,196,2,196,2,,
-2020-09-24,Henry,Iowa,19087,655,4,655,4,,
+2020-09-24,Henry,Iowa,19087,666,4,666,4,,
 2020-09-24,Howard,Iowa,19089,185,6,185,6,,
 2020-09-24,Humboldt,Iowa,19091,183,3,183,3,,
-2020-09-24,Ida,Iowa,19093,110,0,110,0,,
-2020-09-24,Iowa,Iowa,19095,197,1,197,1,,
-2020-09-24,Jackson,Iowa,19097,317,3,317,3,,
-2020-09-24,Jasper,Iowa,19099,802,32,802,32,,
-2020-09-24,Jefferson,Iowa,19101,135,1,135,1,,
-2020-09-24,Johnson,Iowa,19103,5073,27,5073,27,,
-2020-09-24,Jones,Iowa,19105,258,3,258,3,,
-2020-09-24,Keokuk,Iowa,19107,101,1,101,1,,
-2020-09-24,Kossuth,Iowa,19109,249,0,249,0,,
-2020-09-24,Lee,Iowa,19111,613,7,613,7,,
-2020-09-24,Linn,Iowa,19113,3878,109,3878,109,,
-2020-09-24,Louisa,Iowa,19115,426,15,426,15,,
-2020-09-24,Lucas,Iowa,19117,153,6,153,6,,
-2020-09-24,Lyon,Iowa,19119,280,4,280,4,,
-2020-09-24,Madison,Iowa,19121,209,2,209,2,,
-2020-09-24,Mahaska,Iowa,19123,368,19,368,19,,
-2020-09-24,Marion,Iowa,19125,746,5,746,5,,
-2020-09-24,Marshall,Iowa,19127,1768,34,1768,34,,
-2020-09-24,Mills,Iowa,19129,173,1,173,1,,
+2020-09-24,Ida,Iowa,19093,112,0,112,0,,
+2020-09-24,Iowa,Iowa,19095,198,1,198,1,,
+2020-09-24,Jackson,Iowa,19097,323,3,323,3,,
+2020-09-24,Jasper,Iowa,19099,808,32,808,32,,
+2020-09-24,Jefferson,Iowa,19101,137,1,137,1,,
+2020-09-24,Johnson,Iowa,19103,5083,27,5083,27,,
+2020-09-24,Jones,Iowa,19105,261,3,261,3,,
+2020-09-24,Keokuk,Iowa,19107,102,1,102,1,,
+2020-09-24,Kossuth,Iowa,19109,250,0,250,0,,
+2020-09-24,Lee,Iowa,19111,618,7,618,7,,
+2020-09-24,Linn,Iowa,19113,3919,109,3919,109,,
+2020-09-24,Louisa,Iowa,19115,427,15,427,15,,
+2020-09-24,Lucas,Iowa,19117,154,6,154,6,,
+2020-09-24,Lyon,Iowa,19119,285,4,285,4,,
+2020-09-24,Madison,Iowa,19121,210,2,210,2,,
+2020-09-24,Mahaska,Iowa,19123,384,19,384,19,,
+2020-09-24,Marion,Iowa,19125,752,5,752,5,,
+2020-09-24,Marshall,Iowa,19127,1769,34,1769,34,,
+2020-09-24,Mills,Iowa,19129,174,1,174,1,,
 2020-09-24,Mitchell,Iowa,19131,186,0,186,0,,
 2020-09-24,Monona,Iowa,19133,144,1,144,1,,
-2020-09-24,Monroe,Iowa,19135,153,10,153,10,,
+2020-09-24,Monroe,Iowa,19135,155,10,155,10,,
 2020-09-24,Montgomery,Iowa,19137,90,5,90,5,,
 2020-09-24,Muscatine,Iowa,19139,1090,54,1090,54,,
-2020-09-24,O'Brien,Iowa,19141,334,9,334,9,,
-2020-09-24,Osceola,Iowa,19143,146,0,146,0,,
+2020-09-24,O'Brien,Iowa,19141,340,9,340,9,,
+2020-09-24,Osceola,Iowa,19143,149,0,149,0,,
 2020-09-24,Page,Iowa,19145,150,0,150,0,,
-2020-09-24,Palo Alto,Iowa,19147,172,0,172,0,,
-2020-09-24,Plymouth,Iowa,19149,1091,20,1091,20,,
+2020-09-24,Palo Alto,Iowa,19147,178,0,178,0,,
+2020-09-24,Plymouth,Iowa,19149,1099,20,1099,20,,
 2020-09-24,Pocahontas,Iowa,19151,156,2,156,2,,
-2020-09-24,Polk,Iowa,19153,15571,261,15571,261,,
-2020-09-24,Pottawattamie,Iowa,19155,2033,38,2033,38,,
-2020-09-24,Poweshiek,Iowa,19157,270,8,270,8,,
+2020-09-24,Polk,Iowa,19153,15610,261,15610,261,,
+2020-09-24,Pottawattamie,Iowa,19155,2041,38,2041,38,,
+2020-09-24,Poweshiek,Iowa,19157,274,8,274,8,,
 2020-09-24,Ringgold,Iowa,19159,48,2,48,2,,
-2020-09-24,Sac,Iowa,19161,232,0,232,0,,
-2020-09-24,Scott,Iowa,19163,2875,28,2875,28,,
+2020-09-24,Sac,Iowa,19161,235,0,235,0,,
+2020-09-24,Scott,Iowa,19163,2904,28,2904,28,,
 2020-09-24,Shelby,Iowa,19165,250,1,250,1,,
-2020-09-24,Sioux,Iowa,19167,1469,3,1469,3,,
-2020-09-24,Story,Iowa,19169,3369,17,3369,17,,
-2020-09-24,Tama,Iowa,19171,699,31,699,31,,
+2020-09-24,Sioux,Iowa,19167,1489,3,1489,3,,
+2020-09-24,Story,Iowa,19169,3374,17,3374,17,,
+2020-09-24,Tama,Iowa,19171,701,31,701,31,,
 2020-09-24,Taylor,Iowa,19173,127,1,127,1,,
-2020-09-24,Union,Iowa,19175,126,3,126,3,,
-2020-09-24,Unknown,Iowa,,4,0,4,0,,
+2020-09-24,Union,Iowa,19175,127,3,127,3,,
+2020-09-24,Unknown,Iowa,,9,0,9,0,,
 2020-09-24,Van Buren,Iowa,19177,112,1,112,1,,
-2020-09-24,Wapello,Iowa,19179,1296,57,1296,57,,
-2020-09-24,Warren,Iowa,19181,945,6,945,6,,
-2020-09-24,Washington,Iowa,19183,449,11,449,11,,
-2020-09-24,Wayne,Iowa,19185,84,2,84,2,,
-2020-09-24,Webster,Iowa,19187,1213,14,1213,14,,
-2020-09-24,Winnebago,Iowa,19189,284,13,284,13,,
-2020-09-24,Winneshiek,Iowa,19191,315,6,315,6,,
-2020-09-24,Woodbury,Iowa,19193,5173,63,5173,63,,
+2020-09-24,Wapello,Iowa,19179,1304,57,1304,57,,
+2020-09-24,Warren,Iowa,19181,946,6,946,6,,
+2020-09-24,Washington,Iowa,19183,452,11,452,11,,
+2020-09-24,Wayne,Iowa,19185,85,2,85,2,,
+2020-09-24,Webster,Iowa,19187,1214,14,1214,14,,
+2020-09-24,Winnebago,Iowa,19189,286,13,286,13,,
+2020-09-24,Winneshiek,Iowa,19191,319,6,319,6,,
+2020-09-24,Woodbury,Iowa,19193,5189,63,5189,63,,
 2020-09-24,Worth,Iowa,19195,104,0,104,0,,
-2020-09-24,Wright,Iowa,19197,570,1,570,1,,
+2020-09-24,Wright,Iowa,19197,571,1,571,1,,
 2020-09-24,Allen,Kansas,20001,57,0,57,,,
 2020-09-24,Anderson,Kansas,20003,73,0,62,,11,
 2020-09-24,Atchison,Kansas,20005,307,2,307,2,,
@@ -899,7 +899,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-09-24,Barton,Kansas,20009,441,7,441,7,,
 2020-09-24,Bourbon,Kansas,20011,175,3,175,3,,
 2020-09-24,Brown,Kansas,20013,104,3,80,3,24,
-2020-09-24,Butler,Kansas,20015,906,4,497,4,409,
+2020-09-24,Butler,Kansas,20015,906,4,500,4,406,
 2020-09-24,Chase,Kansas,20017,81,1,81,1,,
 2020-09-24,Chautauqua,Kansas,20019,16,0,4,,12,
 2020-09-24,Cherokee,Kansas,20021,469,8,469,8,,
@@ -937,7 +937,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-09-24,Jackson,Kansas,20085,234,2,234,2,0,
 2020-09-24,Jefferson,Kansas,20087,184,4,174,4,10,
 2020-09-24,Jewell,Kansas,20089,16,1,16,1,0,
-2020-09-24,Johnson,Kansas,20091,10697,145,10337,145,360,
+2020-09-24,Johnson,Kansas,20091,10697,146,10482,146,215,
 2020-09-24,Kearny,Kansas,20093,84,1,52,1,32,
 2020-09-24,Kingman,Kansas,20095,84,1,58,1,26,
 2020-09-24,Kiowa,Kansas,20097,23,0,2,,21,
@@ -969,7 +969,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-09-24,Pottawatomie,Kansas,20149,235,0,103,0,132,
 2020-09-24,Pratt,Kansas,20151,71,0,69,,2,
 2020-09-24,Rawlins,Kansas,20153,20,0,,,,
-2020-09-24,Reno,Kansas,20155,1065,3,1007,3,58,
+2020-09-24,Reno,Kansas,20155,1065,3,1006,3,59,
 2020-09-24,Republic,Kansas,20157,48,1,45,1,3,
 2020-09-24,Rice,Kansas,20159,72,1,44,1,28,
 2020-09-24,Riley,Kansas,20161,1722,8,1722,8,,
@@ -1030,7 +1030,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-09-24,Edmonson,Kentucky,21061,149,12,149,12,,0
 2020-09-24,Elliott,Kentucky,21063,38,0,,,,
 2020-09-24,Estill,Kentucky,21065,142,0,,,,
-2020-09-24,Fayette,Kentucky,21067,8014,72,8014,72,,
+2020-09-24,Fayette,Kentucky,21067,8093,72,8093,72,,
 2020-09-24,Fleming,Kentucky,21069,82,0,,,,
 2020-09-24,Floyd,Kentucky,21071,176,2,,,,
 2020-09-24,Franklin,Kentucky,21073,606,12,,,,
@@ -1052,7 +1052,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-09-24,Hickman,Kentucky,21105,75,0,,,,
 2020-09-24,Hopkins,Kentucky,21107,613,40,603,39,10,1
 2020-09-24,Jackson,Kentucky,21109,354,17,,,,
-2020-09-24,Jefferson,Kentucky,21111,16321,317,16321,317,,
+2020-09-24,Jefferson,Kentucky,21111,16441,318,16441,318,,
 2020-09-24,Jessamine,Kentucky,21113,581,0,578,,3,
 2020-09-24,Johnson,Kentucky,21115,147,1,,,,
 2020-09-24,Kenton,Kentucky,21117,1978,45,1815,43,163,2
@@ -1182,48 +1182,48 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-09-24,West Carroll,Louisiana,22123,343,10,343,10,,
 2020-09-24,West Feliciana,Louisiana,22125,711,25,711,25,,
 2020-09-24,Winn,Louisiana,22127,616,18,616,18,,
-2020-09-24,Androscoggin,Maine,23001,693,10,624,10,69,
-2020-09-24,Aroostook,Maine,23003,43,1,41,1,2,
-2020-09-24,Cumberland,Maine,23005,2290,70,2046,70,244,
+2020-09-24,Androscoggin,Maine,23001,698,10,628,10,70,
+2020-09-24,Aroostook,Maine,23003,44,1,41,1,3,
+2020-09-24,Cumberland,Maine,23005,2301,70,2057,70,244,
 2020-09-24,Franklin,Maine,23007,60,1,56,1,4,
 2020-09-24,Hancock,Maine,23009,53,1,47,1,6,
-2020-09-24,Kennebec,Maine,23011,207,11,192,11,15,
+2020-09-24,Kennebec,Maine,23011,209,11,194,11,15,
 2020-09-24,Knox,Maine,23013,36,1,31,1,5,
-2020-09-24,Lincoln,Maine,23015,41,1,36,1,5,
-2020-09-24,Oxford,Maine,23017,132,1,107,1,25,
-2020-09-24,Penobscot,Maine,23019,252,6,238,6,14,
+2020-09-24,Lincoln,Maine,23015,42,1,37,1,5,
+2020-09-24,Oxford,Maine,23017,137,1,109,1,28,
+2020-09-24,Penobscot,Maine,23019,253,6,238,6,15,
 2020-09-24,Piscataquis,Maine,23021,9,0,8,0,1,
 2020-09-24,Sagadahoc,Maine,23023,65,0,62,0,3,
 2020-09-24,Somerset,Maine,23025,85,8,76,8,9,
 2020-09-24,Unknown,Maine,,1,0,1,0,0,
 2020-09-24,Waldo,Maine,23027,73,14,68,14,5,
 2020-09-24,Washington,Maine,23029,16,0,16,0,0,
-2020-09-24,York,Maine,23031,1115,15,994,15,121,
-2020-09-24,Allegany,Maryland,24001,454,22,454,22,0,0
-2020-09-24,Anne Arundel,Maryland,24003,9771,245,9759,233,12,12
-2020-09-24,Baltimore,Maryland,24005,17603,621,17579,597,24,24
-2020-09-24,Baltimore city,Maryland,24510,15347,483,15329,465,18,18
-2020-09-24,Calvert,Maryland,24009,921,28,920,27,1,1
-2020-09-24,Caroline,Maryland,24011,638,5,638,5,0,0
-2020-09-24,Carroll,Maryland,24013,1924,125,1920,121,4,4
-2020-09-24,Cecil,Maryland,24015,1026,33,1025,32,1,1
-2020-09-24,Charles,Maryland,24017,2727,99,2725,97,2,2
-2020-09-24,Dorchester,Maryland,24019,578,10,578,10,0,0
-2020-09-24,Frederick,Maryland,24021,3965,131,3958,124,7,7
+2020-09-24,York,Maine,23031,1133,15,1008,15,125,
+2020-09-24,Allegany,Maryland,24001,459,22,459,22,0,0
+2020-09-24,Anne Arundel,Maryland,24003,9824,246,9812,234,12,12
+2020-09-24,Baltimore,Maryland,24005,17678,621,17655,598,23,23
+2020-09-24,Baltimore city,Maryland,24510,15392,484,15374,466,18,18
+2020-09-24,Calvert,Maryland,24009,929,28,928,27,1,1
+2020-09-24,Caroline,Maryland,24011,640,6,640,6,0,0
+2020-09-24,Carroll,Maryland,24013,1928,124,1925,121,3,3
+2020-09-24,Cecil,Maryland,24015,1035,34,1034,33,1,1
+2020-09-24,Charles,Maryland,24017,2739,100,2737,98,2,2
+2020-09-24,Dorchester,Maryland,24019,582,10,582,10,0,0
+2020-09-24,Frederick,Maryland,24021,3982,131,3975,124,7,7
 2020-09-24,Garrett,Maryland,24023,72,1,72,1,0,0
-2020-09-24,Harford,Maryland,24025,2949,76,2945,72,4,4
-2020-09-24,Howard,Maryland,24027,4989,123,4983,117,6,6
-2020-09-24,Kent,Maryland,24029,300,24,298,22,2,2
-2020-09-24,Montgomery,Maryland,24031,22042,841,22002,801,40,40
-2020-09-24,Prince George's,Maryland,24033,29157,821,29157,813,,8
-2020-09-24,Queen Anne's,Maryland,24035,646,26,645,25,1,1
-2020-09-24,Somerset,Maryland,24039,251,4,251,4,0,0
-2020-09-24,St. Mary's,Maryland,24037,1259,57,1259,57,0,0
-2020-09-24,Talbot,Maryland,24041,543,6,543,6,0,0
-2020-09-24,Unknown,Maryland,,0,10,0,0,,10
-2020-09-24,Washington,Maryland,24043,1691,37,1691,37,0,0
-2020-09-24,Wicomico,Maryland,24045,1919,48,1919,48,0,0
-2020-09-24,Worcester,Maryland,24047,1021,26,1020,25,1,1
+2020-09-24,Harford,Maryland,24025,2967,76,2963,72,4,4
+2020-09-24,Howard,Maryland,24027,5003,123,4997,117,6,6
+2020-09-24,Kent,Maryland,24029,302,24,300,22,2,2
+2020-09-24,Montgomery,Maryland,24031,22118,841,22078,801,40,40
+2020-09-24,Prince George's,Maryland,24033,29157,822,29157,813,,9
+2020-09-24,Queen Anne's,Maryland,24035,651,26,650,25,1,1
+2020-09-24,Somerset,Maryland,24039,252,4,252,4,0,0
+2020-09-24,St. Mary's,Maryland,24037,1262,57,1262,57,0,0
+2020-09-24,Talbot,Maryland,24041,549,6,549,6,0,0
+2020-09-24,Unknown,Maryland,,0,12,0,0,,12
+2020-09-24,Washington,Maryland,24043,1705,37,1705,37,0,0
+2020-09-24,Wicomico,Maryland,24045,1936,48,1936,48,0,0
+2020-09-24,Worcester,Maryland,24047,1029,26,1028,25,1,1
 2020-09-24,Barnstable,Massachusetts,25001,1722,174,1722,,,
 2020-09-24,Berkshire,Massachusetts,25003,706,49,706,,,
 2020-09-24,Bristol,Massachusetts,25005,9858,690,9858,,,
@@ -1315,7 +1315,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-09-24,Sanilac,Michigan,26151,147,7,140,6,7,1
 2020-09-24,Schoolcraft,Michigan,26153,24,0,22,0,2,0
 2020-09-24,Shiawassee,Michigan,26155,499,31,468,30,31,1
-2020-09-24,St. Clair,Michigan,26147,985,55,847,54,138,1
+2020-09-24,St. Clair,Michigan,26147,995,56,852,55,143,1
 2020-09-24,St. Joseph,Michigan,26149,735,11,636,11,99,0
 2020-09-24,Tuscola,Michigan,26157,497,31,433,31,64,0
 2020-09-24,Unknown,Michigan,,144,5,131,5,13,0
@@ -1544,7 +1544,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-09-24,Jasper,Missouri,29097,2247,26,2247,26,,
 2020-09-24,Jefferson,Missouri,29099,4172,60,4172,60,,
 2020-09-24,Johnson,Missouri,29101,1046,4,1046,4,,
-2020-09-24,Joplin,Missouri,,1387,23,1387,23,,
+2020-09-24,Joplin,Missouri,,1387,24,1387,24,,
 2020-09-24,Kansas City,Missouri,,11072,122,11072,122,,
 2020-09-24,Knox,Missouri,29103,49,1,49,1,,
 2020-09-24,Laclede,Missouri,29105,584,4,584,4,,
@@ -1592,11 +1592,11 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-09-24,Scott,Missouri,29201,837,16,837,16,,
 2020-09-24,Shannon,Missouri,29203,89,1,89,1,,
 2020-09-24,Shelby,Missouri,29205,61,1,61,1,,
-2020-09-24,St. Charles,Missouri,29183,7494,128,7494,128,,
+2020-09-24,St. Charles,Missouri,29183,7495,128,7495,128,,
 2020-09-24,St. Clair,Missouri,29185,57,0,57,0,,
 2020-09-24,Ste. Genevieve,Missouri,29186,187,1,187,1,,
 2020-09-24,St. Francois,Missouri,29187,2110,9,2110,9,,
-2020-09-24,St. Louis,Missouri,29189,23297,788,23297,788,,
+2020-09-24,St. Louis,Missouri,29189,23427,795,23427,795,,
 2020-09-24,St. Louis city,Missouri,29510,6934,208,6835,208,99,
 2020-09-24,Stoddard,Missouri,29207,478,12,478,12,,
 2020-09-24,Stone,Missouri,29209,418,4,418,4,,
@@ -1975,7 +1975,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-09-24,Richmond,North Carolina,37153,940,15,940,15,,
 2020-09-24,Robeson,North Carolina,37155,4273,72,4273,72,,
 2020-09-24,Rockingham,North Carolina,37157,1170,14,1170,14,,
-2020-09-24,Rowan,North Carolina,37159,3248,93,3248,93,,
+2020-09-24,Rowan,North Carolina,37159,3257,97,3257,97,,
 2020-09-24,Rutherford,North Carolina,37161,1159,31,1159,31,,
 2020-09-24,Sampson,North Carolina,37163,1769,24,1769,24,,
 2020-09-24,Scotland,North Carolina,37165,984,12,984,12,,
@@ -2321,85 +2321,85 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-09-24,Westmoreland,Pennsylvania,42129,2135,52,2021,49,114,3
 2020-09-24,Wyoming,Pennsylvania,42131,72,8,69,,3,
 2020-09-24,York,Pennsylvania,42133,4606,149,4486,,120,
-2020-09-24,Adjuntas,Puerto Rico,72001,143,,76,,67,
-2020-09-24,Aguada,Puerto Rico,72003,314,,150,,164,
-2020-09-24,Aguadilla,Puerto Rico,72005,412,,173,,239,
-2020-09-24,Aguas Buenas,Puerto Rico,72007,254,,132,,122,
-2020-09-24,Aibonito,Puerto Rico,72009,147,,50,,97,
+2020-09-24,Adjuntas,Puerto Rico,72001,144,,76,,68,
+2020-09-24,Aguada,Puerto Rico,72003,323,,156,,167,
+2020-09-24,Aguadilla,Puerto Rico,72005,421,,175,,246,
+2020-09-24,Aguas Buenas,Puerto Rico,72007,258,,135,,123,
+2020-09-24,Aibonito,Puerto Rico,72009,150,,51,,99,
 2020-09-24,Anasco,Puerto Rico,72011,219,,65,,154,
-2020-09-24,Arecibo,Puerto Rico,72013,756,,341,,415,
-2020-09-24,Arroyo,Puerto Rico,72015,160,,37,,123,
-2020-09-24,Barceloneta,Puerto Rico,72017,218,,96,,122,
-2020-09-24,Barranquitas,Puerto Rico,72019,414,,133,,281,
-2020-09-24,Bayamon,Puerto Rico,72021,3444,,1804,,1640,
-2020-09-24,Cabo Rojo,Puerto Rico,72023,321,,127,,194,
-2020-09-24,Caguas,Puerto Rico,72025,1440,,721,,719,
-2020-09-24,Camuy,Puerto Rico,72027,249,,103,,146,
-2020-09-24,Canovanas,Puerto Rico,72029,635,,329,,306,
-2020-09-24,Carolina,Puerto Rico,72031,2415,,1436,,979,
-2020-09-24,Catano,Puerto Rico,72033,407,,195,,212,
-2020-09-24,Cayey,Puerto Rico,72035,331,,78,,253,
-2020-09-24,Ceiba,Puerto Rico,72037,112,,48,,64,
-2020-09-24,Ciales,Puerto Rico,72039,220,,117,,103,
-2020-09-24,Cidra,Puerto Rico,72041,296,,137,,159,
-2020-09-24,Coamo,Puerto Rico,72043,265,,78,,187,
-2020-09-24,Comerio,Puerto Rico,72045,236,,109,,127,
-2020-09-24,Corozal,Puerto Rico,72047,566,,245,,321,
+2020-09-24,Arecibo,Puerto Rico,72013,774,,352,,422,
+2020-09-24,Arroyo,Puerto Rico,72015,162,,38,,124,
+2020-09-24,Barceloneta,Puerto Rico,72017,223,,98,,125,
+2020-09-24,Barranquitas,Puerto Rico,72019,420,,139,,281,
+2020-09-24,Bayamon,Puerto Rico,72021,3514,,1853,,1661,
+2020-09-24,Cabo Rojo,Puerto Rico,72023,327,,128,,199,
+2020-09-24,Caguas,Puerto Rico,72025,1489,,757,,732,
+2020-09-24,Camuy,Puerto Rico,72027,262,,105,,157,
+2020-09-24,Canovanas,Puerto Rico,72029,650,,335,,315,
+2020-09-24,Carolina,Puerto Rico,72031,2483,,1471,,1012,
+2020-09-24,Catano,Puerto Rico,72033,425,,205,,220,
+2020-09-24,Cayey,Puerto Rico,72035,336,,80,,256,
+2020-09-24,Ceiba,Puerto Rico,72037,117,,52,,65,
+2020-09-24,Ciales,Puerto Rico,72039,228,,125,,103,
+2020-09-24,Cidra,Puerto Rico,72041,302,,139,,163,
+2020-09-24,Coamo,Puerto Rico,72043,276,,82,,194,
+2020-09-24,Comerio,Puerto Rico,72045,244,,113,,131,
+2020-09-24,Corozal,Puerto Rico,72047,578,,253,,325,
 2020-09-24,Culebra,Puerto Rico,72049,22,,16,,6,
-2020-09-24,Dorado,Puerto Rico,72051,723,,257,,466,
-2020-09-24,Fajardo,Puerto Rico,72053,473,,200,,273,
-2020-09-24,Florida,Puerto Rico,72054,251,,68,,183,
+2020-09-24,Dorado,Puerto Rico,72051,748,,269,,479,
+2020-09-24,Fajardo,Puerto Rico,72053,494,,219,,275,
+2020-09-24,Florida,Puerto Rico,72054,263,,75,,188,
 2020-09-24,Guanica,Puerto Rico,72055,97,,35,,62,
-2020-09-24,Guayama,Puerto Rico,72057,279,,93,,186,
-2020-09-24,Guayanilla,Puerto Rico,72059,164,,42,,122,
-2020-09-24,Guaynabo,Puerto Rico,72061,1555,,796,,759,
-2020-09-24,Gurabo,Puerto Rico,72063,481,,249,,232,
-2020-09-24,Hatillo,Puerto Rico,72065,268,,140,,128,
-2020-09-24,Hormigueros,Puerto Rico,72067,162,,79,,83,
-2020-09-24,Humacao,Puerto Rico,72069,455,,195,,260,
-2020-09-24,Isabela,Puerto Rico,72071,252,,104,,148,
+2020-09-24,Guayama,Puerto Rico,72057,282,,94,,188,
+2020-09-24,Guayanilla,Puerto Rico,72059,166,,42,,124,
+2020-09-24,Guaynabo,Puerto Rico,72061,1614,,843,,771,
+2020-09-24,Gurabo,Puerto Rico,72063,506,,264,,242,
+2020-09-24,Hatillo,Puerto Rico,72065,275,,141,,134,
+2020-09-24,Hormigueros,Puerto Rico,72067,166,,83,,83,
+2020-09-24,Humacao,Puerto Rico,72069,495,,217,,278,
+2020-09-24,Isabela,Puerto Rico,72071,254,,104,,150,
 2020-09-24,Jayuya,Puerto Rico,72073,225,,36,,189,
-2020-09-24,Juana Diaz,Puerto Rico,72075,327,,138,,189,
-2020-09-24,Juncos,Puerto Rico,72077,343,,185,,158,
-2020-09-24,Lajas,Puerto Rico,72079,143,,35,,108,
-2020-09-24,Lares,Puerto Rico,72081,306,,80,,226,
+2020-09-24,Juana Diaz,Puerto Rico,72075,328,,139,,189,
+2020-09-24,Juncos,Puerto Rico,72077,361,,199,,162,
+2020-09-24,Lajas,Puerto Rico,72079,152,,36,,116,
+2020-09-24,Lares,Puerto Rico,72081,312,,82,,230,
 2020-09-24,Las Marias,Puerto Rico,72083,103,,45,,58,
-2020-09-24,Las Piedras,Puerto Rico,72085,440,,220,,220,
-2020-09-24,Loiza,Puerto Rico,72087,252,,133,,119,
-2020-09-24,Luquillo,Puerto Rico,72089,230,,94,,136,
-2020-09-24,Manati,Puerto Rico,72091,502,,195,,307,
-2020-09-24,Maricao,Puerto Rico,72093,79,,43,,36,
-2020-09-24,Maunabo,Puerto Rico,72095,107,,34,,73,
-2020-09-24,Mayaguez,Puerto Rico,72097,773,,350,,423,
-2020-09-24,Moca,Puerto Rico,72099,325,,120,,205,
-2020-09-24,Morovis,Puerto Rico,72101,498,,286,,212,
-2020-09-24,Naguabo,Puerto Rico,72103,190,,96,,94,
-2020-09-24,Naranjito,Puerto Rico,72105,572,,227,,345,
-2020-09-24,Orocovis,Puerto Rico,72107,317,,159,,158,
-2020-09-24,Patillas,Puerto Rico,72109,167,,47,,120,
-2020-09-24,Penuelas,Puerto Rico,72111,114,,52,,62,
-2020-09-24,Ponce,Puerto Rico,72113,827,,367,,460,
-2020-09-24,Quebradillas,Puerto Rico,72115,161,,89,,72,
-2020-09-24,Rincon,Puerto Rico,72117,166,,74,,92,
-2020-09-24,Rio Grande,Puerto Rico,72119,544,,283,,261,
-2020-09-24,Sabana Grande,Puerto Rico,72121,192,,72,,120,
-2020-09-24,Salinas,Puerto Rico,72123,395,,81,,314,
-2020-09-24,San German,Puerto Rico,72125,239,,97,,142,
-2020-09-24,San Juan,Puerto Rico,72127,6758,,3948,,2810,
-2020-09-24,San Lorenzo,Puerto Rico,72129,438,,237,,201,
-2020-09-24,San Sebastian,Puerto Rico,72131,344,,87,,257,
-2020-09-24,Santa Isabel,Puerto Rico,72133,165,,36,,129,
-2020-09-24,Toa Alta,Puerto Rico,72135,1187,,608,,579,
-2020-09-24,Toa Baja,Puerto Rico,72137,1228,,655,,573,
-2020-09-24,Trujillo Alto,Puerto Rico,72139,969,,515,,454,
-2020-09-24,Unknown,Puerto Rico,,1315,,471,,844,
-2020-09-24,Utuado,Puerto Rico,72141,129,,38,,91,
-2020-09-24,Vega Alta,Puerto Rico,72143,683,,317,,366,
-2020-09-24,Vega Baja,Puerto Rico,72145,895,,510,,385,
-2020-09-24,Vieques,Puerto Rico,72147,86,,21,,65,
+2020-09-24,Las Piedras,Puerto Rico,72085,456,,235,,221,
+2020-09-24,Loiza,Puerto Rico,72087,260,,138,,122,
+2020-09-24,Luquillo,Puerto Rico,72089,246,,104,,142,
+2020-09-24,Manati,Puerto Rico,72091,515,,200,,315,
+2020-09-24,Maricao,Puerto Rico,72093,80,,44,,36,
+2020-09-24,Maunabo,Puerto Rico,72095,109,,34,,75,
+2020-09-24,Mayaguez,Puerto Rico,72097,776,,350,,426,
+2020-09-24,Moca,Puerto Rico,72099,330,,123,,207,
+2020-09-24,Morovis,Puerto Rico,72101,503,,288,,215,
+2020-09-24,Naguabo,Puerto Rico,72103,197,,99,,98,
+2020-09-24,Naranjito,Puerto Rico,72105,585,,239,,346,
+2020-09-24,Orocovis,Puerto Rico,72107,324,,162,,162,
+2020-09-24,Patillas,Puerto Rico,72109,166,,46,,120,
+2020-09-24,Penuelas,Puerto Rico,72111,115,,52,,63,
+2020-09-24,Ponce,Puerto Rico,72113,854,,388,,466,
+2020-09-24,Quebradillas,Puerto Rico,72115,168,,92,,76,
+2020-09-24,Rincon,Puerto Rico,72117,172,,79,,93,
+2020-09-24,Rio Grande,Puerto Rico,72119,558,,293,,265,
+2020-09-24,Sabana Grande,Puerto Rico,72121,193,,72,,121,
+2020-09-24,Salinas,Puerto Rico,72123,406,,83,,323,
+2020-09-24,San German,Puerto Rico,72125,243,,98,,145,
+2020-09-24,San Juan,Puerto Rico,72127,6991,,4111,,2880,
+2020-09-24,San Lorenzo,Puerto Rico,72129,457,,256,,201,
+2020-09-24,San Sebastian,Puerto Rico,72131,348,,87,,261,
+2020-09-24,Santa Isabel,Puerto Rico,72133,170,,36,,134,
+2020-09-24,Toa Alta,Puerto Rico,72135,1214,,627,,587,
+2020-09-24,Toa Baja,Puerto Rico,72137,1258,,671,,587,
+2020-09-24,Trujillo Alto,Puerto Rico,72139,993,,532,,461,
+2020-09-24,Unknown,Puerto Rico,,1332,,473,,859,
+2020-09-24,Utuado,Puerto Rico,72141,132,,39,,93,
+2020-09-24,Vega Alta,Puerto Rico,72143,707,,327,,380,
+2020-09-24,Vega Baja,Puerto Rico,72145,919,,524,,395,
+2020-09-24,Vieques,Puerto Rico,72147,88,,21,,67,
 2020-09-24,Villalba,Puerto Rico,72149,128,,54,,74,
-2020-09-24,Yabucoa,Puerto Rico,72151,267,,100,,167,
-2020-09-24,Yauco,Puerto Rico,72153,375,,150,,225,
+2020-09-24,Yabucoa,Puerto Rico,72151,278,,106,,172,
+2020-09-24,Yauco,Puerto Rico,72153,383,,151,,232,
 2020-09-24,Bristol,Rhode Island,44001,404,16,404,16,,
 2020-09-24,Kent,Rhode Island,44003,1867,110,1867,110,,
 2020-09-24,Newport,Rhode Island,44005,518,8,518,8,,
@@ -2536,7 +2536,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-09-24,Coffee,Tennessee,47031,1156,12,1044,,112,
 2020-09-24,Crockett,Tennessee,47033,529,19,459,,70,
 2020-09-24,Cumberland,Tennessee,47035,1169,18,1140,,29,
-2020-09-24,Davidson,Tennessee,47037,28287,297,28122,265,165,32
+2020-09-24,Davidson,Tennessee,47037,28392,297,28216,267,176,30
 2020-09-24,Decatur,Tennessee,47039,495,6,391,,104,
 2020-09-24,DeKalb,Tennessee,47041,550,13,530,,20,
 2020-09-24,Dickson,Tennessee,47043,1230,14,1108,,122,
@@ -2659,7 +2659,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-09-24,Collin,Texas,48085,13210,141,13210,105,,36
 2020-09-24,Collingsworth,Texas,48087,18,0,18,,,
 2020-09-24,Colorado,Texas,48089,480,4,480,,,
-2020-09-24,Comal,Texas,48091,3361,116,2648,116,713,
+2020-09-24,Comal,Texas,48091,3410,116,2694,116,716,
 2020-09-24,Comanche,Texas,48093,299,3,299,1,,2
 2020-09-24,Concho,Texas,48095,129,2,129,,,
 2020-09-24,Cooke,Texas,48097,415,5,415,,,
@@ -2684,7 +2684,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-09-24,Ector,Texas,48135,4727,96,3095,96,1632,
 2020-09-24,Edwards,Texas,48137,67,1,67,,,
 2020-09-24,Ellis,Texas,48139,4298,67,4298,12,,55
-2020-09-24,El Paso,Texas,48141,23014,510,23014,500,,10
+2020-09-24,El Paso,Texas,48141,23207,510,23207,508,,2
 2020-09-24,Erath,Texas,48143,837,12,837,1,,11
 2020-09-24,Falls,Texas,48145,234,5,234,,,
 2020-09-24,Fannin,Texas,48147,667,14,667,2,,12
@@ -2846,7 +2846,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-09-24,Uvalde,Texas,48463,764,31,764,,,
 2020-09-24,Val Verde,Texas,48465,2153,100,2153,92,,8
 2020-09-24,Van Zandt,Texas,48467,675,26,585,23,90,3
-2020-09-24,Victoria,Texas,48469,4034,95,4034,94,,1
+2020-09-24,Victoria,Texas,48469,4048,95,4048,94,,1
 2020-09-24,Walker,Texas,48471,3690,56,3690,27,,29
 2020-09-24,Waller,Texas,48473,832,13,832,,,
 2020-09-24,Ward,Texas,48475,120,1,120,,,
@@ -2872,24 +2872,24 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-09-24,Carbon,Utah,49007,112,0,112,0,,
 2020-09-24,Daggett,Utah,49009,1,0,1,,,
 2020-09-24,Davis,Utah,49011,4817,28,,,,
-2020-09-24,Duchesne,Utah,49013,103,0,103,,,
+2020-09-24,Duchesne,Utah,49013,104,0,104,,,
 2020-09-24,Emery,Utah,49015,33,0,33,0,,
 2020-09-24,Garfield,Utah,49017,48,2,48,2,,0
 2020-09-24,Grand,Utah,49019,58,1,58,1,,
 2020-09-24,Iron,Utah,49021,726,2,726,2,,0
-2020-09-24,Juab,Utah,49023,124,1,124,1,,
+2020-09-24,Juab,Utah,49023,123,1,123,1,,
 2020-09-24,Kane,Utah,49025,75,1,75,1,,0
-2020-09-24,Millard,Utah,49027,174,0,174,0,,
+2020-09-24,Millard,Utah,49027,183,0,183,0,,
 2020-09-24,Morgan,Utah,49029,96,0,,,,
 2020-09-24,Piute,Utah,49031,7,0,7,0,,
 2020-09-24,Rich,Utah,49033,17,0,17,0,,
 2020-09-24,Salt Lake,Utah,49035,28996,249,25822,243,3174,6
 2020-09-24,San Juan,Utah,49037,693,29,,,,
-2020-09-24,Sanpete,Utah,49039,206,1,206,1,,
-2020-09-24,Sevier,Utah,49041,102,1,102,1,,
+2020-09-24,Sanpete,Utah,49039,208,1,208,1,,
+2020-09-24,Sevier,Utah,49041,103,1,103,1,,
 2020-09-24,Summit,Utah,49043,961,1,,,,
 2020-09-24,Tooele,Utah,49045,838,0,,,,
-2020-09-24,Uintah,Utah,49047,108,0,108,,,
+2020-09-24,Uintah,Utah,49047,109,0,109,,,
 2020-09-24,Unknown,Utah,,22,1,22,1,0,0
 2020-09-24,Utah,Utah,49049,16486,54,,,,
 2020-09-24,Wasatch,Utah,49051,724,7,,,,
@@ -2912,138 +2912,138 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-09-24,Windham,Vermont,50025,123,3,123,3,,
 2020-09-24,Windsor,Vermont,50027,84,2,84,2,,
 2020-09-24,Accomack,Virginia,51001,1169,19,,,,
-2020-09-24,Albemarle,Virginia,51003,1203,21,,,,
-2020-09-24,Alexandria city,Virginia,51510,3741,68,,,,
+2020-09-24,Albemarle,Virginia,51003,1215,21,,,,
+2020-09-24,Alexandria city,Virginia,51510,3761,69,,,,
 2020-09-24,Alleghany,Virginia,51005,77,4,,,,
 2020-09-24,Amelia,Virginia,51007,124,5,,,,
-2020-09-24,Amherst,Virginia,51009,381,4,,,,
-2020-09-24,Appomattox,Virginia,51011,208,3,,,,
-2020-09-24,Arlington,Virginia,51013,3877,148,,,,
-2020-09-24,Augusta,Virginia,51015,470,7,,,,
-2020-09-24,Bath,Virginia,51017,6,0,,,,
-2020-09-24,Bedford,Virginia,51019,718,12,,,,
+2020-09-24,Amherst,Virginia,51009,388,4,,,,
+2020-09-24,Appomattox,Virginia,51011,210,3,,,,
+2020-09-24,Arlington,Virginia,51013,3889,148,,,,
+2020-09-24,Augusta,Virginia,51015,474,7,,,,
+2020-09-24,Bath,Virginia,51017,7,0,,,,
+2020-09-24,Bedford,Virginia,51019,730,12,,,,
 2020-09-24,Bland,Virginia,51021,65,4,,,,
-2020-09-24,Botetourt,Virginia,51023,292,10,,,,
-2020-09-24,Bristol city,Virginia,51520,178,3,,,,
-2020-09-24,Brunswick,Virginia,51025,347,4,,,,
-2020-09-24,Buchanan,Virginia,51027,135,2,,,,
+2020-09-24,Botetourt,Virginia,51023,293,10,,,,
+2020-09-24,Bristol city,Virginia,51520,178,4,,,,
+2020-09-24,Brunswick,Virginia,51025,349,5,,,,
+2020-09-24,Buchanan,Virginia,51027,136,2,,,,
 2020-09-24,Buckingham,Virginia,51029,677,9,,,,
 2020-09-24,Buena Vista city,Virginia,51530,80,1,,,,
-2020-09-24,Campbell,Virginia,51031,422,4,,,,
-2020-09-24,Caroline,Virginia,51033,343,5,,,,
-2020-09-24,Carroll,Virginia,51035,488,23,,,,
-2020-09-24,Charles City,Virginia,51036,83,5,,,,
-2020-09-24,Charlotte,Virginia,51037,103,0,,,,
-2020-09-24,Charlottesville city,Virginia,51540,1105,28,,,,
-2020-09-24,Chesapeake city,Virginia,51550,4241,70,,,,
-2020-09-24,Chesterfield,Virginia,51041,5851,94,,,,
+2020-09-24,Campbell,Virginia,51031,435,4,,,,
+2020-09-24,Caroline,Virginia,51033,347,5,,,,
+2020-09-24,Carroll,Virginia,51035,489,24,,,,
+2020-09-24,Charles City,Virginia,51036,84,5,,,,
+2020-09-24,Charlotte,Virginia,51037,106,0,,,,
+2020-09-24,Charlottesville city,Virginia,51540,1119,28,,,,
+2020-09-24,Chesapeake city,Virginia,51550,4262,70,,,,
+2020-09-24,Chesterfield,Virginia,51041,5870,94,,,,
 2020-09-24,Clarke,Virginia,51043,93,0,,,,
-2020-09-24,Colonial Heights city,Virginia,51570,250,25,,,,
+2020-09-24,Colonial Heights city,Virginia,51570,251,25,,,,
 2020-09-24,Covington city,Virginia,51580,30,0,,,,
 2020-09-24,Craig,Virginia,51045,29,0,,,,
-2020-09-24,Culpeper,Virginia,51047,1184,16,,,,
+2020-09-24,Culpeper,Virginia,51047,1188,16,,,,
 2020-09-24,Cumberland,Virginia,51049,104,2,,,,
-2020-09-24,Danville city,Virginia,51590,843,26,,,,
-2020-09-24,Dickenson,Virginia,51051,93,1,,,,
-2020-09-24,Dinwiddie,Virginia,51053,373,11,,,,
-2020-09-24,Emporia city,Virginia,51595,250,26,,,,
-2020-09-24,Essex,Virginia,51057,173,2,,,,
-2020-09-24,Fairfax,Virginia,51059,20437,583,,,,
-2020-09-24,Fairfax city,Virginia,51600,134,7,,,,
-2020-09-24,Falls Church city,Virginia,51610,69,6,,,,
-2020-09-24,Fauquier,Virginia,51061,917,25,,,,
-2020-09-24,Floyd,Virginia,51063,197,8,,,,
-2020-09-24,Fluvanna,Virginia,51065,372,9,,,,
-2020-09-24,Franklin,Virginia,51067,325,3,,,,
-2020-09-24,Franklin city,Virginia,51620,397,9,,,,
-2020-09-24,Frederick,Virginia,51069,860,13,,,,
-2020-09-24,Fredericksburg city,Virginia,51630,531,5,,,,
+2020-09-24,Danville city,Virginia,51590,854,27,,,,
+2020-09-24,Dickenson,Virginia,51051,97,1,,,,
+2020-09-24,Dinwiddie,Virginia,51053,375,11,,,,
+2020-09-24,Emporia city,Virginia,51595,255,26,,,,
+2020-09-24,Essex,Virginia,51057,176,2,,,,
+2020-09-24,Fairfax,Virginia,51059,20504,583,,,,
+2020-09-24,Fairfax city,Virginia,51600,136,7,,,,
+2020-09-24,Falls Church city,Virginia,51610,70,6,,,,
+2020-09-24,Fauquier,Virginia,51061,920,25,,,,
+2020-09-24,Floyd,Virginia,51063,198,9,,,,
+2020-09-24,Fluvanna,Virginia,51065,374,9,,,,
+2020-09-24,Franklin,Virginia,51067,329,3,,,,
+2020-09-24,Franklin city,Virginia,51620,403,9,,,,
+2020-09-24,Frederick,Virginia,51069,865,13,,,,
+2020-09-24,Fredericksburg city,Virginia,51630,533,5,,,,
 2020-09-24,Galax city,Virginia,51640,413,30,,,,
-2020-09-24,Giles,Virginia,51071,85,0,,,,
-2020-09-24,Gloucester,Virginia,51073,230,2,,,,
-2020-09-24,Goochland,Virginia,51075,260,7,,,,
-2020-09-24,Grayson,Virginia,51077,307,10,,,,
-2020-09-24,Greene,Virginia,51079,212,3,,,,
-2020-09-24,Greensville,Virginia,51081,774,11,,,,
-2020-09-24,Halifax,Virginia,51083,332,6,,,,
-2020-09-24,Hampton city,Virginia,51650,1793,24,,,,
-2020-09-24,Hanover,Virginia,51085,1248,36,,,,
-2020-09-24,Harrisonburg city,Virginia,51660,2541,34,,,,
-2020-09-24,Henrico,Virginia,51087,5331,211,,,,
-2020-09-24,Henry,Virginia,51089,1025,20,,,,
+2020-09-24,Giles,Virginia,51071,88,0,,,,
+2020-09-24,Gloucester,Virginia,51073,234,2,,,,
+2020-09-24,Goochland,Virginia,51075,261,7,,,,
+2020-09-24,Grayson,Virginia,51077,307,12,,,,
+2020-09-24,Greene,Virginia,51079,213,3,,,,
+2020-09-24,Greensville,Virginia,51081,780,11,,,,
+2020-09-24,Halifax,Virginia,51083,336,6,,,,
+2020-09-24,Hampton city,Virginia,51650,1800,24,,,,
+2020-09-24,Hanover,Virginia,51085,1265,36,,,,
+2020-09-24,Harrisonburg city,Virginia,51660,2564,34,,,,
+2020-09-24,Henrico,Virginia,51087,5371,210,,,,
+2020-09-24,Henry,Virginia,51089,1035,20,,,,
 2020-09-24,Highland,Virginia,51091,6,0,,,,
-2020-09-24,Hopewell city,Virginia,51670,387,7,,,,
-2020-09-24,Isle of Wight,Virginia,51093,709,18,,,,
-2020-09-24,James City,Virginia,51095,838,20,,,,
-2020-09-24,King and Queen,Virginia,51097,71,1,,,,
+2020-09-24,Hopewell city,Virginia,51670,386,7,,,,
+2020-09-24,Isle of Wight,Virginia,51093,718,18,,,,
+2020-09-24,James City,Virginia,51095,839,20,,,,
+2020-09-24,King and Queen,Virginia,51097,72,1,,,,
 2020-09-24,King George,Virginia,51099,227,4,,,,
-2020-09-24,King William,Virginia,51101,154,2,,,,
-2020-09-24,Lancaster,Virginia,51103,140,0,,,,
-2020-09-24,Lee,Virginia,51105,262,7,,,,
-2020-09-24,Lexington city,Virginia,51678,59,1,,,,
-2020-09-24,Loudoun,Virginia,51107,6720,123,,,,
-2020-09-24,Louisa,Virginia,51109,281,6,,,,
-2020-09-24,Lunenburg,Virginia,51111,113,3,,,,
-2020-09-24,Lynchburg city,Virginia,51680,1336,12,,,,
-2020-09-24,Madison,Virginia,51113,103,3,,,,
-2020-09-24,Manassas city,Virginia,51683,1904,25,,,,
+2020-09-24,King William,Virginia,51101,155,2,,,,
+2020-09-24,Lancaster,Virginia,51103,141,0,,,,
+2020-09-24,Lee,Virginia,51105,263,7,,,,
+2020-09-24,Lexington city,Virginia,51678,71,1,,,,
+2020-09-24,Loudoun,Virginia,51107,6747,124,,,,
+2020-09-24,Louisa,Virginia,51109,286,6,,,,
+2020-09-24,Lunenburg,Virginia,51111,116,3,,,,
+2020-09-24,Lynchburg city,Virginia,51680,1355,12,,,,
+2020-09-24,Madison,Virginia,51113,106,3,,,,
+2020-09-24,Manassas city,Virginia,51683,1910,25,,,,
 2020-09-24,Manassas Park city,Virginia,51685,607,7,,,,
-2020-09-24,Martinsville city,Virginia,51690,378,15,,,,
-2020-09-24,Mathews,Virginia,51115,41,0,,,,
-2020-09-24,Mecklenburg,Virginia,51117,671,33,,,,
+2020-09-24,Martinsville city,Virginia,51690,379,16,,,,
+2020-09-24,Mathews,Virginia,51115,42,0,,,,
+2020-09-24,Mecklenburg,Virginia,51117,694,33,,,,
 2020-09-24,Middlesex,Virginia,51119,112,10,,,,
-2020-09-24,Montgomery,Virginia,51121,1783,4,,,,
-2020-09-24,Nelson,Virginia,51125,99,2,,,,
-2020-09-24,New Kent,Virginia,51127,183,2,,,,
-2020-09-24,Newport News city,Virginia,51700,2700,37,,,,
-2020-09-24,Norfolk city,Virginia,51710,4765,75,,,,
+2020-09-24,Montgomery,Virginia,51121,1818,4,,,,
+2020-09-24,Nelson,Virginia,51125,100,2,,,,
+2020-09-24,New Kent,Virginia,51127,184,3,,,,
+2020-09-24,Newport News city,Virginia,51700,2704,37,,,,
+2020-09-24,Norfolk city,Virginia,51710,4781,78,,,,
 2020-09-24,Northampton,Virginia,51131,305,31,,,,
 2020-09-24,Northumberland,Virginia,51133,147,6,,,,
 2020-09-24,Norton city,Virginia,51720,33,0,,,,
-2020-09-24,Nottoway,Virginia,51135,254,17,,,,
-2020-09-24,Orange,Virginia,51137,317,4,,,,
+2020-09-24,Nottoway,Virginia,51135,256,18,,,,
+2020-09-24,Orange,Virginia,51137,320,4,,,,
 2020-09-24,Page,Virginia,51139,389,29,,,,
-2020-09-24,Patrick,Virginia,51141,271,24,,,,
-2020-09-24,Petersburg city,Virginia,51730,726,29,,,,
-2020-09-24,Pittsylvania,Virginia,51143,969,9,,,,
+2020-09-24,Patrick,Virginia,51141,274,24,,,,
+2020-09-24,Petersburg city,Virginia,51730,732,29,,,,
+2020-09-24,Pittsylvania,Virginia,51143,976,9,,,,
 2020-09-24,Poquoson city,Virginia,51735,75,2,,,,
-2020-09-24,Portsmouth city,Virginia,51740,2534,58,,,,
-2020-09-24,Powhatan,Virginia,51145,219,5,,,,
-2020-09-24,Prince Edward,Virginia,51147,568,12,,,,
-2020-09-24,Prince George,Virginia,51149,774,5,,,,
-2020-09-24,Prince William,Virginia,51153,12215,201,,,,
-2020-09-24,Pulaski,Virginia,51155,220,5,,,,
-2020-09-24,Radford city,Virginia,51750,725,1,,,,
+2020-09-24,Portsmouth city,Virginia,51740,2539,58,,,,
+2020-09-24,Powhatan,Virginia,51145,220,5,,,,
+2020-09-24,Prince Edward,Virginia,51147,576,12,,,,
+2020-09-24,Prince George,Virginia,51149,782,5,,,,
+2020-09-24,Prince William,Virginia,51153,12250,202,,,,
+2020-09-24,Pulaski,Virginia,51155,225,5,,,,
+2020-09-24,Radford city,Virginia,51750,728,1,,,,
 2020-09-24,Rappahannock,Virginia,51157,64,2,,,,
-2020-09-24,Richmond,Virginia,51159,341,4,,,,
-2020-09-24,Richmond city,Virginia,51760,4551,60,,,,
-2020-09-24,Roanoke,Virginia,51161,806,7,,,,
-2020-09-24,Roanoke city,Virginia,51770,1621,23,,,,
+2020-09-24,Richmond,Virginia,51159,343,4,,,,
+2020-09-24,Richmond city,Virginia,51760,4578,61,,,,
+2020-09-24,Roanoke,Virginia,51161,824,7,,,,
+2020-09-24,Roanoke city,Virginia,51770,1640,23,,,,
 2020-09-24,Rockbridge,Virginia,51163,106,2,,,,
-2020-09-24,Rockingham,Virginia,51165,1390,21,,,,
-2020-09-24,Russell,Virginia,51167,242,5,,,,
-2020-09-24,Salem city,Virginia,51775,263,4,,,,
+2020-09-24,Rockingham,Virginia,51165,1403,21,,,,
+2020-09-24,Russell,Virginia,51167,246,5,,,,
+2020-09-24,Salem city,Virginia,51775,264,5,,,,
 2020-09-24,Scott,Virginia,51169,181,4,,,,
-2020-09-24,Shenandoah,Virginia,51171,801,58,,,,
-2020-09-24,Smyth,Virginia,51173,449,8,,,,
-2020-09-24,Southampton,Virginia,51175,744,22,,,,
-2020-09-24,Spotsylvania,Virginia,51177,2106,43,,,,
-2020-09-24,Stafford,Virginia,51179,1971,17,,,,
-2020-09-24,Staunton city,Virginia,51790,246,0,,,,
-2020-09-24,Suffolk city,Virginia,51800,1916,72,,,,
-2020-09-24,Surry,Virginia,51181,114,3,,,,
-2020-09-24,Sussex,Virginia,51183,419,10,,,,
-2020-09-24,Tazewell,Virginia,51185,278,2,,,,
-2020-09-24,Virginia Beach city,Virginia,51810,6689,83,,,,
+2020-09-24,Shenandoah,Virginia,51171,804,58,,,,
+2020-09-24,Smyth,Virginia,51173,454,9,,,,
+2020-09-24,Southampton,Virginia,51175,746,22,,,,
+2020-09-24,Spotsylvania,Virginia,51177,2119,44,,,,
+2020-09-24,Stafford,Virginia,51179,1984,18,,,,
+2020-09-24,Staunton city,Virginia,51790,250,0,,,,
+2020-09-24,Suffolk city,Virginia,51800,1928,72,,,,
+2020-09-24,Surry,Virginia,51181,118,3,,,,
+2020-09-24,Sussex,Virginia,51183,461,10,,,,
+2020-09-24,Tazewell,Virginia,51185,283,2,,,,
+2020-09-24,Virginia Beach city,Virginia,51810,6734,86,,,,
 2020-09-24,Warren,Virginia,51187,415,6,,,,
-2020-09-24,Washington,Virginia,51191,544,17,,,,
+2020-09-24,Washington,Virginia,51191,550,17,,,,
 2020-09-24,Waynesboro city,Virginia,51820,257,3,,,,
-2020-09-24,Westmoreland,Virginia,51193,266,3,,,,
-2020-09-24,Williamsburg city,Virginia,51830,177,7,,,,
-2020-09-24,Winchester city,Virginia,51840,490,4,,,,
-2020-09-24,Wise,Virginia,51195,393,8,,,,
-2020-09-24,Wythe,Virginia,51197,227,4,,,,
-2020-09-24,York,Virginia,51199,537,8,,,,
+2020-09-24,Westmoreland,Virginia,51193,269,3,,,,
+2020-09-24,Williamsburg city,Virginia,51830,178,7,,,,
+2020-09-24,Winchester city,Virginia,51840,494,4,,,,
+2020-09-24,Wise,Virginia,51195,398,9,,,,
+2020-09-24,Wythe,Virginia,51197,229,4,,,,
+2020-09-24,York,Virginia,51199,541,8,,,,
 2020-09-24,St. Croix,Virgin Islands,78010,475,6,475,6,,
 2020-09-24,St. John,Virgin Islands,78020,57,1,57,1,,
 2020-09-24,St. Thomas,Virgin Islands,78030,758,12,758,12,,
@@ -3087,61 +3087,61 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-09-24,Whatcom,Washington,53073,1312,52,1302,42,10,10
 2020-09-24,Whitman,Washington,53075,1184,0,1184,0,,
 2020-09-24,Yakima,Washington,53077,12179,270,12166,257,13,13
-2020-09-24,Barbour,West Virginia,54001,48,1,48,1,0,0
-2020-09-24,Berkeley,West Virginia,54003,952,13,911,13,41,0
-2020-09-24,Boone,West Virginia,54005,203,1,202,1,1,0
+2020-09-24,Barbour,West Virginia,54001,52,1,52,1,0,0
+2020-09-24,Berkeley,West Virginia,54003,968,13,925,13,43,0
+2020-09-24,Boone,West Virginia,54005,206,1,205,1,1,0
 2020-09-24,Braxton,West Virginia,54007,13,0,13,0,0,0
-2020-09-24,Brooke,West Virginia,54009,111,1,108,1,3,0
-2020-09-24,Cabell,West Virginia,54011,741,10,730,10,11,0
+2020-09-24,Brooke,West Virginia,54009,111,1,107,1,4,0
+2020-09-24,Cabell,West Virginia,54011,759,10,747,10,12,0
 2020-09-24,Calhoun,West Virginia,54013,25,0,23,0,2,0
-2020-09-24,Clay,West Virginia,54015,36,2,35,2,1,0
-2020-09-24,Doddridge,West Virginia,54017,18,0,18,0,0,0
-2020-09-24,Fayette,West Virginia,54019,580,11,575,11,5,0
-2020-09-24,Gilmer,West Virginia,54021,33,0,33,0,0,0
-2020-09-24,Grant,West Virginia,54023,152,7,151,7,1,0
-2020-09-24,Greenbrier,West Virginia,54025,124,3,123,3,1,0
+2020-09-24,Clay,West Virginia,54015,34,2,34,2,0,0
+2020-09-24,Doddridge,West Virginia,54017,19,0,19,0,0,0
+2020-09-24,Fayette,West Virginia,54019,583,13,578,13,5,0
+2020-09-24,Gilmer,West Virginia,54021,39,0,36,0,3,0
+2020-09-24,Grant,West Virginia,54023,156,7,151,7,5,0
+2020-09-24,Greenbrier,West Virginia,54025,125,3,124,3,1,0
 2020-09-24,Hampshire,West Virginia,54027,103,1,102,1,1,0
-2020-09-24,Hancock,West Virginia,54029,142,0,138,0,4,0
-2020-09-24,Hardy,West Virginia,54031,82,1,78,1,4,0
-2020-09-24,Harrison,West Virginia,54033,344,8,343,8,1,0
-2020-09-24,Jackson,West Virginia,54035,252,23,252,23,0,0
-2020-09-24,Jefferson,West Virginia,54037,425,4,417,4,8,0
-2020-09-24,Kanawha,West Virginia,54039,2415,72,2394,72,21,0
+2020-09-24,Hancock,West Virginia,54029,145,0,141,0,4,0
+2020-09-24,Hardy,West Virginia,54031,87,1,81,1,6,0
+2020-09-24,Harrison,West Virginia,54033,346,8,345,8,1,0
+2020-09-24,Jackson,West Virginia,54035,258,23,258,23,0,0
+2020-09-24,Jefferson,West Virginia,54037,427,4,419,4,8,0
+2020-09-24,Kanawha,West Virginia,54039,2468,74,2445,74,23,0
 2020-09-24,Lewis,West Virginia,54041,38,2,37,2,1,0
-2020-09-24,Lincoln,West Virginia,54043,157,2,156,2,1,0
-2020-09-24,Logan,West Virginia,54045,588,39,584,39,4,0
-2020-09-24,Marion,West Virginia,54049,259,3,250,3,9,0
-2020-09-24,Marshall,West Virginia,54051,163,1,157,1,6,0
-2020-09-24,Mason,West Virginia,54053,138,5,138,5,0,0
+2020-09-24,Lincoln,West Virginia,54043,157,2,157,2,0,0
+2020-09-24,Logan,West Virginia,54045,599,39,595,39,4,0
+2020-09-24,Marion,West Virginia,54049,261,3,252,3,9,0
+2020-09-24,Marshall,West Virginia,54051,162,1,156,1,6,0
+2020-09-24,Mason,West Virginia,54053,140,6,140,6,0,0
 2020-09-24,McDowell,West Virginia,54047,80,0,79,0,1,0
-2020-09-24,Mercer,West Virginia,54055,404,27,401,25,3,2
+2020-09-24,Mercer,West Virginia,54055,407,27,404,25,3,2
 2020-09-24,Mineral,West Virginia,54057,171,4,168,4,3,0
-2020-09-24,Mingo,West Virginia,54059,367,9,356,9,11,0
-2020-09-24,Monongalia,West Virginia,54061,1948,5,1858,5,90,0
+2020-09-24,Mingo,West Virginia,54059,366,9,352,9,14,0
+2020-09-24,Monongalia,West Virginia,54061,1959,5,1868,5,91,0
 2020-09-24,Monroe,West Virginia,54063,147,7,146,7,1,0
 2020-09-24,Morgan,West Virginia,54065,53,0,49,0,4,0
-2020-09-24,Nicholas,West Virginia,54067,96,3,86,3,10,0
-2020-09-24,Ohio,West Virginia,54069,359,6,353,6,6,0
+2020-09-24,Nicholas,West Virginia,54067,98,3,87,3,11,0
+2020-09-24,Ohio,West Virginia,54069,362,6,356,6,6,0
 2020-09-24,Pendleton,West Virginia,54071,52,1,49,1,3,0
-2020-09-24,Pleasants,West Virginia,54073,16,2,15,2,1,0
+2020-09-24,Pleasants,West Virginia,54073,16,3,15,3,1,0
 2020-09-24,Pocahontas,West Virginia,54075,59,0,48,0,11,0
-2020-09-24,Preston,West Virginia,54077,150,4,131,4,19,0
-2020-09-24,Putnam,West Virginia,54079,522,5,518,5,4,0
-2020-09-24,Raleigh,West Virginia,54081,487,8,471,8,16,0
-2020-09-24,Randolph,West Virginia,54083,237,1,230,1,7,0
+2020-09-24,Preston,West Virginia,54077,151,4,132,4,19,0
+2020-09-24,Putnam,West Virginia,54079,529,5,525,5,4,0
+2020-09-24,Raleigh,West Virginia,54081,497,8,479,8,18,0
+2020-09-24,Randolph,West Virginia,54083,240,1,233,1,7,0
 2020-09-24,Ritchie,West Virginia,54085,11,0,9,0,2,0
 2020-09-24,Roane,West Virginia,54087,49,2,49,2,0,0
-2020-09-24,Summers,West Virginia,54089,46,0,46,0,0,0
+2020-09-24,Summers,West Virginia,54089,47,0,47,0,0,0
 2020-09-24,Taylor,West Virginia,54091,120,6,119,6,1,0
 2020-09-24,Tucker,West Virginia,54093,17,0,17,0,0,0
 2020-09-24,Tyler,West Virginia,54095,15,0,15,0,0,0
-2020-09-24,Upshur,West Virginia,54097,63,0,62,0,1,0
-2020-09-24,Wayne,West Virginia,54099,367,10,364,10,3,0
+2020-09-24,Upshur,West Virginia,54097,64,0,62,0,2,0
+2020-09-24,Wayne,West Virginia,54099,381,10,378,10,3,0
 2020-09-24,Webster,West Virginia,54101,7,0,7,0,0,0
-2020-09-24,Wetzel,West Virginia,54103,50,0,49,0,1,0
+2020-09-24,Wetzel,West Virginia,54103,51,0,49,0,2,0
 2020-09-24,Wirt,West Virginia,54105,12,0,11,0,1,0
-2020-09-24,Wood,West Virginia,54107,354,6,336,6,18,0
-2020-09-24,Wyoming,West Virginia,54109,103,3,102,3,1,0
+2020-09-24,Wood,West Virginia,54107,356,6,337,6,19,0
+2020-09-24,Wyoming,West Virginia,54109,108,3,107,3,1,0
 2020-09-24,Adams,Wisconsin,55001,227,4,218,4,9,
 2020-09-24,Ashland,Wisconsin,55003,81,2,74,2,7,
 2020-09-24,Barron,Wisconsin,55005,446,4,425,4,21,
