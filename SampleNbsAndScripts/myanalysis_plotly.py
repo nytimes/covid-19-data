@@ -464,7 +464,7 @@ for index, s in interesting_states.iterrows():
     )
 
     fig.update_layout(
-        title = 'New cases, daily deaths, and 2-week Mortality for US',
+        title = s.state + ' State new cases, daily deaths, and 2-week mortality',
         plot_bgcolor = default_plot_color,
         xaxis_gridcolor = default_grid_color,
         yaxis_gridcolor = default_grid_color,
