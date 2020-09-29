@@ -67,30 +67,30 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-09-29,Wilcox,Alabama,01131,532,11,481,11,51,0
 2020-09-29,Winston,Alabama,01133,750,13,695,12,55,1
 2020-09-29,Aleutians East Borough,Alaska,02013,12,0,,0,,
-2020-09-29,Aleutians West Census Area,Alaska,02016,95,0,,0,,
-2020-09-29,Anchorage,Alaska,02020,4441,35,,35,,
-2020-09-29,Bethel Census Area,Alaska,02050,117,1,,1,,
+2020-09-29,Aleutians West Census Area,Alaska,02016,96,0,,0,,
+2020-09-29,Anchorage,Alaska,02020,4517,35,,35,,
+2020-09-29,Bethel Census Area,Alaska,02050,115,1,,1,,
 2020-09-29,Bristol Bay Borough,Alaska,02060,76,0,,,,
 2020-09-29,Denali Borough,Alaska,02068,11,0,,0,,
 2020-09-29,Dillingham Census Area,Alaska,02070,30,0,,0,,
-2020-09-29,Fairbanks North Star Borough,Alaska,02090,1161,11,,11,,
+2020-09-29,Fairbanks North Star Borough,Alaska,02090,1174,11,,11,,
 2020-09-29,Haines Borough,Alaska,02100,10,0,,0,,
-2020-09-29,Juneau City and Borough,Alaska,02110,372,0,,0,,
-2020-09-29,Kenai Peninsula Borough,Alaska,02122,621,1,,1,,
-2020-09-29,Ketchikan Gateway Borough,Alaska,02130,68,0,,0,,
+2020-09-29,Juneau City and Borough,Alaska,02110,373,0,,0,,
+2020-09-29,Kenai Peninsula Borough,Alaska,02122,624,1,,1,,
+2020-09-29,Ketchikan Gateway Borough,Alaska,02130,69,0,,0,,
 2020-09-29,Kodiak Island Borough,Alaska,02150,66,0,,0,,
 2020-09-29,Kusilvak Census Area,Alaska,02158,14,0,,0,,
 2020-09-29,Lake and Peninsula Borough,Alaska,02164,5,0,,,,
-2020-09-29,Matanuska-Susitna Borough,Alaska,02170,612,2,,2,,
+2020-09-29,Matanuska-Susitna Borough,Alaska,02170,631,2,,2,,
 2020-09-29,Nome Census Area,Alaska,02180,75,0,,0,,
-2020-09-29,North Slope Borough,Alaska,02185,129,0,,0,,
-2020-09-29,Northwest Arctic Borough,Alaska,02188,110,0,,0,,
+2020-09-29,North Slope Borough,Alaska,02185,136,0,,0,,
+2020-09-29,Northwest Arctic Borough,Alaska,02188,115,0,,0,,
 2020-09-29,Petersburg Borough,Alaska,02195,10,0,,0,,
 2020-09-29,Prince of Wales-Hyder Census Area,Alaska,02198,31,0,,0,,
-2020-09-29,Sitka City and Borough,Alaska,02220,63,0,,0,,
+2020-09-29,Sitka City and Borough,Alaska,02220,65,0,,0,,
 2020-09-29,Southeast Fairbanks Census Area,Alaska,02240,40,0,,0,,
-2020-09-29,Unknown,Alaska,,82,0,0,0,82,
-2020-09-29,Valdez-Cordova Census Area,Alaska,02261,124,0,,0,,
+2020-09-29,Unknown,Alaska,,79,0,0,0,79,
+2020-09-29,Valdez-Cordova Census Area,Alaska,02261,126,0,,0,,
 2020-09-29,Wrangell City and Borough,Alaska,02275,19,0,,0,,
 2020-09-29,Yukon-Koyukuk Census Area,Alaska,02290,83,2,,2,,
 2020-09-29,Apache,Arizona,04001,3528,165,,,,
@@ -193,7 +193,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-09-29,Contra Costa,California,06013,16793,207,16793,207,,
 2020-09-29,Del Norte,California,06015,143,1,143,1,,
 2020-09-29,El Dorado,California,06017,1144,4,1144,4,,
-2020-09-29,Fresno,California,06019,28517,382,28517,382,,
+2020-09-29,Fresno,California,06019,28517,390,28517,390,,
 2020-09-29,Glenn,California,06021,585,3,585,3,,
 2020-09-29,Humboldt,California,06023,508,8,508,8,,
 2020-09-29,Imperial,California,06025,11877,316,11877,316,,
@@ -213,10 +213,10 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-09-29,Monterey,California,06053,10050,73,10050,73,,
 2020-09-29,Napa,California,06055,1706,13,1706,13,,
 2020-09-29,Nevada,California,06057,540,7,540,7,,
-2020-09-29,Orange,California,06059,54912,1216,53448,1216,1464,
+2020-09-29,Orange,California,06059,55022,1249,53557,1249,1465,
 2020-09-29,Placer,California,06061,3596,45,3596,45,,
 2020-09-29,Plumas,California,06063,48,0,48,0,,
-2020-09-29,Riverside,California,06065,58932,1206,58932,1206,,
+2020-09-29,Riverside,California,06065,59173,1216,59173,1216,,
 2020-09-29,Sacramento,California,06067,22589,416,22589,416,,
 2020-09-29,San Benito,California,06069,1348,11,1348,11,,
 2020-09-29,San Bernardino,California,06071,54849,952,54849,952,,
@@ -226,7 +226,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-09-29,San Luis Obispo,California,06079,3612,31,3612,31,,
 2020-09-29,San Mateo,California,06081,9950,150,9950,150,,
 2020-09-29,Santa Barbara,California,06083,9133,113,9133,113,,
-2020-09-29,Santa Clara,California,06085,21241,315,21241,315,,
+2020-09-29,Santa Clara,California,06085,21294,319,21294,319,,
 2020-09-29,Santa Cruz,California,06087,2394,10,2394,10,,
 2020-09-29,Shasta,California,06089,883,17,883,17,,
 2020-09-29,Sierra,California,06091,6,0,6,0,,
@@ -248,7 +248,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-09-29,Archuleta,Colorado,08007,54,0,,,,
 2020-09-29,Baca,Colorado,08009,17,0,,,,
 2020-09-29,Bent,Colorado,08011,11,0,,,,
-2020-09-29,Boulder,Colorado,08013,4416,79,,79,,0
+2020-09-29,Boulder,Colorado,08013,4452,79,,79,,0
 2020-09-29,Broomfield,Colorado,08014,648,33,,,,
 2020-09-29,Chaffee,Colorado,08015,334,19,,,,
 2020-09-29,Cheyenne,Colorado,08017,14,0,,,,
@@ -555,43 +555,43 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-09-29,Maui,Hawaii,15009,490,9,,,,
 2020-09-29,Ada,Idaho,16001,12942,147,11816,141,1126,6
 2020-09-29,Adams,Idaho,16003,28,2,27,,1,
-2020-09-29,Bannock,Idaho,16005,1136,4,998,4,138,0
+2020-09-29,Bannock,Idaho,16005,1180,4,1027,4,153,0
 2020-09-29,Bear Lake,Idaho,16007,46,1,46,1,0,0
 2020-09-29,Benewah,Idaho,16009,142,3,142,3,0,0
-2020-09-29,Bingham,Idaho,16011,1016,10,917,10,99,0
+2020-09-29,Bingham,Idaho,16011,1038,10,935,10,103,0
 2020-09-29,Blaine,Idaho,16013,680,6,649,,31,
 2020-09-29,Boise,Idaho,16015,70,2,55,2,15,0
 2020-09-29,Bonner,Idaho,16017,332,0,306,0,26,0
 2020-09-29,Bonneville,Idaho,16019,2792,16,2241,,551,
 2020-09-29,Boundary,Idaho,16021,56,1,47,1,9,0
-2020-09-29,Butte,Idaho,16023,33,0,33,0,0,0
+2020-09-29,Butte,Idaho,16023,36,0,36,0,0,0
 2020-09-29,Camas,Idaho,16025,34,0,28,,6,
 2020-09-29,Canyon,Idaho,16027,8203,101,7688,,515,
-2020-09-29,Caribou,Idaho,16029,124,0,101,0,23,0
+2020-09-29,Caribou,Idaho,16029,126,0,103,0,23,0
 2020-09-29,Cassia,Idaho,16031,739,5,666,,73,
 2020-09-29,Clark,Idaho,16033,33,0,28,,5,
-2020-09-29,Clearwater,Idaho,16035,47,0,45,,2,
+2020-09-29,Clearwater,Idaho,16035,48,0,46,,2,
 2020-09-29,Custer,Idaho,16037,62,1,59,,3,
 2020-09-29,Elmore,Idaho,16039,352,3,266,3,86,0
-2020-09-29,Franklin,Idaho,16041,145,0,123,0,22,0
+2020-09-29,Franklin,Idaho,16041,151,0,129,0,22,0
 2020-09-29,Fremont,Idaho,16043,211,3,184,,27,
 2020-09-29,Gem,Idaho,16045,331,2,293,,38,
 2020-09-29,Gooding,Idaho,16047,287,0,240,,47,
-2020-09-29,Idaho,Idaho,16049,202,0,192,,10,
+2020-09-29,Idaho,Idaho,16049,204,0,192,,12,
 2020-09-29,Jefferson,Idaho,16051,590,2,489,,101,
 2020-09-29,Jerome,Idaho,16053,768,7,673,,95,
 2020-09-29,Kootenai,Idaho,16055,2688,34,2662,34,26,0
-2020-09-29,Latah,Idaho,16057,468,0,460,,8,
+2020-09-29,Latah,Idaho,16057,473,0,460,,13,
 2020-09-29,Lemhi,Idaho,16059,107,0,77,,30,
-2020-09-29,Lewis,Idaho,16061,22,0,22,,,
+2020-09-29,Lewis,Idaho,16061,34,0,34,,0,
 2020-09-29,Lincoln,Idaho,16063,92,0,72,,20,
 2020-09-29,Madison,Idaho,16065,820,1,647,,173,
 2020-09-29,Minidoka,Idaho,16067,702,8,638,,64,
-2020-09-29,Nez Perce,Idaho,16069,441,24,408,14,33,10
-2020-09-29,Oneida,Idaho,16071,27,0,24,0,3,0
+2020-09-29,Nez Perce,Idaho,16069,455,24,421,14,34,10
+2020-09-29,Oneida,Idaho,16071,28,0,25,0,3,0
 2020-09-29,Owyhee,Idaho,16073,329,5,299,,30,
 2020-09-29,Payette,Idaho,16075,880,8,769,,111,
-2020-09-29,Power,Idaho,16077,265,1,238,1,27,0
+2020-09-29,Power,Idaho,16077,272,1,243,1,29,0
 2020-09-29,Shoshone,Idaho,16079,213,18,213,18,0,0
 2020-09-29,Teton,Idaho,16081,174,0,154,,20,
 2020-09-29,Twin Falls,Idaho,16083,2301,38,2052,,249,
@@ -679,12 +679,12 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-09-29,Richland,Illinois,17159,217,6,217,6,,
 2020-09-29,Rock Island,Illinois,17161,3092,83,3092,83,,
 2020-09-29,Saline,Illinois,17165,350,4,350,4,,
-2020-09-29,Sangamon,Illinois,17167,2450,45,2450,45,,
+2020-09-29,Sangamon,Illinois,17167,2455,46,2455,46,,
 2020-09-29,Schuyler,Illinois,17169,50,0,50,0,,
 2020-09-29,Scott,Illinois,17171,79,0,79,0,,
 2020-09-29,Shelby,Illinois,17173,402,4,402,4,,
 2020-09-29,Stark,Illinois,17175,55,2,55,2,,
-2020-09-29,St. Clair,Illinois,17163,7426,190,7426,190,,
+2020-09-29,St. Clair,Illinois,17163,7490,191,7490,191,,
 2020-09-29,Stephenson,Illinois,17177,535,6,535,6,,
 2020-09-29,Tazewell,Illinois,17179,1806,27,1806,27,,
 2020-09-29,Union,Illinois,17181,520,24,520,24,,
@@ -835,7 +835,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-09-29,Hancock,Iowa,19081,198,2,198,2,,
 2020-09-29,Hardin,Iowa,19083,309,1,309,1,,
 2020-09-29,Harrison,Iowa,19085,256,3,256,3,,
-2020-09-29,Henry,Iowa,19087,771,4,771,4,,
+2020-09-29,Henry,Iowa,19087,770,4,770,4,,
 2020-09-29,Howard,Iowa,19089,192,7,192,7,,
 2020-09-29,Humboldt,Iowa,19091,192,3,192,3,,
 2020-09-29,Ida,Iowa,19093,128,1,128,1,,
@@ -843,32 +843,32 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-09-29,Jackson,Iowa,19097,356,3,356,3,,
 2020-09-29,Jasper,Iowa,19099,868,33,868,33,,
 2020-09-29,Jefferson,Iowa,19101,139,1,139,1,,
-2020-09-29,Johnson,Iowa,19103,5169,27,5169,27,,
+2020-09-29,Johnson,Iowa,19103,5169,28,5169,28,,
 2020-09-29,Jones,Iowa,19105,285,3,285,3,,
 2020-09-29,Keokuk,Iowa,19107,119,1,119,1,,
 2020-09-29,Kossuth,Iowa,19109,284,0,284,0,,
-2020-09-29,Lee,Iowa,19111,643,7,643,7,,
-2020-09-29,Linn,Iowa,19113,4124,114,4124,114,,
+2020-09-29,Lee,Iowa,19111,645,7,645,7,,
+2020-09-29,Linn,Iowa,19113,4123,114,4123,114,,
 2020-09-29,Louisa,Iowa,19115,434,15,434,15,,
 2020-09-29,Lucas,Iowa,19117,156,6,156,6,,
 2020-09-29,Lyon,Iowa,19119,366,4,366,4,,
 2020-09-29,Madison,Iowa,19121,231,2,231,2,,
-2020-09-29,Mahaska,Iowa,19123,424,19,424,19,,
+2020-09-29,Mahaska,Iowa,19123,424,20,424,20,,
 2020-09-29,Marion,Iowa,19125,769,7,769,7,,
 2020-09-29,Marshall,Iowa,19127,1792,34,1792,34,,
 2020-09-29,Mills,Iowa,19129,183,1,183,1,,
 2020-09-29,Mitchell,Iowa,19131,192,0,192,0,,
 2020-09-29,Monona,Iowa,19133,161,1,161,1,,
-2020-09-29,Monroe,Iowa,19135,161,11,161,11,,
+2020-09-29,Monroe,Iowa,19135,162,11,162,11,,
 2020-09-29,Montgomery,Iowa,19137,97,5,97,5,,
-2020-09-29,Muscatine,Iowa,19139,1122,55,1122,55,,
+2020-09-29,Muscatine,Iowa,19139,1123,55,1123,55,,
 2020-09-29,O'Brien,Iowa,19141,398,9,398,9,,
 2020-09-29,Osceola,Iowa,19143,171,0,171,0,,
-2020-09-29,Page,Iowa,19145,172,0,172,0,,
+2020-09-29,Page,Iowa,19145,174,0,174,0,,
 2020-09-29,Palo Alto,Iowa,19147,206,0,206,0,,
 2020-09-29,Plymouth,Iowa,19149,1175,21,1175,21,,
-2020-09-29,Pocahontas,Iowa,19151,165,2,165,2,,
-2020-09-29,Polk,Iowa,19153,16057,262,16057,262,,
+2020-09-29,Pocahontas,Iowa,19151,166,2,166,2,,
+2020-09-29,Polk,Iowa,19153,16059,262,16059,262,,
 2020-09-29,Pottawattamie,Iowa,19155,2166,39,2166,39,,
 2020-09-29,Poweshiek,Iowa,19157,311,8,311,8,,
 2020-09-29,Ringgold,Iowa,19159,53,2,53,2,,
@@ -882,11 +882,11 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-09-29,Union,Iowa,19175,141,3,141,3,,
 2020-09-29,Unknown,Iowa,,10,0,10,0,,
 2020-09-29,Van Buren,Iowa,19177,117,1,117,1,,
-2020-09-29,Wapello,Iowa,19179,1339,57,1339,57,,
+2020-09-29,Wapello,Iowa,19179,1340,57,1340,57,,
 2020-09-29,Warren,Iowa,19181,967,6,967,6,,
 2020-09-29,Washington,Iowa,19183,484,11,484,11,,
 2020-09-29,Wayne,Iowa,19185,87,2,87,2,,
-2020-09-29,Webster,Iowa,19187,1313,14,1313,14,,
+2020-09-29,Webster,Iowa,19187,1312,14,1312,14,,
 2020-09-29,Winnebago,Iowa,19189,322,13,322,13,,
 2020-09-29,Winneshiek,Iowa,19191,340,6,340,6,,
 2020-09-29,Woodbury,Iowa,19193,5565,67,5565,67,,
@@ -980,7 +980,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-09-29,Scott,Kansas,20171,126,1,112,1,14,
 2020-09-29,Sedgwick,Kansas,20173,9008,86,8547,86,461,
 2020-09-29,Seward,Kansas,20175,1699,5,1699,5,,
-2020-09-29,Shawnee,Kansas,20177,2765,32,2730,32,35,
+2020-09-29,Shawnee,Kansas,20177,2765,32,2747,32,18,
 2020-09-29,Sheridan,Kansas,20179,23,0,10,,13,
 2020-09-29,Sherman,Kansas,20181,35,0,35,,,
 2020-09-29,Smith,Kansas,20183,8,0,8,,0,
@@ -998,7 +998,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-09-29,Woodson,Kansas,20207,22,0,17,,5,
 2020-09-29,Wyandotte,Kansas,20209,7095,134,6825,134,270,
 2020-09-29,Adair,Kentucky,21001,321,19,321,19,,0
-2020-09-29,Allen,Kentucky,21003,351,9,,,,
+2020-09-29,Allen,Kentucky,21003,352,9,,,,
 2020-09-29,Anderson,Kentucky,21005,167,1,,,,
 2020-09-29,Ballard,Kentucky,21007,57,1,,,,
 2020-09-29,Barren,Kentucky,21009,790,13,767,13,23,0
@@ -1015,7 +1015,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-09-29,Butler,Kentucky,21031,356,16,356,16,,0
 2020-09-29,Caldwell,Kentucky,21033,161,0,,,,
 2020-09-29,Calloway,Kentucky,21035,608,8,,,,
-2020-09-29,Campbell,Kentucky,21037,884,19,756,18,128,1
+2020-09-29,Campbell,Kentucky,21037,886,19,756,18,130,1
 2020-09-29,Carlisle,Kentucky,21039,79,1,,,,
 2020-09-29,Carroll,Kentucky,21041,201,5,,,,
 2020-09-29,Carter,Kentucky,21043,196,3,,,,
@@ -1037,13 +1037,13 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-09-29,Fulton,Kentucky,21075,157,3,,,,
 2020-09-29,Gallatin,Kentucky,21077,99,8,,,,
 2020-09-29,Garrard,Kentucky,21079,164,3,,,,
-2020-09-29,Grant,Kentucky,21081,170,6,147,6,23,0
+2020-09-29,Grant,Kentucky,21081,171,6,147,6,24,0
 2020-09-29,Graves,Kentucky,21083,740,29,,,,
 2020-09-29,Grayson,Kentucky,21085,402,14,,,,
 2020-09-29,Green,Kentucky,21087,279,9,279,9,,
 2020-09-29,Greenup,Kentucky,21089,425,4,,,,
 2020-09-29,Hancock,Kentucky,21091,84,0,75,0,9,0
-2020-09-29,Hardin,Kentucky,21093,1334,12,1269,12,65,
+2020-09-29,Hardin,Kentucky,21093,1334,13,1287,13,47,
 2020-09-29,Harlan,Kentucky,21095,408,10,,,,
 2020-09-29,Harrison,Kentucky,21097,178,0,,,,
 2020-09-29,Hart,Kentucky,21099,192,1,192,1,,0
@@ -1058,7 +1058,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-09-29,Kenton,Kentucky,21117,2048,49,1815,43,233,6
 2020-09-29,Knott,Kentucky,21119,211,1,,,,
 2020-09-29,Knox,Kentucky,21121,497,9,,,,
-2020-09-29,Larue,Kentucky,21123,151,1,151,1,,0
+2020-09-29,Larue,Kentucky,21123,154,1,154,1,,0
 2020-09-29,Laurel,Kentucky,21125,936,6,,,,
 2020-09-29,Lawrence,Kentucky,21127,57,0,,,,
 2020-09-29,Lee,Kentucky,21129,17,0,,,,
@@ -1071,22 +1071,22 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-09-29,Lyon,Kentucky,21143,75,4,,,,
 2020-09-29,Madison,Kentucky,21151,1784,7,,,,
 2020-09-29,Magoffin,Kentucky,21153,92,0,,,,
-2020-09-29,Marion,Kentucky,21155,230,10,230,10,0,
+2020-09-29,Marion,Kentucky,21155,232,10,232,10,,
 2020-09-29,Marshall,Kentucky,21157,314,4,,,,
 2020-09-29,Martin,Kentucky,21159,80,3,,,,
 2020-09-29,Mason,Kentucky,21161,124,2,,,,
 2020-09-29,McCracken,Kentucky,21145,746,10,,,,
 2020-09-29,McCreary,Kentucky,21147,176,0,176,0,,0
 2020-09-29,McLean,Kentucky,21149,80,0,80,0,,0
-2020-09-29,Meade,Kentucky,21163,245,3,245,3,,0
+2020-09-29,Meade,Kentucky,21163,252,3,252,3,,0
 2020-09-29,Menifee,Kentucky,21165,49,0,,,,
 2020-09-29,Mercer,Kentucky,21167,248,2,,,,
 2020-09-29,Metcalfe,Kentucky,21169,124,2,124,2,,0
 2020-09-29,Monroe,Kentucky,21171,208,4,,,,
 2020-09-29,Montgomery,Kentucky,21173,285,3,,,,
 2020-09-29,Morgan,Kentucky,21175,63,0,,,,
-2020-09-29,Muhlenberg,Kentucky,21177,800,13,,12,,1
-2020-09-29,Nelson,Kentucky,21179,510,4,494,4,16,0
+2020-09-29,Muhlenberg,Kentucky,21177,805,13,,12,,1
+2020-09-29,Nelson,Kentucky,21179,510,4,504,4,6,0
 2020-09-29,Nicholas,Kentucky,21181,34,1,,,,
 2020-09-29,Ohio,Kentucky,21183,479,9,479,9,,0
 2020-09-29,Oldham,Kentucky,21185,1132,25,,,,
@@ -1261,7 +1261,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-09-29,Delta,Michigan,26041,496,8,435,8,61,0
 2020-09-29,Dickinson,Michigan,26043,159,2,156,2,3,0
 2020-09-29,Eaton,Michigan,26045,690,10,617,10,73,0
-2020-09-29,Emmet,Michigan,26047,159,4,145,4,14,0
+2020-09-29,Emmet,Michigan,26047,160,4,145,4,15,0
 2020-09-29,Genesee,Michigan,26049,4651,309,3841,283,810,26
 2020-09-29,Gladwin,Michigan,26051,100,2,90,2,10,0
 2020-09-29,Gogebic,Michigan,26053,164,2,151,1,13,1
@@ -1284,7 +1284,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-09-29,Lapeer,Michigan,26087,934,43,836,42,98,1
 2020-09-29,Leelanau,Michigan,26089,115,1,108,1,7,0
 2020-09-29,Lenawee,Michigan,26091,1544,22,1497,22,47,0
-2020-09-29,Livingston,Michigan,26093,1447,32,1221,31,226,1
+2020-09-29,Livingston,Michigan,26093,1457,32,1221,31,236,1
 2020-09-29,Luce,Michigan,26095,238,0,237,0,1,0
 2020-09-29,Mackinac,Michigan,26097,62,0,44,0,18,0
 2020-09-29,Macomb,Michigan,26099,14962,1028,14399,980,563,48
@@ -1306,7 +1306,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-09-29,Ontonagon,Michigan,26131,42,0,41,0,1,0
 2020-09-29,Osceola,Michigan,26133,97,0,85,0,12,0
 2020-09-29,Oscoda,Michigan,26135,31,1,24,1,7,0
-2020-09-29,Otsego,Michigan,26137,190,11,156,11,34,0
+2020-09-29,Otsego,Michigan,26137,191,11,156,11,35,0
 2020-09-29,Ottawa,Michigan,26139,3498,66,3334,61,164,5
 2020-09-29,Presque Isle,Michigan,26141,27,1,25,1,2,0
 2020-09-29,Roscommon,Michigan,26143,103,4,83,4,20,0
@@ -1557,7 +1557,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-09-29,Madison,Missouri,29123,312,1,312,1,,
 2020-09-29,Maries,Missouri,29125,84,0,84,0,,
 2020-09-29,Marion,Missouri,29127,671,14,671,14,,
-2020-09-29,McDonald,Missouri,29119,1148,12,1148,12,,
+2020-09-29,McDonald,Missouri,29119,1152,12,1152,12,,
 2020-09-29,Mercer,Missouri,29129,28,0,28,0,,
 2020-09-29,Miller,Missouri,29131,510,1,510,1,,
 2020-09-29,Mississippi,Missouri,29133,300,3,300,3,,
@@ -1577,7 +1577,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-09-29,Phelps,Missouri,29161,490,8,490,8,,
 2020-09-29,Pike,Missouri,29163,241,4,241,4,,
 2020-09-29,Platte,Missouri,29165,728,12,728,12,,
-2020-09-29,Polk,Missouri,29167,733,4,733,4,,
+2020-09-29,Polk,Missouri,29167,747,4,747,4,,
 2020-09-29,Pulaski,Missouri,29169,676,5,676,5,,
 2020-09-29,Putnam,Missouri,29171,33,1,33,1,,
 2020-09-29,Ralls,Missouri,29173,151,0,151,0,,
@@ -1591,7 +1591,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-09-29,Scott,Missouri,29201,891,17,891,17,,
 2020-09-29,Shannon,Missouri,29203,110,1,110,1,,
 2020-09-29,Shelby,Missouri,29205,68,1,68,1,,
-2020-09-29,St. Charles,Missouri,29183,7922,129,7922,129,,
+2020-09-29,St. Charles,Missouri,29183,7996,129,7996,129,,
 2020-09-29,St. Clair,Missouri,29185,76,0,76,0,,
 2020-09-29,Ste. Genevieve,Missouri,29186,203,1,203,1,,
 2020-09-29,St. Francois,Missouri,29187,2241,11,2241,11,,
@@ -1603,7 +1603,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-09-29,Taney,Missouri,29213,1219,31,1219,31,,
 2020-09-29,Texas,Missouri,29215,329,2,329,2,,
 2020-09-29,Vernon,Missouri,29217,187,1,187,1,,
-2020-09-29,Warren,Missouri,29219,515,1,515,1,,
+2020-09-29,Warren,Missouri,29219,525,1,525,1,,
 2020-09-29,Washington,Missouri,29221,430,10,430,10,,
 2020-09-29,Wayne,Missouri,29223,226,0,226,0,,
 2020-09-29,Webster,Missouri,29225,665,5,665,5,,
@@ -1685,7 +1685,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-09-29,Colfax,Nebraska,31037,786,5,786,5,,
 2020-09-29,Cuming,Nebraska,31039,152,0,152,0,,
 2020-09-29,Custer,Nebraska,31041,87,4,87,4,,
-2020-09-29,Dakota,Nebraska,31043,2237,44,2237,44,,
+2020-09-29,Dakota,Nebraska,31043,2243,44,2243,44,,
 2020-09-29,Dawes,Nebraska,31045,124,0,124,0,,
 2020-09-29,Dawson,Nebraska,31047,1086,12,1086,12,,
 2020-09-29,Deuel,Nebraska,31049,4,0,4,0,,
@@ -1750,7 +1750,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-09-29,Thayer,Nebraska,31169,31,0,31,0,,
 2020-09-29,Thomas,Nebraska,31171,4,0,4,0,,
 2020-09-29,Thurston,Nebraska,31173,260,4,260,4,,
-2020-09-29,Unknown,Nebraska,,127,0,127,,,
+2020-09-29,Unknown,Nebraska,,121,0,121,,,
 2020-09-29,Valley,Nebraska,31175,42,0,42,0,,
 2020-09-29,Washington,Nebraska,31177,274,4,274,4,,
 2020-09-29,Wayne,Nebraska,31179,161,0,161,0,,
@@ -1774,16 +1774,16 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-09-29,Washoe,Nevada,32031,9455,158,9455,158,,
 2020-09-29,White Pine,Nevada,32033,64,1,64,1,,
 2020-09-29,Belknap,New Hampshire,33001,148,4,148,4,,
-2020-09-29,Carroll,New Hampshire,33003,124,2,124,2,,
+2020-09-29,Carroll,New Hampshire,33003,123,2,123,2,,
 2020-09-29,Cheshire,New Hampshire,33005,151,3,151,3,,
 2020-09-29,Coos,New Hampshire,33007,22,0,22,0,,
 2020-09-29,Grafton,New Hampshire,33009,142,1,142,1,,
-2020-09-29,Hillsborough,New Hampshire,33011,4400,289,4400,289,,
-2020-09-29,Merrimack,New Hampshire,33013,587,23,587,23,,
-2020-09-29,Rockingham,New Hampshire,33015,2020,103,2020,103,,
-2020-09-29,Strafford,New Hampshire,33017,552,13,552,13,,
-2020-09-29,Sullivan,New Hampshire,33019,57,1,57,1,,
-2020-09-29,Unknown,New Hampshire,,5,0,5,0,,
+2020-09-29,Hillsborough,New Hampshire,33011,4408,289,4408,289,,
+2020-09-29,Merrimack,New Hampshire,33013,588,23,588,23,,
+2020-09-29,Rockingham,New Hampshire,33015,2033,103,2033,103,,
+2020-09-29,Strafford,New Hampshire,33017,557,13,557,13,,
+2020-09-29,Sullivan,New Hampshire,33019,58,1,58,1,,
+2020-09-29,Unknown,New Hampshire,,3,0,3,0,,
 2020-09-29,Atlantic,New Jersey,34001,4125,256,4114,245,11,11
 2020-09-29,Bergen,New Jersey,34003,22716,2047,22473,1804,243,243
 2020-09-29,Burlington,New Jersey,34005,7208,497,7169,458,39,39
@@ -1948,7 +1948,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-09-29,Hyde,North Carolina,37095,126,5,,,,
 2020-09-29,Iredell,North Carolina,37097,3098,32,,,,
 2020-09-29,Jackson,North Carolina,37099,659,7,,,,
-2020-09-29,Johnston,North Carolina,37101,4545,57,4287,57,258,0
+2020-09-29,Johnston,North Carolina,37101,4566,57,4308,57,258,0
 2020-09-29,Jones,North Carolina,37103,159,11,,,,
 2020-09-29,Lee,North Carolina,37105,1661,15,,,,
 2020-09-29,Lenoir,North Carolina,37107,1014,33,,,,
@@ -1957,7 +1957,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-09-29,Madison,North Carolina,37115,110,1,,,,
 2020-09-29,Martin,North Carolina,37117,461,9,,,,
 2020-09-29,McDowell,North Carolina,37111,1011,27,,,,
-2020-09-29,Mecklenburg,North Carolina,37119,28844,357,28671,357,173,
+2020-09-29,Mecklenburg,North Carolina,37119,28844,357,28756,357,88,
 2020-09-29,Mitchell,North Carolina,37121,159,3,,,,
 2020-09-29,Montgomery,North Carolina,37123,1052,30,,,,
 2020-09-29,Moore,North Carolina,37125,1703,29,,,,
@@ -1978,7 +1978,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-09-29,Robeson,North Carolina,37155,4565,76,3220,60,1345,16
 2020-09-29,Rockingham,North Carolina,37157,1286,14,,,,
 2020-09-29,Rowan,North Carolina,37159,3402,101,3374,101,28,
-2020-09-29,Rutherford,North Carolina,37161,1231,34,1204,34,27,
+2020-09-29,Rutherford,North Carolina,37161,1252,34,1252,34,,
 2020-09-29,Sampson,North Carolina,37163,2250,28,,,,
 2020-09-29,Scotland,North Carolina,37165,1174,13,,,,
 2020-09-29,Stanly,North Carolina,37167,1989,56,,,,
@@ -2250,7 +2250,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-09-29,Polk,Oregon,41053,532,15,507,,25,
 2020-09-29,Sherman,Oregon,41055,18,0,16,,2,
 2020-09-29,Tillamook,Oregon,41057,53,0,47,,6,
-2020-09-29,Umatilla,Oregon,41059,2988,41,2833,41,155,0
+2020-09-29,Umatilla,Oregon,41059,3004,41,2848,41,156,0
 2020-09-29,Union,Oregon,41061,446,2,415,,31,
 2020-09-29,Wallowa,Oregon,41063,31,1,30,,1,
 2020-09-29,Wasco,Oregon,41065,296,3,265,,31,
@@ -2650,7 +2650,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-09-29,Carson,Texas,48065,23,0,23,,,
 2020-09-29,Cass,Texas,48067,372,15,372,15,,0
 2020-09-29,Castro,Texas,48069,257,5,257,1,,4
-2020-09-29,Chambers,Texas,48071,1327,16,1327,16,,
+2020-09-29,Chambers,Texas,48071,1342,16,1342,16,,
 2020-09-29,Cherokee,Texas,48073,1547,30,1547,2,,28
 2020-09-29,Childress,Texas,48075,69,0,69,,,
 2020-09-29,Clay,Texas,48077,90,2,90,,,
@@ -2673,9 +2673,9 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-09-29,Dallam,Texas,48111,249,9,249,,,
 2020-09-29,Dallas,Texas,48113,85410,1124,81372,1021,4038,103
 2020-09-29,Dawson,Texas,48115,433,9,433,1,,8
-2020-09-29,Deaf Smith,Texas,48117,1090,22,1090,20,,2
+2020-09-29,Deaf Smith,Texas,48117,1103,22,1103,20,,2
 2020-09-29,Delta,Texas,48119,26,0,26,,,
-2020-09-29,Denton,Texas,48121,12058,152,12058,109,,43
+2020-09-29,Denton,Texas,48121,12148,152,12148,109,,43
 2020-09-29,DeWitt,Texas,48123,996,37,996,1,,36
 2020-09-29,Dickens,Texas,48125,49,2,49,,,
 2020-09-29,Dimmit,Texas,48127,256,7,256,,,
@@ -2709,17 +2709,17 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-09-29,Gregg,Texas,48183,2705,66,2241,38,464,28
 2020-09-29,Grimes,Texas,48185,1087,32,1087,1,,31
 2020-09-29,Guadalupe,Texas,48187,3560,76,3560,,,
-2020-09-29,Hale,Texas,48189,1880,58,1880,58,,
+2020-09-29,Hale,Texas,48189,1909,58,1909,58,,
 2020-09-29,Hall,Texas,48191,28,1,28,,,
 2020-09-29,Hamilton,Texas,48193,137,4,137,1,,3
 2020-09-29,Hansford,Texas,48195,114,4,114,2,,2
 2020-09-29,Hardeman,Texas,48197,25,0,25,0,,0
 2020-09-29,Hardin,Texas,48199,1342,30,1342,5,,25
-2020-09-29,Harris,Texas,48201,141707,2576,141707,1832,,744
-2020-09-29,Harrison,Texas,48203,896,35,896,35,,
+2020-09-29,Harris,Texas,48201,142315,2576,142315,1844,,732
+2020-09-29,Harrison,Texas,48203,897,35,897,35,,
 2020-09-29,Hartley,Texas,48205,130,2,130,2,,
 2020-09-29,Haskell,Texas,48207,65,2,65,,,
-2020-09-29,Hays,Texas,48209,5916,61,5916,54,,7
+2020-09-29,Hays,Texas,48209,5926,61,5926,55,,6
 2020-09-29,Hemphill,Texas,48211,73,0,73,,,
 2020-09-29,Henderson,Texas,48213,963,23,963,0,,23
 2020-09-29,Hidalgo,Texas,48215,31617,1661,31617,1661,,
@@ -2773,7 +2773,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-09-29,Matagorda,Texas,48321,1035,46,1035,5,,41
 2020-09-29,Maverick,Texas,48323,3712,124,3712,1,,123
 2020-09-29,McCulloch,Texas,48307,155,4,155,,,
-2020-09-29,McLennan,Texas,48309,8061,108,8061,108,,
+2020-09-29,McLennan,Texas,48309,8122,111,8122,111,,
 2020-09-29,McMullen,Texas,48311,24,1,24,,,
 2020-09-29,Medina,Texas,48325,1198,45,1198,2,,43
 2020-09-29,Menard,Texas,48327,26,0,26,,,
@@ -2782,7 +2782,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-09-29,Mills,Texas,48333,59,0,59,,,
 2020-09-29,Mitchell,Texas,48335,90,1,90,,,
 2020-09-29,Montague,Texas,48337,180,4,180,1,,3
-2020-09-29,Montgomery,Texas,48339,10912,158,10639,140,273,18
+2020-09-29,Montgomery,Texas,48339,10996,158,10639,140,357,18
 2020-09-29,Moore,Texas,48341,1174,22,1174,13,,9
 2020-09-29,Morris,Texas,48343,186,3,186,,,
 2020-09-29,Motley,Texas,48345,9,0,9,,,
@@ -2824,7 +2824,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-09-29,Shackelford,Texas,48417,25,0,25,,,
 2020-09-29,Shelby,Texas,48419,480,27,480,6,,21
 2020-09-29,Sherman,Texas,48421,63,0,63,,,
-2020-09-29,Smith,Texas,48423,4722,104,3813,62,909,42
+2020-09-29,Smith,Texas,48423,4763,104,3820,62,943,42
 2020-09-29,Somervell,Texas,48425,143,5,143,,,
 2020-09-29,Starr,Texas,48427,3742,164,3742,163,,1
 2020-09-29,Stephens,Texas,48429,134,4,134,,,
@@ -2845,7 +2845,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-09-29,Upshur,Texas,48459,389,10,389,,,
 2020-09-29,Upton,Texas,48461,25,2,25,,,
 2020-09-29,Uvalde,Texas,48463,785,34,785,,,
-2020-09-29,Val Verde,Texas,48465,2186,104,2186,100,,4
+2020-09-29,Val Verde,Texas,48465,2203,104,2203,100,,4
 2020-09-29,Van Zandt,Texas,48467,689,26,589,23,100,3
 2020-09-29,Victoria,Texas,48469,4076,96,4076,94,,2
 2020-09-29,Walker,Texas,48471,3709,57,3709,27,,30
@@ -2855,7 +2855,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-09-29,Webb,Texas,48479,13884,297,13884,297,,
 2020-09-29,Wharton,Texas,48481,1364,52,1364,,,
 2020-09-29,Wheeler,Texas,48483,48,0,48,,,
-2020-09-29,Wichita,Texas,48485,1797,24,1797,2,,22
+2020-09-29,Wichita,Texas,48485,1839,24,1839,2,,22
 2020-09-29,Wilbarger,Texas,48487,188,2,188,,,
 2020-09-29,Willacy,Texas,48489,1213,49,1213,1,,48
 2020-09-29,Williamson,Texas,48491,8818,143,8624,142,194,1
@@ -2866,7 +2866,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-09-29,Yoakum,Texas,48501,224,5,224,,,
 2020-09-29,Young,Texas,48503,314,6,314,1,,5
 2020-09-29,Zapata,Texas,48505,333,6,333,,,
-2020-09-29,Zavala,Texas,48507,367,16,367,10,,6
+2020-09-29,Zavala,Texas,48507,388,16,388,10,,6
 2020-09-29,Beaver,Utah,49001,38,0,38,0,,
 2020-09-29,Box Elder,Utah,49003,570,5,570,5,,
 2020-09-29,Cache,Utah,49005,2762,6,2762,6,,
@@ -3078,13 +3078,13 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-09-29,San Juan,Washington,53055,30,0,30,0,,
 2020-09-29,Skagit,Washington,53057,1108,24,1107,23,1,1
 2020-09-29,Skamania,Washington,53059,65,1,65,1,,
-2020-09-29,Snohomish,Washington,53061,8100,223,6975,211,1125,12
+2020-09-29,Snohomish,Washington,53061,8127,223,7002,211,1125,12
 2020-09-29,Spokane,Washington,53063,6996,170,6993,167,3,3
 2020-09-29,Stevens,Washington,53065,167,2,167,2,,
 2020-09-29,Thurston,Washington,53067,1230,18,1229,17,1,1
 2020-09-29,Unknown,Washington,,2,2,0,0,2,2
 2020-09-29,Wahkiakum,Washington,53069,6,0,6,0,,
-2020-09-29,Walla Walla,Washington,53071,907,7,906,6,1,1
+2020-09-29,Walla Walla,Washington,53071,909,7,908,6,1,1
 2020-09-29,Whatcom,Washington,53073,1355,52,1345,42,10,10
 2020-09-29,Whitman,Washington,53075,1312,0,1312,0,,
 2020-09-29,Yakima,Washington,53077,12279,271,12266,258,13,13
@@ -3202,7 +3202,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-09-29,Sawyer,Wisconsin,55113,219,1,219,1,0,
 2020-09-29,Shawano,Wisconsin,55115,974,1,968,1,6,
 2020-09-29,Sheboygan,Wisconsin,55117,1799,16,1799,16,,
-2020-09-29,St. Croix,Wisconsin,55109,1011,8,974,8,37,
+2020-09-29,St. Croix,Wisconsin,55109,1011,8,992,8,19,
 2020-09-29,Taylor,Wisconsin,55119,197,4,194,4,3,
 2020-09-29,Trempealeau,Wisconsin,55121,675,2,656,2,19,
 2020-09-29,Unknown,Wisconsin,,0,10,,,,
