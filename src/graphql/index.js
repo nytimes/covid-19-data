@@ -1,15 +1,15 @@
-const { ApolloServer, gql } = require("apollo-server");
-const { GraphQLScalarType } = require("graphql");
-const { Kind } = require("graphql/language");
+const { ApolloServer, gql } = require('apollo-server');
+const { GraphQLScalarType } = require('graphql');
+const { Kind } = require('graphql/language');
 
 const states = [
   {
-    title: "The Awakening",
-    author: "Kate Chopin",
+    title: 'The Awakening',
+    author: 'Kate Chopin',
   },
   {
-    title: "City of Glass",
-    author: "Paul Auster",
+    title: 'City of Glass',
+    author: 'Paul Auster',
   },
 ];
 
@@ -60,8 +60,8 @@ const typeDefs = gql`
 
 const resolvers = {
   Date: new GraphQLScalarType({
-    name: "Date",
-    description: "Date custom scalar type",
+    name: 'Date',
+    description: 'Date custom scalar type',
     parseValue(value) {
       return new Date(value); // value from the client
     },
