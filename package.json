@@ -1,0 +1,25 @@
+{
+  "name": "covid-19-data",
+  "version": "1.0.0",
+  "description": "Fork of NYT Covid data repo with additional graphql and data processing for visualization purposes",
+  "main": "src/graphql/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/graphql/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rkdavidson/covid-19-data.git"
+  },
+  "author": "Ryan K. Davidson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rkdavidson/covid-19-data/issues"
+  },
+  "homepage": "https://github.com/rkdavidson/covid-19-data#readme",
+  "dependencies": {
+    "apollo-server": "^2.18.2",
+    "graphql": "^15.3.0",
+    "nodemon": "^2.0.6"
+  }
+}
