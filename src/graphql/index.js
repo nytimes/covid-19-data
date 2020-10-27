@@ -2,7 +2,6 @@ const { ApolloServer, gql } = require('apollo-server');
 const chalk = require('chalk');
 const { Kind } = require('graphql/language');
 
-const DateType = require('./types/Date');
 const { schema } = require('./schema');
 
 // const typeDefs = gql`
@@ -73,31 +72,31 @@ const { schema } = require('./schema');
 //   }
 // `;
 
-const resolvers = {
-  Date: DateType,
-  Query: {
-    states: () => states,
-    state: () => states,
-    statsForDateRange: (obj, args, context, info) => {
-      console.log('[rkd] (obj, args, context, info):', (obj, args, context, info));
+// const resolvers = {
+//   Date: DateType,
+//   Query: {
+//     states: () => states,
+//     state: () => states,
+//     statsForDateRange: (obj, args, context, info) => {
+//       console.log('[rkd] (obj, args, context, info):', (obj, args, context, info));
 
-      return [null];
-    },
-  },
-  Location: {
-    __resolveType(location, context, info) {
-      if (location.counties) {
-        return 'State';
-      }
+//       return [null];
+//     },
+//   },
+//   Location: {
+//     __resolveType(location, context, info) {
+//       if (location.counties) {
+//         return 'State';
+//       }
 
-      if (location.state) {
-        return 'County';
-      }
+//       if (location.state) {
+//         return 'County';
+//       }
 
-      return null;
-    },
-  },
-};
+//       return null;
+//     },
+//   },
+// };
 
 // The ApolloServer constructor requires two parameters: your schema
 // definition and your set of resolvers.

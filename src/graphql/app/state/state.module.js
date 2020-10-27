@@ -3,14 +3,16 @@ const gql = require('graphql-tag');
 module.exports = {
   typeDefs: gql`
     extend type Query {
-      rkd: String
-      start: Date
+      rkd2: String
+      start2: Date
+      start3: Date
     }
   `,
   resolvers: {
     Query: {
-      rkd: () => 'RKD!',
-      start: () => new Date(),
+      rkd2: () => 'RKD!',
+      start2: () => new Date(),
+      start3: () => new Date(),
     },
   },
 };

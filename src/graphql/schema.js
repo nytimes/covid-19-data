@@ -2,17 +2,20 @@ const { makeExecutableSchema } = require('apollo-server');
 const gql = require('graphql-tag');
 const chalk = require('chalk');
 
+const ScalarTypes = require('./scalarTypes');
 const Schemas = require('./app');
 
 const rootSchema = {
-  typeDefs: gql`
-    type Query {
-      _empty: String
-    }
-  `,
-  resolvers: {
-    Query: {
-      _empty: () => null,
+  _Root: {
+    typeDefs: gql`
+      type Query {
+        _empty: String
+      }
+    `,
+    resolvers: {
+      Query: {
+        _empty: () => null,
+      },
     },
   },
 };
@@ -24,24 +27,32 @@ const logTitle = (num) =>
     )
   );
 
-function combineSchemas(rootSchema, schemas) {
-  const typeDefs = [rootSchema.typeDefs];
-  const resolvers = [rootSchema.resolvers];
-  const schemasLength = Object.keys(schemas).length;
+const logListItem = (index, length, name, schema) =>
+  console.log(
+    `  ${index === length - 1 ? '└' : '├'}─ ${chalk.cyan(name)} ` +
+      chalk.dim.gray(`▸ queries: ${Object.keys(schema.resolvers?.Query || {}).length}`)
+  );
 
-  logTitle(schemasLength);
+function combineSchemas(schemasArray) {
+  const schemas = schemasArray.map((schema) => Object.entries(schema)).flat();
 
-  for (let schema in schemas) {
-    console.log(`  • ${chalk.cyan(schema)}`);
-    const schemaModule = schemas[schema];
+  let index = 0;
+  const combined = schemas.reduce(
+    (output, [name, schema]) => {
+      if (schema.appModule) logListItem(index, schemas.length, name, schema);
+      if (schema.typeDefs) output.typeDefs.push(schema.typeDefs);
+      if (schema.resolvers) output.resolvers.push(schema.resolvers);
+      index++;
+      return output;
+    },
+    { typeDefs: [], resolvers: [] }
+  );
 
-    if (schemaModule.typeDefs) typeDefs.push(schemaModule.typeDefs);
-    if (schemaModule.resolvers) resolvers.push(schemaModule.resolvers);
-  }
-
-  return makeExecutableSchema({ typeDefs, resolvers });
+  return makeExecutableSchema(combined);
 }
 
+logTitle(Object.keys(Schemas).length);
+
 module.exports = {
-  schema: combineSchemas(rootSchema, Schemas),
+  schema: combineSchemas([rootSchema, ScalarTypes, Schemas]),
 };
