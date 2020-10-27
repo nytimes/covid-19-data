@@ -5,6 +5,25 @@ const chalk = require('chalk');
 const ScalarTypes = require('./scalarTypes');
 const Schemas = require('./app');
 
+// ---
+
+const logTitle = (num) =>
+  console.log(
+    chalk.bold.yellow(
+      `\nCombining ${chalk.bold.gray('(' + num + ')')} app module${num === 1 ? '' : 's'}...`
+    )
+  );
+
+const logListItem = (index, length, name, schema) =>
+  console.log(
+    `  ${index === length - 1 ? '└' : '├'}─ ${chalk.yellow(name)} `.padEnd(42) +
+      chalk.dim.gray('| ') +
+      chalk.cyan('•'.repeat(Object.keys(schema.resolvers?.Query || {}).length)) +
+      chalk.magenta('•'.repeat(Object.keys(schema.resolvers?.Mutation || {}).length))
+  );
+
+// ---
+
 const rootSchema = {
   _Root: {
     typeDefs: gql`
@@ -19,19 +38,6 @@ const rootSchema = {
     },
   },
 };
-
-const logTitle = (num) =>
-  console.log(
-    chalk.bold.cyan(
-      `\nCombining ${chalk.bold.gray('(' + num + ')')} app module${num === 1 ? '' : 's'}...`
-    )
-  );
-
-const logListItem = (index, length, name, schema) =>
-  console.log(
-    `  ${index === length - 1 ? '└' : '├'}─ ${chalk.cyan(name)} ` +
-      chalk.dim.gray(`▸ queries: ${Object.keys(schema.resolvers?.Query || {}).length}`)
-  );
 
 function combineSchemas(schemasArray) {
   const schemas = schemasArray.map((schema) => Object.entries(schema)).flat();
