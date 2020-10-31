@@ -1,8 +1,7 @@
-const { ApolloServer, gql } = require('apollo-server');
+const { ApolloServer } = require('apollo-server');
 const chalk = require('chalk');
-const { Kind } = require('graphql/language');
 
-const { schema } = require('./schema');
+const { makeAppSchema } = require('./schema');
 
 // const typeDefs = gql`
 //   scalar Date
@@ -98,9 +97,9 @@ const { schema } = require('./schema');
 //   },
 // };
 
-// The ApolloServer constructor requires two parameters: your schema
-// definition and your set of resolvers.
-const server = new ApolloServer({ schema });
+const server = new ApolloServer({
+  schema: makeAppSchema({ enableLogging: true }),
+});
 
 server.listen().then(({ url }) => {
   console.log(`\n🚀  Server ready at ${chalk.blue.underline(url)}`);
