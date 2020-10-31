@@ -31,7 +31,6 @@ module.exports = {
   resolvers: {
     Query: {
       statsForDateRange: (obj, args, context, info) => {
-        console.log('[rkd] statsForDateRange()');
         return {};
       },
     },
