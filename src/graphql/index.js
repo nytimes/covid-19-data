@@ -1,6 +1,9 @@
 const { ApolloServer } = require('apollo-server');
 const chalk = require('chalk');
 
+const line = '-------------------------------------------------------';
+console.log(chalk.bold.green(`n${line}\nLaunching server\n${line}`));
+
 const { makeAppSchema } = require('./schema');
 
 // const typeDefs = gql`
