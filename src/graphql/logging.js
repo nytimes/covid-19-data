@@ -43,9 +43,9 @@ function applyLogging(resolver) {
         stackSplit
           .map((stackLine) => {
             return stackLine
-              .replace(atRegex, ($1) => chalk.dim.red($1) + chalk.reset())
-              .replace(pathInParensRegex, ($1) => chalk.dim.red($1) + chalk.reset())
-              .replace(pathRegex, ($1) => chalk.dim.red($1) + chalk.reset());
+              .replace(atRegex, ($1) => chalk.dim.gray($1) + chalk.reset())
+              .replace(pathInParensRegex, ($1) => chalk.dim.gray($1) + chalk.reset())
+              .replace(pathRegex, ($1) => chalk.dim.gray($1) + chalk.reset());
           })
           .join('\n')
       );
