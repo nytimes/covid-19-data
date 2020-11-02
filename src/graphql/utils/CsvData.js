@@ -147,7 +147,7 @@ class CsvData {
       throw new Error('Number of row values and columns are different');
     }
 
-    // Return an object where keys are column names, values are cell values
+    // Gather key/value pairs for relevant columns
     const entries = row
       .map((value, index) => {
         const colName = this.getColumnName(index);
@@ -172,15 +172,14 @@ class CsvData {
 
     const rowObject = Object.fromEntries(entries);
 
+    // Derive dynamic columns
     if (this.derivedColumns?.length) {
       this.derivedColumns.forEach(({ name, valueCreator }) => {
         let shouldDerive = true;
 
         if (includeColumns?.length) {
           shouldDerive = includeColumns.includes(name);
-        }
-
-        if (excludeColumns?.length) {
+        } else if (excludeColumns?.length) {
           shouldDerive = !excludeColumns.includes(name);
         }
 
