@@ -1,4 +1,4 @@
-state,date,cases,cases_cumulative,deaths,deaths_cumulative
+name:String,date:Date,cases:Int,cases_cumulative:Int,deaths:Int,deaths_cumulative:Int
 Washington,2020-01-21,1,1,0,0
 Washington,2020-01-22,0,1,0,0
 Washington,2020-01-23,0,1,0,0

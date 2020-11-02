@@ -2,9 +2,23 @@ const fs = require('fs');
 const path = require('path');
 const chalk = require('chalk');
 
+// :: Utilities that need a better home
+// ✂️ ------------------------------------------------
+const COLUMN_VALUE_PARSERS = {
+  Unknown: (value) => value,
+  String: (value) => value.toString(),
+  Int: (value) => parseInt(value, 10),
+  Date: (value) => new Date(value),
+};
+
 const logPrefix = '[CsvData] ';
 const log = {
-  title: (value) => console.log(chalk.magenta(logPrefix) + chalk.magentaBright(value)),
+  title: (value) => console.log(chalk.magenta(logPrefix) + chalk.magenta.bold(value)),
+  tableHeader: (label, length) => {
+    console.log();
+    console.log(chalk.magentaBright(label), chalk.magenta(`(${length})`));
+    console.log(chalk.dim.magenta('='.repeat(40)));
+  },
   value: (...args) => console.log(chalk.magenta.dim('--> ') + chalk.magenta(...args)),
 };
 
@@ -13,6 +27,7 @@ const toCamel = (string) => {
     return $1.toUpperCase().replace('-', '').replace('_', '');
   });
 };
+
 const arrayToObject = (array, valueSetter) =>
   Object.fromEntries(
     array.map((item, index) => [item, valueSetter ? valueSetter(item, index) : index])
@@ -24,13 +39,13 @@ const swapObjectKeysAndValues = (object) =>
 const splitRows = (rows) => rows.split('\r\n');
 const splitCols = (row) => Object.freeze(row.split(','));
 const splitCsv = (csv) => splitRows(csv).map(splitCols);
+// ✂️ ------------------------------------------------
 
 class CsvData {
-  constructor({ csvFile, idExtractor, renameColumns }) {
+  constructor({ csvFile, idExtractor }) {
     console.log(chalk.magenta.bold('new CsvData()'), csvFile);
     this.csvFile = csvFile;
     this.idExtractor = idExtractor;
-    this.renameColumns = renameColumns;
 
     this.readFile();
   }
@@ -38,24 +53,60 @@ class CsvData {
   readFile() {
     const fullCsvPath = path.join(process.cwd(), this.csvFile);
 
-    console.log(chalk.bold.magenta('readCsv()'));
+    log.title('readCsv()');
     const csv = fs.readFileSync(fullCsvPath, { encoding: 'utf-8' });
 
     const allRows = splitCsv(csv);
-    const headerRow = allRows.shift().map((columnName) => {
-      const columnNameClean = toCamel(columnName);
 
-      if (!!this.renameColumns) {
-        return this.renameColumns[columnNameClean] || columnNameClean;
-      }
-    });
-    this.cols = arrayToObject(headerRow);
+    // Process header row/columns
+    const { colNames, colTypes, colValueParsers } = allRows.shift().reduce(
+      (output, headerCellValue) => {
+        const [colName, colType = 'Unknown'] = headerCellValue.split(':');
+
+        // Process column name
+        const colNameClean = toCamel(colName);
+        output.colNames.push(
+          (!!this.renameColumns && this.renameColumns[colNameClean]) || colNameClean
+        );
+
+        // Process column type
+        const colValueParser = COLUMN_VALUE_PARSERS[colType];
+        if (colType === 'Unknown' || !colValueParser) {
+          console.log(chalk.yellow(`⚠️  [CsvData] Unknown column type in "${headerCellValue}"`));
+        }
+        output.colTypes.push(colType);
+        output.colValueParsers.push(colValueParser);
+
+        return output;
+      },
+      { colNames: [], colTypes: [], colValueParsers: [] }
+    );
+
+    this.cols = arrayToObject(colNames);
     this.colIndexes = swapObjectKeysAndValues(this.cols);
-    this.rows = Object.freeze(allRows);
+    this.colValueParsers = colValueParsers;
+    this.rows = Object.freeze(
+      allRows.map((row) => row.map((cellValue, index) => this.colValueParsers[index](cellValue)))
+    );
 
-    console.log('this.cols:', this.cols);
-    console.log('total rows: ', this.rows.length);
+    // Log column definitions ---
+    log.tableHeader('Columns', colNames.length);
+    const longestColName = colNames.reduce((longest, current) => {
+      return current.length > longest.length ? current : longest;
+    }, '');
+    colNames.forEach((colName, index) => {
+      const separator = chalk.dim.magenta(' | ');
+      const paddedColName = colName.padEnd(longestColName.length + 2, ' ');
 
+      log.value(
+        [index, paddedColName, colTypes[index]]
+          .map((string) => chalk.magentaBright(string))
+          .join(separator)
+      );
+    });
+
+    log.tableHeader('Rows', this.rows.length);
+    log.value(this.rows[0]);
     // // Generate a dict of column values for faster searching later
     // this.colValues = arrayToObject(headerRow, () => []);
     // this.rows.forEach((row, rowIndex) => {
