@@ -26,10 +26,11 @@ const splitCols = (row) => Object.freeze(row.split(','));
 const splitCsv = (csv) => splitRows(csv).map(splitCols);
 
 class CsvData {
-  constructor({ csvFile, idExtractor }) {
+  constructor({ csvFile, idExtractor, renameColumns }) {
     console.log(chalk.magenta.bold('new CsvData()'), csvFile);
     this.csvFile = csvFile;
     this.idExtractor = idExtractor;
+    this.renameColumns = renameColumns;
 
     this.readFile();
   }
@@ -41,7 +42,13 @@ class CsvData {
     const csv = fs.readFileSync(fullCsvPath, { encoding: 'utf-8' });
 
     const allRows = splitCsv(csv);
-    const headerRow = allRows.shift().map(toCamel);
+    const headerRow = allRows.shift().map((columnName) => {
+      const columnNameClean = toCamel(columnName);
+
+      if (!!this.renameColumns) {
+        return this.renameColumns[columnNameClean] || columnNameClean;
+      }
+    });
     this.cols = arrayToObject(headerRow);
     this.colIndexes = swapObjectKeysAndValues(this.cols);
     this.rows = Object.freeze(allRows);
@@ -49,19 +56,19 @@ class CsvData {
     console.log('this.cols:', this.cols);
     console.log('total rows: ', this.rows.length);
 
-    // Generate a dict of column values for faster searching later
-    this.colValues = arrayToObject(headerRow, () => []);
-    this.rows.forEach((row, rowIndex) => {
-      row.forEach((value, index) => {
-        const colName = headerRow[index];
-        this.colValues[colName].push({ index: rowIndex, value });
-      });
-    });
+    // // Generate a dict of column values for faster searching later
+    // this.colValues = arrayToObject(headerRow, () => []);
+    // this.rows.forEach((row, rowIndex) => {
+    //   row.forEach((value, index) => {
+    //     const colName = headerRow[index];
+    //     this.colValues[colName].push({ index: rowIndex, value });
+    //   });
+    // });
   }
 
-  getObjectIdEntry = (row) => {
-    return ['id', this.idExtractor((colNameOrIndex) => this.getCell(row, colNameOrIndex))];
-  };
+  getRowId(row) {
+    return this.idExtractor((colNameOrIndex) => this.getCell(row, colNameOrIndex));
+  }
 
   getColumnName(index) {
     return this.colIndexes[index];
@@ -85,17 +92,37 @@ class CsvData {
     return row[col];
   }
 
-  getObjectFromRow(row) {
+  getObjectFromRow(row, { appendId = true, includeColumns, excludeColumns } = {}) {
     if (row.length !== Object.keys(this.cols).length) {
       throw new Error('Number of row values and columns are different');
     }
 
     // Return an object where keys are column names, values are cell values
-    return Object.fromEntries(
-      [this.getObjectIdEntry(row)].concat(
-        row.map((value, index) => [this.getColumnName(index), value])
-      )
-    );
+    const entries = row
+      .map((value, index) => {
+        const colName = this.getColumnName(index);
+        const entry = [colName, value];
+
+        if (includeColumns?.length) {
+          return includeColumns.includes(colName) ? entry : null;
+        }
+
+        if (excludeColumns?.length) {
+          return !excludeColumns.includes(colName) ? entry : null;
+        }
+
+        return entry;
+      })
+      .filter((entry) => !!entry);
+
+    if (appendId) {
+      entries.unshift(['id', this.getRowId(row)]);
+    }
+
+    const rowObject = Object.fromEntries(entries);
+
+    console.log('[rkd] 🔸 rowObject:', rowObject);
+    return rowObject;
   }
 
   getObjectsFromRows(rows) {
@@ -103,19 +130,25 @@ class CsvData {
   }
 
   // Find rows that match a given column value
-  filterByColumn(colName, value, { limit } = {}) {
+  filterByColumn(colName, value, { limit, reverseSort = false } = {}) {
     log.title('filterByColumn');
     log.value('colName:', chalk.green(`"${colName}"`));
     log.value('value:', chalk.green(`"${value}"`));
-    log.value('limit:', chalk.yellow(limit));
+    log.value('options.limit:', chalk.yellow(limit));
+    log.value('options.reverseSort:', chalk.yellow(reverseSort));
     const output = [];
+    const isLimitReached = () => limit >= 1 && output.length >= limit;
 
-    for (let rowIndex = 0; rowIndex < this.rows.length; rowIndex++) {
+    for (
+      let rowIndex = reverseSort ? this.rows.length - 1 : 0;
+      reverseSort ? rowIndex > 0 : rowIndex < this.rows.length;
+      reverseSort ? rowIndex-- : rowIndex++
+    ) {
       if (this.getCell(rowIndex, this.cols[colName]) === value) {
         output.push(this.getRow(rowIndex));
       }
 
-      if (limit >= 1 && output.length >= limit) {
+      if (isLimitReached()) {
         break;
       }
     }

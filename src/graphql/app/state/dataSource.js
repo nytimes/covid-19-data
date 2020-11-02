@@ -5,8 +5,11 @@ const CsvData = require('../../utils/CsvData');
 
 const states = new CsvData({
   csvFile: 'processed/us-states.csv',
+  renameColumns: {
+    state: 'name',
+  },
   idExtractor: (getCell) => {
-    return getCell('state').toLowerCase().replace(' ', '-');
+    return getCell('name').toLowerCase().replace(' ', '-');
   },
 });
 
