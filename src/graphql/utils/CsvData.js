@@ -143,7 +143,10 @@ class CsvData {
     return row[col];
   }
 
-  getObjectFromRow(row, { appendId = true, includeColumns, excludeColumns } = {}) {
+  getObjectFromRow(
+    row,
+    { appendId = true, includeColumns, excludeColumns, renameColumns = {} } = {}
+  ) {
     if (row.length !== Object.keys(this.cols).length) {
       throw new Error('Number of row values and columns are different');
     }
@@ -152,7 +155,9 @@ class CsvData {
     const entries = row
       .map((value, index) => {
         const colName = this.getColumnName(index);
-        const entry = [colName, value];
+        const colRenamed = renameColumns[colName] || colName;
+        console.log('[rkd] colRenamed:', colRenamed);
+        const entry = [colRenamed, value];
 
         if (includeColumns?.length) {
           return includeColumns.includes(colName) ? entry : null;

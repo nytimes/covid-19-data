@@ -4,6 +4,9 @@ const State = {
   createFromRow(row) {
     return dataSource.getObjectFromRow(row, {
       includeColumns: ['name', 'date', 'casesCumulative', 'deathsCumulative'],
+      renameColumns: {
+        date: 'mostRecentDataDate',
+      },
     });
   },
   // deriveStatesFromRows(rows) {

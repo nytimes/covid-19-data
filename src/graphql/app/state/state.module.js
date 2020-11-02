@@ -7,6 +7,9 @@ module.exports = {
       id: ID!
       name: String!
       population: Int
+      mostRecentDataDate: Date
+      casesCumulative: Int
+      deathsCumulative: Int
       # counties: [County]
     }
 
@@ -29,9 +32,8 @@ module.exports = {
   `,
   resolvers: {
     Query: {
-      state: (obj, args, context, info) => State.findOne(args),
-      states: (obj, args, context, info) => State.query(args),
+      state: (root, args, context, info) => State.findOne(args),
+      states: (root, args, context, info) => State.query(args),
     },
-    DateRangeStats: {},
   },
 };
