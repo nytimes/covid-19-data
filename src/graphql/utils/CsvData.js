@@ -11,9 +11,9 @@ const COLUMN_VALUE_PARSERS = {
   Date: (value) => new Date(value),
 };
 
-const logPrefix = '[CsvData] ';
+const logPrefix = '[CsvData]';
 const log = {
-  title: (value) => console.log(chalk.magenta(logPrefix) + chalk.magenta.bold(value)),
+  title: (value) => console.log(chalk.magenta(logPrefix), chalk.magenta.bold(value)),
   tableHeader: (label, length) => {
     console.log();
     console.log(chalk.magentaBright(label), chalk.magenta(`(${length})`));
@@ -39,13 +39,19 @@ const swapObjectKeysAndValues = (object) =>
 const splitRows = (rows) => rows.split('\r\n');
 const splitCols = (row) => Object.freeze(row.split(','));
 const splitCsv = (csv) => splitRows(csv).map(splitCols);
-// ✂️ ------------------------------------------------
+
+// ✂️ --------------------------------------------------------------------------------------
 
 class CsvData {
-  constructor({ csvFile, idExtractor }) {
-    console.log(chalk.magenta.bold('new CsvData()'), csvFile);
+  constructor({ csvFile, rowIdExtractor, derivedColumns = [] }) {
+    console.log(
+      chalk.white.bold.bgMagenta(logPrefix),
+      chalk.magenta.bold('new CsvData()'),
+      chalk.green(`"${csvFile}"`)
+    );
     this.csvFile = csvFile;
-    this.idExtractor = idExtractor;
+    this.rowIdExtractor = rowIdExtractor;
+    this.derivedColumns = derivedColumns;
 
     this.readFile();
   }
@@ -107,18 +113,11 @@ class CsvData {
 
     log.tableHeader('Rows', this.rows.length);
     log.value(this.rows[0]);
-    // // Generate a dict of column values for faster searching later
-    // this.colValues = arrayToObject(headerRow, () => []);
-    // this.rows.forEach((row, rowIndex) => {
-    //   row.forEach((value, index) => {
-    //     const colName = headerRow[index];
-    //     this.colValues[colName].push({ index: rowIndex, value });
-    //   });
-    // });
+    console.log('');
   }
 
   getRowId(row) {
-    return this.idExtractor((colNameOrIndex) => this.getCell(row, colNameOrIndex));
+    return this.rowIdExtractor((colNameOrIndex) => this.getCell(row, colNameOrIndex));
   }
 
   getColumnName(index) {
@@ -143,10 +142,7 @@ class CsvData {
     return row[col];
   }
 
-  getObjectFromRow(
-    row,
-    { appendId = true, includeColumns, excludeColumns, renameColumns = {} } = {}
-  ) {
+  getObjectFromRow(row, { appendId = true, includeColumns, excludeColumns, renameColumns } = {}) {
     if (row.length !== Object.keys(this.cols).length) {
       throw new Error('Number of row values and columns are different');
     }
@@ -155,8 +151,7 @@ class CsvData {
     const entries = row
       .map((value, index) => {
         const colName = this.getColumnName(index);
-        const colRenamed = renameColumns[colName] || colName;
-        console.log('[rkd] colRenamed:', colRenamed);
+        const colRenamed = (renameColumns && renameColumns[colName]) || colName;
         const entry = [colRenamed, value];
 
         if (includeColumns?.length) {
@@ -176,6 +171,24 @@ class CsvData {
     }
 
     const rowObject = Object.fromEntries(entries);
+
+    if (this.derivedColumns?.length) {
+      this.derivedColumns.forEach(({ name, valueCreator }) => {
+        let shouldDerive = true;
+
+        if (includeColumns?.length) {
+          shouldDerive = includeColumns.includes(name);
+        }
+
+        if (excludeColumns?.length) {
+          shouldDerive = !excludeColumns.includes(name);
+        }
+
+        if (shouldDerive) {
+          rowObject[name] = valueCreator(rowObject);
+        }
+      });
+    }
 
     console.log('[rkd] 🔸 rowObject:', rowObject);
     return rowObject;

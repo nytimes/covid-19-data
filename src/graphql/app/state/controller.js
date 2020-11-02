@@ -3,7 +3,7 @@ const dataSource = require('./dataSource');
 const State = {
   createFromRow(row) {
     return dataSource.getObjectFromRow(row, {
-      includeColumns: ['name', 'date', 'casesCumulative', 'deathsCumulative'],
+      includeColumns: ['name', 'population', 'date', 'casesCumulative', 'deathsCumulative'],
       renameColumns: {
         date: 'mostRecentDataDate',
       },
