@@ -102,7 +102,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-11-18,Greenlee,Arizona,04011,142,2,,,,
 2020-11-18,La Paz,Arizona,04012,707,18,,,,
 2020-11-18,Maricopa,Arizona,04013,181920,3837,,3835,,2
-2020-11-18,Mohave,Arizona,04015,5271,246,5031,230,240,16
+2020-11-18,Mohave,Arizona,04015,5271,246,5089,230,182,16
 2020-11-18,Navajo,Arizona,04017,7295,263,,,,
 2020-11-18,Pima,Arizona,04019,33822,674,,,,
 2020-11-18,Pinal,Arizona,04021,14154,246,,,,
@@ -196,7 +196,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-11-18,El Dorado,California,06017,1758,4,1758,4,,
 2020-11-18,Fresno,California,06019,34858,463,34858,463,,
 2020-11-18,Glenn,California,06021,795,6,795,6,,
-2020-11-18,Humboldt,California,06023,695,9,695,9,,
+2020-11-18,Humboldt,California,06023,699,9,699,9,,
 2020-11-18,Imperial,California,06025,14431,352,14431,352,,
 2020-11-18,Inyo,California,06027,263,16,263,16,,
 2020-11-18,Kern,California,06029,37323,437,37323,437,,
@@ -204,45 +204,45 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-11-18,Lake,California,06033,792,18,792,18,,
 2020-11-18,Lassen,California,06035,1214,2,1214,2,,
 2020-11-18,Los Angeles,California,06037,344607,7299,344523,7299,84,
-2020-11-18,Madera,California,06039,5561,76,5561,76,,
+2020-11-18,Madera,California,06039,5602,79,5602,79,,
 2020-11-18,Marin,California,06041,7467,128,7467,128,,
-2020-11-18,Mariposa,California,06043,92,2,92,2,,
-2020-11-18,Mendocino,California,06045,1311,22,1311,22,,
-2020-11-18,Merced,California,06047,10662,174,10662,174,,
+2020-11-18,Mariposa,California,06043,93,2,93,2,,
+2020-11-18,Mendocino,California,06045,1318,22,1318,22,,
+2020-11-18,Merced,California,06047,10749,175,10749,175,,
 2020-11-18,Modoc,California,06049,71,0,71,0,,
 2020-11-18,Mono,California,06051,493,2,493,2,,
 2020-11-18,Monterey,California,06053,13280,111,13280,111,,
 2020-11-18,Napa,California,06055,2591,17,2591,17,,
-2020-11-18,Nevada,California,06057,929,9,929,9,,
+2020-11-18,Nevada,California,06057,934,9,934,9,,
 2020-11-18,Orange,California,06059,68816,1528,66585,1528,2231,
 2020-11-18,Placer,California,06061,5543,65,5543,65,,
 2020-11-18,Plumas,California,06063,142,0,142,0,,
 2020-11-18,Riverside,California,06065,77636,1383,77636,1383,,
 2020-11-18,Sacramento,California,06067,31851,536,31851,536,,
-2020-11-18,San Benito,California,06069,1643,15,1643,15,,
+2020-11-18,San Benito,California,06069,1652,15,1652,15,,
 2020-11-18,San Bernardino,California,06071,78298,1118,78298,1118,,
-2020-11-18,San Diego,California,06073,66384,933,66384,933,,
+2020-11-18,San Diego,California,06073,67304,945,67304,945,,
 2020-11-18,San Francisco,California,06075,13955,156,13955,156,,
 2020-11-18,San Joaquin,California,06077,24335,505,24335,505,,
 2020-11-18,San Luis Obispo,California,06079,5400,34,5400,34,,
 2020-11-18,San Mateo,California,06081,12780,168,12780,168,,
-2020-11-18,Santa Barbara,California,06083,10612,133,10612,133,,
+2020-11-18,Santa Barbara,California,06083,10702,133,10702,133,,
 2020-11-18,Santa Clara,California,06085,29297,454,29297,454,,
 2020-11-18,Santa Cruz,California,06087,3628,27,3628,27,,
 2020-11-18,Shasta,California,06089,3483,36,3483,36,,
 2020-11-18,Sierra,California,06091,11,0,11,0,,
-2020-11-18,Siskiyou,California,06093,429,1,429,1,,
+2020-11-18,Siskiyou,California,06093,436,1,436,1,,
 2020-11-18,Solano,California,06095,9166,80,9166,80,,
 2020-11-18,Sonoma,California,06097,11133,150,11133,150,,
-2020-11-18,Stanislaus,California,06099,20610,413,19510,413,1100,
-2020-11-18,Sutter,California,06101,2456,13,2456,13,,
+2020-11-18,Stanislaus,California,06099,20776,413,19658,413,1118,
+2020-11-18,Sutter,California,06101,2521,13,2521,13,,
 2020-11-18,Tehama,California,06103,1290,19,1290,19,,
 2020-11-18,Trinity,California,06105,84,0,84,0,,
 2020-11-18,Tulare,California,06107,19461,301,19461,301,,
-2020-11-18,Tuolumne,California,06109,615,8,615,8,,
-2020-11-18,Ventura,California,06111,16797,173,16797,173,,
-2020-11-18,Yolo,California,06113,3892,70,3892,70,,
-2020-11-18,Yuba,California,06115,1643,10,1643,10,,
+2020-11-18,Tuolumne,California,06109,648,8,648,8,,
+2020-11-18,Ventura,California,06111,17014,173,17014,173,,
+2020-11-18,Yolo,California,06113,3933,71,3933,71,,
+2020-11-18,Yuba,California,06115,1665,10,1665,10,,
 2020-11-18,Adams,Colorado,08001,23832,294,,,,
 2020-11-18,Alamosa,Colorado,08003,472,11,,,,
 2020-11-18,Arapahoe,Colorado,08005,21540,420,,,,
@@ -259,9 +259,9 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-11-18,Crowley,Colorado,08025,711,1,,,,
 2020-11-18,Custer,Colorado,08027,53,0,,,,
 2020-11-18,Delta,Colorado,08029,393,7,,,,
-2020-11-18,Denver,Colorado,08031,29423,491,29229,491,194,
+2020-11-18,Denver,Colorado,08031,30082,492,30082,492,,
 2020-11-18,Dolores,Colorado,08033,4,0,,,,
-2020-11-18,Douglas,Colorado,08035,7952,91,,,,
+2020-11-18,Douglas,Colorado,08035,7950,91,,,,
 2020-11-18,Eagle,Colorado,08037,1968,11,,,,
 2020-11-18,Elbert,Colorado,08039,431,4,,,,
 2020-11-18,El Paso,Colorado,08041,19849,232,,,,
@@ -549,55 +549,55 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-11-18,Wilkes,Georgia,13317,411,7,349,7,62,0
 2020-11-18,Wilkinson,Georgia,13319,424,18,401,18,23,0
 2020-11-18,Worth,Georgia,13321,701,36,622,35,79,1
-2020-11-18,Unknown,Guam,,7203,101,7090,101,113,0
+2020-11-18,Unknown,Guam,,7315,101,7194,101,121,0
 2020-11-18,Hawaii,Hawaii,15001,1497,32,,,,
 2020-11-18,Honolulu,Hawaii,15003,14523,173,,,,
 2020-11-18,Kauai,Hawaii,15007,83,0,,,,
 2020-11-18,Maui,Hawaii,15009,714,17,,,,
-2020-11-18,Ada,Idaho,16001,22032,215,19121,206,2911,9
-2020-11-18,Adams,Idaho,16003,86,2,72,,14,
-2020-11-18,Bannock,Idaho,16005,3568,25,2309,25,1259,0
-2020-11-18,Bear Lake,Idaho,16007,143,1,128,1,15,0
-2020-11-18,Benewah,Idaho,16009,228,3,223,3,5,0
-2020-11-18,Bingham,Idaho,16011,2265,28,1584,28,681,
-2020-11-18,Blaine,Idaho,16013,1117,7,1045,,72,
-2020-11-18,Boise,Idaho,16015,116,2,88,2,28,0
-2020-11-18,Bonner,Idaho,16017,784,3,697,3,87,
-2020-11-18,Bonneville,Idaho,16019,6384,54,4883,,1501,
-2020-11-18,Boundary,Idaho,16021,297,1,131,1,166,0
-2020-11-18,Butte,Idaho,16023,113,0,98,0,15,0
+2020-11-18,Ada,Idaho,16001,22316,215,19384,206,2932,9
+2020-11-18,Adams,Idaho,16003,88,2,74,,14,
+2020-11-18,Bannock,Idaho,16005,3648,25,2351,25,1297,0
+2020-11-18,Bear Lake,Idaho,16007,153,1,134,1,19,0
+2020-11-18,Benewah,Idaho,16009,230,3,223,3,7,0
+2020-11-18,Bingham,Idaho,16011,2315,28,1616,28,699,
+2020-11-18,Blaine,Idaho,16013,1151,7,1080,,71,
+2020-11-18,Boise,Idaho,16015,119,2,91,2,28,0
+2020-11-18,Bonner,Idaho,16017,807,4,702,4,105,
+2020-11-18,Bonneville,Idaho,16019,6551,54,4969,,1582,
+2020-11-18,Boundary,Idaho,16021,305,1,135,1,170,0
+2020-11-18,Butte,Idaho,16023,117,0,101,0,16,0
 2020-11-18,Camas,Idaho,16025,51,0,39,,12,
-2020-11-18,Canyon,Idaho,16027,12874,132,11692,,1182,
-2020-11-18,Caribou,Idaho,16029,389,8,255,8,134,0
-2020-11-18,Cassia,Idaho,16031,1902,15,1747,,155,
+2020-11-18,Canyon,Idaho,16027,13054,132,11865,,1189,
+2020-11-18,Caribou,Idaho,16029,393,8,256,8,137,0
+2020-11-18,Cassia,Idaho,16031,1927,15,1768,,159,
 2020-11-18,Clark,Idaho,16033,47,0,39,,8,
-2020-11-18,Clearwater,Idaho,16035,327,0,297,,30,
-2020-11-18,Custer,Idaho,16037,122,1,111,,11,
-2020-11-18,Elmore,Idaho,16039,763,5,538,5,225,0
-2020-11-18,Franklin,Idaho,16041,539,4,430,4,109,0
-2020-11-18,Fremont,Idaho,16043,635,7,582,,53,
-2020-11-18,Gem,Idaho,16045,651,5,542,,109,
-2020-11-18,Gooding,Idaho,16047,845,8,622,,223,
+2020-11-18,Clearwater,Idaho,16035,329,0,301,,28,
+2020-11-18,Custer,Idaho,16037,125,1,114,,11,
+2020-11-18,Elmore,Idaho,16039,783,5,560,5,223,0
+2020-11-18,Franklin,Idaho,16041,564,4,438,4,126,0
+2020-11-18,Fremont,Idaho,16043,642,7,585,,57,
+2020-11-18,Gem,Idaho,16045,676,5,563,,113,
+2020-11-18,Gooding,Idaho,16047,864,8,636,,228,
 2020-11-18,Idaho,Idaho,16049,584,5,540,5,44,0
-2020-11-18,Jefferson,Idaho,16051,1325,6,1030,,295,
-2020-11-18,Jerome,Idaho,16053,1668,11,1406,,262,
-2020-11-18,Kootenai,Idaho,16055,6124,63,5616,62,508,1
-2020-11-18,Latah,Idaho,16057,1484,1,1415,1,69,0
-2020-11-18,Lemhi,Idaho,16059,400,6,358,,42,
-2020-11-18,Lewis,Idaho,16061,157,3,145,3,12,0
-2020-11-18,Lincoln,Idaho,16063,318,8,263,,55,
-2020-11-18,Madison,Idaho,16065,3518,7,3116,,402,
-2020-11-18,Minidoka,Idaho,16067,1565,13,1422,,143,
-2020-11-18,Nez Perce,Idaho,16069,1942,27,1766,18,176,9
-2020-11-18,Oneida,Idaho,16071,108,0,93,0,15,0
-2020-11-18,Owyhee,Idaho,16073,508,5,462,,46,
-2020-11-18,Payette,Idaho,16075,1397,13,1191,,206,
-2020-11-18,Power,Idaho,16077,428,3,349,2,79,1
-2020-11-18,Shoshone,Idaho,16079,420,22,411,21,9,1
-2020-11-18,Teton,Idaho,16081,456,2,371,,85,
-2020-11-18,Twin Falls,Idaho,16083,5996,73,5020,,976,
-2020-11-18,Valley,Idaho,16085,202,1,166,1,36,0
-2020-11-18,Washington,Idaho,16087,624,9,527,,97,
+2020-11-18,Jefferson,Idaho,16051,1355,10,1051,,304,
+2020-11-18,Jerome,Idaho,16053,1698,11,1428,,270,
+2020-11-18,Kootenai,Idaho,16055,6279,66,5698,65,581,1
+2020-11-18,Latah,Idaho,16057,1486,1,1417,1,69,0
+2020-11-18,Lemhi,Idaho,16059,407,7,358,,49,
+2020-11-18,Lewis,Idaho,16061,158,3,145,3,13,0
+2020-11-18,Lincoln,Idaho,16063,324,8,267,,57,
+2020-11-18,Madison,Idaho,16065,3590,7,3160,,430,
+2020-11-18,Minidoka,Idaho,16067,1586,13,1437,,149,
+2020-11-18,Nez Perce,Idaho,16069,1942,27,1774,18,168,9
+2020-11-18,Oneida,Idaho,16071,110,0,95,0,15,0
+2020-11-18,Owyhee,Idaho,16073,527,5,481,,46,
+2020-11-18,Payette,Idaho,16075,1417,13,1207,,210,
+2020-11-18,Power,Idaho,16077,430,4,349,3,81,1
+2020-11-18,Shoshone,Idaho,16079,430,22,417,21,13,1
+2020-11-18,Teton,Idaho,16081,467,2,373,,94,
+2020-11-18,Twin Falls,Idaho,16083,6133,73,5134,,999,
+2020-11-18,Valley,Idaho,16085,203,1,167,1,36,0
+2020-11-18,Washington,Idaho,16087,639,10,538,,101,
 2020-11-18,Adams,Illinois,17001,4042,41,4042,39,,2
 2020-11-18,Alexander,Illinois,17003,222,2,,2,,0
 2020-11-18,Bond,Illinois,17005,863,10,,10,,0
@@ -619,7 +619,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-11-18,DeKalb,Illinois,17037,4279,44,4279,44,,0
 2020-11-18,De Witt,Illinois,17039,522,11,,9,,2
 2020-11-18,Douglas,Illinois,17041,1166,12,,11,,1
-2020-11-18,DuPage,Illinois,17043,37632,716,34727,674,2905,42
+2020-11-18,DuPage,Illinois,17043,37632,716,35664,674,1968,42
 2020-11-18,Edgar,Illinois,17045,617,15,,12,,3
 2020-11-18,Edwards,Illinois,17047,176,3,,3,,0
 2020-11-18,Effingham,Illinois,17049,2186,11,,10,,1
@@ -644,7 +644,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-11-18,Johnson,Illinois,17087,596,2,,1,,1
 2020-11-18,Kane,Illinois,17089,26982,417,16606,394,10376,23
 2020-11-18,Kankakee,Illinois,17091,7056,91,7056,91,,
-2020-11-18,Kendall,Illinois,17093,5149,37,4683,35,466,2
+2020-11-18,Kendall,Illinois,17093,5149,37,4778,35,371,2
 2020-11-18,Knox,Illinois,17095,2233,49,,42,,7
 2020-11-18,Lake,Illinois,17097,32063,578,30468,556,1595,22
 2020-11-18,LaSalle,Illinois,17099,5059,107,,99,,8
@@ -666,7 +666,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-11-18,Mercer,Illinois,17131,603,7,,7,,0
 2020-11-18,Monroe,Illinois,17133,1659,43,,42,,1
 2020-11-18,Montgomery,Illinois,17135,960,17,,17,,0
-2020-11-18,Morgan,Illinois,17137,1796,36,1746,36,50,
+2020-11-18,Morgan,Illinois,17137,1823,36,1823,36,,
 2020-11-18,Moultrie,Illinois,17139,740,9,,9,,0
 2020-11-18,Ogle,Illinois,17141,2356,18,2334,18,22,0
 2020-11-18,Peoria,Illinois,17143,7483,112,7461,111,22,1
@@ -680,12 +680,12 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-11-18,Richland,Illinois,17159,549,19,,18,,1
 2020-11-18,Rock Island,Illinois,17161,7186,120,7133,120,53,
 2020-11-18,Saline,Illinois,17165,941,18,,17,,1
-2020-11-18,Sangamon,Illinois,17167,8137,80,7913,76,224,4
+2020-11-18,Sangamon,Illinois,17167,8137,80,8029,76,108,4
 2020-11-18,Schuyler,Illinois,17169,190,1,,1,,0
 2020-11-18,Scott,Illinois,17171,199,0,,0,,0
 2020-11-18,Shelby,Illinois,17173,1117,23,,20,,3
 2020-11-18,Stark,Illinois,17175,176,3,,3,,0
-2020-11-18,St. Clair,Illinois,17163,12085,247,12085,238,,9
+2020-11-18,St. Clair,Illinois,17163,12245,247,12245,239,,8
 2020-11-18,Stephenson,Illinois,17177,2093,19,,18,,1
 2020-11-18,Tazewell,Illinois,17179,5206,74,5167,74,39,0
 2020-11-18,Union,Illinois,17181,1006,26,,25,,1
@@ -795,17 +795,17 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-11-18,Adair,Iowa,19001,364,5,364,5,,
 2020-11-18,Adams,Iowa,19003,142,1,142,1,,
 2020-11-18,Allamakee,Iowa,19005,655,9,655,9,,
-2020-11-18,Appanoose,Iowa,19007,651,4,651,4,,
+2020-11-18,Appanoose,Iowa,19007,652,4,652,4,,
 2020-11-18,Audubon,Iowa,19009,270,1,270,1,,
 2020-11-18,Benton,Iowa,19011,1441,12,1441,12,,
-2020-11-18,Black Hawk,Iowa,19013,9548,122,9548,122,,
+2020-11-18,Black Hawk,Iowa,19013,9554,122,9554,122,,
 2020-11-18,Boone,Iowa,19015,1157,10,1157,10,,
-2020-11-18,Bremer,Iowa,19017,1605,12,1605,12,,
-2020-11-18,Buchanan,Iowa,19019,978,7,978,7,,
+2020-11-18,Bremer,Iowa,19017,1606,12,1606,12,,
+2020-11-18,Buchanan,Iowa,19019,979,7,979,7,,
 2020-11-18,Buena Vista,Iowa,19021,2788,13,2788,13,,
 2020-11-18,Butler,Iowa,19023,819,3,819,3,,
 2020-11-18,Calhoun,Iowa,19025,919,7,919,7,,
-2020-11-18,Carroll,Iowa,19027,1784,14,1784,14,,
+2020-11-18,Carroll,Iowa,19027,1785,14,1785,14,,
 2020-11-18,Cass,Iowa,19029,670,17,670,17,,
 2020-11-18,Cedar,Iowa,19031,899,13,899,13,,
 2020-11-18,Cerro Gordo,Iowa,19033,2902,35,2902,35,,
@@ -815,8 +815,8 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-11-18,Clay,Iowa,19041,938,4,938,4,,
 2020-11-18,Clayton,Iowa,19043,905,4,905,4,,
 2020-11-18,Clinton,Iowa,19045,2751,36,2751,36,,
-2020-11-18,Crawford,Iowa,19047,1638,15,1638,15,,
-2020-11-18,Dallas,Iowa,19049,5541,54,5541,54,,
+2020-11-18,Crawford,Iowa,19047,1639,15,1639,15,,
+2020-11-18,Dallas,Iowa,19049,5542,54,5542,54,,
 2020-11-18,Davis,Iowa,19051,380,4,380,4,,
 2020-11-18,Decatur,Iowa,19053,279,0,279,0,,
 2020-11-18,Delaware,Iowa,19055,1265,20,1265,20,,
@@ -824,38 +824,38 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-11-18,Dickinson,Iowa,19059,1127,9,1127,9,,
 2020-11-18,Dubuque,Iowa,19061,8134,86,8134,86,,
 2020-11-18,Emmet,Iowa,19063,642,23,642,23,,
-2020-11-18,Fayette,Iowa,19065,872,8,872,8,,
+2020-11-18,Fayette,Iowa,19065,871,8,871,8,,
 2020-11-18,Floyd,Iowa,19067,820,12,820,12,,
-2020-11-18,Franklin,Iowa,19069,623,19,623,19,,
+2020-11-18,Franklin,Iowa,19069,624,19,624,19,,
 2020-11-18,Fremont,Iowa,19071,319,2,319,2,,
 2020-11-18,Greene,Iowa,19073,437,0,437,0,,
-2020-11-18,Grundy,Iowa,19075,703,7,703,7,,
+2020-11-18,Grundy,Iowa,19075,704,7,704,7,,
 2020-11-18,Guthrie,Iowa,19077,641,15,641,15,,
 2020-11-18,Hamilton,Iowa,19079,850,6,850,6,,
-2020-11-18,Hancock,Iowa,19081,724,6,724,6,,
-2020-11-18,Hardin,Iowa,19083,946,10,946,10,,
+2020-11-18,Hancock,Iowa,19081,726,6,726,6,,
+2020-11-18,Hardin,Iowa,19083,947,10,947,10,,
 2020-11-18,Harrison,Iowa,19085,945,26,945,26,,
-2020-11-18,Henry,Iowa,19087,1601,7,1601,7,,
+2020-11-18,Henry,Iowa,19087,1600,7,1600,7,,
 2020-11-18,Howard,Iowa,19089,444,9,444,9,,
 2020-11-18,Humboldt,Iowa,19091,600,4,600,4,,
-2020-11-18,Ida,Iowa,19093,407,7,407,7,,
+2020-11-18,Ida,Iowa,19093,408,7,408,7,,
 2020-11-18,Iowa,Iowa,19095,792,11,792,11,,
 2020-11-18,Jackson,Iowa,19097,1262,7,1262,7,,
-2020-11-18,Jasper,Iowa,19099,1908,36,1908,36,,
+2020-11-18,Jasper,Iowa,19099,1909,36,1909,36,,
 2020-11-18,Jefferson,Iowa,19101,538,1,538,1,,
-2020-11-18,Johnson,Iowa,19103,8506,35,8506,35,,
+2020-11-18,Johnson,Iowa,19103,8507,35,8507,35,,
 2020-11-18,Jones,Iowa,19105,2033,8,2033,8,,
 2020-11-18,Keokuk,Iowa,19107,459,3,459,3,,
 2020-11-18,Kossuth,Iowa,19109,824,3,824,3,,
 2020-11-18,Lee,Iowa,19111,1741,14,1741,14,,
-2020-11-18,Linn,Iowa,19113,12282,150,12282,150,,
+2020-11-18,Linn,Iowa,19113,12281,150,12281,150,,
 2020-11-18,Louisa,Iowa,19115,742,16,742,16,,
 2020-11-18,Lucas,Iowa,19117,289,6,289,6,,
 2020-11-18,Lyon,Iowa,19119,863,8,863,8,,
 2020-11-18,Madison,Iowa,19121,594,4,594,4,,
 2020-11-18,Mahaska,Iowa,19123,1111,26,1111,26,,
 2020-11-18,Marion,Iowa,19125,1735,17,1735,17,,
-2020-11-18,Marshall,Iowa,19127,3092,39,3092,39,,
+2020-11-18,Marshall,Iowa,19127,3097,39,3097,39,,
 2020-11-18,Mills,Iowa,19129,874,5,874,5,,
 2020-11-18,Mitchell,Iowa,19131,635,4,635,4,,
 2020-11-18,Monona,Iowa,19133,353,2,353,2,,
@@ -872,24 +872,24 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-11-18,Pottawattamie,Iowa,19155,5148,59,5148,59,,
 2020-11-18,Poweshiek,Iowa,19157,854,12,854,12,,
 2020-11-18,Ringgold,Iowa,19159,152,2,152,2,,
-2020-11-18,Sac,Iowa,19161,712,7,712,7,,
-2020-11-18,Scott,Iowa,19163,9146,64,9146,64,,
+2020-11-18,Sac,Iowa,19161,711,7,711,7,,
+2020-11-18,Scott,Iowa,19163,9147,64,9147,64,,
 2020-11-18,Shelby,Iowa,19165,669,3,669,3,,
 2020-11-18,Sioux,Iowa,19167,3305,22,3305,22,,
-2020-11-18,Story,Iowa,19169,5780,19,5780,19,,
-2020-11-18,Tama,Iowa,19171,1381,39,1381,39,,
+2020-11-18,Story,Iowa,19169,5787,19,5787,19,,
+2020-11-18,Tama,Iowa,19171,1382,39,1382,39,,
 2020-11-18,Taylor,Iowa,19173,390,2,390,2,,
 2020-11-18,Union,Iowa,19175,593,6,593,6,,
 2020-11-18,Unknown,Iowa,,481,0,481,0,,
 2020-11-18,Van Buren,Iowa,19177,305,4,305,4,,
-2020-11-18,Wapello,Iowa,19179,2222,70,2222,70,,
+2020-11-18,Wapello,Iowa,19179,2220,70,2220,70,,
 2020-11-18,Warren,Iowa,19181,2303,9,2303,9,,
 2020-11-18,Washington,Iowa,19183,1178,12,1178,12,,
 2020-11-18,Wayne,Iowa,19185,267,6,267,6,,
-2020-11-18,Webster,Iowa,19187,3073,27,3073,27,,
+2020-11-18,Webster,Iowa,19187,3074,27,3074,27,,
 2020-11-18,Winnebago,Iowa,19189,794,22,794,22,,
 2020-11-18,Winneshiek,Iowa,19191,796,9,796,9,,
-2020-11-18,Woodbury,Iowa,19193,9457,109,9457,109,,
+2020-11-18,Woodbury,Iowa,19193,9458,109,9458,109,,
 2020-11-18,Worth,Iowa,19195,290,0,290,0,,
 2020-11-18,Wright,Iowa,19197,1063,4,1063,4,,
 2020-11-18,Allen,Kansas,20001,283,1,112,1,171,
@@ -902,7 +902,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-11-18,Butler,Kansas,20015,2654,7,1626,7,1028,
 2020-11-18,Chase,Kansas,20017,154,3,154,3,,
 2020-11-18,Chautauqua,Kansas,20019,54,0,4,,50,
-2020-11-18,Cherokee,Kansas,20021,986,9,962,9,24,
+2020-11-18,Cherokee,Kansas,20021,999,9,999,9,,
 2020-11-18,Cheyenne,Kansas,20023,189,8,158,8,31,
 2020-11-18,Clark,Kansas,20025,95,4,84,4,11,
 2020-11-18,Clay,Kansas,20027,339,8,311,8,28,
@@ -912,25 +912,25 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-11-18,Cowley,Kansas,20035,1198,9,96,9,1102,
 2020-11-18,Crawford,Kansas,20037,2026,14,1944,14,82,
 2020-11-18,Decatur,Kansas,20039,189,1,175,1,14,
-2020-11-18,Dickinson,Kansas,20041,634,5,586,5,48,
+2020-11-18,Dickinson,Kansas,20041,634,6,619,6,15,
 2020-11-18,Doniphan,Kansas,20043,363,2,345,2,18,
 2020-11-18,Douglas,Kansas,20045,4035,20,4035,20,,
-2020-11-18,Edwards,Kansas,20047,129,0,129,,0,
+2020-11-18,Edwards,Kansas,20047,149,0,149,,,
 2020-11-18,Elk,Kansas,20049,36,0,29,,7,
 2020-11-18,Ellis,Kansas,20051,1981,21,1857,21,124,
 2020-11-18,Ellsworth,Kansas,20053,523,3,502,3,21,
-2020-11-18,Finney,Kansas,20055,4162,23,4162,23,,
+2020-11-18,Finney,Kansas,20055,4243,23,4243,23,,
 2020-11-18,Ford,Kansas,20057,4336,10,1738,10,2598,
-2020-11-18,Franklin,Kansas,20059,919,13,866,13,53,
+2020-11-18,Franklin,Kansas,20059,919,13,918,13,1,
 2020-11-18,Geary,Kansas,20061,748,5,488,5,260,
-2020-11-18,Gove,Kansas,20063,260,19,245,19,15,
+2020-11-18,Gove,Kansas,20063,260,19,249,19,11,
 2020-11-18,Graham,Kansas,20065,118,2,112,2,6,
-2020-11-18,Grant,Kansas,20067,622,10,622,10,,
+2020-11-18,Grant,Kansas,20067,632,10,632,10,,
 2020-11-18,Gray,Kansas,20069,340,4,301,4,39,
 2020-11-18,Greeley,Kansas,20071,79,0,67,,12,
 2020-11-18,Greenwood,Kansas,20073,161,0,161,,,
 2020-11-18,Hamilton,Kansas,20075,115,0,18,,97,
-2020-11-18,Harper,Kansas,20077,259,4,253,4,6,
+2020-11-18,Harper,Kansas,20077,262,5,262,5,,
 2020-11-18,Harvey,Kansas,20079,1482,9,91,1,1391,8
 2020-11-18,Haskell,Kansas,20081,229,1,21,1,208,
 2020-11-18,Hodgeman,Kansas,20083,118,0,4,,114,
@@ -943,14 +943,14 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-11-18,Kiowa,Kansas,20097,92,0,2,,90,
 2020-11-18,Labette,Kansas,20099,721,6,452,6,269,
 2020-11-18,Lane,Kansas,20101,65,2,65,2,,
-2020-11-18,Leavenworth,Kansas,20103,3297,26,3107,26,190,
+2020-11-18,Leavenworth,Kansas,20103,3297,27,3187,27,110,
 2020-11-18,Lincoln,Kansas,20105,44,1,39,1,5,
 2020-11-18,Linn,Kansas,20107,237,1,134,1,103,
 2020-11-18,Logan,Kansas,20109,199,0,51,,148,
 2020-11-18,Lyon,Kansas,20111,2118,41,1106,41,1012,
-2020-11-18,Marion,Kansas,20115,373,1,252,1,121,
+2020-11-18,Marion,Kansas,20115,393,1,252,1,141,
 2020-11-18,Marshall,Kansas,20117,364,2,364,2,,
-2020-11-18,McPherson,Kansas,20113,1063,8,1063,8,0,
+2020-11-18,McPherson,Kansas,20113,1150,8,1150,8,,
 2020-11-18,Meade,Kansas,20119,261,2,206,2,55,
 2020-11-18,Miami,Kansas,20121,823,2,,2,,
 2020-11-18,Mitchell,Kansas,20123,126,0,108,,18,
@@ -965,41 +965,41 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-11-18,Osborne,Kansas,20141,56,0,48,,8,
 2020-11-18,Ottawa,Kansas,20143,184,0,169,,15,
 2020-11-18,Pawnee,Kansas,20145,549,1,541,1,8,
-2020-11-18,Phillips,Kansas,20147,339,10,321,10,18,
+2020-11-18,Phillips,Kansas,20147,348,10,330,10,18,
 2020-11-18,Pottawatomie,Kansas,20149,590,2,360,2,230,
-2020-11-18,Pratt,Kansas,20151,410,1,390,1,20,
+2020-11-18,Pratt,Kansas,20151,416,1,416,1,,
 2020-11-18,Rawlins,Kansas,20153,244,2,244,2,,
-2020-11-18,Reno,Kansas,20155,3969,37,3769,37,200,
+2020-11-18,Reno,Kansas,20155,3969,37,3786,37,183,
 2020-11-18,Republic,Kansas,20157,207,1,188,1,19,
 2020-11-18,Rice,Kansas,20159,314,1,241,1,73,
 2020-11-18,Riley,Kansas,20161,2987,14,2987,14,,
 2020-11-18,Rooks,Kansas,20163,261,7,261,7,,
 2020-11-18,Rush,Kansas,20165,166,0,,,,
-2020-11-18,Russell,Kansas,20167,391,8,379,8,12,
+2020-11-18,Russell,Kansas,20167,428,10,428,10,,
 2020-11-18,Saline,Kansas,20169,1850,17,1850,17,,
-2020-11-18,Scott,Kansas,20171,360,2,302,2,58,
+2020-11-18,Scott,Kansas,20171,375,2,312,2,63,
 2020-11-18,Sedgwick,Kansas,20173,22390,141,19181,141,3209,
-2020-11-18,Seward,Kansas,20175,2566,13,2566,13,,
-2020-11-18,Shawnee,Kansas,20177,6097,95,5658,95,439,
+2020-11-18,Seward,Kansas,20175,2628,13,2628,13,,
+2020-11-18,Shawnee,Kansas,20177,6097,97,5776,97,321,
 2020-11-18,Sheridan,Kansas,20179,283,0,126,,157,
-2020-11-18,Sherman,Kansas,20181,371,7,322,7,49,
+2020-11-18,Sherman,Kansas,20181,371,7,365,7,6,
 2020-11-18,Smith,Kansas,20183,95,0,86,,9,
 2020-11-18,Stafford,Kansas,20185,168,1,124,1,44,
 2020-11-18,Stanton,Kansas,20187,125,2,48,2,77,
-2020-11-18,Stevens,Kansas,20189,364,2,364,2,,
+2020-11-18,Stevens,Kansas,20189,379,2,379,2,,
 2020-11-18,Sumner,Kansas,20191,627,6,528,6,99,
-2020-11-18,Thomas,Kansas,20193,567,2,567,2,,
+2020-11-18,Thomas,Kansas,20193,572,2,572,2,,
 2020-11-18,Trego,Kansas,20195,175,3,170,3,5,
-2020-11-18,Unknown,Kansas,,0,105,,,,
+2020-11-18,Unknown,Kansas,,0,98,,,,
 2020-11-18,Wabaunsee,Kansas,20197,266,1,252,1,14,
 2020-11-18,Wallace,Kansas,20199,128,0,118,,10,
 2020-11-18,Washington,Kansas,20201,239,0,71,,168,
 2020-11-18,Wichita,Kansas,20203,104,0,,,,
-2020-11-18,Wilson,Kansas,20205,220,4,214,4,6,
+2020-11-18,Wilson,Kansas,20205,232,4,226,4,6,
 2020-11-18,Woodson,Kansas,20207,53,0,27,,26,
 2020-11-18,Wyandotte,Kansas,20209,10235,167,9695,167,540,
-2020-11-18,Adair,Kentucky,21001,807,29,807,29,,
-2020-11-18,Allen,Kentucky,21003,634,14,,,,
+2020-11-18,Adair,Kentucky,21001,825,29,825,29,,
+2020-11-18,Allen,Kentucky,21003,637,15,,,,
 2020-11-18,Anderson,Kentucky,21005,397,1,,,,
 2020-11-18,Ballard,Kentucky,21007,117,2,,,,
 2020-11-18,Barren,Kentucky,21009,1767,24,1767,17,,7
@@ -1020,13 +1020,13 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-11-18,Carlisle,Kentucky,21039,161,1,,,,
 2020-11-18,Carroll,Kentucky,21041,280,6,,,,
 2020-11-18,Carter,Kentucky,21043,552,4,,,,
-2020-11-18,Casey,Kentucky,21045,495,18,495,18,,
+2020-11-18,Casey,Kentucky,21045,507,18,507,18,,
 2020-11-18,Christian,Kentucky,21047,2574,38,,,,
 2020-11-18,Clark,Kentucky,21049,711,12,,,,
 2020-11-18,Clay,Kentucky,21051,825,8,,,,
-2020-11-18,Clinton,Kentucky,21053,405,9,405,9,,
+2020-11-18,Clinton,Kentucky,21053,417,10,417,10,,
 2020-11-18,Crittenden,Kentucky,21055,210,1,,,,
-2020-11-18,Cumberland,Kentucky,21057,246,0,246,0,,0
+2020-11-18,Cumberland,Kentucky,21057,249,0,249,0,,0
 2020-11-18,Daviess,Kentucky,21059,2846,40,2762,40,84,
 2020-11-18,Edmonson,Kentucky,21061,324,12,324,12,,0
 2020-11-18,Elliott,Kentucky,21063,527,0,,,,
@@ -1041,7 +1041,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-11-18,Grant,Kentucky,21081,494,6,,,,
 2020-11-18,Graves,Kentucky,21083,1396,33,,,,
 2020-11-18,Grayson,Kentucky,21085,779,19,,,,
-2020-11-18,Green,Kentucky,21087,503,10,503,10,,0
+2020-11-18,Green,Kentucky,21087,511,10,511,10,,0
 2020-11-18,Greenup,Kentucky,21089,987,12,,,,
 2020-11-18,Hancock,Kentucky,21091,254,9,243,9,11,
 2020-11-18,Hardin,Kentucky,21093,3405,31,3367,31,38,
@@ -1056,7 +1056,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-11-18,Jefferson,Kentucky,21111,32058,454,32058,454,,
 2020-11-18,Jessamine,Kentucky,21113,1440,27,1440,,,
 2020-11-18,Johnson,Kentucky,21115,621,2,,,,
-2020-11-18,Kenton,Kentucky,21117,4246,52,,,,
+2020-11-18,Kenton,Kentucky,21117,4246,61,,,,
 2020-11-18,Knott,Kentucky,21119,477,9,,,,
 2020-11-18,Knox,Kentucky,21121,1066,10,,,,
 2020-11-18,Larue,Kentucky,21123,511,2,511,2,,
@@ -1077,7 +1077,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-11-18,Martin,Kentucky,21159,340,5,,,,
 2020-11-18,Mason,Kentucky,21161,291,2,,,,
 2020-11-18,McCracken,Kentucky,21145,2008,13,,,,
-2020-11-18,McCreary,Kentucky,21147,363,1,363,1,,0
+2020-11-18,McCreary,Kentucky,21147,371,1,371,1,,0
 2020-11-18,McLean,Kentucky,21149,333,11,333,11,,0
 2020-11-18,Meade,Kentucky,21163,661,4,661,4,,0
 2020-11-18,Menifee,Kentucky,21165,108,1,,,,
@@ -1086,7 +1086,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-11-18,Monroe,Kentucky,21171,625,6,,,,
 2020-11-18,Montgomery,Kentucky,21173,747,8,,,,
 2020-11-18,Morgan,Kentucky,21175,232,0,,,,
-2020-11-18,Muhlenberg,Kentucky,21177,1216,20,,19,,1
+2020-11-18,Muhlenberg,Kentucky,21177,1244,20,,19,,1
 2020-11-18,Nelson,Kentucky,21179,1769,5,1769,5,,0
 2020-11-18,Nicholas,Kentucky,21181,146,3,,,,
 2020-11-18,Ohio,Kentucky,21183,813,14,813,14,,0
@@ -1097,23 +1097,23 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-11-18,Perry,Kentucky,21193,804,10,,,,
 2020-11-18,Pike,Kentucky,21195,1499,12,,,,
 2020-11-18,Powell,Kentucky,21197,335,0,,,,
-2020-11-18,Pulaski,Kentucky,21199,1548,13,1548,12,,1
+2020-11-18,Pulaski,Kentucky,21199,1629,13,1629,12,,1
 2020-11-18,Robertson,Kentucky,21201,63,2,,,,
 2020-11-18,Rockcastle,Kentucky,21203,451,5,,,,
 2020-11-18,Rowan,Kentucky,21205,611,2,,,,
-2020-11-18,Russell,Kentucky,21207,577,10,577,10,,
+2020-11-18,Russell,Kentucky,21207,606,12,606,12,,
 2020-11-18,Scott,Kentucky,21209,1470,20,,,,
 2020-11-18,Shelby,Kentucky,21211,1919,25,,,,
 2020-11-18,Simpson,Kentucky,21213,512,9,512,9,,0
 2020-11-18,Spencer,Kentucky,21215,508,1,,,,
-2020-11-18,Taylor,Kentucky,21217,887,8,887,8,,
+2020-11-18,Taylor,Kentucky,21217,915,8,915,8,,
 2020-11-18,Todd,Kentucky,21219,362,13,,,,
 2020-11-18,Trigg,Kentucky,21221,337,1,,,,
 2020-11-18,Trimble,Kentucky,21223,134,0,,,,
 2020-11-18,Union,Kentucky,21225,647,6,643,6,4,0
 2020-11-18,Warren,Kentucky,21227,6510,61,6510,60,,1
 2020-11-18,Washington,Kentucky,21229,414,4,414,4,,
-2020-11-18,Wayne,Kentucky,21231,538,3,538,3,,
+2020-11-18,Wayne,Kentucky,21231,544,3,544,3,,
 2020-11-18,Webster,Kentucky,21233,486,6,467,6,19,
 2020-11-18,Whitley,Kentucky,21235,1250,8,,,,
 2020-11-18,Wolfe,Kentucky,21237,145,1,,,,
@@ -1494,17 +1494,17 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-11-18,Winston,Mississippi,28159,1057,23,,,,
 2020-11-18,Yalobusha,Mississippi,28161,646,26,,,,
 2020-11-18,Yazoo,Mississippi,28163,1428,36,,,,
-2020-11-18,Adair,Missouri,29001,1013,2,1013,2,,
+2020-11-18,Adair,Missouri,29001,1044,2,1044,2,,
 2020-11-18,Andrew,Missouri,29003,658,8,658,8,,
 2020-11-18,Atchison,Missouri,29005,157,1,157,1,,
-2020-11-18,Audrain,Missouri,29007,896,11,896,11,,
+2020-11-18,Audrain,Missouri,29007,1268,11,1268,11,,
 2020-11-18,Barry,Missouri,29009,1276,22,1276,22,,
 2020-11-18,Barton,Missouri,29011,573,4,573,4,,
 2020-11-18,Bates,Missouri,29013,414,8,414,8,,
 2020-11-18,Benton,Missouri,29015,702,7,702,7,,
 2020-11-18,Bollinger,Missouri,29017,725,7,725,7,,
 2020-11-18,Boone,Missouri,29019,9029,21,9029,21,,
-2020-11-18,Buchanan,Missouri,29021,5250,61,3989,61,1261,
+2020-11-18,Buchanan,Missouri,29021,5325,64,4042,64,1283,
 2020-11-18,Butler,Missouri,29023,1799,8,1799,8,,
 2020-11-18,Caldwell,Missouri,29025,320,1,320,1,,
 2020-11-18,Callaway,Missouri,29027,2408,7,2408,7,,
@@ -1522,7 +1522,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-11-18,Cole,Missouri,29051,5228,38,5228,38,,
 2020-11-18,Cooper,Missouri,29053,1031,6,1031,6,,
 2020-11-18,Crawford,Missouri,29055,1015,10,1015,10,,
-2020-11-18,Dade,Missouri,29057,359,24,359,24,,
+2020-11-18,Dade,Missouri,29057,365,24,365,24,,
 2020-11-18,Dallas,Missouri,29059,534,5,534,5,,
 2020-11-18,Daviess,Missouri,29061,294,6,294,6,,
 2020-11-18,DeKalb,Missouri,29063,486,9,486,9,,
@@ -1569,7 +1569,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-11-18,Morgan,Missouri,29141,944,9,944,9,,
 2020-11-18,New Madrid,Missouri,29143,1168,23,1168,23,,
 2020-11-18,Newton,Missouri,29145,2673,37,2673,37,,
-2020-11-18,Nodaway,Missouri,29147,1719,11,1521,11,198,
+2020-11-18,Nodaway,Missouri,29147,1739,11,1534,11,205,
 2020-11-18,Oregon,Missouri,29149,333,0,333,0,,
 2020-11-18,Osage,Missouri,29151,810,3,810,3,,
 2020-11-18,Ozark,Missouri,29153,264,1,264,1,,
@@ -1579,7 +1579,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-11-18,Phelps,Missouri,29161,1361,38,1361,38,,
 2020-11-18,Pike,Missouri,29163,713,8,713,8,,
 2020-11-18,Platte,Missouri,29165,1402,14,1402,14,,
-2020-11-18,Polk,Missouri,29167,1575,21,1575,21,,
+2020-11-18,Polk,Missouri,29167,1595,21,1595,21,,
 2020-11-18,Pulaski,Missouri,29169,1353,14,1353,14,,
 2020-11-18,Putnam,Missouri,29171,103,1,103,1,,
 2020-11-18,Ralls,Missouri,29173,363,1,363,1,,
@@ -1593,19 +1593,19 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-11-18,Scott,Missouri,29201,2205,33,2205,33,,
 2020-11-18,Shannon,Missouri,29203,319,10,319,10,,
 2020-11-18,Shelby,Missouri,29205,169,1,169,1,,
-2020-11-18,St. Charles,Missouri,29183,18211,185,18211,185,,
+2020-11-18,St. Charles,Missouri,29183,18210,187,18210,187,,
 2020-11-18,St. Clair,Missouri,29185,259,1,259,1,,
 2020-11-18,Ste. Genevieve,Missouri,29186,877,2,877,2,,
 2020-11-18,St. Francois,Missouri,29187,4323,36,4323,36,,
 2020-11-18,St. Louis,Missouri,29189,43581,921,43581,921,,
-2020-11-18,St. Louis city,Missouri,29510,10968,230,10667,230,301,
+2020-11-18,St. Louis city,Missouri,29510,11150,230,10839,230,311,
 2020-11-18,Stoddard,Missouri,29207,1363,17,1363,17,,
 2020-11-18,Stone,Missouri,29209,1031,14,1031,14,,
 2020-11-18,Sullivan,Missouri,29211,508,5,508,5,,
 2020-11-18,Taney,Missouri,29213,2445,37,2445,37,,
 2020-11-18,Texas,Missouri,29215,862,7,862,7,,
 2020-11-18,Vernon,Missouri,29217,572,5,572,5,,
-2020-11-18,Warren,Missouri,29219,1265,8,1265,8,,
+2020-11-18,Warren,Missouri,29219,1295,8,1295,8,,
 2020-11-18,Washington,Missouri,29221,1189,22,1189,22,,
 2020-11-18,Wayne,Missouri,29223,423,3,423,3,,
 2020-11-18,Webster,Missouri,29225,1594,23,1594,23,,
@@ -1688,7 +1688,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-11-18,Colfax,Nebraska,31037,1163,8,,,,
 2020-11-18,Cuming,Nebraska,31039,481,3,,,,
 2020-11-18,Custer,Nebraska,31041,364,7,,,,
-2020-11-18,Dakota,Nebraska,31043,2939,49,2939,49,,0
+2020-11-18,Dakota,Nebraska,31043,2956,49,2956,49,,0
 2020-11-18,Dawes,Nebraska,31045,402,9,,,,
 2020-11-18,Dawson,Nebraska,31047,1737,15,,,,
 2020-11-18,Deuel,Nebraska,31049,28,0,,,,
@@ -1706,8 +1706,8 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-11-18,Gosper,Nebraska,31073,94,1,,,,
 2020-11-18,Grant,Nebraska,31075,13,1,,,,
 2020-11-18,Greeley,Nebraska,31077,90,0,,,,
-2020-11-18,Hall,Nebraska,31079,3764,63,3728,60,36,3
-2020-11-18,Hamilton,Nebraska,31081,416,14,399,14,17,
+2020-11-18,Hall,Nebraska,31079,3920,63,3920,62,,1
+2020-11-18,Hamilton,Nebraska,31081,441,14,441,14,,
 2020-11-18,Harlan,Nebraska,31083,105,0,,,,
 2020-11-18,Hayes,Nebraska,31085,33,0,,,,
 2020-11-18,Hitchcock,Nebraska,31087,80,1,,,,
@@ -1727,7 +1727,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-11-18,Loup,Nebraska,31115,21,0,,,,
 2020-11-18,Madison,Nebraska,31119,2580,14,2309,12,271,2
 2020-11-18,McPherson,Nebraska,31117,14,0,,,,
-2020-11-18,Merrick,Nebraska,31121,339,2,323,2,16,0
+2020-11-18,Merrick,Nebraska,31121,353,2,353,2,,0
 2020-11-18,Morrill,Nebraska,31123,238,1,,,,
 2020-11-18,Nance,Nebraska,31125,207,1,,,,
 2020-11-18,Nemaha,Nebraska,31127,255,0,,,,
@@ -1754,7 +1754,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-11-18,Thayer,Nebraska,31169,166,1,,,,
 2020-11-18,Thomas,Nebraska,31171,26,0,,,,
 2020-11-18,Thurston,Nebraska,31173,486,4,,,,
-2020-11-18,Unknown,Nebraska,,512,0,,,,
+2020-11-18,Unknown,Nebraska,,300,0,,,,
 2020-11-18,Valley,Nebraska,31175,140,1,,,,
 2020-11-18,Washington,Nebraska,31177,925,9,,,,
 2020-11-18,Wayne,Nebraska,31179,627,3,,,,
@@ -1762,7 +1762,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-11-18,Wheeler,Nebraska,31183,8,0,,,,
 2020-11-18,York,Nebraska,31185,839,3,,,,
 2020-11-18,Carson City,Nevada,32510,1479,11,1479,11,,
-2020-11-18,Churchill,Nevada,32001,568,8,568,8,,
+2020-11-18,Churchill,Nevada,32001,592,8,592,8,,
 2020-11-18,Clark,Nevada,32003,98930,1641,98930,1641,,
 2020-11-18,Douglas,Nevada,32005,498,2,498,2,,
 2020-11-18,Elko,Nevada,32007,2133,16,2133,16,,
@@ -1776,19 +1776,19 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-11-18,Nye,Nevada,32023,1091,22,1078,22,13,
 2020-11-18,Pershing,Nevada,32027,45,0,45,0,,
 2020-11-18,Storey,Nevada,32029,29,0,29,0,,
-2020-11-18,Washoe,Nevada,32031,19132,222,19132,222,,
+2020-11-18,Washoe,Nevada,32031,19742,222,19742,222,,
 2020-11-18,White Pine,Nevada,32033,212,1,212,1,,
-2020-11-18,Belknap,New Hampshire,33001,421,6,,,,
-2020-11-18,Carroll,New Hampshire,33003,251,2,,,,
-2020-11-18,Cheshire,New Hampshire,33005,324,3,,,,
-2020-11-18,Coos,New Hampshire,33007,236,4,,,,
-2020-11-18,Grafton,New Hampshire,33009,419,2,,,,
-2020-11-18,Hillsborough,New Hampshire,33011,7031,329,,,,
-2020-11-18,Merrimack,New Hampshire,33013,1312,33,,,,
-2020-11-18,Rockingham,New Hampshire,33015,3657,105,,,,
-2020-11-18,Strafford,New Hampshire,33017,1238,14,,,,
-2020-11-18,Sullivan,New Hampshire,33019,177,4,,,,
-2020-11-18,Unknown,New Hampshire,,237,0,,,,
+2020-11-18,Belknap,New Hampshire,33001,461,7,,,,
+2020-11-18,Carroll,New Hampshire,33003,256,2,,,,
+2020-11-18,Cheshire,New Hampshire,33005,371,3,,,,
+2020-11-18,Coos,New Hampshire,33007,261,4,,,,
+2020-11-18,Grafton,New Hampshire,33009,430,2,,,,
+2020-11-18,Hillsborough,New Hampshire,33011,7183,329,,,,
+2020-11-18,Merrimack,New Hampshire,33013,1334,34,,,,
+2020-11-18,Rockingham,New Hampshire,33015,3776,105,,,,
+2020-11-18,Strafford,New Hampshire,33017,1274,14,,,,
+2020-11-18,Sullivan,New Hampshire,33019,180,4,,,,
+2020-11-18,Unknown,New Hampshire,,223,0,,,,
 2020-11-18,Atlantic,New Jersey,34001,6842,275,6829,262,13,13
 2020-11-18,Bergen,New Jersey,34003,30470,2091,30224,1845,246,246
 2020-11-18,Burlington,New Jersey,34005,11061,529,11020,488,41,41
@@ -1811,39 +1811,39 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-11-18,Union,New Jersey,34039,25083,1408,24912,1237,171,171
 2020-11-18,Unknown,New Jersey,,734,0,734,0,0,
 2020-11-18,Warren,New Jersey,34041,2112,173,2099,160,13,13
-2020-11-18,Bernalillo,New Mexico,35001,17433,271,17433,271,,
-2020-11-18,Catron,New Mexico,35003,17,1,17,1,,
-2020-11-18,Chaves,New Mexico,35005,3480,24,3480,24,,
-2020-11-18,Cibola,New Mexico,35006,1454,31,1454,31,,
-2020-11-18,Colfax,New Mexico,35007,101,1,101,1,,
-2020-11-18,Curry,New Mexico,35009,2428,16,2428,16,,
-2020-11-18,De Baca,New Mexico,35011,25,0,25,0,,
-2020-11-18,Doña Ana,New Mexico,35013,10503,141,10503,141,,
-2020-11-18,Eddy,New Mexico,35015,2251,34,2251,34,,
-2020-11-18,Grant,New Mexico,35017,329,6,329,6,,
-2020-11-18,Guadalupe,New Mexico,35019,81,1,81,1,,
+2020-11-18,Bernalillo,New Mexico,35001,18425,275,18425,275,,
+2020-11-18,Catron,New Mexico,35003,22,1,22,1,,
+2020-11-18,Chaves,New Mexico,35005,3671,26,3671,26,,
+2020-11-18,Cibola,New Mexico,35006,1505,33,1505,33,,
+2020-11-18,Colfax,New Mexico,35007,111,2,111,2,,
+2020-11-18,Curry,New Mexico,35009,2516,16,2516,16,,
+2020-11-18,De Baca,New Mexico,35011,27,0,27,0,,
+2020-11-18,Doña Ana,New Mexico,35013,10941,149,10941,149,,
+2020-11-18,Eddy,New Mexico,35015,2297,34,2297,34,,
+2020-11-18,Grant,New Mexico,35017,348,6,348,6,,
+2020-11-18,Guadalupe,New Mexico,35019,133,2,133,2,,
 2020-11-18,Harding,New Mexico,35021,4,0,4,0,,
 2020-11-18,Hidalgo,New Mexico,35023,148,3,148,3,,
-2020-11-18,Lea,New Mexico,35025,3220,34,3220,34,,
-2020-11-18,Lincoln,New Mexico,35027,542,7,542,7,,
-2020-11-18,Los Alamos,New Mexico,35028,93,0,93,0,,
-2020-11-18,Luna,New Mexico,35029,1579,20,1579,20,,
-2020-11-18,McKinley,New Mexico,35031,5364,269,5364,269,,
-2020-11-18,Mora,New Mexico,35033,22,0,22,0,,
-2020-11-18,Otero,New Mexico,35035,1995,22,1995,22,,
-2020-11-18,Quay,New Mexico,35037,156,2,156,2,,
-2020-11-18,Rio Arriba,New Mexico,35039,837,19,837,19,,
-2020-11-18,Roosevelt,New Mexico,35041,752,12,752,12,,
-2020-11-18,Sandoval,New Mexico,35043,3158,62,3158,62,,
-2020-11-18,San Juan,New Mexico,35045,4516,210,4516,210,,
-2020-11-18,San Miguel,New Mexico,35047,294,0,294,0,,
-2020-11-18,Santa Fe,New Mexico,35049,3423,24,3423,24,,
-2020-11-18,Sierra,New Mexico,35051,202,2,202,2,,
-2020-11-18,Socorro,New Mexico,35053,435,25,435,25,,
-2020-11-18,Taos,New Mexico,35055,501,7,501,7,,
-2020-11-18,Torrance,New Mexico,35057,233,1,233,1,,
+2020-11-18,Lea,New Mexico,35025,3343,34,3343,34,,
+2020-11-18,Lincoln,New Mexico,35027,557,7,557,7,,
+2020-11-18,Los Alamos,New Mexico,35028,98,0,98,0,,
+2020-11-18,Luna,New Mexico,35029,1613,22,1613,22,,
+2020-11-18,McKinley,New Mexico,35031,5438,270,5438,270,,
+2020-11-18,Mora,New Mexico,35033,25,0,25,0,,
+2020-11-18,Otero,New Mexico,35035,2045,22,2045,22,,
+2020-11-18,Quay,New Mexico,35037,161,3,161,3,,
+2020-11-18,Rio Arriba,New Mexico,35039,885,19,885,19,,
+2020-11-18,Roosevelt,New Mexico,35041,768,13,768,13,,
+2020-11-18,Sandoval,New Mexico,35043,3338,62,3338,62,,
+2020-11-18,San Juan,New Mexico,35045,4561,210,4561,210,,
+2020-11-18,San Miguel,New Mexico,35047,304,0,304,0,,
+2020-11-18,Santa Fe,New Mexico,35049,3619,24,3619,24,,
+2020-11-18,Sierra,New Mexico,35051,211,2,211,2,,
+2020-11-18,Socorro,New Mexico,35053,446,25,446,25,,
+2020-11-18,Taos,New Mexico,35055,537,9,537,9,,
+2020-11-18,Torrance,New Mexico,35057,235,1,235,1,,
 2020-11-18,Union,New Mexico,35059,71,2,71,2,,
-2020-11-18,Valencia,New Mexico,35061,1912,17,1912,17,,
+2020-11-18,Valencia,New Mexico,35061,2049,18,2049,18,,
 2020-11-18,Albany,New York,36001,4730,135,4730,135,,
 2020-11-18,Allegany,New York,36003,692,39,692,39,,
 2020-11-18,Broome,New York,36007,4545,126,4545,126,,
@@ -1933,7 +1933,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-11-18,Davidson,North Carolina,37057,4593,48,4523,48,70,0
 2020-11-18,Davie,North Carolina,37059,1015,12,986,11,29,1
 2020-11-18,Duplin,North Carolina,37061,3118,56,2526,55,592,1
-2020-11-18,Durham,North Carolina,37063,10516,110,10516,110,,
+2020-11-18,Durham,North Carolina,37063,10569,110,10569,110,,
 2020-11-18,Edgecombe,North Carolina,37065,2329,69,2275,67,54,2
 2020-11-18,Forsyth,North Carolina,37067,11366,151,11240,149,126,2
 2020-11-18,Franklin,North Carolina,37069,1746,32,1730,32,16,0
@@ -1982,7 +1982,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-11-18,Robeson,North Carolina,37155,6804,103,6496,102,308,1
 2020-11-18,Rockingham,North Carolina,37157,2645,22,2638,22,7,0
 2020-11-18,Rowan,North Carolina,37159,5002,126,4960,126,42,
-2020-11-18,Rutherford,North Carolina,37161,2070,82,1990,71,80,11
+2020-11-18,Rutherford,North Carolina,37161,2084,83,2084,71,,12
 2020-11-18,Sampson,North Carolina,37163,3263,33,2378,28,885,5
 2020-11-18,Scotland,North Carolina,37165,1791,37,1651,30,140,7
 2020-11-18,Stanly,North Carolina,37167,2734,78,2713,78,21,0
@@ -2059,94 +2059,94 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-11-18,Saipan,Northern Mariana Islands,69110,100,2,100,2,,
 2020-11-18,Tinian,Northern Mariana Islands,69120,2,0,2,0,,
 2020-11-18,Unknown,Northern Mariana Islands,,1,0,1,0,,
-2020-11-18,Adams,Ohio,39001,586,9,,,,
-2020-11-18,Allen,Ohio,39003,4001,81,,,,
-2020-11-18,Ashland,Ohio,39005,832,20,,,,
-2020-11-18,Ashtabula,Ohio,39007,1678,53,,,,
-2020-11-18,Athens,Ohio,39009,1665,4,,,,
-2020-11-18,Auglaize,Ohio,39011,1931,21,,,,
-2020-11-18,Belmont,Ohio,39013,1321,28,,,,
-2020-11-18,Brown,Ohio,39015,769,4,,,,
-2020-11-18,Butler,Ohio,39017,12874,139,,,,
-2020-11-18,Carroll,Ohio,39019,365,10,,,,
-2020-11-18,Champaign,Ohio,39021,763,4,,,,
-2020-11-18,Clark,Ohio,39023,4327,62,,,,
-2020-11-18,Clermont,Ohio,39025,4685,44,,,,
-2020-11-18,Clinton,Ohio,39027,898,14,,,,
-2020-11-18,Columbiana,Ohio,39029,2891,93,,,,
-2020-11-18,Coshocton,Ohio,39031,684,13,,,,
-2020-11-18,Crawford,Ohio,39033,972,14,,,,
-2020-11-18,Cuyahoga,Ohio,39035,30581,720,,,,
-2020-11-18,Darke,Ohio,39037,1793,56,,,,
-2020-11-18,Defiance,Ohio,39039,1092,17,,,,
-2020-11-18,Delaware,Ohio,39041,4529,33,,,,
-2020-11-18,Erie,Ohio,39043,1790,61,,,,
-2020-11-18,Fairfield,Ohio,39045,4457,59,,,,
-2020-11-18,Fayette,Ohio,39047,774,16,,,,
-2020-11-18,Franklin,Ohio,39049,44159,651,,,,
-2020-11-18,Fulton,Ohio,39051,1022,22,,,,
-2020-11-18,Gallia,Ohio,39053,562,13,,,,
-2020-11-18,Geauga,Ohio,39055,1613,51,,,,
-2020-11-18,Greene,Ohio,39057,4373,60,,,,
-2020-11-18,Guernsey,Ohio,39059,689,8,,,,
-2020-11-18,Hamilton,Ohio,39061,26066,363,,,,
-2020-11-18,Hancock,Ohio,39063,1941,33,,,,
-2020-11-18,Hardin,Ohio,39065,691,17,,,,
-2020-11-18,Harrison,Ohio,39067,157,3,,,,
-2020-11-18,Henry,Ohio,39069,837,21,,,,
-2020-11-18,Highland,Ohio,39071,845,16,,,,
-2020-11-18,Hocking,Ohio,39073,498,10,,,,
-2020-11-18,Holmes,Ohio,39075,1266,30,,,,
-2020-11-18,Huron,Ohio,39077,1186,18,,,,
-2020-11-18,Jackson,Ohio,39079,772,10,,,,
-2020-11-18,Jefferson,Ohio,39081,862,4,,,,
-2020-11-18,Knox,Ohio,39083,929,18,,,,
-2020-11-18,Lake,Ohio,39085,5197,62,,,,
-2020-11-18,Lawrence,Ohio,39087,1612,33,,,,
-2020-11-18,Licking,Ohio,39089,4432,70,,,,
-2020-11-18,Logan,Ohio,39091,984,11,,,,
-2020-11-18,Lorain,Ohio,39093,5040,95,,,,
-2020-11-18,Lucas,Ohio,39095,12297,403,,,,
-2020-11-18,Madison,Ohio,39097,1354,18,,,,
-2020-11-18,Mahoning,Ohio,39099,5815,297,,,,
-2020-11-18,Marion,Ohio,39101,4191,51,,,,
-2020-11-18,Medina,Ohio,39103,3594,51,,,,
-2020-11-18,Meigs,Ohio,39105,319,12,,,,
-2020-11-18,Mercer,Ohio,39107,2544,37,,,,
-2020-11-18,Miami,Ohio,39109,3528,65,,,,
-2020-11-18,Monroe,Ohio,39111,264,20,,,,
-2020-11-18,Montgomery,Ohio,39113,17243,214,,,,
-2020-11-18,Morgan,Ohio,39115,174,1,,,,
-2020-11-18,Morrow,Ohio,39117,701,2,,,,
-2020-11-18,Muskingum,Ohio,39119,1894,9,,,,
-2020-11-18,Noble,Ohio,39121,489,17,,,,
-2020-11-18,Ottawa,Ohio,39123,971,30,,,,
-2020-11-18,Paulding,Ohio,39125,502,9,,,,
-2020-11-18,Perry,Ohio,39127,621,12,,,,
-2020-11-18,Pickaway,Ohio,39129,3721,46,,,,
-2020-11-18,Pike,Ohio,39131,605,1,,,,
-2020-11-18,Portage,Ohio,39133,2832,70,,,,
-2020-11-18,Preble,Ohio,39135,1247,21,,,,
-2020-11-18,Putnam,Ohio,39137,2024,42,,,,
-2020-11-18,Richland,Ohio,39139,2478,27,,,,
-2020-11-18,Ross,Ohio,39141,2130,55,,,,
-2020-11-18,Sandusky,Ohio,39143,1272,25,,,,
-2020-11-18,Scioto,Ohio,39145,1618,12,,,,
-2020-11-18,Seneca,Ohio,39147,1365,15,,,,
-2020-11-18,Shelby,Ohio,39149,1570,15,,,,
-2020-11-18,Stark,Ohio,39151,7053,194,,,,
-2020-11-18,Summit,Ohio,39153,11152,292,,,,
-2020-11-18,Trumbull,Ohio,39155,4084,140,,,,
-2020-11-18,Tuscarawas,Ohio,39157,2527,51,,,,
-2020-11-18,Union,Ohio,39159,1548,3,,,,
-2020-11-18,Van Wert,Ohio,39161,719,5,,,,
-2020-11-18,Vinton,Ohio,39163,182,5,,,,
-2020-11-18,Warren,Ohio,39165,6912,72,,,,
-2020-11-18,Washington,Ohio,39167,892,27,,,,
-2020-11-18,Wayne,Ohio,39169,2775,86,,,,
-2020-11-18,Williams,Ohio,39171,853,6,,,,
-2020-11-18,Wood,Ohio,39173,3842,105,,,,
-2020-11-18,Wyandot,Ohio,39175,550,15,,,,
+2020-11-18,Adams,Ohio,39001,618,10,,,,
+2020-11-18,Allen,Ohio,39003,4114,81,,,,
+2020-11-18,Ashland,Ohio,39005,857,20,,,,
+2020-11-18,Ashtabula,Ohio,39007,1752,53,,,,
+2020-11-18,Athens,Ohio,39009,1682,4,,,,
+2020-11-18,Auglaize,Ohio,39011,2000,22,,,,
+2020-11-18,Belmont,Ohio,39013,1374,28,,,,
+2020-11-18,Brown,Ohio,39015,798,4,,,,
+2020-11-18,Butler,Ohio,39017,13050,142,,,,
+2020-11-18,Carroll,Ohio,39019,374,10,,,,
+2020-11-18,Champaign,Ohio,39021,777,4,,,,
+2020-11-18,Clark,Ohio,39023,4389,62,,,,
+2020-11-18,Clermont,Ohio,39025,4817,44,,,,
+2020-11-18,Clinton,Ohio,39027,919,14,,,,
+2020-11-18,Columbiana,Ohio,39029,2948,93,,,,
+2020-11-18,Coshocton,Ohio,39031,696,13,,,,
+2020-11-18,Crawford,Ohio,39033,1000,15,,,,
+2020-11-18,Cuyahoga,Ohio,39035,31140,719,,,,
+2020-11-18,Darke,Ohio,39037,1832,58,,,,
+2020-11-18,Defiance,Ohio,39039,1117,20,,,,
+2020-11-18,Delaware,Ohio,39041,4618,34,,,,
+2020-11-18,Erie,Ohio,39043,1810,62,,,,
+2020-11-18,Fairfield,Ohio,39045,4580,61,,,,
+2020-11-18,Fayette,Ohio,39047,801,16,,,,
+2020-11-18,Franklin,Ohio,39049,44809,653,,,,
+2020-11-18,Fulton,Ohio,39051,1045,22,,,,
+2020-11-18,Gallia,Ohio,39053,575,13,,,,
+2020-11-18,Geauga,Ohio,39055,1646,51,,,,
+2020-11-18,Greene,Ohio,39057,4480,61,,,,
+2020-11-18,Guernsey,Ohio,39059,695,8,,,,
+2020-11-18,Hamilton,Ohio,39061,26468,367,,,,
+2020-11-18,Hancock,Ohio,39063,1993,33,,,,
+2020-11-18,Hardin,Ohio,39065,725,17,,,,
+2020-11-18,Harrison,Ohio,39067,161,3,,,,
+2020-11-18,Henry,Ohio,39069,847,21,,,,
+2020-11-18,Highland,Ohio,39071,872,16,,,,
+2020-11-18,Hocking,Ohio,39073,510,11,,,,
+2020-11-18,Holmes,Ohio,39075,1284,36,,,,
+2020-11-18,Huron,Ohio,39077,1219,18,,,,
+2020-11-18,Jackson,Ohio,39079,787,11,,,,
+2020-11-18,Jefferson,Ohio,39081,903,4,,,,
+2020-11-18,Knox,Ohio,39083,976,18,,,,
+2020-11-18,Lake,Ohio,39085,5413,62,,,,
+2020-11-18,Lawrence,Ohio,39087,1645,33,,,,
+2020-11-18,Licking,Ohio,39089,4540,72,,,,
+2020-11-18,Logan,Ohio,39091,1021,11,,,,
+2020-11-18,Lorain,Ohio,39093,5148,96,,,,
+2020-11-18,Lucas,Ohio,39095,12443,404,,,,
+2020-11-18,Madison,Ohio,39097,1392,18,,,,
+2020-11-18,Mahoning,Ohio,39099,5941,297,,,,
+2020-11-18,Marion,Ohio,39101,4267,51,,,,
+2020-11-18,Medina,Ohio,39103,3680,52,,,,
+2020-11-18,Meigs,Ohio,39105,327,12,,,,
+2020-11-18,Mercer,Ohio,39107,2619,37,,,,
+2020-11-18,Miami,Ohio,39109,3588,65,,,,
+2020-11-18,Monroe,Ohio,39111,268,20,,,,
+2020-11-18,Montgomery,Ohio,39113,17496,215,,,,
+2020-11-18,Morgan,Ohio,39115,185,1,,,,
+2020-11-18,Morrow,Ohio,39117,724,2,,,,
+2020-11-18,Muskingum,Ohio,39119,1985,10,,,,
+2020-11-18,Noble,Ohio,39121,496,18,,,,
+2020-11-18,Ottawa,Ohio,39123,985,30,,,,
+2020-11-18,Paulding,Ohio,39125,515,9,,,,
+2020-11-18,Perry,Ohio,39127,652,12,,,,
+2020-11-18,Pickaway,Ohio,39129,3752,46,,,,
+2020-11-18,Pike,Ohio,39131,617,1,,,,
+2020-11-18,Portage,Ohio,39133,2885,71,,,,
+2020-11-18,Preble,Ohio,39135,1286,21,,,,
+2020-11-18,Putnam,Ohio,39137,2054,43,,,,
+2020-11-18,Richland,Ohio,39139,2560,28,,,,
+2020-11-18,Ross,Ohio,39141,2178,56,,,,
+2020-11-18,Sandusky,Ohio,39143,1285,25,,,,
+2020-11-18,Scioto,Ohio,39145,1648,12,,,,
+2020-11-18,Seneca,Ohio,39147,1428,16,,,,
+2020-11-18,Shelby,Ohio,39149,1598,15,,,,
+2020-11-18,Stark,Ohio,39151,7233,194,,,,
+2020-11-18,Summit,Ohio,39153,11346,299,,,,
+2020-11-18,Trumbull,Ohio,39155,4235,140,,,,
+2020-11-18,Tuscarawas,Ohio,39157,2694,51,,,,
+2020-11-18,Union,Ohio,39159,1582,6,,,,
+2020-11-18,Van Wert,Ohio,39161,751,6,,,,
+2020-11-18,Vinton,Ohio,39163,184,5,,,,
+2020-11-18,Warren,Ohio,39165,7031,73,,,,
+2020-11-18,Washington,Ohio,39167,902,27,,,,
+2020-11-18,Wayne,Ohio,39169,2823,87,,,,
+2020-11-18,Williams,Ohio,39171,891,6,,,,
+2020-11-18,Wood,Ohio,39173,3903,105,,,,
+2020-11-18,Wyandot,Ohio,39175,574,15,,,,
 2020-11-18,Adair,Oklahoma,40001,1076,13,,13,,
 2020-11-18,Alfalfa,Oklahoma,40003,257,0,,0,,
 2020-11-18,Atoka,Oklahoma,40005,690,1,,1,,
@@ -2635,7 +2635,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-11-18,Baylor,Texas,48023,51,4,51,,,
 2020-11-18,Bee,Texas,48025,1933,40,1933,,,
 2020-11-18,Bell,Texas,48027,7733,111,7733,109,,2
-2020-11-18,Bexar,Texas,48029,70540,1458,59029,1304,11511,154
+2020-11-18,Bexar,Texas,48029,70906,1458,59232,1307,11674,151
 2020-11-18,Blanco,Texas,48031,171,6,171,,,
 2020-11-18,Borden,Texas,48033,4,0,4,,,
 2020-11-18,Bosque,Texas,48035,495,15,495,,,
@@ -2645,7 +2645,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-11-18,Brewster,Texas,48043,419,5,419,,,
 2020-11-18,Briscoe,Texas,48045,37,1,37,,,
 2020-11-18,Brooks,Texas,48047,380,25,380,,,
-2020-11-18,Brown,Texas,48049,1426,38,842,38,584,
+2020-11-18,Brown,Texas,48049,1494,38,867,38,627,
 2020-11-18,Burleson,Texas,48051,592,7,592,,,
 2020-11-18,Burnet,Texas,48053,1275,16,1275,,,
 2020-11-18,Caldwell,Texas,48055,1796,39,1796,39,,0
@@ -2677,9 +2677,9 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-11-18,Crosby,Texas,48107,163,13,163,1,,12
 2020-11-18,Culberson,Texas,48109,151,3,151,,,
 2020-11-18,Dallam,Texas,48111,424,13,424,,,
-2020-11-18,Dallas,Texas,48113,121360,1410,111174,1147,10186,263
+2020-11-18,Dallas,Texas,48113,122307,1410,111960,1162,10347,248
 2020-11-18,Dawson,Texas,48115,1107,30,1107,1,,29
-2020-11-18,Deaf Smith,Texas,48117,1598,36,1598,32,,4
+2020-11-18,Deaf Smith,Texas,48117,1604,36,1604,32,,4
 2020-11-18,Delta,Texas,48119,45,0,45,,,
 2020-11-18,Denton,Texas,48121,20403,197,17553,,2850,
 2020-11-18,DeWitt,Texas,48123,1167,44,1167,1,,43
@@ -2712,7 +2712,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-11-18,Gonzales,Texas,48177,1203,21,1203,2,,19
 2020-11-18,Gray,Texas,48179,1139,14,1139,2,,12
 2020-11-18,Grayson,Texas,48181,3623,93,3623,2,,91
-2020-11-18,Gregg,Texas,48183,4457,103,3012,61,1445,42
+2020-11-18,Gregg,Texas,48183,4546,108,3059,65,1487,43
 2020-11-18,Grimes,Texas,48185,1294,37,1294,1,,36
 2020-11-18,Guadalupe,Texas,48187,4137,83,4137,,,
 2020-11-18,Hale,Texas,48189,3505,82,3505,75,,7
@@ -2722,12 +2722,12 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-11-18,Hardeman,Texas,48197,75,4,75,0,,4
 2020-11-18,Hardin,Texas,48199,1530,41,1530,5,,36
 2020-11-18,Harris,Texas,48201,177466,2928,177466,2373,,555
-2020-11-18,Harrison,Texas,48203,1639,41,1207,35,432,6
+2020-11-18,Harrison,Texas,48203,1644,41,1207,35,437,6
 2020-11-18,Hartley,Texas,48205,199,2,199,2,,
 2020-11-18,Haskell,Texas,48207,93,3,93,,,
 2020-11-18,Hays,Texas,48209,7657,93,6833,87,824,6
 2020-11-18,Hemphill,Texas,48211,219,1,219,,,
-2020-11-18,Henderson,Texas,48213,2223,53,1628,40,595,13
+2020-11-18,Henderson,Texas,48213,2251,54,1650,41,601,13
 2020-11-18,Hidalgo,Texas,48215,38628,2015,38628,2015,,
 2020-11-18,Hill,Texas,48217,1010,16,1010,1,,15
 2020-11-18,Hockley,Texas,48219,1161,39,1161,1,,38
@@ -2798,7 +2798,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-11-18,Navarro,Texas,48349,2379,42,1669,42,710,
 2020-11-18,Newton,Texas,48351,192,16,192,,,
 2020-11-18,Nolan,Texas,48353,593,7,593,,,
-2020-11-18,Nueces,Texas,48355,22338,466,16758,466,5580,
+2020-11-18,Nueces,Texas,48355,22510,466,16876,466,5634,
 2020-11-18,Ochiltree,Texas,48357,536,6,536,2,,4
 2020-11-18,Oldham,Texas,48359,31,2,31,1,,1
 2020-11-18,Orange,Texas,48361,2427,51,2427,2,,49
@@ -2810,7 +2810,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-11-18,Polk,Texas,48373,1447,42,983,41,464,1
 2020-11-18,Potter,Texas,48375,11052,143,11052,143,,
 2020-11-18,Presidio,Texas,48377,247,7,247,,,
-2020-11-18,Rains,Texas,48379,282,6,141,4,141,2
+2020-11-18,Rains,Texas,48379,286,7,142,5,144,2
 2020-11-18,Randall,Texas,48381,8837,88,8837,88,,
 2020-11-18,Reagan,Texas,48383,150,6,150,,,
 2020-11-18,Real,Texas,48385,129,8,129,,,
@@ -2832,7 +2832,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-11-18,Shackelford,Texas,48417,46,0,46,,,
 2020-11-18,Shelby,Texas,48419,588,35,588,6,,29
 2020-11-18,Sherman,Texas,48421,86,1,86,,,
-2020-11-18,Smith,Texas,48423,8540,189,5429,130,3111,59
+2020-11-18,Smith,Texas,48423,8777,188,5573,129,3204,59
 2020-11-18,Somervell,Texas,48425,222,5,222,,,
 2020-11-18,Starr,Texas,48427,4136,187,4136,187,,0
 2020-11-18,Stephens,Texas,48429,217,7,217,,,
@@ -2841,20 +2841,20 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-11-18,Sutton,Texas,48435,166,3,166,,,
 2020-11-18,Swisher,Texas,48437,215,6,215,,,
 2020-11-18,Tarrant,Texas,48439,85759,958,76140,811,9619,147
-2020-11-18,Taylor,Texas,48441,6601,93,3063,89,3538,4
+2020-11-18,Taylor,Texas,48441,6697,93,3083,90,3614,3
 2020-11-18,Terrell,Texas,48443,11,0,11,,,
 2020-11-18,Terry,Texas,48445,838,15,838,,,
 2020-11-18,Throckmorton,Texas,48447,22,2,22,,,
 2020-11-18,Titus,Texas,48449,1723,38,1723,14,,24
 2020-11-18,Tom Green,Texas,48451,7650,95,3097,16,4553,79
-2020-11-18,Travis,Texas,48453,35020,469,35020,469,,
+2020-11-18,Travis,Texas,48453,35326,469,35326,469,,
 2020-11-18,Trinity,Texas,48455,217,8,217,,,
 2020-11-18,Tyler,Texas,48457,291,4,291,,,
 2020-11-18,Upshur,Texas,48459,573,17,573,,,
 2020-11-18,Upton,Texas,48461,41,5,41,,,
 2020-11-18,Uvalde,Texas,48463,1008,38,1008,,,
 2020-11-18,Val Verde,Texas,48465,2932,136,2932,113,,23
-2020-11-18,Van Zandt,Texas,48467,1438,42,978,32,460,10
+2020-11-18,Van Zandt,Texas,48467,1490,42,1007,32,483,10
 2020-11-18,Victoria,Texas,48469,4698,99,4698,62,,37
 2020-11-18,Walker,Texas,48471,4046,68,4046,27,,41
 2020-11-18,Waller,Texas,48473,1059,17,1059,,,
@@ -2889,7 +2889,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-11-18,Juab,Utah,49023,382,7,382,7,,
 2020-11-18,Kane,Utah,49025,133,1,133,1,,0
 2020-11-18,Millard,Utah,49027,357,1,357,1,,
-2020-11-18,Morgan,Utah,49029,374,2,,,,
+2020-11-18,Morgan,Utah,49029,391,2,,,,
 2020-11-18,Piute,Utah,49031,41,1,41,1,,
 2020-11-18,Rich,Utah,49033,36,0,36,0,,
 2020-11-18,Salt Lake,Utah,49035,67942,360,25822,243,42120,117
@@ -2899,12 +2899,12 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-11-18,Summit,Utah,49043,1950,3,,,,
 2020-11-18,Tooele,Utah,49045,2348,9,,,,
 2020-11-18,Uintah,Utah,49047,569,1,569,1,,
-2020-11-18,Unknown,Utah,,394,1,147,1,247,0
+2020-11-18,Unknown,Utah,,147,1,147,1,0,0
 2020-11-18,Utah,Utah,49049,41132,107,,,,
 2020-11-18,Wasatch,Utah,49051,1726,10,,,,
 2020-11-18,Washington,Utah,49053,7615,60,7615,60,,
 2020-11-18,Wayne,Utah,49055,43,0,43,0,,
-2020-11-18,Weber,Utah,49057,10168,41,,,,
+2020-11-18,Weber,Utah,49057,10436,43,,,,
 2020-11-18,Addison,Vermont,50001,152,2,152,2,,
 2020-11-18,Bennington,Vermont,50003,170,1,170,1,,
 2020-11-18,Caledonia,Vermont,50005,78,0,78,0,,
@@ -3056,46 +3056,46 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-11-18,St. Croix,Virgin Islands,78010,565,7,565,7,,
 2020-11-18,St. John,Virgin Islands,78020,75,1,75,1,,
 2020-11-18,St. Thomas,Virgin Islands,78030,823,15,823,15,,
-2020-11-18,Adams,Washington,53001,1147,11,1147,11,,
-2020-11-18,Asotin,Washington,53003,518,10,518,10,,
-2020-11-18,Benton,Washington,53005,6885,142,6715,139,170,3
-2020-11-18,Chelan,Washington,53007,3006,24,2187,23,819,1
-2020-11-18,Clallam,Washington,53009,335,3,335,3,,
-2020-11-18,Clark,Washington,53011,6920,107,6918,105,2,2
-2020-11-18,Columbia,Washington,53013,25,2,25,2,,
-2020-11-18,Cowlitz,Washington,53015,1090,8,1090,8,,
-2020-11-18,Douglas,Washington,53017,1710,12,1287,11,423,1
-2020-11-18,Ferry,Washington,53019,44,1,44,1,,
-2020-11-18,Franklin,Washington,53021,5716,71,5579,70,137,1
+2020-11-18,Adams,Washington,53001,1162,11,1162,11,,
+2020-11-18,Asotin,Washington,53003,520,10,520,10,,
+2020-11-18,Benton,Washington,53005,7004,142,6834,139,170,3
+2020-11-18,Chelan,Washington,53007,3006,24,2191,23,815,1
+2020-11-18,Clallam,Washington,53009,341,3,341,3,,
+2020-11-18,Clark,Washington,53011,6920,108,6918,106,2,2
+2020-11-18,Columbia,Washington,53013,26,2,26,2,,
+2020-11-18,Cowlitz,Washington,53015,1104,8,1104,8,,
+2020-11-18,Douglas,Washington,53017,1710,12,1288,11,422,1
+2020-11-18,Ferry,Washington,53019,45,1,45,1,,
+2020-11-18,Franklin,Washington,53021,5782,71,5645,70,137,1
 2020-11-18,Garfield,Washington,53023,52,0,52,0,,
-2020-11-18,Grant,Washington,53025,4181,31,3795,31,386,
-2020-11-18,Grays Harbor,Washington,53027,881,15,881,15,,
-2020-11-18,Island,Washington,53029,511,15,508,12,3,3
-2020-11-18,Jefferson,Washington,53031,122,0,122,0,,
-2020-11-18,King,Washington,53033,35729,864,35712,847,17,17
-2020-11-18,Kitsap,Washington,53035,2046,29,2045,28,1,1
-2020-11-18,Kittitas,Washington,53037,815,23,815,23,,
-2020-11-18,Klickitat,Washington,53039,236,3,236,3,,
-2020-11-18,Lewis,Washington,53041,954,13,954,13,,
+2020-11-18,Grant,Washington,53025,4250,31,3808,31,442,
+2020-11-18,Grays Harbor,Washington,53027,884,15,884,15,,
+2020-11-18,Island,Washington,53029,526,15,523,12,3,3
+2020-11-18,Jefferson,Washington,53031,123,0,123,0,,
+2020-11-18,King,Washington,53033,36012,864,35995,847,17,17
+2020-11-18,Kitsap,Washington,53035,2049,29,2048,28,1,1
+2020-11-18,Kittitas,Washington,53037,816,22,816,22,,
+2020-11-18,Klickitat,Washington,53039,237,3,237,3,,
+2020-11-18,Lewis,Washington,53041,956,14,956,14,,
 2020-11-18,Lincoln,Washington,53043,122,2,122,2,,
-2020-11-18,Mason,Washington,53045,632,10,632,10,,
+2020-11-18,Mason,Washington,53045,633,11,633,11,,
 2020-11-18,Okanogan,Washington,53047,1238,14,1238,14,,
-2020-11-18,Pacific,Washington,53049,183,3,183,3,,
-2020-11-18,Pend Oreille,Washington,53051,186,1,186,1,,
-2020-11-18,Pierce,Washington,53053,15120,293,13495,293,1625,
-2020-11-18,San Juan,Washington,53055,55,0,55,0,,
-2020-11-18,Skagit,Washington,53057,1671,27,1670,26,1,1
+2020-11-18,Pacific,Washington,53049,190,3,190,3,,
+2020-11-18,Pend Oreille,Washington,53051,187,1,187,1,,
+2020-11-18,Pierce,Washington,53053,15120,293,13671,293,1449,
+2020-11-18,San Juan,Washington,53055,54,0,54,0,,
+2020-11-18,Skagit,Washington,53057,1673,27,1672,26,1,1
 2020-11-18,Skamania,Washington,53059,86,1,86,1,,
-2020-11-18,Snohomish,Washington,53061,13269,263,11934,251,1335,12
+2020-11-18,Snohomish,Washington,53061,13269,269,11934,257,1335,12
 2020-11-18,Spokane,Washington,53063,13441,235,13438,232,3,3
-2020-11-18,Stevens,Washington,53065,448,6,448,6,,
-2020-11-18,Thurston,Washington,53067,2594,43,2593,42,1,1
+2020-11-18,Stevens,Washington,53065,454,6,454,6,,
+2020-11-18,Thurston,Washington,53067,2644,46,2643,45,1,1
 2020-11-18,Unknown,Washington,,2,2,0,0,2,2
 2020-11-18,Wahkiakum,Washington,53069,12,0,12,0,,
-2020-11-18,Walla Walla,Washington,53071,1840,19,1839,18,1,1
-2020-11-18,Whatcom,Washington,53073,1952,62,1942,52,10,10
+2020-11-18,Walla Walla,Washington,53071,1886,20,1885,19,1,1
+2020-11-18,Whatcom,Washington,53073,1950,62,1940,52,10,10
 2020-11-18,Whitman,Washington,53075,2095,23,2095,23,,
-2020-11-18,Yakima,Washington,53077,13857,302,13844,289,13,13
+2020-11-18,Yakima,Washington,53077,13930,304,13917,291,13,13
 2020-11-18,Barbour,West Virginia,54001,281,4,249,3,32,1
 2020-11-18,Berkeley,West Virginia,54003,2379,20,2123,20,256,0
 2020-11-18,Boone,West Virginia,54005,538,12,515,12,23,0
