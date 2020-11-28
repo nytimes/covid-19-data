@@ -195,7 +195,7 @@ Counts for Guam include cases reported from the USS Theodore Roosevelt.
 
 * Puerto Rico
 
-Data for Puerto Rico's county-equivalent municipios are available starting on May 5. This data was not available at the beginning of the outbreak and so all cases and deaths were assigned to Unknown.
+Data for Puerto Rico's county-equivalent municipios are available starting on May 5. This data was not available at the beginning of the outbreak and so all cases and deaths were assigned to Unknown. Puerto Rico does not report deaths at the municipio level.
 
 #### Probable Cases and Deaths and Anomalies
 
