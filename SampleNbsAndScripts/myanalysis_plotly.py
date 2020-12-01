@@ -545,14 +545,11 @@ html_graphs.write('<div style=\"clear:both\"></div>')
 # %%
 def plottotalcases(state, county = 'all', show_by_default=True):
     if county == 'all':
-        data = state_cov_data[state_cov_data.state == state][['date', 'cases']]
+        data = state_cov_data[state_cov_data.state == state][['date', 'cases']].groupby('date').sum()
     else:
-        data = county_cov_data[county_cov_data.state == state][['date', 'cases', 'county']]
-        data = data[county_cov_data.county == county][['date', 'cases']]
+        data = county_cov_data[county_cov_data.state == state][['date', 'cases', 'county']].groupby('date').sum()
 
-    data = data[data.cases >= starting_cases]
     if len(data['cases']):
-        data.index = [x for x in range(0, len(data))]
 
         if (show_by_default):
             visible = True
@@ -573,13 +570,13 @@ def plottotalcases(state, county = 'all', show_by_default=True):
 row += 1
 starting_cases = 1000
 layout = go.Layout(
-        title = 'Total cases by state after hitting ' + str(starting_cases) + ' cases',
+        title = 'Total cases by state',
         plot_bgcolor = default_plot_color,
         xaxis_gridcolor = default_grid_color,
         yaxis_gridcolor = default_grid_color,
         width=default_width,
         height=default_height,
-        xaxis_title='Days since ' + str(starting_cases) + ' cases were hit',
+        xaxis_title='Date',
         yaxis_title='Total cases'
 )
 
@@ -603,13 +600,13 @@ html_graphs.write("  <object data=\""+'Chart_'+str(row)+'.html'+"\" width=" + st
 row += 1
 starting_cases = 200
 layout = go.Layout(
-        title = 'Total cases by county after hitting ' + str(starting_cases) + ' cases',
+        title = 'Total cases by county',
         plot_bgcolor = default_plot_color,
         xaxis_gridcolor = default_grid_color,
         yaxis_gridcolor = default_grid_color,
         width=default_width,
         height=default_height,
-        xaxis_title='Days since ' + str(starting_cases) + ' cases were hit',
+        xaxis_title='Date',
         yaxis_title='Total cases'
 )
 fig = go.Figure(layout=layout)
@@ -627,11 +624,9 @@ html_graphs.write("  <object data=\""+'Chart_'+str(row)+'.html'+"\" width=" + st
 # **********************************************************************************************************
 #  %%
 def stateplotpercapita(state, show_by_default):
-    data = state_cov_data[state_cov_data.state == state][['date', 'cases']]
-    data = data[data.cases >= starting_cases]
+    data = state_cov_data[state_cov_data.state == state][['date', 'cases']].groupby('date').sum()
     state_population = population_state_density[population_state_density.state == state]
     if len(state_population):
-        data.index = [x for x in range(0, len(data))]
         plotdata = (data.cases / state_population.population.values[0]) * 1000
         if len(data['cases']):
             if (show_by_default):
@@ -647,13 +642,13 @@ def stateplotpercapita(state, show_by_default):
 row += 1
 starting_cases = 1000
 layout = go.Layout(
-        title = 'Total state cases per 1,000 people after hitting ' + str(starting_cases) + ' cases',
+        title = 'Total state cases per 1,000',
         plot_bgcolor = default_plot_color,
         xaxis_gridcolor = default_grid_color,
         yaxis_gridcolor = default_grid_color,
         width=default_width,
         height=default_height,
-        xaxis_title='Days since ' + str(starting_cases) + ' cases were hit',
+        xaxis_title='Date',
         yaxis_title='Total cases per 1,000 people'
 )
 fig=go.Figure(layout=layout)
@@ -680,12 +675,9 @@ html_graphs.write("  <object data=\""+'Chart_'+str(row)+'.html'+"\" width=" + st
 #################################################
 #  %%
 def countyplotpercapita(state, county, show_by_default):
-    data = county_cov_data[county_cov_data.state == state][['date', 'cases', 'county']]
-    data = data[county_cov_data.county == county][['date', 'cases']]
-    data = data[data.cases >= starting_cases]
+    data = county_cov_data[county_cov_data.state == state][['date', 'cases', 'county']].groupby('date').sum()
     county_population = population_county[(population_county.state == state) & (population_county.county == county)]
     if len(county_population):
-        data.index = [x for x in range(0, len(data))]
         plotdata = (data.cases / county_population.population.values[0]) * 1000
         if len(data['cases']):
             if (show_by_default):
@@ -701,13 +693,13 @@ def countyplotpercapita(state, county, show_by_default):
 row += 1
 starting_cases = 50
 layout = go.Layout(
-        title = 'Total county cases per 1,000 people after hitting ' + str(starting_cases) + ' cases',
+        title = 'Total county cases per 1,000 people',
         plot_bgcolor = default_plot_color,
         xaxis_gridcolor = default_grid_color,
         yaxis_gridcolor = default_grid_color,
         width=default_width,
         height=default_height,
-        xaxis_title='Days since ' + str(starting_cases) + ' cases were hit',
+        xaxis_title='Date',
         yaxis_title='Total cases per 1,000 people'
 )
 fig=go.Figure(layout=layout)
@@ -725,11 +717,9 @@ html_graphs.write("  <object data=\""+'Chart_'+str(row)+'.html'+"\" width=" + st
 # **********************************************************************************************************
 #  %%
 def stateplotbydensity(state, show_by_default):
-    data = state_cov_data[state_cov_data.state == state][['date', 'cases']]
-    data = data[data.cases >= starting_cases]
+    data = state_cov_data[state_cov_data.state == state][['date', 'cases']].groupby('date').sum()
     state_density = population_state_density[population_state_density.state == state]
     if len(state_density):
-        data.index = [x for x in range(0, len(data))]
         plotdata = (data.cases / state_density.density.values[0])
         if len(data['cases']):
             lastindex = len(data) - 1
@@ -746,13 +736,13 @@ def stateplotbydensity(state, show_by_default):
 row += 1
 starting_cases = 200
 layout = go.Layout(
-        title = 'Total state trend after hitting ' + str(starting_cases) + ' cases factoring in population density',
+        title = 'Total state cases factoring in population density',
         plot_bgcolor = default_plot_color,
         xaxis_gridcolor = default_grid_color,
         yaxis_gridcolor = default_grid_color,
         width=default_width,
         height=default_height,
-        xaxis_title='Days since ' + str(starting_cases) + ' cases were hit',
+        xaxis_title='Date',
         yaxis_title='Total density adjusted cases'
 )
 fig=go.Figure(layout=layout)
@@ -781,11 +771,9 @@ html_graphs.write("  <object data=\""+'Chart_'+str(row)+'.html'+"\" width=" + st
 # **********************************************************************************************************
 #  %%
 def countyplotbydensity(county, state, show_by_default):
-    data = county_cov_data[(county_cov_data.county == county) & (county_cov_data.state == state)][['date', 'cases']]
-    data = data[data.cases >= starting_cases]
+    data = county_cov_data[(county_cov_data.county == county) & (county_cov_data.state == state)][['date', 'cases']].groupby('date').sum()
     density = county_density[(county_density.county == county) & (county_density.state == state)]
     if len(density):
-        data.index = [x for x in range(0, len(data))]
         plotdata = (data.cases / density.density.values[0])
         if len(data['cases']):
             lastindex = len(data) - 1
@@ -802,13 +790,13 @@ def countyplotbydensity(county, state, show_by_default):
 row += 1
 starting_cases = 50
 layout = go.Layout(
-        title = 'Total county trend after hitting ' + str(starting_cases) + ' cases factoring in population density',
+        title = 'Total county cases factoring in population density',
         plot_bgcolor = default_plot_color,
         xaxis_gridcolor = default_grid_color,
         yaxis_gridcolor = default_grid_color,
         width=default_width,
         height=default_height,
-        xaxis_title='Days since ' + str(starting_cases) + ' cases were hit',
+        xaxis_title='Date',
         yaxis_title='Total density adjusted cases'
 )
 fig=go.Figure(layout=layout)
@@ -823,13 +811,13 @@ html_graphs.write("  <object data=\""+'Chart_'+str(row)+'.html'+"\" width=" + st
 for index, s in interesting_states.iterrows():
     starting_cases = 5
     layout = go.Layout(
-            title = s.state + ' State county trends after hitting ' + str(starting_cases) + ' cases factoring in population density',
+            title = s.state + ' State county cases factoring in population density',
             plot_bgcolor = default_plot_color,
             xaxis_gridcolor = default_grid_color,
             yaxis_gridcolor = default_grid_color,
             width=default_width,
             height=default_height,
-            xaxis_title='Days since ' + str(starting_cases) + ' cases were hit',
+            xaxis_title='Date',
             yaxis_title='Total density adjusted cases'
     )
     fig=go.Figure(layout=layout)
@@ -855,11 +843,9 @@ def cityplotpercapita(state, city, show_by_default):
         if city in x.cities and state == x.state:
             county = x.county
 
-    cov_at_county_level = county_cov_data[county_cov_data.state == state][county_cov_data.county == county][['date', 'cases']]
-    cov_at_county_level = cov_at_county_level[cov_at_county_level.cases >= starting_cases]
+    cov_at_county_level = county_cov_data[county_cov_data.state == state][county_cov_data.county == county][['date', 'cases']].groupby('date').sum()
     city_population = population_city_density[population_city_density.state == state][population_city_density.city == city]
     if (len(city_population)):
-        cov_at_county_level.index = [x for x in range(0, len(cov_at_county_level))]
         plotdata = (cov_at_county_level.cases / city_population.population.values[0]) * 1000
         if len(cov_at_county_level['cases']):
             lastindex = len(cov_at_county_level) - 1
@@ -876,13 +862,13 @@ def cityplotpercapita(state, city, show_by_default):
 row += 1
 starting_cases = 20
 layout = go.Layout(
-        title = 'Total city cases per 1,000 people after hitting ' + str(starting_cases) + ' cases',
+        title = 'Total city cases per 1,000',
         plot_bgcolor = default_plot_color,
         xaxis_gridcolor = default_grid_color,
         yaxis_gridcolor = default_grid_color,
         width=default_width,
         height=default_height,
-        xaxis_title='Days since ' + str(starting_cases) + ' cases were hit',
+        xaxis_title='Date',
         yaxis_title='Total cases per 1,000 people'
 )
 fig=go.Figure(layout=layout)
@@ -914,11 +900,9 @@ def cityplotbydensity(state, city, show_by_default):
         if city in x.cities and state == x.state:
             county = x.county
 
-    data = county_cov_data[county_cov_data.state == state][county_cov_data.county == county][['date', 'cases']]
-    data = data[data.cases >= starting_cases]
+    data = county_cov_data[county_cov_data.state == state][county_cov_data.county == county][['date', 'cases']].groupby('date').sum()
     city_density = population_city_density[population_city_density.state == state][population_city_density.city == city]
     if (len(city_density)):
-        data.index = [x for x in range(0, len(data))]
         plotdata = data.cases / city_density.density.values[0]
         if len(data['cases']):
             lastindex = len(data) - 1
@@ -935,13 +919,13 @@ def cityplotbydensity(state, city, show_by_default):
 row += 1
 starting_cases = 20
 layout = go.Layout(
-        title = 'Total city trend after hitting ' + str(starting_cases) + ' cases factoring in population density',
+        title = 'Total city cases factoring in population density',
         plot_bgcolor = default_plot_color,
         xaxis_gridcolor = default_grid_color,
         yaxis_gridcolor = default_grid_color,
         width=default_width,
         height=default_height,
-        xaxis_title='Days since ' + str(starting_cases) + ' cases were hit',
+        xaxis_title='Date',
         yaxis_title='Total density adjusted cases'
 )
 fig=go.Figure(layout=layout)
@@ -974,11 +958,9 @@ def citydeathsplotbydensity(state, city, show_by_default):
         if city in x.cities and state == x.state:
             county = x.county
 
-    data = county_cov_data[county_cov_data.state == state][county_cov_data.county == county][['date', 'deaths']]
-    data = data[data.deaths >= starting_deaths]
+    data = county_cov_data[county_cov_data.state == state][county_cov_data.county == county][['date', 'deaths']].groupby('date').sum()
     city_density = population_city_density[population_city_density.state == state][population_city_density.city == city]
     if (len(city_density)):
-        data.index = [x for x in range(0, len(data))]
         plotdata = data.deaths / city_density.density.values[0]
         if len(data['deaths']):
             if (show_by_default):
@@ -993,13 +975,13 @@ def citydeathsplotbydensity(state, city, show_by_default):
 
 row += 1
 layout = go.Layout(
-        title = 'Total city deaths trend after the first death factoring in population density',
+        title = 'Total city deaths factoring in population density',
         plot_bgcolor = default_plot_color,
         xaxis_gridcolor = default_grid_color,
         yaxis_gridcolor = default_grid_color,
         width=default_width,
         height=default_height,
-        xaxis_title='Days since first person died from covid-19',
+        xaxis_title='Date',
         yaxis_title='Total density adjusted deaths'
 )
 fig=go.Figure(layout=layout)
