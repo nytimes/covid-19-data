@@ -226,6 +226,42 @@ interesting_states.sort_values(by='state', inplace=True)
 interesting_locations = pd.concat([interesting_locations_east_df, interesting_locations_west_df, interesting_locations_midwest_df, interesting_locations_south_df])
 interesting_locations.reset_index(inplace=True)
 
+# %%
+population_by_age = pd.read_csv(datafolder + 'nc-est2019-agesex-res.csv')
+
+covid_by_age = pd.read_csv(datafolder + 'Provisional_COVID-19_Death_Counts_by_Sex__Age__and_State.csv')
+df = covid_by_age[(covid_by_age.State == 'United States') & (covid_by_age.Sex == 'All Sexes')]
+df['Population'] = int(0)
+df.Population[(df['Age group']=='All Ages')] = int(population_by_age.POPESTIMATE2019[(population_by_age.SEX == 0) & (population_by_age.AGE == 999)])
+df.Population[(df['Age group']=='Under 1 year')] = int(population_by_age.POPESTIMATE2019[(population_by_age.SEX == 0) & (population_by_age.AGE == 0)])
+df.Population[(df['Age group']=='0-17 years')] = int(population_by_age.POPESTIMATE2019[(population_by_age.SEX == 0) & (population_by_age.AGE <= 17)].sum())
+df.Population[(df['Age group']=='1-4 years')] = int(population_by_age.POPESTIMATE2019[(population_by_age.SEX == 0) & (population_by_age.AGE >= 1) & (population_by_age.AGE <= 4)].sum())
+df.Population[(df['Age group']=='5-14 years')] = int(population_by_age.POPESTIMATE2019[(population_by_age.SEX == 0) & (population_by_age.AGE >= 5) & (population_by_age.AGE <= 14)].sum())
+df.Population[(df['Age group']=='15-24 years')] = int(population_by_age.POPESTIMATE2019[(population_by_age.SEX == 0) & (population_by_age.AGE >= 15) & (population_by_age.AGE <= 24)].sum())
+df.Population[(df['Age group']=='18-29 years')] = int(population_by_age.POPESTIMATE2019[(population_by_age.SEX == 0) & (population_by_age.AGE >= 18) & (population_by_age.AGE <= 29)].sum())
+df.Population[(df['Age group']=='25-34 years')] = int(population_by_age.POPESTIMATE2019[(population_by_age.SEX == 0) & (population_by_age.AGE >= 25) & (population_by_age.AGE <= 34)].sum())
+df.Population[(df['Age group']=='30-49 years')] = int(population_by_age.POPESTIMATE2019[(population_by_age.SEX == 0) & (population_by_age.AGE >= 30) & (population_by_age.AGE <= 49)].sum())
+df.Population[(df['Age group']=='35-44 years')] = int(population_by_age.POPESTIMATE2019[(population_by_age.SEX == 0) & (population_by_age.AGE >= 35) & (population_by_age.AGE <= 44)].sum())
+df.Population[(df['Age group']=='45-54 years')] = int(population_by_age.POPESTIMATE2019[(population_by_age.SEX == 0) & (population_by_age.AGE >= 45) & (population_by_age.AGE <= 54)].sum())
+df.Population[(df['Age group']=='50-64 years')] = int(population_by_age.POPESTIMATE2019[(population_by_age.SEX == 0) & (population_by_age.AGE >= 50) & (population_by_age.AGE <= 64)].sum())
+df.Population[(df['Age group']=='55-64 years')] = int(population_by_age.POPESTIMATE2019[(population_by_age.SEX == 0) & (population_by_age.AGE >= 55) & (population_by_age.AGE <= 64)].sum())
+df.Population[(df['Age group']=='65-74 years')] = int(population_by_age.POPESTIMATE2019[(population_by_age.SEX == 0) & (population_by_age.AGE >= 65) & (population_by_age.AGE <= 74)].sum())
+df.Population[(df['Age group']=='75-84 years')] = int(population_by_age.POPESTIMATE2019[(population_by_age.SEX == 0) & (population_by_age.AGE >= 75) & (population_by_age.AGE <= 84)].sum())
+df.Population[(df['Age group']=='85 years and over')] = int(population_by_age.POPESTIMATE2019[(population_by_age.SEX == 0) & (population_by_age.AGE >= 85) & (population_by_age.AGE < 999)].sum())
+
+df['Chance of Death'] = (df['COVID-19 Deaths'] / df.Population) * 100
+fig = go.Figure(data=[go.Table(
+    header=dict(values=['Age group', 'COVID-19 Deaths', 'Population', 'Chance of Death'],
+                fill_color='paleturquoise',
+                align='center'),
+    cells=dict(values=[df['Age group'], df['COVID-19 Deaths'], df['Population'], df['Chance of Death']],
+               fill_color='lavender',
+               align='right'))
+])
+fig.show()
+
+
+
 # %% [markdown]
 # **********************************************************************************************************
 # # New cases per day for US
