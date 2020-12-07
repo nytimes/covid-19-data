@@ -230,34 +230,60 @@ interesting_locations.reset_index(inplace=True)
 population_by_age = pd.read_csv(datafolder + 'nc-est2019-agesex-res.csv')
 
 covid_by_age = pd.read_csv(datafolder + 'Provisional_COVID-19_Death_Counts_by_Sex__Age__and_State.csv')
-df = covid_by_age[(covid_by_age.State == 'United States') & (covid_by_age.Sex == 'All Sexes')]
-df['Population'] = int(0)
-df.Population[(df['Age group']=='All Ages')] = int(population_by_age.POPESTIMATE2019[(population_by_age.SEX == 0) & (population_by_age.AGE == 999)])
-df.Population[(df['Age group']=='Under 1 year')] = int(population_by_age.POPESTIMATE2019[(population_by_age.SEX == 0) & (population_by_age.AGE == 0)])
-df.Population[(df['Age group']=='0-17 years')] = int(population_by_age.POPESTIMATE2019[(population_by_age.SEX == 0) & (population_by_age.AGE <= 17)].sum())
-df.Population[(df['Age group']=='1-4 years')] = int(population_by_age.POPESTIMATE2019[(population_by_age.SEX == 0) & (population_by_age.AGE >= 1) & (population_by_age.AGE <= 4)].sum())
-df.Population[(df['Age group']=='5-14 years')] = int(population_by_age.POPESTIMATE2019[(population_by_age.SEX == 0) & (population_by_age.AGE >= 5) & (population_by_age.AGE <= 14)].sum())
-df.Population[(df['Age group']=='15-24 years')] = int(population_by_age.POPESTIMATE2019[(population_by_age.SEX == 0) & (population_by_age.AGE >= 15) & (population_by_age.AGE <= 24)].sum())
-df.Population[(df['Age group']=='18-29 years')] = int(population_by_age.POPESTIMATE2019[(population_by_age.SEX == 0) & (population_by_age.AGE >= 18) & (population_by_age.AGE <= 29)].sum())
-df.Population[(df['Age group']=='25-34 years')] = int(population_by_age.POPESTIMATE2019[(population_by_age.SEX == 0) & (population_by_age.AGE >= 25) & (population_by_age.AGE <= 34)].sum())
-df.Population[(df['Age group']=='30-49 years')] = int(population_by_age.POPESTIMATE2019[(population_by_age.SEX == 0) & (population_by_age.AGE >= 30) & (population_by_age.AGE <= 49)].sum())
-df.Population[(df['Age group']=='35-44 years')] = int(population_by_age.POPESTIMATE2019[(population_by_age.SEX == 0) & (population_by_age.AGE >= 35) & (population_by_age.AGE <= 44)].sum())
-df.Population[(df['Age group']=='45-54 years')] = int(population_by_age.POPESTIMATE2019[(population_by_age.SEX == 0) & (population_by_age.AGE >= 45) & (population_by_age.AGE <= 54)].sum())
-df.Population[(df['Age group']=='50-64 years')] = int(population_by_age.POPESTIMATE2019[(population_by_age.SEX == 0) & (population_by_age.AGE >= 50) & (population_by_age.AGE <= 64)].sum())
-df.Population[(df['Age group']=='55-64 years')] = int(population_by_age.POPESTIMATE2019[(population_by_age.SEX == 0) & (population_by_age.AGE >= 55) & (population_by_age.AGE <= 64)].sum())
-df.Population[(df['Age group']=='65-74 years')] = int(population_by_age.POPESTIMATE2019[(population_by_age.SEX == 0) & (population_by_age.AGE >= 65) & (population_by_age.AGE <= 74)].sum())
-df.Population[(df['Age group']=='75-84 years')] = int(population_by_age.POPESTIMATE2019[(population_by_age.SEX == 0) & (population_by_age.AGE >= 75) & (population_by_age.AGE <= 84)].sum())
-df.Population[(df['Age group']=='85 years and over')] = int(population_by_age.POPESTIMATE2019[(population_by_age.SEX == 0) & (population_by_age.AGE >= 85) & (population_by_age.AGE < 999)].sum())
+indexNames = covid_by_age[  (covid_by_age['Age group'] == '18-29 years')
+                | (covid_by_age['Age group'] == '30-49 years')
+                | (covid_by_age['Age group'] == '50-64 years') ].index
+covid_by_age.drop(indexNames , inplace=True)
 
-df['Chance of Death'] = (df['COVID-19 Deaths'] / df.Population) * 100
+df = covid_by_age[(covid_by_age.State == 'United States') & (covid_by_age.Sex == 'All Sexes')]
+df['Population Raw'] = int(0)
+df['Population Raw'][(df['Age group']=='All Ages')] = int(population_by_age.POPESTIMATE2019[(population_by_age.SEX == 0) & (population_by_age.AGE == 999)])
+df['Population Raw'][(df['Age group']=='Under 1 year')] = int(population_by_age.POPESTIMATE2019[(population_by_age.SEX == 0) & (population_by_age.AGE == 0)])
+df['Population Raw'][(df['Age group']=='0-17 years')] = int(population_by_age.POPESTIMATE2019[(population_by_age.SEX == 0) & (population_by_age.AGE <= 17)].sum())
+df['Population Raw'][(df['Age group']=='1-4 years')] = int(population_by_age.POPESTIMATE2019[(population_by_age.SEX == 0) & (population_by_age.AGE >= 1) & (population_by_age.AGE <= 4)].sum())
+df['Population Raw'][(df['Age group']=='5-14 years')] = int(population_by_age.POPESTIMATE2019[(population_by_age.SEX == 0) & (population_by_age.AGE >= 5) & (population_by_age.AGE <= 14)].sum())
+df['Population Raw'][(df['Age group']=='15-24 years')] = int(population_by_age.POPESTIMATE2019[(population_by_age.SEX == 0) & (population_by_age.AGE >= 15) & (population_by_age.AGE <= 24)].sum())
+#df['Population Raw'][(df['Age group']=='18-29 years')] = int(population_by_age.POPESTIMATE2019[(population_by_age.SEX == 0) & (population_by_age.AGE >= 18) & (population_by_age.AGE <= 29)].sum())
+df['Population Raw'][(df['Age group']=='25-34 years')] = int(population_by_age.POPESTIMATE2019[(population_by_age.SEX == 0) & (population_by_age.AGE >= 25) & (population_by_age.AGE <= 34)].sum())
+#df['Population Raw'][(df['Age group']=='30-49 years')] = int(population_by_age.POPESTIMATE2019[(population_by_age.SEX == 0) & (population_by_age.AGE >= 30) & (population_by_age.AGE <= 49)].sum())
+df['Population Raw'][(df['Age group']=='35-44 years')] = int(population_by_age.POPESTIMATE2019[(population_by_age.SEX == 0) & (population_by_age.AGE >= 35) & (population_by_age.AGE <= 44)].sum())
+df['Population Raw'][(df['Age group']=='45-54 years')] = int(population_by_age.POPESTIMATE2019[(population_by_age.SEX == 0) & (population_by_age.AGE >= 45) & (population_by_age.AGE <= 54)].sum())
+#df['Population Raw'][(df['Age group']=='50-64 years')] = int(population_by_age.POPESTIMATE2019[(population_by_age.SEX == 0) & (population_by_age.AGE >= 50) & (population_by_age.AGE <= 64)].sum())
+df['Population Raw'][(df['Age group']=='55-64 years')] = int(population_by_age.POPESTIMATE2019[(population_by_age.SEX == 0) & (population_by_age.AGE >= 55) & (population_by_age.AGE <= 64)].sum())
+df['Population Raw'][(df['Age group']=='65-74 years')] = int(population_by_age.POPESTIMATE2019[(population_by_age.SEX == 0) & (population_by_age.AGE >= 65) & (population_by_age.AGE <= 74)].sum())
+df['Population Raw'][(df['Age group']=='75-84 years')] = int(population_by_age.POPESTIMATE2019[(population_by_age.SEX == 0) & (population_by_age.AGE >= 75) & (population_by_age.AGE <= 84)].sum())
+df['Population Raw'][(df['Age group']=='85 years and over')] = int(population_by_age.POPESTIMATE2019[(population_by_age.SEX == 0) & (population_by_age.AGE >= 85) & (population_by_age.AGE < 999)].sum())
+
+df['Population'] = df['Population Raw'].map(lambda n: '{:,}'.format(n))
+
+df['Chance of Death by COVID Raw'] = (df['COVID-19 Deaths'] / df['Population Raw'])
+df['Chance of Death by COVID'] = df['Chance of Death by COVID Raw'].map(lambda n: '1 in {:,}'.format(round(1/n)))
+df['Chance of Death by Pneumonia Raw'] = (df['Pneumonia Deaths'] / df['Population Raw'])
+df['Chance of Death by Pneumonia'] = df['Chance of Death by Pneumonia Raw'].map(lambda n: '1 in {:,}'.format(round(1/n)))
+df['Chance of Death by Flu Raw'] = (df['Influenza Deaths'] / df['Population Raw'])
+df['Chance of Death by Flu'] = df['Chance of Death by Flu Raw'].map(lambda n: '1 in {:,}'.format(round(1/n)))
+df['Chance of Death other than COVID Raw'] = (df['Total Deaths'] - (df['COVID-19 Deaths'] + df['Pneumonia Deaths'] + df['Influenza Deaths'])) / df['Population Raw']
+df['Chance of Death other than COVID'] = df['Chance of Death other than COVID Raw'].map(lambda n: '1 in {:,}'.format(round(1/n)))
+df['Chance of Living after COVID Raw'] = 1 - df['Chance of Death by COVID Raw']
+df['Chance of Living after COVID'] = df['Chance of Living after COVID Raw'].map(lambda n: '{:.4%}'.format(n))
+df['Times Worse than 25-34'] = df['Chance of Death by COVID Raw'].map(lambda n: n / df.loc[7, 'Chance of Death by COVID Raw'])
+
 fig = go.Figure(data=[go.Table(
-    header=dict(values=['Age group', 'COVID-19 Deaths', 'Population', 'Chance of Death'],
+    header=dict(values=['Age group', 'Deaths by COVID-19 Alone', 'Population', 'Chance of Living through COVID-19 Alone', 'Chance of Death by COVID-19 Alone', 'Chance of Death by Pneumonia Alone', 'Chance of Death by Flu Alone', 'Chance of Death not by COVID-19, Pneumonia or Flu', 'Risk factor compared to 25-34 year olds'],
                 fill_color='paleturquoise',
                 align='center'),
-    cells=dict(values=[df['Age group'], df['COVID-19 Deaths'], df['Population'], df['Chance of Death']],
+    cells=dict(values=[df['Age group'], df['COVID-19 Deaths'], df['Population'], df['Chance of Living after COVID'], df['Chance of Death by COVID'], df['Chance of Death by Pneumonia'], df['Chance of Death by Flu'], df['Chance of Death other than COVID'], round(df['Times Worse than 25-34'])],
                fill_color='lavender',
                align='right'))
 ])
+
+fig.update_layout(
+    title = 'Death Analysis by Age Group between Feb 1st, 2020 and Nov 28th, 2020 (from CDC stats)',
+    plot_bgcolor = default_plot_color,
+    width=default_width,
+    height=default_height * .75,
+)
+
 fig.show()
 
 
