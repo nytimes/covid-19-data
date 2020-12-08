@@ -2,6 +2,9 @@
 # * Reference Sites
 #     * https://github.com/greazer/covid-19-data
 #     * https://www.mercurynews.com/2020/04/08/how-california-has-contained-coronavirus-and-new-york-has-not/
+#     * https://www.cdc.gov/nchs/covid19/covid-19-mortality-data-files.htm
+#     * https://data.cdc.gov/NCHS/Provisional-Death-Counts-for-Influenza-Pneumonia-a/ynw2-4viq
+#     * https://healthdata.gov/dataset/covid-19-reported-patient-impact-and-hospital-capacity-state-timeseries
 #  %%
 import time
 t0 = time.clock()
