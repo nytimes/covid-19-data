@@ -1,13 +1,16 @@
 # %% [markdown]
-# * Reference Sites
-#     * https://github.com/greazer/covid-19-data
-#     * https://www.mercurynews.com/2020/04/08/how-california-has-contained-coronavirus-and-new-york-has-not/
-#     * https://www.cdc.gov/nchs/covid19/covid-19-mortality-data-files.htm
-#     * https://data.cdc.gov/NCHS/Provisional-Death-Counts-for-Influenza-Pneumonia-a/ynw2-4viq
-#     * https://healthdata.gov/dataset/covid-19-reported-patient-impact-and-hospital-capacity-state-timeseries
-#  %%
+#  * Reference Sites
+#      * https://github.com/greazer/covid-19-data
+#      * https://www.mercurynews.com/2020/04/08/how-california-has-contained-coronavirus-and-new-york-has-not/
+#      * https://www.cdc.gov/nchs/covid19/covid-19-mortality-data-files.htm
+#      * https://data.cdc.gov/NCHS/Provisional-COVID-19-Death-Counts-by-Sex-Age-and-S/9bhg-hcku
+#      * https://healthdata.gov/dataset/covid-19-reported-patient-impact-and-hospital-capacity-state-timeseries
+
+# %%
 import time
 t0 = time.clock()
+
+
 # %%
 import os
 from IPython.core.display import display, HTML
@@ -19,7 +22,9 @@ else:
     color = 'green'
 
 display(HTML(F'<H1>Hello from <span style="color:{color};">' + str.upper(os.name) + '</span>!!!!</H1>'))
-#  %%
+
+
+# %%
 import pandas as pd
 import numpy as np
 from datetime import datetime
@@ -27,12 +32,14 @@ import plotly.graph_objects as go
 import plotly
 import plotly.io as pio
 from plotly.subplots import make_subplots
+from sodapy import Socrata
 
 default_line_thickness=2
 default_width = 1280
 default_height = 800
 default_plot_color = 'rgba(0, 0, 0, 0)'
 default_grid_color = 'rgba(225, 225, 225, 255)'
+
 
 # %%
 webpage_folder = basefolder + 'webpage/'
@@ -74,19 +81,21 @@ instructions = '''
 
 html_graphs.write(instructions)
 
-#  %% [markdown]
-# **********************************************************************************************************
-# # Setup
-# 1. Read in the covid-19-data from nytimes for state and county (https://github.com/nytimes/covid-19-data)
-# 2. Pull in a city density table
-# 3. Pull in a state density table
-# 4. Identify list of states, counties and cities to graph
-# **********************************************************************************************************
-#  %%
+# %% [markdown]
+#  **********************************************************************************************************
+#  # Setup
+#  1. Read in the covid-19-data from nytimes for state and county (https://github.com/nytimes/covid-19-data)
+#  2. Pull in a city density table
+#  3. Pull in a state density table
+#  4. Identify list of states, counties and cities to graph
+#  **********************************************************************************************************
+
+# %%
 datafolder = basefolder
 
-state_cov_data = pd.read_csv(datafolder + 'us-states.csv')
-county_cov_data = pd.read_csv(datafolder + 'us-counties.csv')
+#state_cov_data = pd.read_csv(datafolder + 'us-states.csv')
+state_cov_data = pd.read_csv('https://github.com/nytimes/covid-19-data/blob/master/us-states.csv?raw=true')
+county_cov_data = pd.read_csv('https://github.com/nytimes/covid-19-data/blob/master/us-counties.csv?raw=true')
 
 population_county = pd.read_csv(datafolder + 'county-population-2013.csv')
 population_county.loc[population_county.state == 'Louisiana'] = population_county[population_county.state == 'Louisiana'].replace(regex=[' Parish'], value='')
@@ -95,7 +104,9 @@ population_county.rename(columns={'population2013': 'population'}, inplace=True)
 population_county['key'] = population_county.county + ',' + population_county.state
 population_county.drop_duplicates(subset='key', inplace=True)
 population_county.index = population_county.key
-#%%
+
+
+# %%
 population_city_density = pd.read_csv(datafolder + 'city_density.csv')
 population_city_density = population_city_density.rename(columns={'City': 'citystate', 'Population Density (Persons/Square Mile)': 'density', '2016 Population': 'population', 'Land Area (Square Miles)': 'area'} )
 population_city_density[['city', 'state']] = population_city_density.citystate.str.split(', ', expand=True)
@@ -122,15 +133,21 @@ county_land_area['key'] = county_land_area.county + ',' + county_land_area.state
 county_land_area.drop_duplicates(subset='key', inplace=True)
 county_land_area.index = county_land_area.key
 county_land_area.drop(columns={'Areaname', 'county', 'state', 'key'}, inplace=True)
-#%%
+
+
+# %%
 county_density['key'] = county_density.county + ',' + county_density.state
 county_density['area'] = county_density.key.map(county_land_area.land_area)
 county_density['population'] = county_density.key.map(population_county.population)
-#%%
+
+
+# %%
 county_density['density'] = county_density.population / county_density.area
 county_density.dropna(subset=['density'], inplace=True)
 county_density.drop_duplicates(subset= ['county', 'state'], inplace=True)
-#%%
+
+
+# %%
 interesting_locations_east = [
     ['Connecticut', '', [], False],
     ['Delaware', '', [], False],
@@ -229,72 +246,84 @@ interesting_states.sort_values(by='state', inplace=True)
 interesting_locations = pd.concat([interesting_locations_east_df, interesting_locations_west_df, interesting_locations_midwest_df, interesting_locations_south_df])
 interesting_locations.reset_index(inplace=True)
 
+
 # %%
 population_by_age = pd.read_csv(datafolder + 'nc-est2019-agesex-res.csv')
 
-covid_by_age = pd.read_csv(datafolder + 'Provisional_COVID-19_Death_Counts_by_Sex__Age__and_State.csv')
-indexNames = covid_by_age[  (covid_by_age['Age group'] == '18-29 years')
-                | (covid_by_age['Age group'] == '30-49 years')
-                | (covid_by_age['Age group'] == '50-64 years') ].index
+client = Socrata("data.cdc.gov", None)
+results = client.get("9bhg-hcku", limit=10000)
+covid_by_age = pd.DataFrame.from_records(results)
+#covid_by_age = pd.read_csv(datafolder + 'Provisional_COVID-19_Death_Counts_by_Sex__Age__and_State.csv')
+
+indexNames = covid_by_age[  (covid_by_age.age_group_new == '18-29 years')
+                | (covid_by_age.age_group_new == '30-49 years')
+                | (covid_by_age.age_group_new == '50-64 years') ].index
 covid_by_age.drop(indexNames , inplace=True)
 
-df = covid_by_age[(covid_by_age.State == 'United States') & (covid_by_age.Sex == 'All Sexes')]
+# %%
+
+df = covid_by_age[(covid_by_age.state == 'United States') & (covid_by_age.sex == 'All Sexes')]
 df['Population Raw'] = int(0)
-df['Population Raw'][(df['Age group']=='All Ages')] = int(population_by_age.POPESTIMATE2019[(population_by_age.SEX == 0) & (population_by_age.AGE == 999)])
-df['Population Raw'][(df['Age group']=='Under 1 year')] = int(population_by_age.POPESTIMATE2019[(population_by_age.SEX == 0) & (population_by_age.AGE == 0)])
-df['Population Raw'][(df['Age group']=='0-17 years')] = int(population_by_age.POPESTIMATE2019[(population_by_age.SEX == 0) & (population_by_age.AGE <= 17)].sum())
-df['Population Raw'][(df['Age group']=='1-4 years')] = int(population_by_age.POPESTIMATE2019[(population_by_age.SEX == 0) & (population_by_age.AGE >= 1) & (population_by_age.AGE <= 4)].sum())
-df['Population Raw'][(df['Age group']=='5-14 years')] = int(population_by_age.POPESTIMATE2019[(population_by_age.SEX == 0) & (population_by_age.AGE >= 5) & (population_by_age.AGE <= 14)].sum())
-df['Population Raw'][(df['Age group']=='15-24 years')] = int(population_by_age.POPESTIMATE2019[(population_by_age.SEX == 0) & (population_by_age.AGE >= 15) & (population_by_age.AGE <= 24)].sum())
-#df['Population Raw'][(df['Age group']=='18-29 years')] = int(population_by_age.POPESTIMATE2019[(population_by_age.SEX == 0) & (population_by_age.AGE >= 18) & (population_by_age.AGE <= 29)].sum())
-df['Population Raw'][(df['Age group']=='25-34 years')] = int(population_by_age.POPESTIMATE2019[(population_by_age.SEX == 0) & (population_by_age.AGE >= 25) & (population_by_age.AGE <= 34)].sum())
-#df['Population Raw'][(df['Age group']=='30-49 years')] = int(population_by_age.POPESTIMATE2019[(population_by_age.SEX == 0) & (population_by_age.AGE >= 30) & (population_by_age.AGE <= 49)].sum())
-df['Population Raw'][(df['Age group']=='35-44 years')] = int(population_by_age.POPESTIMATE2019[(population_by_age.SEX == 0) & (population_by_age.AGE >= 35) & (population_by_age.AGE <= 44)].sum())
-df['Population Raw'][(df['Age group']=='45-54 years')] = int(population_by_age.POPESTIMATE2019[(population_by_age.SEX == 0) & (population_by_age.AGE >= 45) & (population_by_age.AGE <= 54)].sum())
-#df['Population Raw'][(df['Age group']=='50-64 years')] = int(population_by_age.POPESTIMATE2019[(population_by_age.SEX == 0) & (population_by_age.AGE >= 50) & (population_by_age.AGE <= 64)].sum())
-df['Population Raw'][(df['Age group']=='55-64 years')] = int(population_by_age.POPESTIMATE2019[(population_by_age.SEX == 0) & (population_by_age.AGE >= 55) & (population_by_age.AGE <= 64)].sum())
-df['Population Raw'][(df['Age group']=='65-74 years')] = int(population_by_age.POPESTIMATE2019[(population_by_age.SEX == 0) & (population_by_age.AGE >= 65) & (population_by_age.AGE <= 74)].sum())
-df['Population Raw'][(df['Age group']=='75-84 years')] = int(population_by_age.POPESTIMATE2019[(population_by_age.SEX == 0) & (population_by_age.AGE >= 75) & (population_by_age.AGE <= 84)].sum())
-df['Population Raw'][(df['Age group']=='85 years and over')] = int(population_by_age.POPESTIMATE2019[(population_by_age.SEX == 0) & (population_by_age.AGE >= 85) & (population_by_age.AGE < 999)].sum())
+df['Population Raw'][(df.age_group_new=='All Ages')] = int(population_by_age.POPESTIMATE2019[(population_by_age.SEX == 0) & (population_by_age.AGE == 999)])
+df['Population Raw'][(df.age_group_new=='Under 1 year')] = int(population_by_age.POPESTIMATE2019[(population_by_age.SEX == 0) & (population_by_age.AGE == 0)])
+df['Population Raw'][(df.age_group_new=='0-17 years')] = int(population_by_age.POPESTIMATE2019[(population_by_age.SEX == 0) & (population_by_age.AGE <= 17)].sum())
+df['Population Raw'][(df.age_group_new=='1-4 years')] = int(population_by_age.POPESTIMATE2019[(population_by_age.SEX == 0) & (population_by_age.AGE >= 1) & (population_by_age.AGE <= 4)].sum())
+df['Population Raw'][(df.age_group_new=='5-14 years')] = int(population_by_age.POPESTIMATE2019[(population_by_age.SEX == 0) & (population_by_age.AGE >= 5) & (population_by_age.AGE <= 14)].sum())
+df['Population Raw'][(df.age_group_new=='15-24 years')] = int(population_by_age.POPESTIMATE2019[(population_by_age.SEX == 0) & (population_by_age.AGE >= 15) & (population_by_age.AGE <= 24)].sum())
+#df['Population Raw'][(df.age_group_new=='18-29 years')] = int(population_by_age.POPESTIMATE2019[(population_by_age.SEX == 0) & (population_by_age.AGE >= 18) & (population_by_age.AGE <= 29)].sum())
+df['Population Raw'][(df.age_group_new=='25-34 years')] = int(population_by_age.POPESTIMATE2019[(population_by_age.SEX == 0) & (population_by_age.AGE >= 25) & (population_by_age.AGE <= 34)].sum())
+#df['Population Raw'][(df.age_group_new=='30-49 years')] = int(population_by_age.POPESTIMATE2019[(population_by_age.SEX == 0) & (population_by_age.AGE >= 30) & (population_by_age.AGE <= 49)].sum())
+df['Population Raw'][(df.age_group_new=='35-44 years')] = int(population_by_age.POPESTIMATE2019[(population_by_age.SEX == 0) & (population_by_age.AGE >= 35) & (population_by_age.AGE <= 44)].sum())
+df['Population Raw'][(df.age_group_new=='45-54 years')] = int(population_by_age.POPESTIMATE2019[(population_by_age.SEX == 0) & (population_by_age.AGE >= 45) & (population_by_age.AGE <= 54)].sum())
+#df['Population Raw'][(df.age_group_new=='50-64 years')] = int(population_by_age.POPESTIMATE2019[(population_by_age.SEX == 0) & (population_by_age.AGE >= 50) & (population_by_age.AGE <= 64)].sum())
+df['Population Raw'][(df.age_group_new=='55-64 years')] = int(population_by_age.POPESTIMATE2019[(population_by_age.SEX == 0) & (population_by_age.AGE >= 55) & (population_by_age.AGE <= 64)].sum())
+df['Population Raw'][(df.age_group_new=='65-74 years')] = int(population_by_age.POPESTIMATE2019[(population_by_age.SEX == 0) & (population_by_age.AGE >= 65) & (population_by_age.AGE <= 74)].sum())
+df['Population Raw'][(df.age_group_new=='75-84 years')] = int(population_by_age.POPESTIMATE2019[(population_by_age.SEX == 0) & (population_by_age.AGE >= 75) & (population_by_age.AGE <= 84)].sum())
+df['Population Raw'][(df.age_group_new=='85 years and over')] = int(population_by_age.POPESTIMATE2019[(population_by_age.SEX == 0) & (population_by_age.AGE >= 85) & (population_by_age.AGE < 999)].sum())
 
 df['Population'] = df['Population Raw'].map(lambda n: '{:,}'.format(n))
-
-df['Chance of Death by COVID Raw'] = (df['COVID-19 Deaths'] / df['Population Raw'])
+df['Chance of Death by COVID Raw'] = (df.covid_19_deaths.astype(int) / df['Population Raw'])
 df['Chance of Death by COVID'] = df['Chance of Death by COVID Raw'].map(lambda n: '1 in {:,}'.format(round(1/n)))
-df['Chance of Death by Pneumonia Raw'] = (df['Pneumonia Deaths'] / df['Population Raw'])
+df['Chance of Death by Pneumonia Raw'] = (df.pneumonia_deaths.astype(int) / df['Population Raw'])
 df['Chance of Death by Pneumonia'] = df['Chance of Death by Pneumonia Raw'].map(lambda n: '1 in {:,}'.format(round(1/n)))
-df['Chance of Death by Flu Raw'] = (df['Influenza Deaths'] / df['Population Raw'])
+df['Chance of Death by Flu Raw'] = (df.influenza_deaths.astype(int) / df['Population Raw'])
 df['Chance of Death by Flu'] = df['Chance of Death by Flu Raw'].map(lambda n: '1 in {:,}'.format(round(1/n)))
-df['Chance of Death other than COVID Raw'] = (df['Total Deaths'] - (df['COVID-19 Deaths'] + df['Pneumonia Deaths'] + df['Influenza Deaths'])) / df['Population Raw']
+df['Chance of Death other than COVID Raw'] = (df.total_deaths.astype(int) - (df.covid_19_deaths.astype(int) + df.pneumonia_deaths.astype(int) + df.influenza_deaths.astype(int))) / df['Population Raw']
 df['Chance of Death other than COVID'] = df['Chance of Death other than COVID Raw'].map(lambda n: '1 in {:,}'.format(round(1/n)))
 df['Chance of Living after COVID Raw'] = 1 - df['Chance of Death by COVID Raw']
 df['Chance of Living after COVID'] = df['Chance of Living after COVID Raw'].map(lambda n: '{:.4%}'.format(n))
-df['Times Worse than 25-34'] = df['Chance of Death by COVID Raw'].map(lambda n: n / df.loc[7, 'Chance of Death by COVID Raw'])
+df['Times Worse than 25-34'] = df['Chance of Death by COVID Raw'].map(lambda n: '{0}x'.format(round(n / df.loc[7, 'Chance of Death by COVID Raw'], 0)))
 
 fig = go.Figure(data=[go.Table(
     header=dict(values=['Age group', 'Deaths by COVID-19 Alone', 'Population', 'Chance of Living through COVID-19 Alone', 'Chance of Death by COVID-19 Alone', 'Chance of Death by Pneumonia Alone', 'Chance of Death by Flu Alone', 'Chance of Death not by COVID-19, Pneumonia or Flu', 'Risk factor compared to 25-34 year olds'],
                 fill_color='paleturquoise',
                 align='center'),
-    cells=dict(values=[df['Age group'], df['COVID-19 Deaths'], df['Population'], df['Chance of Living after COVID'], df['Chance of Death by COVID'], df['Chance of Death by Pneumonia'], df['Chance of Death by Flu'], df['Chance of Death other than COVID'], round(df['Times Worse than 25-34'])],
+    cells=dict(values=[df.age_group_new, df.covid_19_deaths, df['Population'], df['Chance of Living after COVID'], df['Chance of Death by COVID'], df['Chance of Death by Pneumonia'], df['Chance of Death by Flu'], df['Chance of Death other than COVID'], df['Times Worse than 25-34']],
                fill_color='lavender',
                align='right'))
 ])
 
 fig.update_layout(
-    title = 'Death Analysis by Age Group between Feb 1st, 2020 and Nov 28th, 2020 (from CDC stats)',
+    title = 'Death Analysis by Age Group (from CDC stats)',
     plot_bgcolor = default_plot_color,
     width=default_width,
     height=default_height * .75,
 )
 
 fig.show()
-
-
+plotly.offline.plot(fig, filename=webpage_folder + 'DeathRiskTable.html',auto_open=False)
+html_graphs.write('''
+<br/><br/><div>
+<h1>Death Risks by Age Group</h1><br/>
+</div>
+''')
+html_graphs.write("  <object data=\""+'DeathRiskTable.html'+"\" width=" + str(default_width * 1.10) + " height=" + str(default_height* 1.10) + "\"></object>"+"\n")
 
 # %% [markdown]
-# **********************************************************************************************************
-# # New cases per day for US
-# **********************************************************************************************************
+#  **********************************************************************************************************
+#  # New cases per day for US
+#  **********************************************************************************************************
+
 # %%
 def movingaverage(df, window):
     if len(df) > window:
@@ -330,6 +359,7 @@ def plotmovingaverage(deltas_df, name_of_plot, hover_template, show_by_default=T
             go.Scatter(x=df_with_ma.index.to_numpy(), y=df_with_ma['diff'], mode='lines', name=name_of_plot, line = { 'width': default_line_thickness },
             hovertemplate=hover_template, visible=visible)
         )
+
 
 # %%
 #############################
@@ -412,6 +442,8 @@ html_graphs.write('''
 <h1>New Cases and Deaths by State</h1>\n
 ''')
 html_graphs.write("  <object data=\""+'Chart_'+str(row)+'.html'+"\" width=" + str(default_width * 1.10) + " height=" + str(default_height* 1.10) + "\"></object>"+"\n")
+
+
 # %%
 #############################
 # Daily Deaths by state
@@ -438,6 +470,8 @@ for index, state in interesting_states.iterrows():
 fig.show()
 plotly.offline.plot(fig, filename=webpage_folder + 'Chart_'+str(row)+'.html',auto_open=False)
 html_graphs.write("  <object data=\""+'Chart_'+str(row)+'.html'+"\" width=" + str(default_width * 1.10) + " height=" + str(default_height* 1.10) + "\"></object>"+"\n")
+
+
 # %%
 #############################
 # New cases by interesting county
@@ -466,6 +500,8 @@ html_graphs.write('''
 <h1>New Cases and Deaths in Locations Interesting to Me</h1>\n
 ''')
 html_graphs.write("  <object data=\""+'Chart_'+str(row)+'.html'+"\" width=" + str(default_width * 1.10) + " height=" + str(default_height* 1.10) + "\"></object>"+"\n")
+
+
 # %%
 #############################
 # Daily deaths by interesting county
@@ -492,6 +528,8 @@ fig.show()
 plotly.offline.plot(fig, filename=webpage_folder + 'Chart_'+str(row)+'.html',auto_open=False)
 html_graphs.write("  <object data=\""+'Chart_'+str(row)+'.html'+"\" width=" + str(default_width * 1.10) + " height=" + str(default_height* 1.10) + "\"></object>"+"\n")
 html_graphs.write("\n</div>\n")
+
+
 # %%
 #####################################
 # Do all states & counties
@@ -604,9 +642,10 @@ for index, s in interesting_states.iterrows():
 html_graphs.write('<div style=\"clear:both\"></div>')
 
 # %% [markdown]
-# **********************************************************************************************************
-# # State Totals
-# **********************************************************************************************************
+#  **********************************************************************************************************
+#  # State Totals
+#  **********************************************************************************************************
+
 # %%
 def plottotalcases(state, county = 'all', show_by_default=True):
     if county == 'all':
@@ -683,11 +722,12 @@ fig.show()
 plotly.offline.plot(fig, filename=webpage_folder + 'Chart_'+str(row)+'.html',auto_open=False)
 html_graphs.write("  <object data=\""+'Chart_'+str(row)+'.html'+"\" width=" + str(default_width * 1.10) + " height=" + str(default_height* 1.10) + "\"></object>"+"\n")
 
-#  %% [markdown]
-# **********************************************************************************************************
-# # State cases adjusted for population
-# **********************************************************************************************************
-#  %%
+# %% [markdown]
+#  **********************************************************************************************************
+#  # State cases adjusted for population
+#  **********************************************************************************************************
+
+# %%
 def stateplotpercapita(state, show_by_default):
     data = state_cov_data[state_cov_data.state == state][['date', 'cases']].groupby('date').sum()
     state_population = population_state_density[population_state_density.state == state]
@@ -738,7 +778,9 @@ html_graphs.write("  <object data=\""+'Chart_'+str(row)+'.html'+"\" width=" + st
 #################################################
 # County cases adjusted for population
 #################################################
-#  %%
+
+
+# %%
 def countyplotpercapita(state, county, show_by_default):
     data = county_cov_data[county_cov_data.state == state][['date', 'cases', 'county']].groupby('date').sum()
     county_population = population_county[(population_county.state == state) & (population_county.county == county)]
@@ -776,11 +818,12 @@ fig.show()
 plotly.offline.plot(fig, filename=webpage_folder + 'Chart_'+str(row)+'.html',auto_open=False)
 html_graphs.write("  <object data=\""+'Chart_'+str(row)+'.html'+"\" width=" + str(default_width * 1.10) + " height=" + str(default_height* 1.10) + "\"></object>"+"\n")
 
-#  %% [markdown]
-# **********************************************************************************************************
-# # State cases adjusted for population density
-# **********************************************************************************************************
-#  %%
+# %% [markdown]
+#  **********************************************************************************************************
+#  # State cases adjusted for population density
+#  **********************************************************************************************************
+
+# %%
 def stateplotbydensity(state, show_by_default):
     data = state_cov_data[state_cov_data.state == state][['date', 'cases']].groupby('date').sum()
     state_density = population_state_density[population_state_density.state == state]
@@ -829,12 +872,12 @@ This graph factors in this consideration for comparison between states and count
 </div>''')
 html_graphs.write("  <object data=\""+'Chart_'+str(row)+'.html'+"\" width=" + str(default_width * 1.10) + " height=" + str(default_height* 1.10) + "\"></object>"+"\n")
 
+# %% [markdown]
+#  **********************************************************************************************************
+#  # County cases adjusted for population density
+#  **********************************************************************************************************
 
-#  %% [markdown]
-# **********************************************************************************************************
-# # County cases adjusted for population density
-# **********************************************************************************************************
-#  %%
+# %%
 def countyplotbydensity(county, state, show_by_default):
     data = county_cov_data[(county_cov_data.county == county) & (county_cov_data.state == state)][['date', 'cases']].groupby('date').sum()
     density = county_density[(county_density.county == county) & (county_density.state == state)]
@@ -897,11 +940,12 @@ for index, s in interesting_states.iterrows():
 
 html_graphs.write('<div style=\"clear:both\"></div>')
 
-#  %% [markdown]
-# **********************************************************************************************************
-# # City cases adjusted for population
-# **********************************************************************************************************
-#  %%
+# %% [markdown]
+#  **********************************************************************************************************
+#  # City cases adjusted for population
+#  **********************************************************************************************************
+
+# %%
 def cityplotpercapita(state, city, show_by_default):
     county = 'not found'
     for index, x in interesting_locations.iterrows():
@@ -954,11 +998,12 @@ is accounted for.
 </div>''')
 html_graphs.write("  <object data=\""+'Chart_'+str(row)+'.html'+"\" width=" + str(default_width * 1.10) + " height=" + str(default_height* 1.10) + "\"></object>"+"\n")
 
-#  %% [markdown]
-# **********************************************************************************************************
-# # City total cases adjusted for population density
-# **********************************************************************************************************
-#  %%
+# %% [markdown]
+#  **********************************************************************************************************
+#  # City total cases adjusted for population density
+#  **********************************************************************************************************
+
+# %%
 def cityplotbydensity(state, city, show_by_default):
     county = 'not found'
     for index, x in interesting_locations.iterrows():
@@ -1011,12 +1056,12 @@ New York's trend <b>still</b> beats all others, but other cities are much closer
 </div>''')
 html_graphs.write("  <object data=\""+'Chart_'+str(row)+'.html'+"\" width=" + str(default_width * 1.10) + " height=" + str(default_height* 1.10) + "\"></object>"+"\n")
 
+# %% [markdown]
+#  **********************************************************************************************************
+#  # City deaths adjusted for population density
+#  **********************************************************************************************************
 
-#  %% [markdown]
-# **********************************************************************************************************
-# # City deaths adjusted for population density
-# **********************************************************************************************************
-#  %%
+# %%
 def citydeathsplotbydensity(state, city, show_by_default):
     county = 'not found'
     for index, x in interesting_locations.iterrows():
@@ -1065,9 +1110,27 @@ See description above concerning cases adjusted for population density. This is 
 </div>''')
 html_graphs.write("  <object data=\""+'Chart_'+str(row)+'.html'+"\" width=" + str(default_width * 1.10) + " height=" + str(default_height* 1.10) + "\"></object>"+"\n")
 
+
 # %%
 html_graphs.write('</body></html')
 html_graphs.close()
+
+
+# %%
+
+t1 = time.clock()
+
+import ftplib
+
+ftp = ftplib.FTP('ftp.jimgphotography.com', 'jim@covid.jimgries.com', '76@m^Pbmjq')
+for filename in os.listdir('webpage'):
+    print('Transferring ' + filename)
+    with open('webpage/' + filename, 'rb') as fobj:
+        ftp.storbinary('STOR ' + filename, fobj)
+
+ftp.close()
+
+print('Total file transfer time: ', time.clock() - t1)
 
 # %%
 print('Total run time: ', time.clock() - t0)
@@ -1076,4 +1139,3 @@ print('Total run time: ', time.clock() - t0)
 
 
 
-# %%
