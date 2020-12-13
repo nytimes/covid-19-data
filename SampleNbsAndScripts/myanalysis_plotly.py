@@ -406,8 +406,6 @@ This could be due to more people being tested and testing as positive while the 
 of those infected. Note that a .03 mortality rate is believed to be about 30x higher than that of influenza. But also remember that disregarding age, a .03 mortality rate 
 implies that if you are infected, you have a 97% chance of surviving. <br/>
 <br/>
-For reference here is a table of Covid-19 mortality by age group (from: https://www.acsh.org/news/2020/06/23/coronavirus-covid-deaths-us-age-race-14863)<br/>
-<img src="mortality_by_age.png"><br/>
 </div>\n<div>\n
 ''')
 html_graphs.write("  <object data=\""+'Chart_'+str(row)+'.html'+"\" width=" + str(default_width * 1.10) + " height=" + str(default_height* 1.10) + "\"></object>"+"\n")
