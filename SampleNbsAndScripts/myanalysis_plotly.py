@@ -1116,24 +1116,39 @@ html_graphs.close()
 
 # %%
 
-t1 = time.clock()
+# import time
+# t1 = time.clock()
 
 import ftplib
+from contextlib import redirect_stdout
+import io
+from dateutil import parser
+from dateutil.tz import gettz
+import pytz
 
 ftp = ftplib.FTP('ftp.jimgphotography.com', 'jim@covid.jimgries.com', '76@m^Pbmjq')
-for filename in os.listdir('webpage'):
-    print('Transferring ' + filename)
-    with open('webpage/' + filename, 'rb') as fobj:
-        ftp.storbinary('STOR ' + filename, fobj)
+
+ftp.dir('/Ala*.html')
+
+f = io.StringIO()
+#with redirect_stdout(f):
+timestamp = ftp.voidcmd('MDTM /Alaska_by_density.html')[4:].strip()+'UTC'
+print(timestamp)
+
+tzinfos = {'UTC': gettz('UTC')}
+filetime = parser.parse(timestamp, tzinfos=tzinfos)
+print(filetime.astimezone().strftime('%c'))
 
 ftp.close()
 
-print('Total file transfer time: ', time.clock() - t1)
+# print('Total file transfer time: ', time.clock() - t1)
+
+# # %%
+# print('Total run time: ', time.clock() - t0)
+
+
+
+
+
 
 # %%
-print('Total run time: ', time.clock() - t0)
-
-
-
-
-
