@@ -1122,6 +1122,7 @@ t1 = time.clock()
 import ftplib
 import io
 import pytz
+from datetime import datetime
 from dateutil import parser
 from dateutil.tz import gettz
 
@@ -1129,7 +1130,7 @@ ftp = ftplib.FTP('ftp.jimgphotography.com', 'jim@covid.jimgries.com', '76@m^Pbmj
 
 tzinfos = {'UTC': gettz('UTC')}
 for filename in os.listdir('webpage'):
-    localtimestamp = datetime.fromtimestamp(os.stat('webpage/' + filename).st_mtime).replace(tzinfo=pytz.UTC)
+    localtimestamp = datetime.fromtimestamp(os.stat('webpage/' + filename).st_mtime).replace(tzinfo=pytz.timezone('America/Los_Angeles'))
     try:
         tmp = None
         tmp = ftp.voidcmd('MDTM /' + filename)[4:].strip()+'UTC'
