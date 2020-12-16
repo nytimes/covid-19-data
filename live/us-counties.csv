@@ -67,35 +67,35 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-12-16,Wilcox,Alabama,01131,793,19,618,19,175,0
 2020-12-16,Winston,Alabama,01133,1673,25,1476,23,197,2
 2020-12-16,Aleutians East Borough,Alaska,02013,39,0,,0,,
-2020-12-16,Aleutians West Census Area,Alaska,02016,161,0,,0,,
-2020-12-16,Anchorage,Alaska,02020,20616,99,,99,,
-2020-12-16,Bethel Census Area,Alaska,02050,1977,8,,8,,
+2020-12-16,Aleutians West Census Area,Alaska,02016,165,0,,0,,
+2020-12-16,Anchorage,Alaska,02020,20883,101,,101,,
+2020-12-16,Bethel Census Area,Alaska,02050,2000,8,,8,,
 2020-12-16,Bristol Bay Borough,Alaska,02060,76,0,,,,
-2020-12-16,Denali Borough,Alaska,02068,56,0,,0,,
+2020-12-16,Denali Borough,Alaska,02068,57,0,,0,,
 2020-12-16,Dillingham Census Area,Alaska,02070,111,1,,1,,
-2020-12-16,Fairbanks North Star Borough,Alaska,02090,4374,19,,19,,
+2020-12-16,Fairbanks North Star Borough,Alaska,02090,4424,19,,19,,
 2020-12-16,Haines Borough,Alaska,02100,18,0,,0,,
 2020-12-16,Juneau City and Borough,Alaska,02110,953,3,,3,,
-2020-12-16,Kenai Peninsula Borough,Alaska,02122,3264,13,,13,,
+2020-12-16,Kenai Peninsula Borough,Alaska,02122,3324,13,,13,,
 2020-12-16,Ketchikan Gateway Borough,Alaska,02130,221,0,,0,,
-2020-12-16,Kodiak Island Borough,Alaska,02150,730,1,,1,,
-2020-12-16,Kusilvak Census Area,Alaska,02158,651,3,,3,,
+2020-12-16,Kodiak Island Borough,Alaska,02150,761,1,,1,,
+2020-12-16,Kusilvak Census Area,Alaska,02158,662,3,,3,,
 2020-12-16,Lake and Peninsula Borough,Alaska,02164,5,0,,,,
-2020-12-16,Matanuska-Susitna Borough,Alaska,02170,5497,11,,11,,
-2020-12-16,Nome Census Area,Alaska,02180,257,0,,0,,
-2020-12-16,North Slope Borough,Alaska,02185,688,2,,2,,
+2020-12-16,Matanuska-Susitna Borough,Alaska,02170,5620,11,,11,,
+2020-12-16,Nome Census Area,Alaska,02180,262,0,,0,,
+2020-12-16,North Slope Borough,Alaska,02185,702,2,,2,,
 2020-12-16,Northwest Arctic Borough,Alaska,02188,386,0,,0,,
 2020-12-16,Petersburg Borough,Alaska,02195,25,0,,0,,
 2020-12-16,Prince of Wales-Hyder Census Area,Alaska,02198,63,1,,1,,
-2020-12-16,Sitka City and Borough,Alaska,02220,242,0,,0,,
+2020-12-16,Sitka City and Borough,Alaska,02220,244,0,,0,,
 2020-12-16,Skagway Municipality,Alaska,02230,15,0,,0,,
-2020-12-16,Southeast Fairbanks Census Area,Alaska,02240,369,3,,3,,
-2020-12-16,Unknown,Alaska,,340,1,0,1,340,0
-2020-12-16,Valdez-Cordova Census Area,Alaska,02261,298,3,,3,,
+2020-12-16,Southeast Fairbanks Census Area,Alaska,02240,372,3,,3,,
+2020-12-16,Unknown,Alaska,,342,1,0,1,342,0
+2020-12-16,Valdez-Cordova Census Area,Alaska,02261,306,3,,3,,
 2020-12-16,Wrangell City and Borough,Alaska,02275,22,0,,0,,
-2020-12-16,Yukon-Koyukuk Census Area,Alaska,02290,191,4,,4,,
+2020-12-16,Yukon-Koyukuk Census Area,Alaska,02290,198,4,,4,,
 2020-12-16,Apache,Arizona,04001,6622,212,,,,
-2020-12-16,Cochise,Arizona,04003,5494,100,5315,98,179,2
+2020-12-16,Cochise,Arizona,04003,5522,100,5522,100,,0
 2020-12-16,Coconino,Arizona,04005,9451,193,,,,
 2020-12-16,Gila,Arizona,04007,3761,114,,,,
 2020-12-16,Graham,Arizona,04009,2673,41,,,,
@@ -107,7 +107,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-12-16,Pima,Arizona,04019,54957,836,,,,
 2020-12-16,Pinal,Arizona,04021,22597,307,,,,
 2020-12-16,Santa Cruz,Arizona,04023,5097,85,5077,85,20,0
-2020-12-16,Yavapai,Arizona,04025,8495,152,8495,149,,3
+2020-12-16,Yavapai,Arizona,04025,8719,152,8719,151,,1
 2020-12-16,Yuma,Arizona,04027,23510,435,23510,423,,12
 2020-12-16,Arkansas,Arkansas,05001,1112,26,866,24,246,2
 2020-12-16,Ashley,Arkansas,05003,1081,18,947,17,134,1
@@ -190,7 +190,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-12-16,Amador,California,06005,1608,19,1608,19,,
 2020-12-16,Butte,California,06007,5574,67,5574,67,,
 2020-12-16,Calaveras,California,06009,718,22,718,22,,
-2020-12-16,Colusa,California,06011,1015,8,1015,8,,
+2020-12-16,Colusa,California,06011,1034,8,1034,8,,
 2020-12-16,Contra Costa,California,06013,31516,279,31516,279,,
 2020-12-16,Del Norte,California,06015,560,2,560,2,,
 2020-12-16,El Dorado,California,06017,4018,8,4018,8,,
@@ -199,7 +199,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-12-16,Humboldt,California,06023,1321,13,1321,13,,
 2020-12-16,Imperial,California,06025,19608,379,19608,379,,
 2020-12-16,Inyo,California,06027,382,18,382,18,,
-2020-12-16,Kern,California,06029,53694,470,53694,470,,
+2020-12-16,Kern,California,06029,54681,470,54681,470,,
 2020-12-16,Kings,California,06031,13656,100,13656,100,,
 2020-12-16,Lake,California,06033,1301,22,1301,22,,
 2020-12-16,Lassen,California,06035,3590,6,3590,6,,
@@ -211,7 +211,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-12-16,Merced,California,06047,14572,207,14572,207,,
 2020-12-16,Modoc,California,06049,180,0,180,0,,
 2020-12-16,Mono,California,06051,685,3,685,3,,
-2020-12-16,Monterey,California,06053,19154,165,19154,165,,
+2020-12-16,Monterey,California,06053,19154,167,19154,167,,
 2020-12-16,Napa,California,06055,4384,24,4384,24,,
 2020-12-16,Nevada,California,06057,2123,32,2123,32,,
 2020-12-16,Orange,California,06059,110253,1695,108602,1695,1651,
@@ -220,15 +220,15 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-12-16,Riverside,California,06065,123715,1628,123715,1628,,
 2020-12-16,Sacramento,California,06067,51051,699,51051,699,,
 2020-12-16,San Benito,California,06069,2538,22,2538,22,,
-2020-12-16,San Bernardino,California,06071,129522,1241,129522,1241,,
+2020-12-16,San Bernardino,California,06071,135072,1304,135072,1304,,
 2020-12-16,San Diego,California,06073,111504,1194,111504,1194,,
 2020-12-16,San Francisco,California,06075,19186,172,19186,172,,
-2020-12-16,San Joaquin,California,06077,32641,537,32641,537,,
+2020-12-16,San Joaquin,California,06077,33336,549,33336,549,,
 2020-12-16,San Luis Obispo,California,06079,7895,52,7895,52,,
 2020-12-16,San Mateo,California,06081,19330,183,19330,183,,
 2020-12-16,Santa Barbara,California,06083,13763,142,13763,142,,
 2020-12-16,Santa Clara,California,06085,50315,554,50315,554,,
-2020-12-16,Santa Cruz,California,06087,6143,60,6143,60,,
+2020-12-16,Santa Cruz,California,06087,6317,64,6317,64,,
 2020-12-16,Shasta,California,06089,6927,63,6927,63,,
 2020-12-16,Sierra,California,06091,21,0,21,0,,
 2020-12-16,Siskiyou,California,06093,967,8,967,8,,
@@ -599,108 +599,108 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-12-16,Twin Falls,Idaho,16083,7481,108,6065,,1416,
 2020-12-16,Valley,Idaho,16085,352,1,273,1,79,0
 2020-12-16,Washington,Idaho,16087,887,14,704,,183,
-2020-12-16,Adams,Illinois,17001,5640,64,5640,58,,6
-2020-12-16,Alexander,Illinois,17003,310,5,,5,,0
-2020-12-16,Bond,Illinois,17005,1353,15,,13,,2
-2020-12-16,Boone,Illinois,17007,4577,56,,49,,7
-2020-12-16,Brown,Illinois,17009,388,8,,3,,5
-2020-12-16,Bureau,Illinois,17011,2508,63,,58,,5
-2020-12-16,Calhoun,Illinois,17013,344,1,,1,,0
-2020-12-16,Carroll,Illinois,17015,1230,28,,28,,0
-2020-12-16,Cass,Illinois,17017,1345,26,,17,,9
-2020-12-16,Champaign,Illinois,17019,12627,77,12627,77,,
-2020-12-16,Christian,Illinois,17021,2322,53,,38,,15
-2020-12-16,Clark,Illinois,17023,1011,22,,22,,0
-2020-12-16,Clay,Illinois,17025,1103,28,,26,,2
-2020-12-16,Clinton,Illinois,17027,3979,74,,70,,4
-2020-12-16,Coles,Illinois,17029,3832,67,,66,,1
-2020-12-16,Cook,Illinois,17031,358014,7458,,7141,,317
-2020-12-16,Crawford,Illinois,17033,1387,21,,16,,5
-2020-12-16,Cumberland,Illinois,17035,814,22,,12,,10
-2020-12-16,DeKalb,Illinois,17037,6084,60,6084,58,,2
-2020-12-16,De Witt,Illinois,17039,763,21,,16,,5
-2020-12-16,Douglas,Illinois,17041,1622,21,,18,,3
-2020-12-16,DuPage,Illinois,17043,55495,912,54187,857,1308,55
-2020-12-16,Edgar,Illinois,17045,1152,26,,21,,5
-2020-12-16,Edwards,Illinois,17047,321,4,,4,,0
-2020-12-16,Effingham,Illinois,17049,3474,45,,43,,2
-2020-12-16,Fayette,Illinois,17051,2410,41,,39,,2
-2020-12-16,Ford,Illinois,17053,1024,31,,28,,3
-2020-12-16,Franklin,Illinois,17055,2701,40,,35,,5
-2020-12-16,Fulton,Illinois,17057,1906,21,,20,,1
-2020-12-16,Gallatin,Illinois,17059,249,4,,3,,1
-2020-12-16,Greene,Illinois,17061,1021,38,,30,,8
-2020-12-16,Grundy,Illinois,17063,3463,33,,31,,2
-2020-12-16,Hamilton,Illinois,17065,484,8,,8,,0
-2020-12-16,Hancock,Illinois,17067,1150,20,,15,,5
-2020-12-16,Hardin,Illinois,17069,179,4,,4,,0
-2020-12-16,Henderson,Illinois,17071,363,5,,2,,3
-2020-12-16,Henry,Illinois,17073,3324,38,,26,,12
-2020-12-16,Iroquois,Illinois,17075,2092,42,,39,,3
-2020-12-16,Jackson,Illinois,17077,3246,45,,39,,6
-2020-12-16,Jasper,Illinois,17079,804,13,,12,,1
-2020-12-16,Jefferson,Illinois,17081,2429,66,,65,,1
-2020-12-16,Jersey,Illinois,17083,1675,29,,24,,5
-2020-12-16,Jo Daviess,Illinois,17085,1258,24,,21,,3
-2020-12-16,Johnson,Illinois,17087,878,12,,8,,4
-2020-12-16,Kane,Illinois,17089,37534,543,16606,504,20928,39
-2020-12-16,Kankakee,Illinois,17091,10025,137,10025,136,,1
-2020-12-16,Kendall,Illinois,17093,7516,66,7473,63,43,3
-2020-12-16,Knox,Illinois,17095,3476,100,,78,,22
-2020-12-16,Lake,Illinois,17097,43764,726,42098,684,1666,42
-2020-12-16,LaSalle,Illinois,17099,7542,182,,163,,19
-2020-12-16,Lawrence,Illinois,17101,1454,21,,16,,5
-2020-12-16,Lee,Illinois,17103,2412,59,,27,,32
-2020-12-16,Livingston,Illinois,17105,2779,50,,43,,7
-2020-12-16,Logan,Illinois,17107,2421,39,,29,,10
-2020-12-16,Macon,Illinois,17115,7398,159,,152,,7
-2020-12-16,Macoupin,Illinois,17117,2840,48,,43,,5
-2020-12-16,Madison,Illinois,17119,18164,337,17720,327,444,10
-2020-12-16,Marion,Illinois,17121,3086,90,,86,,4
-2020-12-16,Marshall,Illinois,17123,509,7,,6,,1
-2020-12-16,Mason,Illinois,17125,870,32,,30,,2
-2020-12-16,Massac,Illinois,17127,776,16,,15,,1
-2020-12-16,McDonough,Illinois,17109,1798,45,,34,,11
-2020-12-16,McHenry,Illinois,17111,16908,185,13628,179,3280,6
-2020-12-16,McLean,Illinois,17113,10254,77,,73,,4
-2020-12-16,Menard,Illinois,17129,630,5,,4,,1
-2020-12-16,Mercer,Illinois,17131,946,20,,20,,0
-2020-12-16,Monroe,Illinois,17133,2622,55,,55,,0
-2020-12-16,Montgomery,Illinois,17135,1507,18,,17,,1
+2020-12-16,Adams,Illinois,17001,5629,67,5629,60,,7
+2020-12-16,Alexander,Illinois,17003,313,5,,5,,0
+2020-12-16,Bond,Illinois,17005,1384,15,,13,,2
+2020-12-16,Boone,Illinois,17007,4635,56,,49,,7
+2020-12-16,Brown,Illinois,17009,393,8,,3,,5
+2020-12-16,Bureau,Illinois,17011,2549,63,,58,,5
+2020-12-16,Calhoun,Illinois,17013,348,1,,1,,0
+2020-12-16,Carroll,Illinois,17015,1232,28,,28,,0
+2020-12-16,Cass,Illinois,17017,1368,26,,17,,9
+2020-12-16,Champaign,Illinois,17019,12631,77,12627,77,4,0
+2020-12-16,Christian,Illinois,17021,2336,55,,40,,15
+2020-12-16,Clark,Illinois,17023,1027,22,,22,,0
+2020-12-16,Clay,Illinois,17025,1110,30,,28,,2
+2020-12-16,Clinton,Illinois,17027,4040,74,,70,,4
+2020-12-16,Coles,Illinois,17029,3865,66,,66,,0
+2020-12-16,Cook,Illinois,17031,360117,7505,,7168,,337
+2020-12-16,Crawford,Illinois,17033,1404,21,,16,,5
+2020-12-16,Cumberland,Illinois,17035,823,23,,12,,11
+2020-12-16,DeKalb,Illinois,17037,6084,64,6084,62,,2
+2020-12-16,De Witt,Illinois,17039,782,21,,16,,5
+2020-12-16,Douglas,Illinois,17041,1642,21,,18,,3
+2020-12-16,DuPage,Illinois,17043,55941,920,54187,864,1754,56
+2020-12-16,Edgar,Illinois,17045,1177,30,,21,,9
+2020-12-16,Edwards,Illinois,17047,335,4,,4,,0
+2020-12-16,Effingham,Illinois,17049,3502,46,,44,,2
+2020-12-16,Fayette,Illinois,17051,2432,42,,40,,2
+2020-12-16,Ford,Illinois,17053,1037,32,,28,,4
+2020-12-16,Franklin,Illinois,17055,2746,40,,35,,5
+2020-12-16,Fulton,Illinois,17057,1962,23,,21,,2
+2020-12-16,Gallatin,Illinois,17059,256,4,,3,,1
+2020-12-16,Greene,Illinois,17061,1035,39,,30,,9
+2020-12-16,Grundy,Illinois,17063,3488,36,,34,,2
+2020-12-16,Hamilton,Illinois,17065,502,8,,8,,0
+2020-12-16,Hancock,Illinois,17067,1166,21,,15,,6
+2020-12-16,Hardin,Illinois,17069,185,4,,4,,0
+2020-12-16,Henderson,Illinois,17071,365,5,,2,,3
+2020-12-16,Henry,Illinois,17073,3352,39,,26,,13
+2020-12-16,Iroquois,Illinois,17075,2121,42,,40,,2
+2020-12-16,Jackson,Illinois,17077,3292,49,,43,,6
+2020-12-16,Jasper,Illinois,17079,815,13,,12,,1
+2020-12-16,Jefferson,Illinois,17081,2465,69,,68,,1
+2020-12-16,Jersey,Illinois,17083,1701,31,,25,,6
+2020-12-16,Jo Daviess,Illinois,17085,1263,24,,21,,3
+2020-12-16,Johnson,Illinois,17087,882,13,,8,,5
+2020-12-16,Kane,Illinois,17089,37747,551,16606,510,21141,41
+2020-12-16,Kankakee,Illinois,17091,10025,140,10025,136,,4
+2020-12-16,Kendall,Illinois,17093,7591,67,7473,63,118,4
+2020-12-16,Knox,Illinois,17095,3545,102,,80,,22
+2020-12-16,Lake,Illinois,17097,44099,729,42098,685,2001,44
+2020-12-16,LaSalle,Illinois,17099,7629,184,,164,,20
+2020-12-16,Lawrence,Illinois,17101,1488,22,,16,,6
+2020-12-16,Lee,Illinois,17103,2431,59,,27,,32
+2020-12-16,Livingston,Illinois,17105,2812,51,,44,,7
+2020-12-16,Logan,Illinois,17107,2451,39,,29,,10
+2020-12-16,Macon,Illinois,17115,7431,160,,153,,7
+2020-12-16,Macoupin,Illinois,17117,2877,50,,44,,6
+2020-12-16,Madison,Illinois,17119,18388,344,17720,327,668,17
+2020-12-16,Marion,Illinois,17121,3145,92,,88,,4
+2020-12-16,Marshall,Illinois,17123,519,7,,6,,1
+2020-12-16,Mason,Illinois,17125,883,32,,30,,2
+2020-12-16,Massac,Illinois,17127,789,19,,18,,1
+2020-12-16,McDonough,Illinois,17109,1813,46,,35,,11
+2020-12-16,McHenry,Illinois,17111,17023,187,13628,181,3395,6
+2020-12-16,McLean,Illinois,17113,10361,78,,74,,4
+2020-12-16,Menard,Illinois,17129,637,6,,5,,1
+2020-12-16,Mercer,Illinois,17131,974,22,,22,,0
+2020-12-16,Monroe,Illinois,17133,2651,56,,56,,0
+2020-12-16,Montgomery,Illinois,17135,1531,20,,19,,1
 2020-12-16,Morgan,Illinois,17137,2770,69,2770,69,,
-2020-12-16,Moultrie,Illinois,17139,1101,17,,13,,4
-2020-12-16,Ogle,Illinois,17141,3552,55,3487,52,65,3
-2020-12-16,Peoria,Illinois,17143,11466,167,11440,160,26,7
-2020-12-16,Perry,Illinois,17145,1485,41,,34,,7
-2020-12-16,Piatt,Illinois,17147,918,5,,5,,0
-2020-12-16,Pike,Illinois,17149,1208,35,,33,,2
-2020-12-16,Pope,Illinois,17151,150,1,,1,,0
-2020-12-16,Pulaski,Illinois,17153,497,2,,2,,0
-2020-12-16,Putnam,Illinois,17155,295,0,,0,,0
-2020-12-16,Randolph,Illinois,17157,2834,30,,29,,1
-2020-12-16,Richland,Illinois,17159,1092,22,,20,,2
-2020-12-16,Rock Island,Illinois,17161,9995,205,9839,205,156,
-2020-12-16,Saline,Illinois,17165,1405,32,,26,,6
-2020-12-16,Sangamon,Illinois,17167,12117,148,12053,138,64,10
-2020-12-16,Schuyler,Illinois,17169,494,4,,2,,2
+2020-12-16,Moultrie,Illinois,17139,1114,17,,13,,4
+2020-12-16,Ogle,Illinois,17141,3598,56,3487,53,111,3
+2020-12-16,Peoria,Illinois,17143,11634,170,11440,162,194,8
+2020-12-16,Perry,Illinois,17145,1514,44,,37,,7
+2020-12-16,Piatt,Illinois,17147,927,6,,6,,0
+2020-12-16,Pike,Illinois,17149,1218,35,,33,,2
+2020-12-16,Pope,Illinois,17151,155,1,,1,,0
+2020-12-16,Pulaski,Illinois,17153,506,2,,2,,0
+2020-12-16,Putnam,Illinois,17155,296,0,,0,,0
+2020-12-16,Randolph,Illinois,17157,2872,32,,30,,2
+2020-12-16,Richland,Illinois,17159,1103,24,,22,,2
+2020-12-16,Rock Island,Illinois,17161,10085,207,9839,205,246,2
+2020-12-16,Saline,Illinois,17165,1433,33,,26,,7
+2020-12-16,Sangamon,Illinois,17167,12229,152,12053,143,176,9
+2020-12-16,Schuyler,Illinois,17169,493,6,,2,,4
 2020-12-16,Scott,Illinois,17171,285,1,,1,,0
-2020-12-16,Shelby,Illinois,17173,1631,31,,28,,3
-2020-12-16,Stark,Illinois,17175,389,10,,10,,0
-2020-12-16,St. Clair,Illinois,17163,18354,312,18354,293,,19
-2020-12-16,Stephenson,Illinois,17177,2907,48,,37,,11
-2020-12-16,Tazewell,Illinois,17179,8742,146,8742,133,,13
-2020-12-16,Union,Illinois,17181,1430,29,,28,,1
-2020-12-16,Vermilion,Illinois,17183,5063,75,,63,,12
-2020-12-16,Wabash,Illinois,17185,866,10,,9,,1
-2020-12-16,Warren,Illinois,17187,1337,28,,26,,2
-2020-12-16,Washington,Illinois,17189,1019,11,,8,,3
-2020-12-16,Wayne,Illinois,17191,1139,38,,37,,1
-2020-12-16,White,Illinois,17193,889,14,,12,,2
+2020-12-16,Shelby,Illinois,17173,1651,31,,28,,3
+2020-12-16,Stark,Illinois,17175,394,11,,11,,0
+2020-12-16,St. Clair,Illinois,17163,18354,317,18354,296,,21
+2020-12-16,Stephenson,Illinois,17177,2953,51,,39,,12
+2020-12-16,Tazewell,Illinois,17179,8880,148,8742,134,138,14
+2020-12-16,Union,Illinois,17181,1457,29,,28,,1
+2020-12-16,Vermilion,Illinois,17183,5148,76,,64,,12
+2020-12-16,Wabash,Illinois,17185,887,10,,9,,1
+2020-12-16,Warren,Illinois,17187,1346,28,,26,,2
+2020-12-16,Washington,Illinois,17189,1032,13,,10,,3
+2020-12-16,Wayne,Illinois,17191,1164,38,,37,,1
+2020-12-16,White,Illinois,17193,911,15,,12,,3
 2020-12-16,Whiteside,Illinois,17195,4404,150,4404,110,,40
-2020-12-16,Will,Illinois,17197,46879,685,6793,641,40086,44
-2020-12-16,Williamson,Illinois,17199,4483,100,,93,,7
-2020-12-16,Winnebago,Illinois,17201,22182,323,14421,293,7761,30
-2020-12-16,Woodford,Illinois,17203,2366,40,2366,35,,5
+2020-12-16,Will,Illinois,17197,47257,691,6793,646,40464,45
+2020-12-16,Williamson,Illinois,17199,4548,101,,94,,7
+2020-12-16,Winnebago,Illinois,17201,22350,329,14421,297,7929,32
+2020-12-16,Woodford,Illinois,17203,2398,40,2366,35,32,5
 2020-12-16,Adams,Indiana,18001,2339,29,2338,28,1,1
 2020-12-16,Allen,Indiana,18003,24813,432,24770,413,43,19
 2020-12-16,Bartholomew,Indiana,18005,4735,80,4716,74,19,6
@@ -893,112 +893,112 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-12-16,Woodbury,Iowa,19193,11467,145,11467,,,
 2020-12-16,Worth,Iowa,19195,432,2,432,,,
 2020-12-16,Wright,Iowa,19197,1413,11,1413,,,
-2020-12-16,Allen,Kansas,20001,483,1,112,1,371,
-2020-12-16,Anderson,Kansas,20003,450,0,167,,283,
-2020-12-16,Atchison,Kansas,20005,1063,10,964,10,99,
-2020-12-16,Barber,Kansas,20007,240,2,171,2,69,
-2020-12-16,Barton,Kansas,20009,1935,19,1842,19,93,
-2020-12-16,Bourbon,Kansas,20011,730,3,303,3,427,
-2020-12-16,Brown,Kansas,20013,914,13,849,13,65,
-2020-12-16,Butler,Kansas,20015,4360,17,2768,17,1592,
+2020-12-16,Allen,Kansas,20001,513,1,112,1,401,
+2020-12-16,Anderson,Kansas,20003,458,0,167,,291,
+2020-12-16,Atchison,Kansas,20005,1099,10,964,10,135,
+2020-12-16,Barber,Kansas,20007,249,2,171,2,78,
+2020-12-16,Barton,Kansas,20009,1965,19,1842,19,123,
+2020-12-16,Bourbon,Kansas,20011,762,3,303,3,459,
+2020-12-16,Brown,Kansas,20013,929,13,849,13,80,
+2020-12-16,Butler,Kansas,20015,4480,17,2768,17,1712,
 2020-12-16,Chase,Kansas,20017,215,3,215,3,,
-2020-12-16,Chautauqua,Kansas,20019,117,3,115,3,2,
+2020-12-16,Chautauqua,Kansas,20019,121,3,115,3,6,
 2020-12-16,Cherokee,Kansas,20021,1443,13,1443,13,,
-2020-12-16,Cheyenne,Kansas,20023,235,10,211,10,24,
-2020-12-16,Clark,Kansas,20025,171,4,123,4,48,
-2020-12-16,Clay,Kansas,20027,500,14,500,14,,
-2020-12-16,Cloud,Kansas,20029,762,2,762,2,0,
-2020-12-16,Coffey,Kansas,20031,401,10,348,10,53,
+2020-12-16,Cheyenne,Kansas,20023,243,10,211,10,32,
+2020-12-16,Clark,Kansas,20025,176,4,123,4,53,
+2020-12-16,Clay,Kansas,20027,507,14,500,14,7,
+2020-12-16,Cloud,Kansas,20029,777,2,762,2,15,
+2020-12-16,Coffey,Kansas,20031,415,10,348,10,67,
 2020-12-16,Comanche,Kansas,20033,124,2,124,2,0,
-2020-12-16,Cowley,Kansas,20035,2080,9,1267,9,813,
-2020-12-16,Crawford,Kansas,20037,2862,24,2862,24,0,
-2020-12-16,Decatur,Kansas,20039,220,1,201,1,19,
-2020-12-16,Dickinson,Kansas,20041,942,13,942,13,,
+2020-12-16,Cowley,Kansas,20035,2129,9,1267,9,862,
+2020-12-16,Crawford,Kansas,20037,2941,24,2862,24,79,
+2020-12-16,Decatur,Kansas,20039,223,1,201,1,22,
+2020-12-16,Dickinson,Kansas,20041,988,13,942,13,46,
 2020-12-16,Doniphan,Kansas,20043,607,5,607,5,,
 2020-12-16,Douglas,Kansas,20045,5632,30,5632,30,,
 2020-12-16,Edwards,Kansas,20047,222,0,222,,,
-2020-12-16,Elk,Kansas,20049,77,0,51,,26,
-2020-12-16,Ellis,Kansas,20051,2885,30,2714,30,171,
-2020-12-16,Ellsworth,Kansas,20053,917,4,917,4,0,
+2020-12-16,Elk,Kansas,20049,84,0,51,,33,
+2020-12-16,Ellis,Kansas,20051,2934,30,2714,30,220,
+2020-12-16,Ellsworth,Kansas,20053,954,4,917,4,37,
 2020-12-16,Finney,Kansas,20055,5235,39,5235,39,,
-2020-12-16,Ford,Kansas,20057,4914,10,1738,10,3176,
-2020-12-16,Franklin,Kansas,20059,1412,17,1373,17,39,
-2020-12-16,Geary,Kansas,20061,1438,7,985,7,453,
-2020-12-16,Gove,Kansas,20063,315,20,299,20,16,
+2020-12-16,Ford,Kansas,20057,4948,10,1738,10,3210,
+2020-12-16,Franklin,Kansas,20059,1453,17,1373,17,80,
+2020-12-16,Geary,Kansas,20061,1477,7,985,7,492,
+2020-12-16,Gove,Kansas,20063,316,20,299,20,17,
 2020-12-16,Graham,Kansas,20065,190,2,112,2,78,
 2020-12-16,Grant,Kansas,20067,878,14,878,14,,
 2020-12-16,Gray,Kansas,20069,483,4,483,4,,
 2020-12-16,Greeley,Kansas,20071,89,0,87,,2,
 2020-12-16,Greenwood,Kansas,20073,364,2,364,2,,
-2020-12-16,Hamilton,Kansas,20075,173,0,18,,155,
-2020-12-16,Harper,Kansas,20077,368,15,368,15,,
-2020-12-16,Harvey,Kansas,20079,2186,22,91,1,2095,21
-2020-12-16,Haskell,Kansas,20081,323,1,21,1,302,
-2020-12-16,Hodgeman,Kansas,20083,152,4,147,4,5,
-2020-12-16,Jackson,Kansas,20085,888,10,885,10,3,
-2020-12-16,Jefferson,Kansas,20087,926,9,848,9,78,
+2020-12-16,Hamilton,Kansas,20075,175,0,18,,157,
+2020-12-16,Harper,Kansas,20077,371,15,368,15,3,
+2020-12-16,Harvey,Kansas,20079,2226,22,91,1,2135,21
+2020-12-16,Haskell,Kansas,20081,333,1,21,1,312,
+2020-12-16,Hodgeman,Kansas,20083,155,4,147,4,8,
+2020-12-16,Jackson,Kansas,20085,916,10,885,10,31,
+2020-12-16,Jefferson,Kansas,20087,962,9,848,9,114,
 2020-12-16,Jewell,Kansas,20089,178,2,132,2,46,
-2020-12-16,Johnson,Kansas,20091,33144,357,29141,357,4003,
-2020-12-16,Kearny,Kansas,20093,451,8,451,8,,
-2020-12-16,Kingman,Kansas,20095,484,5,484,5,0,
+2020-12-16,Johnson,Kansas,20091,33964,371,29650,371,4314,
+2020-12-16,Kearny,Kansas,20093,458,8,451,8,7,
+2020-12-16,Kingman,Kansas,20095,491,5,484,5,7,
 2020-12-16,Kiowa,Kansas,20097,168,0,168,,,
-2020-12-16,Labette,Kansas,20099,1328,7,1277,7,51,
+2020-12-16,Labette,Kansas,20099,1407,7,1277,7,130,
 2020-12-16,Lane,Kansas,20101,113,3,113,3,,
-2020-12-16,Leavenworth,Kansas,20103,4435,35,4262,35,173,
-2020-12-16,Lincoln,Kansas,20105,150,1,150,1,,
-2020-12-16,Linn,Kansas,20107,407,3,327,3,80,
+2020-12-16,Leavenworth,Kansas,20103,4553,35,4262,35,291,
+2020-12-16,Lincoln,Kansas,20105,153,1,150,1,3,
+2020-12-16,Linn,Kansas,20107,421,3,327,3,94,
 2020-12-16,Logan,Kansas,20109,264,0,264,,,
-2020-12-16,Lyon,Kansas,20111,3045,51,1106,51,1939,
+2020-12-16,Lyon,Kansas,20111,3080,55,1106,55,1974,
 2020-12-16,Marion,Kansas,20115,558,1,552,1,6,
 2020-12-16,Marshall,Kansas,20117,752,18,752,18,,
 2020-12-16,McPherson,Kansas,20113,2023,19,2023,19,0,0
-2020-12-16,Meade,Kansas,20119,356,4,356,4,,
-2020-12-16,Miami,Kansas,20121,1404,7,,7,,
-2020-12-16,Mitchell,Kansas,20123,302,0,302,,0,
-2020-12-16,Montgomery,Kansas,20125,1526,6,703,6,823,
+2020-12-16,Meade,Kansas,20119,361,4,356,4,5,
+2020-12-16,Miami,Kansas,20121,1456,7,,7,,
+2020-12-16,Mitchell,Kansas,20123,313,0,302,,11,
+2020-12-16,Montgomery,Kansas,20125,1671,6,703,6,968,
 2020-12-16,Morris,Kansas,20127,339,1,339,1,,
 2020-12-16,Morton,Kansas,20129,195,8,195,8,,
-2020-12-16,Nemaha,Kansas,20131,1253,43,1253,43,,
+2020-12-16,Nemaha,Kansas,20131,1261,43,1253,43,8,
 2020-12-16,Neosho,Kansas,20133,962,8,962,8,,
 2020-12-16,Ness,Kansas,20135,321,15,321,15,,
 2020-12-16,Norton,Kansas,20137,1141,24,1141,24,,
-2020-12-16,Osage,Kansas,20139,670,6,610,6,60,
-2020-12-16,Osborne,Kansas,20141,125,0,125,,0,
-2020-12-16,Ottawa,Kansas,20143,342,0,342,,0,
-2020-12-16,Pawnee,Kansas,20145,852,1,713,1,139,
-2020-12-16,Phillips,Kansas,20147,529,12,485,12,44,
-2020-12-16,Pottawatomie,Kansas,20149,834,3,360,,474,
-2020-12-16,Pratt,Kansas,20151,611,16,611,16,,
+2020-12-16,Osage,Kansas,20139,680,6,610,6,70,
+2020-12-16,Osborne,Kansas,20141,130,0,125,,5,
+2020-12-16,Ottawa,Kansas,20143,351,0,342,,9,
+2020-12-16,Pawnee,Kansas,20145,872,1,713,1,159,
+2020-12-16,Phillips,Kansas,20147,536,12,485,12,51,
+2020-12-16,Pottawatomie,Kansas,20149,866,3,360,,506,
+2020-12-16,Pratt,Kansas,20151,621,16,611,16,10,
 2020-12-16,Rawlins,Kansas,20153,285,3,285,3,,
-2020-12-16,Reno,Kansas,20155,6293,81,5995,81,298,
+2020-12-16,Reno,Kansas,20155,6377,81,5995,81,382,
 2020-12-16,Republic,Kansas,20157,493,9,493,9,0,
-2020-12-16,Rice,Kansas,20159,631,1,510,1,121,
-2020-12-16,Riley,Kansas,20161,4270,16,4270,16,,
-2020-12-16,Rooks,Kansas,20163,417,8,396,8,21,
-2020-12-16,Rush,Kansas,20165,308,0,,,,
+2020-12-16,Rice,Kansas,20159,649,1,510,1,139,
+2020-12-16,Riley,Kansas,20161,4396,19,4396,19,,
+2020-12-16,Rooks,Kansas,20163,420,8,396,8,24,
+2020-12-16,Rush,Kansas,20165,317,0,,,,
 2020-12-16,Russell,Kansas,20167,669,17,669,17,,
-2020-12-16,Saline,Kansas,20169,3379,45,3379,45,0,
+2020-12-16,Saline,Kansas,20169,3520,45,3379,45,141,
 2020-12-16,Scott,Kansas,20171,525,9,413,9,112,
-2020-12-16,Sedgwick,Kansas,20173,33554,220,28127,220,5427,
+2020-12-16,Sedgwick,Kansas,20173,34248,220,28127,220,6121,
 2020-12-16,Seward,Kansas,20175,3330,14,3330,14,,
-2020-12-16,Shawnee,Kansas,20177,9862,180,9395,180,467,
-2020-12-16,Sheridan,Kansas,20179,349,0,126,,223,
-2020-12-16,Sherman,Kansas,20181,521,7,450,7,71,
+2020-12-16,Shawnee,Kansas,20177,10126,180,9395,180,731,
+2020-12-16,Sheridan,Kansas,20179,352,0,126,,226,
+2020-12-16,Sherman,Kansas,20181,520,7,450,7,70,
 2020-12-16,Smith,Kansas,20183,192,1,186,1,6,
-2020-12-16,Stafford,Kansas,20185,247,5,247,5,,
-2020-12-16,Stanton,Kansas,20187,154,2,48,2,106,
+2020-12-16,Stafford,Kansas,20185,248,5,247,5,1,
+2020-12-16,Stanton,Kansas,20187,155,2,48,2,107,
 2020-12-16,Stevens,Kansas,20189,486,5,486,5,,
-2020-12-16,Sumner,Kansas,20191,1098,6,978,6,120,
+2020-12-16,Sumner,Kansas,20191,1143,6,978,6,165,
 2020-12-16,Thomas,Kansas,20193,851,6,851,6,,
-2020-12-16,Trego,Kansas,20195,267,3,266,3,1,
-2020-12-16,Unknown,Kansas,,0,191,,,,
-2020-12-16,Wabaunsee,Kansas,20197,352,1,352,1,0,
-2020-12-16,Wallace,Kansas,20199,151,0,151,,,
-2020-12-16,Washington,Kansas,20201,366,8,366,8,0,
-2020-12-16,Wichita,Kansas,20203,171,0,,,,
-2020-12-16,Wilson,Kansas,20205,493,5,487,5,6,
-2020-12-16,Woodson,Kansas,20207,90,0,27,,63,
-2020-12-16,Wyandotte,Kansas,20209,13568,184,12752,184,816,
+2020-12-16,Trego,Kansas,20195,272,3,266,3,6,
+2020-12-16,Unknown,Kansas,,0,314,,,,
+2020-12-16,Wabaunsee,Kansas,20197,356,1,352,1,4,
+2020-12-16,Wallace,Kansas,20199,153,0,151,,2,
+2020-12-16,Washington,Kansas,20201,375,8,366,8,9,
+2020-12-16,Wichita,Kansas,20203,176,0,,,,
+2020-12-16,Wilson,Kansas,20205,514,5,487,5,27,
+2020-12-16,Woodson,Kansas,20207,94,0,27,,67,
+2020-12-16,Wyandotte,Kansas,20209,13834,184,12752,184,1082,
 2020-12-16,Adair,Kentucky,21001,1186,39,1186,39,,
 2020-12-16,Allen,Kentucky,21003,933,17,,,,
 2020-12-16,Anderson,Kentucky,21005,734,1,,,,
@@ -1052,7 +1052,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-12-16,Henderson,Kentucky,21101,2527,47,2459,47,68,
 2020-12-16,Henry,Kentucky,21103,681,3,,,,
 2020-12-16,Hickman,Kentucky,21105,207,3,,,,
-2020-12-16,Hopkins,Kentucky,21107,2284,83,2284,83,,
+2020-12-16,Hopkins,Kentucky,21107,2299,84,2299,84,,
 2020-12-16,Jackson,Kentucky,21109,744,18,,,,
 2020-12-16,Jefferson,Kentucky,21111,46791,593,46791,593,,
 2020-12-16,Jessamine,Kentucky,21113,2345,39,2345,,,
@@ -1119,71 +1119,71 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-12-16,Whitley,Kentucky,21235,2176,9,,,,
 2020-12-16,Wolfe,Kentucky,21237,256,1,,,,
 2020-12-16,Woodford,Kentucky,21239,1082,1,,,,
-2020-12-16,Acadia,Louisiana,22001,4568,130,4497,125,71,5
-2020-12-16,Allen,Louisiana,22003,2271,71,2172,71,99,0
-2020-12-16,Ascension,Louisiana,22005,6786,114,6027,108,759,6
-2020-12-16,Assumption,Louisiana,22007,1172,26,1048,25,124,1
-2020-12-16,Avoyelles,Louisiana,22009,2370,76,2230,73,140,3
-2020-12-16,Beauregard,Louisiana,22011,1597,50,1545,46,52,4
-2020-12-16,Bienville,Louisiana,22013,1029,40,968,38,61,2
-2020-12-16,Bossier,Louisiana,22015,7455,170,6927,163,528,7
-2020-12-16,Caddo,Louisiana,22017,15359,475,15122,464,237,11
-2020-12-16,Calcasieu,Louisiana,22019,11934,263,10763,254,1171,9
-2020-12-16,Caldwell,Louisiana,22021,780,18,636,16,144,2
-2020-12-16,Cameron,Louisiana,22023,343,3,325,3,18,0
-2020-12-16,Catahoula,Louisiana,22025,723,19,629,17,94,2
-2020-12-16,Claiborne,Louisiana,22027,873,32,818,31,55,1
-2020-12-16,Concordia,Louisiana,22029,1230,33,1099,26,131,7
-2020-12-16,De Soto,Louisiana,22031,1513,43,1420,40,93,3
-2020-12-16,East Baton Rouge,Louisiana,22033,22604,548,20937,520,1667,28
-2020-12-16,East Carroll,Louisiana,22035,900,14,797,14,103,0
-2020-12-16,East Feliciana,Louisiana,22037,2306,90,1984,86,322,4
-2020-12-16,Evangeline,Louisiana,22039,2328,52,2100,49,228,3
-2020-12-16,Franklin,Louisiana,22041,1872,72,1829,72,43,0
-2020-12-16,Grant,Louisiana,22043,1211,35,1013,34,198,1
-2020-12-16,Iberia,Louisiana,22045,4252,114,4044,111,208,3
-2020-12-16,Iberville,Louisiana,22047,2376,68,2202,68,174,0
-2020-12-16,Jackson,Louisiana,22049,1273,34,1153,33,120,1
-2020-12-16,Jefferson,Louisiana,22051,27128,643,26200,617,928,26
-2020-12-16,Jefferson Davis,Louisiana,22053,2011,57,1908,52,103,5
-2020-12-16,Lafayette,Louisiana,22055,14432,171,13565,165,867,6
-2020-12-16,Lafourche,Louisiana,22057,5510,153,4891,147,619,6
-2020-12-16,LaSalle,Louisiana,22059,1059,22,747,15,312,7
-2020-12-16,Lincoln,Louisiana,22061,2965,63,2498,61,467,2
-2020-12-16,Livingston,Louisiana,22063,7362,108,6250,102,1112,6
-2020-12-16,Madison,Louisiana,22065,1176,16,1151,15,25,1
-2020-12-16,Morehouse,Louisiana,22067,1772,39,1626,39,146,0
-2020-12-16,Natchitoches,Louisiana,22069,2477,54,2212,51,265,3
-2020-12-16,Orleans,Louisiana,22071,18179,656,17778,616,401,40
-2020-12-16,Ouachita,Louisiana,22073,11779,236,11140,215,639,21
-2020-12-16,Plaquemines,Louisiana,22075,1470,20,1209,19,261,1
-2020-12-16,Pointe Coupee,Louisiana,22077,1689,53,1459,50,230,3
-2020-12-16,Rapides,Louisiana,22079,7186,202,6304,195,882,7
-2020-12-16,Red River,Louisiana,22081,618,28,600,26,18,2
-2020-12-16,Richland,Louisiana,22083,1549,34,1345,28,204,6
-2020-12-16,Sabine,Louisiana,22085,1833,38,1629,36,204,2
-2020-12-16,St. Bernard,Louisiana,22087,2065,37,1929,35,136,2
-2020-12-16,St. Charles,Louisiana,22089,3053,72,2735,70,318,2
-2020-12-16,St. Helena,Louisiana,22091,611,4,517,4,94,0
-2020-12-16,St. James,Louisiana,22093,1152,41,1089,40,63,1
-2020-12-16,St. John the Baptist,Louisiana,22095,2276,116,2213,110,63,6
-2020-12-16,St. Landry,Louisiana,22097,5820,184,5535,173,285,11
-2020-12-16,St. Martin,Louisiana,22099,3243,78,3093,73,150,5
-2020-12-16,St. Mary,Louisiana,22101,2647,98,2494,92,153,6
-2020-12-16,St. Tammany,Louisiana,22103,12622,308,11459,303,1163,5
-2020-12-16,Tangipahoa,Louisiana,22105,7936,152,6820,146,1116,6
-2020-12-16,Tensas,Louisiana,22107,245,3,241,3,4,0
-2020-12-16,Terrebonne,Louisiana,22109,5168,143,4779,137,389,6
-2020-12-16,Union,Louisiana,22111,1583,62,1440,59,143,3
-2020-12-16,Unknown,Louisiana,,380,0,373,0,7,0
-2020-12-16,Vermilion,Louisiana,22113,3014,81,2954,80,60,1
-2020-12-16,Vernon,Louisiana,22115,1737,68,1641,64,96,4
-2020-12-16,Washington,Louisiana,22117,2655,81,2218,78,437,3
-2020-12-16,Webster,Louisiana,22119,2351,61,2151,56,200,5
-2020-12-16,West Baton Rouge,Louisiana,22121,1590,46,1403,45,187,1
-2020-12-16,West Carroll,Louisiana,22123,785,25,747,23,38,2
-2020-12-16,West Feliciana,Louisiana,22125,883,25,876,25,7,0
-2020-12-16,Winn,Louisiana,22127,1140,27,955,25,185,2
+2020-12-16,Acadia,Louisiana,22001,4597,131,4522,126,75,5
+2020-12-16,Allen,Louisiana,22003,2275,71,2173,71,102,0
+2020-12-16,Ascension,Louisiana,22005,6885,113,6051,107,834,6
+2020-12-16,Assumption,Louisiana,22007,1175,26,1051,25,124,1
+2020-12-16,Avoyelles,Louisiana,22009,2398,77,2252,74,146,3
+2020-12-16,Beauregard,Louisiana,22011,1622,50,1565,46,57,4
+2020-12-16,Bienville,Louisiana,22013,1036,40,976,38,60,2
+2020-12-16,Bossier,Louisiana,22015,7569,170,7042,163,527,7
+2020-12-16,Caddo,Louisiana,22017,15532,475,15293,464,239,11
+2020-12-16,Calcasieu,Louisiana,22019,12121,264,10857,255,1264,9
+2020-12-16,Caldwell,Louisiana,22021,785,18,639,16,146,2
+2020-12-16,Cameron,Louisiana,22023,339,4,321,4,18,0
+2020-12-16,Catahoula,Louisiana,22025,734,19,634,17,100,2
+2020-12-16,Claiborne,Louisiana,22027,878,32,821,31,57,1
+2020-12-16,Concordia,Louisiana,22029,1255,33,1117,26,138,7
+2020-12-16,De Soto,Louisiana,22031,1541,44,1447,40,94,4
+2020-12-16,East Baton Rouge,Louisiana,22033,22865,550,21089,522,1776,28
+2020-12-16,East Carroll,Louisiana,22035,903,14,798,14,105,0
+2020-12-16,East Feliciana,Louisiana,22037,2316,90,1988,86,328,4
+2020-12-16,Evangeline,Louisiana,22039,2359,52,2130,49,229,3
+2020-12-16,Franklin,Louisiana,22041,1877,72,1833,72,44,0
+2020-12-16,Grant,Louisiana,22043,1222,35,1018,34,204,1
+2020-12-16,Iberia,Louisiana,22045,4291,114,4076,111,215,3
+2020-12-16,Iberville,Louisiana,22047,2387,68,2205,68,182,0
+2020-12-16,Jackson,Louisiana,22049,1282,35,1162,34,120,1
+2020-12-16,Jefferson,Louisiana,22051,27355,643,26327,617,1028,26
+2020-12-16,Jefferson Davis,Louisiana,22053,2038,58,1929,53,109,5
+2020-12-16,Lafayette,Louisiana,22055,14660,172,13708,166,952,6
+2020-12-16,Lafourche,Louisiana,22057,5539,156,4908,149,631,7
+2020-12-16,LaSalle,Louisiana,22059,1068,24,750,16,318,8
+2020-12-16,Lincoln,Louisiana,22061,2978,64,2511,62,467,2
+2020-12-16,Livingston,Louisiana,22063,7549,112,6331,105,1218,7
+2020-12-16,Madison,Louisiana,22065,1188,16,1163,15,25,1
+2020-12-16,Morehouse,Louisiana,22067,1801,39,1648,39,153,0
+2020-12-16,Natchitoches,Louisiana,22069,2490,54,2226,51,264,3
+2020-12-16,Orleans,Louisiana,22071,18307,660,17876,620,431,40
+2020-12-16,Ouachita,Louisiana,22073,11907,239,11243,217,664,22
+2020-12-16,Plaquemines,Louisiana,22075,1482,20,1215,19,267,1
+2020-12-16,Pointe Coupee,Louisiana,22077,1701,53,1466,50,235,3
+2020-12-16,Rapides,Louisiana,22079,7302,203,6357,196,945,7
+2020-12-16,Red River,Louisiana,22081,621,28,603,26,18,2
+2020-12-16,Richland,Louisiana,22083,1563,34,1356,28,207,6
+2020-12-16,Sabine,Louisiana,22085,1853,38,1648,36,205,2
+2020-12-16,St. Bernard,Louisiana,22087,2074,38,1935,36,139,2
+2020-12-16,St. Charles,Louisiana,22089,3067,72,2746,70,321,2
+2020-12-16,St. Helena,Louisiana,22091,621,4,522,4,99,0
+2020-12-16,St. James,Louisiana,22093,1164,41,1100,40,64,1
+2020-12-16,St. John the Baptist,Louisiana,22095,2297,116,2229,110,68,6
+2020-12-16,St. Landry,Louisiana,22097,5896,186,5597,175,299,11
+2020-12-16,St. Martin,Louisiana,22099,3294,78,3122,73,172,5
+2020-12-16,St. Mary,Louisiana,22101,2671,99,2510,93,161,6
+2020-12-16,St. Tammany,Louisiana,22103,12904,310,11569,305,1335,5
+2020-12-16,Tangipahoa,Louisiana,22105,8066,153,6854,147,1212,6
+2020-12-16,Tensas,Louisiana,22107,247,3,243,3,4,0
+2020-12-16,Terrebonne,Louisiana,22109,5229,143,4807,137,422,6
+2020-12-16,Union,Louisiana,22111,1602,62,1455,59,147,3
+2020-12-16,Unknown,Louisiana,,388,0,380,0,8,0
+2020-12-16,Vermilion,Louisiana,22113,3063,82,3002,81,61,1
+2020-12-16,Vernon,Louisiana,22115,1770,70,1669,64,101,6
+2020-12-16,Washington,Louisiana,22117,2709,82,2235,78,474,4
+2020-12-16,Webster,Louisiana,22119,2418,61,2203,56,215,5
+2020-12-16,West Baton Rouge,Louisiana,22121,1602,46,1409,45,193,1
+2020-12-16,West Carroll,Louisiana,22123,786,25,748,23,38,2
+2020-12-16,West Feliciana,Louisiana,22125,881,25,873,25,8,0
+2020-12-16,Winn,Louisiana,22127,1150,27,956,25,194,2
 2020-12-16,Androscoggin,Maine,23001,2057,39,1828,39,229,
 2020-12-16,Aroostook,Maine,23003,333,2,281,2,52,
 2020-12-16,Cumberland,Maine,23005,5281,81,4543,81,738,
@@ -1763,18 +1763,18 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-12-16,York,Nebraska,31185,1175,6,,,,
 2020-12-16,Carson City,Nevada,32510,4028,39,4028,39,,
 2020-12-16,Churchill,Nevada,32001,1180,29,1180,29,,
-2020-12-16,Clark,Nevada,32003,144834,2037,144834,2037,,
+2020-12-16,Clark,Nevada,32003,146723,2080,146723,2080,,
 2020-12-16,Douglas,Nevada,32005,1619,10,1619,10,,
-2020-12-16,Elko,Nevada,32007,3463,31,3463,31,,
+2020-12-16,Elko,Nevada,32007,3490,31,3490,31,,
 2020-12-16,Esmeralda,Nevada,32009,27,0,27,0,,
 2020-12-16,Eureka,Nevada,32011,28,0,28,0,,
-2020-12-16,Humboldt,Nevada,32013,651,7,651,7,,
-2020-12-16,Lander,Nevada,32015,323,5,323,5,,
+2020-12-16,Humboldt,Nevada,32013,706,7,706,7,,
+2020-12-16,Lander,Nevada,32015,337,6,337,6,,
 2020-12-16,Lincoln,Nevada,32017,252,1,252,1,,
 2020-12-16,Lyon,Nevada,32019,1829,28,1829,28,,
-2020-12-16,Mineral,Nevada,32021,168,4,168,4,,
+2020-12-16,Mineral,Nevada,32021,169,4,169,4,,
 2020-12-16,Nye,Nevada,32023,1715,34,1702,34,13,
-2020-12-16,Pershing,Nevada,32027,305,1,305,1,,
+2020-12-16,Pershing,Nevada,32027,308,1,308,1,,
 2020-12-16,Storey,Nevada,32029,65,2,65,2,,
 2020-12-16,Washoe,Nevada,32031,31321,378,31321,378,,
 2020-12-16,White Pine,Nevada,32033,314,3,314,3,,
@@ -1845,64 +1845,64 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-12-16,Union,New Mexico,35059,325,7,325,7,,
 2020-12-16,Unknown,New Mexico,,29,0,29,,,
 2020-12-16,Valencia,New Mexico,35061,4400,48,4400,48,,
-2020-12-16,Albany,New York,36001,8214,173,8214,173,,
-2020-12-16,Allegany,New York,36003,1427,65,1427,65,,
-2020-12-16,Broome,New York,36007,6601,178,6601,178,,
-2020-12-16,Cattaraugus,New York,36009,1817,29,1817,29,,
-2020-12-16,Cayuga,New York,36011,1629,14,1629,14,,
-2020-12-16,Chautauqua,New York,36013,2423,11,2423,11,,
-2020-12-16,Chemung,New York,36015,3803,78,3803,78,,
-2020-12-16,Chenango,New York,36017,892,13,892,13,,
-2020-12-16,Clinton,New York,36019,712,5,712,5,,
-2020-12-16,Columbia,New York,36021,1244,58,1244,58,,
-2020-12-16,Cortland,New York,36023,1539,11,1539,11,,
-2020-12-16,Delaware,New York,36025,525,7,525,7,,
-2020-12-16,Dutchess,New York,36027,9482,208,9482,208,,
-2020-12-16,Erie,New York,36029,33793,983,33793,983,,
-2020-12-16,Essex,New York,36031,390,14,390,14,,
-2020-12-16,Franklin,New York,36033,476,9,476,9,,
-2020-12-16,Fulton,New York,36035,883,29,883,29,,
-2020-12-16,Genesee,New York,36037,1673,21,1673,21,,
-2020-12-16,Greene,New York,36039,894,18,894,18,,
-2020-12-16,Hamilton,New York,36041,70,1,70,1,,
-2020-12-16,Herkimer,New York,36043,1238,14,1238,14,,
-2020-12-16,Jefferson,New York,36045,1085,6,1085,6,,
-2020-12-16,Lewis,New York,36049,587,11,587,11,,
-2020-12-16,Livingston,New York,36051,1168,20,1168,20,,
-2020-12-16,Madison,New York,36053,1621,27,1621,27,,
-2020-12-16,Monroe,New York,36055,24294,375,24294,375,,
-2020-12-16,Montgomery,New York,36057,828,22,828,22,,
-2020-12-16,Nassau,New York,36059,72122,2304,72122,2304,,
-2020-12-16,New York City,New York,,367198,24561,362461,19798,4737,4763
-2020-12-16,Niagara,New York,36063,6144,141,6144,141,,
-2020-12-16,Oneida,New York,36065,8171,196,8171,196,,
-2020-12-16,Onondaga,New York,36067,15722,288,15722,288,,
-2020-12-16,Ontario,New York,36069,2154,37,2154,37,,
-2020-12-16,Orange,New York,36071,19907,469,19907,469,,
-2020-12-16,Orleans,New York,36073,904,59,904,59,,
-2020-12-16,Oswego,New York,36075,2487,20,2487,20,,
-2020-12-16,Otsego,New York,36077,915,6,915,6,,
-2020-12-16,Putnam,New York,36079,3869,66,3869,66,,
-2020-12-16,Rensselaer,New York,36083,2712,67,2712,67,,
-2020-12-16,Rockland,New York,36087,24334,554,24334,554,,
-2020-12-16,Saratoga,New York,36091,3599,25,3599,25,,
-2020-12-16,Schenectady,New York,36093,3924,63,3924,63,,
-2020-12-16,Schoharie,New York,36095,356,2,356,2,,
-2020-12-16,Schuyler,New York,36097,395,6,395,6,,
-2020-12-16,Seneca,New York,36099,506,14,506,14,,
-2020-12-16,Steuben,New York,36101,2474,100,2474,100,,
-2020-12-16,St. Lawrence,New York,36089,1372,27,1372,27,,
-2020-12-16,Suffolk,New York,36103,76625,2132,76625,2132,,
-2020-12-16,Sullivan,New York,36105,2483,40,2483,40,,
-2020-12-16,Tioga,New York,36107,1389,54,1389,54,,
-2020-12-16,Tompkins,New York,36109,1613,9,1613,9,,
-2020-12-16,Ulster,New York,36111,4485,118,4485,118,,
-2020-12-16,Warren,New York,36113,764,30,764,30,,
-2020-12-16,Washington,New York,36115,597,14,597,14,,
-2020-12-16,Wayne,New York,36117,1743,28,1743,28,,
-2020-12-16,Westchester,New York,36119,59990,1575,59990,1575,,
-2020-12-16,Wyoming,New York,36121,914,13,914,13,,
-2020-12-16,Yates,New York,36123,375,7,375,7,,
+2020-12-16,Albany,New York,36001,8405,174,8405,174,,
+2020-12-16,Allegany,New York,36003,1451,65,1451,65,,
+2020-12-16,Broome,New York,36007,6692,180,6692,180,,
+2020-12-16,Cattaraugus,New York,36009,1868,29,1868,29,,
+2020-12-16,Cayuga,New York,36011,1697,14,1697,14,,
+2020-12-16,Chautauqua,New York,36013,2458,12,2458,12,,
+2020-12-16,Chemung,New York,36015,3848,79,3848,79,,
+2020-12-16,Chenango,New York,36017,917,13,917,13,,
+2020-12-16,Clinton,New York,36019,731,5,731,5,,
+2020-12-16,Columbia,New York,36021,1258,59,1258,59,,
+2020-12-16,Cortland,New York,36023,1561,12,1561,12,,
+2020-12-16,Delaware,New York,36025,534,7,534,7,,
+2020-12-16,Dutchess,New York,36027,9642,209,9642,209,,
+2020-12-16,Erie,New York,36029,34181,995,34181,995,,
+2020-12-16,Essex,New York,36031,410,14,410,14,,
+2020-12-16,Franklin,New York,36033,485,9,485,9,,
+2020-12-16,Fulton,New York,36035,921,29,921,29,,
+2020-12-16,Genesee,New York,36037,1721,23,1721,23,,
+2020-12-16,Greene,New York,36039,914,18,914,18,,
+2020-12-16,Hamilton,New York,36041,73,1,73,1,,
+2020-12-16,Herkimer,New York,36043,1279,14,1279,14,,
+2020-12-16,Jefferson,New York,36045,1121,6,1121,6,,
+2020-12-16,Lewis,New York,36049,603,11,603,11,,
+2020-12-16,Livingston,New York,36051,1206,20,1206,20,,
+2020-12-16,Madison,New York,36053,1684,31,1684,31,,
+2020-12-16,Monroe,New York,36055,24947,382,24947,382,,
+2020-12-16,Montgomery,New York,36057,857,22,857,22,,
+2020-12-16,Nassau,New York,36059,72904,2306,72904,2306,,
+2020-12-16,New York City,New York,,370109,24578,365992,19844,4117,4734
+2020-12-16,Niagara,New York,36063,6258,144,6258,144,,
+2020-12-16,Oneida,New York,36065,8368,200,8368,200,,
+2020-12-16,Onondaga,New York,36067,16054,300,16054,300,,
+2020-12-16,Ontario,New York,36069,2203,38,2203,38,,
+2020-12-16,Orange,New York,36071,20129,470,20129,470,,
+2020-12-16,Orleans,New York,36073,923,59,923,59,,
+2020-12-16,Oswego,New York,36075,2547,20,2547,20,,
+2020-12-16,Otsego,New York,36077,941,7,941,7,,
+2020-12-16,Putnam,New York,36079,3919,66,3919,66,,
+2020-12-16,Rensselaer,New York,36083,2789,68,2789,68,,
+2020-12-16,Rockland,New York,36087,24555,555,24555,555,,
+2020-12-16,Saratoga,New York,36091,3716,26,3716,26,,
+2020-12-16,Schenectady,New York,36093,4014,65,4014,65,,
+2020-12-16,Schoharie,New York,36095,378,2,378,2,,
+2020-12-16,Schuyler,New York,36097,400,7,400,7,,
+2020-12-16,Seneca,New York,36099,509,14,509,14,,
+2020-12-16,Steuben,New York,36101,2531,102,2531,102,,
+2020-12-16,St. Lawrence,New York,36089,1409,28,1409,28,,
+2020-12-16,Suffolk,New York,36103,77681,2139,77681,2139,,
+2020-12-16,Sullivan,New York,36105,2510,40,2510,40,,
+2020-12-16,Tioga,New York,36107,1407,54,1407,54,,
+2020-12-16,Tompkins,New York,36109,1637,9,1637,9,,
+2020-12-16,Ulster,New York,36111,4547,118,4547,118,,
+2020-12-16,Warren,New York,36113,775,30,775,30,,
+2020-12-16,Washington,New York,36115,606,14,606,14,,
+2020-12-16,Wayne,New York,36117,1790,28,1790,28,,
+2020-12-16,Westchester,New York,36119,60539,1581,60539,1581,,
+2020-12-16,Wyoming,New York,36121,939,13,939,13,,
+2020-12-16,Yates,New York,36123,378,8,378,8,,
 2020-12-16,Alamance,North Carolina,37001,8733,114,8579,114,154,0
 2020-12-16,Alexander,North Carolina,37003,2099,21,1953,19,146,2
 2020-12-16,Alleghany,North Carolina,37005,507,1,432,1,75,0
@@ -2003,150 +2003,150 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-12-16,Wilson,North Carolina,37195,4787,89,4518,88,269,1
 2020-12-16,Yadkin,North Carolina,37197,2000,21,1680,17,320,4
 2020-12-16,Yancey,North Carolina,37199,803,4,416,4,387,0
-2020-12-16,Adams,North Dakota,38001,190,1,190,,0,
-2020-12-16,Barnes,North Dakota,38003,1179,22,1159,,20,
-2020-12-16,Benson,North Dakota,38005,907,15,884,,23,
-2020-12-16,Billings,North Dakota,38007,46,0,45,,1,
-2020-12-16,Bottineau,North Dakota,38009,586,19,583,,3,
-2020-12-16,Bowman,North Dakota,38011,279,4,194,,85,
-2020-12-16,Burke,North Dakota,38013,193,1,191,,2,
-2020-12-16,Burleigh,North Dakota,38015,13206,152,12972,,234,
-2020-12-16,Cass,North Dakota,38017,18879,154,18571,,308,
-2020-12-16,Cavalier,North Dakota,38019,402,4,395,,7,
-2020-12-16,Dickey,North Dakota,38021,607,32,575,,32,
-2020-12-16,Divide,North Dakota,38023,133,2,131,,2,
-2020-12-16,Dunn,North Dakota,38025,340,6,340,,0,
-2020-12-16,Eddy,North Dakota,38027,386,5,382,,4,
-2020-12-16,Emmons,North Dakota,38029,360,10,356,,4,
-2020-12-16,Foster,North Dakota,38031,524,19,518,,6,
-2020-12-16,Golden Valley,North Dakota,38033,189,0,182,,7,
-2020-12-16,Grand Forks,North Dakota,38035,8984,56,8620,,364,
-2020-12-16,Grant,North Dakota,38037,167,7,164,,3,
-2020-12-16,Griggs,North Dakota,38039,284,2,277,,7,
-2020-12-16,Hettinger,North Dakota,38041,264,3,257,,7,
-2020-12-16,Kidder,North Dakota,38043,240,7,233,,7,
-2020-12-16,LaMoure,North Dakota,38045,443,16,411,,32,
-2020-12-16,Logan,North Dakota,38047,200,6,182,,18,
-2020-12-16,McHenry,North Dakota,38049,510,18,495,,15,
-2020-12-16,McIntosh,North Dakota,38051,300,7,253,,47,
-2020-12-16,McKenzie,North Dakota,38053,978,10,966,,12,
-2020-12-16,McLean,North Dakota,38055,1102,18,1087,,15,
-2020-12-16,Mercer,North Dakota,38057,961,9,952,,9,
-2020-12-16,Morton,North Dakota,38059,4464,82,4364,,100,
-2020-12-16,Mountrail,North Dakota,38061,1144,15,1119,,25,
-2020-12-16,Nelson,North Dakota,38063,387,10,380,,7,
-2020-12-16,Oliver,North Dakota,38065,140,2,135,,5,
-2020-12-16,Pembina,North Dakota,38067,690,9,683,,7,
-2020-12-16,Pierce,North Dakota,38069,470,20,462,,8,
-2020-12-16,Ramsey,North Dakota,38071,1357,13,1329,,28,
-2020-12-16,Ransom,North Dakota,38073,512,10,501,,11,
-2020-12-16,Renville,North Dakota,38075,268,12,267,,1,
-2020-12-16,Richland,North Dakota,38077,1418,13,1380,,38,
-2020-12-16,Rolette,North Dakota,38079,1701,20,1665,,36,
-2020-12-16,Sargent,North Dakota,38081,397,5,379,,18,
+2020-12-16,Adams,North Dakota,38001,189,2,189,,0,
+2020-12-16,Barnes,North Dakota,38003,1182,22,1162,,20,
+2020-12-16,Benson,North Dakota,38005,909,16,889,,20,
+2020-12-16,Billings,North Dakota,38007,46,0,46,,0,
+2020-12-16,Bottineau,North Dakota,38009,589,19,587,,2,
+2020-12-16,Bowman,North Dakota,38011,282,4,196,,86,
+2020-12-16,Burke,North Dakota,38013,192,1,191,,1,
+2020-12-16,Burleigh,North Dakota,38015,13237,157,13040,,197,
+2020-12-16,Cass,North Dakota,38017,18952,157,18709,,243,
+2020-12-16,Cavalier,North Dakota,38019,404,4,396,,8,
+2020-12-16,Dickey,North Dakota,38021,615,32,577,,38,
+2020-12-16,Divide,North Dakota,38023,135,2,134,,1,
+2020-12-16,Dunn,North Dakota,38025,341,7,341,,0,
+2020-12-16,Eddy,North Dakota,38027,388,6,384,,4,
+2020-12-16,Emmons,North Dakota,38029,361,10,358,,3,
+2020-12-16,Foster,North Dakota,38031,525,19,519,,6,
+2020-12-16,Golden Valley,North Dakota,38033,190,0,183,,7,
+2020-12-16,Grand Forks,North Dakota,38035,9004,56,8645,,359,
+2020-12-16,Grant,North Dakota,38037,167,7,165,,2,
+2020-12-16,Griggs,North Dakota,38039,285,2,279,,6,
+2020-12-16,Hettinger,North Dakota,38041,264,3,259,,5,
+2020-12-16,Kidder,North Dakota,38043,241,7,234,,7,
+2020-12-16,LaMoure,North Dakota,38045,446,16,409,,37,
+2020-12-16,Logan,North Dakota,38047,200,7,182,,18,
+2020-12-16,McHenry,North Dakota,38049,513,18,498,,15,
+2020-12-16,McIntosh,North Dakota,38051,300,7,252,,48,
+2020-12-16,McKenzie,North Dakota,38053,987,10,982,,5,
+2020-12-16,McLean,North Dakota,38055,1105,18,1095,,10,
+2020-12-16,Mercer,North Dakota,38057,964,9,959,,5,
+2020-12-16,Morton,North Dakota,38059,4473,82,4386,,87,
+2020-12-16,Mountrail,North Dakota,38061,1145,15,1128,,17,
+2020-12-16,Nelson,North Dakota,38063,390,10,385,,5,
+2020-12-16,Oliver,North Dakota,38065,142,2,138,,4,
+2020-12-16,Pembina,North Dakota,38067,690,9,684,,6,
+2020-12-16,Pierce,North Dakota,38069,470,21,465,,5,
+2020-12-16,Ramsey,North Dakota,38071,1363,15,1348,,15,
+2020-12-16,Ransom,North Dakota,38073,515,11,506,,9,
+2020-12-16,Renville,North Dakota,38075,269,12,268,,1,
+2020-12-16,Richland,North Dakota,38077,1432,13,1398,,34,
+2020-12-16,Rolette,North Dakota,38079,1712,20,1684,,28,
+2020-12-16,Sargent,North Dakota,38081,398,5,380,,18,
 2020-12-16,Sheridan,North Dakota,38083,95,2,88,,7,
-2020-12-16,Sioux,North Dakota,38085,566,10,555,,11,
+2020-12-16,Sioux,North Dakota,38085,568,10,562,,6,
 2020-12-16,Slope,North Dakota,38087,24,0,20,,4,
-2020-12-16,Stark,North Dakota,38089,3896,40,3854,,42,
-2020-12-16,Steele,North Dakota,38091,150,1,145,,5,
-2020-12-16,Stutsman,North Dakota,38093,2898,67,2807,,91,
-2020-12-16,Towner,North Dakota,38095,244,10,241,,3,
-2020-12-16,Traill,North Dakota,38097,870,15,837,,33,
-2020-12-16,Unknown,North Dakota,,7,6,0,,7,
-2020-12-16,Walsh,North Dakota,38099,1542,20,1527,,15,
-2020-12-16,Ward,North Dakota,38101,8166,159,8102,,64,
-2020-12-16,Wells,North Dakota,38103,383,4,326,,57,
-2020-12-16,Williams,North Dakota,38105,3773,26,3257,,516,
+2020-12-16,Stark,North Dakota,38089,3907,42,3862,,45,
+2020-12-16,Steele,North Dakota,38091,151,1,146,,5,
+2020-12-16,Stutsman,North Dakota,38093,2911,67,2821,,90,
+2020-12-16,Towner,North Dakota,38095,243,10,241,,2,
+2020-12-16,Traill,North Dakota,38097,875,16,847,,28,
+2020-12-16,Unknown,North Dakota,,6,6,0,,6,
+2020-12-16,Walsh,North Dakota,38099,1545,20,1535,,10,
+2020-12-16,Ward,North Dakota,38101,8184,163,8115,,69,
+2020-12-16,Wells,North Dakota,38103,386,4,329,,57,
+2020-12-16,Williams,North Dakota,38105,3785,27,3269,,516,
 2020-12-16,Saipan,Northern Mariana Islands,69110,111,2,111,2,,
 2020-12-16,Tinian,Northern Mariana Islands,69120,2,0,2,0,,
-2020-12-16,Adams,Ohio,39001,1100,14,,,,
-2020-12-16,Allen,Ohio,39003,7014,103,,,,
-2020-12-16,Ashland,Ohio,39005,2056,36,,,,
-2020-12-16,Ashtabula,Ohio,39007,3284,65,,,,
-2020-12-16,Athens,Ohio,39009,2677,6,,,,
-2020-12-16,Auglaize,Ohio,39011,3112,47,,,,
-2020-12-16,Belmont,Ohio,39013,2595,32,,,,
-2020-12-16,Brown,Ohio,39015,1838,9,,,,
-2020-12-16,Butler,Ohio,39017,21940,172,,,,
-2020-12-16,Carroll,Ohio,39019,859,12,,,,
-2020-12-16,Champaign,Ohio,39021,1539,13,,,,
-2020-12-16,Clark,Ohio,39023,7669,150,,,,
-2020-12-16,Clermont,Ohio,39025,9366,59,,,,
-2020-12-16,Clinton,Ohio,39027,1860,30,,,,
-2020-12-16,Columbiana,Ohio,39029,5168,113,,,,
-2020-12-16,Coshocton,Ohio,39031,1354,15,,,,
-2020-12-16,Crawford,Ohio,39033,2071,30,,,,
-2020-12-16,Cuyahoga,Ohio,39035,58055,831,,,,
-2020-12-16,Darke,Ohio,39037,3564,73,,,,
-2020-12-16,Defiance,Ohio,39039,2230,56,,,,
-2020-12-16,Delaware,Ohio,39041,9103,50,,,,
-2020-12-16,Erie,Ohio,39043,3857,86,,,,
-2020-12-16,Fairfield,Ohio,39045,8145,70,,,,
-2020-12-16,Fayette,Ohio,39047,1411,25,,,,
-2020-12-16,Franklin,Ohio,39049,70879,693,,,,
-2020-12-16,Fulton,Ohio,39051,2141,36,,,,
-2020-12-16,Gallia,Ohio,39053,1343,15,,,,
-2020-12-16,Geauga,Ohio,39055,3372,51,,,,
-2020-12-16,Greene,Ohio,39057,8031,92,,,,
-2020-12-16,Guernsey,Ohio,39059,1586,15,,,,
-2020-12-16,Hamilton,Ohio,39061,43939,394,,,,
-2020-12-16,Hancock,Ohio,39063,3727,66,,,,
-2020-12-16,Hardin,Ohio,39065,1470,30,,,,
-2020-12-16,Harrison,Ohio,39067,468,3,,,,
-2020-12-16,Henry,Ohio,39069,1476,35,,,,
-2020-12-16,Highland,Ohio,39071,1713,18,,,,
-2020-12-16,Hocking,Ohio,39073,1112,20,,,,
-2020-12-16,Holmes,Ohio,39075,1765,48,,,,
-2020-12-16,Huron,Ohio,39077,2701,36,,,,
-2020-12-16,Jackson,Ohio,39079,1722,13,,,,
-2020-12-16,Jefferson,Ohio,39081,2635,34,,,,
-2020-12-16,Knox,Ohio,39083,2128,22,,,,
-2020-12-16,Lake,Ohio,39085,10490,97,,,,
-2020-12-16,Lawrence,Ohio,39087,2910,43,,,,
-2020-12-16,Licking,Ohio,39089,8641,102,,,,
-2020-12-16,Logan,Ohio,39091,2033,21,,,,
-2020-12-16,Lorain,Ohio,39093,11782,128,,,,
-2020-12-16,Lucas,Ohio,39095,21814,489,,,,
-2020-12-16,Madison,Ohio,39097,2453,20,,,,
-2020-12-16,Mahoning,Ohio,39099,12083,311,,,,
-2020-12-16,Marion,Ohio,39101,6040,84,,,,
-2020-12-16,Medina,Ohio,39103,7533,75,,,,
-2020-12-16,Meigs,Ohio,39105,682,13,,,,
-2020-12-16,Mercer,Ohio,39107,3575,72,,,,
-2020-12-16,Miami,Ohio,39109,6370,69,,,,
-2020-12-16,Monroe,Ohio,39111,560,22,,,,
-2020-12-16,Montgomery,Ohio,39113,29982,304,,,,
-2020-12-16,Morgan,Ohio,39115,540,24,,,,
-2020-12-16,Morrow,Ohio,39117,1450,2,,,,
-2020-12-16,Muskingum,Ohio,39119,4248,19,,,,
-2020-12-16,Noble,Ohio,39121,855,30,,,,
-2020-12-16,Ottawa,Ohio,39123,1864,32,,,,
-2020-12-16,Paulding,Ohio,39125,998,17,,,,
-2020-12-16,Perry,Ohio,39127,1446,15,,,,
-2020-12-16,Pickaway,Ohio,39129,5156,50,,,,
-2020-12-16,Pike,Ohio,39131,1188,5,,,,
-2020-12-16,Portage,Ohio,39133,6006,89,,,,
-2020-12-16,Preble,Ohio,39135,2311,26,,,,
-2020-12-16,Putnam,Ohio,39137,2908,61,,,,
-2020-12-16,Richland,Ohio,39139,5922,52,,,,
-2020-12-16,Ross,Ohio,39141,3547,66,,,,
-2020-12-16,Sandusky,Ohio,39143,2794,44,,,,
-2020-12-16,Scioto,Ohio,39145,3391,33,,,,
-2020-12-16,Seneca,Ohio,39147,2794,23,,,,
-2020-12-16,Shelby,Ohio,39149,2833,18,,,,
-2020-12-16,Stark,Ohio,39151,16476,257,,,,
-2020-12-16,Summit,Ohio,39153,22716,463,,,,
-2020-12-16,Trumbull,Ohio,39155,8953,183,,,,
-2020-12-16,Tuscarawas,Ohio,39157,5188,101,,,,
-2020-12-16,Union,Ohio,39159,2905,16,,,,
-2020-12-16,Van Wert,Ohio,39161,1427,32,,,,
-2020-12-16,Vinton,Ohio,39163,410,7,,,,
-2020-12-16,Warren,Ohio,39165,12739,100,,,,
-2020-12-16,Washington,Ohio,39167,2368,32,,,,
-2020-12-16,Wayne,Ohio,39169,4940,127,,,,
-2020-12-16,Williams,Ohio,39171,1829,19,,,,
-2020-12-16,Wood,Ohio,39173,6917,120,,,,
-2020-12-16,Wyandot,Ohio,39175,1215,23,,,,
+2020-12-16,Adams,Ohio,39001,1113,14,,,,
+2020-12-16,Allen,Ohio,39003,7095,103,,,,
+2020-12-16,Ashland,Ohio,39005,2078,36,,,,
+2020-12-16,Ashtabula,Ohio,39007,3299,65,,,,
+2020-12-16,Athens,Ohio,39009,2700,6,,,,
+2020-12-16,Auglaize,Ohio,39011,3159,47,,,,
+2020-12-16,Belmont,Ohio,39013,2603,32,,,,
+2020-12-16,Brown,Ohio,39015,1875,9,,,,
+2020-12-16,Butler,Ohio,39017,22095,176,,,,
+2020-12-16,Carroll,Ohio,39019,865,12,,,,
+2020-12-16,Champaign,Ohio,39021,1554,19,,,,
+2020-12-16,Clark,Ohio,39023,7697,150,,,,
+2020-12-16,Clermont,Ohio,39025,9510,60,,,,
+2020-12-16,Clinton,Ohio,39027,1881,35,,,,
+2020-12-16,Columbiana,Ohio,39029,5212,113,,,,
+2020-12-16,Coshocton,Ohio,39031,1363,15,,,,
+2020-12-16,Crawford,Ohio,39033,2105,31,,,,
+2020-12-16,Cuyahoga,Ohio,39035,58427,832,,,,
+2020-12-16,Darke,Ohio,39037,3592,73,,,,
+2020-12-16,Defiance,Ohio,39039,2241,56,,,,
+2020-12-16,Delaware,Ohio,39041,9211,50,,,,
+2020-12-16,Erie,Ohio,39043,3920,88,,,,
+2020-12-16,Fairfield,Ohio,39045,8254,70,,,,
+2020-12-16,Fayette,Ohio,39047,1446,25,,,,
+2020-12-16,Franklin,Ohio,39049,71538,693,,,,
+2020-12-16,Fulton,Ohio,39051,2201,36,,,,
+2020-12-16,Gallia,Ohio,39053,1363,15,,,,
+2020-12-16,Geauga,Ohio,39055,3389,51,,,,
+2020-12-16,Greene,Ohio,39057,8076,97,,,,
+2020-12-16,Guernsey,Ohio,39059,1594,16,,,,
+2020-12-16,Hamilton,Ohio,39061,44346,401,,,,
+2020-12-16,Hancock,Ohio,39063,3756,66,,,,
+2020-12-16,Hardin,Ohio,39065,1481,30,,,,
+2020-12-16,Harrison,Ohio,39067,474,3,,,,
+2020-12-16,Henry,Ohio,39069,1492,35,,,,
+2020-12-16,Highland,Ohio,39071,1724,18,,,,
+2020-12-16,Hocking,Ohio,39073,1133,21,,,,
+2020-12-16,Holmes,Ohio,39075,1775,48,,,,
+2020-12-16,Huron,Ohio,39077,2712,36,,,,
+2020-12-16,Jackson,Ohio,39079,1755,15,,,,
+2020-12-16,Jefferson,Ohio,39081,2712,37,,,,
+2020-12-16,Knox,Ohio,39083,2165,22,,,,
+2020-12-16,Lake,Ohio,39085,10560,97,,,,
+2020-12-16,Lawrence,Ohio,39087,2945,45,,,,
+2020-12-16,Licking,Ohio,39089,8754,102,,,,
+2020-12-16,Logan,Ohio,39091,2061,21,,,,
+2020-12-16,Lorain,Ohio,39093,11879,132,,,,
+2020-12-16,Lucas,Ohio,39095,21988,495,,,,
+2020-12-16,Madison,Ohio,39097,2486,20,,,,
+2020-12-16,Mahoning,Ohio,39099,12229,311,,,,
+2020-12-16,Marion,Ohio,39101,6080,86,,,,
+2020-12-16,Medina,Ohio,39103,7635,76,,,,
+2020-12-16,Meigs,Ohio,39105,684,13,,,,
+2020-12-16,Mercer,Ohio,39107,3613,73,,,,
+2020-12-16,Miami,Ohio,39109,6401,69,,,,
+2020-12-16,Monroe,Ohio,39111,570,23,,,,
+2020-12-16,Montgomery,Ohio,39113,30147,306,,,,
+2020-12-16,Morgan,Ohio,39115,548,24,,,,
+2020-12-16,Morrow,Ohio,39117,1467,2,,,,
+2020-12-16,Muskingum,Ohio,39119,4251,20,,,,
+2020-12-16,Noble,Ohio,39121,869,30,,,,
+2020-12-16,Ottawa,Ohio,39123,1883,33,,,,
+2020-12-16,Paulding,Ohio,39125,1012,17,,,,
+2020-12-16,Perry,Ohio,39127,1462,15,,,,
+2020-12-16,Pickaway,Ohio,39129,5187,50,,,,
+2020-12-16,Pike,Ohio,39131,1197,5,,,,
+2020-12-16,Portage,Ohio,39133,6033,89,,,,
+2020-12-16,Preble,Ohio,39135,2331,26,,,,
+2020-12-16,Putnam,Ohio,39137,2937,61,,,,
+2020-12-16,Richland,Ohio,39139,6009,54,,,,
+2020-12-16,Ross,Ohio,39141,3606,76,,,,
+2020-12-16,Sandusky,Ohio,39143,2856,44,,,,
+2020-12-16,Scioto,Ohio,39145,3475,34,,,,
+2020-12-16,Seneca,Ohio,39147,2853,26,,,,
+2020-12-16,Shelby,Ohio,39149,2851,18,,,,
+2020-12-16,Stark,Ohio,39151,16584,257,,,,
+2020-12-16,Summit,Ohio,39153,22903,469,,,,
+2020-12-16,Trumbull,Ohio,39155,9060,198,,,,
+2020-12-16,Tuscarawas,Ohio,39157,5227,106,,,,
+2020-12-16,Union,Ohio,39159,2923,16,,,,
+2020-12-16,Van Wert,Ohio,39161,1450,32,,,,
+2020-12-16,Vinton,Ohio,39163,406,7,,,,
+2020-12-16,Warren,Ohio,39165,12889,100,,,,
+2020-12-16,Washington,Ohio,39167,2389,32,,,,
+2020-12-16,Wayne,Ohio,39169,4963,127,,,,
+2020-12-16,Williams,Ohio,39171,1878,28,,,,
+2020-12-16,Wood,Ohio,39173,6999,130,,,,
+2020-12-16,Wyandot,Ohio,39175,1255,25,,,,
 2020-12-16,Adair,Oklahoma,40001,1515,13,,13,,
 2020-12-16,Alfalfa,Oklahoma,40003,802,2,,2,,
 2020-12-16,Atoka,Oklahoma,40005,1042,2,,2,,
@@ -2262,7 +2262,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-12-16,Wheeler,Oregon,41069,11,0,0,,11,
 2020-12-16,Yamhill,Oregon,41071,2238,20,0,,2238,
 2020-12-16,Adams,Pennsylvania,42001,3196,57,2953,,243,
-2020-12-16,Allegheny,Pennsylvania,42003,43007,741,36090,635,6917,106
+2020-12-16,Allegheny,Pennsylvania,42003,43007,741,36090,648,6917,93
 2020-12-16,Armstrong,Pennsylvania,42005,2610,61,2181,,429,
 2020-12-16,Beaver,Pennsylvania,42007,6593,203,5778,,815,
 2020-12-16,Bedford,Pennsylvania,42009,2509,72,1955,,554,
@@ -2275,7 +2275,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-12-16,Cameron,Pennsylvania,42023,98,1,72,,26,
 2020-12-16,Carbon,Pennsylvania,42025,2053,82,1999,,54,
 2020-12-16,Centre,Pennsylvania,42027,7919,113,7503,,416,
-2020-12-16,Chester,Pennsylvania,42029,16696,444,15776,442,920,2
+2020-12-16,Chester,Pennsylvania,42029,16696,444,15776,443,920,1
 2020-12-16,Clarion,Pennsylvania,42031,1661,23,1143,,518,
 2020-12-16,Clearfield,Pennsylvania,42033,3039,31,2419,,620,
 2020-12-16,Clinton,Pennsylvania,42035,1403,16,1272,,131,
@@ -2283,7 +2283,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-12-16,Crawford,Pennsylvania,42039,3986,49,3244,,742,
 2020-12-16,Cumberland,Pennsylvania,42041,8188,233,7430,,758,
 2020-12-16,Dauphin,Pennsylvania,42043,11312,258,10870,,442,
-2020-12-16,Delaware,Pennsylvania,42045,25218,896,24120,896,1098,
+2020-12-16,Delaware,Pennsylvania,42045,25218,897,24120,897,1098,
 2020-12-16,Elk,Pennsylvania,42047,938,13,676,,262,
 2020-12-16,Erie,Pennsylvania,42049,9026,140,8059,,967,
 2020-12-16,Fayette,Pennsylvania,42051,4964,50,3832,,1132,
@@ -2311,7 +2311,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-12-16,Northampton,Pennsylvania,42095,13151,370,12634,,517,
 2020-12-16,Northumberland,Pennsylvania,42097,3883,176,3611,,272,
 2020-12-16,Perry,Pennsylvania,42099,1219,17,1095,,124,
-2020-12-16,Philadelphia,Pennsylvania,42101,83113,2254,83113,2141,,113
+2020-12-16,Philadelphia,Pennsylvania,42101,84061,2254,84061,2197,,57
 2020-12-16,Pike,Pennsylvania,42103,1130,29,1056,,74,
 2020-12-16,Potter,Pennsylvania,42105,448,10,399,,49,
 2020-12-16,Schuylkill,Pennsylvania,42107,5898,215,5539,,359,
@@ -2407,58 +2407,58 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-12-16,Villalba,Puerto Rico,72149,539,,390,,149,
 2020-12-16,Yabucoa,Puerto Rico,72151,632,,328,,304,
 2020-12-16,Yauco,Puerto Rico,72153,814,,371,,443,
-2020-12-16,Bristol,Rhode Island,44001,1584,49,,15,,34
-2020-12-16,Kent,Rhode Island,44003,7342,153,,93,,60
-2020-12-16,Newport,Rhode Island,44005,1648,9,,6,,3
-2020-12-16,Providence,Rhode Island,44007,46213,1113,,747,,366
-2020-12-16,Unknown,Rhode Island,,15306,151,0,0,15306,151
-2020-12-16,Washington,Rhode Island,44009,3144,95,,63,,32
-2020-12-16,Abbeville,South Carolina,45001,1125,23,971,18,154,5
-2020-12-16,Aiken,South Carolina,45003,7696,111,6684,96,1012,15
-2020-12-16,Allendale,South Carolina,45005,471,9,462,9,9,0
-2020-12-16,Anderson,South Carolina,45007,9758,251,9228,233,530,18
-2020-12-16,Bamberg,South Carolina,45009,837,38,820,38,17,0
-2020-12-16,Barnwell,South Carolina,45011,1141,26,1076,23,65,3
-2020-12-16,Beaufort,South Carolina,45013,8179,97,7991,94,188,3
-2020-12-16,Berkeley,South Carolina,45015,8033,109,7524,102,509,7
-2020-12-16,Calhoun,South Carolina,45017,672,19,644,17,28,2
-2020-12-16,Charleston,South Carolina,45019,21889,305,20240,279,1649,26
-2020-12-16,Cherokee,South Carolina,45021,2589,72,2506,70,83,2
-2020-12-16,Chester,South Carolina,45023,1898,41,1832,39,66,2
-2020-12-16,Chesterfield,South Carolina,45025,2018,57,1679,55,339,2
-2020-12-16,Clarendon,South Carolina,45027,1548,72,1469,70,79,2
-2020-12-16,Colleton,South Carolina,45029,1663,51,1508,50,155,1
-2020-12-16,Darlington,South Carolina,45031,3689,83,3018,76,671,7
-2020-12-16,Dillon,South Carolina,45033,1901,54,1782,49,119,5
-2020-12-16,Dorchester,South Carolina,45035,6891,118,5968,107,923,11
-2020-12-16,Edgefield,South Carolina,45037,1367,25,1277,18,90,7
-2020-12-16,Fairfield,South Carolina,45039,1182,48,1121,45,61,3
-2020-12-16,Florence,South Carolina,45041,8264,225,7776,222,488,3
-2020-12-16,Georgetown,South Carolina,45043,3174,70,2506,49,668,21
-2020-12-16,Greenville,South Carolina,45045,29816,445,29255,415,561,30
-2020-12-16,Greenwood,South Carolina,45047,3589,87,3407,79,182,8
-2020-12-16,Hampton,South Carolina,45049,963,35,902,33,61,2
-2020-12-16,Horry,South Carolina,45051,17186,284,15539,240,1647,44
-2020-12-16,Jasper,South Carolina,45053,1188,24,1165,23,23,1
-2020-12-16,Kershaw,South Carolina,45055,3353,71,3040,63,313,8
-2020-12-16,Lancaster,South Carolina,45057,4241,73,3951,68,290,5
-2020-12-16,Laurens,South Carolina,45059,2945,72,2867,70,78,2
-2020-12-16,Lee,South Carolina,45061,1005,40,933,39,72,1
-2020-12-16,Lexington,South Carolina,45063,13562,248,12225,238,1337,10
-2020-12-16,Marion,South Carolina,45067,1565,52,1476,48,89,4
-2020-12-16,Marlboro,South Carolina,45069,1691,22,1474,19,217,3
-2020-12-16,McCormick,South Carolina,45065,391,9,360,7,31,2
-2020-12-16,Newberry,South Carolina,45071,2456,69,2162,62,294,7
-2020-12-16,Oconee,South Carolina,45073,4228,49,4104,46,124,3
-2020-12-16,Orangeburg,South Carolina,45075,4388,141,4271,140,117,1
-2020-12-16,Pickens,South Carolina,45077,8250,111,7959,100,291,11
-2020-12-16,Richland,South Carolina,45079,23165,315,21178,296,1987,19
-2020-12-16,Saluda,South Carolina,45081,883,27,836,23,47,4
-2020-12-16,Spartanburg,South Carolina,45083,15972,324,14668,301,1304,23
-2020-12-16,Sumter,South Carolina,45085,4867,109,4728,105,139,4
-2020-12-16,Union,South Carolina,45087,1314,34,1214,32,100,2
-2020-12-16,Williamsburg,South Carolina,45089,1865,54,1643,43,222,11
-2020-12-16,York,South Carolina,45091,12452,157,11680,153,772,4
+2020-12-16,Bristol,Rhode Island,44001,1816,53,,15,,38
+2020-12-16,Kent,Rhode Island,44003,8436,164,,93,,71
+2020-12-16,Newport,Rhode Island,44005,1965,9,,6,,3
+2020-12-16,Providence,Rhode Island,44007,51871,1189,,747,,442
+2020-12-16,Unknown,Rhode Island,,8408,74,0,0,8408,74
+2020-12-16,Washington,Rhode Island,44009,3713,101,,63,,38
+2020-12-16,Abbeville,South Carolina,45001,1131,23,977,18,154,5
+2020-12-16,Aiken,South Carolina,45003,7840,115,6805,100,1035,15
+2020-12-16,Allendale,South Carolina,45005,474,9,465,9,9,0
+2020-12-16,Anderson,South Carolina,45007,9926,255,9390,237,536,18
+2020-12-16,Bamberg,South Carolina,45009,841,38,824,38,17,0
+2020-12-16,Barnwell,South Carolina,45011,1155,26,1088,23,67,3
+2020-12-16,Beaufort,South Carolina,45013,8244,97,8045,94,199,3
+2020-12-16,Berkeley,South Carolina,45015,8085,109,7559,102,526,7
+2020-12-16,Calhoun,South Carolina,45017,683,19,656,17,27,2
+2020-12-16,Charleston,South Carolina,45019,22009,308,20307,281,1702,27
+2020-12-16,Cherokee,South Carolina,45021,2634,74,2551,72,83,2
+2020-12-16,Chester,South Carolina,45023,1903,41,1837,39,66,2
+2020-12-16,Chesterfield,South Carolina,45025,2030,57,1690,55,340,2
+2020-12-16,Clarendon,South Carolina,45027,1551,72,1472,70,79,2
+2020-12-16,Colleton,South Carolina,45029,1680,51,1520,50,160,1
+2020-12-16,Darlington,South Carolina,45031,3734,83,3046,76,688,7
+2020-12-16,Dillon,South Carolina,45033,1924,54,1801,49,123,5
+2020-12-16,Dorchester,South Carolina,45035,6946,119,5994,108,952,11
+2020-12-16,Edgefield,South Carolina,45037,1392,25,1301,18,91,7
+2020-12-16,Fairfield,South Carolina,45039,1204,48,1139,45,65,3
+2020-12-16,Florence,South Carolina,45041,8366,229,7857,225,509,4
+2020-12-16,Georgetown,South Carolina,45043,3210,70,2515,49,695,21
+2020-12-16,Greenville,South Carolina,45045,30156,450,29584,420,572,30
+2020-12-16,Greenwood,South Carolina,45047,3610,87,3429,79,181,8
+2020-12-16,Hampton,South Carolina,45049,968,35,906,33,62,2
+2020-12-16,Horry,South Carolina,45051,17341,284,15640,240,1701,44
+2020-12-16,Jasper,South Carolina,45053,1187,24,1163,23,24,1
+2020-12-16,Kershaw,South Carolina,45055,3385,71,3071,63,314,8
+2020-12-16,Lancaster,South Carolina,45057,4303,74,4012,69,291,5
+2020-12-16,Laurens,South Carolina,45059,2964,72,2887,70,77,2
+2020-12-16,Lee,South Carolina,45061,1016,40,944,39,72,1
+2020-12-16,Lexington,South Carolina,45063,13753,248,12380,238,1373,10
+2020-12-16,Marion,South Carolina,45067,1579,52,1485,48,94,4
+2020-12-16,Marlboro,South Carolina,45069,1700,22,1479,19,221,3
+2020-12-16,McCormick,South Carolina,45065,398,9,367,7,31,2
+2020-12-16,Newberry,South Carolina,45071,2473,69,2178,62,295,7
+2020-12-16,Oconee,South Carolina,45073,4274,53,4139,50,135,3
+2020-12-16,Orangeburg,South Carolina,45075,4424,142,4296,141,128,1
+2020-12-16,Pickens,South Carolina,45077,8416,116,8115,105,301,11
+2020-12-16,Richland,South Carolina,45079,23346,315,21324,296,2022,19
+2020-12-16,Saluda,South Carolina,45081,886,27,839,23,47,4
+2020-12-16,Spartanburg,South Carolina,45083,16215,333,14890,310,1325,23
+2020-12-16,Sumter,South Carolina,45085,4895,109,4748,105,147,4
+2020-12-16,Union,South Carolina,45087,1329,34,1227,32,102,2
+2020-12-16,Williamsburg,South Carolina,45089,1874,54,1650,43,224,11
+2020-12-16,York,South Carolina,45091,12665,158,11879,154,786,4
 2020-12-16,Aurora,South Dakota,46003,391,7,292,,99,
 2020-12-16,Beadle,South Dakota,46005,2426,32,2200,,226,
 2020-12-16,Bennett,South Dakota,46007,342,6,302,,40,
@@ -2677,7 +2677,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-12-16,Crosby,Texas,48107,298,16,198,1,100,15
 2020-12-16,Culberson,Texas,48109,266,3,250,,16,
 2020-12-16,Dallam,Texas,48111,477,15,438,,39,
-2020-12-16,Dallas,Texas,48113,161845,1740,146042,1323,15803,417
+2020-12-16,Dallas,Texas,48113,163792,1740,147591,1336,16201,404
 2020-12-16,Dawson,Texas,48115,1318,42,1318,1,0,41
 2020-12-16,Deaf Smith,Texas,48117,2285,45,2285,45,,0
 2020-12-16,Delta,Texas,48119,122,2,71,,51,
@@ -2704,7 +2704,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-12-16,Freestone,Texas,48161,833,20,561,,272,
 2020-12-16,Frio,Texas,48163,1538,10,1311,,227,
 2020-12-16,Gaines,Texas,48165,1106,23,1106,,0,
-2020-12-16,Galveston,Texas,48167,17629,196,16924,168,705,28
+2020-12-16,Galveston,Texas,48167,17629,196,17131,168,498,28
 2020-12-16,Garza,Texas,48169,233,16,176,,57,
 2020-12-16,Gillespie,Texas,48171,1072,13,827,,245,
 2020-12-16,Glasscock,Texas,48173,71,1,27,,44,
@@ -2819,7 +2819,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-12-16,Refugio,Texas,48391,397,17,378,,19,
 2020-12-16,Roberts,Texas,48393,36,1,34,,2,
 2020-12-16,Robertson,Texas,48395,742,9,602,,140,
-2020-12-16,Rockwall,Texas,48397,4867,42,4040,42,827,0
+2020-12-16,Rockwall,Texas,48397,4867,42,4126,42,741,0
 2020-12-16,Runnels,Texas,48399,706,14,478,,228,
 2020-12-16,Rusk,Texas,48401,2137,40,1362,2,775,38
 2020-12-16,Sabine,Texas,48403,271,13,135,,136,
@@ -2876,8 +2876,8 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-12-16,Zapata,Texas,48505,770,9,673,,97,
 2020-12-16,Zavala,Texas,48507,868,24,868,10,,14
 2020-12-16,Beaver,Utah,49001,248,2,248,2,,
-2020-12-16,Box Elder,Utah,49003,2893,21,2893,21,,
-2020-12-16,Cache,Utah,49005,9565,17,9565,17,,
+2020-12-16,Box Elder,Utah,49003,2958,21,2958,21,,
+2020-12-16,Cache,Utah,49005,9720,17,9720,17,,
 2020-12-16,Carbon,Utah,49007,953,6,953,6,,
 2020-12-16,Daggett,Utah,49009,12,0,12,0,,
 2020-12-16,Davis,Utah,49011,20583,74,,,,
@@ -2899,7 +2899,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-12-16,Summit,Utah,49043,2643,5,,,,
 2020-12-16,Tooele,Utah,49045,3805,11,,,,
 2020-12-16,Uintah,Utah,49047,1039,7,1039,7,,
-2020-12-16,Unknown,Utah,,436,1,233,1,203,0
+2020-12-16,Unknown,Utah,,233,1,233,1,0,0
 2020-12-16,Utah,Utah,49049,58426,182,,,,
 2020-12-16,Wasatch,Utah,49051,2781,14,,,,
 2020-12-16,Washington,Utah,49053,12269,98,12269,98,,
@@ -3191,7 +3191,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-12-16,Marinette,Wisconsin,55075,3627,38,3334,38,293,0
 2020-12-16,Marquette,Wisconsin,55077,1248,17,1104,15,144,2
 2020-12-16,Menominee,Wisconsin,55078,657,9,654,9,3,0
-2020-12-16,Milwaukee,Wisconsin,55079,84196,833,78267,819,5929,14
+2020-12-16,Milwaukee,Wisconsin,55079,84196,833,78376,819,5820,14
 2020-12-16,Monroe,Wisconsin,55081,3127,20,3084,20,43,0
 2020-12-16,Oconto,Wisconsin,55083,3791,39,3523,35,268,4
 2020-12-16,Oneida,Wisconsin,55085,2697,49,2624,46,73,3
@@ -3206,7 +3206,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2020-12-16,Richland,Wisconsin,55103,1013,13,981,13,32,0
 2020-12-16,Rock,Wisconsin,55105,11586,107,10959,104,627,3
 2020-12-16,Rusk,Wisconsin,55107,1056,11,1022,11,34,0
-2020-12-16,Sauk,Wisconsin,55111,4213,25,4062,22,151,3
+2020-12-16,Sauk,Wisconsin,55111,4213,25,4070,23,143,2
 2020-12-16,Sawyer,Wisconsin,55113,1082,8,1070,8,12,0
 2020-12-16,Shawano,Wisconsin,55115,4235,59,3928,53,307,6
 2020-12-16,Sheboygan,Wisconsin,55117,10809,84,10406,82,403,2
