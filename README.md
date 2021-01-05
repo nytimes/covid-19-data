@@ -163,18 +163,6 @@ Sometimes, cases are first reported in one county and then moved to another coun
 
 ### Geographic Exceptions
 
-* Alabama
-
-Alabama's numbers for April 17th contained an [error](https://twitter.com/ALPublicHealth/status/1251531524958289920) in reporting of lab test results that the state is working to correct. The number of deaths drops on April 23rd for an unknown reason.
-
-* Georgia
-
-Starting April 12th, our case count excludes cases labeled by the state as "Non-Georgia Resident" leading to a one day drop in cases. These cases were previously included as cases with "Unknown" county.
-
-* Michigan
-
-Totals for each county in Michigan include cases and deaths among federal and state prison inmates which are reported separately by the state Department of Health. Prison cases and deaths are included starting April 15.
-
 * New York
 
 All cases for the five boroughs of New York City (New York, Kings, Queens, Bronx and Richmond counties) are assigned to a single area called New York City. The number of deaths in New York City also includes probable deaths reported by the New York City health department. Deaths are reported by county of residence, except for certain periods described below.
@@ -207,109 +195,19 @@ Counts for Guam include cases reported from the USS Theodore Roosevelt.
 
 * Puerto Rico
 
-Data for Puerto Rico's county-equivalent municipios are available starting on May 5. This data was not available at the beginning of the outbreak and so all cases and deaths were assigned to Unknown.
+Data for Puerto Rico's county-equivalent municipios are available starting on May 5. This data was not available at the beginning of the outbreak and so all cases and deaths were assigned to Unknown. Puerto Rico does not report deaths at the municipio level.
 
-On April 21, the territory's health department revised their number of cases downward, saying they had been double counting some coronavirus patients in official reports, leading to a higher number of cases reported than actually confirmed. 
+#### Probable Cases and Deaths and Anomalies
 
-* North Dakota
-
-On May 25, North Dakota announced that due to a laboratory equipment malfunction they were removing 82 positive results from their total case count, pending a retest of the samples.
-
-* Connecticut
-
-On May 27, Connecticut [announced](https://portal.ct.gov/Office-of-the-Governor/News/Press-Releases/2020/05-2020/Governor-Lamont-Coronavirus-Update-May-27) announced that they were removing 356 positive cases, which were determined to be duplicates, from their total case count.
-
-The number of deaths reported by the state in four counties on June 1 was anomalously high and several deaths are removed in the data for June 2.
-
-* Louisiana
-
-On May 29, Louisiana announced that due to a technical error they would not have an update on the number of total cases that day.
-
-On June 13, Louisiana reported an additional 560 backlogged cases from multiple labs and facilities from between April 25 and June 9.
-
-On June 16, Louisiana reported an additional 148 backlogged cases, the majority of which date back to mid-April.
-
-On June 19, Louisiana removed 1,666 duplicate and out of state cases from their total.
-
-* Massachusetts
-
-On April 24, Massachusetts reported the results of a large number of backlogged tests performed by Quest Diagnostics dating back to April 13, leading to a large one day jump in the number of total cases.
-
-On June 30, the number of confirmed and probable deaths declined due to Massachusetts removing duplicate reports.
-
-* Mississippi
-
-From June 18 to 21, the Mississippi State Department of Health reported technical difficulties that prevented them from updating their case and death counts.
-
-* Texas
-
-On June 16, Texas reported an additional 1,476 backlogged cases from prison inmates in Anderson and Brazoria counties.
-
-On July 27, state officials [changed](https://www.dshs.texas.gov/news/releases/2020/20200727.aspx) their methodology for reporting deaths to count deaths based on death certificates listing Covid-19. This change excludes deaths from people who tested positive but whose death certificate listed another cause of death, and includes people who died of Covid-19 without ever testing positive. In many counties this has led to a sudden change in the total number of deaths. Some counties continue to report deaths independently of the state and this data set uses those county counts if they are higher than the state's count for that county.
-
-* Washington
-
-On June 17, Washington began removing from their totals deaths where Covid-19 was not a factor, for instance homicides, overdoses, suicides and car accidents. Four deaths from King County and three from Yakima county that were due to homicide, suicide or overdose were removed.
-
-On July 24, the state began to report probable deaths for the first time and at the same time removed about 50 deaths of people who tested positive for Covid-19 but died of other causes.
-
-#### Probable Cases and Deaths
-
-* Colorado
-
-Numbers reflect the combined number of lab-confirmed and probable cases and deaths as reported by the state. On April 25th, the state revised downward the number of deaths after removing "about 29 duplicates" from the number of "probable deaths" included in the total.
-
-* Hawaii
-
-Numbers reflect the combined number of lab-confirmed and probable cases and deaths as reported by the state.
-
-* Illinois
-
-On June 8, Illinois started reporting probable cases and deaths in their data. We are including these cases and deaths in our total numbers for the state.
-
-* Louisiana
-
-The total cases number and total deaths number include only lab-confirmed cases and deaths. The state is reporting the deaths of probable Covid-19 cases separately from their total number of deaths statewide and in each parish, and we are including those deaths in our total number of deaths for the state.
-
-* Massachusetts
-
-On June 1, Massachusetts started reporting probable cases and deaths in their data. The total number of cases and deaths on that day include probable cases and deaths going back to March 1, leading to a large one day jump in the totals.
-
-* Michigan
-
-On June 1, we began recording probable cases and deaths reported by Michigan's county and regional health districts and adding them to the individual county and statewide totals. On June 5, the state also started to report probable cases and deaths statewide, leading to a jump in total cases and deaths.
-
-* New Jersey
-
-On June 25, New Jersey began reporting probable deaths, adding 1,854 probable deaths that may date back to earlier in the outbreak to their total.
-
-* Ohio
-
-The state reports lab-confirmed and probable cases and deaths separately at the state level but combine lab-confirmed and probable cases and deaths at the county level. Our statewide and county numbers combine both case types.
-
-* Pennsylvania
-
-The total cases number includes lab-confirmed and probable cases starting around April 16th.
-
-* Virginia
-
-The state reports lab-confirmed and probable cases and deaths separately at the state level but combine lab-confirmed and probable cases and deaths at the county level. Our statewide and county numbers combine both case types.
-
-* Wisconsin
-
-Wisconsin started reporting probable cases and deaths on June 10, causing a large spike in the number of cases on that day. The total number of cases that day includes 2,407 newly reported probable cases.
-
-* Puerto Rico
-
-Puerto Rico reports confirmed and probable cases and deaths separately. Our statewide and municipality numbers combine both case types.
-
-Starting April 12, the count of deaths for Puerto Rico include some probable Covid-19 related deaths. From April 19 to April 22, these were then removed. Starting April 23, the numbers again include probable deaths. We will revise these numbers as possible.
+For details on which individual state counts include probable cases and deaths and on anomalous days of data reporting, please see the list of individual state pages linked to from our [main tracking page](https://www.nytimes.com/interactive/2020/us/coronavirus-us-cases.html).
 
 ## License and Attribution
 
 In general, we are making this data publicly available for broad, noncommercial public use including by medical and public health researchers, policymakers, analysts and local news media.
 
 If you use this data, you must attribute it to “The New York Times” in any publication. If you would like a more expanded description of the data, you could say “Data from The New York Times, based on reports from state and local health agencies.”
+
+For papers following APA format, we recommend the following citation: "The New York Times. (2020). Coronavirus (Covid-19) Data in the United States. Retrieved [Insert Date Here], from https://github.com/nytimes/covid-19-data."
 
 If you use it in an online presentation, we would appreciate it if you would link to our U.S. tracking page at [https://www.nytimes.com/interactive/2020/us/coronavirus-us-cases.html](https://www.nytimes.com/interactive/2020/us/coronavirus-us-cases.html).
 
@@ -329,6 +227,4 @@ covid-data@nytimes.com
 
 ## Contributors
 
-Mitch Smith, Karen Yourish, Sarah Almukhtar, Keith Collins, Danielle Ivory and Amy Harmon have been leading our U.S. data collection efforts.
-
-Data has also been compiled by Jordan Allen, Jeff Arnold, Aliza Aufrichtig, Mike Baker, Nikhil Baradwaj, Robin Berjon, Matthew Bloch, Nicholas Bogel-Burroughs, Maddie Burakoff, Christopher Calabrese, Andrew Chavez, Robert Chiarito, Carmen Cincotti, Alastair Coote, Matt Craig, John Eligon, Tiff Fehr, Andrew Fischer, Matt Furber, Ariana Giorgi, Rich Harris, Lauryn Higgins, Jake Holland, Will Houp, Jon Huang, Danya Issawi, Jacob LaGesse, Hugh Mandeville, Patricia Mazzei, Allison McCann, Jesse McKinley, Miles McKinley, Sarah Mervosh, Andrea Michelson, Blacki Migliozzi, Steven Moity, Richard A. Oppel Jr., Jugal K. Patel, Nina Pavlich, Azi Paybarah, Sean Plambeck, Carrie Price, Scott Reinhard, Thomas Rivas, James G. Robinson, Michael Robles, Alison Saldanha, Alex Schwartz, Libby Seline, Shelly Seroussi, Rachel Shorey, Anjali Singhvi, Charlie Smart, Ben Smithgall, Steven Speicher, Michael Strickland, Albert Sun, Thu Trinh, Tracey Tully, Maura Turcotte, Bella Virgilio, Miles Watkins, Phil Wells, Jeremy White, Josh Williams, Jin Wu and Yanxing Yang.
+By Sarah Almukhtar, Aliza Aufrichtig, Anne Barnard, Matthew Bloch, Weiyi Cai, Julia Calderone, Keith Collins, Matthew Conlen, Lindsey Cook, Gabriel Gianordoli, Amy Harmon, Rich Harris, Adeel Hassan, Jon Huang, Danya Issawi, Danielle Ivory, K.K. Rebecca Lai, Alex Lemonides, Allison McCann, Richard A. Oppel Jr., Jugal K. Patel, Kirk Semple, Julie Walton Shaver, Anjali Singhvi, Charlie Smart, Mitch Smith, Albert Sun, Derek Watkins, Timothy Williams, Jin Wu and Karen Yourish. Reporting was contributed by Jordan Allen, Jeff Arnold, Ian Austen, Mike Baker, Ellen Barry, Samone Blair, Nicholas Bogel-Burroughs, Aurelien Breeden, Elisha Brown, Emma Bubola, Maddie Burakoff, Alyssa Burr, Christopher Calabrese, Sarah Cahalan, Zak Cassel, Robert Chiarito, Izzy Colón, Matt Craig, Yves De Jesus, Brendon Derr, Brandon Dupré, Melissa Eddy, John Eligon, Timmy Facciola, Bianca Fortis, Matt Furber, Robert Gebeloff, Matthew Goldstein, Grace Gorenflo, Rebecca Griesbach, Benjamin Guggenheim, Barbara Harvey, Lauryn Higgins, Josh Holder, Jake Holland, Jon Huang, Anna Joyce, Ann Hinga Klein, Jacob LaGesse, Alex Lim, Alex Matthews, Patricia Mazzei, Jesse McKinley, Miles McKinley, K.B. Mensah, Sarah Mervosh, Jacob Meschke, Lauren Messman, Andrea Michelson, Jaylynn Moffat-Mowatt, Steven Moity, Paul Moon, Thomas Gibbons-Neff, Anahad O'Connor, Ashlyn O’Hara, Azi Paybarah, Elian Peltier, Sean Plambeck, Laney Pope, Elisabetta Povoledo, Cierra S. Queen, Savannah Redl, Scott Reinhard, Thomas Rivas, Frances Robles, Natasha Rodriguez, Jess Ruderman, Alison Saldanha, Kai Schultz, Alex Schwartz, Emily Schwing, Libby Seline, Sarena Snider, Brandon Thorp, Alex Traub, Maura Turcotte, Tracey Tully, Lisa Waananen Jones, Amy Schoenfeld Walker, Jeremy White, Kristine White, Bonnie G. Wong, Tiffany Wong, Sameer Yasir and John Yoon. Data acquisition and additional work contributed by Will Houp, Andrew Chavez, Michael Strickland, Tiff Fehr, Miles Watkins, Josh Williams, Shelly Seroussi, Rumsey Taylor, Nina Pavlich, Carmen Cincotti, Ben Smithgall, Andrew Fischer, Rachel Shorey, Blacki Migliozzi, Alastair Coote, Steven Speicher, Hugh Mandeville, Robin Berjon, Thu Trinh, Carolyn Price, James G. Robinson, Phil Wells, Yanxing Yang, Michael Beswetherick, Michael Robles, Nikhil Baradwaj, Ariana Giorgi, Bella Virgilio, Dylan Momplaisir, Avery Dews, Bea Malsky and Ilana Marcus.
