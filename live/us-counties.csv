@@ -102,7 +102,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-01-18,Greenlee,Arizona,04011,483,4,,,,
 2021-01-18,La Paz,Arizona,04012,2042,46,,,,
 2021-01-18,Maricopa,Arizona,04013,421551,6443,,6437,,6
-2021-01-18,Mohave,Arizona,04015,16816,439,15102,390,1714,49
+2021-01-18,Mohave,Arizona,04015,16816,439,15320,391,1496,48
 2021-01-18,Navajo,Arizona,04017,13494,392,,,,
 2021-01-18,Pima,Arizona,04019,90765,1422,,,,
 2021-01-18,Pinal,Arizona,04021,36888,490,,,,
@@ -200,12 +200,12 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-01-18,Imperial,California,06025,25253,462,25253,462,,
 2021-01-18,Inyo,California,06027,864,29,864,29,,
 2021-01-18,Kern,California,06029,86188,565,86188,565,,
-2021-01-18,Kings,California,06031,19254,133,19254,133,,
+2021-01-18,Kings,California,06031,19321,143,19321,143,,
 2021-01-18,Lake,California,06033,2572,28,2572,28,,
 2021-01-18,Lassen,California,06035,5094,13,5094,13,,
 2021-01-18,Los Angeles,California,06037,1015063,13848,1014662,13848,401,
 2021-01-18,Madera,California,06039,13328,130,13328,130,,
-2021-01-18,Marin,California,06041,11569,153,11569,153,,
+2021-01-18,Marin,California,06041,11627,153,11627,153,,
 2021-01-18,Mariposa,California,06043,344,4,344,4,,
 2021-01-18,Mendocino,California,06045,3114,32,3114,32,,
 2021-01-18,Merced,California,06047,23800,296,23800,296,,
@@ -224,17 +224,17 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-01-18,San Diego,California,06073,211850,2103,211850,2103,,
 2021-01-18,San Francisco,California,06075,29142,262,29142,262,,
 2021-01-18,San Joaquin,California,06077,57094,748,57094,748,,
-2021-01-18,San Luis Obispo,California,06079,15658,128,15658,128,,
+2021-01-18,San Luis Obispo,California,06079,15658,135,15658,135,,
 2021-01-18,San Mateo,California,06081,32186,294,32186,294,,
 2021-01-18,Santa Barbara,California,06083,24481,231,24481,231,,
-2021-01-18,Santa Clara,California,06085,92752,1066,92752,1066,,
+2021-01-18,Santa Clara,California,06085,93557,1077,93557,1077,,
 2021-01-18,Santa Cruz,California,06087,12196,113,12196,113,,
 2021-01-18,Shasta,California,06089,9594,117,9594,117,,
 2021-01-18,Sierra,California,06091,38,0,38,0,,
 2021-01-18,Siskiyou,California,06093,1408,13,1408,13,,
 2021-01-18,Solano,California,06095,25221,105,25221,105,,
 2021-01-18,Sonoma,California,06097,23871,234,23871,234,,
-2021-01-18,Stanislaus,California,06099,46463,739,42337,739,4126,
+2021-01-18,Stanislaus,California,06099,46744,749,42548,749,4196,
 2021-01-18,Sutter,California,06101,7604,77,7604,77,,
 2021-01-18,Tehama,California,06103,3837,42,3837,42,,
 2021-01-18,Trinity,California,06105,262,4,262,4,,
@@ -244,78 +244,78 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-01-18,Yolo,California,06113,10519,131,10519,131,,
 2021-01-18,Yuba,California,06115,4818,27,4818,27,,
 2021-01-18,Adams,Colorado,08001,44595,576,,,,
-2021-01-18,Alamosa,Colorado,08003,1070,27,,,,
+2021-01-18,Alamosa,Colorado,08003,1074,27,,,,
 2021-01-18,Arapahoe,Colorado,08005,43384,637,,,,
 2021-01-18,Archuleta,Colorado,08007,568,0,,,,
-2021-01-18,Baca,Colorado,08009,242,2,,,,
+2021-01-18,Baca,Colorado,08009,245,2,,,,
 2021-01-18,Bent,Colorado,08011,1266,18,,,,
-2021-01-18,Boulder,Colorado,08013,16375,207,,207,,
-2021-01-18,Broomfield,Colorado,08014,3164,68,,,,
-2021-01-18,Chaffee,Colorado,08015,1217,23,,,,
-2021-01-18,Cheyenne,Colorado,08017,106,5,,,,
+2021-01-18,Boulder,Colorado,08013,16390,207,,207,,
+2021-01-18,Broomfield,Colorado,08014,3183,68,,,,
+2021-01-18,Chaffee,Colorado,08015,1218,23,,,,
+2021-01-18,Cheyenne,Colorado,08017,111,5,,,,
 2021-01-18,Clear Creek,Colorado,08019,333,2,,,,
-2021-01-18,Conejos,Colorado,08021,370,3,,,,
+2021-01-18,Conejos,Colorado,08021,372,3,,,,
 2021-01-18,Costilla,Colorado,08023,172,2,,,,
-2021-01-18,Crowley,Colorado,08025,1742,14,,,,
+2021-01-18,Crowley,Colorado,08025,1743,14,,,,
 2021-01-18,Custer,Colorado,08027,156,1,,,,
-2021-01-18,Delta,Colorado,08029,2107,39,,,,
-2021-01-18,Denver,Colorado,08031,53319,720,53158,720,161,
+2021-01-18,Delta,Colorado,08029,2111,39,,,,
+2021-01-18,Denver,Colorado,08031,53460,720,53158,720,302,
 2021-01-18,Dolores,Colorado,08033,55,0,,,,
 2021-01-18,Douglas,Colorado,08035,18196,222,,,,
-2021-01-18,Eagle,Colorado,08037,3976,17,,,,
-2021-01-18,Elbert,Colorado,08039,1085,12,,,,
-2021-01-18,El Paso,Colorado,08041,45737,670,,,,
-2021-01-18,Fremont,Colorado,08043,4991,34,,,,
-2021-01-18,Garfield,Colorado,08045,4509,35,,,,
-2021-01-18,Gilpin,Colorado,08047,137,2,,,,
-2021-01-18,Grand,Colorado,08049,795,4,,,,
-2021-01-18,Gunnison,Colorado,08051,873,6,,,,
+2021-01-18,Eagle,Colorado,08037,4000,17,,,,
+2021-01-18,Elbert,Colorado,08039,1090,12,,,,
+2021-01-18,El Paso,Colorado,08041,45810,672,,,,
+2021-01-18,Fremont,Colorado,08043,4993,34,,,,
+2021-01-18,Garfield,Colorado,08045,4528,35,,,,
+2021-01-18,Gilpin,Colorado,08047,138,2,,,,
+2021-01-18,Grand,Colorado,08049,803,5,,,,
+2021-01-18,Gunnison,Colorado,08051,912,6,,,,
 2021-01-18,Hinsdale,Colorado,08053,15,0,,,,
 2021-01-18,Huerfano,Colorado,08055,287,18,,,,
 2021-01-18,Jackson,Colorado,08057,44,0,,,,
-2021-01-18,Jefferson,Colorado,08059,32832,660,,,,
+2021-01-18,Jefferson,Colorado,08059,32952,661,,,,
 2021-01-18,Kiowa,Colorado,08061,82,2,,,,
-2021-01-18,Kit Carson,Colorado,08063,475,10,,,,
-2021-01-18,Lake,Colorado,08065,476,0,,,,
-2021-01-18,La Plata,Colorado,08067,2594,30,,,,
-2021-01-18,Larimer,Colorado,08069,16902,176,,,,
-2021-01-18,Las Animas,Colorado,08071,870,9,,,,
+2021-01-18,Kit Carson,Colorado,08063,476,10,,,,
+2021-01-18,Lake,Colorado,08065,478,0,,,,
+2021-01-18,La Plata,Colorado,08067,2598,30,,,,
+2021-01-18,Larimer,Colorado,08069,16968,176,,,,
+2021-01-18,Las Animas,Colorado,08071,872,10,,,,
 2021-01-18,Lincoln,Colorado,08073,832,3,,,,
-2021-01-18,Logan,Colorado,08075,3491,56,,,,
-2021-01-18,Mesa,Colorado,08077,10806,158,,,,
+2021-01-18,Logan,Colorado,08075,3499,56,,,,
+2021-01-18,Mesa,Colorado,08077,10880,158,,,,
 2021-01-18,Mineral,Colorado,08079,53,1,,,,
 2021-01-18,Moffat,Colorado,08081,587,21,,,,
-2021-01-18,Montezuma,Colorado,08083,1500,19,,,,
-2021-01-18,Montrose,Colorado,08085,2702,41,,,,
-2021-01-18,Morgan,Colorado,08087,2302,86,,,,
+2021-01-18,Montezuma,Colorado,08083,1516,19,,,,
+2021-01-18,Montrose,Colorado,08085,2726,41,,,,
+2021-01-18,Morgan,Colorado,08087,2305,86,,,,
 2021-01-18,Otero,Colorado,08089,1756,57,,,,
 2021-01-18,Ouray,Colorado,08091,179,3,,,,
-2021-01-18,Park,Colorado,08093,456,5,,,,
+2021-01-18,Park,Colorado,08093,459,5,,,,
 2021-01-18,Phillips,Colorado,08095,312,10,,,,
-2021-01-18,Pitkin,Colorado,08097,1673,4,,,,
-2021-01-18,Prowers,Colorado,08099,1080,20,,,,
-2021-01-18,Pueblo,Colorado,08101,14009,340,,,,
-2021-01-18,Rio Blanco,Colorado,08103,329,3,,,,
-2021-01-18,Rio Grande,Colorado,08105,552,10,,,,
-2021-01-18,Routt,Colorado,08107,1331,19,,,,
+2021-01-18,Pitkin,Colorado,08097,1693,4,,,,
+2021-01-18,Prowers,Colorado,08099,1085,20,,,,
+2021-01-18,Pueblo,Colorado,08101,14024,342,,,,
+2021-01-18,Rio Blanco,Colorado,08103,331,3,,,,
+2021-01-18,Rio Grande,Colorado,08105,553,10,,,,
+2021-01-18,Routt,Colorado,08107,1344,19,,,,
 2021-01-18,Saguache,Colorado,08109,285,4,,,,
 2021-01-18,San Juan,Colorado,08111,34,0,,,,
-2021-01-18,San Miguel,Colorado,08113,466,0,,,,
-2021-01-18,Sedgwick,Colorado,08115,177,2,,,,
-2021-01-18,Summit,Colorado,08117,2400,5,2174,,226,
-2021-01-18,Teller,Colorado,08119,1106,12,,,,
-2021-01-18,Washington,Colorado,08121,359,11,,,,
-2021-01-18,Weld,Colorado,08123,22408,299,,189,,110
+2021-01-18,San Miguel,Colorado,08113,469,0,,,,
+2021-01-18,Sedgwick,Colorado,08115,178,2,,,,
+2021-01-18,Summit,Colorado,08117,2410,5,2174,,236,
+2021-01-18,Teller,Colorado,08119,1113,12,,,,
+2021-01-18,Washington,Colorado,08121,360,11,,,,
+2021-01-18,Weld,Colorado,08123,22636,299,,190,,109
 2021-01-18,Yuma,Colorado,08125,619,14,,,,
-2021-01-18,Fairfield,Connecticut,09001,65725,1830,60965,1443,4760,387
-2021-01-18,Hartford,Connecticut,09003,56292,1992,53822,1607,2470,385
-2021-01-18,Litchfield,Connecticut,09005,8879,245,8195,213,684,32
-2021-01-18,Middlesex,Connecticut,09007,8110,292,7640,225,470,67
-2021-01-18,New Haven,Connecticut,09009,56512,1694,52652,1446,3860,248
-2021-01-18,New London,Connecticut,09011,14167,311,13833,236,334,75
-2021-01-18,Tolland,Connecticut,09013,5967,124,5598,97,369,27
-2021-01-18,Unknown,Connecticut,,819,4,721,3,98,1
-2021-01-18,Windham,Connecticut,09015,6951,102,6767,85,184,17
+2021-01-18,Fairfield,Connecticut,09001,67081,1851,62340,1464,4741,387
+2021-01-18,Hartford,Connecticut,09003,58134,2013,55557,1627,2577,386
+2021-01-18,Litchfield,Connecticut,09005,9118,244,8430,213,688,31
+2021-01-18,Middlesex,Connecticut,09007,8405,298,7933,229,472,69
+2021-01-18,New Haven,Connecticut,09009,58165,1701,54229,1453,3936,248
+2021-01-18,New London,Connecticut,09011,14885,323,14505,247,380,76
+2021-01-18,Tolland,Connecticut,09013,6180,125,5818,98,362,27
+2021-01-18,Unknown,Connecticut,,832,6,731,5,101,1
+2021-01-18,Windham,Connecticut,09015,7325,109,7149,88,176,21
 2021-01-18,Kent,Delaware,10001,11487,187,10957,171,530,16
 2021-01-18,New Castle,Delaware,10003,40497,509,39025,437,1472,72
 2021-01-18,Sussex,Delaware,10005,18762,320,17569,302,1193,18
@@ -550,11 +550,11 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-01-18,Wilkinson,Georgia,13319,769,20,626,20,143,0
 2021-01-18,Worth,Georgia,13321,1470,45,1052,42,418,3
 2021-01-18,Unknown,Guam,,8453,128,8255,128,198,0
-2021-01-18,Hawaii,Hawaii,15001,2098,45,,,,
-2021-01-18,Honolulu,Hawaii,15003,20055,253,,,,
+2021-01-18,Hawaii,Hawaii,15001,2107,45,,,,
+2021-01-18,Honolulu,Hawaii,15003,20138,253,,,,
 2021-01-18,Kalawao,Hawaii,15005,1,0,,,,
-2021-01-18,Kauai,Hawaii,15007,174,1,,,,
-2021-01-18,Maui,Hawaii,15009,1981,20,,,,
+2021-01-18,Kauai,Hawaii,15007,176,1,,,,
+2021-01-18,Maui,Hawaii,15009,2002,20,,,,
 2021-01-18,Ada,Idaho,16001,42506,387,36302,360,6204,27
 2021-01-18,Adams,Idaho,16003,303,3,230,,73,
 2021-01-18,Bannock,Idaho,16005,7058,78,4212,78,2846,0
@@ -595,7 +595,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-01-18,Payette,Idaho,16075,2231,25,1784,,447,
 2021-01-18,Power,Idaho,16077,576,6,431,6,145,0
 2021-01-18,Shoshone,Idaho,16079,920,30,867,30,53,0
-2021-01-18,Teton,Idaho,16081,879,4,526,,353,
+2021-01-18,Teton,Idaho,16081,879,4,529,,350,
 2021-01-18,Twin Falls,Idaho,16083,8510,117,6683,,1827,
 2021-01-18,Valley,Idaho,16085,625,4,507,3,118,1
 2021-01-18,Washington,Idaho,16087,1083,17,803,,280,
@@ -614,7 +614,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-01-18,Clay,Illinois,17025,1309,39,,34,,5
 2021-01-18,Clinton,Illinois,17027,5006,85,,77,,8
 2021-01-18,Coles,Illinois,17029,4698,80,,79,,1
-2021-01-18,Cook,Illinois,17031,434341,9046,,8533,,513
+2021-01-18,Cook,Illinois,17031,434341,9046,,8550,,496
 2021-01-18,Crawford,Illinois,17033,1755,34,,20,,14
 2021-01-18,Cumberland,Illinois,17035,1079,27,,15,,12
 2021-01-18,DeKalb,Illinois,17037,7469,92,7469,89,,3
@@ -645,7 +645,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-01-18,Johnson,Illinois,17087,1210,15,,9,,6
 2021-01-18,Kane,Illinois,17089,45873,676,16606,631,29267,45
 2021-01-18,Kankakee,Illinois,17091,11465,179,11393,171,72,8
-2021-01-18,Kendall,Illinois,17093,9717,78,9717,72,,6
+2021-01-18,Kendall,Illinois,17093,9782,78,9782,72,,6
 2021-01-18,Knox,Illinois,17095,4579,141,,113,,28
 2021-01-18,Lake,Illinois,17097,53227,886,49343,819,3884,67
 2021-01-18,LaSalle,Illinois,17099,9427,247,,196,,51
@@ -655,7 +655,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-01-18,Logan,Illinois,17107,3083,56,,43,,13
 2021-01-18,Macon,Illinois,17115,8794,179,,168,,11
 2021-01-18,Macoupin,Illinois,17117,3826,94,,68,,26
-2021-01-18,Madison,Illinois,17119,24262,463,23745,404,517,59
+2021-01-18,Madison,Illinois,17119,24262,463,23857,405,405,58
 2021-01-18,Marion,Illinois,17121,3970,111,,105,,6
 2021-01-18,Marshall,Illinois,17123,664,13,,12,,1
 2021-01-18,Mason,Illinois,17125,1163,40,,39,,1
@@ -669,7 +669,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-01-18,Montgomery,Illinois,17135,3038,40,,37,,3
 2021-01-18,Morgan,Illinois,17137,3306,90,3306,90,,
 2021-01-18,Moultrie,Illinois,17139,1370,28,,20,,8
-2021-01-18,Ogle,Illinois,17141,4589,71,4463,64,126,7
+2021-01-18,Ogle,Illinois,17141,4589,71,4491,64,98,7
 2021-01-18,Peoria,Illinois,17143,14966,239,14800,226,166,13
 2021-01-18,Perry,Illinois,17145,2665,60,,52,,8
 2021-01-18,Piatt,Illinois,17147,1168,16,,11,,5
@@ -696,7 +696,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-01-18,Washington,Illinois,17189,1446,25,,19,,6
 2021-01-18,Wayne,Illinois,17191,1511,43,,42,,1
 2021-01-18,White,Illinois,17193,1331,30,,22,,8
-2021-01-18,Whiteside,Illinois,17195,5350,173,5350,134,,39
+2021-01-18,Whiteside,Illinois,17195,5354,173,5354,134,,39
 2021-01-18,Will,Illinois,17197,58209,870,6793,800,51416,70
 2021-01-18,Williamson,Illinois,17199,6166,116,,107,,9
 2021-01-18,Winnebago,Illinois,17201,26265,407,,373,,34
@@ -797,18 +797,18 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-01-18,Adams,Iowa,19003,295,3,295,,,
 2021-01-18,Allamakee,Iowa,19005,1270,27,1270,,,
 2021-01-18,Appanoose,Iowa,19007,1098,38,1098,,,
-2021-01-18,Audubon,Iowa,19009,412,8,412,,,
+2021-01-18,Audubon,Iowa,19009,411,8,411,,,
 2021-01-18,Benton,Iowa,19011,2087,44,2087,,,
-2021-01-18,Black Hawk,Iowa,19013,13665,236,13665,,,
-2021-01-18,Boone,Iowa,19015,2169,17,2169,,,
-2021-01-18,Bremer,Iowa,19017,2423,48,2423,,,
+2021-01-18,Black Hawk,Iowa,19013,13666,236,13666,,,
+2021-01-18,Boone,Iowa,19015,2168,17,2168,,,
+2021-01-18,Bremer,Iowa,19017,2424,48,2424,,,
 2021-01-18,Buchanan,Iowa,19019,1589,23,1589,,,
 2021-01-18,Buena Vista,Iowa,19021,3919,29,3919,,,
 2021-01-18,Butler,Iowa,19023,1468,24,1468,,,
 2021-01-18,Calhoun,Iowa,19025,1220,9,1220,,,
-2021-01-18,Carroll,Iowa,19027,2539,34,2539,,,
+2021-01-18,Carroll,Iowa,19027,2540,34,2540,,,
 2021-01-18,Cass,Iowa,19029,1128,41,1128,,,
-2021-01-18,Cedar,Iowa,19031,1517,19,1517,,,
+2021-01-18,Cedar,Iowa,19031,1518,19,1518,,,
 2021-01-18,Cerro Gordo,Iowa,19033,4642,68,4642,,,
 2021-01-18,Cherokee,Iowa,19035,1383,27,1383,,,
 2021-01-18,Chickasaw,Iowa,19037,1108,12,1108,,,
@@ -816,27 +816,27 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-01-18,Clay,Iowa,19041,1662,19,1662,,,
 2021-01-18,Clayton,Iowa,19043,1512,48,1512,,,
 2021-01-18,Clinton,Iowa,19045,4493,61,4493,,,
-2021-01-18,Crawford,Iowa,19047,2292,22,2292,,,
-2021-01-18,Dallas,Iowa,19049,8845,71,8845,,,
+2021-01-18,Crawford,Iowa,19047,2294,22,2294,,,
+2021-01-18,Dallas,Iowa,19049,8843,71,8843,,,
 2021-01-18,Davis,Iowa,19051,691,21,691,,,
 2021-01-18,Decatur,Iowa,19053,480,4,480,,,
 2021-01-18,Delaware,Iowa,19055,1728,36,1728,,,
 2021-01-18,Des Moines,Iowa,19057,3810,41,3810,,,
 2021-01-18,Dickinson,Iowa,19059,1846,26,1846,,,
-2021-01-18,Dubuque,Iowa,19061,11330,150,11330,,,
+2021-01-18,Dubuque,Iowa,19061,11329,150,11329,,,
 2021-01-18,Emmet,Iowa,19063,1104,31,1104,,,
-2021-01-18,Fayette,Iowa,19065,1607,22,1607,,,
+2021-01-18,Fayette,Iowa,19065,1606,22,1606,,,
 2021-01-18,Floyd,Iowa,19067,1383,36,1383,,,
 2021-01-18,Franklin,Iowa,19069,1017,18,1017,,,
 2021-01-18,Fremont,Iowa,19071,507,6,507,,,
 2021-01-18,Greene,Iowa,19073,689,7,689,,,
 2021-01-18,Grundy,Iowa,19075,1203,26,1203,,,
-2021-01-18,Guthrie,Iowa,19077,1029,24,1029,,,
+2021-01-18,Guthrie,Iowa,19077,1028,24,1028,,,
 2021-01-18,Hamilton,Iowa,19079,1581,29,1581,,,
-2021-01-18,Hancock,Iowa,19081,1296,24,1296,,,
+2021-01-18,Hancock,Iowa,19081,1295,24,1295,,,
 2021-01-18,Hardin,Iowa,19083,1543,29,1543,,,
 2021-01-18,Harrison,Iowa,19085,1548,62,1548,,,
-2021-01-18,Henry,Iowa,19087,2639,30,2639,,,
+2021-01-18,Henry,Iowa,19087,2636,30,2636,,,
 2021-01-18,Howard,Iowa,19089,830,19,830,,,
 2021-01-18,Humboldt,Iowa,19091,1044,19,1044,,,
 2021-01-18,Ida,Iowa,19093,740,30,740,,,
@@ -844,22 +844,22 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-01-18,Jackson,Iowa,19097,1911,31,1911,,,
 2021-01-18,Jasper,Iowa,19099,3208,58,3208,,,
 2021-01-18,Jefferson,Iowa,19101,1196,24,1196,,,
-2021-01-18,Johnson,Iowa,19103,12058,49,12058,,,
+2021-01-18,Johnson,Iowa,19103,12059,49,12059,,,
 2021-01-18,Jones,Iowa,19105,2705,49,2705,,,
 2021-01-18,Keokuk,Iowa,19107,844,26,844,,,
-2021-01-18,Kossuth,Iowa,19109,1718,43,1718,,,
+2021-01-18,Kossuth,Iowa,19109,1719,43,1719,,,
 2021-01-18,Lee,Iowa,19111,3152,30,3152,,,
-2021-01-18,Linn,Iowa,19113,17716,274,17716,,,
+2021-01-18,Linn,Iowa,19113,17719,274,17719,,,
 2021-01-18,Louisa,Iowa,19115,1145,30,1145,,,
 2021-01-18,Lucas,Iowa,19117,647,8,647,,,
 2021-01-18,Lyon,Iowa,19119,1342,32,1342,,,
 2021-01-18,Madison,Iowa,19121,1193,9,1193,,,
-2021-01-18,Mahaska,Iowa,19123,1908,36,1908,,,
+2021-01-18,Mahaska,Iowa,19123,1909,36,1909,,,
 2021-01-18,Marion,Iowa,19125,3028,52,3028,,,
 2021-01-18,Marshall,Iowa,19127,4258,61,4258,,,
 2021-01-18,Mills,Iowa,19129,1362,16,1362,,,
 2021-01-18,Mitchell,Iowa,19131,1160,34,1160,,,
-2021-01-18,Monona,Iowa,19133,637,16,637,,,
+2021-01-18,Monona,Iowa,19133,636,16,636,,,
 2021-01-18,Monroe,Iowa,19135,808,18,808,,,
 2021-01-18,Montgomery,Iowa,19137,840,22,840,,,
 2021-01-18,Muscatine,Iowa,19139,3875,77,3875,,,
@@ -873,9 +873,9 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-01-18,Pottawattamie,Iowa,19155,8957,112,8957,,,
 2021-01-18,Poweshiek,Iowa,19157,1324,24,1324,,,
 2021-01-18,Ringgold,Iowa,19159,428,9,428,,,
-2021-01-18,Sac,Iowa,19161,1108,15,1108,,,
-2021-01-18,Scott,Iowa,19163,15402,163,15402,,,
-2021-01-18,Shelby,Iowa,19165,1012,26,1012,,,
+2021-01-18,Sac,Iowa,19161,1107,15,1107,,,
+2021-01-18,Scott,Iowa,19163,15403,163,15403,,,
+2021-01-18,Shelby,Iowa,19165,1013,26,1013,,,
 2021-01-18,Sioux,Iowa,19167,4538,56,4538,,,
 2021-01-18,Story,Iowa,19169,8647,34,8647,,,
 2021-01-18,Tama,Iowa,19171,1859,57,1859,,,
@@ -883,14 +883,14 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-01-18,Union,Iowa,19175,1082,22,1082,,,
 2021-01-18,Unknown,Iowa,,921,0,921,,,
 2021-01-18,Van Buren,Iowa,19177,495,12,495,,,
-2021-01-18,Wapello,Iowa,19179,3423,98,3423,,,
+2021-01-18,Wapello,Iowa,19179,3424,98,3424,,,
 2021-01-18,Warren,Iowa,19181,4399,38,4399,,,
-2021-01-18,Washington,Iowa,19183,2167,31,2167,,,
+2021-01-18,Washington,Iowa,19183,2166,31,2166,,,
 2021-01-18,Wayne,Iowa,19185,414,21,414,,,
-2021-01-18,Webster,Iowa,19187,4675,71,4675,,,
+2021-01-18,Webster,Iowa,19187,4676,71,4676,,,
 2021-01-18,Winnebago,Iowa,19189,1187,29,1187,,,
 2021-01-18,Winneshiek,Iowa,19191,1551,19,1551,,,
-2021-01-18,Woodbury,Iowa,19193,12964,175,12964,,,
+2021-01-18,Woodbury,Iowa,19193,12966,175,12966,,,
 2021-01-18,Worth,Iowa,19195,602,3,602,,,
 2021-01-18,Wright,Iowa,19197,1631,24,1631,,,
 2021-01-18,Allen,Kansas,20001,837,1,112,1,725,
@@ -981,7 +981,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-01-18,Scott,Kansas,20171,570,16,453,16,117,
 2021-01-18,Sedgwick,Kansas,20173,47003,340,37266,340,9737,
 2021-01-18,Seward,Kansas,20175,3678,28,3678,28,,
-2021-01-18,Shawnee,Kansas,20177,14169,263,13135,263,1034,
+2021-01-18,Shawnee,Kansas,20177,14169,263,13321,263,848,
 2021-01-18,Sheridan,Kansas,20179,408,0,126,,282,
 2021-01-18,Sherman,Kansas,20181,564,7,450,7,114,
 2021-01-18,Smith,Kansas,20183,245,2,238,2,7,
@@ -999,126 +999,126 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-01-18,Wilson,Kansas,20205,792,10,777,10,15,
 2021-01-18,Woodson,Kansas,20207,172,0,27,,145,
 2021-01-18,Wyandotte,Kansas,20209,17419,210,16162,210,1257,
-2021-01-18,Adair,Kentucky,21001,1445,47,1445,47,,
-2021-01-18,Allen,Kentucky,21003,1406,19,,,,
-2021-01-18,Anderson,Kentucky,21005,1261,4,,,,
-2021-01-18,Ballard,Kentucky,21007,283,3,,,,
-2021-01-18,Barren,Kentucky,21009,3028,35,2997,35,31,0
-2021-01-18,Bath,Kentucky,21011,633,10,,,,
-2021-01-18,Bell,Kentucky,21013,2218,32,,,,
+2021-01-18,Adair,Kentucky,21001,1450,47,1450,47,,
+2021-01-18,Allen,Kentucky,21003,1412,19,,,,
+2021-01-18,Anderson,Kentucky,21005,1268,4,,,,
+2021-01-18,Ballard,Kentucky,21007,284,3,,,,
+2021-01-18,Barren,Kentucky,21009,3078,35,3078,35,,0
+2021-01-18,Bath,Kentucky,21011,634,10,,,,
+2021-01-18,Bell,Kentucky,21013,2234,32,,,,
 2021-01-18,Boone,Kentucky,21015,10054,47,,,,
-2021-01-18,Bourbon,Kentucky,21017,1225,6,,,,
-2021-01-18,Boyd,Kentucky,21019,3865,32,,,,
-2021-01-18,Boyle,Kentucky,21021,2811,12,,,,
-2021-01-18,Bracken,Kentucky,21023,387,3,,,,
-2021-01-18,Breathitt,Kentucky,21025,764,3,,,,
+2021-01-18,Bourbon,Kentucky,21017,1243,6,,,,
+2021-01-18,Boyd,Kentucky,21019,3879,33,,,,
+2021-01-18,Boyle,Kentucky,21021,2822,12,,,,
+2021-01-18,Bracken,Kentucky,21023,389,3,,,,
+2021-01-18,Breathitt,Kentucky,21025,765,3,,,,
 2021-01-18,Breckinridge,Kentucky,21027,877,5,,,,
-2021-01-18,Bullitt,Kentucky,21029,4971,31,136,,4835,
-2021-01-18,Butler,Kentucky,21031,1014,17,1014,16,,1
-2021-01-18,Caldwell,Kentucky,21033,1044,17,,,,
-2021-01-18,Calloway,Kentucky,21035,2851,30,,,,
+2021-01-18,Bullitt,Kentucky,21029,4998,33,136,,4862,
+2021-01-18,Butler,Kentucky,21031,1030,17,1030,17,,0
+2021-01-18,Caldwell,Kentucky,21033,1054,17,,,,
+2021-01-18,Calloway,Kentucky,21035,2863,30,,,,
 2021-01-18,Campbell,Kentucky,21037,5989,39,,,,
-2021-01-18,Carlisle,Kentucky,21039,387,1,,,,
-2021-01-18,Carroll,Kentucky,21041,738,8,,,,
-2021-01-18,Carter,Kentucky,21043,1653,18,,,,
-2021-01-18,Casey,Kentucky,21045,1020,30,1020,30,,
-2021-01-18,Christian,Kentucky,21047,5225,69,,,,
-2021-01-18,Clark,Kentucky,21049,1931,16,,,,
-2021-01-18,Clay,Kentucky,21051,2039,14,,,,
-2021-01-18,Clinton,Kentucky,21053,1177,22,1177,22,,
-2021-01-18,Crittenden,Kentucky,21055,465,3,,,,
-2021-01-18,Cumberland,Kentucky,21057,534,7,534,7,,
-2021-01-18,Daviess,Kentucky,21059,7418,120,7126,120,292,
-2021-01-18,Edmonson,Kentucky,21061,666,13,666,13,,0
-2021-01-18,Elliott,Kentucky,21063,878,1,,,,
-2021-01-18,Estill,Kentucky,21065,801,0,,,,
-2021-01-18,Fayette,Kentucky,21067,27127,174,27039,174,88,
-2021-01-18,Fleming,Kentucky,21069,886,5,,,,
-2021-01-18,Floyd,Kentucky,21071,2339,16,,,,
-2021-01-18,Franklin,Kentucky,21073,2597,23,,,,
-2021-01-18,Fulton,Kentucky,21075,408,4,,,,
-2021-01-18,Gallatin,Kentucky,21077,523,13,,,,
-2021-01-18,Garrard,Kentucky,21079,1136,4,,,,
+2021-01-18,Carlisle,Kentucky,21039,390,1,,,,
+2021-01-18,Carroll,Kentucky,21041,744,8,,,,
+2021-01-18,Carter,Kentucky,21043,1655,18,,,,
+2021-01-18,Casey,Kentucky,21045,1027,30,1027,30,,
+2021-01-18,Christian,Kentucky,21047,5241,69,,,,
+2021-01-18,Clark,Kentucky,21049,1937,16,,,,
+2021-01-18,Clay,Kentucky,21051,2054,14,,,,
+2021-01-18,Clinton,Kentucky,21053,1183,23,1183,23,,
+2021-01-18,Crittenden,Kentucky,21055,466,3,,,,
+2021-01-18,Cumberland,Kentucky,21057,542,7,542,7,,
+2021-01-18,Daviess,Kentucky,21059,7437,120,7126,120,311,
+2021-01-18,Edmonson,Kentucky,21061,673,13,673,13,,0
+2021-01-18,Elliott,Kentucky,21063,882,1,,,,
+2021-01-18,Estill,Kentucky,21065,809,0,,,,
+2021-01-18,Fayette,Kentucky,21067,27358,174,27039,174,319,
+2021-01-18,Fleming,Kentucky,21069,889,6,,,,
+2021-01-18,Floyd,Kentucky,21071,2351,16,,,,
+2021-01-18,Franklin,Kentucky,21073,2638,23,,,,
+2021-01-18,Fulton,Kentucky,21075,410,4,,,,
+2021-01-18,Gallatin,Kentucky,21077,530,13,,,,
+2021-01-18,Garrard,Kentucky,21079,1144,4,,,,
 2021-01-18,Grant,Kentucky,21081,1601,10,,,,
-2021-01-18,Graves,Kentucky,21083,3351,54,,,,
-2021-01-18,Grayson,Kentucky,21085,1548,37,,,,
-2021-01-18,Green,Kentucky,21087,912,12,912,12,,
-2021-01-18,Greenup,Kentucky,21089,2822,21,,,,
-2021-01-18,Hancock,Kentucky,21091,638,13,603,13,35,
-2021-01-18,Hardin,Kentucky,21093,7248,53,,,,
-2021-01-18,Harlan,Kentucky,21095,1966,26,,,,
-2021-01-18,Harrison,Kentucky,21097,1161,2,,,,
-2021-01-18,Hart,Kentucky,21099,1426,12,1422,11,4,1
-2021-01-18,Henderson,Kentucky,21101,3640,52,3557,52,83,
-2021-01-18,Henry,Kentucky,21103,972,5,,,,
+2021-01-18,Graves,Kentucky,21083,3376,55,,,,
+2021-01-18,Grayson,Kentucky,21085,1556,37,,,,
+2021-01-18,Green,Kentucky,21087,915,12,915,12,,
+2021-01-18,Greenup,Kentucky,21089,2857,21,,,,
+2021-01-18,Hancock,Kentucky,21091,640,13,603,13,37,
+2021-01-18,Hardin,Kentucky,21093,7260,55,,,,
+2021-01-18,Harlan,Kentucky,21095,1982,26,,,,
+2021-01-18,Harrison,Kentucky,21097,1182,2,,,,
+2021-01-18,Hart,Kentucky,21099,1447,14,1447,14,,
+2021-01-18,Henderson,Kentucky,21101,3649,52,3557,52,92,
+2021-01-18,Henry,Kentucky,21103,974,5,,,,
 2021-01-18,Hickman,Kentucky,21105,254,7,,,,
-2021-01-18,Hopkins,Kentucky,21107,3263,113,3230,113,33,
-2021-01-18,Jackson,Kentucky,21109,1049,22,,,,
+2021-01-18,Hopkins,Kentucky,21107,3275,113,3230,113,45,
+2021-01-18,Jackson,Kentucky,21109,1057,23,,,,
 2021-01-18,Jefferson,Kentucky,21111,61778,746,61778,746,,
-2021-01-18,Jessamine,Kentucky,21113,3194,49,3194,,,
-2021-01-18,Johnson,Kentucky,21115,1420,16,,,,
+2021-01-18,Jessamine,Kentucky,21113,3194,48,3194,,,
+2021-01-18,Johnson,Kentucky,21115,1423,16,,,,
 2021-01-18,Kenton,Kentucky,21117,11767,91,,,,
-2021-01-18,Knott,Kentucky,21119,837,14,,,,
-2021-01-18,Knox,Kentucky,21121,2267,10,,,,
-2021-01-18,Larue,Kentucky,21123,957,6,,,,
-2021-01-18,Laurel,Kentucky,21125,4613,17,,,,
-2021-01-18,Lawrence,Kentucky,21127,997,5,,,,
-2021-01-18,Lee,Kentucky,21129,1100,18,,,,
-2021-01-18,Leslie,Kentucky,21131,634,2,,,,
-2021-01-18,Letcher,Kentucky,21133,1358,4,,,,
+2021-01-18,Knott,Kentucky,21119,845,14,,,,
+2021-01-18,Knox,Kentucky,21121,2276,10,,,,
+2021-01-18,Larue,Kentucky,21123,958,6,,,,
+2021-01-18,Laurel,Kentucky,21125,4628,17,,,,
+2021-01-18,Lawrence,Kentucky,21127,999,5,,,,
+2021-01-18,Lee,Kentucky,21129,1101,18,,,,
+2021-01-18,Leslie,Kentucky,21131,640,2,,,,
+2021-01-18,Letcher,Kentucky,21133,1365,4,,,,
 2021-01-18,Lewis,Kentucky,21135,935,28,,,,
-2021-01-18,Lincoln,Kentucky,21137,1724,28,,,,
-2021-01-18,Livingston,Kentucky,21139,578,15,,,,
-2021-01-18,Logan,Kentucky,21141,1997,43,1949,42,48,1
-2021-01-18,Lyon,Kentucky,21143,378,10,,,,
-2021-01-18,Madison,Kentucky,21151,6819,45,,,,
-2021-01-18,Magoffin,Kentucky,21153,774,1,,,,
-2021-01-18,Marion,Kentucky,21155,1746,20,,,,
-2021-01-18,Marshall,Kentucky,21157,1958,25,,,,
-2021-01-18,Martin,Kentucky,21159,781,10,,,,
-2021-01-18,Mason,Kentucky,21161,1103,24,,,,
-2021-01-18,McCracken,Kentucky,21145,4880,47,,,,
-2021-01-18,McCreary,Kentucky,21147,1352,15,1352,15,,
-2021-01-18,McLean,Kentucky,21149,683,22,673,22,10,
+2021-01-18,Lincoln,Kentucky,21137,1730,28,,,,
+2021-01-18,Livingston,Kentucky,21139,580,15,,,,
+2021-01-18,Logan,Kentucky,21141,2005,43,1987,42,18,1
+2021-01-18,Lyon,Kentucky,21143,379,11,,,,
+2021-01-18,Madison,Kentucky,21151,6883,45,,,,
+2021-01-18,Magoffin,Kentucky,21153,777,1,,,,
+2021-01-18,Marion,Kentucky,21155,1750,20,,,,
+2021-01-18,Marshall,Kentucky,21157,1987,27,,,,
+2021-01-18,Martin,Kentucky,21159,780,10,,,,
+2021-01-18,Mason,Kentucky,21161,1106,24,,,,
+2021-01-18,McCracken,Kentucky,21145,4908,47,,,,
+2021-01-18,McCreary,Kentucky,21147,1354,15,1354,15,,
+2021-01-18,McLean,Kentucky,21149,685,22,673,22,12,
 2021-01-18,Meade,Kentucky,21163,1427,5,,,,
-2021-01-18,Menifee,Kentucky,21165,275,2,,,,
-2021-01-18,Mercer,Kentucky,21167,1919,11,,,,
-2021-01-18,Metcalfe,Kentucky,21169,703,12,670,10,33,2
-2021-01-18,Monroe,Kentucky,21171,1089,28,,,,
-2021-01-18,Montgomery,Kentucky,21173,1779,15,,,,
-2021-01-18,Morgan,Kentucky,21175,1700,0,,,,
+2021-01-18,Menifee,Kentucky,21165,276,3,,,,
+2021-01-18,Mercer,Kentucky,21167,1933,11,,,,
+2021-01-18,Metcalfe,Kentucky,21169,706,12,682,12,24,0
+2021-01-18,Monroe,Kentucky,21171,1092,28,,,,
+2021-01-18,Montgomery,Kentucky,21173,1788,16,,,,
+2021-01-18,Morgan,Kentucky,21175,1704,0,,,,
 2021-01-18,Muhlenberg,Kentucky,21177,2381,42,,41,,1
-2021-01-18,Nelson,Kentucky,21179,3597,23,,,,
-2021-01-18,Nicholas,Kentucky,21181,378,5,,,,
+2021-01-18,Nelson,Kentucky,21179,3605,23,,,,
+2021-01-18,Nicholas,Kentucky,21181,380,5,,,,
 2021-01-18,Ohio,Kentucky,21183,1927,34,1927,34,,
-2021-01-18,Oldham,Kentucky,21185,5676,47,,,,
-2021-01-18,Owen,Kentucky,21187,501,7,,,,
-2021-01-18,Owsley,Kentucky,21189,360,10,,,,
-2021-01-18,Pendleton,Kentucky,21191,743,1,,,,
-2021-01-18,Perry,Kentucky,21193,1857,17,,,,
-2021-01-18,Pike,Kentucky,21195,3906,39,,,,
-2021-01-18,Powell,Kentucky,21197,797,0,,,,
-2021-01-18,Pulaski,Kentucky,21199,4715,66,4715,66,,
-2021-01-18,Robertson,Kentucky,21201,160,8,,,,
-2021-01-18,Rockcastle,Kentucky,21203,1094,12,,,,
-2021-01-18,Rowan,Kentucky,21205,1551,3,,,,
-2021-01-18,Russell,Kentucky,21207,1332,36,1332,36,,
-2021-01-18,Scott,Kentucky,21209,3093,24,,,,
-2021-01-18,Shelby,Kentucky,21211,3545,29,,,,
-2021-01-18,Simpson,Kentucky,21213,1406,15,1389,14,17,1
-2021-01-18,Spencer,Kentucky,21215,1176,5,,,,
-2021-01-18,Taylor,Kentucky,21217,2103,26,2085,26,18,
+2021-01-18,Oldham,Kentucky,21185,5892,54,,,,
+2021-01-18,Owen,Kentucky,21187,503,7,,,,
+2021-01-18,Owsley,Kentucky,21189,361,10,,,,
+2021-01-18,Pendleton,Kentucky,21191,753,1,,,,
+2021-01-18,Perry,Kentucky,21193,1866,17,,,,
+2021-01-18,Pike,Kentucky,21195,3922,39,,,,
+2021-01-18,Powell,Kentucky,21197,801,0,,,,
+2021-01-18,Pulaski,Kentucky,21199,4736,68,4736,68,,
+2021-01-18,Robertson,Kentucky,21201,161,8,,,,
+2021-01-18,Rockcastle,Kentucky,21203,1099,12,,,,
+2021-01-18,Rowan,Kentucky,21205,1560,3,,,,
+2021-01-18,Russell,Kentucky,21207,1341,36,1341,36,,
+2021-01-18,Scott,Kentucky,21209,3116,24,,,,
+2021-01-18,Shelby,Kentucky,21211,3568,30,,,,
+2021-01-18,Simpson,Kentucky,21213,1413,16,1413,16,,
+2021-01-18,Spencer,Kentucky,21215,1182,5,,,,
+2021-01-18,Taylor,Kentucky,21217,2117,26,2092,26,25,
 2021-01-18,Todd,Kentucky,21219,872,16,,,,
-2021-01-18,Trigg,Kentucky,21221,839,3,,,,
-2021-01-18,Trimble,Kentucky,21223,478,2,,,,
-2021-01-18,Union,Kentucky,21225,1099,9,1052,9,47,0
-2021-01-18,Warren,Kentucky,21227,12138,90,12066,90,72,
-2021-01-18,Washington,Kentucky,21229,1034,16,,,,
-2021-01-18,Wayne,Kentucky,21231,1790,34,1790,34,,
-2021-01-18,Webster,Kentucky,21233,959,14,943,14,16,0
-2021-01-18,Whitley,Kentucky,21235,3310,14,,,,
-2021-01-18,Wolfe,Kentucky,21237,362,4,,,,
-2021-01-18,Woodford,Kentucky,21239,1565,4,,,,
+2021-01-18,Trigg,Kentucky,21221,845,3,,,,
+2021-01-18,Trimble,Kentucky,21223,482,2,,,,
+2021-01-18,Union,Kentucky,21225,1101,9,1052,9,49,0
+2021-01-18,Warren,Kentucky,21227,12255,91,12255,91,,
+2021-01-18,Washington,Kentucky,21229,1038,16,,,,
+2021-01-18,Wayne,Kentucky,21231,1800,35,1800,35,,
+2021-01-18,Webster,Kentucky,21233,965,14,943,14,22,0
+2021-01-18,Whitley,Kentucky,21235,3312,14,,,,
+2021-01-18,Wolfe,Kentucky,21237,363,4,,,,
+2021-01-18,Woodford,Kentucky,21239,1578,4,,,,
 2021-01-18,Acadia,Louisiana,22001,5589,172,5357,166,232,6
 2021-01-18,Allen,Louisiana,22003,2651,76,2445,75,206,1
 2021-01-18,Ascension,Louisiana,22005,9498,128,7883,116,1615,12
@@ -1217,30 +1217,30 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-01-18,Howard,Maryland,24027,13531,194,13525,188,6,6
 2021-01-18,Kent,Maryland,24029,945,30,943,28,2,2
 2021-01-18,Montgomery,Maryland,24031,54569,1234,54525,1190,44,44
-2021-01-18,Prince George's,Maryland,24033,63285,1170,63258,1143,27,27
+2021-01-18,Prince George's,Maryland,24033,63316,1170,63316,1144,,26
 2021-01-18,Queen Anne's,Maryland,24035,2188,33,2187,32,1,1
 2021-01-18,Somerset,Maryland,24039,2084,24,2084,24,0,0
 2021-01-18,St. Mary's,Maryland,24037,4103,96,4103,96,0,0
 2021-01-18,Talbot,Maryland,24041,1508,16,1508,16,0,0
-2021-01-18,Unknown,Maryland,,1,61,0,60,1,1
+2021-01-18,Unknown,Maryland,,0,61,0,59,0,2
 2021-01-18,Washington,Maryland,24043,10552,184,10549,181,3,3
 2021-01-18,Wicomico,Maryland,24045,5745,102,5745,102,0,0
 2021-01-18,Worcester,Maryland,24047,2823,66,2822,65,1,1
-2021-01-18,Barnstable,Massachusetts,25001,7315,300,7315,,,
-2021-01-18,Berkshire,Massachusetts,25003,3969,184,3969,,,
-2021-01-18,Bristol,Massachusetts,25005,44697,1223,44697,,,
-2021-01-18,Dukes,Massachusetts,25007,665,0,665,,,
-2021-01-18,Essex,Massachusetts,25009,71251,1859,71251,,,
-2021-01-18,Franklin,Massachusetts,25011,1589,95,1589,,,
-2021-01-18,Hampden,Massachusetts,25013,32936,1134,32936,,,
-2021-01-18,Hampshire,Massachusetts,25015,4996,219,4996,,,
-2021-01-18,Middlesex,Massachusetts,25017,92781,2950,92781,,,
+2021-01-18,Barnstable,Massachusetts,25001,7412,302,7412,,,
+2021-01-18,Berkshire,Massachusetts,25003,4028,184,4028,,,
+2021-01-18,Bristol,Massachusetts,25005,45112,1237,45112,,,
+2021-01-18,Dukes,Massachusetts,25007,672,0,672,,,
+2021-01-18,Essex,Massachusetts,25009,71592,1862,71592,,,
+2021-01-18,Franklin,Massachusetts,25011,1600,95,1600,,,
+2021-01-18,Hampden,Massachusetts,25013,33234,1135,33234,,,
+2021-01-18,Hampshire,Massachusetts,25015,5040,219,5040,,,
+2021-01-18,Middlesex,Massachusetts,25017,93414,2958,93414,,,
 2021-01-18,Nantucket,Massachusetts,25019,990,2,990,,,
-2021-01-18,Norfolk,Massachusetts,25021,35130,1392,35130,,,
-2021-01-18,Plymouth,Massachusetts,25023,31740,1091,31740,,,
-2021-01-18,Suffolk,Massachusetts,25025,65398,1481,65398,,,
-2021-01-18,Unknown,Massachusetts,,23157,8,1238,,21919,
-2021-01-18,Worcester,Massachusetts,25027,53526,1714,53526,,,
+2021-01-18,Norfolk,Massachusetts,25021,35450,1396,35450,,,
+2021-01-18,Plymouth,Massachusetts,25023,31999,1098,31999,,,
+2021-01-18,Suffolk,Massachusetts,25025,65804,1487,65804,,,
+2021-01-18,Unknown,Massachusetts,,23252,8,1238,,22014,
+2021-01-18,Worcester,Massachusetts,25027,53842,1722,53842,,,
 2021-01-18,Alcona,Michigan,26001,387,20,320,15,67,5
 2021-01-18,Alger,Michigan,26003,517,3,375,1,142,2
 2021-01-18,Allegan,Michigan,26005,6550,93,5932,76,618,17
@@ -1260,7 +1260,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-01-18,Chippewa,Michigan,26033,4515,31,3542,29,973,2
 2021-01-18,Clare,Michigan,26035,1391,58,1226,58,165,0
 2021-01-18,Clinton,Michigan,26037,4491,52,4104,51,387,1
-2021-01-18,Crawford,Michigan,26039,521,5,492,5,29,0
+2021-01-18,Crawford,Michigan,26039,522,5,493,5,29,0
 2021-01-18,Delta,Michigan,26041,3025,79,2579,61,446,18
 2021-01-18,Dickinson,Michigan,26043,2283,70,2067,56,216,14
 2021-01-18,Eaton,Michigan,26045,5444,117,5033,110,411,7
@@ -1268,7 +1268,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-01-18,Genesee,Michigan,26049,23602,684,20290,634,3312,50
 2021-01-18,Gladwin,Michigan,26051,1346,37,1151,34,195,3
 2021-01-18,Gogebic,Michigan,26053,1090,40,787,16,303,24
-2021-01-18,Grand Traverse,Michigan,26055,3685,54,3476,52,209,2
+2021-01-18,Grand Traverse,Michigan,26055,3725,54,3542,53,183,1
 2021-01-18,Gratiot,Michigan,26057,5483,94,5229,90,254,4
 2021-01-18,Hillsdale,Michigan,26059,2989,67,2758,64,231,3
 2021-01-18,Houghton,Michigan,26061,2326,34,1873,27,453,7
@@ -1280,7 +1280,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-01-18,Isabella,Michigan,26073,3739,62,3350,62,389,0
 2021-01-18,Jackson,Michigan,26075,12909,222,12684,216,225,6
 2021-01-18,Kalamazoo,Michigan,26077,13643,284,12079,249,1564,35
-2021-01-18,Kalkaska,Michigan,26079,526,14,492,14,34,0
+2021-01-18,Kalkaska,Michigan,26079,528,14,493,14,35,0
 2021-01-18,Kent,Michigan,26081,47492,612,44860,563,2632,49
 2021-01-18,Keweenaw,Michigan,26083,116,2,96,1,20,1
 2021-01-18,Lake,Michigan,26085,338,10,322,9,16,1
@@ -1291,13 +1291,13 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-01-18,Luce,Michigan,26095,1056,1,986,1,70,0
 2021-01-18,Mackinac,Michigan,26097,406,3,270,3,136,0
 2021-01-18,Macomb,Michigan,26099,54076,1772,51565,1683,2511,89
-2021-01-18,Manistee,Michigan,26101,933,19,895,17,38,2
+2021-01-18,Manistee,Michigan,26101,938,19,895,17,43,2
 2021-01-18,Marquette,Michigan,26103,4645,54,4181,53,464,1
-2021-01-18,Mason,Michigan,26105,1120,23,1039,23,81,0
-2021-01-18,Mecosta,Michigan,26107,1796,15,1710,15,86,0
+2021-01-18,Mason,Michigan,26105,1125,23,1042,23,83,0
+2021-01-18,Mecosta,Michigan,26107,1798,15,1712,15,86,0
 2021-01-18,Menominee,Michigan,26109,1800,36,1555,34,245,2
 2021-01-18,Midland,Michigan,26111,4524,52,3955,49,569,3
-2021-01-18,Missaukee,Michigan,26113,612,14,490,10,122,4
+2021-01-18,Missaukee,Michigan,26113,613,14,491,10,122,4
 2021-01-18,Monroe,Michigan,26115,8690,173,7847,162,843,11
 2021-01-18,Montcalm,Michigan,26117,5367,84,5171,82,196,2
 2021-01-18,Montmorency,Michigan,26119,341,13,288,12,53,1
@@ -1324,7 +1324,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-01-18,Van Buren,Michigan,26159,4532,91,4298,80,234,11
 2021-01-18,Washtenaw,Michigan,26161,15957,225,14646,219,1311,6
 2021-01-18,Wayne,Michigan,26163,93003,3859,87245,3655,5758,204
-2021-01-18,Wexford,Michigan,26165,1192,20,1127,20,65,0
+2021-01-18,Wexford,Michigan,26165,1198,20,1128,20,70,0
 2021-01-18,Aitkin,Minnesota,27001,1080,33,1051,,29,
 2021-01-18,Anoka,Minnesota,27003,30935,364,28599,,2336,
 2021-01-18,Becker,Minnesota,27005,2846,39,2784,,62,
@@ -1594,7 +1594,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-01-18,Scott,Missouri,29201,3584,68,3584,68,,
 2021-01-18,Shannon,Missouri,29203,449,9,449,9,,
 2021-01-18,Shelby,Missouri,29205,329,4,329,4,,
-2021-01-18,St. Charles,Missouri,29183,32667,342,32667,342,,
+2021-01-18,St. Charles,Missouri,29183,32776,344,32776,344,,
 2021-01-18,St. Clair,Missouri,29185,515,5,515,5,,
 2021-01-18,Ste. Genevieve,Missouri,29186,1518,11,1518,11,,
 2021-01-18,St. Francois,Missouri,29187,7165,79,7165,79,,
@@ -1680,7 +1680,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-01-18,Buffalo,Nebraska,31019,4625,53,,,,
 2021-01-18,Burt,Nebraska,31021,552,10,,,,
 2021-01-18,Butler,Nebraska,31023,756,10,,,,
-2021-01-18,Cass,Nebraska,31025,1961,14,1833,12,128,2
+2021-01-18,Cass,Nebraska,31025,1961,14,1843,12,118,2
 2021-01-18,Cedar,Nebraska,31027,594,10,,,,
 2021-01-18,Chase,Nebraska,31029,411,3,,,,
 2021-01-18,Cherry,Nebraska,31031,259,6,,,,
@@ -1707,8 +1707,8 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-01-18,Gosper,Nebraska,31073,172,4,,,,
 2021-01-18,Grant,Nebraska,31075,22,4,,,,
 2021-01-18,Greeley,Nebraska,31077,182,2,,,,
-2021-01-18,Hall,Nebraska,31079,6356,103,6286,102,70,1
-2021-01-18,Hamilton,Nebraska,31081,803,16,803,16,,
+2021-01-18,Hall,Nebraska,31079,6360,103,6360,103,,0
+2021-01-18,Hamilton,Nebraska,31081,812,16,812,16,,
 2021-01-18,Harlan,Nebraska,31083,191,0,,,,
 2021-01-18,Hayes,Nebraska,31085,56,0,,,,
 2021-01-18,Hitchcock,Nebraska,31087,205,3,,,,
@@ -1722,13 +1722,13 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-01-18,Keya Paha,Nebraska,31103,38,0,,,,
 2021-01-18,Kimball,Nebraska,31105,363,5,,,,
 2021-01-18,Knox,Nebraska,31107,760,7,,,,
-2021-01-18,Lancaster,Nebraska,31109,25257,179,25257,179,,
+2021-01-18,Lancaster,Nebraska,31109,25301,179,25301,179,,
 2021-01-18,Lincoln,Nebraska,31111,3268,39,,,,
 2021-01-18,Logan,Nebraska,31113,71,0,,,,
 2021-01-18,Loup,Nebraska,31115,38,0,,,,
 2021-01-18,Madison,Nebraska,31119,3950,40,3875,37,75,3
 2021-01-18,McPherson,Nebraska,31117,23,1,,,,
-2021-01-18,Merrick,Nebraska,31121,686,11,683,10,3,1
+2021-01-18,Merrick,Nebraska,31121,696,11,696,10,,1
 2021-01-18,Morrill,Nebraska,31123,437,15,,,,
 2021-01-18,Nance,Nebraska,31125,361,10,,,,
 2021-01-18,Nemaha,Nebraska,31127,542,12,,,,
@@ -1744,7 +1744,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-01-18,Richardson,Nebraska,31147,575,15,,,,
 2021-01-18,Rock,Nebraska,31149,100,2,,,,
 2021-01-18,Saline,Nebraska,31151,1823,3,,,,
-2021-01-18,Sarpy,Nebraska,31153,17431,86,16556,83,875,3
+2021-01-18,Sarpy,Nebraska,31153,17431,86,16601,83,830,3
 2021-01-18,Saunders,Nebraska,31155,2066,11,,,,
 2021-01-18,Scotts Bluff,Nebraska,31157,4255,78,,,,
 2021-01-18,Seward,Nebraska,31159,1227,25,,,,
@@ -1789,28 +1789,28 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-01-18,Strafford,New Hampshire,33017,4767,46,,,,
 2021-01-18,Sullivan,New Hampshire,33019,819,8,,,,
 2021-01-18,Unknown,New Hampshire,,992,1,,,,
-2021-01-18,Atlantic,New Jersey,34001,18943,418,15192,400,3751,18
-2021-01-18,Bergen,New Jersey,34003,60704,2409,54678,2142,6026,267
-2021-01-18,Burlington,New Jersey,34005,28288,667,25628,615,2660,52
-2021-01-18,Camden,New Jersey,34007,36777,927,33601,860,3176,67
-2021-01-18,Cape May,New Jersey,34009,5508,153,2880,133,2628,20
-2021-01-18,Cumberland,New Jersey,34011,11276,272,9529,260,1747,12
-2021-01-18,Essex,New Jersey,34013,59127,2478,54637,2221,4490,257
-2021-01-18,Gloucester,New Jersey,34015,19416,453,17209,432,2207,21
-2021-01-18,Hudson,New Jersey,34017,55656,1785,51551,1615,4105,170
-2021-01-18,Hunterdon,New Jersey,34019,5242,144,4776,90,466,54
-2021-01-18,Mercer,New Jersey,34021,22829,772,21704,734,1125,38
-2021-01-18,Middlesex,New Jersey,34023,57400,1812,53778,1596,3622,216
-2021-01-18,Monmouth,New Jersey,34025,43173,1166,39634,1064,3539,102
-2021-01-18,Morris,New Jersey,34027,28259,1020,24457,826,3802,194
-2021-01-18,Ocean,New Jersey,34029,44163,1538,39661,1447,4502,91
-2021-01-18,Passaic,New Jersey,34031,47658,1544,44107,1385,3551,159
-2021-01-18,Salem,New Jersey,34033,3882,125,3511,117,371,8
-2021-01-18,Somerset,New Jersey,34035,18052,710,14878,616,3174,94
-2021-01-18,Sussex,New Jersey,34037,6753,242,5986,191,767,51
-2021-01-18,Union,New Jersey,34039,47363,1615,41514,1429,5849,186
-2021-01-18,Unknown,New Jersey,,1376,0,1321,0,55,
-2021-01-18,Warren,New Jersey,34041,5376,189,4865,175,511,14
+2021-01-18,Atlantic,New Jersey,34001,19100,418,15317,400,3783,18
+2021-01-18,Bergen,New Jersey,34003,60985,2410,54932,2143,6053,267
+2021-01-18,Burlington,New Jersey,34005,28487,667,25812,615,2675,52
+2021-01-18,Camden,New Jersey,34007,36976,928,33786,861,3190,67
+2021-01-18,Cape May,New Jersey,34009,5554,153,2902,133,2652,20
+2021-01-18,Cumberland,New Jersey,34011,11352,273,9605,261,1747,12
+2021-01-18,Essex,New Jersey,34013,59432,2479,54930,2222,4502,257
+2021-01-18,Gloucester,New Jersey,34015,19537,456,17317,435,2220,21
+2021-01-18,Hudson,New Jersey,34017,55967,1789,51828,1619,4139,170
+2021-01-18,Hunterdon,New Jersey,34019,5275,144,4807,90,468,54
+2021-01-18,Mercer,New Jersey,34021,22949,774,21822,736,1127,38
+2021-01-18,Middlesex,New Jersey,34023,57704,1814,54059,1598,3645,216
+2021-01-18,Monmouth,New Jersey,34025,43562,1166,39966,1064,3596,102
+2021-01-18,Morris,New Jersey,34027,28469,1019,24625,825,3844,194
+2021-01-18,Ocean,New Jersey,34029,44577,1540,40047,1449,4530,91
+2021-01-18,Passaic,New Jersey,34031,47799,1544,44230,1385,3569,159
+2021-01-18,Salem,New Jersey,34033,3902,126,3531,118,371,8
+2021-01-18,Somerset,New Jersey,34035,18155,710,14986,616,3169,94
+2021-01-18,Sussex,New Jersey,34037,6825,243,6049,192,776,51
+2021-01-18,Union,New Jersey,34039,47628,1616,41751,1430,5877,186
+2021-01-18,Unknown,New Jersey,,1409,0,1355,0,54,
+2021-01-18,Warren,New Jersey,34041,5430,189,4916,175,514,14
 2021-01-18,Bernalillo,New Mexico,35001,46349,694,46349,694,,
 2021-01-18,Catron,New Mexico,35003,70,3,70,3,,
 2021-01-18,Chaves,New Mexico,35005,8071,119,8071,119,,
@@ -1961,7 +1961,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-01-18,Madison,North Carolina,37115,1071,24,939,20,132,4
 2021-01-18,Martin,North Carolina,37117,1704,27,1509,23,195,4
 2021-01-18,McDowell,North Carolina,37111,3933,39,3143,36,790,3
-2021-01-18,Mecklenburg,North Carolina,37119,77030,691,77030,691,,
+2021-01-18,Mecklenburg,North Carolina,37119,77257,697,77257,697,,
 2021-01-18,Mitchell,North Carolina,37121,986,10,725,10,261,0
 2021-01-18,Montgomery,North Carolina,37123,2446,52,2250,50,196,2
 2021-01-18,Moore,North Carolina,37125,6181,80,5429,76,752,4
@@ -1993,7 +1993,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-01-18,Tyrrell,North Carolina,37177,216,4,210,4,6,0
 2021-01-18,Union,North Carolina,37179,16184,128,15165,117,1019,11
 2021-01-18,Vance,North Carolina,37181,3321,73,3126,65,195,8
-2021-01-18,Wake,North Carolina,37183,57360,396,55561,395,1799,1
+2021-01-18,Wake,North Carolina,37183,58176,396,56369,395,1807,1
 2021-01-18,Warren,North Carolina,37185,1279,12,1227,11,52,1
 2021-01-18,Washington,North Carolina,37187,655,19,626,19,29,0
 2021-01-18,Watauga,North Carolina,37189,3118,23,2371,10,747,13
@@ -2225,41 +2225,41 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-01-18,Woods,Oklahoma,40151,1103,5,,5,,
 2021-01-18,Woodward,Oklahoma,40153,2803,11,,11,,
 2021-01-18,Baker,Oregon,41001,568,5,388,5,180,0
-2021-01-18,Benton,Oregon,41003,1695,14,0,,1695,
-2021-01-18,Clackamas,Oregon,41005,11690,141,0,,11690,
+2021-01-18,Benton,Oregon,41003,1705,14,0,,1705,
+2021-01-18,Clackamas,Oregon,41005,11698,141,0,,11698,
 2021-01-18,Clatsop,Oregon,41007,686,5,0,,686,
-2021-01-18,Columbia,Oregon,41009,1043,18,0,,1043,
-2021-01-18,Coos,Oregon,41011,937,15,0,,937,
-2021-01-18,Crook,Oregon,41013,610,10,0,,610,
+2021-01-18,Columbia,Oregon,41009,1049,18,0,,1049,
+2021-01-18,Coos,Oregon,41011,938,15,0,,938,
+2021-01-18,Crook,Oregon,41013,621,10,0,,621,
 2021-01-18,Curry,Oregon,41015,324,5,0,,324,
-2021-01-18,Deschutes,Oregon,41017,4952,36,0,,4952,
-2021-01-18,Douglas,Oregon,41019,1677,43,0,,1677,
+2021-01-18,Deschutes,Oregon,41017,4999,36,0,,4999,
+2021-01-18,Douglas,Oregon,41019,1687,43,0,,1687,
 2021-01-18,Gilliam,Oregon,41021,51,1,0,,51,
 2021-01-18,Grant,Oregon,41023,213,1,0,,213,
 2021-01-18,Harney,Oregon,41025,175,4,0,,175,
-2021-01-18,Hood River,Oregon,41027,951,21,0,,951,
-2021-01-18,Jackson,Oregon,41029,6892,85,0,,6892,
-2021-01-18,Jefferson,Oregon,41031,1702,25,0,,1702,
-2021-01-18,Josephine,Oregon,41033,1735,33,0,,1735,
+2021-01-18,Hood River,Oregon,41027,954,21,0,,954,
+2021-01-18,Jackson,Oregon,41029,6930,85,0,,6930,
+2021-01-18,Jefferson,Oregon,41031,1705,25,0,,1705,
+2021-01-18,Josephine,Oregon,41033,1743,33,0,,1743,
 2021-01-18,Klamath,Oregon,41035,2428,38,0,,2428,
 2021-01-18,Lake,Oregon,41037,230,5,0,,230,
-2021-01-18,Lane,Oregon,41039,8272,108,0,,8272,
-2021-01-18,Lincoln,Oregon,41041,991,17,0,,991,
-2021-01-18,Linn,Oregon,41043,3108,46,0,,3108,
-2021-01-18,Malheur,Oregon,41045,3131,52,2893,51,238,1
-2021-01-18,Marion,Oregon,41047,16172,238,0,,16172,
-2021-01-18,Morrow,Oregon,41049,933,10,824,8,109,2
-2021-01-18,Multnomah,Oregon,41051,28450,463,0,,28450,
-2021-01-18,Polk,Oregon,41053,2446,40,0,,2446,
+2021-01-18,Lane,Oregon,41039,8353,109,0,,8353,
+2021-01-18,Lincoln,Oregon,41041,996,17,0,,996,
+2021-01-18,Linn,Oregon,41043,3116,46,0,,3116,
+2021-01-18,Malheur,Oregon,41045,3135,52,2893,51,242,1
+2021-01-18,Marion,Oregon,41047,16247,239,0,,16247,
+2021-01-18,Morrow,Oregon,41049,938,10,824,8,114,2
+2021-01-18,Multnomah,Oregon,41051,28467,463,0,,28467,
+2021-01-18,Polk,Oregon,41053,2455,40,0,,2455,
 2021-01-18,Sherman,Oregon,41055,47,0,0,,47,
 2021-01-18,Tillamook,Oregon,41057,365,2,0,,365,
-2021-01-18,Umatilla,Oregon,41059,6765,68,5692,58,1073,10
+2021-01-18,Umatilla,Oregon,41059,6793,68,5692,58,1101,10
 2021-01-18,Union,Oregon,41061,1114,16,941,16,173,0
 2021-01-18,Wallowa,Oregon,41063,96,3,0,,96,
-2021-01-18,Wasco,Oregon,41065,1071,23,0,,1071,
-2021-01-18,Washington,Oregon,41067,18731,171,0,,18731,
+2021-01-18,Wasco,Oregon,41065,1081,23,0,,1081,
+2021-01-18,Washington,Oregon,41067,18734,171,0,,18734,
 2021-01-18,Wheeler,Oregon,41069,20,1,0,,20,
-2021-01-18,Yamhill,Oregon,41071,3189,46,0,,3189,
+2021-01-18,Yamhill,Oregon,41071,3190,46,0,,3190,
 2021-01-18,Adams,Pennsylvania,42001,5892,124,5202,,690,
 2021-01-18,Allegheny,Pennsylvania,42003,64680,1336,51719,1139,12961,197
 2021-01-18,Armstrong,Pennsylvania,42005,4302,90,3433,,869,
@@ -2524,162 +2524,162 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-01-18,Walworth,South Dakota,46129,684,14,623,,61,
 2021-01-18,Yankton,South Dakota,46135,2689,27,2580,,109,
 2021-01-18,Ziebach,South Dakota,46137,334,8,219,,115,
-2021-01-18,Anderson,Tennessee,47001,6759,102,5439,,1320,
-2021-01-18,Bedford,Tennessee,47003,5320,86,4338,,982,
-2021-01-18,Benton,Tennessee,47005,1319,35,1141,,178,
-2021-01-18,Bledsoe,Tennessee,47007,1741,10,1635,,106,
-2021-01-18,Blount,Tennessee,47009,11887,124,10588,,1299,
-2021-01-18,Bradley,Tennessee,47011,10751,90,9335,,1416,
-2021-01-18,Campbell,Tennessee,47013,3239,40,2012,,1227,
-2021-01-18,Cannon,Tennessee,47015,1570,19,1312,,258,
-2021-01-18,Carroll,Tennessee,47017,3078,59,2141,,937,
-2021-01-18,Carter,Tennessee,47019,5091,112,4503,,588,
-2021-01-18,Cheatham,Tennessee,47021,3352,30,2757,,595,
-2021-01-18,Chester,Tennessee,47023,1732,37,1262,,470,
-2021-01-18,Claiborne,Tennessee,47025,2101,29,1505,,596,
-2021-01-18,Clay,Tennessee,47027,937,26,653,,284,
-2021-01-18,Cocke,Tennessee,47029,3428,56,2508,,920,
-2021-01-18,Coffee,Tennessee,47031,5606,81,4134,,1472,
-2021-01-18,Crockett,Tennessee,47033,1803,38,1114,,689,
-2021-01-18,Cumberland,Tennessee,47035,5378,72,4617,,761,
-2021-01-18,Davidson,Tennessee,47037,80154,661,67786,443,12368,218
-2021-01-18,Decatur,Tennessee,47039,1472,26,1125,,347,
-2021-01-18,DeKalb,Tennessee,47041,2417,41,1848,,569,
-2021-01-18,Dickson,Tennessee,47043,5346,78,4095,,1251,
-2021-01-18,Dyer,Tennessee,47045,4736,82,3255,,1481,
-2021-01-18,Fayette,Tennessee,47047,3962,51,3528,,434,
-2021-01-18,Fentress,Tennessee,47049,2125,31,1877,,248,
-2021-01-18,Franklin,Tennessee,47051,4107,58,3533,,574,
-2021-01-18,Gibson,Tennessee,47053,5630,111,3516,,2114,
-2021-01-18,Giles,Tennessee,47055,3210,71,2774,,436,
-2021-01-18,Grainger,Tennessee,47057,2081,35,1647,,434,
-2021-01-18,Greene,Tennessee,47059,6569,108,5279,,1290,
-2021-01-18,Grundy,Tennessee,47061,1393,20,1230,,163,
-2021-01-18,Hamblen,Tennessee,47063,6954,109,5352,,1602,
-2021-01-18,Hamilton,Tennessee,47065,35891,326,30641,326,5250,0
-2021-01-18,Hancock,Tennessee,47067,402,6,301,,101,
-2021-01-18,Hardeman,Tennessee,47069,3087,52,2622,,465,
-2021-01-18,Hardin,Tennessee,47071,2976,47,2090,,886,
-2021-01-18,Hawkins,Tennessee,47073,4449,68,3743,,706,
-2021-01-18,Haywood,Tennessee,47075,2397,45,2049,,348,
-2021-01-18,Henderson,Tennessee,47077,3320,56,2354,,966,
-2021-01-18,Henry,Tennessee,47079,2603,58,2127,,476,
-2021-01-18,Hickman,Tennessee,47081,2227,34,1891,,336,
+2021-01-18,Anderson,Tennessee,47001,6792,103,5454,,1338,
+2021-01-18,Bedford,Tennessee,47003,5325,89,4343,,982,
+2021-01-18,Benton,Tennessee,47005,1321,35,1141,,180,
+2021-01-18,Bledsoe,Tennessee,47007,1742,10,1636,,106,
+2021-01-18,Blount,Tennessee,47009,11914,125,10606,,1308,
+2021-01-18,Bradley,Tennessee,47011,10791,91,9363,,1428,
+2021-01-18,Campbell,Tennessee,47013,3245,40,2016,,1229,
+2021-01-18,Cannon,Tennessee,47015,1577,19,1315,,262,
+2021-01-18,Carroll,Tennessee,47017,3104,59,2159,,945,
+2021-01-18,Carter,Tennessee,47019,5109,112,4520,,589,
+2021-01-18,Cheatham,Tennessee,47021,3362,30,2767,,595,
+2021-01-18,Chester,Tennessee,47023,1738,37,1268,,470,
+2021-01-18,Claiborne,Tennessee,47025,2127,29,1510,,617,
+2021-01-18,Clay,Tennessee,47027,939,26,653,,286,
+2021-01-18,Cocke,Tennessee,47029,3438,56,2511,,927,
+2021-01-18,Coffee,Tennessee,47031,5628,82,4152,,1476,
+2021-01-18,Crockett,Tennessee,47033,1807,38,1115,,692,
+2021-01-18,Cumberland,Tennessee,47035,5400,72,4635,,765,
+2021-01-18,Davidson,Tennessee,47037,80154,665,68004,443,12150,222
+2021-01-18,Decatur,Tennessee,47039,1473,26,1127,,346,
+2021-01-18,DeKalb,Tennessee,47041,2423,41,1854,,569,
+2021-01-18,Dickson,Tennessee,47043,5363,78,4111,,1252,
+2021-01-18,Dyer,Tennessee,47045,4749,82,3255,,1494,
+2021-01-18,Fayette,Tennessee,47047,3978,51,3544,,434,
+2021-01-18,Fentress,Tennessee,47049,2128,31,1878,,250,
+2021-01-18,Franklin,Tennessee,47051,4121,61,3542,,579,
+2021-01-18,Gibson,Tennessee,47053,5639,111,3521,,2118,
+2021-01-18,Giles,Tennessee,47055,3217,72,2778,,439,
+2021-01-18,Grainger,Tennessee,47057,2090,35,1650,,440,
+2021-01-18,Greene,Tennessee,47059,6598,108,5294,,1304,
+2021-01-18,Grundy,Tennessee,47061,1393,21,1230,,163,
+2021-01-18,Hamblen,Tennessee,47063,6990,109,5369,,1621,
+2021-01-18,Hamilton,Tennessee,47065,35891,327,30747,326,5144,1
+2021-01-18,Hancock,Tennessee,47067,405,6,302,,103,
+2021-01-18,Hardeman,Tennessee,47069,3094,52,2625,,469,
+2021-01-18,Hardin,Tennessee,47071,2981,47,2091,,890,
+2021-01-18,Hawkins,Tennessee,47073,4462,68,3749,,713,
+2021-01-18,Haywood,Tennessee,47075,2398,45,2049,,349,
+2021-01-18,Henderson,Tennessee,47077,3330,57,2362,,968,
+2021-01-18,Henry,Tennessee,47079,2608,58,2131,,477,
+2021-01-18,Hickman,Tennessee,47081,2235,34,1897,,338,
 2021-01-18,Houston,Tennessee,47083,939,22,723,,216,
-2021-01-18,Humphreys,Tennessee,47085,1326,17,924,,402,
-2021-01-18,Jackson,Tennessee,47087,1037,21,810,,227,
-2021-01-18,Jefferson,Tennessee,47089,4749,75,3506,,1243,
-2021-01-18,Johnson,Tennessee,47091,2015,32,1846,,169,
+2021-01-18,Humphreys,Tennessee,47085,1328,17,925,,403,
+2021-01-18,Jackson,Tennessee,47087,1040,21,812,,228,
+2021-01-18,Jefferson,Tennessee,47089,4779,75,3522,,1257,
+2021-01-18,Johnson,Tennessee,47091,2018,32,1849,,169,
 2021-01-18,Knox,Tennessee,47093,40145,407,35289,,4856,
-2021-01-18,Lake,Tennessee,47095,1553,19,1388,,165,
-2021-01-18,Lauderdale,Tennessee,47097,2931,31,2304,,627,
-2021-01-18,Lawrence,Tennessee,47099,5075,69,4044,,1031,
-2021-01-18,Lewis,Tennessee,47101,1272,20,1061,,211,
-2021-01-18,Lincoln,Tennessee,47103,3783,44,2977,,806,
-2021-01-18,Loudon,Tennessee,47105,4937,50,4090,,847,
-2021-01-18,Macon,Tennessee,47111,2873,50,2351,,522,
-2021-01-18,Madison,Tennessee,47113,9099,178,5157,,3942,
-2021-01-18,Marion,Tennessee,47115,2277,31,2033,,244,
-2021-01-18,Marshall,Tennessee,47117,3435,36,2898,,537,
-2021-01-18,Maury,Tennessee,47119,10941,123,10007,,934,
-2021-01-18,McMinn,Tennessee,47107,5066,73,4636,,430,
-2021-01-18,McNairy,Tennessee,47109,2381,42,1727,,654,
-2021-01-18,Meigs,Tennessee,47121,1140,16,1054,,86,
-2021-01-18,Monroe,Tennessee,47123,4551,62,3795,,756,
-2021-01-18,Montgomery,Tennessee,47125,14367,149,11106,,3261,
-2021-01-18,Moore,Tennessee,47127,795,9,626,,169,
-2021-01-18,Morgan,Tennessee,47129,1886,14,1470,,416,
-2021-01-18,Obion,Tennessee,47131,3994,78,3037,,957,
-2021-01-18,Overton,Tennessee,47133,2529,42,1944,,585,
+2021-01-18,Lake,Tennessee,47095,1555,19,1390,,165,
+2021-01-18,Lauderdale,Tennessee,47097,2937,31,2310,,627,
+2021-01-18,Lawrence,Tennessee,47099,5089,69,4054,,1035,
+2021-01-18,Lewis,Tennessee,47101,1275,20,1064,,211,
+2021-01-18,Lincoln,Tennessee,47103,3794,44,2983,,811,
+2021-01-18,Loudon,Tennessee,47105,4955,50,4095,,860,
+2021-01-18,Macon,Tennessee,47111,2888,50,2367,,521,
+2021-01-18,Madison,Tennessee,47113,9131,179,5176,,3955,
+2021-01-18,Marion,Tennessee,47115,2284,31,2036,,248,
+2021-01-18,Marshall,Tennessee,47117,3454,36,2908,,546,
+2021-01-18,Maury,Tennessee,47119,10962,123,10026,,936,
+2021-01-18,McMinn,Tennessee,47107,5085,73,4649,,436,
+2021-01-18,McNairy,Tennessee,47109,2386,42,1730,,656,
+2021-01-18,Meigs,Tennessee,47121,1144,16,1057,,87,
+2021-01-18,Monroe,Tennessee,47123,4571,62,3808,,763,
+2021-01-18,Montgomery,Tennessee,47125,14450,149,11165,,3285,
+2021-01-18,Moore,Tennessee,47127,800,9,628,,172,
+2021-01-18,Morgan,Tennessee,47129,1890,15,1474,,416,
+2021-01-18,Obion,Tennessee,47131,3996,79,3039,,957,
+2021-01-18,Overton,Tennessee,47133,2538,43,1944,,594,
 2021-01-18,Perry,Tennessee,47135,947,25,836,,111,
-2021-01-18,Pickett,Tennessee,47137,676,19,452,,224,
-2021-01-18,Polk,Tennessee,47139,1428,17,1329,,99,
-2021-01-18,Putnam,Tennessee,47141,9931,136,8381,,1550,
-2021-01-18,Rhea,Tennessee,47143,3815,56,3400,,415,
-2021-01-18,Roane,Tennessee,47145,5191,79,4211,,980,
-2021-01-18,Robertson,Tennessee,47147,7618,85,6380,,1238,
-2021-01-18,Rutherford,Tennessee,47149,33114,283,29774,,3340,
-2021-01-18,Scott,Tennessee,47151,2252,31,1495,,757,
-2021-01-18,Sequatchie,Tennessee,47153,1365,18,1170,,195,
-2021-01-18,Sevier,Tennessee,47155,10461,108,9502,,959,
+2021-01-18,Pickett,Tennessee,47137,679,19,452,,227,
+2021-01-18,Polk,Tennessee,47139,1436,17,1335,,101,
+2021-01-18,Putnam,Tennessee,47141,9952,136,8394,,1558,
+2021-01-18,Rhea,Tennessee,47143,3824,56,3407,,417,
+2021-01-18,Roane,Tennessee,47145,5212,79,4221,,991,
+2021-01-18,Robertson,Tennessee,47147,7645,85,6403,,1242,
+2021-01-18,Rutherford,Tennessee,47149,33228,285,29878,,3350,
+2021-01-18,Scott,Tennessee,47151,2254,31,1493,,761,
+2021-01-18,Sequatchie,Tennessee,47153,1371,18,1175,,196,
+2021-01-18,Sevier,Tennessee,47155,10495,108,9521,,974,
 2021-01-18,Shelby,Tennessee,47157,78020,1140,73746,1042,4274,98
-2021-01-18,Smith,Tennessee,47159,2305,27,1835,,470,
-2021-01-18,Stewart,Tennessee,47161,1052,20,827,,225,
-2021-01-18,Sullivan,Tennessee,47163,12577,211,11126,,1451,
-2021-01-18,Sumner,Tennessee,47165,18205,230,16950,,1255,
-2021-01-18,Tipton,Tennessee,47167,6190,65,4555,,1635,
-2021-01-18,Trousdale,Tennessee,47169,2287,14,2187,,100,
-2021-01-18,Unicoi,Tennessee,47171,1668,43,1329,,339,
-2021-01-18,Union,Tennessee,47173,1387,21,1208,,179,
-2021-01-18,Unknown,Tennessee,,12444,100,12444,,0,
-2021-01-18,Van Buren,Tennessee,47175,658,7,563,,95,
-2021-01-18,Warren,Tennessee,47177,4975,53,4339,,636,
-2021-01-18,Washington,Tennessee,47179,11889,191,10384,,1505,
-2021-01-18,Wayne,Tennessee,47181,2607,19,2187,,420,
-2021-01-18,Weakley,Tennessee,47183,3394,48,2644,,750,
-2021-01-18,White,Tennessee,47185,3100,43,2640,,460,
-2021-01-18,Williamson,Tennessee,47187,21364,138,18948,,2416,
-2021-01-18,Wilson,Tennessee,47189,14405,155,13345,,1060,
+2021-01-18,Smith,Tennessee,47159,2313,27,1842,,471,
+2021-01-18,Stewart,Tennessee,47161,1055,20,829,,226,
+2021-01-18,Sullivan,Tennessee,47163,12606,211,11152,,1454,
+2021-01-18,Sumner,Tennessee,47165,18262,232,17004,,1258,
+2021-01-18,Tipton,Tennessee,47167,6210,65,4564,,1646,
+2021-01-18,Trousdale,Tennessee,47169,2288,14,2188,,100,
+2021-01-18,Unicoi,Tennessee,47171,1670,43,1329,,341,
+2021-01-18,Union,Tennessee,47173,1394,22,1211,,183,
+2021-01-18,Unknown,Tennessee,,12961,107,12961,,0,
+2021-01-18,Van Buren,Tennessee,47175,660,7,564,,96,
+2021-01-18,Warren,Tennessee,47177,4987,53,4347,,640,
+2021-01-18,Washington,Tennessee,47179,11911,191,10400,,1511,
+2021-01-18,Wayne,Tennessee,47181,2613,19,2191,,422,
+2021-01-18,Weakley,Tennessee,47183,3399,48,2648,,751,
+2021-01-18,White,Tennessee,47185,3113,43,2650,,463,
+2021-01-18,Williamson,Tennessee,47187,21449,140,19019,,2430,
+2021-01-18,Wilson,Tennessee,47189,14449,157,13387,,1062,
 2021-01-18,Anderson,Texas,48001,5575,74,4511,,1064,
 2021-01-18,Andrews,Texas,48003,1606,36,1606,,0,
 2021-01-18,Angelina,Texas,48005,6552,191,4012,66,2540,125
 2021-01-18,Aransas,Texas,48007,893,26,665,,228,
-2021-01-18,Archer,Texas,48009,694,8,617,,77,
+2021-01-18,Archer,Texas,48009,694,10,617,,77,
 2021-01-18,Armstrong,Texas,48011,126,6,85,,41,
-2021-01-18,Atascosa,Texas,48013,3781,87,2951,1,830,86
-2021-01-18,Austin,Texas,48015,1368,17,1209,,159,
+2021-01-18,Atascosa,Texas,48013,3781,88,2951,1,830,87
+2021-01-18,Austin,Texas,48015,1383,17,1224,,159,
 2021-01-18,Bailey,Texas,48017,741,14,556,,185,
 2021-01-18,Bandera,Texas,48019,820,20,643,,177,
-2021-01-18,Bastrop,Texas,48021,4361,55,3355,2,1006,53
+2021-01-18,Bastrop,Texas,48021,4362,55,3356,2,1006,53
 2021-01-18,Baylor,Texas,48023,274,9,107,,167,
 2021-01-18,Bee,Texas,48025,3060,53,2691,,369,
 2021-01-18,Bell,Texas,48027,16512,208,16512,188,0,20
-2021-01-18,Bexar,Texas,48029,148567,2019,123501,1809,25066,210
+2021-01-18,Bexar,Texas,48029,148567,2020,123501,1809,25066,211
 2021-01-18,Blanco,Texas,48031,318,11,265,,53,
 2021-01-18,Borden,Texas,48033,18,0,12,,6,
-2021-01-18,Bosque,Texas,48035,984,20,803,,181,
-2021-01-18,Bowie,Texas,48037,4779,138,3489,26,1290,112
-2021-01-18,Brazoria,Texas,48039,25714,275,22918,232,2796,43
+2021-01-18,Bosque,Texas,48035,985,20,803,,182,
+2021-01-18,Bowie,Texas,48037,4829,138,3532,26,1297,112
+2021-01-18,Brazoria,Texas,48039,25906,275,23078,232,2828,43
 2021-01-18,Brazos,Texas,48041,16634,161,13880,151,2754,10
-2021-01-18,Brewster,Texas,48043,939,8,904,,35,
+2021-01-18,Brewster,Texas,48043,940,8,905,,35,
 2021-01-18,Briscoe,Texas,48045,113,3,65,,48,
 2021-01-18,Brooks,Texas,48047,683,29,586,,97,
 2021-01-18,Brown,Texas,48049,3382,93,1643,93,1739,
 2021-01-18,Burleson,Texas,48051,1092,22,909,,183,
-2021-01-18,Burnet,Texas,48053,2193,34,2020,,173,
-2021-01-18,Caldwell,Texas,48055,2726,55,2560,51,166,4
+2021-01-18,Burnet,Texas,48053,2194,34,2021,,173,
+2021-01-18,Caldwell,Texas,48055,2735,55,2567,51,168,4
 2021-01-18,Calhoun,Texas,48057,1361,12,1254,3,107,9
 2021-01-18,Callahan,Texas,48059,931,27,481,1,450,26
 2021-01-18,Cameron,Texas,48061,32698,1225,32698,1225,0,
-2021-01-18,Camp,Texas,48063,961,32,685,,276,
+2021-01-18,Camp,Texas,48063,963,32,686,,277,
 2021-01-18,Carson,Texas,48065,330,11,198,,132,
-2021-01-18,Cass,Texas,48067,1476,58,988,3,488,55
+2021-01-18,Cass,Texas,48067,1487,58,999,3,488,55
 2021-01-18,Castro,Texas,48069,831,22,600,1,231,21
 2021-01-18,Chambers,Texas,48071,3431,31,3431,31,0,
-2021-01-18,Cherokee,Texas,48073,3491,88,2096,2,1395,86
+2021-01-18,Cherokee,Texas,48073,3491,91,2096,2,1395,89
 2021-01-18,Childress,Texas,48075,1284,13,1241,,43,
 2021-01-18,Clay,Texas,48077,874,13,819,,55,
 2021-01-18,Cochran,Texas,48079,215,12,203,,12,
 2021-01-18,Coke,Texas,48081,426,10,232,,194,
 2021-01-18,Coleman,Texas,48083,579,20,419,,160,
-2021-01-18,Collin,Texas,48085,63239,472,54797,105,8442,367
+2021-01-18,Collin,Texas,48085,63842,474,55352,105,8490,369
 2021-01-18,Collingsworth,Texas,48087,236,8,169,,67,
-2021-01-18,Colorado,Texas,48089,1235,17,1071,,164,
+2021-01-18,Colorado,Texas,48089,1238,17,1074,,164,
 2021-01-18,Comal,Texas,48091,7314,220,4153,220,3161,
 2021-01-18,Comanche,Texas,48093,1118,36,915,1,203,35
 2021-01-18,Concho,Texas,48095,245,4,143,,102,
 2021-01-18,Cooke,Texas,48097,2806,45,2481,,325,
-2021-01-18,Coryell,Texas,48099,4313,42,4192,2,121,40
+2021-01-18,Coryell,Texas,48099,4314,42,4193,2,121,40
 2021-01-18,Cottle,Texas,48101,176,7,131,1,45,6
 2021-01-18,Crane,Texas,48103,482,11,184,,298,
 2021-01-18,Crockett,Texas,48105,468,13,210,,258,
 2021-01-18,Crosby,Texas,48107,380,22,258,1,122,21
 2021-01-18,Culberson,Texas,48109,293,4,275,,18,
 2021-01-18,Dallam,Texas,48111,465,20,430,,35,
-2021-01-18,Dallas,Texas,48113,234625,2425,207640,1871,26985,554
+2021-01-18,Dallas,Texas,48113,234625,2431,207640,1871,26985,560
 2021-01-18,Dawson,Texas,48115,1575,59,1575,1,0,58
 2021-01-18,Deaf Smith,Texas,48117,2512,60,2512,59,,1
-2021-01-18,Delta,Texas,48119,208,5,114,,94,
+2021-01-18,Delta,Texas,48119,209,5,115,,94,
 2021-01-18,Denton,Texas,48121,46272,433,37473,,8799,
 2021-01-18,DeWitt,Texas,48123,1553,50,1553,1,0,49
 2021-01-18,Dickens,Texas,48125,135,7,90,,45,
@@ -2690,29 +2690,29 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-01-18,Ector,Texas,48135,12222,267,6547,,5675,
 2021-01-18,Edwards,Texas,48137,207,3,182,,25,
 2021-01-18,Ellis,Texas,48139,16403,199,14457,12,1946,187
-2021-01-18,El Paso,Texas,48141,107191,1935,107191,1590,,345
+2021-01-18,El Paso,Texas,48141,107191,1936,107191,1590,0,346
 2021-01-18,Erath,Texas,48143,3470,42,2370,1,1100,41
 2021-01-18,Falls,Texas,48145,1308,22,1245,,63,
 2021-01-18,Fannin,Texas,48147,2439,66,2063,2,376,64
-2021-01-18,Fayette,Texas,48149,1431,43,811,2,620,41
+2021-01-18,Fayette,Texas,48149,1432,43,812,2,620,41
 2021-01-18,Fisher,Texas,48151,266,10,266,1,0,9
 2021-01-18,Floyd,Texas,48153,628,25,270,,358,
 2021-01-18,Foard,Texas,48155,91,5,60,,31,
-2021-01-18,Fort Bend,Texas,48157,43662,436,38728,405,4934,31
-2021-01-18,Franklin,Texas,48159,558,15,400,,158,
+2021-01-18,Fort Bend,Texas,48157,44067,437,39133,405,4934,32
+2021-01-18,Franklin,Texas,48159,560,15,401,,159,
 2021-01-18,Freestone,Texas,48161,988,29,672,,316,
 2021-01-18,Frio,Texas,48163,2148,23,1766,,382,
 2021-01-18,Gaines,Texas,48165,1302,36,1302,,0,
 2021-01-18,Galveston,Texas,48167,26898,248,23801,213,3097,35
 2021-01-18,Garza,Texas,48169,277,18,191,,86,
-2021-01-18,Gillespie,Texas,48171,1830,31,1368,,462,
-2021-01-18,Glasscock,Texas,48173,94,1,42,,52,
+2021-01-18,Gillespie,Texas,48171,1830,32,1368,,462,
+2021-01-18,Glasscock,Texas,48173,93,1,41,,52,
 2021-01-18,Goliad,Texas,48175,299,9,220,,79,
 2021-01-18,Gonzales,Texas,48177,1962,29,1842,2,120,27
 2021-01-18,Gray,Texas,48179,1748,40,1537,2,211,38
 2021-01-18,Grayson,Texas,48181,8766,220,8766,2,0,218
 2021-01-18,Gregg,Texas,48183,8451,217,4904,87,3547,130
-2021-01-18,Grimes,Texas,48185,1960,51,1768,1,192,50
+2021-01-18,Grimes,Texas,48185,1975,51,1773,1,202,50
 2021-01-18,Guadalupe,Texas,48187,9123,126,7594,,1529,
 2021-01-18,Hale,Texas,48189,5636,134,5636,122,0,12
 2021-01-18,Hall,Texas,48191,339,11,260,,79,
@@ -2720,24 +2720,24 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-01-18,Hansford,Texas,48195,671,17,317,2,354,15
 2021-01-18,Hardeman,Texas,48197,319,9,265,0,54,9
 2021-01-18,Hardin,Texas,48199,4080,68,2203,5,1877,63
-2021-01-18,Harris,Texas,48201,284917,3792,284917,2780,,1012
-2021-01-18,Harrison,Texas,48203,3485,70,1880,68,1605,2
+2021-01-18,Harris,Texas,48201,286356,3795,286356,2780,,1015
+2021-01-18,Harrison,Texas,48203,3501,70,1893,68,1608,2
 2021-01-18,Hartley,Texas,48205,316,2,292,2,24,
 2021-01-18,Haskell,Texas,48207,355,14,171,,184,
 2021-01-18,Hays,Texas,48209,14460,154,12948,87,1512,67
 2021-01-18,Hemphill,Texas,48211,446,2,417,,29,
-2021-01-18,Henderson,Texas,48213,4434,100,2989,58,1445,42
+2021-01-18,Henderson,Texas,48213,4434,101,2989,58,1445,43
 2021-01-18,Hidalgo,Texas,48215,57337,2293,57337,2293,,
-2021-01-18,Hill,Texas,48217,2397,46,1976,1,421,45
+2021-01-18,Hill,Texas,48217,2398,47,1977,1,421,46
 2021-01-18,Hockley,Texas,48219,2039,91,1834,1,205,90
 2021-01-18,Hood,Texas,48221,5050,85,3328,3,1722,82
-2021-01-18,Hopkins,Texas,48223,2508,85,1296,,1212,
-2021-01-18,Houston,Texas,48225,1335,29,739,,596,
-2021-01-18,Howard,Texas,48227,4170,77,2643,1,1527,76
-2021-01-18,Hudspeth,Texas,48229,487,8,468,,19,
+2021-01-18,Hopkins,Texas,48223,2513,85,1300,,1213,
+2021-01-18,Houston,Texas,48225,1352,29,750,,602,
+2021-01-18,Howard,Texas,48227,4187,77,2659,1,1528,76
+2021-01-18,Hudspeth,Texas,48229,490,8,471,,19,
 2021-01-18,Hunt,Texas,48231,4557,101,4557,3,0,98
 2021-01-18,Hutchinson,Texas,48233,1252,57,896,,356,
-2021-01-18,Irion,Texas,48235,79,1,38,,41,
+2021-01-18,Irion,Texas,48235,80,1,39,,41,
 2021-01-18,Jack,Texas,48237,530,12,468,,62,
 2021-01-18,Jackson,Texas,48239,1284,23,1186,1,98,22
 2021-01-18,Jasper,Texas,48241,1933,48,771,2,1162,46
@@ -2745,7 +2745,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-01-18,Jefferson,Texas,48245,15897,261,15897,30,0,231
 2021-01-18,Jim Hogg,Texas,48247,486,11,464,,22,
 2021-01-18,Jim Wells,Texas,48249,3406,70,2996,,410,
-2021-01-18,Johnson,Texas,48251,14435,207,12872,24,1563,183
+2021-01-18,Johnson,Texas,48251,14435,210,12872,24,1563,186
 2021-01-18,Jones,Texas,48253,2508,35,1954,,554,
 2021-01-18,Karnes,Texas,48255,1387,26,1323,,64,
 2021-01-18,Kaufman,Texas,48257,11450,150,9962,2,1488,148
@@ -2760,27 +2760,27 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-01-18,Knox,Texas,48275,207,12,144,,63,
 2021-01-18,Lamar,Texas,48277,4956,109,2302,87,2654,22
 2021-01-18,Lamb,Texas,48279,1799,73,1405,,394,
-2021-01-18,Lampasas,Texas,48281,908,17,807,,101,
+2021-01-18,Lampasas,Texas,48281,914,17,813,,101,
 2021-01-18,La Salle,Texas,48283,817,15,626,,191,
 2021-01-18,Lavaca,Texas,48285,1862,62,1666,1,196,61
-2021-01-18,Lee,Texas,48287,1180,34,489,,691,
-2021-01-18,Leon,Texas,48289,869,28,645,,224,
-2021-01-18,Liberty,Texas,48291,5044,110,4015,3,1029,107
-2021-01-18,Limestone,Texas,48293,1417,33,1171,1,246,32
+2021-01-18,Lee,Texas,48287,1182,34,491,,691,
+2021-01-18,Leon,Texas,48289,875,28,649,,226,
+2021-01-18,Liberty,Texas,48291,5075,110,4046,3,1029,107
+2021-01-18,Limestone,Texas,48293,1420,34,1171,1,249,33
 2021-01-18,Lipscomb,Texas,48295,245,10,227,,18,
 2021-01-18,Live Oak,Texas,48297,967,16,759,,208,
 2021-01-18,Llano,Texas,48299,805,29,558,,247,
 2021-01-18,Loving,Texas,48301,1,0,1,,0,
-2021-01-18,Lubbock,Texas,48303,45490,640,45308,631,182,9
+2021-01-18,Lubbock,Texas,48303,45490,641,45490,631,0,10
 2021-01-18,Lynn,Texas,48305,571,17,571,1,0,16
-2021-01-18,Madison,Texas,48313,1158,19,993,,165,
-2021-01-18,Marion,Texas,48315,391,20,280,,111,
-2021-01-18,Martin,Texas,48317,579,17,331,1,248,16
-2021-01-18,Mason,Texas,48319,335,4,212,,123,
-2021-01-18,Matagorda,Texas,48321,2549,72,2291,5,258,67
+2021-01-18,Madison,Texas,48313,1162,19,995,,167,
+2021-01-18,Marion,Texas,48315,393,20,282,,111,
+2021-01-18,Martin,Texas,48317,580,17,331,1,249,16
+2021-01-18,Mason,Texas,48319,336,4,213,,123,
+2021-01-18,Matagorda,Texas,48321,2578,72,2319,5,259,67
 2021-01-18,Maverick,Texas,48323,8189,222,8189,1,0,221
-2021-01-18,McCulloch,Texas,48307,463,12,359,,104,
-2021-01-18,McLennan,Texas,48309,21894,339,21894,325,0,14
+2021-01-18,McCulloch,Texas,48307,464,12,359,,105,
+2021-01-18,McLennan,Texas,48309,21894,341,21894,325,0,16
 2021-01-18,McMullen,Texas,48311,70,2,56,,14,
 2021-01-18,Medina,Texas,48325,3253,61,2456,2,797,59
 2021-01-18,Menard,Texas,48327,180,5,131,,49,
@@ -2790,46 +2790,46 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-01-18,Mitchell,Texas,48335,535,20,535,,0,
 2021-01-18,Montague,Texas,48337,1713,45,1462,1,251,44
 2021-01-18,Montgomery,Texas,48339,33006,321,28126,195,4880,126
-2021-01-18,Moore,Texas,48341,2115,56,1859,13,256,43
-2021-01-18,Morris,Texas,48343,663,15,459,,204,
+2021-01-18,Moore,Texas,48341,2115,57,1859,13,256,44
+2021-01-18,Morris,Texas,48343,665,15,461,,204,
 2021-01-18,Motley,Texas,48345,79,6,31,,48,
-2021-01-18,Nacogdoches,Texas,48347,3469,110,2735,17,734,93
+2021-01-18,Nacogdoches,Texas,48347,3484,110,2748,17,736,93
 2021-01-18,Navarro,Texas,48349,4798,71,3005,71,1793,
-2021-01-18,Newton,Texas,48351,460,19,236,,224,
+2021-01-18,Newton,Texas,48351,460,20,236,,224,
 2021-01-18,Nolan,Texas,48353,1399,38,1399,,0,
 2021-01-18,Nueces,Texas,48355,32850,608,23204,608,9646,
 2021-01-18,Ochiltree,Texas,48357,965,19,870,2,95,17
 2021-01-18,Oldham,Texas,48359,167,2,90,1,77,1
 2021-01-18,Orange,Texas,48361,5948,79,3421,2,2527,77
 2021-01-18,Palo Pinto,Texas,48363,2298,48,2034,2,264,46
-2021-01-18,Panola,Texas,48365,1207,49,795,,412,
+2021-01-18,Panola,Texas,48365,1212,49,799,,413,
 2021-01-18,Parker,Texas,48367,11314,114,9414,1,1900,113
 2021-01-18,Parmer,Texas,48369,1112,32,803,,309,
-2021-01-18,Pecos,Texas,48371,1379,26,1159,,220,
+2021-01-18,Pecos,Texas,48371,1390,26,1171,,219,
 2021-01-18,Polk,Texas,48373,2450,69,1226,61,1224,8
 2021-01-18,Potter,Texas,48375,15947,333,15947,333,0,
-2021-01-18,Presidio,Texas,48377,627,19,594,,33,
+2021-01-18,Presidio,Texas,48377,629,19,595,,34,
 2021-01-18,Rains,Texas,48379,632,19,309,6,323,13
 2021-01-18,Randall,Texas,48381,15104,224,15104,224,0,
 2021-01-18,Reagan,Texas,48383,357,7,190,,167,
 2021-01-18,Real,Texas,48385,263,12,244,,19,
-2021-01-18,Red River,Texas,48387,541,31,342,4,199,27
-2021-01-18,Reeves,Texas,48389,1518,33,835,,683,
+2021-01-18,Red River,Texas,48387,543,31,344,4,199,27
+2021-01-18,Reeves,Texas,48389,1520,33,836,,684,
 2021-01-18,Refugio,Texas,48391,536,17,489,,47,
 2021-01-18,Roberts,Texas,48393,48,1,46,,2,
 2021-01-18,Robertson,Texas,48395,1069,24,806,,263,
-2021-01-18,Rockwall,Texas,48397,8222,74,6873,66,1349,8
+2021-01-18,Rockwall,Texas,48397,8222,75,6873,66,1349,9
 2021-01-18,Runnels,Texas,48399,1085,25,668,,417,
-2021-01-18,Rusk,Texas,48401,2964,63,1710,2,1254,61
+2021-01-18,Rusk,Texas,48401,3021,65,1751,2,1270,63
 2021-01-18,Sabine,Texas,48403,446,25,167,,279,
 2021-01-18,San Augustine,Texas,48405,489,26,316,12,173,14
-2021-01-18,San Jacinto,Texas,48407,606,21,433,,173,
+2021-01-18,San Jacinto,Texas,48407,620,21,447,,173,
 2021-01-18,San Patricio,Texas,48409,3450,111,2645,,805,
-2021-01-18,San Saba,Texas,48411,484,15,373,,111,
-2021-01-18,Schleicher,Texas,48413,184,6,106,,78,
+2021-01-18,San Saba,Texas,48411,485,15,374,,111,
+2021-01-18,Schleicher,Texas,48413,185,6,106,,79,
 2021-01-18,Scurry,Texas,48415,2270,46,2270,,0,
 2021-01-18,Shackelford,Texas,48417,187,1,100,,87,
-2021-01-18,Shelby,Texas,48419,1258,45,752,6,506,39
+2021-01-18,Shelby,Texas,48419,1266,45,759,6,507,39
 2021-01-18,Sherman,Texas,48421,117,11,101,,16,
 2021-01-18,Smith,Texas,48423,15407,307,8882,158,6525,149
 2021-01-18,Somervell,Texas,48425,883,8,486,,397,
@@ -2837,32 +2837,32 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-01-18,Stephens,Texas,48429,632,19,405,,227,
 2021-01-18,Sterling,Texas,48431,96,4,43,,53,
 2021-01-18,Stonewall,Texas,48433,134,3,48,,86,
-2021-01-18,Sutton,Texas,48435,398,6,243,,155,
+2021-01-18,Sutton,Texas,48435,401,6,246,,155,
 2021-01-18,Swisher,Texas,48437,678,14,359,,319,
-2021-01-18,Tarrant,Texas,48439,190886,1825,165131,1825,25755,
-2021-01-18,Taylor,Texas,48441,13133,260,6085,235,7048,25
+2021-01-18,Tarrant,Texas,48439,195518,1892,169160,1892,26358,
+2021-01-18,Taylor,Texas,48441,13228,261,6134,235,7094,26
 2021-01-18,Terrell,Texas,48443,72,1,65,,7,
 2021-01-18,Terry,Texas,48445,1475,46,1475,,0,
 2021-01-18,Throckmorton,Texas,48447,56,3,35,,21,
-2021-01-18,Titus,Texas,48449,3107,55,2376,14,731,41
+2021-01-18,Titus,Texas,48449,3115,58,2384,14,731,44
 2021-01-18,Tom Green,Texas,48451,14823,201,4323,16,10500,185
-2021-01-18,Travis,Texas,48453,60782,614,60782,592,,22
-2021-01-18,Trinity,Texas,48455,488,12,353,,135,
+2021-01-18,Travis,Texas,48453,61468,618,61468,600,,18
+2021-01-18,Trinity,Texas,48455,498,12,365,,133,
 2021-01-18,Tyler,Texas,48457,982,19,458,,524,
-2021-01-18,Upshur,Texas,48459,2540,40,1026,,1514,
+2021-01-18,Upshur,Texas,48459,2547,40,1032,,1515,
 2021-01-18,Upton,Texas,48461,286,7,61,,225,
-2021-01-18,Uvalde,Texas,48463,2590,47,2525,,65,
+2021-01-18,Uvalde,Texas,48463,2648,47,2580,,68,
 2021-01-18,Val Verde,Texas,48465,6331,157,6331,157,0,0
 2021-01-18,Van Zandt,Texas,48467,3154,76,1922,47,1232,29
 2021-01-18,Victoria,Texas,48469,6672,134,6663,62,9,72
-2021-01-18,Walker,Texas,48471,6900,93,6269,27,631,66
-2021-01-18,Waller,Texas,48473,2585,26,2332,,253,
-2021-01-18,Ward,Texas,48475,933,13,574,,359,
+2021-01-18,Walker,Texas,48471,6950,93,6319,27,631,66
+2021-01-18,Waller,Texas,48473,2624,27,2368,,256,
+2021-01-18,Ward,Texas,48475,934,13,575,,359,
 2021-01-18,Washington,Texas,48477,1665,69,1277,34,388,35
-2021-01-18,Webb,Texas,48479,34499,563,34499,563,,
-2021-01-18,Wharton,Texas,48481,2956,83,2666,,290,
+2021-01-18,Webb,Texas,48479,34499,563,34499,563,0,
+2021-01-18,Wharton,Texas,48481,2976,83,2685,,291,
 2021-01-18,Wheeler,Texas,48483,427,9,388,,39,
-2021-01-18,Wichita,Texas,48485,13179,258,13179,2,0,256
+2021-01-18,Wichita,Texas,48485,13325,258,13325,2,,256
 2021-01-18,Wilbarger,Texas,48487,1707,41,1452,,255,
 2021-01-18,Willacy,Texas,48489,1949,69,1817,1,132,68
 2021-01-18,Williamson,Texas,48491,29796,263,26265,254,3531,9
@@ -2878,9 +2878,9 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-01-18,Box Elder,Utah,49003,4286,29,4286,29,,
 2021-01-18,Cache,Utah,49005,12898,22,12898,22,,
 2021-01-18,Carbon,Utah,49007,1175,7,1175,7,,
-2021-01-18,Daggett,Utah,49009,31,0,31,0,,
-2021-01-18,Davis,Utah,49011,29666,108,,,,
-2021-01-18,Duchesne,Utah,49013,1060,8,1060,8,,
+2021-01-18,Daggett,Utah,49009,33,0,33,0,,
+2021-01-18,Davis,Utah,49011,29735,108,,,,
+2021-01-18,Duchesne,Utah,49013,1064,8,1064,8,,
 2021-01-18,Emery,Utah,49015,630,7,630,7,,
 2021-01-18,Garfield,Utah,49017,382,8,382,8,,
 2021-01-18,Grand,Utah,49019,516,1,516,1,,
@@ -2891,16 +2891,16 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-01-18,Morgan,Utah,49029,1012,7,,,,
 2021-01-18,Piute,Utah,49031,91,2,91,2,,
 2021-01-18,Rich,Utah,49033,90,0,90,0,,
-2021-01-18,Salt Lake,Utah,49035,122400,624,25822,243,96578,381
-2021-01-18,San Juan,Utah,49037,1662,35,,,,
+2021-01-18,Salt Lake,Utah,49035,122887,624,25822,243,97065,381
+2021-01-18,San Juan,Utah,49037,1665,35,,,,
 2021-01-18,Sanpete,Utah,49039,3029,14,3029,14,,
 2021-01-18,Sevier,Utah,49041,1653,7,1653,7,,
-2021-01-18,Summit,Utah,49043,4146,6,,,,
-2021-01-18,Tooele,Utah,49045,5513,17,,,,
-2021-01-18,Uintah,Utah,49047,1510,14,1510,14,,
-2021-01-18,Unknown,Utah,,1355,6,305,2,1050,4
-2021-01-18,Utah,Utah,49049,79143,247,,,,
-2021-01-18,Wasatch,Utah,49051,3736,16,,,,
+2021-01-18,Summit,Utah,49043,4163,6,,,,
+2021-01-18,Tooele,Utah,49045,5531,17,,,,
+2021-01-18,Uintah,Utah,49047,1533,15,1533,15,,
+2021-01-18,Unknown,Utah,,1560,9,309,2,1251,7
+2021-01-18,Utah,Utah,49049,79372,250,,,,
+2021-01-18,Wasatch,Utah,49051,3761,16,,,,
 2021-01-18,Washington,Utah,49053,17240,147,17240,147,,
 2021-01-18,Wayne,Utah,49055,87,0,87,0,,
 2021-01-18,Weber,Utah,49057,23383,121,,,,
@@ -3081,14 +3081,14 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-01-18,Okanogan,Washington,53047,1938,32,1921,32,17,
 2021-01-18,Pacific,Washington,53049,599,8,431,,168,
 2021-01-18,Pend Oreille,Washington,53051,526,4,464,,62,
-2021-01-18,Pierce,Washington,53053,32163,415,30261,,1902,
+2021-01-18,Pierce,Washington,53053,32292,415,30261,,2031,
 2021-01-18,San Juan,Washington,53055,90,0,90,,0,
 2021-01-18,Skagit,Washington,53057,3801,46,3584,,217,
 2021-01-18,Skamania,Washington,53059,223,1,221,,2,
 2021-01-18,Snohomish,Washington,53061,26706,444,25778,444,928,
-2021-01-18,Spokane,Washington,53063,31648,442,31648,442,,
+2021-01-18,Spokane,Washington,53063,31741,444,31741,444,,
 2021-01-18,Stevens,Washington,53065,1364,19,1251,,113,
-2021-01-18,Thurston,Washington,53067,5785,60,5785,59,,1
+2021-01-18,Thurston,Washington,53067,5829,61,5829,61,,
 2021-01-18,Wahkiakum,Washington,53069,62,0,62,,0,
 2021-01-18,Walla Walla,Washington,53071,4102,44,4098,41,4,3
 2021-01-18,Whatcom,Washington,53073,4885,56,4871,,14,
@@ -3149,78 +3149,78 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-01-18,Wirt,West Virginia,54105,293,1,230,1,63,0
 2021-01-18,Wood,West Virginia,54107,6107,81,4589,71,1518,10
 2021-01-18,Wyoming,West Virginia,54109,1426,24,1367,24,59,0
-2021-01-18,Adams,Wisconsin,55001,1572,13,1425,11,147,2
-2021-01-18,Ashland,Wisconsin,55003,1150,16,1085,16,65,0
-2021-01-18,Barron,Wisconsin,55005,5008,64,4889,64,119,0
-2021-01-18,Bayfield,Wisconsin,55007,1048,18,995,18,53,0
-2021-01-18,Brown,Wisconsin,55009,30190,189,28282,178,1908,11
-2021-01-18,Buffalo,Wisconsin,55011,1206,7,1178,7,28,0
-2021-01-18,Burnett,Wisconsin,55013,1175,23,1059,23,116,0
-2021-01-18,Calumet,Wisconsin,55015,5466,40,5033,38,433,2
-2021-01-18,Chippewa,Wisconsin,55017,6648,74,6513,72,135,2
-2021-01-18,Clark,Wisconsin,55019,3331,58,2989,54,342,4
-2021-01-18,Columbia,Wisconsin,55021,4959,43,4615,37,344,6
-2021-01-18,Crawford,Wisconsin,55023,1665,13,1619,13,46,0
-2021-01-18,Dane,Wisconsin,55025,37865,237,36515,218,1350,19
-2021-01-18,Dodge,Wisconsin,55027,11595,146,10919,129,676,17
-2021-01-18,Door,Wisconsin,55029,2456,20,2276,16,180,4
-2021-01-18,Douglas,Wisconsin,55031,3901,30,3366,17,535,13
-2021-01-18,Dunn,Wisconsin,55033,4148,25,3843,25,305,0
-2021-01-18,Eau Claire,Wisconsin,55035,10372,103,10106,92,266,11
+2021-01-18,Adams,Wisconsin,55001,1574,13,1431,11,143,2
+2021-01-18,Ashland,Wisconsin,55003,1154,16,1089,16,65,0
+2021-01-18,Barron,Wisconsin,55005,5032,64,4911,64,121,0
+2021-01-18,Bayfield,Wisconsin,55007,1051,18,998,18,53,0
+2021-01-18,Brown,Wisconsin,55009,30192,189,28282,178,1910,11
+2021-01-18,Buffalo,Wisconsin,55011,1210,7,1182,7,28,0
+2021-01-18,Burnett,Wisconsin,55013,1176,23,1060,23,116,0
+2021-01-18,Calumet,Wisconsin,55015,5473,40,5039,38,434,2
+2021-01-18,Chippewa,Wisconsin,55017,6669,74,6534,72,135,2
+2021-01-18,Clark,Wisconsin,55019,3344,58,3001,54,343,4
+2021-01-18,Columbia,Wisconsin,55021,4975,44,4631,38,344,6
+2021-01-18,Crawford,Wisconsin,55023,1663,13,1617,13,46,0
+2021-01-18,Dane,Wisconsin,55025,37953,237,36522,218,1431,19
+2021-01-18,Dodge,Wisconsin,55027,11608,146,10927,129,681,17
+2021-01-18,Door,Wisconsin,55029,2458,20,2278,16,180,4
+2021-01-18,Douglas,Wisconsin,55031,3912,30,3378,17,534,13
+2021-01-18,Dunn,Wisconsin,55033,4160,25,3854,25,306,0
+2021-01-18,Eau Claire,Wisconsin,55035,10403,103,10124,92,279,11
 2021-01-18,Florence,Wisconsin,55037,445,12,412,12,33,0
-2021-01-18,Fond du Lac,Wisconsin,55039,12061,82,11169,73,892,9
+2021-01-18,Fond du Lac,Wisconsin,55039,12104,82,11208,73,896,9
 2021-01-18,Forest,Wisconsin,55041,959,25,893,22,66,3
-2021-01-18,Grant,Wisconsin,55043,4892,82,4335,77,557,5
-2021-01-18,Green,Wisconsin,55045,2625,14,2546,10,79,4
-2021-01-18,Green Lake,Wisconsin,55047,1828,17,1445,14,383,3
-2021-01-18,Iowa,Wisconsin,55049,1841,9,1758,8,83,1
+2021-01-18,Grant,Wisconsin,55043,4906,82,4345,77,561,5
+2021-01-18,Green,Wisconsin,55045,2630,15,2551,11,79,4
+2021-01-18,Green Lake,Wisconsin,55047,1829,17,1446,14,383,3
+2021-01-18,Iowa,Wisconsin,55049,1846,9,1761,8,85,1
 2021-01-18,Iron,Wisconsin,55051,556,36,445,19,111,17
-2021-01-18,Jackson,Wisconsin,55053,2530,20,2492,20,38,0
-2021-01-18,Jefferson,Wisconsin,55055,7996,68,7219,63,777,5
-2021-01-18,Juneau,Wisconsin,55057,2859,14,2783,13,76,1
-2021-01-18,Kenosha,Wisconsin,55059,15442,259,13676,248,1766,11
+2021-01-18,Jackson,Wisconsin,55053,2534,20,2496,20,38,0
+2021-01-18,Jefferson,Wisconsin,55055,8041,68,7262,63,779,5
+2021-01-18,Juneau,Wisconsin,55057,2861,14,2786,13,75,1
+2021-01-18,Kenosha,Wisconsin,55059,15452,259,13687,248,1765,11
 2021-01-18,Kewaunee,Wisconsin,55061,2376,27,2238,26,138,1
-2021-01-18,La Crosse,Wisconsin,55063,11601,67,11025,67,576,0
-2021-01-18,Lafayette,Wisconsin,55065,1455,8,1325,7,130,1
-2021-01-18,Langlade,Wisconsin,55067,2010,41,1868,30,142,11
-2021-01-18,Lincoln,Wisconsin,55069,2885,65,2703,51,182,14
-2021-01-18,Manitowoc,Wisconsin,55071,7673,68,6675,57,998,11
-2021-01-18,Marathon,Wisconsin,55073,14108,194,12883,167,1225,27
-2021-01-18,Marinette,Wisconsin,55075,4151,55,3794,55,357,0
-2021-01-18,Marquette,Wisconsin,55077,1379,25,1222,20,157,5
-2021-01-18,Menominee,Wisconsin,55078,772,11,770,11,2,0
-2021-01-18,Milwaukee,Wisconsin,55079,99455,1104,91534,1083,7921,21
-2021-01-18,Monroe,Wisconsin,55081,3920,27,3847,27,73,0
-2021-01-18,Oconto,Wisconsin,55083,4440,48,4048,43,392,5
-2021-01-18,Oneida,Wisconsin,55085,3142,53,3018,49,124,4
-2021-01-18,Outagamie,Wisconsin,55087,19521,175,17634,169,1887,6
-2021-01-18,Ozaukee,Wisconsin,55089,7841,69,7010,63,831,6
+2021-01-18,La Crosse,Wisconsin,55063,11655,67,11078,67,577,0
+2021-01-18,Lafayette,Wisconsin,55065,1459,8,1326,7,133,1
+2021-01-18,Langlade,Wisconsin,55067,2013,41,1871,30,142,11
+2021-01-18,Lincoln,Wisconsin,55069,2889,65,2707,51,182,14
+2021-01-18,Manitowoc,Wisconsin,55071,7698,69,6700,57,998,12
+2021-01-18,Marathon,Wisconsin,55073,14129,194,12902,167,1227,27
+2021-01-18,Marinette,Wisconsin,55075,4155,55,3798,55,357,0
+2021-01-18,Marquette,Wisconsin,55077,1380,25,1223,20,157,5
+2021-01-18,Menominee,Wisconsin,55078,773,11,771,11,2,0
+2021-01-18,Milwaukee,Wisconsin,55079,99584,1121,91657,1100,7927,21
+2021-01-18,Monroe,Wisconsin,55081,3928,27,3854,27,74,0
+2021-01-18,Oconto,Wisconsin,55083,4446,48,4053,43,393,5
+2021-01-18,Oneida,Wisconsin,55085,3149,53,3025,49,124,4
+2021-01-18,Outagamie,Wisconsin,55087,19592,175,17688,169,1904,6
+2021-01-18,Ozaukee,Wisconsin,55089,7855,69,7024,63,831,6
 2021-01-18,Pepin,Wisconsin,55091,772,6,753,6,19,0
-2021-01-18,Pierce,Wisconsin,55093,3931,37,3182,32,749,5
-2021-01-18,Polk,Wisconsin,55095,3434,30,3389,30,45,0
-2021-01-18,Portage,Wisconsin,55097,6357,60,5924,57,433,3
-2021-01-18,Price,Wisconsin,55099,1088,6,1013,6,75,0
-2021-01-18,Racine,Wisconsin,55101,21478,293,19117,276,2361,17
-2021-01-18,Richland,Wisconsin,55103,1218,13,1185,13,33,0
-2021-01-18,Rock,Wisconsin,55105,14488,140,13218,129,1270,11
-2021-01-18,Rusk,Wisconsin,55107,1227,15,1190,14,37,1
-2021-01-18,Sauk,Wisconsin,55111,5094,40,4867,34,227,6
-2021-01-18,Sawyer,Wisconsin,55113,1362,17,1333,17,29,0
-2021-01-18,Shawano,Wisconsin,55115,4852,75,4391,64,461,11
-2021-01-18,Sheboygan,Wisconsin,55117,12753,113,12149,108,604,5
-2021-01-18,St. Croix,Wisconsin,55109,7190,37,7167,37,23,0
-2021-01-18,Taylor,Wisconsin,55119,1898,26,1695,19,203,7
-2021-01-18,Trempealeau,Wisconsin,55121,3269,34,3186,33,83,1
-2021-01-18,Vernon,Wisconsin,55123,1720,34,1662,32,58,2
-2021-01-18,Vilas,Wisconsin,55125,1900,33,1806,31,94,2
-2021-01-18,Walworth,Wisconsin,55127,10431,126,8321,120,2110,6
-2021-01-18,Washburn,Wisconsin,55129,1223,17,1151,15,72,2
-2021-01-18,Washington,Wisconsin,55131,14424,113,12813,109,1611,4
-2021-01-18,Waukesha,Wisconsin,55133,41264,424,37823,397,3441,27
-2021-01-18,Waupaca,Wisconsin,55135,5229,141,4523,141,706,
-2021-01-18,Waushara,Wisconsin,55137,2203,26,1996,24,207,2
-2021-01-18,Winnebago,Wisconsin,55139,18336,183,16055,165,2281,18
-2021-01-18,Wood,Wisconsin,55141,6507,74,6112,63,395,11
+2021-01-18,Pierce,Wisconsin,55093,3941,37,3190,32,751,5
+2021-01-18,Polk,Wisconsin,55095,3445,32,3405,32,40,
+2021-01-18,Portage,Wisconsin,55097,6366,60,5931,57,435,3
+2021-01-18,Price,Wisconsin,55099,1097,6,1023,6,74,0
+2021-01-18,Racine,Wisconsin,55101,21488,293,19128,276,2360,17
+2021-01-18,Richland,Wisconsin,55103,1220,13,1187,13,33,0
+2021-01-18,Rock,Wisconsin,55105,14526,140,13256,129,1270,11
+2021-01-18,Rusk,Wisconsin,55107,1233,15,1196,14,37,1
+2021-01-18,Sauk,Wisconsin,55111,5105,40,4880,34,225,6
+2021-01-18,Sawyer,Wisconsin,55113,1364,17,1335,17,29,0
+2021-01-18,Shawano,Wisconsin,55115,4861,75,4400,64,461,11
+2021-01-18,Sheboygan,Wisconsin,55117,12777,113,12173,108,604,5
+2021-01-18,St. Croix,Wisconsin,55109,7211,37,7167,37,44,0
+2021-01-18,Taylor,Wisconsin,55119,1907,26,1703,19,204,7
+2021-01-18,Trempealeau,Wisconsin,55121,3276,34,3193,33,83,1
+2021-01-18,Vernon,Wisconsin,55123,1728,34,1670,32,58,2
+2021-01-18,Vilas,Wisconsin,55125,1906,33,1812,31,94,2
+2021-01-18,Walworth,Wisconsin,55127,10459,126,8329,120,2130,6
+2021-01-18,Washburn,Wisconsin,55129,1227,17,1157,15,70,2
+2021-01-18,Washington,Wisconsin,55131,14440,113,12827,109,1613,4
+2021-01-18,Waukesha,Wisconsin,55133,41414,424,37823,397,3591,27
+2021-01-18,Waupaca,Wisconsin,55135,5234,142,4531,142,703,
+2021-01-18,Waushara,Wisconsin,55137,2210,26,2003,24,207,2
+2021-01-18,Winnebago,Wisconsin,55139,18361,183,16081,165,2280,18
+2021-01-18,Wood,Wisconsin,55141,6516,74,6121,63,395,11
 2021-01-18,Albany,Wyoming,56001,3671,10,3331,,340,
 2021-01-18,Big Horn,Wyoming,56003,921,22,773,,148,
 2021-01-18,Campbell,Wyoming,56005,4503,45,4069,,434,
