@@ -8,7 +8,7 @@
 
 # %%
 import time
-t0 = time.clock()
+t0 = time.perf_counter()
 
 
 # %%
@@ -43,6 +43,9 @@ default_grid_color = 'rgba(225, 225, 225, 255)'
 
 # %%
 webpage_folder = basefolder + 'webpage/'
+if not os.path.exists(webpage_folder):
+    os.mkdir(webpage_folder)
+
 html_graphs = open(webpage_folder + "CovidAnalysis.html",'w',)
 html_graphs.write('''
 <html><head>
@@ -343,7 +346,8 @@ def generate_delta_df(state, county, column):
 
     deltas = totals_by_date[column].to_numpy()[1:] - totals_by_date.head(len(totals_by_date)-1)[column].to_numpy()[0:]
     totals_by_date['diff'] = 0
-    totals_by_date['diff'][1:] = deltas
+    if deltas.size > 0:
+        totals_by_date['diff'][1:] = deltas
     return totals_by_date
 
 def plotmovingaverage(deltas_df, name_of_plot, hover_template, show_by_default=True):
@@ -537,6 +541,8 @@ html_graphs.write('''
 <h1>State New Cases and Death Breakdowns</h1>\n
 </div>
 ''')
+
+plotly.io.orca.config.executable = 'C:/Users/jimg/AppData/Local/Programs/orca/orca.exe'
 for index, s in interesting_states.iterrows():
 
     layout = go.Layout(
