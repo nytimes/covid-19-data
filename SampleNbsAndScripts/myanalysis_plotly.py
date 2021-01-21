@@ -1119,42 +1119,5 @@ html_graphs.write("  <object data=\""+'Chart_'+str(row)+'.html'+"\" width=" + st
 html_graphs.write('</body></html')
 html_graphs.close()
 
-
-# %%
-
-import time
-t1 = time.clock()
-
-import ftplib
-import io
-import pytz
-from datetime import datetime
-from dateutil import parser
-from dateutil.tz import gettz
-
-ftp = ftplib.FTP('ftp.jimgphotography.com', 'jim@covid.jimgries.com', '76@m^Pbmjq')
-
-tzinfos = {'UTC': gettz('UTC')}
-for filename in os.listdir('webpage'):
-    localtimestamp = datetime.fromtimestamp(os.stat('webpage/' + filename).st_mtime).replace(tzinfo=pytz.timezone('America/Los_Angeles'))
-    try:
-        tmp = None
-        tmp = ftp.voidcmd('MDTM /' + filename)[4:].strip()+'UTC'
-        remotetimestamp = (parser.parse(tmp, tzinfos=tzinfos)).astimezone(pytz.timezone('America/Los_Angeles'))
-    except: 
-        pass
-    if (tmp == None or localtimestamp > remotetimestamp):
-        print('Transferring ' + filename)
-        with open('webpage/' + filename, 'rb') as fobj:
-            ftp.storbinary('STOR ' + filename, fobj)
-    else:
-        print('Skipping ' + filename)
-        print(filename + ' local: ' + localtimestamp.strftime('%c'))
-        print(filename + ' remote: ' + remotetimestamp.strftime('%c'))
-
-ftp.close()
-
-print('Total file transfer time: ', time.clock() - t1)
-
 # %%
 print('Total run time: ', time.clock() - t0)
