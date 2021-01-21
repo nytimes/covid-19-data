@@ -1120,4 +1120,6 @@ html_graphs.write('</body></html')
 html_graphs.close()
 
 # %%
-print('Total run time: ', time.clock() - t0)
+print('Total run time: ', time.perf_counter() - t0)
+
+# %%
