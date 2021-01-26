@@ -100,6 +100,10 @@ datafolder = basefolder
 state_cov_data = pd.read_csv('https://github.com/nytimes/covid-19-data/blob/master/us-states.csv?raw=true')
 county_cov_data = pd.read_csv('https://github.com/nytimes/covid-19-data/blob/master/us-counties.csv?raw=true')
 
+# https://stackoverflow.com/questions/14737566/pandas-performance-issue-need-help-to-optimize/42589287#42589287
+county_cov_data['state'] = county_cov_data['state'].astype('category')
+county_cov_data['county'] = county_cov_data['county'].astype('category')
+
 population_county = pd.read_csv(datafolder + 'county-population-2013.csv')
 population_county.loc[population_county.state == 'Louisiana'] = population_county[population_county.state == 'Louisiana'].replace(regex=[' Parish'], value='')
 population_county.drop(columns={'Core_Based_Statistical_Area'}, inplace=True)
@@ -542,7 +546,7 @@ html_graphs.write('''
 </div>
 ''')
 
-plotly.io.orca.config.executable = 'C:/Users/jimg/AppData/Local/Programs/orca/orca.exe'
+#plotly.io.orca.config.executable = 'C:/Users/jimg/AppData/Local/Programs/orca/orca.exe'
 for index, s in interesting_states.iterrows():
 
     layout = go.Layout(
