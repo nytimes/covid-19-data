@@ -226,7 +226,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-01-26,San Joaquin,California,06077,60545,844,60545,844,,
 2021-01-26,San Luis Obispo,California,06079,17151,161,17151,161,,
 2021-01-26,San Mateo,California,06081,34510,356,34510,356,,
-2021-01-26,Santa Barbara,California,06083,27402,275,27402,275,,
+2021-01-26,Santa Barbara,California,06083,27149,267,27149,267,,
 2021-01-26,Santa Clara,California,06085,99174,1279,99174,1279,,
 2021-01-26,Santa Cruz,California,06087,13088,136,13088,136,,
 2021-01-26,Shasta,California,06089,10144,132,10144,132,,
@@ -235,14 +235,14 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-01-26,Solano,California,06095,27146,118,27146,118,,
 2021-01-26,Sonoma,California,06097,25160,251,25160,251,,
 2021-01-26,Stanislaus,California,06099,49500,803,44852,803,4648,
-2021-01-26,Sutter,California,06101,8069,83,8069,83,,
+2021-01-26,Sutter,California,06101,8129,84,8129,84,,
 2021-01-26,Tehama,California,06103,4082,46,4082,46,,
 2021-01-26,Trinity,California,06105,263,5,263,5,,
 2021-01-26,Tulare,California,06107,43574,542,43574,542,,
-2021-01-26,Tuolumne,California,06109,3477,40,3477,40,,
+2021-01-26,Tuolumne,California,06109,3512,41,3512,41,,
 2021-01-26,Ventura,California,06111,66910,525,66910,525,,
 2021-01-26,Yolo,California,06113,11276,146,11276,146,,
-2021-01-26,Yuba,California,06115,5176,30,5176,30,,
+2021-01-26,Yuba,California,06115,5227,30,5227,30,,
 2021-01-26,Adams,Colorado,08001,45750,590,,,,
 2021-01-26,Alamosa,Colorado,08003,1118,27,,,,
 2021-01-26,Arapahoe,Colorado,08005,44857,647,,,,
@@ -1598,7 +1598,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-01-26,Ste. Genevieve,Missouri,29186,1549,12,1549,12,,
 2021-01-26,St. Francois,Missouri,29187,7282,83,7282,83,,
 2021-01-26,St. Louis,Missouri,29189,81758,1655,81758,1655,,
-2021-01-26,St. Louis city,Missouri,29510,19871,345,18669,345,1202,
+2021-01-26,St. Louis city,Missouri,29510,19947,346,18740,346,1207,
 2021-01-26,Stoddard,Missouri,29207,2203,35,2203,35,,
 2021-01-26,Stone,Missouri,29209,1886,29,1886,29,,
 2021-01-26,Sullivan,Missouri,29211,737,12,737,12,,
@@ -1760,17 +1760,17 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-01-26,Webster,Nebraska,31181,298,4,,,,
 2021-01-26,Wheeler,Nebraska,31183,33,0,,,,
 2021-01-26,York,Nebraska,31185,1382,9,,,,
-2021-01-26,Carson City,Nevada,32510,5650,100,5650,100,,
+2021-01-26,Carson City,Nevada,32510,5654,100,5654,100,,
 2021-01-26,Churchill,Nevada,32001,1786,47,1786,47,,
 2021-01-26,Clark,Nevada,32003,209726,3124,209726,3124,,
-2021-01-26,Douglas,Nevada,32005,2350,28,2350,28,,
+2021-01-26,Douglas,Nevada,32005,2356,28,2356,28,,
 2021-01-26,Elko,Nevada,32007,4240,41,4240,41,,
 2021-01-26,Esmeralda,Nevada,32009,36,0,36,0,,
 2021-01-26,Eureka,Nevada,32011,44,0,44,0,,
 2021-01-26,Humboldt,Nevada,32013,937,13,937,13,,
 2021-01-26,Lander,Nevada,32015,430,8,430,8,,
 2021-01-26,Lincoln,Nevada,32017,340,1,340,1,,
-2021-01-26,Lyon,Nevada,32019,2554,51,2554,51,,
+2021-01-26,Lyon,Nevada,32019,2560,51,2560,51,,
 2021-01-26,Mineral,Nevada,32021,236,4,236,4,,
 2021-01-26,Nye,Nevada,32023,2531,65,2531,65,,
 2021-01-26,Pershing,Nevada,32027,864,16,864,16,,
@@ -3054,45 +3054,45 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-01-26,St. Croix,Virgin Islands,78010,1000,8,1000,8,,
 2021-01-26,St. John,Virgin Islands,78020,202,1,202,1,,
 2021-01-26,St. Thomas,Virgin Islands,78030,1171,15,1171,15,,
-2021-01-26,Adams,Washington,53001,1752,19,1668,,84,
-2021-01-26,Asotin,Washington,53003,1211,26,1211,,0,
-2021-01-26,Benton,Washington,53005,13984,187,13719,172,265,15
-2021-01-26,Chelan,Washington,53007,5773,46,3050,35,2723,11
-2021-01-26,Clallam,Washington,53009,875,5,840,,35,
-2021-01-26,Clark,Washington,53011,16915,177,16621,175,294,2
+2021-01-26,Adams,Washington,53001,1757,19,1672,,85,
+2021-01-26,Asotin,Washington,53003,1212,26,1212,,0,
+2021-01-26,Benton,Washington,53005,14031,187,13719,172,312,15
+2021-01-26,Chelan,Washington,53007,5773,48,3055,35,2718,13
+2021-01-26,Clallam,Washington,53009,880,5,843,,37,
+2021-01-26,Clark,Washington,53011,17009,182,16712,175,297,7
 2021-01-26,Columbia,Washington,53013,93,4,81,,12,
-2021-01-26,Cowlitz,Washington,53015,3498,38,3479,,19,
-2021-01-26,Douglas,Washington,53017,3043,18,1620,15,1423,3
+2021-01-26,Cowlitz,Washington,53015,3537,39,3520,,17,
+2021-01-26,Douglas,Washington,53017,3043,18,1628,15,1415,3
 2021-01-26,Ferry,Washington,53019,198,4,186,,12,
-2021-01-26,Franklin,Washington,53021,9981,90,9838,83,143,7
-2021-01-26,Garfield,Washington,53023,102,4,80,,22,
+2021-01-26,Franklin,Washington,53021,10018,90,9844,83,174,7
+2021-01-26,Garfield,Washington,53023,103,4,81,,22,
 2021-01-26,Grant,Washington,53025,8070,97,5879,97,2191,0
-2021-01-26,Grays Harbor,Washington,53027,2856,31,2742,,114,
-2021-01-26,Island,Washington,53029,1151,22,1130,22,21,0
-2021-01-26,Jefferson,Washington,53031,281,2,279,,2,
-2021-01-26,King,Washington,53033,75905,1221,74691,,1214,
-2021-01-26,Kitsap,Washington,53035,4971,60,4847,,124,
-2021-01-26,Kittitas,Washington,53037,2009,30,1952,,57,
-2021-01-26,Klickitat,Washington,53039,593,4,499,,94,
-2021-01-26,Lewis,Washington,53041,3144,36,2735,,409,
-2021-01-26,Lincoln,Washington,53043,302,4,294,,8,
-2021-01-26,Mason,Washington,53045,2057,18,2029,,28,
+2021-01-26,Grays Harbor,Washington,53027,2867,31,2753,,114,
+2021-01-26,Island,Washington,53029,1158,22,1137,22,21,0
+2021-01-26,Jefferson,Washington,53031,284,2,282,,2,
+2021-01-26,King,Washington,53033,76148,1222,74908,,1240,
+2021-01-26,Kitsap,Washington,53035,4994,62,4867,,127,
+2021-01-26,Kittitas,Washington,53037,2032,30,1975,,57,
+2021-01-26,Klickitat,Washington,53039,596,4,502,,94,
+2021-01-26,Lewis,Washington,53041,3178,36,2763,,415,
+2021-01-26,Lincoln,Washington,53043,303,4,295,,8,
+2021-01-26,Mason,Washington,53045,2061,18,2033,,28,
 2021-01-26,Okanogan,Washington,53047,1985,33,1984,33,1,0
-2021-01-26,Pacific,Washington,53049,641,8,471,,170,
-2021-01-26,Pend Oreille,Washington,53051,547,4,485,,62,
-2021-01-26,Pierce,Washington,53053,34151,446,32001,,2150,
-2021-01-26,San Juan,Washington,53055,91,0,91,,0,
-2021-01-26,Skagit,Washington,53057,3971,47,3751,,220,
+2021-01-26,Pacific,Washington,53049,642,8,472,,170,
+2021-01-26,Pend Oreille,Washington,53051,549,4,487,,62,
+2021-01-26,Pierce,Washington,53053,34151,450,32236,,1915,
+2021-01-26,San Juan,Washington,53055,92,0,92,,0,
+2021-01-26,Skagit,Washington,53057,3984,47,3764,,220,
 2021-01-26,Skamania,Washington,53059,238,1,236,,2,
-2021-01-26,Snohomish,Washington,53061,28058,471,26565,471,1493,
+2021-01-26,Snohomish,Washington,53061,28058,472,26656,471,1402,1
 2021-01-26,Spokane,Washington,53063,33200,482,33200,482,,
-2021-01-26,Stevens,Washington,53065,1407,19,1290,,117,
+2021-01-26,Stevens,Washington,53065,1411,19,1294,,117,
 2021-01-26,Thurston,Washington,53067,6217,65,6217,62,,3
 2021-01-26,Wahkiakum,Washington,53069,65,0,65,,0,
 2021-01-26,Walla Walla,Washington,53071,4352,48,4352,41,,7
-2021-01-26,Whatcom,Washington,53073,5246,59,5231,,15,
-2021-01-26,Whitman,Washington,53075,3124,38,3124,38,,0
-2021-01-26,Yakima,Washington,53077,25000,362,25000,342,,20
+2021-01-26,Whatcom,Washington,53073,5269,60,5254,,15,
+2021-01-26,Whitman,Washington,53075,3124,38,3124,38,,
+2021-01-26,Yakima,Washington,53077,25086,364,25086,344,,20
 2021-01-26,Barbour,West Virginia,54001,1080,17,914,14,166,3
 2021-01-26,Berkeley,West Virginia,54003,8630,80,7126,72,1504,8
 2021-01-26,Boone,West Virginia,54005,1391,28,1254,27,137,1
