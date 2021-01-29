@@ -100,6 +100,10 @@ datafolder = basefolder
 state_cov_data = pd.read_csv('https://github.com/nytimes/covid-19-data/blob/master/us-states.csv?raw=true')
 county_cov_data = pd.read_csv('https://github.com/nytimes/covid-19-data/blob/master/us-counties.csv?raw=true')
 
+# Perf hack, see https://stackoverflow.com/questions/14737566/pandas-performance-issue-need-help-to-optimize/42589287#42589287
+county_cov_data['state'] = county_cov_data['state'].astype('category')
+county_cov_data['county'] = county_cov_data['county'].astype('category')
+
 # https://stackoverflow.com/questions/14737566/pandas-performance-issue-need-help-to-optimize/42589287#42589287
 county_cov_data['state'] = county_cov_data['state'].astype('category')
 county_cov_data['county'] = county_cov_data['county'].astype('category')
