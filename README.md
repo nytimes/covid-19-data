@@ -1,5 +1,7 @@
 # Coronavirus (Covid-19) Data in the United States
 
+**Change:** As of Feb. 10, 2021, we are changing how we report data for a few low-population Alaska geographies to better align with how the state reports data. Data for Bristol Bay Borough and Lake and Peninsula Borough are combined in a new area called "Bristol Bay plus Lake and Peninsula", and data for Yakutat City and Borough and Hoonah-Angoon Census Area are combined as "Yakutat plus Hoonah-Angoon". Many cases now assigned to those new geographies were previously reported as Unknown. The entire timeseries will be revised to use these new geographies.
+
 **NEW:** We are publishing the data behind our [survey of mask usage](https://www.nytimes.com/interactive/2020/07/17/upshot/coronavirus-face-mask-map.html) in the United States in order to provide researchers a way to understand the role of mask wearing in the course of the pandemic. See the data and documentation in the [mask-use/](mask-use/) directory.
 
 **NEW:** We are publishing the data behind our [excess deaths tracker](https://www.nytimes.com/interactive/2020/04/21/world/coronavirus-missing-deaths.html) in order to provide researchers and the public with a better record of the true toll of the pandemic. This data is compiled from official national and municipal data for 24 countries. See the data and documentation in the [excess-deaths/](excess-deaths/) directory.
@@ -176,6 +178,10 @@ Four counties (Cass, Clay, Jackson and Platte) overlap the municipality of Kansa
 * Joplin, Mo.
 
 Starting June 25, cases and deaths for Joplin are reported separately from Jasper and Newton counties. The cases and deaths reported for those counties are only for the portions exclusive of Joplin. Joplin cases and deaths previously appeared in the counts for those counties or as Unknown.
+
+* Alaska
+
+Data for the Bristol Bay Borough and Lake and Peninsula Borough county equivalents are reported as a single "Bristol Bay plus Lake and Peninsula" area, and data for the Yakutat City and Borough and Hoonah-Angoon Census Area county equivalents are reported together as "Yakutat plus Hoonah-Angoon".
 
 * Alameda County, Calif.
 

@@ -66,33 +66,33 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-02-09,Washington,Alabama,01129,1503,30,1079,24,424,6
 2021-02-09,Wilcox,Alabama,01131,1171,22,911,21,260,1
 2021-02-09,Winston,Alabama,01133,2413,54,2046,48,367,6
-2021-02-09,Aleutians East Borough,Alaska,02013,323,0,,0,,
-2021-02-09,Aleutians West Census Area,Alaska,02016,374,0,,0,,
-2021-02-09,Anchorage,Alaska,02020,25683,149,,149,,
-2021-02-09,Bethel Census Area,Alaska,02050,3445,17,,17,,
-2021-02-09,Bristol Bay Borough,Alaska,02060,76,0,,,,
+2021-02-09,Aleutians East Borough,Alaska,02013,327,0,,0,,
+2021-02-09,Aleutians West Census Area,Alaska,02016,376,0,,0,,
+2021-02-09,Anchorage,Alaska,02020,25732,149,,149,,
+2021-02-09,Bethel Census Area,Alaska,02050,3469,17,,17,,
+2021-02-09,Bristol Bay plus Lake and Peninsula,Alaska,,171,0,,0,,
 2021-02-09,Denali Borough,Alaska,02068,67,0,,0,,
-2021-02-09,Dillingham Census Area,Alaska,02070,187,1,,1,,
-2021-02-09,Fairbanks North Star Borough,Alaska,02090,5924,26,,26,,
+2021-02-09,Dillingham Census Area,Alaska,02070,188,1,,1,,
+2021-02-09,Fairbanks North Star Borough,Alaska,02090,5927,26,,26,,
 2021-02-09,Haines Borough,Alaska,02100,23,0,,0,,
-2021-02-09,Juneau City and Borough,Alaska,02110,1175,3,,3,,
-2021-02-09,Kenai Peninsula Borough,Alaska,02122,3904,19,,19,,
+2021-02-09,Juneau City and Borough,Alaska,02110,1176,3,,3,,
+2021-02-09,Kenai Peninsula Borough,Alaska,02122,3907,19,,19,,
 2021-02-09,Ketchikan Gateway Borough,Alaska,02130,295,2,,2,,
 2021-02-09,Kodiak Island Borough,Alaska,02150,1040,5,,5,,
-2021-02-09,Kusilvak Census Area,Alaska,02158,1156,3,,3,,
-2021-02-09,Lake and Peninsula Borough,Alaska,02164,5,0,,,,
-2021-02-09,Matanuska-Susitna Borough,Alaska,02170,7766,29,,29,,
-2021-02-09,Nome Census Area,Alaska,02180,318,0,,0,,
-2021-02-09,North Slope Borough,Alaska,02185,982,3,,3,,
-2021-02-09,Northwest Arctic Borough,Alaska,02188,573,1,,1,,
+2021-02-09,Kusilvak Census Area,Alaska,02158,1158,3,,3,,
+2021-02-09,Matanuska-Susitna Borough,Alaska,02170,7796,29,,29,,
+2021-02-09,Nome Census Area,Alaska,02180,319,0,,0,,
+2021-02-09,North Slope Borough,Alaska,02185,984,3,,3,,
+2021-02-09,Northwest Arctic Borough,Alaska,02188,574,1,,1,,
 2021-02-09,Petersburg Borough,Alaska,02195,45,0,,0,,
 2021-02-09,Prince of Wales-Hyder Census Area,Alaska,02198,70,1,,1,,
 2021-02-09,Sitka City and Borough,Alaska,02220,299,0,,0,,
 2021-02-09,Skagway Municipality,Alaska,02230,15,0,,0,,
-2021-02-09,Southeast Fairbanks Census Area,Alaska,02240,441,3,,3,,
-2021-02-09,Unknown,Alaska,,401,1,,1,,0
+2021-02-09,Southeast Fairbanks Census Area,Alaska,02240,442,3,,3,,
+2021-02-09,Unknown,Alaska,,250,0,,0,,
 2021-02-09,Valdez-Cordova Census Area,Alaska,02261,451,2,,2,,
 2021-02-09,Wrangell City and Borough,Alaska,02275,25,0,,0,,
+2021-02-09,Yakutat plus Hoonah-Angoon,Alaska,,63,1,,1,,
 2021-02-09,Yukon-Koyukuk Census Area,Alaska,02290,311,4,,4,,
 2021-02-09,Apache,Arizona,04001,9908,333,,,,
 2021-02-09,Cochise,Arizona,04003,10676,239,10676,239,0,0
@@ -221,7 +221,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-02-09,Sacramento,California,06067,89266,1335,89266,1335,,
 2021-02-09,San Benito,California,06069,5553,57,5553,57,,
 2021-02-09,San Bernardino,California,06071,279412,2142,279412,2142,,
-2021-02-09,San Diego,California,06073,247525,2821,247525,2821,,
+2021-02-09,San Diego,California,06073,248114,2853,248114,2853,,
 2021-02-09,San Francisco,California,06075,32682,346,32682,346,,
 2021-02-09,San Joaquin,California,06077,64396,929,64396,929,,
 2021-02-09,San Luis Obispo,California,06079,18788,200,18788,200,,
@@ -245,7 +245,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-02-09,Yuba,California,06115,5530,36,5530,36,,
 2021-02-09,Adams,Colorado,08001,47449,620,,,,
 2021-02-09,Alamosa,Colorado,08003,1211,28,,,,
-2021-02-09,Arapahoe,Colorado,08005,47116,672,,,,
+2021-02-09,Arapahoe,Colorado,08005,47115,672,,,,
 2021-02-09,Archuleta,Colorado,08007,618,1,,,,
 2021-02-09,Baca,Colorado,08009,269,3,,,,
 2021-02-09,Bent,Colorado,08011,1328,20,,,,
@@ -264,7 +264,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-02-09,Douglas,Colorado,08035,20273,229,,,,
 2021-02-09,Eagle,Colorado,08037,4635,20,,,,
 2021-02-09,Elbert,Colorado,08039,1212,12,,,,
-2021-02-09,El Paso,Colorado,08041,49081,721,,,,
+2021-02-09,El Paso,Colorado,08041,49154,721,,,,
 2021-02-09,Fremont,Colorado,08043,5233,40,,,,
 2021-02-09,Garfield,Colorado,08045,4933,38,,,,
 2021-02-09,Gilpin,Colorado,08047,157,3,,,,
@@ -561,7 +561,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-02-09,Bear Lake,Idaho,16007,335,2,241,2,94,0
 2021-02-09,Benewah,Idaho,16009,538,7,417,7,121,0
 2021-02-09,Bingham,Idaho,16011,4141,59,2502,59,1639,0
-2021-02-09,Blaine,Idaho,16013,2072,15,1886,,186,
+2021-02-09,Blaine,Idaho,16013,2076,15,1887,,189,
 2021-02-09,Boise,Idaho,16015,295,2,224,2,71,0
 2021-02-09,Bonner,Idaho,16017,2844,30,2309,30,535,
 2021-02-09,Bonneville,Idaho,16019,11650,140,8539,,3111,
@@ -620,7 +620,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-02-09,DeKalb,Illinois,17037,8135,111,8135,106,,5
 2021-02-09,De Witt,Illinois,17039,1239,29,,22,,7
 2021-02-09,Douglas,Illinois,17041,2185,35,,29,,6
-2021-02-09,DuPage,Illinois,17043,73981,1221,69732,1136,4249,85
+2021-02-09,DuPage,Illinois,17043,73981,1221,69861,1136,4120,85
 2021-02-09,Edgar,Illinois,17045,1522,56,,36,,20
 2021-02-09,Edwards,Illinois,17047,510,10,,9,,1
 2021-02-09,Effingham,Illinois,17049,4434,79,,68,,11
@@ -802,14 +802,14 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-02-09,Benton,Iowa,19011,2237,52,2237,,,
 2021-02-09,Black Hawk,Iowa,19013,14577,267,14577,,,
 2021-02-09,Boone,Iowa,19015,2327,27,2327,,,
-2021-02-09,Bremer,Iowa,19017,2584,52,2584,,,
-2021-02-09,Buchanan,Iowa,19019,1695,26,1695,,,
+2021-02-09,Bremer,Iowa,19017,2583,52,2583,,,
+2021-02-09,Buchanan,Iowa,19019,1694,26,1694,,,
 2021-02-09,Buena Vista,Iowa,19021,4027,36,4027,,,
 2021-02-09,Butler,Iowa,19023,1555,29,1555,,,
 2021-02-09,Calhoun,Iowa,19025,1259,9,1259,,,
 2021-02-09,Carroll,Iowa,19027,2613,45,2613,,,
 2021-02-09,Cass,Iowa,19029,1212,46,1212,,,
-2021-02-09,Cedar,Iowa,19031,1615,20,1615,,,
+2021-02-09,Cedar,Iowa,19031,1616,20,1616,,,
 2021-02-09,Cerro Gordo,Iowa,19033,4883,77,4883,,,
 2021-02-09,Cherokee,Iowa,19035,1421,35,1421,,,
 2021-02-09,Chickasaw,Iowa,19037,1157,12,1157,,,
@@ -826,7 +826,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-02-09,Dickinson,Iowa,19059,1932,37,1932,,,
 2021-02-09,Dubuque,Iowa,19061,12003,187,12003,,,
 2021-02-09,Emmet,Iowa,19063,1127,39,1127,,,
-2021-02-09,Fayette,Iowa,19065,1726,28,1726,,,
+2021-02-09,Fayette,Iowa,19065,1727,28,1727,,,
 2021-02-09,Floyd,Iowa,19067,1449,38,1449,,,
 2021-02-09,Franklin,Iowa,19069,1076,19,1076,,,
 2021-02-09,Fremont,Iowa,19071,538,9,538,,,
@@ -836,7 +836,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-02-09,Hamilton,Iowa,19079,1677,38,1677,,,
 2021-02-09,Hancock,Iowa,19081,1355,26,1355,,,
 2021-02-09,Hardin,Iowa,19083,1636,34,1636,,,
-2021-02-09,Harrison,Iowa,19085,1636,67,1636,,,
+2021-02-09,Harrison,Iowa,19085,1637,67,1637,,,
 2021-02-09,Henry,Iowa,19087,2736,33,2736,,,
 2021-02-09,Howard,Iowa,19089,943,20,943,,,
 2021-02-09,Humboldt,Iowa,19091,1101,22,1101,,,
@@ -850,12 +850,12 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-02-09,Keokuk,Iowa,19107,885,28,885,,,
 2021-02-09,Kossuth,Iowa,19109,1904,52,1904,,,
 2021-02-09,Lee,Iowa,19111,3431,47,3431,,,
-2021-02-09,Linn,Iowa,19113,18922,301,18922,,,
-2021-02-09,Louisa,Iowa,19115,1188,41,1188,,,
+2021-02-09,Linn,Iowa,19113,18924,301,18924,,,
+2021-02-09,Louisa,Iowa,19115,1187,41,1187,,,
 2021-02-09,Lucas,Iowa,19117,685,17,685,,,
 2021-02-09,Lyon,Iowa,19119,1415,40,1415,,,
 2021-02-09,Madison,Iowa,19121,1350,15,1350,,,
-2021-02-09,Mahaska,Iowa,19123,2097,44,2097,,,
+2021-02-09,Mahaska,Iowa,19123,2098,44,2098,,,
 2021-02-09,Marion,Iowa,19125,3261,65,3261,,,
 2021-02-09,Marshall,Iowa,19127,4483,68,4483,,,
 2021-02-09,Mills,Iowa,19129,1431,20,1431,,,
@@ -863,7 +863,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-02-09,Monona,Iowa,19133,742,22,742,,,
 2021-02-09,Monroe,Iowa,19135,860,26,860,,,
 2021-02-09,Montgomery,Iowa,19137,944,34,944,,,
-2021-02-09,Muscatine,Iowa,19139,4051,85,4051,,,
+2021-02-09,Muscatine,Iowa,19139,4052,85,4052,,,
 2021-02-09,O'Brien,Iowa,19141,1755,58,1755,,,
 2021-02-09,Osceola,Iowa,19143,656,13,656,,,
 2021-02-09,Page,Iowa,19145,1543,17,1543,,,
@@ -871,12 +871,12 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-02-09,Plymouth,Iowa,19149,3596,74,3596,,,
 2021-02-09,Pocahontas,Iowa,19151,799,17,799,,,
 2021-02-09,Polk,Iowa,19153,49285,514,49285,,,
-2021-02-09,Pottawattamie,Iowa,19155,9486,136,9486,,,
+2021-02-09,Pottawattamie,Iowa,19155,9485,136,9485,,,
 2021-02-09,Poweshiek,Iowa,19157,1438,28,1438,,,
 2021-02-09,Ringgold,Iowa,19159,485,16,485,,,
-2021-02-09,Sac,Iowa,19161,1151,17,1151,,,
-2021-02-09,Scott,Iowa,19163,16547,191,16547,,,
-2021-02-09,Shelby,Iowa,19165,1113,32,1113,,,
+2021-02-09,Sac,Iowa,19161,1150,17,1150,,,
+2021-02-09,Scott,Iowa,19163,16546,191,16546,,,
+2021-02-09,Shelby,Iowa,19165,1114,32,1114,,,
 2021-02-09,Sioux,Iowa,19167,4673,66,4673,,,
 2021-02-09,Story,Iowa,19169,9187,43,9187,,,
 2021-02-09,Tama,Iowa,19171,1965,63,1965,,,
@@ -885,13 +885,13 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-02-09,Unknown,Iowa,,1090,0,1090,,,
 2021-02-09,Van Buren,Iowa,19177,527,17,527,,,
 2021-02-09,Wapello,Iowa,19179,3709,103,3709,,,
-2021-02-09,Warren,Iowa,19181,4877,66,4877,,,
-2021-02-09,Washington,Iowa,19183,2319,40,2319,,,
+2021-02-09,Warren,Iowa,19181,4876,66,4876,,,
+2021-02-09,Washington,Iowa,19183,2318,40,2318,,,
 2021-02-09,Wayne,Iowa,19185,434,21,434,,,
 2021-02-09,Webster,Iowa,19187,4816,83,4816,,,
 2021-02-09,Winnebago,Iowa,19189,1261,30,1261,,,
 2021-02-09,Winneshiek,Iowa,19191,1703,26,1703,,,
-2021-02-09,Woodbury,Iowa,19193,13402,202,13402,,,
+2021-02-09,Woodbury,Iowa,19193,13403,202,13403,,,
 2021-02-09,Worth,Iowa,19195,639,4,639,,,
 2021-02-09,Wright,Iowa,19197,1696,30,1696,,,
 2021-02-09,Allen,Kansas,20001,1023,1,112,1,911,
@@ -1239,7 +1239,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-02-09,Norfolk,Massachusetts,25021,42430,1533,42430,,,
 2021-02-09,Plymouth,Massachusetts,25023,37823,1211,37823,,,
 2021-02-09,Suffolk,Massachusetts,25025,74098,1606,74098,,,
-2021-02-09,Unknown,Massachusetts,,29225,8,1462,,27763,
+2021-02-09,Unknown,Massachusetts,,29225,8,1454,,27771,
 2021-02-09,Worcester,Massachusetts,25027,61787,1908,61787,,,
 2021-02-09,Alcona,Michigan,26001,419,24,345,19,74,5
 2021-02-09,Alger,Michigan,26003,578,3,422,1,156,2
@@ -1560,7 +1560,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-02-09,Madison,Missouri,29123,1340,15,1340,15,,
 2021-02-09,Maries,Missouri,29125,527,7,527,7,,
 2021-02-09,Marion,Missouri,29127,2613,39,2613,39,,
-2021-02-09,McDonald,Missouri,29119,2398,30,2398,30,,
+2021-02-09,McDonald,Missouri,29119,2399,30,2399,30,,
 2021-02-09,Mercer,Missouri,29129,173,2,173,2,,
 2021-02-09,Miller,Missouri,29131,2298,48,2298,48,,
 2021-02-09,Mississippi,Missouri,29133,1238,22,1238,22,,
@@ -1580,7 +1580,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-02-09,Phelps,Missouri,29161,2934,115,2934,115,,
 2021-02-09,Pike,Missouri,29163,1473,21,1473,21,,
 2021-02-09,Platte,Missouri,29165,3009,37,3009,37,,
-2021-02-09,Polk,Missouri,29167,3171,36,3171,36,,
+2021-02-09,Polk,Missouri,29167,3176,36,3176,36,,
 2021-02-09,Pulaski,Missouri,29169,2944,37,2944,37,,
 2021-02-09,Putnam,Missouri,29171,222,2,222,2,,
 2021-02-09,Ralls,Missouri,29173,744,12,744,12,,
@@ -1606,7 +1606,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-02-09,Taney,Missouri,29213,4489,73,4489,73,,
 2021-02-09,Texas,Missouri,29215,1523,21,1523,21,,
 2021-02-09,Vernon,Missouri,29217,1362,33,1362,33,,
-2021-02-09,Warren,Missouri,29219,2557,21,2557,21,,
+2021-02-09,Warren,Missouri,29219,2575,21,2575,21,,
 2021-02-09,Washington,Missouri,29221,2097,42,2097,42,,
 2021-02-09,Wayne,Missouri,29223,805,9,805,9,,
 2021-02-09,Webster,Missouri,29225,2963,46,2963,46,,
@@ -1726,7 +1726,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-02-09,Lincoln,Nebraska,31111,3463,41,,,,
 2021-02-09,Logan,Nebraska,31113,75,0,,,,
 2021-02-09,Loup,Nebraska,31115,40,0,,,,
-2021-02-09,Madison,Nebraska,31119,4259,42,4259,40,,2
+2021-02-09,Madison,Nebraska,31119,4297,44,4297,44,,
 2021-02-09,McPherson,Nebraska,31117,26,1,,,,
 2021-02-09,Merrick,Nebraska,31121,717,13,717,12,,1
 2021-02-09,Morrill,Nebraska,31123,464,15,,,,
@@ -1746,7 +1746,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-02-09,Saline,Nebraska,31151,1878,3,,,,
 2021-02-09,Sarpy,Nebraska,31153,18818,102,18566,96,252,6
 2021-02-09,Saunders,Nebraska,31155,2245,13,,,,
-2021-02-09,Scotts Bluff,Nebraska,31157,4388,92,,,,
+2021-02-09,Scotts Bluff,Nebraska,31157,4397,92,,,,
 2021-02-09,Seward,Nebraska,31159,1283,25,,,,
 2021-02-09,Sheridan,Nebraska,31161,450,16,,,,
 2021-02-09,Sherman,Nebraska,31163,176,4,,,,
@@ -1761,10 +1761,10 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-02-09,Webster,Nebraska,31181,305,4,,,,
 2021-02-09,Wheeler,Nebraska,31183,33,0,,,,
 2021-02-09,York,Nebraska,31185,1420,8,,,,
-2021-02-09,Carson City,Nevada,32510,5760,108,5760,108,,
+2021-02-09,Carson City,Nevada,32510,5767,110,5767,110,,
 2021-02-09,Churchill,Nevada,32001,1846,49,1846,49,,
 2021-02-09,Clark,Nevada,32003,219602,3509,219602,3509,,
-2021-02-09,Douglas,Nevada,32005,2432,29,2432,29,,
+2021-02-09,Douglas,Nevada,32005,2439,29,2439,29,,
 2021-02-09,Elko,Nevada,32007,4398,48,4398,48,,
 2021-02-09,Esmeralda,Nevada,32009,37,0,37,0,,
 2021-02-09,Eureka,Nevada,32011,47,0,47,0,,
@@ -1933,7 +1933,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-02-09,Davidson,North Carolina,37057,13758,142,12372,125,1386,17
 2021-02-09,Davie,North Carolina,37059,3274,22,2677,20,597,2
 2021-02-09,Duplin,North Carolina,37061,5413,120,3776,106,1637,14
-2021-02-09,Durham,North Carolina,37063,20821,193,20821,193,,
+2021-02-09,Durham,North Carolina,37063,20877,194,20877,194,,
 2021-02-09,Edgecombe,North Carolina,37065,4258,92,4101,89,157,3
 2021-02-09,Forsyth,North Carolina,37067,29601,299,27439,278,2162,21
 2021-02-09,Franklin,North Carolina,37069,4885,41,4731,41,154,0
@@ -2634,7 +2634,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-02-09,Baylor,Texas,48023,291,11,116,,175,
 2021-02-09,Bee,Texas,48025,3364,60,2932,,432,
 2021-02-09,Bell,Texas,48027,19775,297,19775,282,0,15
-2021-02-09,Bexar,Texas,48029,183448,2557,154778,2362,28670,195
+2021-02-09,Bexar,Texas,48029,184796,2557,156063,2362,28733,195
 2021-02-09,Blanco,Texas,48031,657,15,556,,101,
 2021-02-09,Borden,Texas,48033,19,2,13,,6,
 2021-02-09,Bosque,Texas,48035,1525,27,1253,,272,
@@ -2650,7 +2650,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-02-09,Caldwell,Texas,48055,5054,68,4794,68,260,0
 2021-02-09,Calhoun,Texas,48057,1664,14,1498,3,166,11
 2021-02-09,Callahan,Texas,48059,1098,36,570,1,528,35
-2021-02-09,Cameron,Texas,48061,36076,1379,36076,1379,0,
+2021-02-09,Cameron,Texas,48061,36148,1386,36148,1386,,
 2021-02-09,Camp,Texas,48063,1127,36,765,,362,
 2021-02-09,Carson,Texas,48065,358,12,218,,140,
 2021-02-09,Cass,Texas,48067,1706,73,1082,3,624,70
@@ -2845,7 +2845,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-02-09,Terry,Texas,48445,1657,52,1657,,0,
 2021-02-09,Throckmorton,Texas,48447,71,5,49,,22,
 2021-02-09,Titus,Texas,48449,3476,73,2583,14,893,59
-2021-02-09,Tom Green,Texas,48451,15994,237,4525,16,11469,221
+2021-02-09,Tom Green,Texas,48451,16032,237,4525,16,11507,221
 2021-02-09,Travis,Texas,48453,72625,774,72625,695,,79
 2021-02-09,Trinity,Texas,48455,620,20,447,,173,
 2021-02-09,Tyler,Texas,48457,1127,31,495,,632,
@@ -3052,48 +3052,48 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-02-09,Wise,Virginia,51195,2738,84,,,,
 2021-02-09,Wythe,Virginia,51197,1941,44,,,,
 2021-02-09,York,Virginia,51199,2743,21,,,,
-2021-02-09,St. Croix,Virgin Islands,78010,1032,8,1032,8,,
+2021-02-09,St. Croix,Virgin Islands,78010,1034,8,1034,8,,
 2021-02-09,St. John,Virgin Islands,78020,209,1,209,1,,
-2021-02-09,St. Thomas,Virgin Islands,78030,1232,15,1232,15,,
-2021-02-09,Adams,Washington,53001,1850,21,1738,,112,
-2021-02-09,Asotin,Washington,53003,1245,26,1245,,0,
-2021-02-09,Benton,Washington,53005,14465,191,14137,180,328,11
-2021-02-09,Chelan,Washington,53007,6055,54,3158,37,2897,17
+2021-02-09,St. Thomas,Virgin Islands,78030,1242,15,1242,15,,
+2021-02-09,Adams,Washington,53001,1855,21,1741,,114,
+2021-02-09,Asotin,Washington,53003,1252,27,1252,,0,
+2021-02-09,Benton,Washington,53005,14515,194,14137,180,378,14
+2021-02-09,Chelan,Washington,53007,6055,56,3159,37,2896,19
 2021-02-09,Clallam,Washington,53009,923,6,873,,50,
-2021-02-09,Clark,Washington,53011,18184,208,17775,203,409,5
+2021-02-09,Clark,Washington,53011,18228,213,17814,203,414,10
 2021-02-09,Columbia,Washington,53013,112,4,83,,29,
-2021-02-09,Cowlitz,Washington,53015,3993,47,3971,,22,
-2021-02-09,Douglas,Washington,53017,3157,19,1664,15,1493,4
+2021-02-09,Cowlitz,Washington,53015,4003,49,3981,,22,
+2021-02-09,Douglas,Washington,53017,3157,20,1666,15,1491,5
 2021-02-09,Ferry,Washington,53019,201,4,187,,14,
-2021-02-09,Franklin,Washington,53021,10689,95,10523,90,166,5
+2021-02-09,Franklin,Washington,53021,10714,97,10524,90,190,7
 2021-02-09,Garfield,Washington,53023,111,4,85,,26,
-2021-02-09,Grant,Washington,53025,8518,108,6114,108,2404,0
+2021-02-09,Grant,Washington,53025,8541,108,6119,108,2422,0
 2021-02-09,Grays Harbor,Washington,53027,3186,40,3057,,129,
-2021-02-09,Island,Washington,53029,1240,22,1216,22,24,0
+2021-02-09,Island,Washington,53029,1247,22,1216,22,31,0
 2021-02-09,Jefferson,Washington,53031,325,2,323,,2,
-2021-02-09,King,Washington,53033,80417,1278,78814,,1603,
-2021-02-09,Kitsap,Washington,53035,5437,75,5246,,191,
-2021-02-09,Kittitas,Washington,53037,2122,30,2063,,59,
-2021-02-09,Klickitat,Washington,53039,620,8,521,,99,
-2021-02-09,Lewis,Washington,53041,3477,41,3017,,460,
-2021-02-09,Lincoln,Washington,53043,322,4,314,,8,
-2021-02-09,Mason,Washington,53045,2188,19,2156,,32,
-2021-02-09,Okanogan,Washington,53047,2058,34,2058,34,,0
-2021-02-09,Pacific,Washington,53049,685,8,520,,165,
-2021-02-09,Pend Oreille,Washington,53051,574,5,509,,65,
-2021-02-09,Pierce,Washington,53053,36258,483,34400,,1858,
+2021-02-09,King,Washington,53033,80596,1292,78972,,1624,
+2021-02-09,Kitsap,Washington,53035,5470,76,5272,,198,
+2021-02-09,Kittitas,Washington,53037,2123,30,2064,,59,
+2021-02-09,Klickitat,Washington,53039,622,8,523,,99,
+2021-02-09,Lewis,Washington,53041,3494,43,3034,,460,
+2021-02-09,Lincoln,Washington,53043,324,5,316,,8,
+2021-02-09,Mason,Washington,53045,2198,19,2166,,32,
+2021-02-09,Okanogan,Washington,53047,2059,35,2058,34,1,1
+2021-02-09,Pacific,Washington,53049,687,8,522,,165,
+2021-02-09,Pend Oreille,Washington,53051,575,5,509,,66,
+2021-02-09,Pierce,Washington,53053,36258,496,34509,,1749,
 2021-02-09,San Juan,Washington,53055,116,0,115,,1,
-2021-02-09,Skagit,Washington,53057,4232,53,3981,,251,
+2021-02-09,Skagit,Washington,53057,4234,55,3981,,253,
 2021-02-09,Skamania,Washington,53059,248,1,246,,2,
-2021-02-09,Snohomish,Washington,53061,29489,495,28114,487,1375,8
+2021-02-09,Snohomish,Washington,53061,29489,504,28151,487,1338,17
 2021-02-09,Spokane,Washington,53063,35644,537,35644,537,,
-2021-02-09,Stevens,Washington,53065,1524,22,1400,,124,
-2021-02-09,Thurston,Washington,53067,6685,69,6685,63,,6
+2021-02-09,Stevens,Washington,53065,1522,22,1397,,125,
+2021-02-09,Thurston,Washington,53067,6685,70,6685,63,,7
 2021-02-09,Wahkiakum,Washington,53069,73,0,73,,0,
-2021-02-09,Walla Walla,Washington,53071,4569,52,4569,46,,6
-2021-02-09,Whatcom,Washington,53073,6116,69,6044,,72,
-2021-02-09,Whitman,Washington,53075,3237,37,3237,37,,0
-2021-02-09,Yakima,Washington,53077,26569,375,26569,364,,11
+2021-02-09,Walla Walla,Washington,53071,4569,54,4569,46,,8
+2021-02-09,Whatcom,Washington,53073,6110,72,6040,,70,
+2021-02-09,Whitman,Washington,53075,3237,38,3237,37,,1
+2021-02-09,Yakima,Washington,53077,26639,398,26639,365,,33
 2021-02-09,Barbour,West Virginia,54001,1151,20,977,16,174,4
 2021-02-09,Berkeley,West Virginia,54003,9279,91,7633,81,1646,10
 2021-02-09,Boone,West Virginia,54005,1493,30,1340,29,153,1
