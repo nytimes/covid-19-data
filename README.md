@@ -183,6 +183,8 @@ Starting June 25, cases and deaths for Joplin are reported separately from Jaspe
 
 Data for the Bristol Bay Borough and Lake and Peninsula Borough county equivalents are reported as a single "Bristol Bay plus Lake and Peninsula" area, and data for the Yakutat City and Borough and Hoonah-Angoon Census Area county equivalents are reported together as "Yakutat plus Hoonah-Angoon".
 
+We continue to report data for the Chugach and Copper River Census Areas together as the Valdez-Cordova Census Area even though the state began to report data for them separately in Feb. 2021.
+
 * Alameda County, Calif.
 
 Counts for Alameda County include cases and deaths from Berkeley and the Grand Princess cruise ship.
