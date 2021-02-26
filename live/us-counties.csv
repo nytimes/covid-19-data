@@ -190,19 +190,19 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-02-25,Amador,California,06005,3443,40,3443,40,,
 2021-02-25,Butte,California,06007,10915,160,10915,160,,
 2021-02-25,Calaveras,California,06009,1864,47,1864,47,,
-2021-02-25,Colusa,California,06011,2127,13,2127,13,,
+2021-02-25,Colusa,California,06011,2128,13,2128,13,,
 2021-02-25,Contra Costa,California,06013,62164,674,62164,674,,
 2021-02-25,Del Norte,California,06015,987,5,987,5,,
 2021-02-25,El Dorado,California,06017,8993,98,8993,98,,
 2021-02-25,Fresno,California,06019,94794,1412,94794,1412,,
 2021-02-25,Glenn,California,06021,2210,23,2210,23,,
-2021-02-25,Humboldt,California,06023,3151,33,3151,33,,
+2021-02-25,Humboldt,California,06023,3160,33,3160,33,,
 2021-02-25,Imperial,California,06025,26843,585,26843,585,,
 2021-02-25,Inyo,California,06027,1253,36,1253,36,,
 2021-02-25,Kern,California,06029,102627,811,102627,811,,
 2021-02-25,Kings,California,06031,21951,218,21951,218,,
 2021-02-25,Lake,California,06033,3134,40,3134,40,,
-2021-02-25,Lassen,California,06035,5594,19,5594,19,,
+2021-02-25,Lassen,California,06035,5601,19,5601,19,,
 2021-02-25,Los Angeles,California,06037,1188101,21102,1187474,20987,627,115
 2021-02-25,Madera,California,06039,15390,209,15390,209,,
 2021-02-25,Marin,California,06041,13044,197,13044,197,,
@@ -221,7 +221,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-02-25,Sacramento,California,06067,92943,1464,92943,1464,,
 2021-02-25,San Benito,California,06069,5743,59,5743,59,,
 2021-02-25,San Bernardino,California,06071,285334,2673,285334,2673,,
-2021-02-25,San Diego,California,06073,258526,3230,258526,3230,,
+2021-02-25,San Diego,California,06073,259045,3260,259045,3260,,
 2021-02-25,San Francisco,California,06075,34064,398,34064,398,,
 2021-02-25,San Joaquin,California,06077,66569,1082,66569,1082,,
 2021-02-25,San Luis Obispo,California,06079,19612,227,19612,227,,
@@ -231,7 +231,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-02-25,Santa Cruz,California,06087,14588,183,14588,183,,
 2021-02-25,Shasta,California,06089,10944,174,10944,174,,
 2021-02-25,Sierra,California,06091,47,0,47,0,,
-2021-02-25,Siskiyou,California,06093,1728,14,1728,14,,
+2021-02-25,Siskiyou,California,06093,1740,14,1740,14,,
 2021-02-25,Solano,California,06095,29973,164,29973,164,,
 2021-02-25,Sonoma,California,06097,27954,295,27954,295,,
 2021-02-25,Stanislaus,California,06099,55775,944,50206,944,5569,
@@ -259,7 +259,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-02-25,Crowley,Colorado,08025,1961,14,,,,
 2021-02-25,Custer,Colorado,08027,164,1,,,,
 2021-02-25,Delta,Colorado,08029,2459,58,,,,
-2021-02-25,Denver,Colorado,08031,59086,766,59083,766,3,
+2021-02-25,Denver,Colorado,08031,59242,767,59242,767,,
 2021-02-25,Dolores,Colorado,08033,68,0,,,,
 2021-02-25,Douglas,Colorado,08035,21550,230,,,,
 2021-02-25,Eagle,Colorado,08037,4997,20,,,,
@@ -549,7 +549,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-02-25,Wilkes,Georgia,13317,1020,21,644,16,376,5
 2021-02-25,Wilkinson,Georgia,13319,876,23,698,23,178,0
 2021-02-25,Worth,Georgia,13321,1685,62,1138,55,547,7
-2021-02-25,Unknown,Guam,,8698,131,8489,131,209,0
+2021-02-25,Unknown,Guam,,8699,131,8490,131,209,0
 2021-02-25,Hawaii,Hawaii,15001,2267,53,,,,
 2021-02-25,Honolulu,Hawaii,15003,22081,346,,,,
 2021-02-25,Kalawao,Hawaii,15005,1,0,,,,
@@ -655,7 +655,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-02-25,Logan,Illinois,17107,3304,66,,53,,13
 2021-02-25,Macon,Illinois,17115,9417,195,,185,,10
 2021-02-25,Macoupin,Illinois,17117,4340,108,,79,,29
-2021-02-25,Madison,Illinois,17119,27835,526,27341,458,494,68
+2021-02-25,Madison,Illinois,17119,27835,526,27369,458,466,68
 2021-02-25,Marion,Illinois,17121,4255,117,,111,,6
 2021-02-25,Marshall,Illinois,17123,834,16,,14,,2
 2021-02-25,Mason,Illinois,17125,1275,42,,41,,1
@@ -681,12 +681,12 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-02-25,Richland,Illinois,17159,1634,47,,38,,9
 2021-02-25,Rock Island,Illinois,17161,13030,329,12831,304,199,25
 2021-02-25,Saline,Illinois,17165,2284,63,,47,,16
-2021-02-25,Sangamon,Illinois,17167,16072,257,16050,218,22,39
+2021-02-25,Sangamon,Illinois,17167,16072,257,16072,218,0,39
 2021-02-25,Schuyler,Illinois,17169,675,17,,5,,12
 2021-02-25,Scott,Illinois,17171,448,1,,1,,
 2021-02-25,Shelby,Illinois,17173,2130,37,,34,,3
 2021-02-25,Stark,Illinois,17175,537,22,,22,,
-2021-02-25,St. Clair,Illinois,17163,27757,507,27757,463,0,44
+2021-02-25,St. Clair,Illinois,17163,27820,507,27820,463,0,44
 2021-02-25,Stephenson,Illinois,17177,4078,94,,75,,19
 2021-02-25,Tazewell,Illinois,17179,13476,273,13476,239,,34
 2021-02-25,Union,Illinois,17181,2184,40,,36,,4
@@ -2634,7 +2634,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-02-25,Baylor,Texas,48023,290,11,121,,169,
 2021-02-25,Bee,Texas,48025,3395,64,3028,,367,
 2021-02-25,Bell,Texas,48027,20400,360,20400,360,0,
-2021-02-25,Bexar,Texas,48029,194344,2842,164280,2510,30064,332
+2021-02-25,Bexar,Texas,48029,194748,2842,164604,2514,30144,328
 2021-02-25,Blanco,Texas,48031,679,17,566,,113,
 2021-02-25,Borden,Texas,48033,21,2,14,,7,
 2021-02-25,Bosque,Texas,48035,1583,30,1294,,289,
@@ -2780,7 +2780,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-02-25,Matagorda,Texas,48321,3139,89,2767,5,372,84
 2021-02-25,Maverick,Texas,48323,10132,296,10132,1,0,295
 2021-02-25,McCulloch,Texas,48307,535,15,382,,153,
-2021-02-25,McLennan,Texas,48309,24896,431,24896,397,0,34
+2021-02-25,McLennan,Texas,48309,24966,431,24966,406,,25
 2021-02-25,McMullen,Texas,48311,81,4,62,,19,
 2021-02-25,Medina,Texas,48325,4604,93,3654,2,950,91
 2021-02-25,Menard,Texas,48327,205,7,139,,66,
@@ -3067,7 +3067,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-02-25,Ferry,Washington,53019,206,4,191,,15,
 2021-02-25,Franklin,Washington,53021,11061,99,10874,91,187,8
 2021-02-25,Garfield,Washington,53023,117,4,87,,30,
-2021-02-25,Grant,Washington,53025,8878,108,6286,108,2592,0
+2021-02-25,Grant,Washington,53025,8903,114,6301,114,2602,0
 2021-02-25,Grays Harbor,Washington,53027,3293,45,3150,,143,
 2021-02-25,Island,Washington,53029,1285,26,1285,26,,0
 2021-02-25,Jefferson,Washington,53031,335,2,333,,2,
@@ -3078,7 +3078,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-02-25,Lewis,Washington,53041,3662,50,3160,,502,
 2021-02-25,Lincoln,Washington,53043,335,5,327,,8,
 2021-02-25,Mason,Washington,53045,2251,23,2215,,36,
-2021-02-25,Okanogan,Washington,53047,2110,36,2109,34,1,2
+2021-02-25,Okanogan,Washington,53047,2129,36,2129,34,,2
 2021-02-25,Pacific,Washington,53049,703,10,538,,165,
 2021-02-25,Pend Oreille,Washington,53051,614,6,544,,70,
 2021-02-25,Pierce,Washington,53053,38224,542,36288,,1936,
@@ -3194,7 +3194,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-02-25,Oconto,Wisconsin,55083,4699,55,4255,48,444,7
 2021-02-25,Oneida,Wisconsin,55085,3488,71,3354,67,134,4
 2021-02-25,Outagamie,Wisconsin,55087,21488,205,19182,194,2306,11
-2021-02-25,Ozaukee,Wisconsin,55089,8499,83,7609,77,890,6
+2021-02-25,Ozaukee,Wisconsin,55089,8499,83,7609,78,890,5
 2021-02-25,Pepin,Wisconsin,55091,826,7,806,7,20,0
 2021-02-25,Pierce,Wisconsin,55093,4344,39,3458,33,886,6
 2021-02-25,Polk,Wisconsin,55095,3959,46,3893,46,66,
