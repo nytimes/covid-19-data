@@ -209,6 +209,10 @@ Counts for Guam include cases reported from the USS Theodore Roosevelt.
 
 Data for Puerto Rico's county-equivalent municipios are available starting on May 5. This data was not available at the beginning of the outbreak and so all cases and deaths were assigned to Unknown. Puerto Rico does not report deaths at the municipio level.
 
+* Iowa
+
+On Feb. 20, Iowa stopped reporting cases by county. The state now only reports the total number of positive tests in each county, a figure known to be higher than the number of individual cases, as some people who are infected receive multiple positive test results. Iowa still reports deaths at the county level, along with a statewide number of cases, which represent unique individuals known to have tested positive. All new cases since then have been added under Unknown for Iowa.
+
 #### Probable Cases and Deaths and Anomalies
 
 For details on which individual state counts include probable cases and deaths and on anomalous days of data reporting, please see the list of individual state pages linked to from our [main tracking page](https://www.nytimes.com/interactive/2020/us/coronavirus-us-cases.html).
