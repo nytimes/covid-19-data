@@ -211,7 +211,7 @@ Data for Puerto Rico's county-equivalent municipios are available starting on Ma
 
 * Iowa
 
-On Feb. 20, Iowa stopped reporting cases by county. The state now only reports the total number of positive tests in each county, a figure known to be higher than the number of individual cases, as some people who are infected receive multiple positive test results. Iowa still reports deaths at the county level, along with a statewide number of cases, which represent unique individuals known to have tested positive. All new cases since then have been added under Unknown for Iowa.
+From Feb. 20 to Feb. 24, Iowa did not report unique cases by county, it only reported positive tests, a figure known to be higher than the number of individual cases, as some people who are infected receive multiple positive test results. Iowa still reported deaths at the county level, along with a statewide number of cases, which represent unique individuals known to have tested positive. New cases in that period were added under Unknown for Iowa.
 
 #### Probable Cases and Deaths and Anomalies
 
