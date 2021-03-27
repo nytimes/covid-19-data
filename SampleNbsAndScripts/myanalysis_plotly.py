@@ -1,4 +1,4 @@
-# %% [markdown]
+ # %% [markdown]
 #  * Reference Sites
 #      * https://github.com/greazer/covid-19-data
 #      * https://www.mercurynews.com/2020/04/08/how-california-has-contained-coronavirus-and-new-york-has-not/
@@ -10,7 +10,6 @@
 import time
 t0 = time.perf_counter()
 
-
 # %%
 import os
 from IPython.core.display import display, HTML
@@ -21,7 +20,8 @@ else:
     basefolder = './Users/jimgries/'
     color = 'green'
 
-display(HTML(F'<H1>Hello from <span style="color:{color};">' + str.upper(os.name) + '</span>!!!!</H1>'))
+print('basefolder = ' + os.getcwd() + '/' + basefolder)
+#display(HTML(F'<H1>Hello from <span style="color:{color};">' + str.upper(os.name) + '</span>!!!!</H1>'))
 
 
 # %%
@@ -266,50 +266,50 @@ results = client.get("9bhg-hcku", limit=10000)
 covid_by_age = pd.DataFrame.from_records(results)
 #covid_by_age = pd.read_csv(datafolder + 'Provisional_COVID-19_Death_Counts_by_Sex__Age__and_State.csv')
 
-indexNames = covid_by_age[  (covid_by_age.age_group_new == '18-29 years')
-                | (covid_by_age.age_group_new == '30-49 years')
-                | (covid_by_age.age_group_new == '50-64 years') ].index
+indexNames = covid_by_age[  (covid_by_age.age_group == '18-29 years')
+                | (covid_by_age.age_group == '30-49 years')
+                | (covid_by_age.age_group == '50-64 years') ].index
 covid_by_age.drop(indexNames , inplace=True)
 
 # %%
 
 df = covid_by_age[(covid_by_age.state == 'United States') & (covid_by_age.sex == 'All Sexes')]
-df['Population Raw'] = int(0)
-df['Population Raw'][(df.age_group_new=='All Ages')] = int(population_by_age.POPESTIMATE2019[(population_by_age.SEX == 0) & (population_by_age.AGE == 999)])
-df['Population Raw'][(df.age_group_new=='Under 1 year')] = int(population_by_age.POPESTIMATE2019[(population_by_age.SEX == 0) & (population_by_age.AGE == 0)])
-df['Population Raw'][(df.age_group_new=='0-17 years')] = int(population_by_age.POPESTIMATE2019[(population_by_age.SEX == 0) & (population_by_age.AGE <= 17)].sum())
-df['Population Raw'][(df.age_group_new=='1-4 years')] = int(population_by_age.POPESTIMATE2019[(population_by_age.SEX == 0) & (population_by_age.AGE >= 1) & (population_by_age.AGE <= 4)].sum())
-df['Population Raw'][(df.age_group_new=='5-14 years')] = int(population_by_age.POPESTIMATE2019[(population_by_age.SEX == 0) & (population_by_age.AGE >= 5) & (population_by_age.AGE <= 14)].sum())
-df['Population Raw'][(df.age_group_new=='15-24 years')] = int(population_by_age.POPESTIMATE2019[(population_by_age.SEX == 0) & (population_by_age.AGE >= 15) & (population_by_age.AGE <= 24)].sum())
-#df['Population Raw'][(df.age_group_new=='18-29 years')] = int(population_by_age.POPESTIMATE2019[(population_by_age.SEX == 0) & (population_by_age.AGE >= 18) & (population_by_age.AGE <= 29)].sum())
-df['Population Raw'][(df.age_group_new=='25-34 years')] = int(population_by_age.POPESTIMATE2019[(population_by_age.SEX == 0) & (population_by_age.AGE >= 25) & (population_by_age.AGE <= 34)].sum())
-#df['Population Raw'][(df.age_group_new=='30-49 years')] = int(population_by_age.POPESTIMATE2019[(population_by_age.SEX == 0) & (population_by_age.AGE >= 30) & (population_by_age.AGE <= 49)].sum())
-df['Population Raw'][(df.age_group_new=='35-44 years')] = int(population_by_age.POPESTIMATE2019[(population_by_age.SEX == 0) & (population_by_age.AGE >= 35) & (population_by_age.AGE <= 44)].sum())
-df['Population Raw'][(df.age_group_new=='45-54 years')] = int(population_by_age.POPESTIMATE2019[(population_by_age.SEX == 0) & (population_by_age.AGE >= 45) & (population_by_age.AGE <= 54)].sum())
-#df['Population Raw'][(df.age_group_new=='50-64 years')] = int(population_by_age.POPESTIMATE2019[(population_by_age.SEX == 0) & (population_by_age.AGE >= 50) & (population_by_age.AGE <= 64)].sum())
-df['Population Raw'][(df.age_group_new=='55-64 years')] = int(population_by_age.POPESTIMATE2019[(population_by_age.SEX == 0) & (population_by_age.AGE >= 55) & (population_by_age.AGE <= 64)].sum())
-df['Population Raw'][(df.age_group_new=='65-74 years')] = int(population_by_age.POPESTIMATE2019[(population_by_age.SEX == 0) & (population_by_age.AGE >= 65) & (population_by_age.AGE <= 74)].sum())
-df['Population Raw'][(df.age_group_new=='75-84 years')] = int(population_by_age.POPESTIMATE2019[(population_by_age.SEX == 0) & (population_by_age.AGE >= 75) & (population_by_age.AGE <= 84)].sum())
-df['Population Raw'][(df.age_group_new=='85 years and over')] = int(population_by_age.POPESTIMATE2019[(population_by_age.SEX == 0) & (population_by_age.AGE >= 85) & (population_by_age.AGE < 999)].sum())
+df = df.assign(PopulationRaw=int(0))
+df.loc[df.age_group=='All Ages', 'PopulationRaw'] = int(population_by_age.POPESTIMATE2019[(population_by_age.SEX == 0) & (population_by_age.AGE == 999)])
+df.loc[df.age_group=='Under 1 year', 'PopulationRaw'] = int(population_by_age.POPESTIMATE2019[(population_by_age.SEX == 0) & (population_by_age.AGE == 0)])
+df.loc[df.age_group=='0-17 years', 'PopulationRaw'] = int(population_by_age.POPESTIMATE2019[(population_by_age.SEX == 0) & (population_by_age.AGE <= 17)].sum())
+df.loc[df.age_group=='1-4 years', 'PopulationRaw'] = int(population_by_age.POPESTIMATE2019[(population_by_age.SEX == 0) & (population_by_age.AGE >= 1) & (population_by_age.AGE <= 4)].sum())
+df.loc[df.age_group=='5-14 years', 'PopulationRaw'] = int(population_by_age.POPESTIMATE2019[(population_by_age.SEX == 0) & (population_by_age.AGE >= 5) & (population_by_age.AGE <= 14)].sum())
+df.loc[df.age_group=='15-24 years', 'PopulationRaw'] = int(population_by_age.POPESTIMATE2019[(population_by_age.SEX == 0) & (population_by_age.AGE >= 15) & (population_by_age.AGE <= 24)].sum())
+#df.loc[df.age_group=='18-29 years', 'PopulationRaw'] = int(population_by_age.POPESTIMATE2019[(population_by_age.SEX == 0) & (population_by_age.AGE >= 18) & (population_by_age.AGE <= 29)].sum())
+df.loc[df.age_group=='25-34 years', 'PopulationRaw'] = int(population_by_age.POPESTIMATE2019[(population_by_age.SEX == 0) & (population_by_age.AGE >= 25) & (population_by_age.AGE <= 34)].sum())
+#df.loc[df.age_group=='30-49 years', 'PopulationRaw'] = int(population_by_age.POPESTIMATE2019[(population_by_age.SEX == 0) & (population_by_age.AGE >= 30) & (population_by_age.AGE <= 49)].sum())
+df.loc[df.age_group=='35-44 years', 'PopulationRaw'] = int(population_by_age.POPESTIMATE2019[(population_by_age.SEX == 0) & (population_by_age.AGE >= 35) & (population_by_age.AGE <= 44)].sum())
+df.loc[df.age_group=='45-54 years', 'PopulationRaw'] = int(population_by_age.POPESTIMATE2019[(population_by_age.SEX == 0) & (population_by_age.AGE >= 45) & (population_by_age.AGE <= 54)].sum())
+#df.loc[df.age_group=='50-64 years', 'PopulationRaw'] = int(population_by_age.POPESTIMATE2019[(population_by_age.SEX == 0) & (population_by_age.AGE >= 50) & (population_by_age.AGE <= 64)].sum())
+df.loc[df.age_group=='55-64 years', 'PopulationRaw'] = int(population_by_age.POPESTIMATE2019[(population_by_age.SEX == 0) & (population_by_age.AGE >= 55) & (population_by_age.AGE <= 64)].sum())
+df.loc[df.age_group=='65-74 years', 'PopulationRaw'] = int(population_by_age.POPESTIMATE2019[(population_by_age.SEX == 0) & (population_by_age.AGE >= 65) & (population_by_age.AGE <= 74)].sum())
+df.loc[df.age_group=='75-84 years', 'PopulationRaw'] = int(population_by_age.POPESTIMATE2019[(population_by_age.SEX == 0) & (population_by_age.AGE >= 75) & (population_by_age.AGE <= 84)].sum())
+df.loc[df.age_group=='85 years and over', 'PopulationRaw'] = int(population_by_age.POPESTIMATE2019[(population_by_age.SEX == 0) & (population_by_age.AGE >= 85) & (population_by_age.AGE < 999)].sum())
 
-df['Population'] = df['Population Raw'].map(lambda n: '{:,}'.format(n))
-df['Chance of Death by COVID Raw'] = (df.covid_19_deaths.astype(int) / df['Population Raw'])
-df['Chance of Death by COVID'] = df['Chance of Death by COVID Raw'].map(lambda n: '1 in {:,}'.format(round(1/n)))
-df['Chance of Death by Pneumonia Raw'] = (df.pneumonia_deaths.astype(int) / df['Population Raw'])
-df['Chance of Death by Pneumonia'] = df['Chance of Death by Pneumonia Raw'].map(lambda n: '1 in {:,}'.format(round(1/n)))
-df['Chance of Death by Flu Raw'] = (df.influenza_deaths.astype(int) / df['Population Raw'])
-df['Chance of Death by Flu'] = df['Chance of Death by Flu Raw'].map(lambda n: '1 in {:,}'.format(round(1/n)))
-df['Chance of Death other than COVID Raw'] = (df.total_deaths.astype(int) - (df.covid_19_deaths.astype(int) + df.pneumonia_deaths.astype(int) + df.influenza_deaths.astype(int))) / df['Population Raw']
-df['Chance of Death other than COVID'] = df['Chance of Death other than COVID Raw'].map(lambda n: '1 in {:,}'.format(round(1/n)))
-df['Chance of Living after COVID Raw'] = 1 - df['Chance of Death by COVID Raw']
-df['Chance of Living after COVID'] = df['Chance of Living after COVID Raw'].map(lambda n: '{:.4%}'.format(n))
-df['Times Worse than 25-34'] = df['Chance of Death by COVID Raw'].map(lambda n: '{0}x'.format(round(n / df.loc[7, 'Chance of Death by COVID Raw'], 0)))
+df = df.assign(Population=df.PopulationRaw.map(lambda n: '{:,}'.format(n)))
+df = df.assign(ChanceOfDeathByCOVIDRaw = (df.covid_19_deaths.astype(int) / df.PopulationRaw))
+df = df.assign(ChanceOfDeathByPneumoniaRaw = (df.pneumonia_deaths.astype(int) / df.PopulationRaw))
+df = df.assign(ChanceOfDeathByPneumonia = df['ChanceOfDeathByPneumoniaRaw'].map(lambda n: 'none' if n==0 else 1/n))
+df = df.assign(ChanceOfDeathByCOVID = df['ChanceOfDeathByCOVIDRaw'].map(lambda n: 'none' if n==0 else 1/n))
+df = df.assign(ChanceOfDeathByFluRaw = (df.influenza_deaths.astype(int) / df.PopulationRaw))
+df = df.assign(ChanceOfDeathByFlu = df['ChanceOfDeathByFluRaw'].map(lambda n: 'none' if n==0 else 1/n))
+df = df.assign(ChanceOfDeathOtherThanCOVIDRaw = (df.total_deaths.astype(int) - (df.covid_19_deaths.astype(int) + df.pneumonia_deaths.astype(int) + df.influenza_deaths.astype(int))) / df.PopulationRaw)
+df = df.assign(ChanceOfDeathOtherThanCOVID = df['ChanceOfDeathOtherThanCOVIDRaw'].map(lambda n: '1 in {:,}'.format(round(1/n))))
+df = df.assign(ChanceOfLivingAfterCOVIDRaw = 1 - df['ChanceOfDeathByCOVIDRaw'])
+df = df.assign(ChanceOfLivingAfterCOVID = df['ChanceOfLivingAfterCOVIDRaw'].map(lambda n: '{:.4%}'.format(n)))
+df = df.assign(TimesWorseThan25to34 = df['ChanceOfDeathByCOVIDRaw'].map(lambda n: '{0}x'.format(round(n / df.loc[7, 'ChanceOfDeathByCOVIDRaw'], 0))))
 
 fig = go.Figure(data=[go.Table(
-    header=dict(values=['Age group', 'Deaths by COVID-19 Alone', 'Population', 'Chance of Living through COVID-19 Alone', 'Chance of Death by COVID-19 Alone', 'Chance of Death by Pneumonia Alone', 'Chance of Death by Flu Alone', 'Chance of Death not by COVID-19, Pneumonia or Flu', 'Risk factor compared to 25-34 year olds'],
+    header=dict(values=['Age group', 'Deaths by COVID-19 Alone', 'Population', 'Chance Of Living Through COVID-19 Alone', 'Chance Of Death By COVID-19 Alone', 'Chance Of Death By PneumoniaAlone', 'Chance Of Death By Flu Alone', 'Chance Of Death Not By COVID-19, Pneumonia or Flu', 'Risk factor compared to 25-34 year olds'],
                 fill_color='paleturquoise',
                 align='center'),
-    cells=dict(values=[df.age_group_new, df.covid_19_deaths, df['Population'], df['Chance of Living after COVID'], df['Chance of Death by COVID'], df['Chance of Death by Pneumonia'], df['Chance of Death by Flu'], df['Chance of Death other than COVID'], df['Times Worse than 25-34']],
+    cells=dict(values=[df.age_group, df.covid_19_deaths, df['Population'], df['ChanceOfLivingAfterCOVID'], df['ChanceOfDeathByCOVID'], df['ChanceOfDeathByPneumonia'], df['ChanceOfDeathByFlu'], df['ChanceOfDeathOtherThanCOVID'], df['TimesWorseThan25to34']],
                fill_color='lavender',
                align='right'))
 ])
@@ -358,7 +358,7 @@ def generate_delta_df(state, county, column):
         totals_by_date['diff'][1:] = deltas
     return totals_by_date
 
-def plotmovingaverage(deltas_df, name_of_plot, hover_template, show_by_default=True):
+def plotmovingaverage(deltas_df, nameOfplot, hover_template, show_by_default=True):
     if (len(deltas_df) > 0):
         df_with_ma = movingaverage(deltas_df, 7)
 
@@ -368,7 +368,7 @@ def plotmovingaverage(deltas_df, name_of_plot, hover_template, show_by_default=T
             visible = 'legendonly'
 
         fig.add_trace(
-            go.Scatter(x=df_with_ma.index.to_numpy(), y=df_with_ma['diff'], mode='lines', name=name_of_plot, line = { 'width': default_line_thickness },
+            go.Scatter(x=df_with_ma.index.to_numpy(), y=df_with_ma['diff'], mode='lines', name=nameOfplot, line = { 'width': default_line_thickness },
             hovertemplate=hover_template, visible=visible)
         )
 
@@ -1126,6 +1126,37 @@ html_graphs.write("  <object data=\""+'Chart_'+str(row)+'.html'+"\" width=" + st
 # %%
 html_graphs.write('</body></html')
 html_graphs.close()
+
+# %%
+import time
+t1 = time.perf_counter()
+import ftplib
+import io
+import pytz
+from datetime import datetime
+from dateutil import parser
+from dateutil.tz import gettz
+ftp = ftplib.FTP('ftp.jimgphotography.com', 'jim@covid.jimgries.com','YP@)#tcsV1h?')
+tzinfos = {'UTC': gettz('UTC')}
+for filename in os.listdir('webpage'):
+    localtimestamp = datetime.fromtimestamp(os.stat('webpage/' + filename).st_mtime).replace(tzinfo=pytz.timezone('America/Los_Angeles'))
+    try:
+        tmp = None
+        tmp = ftp.voidcmd('MDTM /' + filename)[4:].strip()+'UTC'
+        remotetimestamp = (parser.parse(tmp, tzinfos=tzinfos)).astimezone(pytz.timezone('America/Los_Angeles'))
+    except: 
+        pass
+    if (tmp == None or localtimestamp > remotetimestamp):
+        print('Transferring ' + filename)
+        with open('webpage/' + filename, 'rb') as fobj:
+            ftp.storbinary('STOR ' + filename, fobj)
+    else:
+        print('Skipping ' + filename)
+        print(filename + ' local: ' + localtimestamp.strftime('%c'))
+        print(filename + ' remote: ' + remotetimestamp.strftime('%c'))
+ftp.close()
+print('Total file transfer time: ', time.perf_counter() - t1)
+
 
 # %%
 print('Total run time: ', time.perf_counter() - t0)
