@@ -1,5 +1,5 @@
 ## Description
-This directory contains several sample notebooks and py files. The main, source of truth, file is myanalysis_plotly.py. The other ones also likely run, but are older.
+This directory contains several sample notebooks and py files. The main, source of truth, file is myanalysis_plotly.py. myanalysis_plotly.ipynb is often regenerated from the output of the py file run to enable real-world testing of VS Code notebook support.
 
 ## Packages needed
 * pandas
