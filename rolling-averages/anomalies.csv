@@ -296,7 +296,7 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2021-02-13,,Chippewa,Michigan,USA-26033,cases,,,Data from the Michigan Department of Corrections was added for the last week.
 2021-02-13,,Manistee,Michigan,USA-26101,cases,,,Data from the Michigan Department of Corrections was added for the last week.
 2021-02-13,,Uintah,Utah,USA-49047,cases,yes,,The Times began using the state’s count for Uintah County after the local health district stopped regularly reporting new cases.
-2021-02-13,,Duchesne,Utah,USA-49013,cases,yes,,The Times began using the state’s count for Duchense County after the local health district stopped regularly reporting new cases.
+2021-02-13,,Duchesne,Utah,USA-49013,cases,yes,,The Times began using the state’s count for Duchesne County after the local health district stopped regularly reporting new cases.
 2021-02-17,,,New Hampshire,USA-33,cases,yes,,"New Hampshire added a backlog of 421 cases from November, December and January."
 2021-02-19,,Montgomery,Texas,USA-48339,cases,,,Montgomery County reported data for several days at once after the winter storm.
 2021-02-20,,,North Carolina,USA-37,cases,,,North Carolina added a backlog of about 685 cases from one test center from earlier in 2021.
@@ -354,7 +354,7 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2021-03-16,,,Montana,USA-30,cases,yes,,Cascade County announced a backlog of 370 cases from previous months.
 2021-03-16,,Cascade,Montana,USA-30013,cases,yes,,Cascade County announced a backlog of 370 cases from previous months.
 2021-03-17,,Borden,Texas,USA-48033,cases,,,Texas announced a backlog of cases in Borden County.
-2021-03-17,,Shasta,California,USA-06089,cases,yes,,Shasta County announced a one-day decrease after removing duplicate and nonresident cases.
+2021-03-17,,Shasta,California,USA-06089,cases,yes,,Shasta County announced a one-day decrease in cases after removing duplicate and nonresident cases.
 2021-03-18,2021-03-24,New York City,New York,USA-36998,both,yes,,New York City had a multiday disruption in reporting new data.
 2021-03-18,,,Kentucky,USA-21,deaths,yes,yes,Kentucky announced more than 400 deaths from previous months after reconciling death certificates.
 2021-03-18,,Maricopa,Arizona,USA-04013,cases,,,Arizona reassigned more than 400 cases that had been mistakenly assigned to Maricopa County.
@@ -364,25 +364,25 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2021-03-20,,Fayette,Kentucky,USA-21067,deaths,yes,,Fayette County added 27 deaths that occurred from November 2020 to January 2021.
 2021-03-21,,,New York,USA-36,both,,,The number of cases and deaths reported in the state was artificially low because New York City did not report new data. The city also announced that some counts for the most recent week were artificially low.
 2021-03-22,,,New York,USA-36,both,,,The number of cases and deaths reported in the state was artificially low because New York City did not report new data. The city health department said the reason was ongoing issues in receiving and processing data from New York State.
-2021-03-23,2021-03-26,Bacon,Georgia,USA-13005,cases,yes,,Georgia added cases from mass testing in May 2020 to the Bacon County total.
-2021-03-24,,,New York,USA-36,both,,,"After a multiday disruption in reporting data, the New York City health department reported several days’ worth of data, causing a spike in reported cases and deaths in New York state."
+2021-03-23,2021-03-26,Bacon,Georgia,USA-13005,cases,yes,,Georgia added cases to the Bacon County total from mass testing in May 2020.
+2021-03-24,,,New York,USA-36,both,,,"After a multiday disruption in reporting data, the New York City health department reported several days’ worth of data, leading to a spike in reported cases and deaths in New York State."
 2021-03-24,,,North Carolina,USA-37,deaths,yes,,Wake County announced many previously unreported deaths.
 2021-03-24,,Wake,North Carolina,USA-37183,deaths,yes,,Wake County announced many previously unreported deaths.
-2021-03-24,2021-03-25,Shelby,Missouri,USA-29205,cases,yes,,Missouri added a backlog of probable cases from testing that occurred in Illinois.
-2021-03-25,,,Texas,USA-48,cases,yes,,"Brazos County announced about 2,000 older cases."
-2021-03-25,,Brazos,Texas,USA-48041,cases,yes,,"Brazos County announced about 2,000 older cases."
-2021-03-25,,Marion,Missouri,USA-29127,cases,yes,,Missouri added a backlog of probable cases from testing that occurred in Illinois.
-2021-03-25,2021-03-26,Lewis,Missouri,USA-29111,cases,yes,,Missouri added a backlog of probable cases from testing that occurred in Illinois.
-2021-03-25,2021-03-26,Ralls,Missouri,USA-29173,cases,yes,,Missouri added a backlog of probable cases from testing that occurred in Illinois.
-2021-03-25,,Monroe,Missouri,USA-29137,cases,yes,,Missouri added a backlog of probable cases from testing that occurred in Illinois.
-2021-03-25,,Knox,Missouri,USA-29103,cases,yes,,Missouri added a backlog of probable cases from testing that occurred in Illinois.
-2021-03-25,,Clark,Missouri,USA-29045,cases,yes,,Missouri added a backlog of probable cases from testing that occurred in Illinois.
+2021-03-24,2021-03-25,Shelby,Missouri,USA-29205,cases,yes,,Missouri added a backlog of probable cases from testing in Illinois.
+2021-03-25,,,Texas,USA-48,cases,yes,,"Brazos County announced a backlog of about 2,000 cases."
+2021-03-25,,Brazos,Texas,USA-48041,cases,yes,,"Brazos County announced a backlog of about 2,000 cases."
+2021-03-25,,Marion,Missouri,USA-29127,cases,yes,,Missouri added a backlog of probable cases from testing in Illinois.
+2021-03-25,2021-03-26,Lewis,Missouri,USA-29111,cases,yes,,Missouri added a backlog of probable cases from testing in Illinois.
+2021-03-25,2021-03-26,Ralls,Missouri,USA-29173,cases,yes,,Missouri added a backlog of probable cases from testing in Illinois.
+2021-03-25,,Monroe,Missouri,USA-29137,cases,yes,,Missouri added a backlog of probable cases from testing in Illinois.
+2021-03-25,,Knox,Missouri,USA-29103,cases,yes,,Missouri added a backlog of probable cases from testing in Illinois.
+2021-03-25,,Clark,Missouri,USA-29045,cases,yes,,Missouri added a backlog of probable cases from testing in Illinois.
 2021-03-29,,,Alaska,USA-02,both,,,"Alaska did not release data because of Seward's Day, a state holiday."
 2021-04-02,,Seward,Kansas,USA-20175,deaths,,,Seward County announced a backlog of deaths from unspecified dates.
 2021-04-06,,,Minnesota,USA-27,cases,,,Minnesota reported data for two days after reporting no data on Easter.
 2021-04-07,,,,USA,deaths,yes,,Oklahoma added many deaths from previous months.
 2021-04-07,,,Oklahoma,USA-40,deaths,yes,yes,"Oklahoma added about 1,800 deaths from previous months after reconciling records."
-2021-04-07,,,Oklahoma,USA-40,cases,,,"Oklahoma added about 1,300 cases from testing that occurred in December 2020 through March 2021."
+2021-04-07,,,Oklahoma,USA-40,cases,,,"Oklahoma added about 1,300 cases from testing conducted from December 2020 through March 2021."
 2021-04-08,,Armstrong,Texas,USA-48011,cases,yes,,Texas added 15 older cases in Armstrong County.
 2021-04-08,2021-04-10,Carson,Texas,USA-48065,cases,yes,,Texas added many older cases in Carson County.
 2021-04-08,2021-04-10,Cochran,Texas,USA-48079,cases,yes,,Texas added many older cases in Cochran County.
@@ -407,9 +407,9 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2021-04-09,,Gila,Arizona,USA-04007,cases,yes,,Arizona added 270 Gila County cases from previous months after verifying testing records.
 2021-04-09,,Santa Barbara,California,USA-06083,cases,yes,,Santa Barbara County added about 65 cases from January 2021.
 2021-04-10,,,Nevada,USA-32,cases,yes,,Nevada announced a backlog of cases.
-2021-04-13,,,Colorado,USA-08,deaths,yes,,"The local health department for Adams, Arapahoe and Douglas counties added many deaths."
-2021-04-13,,,Alabama,USA-01,cases,yes,,"Alabama announced a backlog of 1,150 cases from testing that occurred from October 2020 through April 2021."
-2021-04-13,,Mobile,Alabama,USA-01097,cases,yes,,"Alabama announced a backlog of 1,150 cases from testing that occurred from October 2020 through April 2021."
+2021-04-13,,,Colorado,USA-08,deaths,yes,,"The local health department for Adams, Arapahoe and Douglas Counties added many deaths."
+2021-04-13,,,Alabama,USA-01,cases,yes,,"Alabama announced a backlog of 1,150 cases from testing conducted from October 2020 through April 2021."
+2021-04-13,,Mobile,Alabama,USA-01097,cases,yes,,"Alabama announced a backlog of 1,150 cases from testing conducted from October 2020 through April 2021."
 2021-04-13,,Adams,Colorado,USA-08001,deaths,yes,,The local health department reported many Adams County deaths after resolving a data issue.
 2021-04-13,,Arapahoe,Colorado,USA-08005,deaths,yes,,The local health department reported many Arapahoe County deaths after resolving a data issue.
 2021-04-13,,Douglas,Colorado,USA-08035,deaths,yes,,The local health department reported many Douglas County deaths after resolving a data issue.
