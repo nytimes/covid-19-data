@@ -300,7 +300,7 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2021-02-17,,,New Hampshire,USA-33,cases,yes,,"New Hampshire added a backlog of 421 cases from November, December and January."
 2021-02-19,,Montgomery,Texas,USA-48339,cases,,,Montgomery County reported data for several days at once after the winter storm.
 2021-02-20,,,North Carolina,USA-37,cases,,,North Carolina added a backlog of about 685 cases from one test center from earlier in 2021.
-2021-02-20,,Dallam,Texas,USA-48111,cases,,,Dallam County reported a week of data on one day after the winter storm.
+2021-02-20,,Dallam,Texas,USA-48111,cases,,,Dallam County reported a week's worth of data at once after the winter storm.
 2021-02-20,,Bexar,Texas,USA-48029,cases,,,Bexar County reported data for several days at once after the winter storm.
 2021-02-21,,Bexar,Texas,USA-48029,cases,,,Bexar County added a backlog of cases after the winter storm.
 2021-02-22,,,Rhode Island,USA-44,deaths,yes,,Rhode Island added 80 deaths from recent months after reconciling records.
@@ -312,33 +312,33 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2021-02-26,,Comanche,Texas,USA-48093,cases,yes,,Texas added many backlogged cases in Comanche County.
 2021-02-26,,Roane,West Virginia,USA-54087,cases,yes,,West Virginia added many backlogged cases in Roane County.
 2021-02-27,,,Hawaii,USA-15,cases,,,Hawaii added 31 cases in Maui from recent months.
-2021-02-27,,Maui,Hawaii,USA-15009,cases,yes,,Hawaii added 31 cases diagnosed in Maui between November and February that were previously unreported.
+2021-02-27,,Maui,Hawaii,USA-15009,cases,yes,,Hawaii added 31 cases diagnosed in Maui from November to February that had been previously unreported.
 2021-02-28,,,Arkansas,USA-05,both,yes,yes,"Arkansas updated its counts after verifying records, resulting in an increase in cases and a small decrease in deaths."
 2021-03-01,,,Colorado,USA-08,cases,yes,,Colorado added about 800 cases from recent months representing people who were infected twice.
 2021-03-01,,,Virginia,USA-51,deaths,yes,,"Over several days, Virginia added many deaths that occurred earlier in 2021."
 2021-03-02,,,,USA,deaths,yes,,"Ohio removed many deaths after changing its methodology, resulting in an artificially low daily count."
 2021-03-02,,,Ohio,USA-39,deaths,yes,yes,"Ohio changed its methodology for reporting coronavirus deaths to use death certificates, resulting in a one-time decrease."
-2021-03-02,,Scurry,Texas,USA-48415,cases,yes,,"Texas removed 1,119 cases from Scurry County to correct a reporting error that occurred in February."
+2021-03-02,,Scurry,Texas,USA-48415,cases,yes,,"Texas removed 1,119 cases from Scurry County to correct a February reporting error."
 2021-03-03,,,Virginia,USA-51,deaths,yes,,"Over several days, Virginia added many deaths that occurred earlier in 2021."
 2021-03-03,,,Alabama,USA-01,cases,yes,,"Alabama added a backlog of more than 2,000 cases from one testing facility dating back to May 2020."
 2021-03-03,,Yavapai,Arizona,USA-04025,cases,yes,,"Yavapai County removed duplicate cases, resulting in a one-day decrease."
-2021-03-03,,Lyon,Kentucky,USA-21143,cases,yes,,"Kentucky added many cases in Lyon County, corresponding with a decrease in Caldwell County."
-2021-03-03,,Caldwell,Kentucky,USA-21033,cases,yes,,"Kentucky removed many cases in Caldwell County, corresponding with an increase in Lyon County."
+2021-03-03,,Lyon,Kentucky,USA-21143,cases,yes,,"Kentucky added many cases in Lyon County, as Caldwell County had a decrease in cases."
+2021-03-03,,Caldwell,Kentucky,USA-21033,cases,yes,,"Kentucky removed many cases in Caldwell County, as Lyon County had an increase in cases."
 2021-03-04,,Dallam,Texas,USA-48111,cases,yes,,Texas added older cases in Dallam County.
 2021-03-04,,Hartley,Texas,USA-48205,cases,yes,,Texas added older cases in Hartley County.
-2021-03-05,,,Ohio,USA-39,deaths,yes,,Ohio added more than 400 deaths of Ohio residents who died out of state.
+2021-03-05,,,Ohio,USA-39,deaths,yes,,Ohio added more than 400 deaths of residents who died out of state.
 2021-03-05,,Lawrence,Ohio,USA-39087,deaths,yes,,Ohio added many Lawrence County deaths that occurred out of state.
 2021-03-05,,Belmont,Ohio,USA-39013,deaths,yes,,Ohio added many Belmont County deaths that occurred out of state.
 2021-03-05,,Jefferson,Ohio,USA-39081,deaths,yes,,Ohio added many deaths that occurred out of state.
 2021-03-06,,,Indiana,USA-18,cases,,,Indiana added a backlog of more than 400 cases from one testing facility.
 2021-03-08,,,,USA,cases,yes,,Missouri began reporting probable cases identified through antigen testing.
 2021-03-08,,,Missouri,USA-29,cases,yes,yes,"Missouri began reporting probable cases identified through antigen testing, resulting in a one-day increase in total cases."
-2021-03-09,,,Minnesota,USA-27,both,yes,yes,Minnesota announced many cases and deaths from the past year that were previously unreported.
+2021-03-09,,,Minnesota,USA-27,both,yes,yes,Minnesota announced many cases and deaths from the past year that had been previously unreported.
 2021-03-09,,,Oklahoma,USA-40,deaths,,,Oklahoma began reporting deaths once a week rather than daily.
 2021-03-10,,Fannin,Texas,USA-48147,cases,,,Texas added many backlogged cases in Fannin County.
 2021-03-11,,,Delaware,USA-10,cases,yes,,Delaware announced a backlog of cases after a testing provider resolved a technical issue.
 2021-03-11,,New Castle,Delaware,USA-10003,cases,yes,,Delaware announced a backlog of cases after a testing provider resolved a technical issue.
-2021-03-11,,Christian,Kentucky,USA-21047,cases,yes,,Christian County added many cases that had not previously been reported to the county.
+2021-03-11,,Christian,Kentucky,USA-21047,cases,yes,,Christian County added many cases that previously had not been reported to the county.
 2021-03-11,,Navajo,Arizona,USA-04017,cases,yes,,"Arizona made data adjustments, including a one-day decrease in Navajo County cases."
 2021-03-12,,,West Virginia,USA-54,deaths,yes,yes,West Virginia announced 165 deaths after reconciling death certificate records.
 2021-03-13,,,California,USA-06,deaths,yes,,California made data adjustments resulting in a one-day increase in deaths.
@@ -349,21 +349,21 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2021-03-13,,San Bernardino,California,USA-06071,deaths,yes,,"California made data adjustments, including an increase in San Bernardino County deaths."
 2021-03-13,,Tehama,California,USA-06103,deaths,yes,,"California made data adjustments, including a decrease in Tehama County deaths."
 2021-03-14,,Walworth,Wisconsin,USA-55127,cases,yes,,The Times resumed using data from the county health department.
-2021-03-15,,,Alabama,USA-01,cases,yes,yes,"Alabama announced a backlog of about 4,000 cases from testing that occurred from October 2020 through January 2021."
+2021-03-15,,,Alabama,USA-01,cases,yes,yes,"Alabama announced a backlog of about 4,000 cases from testing conducted from October 2020 through January 2021."
 2021-03-16,,Jackson,Michigan,USA-26075,cases,,,Data from the Michigan Department of Corrections was added for recent days.
 2021-03-16,,,Montana,USA-30,cases,yes,,Cascade County announced a backlog of 370 cases from previous months.
 2021-03-16,,Cascade,Montana,USA-30013,cases,yes,,Cascade County announced a backlog of 370 cases from previous months.
-2021-03-17,,Borden,Texas,USA-48033,cases,,,Texas announced backlogged cases in Borden County.
+2021-03-17,,Borden,Texas,USA-48033,cases,,,Texas announced a backlog of cases in Borden County.
 2021-03-17,,Shasta,California,USA-06089,cases,yes,,Shasta County announced a one-day decrease after removing duplicate and nonresident cases.
-2021-03-18,2021-03-24,New York City,New York,USA-36998,both,yes,,New York City had a multi-day disruption in reporting new data.
+2021-03-18,2021-03-24,New York City,New York,USA-36998,both,yes,,New York City had a multiday disruption in reporting new data.
 2021-03-18,,,Kentucky,USA-21,deaths,yes,yes,Kentucky announced more than 400 deaths from previous months after reconciling death certificates.
-2021-03-18,,Maricopa,Arizona,USA-04013,cases,,,Arizona reassigned more than 400 cases that had been mistakenly placed in Maricopa County.
+2021-03-18,,Maricopa,Arizona,USA-04013,cases,,,Arizona reassigned more than 400 cases that had been mistakenly assigned to Maricopa County.
 2021-03-19,,,Virginia,USA-51,deaths,yes,,Virginia removed around 90 deaths that were determined to be unrelated to Covid-19.
 2021-03-19,,,Kentucky,USA-21,deaths,yes,,Kentucky announced more than 160 deaths from previous months after reconciling death certificates.
 2021-03-19,,Glenn,California,USA-06021,deaths,yes,,"The Times began using data from the county, resulting in a one-day increase in deaths."
-2021-03-20,,Fayette,Kentucky,USA-21067,deaths,yes,,Fayette County added 27 deaths that occurred between November and January.
+2021-03-20,,Fayette,Kentucky,USA-21067,deaths,yes,,Fayette County added 27 deaths that occurred from November 2020 to January 2021.
 2021-03-21,,,New York,USA-36,both,,,The number of cases and deaths reported in the state was artificially low because New York City did not report new data. The city also announced that some counts for the most recent week were artificially low.
-2021-03-22,,,New York,USA-36,both,,,The number of cases and deaths reported in the state was artificially low because New York City did not report new data. The city health department announced this was due to ongoing issues in receiving and processing data from New York state.
+2021-03-22,,,New York,USA-36,both,,,The number of cases and deaths reported in the state was artificially low because New York City did not report new data. The city health department said the reason was ongoing issues in receiving and processing data from New York State.
 2021-03-23,2021-03-26,Bacon,Georgia,USA-13005,cases,yes,,Georgia added cases from mass testing in May 2020 to the Bacon County total.
 2021-03-24,,,New York,USA-36,both,,,"After a multiday disruption in reporting data, the New York City health department reported several days’ worth of data, causing a spike in reported cases and deaths in New York state."
 2021-03-24,,,North Carolina,USA-37,deaths,yes,,Wake County announced many previously unreported deaths.
@@ -410,9 +410,9 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2021-04-13,,,Colorado,USA-08,deaths,yes,,"The local health department for Adams, Arapahoe and Douglas counties added many deaths."
 2021-04-13,,,Alabama,USA-01,cases,yes,,"Alabama announced a backlog of 1,150 cases from testing that occurred from October 2020 through April 2021."
 2021-04-13,,Mobile,Alabama,USA-01097,cases,yes,,"Alabama announced a backlog of 1,150 cases from testing that occurred from October 2020 through April 2021."
-2021-04-13,,Adams,Colorado,USA-08001,deaths,yes,,The local health department reported many Adams County deaths.
-2021-04-13,,Arapahoe,Colorado,USA-08005,deaths,yes,,The local health department reported many Arapahoe County deaths.
-2021-04-13,,Douglas,Colorado,USA-08035,deaths,yes,,The local health department reported many Douglas County deaths.
+2021-04-13,,Adams,Colorado,USA-08001,deaths,yes,,The local health department reported many Adams County deaths after resolving a data issue.
+2021-04-13,,Arapahoe,Colorado,USA-08005,deaths,yes,,The local health department reported many Arapahoe County deaths after resolving a data issue.
+2021-04-13,,Douglas,Colorado,USA-08035,deaths,yes,,The local health department reported many Douglas County deaths after resolving a data issue.
 2021-04-14,,Allegheny,Pennsylvania,USA-42003,cases,yes,,Allegheny County announced a backlog of cases related to one lab.
 2021-04-14,,Rich,Utah,USA-49033,cases,yes,,"The Times began using Rich County data from the state, resulting in a one-day increase. "
 2021-04-15,,,Alaska,USA-02,deaths,yes,,Alaska added 19 deaths after reviewing vital records.
