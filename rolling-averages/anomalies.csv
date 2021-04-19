@@ -227,7 +227,7 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2021-01-15,,Matagorda,Texas,USA-48321,cases,yes,,Texas announced many backlogged probable cases in Matagorda County.
 2021-01-17,,,Louisiana,USA-22,deaths,,,Louisiana announced deaths for several days at once after resolving a technical issue.
 2021-01-20,,,Nebraska,USA-31,both,,,Nebraska announced a large number of cases after completing data system maintenance.
-2021-01-22,,,Illinois,USA-17,cases,,,"Illinois began including probable deaths as probable cases, resulting in a one-day increase."
+2021-01-22,,,Illinois,USA-17,cases,,,"Illinois began including probable deaths as probable cases, resulting in a one-day increase in cases."
 2021-01-22,,Tallapoosa,Alabama,USA-01123,cases,yes,,Alabama announced a backlog of cases for Tallapoosa County from testing that occurred between November and January.
 2021-01-23,,,Wyoming,USA-56,both,,,Wyoming did not announce new data because of system maintenance. 
 2021-01-23,,Bullitt,Kentucky,USA-21029,cases,yes,,Kentucky reported a system error that incorrectly assigned many new cases to Bullitt County. The state health department later moved these cases to the correct locations.
@@ -414,10 +414,10 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2021-04-13,,Arapahoe,Colorado,USA-08005,deaths,yes,,The local health department reported many Arapahoe County deaths after resolving a data issue.
 2021-04-13,,Douglas,Colorado,USA-08035,deaths,yes,,The local health department reported many Douglas County deaths after resolving a data issue.
 2021-04-14,,Allegheny,Pennsylvania,USA-42003,cases,yes,,Allegheny County announced a backlog of cases related to one lab.
-2021-04-14,,Rich,Utah,USA-49033,cases,yes,,"The Times began using Rich County data from the state, resulting in a one-day increase. "
+2021-04-14,,Rich,Utah,USA-49033,cases,yes,,"The Times began using Rich County data from the state, resulting in a one-day increase in cases. "
 2021-04-15,,,Alaska,USA-02,deaths,yes,,Alaska added 19 deaths after reviewing vital records.
-2021-04-15,,Edmonson,Kentucky,USA-21061,cases,yes,,"The Times began using Edmonson County data from the Kentucky Department of Public Health instead of the local health district, resulting in a one-day decrease. "
-2021-04-15,,Butler,Kentucky,USA-21031,cases,yes,,"The Times began using Butler County data from the Kentucky Department of Public Health instead of the local health district, resulting in a one-day decrease. "
+2021-04-15,,Edmonson,Kentucky,USA-21061,cases,yes,,"The Times began using Edmonson County data from the Kentucky Department of Public Health instead of the local health district, resulting in a one-day decrease in cases. "
+2021-04-15,,Butler,Kentucky,USA-21031,cases,yes,,"The Times began using Butler County data from the Kentucky Department of Public Health instead of the local health district, resulting in a one-day decrease in cases. "
 2021-04-17,,,Indiana,USA-18,cases,yes,,"Indiana announced a backlog of about 1,200 cases."
 2021-04-17,,,Missouri,USA-29,cases,yes,yes,"Missouri removed more than 11,000 duplicate cases after resolving a data issue."
 2021-04-17,,Porter,Indiana,USA-18127,cases,yes,,"Indiana announced a backlog of about 1,200 cases."
