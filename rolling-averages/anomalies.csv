@@ -331,6 +331,7 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2021-03-05,,Belmont,Ohio,USA-39013,deaths,yes,,Ohio added many Belmont County deaths that occurred out of state.
 2021-03-05,,Jefferson,Ohio,USA-39081,deaths,yes,,Ohio added many deaths that occurred out of state.
 2021-03-06,,,Indiana,USA-18,cases,,,Indiana added a backlog of more than 400 cases from one testing facility.
+2021-03-07,,,Puerto Rico,USA-72,both,,yes,"Puerto Rico changed the format of its data, resulting in one-day adjustments of cases and deaths in some municipalities."
 2021-03-08,,,,USA,cases,yes,,Missouri began reporting probable cases identified through antigen testing.
 2021-03-08,,,Missouri,USA-29,cases,yes,yes,"Missouri began reporting probable cases identified through antigen testing, resulting in a one-day increase in total cases."
 2021-03-09,,,Minnesota,USA-27,both,yes,yes,Minnesota announced many cases and deaths from the past year that had been previously unreported.
@@ -422,5 +423,4 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2021-04-17,,,Missouri,USA-29,cases,yes,yes,"Missouri removed more than 11,000 duplicate cases after resolving a data issue."
 2021-04-17,,Porter,Indiana,USA-18127,cases,yes,,"Indiana announced a backlog of about 1,200 cases."
 2021-04-17,,LaPorte,Indiana,USA-18091,cases,yes,,"Indiana announced a backlog of about 1,200 cases."
-2021-04-18,,,Puerto Rico,USA-72,both,yes,yes,"The Times adjusted the date on which we record data for Puerto Rico to more closely align with when the territory reports data, resulting in one day with no increase in cases or deaths."
-2021-04-18,,,Kansas,USA-20,deaths,,yes,"The Times began including county death tallies reported by the state, which had not previously been available."
+2021-04-18,,,Kansas,USA-20,deaths,yes,yes,"The Times began including county death tallies reported by the state, which had not previously been available."
