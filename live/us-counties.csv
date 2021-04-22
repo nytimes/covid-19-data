@@ -203,7 +203,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-04-22,Kings,California,06031,22796,246,22796,246,,
 2021-04-22,Lake,California,06033,3418,43,3418,43,,
 2021-04-22,Lassen,California,06035,5679,1,5679,1,,
-2021-04-22,Los Angeles,California,06037,1230303,23694,1229641,23694,662,
+2021-04-22,Los Angeles,California,06037,1230660,23702,1229998,23694,662,8
 2021-04-22,Madera,California,06039,16301,240,16301,240,,
 2021-04-22,Marin,California,06041,13807,227,13807,227,,
 2021-04-22,Mariposa,California,06043,428,7,428,7,,
@@ -227,7 +227,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-04-22,San Luis Obispo,California,06079,21010,258,21010,258,,
 2021-04-22,San Mateo,California,06081,41251,560,41251,560,,
 2021-04-22,Santa Barbara,California,06083,33926,445,33926,445,,
-2021-04-22,Santa Clara,California,06085,117317,2018,117317,2018,,
+2021-04-22,Santa Clara,California,06085,117317,2020,117317,2020,,
 2021-04-22,Santa Cruz,California,06087,15719,204,15719,204,,
 2021-04-22,Shasta,California,06089,11747,219,11747,219,,
 2021-04-22,Sierra,California,06091,51,0,51,0,,
@@ -240,7 +240,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-04-22,Trinity,California,06105,327,3,327,3,,
 2021-04-22,Tulare,California,06107,49444,831,49444,831,,
 2021-04-22,Tuolumne,California,06109,4089,64,4089,64,,
-2021-04-22,Ventura,California,06111,80332,1002,80332,1002,,
+2021-04-22,Ventura,California,06111,80360,1002,80360,1002,,
 2021-04-22,Yolo,California,06113,13581,200,13581,200,,
 2021-04-22,Yuba,California,06115,6136,44,6136,44,,
 2021-04-22,Adams,Colorado,08001,55434,692,,,,
@@ -882,7 +882,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-04-22,Tama,Iowa,19171,2069,71,1701,,368,
 2021-04-22,Taylor,Iowa,19173,654,12,552,,102,
 2021-04-22,Union,Iowa,19175,1241,32,1076,,165,
-2021-04-22,Unknown,Iowa,,993,0,619,,374,
+2021-04-22,Unknown,Iowa,,989,0,618,,371,
 2021-04-22,Van Buren,Iowa,19177,556,18,267,,289,
 2021-04-22,Wapello,Iowa,19179,4255,121,3429,,826,
 2021-04-22,Warren,Iowa,19181,5592,86,4510,,1082,
@@ -3092,7 +3092,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-04-22,Stevens,Washington,53065,1953,28,1786,,167,
 2021-04-22,Thurston,Washington,53067,8474,90,7617,,857,
 2021-04-22,Wahkiakum,Washington,53069,107,0,103,,4,
-2021-04-22,Walla Walla,Washington,53071,4958,64,4831,64,127,0
+2021-04-22,Walla Walla,Washington,53071,4971,64,4831,64,140,0
 2021-04-22,Whatcom,Washington,53073,8091,89,7798,,293,
 2021-04-22,Whitman,Washington,53075,4117,47,4040,47,77,0
 2021-04-22,Yakima,Washington,53077,30048,440,25894,,4154,
