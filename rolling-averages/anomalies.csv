@@ -209,6 +209,7 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2021-01-08,,Douglas,Nebraska,USA-31055,deaths,yes,,Douglas County had a decrease in the total number of deaths after removing deaths erroneously reported the previous day.
 2021-01-08,,Graham,Arizona,USA-04009,cases,,,Graham County added many cases from corrections facilities.
 2021-01-09,,Wilbarger,Texas,USA-48487,cases,yes,,Texas added a large backlog of cases in Wilbarger County.
+2021-01-11,,St. Charles,Missouri,USA-29183,cases,yes,,St. Charles County began reporting probable cases.
 2021-01-12,,,Washington,USA-53,deaths,,,Washington reported deaths for multiple days at once.
 2021-01-12,,,Alabama,USA-01,deaths,yes,,Alabama announced a large number of deaths after reviewing records.
 2021-01-12,,Fresno,California,USA-06019,deaths,,,Fresno County added a large number of deaths for previous days in January.
@@ -436,4 +437,4 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2021-04-20,,,Vermont,USA-50,both,,,Vermont did not report new cases or deaths during planned maintenance.
 2021-04-20,,Mobile,Alabama,USA-01097,cases,yes,,"Alabama announced a backlog of 1,110 cases from testing conducted from October 2020 through April 2021."
 2021-04-20,,Ohio,Kentucky,USA-21183,cases,yes,,"The Times began using Ohio County data from the state, resulting in a one-day decrease in cases. "
-2021-04-22,,,Tennessee,USA-47,cases,yes,,Tennessee announced a backlog of cases.
+2021-04-22,,,Tennessee,USA-47,cases,,,Tennessee announced a backlog of cases.
