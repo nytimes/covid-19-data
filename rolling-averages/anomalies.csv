@@ -440,3 +440,5 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2021-04-20,,Mobile,Alabama,USA-01097,cases,yes,,"Alabama announced a backlog of 1,110 cases from testing conducted from October 2020 through April 2021."
 2021-04-20,,Ohio,Kentucky,USA-21183,cases,yes,,"The Times began using Ohio County data from the state, resulting in a one-day decrease in cases. "
 2021-04-22,,,Tennessee,USA-47,cases,,,Tennessee announced a backlog of cases.
+2021-04-24,,,California,USA-06,cases,yes,,"California removed more than 1,000 duplicate cases in San Diego County, resulting in a one-day decrease in cases."
+2021-04-24,,San Diego,California,USA-06073,cases,yes,,"San Diego County removed more than 1,000 duplicate cases."
