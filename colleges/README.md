@@ -4,7 +4,7 @@ The New York Times is releasing [counts of Covid-19 cases reported on college an
 
 Since late July, we have been conducting a rolling survey of American colleges and universities — including every four-year public institution and every private college that competes in N.C.A.A. sports — to track the number of coronavirus cases reported among students and employees. The survey now includes more than 1,900 colleges. Starting in 2021 the number of cases in 2021 is also included.
 
-This data was most recently updated on Feb. 26, 2021. It may be updated again at a later date.
+This data was most recently updated on April 28, 2021. It may be updated again at a later date.
 
 ## Data
 
