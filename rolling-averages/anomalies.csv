@@ -380,6 +380,7 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2021-03-25,,Knox,Missouri,USA-29103,cases,yes,,Missouri added a backlog of probable cases from testing in Illinois.
 2021-03-25,,Clark,Missouri,USA-29045,cases,yes,,Missouri added a backlog of probable cases from testing in Illinois.
 2021-03-29,,,Alaska,USA-02,both,,,"Alaska did not release data because of Seward's Day, a state holiday."
+2021-03-31,2021-04-05,Santa Cruz,California,USA-06087,cases,yes,,Santa Cruz County did not update its counts for a week during planned data maintenance.
 2021-04-02,,Seward,Kansas,USA-20175,deaths,,,Seward County announced a backlog of deaths from unspecified dates.
 2021-04-06,,,Minnesota,USA-27,cases,,,Minnesota reported data for two days after reporting no data on Easter.
 2021-04-07,,,,USA,deaths,yes,,Oklahoma added many deaths from previous months.
@@ -447,4 +448,9 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2021-04-26,,,North Carolina,USA-37,cases,,,North Carolina announced a backlog of 540 cases from one testing provider.
 2021-04-26,,Willacy,Texas,USA-48489,cases,yes,,Texas announced a large backlog of cases in Willacy County.
 2021-04-27,,,West Virginia,USA-54,deaths,yes,yes,West Virginia removed 162 deaths after reviewing death certificates.
+2021-04-28,,Lassen,California,USA-06035,deaths,yes,,"The Times began using federal data for Lassen County, resulting in a one-day increase in deaths."
+2021-04-28,,El Dorado,California,USA-06017,cases,yes,,"The Times began using federal data for El Dorado County, resulting in a one-day increase in cases."
+2021-04-28,,Inyo,California,USA-06027,both,yes,,"The Times began using federal data for Inyo County, resulting in a one-day increase in cases and deaths."
+2021-04-28,,Mono,California,USA-06051,cases,yes,,"The Times began using federal data for Mono County, resulting in a one-day increase in cases."
+2021-04-28,,Plumas,California,USA-06063,both,yes,,"The Times began using federal data for Plumas County, resulting in a one-day increase in cases and deaths."
 2021-04-28,,Hunt,Texas,USA-48231,cases,,,Texas announced many previously unreported cases in Hunt County.
