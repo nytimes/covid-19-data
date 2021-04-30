@@ -13,8 +13,9 @@ t0 = time.perf_counter()
 import sys
 IN_COLAB = 'google.colab' in sys.modules
 
-import os
-print(os.environ(''))
+# DID YOU SET covid_ftp_pw?
+# import os
+# os.environ['covid_ftp_pw']
 
 # %%
 import os
