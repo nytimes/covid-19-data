@@ -18,6 +18,11 @@ IN_COLAB = 'google.colab' in sys.modules
 # os.environ['covid_ftp_pw']
 
 # %%
+if IN_COLAB:
+    from google.colab import drive
+    drive.mount('/content/drive')
+
+# %%
 import os
 from IPython.core.display import display, HTML
 if (os.name == 'nt'):
@@ -54,8 +59,6 @@ default_grid_color = 'rgba(225, 225, 225, 255)'
 webpage_folder = basefolder + 'webpage/'
 if not os.path.exists(webpage_folder):
     os.mkdir(webpage_folder)
-
-file = "c   "
 
 html_graphs = open(webpage_folder + "CovidAnalysis.html",'w',)
 html_graphs.write('''
