@@ -1,7 +1,5 @@
 # Coronavirus (Covid-19) Data in the United States
 
-**NEW:** As of April 15, 2021, we’re adding two new data sets. One with counts of coronavirus cases and deaths in prison systems, and another with pre-computed rolling averages for cases and deaths, and the list of days with anomalous data on the national, state and county levels that are excluded from those calculations.
-
 The primary data published here are the daily cumulative number of cases and deaths reported in each county and state across the U.S. since the beginning of the pandemic. We have also published these additional data sets:
 
 * [Prisons](prisons/): Cases in prisons
