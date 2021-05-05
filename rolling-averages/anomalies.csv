@@ -335,6 +335,7 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2021-03-07,,,Puerto Rico,USA-72,both,,yes,"Puerto Rico changed the format of its data, resulting in one-day adjustments of cases and deaths in some municipalities."
 2021-03-08,,,,USA,cases,yes,,Missouri began reporting probable cases identified through antigen testing.
 2021-03-08,,,Missouri,USA-29,cases,yes,yes,"Missouri began reporting probable cases identified through antigen testing, resulting in a one-day increase in total cases."
+2021-03-08,,Zavala,Texas,USA-48507,both,yes,,"The Times began using state data for Zavala County, resulting in a one-time decrease in cases and deaths. "
 2021-03-09,,,Minnesota,USA-27,both,yes,yes,Minnesota announced many cases and deaths from the past year that had been previously unreported.
 2021-03-09,,,Oklahoma,USA-40,deaths,,,Oklahoma began reporting deaths once a week rather than daily.
 2021-03-10,,Fannin,Texas,USA-48147,cases,,,Texas added many backlogged cases in Fannin County.
@@ -457,3 +458,4 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2021-04-28,,Mono,California,USA-06051,cases,yes,,"The Times began using federal data for Mono County, resulting in a one-day increase in cases."
 2021-04-28,,Plumas,California,USA-06063,both,yes,,"The Times began using federal data for Plumas County, resulting in a one-day increase in cases and deaths."
 2021-04-28,,Hunt,Texas,USA-48231,cases,,,Texas announced many previously unreported cases in Hunt County.
+2021-05-04,,,Alabama,USA-01,both,,,Alabama did not update its data because of technical issues.
