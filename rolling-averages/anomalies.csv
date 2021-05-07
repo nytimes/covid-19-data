@@ -459,7 +459,6 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2021-04-28,,Plumas,California,USA-06063,both,yes,,"The Times began using federal data for Plumas County, resulting in a one-day increase in cases and deaths."
 2021-04-28,,Hunt,Texas,USA-48231,cases,,,Texas announced many previously unreported cases in Hunt County.
 2021-04-29,2021-04-30,Fluvanna,Virginia,USA-51065,cases,yes,,Virginia added a backlog of cases in Fluvanna County.
-2021-05-04,,,New Jersey,USA-34,cases,yes,,"New Jersey added more than 2,600 cases from previous months."
 2021-05-04,,,Alabama,USA-01,both,,,Alabama did not update its data because of technical issues.
 2021-05-04,,Kerr,Texas,USA-48265,cases,yes,,Texas removed duplicate cases from Kerr County.
 2021-05-04,,Karnes,Texas,USA-48255,cases,yes,,Texas removed duplicate cases from Karnes County.
@@ -467,4 +466,5 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2021-05-04,,Atascosa,Texas,USA-48013,cases,yes,,Texas removed duplicate cases from Atascosa County.
 2021-05-04,,Bandera,Texas,USA-48019,cases,yes,,Texas removed duplicate cases from Bandera County.
 2021-05-04,,Alameda,California,USA-06001,cases,yes,,California added many older cases for Alameda County.
-2021-05-04,,Bergen,New Jersey,USA-34003,cases,yes,,New Jersey added many older cases in Bergen County.
+2021-05-05,,,New Jersey,USA-34,cases,yes,,"New Jersey added more than 2,600 cases from previous months."
+2021-05-05,,Bergen,New Jersey,USA-34003,cases,yes,,New Jersey added many older cases in Bergen County.
