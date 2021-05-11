@@ -203,11 +203,11 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-05-11,Kings,California,06031,22977,246,22977,246,,
 2021-05-11,Lake,California,06033,3471,43,3471,43,,
 2021-05-11,Lassen,California,06035,5698,24,5698,5,0,19
-2021-05-11,Los Angeles,California,06037,1236316,24026,1235651,24026,665,
+2021-05-11,Los Angeles,California,06037,1236461,24026,1235797,24026,664,
 2021-05-11,Madera,California,06039,16444,242,16444,238,,4
 2021-05-11,Marin,California,06041,13979,228,13979,228,,
 2021-05-11,Mariposa,California,06043,447,7,447,7,,0
-2021-05-11,Mendocino,California,06045,4061,49,4061,49,0,0
+2021-05-11,Mendocino,California,06045,4072,49,4072,49,,0
 2021-05-11,Merced,California,06047,31821,459,31821,459,,
 2021-05-11,Modoc,California,06049,360,3,360,3,,
 2021-05-11,Mono,California,06051,1280,4,1264,3,16,1
@@ -243,9 +243,9 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-05-11,Ventura,California,06111,80905,1011,80905,1011,,
 2021-05-11,Yolo,California,06113,13897,209,13897,209,,0
 2021-05-11,Yuba,California,06115,6221,46,5934,46,287,0
-2021-05-11,Adams,Colorado,08001,58662,709,,,,
+2021-05-11,Adams,Colorado,08001,58769,709,,,,
 2021-05-11,Alamosa,Colorado,08003,1521,31,,,,
-2021-05-11,Arapahoe,Colorado,08005,60236,777,,,,
+2021-05-11,Arapahoe,Colorado,08005,60339,777,,,,
 2021-05-11,Archuleta,Colorado,08007,945,1,,,,
 2021-05-11,Baca,Colorado,08009,299,4,,,,
 2021-05-11,Bent,Colorado,08011,1530,21,,,,
@@ -261,7 +261,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-05-11,Delta,Colorado,08029,2697,61,,,,
 2021-05-11,Denver,Colorado,08031,71672,808,,,,
 2021-05-11,Dolores,Colorado,08033,82,0,,,,
-2021-05-11,Douglas,Colorado,08035,29103,254,,,,
+2021-05-11,Douglas,Colorado,08035,29191,254,,,,
 2021-05-11,Eagle,Colorado,08037,6268,22,,,,
 2021-05-11,Elbert,Colorado,08039,1729,13,,,,
 2021-05-11,El Paso,Colorado,08041,66374,801,,,,
@@ -3059,16 +3059,16 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-05-11,Adams,Washington,53001,2123,22,1953,,170,
 2021-05-11,Asotin,Washington,53003,1433,28,1427,,6,
 2021-05-11,Benton,Washington,53005,16879,220,16265,,614,
-2021-05-11,Chelan,Washington,53007,6852,67,3355,66,3497,1
+2021-05-11,Chelan,Washington,53007,6869,67,3355,66,3514,1
 2021-05-11,Clallam,Washington,53009,1267,9,1147,,120,
 2021-05-11,Clark,Washington,53011,23418,264,22316,,1102,
 2021-05-11,Columbia,Washington,53013,120,5,88,,32,
 2021-05-11,Cowlitz,Washington,53015,5848,87,5490,,358,
-2021-05-11,Douglas,Washington,53017,3645,22,1783,19,1862,3
+2021-05-11,Douglas,Washington,53017,3655,22,1783,19,1872,3
 2021-05-11,Ferry,Washington,53019,341,4,267,,74,
 2021-05-11,Franklin,Washington,53021,12334,110,12039,,295,
 2021-05-11,Garfield,Washington,53023,122,5,88,,34,
-2021-05-11,Grant,Washington,53025,10098,119,6901,119,3197,0
+2021-05-11,Grant,Washington,53025,10154,119,6943,119,3211,0
 2021-05-11,Grays Harbor,Washington,53027,3937,64,3712,,225,
 2021-05-11,Island,Washington,53029,1714,30,1542,,172,
 2021-05-11,Jefferson,Washington,53031,405,3,401,,4,
@@ -3091,7 +3091,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-05-11,Stevens,Washington,53065,2132,27,1945,,187,
 2021-05-11,Thurston,Washington,53067,9364,101,8292,,1072,
 2021-05-11,Wahkiakum,Washington,53069,108,0,104,,4,
-2021-05-11,Walla Walla,Washington,53071,5077,65,4942,64,135,1
+2021-05-11,Walla Walla,Washington,53071,5086,65,4942,64,144,1
 2021-05-11,Whatcom,Washington,53073,8808,92,8476,,332,
 2021-05-11,Whitman,Washington,53075,4286,48,4173,48,113,0
 2021-05-11,Yakima,Washington,53077,30729,451,26453,,4276,
