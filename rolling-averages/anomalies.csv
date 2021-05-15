@@ -477,4 +477,4 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2021-05-12,,Walker,Texas,USA-48471,cases,yes,,"Texas announced data adjustments in some counties, including a decrease in Walker County cases."
 2021-05-13,,,Alabama,USA-01,cases,yes,,Alabama announced a backlog of about 300 cases from previous months.
 2021-05-13,,,Rhode Island,USA-44,cases,yes,,Rhode Island removed 170 previously announced cases.
-2021-05-13,,Tulare,California,USA-06107,cases,yes,,Tulare County added more than 300 cases from a data validation process.
+2021-05-13,2021-05-04,Tulare,California,USA-06107,cases,yes,,Tulare County added more than 300 cases and then removed about 200 cases the following day during a data validation process.
