@@ -192,7 +192,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-05-25,Calaveras,California,06009,2151,55,2146,54,5,1
 2021-05-25,Colusa,California,06011,2252,18,1949,15,303,3
 2021-05-25,Contra Costa,California,06013,69454,809,69454,809,,
-2021-05-25,Del Norte,California,06015,1423,8,1423,8,,
+2021-05-25,Del Norte,California,06015,1425,8,1425,8,,
 2021-05-25,El Dorado,California,06017,10247,113,10227,112,20,1
 2021-05-25,Fresno,California,06019,102289,1698,102289,1698,,
 2021-05-25,Glenn,California,06021,2934,25,2413,25,521,0
@@ -203,10 +203,10 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-05-25,Kings,California,06031,23042,247,23042,247,,
 2021-05-25,Lake,California,06033,3506,43,3506,43,,
 2021-05-25,Lassen,California,06035,5721,24,5721,6,0,18
-2021-05-25,Los Angeles,California,06037,1239584,24201,1238919,24201,665,
+2021-05-25,Los Angeles,California,06037,1239758,24201,1239093,24201,665,
 2021-05-25,Madera,California,06039,16513,243,16513,239,,4
 2021-05-25,Marin,California,06041,14051,227,14051,227,,
-2021-05-25,Mariposa,California,06043,453,7,453,7,,0
+2021-05-25,Mariposa,California,06043,454,7,454,7,,0
 2021-05-25,Mendocino,California,06045,4169,49,4169,49,,0
 2021-05-25,Merced,California,06047,32093,468,32093,468,,
 2021-05-25,Modoc,California,06049,366,3,366,3,,
@@ -215,7 +215,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-05-25,Napa,California,06055,9925,82,9925,82,,
 2021-05-25,Nevada,California,06057,4790,75,4790,70,,5
 2021-05-25,Orange,California,06059,271725,5056,255070,5056,16655,
-2021-05-25,Placer,California,06061,22918,295,22918,295,,
+2021-05-25,Placer,California,06061,22942,295,22942,295,,
 2021-05-25,Plumas,California,06063,720,6,683,4,37,2
 2021-05-25,Riverside,California,06065,300476,4608,300476,4608,,
 2021-05-25,Sacramento,California,06067,105962,1700,105962,1700,,
@@ -229,10 +229,10 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-05-25,Santa Barbara,California,06083,34322,459,34322,459,,
 2021-05-25,Santa Clara,California,06085,119358,2118,119358,2118,,
 2021-05-25,Santa Cruz,California,06087,16177,207,16177,207,,
-2021-05-25,Shasta,California,06089,12360,228,12360,228,,0
+2021-05-25,Shasta,California,06089,12388,228,12388,228,,0
 2021-05-25,Sierra,California,06091,54,0,54,0,,
-2021-05-25,Siskiyou,California,06093,2327,29,2327,29,,
-2021-05-25,Solano,California,06095,33188,254,33188,254,,
+2021-05-25,Siskiyou,California,06093,2337,29,2337,29,,
+2021-05-25,Solano,California,06095,33207,254,33207,254,,
 2021-05-25,Sonoma,California,06097,30187,321,30187,321,,
 2021-05-25,Stanislaus,California,06099,62647,1066,56128,1066,6519,
 2021-05-25,Sutter,California,06101,9486,113,9486,113,,0
@@ -240,7 +240,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-05-25,Trinity,California,06105,329,3,329,3,,
 2021-05-25,Tulare,California,06107,50134,842,50134,842,,0
 2021-05-25,Tuolumne,California,06109,4161,67,4161,67,,0
-2021-05-25,Ventura,California,06111,81257,1022,81257,1022,,
+2021-05-25,Ventura,California,06111,81280,1022,81280,1022,,
 2021-05-25,Yolo,California,06113,14012,213,14012,213,,0
 2021-05-25,Yuba,California,06115,6323,49,6022,49,301,0
 2021-05-25,Adams,Colorado,08001,60566,733,,,,
@@ -549,55 +549,55 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-05-25,Wilkes,Georgia,13317,1092,29,676,22,416,7
 2021-05-25,Wilkinson,Georgia,13319,938,27,735,27,203,0
 2021-05-25,Worth,Georgia,13321,1799,67,1199,60,600,7
-2021-05-25,Unknown,Guam,,9105,140,8868,140,237,0
+2021-05-25,Unknown,Guam,,9110,140,8873,140,237,0
 2021-05-25,Hawaii,Hawaii,15001,2855,53,,,,
 2021-05-25,Honolulu,Hawaii,15003,26939,384,,,,
 2021-05-25,Kalawao,Hawaii,15005,1,0,,,,
 2021-05-25,Kauai,Hawaii,15007,318,2,,,,
 2021-05-25,Maui,Hawaii,15009,4595,54,,,,
-2021-05-25,Ada,Idaho,16001,52644,470,43692,,8952,
+2021-05-25,Ada,Idaho,16001,52681,470,43717,,8964,
 2021-05-25,Adams,Idaho,16003,341,4,258,,83,
-2021-05-25,Bannock,Idaho,16005,8820,110,5204,110,3616,0
+2021-05-25,Bannock,Idaho,16005,8827,110,5208,110,3619,0
 2021-05-25,Bear Lake,Idaho,16007,395,2,291,2,104,0
-2021-05-25,Benewah,Idaho,16009,690,9,561,,129,
+2021-05-25,Benewah,Idaho,16009,692,9,563,,129,
 2021-05-25,Bingham,Idaho,16011,4865,76,2848,76,2017,0
 2021-05-25,Blaine,Idaho,16013,2384,18,2136,,248,
 2021-05-25,Boise,Idaho,16015,364,2,257,,107,
-2021-05-25,Bonner,Idaho,16017,3287,43,2676,43,611,
-2021-05-25,Bonneville,Idaho,16019,14954,169,10779,,4175,
+2021-05-25,Bonner,Idaho,16017,3292,43,2680,43,612,
+2021-05-25,Bonneville,Idaho,16019,14961,169,10786,,4175,
 2021-05-25,Boundary,Idaho,16021,872,11,461,,411,
 2021-05-25,Butte,Idaho,16023,211,1,169,1,42,0
 2021-05-25,Camas,Idaho,16025,72,0,54,,18,
-2021-05-25,Canyon,Idaho,16027,27035,299,22642,,4393,
+2021-05-25,Canyon,Idaho,16027,27058,299,22661,,4397,
 2021-05-25,Caribou,Idaho,16029,700,12,357,12,343,0
 2021-05-25,Cassia,Idaho,16031,2947,27,2492,,455,
 2021-05-25,Clark,Idaho,16033,59,0,48,,11,
-2021-05-25,Clearwater,Idaho,16035,1058,14,783,14,275,0
+2021-05-25,Clearwater,Idaho,16035,1064,14,783,14,281,0
 2021-05-25,Custer,Idaho,16037,253,3,193,,60,
-2021-05-25,Elmore,Idaho,16039,2060,17,1603,,457,
+2021-05-25,Elmore,Idaho,16039,2062,17,1605,,457,
 2021-05-25,Franklin,Idaho,16041,1209,16,944,16,265,0
-2021-05-25,Fremont,Idaho,16043,1134,14,988,,146,
+2021-05-25,Fremont,Idaho,16043,1136,14,989,,147,
 2021-05-25,Gem,Idaho,16045,1800,38,1418,,382,
 2021-05-25,Gooding,Idaho,16047,1317,23,939,,378,
 2021-05-25,Idaho,Idaho,16049,1281,18,934,12,347,6
-2021-05-25,Jefferson,Idaho,16051,3015,31,2189,,826,
-2021-05-25,Jerome,Idaho,16053,2619,23,2027,,592,
-2021-05-25,Kootenai,Idaho,16055,18448,210,16290,,2158,
+2021-05-25,Jefferson,Idaho,16051,3016,31,2189,,827,
+2021-05-25,Jerome,Idaho,16053,2621,23,2028,,593,
+2021-05-25,Kootenai,Idaho,16055,18475,210,16309,,2166,
 2021-05-25,Latah,Idaho,16057,3191,10,3025,8,166,2
-2021-05-25,Lemhi,Idaho,16059,531,9,416,,115,
-2021-05-25,Lewis,Idaho,16061,410,10,301,8,109,2
+2021-05-25,Lemhi,Idaho,16059,532,9,416,,116,
+2021-05-25,Lewis,Idaho,16061,411,10,302,8,109,2
 2021-05-25,Lincoln,Idaho,16063,511,11,386,,125,
-2021-05-25,Madison,Idaho,16065,7253,28,6315,,938,
+2021-05-25,Madison,Idaho,16065,7259,28,6320,,939,
 2021-05-25,Minidoka,Idaho,16067,2342,33,1936,,406,
-2021-05-25,Nez Perce,Idaho,16069,3664,55,3327,40,337,15
+2021-05-25,Nez Perce,Idaho,16069,3665,55,3330,40,335,15
 2021-05-25,Oneida,Idaho,16071,366,4,250,4,116,0
-2021-05-25,Owyhee,Idaho,16073,1075,30,936,,139,
-2021-05-25,Payette,Idaho,16075,2578,37,2029,,549,
+2021-05-25,Owyhee,Idaho,16073,1076,30,937,,139,
+2021-05-25,Payette,Idaho,16075,2579,37,2030,,549,
 2021-05-25,Power,Idaho,16077,666,9,470,9,196,0
 2021-05-25,Shoshone,Idaho,16079,1135,34,1069,,66,
 2021-05-25,Teton,Idaho,16081,1227,4,678,,549,
-2021-05-25,Twin Falls,Idaho,16083,9628,128,7363,,2265,
-2021-05-25,Valley,Idaho,16085,844,6,663,,181,
+2021-05-25,Twin Falls,Idaho,16083,9633,128,7368,,2265,
+2021-05-25,Valley,Idaho,16085,845,6,664,,181,
 2021-05-25,Washington,Idaho,16087,1225,21,880,,345,
 2021-05-25,Adams,Illinois,17001,8581,153,,124,,29
 2021-05-25,Alexander,Illinois,17003,470,11,,11,,
@@ -667,10 +667,10 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-05-25,Mercer,Illinois,17131,1484,33,,33,,
 2021-05-25,Monroe,Illinois,17133,4363,94,,94,,
 2021-05-25,Montgomery,Illinois,17135,3763,79,,72,,7
-2021-05-25,Morgan,Illinois,17137,4008,104,4008,104,0,
+2021-05-25,Morgan,Illinois,17137,4012,104,4012,104,0,
 2021-05-25,Moultrie,Illinois,17139,1619,36,,28,,8
 2021-05-25,Ogle,Illinois,17141,6155,91,,83,,8
-2021-05-25,Peoria,Illinois,17143,24441,356,24441,356,,
+2021-05-25,Peoria,Illinois,17143,23441,356,23441,356,,
 2021-05-25,Perry,Illinois,17145,3188,69,,60,,9
 2021-05-25,Piatt,Illinois,17147,1516,20,,14,,6
 2021-05-25,Pike,Illinois,17149,1796,55,,52,,3
@@ -686,7 +686,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-05-25,Scott,Illinois,17171,483,1,,1,,
 2021-05-25,Shelby,Illinois,17173,2310,40,,37,,3
 2021-05-25,Stark,Illinois,17175,643,24,,24,,
-2021-05-25,St. Clair,Illinois,17163,31009,561,31009,517,0,44
+2021-05-25,St. Clair,Illinois,17163,31018,561,31018,517,0,44
 2021-05-25,Stephenson,Illinois,17177,4798,103,,84,,19
 2021-05-25,Tazewell,Illinois,17179,17101,329,17054,295,47,34
 2021-05-25,Union,Illinois,17181,2265,44,,40,,4
@@ -999,14 +999,14 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-05-25,Wilson,Kansas,20205,1018,16,,,,
 2021-05-25,Woodson,Kansas,20207,218,5,,,,
 2021-05-25,Wyandotte,Kansas,20209,20567,293,18715,293,1852,
-2021-05-25,Adair,Kentucky,21001,1940,54,1928,52,12,2
+2021-05-25,Adair,Kentucky,21001,1940,54,1923,52,17,2
 2021-05-25,Allen,Kentucky,21003,2094,40,,,,
 2021-05-25,Anderson,Kentucky,21005,1757,23,,,,
 2021-05-25,Ballard,Kentucky,21007,407,9,,,,
 2021-05-25,Barren,Kentucky,21009,4472,92,,,,
 2021-05-25,Bath,Kentucky,21011,1023,22,,,,
 2021-05-25,Bell,Kentucky,21013,3122,56,,,,
-2021-05-25,Boone,Kentucky,21015,14465,148,,,,
+2021-05-25,Boone,Kentucky,21015,14481,150,,,,
 2021-05-25,Bourbon,Kentucky,21017,1724,19,,,,
 2021-05-25,Boyd,Kentucky,21019,5044,75,,,,
 2021-05-25,Boyle,Kentucky,21021,3453,72,,,,
@@ -1017,7 +1017,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-05-25,Butler,Kentucky,21031,1470,24,,,,
 2021-05-25,Caldwell,Kentucky,21033,1463,32,,,,
 2021-05-25,Calloway,Kentucky,21035,3540,51,,,,
-2021-05-25,Campbell,Kentucky,21037,8803,83,,,,
+2021-05-25,Campbell,Kentucky,21037,8807,83,,,,
 2021-05-25,Carlisle,Kentucky,21039,481,9,,,,
 2021-05-25,Carroll,Kentucky,21041,1025,19,,,,
 2021-05-25,Carter,Kentucky,21043,2305,35,,,,
@@ -1025,9 +1025,9 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-05-25,Christian,Kentucky,21047,7053,104,,,,
 2021-05-25,Clark,Kentucky,21049,2946,29,,,,
 2021-05-25,Clay,Kentucky,21051,2681,44,,,,
-2021-05-25,Clinton,Kentucky,21053,1450,32,1450,32,0,
+2021-05-25,Clinton,Kentucky,21053,1450,32,1431,32,19,
 2021-05-25,Crittenden,Kentucky,21055,672,23,,,,
-2021-05-25,Cumberland,Kentucky,21057,700,12,682,12,18,
+2021-05-25,Cumberland,Kentucky,21057,700,12,681,12,19,
 2021-05-25,Daviess,Kentucky,21059,10885,186,,,,
 2021-05-25,Edmonson,Kentucky,21061,917,24,,,,
 2021-05-25,Elliott,Kentucky,21063,965,2,,,,
@@ -1039,10 +1039,10 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-05-25,Fulton,Kentucky,21075,534,14,,,,
 2021-05-25,Gallatin,Kentucky,21077,715,30,,,,
 2021-05-25,Garrard,Kentucky,21079,1542,35,,,,
-2021-05-25,Grant,Kentucky,21081,2480,22,,,,
+2021-05-25,Grant,Kentucky,21081,2483,23,,,,
 2021-05-25,Graves,Kentucky,21083,4239,93,,,,
 2021-05-25,Grayson,Kentucky,21085,2210,55,,,,
-2021-05-25,Green,Kentucky,21087,1226,17,1220,17,6,
+2021-05-25,Green,Kentucky,21087,1226,17,1224,17,2,
 2021-05-25,Greenup,Kentucky,21089,3639,59,,,,
 2021-05-25,Hancock,Kentucky,21091,893,16,,16,,
 2021-05-25,Hardin,Kentucky,21093,9815,157,,,,
@@ -1057,7 +1057,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-05-25,Jefferson,Kentucky,21111,82748,1269,82748,1269,,
 2021-05-25,Jessamine,Kentucky,21113,4727,64,,,,
 2021-05-25,Johnson,Kentucky,21115,2037,35,,,,
-2021-05-25,Kenton,Kentucky,21117,17033,203,,,,
+2021-05-25,Kenton,Kentucky,21117,17042,204,,,,
 2021-05-25,Knott,Kentucky,21119,1147,23,,,,
 2021-05-25,Knox,Kentucky,21121,3341,37,,,,
 2021-05-25,Larue,Kentucky,21123,1344,26,,,,
@@ -1078,7 +1078,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-05-25,Martin,Kentucky,21159,1037,20,,,,
 2021-05-25,Mason,Kentucky,21161,1718,36,,,,
 2021-05-25,McCracken,Kentucky,21145,6805,127,,,,
-2021-05-25,McCreary,Kentucky,21147,2019,32,1998,32,21,0
+2021-05-25,McCreary,Kentucky,21147,2019,33,2000,33,19,
 2021-05-25,McLean,Kentucky,21149,892,26,,,,
 2021-05-25,Meade,Kentucky,21163,2052,25,,,,
 2021-05-25,Menifee,Kentucky,21165,481,17,,,,
@@ -1098,16 +1098,16 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-05-25,Perry,Kentucky,21193,2678,66,,,,
 2021-05-25,Pike,Kentucky,21195,5622,100,,,,
 2021-05-25,Powell,Kentucky,21197,1321,12,,,,
-2021-05-25,Pulaski,Kentucky,21199,6549,111,6472,111,77,
+2021-05-25,Pulaski,Kentucky,21199,6549,111,6479,111,70,
 2021-05-25,Robertson,Kentucky,21201,232,14,,,,
 2021-05-25,Rockcastle,Kentucky,21203,1591,23,,,,
 2021-05-25,Rowan,Kentucky,21205,2262,20,,,,
-2021-05-25,Russell,Kentucky,21207,1892,44,1892,44,,0
+2021-05-25,Russell,Kentucky,21207,1893,44,1893,44,,0
 2021-05-25,Scott,Kentucky,21209,5059,33,,,,
 2021-05-25,Shelby,Kentucky,21211,4786,71,,,,
 2021-05-25,Simpson,Kentucky,21213,2125,38,,,,
 2021-05-25,Spencer,Kentucky,21215,1624,24,,,,
-2021-05-25,Taylor,Kentucky,21217,3191,48,3129,48,62,0
+2021-05-25,Taylor,Kentucky,21217,3191,48,3138,48,53,0
 2021-05-25,Todd,Kentucky,21219,1159,26,,,,
 2021-05-25,Trigg,Kentucky,21221,1321,15,,,,
 2021-05-25,Trimble,Kentucky,21223,692,7,,,,
@@ -1503,8 +1503,8 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-05-25,Bates,Missouri,29013,1338,30,1161,,177,
 2021-05-25,Benton,Missouri,29015,1691,34,1551,,140,
 2021-05-25,Bollinger,Missouri,29017,1124,13,1087,,37,
-2021-05-25,Boone,Missouri,29019,18496,116,18496,116,,
-2021-05-25,Buchanan,Missouri,29021,10548,182,7376,182,3172,
+2021-05-25,Boone,Missouri,29019,18508,116,18508,116,,
+2021-05-25,Buchanan,Missouri,29021,10554,182,7379,182,3175,
 2021-05-25,Butler,Missouri,29023,4221,48,3752,,469,
 2021-05-25,Caldwell,Missouri,29025,785,14,673,,112,
 2021-05-25,Callaway,Missouri,29027,5002,50,4727,,275,
@@ -1522,7 +1522,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-05-25,Cole,Missouri,29051,9136,127,8866,,270,
 2021-05-25,Cooper,Missouri,29053,1927,27,1752,,175,
 2021-05-25,Crawford,Missouri,29055,2613,38,2300,,313,
-2021-05-25,Dade,Missouri,29057,737,31,737,31,,
+2021-05-25,Dade,Missouri,29057,738,31,738,31,,
 2021-05-25,Dallas,Missouri,29059,1323,28,851,,472,
 2021-05-25,Daviess,Missouri,29061,710,11,605,,105,
 2021-05-25,DeKalb,Missouri,29063,1130,32,940,,190,
@@ -1559,7 +1559,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-05-25,Madison,Missouri,29123,1672,16,1438,,234,
 2021-05-25,Maries,Missouri,29125,640,8,583,,57,
 2021-05-25,Marion,Missouri,29127,3632,50,2753,,879,
-2021-05-25,McDonald,Missouri,29119,2648,36,2648,36,,
+2021-05-25,McDonald,Missouri,29119,2652,36,2652,36,,
 2021-05-25,Mercer,Missouri,29129,299,2,186,,113,
 2021-05-25,Miller,Missouri,29131,2544,54,2384,,160,
 2021-05-25,Mississippi,Missouri,29133,1465,28,1360,,105,
@@ -1605,7 +1605,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-05-25,Taney,Missouri,29213,5368,96,4828,,540,
 2021-05-25,Texas,Missouri,29215,1855,23,1577,,278,
 2021-05-25,Vernon,Missouri,29217,1958,46,1513,,445,
-2021-05-25,Warren,Missouri,29219,3190,31,2947,31,243,
+2021-05-25,Warren,Missouri,29219,3190,33,2951,33,239,
 2021-05-25,Washington,Missouri,29221,2765,49,2219,,546,
 2021-05-25,Wayne,Missouri,29223,1037,14,856,,181,
 2021-05-25,Webster,Missouri,29225,3628,54,3137,,491,
@@ -1811,39 +1811,39 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-05-25,Union,New Jersey,34039,71244,1959,60255,1736,10989,223
 2021-05-25,Unknown,New Jersey,,854,0,745,,109,
 2021-05-25,Warren,New Jersey,34041,9933,236,8911,211,1022,25
-2021-05-25,Bernalillo,New Mexico,35001,58260,937,58260,937,,
+2021-05-25,Bernalillo,New Mexico,35001,58298,939,58298,939,,
 2021-05-25,Catron,New Mexico,35003,95,5,95,5,,
 2021-05-25,Chaves,New Mexico,35005,9227,169,9227,169,,
 2021-05-25,Cibola,New Mexico,35006,3540,123,3540,123,,
 2021-05-25,Colfax,New Mexico,35007,928,45,928,45,,
 2021-05-25,Curry,New Mexico,35009,5248,83,5248,83,,
-2021-05-25,De Baca,New Mexico,35011,171,2,171,2,,
-2021-05-25,Doña Ana,New Mexico,35013,25060,484,25060,484,,
-2021-05-25,Eddy,New Mexico,35015,6868,137,6868,137,,
-2021-05-25,Grant,New Mexico,35017,1717,40,1717,40,,
-2021-05-25,Guadalupe,New Mexico,35019,669,11,669,11,,
+2021-05-25,De Baca,New Mexico,35011,172,2,172,2,,
+2021-05-25,Doña Ana,New Mexico,35013,25065,484,25065,484,,
+2021-05-25,Eddy,New Mexico,35015,6870,137,6870,137,,
+2021-05-25,Grant,New Mexico,35017,1718,40,1718,40,,
+2021-05-25,Guadalupe,New Mexico,35019,672,11,672,11,,
 2021-05-25,Harding,New Mexico,35021,12,1,12,1,,
 2021-05-25,Hidalgo,New Mexico,35023,363,9,363,9,,
-2021-05-25,Lea,New Mexico,35025,9071,195,9071,195,,
-2021-05-25,Lincoln,New Mexico,35027,1735,18,1735,18,,
+2021-05-25,Lea,New Mexico,35025,9074,195,9074,195,,
+2021-05-25,Lincoln,New Mexico,35027,1736,18,1736,18,,
 2021-05-25,Los Alamos,New Mexico,35028,529,6,529,6,,
 2021-05-25,Luna,New Mexico,35029,3355,92,3355,92,,
 2021-05-25,McKinley,New Mexico,35031,12334,477,12334,477,,
 2021-05-25,Mora,New Mexico,35033,171,6,171,6,,
-2021-05-25,Otero,New Mexico,35035,5141,77,5141,77,,
-2021-05-25,Quay,New Mexico,35037,517,10,517,10,,
-2021-05-25,Rio Arriba,New Mexico,35039,3631,75,3631,75,,
-2021-05-25,Roosevelt,New Mexico,35041,1993,59,1993,59,,
-2021-05-25,Sandoval,New Mexico,35043,12082,239,12082,239,,
-2021-05-25,San Juan,New Mexico,35045,15344,482,15344,482,,
-2021-05-25,San Miguel,New Mexico,35047,1361,17,1361,17,,
-2021-05-25,Santa Fe,New Mexico,35049,10664,146,10664,146,,
+2021-05-25,Otero,New Mexico,35035,5146,77,5146,77,,
+2021-05-25,Quay,New Mexico,35037,518,10,518,10,,
+2021-05-25,Rio Arriba,New Mexico,35039,3633,75,3633,75,,
+2021-05-25,Roosevelt,New Mexico,35041,1999,59,1999,59,,
+2021-05-25,Sandoval,New Mexico,35043,12092,240,12092,240,,
+2021-05-25,San Juan,New Mexico,35045,15359,482,15359,482,,
+2021-05-25,San Miguel,New Mexico,35047,1366,17,1366,17,,
+2021-05-25,Santa Fe,New Mexico,35049,10662,147,10662,147,,
 2021-05-25,Sierra,New Mexico,35051,776,52,776,52,,
 2021-05-25,Socorro,New Mexico,35053,1319,60,1319,60,,
-2021-05-25,Taos,New Mexico,35055,1685,53,1685,53,,
-2021-05-25,Torrance,New Mexico,35057,852,13,852,13,,
+2021-05-25,Taos,New Mexico,35055,1686,53,1686,53,,
+2021-05-25,Torrance,New Mexico,35057,933,13,933,13,,
 2021-05-25,Union,New Mexico,35059,421,10,421,10,,
-2021-05-25,Valencia,New Mexico,35061,7082,114,7082,114,,
+2021-05-25,Valencia,New Mexico,35061,7088,116,7088,116,,
 2021-05-25,Albany,New York,36001,24583,351,24583,351,,
 2021-05-25,Allegany,New York,36003,3511,84,3511,84,,
 2021-05-25,Broome,New York,36007,18499,362,18499,362,,
@@ -2219,48 +2219,48 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-05-25,Texas,Oklahoma,40139,3527,34,,34,,
 2021-05-25,Tillman,Oklahoma,40141,803,17,,17,,
 2021-05-25,Tulsa,Oklahoma,40143,74893,1061,,1061,,
-2021-05-25,Unknown,Oklahoma,,1008,0,,,,
+2021-05-25,Unknown,Oklahoma,,1097,0,,,,
 2021-05-25,Wagoner,Oklahoma,40145,8114,116,,116,,
 2021-05-25,Washington,Oklahoma,40147,5216,111,,111,,
 2021-05-25,Washita,Oklahoma,40149,1084,22,,22,,
 2021-05-25,Woods,Oklahoma,40151,1203,17,,17,,
 2021-05-25,Woodward,Oklahoma,40153,3166,35,,35,,
-2021-05-25,Baker,Oregon,41001,962,15,,,,
-2021-05-25,Benton,Oregon,41003,3167,21,,,,
-2021-05-25,Clackamas,Oregon,41005,18033,221,,,,
+2021-05-25,Baker,Oregon,41001,964,15,,,,
+2021-05-25,Benton,Oregon,41003,3171,21,,,,
+2021-05-25,Clackamas,Oregon,41005,18080,221,,,,
 2021-05-25,Clatsop,Oregon,41007,1004,8,,,,
-2021-05-25,Columbia,Oregon,41009,1793,29,,,,
-2021-05-25,Coos,Oregon,41011,2131,35,,,,
-2021-05-25,Crook,Oregon,41013,1182,22,,,,
+2021-05-25,Columbia,Oregon,41009,1800,29,,,,
+2021-05-25,Coos,Oregon,41011,2134,35,,,,
+2021-05-25,Crook,Oregon,41013,1187,22,,,,
 2021-05-25,Curry,Oregon,41015,661,10,,,,
-2021-05-25,Deschutes,Oregon,41017,9443,78,,,,
-2021-05-25,Douglas,Oregon,41019,3435,73,,,,
+2021-05-25,Deschutes,Oregon,41017,9490,78,,,,
+2021-05-25,Douglas,Oregon,41019,3454,73,,,,
 2021-05-25,Gilliam,Oregon,41021,63,1,,,,
-2021-05-25,Grant,Oregon,41023,528,6,,,,
-2021-05-25,Harney,Oregon,41025,365,8,,,,
+2021-05-25,Grant,Oregon,41023,529,6,,,,
+2021-05-25,Harney,Oregon,41025,366,8,,,,
 2021-05-25,Hood River,Oregon,41027,1199,31,,,,
-2021-05-25,Jackson,Oregon,41029,11121,143,,,,
-2021-05-25,Jefferson,Oregon,41031,2270,37,,,,
-2021-05-25,Josephine,Oregon,41033,3428,71,,,,
-2021-05-25,Klamath,Oregon,41035,4609,70,,,,
+2021-05-25,Jackson,Oregon,41029,11144,143,,,,
+2021-05-25,Jefferson,Oregon,41031,2282,37,,,,
+2021-05-25,Josephine,Oregon,41033,3434,71,,,,
+2021-05-25,Klamath,Oregon,41035,4627,71,,,,
 2021-05-25,Lake,Oregon,41037,461,7,,,,
-2021-05-25,Lane,Oregon,41039,13370,150,,,,
+2021-05-25,Lane,Oregon,41039,13396,151,,,,
 2021-05-25,Lincoln,Oregon,41041,1396,21,,,,
-2021-05-25,Linn,Oregon,41043,5243,73,,,,
-2021-05-25,Malheur,Oregon,41045,3544,63,,,,
-2021-05-25,Marion,Oregon,41047,22584,312,,,,
-2021-05-25,Morrow,Oregon,41049,1122,16,,,,
+2021-05-25,Linn,Oregon,41043,5259,74,,,,
+2021-05-25,Malheur,Oregon,41045,3547,63,,,,
+2021-05-25,Marion,Oregon,41047,22625,312,,,,
+2021-05-25,Morrow,Oregon,41049,1123,16,,,,
 2021-05-25,Multnomah,Oregon,41051,39257,616,,,,
-2021-05-25,Polk,Oregon,41053,3845,53,,,,
+2021-05-25,Polk,Oregon,41053,3849,53,,,,
 2021-05-25,Sherman,Oregon,41055,59,1,,,,
 2021-05-25,Tillamook,Oregon,41057,659,3,,,,
-2021-05-25,Umatilla,Oregon,41059,8328,86,,,,
-2021-05-25,Union,Oregon,41061,1455,23,,,,
+2021-05-25,Umatilla,Oregon,41059,8349,86,,,,
+2021-05-25,Union,Oregon,41061,1460,23,,,,
 2021-05-25,Wallowa,Oregon,41063,187,5,,,,
 2021-05-25,Wasco,Oregon,41065,1407,28,,,,
-2021-05-25,Washington,Oregon,41067,26115,238,,,,
-2021-05-25,Wheeler,Oregon,41069,33,1,,,,
-2021-05-25,Yamhill,Oregon,41071,4587,76,,,,
+2021-05-25,Washington,Oregon,41067,26155,238,,,,
+2021-05-25,Wheeler,Oregon,41069,34,1,,,,
+2021-05-25,Yamhill,Oregon,41071,4596,76,,,,
 2021-05-25,Adams,Pennsylvania,42001,9524,183,7888,,1636,
 2021-05-25,Allegheny,Pennsylvania,42003,100984,1965,76482,,24502,
 2021-05-25,Armstrong,Pennsylvania,42005,5956,140,4713,,1243,
@@ -2612,7 +2612,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-05-25,Trousdale,Tennessee,47169,2509,22,2347,,162,
 2021-05-25,Unicoi,Tennessee,47171,2050,49,1543,,507,
 2021-05-25,Union,Tennessee,47173,1941,34,1622,,319,
-2021-05-25,Unknown,Tennessee,,9522,124,9522,,0,
+2021-05-25,Unknown,Tennessee,,9475,124,9475,,0,
 2021-05-25,Van Buren,Tennessee,47175,858,23,706,,152,
 2021-05-25,Warren,Tennessee,47177,5552,82,4716,,836,
 2021-05-25,Washington,Tennessee,47179,14767,248,12626,,2141,
@@ -2651,7 +2651,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-05-25,Caldwell,Texas,48055,5708,98,5353,,355,
 2021-05-25,Calhoun,Texas,48057,2393,24,1954,,439,
 2021-05-25,Callahan,Texas,48059,1199,40,614,,585,
-2021-05-25,Cameron,Texas,48061,41124,1652,41124,1652,0,
+2021-05-25,Cameron,Texas,48061,41139,1653,41139,1653,,
 2021-05-25,Camp,Texas,48063,1260,43,838,,422,
 2021-05-25,Carson,Texas,48065,532,14,365,,167,
 2021-05-25,Cass,Texas,48067,1948,83,1212,,736,
@@ -2772,7 +2772,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-05-25,Live Oak,Texas,48297,1138,22,880,,258,
 2021-05-25,Llano,Texas,48299,1688,51,1196,,492,
 2021-05-25,Loving,Texas,48301,2,0,1,,1,
-2021-05-25,Lubbock,Texas,48303,49276,789,49276,729,0,60
+2021-05-25,Lubbock,Texas,48303,49285,789,49276,729,9,60
 2021-05-25,Lynn,Texas,48305,623,23,623,,0,
 2021-05-25,Madison,Texas,48313,1979,29,1722,,257,
 2021-05-25,Marion,Texas,48315,542,33,353,,189,
@@ -2798,7 +2798,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-05-25,Navarro,Texas,48349,5848,154,3471,,2377,
 2021-05-25,Newton,Texas,48351,629,36,303,,326,
 2021-05-25,Nolan,Texas,48353,1543,51,1543,,0,
-2021-05-25,Nueces,Texas,48355,42870,819,27498,819,15372,
+2021-05-25,Nueces,Texas,48355,42879,820,27503,820,15376,
 2021-05-25,Ochiltree,Texas,48357,1175,27,1028,,147,
 2021-05-25,Oldham,Texas,48359,285,4,153,,132,
 2021-05-25,Orange,Texas,48361,8646,149,4200,,4446,
@@ -2832,7 +2832,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-05-25,Shackelford,Texas,48417,276,5,133,,143,
 2021-05-25,Shelby,Texas,48419,1700,67,944,,756,
 2021-05-25,Sherman,Texas,48421,234,12,196,,38,
-2021-05-25,Smith,Texas,48423,20423,480,11892,446,8531,34
+2021-05-25,Smith,Texas,48423,20424,480,11893,446,8531,34
 2021-05-25,Somervell,Texas,48425,1084,14,592,,492,
 2021-05-25,Starr,Texas,48427,9552,298,7821,297,1731,1
 2021-05-25,Stephens,Texas,48429,811,26,464,,347,
@@ -2841,7 +2841,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-05-25,Sutton,Texas,48435,470,8,275,,195,
 2021-05-25,Swisher,Texas,48437,884,17,471,,413,
 2021-05-25,Tarrant,Texas,48439,260411,3494,218022,3494,42389,
-2021-05-25,Taylor,Texas,48441,15897,410,7427,408,8470,2
+2021-05-25,Taylor,Texas,48441,15902,410,7432,408,8470,2
 2021-05-25,Terrell,Texas,48443,74,2,64,,10,
 2021-05-25,Terry,Texas,48445,1695,56,1695,,0,
 2021-05-25,Throckmorton,Texas,48447,73,5,50,,23,
@@ -2878,13 +2878,13 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-05-25,Beaver,Utah,49001,793,7,,,,
 2021-05-25,Box Elder,Utah,49003,5505,50,,,,
 2021-05-25,Cache,Utah,49005,16242,47,,,,
-2021-05-25,Carbon,Utah,49007,1662,17,,,,
+2021-05-25,Carbon,Utah,49007,1667,17,,,,
 2021-05-25,Daggett,Utah,49009,50,0,,,,
 2021-05-25,Davis,Utah,49011,38569,172,,,,
 2021-05-25,Duchesne,Utah,49013,1295,9,,,,
 2021-05-25,Emery,Utah,49015,940,9,,,,
 2021-05-25,Garfield,Utah,49017,469,10,,,,
-2021-05-25,Grand,Utah,49019,985,3,,,,
+2021-05-25,Grand,Utah,49019,989,3,,,,
 2021-05-25,Iron,Utah,49021,5893,32,,,,
 2021-05-25,Juab,Utah,49023,1278,12,,,,
 2021-05-25,Kane,Utah,49025,669,6,,,,
@@ -2899,12 +2899,12 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-05-25,Summit,Utah,49043,5569,13,,,,
 2021-05-25,Tooele,Utah,49045,7418,44,,,,
 2021-05-25,Uintah,Utah,49047,2696,23,,,,
-2021-05-25,Unknown,Utah,,1220,21,,,,
+2021-05-25,Unknown,Utah,,1142,21,,,,
 2021-05-25,Utah,Utah,49049,96687,393,,,,
 2021-05-25,Wasatch,Utah,49051,4664,22,,,,
 2021-05-25,Washington,Utah,49053,21201,206,,,,
 2021-05-25,Wayne,Utah,49055,129,0,,,,
-2021-05-25,Weber,Utah,49057,29442,209,,,,
+2021-05-25,Weber,Utah,49057,29511,209,,,,
 2021-05-25,Addison,Vermont,50001,1058,8,,,,
 2021-05-25,Bennington,Vermont,50003,2033,15,,,,
 2021-05-25,Caledonia,Vermont,50005,1067,7,,,,
@@ -3094,7 +3094,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-05-25,Walla Walla,Washington,53071,5147,65,4998,65,149,0
 2021-05-25,Whatcom,Washington,53073,9250,98,8887,,363,
 2021-05-25,Whitman,Washington,53075,4325,49,4223,49,102,0
-2021-05-25,Yakima,Washington,53077,31014,456,26655,,4359,
+2021-05-25,Yakima,Washington,53077,31026,456,26655,,4371,
 2021-05-25,Barbour,West Virginia,54001,1476,28,1184,22,292,6
 2021-05-25,Berkeley,West Virginia,54003,12602,126,10142,107,2460,19
 2021-05-25,Boone,West Virginia,54005,2117,34,1879,33,238,1
