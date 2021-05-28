@@ -168,6 +168,7 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2020-12-17,,,Washington,USA-53,cases,,,"Washington began reporting probable cases, resulting in a one-day increase."
 2020-12-17,,Pacific,Washington,USA-53049,cases,yes,,"Washington began reporting probable cases, including many in Pacific County."
 2020-12-17,,Hardeman,Texas,USA-48197,cases,yes,,Texas added a large backlog of cases in Hardeman County.
+2020-12-17,,Hidalgo,Texas,USA-48215,cases,yes,,"The Times removed Hidalgo County cases that do not meet the standard case definition after the county began reporting confirmed, probable and suspected cases separately."
 2020-12-19,,,Delaware,USA-10,cases,,,Delaware announced that a reporting delay on Dec. 18 resulted in a higher total on Dec. 19.
 2020-12-20,,,Tennessee,USA-47,cases,,,Tennessee announced cases from both Dec. 19 and Dec. 20.
 2020-12-21,,Tarrant,Texas,USA-48439,deaths,yes,,Tarrant County added many deaths from previous months after reconciling county and state records.
@@ -494,8 +495,13 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2021-05-20,,Tulare,California,USA-06107,cases,yes,,Tulare County added about 180 older cases.
 2021-05-21,,,Washington,USA-53,cases,,,Washington announced a backlog of cases from unspecified days.
 2021-05-21,2021-05-24,Knox,Tennessee,USA-47093,cases,yes,,"Knox County transferred cases to other counties after reviewing records, resulting in a decrease in cases over several days."
+2021-05-21,,Spokane,Washington,USA-53063,cases,,,Spokane County announced a backlog of cases added over several days.
 2021-05-24,,Brazos,Texas,USA-48041,cases,yes,,Brazos County announced a backlog of about 600 cases.
 2021-05-24,,,New Mexico,USA-35,deaths,yes,yes,New Mexico announced many deaths after reviewing death certificates.
 2021-05-25,,Torrance,New Mexico,USA-35057,cases,,,New Mexico announced many cases at the federal Torrance County Detention Facility.
 2021-05-26,,,,USA,deaths,yes,,Oklahoma added many backlogged deaths.
 2021-05-26,,,Oklahoma,USA-40,deaths,yes,,Oklahoma added 373 deaths after reconciling records. 
+2021-05-27,,,Maryland,USA-24,deaths,yes,,Maryland added 538 deaths from the past year after reconciling records.
+2021-05-27,,,,USA,deaths,yes,,Maryland added many backlogged deaths.
+2021-05-27,,,California,USA-06,cases,yes,,Los Angeles County added many older cases.
+2021-05-27,,Los Angeles,California,USA-06037,cases,yes,,"Los Angeles added more than 3,800 cases from previous months after reviewing records."
