@@ -492,6 +492,7 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2021-05-19,,,Delaware,USA-10,cases,yes,yes,Delaware announced a backlog of cases after resolving a technical issue.
 2021-05-19,,,Rhode Island,USA-44,cases,,,Rhode Island did not report new county cases and deaths.
 2021-05-19,,Boone,Missouri,USA-29019,deaths,yes,,Boone County added 25 deaths from November 2020 through April 2021 after reconciling records.
+2021-05-19,,Starr,Texas,USA-48427,cases,yes,,Texas removed about 100 probable cases in Starr County.
 2021-05-20,,Tulare,California,USA-06107,cases,yes,,Tulare County added about 180 older cases.
 2021-05-21,,,Washington,USA-53,cases,,,Washington announced a backlog of cases from unspecified days.
 2021-05-21,2021-05-24,Knox,Tennessee,USA-47093,cases,yes,,"Knox County transferred cases to other counties after reviewing records, resulting in a decrease in cases over several days."
@@ -501,6 +502,7 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2021-05-25,,Torrance,New Mexico,USA-35057,cases,,,New Mexico announced many cases at the federal Torrance County Detention Facility.
 2021-05-26,,,,USA,deaths,yes,,Oklahoma added many backlogged deaths.
 2021-05-26,,,Oklahoma,USA-40,deaths,yes,,Oklahoma added 373 deaths after reconciling records. 
+2021-05-26,2021-05-28,Tulare,California,USA-06107,cases,yes,,Tulare County removed cases during ongoing data cleaning.
 2021-05-27,,,Maryland,USA-24,deaths,yes,,Maryland added 538 deaths from the past year after reconciling records.
 2021-05-27,,,,USA,deaths,yes,,Maryland added many backlogged deaths.
 2021-05-27,,,California,USA-06,cases,yes,,Los Angeles County added many older cases.
