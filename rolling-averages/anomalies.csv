@@ -455,7 +455,7 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2021-04-27,,Wayne,West Virginia,USA-54099,cases,yes,,West Virginia added many cases in Wayne County after verifying location of residence.
 2021-04-28,,Lassen,California,USA-06035,deaths,yes,,"The Times began using federal data for Lassen County, resulting in a one-day increase in deaths."
 2021-04-28,,El Dorado,California,USA-06017,cases,yes,,"The Times began using federal data for El Dorado County, resulting in a one-day increase in cases."
-2021-04-28,,Inyo,California,USA-06027,both,yes,,"The Times began using federal data for Inyo County, resulting in a one-day increase in cases and deaths."
+2021-04-28,,Inyo,California,USA-06027,both,yes,,"The Times began using local data for many Nebraska counties after the state stopped reporting county-level data on May 26, resulting in one-day increases and decreases in cases and deaths."
 2021-04-28,,Mono,California,USA-06051,cases,yes,,"The Times began using federal data for Mono County, resulting in a one-day increase in cases."
 2021-04-28,,Plumas,California,USA-06063,both,yes,,"The Times began using federal data for Plumas County, resulting in a one-day increase in cases and deaths."
 2021-04-28,,Hunt,Texas,USA-48231,cases,,,Texas announced many previously unreported cases in Hunt County.
@@ -508,7 +508,9 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2021-05-27,,,,USA,deaths,yes,,Maryland added many backlogged deaths.
 2021-05-27,,,California,USA-06,both,yes,,Los Angeles County added many older cases and deaths.
 2021-05-27,,Los Angeles,California,USA-06037,both,yes,,"Los Angeles added more than 3,800 cases and many deaths from previous months after reviewing records."
+2021-05-28,,,Nebraska,USA-31,both,yes,yes,The Times began using local data for many Nebraska counties after the state stopped reporting county-level data on May 26. 
 2021-05-31,,,,USA,cases,,,The daily count is artificially low because many states and local jurisdictions did not announce new data on Memorial Day.
 2021-06-03,,,Indiana,USA-18,cases,yes,yes,Indiana added 765 cases from previous months.
 2021-06-03,,Bexar,Texas,USA-48029,deaths,yes,,Bexar County added 23 deaths that occurred between July 2020 and May 2021.
 2021-06-04,,Alameda,California,USA-06001,deaths,yes,,Alameda County removed many deaths from causes unrelated to Covid-19.
+2021-06-05,,Maverick,Texas,USA-48323,cases,yes,,Texas added about 250 older cases in Maverick County.
