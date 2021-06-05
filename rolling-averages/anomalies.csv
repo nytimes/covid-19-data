@@ -471,6 +471,7 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2021-05-05,,Bergen,New Jersey,USA-34003,cases,yes,,New Jersey added many older cases in Bergen County.
 2021-05-06,2021-05-07,Moore,Texas,USA-48341,cases,yes,,Texas announced a large backlog of cases in Moore County.
 2021-05-11,,,District of Columbia,USA-11,cases,,,The District of Columbia announced a backlog of cases from previous days after resolving a technical issue.
+2021-05-12,2021-05-13,Alameda,California,USA-06001,deaths,yes,,Alameda County added many deaths after reviewing records.
 2021-05-12,,Clay,Missouri,USA-29047,cases,yes,,"Local officials began using a state database for Clay County cases, resulting in a one-time decrease in cases."
 2021-05-12,,Houston,Texas,USA-48225,cases,yes,,"Texas announced data adjustments in some counties, including an increase in Houston County cases."
 2021-05-12,,Johnson,Texas,USA-48251,cases,yes,,"Texas announced data adjustments in some counties, including a decrease in Johnson County cases."
@@ -501,12 +502,13 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2021-05-24,,,New Mexico,USA-35,deaths,yes,yes,New Mexico announced many deaths after reviewing death certificates.
 2021-05-25,,Torrance,New Mexico,USA-35057,cases,,,New Mexico announced many cases at the federal Torrance County Detention Facility.
 2021-05-26,,,,USA,deaths,yes,,Oklahoma added many backlogged deaths.
-2021-05-26,,,Oklahoma,USA-40,deaths,yes,,Oklahoma added 373 deaths after reconciling records. 
+2021-05-26,,,Oklahoma,USA-40,deaths,yes,yes,Oklahoma added 373 deaths after reconciling records. 
 2021-05-26,2021-05-28,Tulare,California,USA-06107,cases,yes,,Tulare County removed cases during ongoing data cleaning.
-2021-05-27,,,Maryland,USA-24,deaths,yes,,Maryland added 538 deaths from the past year after reconciling records.
+2021-05-27,,,Maryland,USA-24,deaths,yes,yes,Maryland added 538 deaths from the past year after reconciling records.
 2021-05-27,,,,USA,deaths,yes,,Maryland added many backlogged deaths.
 2021-05-27,,,California,USA-06,both,yes,,Los Angeles County added many older cases and deaths.
 2021-05-27,,Los Angeles,California,USA-06037,both,yes,,"Los Angeles added more than 3,800 cases and many deaths from previous months after reviewing records."
 2021-05-31,,,,USA,cases,,,The daily count is artificially low because many states and local jurisdictions did not announce new data on Memorial Day.
 2021-06-03,,,Indiana,USA-18,cases,yes,yes,Indiana added 765 cases from previous months.
 2021-06-03,,Bexar,Texas,USA-48029,deaths,yes,,Bexar County added 23 deaths that occurred between July 2020 and May 2021.
+2021-06-04,,Alameda,California,USA-06001,deaths,yes,,Alameda County removed many deaths from causes unrelated to Covid-19.
