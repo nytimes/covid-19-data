@@ -520,4 +520,7 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2021-06-07,,Nueces,Texas,USA-48355,cases,yes,,Nueces County added about 70 cases from previous months based on state records.
 2021-06-07,,King,Washington,USA-53033,cases,yes,,Washington removed many cases in King County.
 2021-06-08,,,Texas,USA-48,cases,yes,,Texas added a backlog of cases in Maverick County.
-2021-06-08,,Maverick,Texas,USA-48323,cases,yes,,"Texas announced a backlog of more than 2,000 cases in Maverick County."
+2021-06-08,2021-06-09,Maverick,Texas,USA-48323,cases,yes,,"Texas announced a backlog of more than 4,000 cases in Maverick County."
+2021-06-09,,,Texas,USA-48,cases,yes,,"Texas added a backlog of cases in Bell, Maverick and Webb counties."
+2021-06-09,,Bell,Texas,USA-48027,cases,yes,,"Texas added more than 2,000 probable cases in Bell County."
+2021-06-09,,Webb,Texas,USA-48479,cases,yes,,"Texas added more than 2,000 probable cases in Webb County."
