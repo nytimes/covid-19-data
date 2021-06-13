@@ -510,17 +510,17 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2021-05-27,,Los Angeles,California,USA-06037,both,yes,,"Los Angeles added more than 3,800 cases and many deaths from previous months after reviewing records."
 2021-05-28,,,Nebraska,USA-31,both,yes,yes,"The Times began using local data for many Nebraska counties after the state stopped reporting county-level data on May 26, resulting in one-day increases and decreases in cases and deaths."
 2021-05-31,,,,USA,cases,,,The daily count is artificially low because many states and local jurisdictions did not announce new data on Memorial Day.
+2021-06-01,,Williamson,Texas,USA-48491,cases,,,Williamson County did not update its data because of technical issues.
 2021-06-03,,,Indiana,USA-18,cases,yes,yes,Indiana added 765 cases from previous months.
 2021-06-03,,Bexar,Texas,USA-48029,deaths,yes,,Bexar County added 23 deaths that occurred between July 2020 and May 2021.
 2021-06-04,,,,USA,cases,yes,,Florida stopped providing daily updates and removed many nonresident cases.
 2021-06-04,,,Florida,USA-12,cases,yes,yes,"Florida changed its data format to a weekly report and stopped including nonresident cases, resulting in a one-day decrease in most counties."
 2021-06-04,,Alameda,California,USA-06001,deaths,yes,,Alameda County removed many deaths from causes unrelated to Covid-19.
+2021-06-04,,Williamson,Texas,USA-48491,cases,yes,,Texas added about 300 older cases in Williamson County.
 2021-06-05,,Maverick,Texas,USA-48323,cases,yes,,Texas added about 250 older cases in Maverick County.
 2021-06-06,,,California,USA-06,deaths,yes,,California added many San Mateo County deaths from previous months.
 2021-06-06,,San Mateo,California,USA-06081,deaths,yes,,California added 186 San Mateo County deaths from previous months.
-2021-06-07,,,Washington,USA-53,cases,yes,,Washington removed many cases in King County.
 2021-06-07,,Nueces,Texas,USA-48355,cases,yes,,Nueces County added about 70 cases from previous months based on state records.
-2021-06-07,,King,Washington,USA-53033,cases,yes,,Washington removed many cases in King County.
 2021-06-08,2021-06-10,Maverick,Texas,USA-48323,cases,yes,,"Texas announced a backlog of more than 4,000 cases in Maverick County, then removed more than 2,000 cases."
 2021-06-08,2021-06-09,Scott,Kentucky,USA-21209,cases,yes,,Kentucky added many older cases in Scott County.
 2021-06-09,,,Texas,USA-48,cases,yes,,Texas added a backlog of cases in Bell and Webb counties.
@@ -528,3 +528,4 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2021-06-09,,Bell,Texas,USA-48027,cases,yes,,"Texas added more than 2,000 probable cases in Bell County."
 2021-06-09,,Webb,Texas,USA-48479,cases,yes,,"Texas added more than 2,000 probable cases in Webb County."
 2021-06-11,,,Tennessee,USA-47,cases,yes,yes,Tennessee added a large number of cases in many counties.
+2021-06-12,,San Mateo,California,USA-06081,deaths,yes,,California removed about 125 deaths previous reported in San Mateo County.
