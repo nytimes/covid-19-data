@@ -514,6 +514,7 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2021-06-03,,,Indiana,USA-18,cases,yes,yes,Indiana added 765 cases from previous months.
 2021-06-03,,Bexar,Texas,USA-48029,deaths,yes,,Bexar County added 23 deaths that occurred between July 2020 and May 2021.
 2021-06-04,,,,USA,cases,yes,,Florida stopped providing daily updates and removed many nonresident cases.
+2021-06-04,,,California,USA-06,deaths,yes,,Alameda County removed many deaths from causes unrelated to Covid-19.
 2021-06-04,,,Florida,USA-12,cases,yes,yes,"Florida changed its data format to a weekly report and stopped including nonresident cases, resulting in a one-day decrease in most counties."
 2021-06-04,,Alameda,California,USA-06001,deaths,yes,,Alameda County removed many deaths from causes unrelated to Covid-19.
 2021-06-04,,Williamson,Texas,USA-48491,cases,yes,,Texas added about 300 older cases in Williamson County.
@@ -538,3 +539,4 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2021-06-14,,,Washington,USA-53,deaths,yes,,Washington removed about 30 deaths from causes unrelated to Covid-19.
 2021-06-14,,Woodford,Illinois,USA-17203,cases,yes,,"The Times began using state data for Woodford County, resulting in a one-time decrease in cases. "
 2021-06-14,,Pierce,Washington,USA-53053,deaths,yes,,"Washington removed about 30 deaths from causes unrelated to Covid-19, including a decrease in Pierce County."
+2021-06-15,,Williamson,Texas,USA-48491,cases,yes,,Williamson County removed about 300 duplicate cases.
