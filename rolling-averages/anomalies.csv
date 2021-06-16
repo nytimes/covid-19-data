@@ -540,3 +540,6 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2021-06-14,,Woodford,Illinois,USA-17203,cases,yes,,"The Times began using state data for Woodford County, resulting in a one-time decrease in cases. "
 2021-06-14,,Pierce,Washington,USA-53053,deaths,yes,,"Washington removed about 30 deaths from causes unrelated to Covid-19, including a decrease in Pierce County."
 2021-06-15,,Williamson,Texas,USA-48491,cases,yes,,Williamson County removed about 300 duplicate cases.
+2021-06-15,,Knox,Kentucky,USA-21121,cases,yes,,Kentucky removed many cases in Whitley County and added many cases in neighboring Knox and Laurel counties.
+2021-06-15,,Laurel,Kentucky,USA-21125,cases,yes,,Kentucky removed many cases in Whitley County and added many cases in neighboring Knox and Laurel counties.
+2021-06-15,,Whitley,Kentucky,USA-21235,cases,yes,,Kentucky removed many cases in Whitley County and added many cases in neighboring Knox and Laurel counties.
