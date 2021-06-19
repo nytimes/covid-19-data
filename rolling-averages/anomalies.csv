@@ -509,6 +509,7 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2021-05-27,,,California,USA-06,both,yes,,Los Angeles County added many older cases and deaths.
 2021-05-27,,Los Angeles,California,USA-06037,both,yes,,"Los Angeles added more than 3,800 cases and many deaths from previous months after reviewing records."
 2021-05-28,,,Nebraska,USA-31,both,yes,yes,"The Times began using local data for many Nebraska counties after the state stopped reporting county-level data on May 26, resulting in one-day increases and decreases in cases and deaths."
+2021-05-29,2021-06-12,Collin,Texas,USA-48085,cases,yes,,Texas reported many cases for Collin County on June 12 after officials did not announce new data for two weeks.
 2021-05-31,,,,USA,cases,,,The daily count is artificially low because many states and local jurisdictions did not announce new data on Memorial Day.
 2021-06-01,,Williamson,Texas,USA-48491,cases,,,Williamson County did not update its data because of technical issues.
 2021-06-03,,,Indiana,USA-18,cases,yes,yes,Indiana added 765 cases from previous months.
@@ -535,7 +536,6 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2021-06-12,,Knox,Kentucky,USA-21121,cases,yes,,Kentucky removed many cases in Whitley County and added many cases in neighboring Knox and Laurel counties.
 2021-06-12,,Laurel,Kentucky,USA-21125,cases,yes,,Kentucky removed many cases in Whitley County and added many cases in neighboring Knox and Laurel counties.
 2021-06-12,,Whitley,Kentucky,USA-21235,cases,yes,,Kentucky removed many cases in Whitley County and added many cases in neighboring Knox and Laurel counties.
-2021-06-12,,Collin,Texas,USA-48085,cases,,,Texas reported many cases for Collin County after officials did not announce new data for two weeks.
 2021-06-14,,,Washington,USA-53,deaths,yes,,Washington removed about 30 deaths from causes unrelated to Covid-19.
 2021-06-14,,Woodford,Illinois,USA-17203,cases,yes,,"The Times began using state data for Woodford County, resulting in a one-time decrease in cases. "
 2021-06-14,,Pierce,Washington,USA-53053,deaths,yes,,"Washington removed about 30 deaths from causes unrelated to Covid-19, including a decrease in Pierce County."
