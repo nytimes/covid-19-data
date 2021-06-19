@@ -545,4 +545,5 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2021-06-15,2021-06-16,Laurel,Kentucky,USA-21125,cases,yes,,Kentucky removed many cases in Whitley County and added many cases in neighboring Knox and Laurel counties.
 2021-06-15,2021-06-16,Whitley,Kentucky,USA-21235,cases,yes,,Kentucky removed many cases in Whitley County and added many cases in neighboring Knox and Laurel counties.
 2021-06-16,,Bulloch,Georgia,USA-13031,cases,yes,,Georgia added many cases in Bulloch County after removing many cases the previous week.
-2021-06-17,,Harris,Texas,USA-48201,cases,yes,,Harris County removed 345 duplicate cases.
+2021-06-17,2021-06-18,Harris,Texas,USA-48201,cases,yes,,Harris County removed many duplicate cases.
+2021-06-18,,Frio,Texas,USA-48163,cases,yes,,Texas removed 86 cases in Frio County.
