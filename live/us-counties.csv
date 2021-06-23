@@ -233,9 +233,9 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-06-23,Sierra,California,06091,57,0,57,0,,
 2021-06-23,Siskiyou,California,06093,2398,37,2398,37,,0
 2021-06-23,Solano,California,06095,33767,266,33767,266,,
-2021-06-23,Sonoma,California,06097,30912,317,30912,317,,
+2021-06-23,Sonoma,California,06097,30957,317,30957,317,,
 2021-06-23,Stanislaus,California,06099,63535,1070,56920,1070,6615,
-2021-06-23,Sutter,California,06101,9663,113,9663,113,,0
+2021-06-23,Sutter,California,06101,9666,113,9666,113,,0
 2021-06-23,Tehama,California,06103,5115,63,5115,63,,
 2021-06-23,Trinity,California,06105,338,3,338,3,,
 2021-06-23,Tulare,California,06107,49802,849,49802,849,,
@@ -1593,7 +1593,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-06-23,Scott,Missouri,29201,4749,87,3987,,762,
 2021-06-23,Shannon,Missouri,29203,595,12,505,,90,
 2021-06-23,Shelby,Missouri,29205,676,7,395,,281,
-2021-06-23,St. Charles,Missouri,29183,48061,573,37783,573,10278,
+2021-06-23,St. Charles,Missouri,29183,48067,573,37787,573,10280,
 2021-06-23,St. Clair,Missouri,29185,804,8,645,,159,
 2021-06-23,Ste. Genevieve,Missouri,29186,1839,17,1696,,143,
 2021-06-23,St. Francois,Missouri,29187,8964,116,7983,,981,
@@ -1933,7 +1933,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-06-23,Davidson,North Carolina,37057,17007,198,15061,172,1946,26
 2021-06-23,Davie,North Carolina,37059,4172,40,3306,32,866,8
 2021-06-23,Duplin,North Carolina,37061,6356,139,4285,123,2071,16
-2021-06-23,Durham,North Carolina,37063,25863,234,25863,234,,
+2021-06-23,Durham,North Carolina,37063,25870,234,25870,234,,
 2021-06-23,Edgecombe,North Carolina,37065,5700,113,5423,110,277,3
 2021-06-23,Forsyth,North Carolina,37067,36865,418,32963,384,3902,34
 2021-06-23,Franklin,North Carolina,37069,7042,54,6632,53,410,1
@@ -2651,7 +2651,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-06-23,Caldwell,Texas,48055,5755,100,5392,,363,
 2021-06-23,Calhoun,Texas,48057,2488,25,2033,,455,
 2021-06-23,Callahan,Texas,48059,1214,41,621,,593,
-2021-06-23,Cameron,Texas,48061,41961,1678,41961,1678,0,
+2021-06-23,Cameron,Texas,48061,41995,1679,41995,1679,,
 2021-06-23,Camp,Texas,48063,1278,44,850,,428,
 2021-06-23,Carson,Texas,48065,598,14,425,,173,
 2021-06-23,Cass,Texas,48067,2004,84,1246,,758,
@@ -3059,12 +3059,12 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-06-23,Adams,Washington,53001,2240,24,2044,,196,
 2021-06-23,Asotin,Washington,53003,1497,29,1481,,16,
 2021-06-23,Benton,Washington,53005,17678,228,17013,,665,
-2021-06-23,Chelan,Washington,53007,7090,71,3419,68,3671,3
+2021-06-23,Chelan,Washington,53007,7103,71,3419,68,3684,3
 2021-06-23,Clallam,Washington,53009,1410,13,1267,,143,
 2021-06-23,Clark,Washington,53011,25808,285,24290,,1518,
 2021-06-23,Columbia,Washington,53013,129,6,93,,36,
 2021-06-23,Cowlitz,Washington,53015,6571,90,6047,,524,
-2021-06-23,Douglas,Washington,53017,3762,23,1812,22,1950,1
+2021-06-23,Douglas,Washington,53017,3770,23,1812,22,1958,1
 2021-06-23,Ferry,Washington,53019,397,8,294,,103,
 2021-06-23,Franklin,Washington,53021,12772,116,12439,,333,
 2021-06-23,Garfield,Washington,53023,130,5,88,,42,
@@ -3094,7 +3094,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-06-23,Walla Walla,Washington,53071,5431,68,5208,66,223,2
 2021-06-23,Whatcom,Washington,53073,9846,103,9427,,419,
 2021-06-23,Whitman,Washington,53075,4404,50,4294,50,110,0
-2021-06-23,Yakima,Washington,53077,31620,449,27088,,4532,
+2021-06-23,Yakima,Washington,53077,31631,449,27088,,4543,
 2021-06-23,Barbour,West Virginia,54001,1513,32,1203,24,310,8
 2021-06-23,Berkeley,West Virginia,54003,12820,131,10331,112,2489,19
 2021-06-23,Boone,West Virginia,54005,2174,36,1930,34,244,2
