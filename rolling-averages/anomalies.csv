@@ -516,7 +516,7 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2021-06-03,,Bexar,Texas,USA-48029,deaths,yes,,Bexar County added 23 deaths that occurred between July 2020 and May 2021.
 2021-06-04,,,,USA,cases,yes,,Florida stopped providing daily updates and removed many nonresident cases.
 2021-06-04,,,California,USA-06,deaths,yes,,Alameda County removed many deaths from causes unrelated to Covid-19.
-2021-06-04,,,Florida,USA-12,cases,yes,yes,"Florida changed its data format to a weekly report and stopped including nonresident cases, resulting in a one-day decrease in most counties."
+2021-06-04,2021-06-06,,Florida,USA-12,cases,yes,yes,"Florida changed its data format to a weekly report and stopped including nonresident cases, resulting in a one-day decrease in most counties."
 2021-06-04,,Alameda,California,USA-06001,deaths,yes,,Alameda County removed many deaths from causes unrelated to Covid-19.
 2021-06-04,,Williamson,Texas,USA-48491,cases,yes,,Texas added about 300 older cases in Williamson County.
 2021-06-05,,Maverick,Texas,USA-48323,cases,yes,,Texas added about 250 older cases in Maverick County.
@@ -550,3 +550,5 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2021-06-19,,,Indiana,USA-18,cases,yes,yes,Indiana added a backlog of about 300 cases. 
 2021-06-21,,,West Virginia,USA-54,both,,,West Virginia did not report new data for the West Virginia Day state holiday.
 2021-06-21,,,Nevada,USA-32,deaths,yes,,Nevada removed several deaths in Washoe County.
+2021-06-23,,Atascosa,Texas,USA-48013,cases,yes,,"Texas removed many duplicate cases, including about 60 cases in Atascosa County."
+2021-06-23,,Maverick,Texas,USA-48323,cases,yes,,Texas removed about 400 duplicate cases in Maverick County.
