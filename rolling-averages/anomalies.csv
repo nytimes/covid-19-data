@@ -550,6 +550,7 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2021-06-19,,,Indiana,USA-18,cases,yes,yes,Indiana added a backlog of about 300 cases. 
 2021-06-21,,,West Virginia,USA-54,both,,,West Virginia did not report new data for the West Virginia Day state holiday.
 2021-06-21,,,Nevada,USA-32,deaths,yes,,Nevada removed several deaths in Washoe County.
+2021-06-22,2021-06-23,Benewah,Idaho,USA-16009,cases,yes,,Benewah County added a backlog of older cases.
 2021-06-23,,Medina,Texas,USA-48325,cases,yes,,"Texas removed many duplicate cases, including about 100 cases in Medina County."
 2021-06-23,,Calhoun,Texas,USA-48057,cases,yes,,"Texas removed many duplicate cases, including about 25 cases in Calhoun County."
 2021-06-23,,Wilson,Texas,USA-48493,cases,yes,,"Texas removed many duplicate cases, including about 30 cases in Wilson County."
@@ -573,3 +574,4 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2021-06-23,,Lavaca,Texas,USA-48285,cases,yes,,"Texas removed many duplicate cases, including about 40 cases in Lavaca County."
 2021-06-23,,Real,Texas,USA-48385,cases,yes,,"Texas removed many duplicate cases, including several cases in Real County."
 2021-06-23,,Panola,Texas,USA-48365,cases,yes,,Texas added 30 older cases in Panola County.
+2021-06-24,,Harris,Texas,USA-48201,cases,yes,,Harris County removed more than 100 cases.
