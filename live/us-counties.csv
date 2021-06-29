@@ -189,11 +189,11 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-06-29,Alpine,California,06003,89,0,89,0,0,0
 2021-06-29,Amador,California,06005,3751,47,3751,46,,1
 2021-06-29,Butte,California,06007,12696,198,12696,198,,
-2021-06-29,Calaveras,California,06009,2209,56,2203,55,6,1
+2021-06-29,Calaveras,California,06009,2210,56,2203,55,7,1
 2021-06-29,Colusa,California,06011,2288,18,1974,15,314,3
 2021-06-29,Contra Costa,California,06013,71093,816,71093,816,,
 2021-06-29,Del Norte,California,06015,1481,8,1481,8,,
-2021-06-29,El Dorado,California,06017,10418,117,10418,115,,2
+2021-06-29,El Dorado,California,06017,10428,117,10418,115,10,2
 2021-06-29,Fresno,California,06019,103110,1727,103110,1727,,
 2021-06-29,Glenn,California,06021,2960,27,2439,27,521,0
 2021-06-29,Humboldt,California,06023,4554,50,4554,50,,
@@ -202,12 +202,12 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-06-29,Kern,California,06029,111049,1406,111049,1406,,
 2021-06-29,Kings,California,06031,23236,247,23236,247,,
 2021-06-29,Lake,California,06033,3581,56,3581,56,,
-2021-06-29,Lassen,California,06035,5809,25,5809,20,,5
-2021-06-29,Los Angeles,California,06037,1249971,24493,1249304,24493,667,
+2021-06-29,Lassen,California,06035,5809,26,5809,20,0,6
+2021-06-29,Los Angeles,California,06037,1250227,24493,1249560,24493,667,
 2021-06-29,Madera,California,06039,16680,245,16680,240,,5
 2021-06-29,Marin,California,06041,14182,232,14182,232,,
-2021-06-29,Mariposa,California,06043,466,7,466,7,,0
-2021-06-29,Mendocino,California,06045,4363,50,4363,50,,0
+2021-06-29,Mariposa,California,06043,466,7,466,7,0,0
+2021-06-29,Mendocino,California,06045,4363,50,4363,50,0,0
 2021-06-29,Merced,California,06047,32360,481,32360,481,,
 2021-06-29,Modoc,California,06049,566,5,411,3,155,2
 2021-06-29,Mono,California,06051,1298,4,1279,3,19,1
@@ -216,11 +216,11 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-06-29,Nevada,California,06057,4946,75,4946,72,,3
 2021-06-29,Orange,California,06059,273427,5123,256222,5123,17205,
 2021-06-29,Placer,California,06061,23751,300,23751,300,,
-2021-06-29,Plumas,California,06063,737,6,704,4,33,2
+2021-06-29,Plumas,California,06063,742,6,704,4,38,2
 2021-06-29,Riverside,California,06065,301799,4627,301799,4627,,
 2021-06-29,Sacramento,California,06067,108410,1740,108410,1740,,
 2021-06-29,San Benito,California,06069,6101,63,6101,63,,
-2021-06-29,San Bernardino,California,06071,299672,4927,299672,4927,,
+2021-06-29,San Bernardino,California,06071,299672,4928,299672,4927,,1
 2021-06-29,San Diego,California,06073,282422,3780,282422,3780,,
 2021-06-29,San Francisco,California,06075,37363,559,37363,559,,
 2021-06-29,San Joaquin,California,06077,74808,1440,74808,1440,,
@@ -231,17 +231,17 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-06-29,Santa Cruz,California,06087,16269,208,16269,208,,
 2021-06-29,Shasta,California,06089,12664,236,12664,236,,
 2021-06-29,Sierra,California,06091,58,0,58,0,,
-2021-06-29,Siskiyou,California,06093,2402,38,2402,38,,
+2021-06-29,Siskiyou,California,06093,2402,38,2402,38,0,0
 2021-06-29,Solano,California,06095,33903,267,33903,267,,
 2021-06-29,Sonoma,California,06097,31129,317,31129,317,,
 2021-06-29,Stanislaus,California,06099,63685,1074,57098,1074,6587,
-2021-06-29,Sutter,California,06101,9700,114,9700,114,,
+2021-06-29,Sutter,California,06101,9700,114,9700,114,,0
 2021-06-29,Tehama,California,06103,5122,63,5122,63,,
 2021-06-29,Trinity,California,06105,342,3,342,3,,
 2021-06-29,Tulare,California,06107,49823,850,49823,850,,
 2021-06-29,Tuolumne,California,06109,4232,71,4232,71,,0
 2021-06-29,Ventura,California,06111,81776,1032,81776,1032,,
-2021-06-29,Yolo,California,06113,14194,213,14194,213,,
+2021-06-29,Yolo,California,06113,14194,213,14194,213,,0
 2021-06-29,Yuba,California,06115,6529,51,6529,51,,
 2021-06-29,Adams,Colorado,08001,62009,755,,,,
 2021-06-29,Alamosa,Colorado,08003,1725,37,,,,
@@ -799,14 +799,14 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-06-29,Allamakee,Iowa,19005,1530,52,1358,,172,
 2021-06-29,Appanoose,Iowa,19007,1291,49,1046,,245,
 2021-06-29,Audubon,Iowa,19009,534,11,440,,94,
-2021-06-29,Benton,Iowa,19011,2609,55,2310,,299,
+2021-06-29,Benton,Iowa,19011,2610,55,2310,,300,
 2021-06-29,Black Hawk,Iowa,19013,16261,315,15390,,871,
 2021-06-29,Boone,Iowa,19015,2686,34,1892,,794,
 2021-06-29,Bremer,Iowa,19017,2891,62,2230,,661,
-2021-06-29,Buchanan,Iowa,19019,1943,34,1771,,172,
+2021-06-29,Buchanan,Iowa,19019,1944,34,1771,,173,
 2021-06-29,Buena Vista,Iowa,19021,4271,40,3885,,386,
 2021-06-29,Butler,Iowa,19023,1667,35,1201,,466,
-2021-06-29,Calhoun,Iowa,19025,1389,13,773,,616,
+2021-06-29,Calhoun,Iowa,19025,1390,13,773,,617,
 2021-06-29,Carroll,Iowa,19027,2872,52,2143,,729,
 2021-06-29,Cass,Iowa,19029,1392,55,1169,,223,
 2021-06-29,Cedar,Iowa,19031,1925,23,1788,,137,
@@ -817,14 +817,14 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-06-29,Clay,Iowa,19041,2167,27,1523,,644,
 2021-06-29,Clayton,Iowa,19043,1713,57,1507,,206,
 2021-06-29,Clinton,Iowa,19045,5617,93,5253,,364,
-2021-06-29,Crawford,Iowa,19047,2684,41,1978,,706,
+2021-06-29,Crawford,Iowa,19047,2685,41,1978,,707,
 2021-06-29,Dallas,Iowa,19049,11300,99,8530,,2770,
 2021-06-29,Davis,Iowa,19051,853,25,541,,312,
 2021-06-29,Decatur,Iowa,19053,620,9,285,,335,
 2021-06-29,Delaware,Iowa,19055,2111,43,1699,,412,
-2021-06-29,Des Moines,Iowa,19057,4686,73,4540,,146,
+2021-06-29,Des Moines,Iowa,19057,4687,73,4540,,147,
 2021-06-29,Dickinson,Iowa,19059,2493,44,2182,,311,
-2021-06-29,Dubuque,Iowa,19061,13528,211,12699,,829,
+2021-06-29,Dubuque,Iowa,19061,13529,211,12699,,830,
 2021-06-29,Emmet,Iowa,19063,1359,41,1163,,196,
 2021-06-29,Fayette,Iowa,19065,1872,43,1688,,184,
 2021-06-29,Floyd,Iowa,19067,1637,42,1129,,508,
@@ -835,9 +835,9 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-06-29,Guthrie,Iowa,19077,1234,32,737,,497,
 2021-06-29,Hamilton,Iowa,19079,1820,51,1032,,788,
 2021-06-29,Hancock,Iowa,19081,1504,34,934,,570,
-2021-06-29,Hardin,Iowa,19083,1877,44,1332,,545,
+2021-06-29,Hardin,Iowa,19083,1879,44,1332,,547,
 2021-06-29,Harrison,Iowa,19085,1801,73,1444,,357,
-2021-06-29,Henry,Iowa,19087,2952,37,2117,,835,
+2021-06-29,Henry,Iowa,19087,2954,37,2117,,837,
 2021-06-29,Howard,Iowa,19089,1051,22,785,,266,
 2021-06-29,Humboldt,Iowa,19091,1199,26,488,,711,
 2021-06-29,Ida,Iowa,19093,918,35,684,,234,
@@ -847,18 +847,18 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-06-29,Jefferson,Iowa,19101,1336,35,1159,,177,
 2021-06-29,Johnson,Iowa,19103,14636,85,14046,,590,
 2021-06-29,Jones,Iowa,19105,3011,57,2778,,233,
-2021-06-29,Keokuk,Iowa,19107,970,32,687,,283,
+2021-06-29,Keokuk,Iowa,19107,971,32,687,,284,
 2021-06-29,Kossuth,Iowa,19109,2162,66,1252,,910,
 2021-06-29,Lee,Iowa,19111,3836,57,3413,,423,
 2021-06-29,Linn,Iowa,19113,21272,340,17966,,3306,
-2021-06-29,Louisa,Iowa,19115,1299,49,1087,,212,
+2021-06-29,Louisa,Iowa,19115,1300,49,1087,,213,
 2021-06-29,Lucas,Iowa,19117,780,23,535,,245,
 2021-06-29,Lyon,Iowa,19119,1595,41,1090,,505,
 2021-06-29,Madison,Iowa,19121,1647,19,1319,,328,
 2021-06-29,Mahaska,Iowa,19123,2329,51,1523,,806,
 2021-06-29,Marion,Iowa,19125,3661,76,2505,,1156,
 2021-06-29,Marshall,Iowa,19127,4882,76,4017,,865,
-2021-06-29,Mills,Iowa,19129,1640,24,1349,,291,
+2021-06-29,Mills,Iowa,19129,1641,24,1349,,292,
 2021-06-29,Mitchell,Iowa,19131,1267,43,1024,,243,
 2021-06-29,Monona,Iowa,19133,837,31,684,,153,
 2021-06-29,Monroe,Iowa,19135,964,32,842,,122,
@@ -872,7 +872,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-06-29,Pocahontas,Iowa,19151,858,22,458,,400,
 2021-06-29,Polk,Iowa,19153,58321,642,48299,,10022,
 2021-06-29,Pottawattamie,Iowa,19155,11238,175,9636,,1602,
-2021-06-29,Poweshiek,Iowa,19157,1571,36,1381,,190,
+2021-06-29,Poweshiek,Iowa,19157,1572,36,1381,,191,
 2021-06-29,Ringgold,Iowa,19159,564,24,406,,158,
 2021-06-29,Sac,Iowa,19161,1309,20,892,,417,
 2021-06-29,Scott,Iowa,19163,20323,249,18490,,1833,
@@ -882,8 +882,8 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-06-29,Tama,Iowa,19171,2124,71,1745,,379,
 2021-06-29,Taylor,Iowa,19173,668,12,560,,108,
 2021-06-29,Union,Iowa,19175,1301,35,1112,,189,
-2021-06-29,Unknown,Iowa,,952,0,597,,355,
-2021-06-29,Van Buren,Iowa,19177,564,18,272,,292,
+2021-06-29,Unknown,Iowa,,937,0,597,,340,
+2021-06-29,Van Buren,Iowa,19177,565,18,272,,293,
 2021-06-29,Wapello,Iowa,19179,4343,122,3469,,874,
 2021-06-29,Warren,Iowa,19181,5844,92,4716,,1128,
 2021-06-29,Washington,Iowa,19183,2574,51,1682,,892,
@@ -949,7 +949,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-06-29,Lincoln,Kansas,20105,266,5,,,,
 2021-06-29,Linn,Kansas,20107,833,12,,12,,
 2021-06-29,Logan,Kansas,20109,299,6,,,,
-2021-06-29,Lyon,Kansas,20111,4323,87,,,,
+2021-06-29,Lyon,Kansas,20111,4323,86,,,,
 2021-06-29,Marion,Kansas,20115,1120,24,,,,
 2021-06-29,Marshall,Kansas,20117,1135,26,,,,
 2021-06-29,McPherson,Kansas,20113,3391,89,3391,89,0,0
@@ -982,7 +982,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-06-29,Scott,Kansas,20171,621,24,,,,
 2021-06-29,Sedgwick,Kansas,20173,57953,788,,,,
 2021-06-29,Seward,Kansas,20175,3988,41,3988,41,,0
-2021-06-29,Shawnee,Kansas,20177,17736,370,,,,
+2021-06-29,Shawnee,Kansas,20177,17736,371,,,,
 2021-06-29,Sheridan,Kansas,20179,437,14,,,,
 2021-06-29,Sherman,Kansas,20181,662,12,,,,
 2021-06-29,Smith,Kansas,20183,278,3,,,,
@@ -1667,13 +1667,13 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-06-29,Wheatland,Montana,30107,182,8,182,8,,
 2021-06-29,Wibaux,Montana,30109,121,6,121,6,,
 2021-06-29,Yellowstone,Montana,30111,18021,273,18021,273,,
-2021-06-29,Adams,Nebraska,31001,3180,54,,,,
+2021-06-29,Adams,Nebraska,31001,3181,54,,,,
 2021-06-29,Antelope,Nebraska,31003,536,7,,,,
 2021-06-29,Arthur,Nebraska,31005,24,1,,,,
 2021-06-29,Banner,Nebraska,31007,29,0,,,,
 2021-06-29,Blaine,Nebraska,31009,21,0,,,,
 2021-06-29,Boone,Nebraska,31011,585,4,,,,
-2021-06-29,Box Butte,Nebraska,31013,957,11,,,,
+2021-06-29,Box Butte,Nebraska,31013,959,11,,,,
 2021-06-29,Boyd,Nebraska,31015,176,3,,,,
 2021-06-29,Brown,Nebraska,31017,220,2,,,,
 2021-06-29,Buffalo,Nebraska,31019,5517,57,,,,
@@ -1683,13 +1683,13 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-06-29,Cedar,Nebraska,31027,776,11,,,,
 2021-06-29,Chase,Nebraska,31029,463,5,,,,
 2021-06-29,Cherry,Nebraska,31031,301,7,,,,
-2021-06-29,Cheyenne,Nebraska,31033,952,19,,,,
+2021-06-29,Cheyenne,Nebraska,31033,953,19,,,,
 2021-06-29,Clay,Nebraska,31035,780,17,,,,
 2021-06-29,Colfax,Nebraska,31037,1594,21,,,,
 2021-06-29,Cuming,Nebraska,31039,1056,15,,,,
 2021-06-29,Custer,Nebraska,31041,852,19,,,,
 2021-06-29,Dakota,Nebraska,31043,4144,82,4144,82,,
-2021-06-29,Dawes,Nebraska,31045,767,20,,,,
+2021-06-29,Dawes,Nebraska,31045,768,20,,,,
 2021-06-29,Dawson,Nebraska,31047,2850,31,,,,
 2021-06-29,Deuel,Nebraska,31049,117,2,,,,
 2021-06-29,Dixon,Nebraska,31051,611,9,,,,
@@ -1728,7 +1728,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-06-29,Madison,Nebraska,31119,4303,44,,,,
 2021-06-29,McPherson,Nebraska,31117,28,1,,,,
 2021-06-29,Merrick,Nebraska,31121,779,15,779,15,,
-2021-06-29,Morrill,Nebraska,31123,508,15,,,,
+2021-06-29,Morrill,Nebraska,31123,509,15,,,,
 2021-06-29,Nance,Nebraska,31125,414,10,,,,
 2021-06-29,Nemaha,Nebraska,31127,804,13,,,,
 2021-06-29,Nuckolls,Nebraska,31129,548,12,,,,
@@ -1754,7 +1754,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-06-29,Thayer,Nebraska,31169,491,7,,,,
 2021-06-29,Thomas,Nebraska,31171,55,1,,,,
 2021-06-29,Thurston,Nebraska,31173,848,11,,,,
-2021-06-29,Unknown,Nebraska,,1169,0,,,,
+2021-06-29,Unknown,Nebraska,,1163,0,,,,
 2021-06-29,Valley,Nebraska,31175,327,2,,,,
 2021-06-29,Washington,Nebraska,31177,2203,27,,,,
 2021-06-29,Wayne,Nebraska,31179,1090,7,,,,
@@ -3068,7 +3068,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-06-29,Ferry,Washington,53019,399,8,294,,105,
 2021-06-29,Franklin,Washington,53021,12828,116,12492,,336,
 2021-06-29,Garfield,Washington,53023,132,5,90,,42,
-2021-06-29,Grant,Washington,53025,10734,124,7259,124,3475,0
+2021-06-29,Grant,Washington,53025,10771,124,7277,124,3494,0
 2021-06-29,Grays Harbor,Washington,53027,4584,75,4249,,335,
 2021-06-29,Island,Washington,53029,1869,29,1647,,222,
 2021-06-29,Jefferson,Washington,53031,448,4,439,,9,
@@ -3091,7 +3091,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-06-29,Stevens,Washington,53065,2386,31,2170,,216,
 2021-06-29,Thurston,Washington,53067,11016,112,9644,,1372,
 2021-06-29,Wahkiakum,Washington,53069,156,1,146,,10,
-2021-06-29,Walla Walla,Washington,53071,5497,67,5282,66,215,1
+2021-06-29,Walla Walla,Washington,53071,5530,67,5282,66,248,1
 2021-06-29,Whatcom,Washington,53073,9893,103,9470,,423,
 2021-06-29,Whitman,Washington,53075,4408,50,4306,50,102,0
 2021-06-29,Yakima,Washington,53077,31742,451,27166,,4576,
