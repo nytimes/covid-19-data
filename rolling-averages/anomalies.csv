@@ -606,5 +606,7 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2021-06-29,,Riverside,California,USA-06065,cases,yes,,Riverside County removed about 100 cases and changed to a weekly reporting schedule.
 2021-06-30,,,California,USA-06,cases,yes,yes,California removed many duplicate and incorrectly categorized cases.
 2021-06-30,,,West Virginia,USA-54,deaths,yes,,West Virginia added 11 deaths that occurred in late 2020 and early 2021. 
+2021-06-30,2021-07-02,Davidson,Tennessee,USA-47037,cases,yes,,Davidson County removed many cases.
+2021-07-01,,Butler,Ohio,USA-39017,cases,yes,,Ohio added a backlog of cases in Butler County.
 2021-07-02,,,California,USA-06,deaths,yes,,Santa Clara County removed many deaths from causes unrelated to Covid-19.
 2021-07-02,,Santa Clara,California,USA-06085,deaths,yes,,Santa Clara County removed many deaths from causes unrelated to Covid-19.
