@@ -553,7 +553,7 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2021-06-19,,Gray,Texas,USA-48179,cases,yes,,Texas added a backlog of cases in Gray County.
 2021-06-19,,Hutchinson,Texas,USA-48233,cases,yes,,Texas added a backlog of cases in Hutchinson County.
 2021-06-19,,Bowie,Texas,USA-48037,cases,yes,,Texas added a backlog of cases in Bowie County.
-2021-06-19,2021-06-30,Nacogdoches,Texas,USA-48347,cases,yes,,Texas added a backlog of cases in Nacogdoches County.
+2021-06-19,2021-07-01,Nacogdoches,Texas,USA-48347,cases,yes,,Texas added a backlog of cases in Nacogdoches County.
 2021-06-19,,San Jacinto,Texas,USA-48407,cases,yes,,Texas added a backlog of cases in San Jacinto County.
 2021-06-19,,Shelby,Texas,USA-48419,cases,yes,,Texas added a backlog of cases in Shelby County.
 2021-06-19,2021-06-26,Upshur,Texas,USA-48459,cases,yes,,Texas added a backlog of cases in Upshur County.
@@ -596,7 +596,7 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2021-06-23,2021-06-24,Morris,Texas,USA-48343,cases,yes,,Texas added a backlog of cases in Morris County.
 2021-06-23,2021-07-01,Red River,Texas,USA-48387,cases,yes,,Texas added a backlog of cases in Red River County.
 2021-06-23,,San Jacinto,Texas,USA-48407,cases,yes,,Texas added a backlog of cases in San Jacinto County.
-2021-06-23,2021-07-01,Shelby,Texas,USA-48419,cases,yes,,Texas added a backlog of cases in Shelby County.
+2021-06-23,2021-07-03,Shelby,Texas,USA-48419,cases,yes,,Texas added a backlog of cases in Shelby County.
 2021-06-23,2021-07-01,Titus,Texas,USA-48449,cases,yes,,Texas added a backlog of cases in Titus County.
 2021-06-23,2021-06-24,Trinity,Texas,USA-48455,cases,yes,,Texas added a backlog of cases in Trinity County.
 2021-06-24,,Harris,Texas,USA-48201,cases,yes,,Harris County removed more than 100 cases.
@@ -607,7 +607,9 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2021-06-30,,,California,USA-06,cases,yes,yes,California removed many duplicate and incorrectly categorized cases.
 2021-06-30,,,West Virginia,USA-54,deaths,yes,,West Virginia added 11 deaths that occurred in late 2020 and early 2021. 
 2021-06-30,2021-07-02,Davidson,Tennessee,USA-47037,cases,yes,,Davidson County removed many cases.
+2021-06-30,2021-07-07,Richmond,Virginia,USA-51159,cases,yes,,Virginia removed many cases in Richmond County.
 2021-07-01,,Butler,Ohio,USA-39017,cases,yes,,Ohio added a backlog of cases in Butler County.
 2021-07-02,,,,USA,deaths,yes,,"Santa Clara County, Calif., officials revised their total death toll downward after a review of records."
 2021-07-02,,,California,USA-06,deaths,yes,,Santa Clara County removed many deaths from causes unrelated to Covid-19.
 2021-07-02,,Santa Clara,California,USA-06085,deaths,yes,,Santa Clara County removed many deaths from causes unrelated to Covid-19.
+2021-07-07,,Richmond city,Virginia,USA-51760,cases,yes,,Virginia added many cases in Richmond after removing many cases the previous week.
