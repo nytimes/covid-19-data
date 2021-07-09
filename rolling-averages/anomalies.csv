@@ -550,6 +550,7 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2021-06-17,2021-06-18,Harris,Texas,USA-48201,cases,yes,,Harris County removed many duplicate cases.
 2021-06-18,,Frio,Texas,USA-48163,cases,yes,,Texas removed 86 cases in Frio County.
 2021-06-19,,,Indiana,USA-18,cases,yes,yes,Indiana added a backlog of about 300 cases. 
+2021-06-19,2021-07-01,Harrison,Texas,USA-48203,cases,yes,,Texas added a backlog of cases in Harrison County.
 2021-06-19,,Gray,Texas,USA-48179,cases,yes,,Texas added a backlog of cases in Gray County.
 2021-06-19,,Hutchinson,Texas,USA-48233,cases,yes,,Texas added a backlog of cases in Hutchinson County.
 2021-06-19,,Bowie,Texas,USA-48037,cases,yes,,Texas added a backlog of cases in Bowie County.
@@ -561,7 +562,7 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2021-06-21,,,Nevada,USA-32,deaths,yes,,Nevada removed several deaths in Washoe County.
 2021-06-22,2021-07-01,Houston,Texas,USA-48225,cases,yes,,Texas added a backlog of cases in Houston County.
 2021-06-22,2021-06-24,Benewah,Idaho,USA-16009,cases,yes,,Benewah County added a backlog of older cases.
-2021-06-23,2021-06-29,Harrison,Texas,USA-48203,cases,yes,,Texas added a backlog of cases in Harrison County.
+2021-06-22,,Jefferson,Texas,USA-48245,cases,yes,,Texas added a backlog of cases in Jefferson County.
 2021-06-23,,Medina,Texas,USA-48325,cases,yes,,"Texas removed many duplicate cases, including about 100 cases in Medina County."
 2021-06-23,,Calhoun,Texas,USA-48057,cases,yes,,"Texas removed many duplicate cases, including about 25 cases in Calhoun County."
 2021-06-23,,Wilson,Texas,USA-48493,cases,yes,,"Texas removed many duplicate cases, including about 30 cases in Wilson County."
