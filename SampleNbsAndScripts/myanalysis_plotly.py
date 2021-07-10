@@ -1,4 +1,4 @@
- # %% [markdown]
+# %% [markdown]
 #  * Reference Sites
 #      * https://github.com/greazer/covid-19-data
 #      * https://www.mercurynews.com/2020/04/08/how-california-has-contained-coronavirus-and-new-york-has-not/
@@ -10,19 +10,34 @@
 import time
 t0 = time.perf_counter()
 
+import sys
+IN_COLAB = 'google.colab' in sys.modules
+
+# DID YOU SET covid_ftp_pw?
+# import os
+# os.environ['covid_ftp_pw']
+
+# %%
+if IN_COLAB:
+    from google.colab import drive
+    drive.mount('/content/drive')
+
 # %%
 import os
 from IPython.core.display import display, HTML
 if (os.name == 'nt'):
-    basefolder = './'
-    color = 'red'
-else:
-    basefolder = './Users/jimgries/'
-    color = 'green'
+    basefolder = os.getcwd() + '\\'
+elif IN_COLAB:
+    basefolder = os.getcwd() + '/drive/MyDrive/Colab Notebooks/covid-19-data-1/SampleNbsAndScripts/'
+else: 
+    basefolder = os.getcwd() + '/'
 
-print('basefolder = ' + os.getcwd() + '/' + basefolder)
+print('basefolder = ' + basefolder)
 #display(HTML(F'<H1>Hello from <span style="color:{color};">' + str.upper(os.name) + '</span>!!!!</H1>'))
 
+# %%
+if (os.name != 'nt'):
+    !pip install sodapy
 
 # %%
 import pandas as pd
@@ -39,7 +54,6 @@ default_width = 1280
 default_height = 800
 default_plot_color = 'rgba(0, 0, 0, 0)'
 default_grid_color = 'rgba(225, 225, 225, 255)'
-
 
 # %%
 webpage_folder = basefolder + 'webpage/'
@@ -539,6 +553,13 @@ plotly.offline.plot(fig, filename=webpage_folder + 'Chart_'+str(row)+'.html',aut
 html_graphs.write("  <object data=\""+'Chart_'+str(row)+'.html'+"\" width=" + str(default_width * 1.10) + " height=" + str(default_height* 1.10) + "\"></object>"+"\n")
 html_graphs.write("\n</div>\n")
 
+# %%
+if IN_COLAB: 
+  !pip install plotly==4.7.1 
+  !wget https://github.com/plotly/orca/releases/download/v1.2.1/orca-1.2.1-x86_64.AppImage -O /usr/local/bin/orca 
+  !chmod +x /usr/local/bin/orca 
+  !apt-get install xvfb libgtk2.0-0 libgconf-2-4
+  import plotly.graph_objects as go
 
 # %%
 #####################################
@@ -1128,35 +1149,41 @@ html_graphs.write('</body></html')
 html_graphs.close()
 
 # %%
-import time
-t1 = time.perf_counter()
-import ftplib
-import io
-import pytz
-from datetime import datetime
-from dateutil import parser
-from dateutil.tz import gettz
-ftp = ftplib.FTP('ftp.jimgphotography.com', 'jim@covid.jimgries.com','YP@)#tcsV1h?')
-tzinfos = {'UTC': gettz('UTC')}
-for filename in os.listdir('webpage'):
-    localtimestamp = datetime.fromtimestamp(os.stat('webpage/' + filename).st_mtime).replace(tzinfo=pytz.timezone('America/Los_Angeles'))
-    try:
-        tmp = None
-        tmp = ftp.voidcmd('MDTM /' + filename)[4:].strip()+'UTC'
-        remotetimestamp = (parser.parse(tmp, tzinfos=tzinfos)).astimezone(pytz.timezone('America/Los_Angeles'))
-    except: 
-        pass
-    if (tmp == None or localtimestamp > remotetimestamp):
-        print('Transferring ' + filename)
-        with open('webpage/' + filename, 'rb') as fobj:
-            ftp.storbinary('STOR ' + filename, fobj)
-    else:
-        print('Skipping ' + filename)
-        print(filename + ' local: ' + localtimestamp.strftime('%c'))
-        print(filename + ' remote: ' + remotetimestamp.strftime('%c'))
-ftp.close()
-print('Total file transfer time: ', time.perf_counter() - t1)
+import os
+if (os.environ.get('covid_ftp_pw')):
+    import time
+    t1 = time.perf_counter()
 
+    import ftplib
+    import io
+    import pytz
+    from datetime import datetime
+    from dateutil import parser
+    from dateutil.tz import gettz
+
+    ftp = ftplib.FTP('ftp.jimgphotography.com', 'jim@covid.jimgries.com', os.environ['covid_ftp_pw'])
+
+    tzinfos = {'UTC': gettz('UTC')}
+    for filename in os.listdir('webpage'):
+        localtimestamp = datetime.fromtimestamp(os.stat('webpage/' + filename).st_mtime).replace(tzinfo=pytz.timezone('America/Los_Angeles'))
+        try:
+            tmp = None
+            tmp = ftp.voidcmd('MDTM /' + filename)[4:].strip()+'UTC'
+            remotetimestamp = (parser.parse(tmp, tzinfos=tzinfos)).astimezone(pytz.timezone('America/Los_Angeles'))
+        except: 
+            pass
+        if (tmp == None or localtimestamp > remotetimestamp):
+            print('Transferring ' + filename)
+            with open('webpage/' + filename, 'rb') as fobj:
+                ftp.storbinary('STOR ' + filename, fobj)
+        else:
+            print('Skipping ' + filename)
+            print(filename + ' local: ' + localtimestamp.strftime('%c'))
+            print(filename + ' remote: ' + remotetimestamp.strftime('%c'))
+    ftp.close()
+    print('Total file transfer time: ', time.perf_counter() - t1)
+else:
+    print('Skipped file transfer')
 
 # %%
 print('Total run time: ', time.perf_counter() - t0)
