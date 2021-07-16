@@ -1,0 +1,14 @@
+name: Simple Issue Labeler
+  # You may pin to the exact commit or the version.
+  # uses: andymckay/labeler@5c59dabdfd4dd5bd9c6e6d255b01b9d764af4414
+on:
+  issues:
+    types: [opened]
+jobs:
+  automate-issues-labels:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Label for Triage
+        uses: andymckay/labeler@master
+        with:
+          add-labels: "needs-triage"
