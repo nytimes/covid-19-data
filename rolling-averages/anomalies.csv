@@ -602,6 +602,8 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2021-06-23,2021-06-24,Trinity,Texas,USA-48455,cases,yes,,Texas added a backlog of cases in Trinity County.
 2021-06-23,,King,Washington,USA-53033,both,yes,,King County added many cases and deaths from previous months.
 2021-06-24,,Harris,Texas,USA-48201,cases,yes,,Harris County removed more than 100 cases.
+2021-06-24,2021-06-26,Campbell,Virginia,USA-51031,cases,yes,,Virginia added many older cases in Campbell County and removed many cases in neighboring Lynchburg.
+2021-06-24,2021-06-26,Lynchburg city,Virginia,USA-51680,cases,yes,,Virginia removed many cases in Lynchburg after verifying addresses.
 2021-06-26,2021-07-02,Ellis,Texas,USA-48139,cases,yes,,Ellis County removed many duplicate cases over several days.
 2021-06-28,2021-06-29,Harris,Texas,USA-48201,cases,yes,,Harris County removed many duplicate cases.
 2021-06-29,,Kings,California,USA-06031,cases,yes,,Kings County removed 135 cases.
