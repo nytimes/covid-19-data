@@ -1,4 +1,5 @@
 date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rolling_average_on_subgeographies,description
+06-01-2021,,,Kentucky,USA-21,deaths,yes,,Kentucky added many deaths that occurred in previous months.
 2020-04-06,,New York City,New York,USA-36998,deaths,,,The Times began using deaths reported by the New York State Department of Health instead of the city's health department. 
 2020-04-09,,,Wyoming,USA-56,cases,yes,,Wyoming began reporting probable cases and deaths.
 2020-04-12,,,Georgia,USA-13,both,,,"Our database changed to exclude cases in non-Georgia residents, leading to a one-day drop in the total number of cases. These cases were previously reported with ""Unknown"" county."
@@ -626,3 +627,5 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2021-07-15,2021-07-19,Carroll,Illinois,USA-17015,cases,yes,,Illinois added prison cases from previous months in Carroll County.
 2021-07-19,,,South Carolina,USA-45,deaths,,,South Carolina removed several deaths and announced that deaths will be updated weekly.
 2021-07-19,,,Ohio,USA-39,cases,,,Ohio added cases from recent weeks after resolving a technical issue.
+2021-07-22,,Spokane,Washington,USA-53063,cases,yes,,Washington added a backlog of cases in Spokane County.
+2021-07-23,,,Utah,USA-49,both,,,"Utah did not release data because of Pioneer Day, a state holiday."
