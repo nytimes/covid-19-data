@@ -513,6 +513,7 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2021-05-31,,,,USA,cases,,,The daily count is artificially low because many states and local jurisdictions did not announce new data on Memorial Day.
 2021-06-01,,,Kentucky,USA-21,deaths,yes,,Kentucky added many deaths that occurred in previous months.
 2021-06-01,,Williamson,Texas,USA-48491,cases,,,Williamson County did not update its data because of technical issues.
+2021-06-01,,Dade,Missouri,USA-29057,both,yes,,"The Times began using state data for Dade County, resulting in a one-time decrease in cases and deaths."
 2021-06-03,,,Indiana,USA-18,cases,yes,yes,Indiana added 765 cases from previous months.
 2021-06-03,,Bexar,Texas,USA-48029,deaths,yes,,Bexar County added 23 deaths that occurred between July 2020 and May 2021.
 2021-06-04,,,,USA,cases,yes,,Florida stopped providing daily updates and removed many nonresident cases.
