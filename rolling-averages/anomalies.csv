@@ -614,6 +614,9 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2021-06-30,,,West Virginia,USA-54,deaths,yes,,West Virginia added 11 deaths that occurred in late 2020 and early 2021. 
 2021-06-30,2021-07-02,Davidson,Tennessee,USA-47037,cases,yes,,Davidson County removed many cases.
 2021-06-30,2021-07-07,Richmond,Virginia,USA-51159,cases,yes,,Virginia removed many cases in Richmond County.
+2021-07-01,,,,USA,cases,yes,,California began reporting probable cases based on antigen testing.
+2021-07-01,,,California,USA-06,cases,yes,,California began reporting probable cases based on antigen testing.
+2021-07-01,,San Diego,California,USA-06073,cases,yes,,The Times began including probable cases in San Diego County. 
 2021-07-01,,Butler,Ohio,USA-39017,cases,yes,,Ohio added a backlog of cases in Butler County.
 2021-07-01,,Delaware,Pennsylvania,USA-42045,deaths,yes,,"The Times began using state data for Delaware County deaths, resulting in a one-time decrease. "
 2021-07-02,,,,USA,deaths,yes,,"Santa Clara County, Calif., officials revised their total death toll downward after a review of records."
@@ -621,7 +624,47 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2021-07-02,,Santa Clara,California,USA-06085,deaths,yes,,Santa Clara County removed many deaths from causes unrelated to Covid-19.
 2021-07-07,,,Iowa,USA-19,cases,yes,yes,"Iowa moved to a weekly update schedule and made case adjustments, resulting in increases in some counties and decreases in others."
 2021-07-07,2021-07-08,Richmond city,Virginia,USA-51760,cases,yes,,Virginia added many cases in Richmond after removing many cases the previous week.
+2021-07-08,,,,USA,cases,yes,,The Times added recently released probable cases in many California counties.
+2021-07-08,,,California,USA-06,cases,yes,,"The Times began including probable cases based on antigen testing in many California counties, resulting in one-time increases."
+2021-07-08,,Fresno,California,USA-06019,cases,yes,,California began reporting Fresno County probable cases based on antigen testing. 
+2021-07-08,,Butte,California,USA-06007,cases,yes,,California began reporting Butte County probable cases based on antigen testing. 
+2021-07-08,,Marin,California,USA-06041,cases,yes,,California began reporting Marin County probable cases based on antigen testing. 
+2021-07-08,,San Bernardino,California,USA-06071,cases,yes,,California began reporting San Bernardino County probable cases based on antigen testing. 
+2021-07-08,,Tehama,California,USA-06103,cases,yes,,California began reporting Tehama County probable cases based on antigen testing. 
+2021-07-08,,Glenn,California,USA-06021,cases,yes,,California began reporting Glenn County probable cases based on antigen testing. 
+2021-07-08,,Shasta,California,USA-06089,cases,yes,,California began reporting Shasta County probable cases based on antigen testing. 
+2021-07-08,,Santa Barbara,California,USA-06083,cases,yes,,California began reporting Santa Barbara County probable cases based on antigen testing. 
+2021-07-08,,El Dorado,California,USA-06017,cases,yes,,California began reporting El Dorado County probable cases based on antigen testing. 
+2021-07-08,,Santa Cruz,California,USA-06087,cases,yes,,California began reporting Santa Cruz County probable cases based on antigen testing. 
+2021-07-08,,Alameda,California,USA-06001,cases,yes,,California began reporting Alameda County probable cases based on antigen testing. 
+2021-07-08,,Tulare,California,USA-06107,cases,yes,,California began reporting Tulare County probable cases based on antigen testing. 
+2021-07-08,,San Luis Obispo,California,USA-06079,cases,yes,,California began reporting San Luis Obispo County probable cases based on antigen testing. 
+2021-07-08,,San Mateo,California,USA-06081,cases,yes,,California began reporting San Mateo County probable cases based on antigen testing. 
+2021-07-08,,Kings,California,USA-06031,cases,yes,,California began reporting Kings County probable cases based on antigen testing. 
+2021-07-08,,Riverside,California,USA-06065,cases,yes,,California began reporting Riverside County probable cases based on antigen testing. 
+2021-07-08,,Santa Clara,California,USA-06085,cases,yes,,California began reporting Santa Clara County probable cases based on antigen testing. 
 2021-07-08,,Greene,Virginia,USA-51079,cases,yes,,Virginia added many cases in Greene County.
+2021-07-08,,Amador,California,USA-06005,cases,yes,,California began reporting Amador County probable cases based on antigen testing. 
+2021-07-08,,Contra Costa,California,USA-06013,cases,yes,,California began reporting Contra Costa County probable cases based on antigen testing. 
+2021-07-08,,Humboldt,California,USA-06023,cases,yes,,California began reporting Humboldt County probable cases based on antigen testing. 
+2021-07-08,,Imperial,California,USA-06025,cases,yes,,California began reporting Imperial County probable cases based on antigen testing. 
+2021-07-08,,Lake,California,USA-06033,cases,yes,,California began reporting Lake County probable cases based on antigen testing. 
+2021-07-08,,Madera,California,USA-06039,cases,yes,,California began reporting Madera County probable cases based on antigen testing. 
+2021-07-08,,Monterey,California,USA-06053,cases,yes,,California began reporting Monterey County probable cases based on antigen testing. 
+2021-07-08,,Napa,California,USA-06055,cases,yes,,California began reporting Napa County probable cases based on antigen testing. 
+2021-07-08,,Nevada,California,USA-06057,cases,yes,,California began reporting Nevada County probable cases based on antigen testing. 
+2021-07-08,,Placer,California,USA-06061,cases,yes,,California began reporting Placer County probable cases based on antigen testing. 
+2021-07-08,,Sacramento,California,USA-06067,cases,yes,,California began reporting Sacramento County probable cases based on antigen testing. 
+2021-07-08,,San Benito,California,USA-06069,cases,yes,,California began reporting San Benito County probable cases based on antigen testing. 
+2021-07-08,,San Francisco,California,USA-06075,cases,yes,,California began reporting San Francisco County probable cases based on antigen testing. 
+2021-07-08,,San Joaquin,California,USA-06077,cases,yes,,California began reporting San Joaquin County probable cases based on antigen testing. 
+2021-07-08,,Sierra,California,USA-06091,cases,yes,,California began reporting Sierra County probable cases based on antigen testing. 
+2021-07-08,,Solano,California,USA-06095,cases,yes,,California began reporting Solano County probable cases based on antigen testing. 
+2021-07-08,,Sonoma,California,USA-06097,cases,yes,,California began reporting Sonoma County probable cases based on antigen testing. 
+2021-07-08,,Trinity,California,USA-06105,cases,yes,,California began reporting Trinity County probable cases based on antigen testing. 
+2021-07-08,,Tuolumne,California,USA-06109,cases,yes,,California began reporting Tuolumne County probable cases based on antigen testing. 
+2021-07-08,,Ventura,California,USA-06111,cases,yes,,California began reporting Ventura County probable cases based on antigen testing. 
+2021-07-08,,Yolo,California,USA-06113,cases,yes,,California began reporting Yolo County probable cases based on antigen testing. 
 2021-07-13,,Hopkins,Texas,USA-48223,cases,yes,,Texas added many older cases in Hopkins County.
 2021-07-14,,,Arizona,USA-04,cases,,,Arizona added many cases after resolving a tehnical issue that affected case counts for the two previous days. 
 2021-07-14,,Riverside,California,USA-06065,cases,yes,,Riverside County removed many cases.
@@ -633,5 +676,3 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2021-07-19,,Trumbull,Ohio,USA-39155,cases,yes,,"Ohio added cases from recent weeks after resolving a technical issue, including many cases in Trumbull County."
 2021-07-23,,,Utah,USA-49,both,,,"Utah did not release data because of Pioneer Day, a state holiday."
 2021-07-24,,Anderson,Texas,USA-48001,cases,yes,,Texas removed about 30 prison cases in Anderson County.
-2021-07-27,,,Wisconsin,USA-55,deaths,yes,,Wisconsin removed many deaths in Milwaukee County.
-2021-07-27,,Milwaukee,Wisconsin,USA-55079,deaths,yes,,Wisconsin removed many deaths in Milwaukee County.
