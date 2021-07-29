@@ -192,7 +192,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-07-29,Calaveras,California,06009,2299,58,2280,57,19,1
 2021-07-29,Colusa,California,06011,2347,18,1999,16,348,2
 2021-07-29,Contra Costa,California,06013,76731,830,75842,830,889,
-2021-07-29,Del Norte,California,06015,1589,8,1589,8,,
+2021-07-29,Del Norte,California,06015,1612,8,1612,8,,
 2021-07-29,El Dorado,California,06017,11804,120,10941,116,863,4
 2021-07-29,Fresno,California,06019,113764,1746,104288,1746,9476,
 2021-07-29,Glenn,California,06021,3052,27,2460,27,592,0
@@ -203,7 +203,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-07-29,Kings,California,06031,24702,250,23566,250,1136,
 2021-07-29,Lake,California,06033,4170,65,4157,65,13,
 2021-07-29,Lassen,California,06035,5874,26,5874,21,,5
-2021-07-29,Los Angeles,California,06037,1289809,24658,1287831,24658,1978,
+2021-07-29,Los Angeles,California,06037,1290911,24658,1290226,24658,685,0
 2021-07-29,Madera,California,06039,17998,249,16998,245,1000,4
 2021-07-29,Marin,California,06041,14922,239,14631,239,291,
 2021-07-29,Mariposa,California,06043,497,7,497,7,,0
@@ -234,12 +234,12 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-07-29,Siskiyou,California,06093,2554,40,2554,40,,0
 2021-07-29,Solano,California,06095,35768,261,35708,261,60,
 2021-07-29,Sonoma,California,06097,32760,329,32476,329,284,
-2021-07-29,Stanislaus,California,06099,65440,1085,58810,1085,6630,
-2021-07-29,Sutter,California,06101,10092,115,10080,115,12,0
+2021-07-29,Stanislaus,California,06099,65537,1088,58898,1088,6639,
+2021-07-29,Sutter,California,06101,10126,115,10126,115,,0
 2021-07-29,Tehama,California,06103,5845,66,5192,66,653,
 2021-07-29,Trinity,California,06105,417,3,352,3,65,
 2021-07-29,Tulare,California,06107,60239,854,50324,854,9915,
-2021-07-29,Tuolumne,California,06109,4475,73,4425,73,50,0
+2021-07-29,Tuolumne,California,06109,4475,73,4461,73,14,0
 2021-07-29,Ventura,California,06111,86689,1043,83523,1043,3166,
 2021-07-29,Yolo,California,06113,15207,215,14759,215,448,
 2021-07-29,Yuba,California,06115,6949,51,6949,51,,
@@ -992,7 +992,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-07-29,Sumner,Kansas,20191,2304,53,,,,
 2021-07-29,Thomas,Kansas,20193,1135,21,1135,,,
 2021-07-29,Trego,Kansas,20195,412,8,,,,
-2021-07-29,Wabaunsee,Kansas,20197,753,14,,,,
+2021-07-29,Wabaunsee,Kansas,20197,753,15,,,,
 2021-07-29,Wallace,Kansas,20199,183,4,,,,
 2021-07-29,Washington,Kansas,20201,566,14,,,,
 2021-07-29,Wichita,Kansas,20203,219,6,,,,
@@ -1934,7 +1934,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-07-29,Davidson,North Carolina,37057,17335,204,15346,177,1989,27
 2021-07-29,Davie,North Carolina,37059,4284,43,3389,34,895,9
 2021-07-29,Duplin,North Carolina,37061,6640,142,4429,125,2211,17
-2021-07-29,Durham,North Carolina,37063,26499,239,26499,238,,1
+2021-07-29,Durham,North Carolina,37063,26546,239,26546,238,,1
 2021-07-29,Edgecombe,North Carolina,37065,5826,114,5541,111,285,3
 2021-07-29,Forsyth,North Carolina,37067,37717,431,33513,395,4204,36
 2021-07-29,Franklin,North Carolina,37069,7165,55,6738,54,427,1
@@ -3092,7 +3092,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-07-29,Stevens,Washington,53065,2457,32,2228,,229,
 2021-07-29,Thurston,Washington,53067,11818,119,10253,,1565,
 2021-07-29,Wahkiakum,Washington,53069,163,3,152,,11,
-2021-07-29,Walla Walla,Washington,53071,6032,72,5773,68,259,4
+2021-07-29,Walla Walla,Washington,53071,6050,72,5773,71,277,1
 2021-07-29,Whatcom,Washington,53073,10291,108,9837,,454,
 2021-07-29,Whitman,Washington,53075,4461,52,4350,52,111,0
 2021-07-29,Yakima,Washington,53077,32767,457,27803,,4964,
