@@ -676,3 +676,5 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2021-07-19,,Trumbull,Ohio,USA-39155,cases,yes,,"Ohio added cases from recent weeks after resolving a technical issue, including many cases in Trumbull County."
 2021-07-23,,,Utah,USA-49,both,,,"Utah did not release data because of Pioneer Day, a state holiday."
 2021-07-24,,Anderson,Texas,USA-48001,cases,yes,,Texas removed about 30 prison cases in Anderson County.
+2021-07-30,,,Delaware,USA-10,deaths,yes,yes,Delaware added 130 deaths from previous months after reviewing death certificates.
+2021-07-30,,,,USA,deaths,yes,,Delaware added many deaths from previous months.
