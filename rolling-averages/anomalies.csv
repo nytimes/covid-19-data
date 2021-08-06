@@ -19,8 +19,8 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2020-05-25,,,North Dakota,USA-38,cases,,,"The state announced that because of a laboratory equipment malfunction, it was removing 82 positive results from the total case count, pending a retest of the samples."
 2020-05-27,,,Connecticut,USA-09,cases,,,Connecticut removed 356 cases that were determined to be duplicates.
 2020-05-29,,,Louisiana,USA-22,cases,,,"Louisiana announced that because of a technical error, it would not have an update on the number of total cases that day."
-2020-06-01,,,Massachusetts,USA-25,both,yes,,"Massachusetts began reporting probable cases and deaths dating back to March 1, leading to a large one-day increase."
 2020-06-01,,,Michigan,USA-26,both,yes,,The Times began including probable cases and deaths reported by Michigan's county and regional health districts.
+2020-06-01,,,Massachusetts,USA-25,both,yes,,"Massachusetts began reporting probable cases and deaths dating back to March 1, leading to a large one-day increase."
 2020-06-04,,,Alaska,USA-02,cases,,,
 2020-06-05,,,Michigan,USA-26,both,yes,,"Michigan began reporting probable cases and deaths statewide, leading to a one-day increase in total cases and deaths."
 2020-06-08,,,Illinois,USA-17,both,,,Illinois began reporting probable cases and deaths.
@@ -36,8 +36,8 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2020-06-18,,,Connecticut,USA-09,cases,,,Connecticut removed a number of previously reported cases.
 2020-06-19,,,Louisiana,USA-22,cases,yes,,"Louisiana removed 1,666 duplicate and out-of-state cases from its total."
 2020-06-22,,,Mississippi,USA-28,both,,,Mississippi reported several days of backlogged data at once after resolving a technical issue.
-2020-06-23,,,Delaware,USA-10,deaths,yes,,Delaware added 67 deaths from earlier in the year after reconciling death certificate records.
 2020-06-23,,,North Dakota,USA-38,cases,yes,,North Dakota reported an artificially low number of new cases because of a temporary software issue. 
+2020-06-23,,,Delaware,USA-10,deaths,yes,,Delaware added 67 deaths from earlier in the year after reconciling death certificate records.
 2020-06-25,,,,USA,deaths,yes,,"New Jersey began reporting probable deaths, including those from earlier in the pandemic, causing a jump in the number of total deaths."
 2020-06-25,,,New Jersey,USA-34,both,yes,yes,"New Jersey began reporting probable deaths, including those from earlier in the pandemic, causing a jump in the number of total deaths."
 2020-06-27,,,Louisiana,USA-22,both,,,Louisiana did not update its data for cases or deaths during planned downtime.
@@ -107,16 +107,16 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2020-10-14,,,Missouri,USA-29,cases,,,"Missouri added new cases and deaths from several days, after the state did not update its data from Oct. 11 to Oct. 13 while resolving a technical error. "
 2020-10-15,,,Missouri,USA-29,deaths,yes,,Missouri removed many previously reported deaths.
 2020-10-19,,,Wisconsin,USA-55,both,,,Wisconsin added new data for Oct. 17 to Oct. 19 after planned system maintenance.
-2020-10-23,,,Alabama,USA-01,cases,yes,yes,"Alabama added a backlog of 2,565 cases identified through antigen testing from a facility in Mobile."
 2020-10-23,,,Puerto Rico,USA-72,cases,,,Puerto Rico added a backlog of test results from unspecified days.
+2020-10-23,,,Alabama,USA-01,cases,yes,yes,"Alabama added a backlog of 2,565 cases identified through antigen testing from a facility in Mobile."
 2020-10-24,,,Alabama,USA-01,cases,,,"Alabama added a backlog of 1,182 cases identified between April and September."
 2020-11-01,,,Alabama,USA-01,cases,yes,,"Alabama added a backlog of 846 cases from June, July and August, primarily affecting Colbert, Franklin, Lawrence, Lauderdale and Limestone Counties."
 2020-11-03,,,Michigan,USA-26,cases,,,"Data from the Michigan Department of Corrections was added for prisons in Marquette, Ionia, Luce and other counties."
 2020-11-03,,Marquette,Michigan,USA-26103,cases,yes,,Data from the Michigan Department of Corrections was added for recent weeks.
 2020-11-03,,Ionia,Michigan,USA-26067,cases,yes,,Data from the Michigan Department of Corrections was added for recent weeks.
 2020-11-03,,Luce,Michigan,USA-26095,cases,yes,,Data from the Michigan Department of Corrections was added for recent weeks.
-2020-11-04,,,,USA,deaths,yes,,"Georgia began reporting probable deaths, causing a one-day increase."
 2020-11-04,,,Georgia,USA-13,deaths,yes,yes,"Georgia began reporting probable deaths, including 466 probable deaths from unspecified days."
+2020-11-04,,,,USA,deaths,yes,,"Georgia began reporting probable deaths, causing a one-day increase."
 2020-11-05,,,Connecticut,USA-09,cases,,,Connecticut added a backlog of 530 cases identified through antigen testing conducted between August and November.
 2020-11-13,,Harrison,Texas,USA-48203,cases,,,
 2020-11-16,,,Virginia,USA-51,cases,,,Virginia added many cases from the previous several days after data system maintenance.
@@ -126,8 +126,8 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2020-11-24,,,Missouri,USA-29,deaths,,,Missouri added many deaths from September through early November.
 2020-11-26,,,,USA,both,,,"Cases and deaths were lower because 14 states reported no new data, and six states had only incomplete data from select counties."
 2020-11-27,,,Wyoming,USA-56,both,,,Wyoming reported data for Nov. 26 and Nov. 27 after reporting no data on Thanksgiving.
-2020-11-27,,,Massachusetts,USA-25,both,,,Massachusetts reported data for Nov. 26 and Nov. 27 after reporting no data on Thanksgiving.
 2020-11-27,,,Michigan,USA-26,both,,,Michigan reported data for Nov. 26 and Nov. 27 after reporting no data on Thanksgiving.
+2020-11-27,,,Massachusetts,USA-25,both,,,Massachusetts reported data for Nov. 26 and Nov. 27 after reporting no data on Thanksgiving.
 2020-11-27,,,Louisiana,USA-22,both,,,Louisiana reported data for Nov. 26 and Nov. 27 after reporting no data on Thanksgiving.
 2020-11-27,,,South Carolina,USA-45,both,,,South Carolina reported data for Nov. 26 and Nov. 27 after reporting no data on Thanksgiving.
 2020-11-27,,,Florida,USA-12,both,,,Florida reported data for Nov. 26 and Nov. 27 after reporting no data on Thanksgiving.
@@ -141,9 +141,9 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2020-11-27,,,Utah,USA-49,both,,,Utah reported data for Nov. 26 and Nov. 27 after reporting no data on Thanksgiving.
 2020-11-28,,,Minnesota,USA-27,both,,,Minnesota reported data for two days after reporting no data on Thanksgiving.
 2020-11-28,,,Oklahoma,USA-40,both,,,Oklahoma reported data for two days after reporting no data on Thanksgiving.
+2020-12-01,,,Alabama,USA-01,both,,,Alabama announced many cases and deaths from delayed reporting over the Thanksgiving weekend.
 2020-12-01,,,Arizona,USA-04,both,,,Arizona announced many cases and deaths from delayed reporting over the Thanksgiving weekend.
 2020-12-01,,,Louisiana,USA-22,both,,,Louisiana announced many cases and deaths from the previous two days after resolving a processing error.
-2020-12-01,,,Alabama,USA-01,both,,,Alabama announced many cases and deaths from delayed reporting over the Thanksgiving weekend.
 2020-12-02,,,Vermont,USA-50,cases,yes,,"Vermont began including probable cases reported to the state health department since Sept. 6, resulting in a one-day increase."
 2020-12-04,,,Michigan,USA-26,cases,,,"Data from the Michigan Department of Corrections was added for prisons in Alger, Baraga, Chippewa, Gratiot, Ionia, Jackson, Lenawee, Luce and Montcalm counties."
 2020-12-04,,Ionia,Michigan,USA-26067,cases,yes,,Data from the Michigan Department of Corrections was added for recent weeks.
@@ -156,8 +156,8 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2020-12-04,,Lenawee,Michigan,USA-26091,cases,yes,,Data from the Michigan Department of Corrections was added for recent weeks.
 2020-12-04,,Montcalm,Michigan,USA-26117,cases,yes,,Data from the Michigan Department of Corrections was added for recent weeks.
 2020-12-07,,New York City,New York,USA-36998,cases,yes,yes,The New York City health department began reporting probable cases. It also revised how it assigns cases to zip codes throughout the city.
-2020-12-08,,,North Dakota,USA-38,both,yes,,North Dakota began reporting probable cases identified through antigen testing.
 2020-12-08,,,Alabama,USA-01,cases,,,"Alabama added a backlog of about 1,500 cases from two labs based on testing from Nov. 30 to Dec. 5."
+2020-12-08,,,North Dakota,USA-38,both,yes,,North Dakota began reporting probable cases identified through antigen testing.
 2020-12-08,,,Iowa,USA-19,deaths,yes,,"Iowa changed its methodology for reporting coronavirus deaths to use death certificates, resulting in a one-time increase of deaths previously unreported."
 2020-12-08,,,Ohio,USA-39,cases,yes,yes,Ohio announced a backlog of cases identified through antigen testing.
 2020-12-10,,,Washington,USA-53,deaths,yes,,"Washington changed its methodology for reporting coronavirus deaths to use death certificates, resulting in a one-time decrease."
@@ -173,8 +173,8 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2020-12-20,,,Tennessee,USA-47,cases,,,Tennessee announced cases from both Dec. 19 and Dec. 20.
 2020-12-21,,Tarrant,Texas,USA-48439,deaths,yes,,Tarrant County added many deaths from previous months after reconciling county and state records.
 2020-12-25,,,,USA,both,,,The daily count is artificially low because many states and local jurisdictions did not announce new data on Christmas.
-2020-12-26,,,Massachusetts,USA-25,both,,,Massachusetts reported data for Dec. 25 and 26 after reporting no data on Christmas.
 2020-12-26,,,Michigan,USA-26,both,,,Michigan reported data for Dec. 24-26 after reporting no data on the previous two days.
+2020-12-26,,,Massachusetts,USA-25,both,,,Massachusetts reported data for Dec. 25 and 26 after reporting no data on Christmas.
 2020-12-26,,,Florida,USA-12,both,,,Florida reported data for Dec. 25 and 26 after reporting no data on Christmas.
 2020-12-26,,,North Carolina,USA-37,both,,,North Carolina reported data for Dec. 24-26 after reporting no data on the previous two days.
 2020-12-26,,,Ohio,USA-39,both,,,Ohio reported data for Dec. 25 and 26 after reporting no data on Christmas.
@@ -185,8 +185,8 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2020-12-29,,,Washington,USA-53,deaths,,,Washington announced many deaths that were not reported in the previous week because of a processing error.
 2020-12-29,,Wilbarger,Texas,USA-48487,cases,yes,,Texas added a large backlog of cases in Wilbarger County.
 2021-01-01,,,,USA,both,,,The daily count is artificially low because many states and local jurisdictions did not announce new data on New Year's Day.
-2021-01-02,,,Massachusetts,USA-25,both,,,Massachusetts reported data for two days after reporting no data on New Year's Day.
 2021-01-02,,,Michigan,USA-26,both,,,Michigan reported data for three days after not announcing new data on Dec. 31 or Jan. 1.
+2021-01-02,,,Massachusetts,USA-25,both,,,Massachusetts reported data for two days after reporting no data on New Year's Day.
 2021-01-02,,,Alaska,USA-02,both,,,Alaska reported data for two days after reporting no data on New Year's Day.
 2021-01-02,,,Tennessee,USA-47,cases,,,Tennessee reported data for two days after reporting no data on New Year's Day.
 2021-01-02,,,South Carolina,USA-45,both,,,South Carolina reported data for two days after reporting no data on New Year's Day.
@@ -321,8 +321,8 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2021-03-02,,,,USA,deaths,yes,,"Ohio removed many deaths after changing its methodology, resulting in an artificially low daily count."
 2021-03-02,,,Ohio,USA-39,deaths,yes,yes,"Ohio changed its methodology for reporting coronavirus deaths to use death certificates, resulting in a one-time decrease."
 2021-03-02,,Scurry,Texas,USA-48415,cases,yes,,"Texas removed 1,119 cases from Scurry County to correct a February reporting error."
-2021-03-03,,,Virginia,USA-51,deaths,yes,,"Over several days, Virginia added many deaths that occurred earlier in 2021."
 2021-03-03,,,Alabama,USA-01,cases,yes,,"Alabama added a backlog of more than 2,000 cases from one testing facility dating back to May 2020."
+2021-03-03,,,Virginia,USA-51,deaths,yes,,"Over several days, Virginia added many deaths that occurred earlier in 2021."
 2021-03-03,,Yavapai,Arizona,USA-04025,cases,yes,,"Yavapai County removed duplicate cases, resulting in a one-day decrease."
 2021-03-03,,Lyon,Kentucky,USA-21143,cases,yes,,"Kentucky added many cases in Lyon County, as Caldwell County had a decrease in cases."
 2021-03-03,,Caldwell,Kentucky,USA-21033,cases,yes,,"Kentucky removed many cases in Caldwell County, as Lyon County had an increase in cases."
@@ -413,8 +413,8 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2021-04-09,,Gila,Arizona,USA-04007,cases,yes,,Arizona added 270 Gila County cases from previous months after verifying testing records.
 2021-04-09,,Santa Barbara,California,USA-06083,cases,yes,,Santa Barbara County added about 65 cases from January 2021.
 2021-04-10,,,Nevada,USA-32,cases,yes,,Nevada announced a backlog of cases.
-2021-04-13,,,Colorado,USA-08,deaths,yes,,"The local health department for Adams, Arapahoe and Douglas Counties added many deaths."
 2021-04-13,,,Alabama,USA-01,cases,yes,,"Alabama announced a backlog of 1,150 cases from testing conducted from October 2020 through April 2021."
+2021-04-13,,,Colorado,USA-08,deaths,yes,,"The local health department for Adams, Arapahoe and Douglas Counties added many deaths."
 2021-04-13,,Mobile,Alabama,USA-01097,cases,yes,,"Alabama announced a backlog of 1,150 cases from testing conducted from October 2020 through April 2021."
 2021-04-13,,Adams,Colorado,USA-08001,deaths,yes,,The local health department reported many Adams County deaths after resolving a data issue.
 2021-04-13,,Arapahoe,Colorado,USA-08005,deaths,yes,,The local health department reported many Arapahoe County deaths after resolving a data issue.
@@ -429,8 +429,8 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2021-04-17,,Porter,Indiana,USA-18127,cases,yes,,"Indiana announced a backlog of about 1,200 cases."
 2021-04-17,,LaPorte,Indiana,USA-18091,cases,yes,,"Indiana announced a backlog of about 1,200 cases."
 2021-04-18,,,Kansas,USA-20,deaths,yes,yes,"The Times began including county death tallies reported by the state, which had not previously been available."
-2021-04-19,,,Tennessee,USA-47,cases,yes,,"Tennessee announced a backlog of more than 2,000 cases from previous months in 2021."
 2021-04-19,,,Louisiana,USA-22,cases,,,Louisiana announced a backlog of 379 cases from previous months.
+2021-04-19,,,Tennessee,USA-47,cases,yes,,"Tennessee announced a backlog of more than 2,000 cases from previous months in 2021."
 2021-04-19,,Wilson,Tennessee,USA-47189,cases,yes,,"Tennessee announced a backlog of more than 2,000 cases from previous months in 2021."
 2021-04-19,,Sumner,Tennessee,USA-47165,cases,yes,,"Tennessee announced a backlog of more than 2,000 cases from previous months in 2021."
 2021-04-19,,Montgomery,Tennessee,USA-47125,cases,yes,,"Tennessee announced a backlog of more than 2,000 cases from previous months in 2021."
@@ -481,8 +481,8 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2021-05-13,,,Rhode Island,USA-44,cases,yes,,Rhode Island removed 170 previously announced cases.
 2021-05-13,2021-05-14,Tulare,California,USA-06107,cases,yes,,Tulare County added more than 300 cases and then removed about 200 cases the following day during a data validation process.
 2021-05-14,,,Alabama,USA-01,cases,yes,yes,"Alabama announced a backlog of about 4,800 cases from previous months."
-2021-05-15,,,Indiana,USA-18,cases,yes,,Indiana announced a backlog of 372 older cases.
 2021-05-15,,,Alabama,USA-01,cases,yes,yes,"Alabama announced a backlog of about 1,200 cases from previous months."
+2021-05-15,,,Indiana,USA-18,cases,yes,,Indiana announced a backlog of 372 older cases.
 2021-05-17,,San Luis Obispo,California,USA-06079,cases,yes,,San Luis Obispo County removed 134 duplicate cases.
 2021-05-18,,,Mississippi,USA-28,cases,yes,yes,Mississippi added about 400 cases from previous months.
 2021-05-18,,,Missouri,USA-29,deaths,yes,yes,Missouri added many deaths after reviewing records.
@@ -542,8 +542,8 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2021-06-14,,Woodford,Illinois,USA-17203,cases,yes,,"The Times began using state data for Woodford County, resulting in a one-time decrease in cases. "
 2021-06-14,,Pierce,Washington,USA-53053,deaths,yes,,"Washington removed about 30 deaths from causes unrelated to Covid-19, including a decrease in Pierce County."
 2021-06-15,,,Tennessee,USA-47,cases,yes,yes,"Tennessee reallocated many cases, resulting in one-time increases in some counties and decreases in others."
-2021-06-15,,San Mateo,California,USA-06081,deaths,yes,,California added many San Mateo County deaths.
 2021-06-15,,Williamson,Texas,USA-48491,cases,yes,,Williamson County removed about 300 duplicate cases.
+2021-06-15,,San Mateo,California,USA-06081,deaths,yes,,California added many San Mateo County deaths.
 2021-06-15,2021-06-16,Knox,Kentucky,USA-21121,cases,yes,,Kentucky removed many cases in Whitley County and added many cases in neighboring Knox and Laurel counties.
 2021-06-15,2021-06-16,Laurel,Kentucky,USA-21125,cases,yes,,Kentucky removed many cases in Whitley County and added many cases in neighboring Knox and Laurel counties.
 2021-06-15,2021-06-16,Whitley,Kentucky,USA-21235,cases,yes,,Kentucky removed many cases in Whitley County and added many cases in neighboring Knox and Laurel counties.
@@ -576,6 +576,9 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2021-06-23,2021-06-25,Rusk,Texas,USA-48401,cases,yes,,Texas added a backlog of cases in Rusk County.
 2021-06-23,,Maverick,Texas,USA-48323,cases,yes,,Texas removed about 400 duplicate cases in Maverick County.
 2021-06-23,,Frio,Texas,USA-48163,cases,yes,,"Texas removed many duplicate cases, including about 60 cases in Frio County."
+2021-06-23,2021-07-01,Bowie,Texas,USA-48037,cases,yes,,Texas added a backlog of cases in Bowie County.
+2021-06-23,,San Jacinto,Texas,USA-48407,cases,yes,,Texas added a backlog of cases in San Jacinto County.
+2021-06-23,2021-07-03,Shelby,Texas,USA-48419,cases,yes,,Texas added a backlog of cases in Shelby County.
 2021-06-23,,DeWitt,Texas,USA-48123,cases,yes,,"Texas removed many duplicate cases, including several cases in DeWitt County."
 2021-06-23,,Dimmit,Texas,USA-48127,cases,yes,,"Texas removed many duplicate cases, including about 20 cases in Dimmit County."
 2021-06-23,,Edwards,Texas,USA-48137,cases,yes,,"Texas removed many duplicate cases, including several cases in Edwards County."
@@ -589,7 +592,6 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2021-06-23,,Lavaca,Texas,USA-48285,cases,yes,,"Texas removed many duplicate cases, including about 40 cases in Lavaca County."
 2021-06-23,,Real,Texas,USA-48385,cases,yes,,"Texas removed many duplicate cases, including several cases in Real County."
 2021-06-23,2021-06-29,Panola,Texas,USA-48365,cases,yes,,Texas added a backlog of cases in Panola County.
-2021-06-23,2021-07-01,Bowie,Texas,USA-48037,cases,yes,,Texas added a backlog of cases in Bowie County.
 2021-06-23,2021-06-24,Camp,Texas,USA-48063,cases,yes,,Texas added a backlog of cases in Camp County.
 2021-06-23,2021-06-25,Cass,Texas,USA-48067,cases,yes,,Texas added a backlog of cases in Cass County.
 2021-06-23,2021-06-24,Delta,Texas,USA-48119,cases,yes,,Texas added a backlog of cases in Delta County.
@@ -598,8 +600,6 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2021-06-23,2021-06-24,Marion,Texas,USA-48315,cases,yes,,Texas added a backlog of cases in Marion County.
 2021-06-23,2021-06-24,Morris,Texas,USA-48343,cases,yes,,Texas added a backlog of cases in Morris County.
 2021-06-23,2021-07-01,Red River,Texas,USA-48387,cases,yes,,Texas added a backlog of cases in Red River County.
-2021-06-23,,San Jacinto,Texas,USA-48407,cases,yes,,Texas added a backlog of cases in San Jacinto County.
-2021-06-23,2021-07-03,Shelby,Texas,USA-48419,cases,yes,,Texas added a backlog of cases in Shelby County.
 2021-06-23,2021-07-01,Titus,Texas,USA-48449,cases,yes,,Texas added a backlog of cases in Titus County.
 2021-06-23,2021-06-24,Trinity,Texas,USA-48455,cases,yes,,Texas added a backlog of cases in Trinity County.
 2021-06-23,,King,Washington,USA-53033,both,yes,,King County added many cases and deaths from previous months.
@@ -626,16 +626,16 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2021-07-07,2021-07-08,Richmond city,Virginia,USA-51760,cases,yes,,Virginia added many cases in Richmond after removing many cases the previous week.
 2021-07-08,,,,USA,cases,yes,,The Times added recently released probable cases in many California counties.
 2021-07-08,,,California,USA-06,cases,yes,,"The Times began including probable cases based on antigen testing in many California counties, resulting in one-time increases."
+2021-07-08,,Glenn,California,USA-06021,cases,yes,,California began reporting Glenn County probable cases based on antigen testing. 
 2021-07-08,,Fresno,California,USA-06019,cases,yes,,California began reporting Fresno County probable cases based on antigen testing. 
 2021-07-08,,Butte,California,USA-06007,cases,yes,,California began reporting Butte County probable cases based on antigen testing. 
 2021-07-08,,Marin,California,USA-06041,cases,yes,,California began reporting Marin County probable cases based on antigen testing. 
 2021-07-08,,San Bernardino,California,USA-06071,cases,yes,,California began reporting San Bernardino County probable cases based on antigen testing. 
 2021-07-08,,Tehama,California,USA-06103,cases,yes,,California began reporting Tehama County probable cases based on antigen testing. 
-2021-07-08,,Glenn,California,USA-06021,cases,yes,,California began reporting Glenn County probable cases based on antigen testing. 
 2021-07-08,,Shasta,California,USA-06089,cases,yes,,California began reporting Shasta County probable cases based on antigen testing. 
+2021-07-08,,Santa Cruz,California,USA-06087,cases,yes,,California began reporting Santa Cruz County probable cases based on antigen testing. 
 2021-07-08,,Santa Barbara,California,USA-06083,cases,yes,,California began reporting Santa Barbara County probable cases based on antigen testing. 
 2021-07-08,,El Dorado,California,USA-06017,cases,yes,,California began reporting El Dorado County probable cases based on antigen testing. 
-2021-07-08,,Santa Cruz,California,USA-06087,cases,yes,,California began reporting Santa Cruz County probable cases based on antigen testing. 
 2021-07-08,,Alameda,California,USA-06001,cases,yes,,California began reporting Alameda County probable cases based on antigen testing. 
 2021-07-08,,Tulare,California,USA-06107,cases,yes,,California began reporting Tulare County probable cases based on antigen testing. 
 2021-07-08,,San Luis Obispo,California,USA-06079,cases,yes,,California began reporting San Luis Obispo County probable cases based on antigen testing. 
@@ -676,7 +676,7 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2021-07-19,,Trumbull,Ohio,USA-39155,cases,yes,,"Ohio added cases from recent weeks after resolving a technical issue, including many cases in Trumbull County."
 2021-07-23,,,Utah,USA-49,both,,,"Utah did not release data because of Pioneer Day, a state holiday."
 2021-07-24,,Anderson,Texas,USA-48001,cases,yes,,Texas removed about 30 prison cases in Anderson County.
+2021-07-30,,,Alabama,USA-01,both,,,Alabama was unable to announce new data because of a technical issue.
 2021-07-30,,,Delaware,USA-10,deaths,yes,yes,Delaware added 130 deaths from previous months after reviewing death certificates.
 2021-07-30,,,,USA,deaths,yes,,Delaware added many deaths from previous months.
-2021-07-30,,,Alabama,USA-01,both,,,Alabama was unable to announce new data because of a technical issue.
 2021-08-03,,Hood,Texas,USA-48221,cases,yes,,Texas added a backlog of 140 cases in Hood County.
