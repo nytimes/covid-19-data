@@ -511,6 +511,10 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2021-05-28,,,Nebraska,USA-31,both,yes,yes,"The Times began using local data for many Nebraska counties after the state stopped reporting county-level data on May 26, resulting in one-day increases and decreases in cases and deaths."
 2021-05-29,2021-06-12,Collin,Texas,USA-48085,cases,yes,,Texas reported many cases for Collin County on June 12 after officials did not announce new data for two weeks.
 2021-05-31,,,,USA,cases,,,The daily count is artificially low because many states and local jurisdictions did not announce new data on Memorial Day.
+2021-05-31,,Madison,Nebraska,USA-31119,both,,,State and local officials are no longer reporting data for Madison County.
+2021-05-31,,Burt,Nebraska,USA-31021,both,,,State and local officials are no longer reporting data for Burt County.
+2021-05-31,,Cuming,Nebraska,USA-31039,both,,,State and local officials are no longer reporting data for Cuming County.
+2021-05-31,,Stanton,Nebraska,USA-31167,both,,,State and local officials are no longer reporting data for Stanton County.
 2021-06-01,,,Kentucky,USA-21,deaths,yes,,Kentucky added many deaths that occurred in previous months.
 2021-06-01,,Williamson,Texas,USA-48491,cases,,,Williamson County did not update its data because of technical issues.
 2021-06-01,,Dade,Missouri,USA-29057,both,yes,,"The Times began using state data for Dade County, resulting in a one-time decrease in cases and deaths."
@@ -519,8 +523,13 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2021-06-04,,,,USA,cases,yes,,Florida stopped providing daily updates and removed many nonresident cases.
 2021-06-04,,,California,USA-06,deaths,yes,,Alameda County removed many deaths from causes unrelated to Covid-19.
 2021-06-04,,,Florida,USA-12,cases,yes,yes,"Florida changed its data format to a weekly report and stopped including nonresident cases, resulting in a one-day decrease in most counties."
+2021-06-04,,,Florida,USA-12,deaths,,,Florida stopped reporting county-level deaths on June 4.
 2021-06-04,,Alameda,California,USA-06001,deaths,yes,,Alameda County removed many deaths from causes unrelated to Covid-19.
 2021-06-04,,Williamson,Texas,USA-48491,cases,yes,,Texas added about 300 older cases in Williamson County.
+2021-06-04,,Boone,Nebraska,USA-31011,both,,,State and local officials are no longer reporting data.
+2021-06-04,,Colfax,Nebraska,USA-31037,both,,,State and local officials are no longer reporting data.
+2021-06-04,,Nance,Nebraska,USA-31125,both,,,State and local officials are no longer reporting data.
+2021-06-04,,Platte,Nebraska,USA-31141,both,,,State and local officials are no longer reporting data.
 2021-06-05,,Maverick,Texas,USA-48323,cases,yes,,Texas added about 250 older cases in Maverick County.
 2021-06-06,,,California,USA-06,deaths,yes,,California added many San Mateo County deaths from previous months.
 2021-06-06,,San Mateo,California,USA-06081,deaths,yes,,California added 186 San Mateo County deaths from previous months.
@@ -614,6 +623,11 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2021-06-30,,,West Virginia,USA-54,deaths,yes,,West Virginia added 11 deaths that occurred in late 2020 and early 2021. 
 2021-06-30,2021-07-02,Davidson,Tennessee,USA-47037,cases,yes,,Davidson County removed many cases.
 2021-06-30,2021-07-07,Richmond,Virginia,USA-51159,cases,yes,,Virginia removed many cases in Richmond County.
+2021-06-30,,Johnson,Nebraska,USA-31097,both,,,State and local officials are no longer reporting data.
+2021-06-30,,Nemaha,Nebraska,USA-31127,both,,,State and local officials are no longer reporting data.
+2021-06-30,,Otoe,Nebraska,USA-31131,both,,,State and local officials are no longer reporting data.
+2021-06-30,,Pawnee,Nebraska,USA-31133,both,,,State and local officials are no longer reporting data.
+2021-06-30,,Richardson,Nebraska,USA-31147,both,,,State and local officials are no longer reporting data.
 2021-07-01,,,,USA,cases,yes,,California began reporting probable cases based on antigen testing.
 2021-07-01,,,California,USA-06,cases,yes,,California began reporting probable cases based on antigen testing.
 2021-07-01,,San Diego,California,USA-06073,cases,yes,,The Times began including probable cases in San Diego County. 
@@ -676,7 +690,73 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2021-07-19,,Trumbull,Ohio,USA-39155,cases,yes,,"Ohio added cases from recent weeks after resolving a technical issue, including many cases in Trumbull County."
 2021-07-23,,,Utah,USA-49,both,,,"Utah did not release data because of Pioneer Day, a state holiday."
 2021-07-24,,Anderson,Texas,USA-48001,cases,yes,,Texas removed about 30 prison cases in Anderson County.
+2021-07-24,,Arthur,Nebraska,USA-31005,both,,,State and local officials are no longer reporting data.
+2021-07-24,,Hooker,Nebraska,USA-31091,both,,,State and local officials are no longer reporting data.
+2021-07-24,,Lincoln,Nebraska,USA-31111,both,,,State and local officials are no longer reporting data.
+2021-07-24,,Logan,Nebraska,USA-31113,both,,,State and local officials are no longer reporting data.
+2021-07-24,,McPherson,Nebraska,USA-31117,both,,,State and local officials are no longer reporting data.
+2021-07-24,,Thomas,Nebraska,USA-31171,both,,,State and local officials are no longer reporting data.
+2021-07-28,,Cedar,Nebraska,USA-31027,both,,,State and local officials are no longer reporting data.
+2021-07-28,,Dixon,Nebraska,USA-31051,both,,,State and local officials are no longer reporting data.
+2021-07-28,,Thurston,Nebraska,USA-31173,both,,,State and local officials are no longer reporting data.
+2021-07-28,,Wayne,Nebraska,USA-31179,both,,,State and local officials are no longer reporting data.
 2021-07-30,,,Alabama,USA-01,both,,,Alabama was unable to announce new data because of a technical issue.
 2021-07-30,,,Delaware,USA-10,deaths,yes,yes,Delaware added 130 deaths from previous months after reviewing death certificates.
 2021-07-30,,,,USA,deaths,yes,,Delaware added many deaths from previous months.
+2021-07-30,,Webb,Texas,USA-48479,cases,,,State and local officials are not regularly reporting data for Webb County.
+2021-07-31,,Banner,Nebraska,USA-31007,both,,,State and local officials are no longer reporting data.
+2021-07-31,,Box Butte,Nebraska,USA-31013,both,,,State and local officials are no longer reporting data.
+2021-07-31,,Cheyenne,Nebraska,USA-31033,both,,,State and local officials are no longer reporting data.
+2021-07-31,,Dawes,Nebraska,USA-31045,both,,,State and local officials are no longer reporting data.
+2021-07-31,,Deuel,Nebraska,USA-31049,both,,,State and local officials are no longer reporting data.
+2021-07-31,,Garden,Nebraska,USA-31069,both,,,State and local officials are no longer reporting data.
+2021-07-31,,Grant,Nebraska,USA-31075,both,,,State and local officials are no longer reporting data.
+2021-07-31,,Kimball,Nebraska,USA-31105,both,,,State and local officials are no longer reporting data.
+2021-07-31,,Morrill,Nebraska,USA-31123,both,,,State and local officials are no longer reporting data.
+2021-07-31,,Sheridan,Nebraska,USA-31161,both,,,State and local officials are no longer reporting data.
+2021-07-31,,Sioux,Nebraska,USA-31165,both,,,State and local officials are no longer reporting data.
+2021-07-31,,Butler,Nebraska,USA-31023,both,,,State and local officials are no longer reporting data.
+2021-07-31,,Polk,Nebraska,USA-31143,both,,,State and local officials are no longer reporting data.
+2021-07-31,,Seward,Nebraska,USA-31159,both,,,State and local officials are no longer reporting data.
+2021-07-31,,York,Nebraska,USA-31185,both,,,State and local officials are no longer reporting data.
+2021-07-31,,Chase,Nebraska,USA-31029,both,,,State and local officials are no longer reporting data.
+2021-07-31,,Dundy,Nebraska,USA-31057,both,,,State and local officials are no longer reporting data.
+2021-07-31,,Frontier,Nebraska,USA-31063,both,,,State and local officials are no longer reporting data.
+2021-07-31,,Furnas,Nebraska,USA-31065,both,,,State and local officials are no longer reporting data.
+2021-07-31,,Hayes,Nebraska,USA-31085,both,,,State and local officials are no longer reporting data.
+2021-07-31,,Hitchcock,Nebraska,USA-31087,both,,,State and local officials are no longer reporting data.
+2021-07-31,,Keith,Nebraska,USA-31101,both,,,State and local officials are no longer reporting data.
+2021-07-31,,Perkins,Nebraska,USA-31135,both,,,State and local officials are no longer reporting data.
+2021-07-31,,Red Willow,Nebraska,USA-31145,both,,,State and local officials are no longer reporting data.
+2021-07-31,,Dodge,Nebraska,USA-31053,both,,,State and local officials are no longer reporting data.
+2021-07-31,,Saunders,Nebraska,USA-31155,both,,,State and local officials are no longer reporting data.
+2021-07-31,,Washington,Nebraska,USA-31177,both,,,State and local officials are no longer reporting data.
+2021-07-31,,Hall,Nebraska,USA-31079,both,,,State and local officials are no longer reporting data.
+2021-07-31,,Hamilton,Nebraska,USA-31081,both,,,State and local officials are no longer reporting data.
+2021-07-31,,Merrick,Nebraska,USA-31121,both,,,State and local officials are no longer reporting data.
+2021-07-31,,Fillmore,Nebraska,USA-31059,both,,,State and local officials are no longer reporting data.
+2021-07-31,,Gage,Nebraska,USA-31067,both,,,State and local officials are no longer reporting data.
+2021-07-31,,Jefferson,Nebraska,USA-31095,both,,,State and local officials are no longer reporting data.
+2021-07-31,,Saline,Nebraska,USA-31151,both,,,State and local officials are no longer reporting data.
+2021-07-31,,Thayer,Nebraska,USA-31169,both,,,State and local officials are no longer reporting data.
+2021-07-31,,Blaine,Nebraska,USA-31009,both,,,State and local officials are no longer reporting data.
+2021-07-31,,Custer,Nebraska,USA-31041,both,,,State and local officials are no longer reporting data.
+2021-07-31,,Garfield,Nebraska,USA-31071,both,,,State and local officials are no longer reporting data.
+2021-07-31,,Greeley,Nebraska,USA-31077,both,,,State and local officials are no longer reporting data.
+2021-07-31,,Howard,Nebraska,USA-31093,both,,,State and local officials are no longer reporting data.
+2021-07-31,,Loup,Nebraska,USA-31115,both,,,State and local officials are no longer reporting data.
+2021-07-31,,Sherman,Nebraska,USA-31163,both,,,State and local officials are no longer reporting data.
+2021-07-31,,Valley,Nebraska,USA-31175,both,,,State and local officials are no longer reporting data.
+2021-07-31,,Wheeler,Nebraska,USA-31183,both,,,State and local officials are no longer reporting data.
+2021-07-31,,Antelope,Nebraska,USA-31003,both,,,State and local officials are no longer reporting data.
+2021-07-31,,Boyd,Nebraska,USA-31015,both,,,State and local officials are no longer reporting data.
+2021-07-31,,Brown,Nebraska,USA-31017,both,,,State and local officials are no longer reporting data.
+2021-07-31,,Cherry,Nebraska,USA-31031,both,,,State and local officials are no longer reporting data.
+2021-07-31,,Holt,Nebraska,USA-31089,both,,,State and local officials are no longer reporting data.
+2021-07-31,,Keya Paha,Nebraska,USA-31103,both,,,State and local officials are no longer reporting data.
+2021-07-31,,Knox,Nebraska,USA-31107,both,,,State and local officials are no longer reporting data.
+2021-07-31,,Pierce,Nebraska,USA-31139,both,,,State and local officials are no longer reporting data.
+2021-07-31,,Rock,Nebraska,USA-31149,both,,,State and local officials are no longer reporting data.
 2021-08-03,,Hood,Texas,USA-48221,cases,yes,,Texas added a backlog of 140 cases in Hood County.
+2021-08-06,,,Texas,USA-48,cases,yes,,"Texas added around 7,000 probable cases in Cameron County."
+2021-08-06,,Cameron,Texas,USA-48061,cases,yes,,Texas began reporting probable cases in Cameron County.
