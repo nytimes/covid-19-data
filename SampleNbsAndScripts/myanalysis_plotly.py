@@ -15,7 +15,7 @@ IN_COLAB = 'google.colab' in sys.modules
 
 # DID YOU SET covid_ftp_pw?
 # import os
-# os.environ['covid_ftp_pw']
+# os.environ['covid_ftp_pw'] = ''
 
 # %%
 if IN_COLAB:
@@ -297,8 +297,10 @@ df.loc[df.age_group=='5-14 years', 'PopulationRaw'] = int(population_by_age.POPE
 df.loc[df.age_group=='15-24 years', 'PopulationRaw'] = int(population_by_age.POPESTIMATE2019[(population_by_age.SEX == 0) & (population_by_age.AGE >= 15) & (population_by_age.AGE <= 24)].sum())
 #df.loc[df.age_group=='18-29 years', 'PopulationRaw'] = int(population_by_age.POPESTIMATE2019[(population_by_age.SEX == 0) & (population_by_age.AGE >= 18) & (population_by_age.AGE <= 29)].sum())
 df.loc[df.age_group=='25-34 years', 'PopulationRaw'] = int(population_by_age.POPESTIMATE2019[(population_by_age.SEX == 0) & (population_by_age.AGE >= 25) & (population_by_age.AGE <= 34)].sum())
+df.loc[df.age_group=='30-39 years', 'PopulationRaw'] = int(population_by_age.POPESTIMATE2019[(population_by_age.SEX == 0) & (population_by_age.AGE >= 30) & (population_by_age.AGE <= 39)].sum())
 #df.loc[df.age_group=='30-49 years', 'PopulationRaw'] = int(population_by_age.POPESTIMATE2019[(population_by_age.SEX == 0) & (population_by_age.AGE >= 30) & (population_by_age.AGE <= 49)].sum())
 df.loc[df.age_group=='35-44 years', 'PopulationRaw'] = int(population_by_age.POPESTIMATE2019[(population_by_age.SEX == 0) & (population_by_age.AGE >= 35) & (population_by_age.AGE <= 44)].sum())
+df.loc[df.age_group=='40-49 years', 'PopulationRaw'] = int(population_by_age.POPESTIMATE2019[(population_by_age.SEX == 0) & (population_by_age.AGE >= 40) & (population_by_age.AGE <= 49)].sum())
 df.loc[df.age_group=='45-54 years', 'PopulationRaw'] = int(population_by_age.POPESTIMATE2019[(population_by_age.SEX == 0) & (population_by_age.AGE >= 45) & (population_by_age.AGE <= 54)].sum())
 #df.loc[df.age_group=='50-64 years', 'PopulationRaw'] = int(population_by_age.POPESTIMATE2019[(population_by_age.SEX == 0) & (population_by_age.AGE >= 50) & (population_by_age.AGE <= 64)].sum())
 df.loc[df.age_group=='55-64 years', 'PopulationRaw'] = int(population_by_age.POPESTIMATE2019[(population_by_age.SEX == 0) & (population_by_age.AGE >= 55) & (population_by_age.AGE <= 64)].sum())
@@ -309,10 +311,10 @@ df.loc[df.age_group=='85 years and over', 'PopulationRaw'] = int(population_by_a
 df = df.assign(Population=df.PopulationRaw.map(lambda n: '{:,}'.format(n)))
 df = df.assign(ChanceOfDeathByCOVIDRaw = (df.covid_19_deaths.astype(int) / df.PopulationRaw))
 df = df.assign(ChanceOfDeathByPneumoniaRaw = (df.pneumonia_deaths.astype(int) / df.PopulationRaw))
-df = df.assign(ChanceOfDeathByPneumonia = df['ChanceOfDeathByPneumoniaRaw'].map(lambda n: 'none' if n==0 else 1/n))
-df = df.assign(ChanceOfDeathByCOVID = df['ChanceOfDeathByCOVIDRaw'].map(lambda n: 'none' if n==0 else 1/n))
+df = df.assign(ChanceOfDeathByPneumonia = df['ChanceOfDeathByPneumoniaRaw'].map(lambda n: 'none' if n==0 else '1 in {:,}'.format(round(1/n))))
+df = df.assign(ChanceOfDeathByCOVID = df['ChanceOfDeathByCOVIDRaw'].map(lambda n: 'none' if n==0 else '1 in {:,}'.format(round(1/n))))
 df = df.assign(ChanceOfDeathByFluRaw = (df.influenza_deaths.astype(int) / df.PopulationRaw))
-df = df.assign(ChanceOfDeathByFlu = df['ChanceOfDeathByFluRaw'].map(lambda n: 'none' if n==0 else 1/n))
+df = df.assign(ChanceOfDeathByFlu = df['ChanceOfDeathByFluRaw'].map(lambda n: 'none' if n==0 else '1 in {:,}'.format(round(1/n))))
 df = df.assign(ChanceOfDeathOtherThanCOVIDRaw = (df.total_deaths.astype(int) - (df.covid_19_deaths.astype(int) + df.pneumonia_deaths.astype(int) + df.influenza_deaths.astype(int))) / df.PopulationRaw)
 df = df.assign(ChanceOfDeathOtherThanCOVID = df['ChanceOfDeathOtherThanCOVIDRaw'].map(lambda n: '1 in {:,}'.format(round(1/n))))
 df = df.assign(ChanceOfLivingAfterCOVIDRaw = 1 - df['ChanceOfDeathByCOVIDRaw'])
