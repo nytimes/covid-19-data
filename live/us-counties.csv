@@ -192,13 +192,13 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-08-10,Calaveras,California,06009,2480,58,2462,57,18,1
 2021-08-10,Colusa,California,06011,2436,18,2070,16,366,2
 2021-08-10,Contra Costa,California,06013,81039,840,80100,840,939,
-2021-08-10,Del Norte,California,06015,1838,10,1838,10,,
+2021-08-10,Del Norte,California,06015,1919,10,1919,10,,
 2021-08-10,El Dorado,California,06017,12587,121,11631,117,956,4
 2021-08-10,Fresno,California,06019,116756,1747,107078,1747,9678,
 2021-08-10,Glenn,California,06021,3137,27,2527,27,610,0
-2021-08-10,Humboldt,California,06023,5747,56,5571,56,176,
+2021-08-10,Humboldt,California,06023,5747,56,5717,56,30,
 2021-08-10,Imperial,California,06025,32403,744,29485,744,2918,
-2021-08-10,Inyo,California,06027,1485,39,1481,39,4,
+2021-08-10,Inyo,California,06027,1498,39,1481,39,17,0
 2021-08-10,Kern,California,06029,115910,1429,115910,1429,,
 2021-08-10,Kings,California,06031,25418,252,24222,252,1196,
 2021-08-10,Lake,California,06033,4649,66,4636,66,13,
@@ -220,29 +220,29 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-08-10,Riverside,California,06065,323610,4667,314862,4667,8748,
 2021-08-10,Sacramento,California,06067,122538,1800,120416,1800,2122,
 2021-08-10,San Benito,California,06069,6471,63,6350,63,121,
-2021-08-10,San Bernardino,California,06071,317123,5295,311582,5295,5541,
+2021-08-10,San Bernardino,California,06071,317123,5295,311582,5295,5541,0
 2021-08-10,San Diego,California,06073,322818,3811,306046,3811,16772,
 2021-08-10,San Francisco,California,06075,44859,564,43101,564,1758,
 2021-08-10,San Joaquin,California,06077,83222,1474,79002,1474,4220,
 2021-08-10,San Luis Obispo,California,06079,23539,267,22668,267,871,
 2021-08-10,San Mateo,California,06081,46553,588,45927,588,626,
-2021-08-10,Santa Barbara,California,06083,37843,470,36417,470,1426,
+2021-08-10,Santa Barbara,California,06083,37843,470,36567,470,1276,
 2021-08-10,Santa Clara,California,06085,126478,2188,126246,2188,232,
 2021-08-10,Santa Cruz,California,06087,17922,209,17035,209,887,
 2021-08-10,Shasta,California,06089,15401,243,13412,243,1989,0
 2021-08-10,Sierra,California,06091,88,0,74,0,14,
-2021-08-10,Siskiyou,California,06093,2634,40,2634,40,,0
+2021-08-10,Siskiyou,California,06093,2678,40,2678,40,,0
 2021-08-10,Solano,California,06095,37320,262,37061,262,259,
 2021-08-10,Sonoma,California,06097,34225,334,33805,334,420,
 2021-08-10,Stanislaus,California,06099,67693,1100,60877,1100,6816,
-2021-08-10,Sutter,California,06101,10622,129,10622,129,,
+2021-08-10,Sutter,California,06101,10622,129,10622,129,,0
 2021-08-10,Tehama,California,06103,6037,66,5359,66,678,
 2021-08-10,Trinity,California,06105,454,3,379,3,75,
 2021-08-10,Tulare,California,06107,61568,854,51324,854,10244,
 2021-08-10,Tuolumne,California,06109,4929,73,4889,73,40,0
 2021-08-10,Ventura,California,06111,89119,1047,85672,1047,3447,
-2021-08-10,Yolo,California,06113,16003,218,15477,218,526,
-2021-08-10,Yuba,California,06115,7268,50,7268,50,,
+2021-08-10,Yolo,California,06113,16003,218,15477,218,526,0
+2021-08-10,Yuba,California,06115,7321,50,7321,50,,
 2021-08-10,Adams,Colorado,08001,64448,773,,,,
 2021-08-10,Alamosa,Colorado,08003,1830,38,,,,
 2021-08-10,Arapahoe,Colorado,08005,66762,846,,,,
@@ -1934,7 +1934,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-08-10,Davidson,North Carolina,37057,18035,206,15977,179,2058,27
 2021-08-10,Davie,North Carolina,37059,4472,43,3525,34,947,9
 2021-08-10,Duplin,North Carolina,37061,7094,145,4680,128,2414,17
-2021-08-10,Durham,North Carolina,37063,27163,241,27163,240,,1
+2021-08-10,Durham,North Carolina,37063,27403,241,27403,240,,1
 2021-08-10,Edgecombe,North Carolina,37065,5971,115,5678,112,293,3
 2021-08-10,Forsyth,North Carolina,37067,38968,435,34592,399,4376,36
 2021-08-10,Franklin,North Carolina,37069,7416,55,6977,54,439,1
@@ -1993,7 +1993,6 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-08-10,Transylvania,North Carolina,37175,2666,33,2076,32,590,1
 2021-08-10,Tyrrell,North Carolina,37177,352,6,311,6,41,0
 2021-08-10,Union,North Carolina,37179,26756,229,22824,203,3932,26
-2021-08-10,Unknown,North Carolina,,29,0,0,0,29,0
 2021-08-10,Vance,North Carolina,37181,5138,90,4646,78,492,12
 2021-08-10,Wake,North Carolina,37183,96728,758,88684,758,8044,
 2021-08-10,Warren,North Carolina,37185,1858,20,1731,18,127,2
@@ -2053,7 +2052,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-08-10,Stutsman,North Dakota,38093,3587,82,3108,,479,
 2021-08-10,Towner,North Dakota,38095,327,11,309,,18,
 2021-08-10,Traill,North Dakota,38097,1061,18,939,,122,
-2021-08-10,Unknown,North Dakota,,31,31,0,,31,
+2021-08-10,Unknown,North Dakota,,57,31,31,,26,
 2021-08-10,Walsh,North Dakota,38099,1921,27,1896,,25,
 2021-08-10,Ward,North Dakota,38101,10273,201,8965,,1308,
 2021-08-10,Wells,North Dakota,38103,462,8,380,,82,
@@ -2637,7 +2636,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-08-10,Baylor,Texas,48023,308,13,134,,174,
 2021-08-10,Bee,Texas,48025,3858,76,3409,,449,
 2021-08-10,Bell,Texas,48027,28072,468,25184,,2888,
-2021-08-10,Bexar,Texas,48029,249550,3710,203975,3625,45575,85
+2021-08-10,Bexar,Texas,48029,252731,3710,203975,3627,48756,83
 2021-08-10,Blanco,Texas,48031,847,22,696,,151,
 2021-08-10,Borden,Texas,48033,32,2,22,,10,
 2021-08-10,Bosque,Texas,48035,1854,38,1487,,367,
@@ -3093,10 +3092,10 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-08-10,Stevens,Washington,53065,2619,32,2377,,242,
 2021-08-10,Thurston,Washington,53067,12727,124,10931,,1796,
 2021-08-10,Wahkiakum,Washington,53069,176,4,159,,17,
-2021-08-10,Walla Walla,Washington,53071,6328,75,6061,74,267,1
+2021-08-10,Walla Walla,Washington,53071,6390,75,6061,74,329,1
 2021-08-10,Whatcom,Washington,53073,10702,109,10204,,498,
 2021-08-10,Whitman,Washington,53075,4529,52,4405,52,124,0
-2021-08-10,Yakima,Washington,53077,33577,464,28388,,5189,
+2021-08-10,Yakima,Washington,53077,33736,464,28388,,5348,
 2021-08-10,Barbour,West Virginia,54001,1571,34,1214,25,357,9
 2021-08-10,Berkeley,West Virginia,54003,13306,139,10669,120,2637,19
 2021-08-10,Boone,West Virginia,54005,2239,36,1986,34,253,2
