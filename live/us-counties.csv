@@ -192,7 +192,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-08-12,Calaveras,California,06009,2509,58,2491,57,18,1
 2021-08-12,Colusa,California,06011,2459,18,2088,16,371,2
 2021-08-12,Contra Costa,California,06013,81603,841,80628,841,975,
-2021-08-12,Del Norte,California,06015,1946,10,1946,10,,
+2021-08-12,Del Norte,California,06015,1972,10,1972,10,,
 2021-08-12,El Dorado,California,06017,12690,121,11734,117,956,4
 2021-08-12,Fresno,California,06019,117294,1747,107616,1747,9678,
 2021-08-12,Glenn,California,06021,3148,27,2538,27,610,0
@@ -202,8 +202,8 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-08-12,Kern,California,06029,116475,1433,116475,1433,,
 2021-08-12,Kings,California,06031,25575,253,24370,253,1205,
 2021-08-12,Lake,California,06033,4713,67,4700,67,13,
-2021-08-12,Lassen,California,06035,5970,26,5970,21,,5
-2021-08-12,Los Angeles,California,06037,1333863,24821,1331859,24821,2004,
+2021-08-12,Lassen,California,06035,5977,26,5977,21,,5
+2021-08-12,Los Angeles,California,06037,1336029,24833,1335332,24821,697,12
 2021-08-12,Madera,California,06039,18542,249,17481,245,1061,4
 2021-08-12,Marin,California,06041,15497,239,15194,239,303,
 2021-08-12,Mariposa,California,06043,601,7,601,7,,0
@@ -231,11 +231,11 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-08-12,Santa Cruz,California,06087,18029,209,17142,209,887,
 2021-08-12,Shasta,California,06089,15481,244,13604,244,1877,
 2021-08-12,Sierra,California,06091,90,0,76,0,14,
-2021-08-12,Siskiyou,California,06093,2708,40,2708,40,,0
+2021-08-12,Siskiyou,California,06093,2735,40,2735,40,,0
 2021-08-12,Solano,California,06095,37536,262,37355,262,181,
 2021-08-12,Sonoma,California,06097,34474,337,34126,337,348,
 2021-08-12,Stanislaus,California,06099,68119,1102,61228,1102,6891,
-2021-08-12,Sutter,California,06101,10681,130,10681,130,,
+2021-08-12,Sutter,California,06101,10737,130,10737,130,,
 2021-08-12,Tehama,California,06103,6070,66,5392,66,678,
 2021-08-12,Trinity,California,06105,460,3,385,3,75,
 2021-08-12,Tulare,California,06107,61738,854,51489,854,10249,
@@ -1934,7 +1934,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-08-12,Davidson,North Carolina,37057,18149,209,16081,182,2068,27
 2021-08-12,Davie,North Carolina,37059,4504,43,3550,34,954,9
 2021-08-12,Duplin,North Carolina,37061,7177,146,4723,129,2454,17
-2021-08-12,Durham,North Carolina,37063,27569,241,27569,240,,1
+2021-08-12,Durham,North Carolina,37063,27700,241,27700,240,,1
 2021-08-12,Edgecombe,North Carolina,37065,5980,115,5685,112,295,3
 2021-08-12,Forsyth,North Carolina,37067,39160,435,34754,399,4406,36
 2021-08-12,Franklin,North Carolina,37069,7458,55,7017,54,441,1
@@ -2636,7 +2636,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-08-12,Baylor,Texas,48023,309,13,135,,174,
 2021-08-12,Bee,Texas,48025,3958,76,3497,,461,
 2021-08-12,Bell,Texas,48027,28616,475,25628,,2988,
-2021-08-12,Bexar,Texas,48029,254645,3728,203975,3643,50670,85
+2021-08-12,Bexar,Texas,48029,256594,3728,203975,3652,52619,76
 2021-08-12,Blanco,Texas,48031,859,22,705,,154,
 2021-08-12,Borden,Texas,48033,33,2,22,,11,
 2021-08-12,Bosque,Texas,48035,1879,38,1500,,379,
@@ -3096,7 +3096,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-08-12,Walla Walla,Washington,53071,6454,75,6091,74,363,1
 2021-08-12,Whatcom,Washington,53073,10785,109,10280,,505,
 2021-08-12,Whitman,Washington,53075,4547,53,4427,52,120,1
-2021-08-12,Yakima,Washington,53077,33849,464,28478,,5371,
+2021-08-12,Yakima,Washington,53077,34009,464,28478,,5531,
 2021-08-12,Barbour,West Virginia,54001,1587,34,1217,,370,
 2021-08-12,Berkeley,West Virginia,54003,13394,139,10741,,2653,
 2021-08-12,Boone,West Virginia,54005,2250,36,1994,,256,
