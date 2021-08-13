@@ -203,7 +203,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-08-13,Kings,California,06031,25627,254,24490,254,1137,
 2021-08-13,Lake,California,06033,4726,68,4713,68,13,
 2021-08-13,Lassen,California,06035,5977,26,5977,21,,5
-2021-08-13,Los Angeles,California,06037,1336961,24851,1335332,24851,1629,
+2021-08-13,Los Angeles,California,06037,1339835,24854,1339138,24851,697,3
 2021-08-13,Madera,California,06039,18572,249,17511,245,1061,4
 2021-08-13,Marin,California,06041,15538,239,15235,239,303,
 2021-08-13,Mariposa,California,06043,626,7,626,7,,0
@@ -231,7 +231,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-08-13,Santa Cruz,California,06087,18078,209,17272,209,806,
 2021-08-13,Shasta,California,06089,15566,244,13685,244,1881,0
 2021-08-13,Sierra,California,06091,95,0,81,0,14,
-2021-08-13,Siskiyou,California,06093,2735,40,2735,40,,0
+2021-08-13,Siskiyou,California,06093,2755,40,2755,40,,0
 2021-08-13,Solano,California,06095,37631,262,37355,262,276,
 2021-08-13,Sonoma,California,06097,34608,337,34296,337,312,
 2021-08-13,Stanislaus,California,06099,68390,1105,61483,1105,6907,
@@ -1225,21 +1225,21 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-08-13,Washington,Maryland,24043,15043,337,15039,333,4,4
 2021-08-13,Wicomico,Maryland,24045,8173,179,8173,179,0,0
 2021-08-13,Worcester,Maryland,24047,3856,106,3855,105,1,1
-2021-08-13,Barnstable,Massachusetts,25001,14877,484,14877,,,
-2021-08-13,Berkshire,Massachusetts,25003,6879,293,6879,,,
-2021-08-13,Bristol,Massachusetts,25005,69237,1757,69237,,,
-2021-08-13,Dukes,Massachusetts,25007,1501,0,1501,,,
-2021-08-13,Essex,Massachusetts,25009,100012,2415,100012,,,
-2021-08-13,Franklin,Massachusetts,25011,2664,114,2664,,,
-2021-08-13,Hampden,Massachusetts,25013,54089,1548,54089,,,
-2021-08-13,Hampshire,Massachusetts,25015,9390,300,9390,,,
-2021-08-13,Middlesex,Massachusetts,25017,139401,3799,139401,,,
-2021-08-13,Nantucket,Massachusetts,25019,1691,0,1691,,,
-2021-08-13,Norfolk,Massachusetts,25021,56612,1812,56612,,,
-2021-08-13,Plymouth,Massachusetts,25023,50854,1460,50854,,,
-2021-08-13,Suffolk,Massachusetts,25025,95999,1860,95999,,,
-2021-08-13,Unknown,Massachusetts,,49154,12,941,0,48213,12
-2021-08-13,Worcester,Massachusetts,25027,79461,2267,79461,,,
+2021-08-13,Barnstable,Massachusetts,25001,14898,485,14898,,,
+2021-08-13,Berkshire,Massachusetts,25003,6896,295,6896,,,
+2021-08-13,Bristol,Massachusetts,25005,69359,1758,69359,,,
+2021-08-13,Dukes,Massachusetts,25007,1502,0,1502,,,
+2021-08-13,Essex,Massachusetts,25009,100161,2416,100161,,,
+2021-08-13,Franklin,Massachusetts,25011,2675,114,2675,,,
+2021-08-13,Hampden,Massachusetts,25013,54207,1548,54207,,,
+2021-08-13,Hampshire,Massachusetts,25015,9413,300,9413,,,
+2021-08-13,Middlesex,Massachusetts,25017,139654,3800,139654,,,
+2021-08-13,Nantucket,Massachusetts,25019,1702,0,1702,,,
+2021-08-13,Norfolk,Massachusetts,25021,56734,1814,56734,,,
+2021-08-13,Plymouth,Massachusetts,25023,50947,1460,50947,,,
+2021-08-13,Suffolk,Massachusetts,25025,96180,1861,96180,,,
+2021-08-13,Unknown,Massachusetts,,49293,12,941,0,48352,12
+2021-08-13,Worcester,Massachusetts,25027,79567,2268,79567,,,
 2021-08-13,Alcona,Michigan,26001,764,33,629,28,135,5
 2021-08-13,Alger,Michigan,26003,672,7,475,3,197,4
 2021-08-13,Allegan,Michigan,26005,11561,163,10369,139,1192,24
@@ -2635,7 +2635,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-08-13,Baylor,Texas,48023,310,13,136,,174,
 2021-08-13,Bee,Texas,48025,3984,76,3518,,466,
 2021-08-13,Bell,Texas,48027,28830,475,25804,,3026,
-2021-08-13,Bexar,Texas,48029,256594,3739,203975,3652,52619,87
+2021-08-13,Bexar,Texas,48029,257806,3739,203975,3658,53831,81
 2021-08-13,Blanco,Texas,48031,860,23,706,,154,
 2021-08-13,Borden,Texas,48033,33,2,22,,11,
 2021-08-13,Bosque,Texas,48035,1890,39,1507,,383,
@@ -3094,7 +3094,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-08-13,Walla Walla,Washington,53071,6454,75,6120,74,334,1
 2021-08-13,Whatcom,Washington,53073,10849,109,10337,,512,
 2021-08-13,Whitman,Washington,53075,4568,53,4452,53,116,0
-2021-08-13,Yakima,Washington,53077,34009,465,28613,,5396,
+2021-08-13,Yakima,Washington,53077,34202,465,28613,,5589,
 2021-08-13,Barbour,West Virginia,54001,1594,34,1224,,370,
 2021-08-13,Berkeley,West Virginia,54003,13429,139,10769,,2660,
 2021-08-13,Boone,West Virginia,54005,2254,36,1997,,257,
