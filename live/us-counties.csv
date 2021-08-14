@@ -204,7 +204,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-08-14,Kings,California,06031,25746,255,24598,255,1148,
 2021-08-14,Lake,California,06033,4787,68,4774,68,13,
 2021-08-14,Lassen,California,06035,6015,26,6015,26,,0
-2021-08-14,Los Angeles,California,06037,1340598,24874,1339138,24874,1460,
+2021-08-14,Los Angeles,California,06037,1343533,24874,1342839,24874,694,
 2021-08-14,Madera,California,06039,18625,249,17564,246,1061,3
 2021-08-14,Marin,California,06041,15580,239,15277,239,303,
 2021-08-14,Mariposa,California,06043,636,7,636,7,,0
@@ -246,7 +246,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-08-14,Yuba,California,06115,7562,51,7562,51,,
 2021-08-14,Adams,Colorado,08001,64959,775,,,,
 2021-08-14,Alamosa,Colorado,08003,1846,39,,,,
-2021-08-14,Arapahoe,Colorado,08005,67326,846,,,,
+2021-08-14,Arapahoe,Colorado,08005,67326,845,,,,
 2021-08-14,Archuleta,Colorado,08007,1199,2,,,,
 2021-08-14,Baca,Colorado,08009,341,4,,,,
 2021-08-14,Bent,Colorado,08011,1554,22,,,,
@@ -1935,7 +1935,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-08-14,Davidson,North Carolina,37057,18397,209,16305,182,2092,27
 2021-08-14,Davie,North Carolina,37059,4574,43,3605,34,969,9
 2021-08-14,Duplin,North Carolina,37061,7325,146,4788,129,2537,17
-2021-08-14,Durham,North Carolina,37063,27842,241,27842,240,,1
+2021-08-14,Durham,North Carolina,37063,27978,241,27978,240,,1
 2021-08-14,Edgecombe,North Carolina,37065,6019,115,5724,112,295,3
 2021-08-14,Forsyth,North Carolina,37067,39568,436,35119,400,4449,36
 2021-08-14,Franklin,North Carolina,37069,7511,55,7069,54,442,1
@@ -2637,7 +2637,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-08-14,Baylor,Texas,48023,310,13,136,,174,
 2021-08-14,Bee,Texas,48025,4019,76,3547,,472,
 2021-08-14,Bell,Texas,48027,29080,478,25980,,3100,
-2021-08-14,Bexar,Texas,48029,257806,3754,203975,3658,53831,96
+2021-08-14,Bexar,Texas,48029,259648,3754,203975,3673,55673,81
 2021-08-14,Blanco,Texas,48031,868,23,713,,155,
 2021-08-14,Borden,Texas,48033,33,2,22,,11,
 2021-08-14,Bosque,Texas,48035,1918,39,1525,,393,
@@ -3061,12 +3061,12 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-08-14,Adams,Washington,53001,2376,25,2151,,225,
 2021-08-14,Asotin,Washington,53003,1733,31,1675,,58,
 2021-08-14,Benton,Washington,53005,21725,245,20533,,1192,
-2021-08-14,Chelan,Washington,53007,7699,75,3641,69,4058,6
+2021-08-14,Chelan,Washington,53007,7755,75,3641,69,4114,6
 2021-08-14,Clallam,Washington,53009,1914,17,1716,,198,
 2021-08-14,Clark,Washington,53011,28843,316,26779,,2064,
 2021-08-14,Columbia,Washington,53013,183,6,107,,76,
 2021-08-14,Cowlitz,Washington,53015,8122,106,7312,,810,
-2021-08-14,Douglas,Washington,53017,4157,23,1955,22,2202,1
+2021-08-14,Douglas,Washington,53017,4185,23,1955,22,2230,1
 2021-08-14,Ferry,Washington,53019,442,9,315,,127,
 2021-08-14,Franklin,Washington,53021,14801,128,14152,,649,
 2021-08-14,Garfield,Washington,53023,142,6,92,,50,
@@ -3093,10 +3093,10 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-08-14,Stevens,Washington,53065,2683,32,2425,,258,
 2021-08-14,Thurston,Washington,53067,13108,127,11227,,1881,
 2021-08-14,Wahkiakum,Washington,53069,183,4,163,,20,
-2021-08-14,Walla Walla,Washington,53071,6483,75,6142,74,341,1
+2021-08-14,Walla Walla,Washington,53071,6507,75,6142,74,365,1
 2021-08-14,Whatcom,Washington,53073,10920,109,10391,,529,
 2021-08-14,Whitman,Washington,53075,4583,54,4466,53,117,1
-2021-08-14,Yakima,Washington,53077,34202,465,28711,,5491,
+2021-08-14,Yakima,Washington,53077,34275,465,28711,,5564,
 2021-08-14,Barbour,West Virginia,54001,1603,34,1224,,379,
 2021-08-14,Berkeley,West Virginia,54003,13448,139,10788,,2660,
 2021-08-14,Boone,West Virginia,54005,2254,36,1997,,257,
