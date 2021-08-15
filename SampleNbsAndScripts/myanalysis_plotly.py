@@ -346,11 +346,6 @@ html_graphs.write('''
 ''')
 html_graphs.write("  <object data=\""+'DeathRiskTable.html'+"\" width=" + str(default_width * 1.10) + " height=" + str(default_height* 1.10) + "\"></object>"+"\n")
 
-# %% [markdown]
-#  **********************************************************************************************************
-#  # New cases per day for US
-#  **********************************************************************************************************
-
 # %%
 def movingaverage(df, window):
     if len(df) > window:
