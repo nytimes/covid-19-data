@@ -204,7 +204,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-08-15,Kings,California,06031,25854,256,24716,256,1138,
 2021-08-15,Lake,California,06033,4824,68,4811,68,13,
 2021-08-15,Lassen,California,06035,6015,26,6015,26,,0
-2021-08-15,Los Angeles,California,06037,1344129,24891,1342839,24891,1290,
+2021-08-15,Los Angeles,California,06037,1347717,24892,1347023,24891,694,1
 2021-08-15,Madera,California,06039,18675,249,17614,246,1061,3
 2021-08-15,Marin,California,06041,15683,239,15380,239,303,
 2021-08-15,Mariposa,California,06043,636,7,636,7,,0
@@ -317,10 +317,10 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-08-15,Tolland,Connecticut,09013,10026,188,9070,149,956,39
 2021-08-15,Unknown,Connecticut,,1216,1,1041,1,175,0
 2021-08-15,Windham,Connecticut,09015,11278,196,10768,154,510,42
-2021-08-15,Kent,Delaware,10001,19151,383,17375,353,1776,30
-2021-08-15,New Castle,Delaware,10003,67120,907,63080,813,4040,94
-2021-08-15,Sussex,Delaware,10005,27349,547,24887,514,2462,33
-2021-08-15,Unknown,Delaware,,233,0,216,,17,
+2021-08-15,Kent,Delaware,10001,19250,384,17478,354,1772,30
+2021-08-15,New Castle,Delaware,10003,67274,907,63227,813,4047,94
+2021-08-15,Sussex,Delaware,10005,27431,547,24953,514,2478,33
+2021-08-15,Unknown,Delaware,,232,0,215,,17,
 2021-08-15,District of Columbia,District of Columbia,11001,52201,1150,52201,1150,,
 2021-08-15,Alachua,Florida,12001,30824,285,,,,
 2021-08-15,Baker,Florida,12003,4866,62,,,,
@@ -928,7 +928,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-08-15,Geary,Kansas,20061,4082,47,,,,
 2021-08-15,Gove,Kansas,20063,392,21,,,,
 2021-08-15,Graham,Kansas,20065,270,9,,,,
-2021-08-15,Grant,Kansas,20067,1039,21,1039,20,,1
+2021-08-15,Grant,Kansas,20067,1042,21,1042,20,,1
 2021-08-15,Gray,Kansas,20069,654,14,,,,
 2021-08-15,Greeley,Kansas,20071,114,1,,,,
 2021-08-15,Greenwood,Kansas,20073,659,11,,,,
@@ -1570,7 +1570,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-08-15,Morgan,Missouri,29141,2231,49,2094,,137,
 2021-08-15,New Madrid,Missouri,29143,2401,48,2078,,323,
 2021-08-15,Newton,Missouri,29145,7006,96,5581,,1425,
-2021-08-15,Nodaway,Missouri,29147,2970,31,2539,31,431,
+2021-08-15,Nodaway,Missouri,29147,3004,31,2569,31,435,
 2021-08-15,Oregon,Missouri,29149,1091,6,870,,221,
 2021-08-15,Osage,Missouri,29151,1886,18,1697,,189,
 2021-08-15,Ozark,Missouri,29153,915,24,737,,178,
@@ -1599,7 +1599,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-08-15,Ste. Genevieve,Missouri,29186,1972,17,1812,,160,
 2021-08-15,St. Francois,Missouri,29187,9711,118,8549,,1162,
 2021-08-15,St. Louis,Missouri,29189,112696,2340,112696,2340,,
-2021-08-15,St. Louis city,Missouri,29510,27940,552,24807,552,3133,
+2021-08-15,St. Louis city,Missouri,29510,27987,552,24888,552,3099,
 2021-08-15,Stoddard,Missouri,29207,3149,51,2797,,352,
 2021-08-15,Stone,Missouri,29209,3440,59,2918,,522,
 2021-08-15,Sullivan,Missouri,29211,1043,14,940,,103,
@@ -2761,7 +2761,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-08-15,Kinney,Texas,48271,365,7,346,,19,
 2021-08-15,Kleberg,Texas,48273,3291,97,2322,,969,
 2021-08-15,Knox,Texas,48275,267,18,175,,92,
-2021-08-15,Lamar,Texas,48277,6465,163,2859,152,3606,11
+2021-08-15,Lamar,Texas,48277,6549,163,2880,152,3669,11
 2021-08-15,Lamb,Texas,48279,2635,84,2054,,581,
 2021-08-15,Lampasas,Texas,48281,2577,38,2180,,397,
 2021-08-15,La Salle,Texas,48283,1037,30,891,,146,
@@ -2827,7 +2827,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-08-15,Sabine,Texas,48403,718,47,327,,391,
 2021-08-15,San Augustine,Texas,48405,662,32,379,,283,
 2021-08-15,San Jacinto,Texas,48407,1811,39,1265,,546,
-2021-08-15,San Patricio,Texas,48409,5209,156,5126,,83,
+2021-08-15,San Patricio,Texas,48409,5209,156,5209,,0,
 2021-08-15,San Saba,Texas,48411,820,23,544,,276,
 2021-08-15,Schleicher,Texas,48413,272,7,143,,129,
 2021-08-15,Scurry,Texas,48415,2585,62,2493,,92,
@@ -2880,13 +2880,13 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-08-15,Beaver,Utah,49001,861,9,,,,
 2021-08-15,Box Elder,Utah,49003,6166,60,,,,
 2021-08-15,Cache,Utah,49005,17492,54,,,,
-2021-08-15,Carbon,Utah,49007,1949,20,,,,
+2021-08-15,Carbon,Utah,49007,1950,20,,,,
 2021-08-15,Daggett,Utah,49009,60,0,,,,
 2021-08-15,Davis,Utah,49011,42915,196,,,,
 2021-08-15,Duchesne,Utah,49013,1651,9,,,,
-2021-08-15,Emery,Utah,49015,997,11,,,,
+2021-08-15,Emery,Utah,49015,999,11,,,,
 2021-08-15,Garfield,Utah,49017,495,10,,,,
-2021-08-15,Grand,Utah,49019,1122,4,,,,
+2021-08-15,Grand,Utah,49019,1123,4,,,,
 2021-08-15,Iron,Utah,49021,6775,37,,,,
 2021-08-15,Juab,Utah,49023,1475,13,,,,
 2021-08-15,Kane,Utah,49025,744,8,,,,
