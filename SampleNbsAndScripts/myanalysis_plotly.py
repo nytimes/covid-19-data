@@ -14,8 +14,8 @@ import sys
 IN_COLAB = 'google.colab' in sys.modules
 
 # DID YOU SET covid_ftp_pw?
-# import os
-# os.environ['covid_ftp_pw'] = ''
+import os
+os.environ['covid_ftp_pw'] = ''
 
 # %%
 if IN_COLAB:
@@ -372,6 +372,7 @@ def generate_delta_df(state, county, column):
     totals_by_date['diff'] = 0
     if deltas.size > 0:
         totals_by_date['diff'][1:] = deltas
+        totals_by_date.loc[totals_by_date['diff'] < 0] = 0
     return totals_by_date
 
 def plotmovingaverage(deltas_df, nameOfplot, hover_template, show_by_default=True):
@@ -389,10 +390,11 @@ def plotmovingaverage(deltas_df, nameOfplot, hover_template, show_by_default=Tru
         )
 
 
+# %% [markdown]
+# **********************************************************************************************************
+# # New Cases and Deaths in US
+# **********************************************************************************************************
 # %%
-#############################
-# New cases and Deaths in US
-#############################
 row = 1
 fig = make_subplots(specs=[[{"secondary_y": True}]])
 total_new_cases_by_date = generate_delta_df("all", "", "cases")
@@ -439,10 +441,11 @@ implies that if you are infected, you have a 97% chance of surviving. <br/>
 html_graphs.write("  <object data=\""+'Chart_'+str(row)+'.html'+"\" width=" + str(default_width * 1.10) + " height=" + str(default_height* 1.10) + "\"></object>"+"\n")
 
 
+# %% [markdown]
+# **********************************************************************************************************
+# # New cases by state
+# **********************************************************************************************************
 # %%
-#############################
-# New cases by state
-#############################
 row += 1
 layout = go.Layout(
         title = 'New cases by state',
@@ -470,10 +473,11 @@ html_graphs.write('''
 html_graphs.write("  <object data=\""+'Chart_'+str(row)+'.html'+"\" width=" + str(default_width * 1.10) + " height=" + str(default_height* 1.10) + "\"></object>"+"\n")
 
 
+# %% [markdown]
+# **********************************************************************************************************
+# # Daily Deaths by state
+# **********************************************************************************************************
 # %%
-#############################
-# Daily Deaths by state
-#############################
 row += 1
 layout = go.Layout(
         title = 'Daily deaths by state',
@@ -498,10 +502,11 @@ plotly.offline.plot(fig, filename=webpage_folder + 'Chart_'+str(row)+'.html',aut
 html_graphs.write("  <object data=\""+'Chart_'+str(row)+'.html'+"\" width=" + str(default_width * 1.10) + " height=" + str(default_height* 1.10) + "\"></object>"+"\n")
 
 
+# %% [markdown]
+# **********************************************************************************************************
+# # New cases by interesting county
+# **********************************************************************************************************
 # %%
-#############################
-# New cases by interesting county
-#############################
 row += 1
 layout = go.Layout(
         title = 'New cases by interesting county',
@@ -528,10 +533,11 @@ html_graphs.write('''
 html_graphs.write("  <object data=\""+'Chart_'+str(row)+'.html'+"\" width=" + str(default_width * 1.10) + " height=" + str(default_height* 1.10) + "\"></object>"+"\n")
 
 
+# %% [markdown]
+# **********************************************************************************************************
+# # Daily deaths by interesting county
+# **********************************************************************************************************
 # %%
-#############################
-# Daily deaths by interesting county
-#############################
 row += 1
 layout = go.Layout(
         title = 'Daily deaths by interesting county',
@@ -563,10 +569,11 @@ if IN_COLAB:
   !apt-get install xvfb libgtk2.0-0 libgconf-2-4
   import plotly.graph_objects as go
 
+# %% [markdown]
+# **********************************************************************************************************
+# # Do all states & counties
+# **********************************************************************************************************
 # %%
-#####################################
-# Do all states & counties
-#####################################
 html_graphs.write('''
 <div>
 <h1>State New Cases and Death Breakdowns</h1>\n
@@ -680,7 +687,6 @@ html_graphs.write('<div style=\"clear:both\"></div>')
 #  **********************************************************************************************************
 #  # State Totals
 #  **********************************************************************************************************
-
 # %%
 def plottotalcases(state, county = 'all', show_by_default=True):
     if county == 'all':
@@ -733,9 +739,11 @@ as new cases on a daily basis.
 </div>''')
 html_graphs.write("  <object data=\""+'Chart_'+str(row)+'.html'+"\" width=" + str(default_width * 1.10) + " height=" + str(default_height* 1.10) + "\"></object>"+"\n")
 
-###########################
-# County Totals
-###########################
+# %% [markdown]
+# **********************************************************************************************************
+# # County Totals
+# **********************************************************************************************************
+# %%
 row += 1
 starting_cases = 200
 layout = go.Layout(
@@ -761,7 +769,6 @@ html_graphs.write("  <object data=\""+'Chart_'+str(row)+'.html'+"\" width=" + st
 #  **********************************************************************************************************
 #  # State cases adjusted for population
 #  **********************************************************************************************************
-
 # %%
 def stateplotpercapita(state, show_by_default):
     data = state_cov_data[state_cov_data.state == state][['date', 'cases']].groupby('date').sum()
@@ -810,11 +817,10 @@ population state.
 </div>''')
 html_graphs.write("  <object data=\""+'Chart_'+str(row)+'.html'+"\" width=" + str(default_width * 1.10) + " height=" + str(default_height* 1.10) + "\"></object>"+"\n")
 
-#################################################
-# County cases adjusted for population
-#################################################
-
-
+# %% [markdown]
+# **********************************************************************************************************
+# # County cases adjusted for population
+# **********************************************************************************************************
 # %%
 def countyplotpercapita(state, county, show_by_default):
     data = county_cov_data[county_cov_data.state == state][['date', 'cases', 'county']].groupby('date').sum()
@@ -857,7 +863,6 @@ html_graphs.write("  <object data=\""+'Chart_'+str(row)+'.html'+"\" width=" + st
 #  **********************************************************************************************************
 #  # State cases adjusted for population density
 #  **********************************************************************************************************
-
 # %%
 def stateplotbydensity(state, show_by_default):
     data = state_cov_data[state_cov_data.state == state][['date', 'cases']].groupby('date').sum()
@@ -911,7 +916,6 @@ html_graphs.write("  <object data=\""+'Chart_'+str(row)+'.html'+"\" width=" + st
 #  **********************************************************************************************************
 #  # County cases adjusted for population density
 #  **********************************************************************************************************
-
 # %%
 def countyplotbydensity(county, state, show_by_default):
     data = county_cov_data[(county_cov_data.county == county) & (county_cov_data.state == state)][['date', 'cases']].groupby('date').sum()
@@ -979,7 +983,6 @@ html_graphs.write('<div style=\"clear:both\"></div>')
 #  **********************************************************************************************************
 #  # City cases adjusted for population
 #  **********************************************************************************************************
-
 # %%
 def cityplotpercapita(state, city, show_by_default):
     county = 'not found'
@@ -1037,7 +1040,6 @@ html_graphs.write("  <object data=\""+'Chart_'+str(row)+'.html'+"\" width=" + st
 #  **********************************************************************************************************
 #  # City total cases adjusted for population density
 #  **********************************************************************************************************
-
 # %%
 def cityplotbydensity(state, city, show_by_default):
     county = 'not found'
@@ -1095,7 +1097,6 @@ html_graphs.write("  <object data=\""+'Chart_'+str(row)+'.html'+"\" width=" + st
 #  **********************************************************************************************************
 #  # City deaths adjusted for population density
 #  **********************************************************************************************************
-
 # %%
 def citydeathsplotbydensity(state, city, show_by_default):
     county = 'not found'
