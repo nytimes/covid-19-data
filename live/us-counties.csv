@@ -186,14 +186,14 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-08-16,White,Arkansas,05145,10830,149,6705,114,4125,35
 2021-08-16,Woodruff,Arkansas,05147,833,16,538,11,295,5
 2021-08-16,Yell,Arkansas,05149,3805,66,3201,50,604,16
-2021-08-16,Alameda,California,06001,103701,1299,101326,1299,2375,
+2021-08-16,Alameda,California,06001,103701,1302,101897,1302,1804,
 2021-08-16,Alpine,California,06003,91,0,91,0,0,0
 2021-08-16,Amador,California,06005,4241,49,4205,49,36,0
 2021-08-16,Butte,California,06007,16330,206,14192,206,2138,
 2021-08-16,Calaveras,California,06009,2597,58,2579,57,18,1
 2021-08-16,Colusa,California,06011,2500,18,2134,16,366,2
 2021-08-16,Contra Costa,California,06013,83043,848,82150,848,893,
-2021-08-16,Del Norte,California,06015,2026,10,2026,10,0,
+2021-08-16,Del Norte,California,06015,2060,10,2060,10,,
 2021-08-16,El Dorado,California,06017,12975,122,12019,118,956,4
 2021-08-16,Fresno,California,06019,118734,1753,109056,1753,9678,
 2021-08-16,Glenn,California,06021,3193,27,2583,27,610,0
@@ -232,7 +232,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-08-16,Santa Cruz,California,06087,18271,209,17384,209,887,
 2021-08-16,Shasta,California,06089,15833,244,13813,244,2020,0
 2021-08-16,Sierra,California,06091,95,0,81,0,14,
-2021-08-16,Siskiyou,California,06093,2755,40,2755,40,,0
+2021-08-16,Siskiyou,California,06093,2786,40,2786,40,,0
 2021-08-16,Solano,California,06095,38006,263,37669,263,337,
 2021-08-16,Sonoma,California,06097,35026,338,34686,338,340,
 2021-08-16,Stanislaus,California,06099,68731,1106,61780,1106,6951,
@@ -244,9 +244,9 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-08-16,Ventura,California,06111,90306,1052,86569,1052,3737,
 2021-08-16,Yolo,California,06113,16341,225,15815,225,526,
 2021-08-16,Yuba,California,06115,7562,51,7562,51,,
-2021-08-16,Adams,Colorado,08001,65071,777,,,,
+2021-08-16,Adams,Colorado,08001,65139,777,,,,
 2021-08-16,Alamosa,Colorado,08003,1846,39,,,,
-2021-08-16,Arapahoe,Colorado,08005,67485,847,,,,
+2021-08-16,Arapahoe,Colorado,08005,67613,847,,,,
 2021-08-16,Archuleta,Colorado,08007,1199,2,,,,
 2021-08-16,Baca,Colorado,08009,341,4,,,,
 2021-08-16,Bent,Colorado,08011,1554,22,,,,
@@ -262,7 +262,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-08-16,Delta,Colorado,08029,3173,75,,,,
 2021-08-16,Denver,Colorado,08031,77878,858,,,,
 2021-08-16,Dolores,Colorado,08033,136,1,,,,
-2021-08-16,Douglas,Colorado,08035,33029,276,,,,
+2021-08-16,Douglas,Colorado,08035,33081,276,,,,
 2021-08-16,Eagle,Colorado,08037,6742,26,,,,
 2021-08-16,Elbert,Colorado,08039,1988,15,,,,
 2021-08-16,El Paso,Colorado,08041,78666,920,,,,
@@ -1317,7 +1317,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-08-16,Sanilac,Michigan,26151,4313,126,3782,118,531,8
 2021-08-16,Schoolcraft,Michigan,26153,455,5,364,4,91,1
 2021-08-16,Shiawassee,Michigan,26155,6642,110,5883,108,759,2
-2021-08-16,St. Clair,Michigan,26147,18830,456,15659,434,3171,22
+2021-08-16,St. Clair,Michigan,26147,18862,456,15679,434,3183,22
 2021-08-16,St. Joseph,Michigan,26149,6450,104,5730,98,720,6
 2021-08-16,Tuscola,Michigan,26157,5806,176,4988,164,818,12
 2021-08-16,Unknown,Michigan,,781,18,0,15,781,3
@@ -1680,7 +1680,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-08-16,Buffalo,Nebraska,31019,5697,57,,,,
 2021-08-16,Burt,Nebraska,31021,671,12,,,,
 2021-08-16,Butler,Nebraska,31023,864,12,,,,
-2021-08-16,Cass,Nebraska,31025,2757,17,2757,17,,
+2021-08-16,Cass,Nebraska,31025,2762,17,2762,17,,
 2021-08-16,Cedar,Nebraska,31027,956,11,,,,
 2021-08-16,Chase,Nebraska,31029,477,5,,,,
 2021-08-16,Cherry,Nebraska,31031,439,8,,,,
@@ -1744,7 +1744,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-08-16,Richardson,Nebraska,31147,816,24,,,,
 2021-08-16,Rock,Nebraska,31149,154,2,,,,
 2021-08-16,Saline,Nebraska,31151,2037,3,,,,
-2021-08-16,Sarpy,Nebraska,31153,23139,136,23139,136,,
+2021-08-16,Sarpy,Nebraska,31153,23207,136,23207,136,,
 2021-08-16,Saunders,Nebraska,31155,2575,20,,,,
 2021-08-16,Scotts Bluff,Nebraska,31157,4830,96,,,,
 2021-08-16,Seward,Nebraska,31159,2055,34,,,,
@@ -1755,7 +1755,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-08-16,Thayer,Nebraska,31169,490,7,,,,
 2021-08-16,Thomas,Nebraska,31171,55,1,,,,
 2021-08-16,Thurston,Nebraska,31173,1206,11,,,,
-2021-08-16,Unknown,Nebraska,,2027,0,,,,
+2021-08-16,Unknown,Nebraska,,1954,0,,,,
 2021-08-16,Valley,Nebraska,31175,344,2,,,,
 2021-08-16,Washington,Nebraska,31177,2228,29,,,,
 2021-08-16,Wayne,Nebraska,31179,1178,7,,,,
@@ -2800,7 +2800,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-08-16,Navarro,Texas,48349,6615,154,3703,,2912,
 2021-08-16,Newton,Texas,48351,713,38,328,,385,
 2021-08-16,Nolan,Texas,48353,1660,54,1660,,0,
-2021-08-16,Nueces,Texas,48355,47583,892,32869,892,14714,
+2021-08-16,Nueces,Texas,48355,47663,905,32895,905,14768,
 2021-08-16,Ochiltree,Texas,48357,1255,29,1100,,155,
 2021-08-16,Oldham,Texas,48359,298,4,163,,135,
 2021-08-16,Orange,Texas,48361,9932,158,4515,,5417,
