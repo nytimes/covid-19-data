@@ -202,8 +202,8 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-08-18,Kern,California,06029,118360,1436,118360,1436,,
 2021-08-18,Kings,California,06031,26140,256,25003,256,1137,
 2021-08-18,Lake,California,06033,4911,68,4898,68,13,
-2021-08-18,Lassen,California,06035,6015,26,6015,26,0,0
-2021-08-18,Los Angeles,California,06037,1354053,24923,1352791,24923,1262,
+2021-08-18,Lassen,California,06035,6080,26,6080,26,,0
+2021-08-18,Los Angeles,California,06037,1356392,24935,1355698,24923,694,12
 2021-08-18,Madera,California,06039,18817,249,17756,246,1061,3
 2021-08-18,Marin,California,06041,15800,239,15497,239,303,
 2021-08-18,Mariposa,California,06043,673,8,673,8,,
@@ -231,11 +231,11 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-08-18,Santa Cruz,California,06087,18378,209,17497,209,881,
 2021-08-18,Shasta,California,06089,15882,247,14001,247,1881,
 2021-08-18,Sierra,California,06091,96,0,82,0,14,
-2021-08-18,Siskiyou,California,06093,2822,40,2822,40,,0
+2021-08-18,Siskiyou,California,06093,2876,40,2876,40,,0
 2021-08-18,Solano,California,06095,38205,263,37919,263,286,
 2021-08-18,Sonoma,California,06097,35264,338,34844,338,420,
 2021-08-18,Stanislaus,California,06099,69910,1109,62883,1109,7027,
-2021-08-18,Sutter,California,06101,11014,130,11014,130,,0
+2021-08-18,Sutter,California,06101,11061,130,11061,130,,0
 2021-08-18,Tehama,California,06103,6243,66,5565,66,678,
 2021-08-18,Trinity,California,06105,476,3,401,3,75,
 2021-08-18,Tulare,California,06107,62510,856,52162,856,10348,
@@ -243,9 +243,9 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-08-18,Ventura,California,06111,90691,1052,87202,1052,3489,
 2021-08-18,Yolo,California,06113,16448,225,15922,225,526,0
 2021-08-18,Yuba,California,06115,7737,51,7737,51,,
-2021-08-18,Adams,Colorado,08001,65205,777,,,,
+2021-08-18,Adams,Colorado,08001,65305,777,,,,
 2021-08-18,Alamosa,Colorado,08003,1858,39,,,,
-2021-08-18,Arapahoe,Colorado,08005,67696,847,,,,
+2021-08-18,Arapahoe,Colorado,08005,67814,847,,,,
 2021-08-18,Archuleta,Colorado,08007,1209,2,,,,
 2021-08-18,Baca,Colorado,08009,342,4,,,,
 2021-08-18,Bent,Colorado,08011,1554,22,,,,
@@ -261,7 +261,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-08-18,Delta,Colorado,08029,3177,76,,,,
 2021-08-18,Denver,Colorado,08031,78316,860,,,,
 2021-08-18,Dolores,Colorado,08033,137,1,,,,
-2021-08-18,Douglas,Colorado,08035,33120,276,,,,
+2021-08-18,Douglas,Colorado,08035,33172,276,,,,
 2021-08-18,Eagle,Colorado,08037,6865,26,,,,
 2021-08-18,Elbert,Colorado,08039,2002,15,,,,
 2021-08-18,El Paso,Colorado,08041,79317,926,,,,
@@ -1598,7 +1598,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-08-18,Ste. Genevieve,Missouri,29186,1995,17,1833,,162,
 2021-08-18,St. Francois,Missouri,29187,9778,119,8596,,1182,
 2021-08-18,St. Louis,Missouri,29189,113289,2345,113289,2345,,
-2021-08-18,St. Louis city,Missouri,29510,28103,553,24949,553,3154,
+2021-08-18,St. Louis city,Missouri,29510,28116,553,24994,553,3122,
 2021-08-18,Stoddard,Missouri,29207,3201,54,2837,,364,
 2021-08-18,Stone,Missouri,29209,3470,60,2941,,529,
 2021-08-18,Sullivan,Missouri,29211,1050,14,947,,103,
@@ -1811,39 +1811,39 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-08-18,Union,New Jersey,34039,74053,1995,62573,1766,11480,229
 2021-08-18,Unknown,New Jersey,,835,0,736,0,99,0
 2021-08-18,Warren,New Jersey,34041,10322,242,9299,216,1023,26
-2021-08-18,Bernalillo,New Mexico,35001,63221,989,63221,989,,
+2021-08-18,Bernalillo,New Mexico,35001,63391,991,63391,991,,
 2021-08-18,Catron,New Mexico,35003,115,6,115,6,,
-2021-08-18,Chaves,New Mexico,35005,10031,173,10031,173,,
-2021-08-18,Cibola,New Mexico,35006,3638,128,3638,128,,
-2021-08-18,Colfax,New Mexico,35007,997,47,997,47,,
-2021-08-18,Curry,New Mexico,35009,5771,87,5771,87,,
+2021-08-18,Chaves,New Mexico,35005,10055,173,10055,173,,
+2021-08-18,Cibola,New Mexico,35006,3646,128,3646,128,,
+2021-08-18,Colfax,New Mexico,35007,1005,47,1005,47,,
+2021-08-18,Curry,New Mexico,35009,5793,87,5793,87,,
 2021-08-18,De Baca,New Mexico,35011,201,2,201,2,,
-2021-08-18,Doña Ana,New Mexico,35013,26349,504,26349,504,,
-2021-08-18,Eddy,New Mexico,35015,8222,153,8222,153,,
-2021-08-18,Grant,New Mexico,35017,1838,43,1838,43,,
-2021-08-18,Guadalupe,New Mexico,35019,749,15,749,15,,
+2021-08-18,Doña Ana,New Mexico,35013,26417,504,26417,504,,
+2021-08-18,Eddy,New Mexico,35015,8287,153,8287,153,,
+2021-08-18,Grant,New Mexico,35017,1839,43,1839,43,,
+2021-08-18,Guadalupe,New Mexico,35019,753,15,753,15,,
 2021-08-18,Harding,New Mexico,35021,13,1,13,1,,
 2021-08-18,Hidalgo,New Mexico,35023,481,9,481,9,,
-2021-08-18,Lea,New Mexico,35025,10688,206,10688,206,,
-2021-08-18,Lincoln,New Mexico,35027,2039,20,2039,20,,
+2021-08-18,Lea,New Mexico,35025,10829,206,10829,206,,
+2021-08-18,Lincoln,New Mexico,35027,2058,20,2058,20,,
 2021-08-18,Los Alamos,New Mexico,35028,590,7,590,7,,
-2021-08-18,Luna,New Mexico,35029,3512,92,3512,92,,
-2021-08-18,McKinley,New Mexico,35031,12848,483,12848,483,,
-2021-08-18,Mora,New Mexico,35033,189,8,189,8,,
-2021-08-18,Otero,New Mexico,35035,5852,88,5852,88,,
-2021-08-18,Quay,New Mexico,35037,638,11,638,11,,
-2021-08-18,Rio Arriba,New Mexico,35039,4007,82,4007,82,,
-2021-08-18,Roosevelt,New Mexico,35041,2218,61,2218,61,,
-2021-08-18,Sandoval,New Mexico,35043,13110,244,13110,244,,
-2021-08-18,San Juan,New Mexico,35045,16463,504,16463,504,,
-2021-08-18,San Miguel,New Mexico,35047,1583,17,1583,17,,
-2021-08-18,Santa Fe,New Mexico,35049,11446,154,11446,154,,
-2021-08-18,Sierra,New Mexico,35051,818,52,818,52,,
+2021-08-18,Luna,New Mexico,35029,3517,92,3517,92,,
+2021-08-18,McKinley,New Mexico,35031,12853,483,12853,483,,
+2021-08-18,Mora,New Mexico,35033,190,8,190,8,,
+2021-08-18,Otero,New Mexico,35035,5867,88,5867,88,,
+2021-08-18,Quay,New Mexico,35037,643,11,643,11,,
+2021-08-18,Rio Arriba,New Mexico,35039,4028,82,4028,82,,
+2021-08-18,Roosevelt,New Mexico,35041,2231,61,2231,61,,
+2021-08-18,Sandoval,New Mexico,35043,13147,245,13147,245,,
+2021-08-18,San Juan,New Mexico,35045,16491,504,16491,504,,
+2021-08-18,San Miguel,New Mexico,35047,1597,17,1597,17,,
+2021-08-18,Santa Fe,New Mexico,35049,11466,154,11466,154,,
+2021-08-18,Sierra,New Mexico,35051,822,52,822,52,,
 2021-08-18,Socorro,New Mexico,35053,1387,61,1387,61,,
-2021-08-18,Taos,New Mexico,35055,1847,56,1847,56,,
-2021-08-18,Torrance,New Mexico,35057,1295,16,1295,16,,
+2021-08-18,Taos,New Mexico,35055,1856,56,1856,56,,
+2021-08-18,Torrance,New Mexico,35057,1301,16,1301,16,,
 2021-08-18,Union,New Mexico,35059,442,10,442,10,,
-2021-08-18,Valencia,New Mexico,35061,7742,124,7742,124,,
+2021-08-18,Valencia,New Mexico,35061,7776,125,7776,125,,
 2021-08-18,Albany,New York,36001,25903,358,25903,358,,
 2021-08-18,Allegany,New York,36003,3630,87,3630,87,,
 2021-08-18,Broome,New York,36007,19322,369,19322,369,,
@@ -1933,7 +1933,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-08-18,Davidson,North Carolina,37057,18735,210,16622,183,2113,27
 2021-08-18,Davie,North Carolina,37059,4690,43,3712,34,978,9
 2021-08-18,Duplin,North Carolina,37061,7466,146,4883,129,2583,17
-2021-08-18,Durham,North Carolina,37063,28161,242,28161,241,,1
+2021-08-18,Durham,North Carolina,37063,28259,242,28259,241,,1
 2021-08-18,Edgecombe,North Carolina,37065,6102,115,5801,112,301,3
 2021-08-18,Forsyth,North Carolina,37067,40227,437,35735,401,4492,36
 2021-08-18,Franklin,North Carolina,37069,7615,55,7166,54,449,1
@@ -2636,7 +2636,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-08-18,Baylor,Texas,48023,311,13,137,,174,
 2021-08-18,Bee,Texas,48025,4091,78,3617,,474,
 2021-08-18,Bell,Texas,48027,29446,486,26296,,3150,
-2021-08-18,Bexar,Texas,48029,264250,3779,218014,3679,46236,100
+2021-08-18,Bexar,Texas,48029,266039,3779,218014,3699,48025,80
 2021-08-18,Blanco,Texas,48031,886,23,721,,165,
 2021-08-18,Borden,Texas,48033,33,2,22,,11,
 2021-08-18,Bosque,Texas,48035,1943,39,1539,,404,
@@ -3095,7 +3095,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-08-18,Walla Walla,Washington,53071,6642,75,6252,74,390,1
 2021-08-18,Whatcom,Washington,53073,11178,109,10603,,575,
 2021-08-18,Whitman,Washington,53075,4615,54,4490,54,125,0
-2021-08-18,Yakima,Washington,53077,34442,467,28824,,5618,
+2021-08-18,Yakima,Washington,53077,34575,467,28824,,5751,
 2021-08-18,Barbour,West Virginia,54001,1648,34,1244,,404,
 2021-08-18,Berkeley,West Virginia,54003,13645,140,10906,,2739,
 2021-08-18,Boone,West Virginia,54005,2282,36,2020,,262,
