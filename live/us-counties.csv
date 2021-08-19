@@ -203,7 +203,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-08-19,Kings,California,06031,26253,258,25056,258,1197,
 2021-08-19,Lake,California,06033,4943,68,4930,68,13,
 2021-08-19,Lassen,California,06035,6080,26,6080,26,,0
-2021-08-19,Los Angeles,California,06037,1356722,24952,1355698,24952,1024,
+2021-08-19,Los Angeles,California,06037,1360366,24967,1359672,24952,694,15
 2021-08-19,Madera,California,06039,18899,249,17838,246,1061,3
 2021-08-19,Marin,California,06041,15873,240,15570,240,303,
 2021-08-19,Mariposa,California,06043,678,8,678,8,,
@@ -231,21 +231,21 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-08-19,Santa Cruz,California,06087,18415,209,17528,209,887,
 2021-08-19,Shasta,California,06089,16032,250,14100,250,1932,
 2021-08-19,Sierra,California,06091,96,0,82,0,14,
-2021-08-19,Siskiyou,California,06093,2876,40,2876,40,,0
+2021-08-19,Siskiyou,California,06093,2899,40,2899,40,,0
 2021-08-19,Solano,California,06095,38431,269,38299,269,132,
 2021-08-19,Sonoma,California,06097,35363,340,34992,340,371,
 2021-08-19,Stanislaus,California,06099,70193,1112,63114,1112,7079,
-2021-08-19,Sutter,California,06101,11083,130,11061,130,22,0
+2021-08-19,Sutter,California,06101,11094,130,11094,130,,0
 2021-08-19,Tehama,California,06103,6290,66,5612,66,678,
 2021-08-19,Trinity,California,06105,482,3,407,3,75,
 2021-08-19,Tulare,California,06107,62710,856,52362,856,10348,
 2021-08-19,Tuolumne,California,06109,5240,82,5235,82,5,
 2021-08-19,Ventura,California,06111,91338,1053,87601,1053,3737,
 2021-08-19,Yolo,California,06113,16501,225,15975,225,526,0
-2021-08-19,Yuba,California,06115,7737,51,7737,51,,
-2021-08-19,Adams,Colorado,08001,65305,777,,,,
+2021-08-19,Yuba,California,06115,7789,51,7789,51,,
+2021-08-19,Adams,Colorado,08001,65490,778,,,,
 2021-08-19,Alamosa,Colorado,08003,1860,39,,,,
-2021-08-19,Arapahoe,Colorado,08005,67814,847,,,,
+2021-08-19,Arapahoe,Colorado,08005,67991,847,,,,
 2021-08-19,Archuleta,Colorado,08007,1215,2,,,,
 2021-08-19,Baca,Colorado,08009,345,4,,,,
 2021-08-19,Bent,Colorado,08011,1554,22,,,,
@@ -261,7 +261,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-08-19,Delta,Colorado,08029,3186,76,,,,
 2021-08-19,Denver,Colorado,08031,78562,862,,,,
 2021-08-19,Dolores,Colorado,08033,137,1,,,,
-2021-08-19,Douglas,Colorado,08035,33172,276,,,,
+2021-08-19,Douglas,Colorado,08035,33304,276,,,,
 2021-08-19,Eagle,Colorado,08037,6912,26,,,,
 2021-08-19,Elbert,Colorado,08039,2005,15,,,,
 2021-08-19,El Paso,Colorado,08041,79547,926,,,,
@@ -1933,7 +1933,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-08-19,Davidson,North Carolina,37057,18789,210,16664,183,2125,27
 2021-08-19,Davie,North Carolina,37059,4720,43,3739,34,981,9
 2021-08-19,Duplin,North Carolina,37061,7510,149,4896,131,2614,18
-2021-08-19,Durham,North Carolina,37063,28259,242,28259,241,,1
+2021-08-19,Durham,North Carolina,37063,28507,242,28507,241,,1
 2021-08-19,Edgecombe,North Carolina,37065,6115,115,5813,112,302,3
 2021-08-19,Forsyth,North Carolina,37067,40400,437,35874,401,4526,36
 2021-08-19,Franklin,North Carolina,37069,7659,55,7208,54,451,1
@@ -2636,7 +2636,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-08-19,Baylor,Texas,48023,311,13,137,,174,
 2021-08-19,Bee,Texas,48025,4130,80,3654,,476,
 2021-08-19,Bell,Texas,48027,29645,488,26439,,3206,
-2021-08-19,Bexar,Texas,48029,266039,3796,219518,3699,46521,97
+2021-08-19,Bexar,Texas,48029,267642,3796,219518,3703,48124,93
 2021-08-19,Blanco,Texas,48031,895,23,727,,168,
 2021-08-19,Borden,Texas,48033,33,2,22,,11,
 2021-08-19,Bosque,Texas,48035,1953,40,1547,,406,
@@ -3057,45 +3057,45 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-08-19,St. Croix,Virgin Islands,78010,2028,16,2028,16,,
 2021-08-19,St. John,Virgin Islands,78020,290,1,290,1,,
 2021-08-19,St. Thomas,Virgin Islands,78030,3095,24,3095,24,,
-2021-08-19,Adams,Washington,53001,2409,25,2179,,230,
-2021-08-19,Asotin,Washington,53003,1774,31,1712,,62,
-2021-08-19,Benton,Washington,53005,22342,249,21067,,1275,
-2021-08-19,Chelan,Washington,53007,7957,75,3685,69,4272,6
-2021-08-19,Clallam,Washington,53009,2001,17,1797,,204,
-2021-08-19,Clark,Washington,53011,29454,316,27281,,2173,
-2021-08-19,Columbia,Washington,53013,188,6,109,,79,
-2021-08-19,Cowlitz,Washington,53015,8392,107,7563,,829,
-2021-08-19,Douglas,Washington,53017,4286,24,1983,22,2303,2
-2021-08-19,Ferry,Washington,53019,448,9,320,,128,
-2021-08-19,Franklin,Washington,53021,15199,128,14477,,722,
-2021-08-19,Garfield,Washington,53023,147,6,94,,53,
+2021-08-19,Adams,Washington,53001,2425,25,2190,,235,
+2021-08-19,Asotin,Washington,53003,1785,31,1721,,64,
+2021-08-19,Benton,Washington,53005,22564,251,21271,,1293,
+2021-08-19,Chelan,Washington,53007,7957,75,3704,69,4253,6
+2021-08-19,Clallam,Washington,53009,2047,17,1843,,204,
+2021-08-19,Clark,Washington,53011,29662,318,27450,,2212,
+2021-08-19,Columbia,Washington,53013,192,6,111,,81,
+2021-08-19,Cowlitz,Washington,53015,8451,107,7615,,836,
+2021-08-19,Douglas,Washington,53017,4286,24,1990,22,2296,2
+2021-08-19,Ferry,Washington,53019,449,9,320,,129,
+2021-08-19,Franklin,Washington,53021,15341,130,14585,,756,
+2021-08-19,Garfield,Washington,53023,149,6,94,,55,
 2021-08-19,Grant,Washington,53025,12010,133,7905,133,4105,0
-2021-08-19,Grays Harbor,Washington,53027,5240,83,4764,,476,
-2021-08-19,Island,Washington,53029,2428,32,2107,,321,
-2021-08-19,Jefferson,Washington,53031,602,4,566,,36,
+2021-08-19,Grays Harbor,Washington,53027,5251,84,4774,,477,
+2021-08-19,Island,Washington,53029,2448,32,2123,,325,
+2021-08-19,Jefferson,Washington,53031,609,4,572,,37,
 2021-08-19,King,Washington,53033,127638,1718,121232,1718,6406,
-2021-08-19,Kitsap,Washington,53035,10457,125,9252,,1205,
-2021-08-19,Kittitas,Washington,53037,3677,38,3338,,339,
-2021-08-19,Klickitat,Washington,53039,1072,13,916,,156,
-2021-08-19,Lewis,Washington,53041,6384,85,5002,,1382,
-2021-08-19,Lincoln,Washington,53043,794,12,736,,58,
-2021-08-19,Mason,Washington,53045,3410,40,3262,,148,
-2021-08-19,Okanogan,Washington,53047,2994,42,2022,,972,
-2021-08-19,Pacific,Washington,53049,1219,17,1001,,218,
-2021-08-19,Pend Oreille,Washington,53051,927,9,800,,127,
-2021-08-19,Pierce,Washington,53053,65653,679,59089,,6564,
-2021-08-19,San Juan,Washington,53055,228,0,223,,5,
-2021-08-19,Skagit,Washington,53057,7000,82,6072,,928,
-2021-08-19,Skamania,Washington,53059,447,1,431,,16,
-2021-08-19,Snohomish,Washington,53061,46643,631,43376,,3267,
-2021-08-19,Spokane,Washington,53063,53103,715,48977,,4126,
-2021-08-19,Stevens,Washington,53065,2732,32,2470,,262,
-2021-08-19,Thurston,Washington,53067,13515,129,11544,,1971,
-2021-08-19,Wahkiakum,Washington,53069,186,5,166,,20,
-2021-08-19,Walla Walla,Washington,53071,6642,75,6252,74,390,1
-2021-08-19,Whatcom,Washington,53073,11178,109,10603,,575,
-2021-08-19,Whitman,Washington,53075,4627,54,4490,54,137,0
-2021-08-19,Yakima,Washington,53077,34575,467,28824,,5751,
+2021-08-19,Kitsap,Washington,53035,10575,126,9344,,1231,
+2021-08-19,Kittitas,Washington,53037,3692,38,3352,,340,
+2021-08-19,Klickitat,Washington,53039,1086,13,929,,157,
+2021-08-19,Lewis,Washington,53041,6444,85,5037,,1407,
+2021-08-19,Lincoln,Washington,53043,805,12,744,,61,
+2021-08-19,Mason,Washington,53045,3426,40,3278,,148,
+2021-08-19,Okanogan,Washington,53047,3020,42,2032,,988,
+2021-08-19,Pacific,Washington,53049,1226,17,1010,,216,
+2021-08-19,Pend Oreille,Washington,53051,930,9,801,,129,
+2021-08-19,Pierce,Washington,53053,66117,679,59449,,6668,
+2021-08-19,San Juan,Washington,53055,231,0,224,,7,
+2021-08-19,Skagit,Washington,53057,7057,82,6112,,945,
+2021-08-19,Skamania,Washington,53059,455,1,439,,16,
+2021-08-19,Snohomish,Washington,53061,46936,632,43614,,3322,
+2021-08-19,Spokane,Washington,53063,53103,723,49199,,3904,
+2021-08-19,Stevens,Washington,53065,2747,32,2484,,263,
+2021-08-19,Thurston,Washington,53067,13631,131,11614,,2017,
+2021-08-19,Wahkiakum,Washington,53069,188,5,168,,20,
+2021-08-19,Walla Walla,Washington,53071,6688,77,6275,75,413,2
+2021-08-19,Whatcom,Washington,53073,11270,109,10673,,597,
+2021-08-19,Whitman,Washington,53075,4627,54,4499,54,128,0
+2021-08-19,Yakima,Washington,53077,34872,469,28968,,5904,
 2021-08-19,Barbour,West Virginia,54001,1672,34,1249,,423,
 2021-08-19,Berkeley,West Virginia,54003,13702,140,10946,,2756,
 2021-08-19,Boone,West Virginia,54005,2287,36,2025,,262,
