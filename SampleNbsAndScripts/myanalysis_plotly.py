@@ -287,7 +287,7 @@ covid_by_age.drop(indexNames , inplace=True)
 
 # %%
 
-df = covid_by_age[(covid_by_age.state == 'United States') & (covid_by_age.sex == 'All Sexes')]
+df = covid_by_age[(covid_by_age.state == 'United States') & (covid_by_age.sex == 'All Sexes') & (covid_by_age.group == 'By Total')]
 df = df.assign(PopulationRaw=int(0))
 df.loc[df.age_group=='All Ages', 'PopulationRaw'] = int(population_by_age.POPESTIMATE2019[(population_by_age.SEX == 0) & (population_by_age.AGE == 999)])
 df.loc[df.age_group=='Under 1 year', 'PopulationRaw'] = int(population_by_age.POPESTIMATE2019[(population_by_age.SEX == 0) & (population_by_age.AGE == 0)])
