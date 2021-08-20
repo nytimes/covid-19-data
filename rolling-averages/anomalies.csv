@@ -768,6 +768,10 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2021-08-11,,,New York,USA-36,cases,,,"New York City released three days of data at once, resulting in a high one-day total for the state."
 2021-08-11,,,California,USA-06,deaths,yes,,California removed around 400 deaths in Santa Clara County after verifying records.
 2021-08-11,,Santa Clara,California,USA-06085,deaths,yes,,California removed around 400 deaths in Santa Clara County after verifying records.
+2021-08-11,,Adams,Nebraska,USA-31001,both,,,State and local officials are no longer reporting data.
+2021-08-11,,Clay,Nebraska,USA-31035,both,,,State and local officials are no longer reporting data.
+2021-08-11,,Nuckolls,Nebraska,USA-31129,both,,,State and local officials are no longer reporting data.
+2021-08-11,,Webster,Nebraska,USA-31181,both,,,State and local officials are no longer reporting data.
 2021-08-12,,Lea,New Mexico,USA-35025,cases,yes,,New Mexico added a backlog of about 330 older cases from one facility in Lea County.
 2021-08-16,,,Florida,USA-12,both,,,"The daily count includes Florida's weekend update, which is typically announced on Tuesdays. The 7-day average is artificially high because of this atypical schedule."
 2021-08-16,,,Vermont,USA-50,both,,,"Vermont did not release data because of Bennington Battle Day, a state holiday."
