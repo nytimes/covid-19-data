@@ -762,7 +762,7 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2021-08-03,,Hood,Texas,USA-48221,cases,yes,,Texas added a backlog of 140 cases in Hood County.
 2021-08-06,,,Texas,USA-48,cases,yes,,"Texas added around 7,000 probable cases in Cameron County."
 2021-08-06,,Cameron,Texas,USA-48061,cases,yes,,Texas began reporting probable cases in Cameron County.
-2021-08-09,2021-08-11,New York City,New York,USA-36998,both,,,New York City released three days of data at once on Aug. 11 after the city was unable to update for two days because of technical issues.
+2021-08-09,2021-08-11,New York City,New York,USA-36998,both,yes,,New York City released three days of data at once on Aug. 11 after the city was unable to update for two days because of technical issues.
 2021-08-09,,,North Carolina,USA-37,cases,,,"North Carolina added a backlog of about 2,600 cases from July."
 2021-08-09,,,Rhode Island,USA-44,both,,,"Rhode Island did not release data because of Victory Day, a state holiday."
 2021-08-11,,,New York,USA-36,cases,,,"New York City released three days of data at once, resulting in a high one-day total for the state."
@@ -775,3 +775,5 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2021-08-12,,Lea,New Mexico,USA-35025,cases,yes,,New Mexico added a backlog of about 330 older cases from one facility in Lea County.
 2021-08-16,,,Florida,USA-12,both,,,"The daily count includes Florida's weekend update, which is typically announced on Tuesdays. The 7-day average is artificially high because of this atypical schedule."
 2021-08-16,,,Vermont,USA-50,both,,,"Vermont did not release data because of Bennington Battle Day, a state holiday."
+2021-08-20,,,California,USA-06,cases,yes,,Los Angeles added about many older cases representing people who were infected twice.
+2021-08-20,,Los Angeles,California,USA-06037,cases,yes,,Los Angeles added about many older cases representing people who were infected twice.
