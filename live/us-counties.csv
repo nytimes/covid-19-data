@@ -186,14 +186,14 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-08-23,White,Arkansas,05145,11244,155,6895,118,4349,37
 2021-08-23,Woodruff,Arkansas,05147,872,17,550,11,322,6
 2021-08-23,Yell,Arkansas,05149,3919,67,3277,51,642,16
-2021-08-23,Alameda,California,06001,106813,1309,104302,1309,2511,
+2021-08-23,Alameda,California,06001,106813,1309,104682,1309,2131,
 2021-08-23,Alpine,California,06003,91,0,91,0,0,0
 2021-08-23,Amador,California,06005,4376,50,4337,50,39,0
 2021-08-23,Butte,California,06007,17139,211,14714,211,2425,
 2021-08-23,Calaveras,California,06009,2765,61,2744,59,21,2
 2021-08-23,Colusa,California,06011,2625,18,2192,16,433,2
 2021-08-23,Contra Costa,California,06013,85893,857,84729,857,1164,
-2021-08-23,Del Norte,California,06015,2423,15,2409,15,14,
+2021-08-23,Del Norte,California,06015,2447,15,2447,15,,
 2021-08-23,El Dorado,California,06017,13709,122,12590,118,1119,4
 2021-08-23,Fresno,California,06019,121767,1759,111765,1759,10002,
 2021-08-23,Glenn,California,06021,3294,27,2654,27,640,0
@@ -243,10 +243,10 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-08-23,Tuolumne,California,06109,5371,82,5303,82,68,0
 2021-08-23,Ventura,California,06111,92529,1063,88558,1063,3971,
 2021-08-23,Yolo,California,06113,16999,226,16322,226,677,
-2021-08-23,Yuba,California,06115,7860,54,7860,54,,
-2021-08-23,Adams,Colorado,08001,66078,783,,,,
+2021-08-23,Yuba,California,06115,7945,54,7945,54,,
+2021-08-23,Adams,Colorado,08001,66230,783,,,,
 2021-08-23,Alamosa,Colorado,08003,1864,39,,,,
-2021-08-23,Arapahoe,Colorado,08005,68589,849,,,,
+2021-08-23,Arapahoe,Colorado,08005,68768,849,,,,
 2021-08-23,Archuleta,Colorado,08007,1225,2,,,,
 2021-08-23,Baca,Colorado,08009,349,4,,,,
 2021-08-23,Bent,Colorado,08011,1554,22,,,,
@@ -262,7 +262,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-08-23,Delta,Colorado,08029,3199,76,,,,
 2021-08-23,Denver,Colorado,08031,78976,863,,,,
 2021-08-23,Dolores,Colorado,08033,140,1,,,,
-2021-08-23,Douglas,Colorado,08035,33669,276,,,,
+2021-08-23,Douglas,Colorado,08035,33780,276,,,,
 2021-08-23,Eagle,Colorado,08037,6971,26,,,,
 2021-08-23,Elbert,Colorado,08039,2018,16,,,,
 2021-08-23,El Paso,Colorado,08041,79952,927,,,,
@@ -918,7 +918,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-08-23,Decatur,Kansas,20039,285,12,,,,
 2021-08-23,Dickinson,Kansas,20041,2126,50,,,,
 2021-08-23,Doniphan,Kansas,20043,1217,25,,,,
-2021-08-23,Douglas,Kansas,20045,10411,89,10411,,0,
+2021-08-23,Douglas,Kansas,20045,10463,89,10463,,,
 2021-08-23,Edwards,Kansas,20047,278,12,,,,
 2021-08-23,Elk,Kansas,20049,207,5,,,,
 2021-08-23,Ellis,Kansas,20051,3914,74,,,,
@@ -1318,7 +1318,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-08-23,Sanilac,Michigan,26151,4338,126,3801,118,537,8
 2021-08-23,Schoolcraft,Michigan,26153,465,5,371,4,94,1
 2021-08-23,Shiawassee,Michigan,26155,6733,110,5951,108,782,2
-2021-08-23,St. Clair,Michigan,26147,18964,457,15757,435,3207,22
+2021-08-23,St. Clair,Michigan,26147,19001,457,15781,435,3220,22
 2021-08-23,St. Joseph,Michigan,26149,6535,104,5806,98,729,6
 2021-08-23,Tuscola,Michigan,26157,5867,176,5030,164,837,12
 2021-08-23,Unknown,Michigan,,794,18,0,15,794,3
@@ -1681,7 +1681,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-08-23,Buffalo,Nebraska,31019,5851,57,,,,
 2021-08-23,Burt,Nebraska,31021,671,12,,,,
 2021-08-23,Butler,Nebraska,31023,864,12,,,,
-2021-08-23,Cass,Nebraska,31025,2787,17,2787,17,,
+2021-08-23,Cass,Nebraska,31025,2791,17,2791,17,,
 2021-08-23,Cedar,Nebraska,31027,956,11,,,,
 2021-08-23,Chase,Nebraska,31029,477,5,,,,
 2021-08-23,Cherry,Nebraska,31031,439,8,,,,
@@ -1745,7 +1745,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-08-23,Richardson,Nebraska,31147,816,24,,,,
 2021-08-23,Rock,Nebraska,31149,154,2,,,,
 2021-08-23,Saline,Nebraska,31151,2037,3,,,,
-2021-08-23,Sarpy,Nebraska,31153,23439,136,23439,136,,
+2021-08-23,Sarpy,Nebraska,31153,23506,136,23506,136,,
 2021-08-23,Saunders,Nebraska,31155,2575,20,,,,
 2021-08-23,Scotts Bluff,Nebraska,31157,4904,96,,,,
 2021-08-23,Seward,Nebraska,31159,2055,34,,,,
@@ -1756,7 +1756,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-08-23,Thayer,Nebraska,31169,490,7,,,,
 2021-08-23,Thomas,Nebraska,31171,55,1,,,,
 2021-08-23,Thurston,Nebraska,31173,1206,11,,,,
-2021-08-23,Unknown,Nebraska,,3027,0,,,,
+2021-08-23,Unknown,Nebraska,,2956,0,,,,
 2021-08-23,Valley,Nebraska,31175,344,2,,,,
 2021-08-23,Washington,Nebraska,31177,2227,29,,,,
 2021-08-23,Wayne,Nebraska,31179,1178,7,,,,
@@ -2801,7 +2801,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-08-23,Navarro,Texas,48349,6901,154,3806,,3095,
 2021-08-23,Newton,Texas,48351,738,38,334,,404,
 2021-08-23,Nolan,Texas,48353,1723,55,1723,,0,
-2021-08-23,Nueces,Texas,48355,51059,943,35452,943,15607,
+2021-08-23,Nueces,Texas,48355,51187,949,35519,949,15668,
 2021-08-23,Ochiltree,Texas,48357,1261,29,1104,,157,
 2021-08-23,Oldham,Texas,48359,298,4,157,,141,
 2021-08-23,Orange,Texas,48361,10711,161,4637,,6074,
@@ -2908,21 +2908,21 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-08-23,Washington,Utah,49053,23868,220,,,,
 2021-08-23,Wayne,Utah,49055,160,0,,,,
 2021-08-23,Weber,Utah,49057,33996,238,,,,
-2021-08-23,Addison,Vermont,50001,1189,8,,,,
-2021-08-23,Bennington,Vermont,50003,2207,15,,,,
-2021-08-23,Caledonia,Vermont,50005,1141,7,,,,
-2021-08-23,Chittenden,Vermont,50007,8490,109,,,,
-2021-08-23,Essex,Vermont,50009,312,2,,,,
-2021-08-23,Franklin,Vermont,50011,2234,40,,,,
-2021-08-23,Grand Isle,Vermont,50013,239,2,,,,
-2021-08-23,Lamoille,Vermont,50015,934,3,,,,
-2021-08-23,Orange,Vermont,50017,881,3,,,,
-2021-08-23,Orleans,Vermont,50019,1429,13,,,,
-2021-08-23,Rutland,Vermont,50021,2444,22,,,,
+2021-08-23,Addison,Vermont,50001,1201,8,,,,
+2021-08-23,Bennington,Vermont,50003,2226,15,,,,
+2021-08-23,Caledonia,Vermont,50005,1150,7,,,,
+2021-08-23,Chittenden,Vermont,50007,8582,109,,,,
+2021-08-23,Essex,Vermont,50009,315,2,,,,
+2021-08-23,Franklin,Vermont,50011,2250,40,,,,
+2021-08-23,Grand Isle,Vermont,50013,240,2,,,,
+2021-08-23,Lamoille,Vermont,50015,942,3,,,,
+2021-08-23,Orange,Vermont,50017,887,3,,,,
+2021-08-23,Orleans,Vermont,50019,1441,13,,,,
+2021-08-23,Rutland,Vermont,50021,2467,22,,,,
 2021-08-23,Unknown,Vermont,,20,0,,,,
-2021-08-23,Washington,Vermont,50023,2103,16,,,,
-2021-08-23,Windham,Vermont,50025,1511,16,,,,
-2021-08-23,Windsor,Vermont,50027,1644,14,,,,
+2021-08-23,Washington,Vermont,50023,2134,16,,,,
+2021-08-23,Windham,Vermont,50025,1526,16,,,,
+2021-08-23,Windsor,Vermont,50027,1669,14,,,,
 2021-08-23,Accomack,Virginia,51001,3150,47,,,,
 2021-08-23,Albemarle,Virginia,51003,6243,85,,,,
 2021-08-23,Alexandria city,Virginia,51510,12558,141,,,,
@@ -3056,10 +3056,10 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-08-23,Wise,Virginia,51195,3636,108,,,,
 2021-08-23,Wythe,Virginia,51197,3148,82,,,,
 2021-08-23,York,Virginia,51199,4218,60,,,,
-2021-08-23,St. Croix,Virgin Islands,78010,2037,16,2037,16,,
-2021-08-23,St. John,Virgin Islands,78020,290,1,290,1,,
-2021-08-23,St. Thomas,Virgin Islands,78030,3105,24,3105,24,,
-2021-08-23,Unknown,Virgin Islands,,0,3,0,3,0,0
+2021-08-23,St. Croix,Virgin Islands,78010,2093,17,2093,17,,
+2021-08-23,St. John,Virgin Islands,78020,306,2,306,2,,
+2021-08-23,St. Thomas,Virgin Islands,78030,3195,25,3195,25,,
+2021-08-23,Unknown,Virgin Islands,,0,1,0,1,0,0
 2021-08-23,Adams,Washington,53001,2461,25,2220,,241,
 2021-08-23,Asotin,Washington,53003,1823,32,1753,,70,
 2021-08-23,Benton,Washington,53005,22943,254,21602,,1341,
