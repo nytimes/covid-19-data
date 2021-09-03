@@ -203,7 +203,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-09-03,Kings,California,06031,28010,266,26715,266,1295,
 2021-09-03,Lake,California,06033,5456,77,5396,77,60,
 2021-09-03,Lassen,California,06035,6341,27,6341,26,,1
-2021-09-03,Los Angeles,California,06037,1410254,25341,1409545,25341,709,
+2021-09-03,Los Angeles,California,06037,1412949,25364,1412240,25341,709,23
 2021-09-03,Madera,California,06039,20225,250,18852,247,1373,3
 2021-09-03,Marin,California,06041,16597,240,16224,240,373,
 2021-09-03,Mariposa,California,06043,833,10,833,10,,0
@@ -226,26 +226,26 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-09-03,San Joaquin,California,06077,92277,1540,87640,1540,4637,
 2021-09-03,San Luis Obispo,California,06079,26730,284,25729,284,1001,
 2021-09-03,San Mateo,California,06081,50421,595,49394,595,1027,
-2021-09-03,Santa Barbara,California,06083,40863,483,39389,483,1474,
+2021-09-03,Santa Barbara,California,06083,40863,483,39500,483,1363,
 2021-09-03,Santa Clara,California,06085,135922,1797,135732,1797,190,
 2021-09-03,Santa Cruz,California,06087,19472,210,18518,210,954,
 2021-09-03,Shasta,California,06089,17942,255,15889,255,2053,
 2021-09-03,Sierra,California,06091,113,0,98,0,15,
-2021-09-03,Siskiyou,California,06093,3402,41,3402,41,,
+2021-09-03,Siskiyou,California,06093,3443,41,3443,41,,
 2021-09-03,Solano,California,06095,42213,293,41526,293,687,
 2021-09-03,Sonoma,California,06097,37914,356,37454,356,460,
 2021-09-03,Stanislaus,California,06099,75735,1159,68020,1159,7715,
-2021-09-03,Sutter,California,06101,12104,136,12086,136,18,0
+2021-09-03,Sutter,California,06101,12161,136,12161,136,,0
 2021-09-03,Tehama,California,06103,7174,72,6228,72,946,
 2021-09-03,Trinity,California,06105,604,5,483,5,121,
 2021-09-03,Tulare,California,06107,67585,870,55768,870,11817,
 2021-09-03,Tuolumne,California,06109,5778,93,5778,93,,
 2021-09-03,Ventura,California,06111,94566,1089,90731,1089,3835,
 2021-09-03,Yolo,California,06113,18053,235,17264,235,789,
-2021-09-03,Yuba,California,06115,8865,82,8865,82,,
-2021-09-03,Adams,Colorado,08001,67821,800,,,,
+2021-09-03,Yuba,California,06115,8865,55,8865,55,,
+2021-09-03,Adams,Colorado,08001,67977,802,,,,
 2021-09-03,Alamosa,Colorado,08003,1929,39,,,,
-2021-09-03,Arapahoe,Colorado,08005,70439,850,,,,
+2021-09-03,Arapahoe,Colorado,08005,70657,850,,,,
 2021-09-03,Archuleta,Colorado,08007,1263,3,,,,
 2021-09-03,Baca,Colorado,08009,360,5,,,,
 2021-09-03,Bent,Colorado,08011,1562,22,,,,
@@ -261,7 +261,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-09-03,Delta,Colorado,08029,3246,76,,,,
 2021-09-03,Denver,Colorado,08031,81229,872,,,,
 2021-09-03,Dolores,Colorado,08033,150,1,,,,
-2021-09-03,Douglas,Colorado,08035,34856,278,,,,
+2021-09-03,Douglas,Colorado,08035,34978,278,,,,
 2021-09-03,Eagle,Colorado,08037,7304,29,,,,
 2021-09-03,Elbert,Colorado,08039,2126,16,,,,
 2021-09-03,El Paso,Colorado,08041,83187,944,,,,
@@ -698,7 +698,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-09-03,Washington,Illinois,17189,1940,32,,26,,6
 2021-09-03,Wayne,Illinois,17191,2398,55,,54,,1
 2021-09-03,White,Illinois,17193,2290,37,,27,,10
-2021-09-03,Whiteside,Illinois,17195,7668,216,7668,174,,42
+2021-09-03,Whiteside,Illinois,17195,7678,216,7678,174,,42
 2021-09-03,Will,Illinois,17197,83855,1140,,1067,,73
 2021-09-03,Williamson,Illinois,17199,10231,153,,141,,12
 2021-09-03,Winnebago,Illinois,17201,37270,564,,534,,30
@@ -1935,7 +1935,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-09-03,Davidson,North Carolina,37057,20829,222,18547,194,2282,28
 2021-09-03,Davie,North Carolina,37059,5097,49,4092,40,1005,9
 2021-09-03,Duplin,North Carolina,37061,8301,154,5359,135,2942,19
-2021-09-03,Durham,North Carolina,37063,30334,244,30334,243,,1
+2021-09-03,Durham,North Carolina,37063,30506,244,30506,243,,1
 2021-09-03,Edgecombe,North Carolina,37065,6538,115,6226,112,312,3
 2021-09-03,Forsyth,North Carolina,37067,43514,462,38753,423,4761,39
 2021-09-03,Franklin,North Carolina,37069,8210,55,7732,54,478,1
@@ -2245,7 +2245,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-09-03,Jefferson,Oregon,41031,2919,45,,,,
 2021-09-03,Josephine,Oregon,41033,7526,125,,,,
 2021-09-03,Klamath,Oregon,41035,5805,84,,,,
-2021-09-03,Lake,Oregon,41037,532,8,,,,
+2021-09-03,Lake,Oregon,41037,531,8,,,,
 2021-09-03,Lane,Oregon,41039,21143,206,,,,
 2021-09-03,Lincoln,Oregon,41041,2401,26,,,,
 2021-09-03,Linn,Oregon,41043,8711,83,,,,
@@ -2637,7 +2637,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-09-03,Baylor,Texas,48023,445,13,167,,278,
 2021-09-03,Bee,Texas,48025,4689,86,4069,,620,
 2021-09-03,Bell,Texas,48027,32637,530,28796,,3841,
-2021-09-03,Bexar,Texas,48029,285742,4082,234715,3913,51027,169
+2021-09-03,Bexar,Texas,48029,287423,4082,234715,3936,52708,146
 2021-09-03,Blanco,Texas,48031,989,23,787,,202,
 2021-09-03,Borden,Texas,48033,33,2,22,,11,
 2021-09-03,Bosque,Texas,48035,2095,43,1600,,495,
@@ -3096,7 +3096,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-09-03,Walla Walla,Washington,53071,7303,78,6688,77,615,1
 2021-09-03,Whatcom,Washington,53073,12573,118,11781,,792,
 2021-09-03,Whitman,Washington,53075,4868,54,4702,54,166,0
-2021-09-03,Yakima,Washington,53077,37412,478,30860,,6552,
+2021-09-03,Yakima,Washington,53077,37824,478,30860,,6964,
 2021-09-03,Barbour,West Virginia,54001,2016,35,1449,,567,
 2021-09-03,Berkeley,West Virginia,54003,14610,146,11591,,3019,
 2021-09-03,Boone,West Virginia,54005,2486,37,2206,,280,
