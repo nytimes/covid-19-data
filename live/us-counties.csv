@@ -185,14 +185,14 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-09-06,White,Arkansas,05145,11972,166,7235,127,4737,39
 2021-09-06,Woodruff,Arkansas,05147,956,19,583,13,373,6
 2021-09-06,Yell,Arkansas,05149,4226,71,3481,53,745,18
-2021-09-06,Alameda,California,06001,112644,1316,110010,1316,2634,
+2021-09-06,Alameda,California,06001,112644,1317,110505,1317,2139,
 2021-09-06,Alpine,California,06003,94,0,94,0,0,0
 2021-09-06,Amador,California,06005,4678,53,4636,53,42,0
 2021-09-06,Butte,California,06007,19228,218,16403,218,2825,
 2021-09-06,Calaveras,California,06009,3110,63,3087,63,23,0
 2021-09-06,Colusa,California,06011,2799,18,2301,16,498,2
 2021-09-06,Contra Costa,California,06013,92465,891,91277,891,1188,
-2021-09-06,Del Norte,California,06015,3012,25,3012,25,,
+2021-09-06,Del Norte,California,06015,3054,26,3054,26,,
 2021-09-06,El Dorado,California,06017,15084,122,13782,119,1302,3
 2021-09-06,Fresno,California,06019,129522,1828,119033,1828,10489,
 2021-09-06,Glenn,California,06021,3637,31,2878,31,759,0
@@ -202,8 +202,8 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-09-06,Kern,California,06029,126859,1482,126859,1482,,
 2021-09-06,Kings,California,06031,28463,267,27065,267,1398,
 2021-09-06,Lake,California,06033,5567,78,5507,78,60,
-2021-09-06,Lassen,California,06035,6341,27,6341,26,0,1
-2021-09-06,Los Angeles,California,06037,1419734,25454,1419030,25454,704,
+2021-09-06,Lassen,California,06035,6444,29,6444,29,,
+2021-09-06,Los Angeles,California,06037,1419739,25454,1419030,25454,709,
 2021-09-06,Madera,California,06039,20485,250,19112,249,1373,1
 2021-09-06,Marin,California,06041,16692,242,16319,242,373,
 2021-09-06,Mariposa,California,06043,839,10,839,10,,0
@@ -235,17 +235,17 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-09-06,Solano,California,06095,42633,300,42043,300,590,
 2021-09-06,Sonoma,California,06097,38269,365,37809,365,460,
 2021-09-06,Stanislaus,California,06099,76095,1168,68325,1168,7770,
-2021-09-06,Sutter,California,06101,12296,138,12161,138,135,
+2021-09-06,Sutter,California,06101,12296,138,12224,138,72,
 2021-09-06,Tehama,California,06103,7313,74,6367,74,946,
 2021-09-06,Trinity,California,06105,619,6,498,6,121,
 2021-09-06,Tulare,California,06107,68536,874,56719,874,11817,
 2021-09-06,Tuolumne,California,06109,5849,94,5816,94,33,
 2021-09-06,Ventura,California,06111,94999,1090,90904,1090,4095,
 2021-09-06,Yolo,California,06113,18311,235,17522,235,789,0
-2021-09-06,Yuba,California,06115,8865,55,8865,55,,
-2021-09-06,Adams,Colorado,08001,68387,806,,,,
+2021-09-06,Yuba,California,06115,8905,55,8905,55,,
+2021-09-06,Adams,Colorado,08001,68489,807,,,,
 2021-09-06,Alamosa,Colorado,08003,1940,39,,,,
-2021-09-06,Arapahoe,Colorado,08005,71103,856,,,,
+2021-09-06,Arapahoe,Colorado,08005,71247,857,,,,
 2021-09-06,Archuleta,Colorado,08007,1265,2,,,,
 2021-09-06,Baca,Colorado,08009,360,5,,,,
 2021-09-06,Bent,Colorado,08011,1564,22,,,,
@@ -261,7 +261,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-09-06,Delta,Colorado,08029,3253,76,,,,
 2021-09-06,Denver,Colorado,08031,81350,874,,,,
 2021-09-06,Dolores,Colorado,08033,150,1,,,,
-2021-09-06,Douglas,Colorado,08035,35256,278,,,,
+2021-09-06,Douglas,Colorado,08035,35342,278,,,,
 2021-09-06,Eagle,Colorado,08037,7356,29,,,,
 2021-09-06,Elbert,Colorado,08039,2140,16,,,,
 2021-09-06,El Paso,Colorado,08041,83578,949,,,,
@@ -975,7 +975,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-09-06,Reno,Kansas,20155,9740,145,,,,
 2021-09-06,Republic,Kansas,20157,750,15,,15,,
 2021-09-06,Rice,Kansas,20159,1211,13,,,,
-2021-09-06,Riley,Kansas,20161,7467,55,7467,55,0,0
+2021-09-06,Riley,Kansas,20161,7467,57,7467,57,0,
 2021-09-06,Rooks,Kansas,20163,701,11,,,,
 2021-09-06,Rush,Kansas,20165,465,15,,,,
 2021-09-06,Russell,Kansas,20167,938,29,,,,
@@ -1318,7 +1318,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-09-06,Sanilac,Michigan,26151,4403,127,3854,119,549,8
 2021-09-06,Schoolcraft,Michigan,26153,502,5,401,4,101,1
 2021-09-06,Shiawassee,Michigan,26155,7029,113,6155,111,874,2
-2021-09-06,St. Clair,Michigan,26147,19396,464,16094,441,3302,23
+2021-09-06,St. Clair,Michigan,26147,19434,464,16138,441,3296,23
 2021-09-06,St. Joseph,Michigan,26149,6777,104,6022,98,755,6
 2021-09-06,Tuscola,Michigan,26157,6022,179,5151,166,871,13
 2021-09-06,Unknown,Michigan,,814,18,0,15,814,3
@@ -2802,7 +2802,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-09-06,Navarro,Texas,48349,7593,154,3982,,3611,
 2021-09-06,Newton,Texas,48351,824,43,357,,467,
 2021-09-06,Nolan,Texas,48353,2012,56,2012,,0,
-2021-09-06,Nueces,Texas,48355,56069,1038,38770,1038,17299,
+2021-09-06,Nueces,Texas,48355,56244,1053,38880,1053,17364,
 2021-09-06,Ochiltree,Texas,48357,1309,29,1147,,162,
 2021-09-06,Oldham,Texas,48359,309,4,160,,149,
 2021-09-06,Orange,Texas,48361,12220,187,4927,,7293,
@@ -3063,12 +3063,12 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-09-06,Adams,Washington,53001,2630,25,2368,,262,
 2021-09-06,Asotin,Washington,53003,2088,34,1965,,123,
 2021-09-06,Benton,Washington,53005,25246,272,23582,,1664,
-2021-09-06,Chelan,Washington,53007,8980,86,3932,69,5048,17
+2021-09-06,Chelan,Washington,53007,9045,86,3932,69,5113,17
 2021-09-06,Clallam,Washington,53009,2929,20,2615,,314,
 2021-09-06,Clark,Washington,53011,32872,346,30097,,2775,
 2021-09-06,Columbia,Washington,53013,259,6,131,,128,
 2021-09-06,Cowlitz,Washington,53015,9989,131,8941,,1048,
-2021-09-06,Douglas,Washington,53017,4843,26,2107,22,2736,4
+2021-09-06,Douglas,Washington,53017,4897,26,2107,22,2790,4
 2021-09-06,Ferry,Washington,53019,500,9,340,,160,
 2021-09-06,Franklin,Washington,53021,16772,143,15783,,989,
 2021-09-06,Garfield,Washington,53023,172,7,100,,72,
@@ -3095,7 +3095,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-09-06,Stevens,Washington,53065,3236,42,2862,,374,
 2021-09-06,Thurston,Washington,53067,15333,153,12922,,2411,
 2021-09-06,Wahkiakum,Washington,53069,207,5,182,,25,
-2021-09-06,Walla Walla,Washington,53071,7303,78,6727,77,576,1
+2021-09-06,Walla Walla,Washington,53071,7335,78,6727,77,608,1
 2021-09-06,Whatcom,Washington,53073,12659,119,11863,,796,
 2021-09-06,Whitman,Washington,53075,4912,54,4742,54,170,0
 2021-09-06,Yakima,Washington,53077,38138,482,31189,,6949,
