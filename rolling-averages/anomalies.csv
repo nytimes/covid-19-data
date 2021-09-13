@@ -823,3 +823,6 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2021-09-06,,,Nevada,USA-32,both,,,The daily count could be artificially low because many jurisdictions did not announce new data on Labor Day.
 2021-09-06,,,Kansas,USA-20,both,,,The daily count could be artificially low because many jurisdictions did not announce new data on Labor Day.
 2021-09-06,,,New Mexico,USA-35,both,,,The daily count could be artificially low because many jurisdictions did not announce new data on Labor Day.
+2021-09-11,,Coryell,Texas,USA-48099,cases,yes,,Texas removed many prison cases in Coryell County.
+2021-09-11,2021-09-12,Los Angeles,California,USA-06037,both,,,Los Angeles County did not report new data during planned maintenance.
+2021-09-11,,Wise,Texas,USA-48497,cases,yes,,Texas removed many prison cases in Wise County.
