@@ -523,7 +523,7 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2021-06-04,,,,USA,cases,yes,,Florida stopped providing daily updates and removed many nonresident cases.
 2021-06-04,,,California,USA-06,deaths,yes,,Alameda County removed many deaths from causes unrelated to Covid-19.
 2021-06-04,,,Florida,USA-12,cases,yes,yes,"Florida changed its data format to a weekly report and stopped including nonresident cases, resulting in a one-day decrease in most counties."
-2021-06-04,,,Florida,USA-12,deaths,,,Florida stopped reporting county-level deaths on June 4.
+2021-06-04,2021-09-13,,Florida,USA-12,deaths,,,"Florida stopped providing county-level deaths on June 4, and resumed reporting to the C.D.C. in September."
 2021-06-04,,Alameda,California,USA-06001,deaths,yes,,Alameda County removed many deaths from causes unrelated to Covid-19.
 2021-06-04,,Williamson,Texas,USA-48491,cases,yes,,Texas added about 300 older cases in Williamson County.
 2021-06-04,,Boone,Nebraska,USA-31011,both,,,State and local officials are no longer reporting data.
@@ -826,3 +826,70 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2021-09-11,,Coryell,Texas,USA-48099,cases,yes,,Texas removed many prison cases in Coryell County.
 2021-09-11,2021-09-12,Los Angeles,California,USA-06037,both,,,Los Angeles County did not report new data during planned maintenance.
 2021-09-11,,Wise,Texas,USA-48497,cases,yes,,Texas removed many prison cases in Wise County.
+2021-09-14,,Alachua,Florida,USA-12001,deaths,yes,,Florida resumed reporting county-level deaths to the C.D.C. The daily count includes all Alachua County deaths added since June 4.
+2021-09-14,,Baker,Florida,USA-12003,deaths,yes,,Florida resumed reporting county-level deaths to the C.D.C. The daily count includes all Baker County deaths added since June 4.
+2021-09-14,,Bay,Florida,USA-12005,deaths,yes,,Florida resumed reporting county-level deaths to the C.D.C. The daily count includes all Bay County deaths added since June 4.
+2021-09-14,,Bradford,Florida,USA-12007,deaths,yes,,Florida resumed reporting county-level deaths to the C.D.C. The daily count includes all Bradford County deaths added since June 4.
+2021-09-14,,Brevard,Florida,USA-12009,deaths,yes,,Florida resumed reporting county-level deaths to the C.D.C. The daily count includes all Brevard County deaths added since June 4.
+2021-09-14,,Broward,Florida,USA-12011,deaths,yes,,Florida resumed reporting county-level deaths to the C.D.C. The daily count includes all Broward County deaths added since June 4.
+2021-09-14,,Calhoun,Florida,USA-12013,deaths,yes,,Florida resumed reporting county-level deaths to the C.D.C. The daily count includes all Calhoun County deaths added since June 4.
+2021-09-14,,Charlotte,Florida,USA-12015,deaths,yes,,Florida resumed reporting county-level deaths to the C.D.C. The daily count includes all Charlotte County deaths added since June 4.
+2021-09-14,,Citrus,Florida,USA-12017,deaths,yes,,Florida resumed reporting county-level deaths to the C.D.C. The daily count includes all Citrus County deaths added since June 4.
+2021-09-14,,Clay,Florida,USA-12019,deaths,yes,,Florida resumed reporting county-level deaths to the C.D.C. The daily count includes all Clay County deaths added since June 4.
+2021-09-14,,Collier,Florida,USA-12021,deaths,yes,,Florida resumed reporting county-level deaths to the C.D.C. The daily count includes all Collier County deaths added since June 4.
+2021-09-14,,Columbia,Florida,USA-12023,deaths,yes,,Florida resumed reporting county-level deaths to the C.D.C. The daily count includes all Columbia County deaths added since June 4.
+2021-09-14,,DeSoto,Florida,USA-12027,deaths,yes,,Florida resumed reporting county-level deaths to the C.D.C. The daily count includes all DeSoto County deaths added since June 4.
+2021-09-14,,Dixie,Florida,USA-12029,deaths,yes,,Florida resumed reporting county-level deaths to the C.D.C. The daily count includes all Dixie County deaths added since June 4.
+2021-09-14,,Duval,Florida,USA-12031,deaths,yes,,Florida resumed reporting county-level deaths to the C.D.C. The daily count includes all Duval County deaths added since June 4.
+2021-09-14,,Escambia,Florida,USA-12033,deaths,yes,,Florida resumed reporting county-level deaths to the C.D.C. The daily count includes all Escambia County deaths added since June 4.
+2021-09-14,,Flagler,Florida,USA-12035,deaths,yes,,Florida resumed reporting county-level deaths to the C.D.C. The daily count includes all Flagler County deaths added since June 4.
+2021-09-14,,Franklin,Florida,USA-12037,deaths,yes,,Florida resumed reporting county-level deaths to the C.D.C. The daily count includes all Franklin County deaths added since June 4.
+2021-09-14,,Gadsden,Florida,USA-12039,deaths,yes,,Florida resumed reporting county-level deaths to the C.D.C. The daily count includes all Gadsden County deaths added since June 4.
+2021-09-14,,Gilchrist,Florida,USA-12041,deaths,yes,,Florida resumed reporting county-level deaths to the C.D.C. The daily count includes all Gilchrist County deaths added since June 4.
+2021-09-14,,Glades,Florida,USA-12043,deaths,yes,,Florida resumed reporting county-level deaths to the C.D.C. The daily count includes all Glades County deaths added since June 4.
+2021-09-14,,Gulf,Florida,USA-12045,deaths,yes,,Florida resumed reporting county-level deaths to the C.D.C. The daily count includes all Gulf County deaths added since June 4.
+2021-09-14,,Hamilton,Florida,USA-12047,deaths,yes,,Florida resumed reporting county-level deaths to the C.D.C. The daily count includes all Hamilton County deaths added since June 4.
+2021-09-14,,Hardee,Florida,USA-12049,deaths,yes,,Florida resumed reporting county-level deaths to the C.D.C. The daily count includes all Hardee County deaths added since June 4.
+2021-09-14,,Hendry,Florida,USA-12051,deaths,yes,,Florida resumed reporting county-level deaths to the C.D.C. The daily count includes all Hendry County deaths added since June 4.
+2021-09-14,,Hernando,Florida,USA-12053,deaths,yes,,Florida resumed reporting county-level deaths to the C.D.C. The daily count includes all Hernando County deaths added since June 4.
+2021-09-14,,Highlands,Florida,USA-12055,deaths,yes,,Florida resumed reporting county-level deaths to the C.D.C. The daily count includes all Highlands County deaths added since June 4.
+2021-09-14,,Hillsborough,Florida,USA-12057,deaths,yes,,Florida resumed reporting county-level deaths to the C.D.C. The daily count includes all Hillsborough County deaths added since June 4.
+2021-09-14,,Holmes,Florida,USA-12059,deaths,yes,,Florida resumed reporting county-level deaths to the C.D.C. The daily count includes all Holmes County deaths added since June 4.
+2021-09-14,,Indian River,Florida,USA-12061,deaths,yes,,Florida resumed reporting county-level deaths to the C.D.C. The daily count includes all Indian River County deaths added since June 4.
+2021-09-14,,Jackson,Florida,USA-12063,deaths,yes,,Florida resumed reporting county-level deaths to the C.D.C. The daily count includes all Jackson County deaths added since June 4.
+2021-09-14,,Jefferson,Florida,USA-12065,deaths,yes,,Florida resumed reporting county-level deaths to the C.D.C. The daily count includes all Jefferson County deaths added since June 4.
+2021-09-14,,Lafayette,Florida,USA-12067,deaths,yes,,Florida resumed reporting county-level deaths to the C.D.C. The daily count includes all Lafayette County deaths added since June 4.
+2021-09-14,,Lake,Florida,USA-12069,deaths,yes,,Florida resumed reporting county-level deaths to the C.D.C. The daily count includes all Lake County deaths added since June 4.
+2021-09-14,,Lee,Florida,USA-12071,deaths,yes,,Florida resumed reporting county-level deaths to the C.D.C. The daily count includes all Lee County deaths added since June 4.
+2021-09-14,,Leon,Florida,USA-12073,deaths,yes,,Florida resumed reporting county-level deaths to the C.D.C. The daily count includes all Leon County deaths added since June 4.
+2021-09-14,,Levy,Florida,USA-12075,deaths,yes,,Florida resumed reporting county-level deaths to the C.D.C. The daily count includes all Levy County deaths added since June 4.
+2021-09-14,,Liberty,Florida,USA-12077,deaths,yes,,Florida resumed reporting county-level deaths to the C.D.C. The daily count includes all Liberty County deaths added since June 4.
+2021-09-14,,Madison,Florida,USA-12079,deaths,yes,,Florida resumed reporting county-level deaths to the C.D.C. The daily count includes all Madison County deaths added since June 4.
+2021-09-14,,Manatee,Florida,USA-12081,deaths,yes,,Florida resumed reporting county-level deaths to the C.D.C. The daily count includes all Manatee County deaths added since June 4.
+2021-09-14,,Marion,Florida,USA-12083,deaths,yes,,Florida resumed reporting county-level deaths to the C.D.C. The daily count includes all Marion County deaths added since June 4.
+2021-09-14,,Martin,Florida,USA-12085,deaths,yes,,Florida resumed reporting county-level deaths to the C.D.C. The daily count includes all Martin County deaths added since June 4.
+2021-09-14,,Miami-Dade,Florida,USA-12086,deaths,yes,,Florida resumed reporting county-level deaths to the C.D.C. The daily count includes all Miami-Dade County deaths added since June 4.
+2021-09-14,,Monroe,Florida,USA-12087,deaths,yes,,Florida resumed reporting county-level deaths to the C.D.C. The daily count includes all Monroe County deaths added since June 4.
+2021-09-14,,Nassau,Florida,USA-12089,deaths,yes,,Florida resumed reporting county-level deaths to the C.D.C. The daily count includes all Nassau County deaths added since June 4.
+2021-09-14,,Okaloosa,Florida,USA-12091,deaths,yes,,Florida resumed reporting county-level deaths to the C.D.C. The daily count includes all Okaloosa County deaths added since June 4.
+2021-09-14,,Okeechobee,Florida,USA-12093,deaths,yes,,Florida resumed reporting county-level deaths to the C.D.C. The daily count includes all Okeechobee County deaths added since June 4.
+2021-09-14,,Orange,Florida,USA-12095,deaths,yes,,Florida resumed reporting county-level deaths to the C.D.C. The daily count includes all Orange County deaths added since June 4.
+2021-09-14,,Osceola,Florida,USA-12097,deaths,yes,,Florida resumed reporting county-level deaths to the C.D.C. The daily count includes all Osceola County deaths added since June 4.
+2021-09-14,,Palm Beach,Florida,USA-12099,deaths,yes,,Florida resumed reporting county-level deaths to the C.D.C. The daily count includes all Palm Beach County deaths added since June 4.
+2021-09-14,,Pasco,Florida,USA-12101,deaths,yes,,Florida resumed reporting county-level deaths to the C.D.C. The daily count includes all Pasco County deaths added since June 4.
+2021-09-14,,Pinellas,Florida,USA-12103,deaths,yes,,Florida resumed reporting county-level deaths to the C.D.C. The daily count includes all Pinellas County deaths added since June 4.
+2021-09-14,,Polk,Florida,USA-12105,deaths,yes,,Florida resumed reporting county-level deaths to the C.D.C. The daily count includes all Polk County deaths added since June 4.
+2021-09-14,,Putnam,Florida,USA-12107,deaths,yes,,Florida resumed reporting county-level deaths to the C.D.C. The daily count includes all Putnam County deaths added since June 4.
+2021-09-14,,Santa Rosa,Florida,USA-12113,deaths,yes,,Florida resumed reporting county-level deaths to the C.D.C. The daily count includes all Santa Rosa County deaths added since June 4.
+2021-09-14,,Sarasota,Florida,USA-12115,deaths,yes,,Florida resumed reporting county-level deaths to the C.D.C. The daily count includes all Sarasota County deaths added since June 4.
+2021-09-14,,Seminole,Florida,USA-12117,deaths,yes,,Florida resumed reporting county-level deaths to the C.D.C. The daily count includes all Seminole County deaths added since June 4.
+2021-09-14,,St. Johns,Florida,USA-12109,deaths,yes,,Florida resumed reporting county-level deaths to the C.D.C. The daily count includes all St. Johns County deaths added since June 4.
+2021-09-14,,St. Lucie,Florida,USA-12111,deaths,yes,,Florida resumed reporting county-level deaths to the C.D.C. The daily count includes all St. Lucie County deaths added since June 4.
+2021-09-14,,Sumter,Florida,USA-12119,deaths,yes,,Florida resumed reporting county-level deaths to the C.D.C. The daily count includes all Sumter County deaths added since June 4.
+2021-09-14,,Suwannee,Florida,USA-12121,deaths,yes,,Florida resumed reporting county-level deaths to the C.D.C. The daily count includes all Suwannee County deaths added since June 4.
+2021-09-14,,Taylor,Florida,USA-12123,deaths,yes,,Florida resumed reporting county-level deaths to the C.D.C. The daily count includes all Taylor County deaths added since June 4.
+2021-09-14,,Union,Florida,USA-12125,deaths,yes,,Florida resumed reporting county-level deaths to the C.D.C. The daily count includes all Union County deaths added since June 4.
+2021-09-14,,Volusia,Florida,USA-12127,deaths,yes,,Florida resumed reporting county-level deaths to the C.D.C. The daily count includes all Volusia County deaths added since June 4.
+2021-09-14,,Wakulla,Florida,USA-12129,deaths,yes,,Florida resumed reporting county-level deaths to the C.D.C. The daily count includes all Wakulla County deaths added since June 4.
+2021-09-14,,Walton,Florida,USA-12131,deaths,yes,,Florida resumed reporting county-level deaths to the C.D.C. The daily count includes all Walton County deaths added since June 4.
+2021-09-14,,Washington,Florida,USA-12133,deaths,yes,,Florida resumed reporting county-level deaths to the C.D.C. The daily count includes all Washington County deaths added since June 4.
