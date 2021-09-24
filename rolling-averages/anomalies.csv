@@ -881,7 +881,7 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2021-09-03,2021-09-19,Kearney,Nebraska,USA-31099,cases,,,State and county officials stopped reporting county-level data for several weeks in September.
 2021-09-03,,Phelps,Nebraska,USA-31137,deaths,,,State and local officials are no longer reporting deaths by county.
 2021-09-03,2021-09-19,Phelps,Nebraska,USA-31137,cases,,,State and county officials stopped reporting county-level data for several weeks in September.
-2021-09-05,,Taylor,Texas,USA-48441,both,,,Officials are not regularly reporting cumulative case and death counts for Taylor County.
+2021-09-05,2021-09-22,Taylor,Texas,USA-48441,both,yes,,Taylor County reported many cases and deaths after several weeks when officials were unable to update cumulative counts.
 2021-09-06,,,Wyoming,USA-56,both,,,The daily count could be artificially low because many jurisdictions did not announce new data on Labor Day.
 2021-09-06,,,Georgia,USA-13,both,,,The daily count could be artificially low because many jurisdictions did not announce new data on Labor Day.
 2021-09-06,,,Michigan,USA-26,both,,,The daily count could be artificially low because many jurisdictions did not announce new data on Labor Day.
@@ -985,3 +985,6 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2021-09-15,,,Minnesota,USA-27,deaths,yes,,Minnesota added deaths from previous months associated with long-term care facilities after a review of records.
 2021-09-18,,Bailey,Texas,USA-48017,cases,,,Texas added about 25 older cases in Bailey County.
 2021-09-20,,,Nebraska,USA-31,cases,,yes,"Nebraska resumed reporting cases at the county level, resulting in a one-day increase and decreases for many counties."
+2021-09-21,,,Tennessee,USA-47,both,,,Tennessee was unable to announce new data because of a technical issue.
+2021-09-23,,Kern,California,USA-06029,cases,,,California removed many duplicate cases in Kern County.
+2021-09-23,,Stevens,Minnesota,USA-27149,cases,,,"Minnesota removed about 350 cases that were erroneously reported in early September, including many in Stevens County."
