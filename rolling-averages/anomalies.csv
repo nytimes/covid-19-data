@@ -911,7 +911,7 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2021-09-06,,,Nevada,USA-32,both,,,The daily count could be artificially low because many jurisdictions did not announce new data on Labor Day.
 2021-09-06,,,Kansas,USA-20,both,,,The daily count could be artificially low because many jurisdictions did not announce new data on Labor Day.
 2021-09-06,,,New Mexico,USA-35,both,,,The daily count could be artificially low because many jurisdictions did not announce new data on Labor Day.
-2021-09-10,,DeWitt,Texas,USA-48123,both,,,Officials are not regularly reporting case and death counts for DeWitt County.
+2021-09-10,2021-09-22,DeWitt,Texas,USA-48123,both,,,Officials are not regularly reporting case and death counts for DeWitt County.
 2021-09-11,,Coryell,Texas,USA-48099,cases,yes,,Texas removed many prison cases in Coryell County.
 2021-09-11,2021-09-13,Los Angeles,California,USA-06037,both,,,Los Angeles County announced data for several days on Sept. 13 after planned maintenance.
 2021-09-11,,Wise,Texas,USA-48497,cases,yes,,Texas removed many prison cases in Wise County.
@@ -986,5 +986,12 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2021-09-18,,Bailey,Texas,USA-48017,cases,,,Texas added about 25 older cases in Bailey County.
 2021-09-20,,,Nebraska,USA-31,cases,,yes,"Nebraska resumed reporting cases at the county level, resulting in a one-day increase and decreases for many counties."
 2021-09-21,,,Tennessee,USA-47,both,,,Tennessee was unable to announce new data because of a technical issue.
+2021-09-22,,Washington,Rhode Island,USA-44009,cases,yes,,Rhode Island added many cases in Washington County that were previously included in the statewide total but unassigned to a county.
 2021-09-23,,Kern,California,USA-06029,cases,,,California removed many duplicate cases in Kern County.
 2021-09-23,2021-09-24,Stevens,Minnesota,USA-27149,cases,,,"Minnesota removed about 350 cases that were erroneously reported in early September, including many in Stevens County."
+2021-09-24,,Campbell,Virginia,USA-51031,cases,yes,,Virginia removed many cases in Campbell County.
+2021-09-24,,Lynchburg city,Virginia,USA-51680,cases,yes,,Virginia removed many cases in Lynchburg.
+2021-09-24,,Amherst,Virginia,USA-51009,cases,yes,,Virginia removed many cases in Amherst County.
+2021-09-24,,Appomattox,Virginia,USA-51011,cases,yes,,Virginia removed many cases in Appomattox County.
+2021-09-24,,Bedford,Virginia,USA-51019,cases,yes,,Virginia removed many cases in Bedford County.
+2021-09-24,,Danville city,Virginia,USA-51590,cases,yes,,Virginia removed many cases in Danville.
