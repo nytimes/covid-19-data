@@ -1,10 +1,10 @@
 # Tracking Covid-19 at U.S. Colleges and Universities
 
-The New York Times is releasing [counts of Covid-19 cases reported on college and university campuses](https://www.nytimes.com/interactive/2021/us/college-covid-tracker.html) in the United States.
+The New York Times released [counts of Covid-19 cases reported on college and university campuses](https://www.nytimes.com/interactive/2021/us/college-covid-tracker.html) in the United States during the 2020-21 academic year.
 
-Since late July, we have been conducting a rolling survey of American colleges and universities — including every four-year public institution and every private college that competes in N.C.A.A. sports — to track the number of coronavirus cases reported among students and employees. The survey now includes more than 1,900 colleges. Starting in 2021 the number of cases in 2021 is also included.
+Between July 2020 and May 2021 we conducted a rolling survey of American colleges and universities — including every four-year public institution and every private college that competes in N.C.A.A. sports — to track the number of coronavirus cases reported among students and employees. The survey now includes more than 1,900 colleges. Starting in 2021 the number of cases in 2021 is also included.
 
-This data was most recently updated on May 26, 2021. It may be updated again at a later date.
+This data was most recently updated on May 26, 2021.
 
 ## Data
 
