@@ -45,7 +45,7 @@ date,geoid,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,deaths_avg
 
 ### County-Level Data
 
-County-level data can be found in the [counties.csv](us-counties.csv) file. ([Raw CSV file here.](https://raw.githubusercontent.com/nytimes/covid-19-data/master/rolling-averages/us-counties.csv))
+Recent county-level data can be found in the [us-counties-recent.csv](us-counties-recent.csv) file. ([Raw CSV file here.](https://raw.githubusercontent.com/nytimes/covid-19-data/master/rolling-averages/us-counties-recent.csv))
 
 ```
 date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,deaths_avg_per_100k
@@ -53,7 +53,9 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 ...
 ```
 
-Of note, this counties file is too large to be opened in Excel. There is also a file [us-counties-recent.csv](us-counties-recent.csv) that is smaller and contains data on counties for just the last 30 days and can be opened in Excel. ([Raw CSV file here.](https://raw.githubusercontent.com/nytimes/covid-19-data/master/rolling-averages/us-counties-recent.csv))
+This file contains data only for the last 30 days.
+
+There is also an older file, [us-counties-recent.csv](us-counties-recent.csv) that contains data starting from the beginning of the pandemic through September 2021. Of note, this counties file is too large to be opened in Excel and too large to continue to be updated on Github. ([Raw CSV file here.](https://raw.githubusercontent.com/nytimes/covid-19-data/master/rolling-averages/us-counties.csv)). To create a single file covering the entire pandemic, combine the recent file and this one.
 
 ## Anomalies
 
