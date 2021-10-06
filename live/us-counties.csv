@@ -212,7 +212,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-10-06,Merced,California,06047,41356,568,41356,568,,
 2021-10-06,Modoc,California,06049,724,8,475,5,249,3
 2021-10-06,Mono,California,06051,1581,5,1565,3,16,2
-2021-10-06,Monterey,California,06053,50331,576,48247,576,2084,
+2021-10-06,Monterey,California,06053,50331,580,48286,580,2045,
 2021-10-06,Napa,California,06055,12623,96,12534,96,89,
 2021-10-06,Nevada,California,06057,8865,90,8576,90,289,0
 2021-10-06,Orange,California,06059,320676,5454,299123,5454,21553,
@@ -619,7 +619,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-10-06,Cook,Illinois,17031,624557,11644,,11089,,555
 2021-10-06,Crawford,Illinois,17033,3225,46,,30,,16
 2021-10-06,Cumberland,Illinois,17035,1861,38,,26,,12
-2021-10-06,DeKalb,Illinois,17037,12189,138,12189,133,,5
+2021-10-06,DeKalb,Illinois,17037,12218,138,12218,133,,5
 2021-10-06,De Witt,Illinois,17039,2025,37,,30,,7
 2021-10-06,Douglas,Illinois,17041,3166,43,,37,,6
 2021-10-06,DuPage,Illinois,17043,106076,1452,,1367,,85
@@ -1321,7 +1321,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-10-06,St. Clair,Michigan,26147,20958,493,17337,470,3621,23
 2021-10-06,St. Joseph,Michigan,26149,7684,112,6845,106,839,6
 2021-10-06,Tuscola,Michigan,26157,6751,185,5727,172,1024,13
-2021-10-06,Unknown,Michigan,,947,18,0,15,947,3
+2021-10-06,Unknown,Michigan,,1059,16,0,13,1059,3
 2021-10-06,Van Buren,Michigan,26159,8524,153,7941,138,583,15
 2021-10-06,Washtenaw,Michigan,26161,31687,325,28543,317,3144,8
 2021-10-06,Wayne,Michigan,26163,188385,5428,174327,5115,14058,313
@@ -2409,12 +2409,12 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-10-06,Villalba,Puerto Rico,72149,1014,,786,,228,
 2021-10-06,Yabucoa,Puerto Rico,72151,1623,,1065,,558,
 2021-10-06,Yauco,Puerto Rico,72153,1432,,853,,579,
-2021-10-06,Bristol,Rhode Island,44001,5740,149,,,,
-2021-10-06,Kent,Rhode Island,44003,21591,383,,,,
-2021-10-06,Newport,Rhode Island,44005,8255,50,,,,
-2021-10-06,Providence,Rhode Island,44007,110567,2065,,,,
-2021-10-06,Unknown,Rhode Island,,14065,22,,,,
-2021-10-06,Washington,Rhode Island,44009,13385,176,,,,
+2021-10-06,Bristol,Rhode Island,44001,5857,149,,,,
+2021-10-06,Kent,Rhode Island,44003,21881,384,,,,
+2021-10-06,Newport,Rhode Island,44005,8404,51,,,,
+2021-10-06,Providence,Rhode Island,44007,111666,2075,,,,
+2021-10-06,Unknown,Rhode Island,,12528,13,,,,
+2021-10-06,Washington,Rhode Island,44009,13601,176,,,,
 2021-10-06,Abbeville,South Carolina,45001,3672,47,2928,40,744,7
 2021-10-06,Aiken,South Carolina,45003,26207,317,18558,256,7649,61
 2021-10-06,Allendale,South Carolina,45005,1333,21,1149,13,184,8
@@ -3055,9 +3055,9 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2021-10-06,Wise,Virginia,51195,4811,124,,,,
 2021-10-06,Wythe,Virginia,51197,4210,90,,,,
 2021-10-06,York,Virginia,51199,5173,69,,,,
-2021-10-06,St. Croix,Virgin Islands,78010,2909,25,2909,25,,
+2021-10-06,St. Croix,Virgin Islands,78010,2938,25,2938,25,,
 2021-10-06,St. John,Virgin Islands,78020,331,3,331,3,,
-2021-10-06,St. Thomas,Virgin Islands,78030,3601,44,3601,44,,
+2021-10-06,St. Thomas,Virgin Islands,78030,3604,44,3604,44,,
 2021-10-06,Adams,Washington,53001,3079,27,2778,,301,
 2021-10-06,Asotin,Washington,53003,2580,46,2405,,175,
 2021-10-06,Benton,Washington,53005,29701,338,27603,,2098,
