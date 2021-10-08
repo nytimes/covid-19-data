@@ -1,5 +1,7 @@
 # Coronavirus (Covid-19) Data in the United States
 
+**UPDATE: The county-level data for cases and deaths that includes seven-day averages and per 100,000 counts is now available in year-based files [here](rolling-averages/). The us-counties.csv file in that directory containing county data since the beginning of the pandemic has been archived and will not be updated.**
+
 The primary data published here are the daily cumulative number of cases and deaths reported in each county and state across the U.S. since the beginning of the pandemic. We have also published these additional data sets:
 
 * [Prisons](prisons/): Cases in prisons
