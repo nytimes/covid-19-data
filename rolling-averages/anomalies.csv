@@ -998,7 +998,7 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2021-09-24,,Danville city,Virginia,USA-51590,cases,yes,,Virginia removed many cases in Danville.
 2021-09-27,,,Connecticut,USA-09,deaths,yes,,Connecticut added about 90 deaths that occurred out-of-state in previous months.
 2021-10-06,,,Nevada,USA-32,cases,yes,yes,Nevada began reporting cases indentified through antigen testing.
-2021-10-10,,,,USA,deaths,yes,,Arkansas added many deaths.
+2021-10-10,,,,USA,deaths,,,Arkansas added many deaths.
 2021-10-10,,,Arkansas,USA-05,deaths,yes,yes,Arkansas added many deaths.
 2021-10-11,,,Georgia,USA-13,both,,,Georgia did not release new data because of the holiday.
 2021-10-11,,,Massachusetts,USA-25,both,,,Massachusetts did not release new data because of the holiday.
