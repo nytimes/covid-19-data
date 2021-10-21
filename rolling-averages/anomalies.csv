@@ -998,8 +998,8 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2021-09-24,,Danville city,Virginia,USA-51590,cases,yes,,Virginia removed many cases in Danville.
 2021-09-27,,,Connecticut,USA-09,deaths,yes,,Connecticut added about 90 deaths that occurred out-of-state in previous months.
 2021-10-06,,,Nevada,USA-32,cases,yes,yes,Nevada began reporting cases indentified through antigen testing.
-2021-10-10,,,,USA,deaths,,,Arkansas added many deaths.
-2021-10-10,,,Arkansas,USA-05,deaths,yes,yes,Arkansas added many deaths.
+2021-10-10,,,,USA,deaths,,,Arkansas added many deaths. The state indicated that many of the 289 deaths announced were from previous months.
+2021-10-10,,,Arkansas,USA-05,deaths,yes,yes,Arkansas added many deaths after reconciling records.
 2021-10-11,,,Georgia,USA-13,both,,,Georgia did not release new data because of the holiday.
 2021-10-11,,,Massachusetts,USA-25,both,,,Massachusetts did not release new data because of the holiday.
 2021-10-11,,,Connecticut,USA-09,cases,,,Connecticut did not release new data because of the holiday.
@@ -1012,7 +1012,10 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2021-10-11,,,New Mexico,USA-35,both,,,New Mexico did not release new data because of the holiday.
 2021-10-14,,Walker,Texas,USA-48471,cases,yes,,Texas removed many duplicate cases and prison cases in Walker County.
 2021-10-17,2021-10-18,,Arizona,USA-04,both,,,Arizona did not release new data during planned system maintenance.
+2021-10-17,2021-10-20,Union,New Jersey,USA-34039,cases,,,New Jersey removed cases in Union County.
 2021-10-18,,,Washington,USA-53,both,,,Washington was unable to release new data because of technical issues. Some counties updated independently.
 2021-10-18,,,Alaska,USA-02,both,,,"Alaska did not release new data for Alaska Day, a state holiday."
 2021-10-18,,Yellowstone,Montana,USA-30111,deaths,,,Yellowstone County added 29 deaths from earlier in September and October 2021 after reviewing records.
 2021-10-19,,,Alaska,USA-02,deaths,,,Alaska added many deaths after reviewing death certificates. Most of the deaths occurred in September and October 2021.
+2021-10-20,,,,USA,deaths,,,"Oklahoma reported 1,053 additional backlogged deaths after reconciling records from 2020."
+2021-10-20,,,Oklahoma,USA-40,deaths,,yes,"Oklahoma reported 1,053 additional backlogged deaths after reconciling records from 2020."
