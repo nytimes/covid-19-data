@@ -1020,3 +1020,6 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2021-10-20,,,,USA,deaths,,,"Oklahoma reported 1,053 additional backlogged deaths after reconciling records from 2020."
 2021-10-20,,,Oklahoma,USA-40,deaths,,yes,"Oklahoma reported 1,053 additional backlogged deaths after reconciling records from 2020."
 2021-10-25,,,California,USA-06,both,,,California was unable to release new data because of issues related to the storm on Oct. 24. Some counties updated independently.
+2021-10-27,,,Georgia,USA-13,cases,,,Georgia announced a backlog of 924 cases from earlier in 2021
+2021-10-27,,,Alabama,USA-01,cases,yes,yes,Alabama announced a backlog of cases from one lab.
+2021-10-27,,Cherokee,Georgia,USA-13057,cases,yes,,"Georgia announced a backlog of cases from earlier in 2021, including many in Cherokee County."
