@@ -38,7 +38,7 @@ Each row of data reports the cumulative number of coronavirus cases and deaths b
 
 We do our best to revise earlier entries in the data when we receive new information. If a county is not listed for a date, then there were zero reported confirmed cases and deaths.
 
-State and county files contain [FIPS codes](https://www.census.gov/quickfacts/fact/note/US/fips), a standard geographic identifier, to make it easier for an analyst to combine this data with other data sets like a map file or population data.
+State and county files contain [FIPS codes](https://www.census.gov/geographies/reference-files/2020/demo/popest/2020-fips.html), a standard geographic identifier, to make it easier for an analyst to combine this data with other data sets like a map file or population data.
 
 Download all the data or clone this repository by clicking the green "Clone or download" button above.
 
