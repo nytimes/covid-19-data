@@ -16,12 +16,21 @@ The fields have the following definitions:
 
 * **geoid**: A unique geographic identifier for each place. For counties and states, the final five digits are the same as the FIPS code when possible. In instances where we have assigned a non-standard identifier, the geoid will end in `99[0-9]`.  
 * **cases**: The number of new cases of Covid-19 reported that day, including both confirmed and probable.  
-* **cases_avg**: The average number of new cases reported that day and the six days prior. In other words, the seven-day trailing average. See the methodology section for a more detailed discussion of edge cases in how this is calculated.  
+* **cases_avg**: The average number of new cases reported over the most recent seven days of data. In other words, the seven-day trailing average.  
 * **cases_avg_per_100k**: The `cases_avg` per 100,000 people.  
 * **deaths**: The total number of new deaths from Covid-19 reported that day, including both confirmed and probable.  
-* **deaths_avg**: The average number of new deaths reported that day and the six days prior. In other words, the seven-day trailing average.  
+* **deaths_avg**: The average number of new deaths reported over the most recent seven days of data. In other words, the seven-day trailing average.  
 * **deaths_avg_per_100k**: The `deaths_avg` per 100,000 people.  
 
+Because many agencies do not report data every day, variation in the schedule on which cases or deaths are reported, such as around holidays, can cause irregular patterns in a simple seven-day trailing average.
+
+To adjust for this in our averages, the number of days included in the average may be extended if there are days within the time range with no data reported. The average is extended to older days until at least seven days of data are included.
+
+If the most recent days have no data reported, then the average is extended further back until seven days worth of data are included. Data reported on a day that follows one or more days with no data reported is assumed to represent multiple days worth of data. In any average, that day and all non-reporting days preceding it are always included together in the average. This may cause some averages to include more than seven days.
+
+For the U.S. national case and death count averages, the average is the sum of the average number of cases and deaths in all states and territories each day. This average may not match the average when calculated from the U.S. case and death total in order to account for irregularly timed case and death reports at the state level.
+
+See the methodology section for a more detailed discussion of how single-day reporting anomalies affect the average.
 
 ### U.S. National-Level Data
 
@@ -64,7 +73,7 @@ There is also an older file, [us-counties.csv](us-counties.csv) that contains da
 The list of anomalous days is in the [anomalies.csv](anomalies.csv) file. ([Raw CSV file here.](https://raw.githubusercontent.com/nytimes/covid-19-data/master/rolling-averages/anomalies.csv))
 
 ```
-date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rolling_average_on_subgeographies,description
+date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rolling_average_on_subgeographies,adjusted_daily_count_for_avg,description
 2020-04-06,,New York City,New York,USA-36998,deaths,,,The Times began using deaths reported by the New York State Health Department instead of the city's health department.
 ...
 ```
@@ -77,8 +86,8 @@ The fields have the following definitions:
 * **type**: Whether the anomaly applies to the data on cases, deaths or both.  
 * **omit_from_rolling_average**: This will be `yes` if the data for that day is excluded from the calculation of rolling averages. Otherwise, left blank.  
 * **omit_from_rolling_average_on_subgeographies**: This will be `yes` if the data for that day is excluded from the calculation of rolling averages, for all subgeographies, i.e. the counties within a state. Otherwise, left blank.  
+* **adjusted_daily_count_for_avg**: If the daily total includes a large known backlog, this is the adjustment to the case or death count used for the purpose of calculating a more accurate current rolling average.  
 * **description**: A note explaining the cause for the anomaly, based on data reporting and/or communication with local officials. These explanations appear at the bottom of the geography tracking pages.  
-
 
 ### Anomalies Methodology
 
