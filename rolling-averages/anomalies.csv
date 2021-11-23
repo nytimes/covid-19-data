@@ -1062,7 +1062,12 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2021-11-12,2021-11-13,Kanawha,West Virginia,USA-54039,cases,yes,,0,West Virginia added many cases in Kanawha County on Nov. 12 and removed many the following day.
 2021-11-13,,,Pennsylvania,USA-42,cases,,yes,-15414,"Pennsylvania added 15,414 cases from previous months representing people who were infected twice."
 2021-11-13,,,,USA,cases,,,-15414,Pennsylvania added many cases representing people who were infected more than once.
-2021-11-18,,,Missouri,USA-29,cases,yes,yes,0,"Missouri added about 7,000 cases representing people who were infected more than once and older probable cases."
+2021-11-18,,,Missouri,USA-29,both,yes,yes,0,"Missouri added about 7,000 cases representing people who were infected more than once, as well as older probable cases. The state also added probable deaths."
+2021-11-18,,Walker,Texas,USA-48471,cases,yes,,0,Texas removed many prison cases in Walker County.
+2021-11-18,,Anderson,Texas,USA-48001,cases,yes,,0,Texas removed many prison cases in Anderson County.
+2021-11-18,,Jones,Texas,USA-48253,cases,yes,,0,Texas removed many prison cases in Jones County.
 2021-11-19,,,Kentucky,USA-21,cases,,,0,"Kentucky removed 1,008 cases from 2020 after verifying records."
 2021-11-19,,,Kentucky,USA-21,deaths,,yes,-84,Kentucky added 84 deaths from 2020 after reviewing records.
 2021-11-19,2021-11-20,Kanawha,West Virginia,USA-54039,cases,yes,,0,West Virginia added many cases in Kanawha County on Nov. 19 and removed many the following day.
+2021-11-20,,Bastrop,Texas,USA-48021,cases,yes,,0,Texas removed many cases in Bastrop County.
+2021-11-20,,Wharton,Texas,USA-48481,cases,yes,,0,Texas removed many cases in Wharton County.
