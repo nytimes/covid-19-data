@@ -147,7 +147,7 @@ Probable deaths are deaths where Covid-19 is listed on the death certificate as 
 
 Deaths among probable cases tracked by a state or local health department where a death certificate has not yet been filed may also be counted as a probable death.
 
-For more on how states count confirmed and probable deaths, see this [article](https://www.nytimes.com/interactive/2020/06/19/us/us-coronavirus-covid-death-toll.htmlhttps://www.nytimes.com/interactive/2020/06/19/us/us-coronavirus-covid-death-toll.html).
+For more on how states count confirmed and probable deaths, see this [article](https://www.nytimes.com/interactive/2020/06/19/us/us-coronavirus-covid-death-toll.html).
 
 * Dates
 
