@@ -1029,6 +1029,7 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2021-11-01,,,Louisiana,USA-22,cases,,,-674,Louisiana added a backlog of 674 cases.
 2021-11-01,,,,USA,cases,,,-8184,"Minnesota added more than 8,000 cases from previous months representing people who were infected twice."
 2021-11-01,,,Minnesota,USA-27,cases,,yes,-8184,"Minnesota added 8,184 cases representing people who were infected twice."
+2021-11-04,2021-12-03,,Oklahoma,USA-40,deaths,yes,yes,0,Oklahoma deaths data was unavailable during November 2021 while the state transitioned its data reporting format. All deaths announced during this period are included on Dec. 3
 2021-11-08,,,Georgia,USA-13,both,,,0,Georgia was unable to provide a full daily update because of a technical issue.
 2021-11-08,,,Tennessee,USA-47,both,,,0,Tennessee was unable to release new data because of a technical issue.
 2021-11-08,,Preston,West Virginia,USA-54077,cases,yes,,0,West Virginia added many cases in Preston County.
@@ -1174,4 +1175,5 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2021-11-26,2021-11-29,Walton,Florida,USA-12131,both,,,0,Florida did not report new county cases or deaths for the week of Thanksgiving.
 2021-11-26,2021-11-29,Washington,Florida,USA-12133,both,,,0,Florida did not report new county cases or deaths for the week of Thanksgiving.
 2021-12-01,,,Washington,USA-53,deaths,,,0,Washington was unable to report new data because of technical issue. Some counties updated independently.
-2021-12-01,,Wake,North Carolina,USA-37183,both,,,1975,"Wake County stopped reporting data separately from the state health department, resulting in a one-day decrease in cases and deaths."
+2021-12-01,,,North Carolina,USA-37,cases,,,1975,"The Times began using state health department data for Wake County, resulting in a one-day decrease for the county."
+2021-12-01,,Wake,North Carolina,USA-37183,cases,,,1975,"Wake County stopped reporting data separately from the state health department, resulting in a one-day decrease in cases and deaths."
