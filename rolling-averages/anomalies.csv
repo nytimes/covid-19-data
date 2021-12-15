@@ -1062,7 +1062,6 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2021-11-12,,,Texas,USA-48,deaths,yes,yes,0,Texas added many deaths from previous months after reviewing records.
 2021-11-12,2021-11-13,Kanawha,West Virginia,USA-54039,cases,yes,,0,West Virginia added many cases in Kanawha County on Nov. 12 and removed many the following day.
 2021-11-13,,,Pennsylvania,USA-42,cases,,yes,-15414,"Pennsylvania added 15,414 cases from previous months representing people who were infected twice."
-2021-11-13,,,,USA,cases,,,-15414,Pennsylvania added many cases representing people who were infected more than once.
 2021-11-18,,,Missouri,USA-29,both,yes,yes,0,"Missouri added about 7,000 cases representing people who were infected more than once, as well as older probable cases. The state also added probable deaths."
 2021-11-18,,Walker,Texas,USA-48471,cases,yes,,0,Texas removed many prison cases in Walker County.
 2021-11-18,,Anderson,Texas,USA-48001,cases,yes,,0,Texas removed many prison cases in Anderson County.
@@ -1186,4 +1185,6 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2021-12-08,,Bristol,Rhode Island,USA-44001,both,yes,,0,Rhode Island was unable to report new county-level cases and deaths.
 2021-12-09,,,Tennessee,USA-47,both,,,0,Tennessee was unable to report new cases and deaths because of technical issues.
 2021-12-10,,,Texas,USA-48,cases,,,0,Texas added many cases from earlier in December that had not previously been reported because of a data processing issue.
+2021-12-14,,,Alabama,USA-01,cases,,,-841,Alabama added a backlog of 841 cases from one lab.
+2021-12-14,,,Ohio,USA-39,cases,,,-1725,"Ohio added a backlog of about 1,725 cases dating back to September 2021."
 2021-12-14,,Suwannee,Florida,USA-12121,deaths,,,0,Florida added many deaths in Suwannee County.
