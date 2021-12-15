@@ -1178,6 +1178,7 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2021-12-01,,Wake,North Carolina,USA-37183,cases,,,1975,"Wake County stopped reporting data separately from the state health department, resulting in a one-day decrease in cases and deaths."
 2021-12-06,,,Maryland,USA-24,both,yes,,0,Maryland is unable to report new cases and deaths because of a technical issue.
 2021-12-06,2021-12-07,,Wisconsin,USA-55,both,,,0,Wisconsin was unable to report new cases and deaths because of a technical issue.
+2021-12-07,,,Wisconsin,USA-55,cases,yes,,0,Wisconsin was unable to report new cases because of a technical issue. Some counties reported new data independently.
 2021-12-08,,Washington,Rhode Island,USA-44009,both,yes,,0,Rhode Island was unable to report new county-level cases and deaths.
 2021-12-08,,Providence,Rhode Island,USA-44007,both,yes,,0,Rhode Island was unable to report new county-level cases and deaths.
 2021-12-08,,Newport,Rhode Island,USA-44005,both,yes,,0,Rhode Island was unable to report new county-level cases and deaths.
