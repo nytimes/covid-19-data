@@ -1176,7 +1176,7 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2021-12-01,,,Washington,USA-53,deaths,,,0,Washington was unable to report new data because of technical issue. Some counties updated independently.
 2021-12-01,,,North Carolina,USA-37,cases,,,1975,"The Times began using state health department data for Wake County, resulting in a one-day decrease for the county."
 2021-12-01,,Wake,North Carolina,USA-37183,cases,,,1975,"Wake County stopped reporting data separately from the state health department, resulting in a one-day decrease in cases and deaths."
-2021-12-05,2021-12-20,,Maryland,USA-24,cases,yes,,0,Maryland reported many cases on Dec. 20 after resolving technical issues that prevented the state from reporting updates for more than two weeks.
+2021-12-05,2021-12-20,,Maryland,USA-24,cases,,,0,Maryland reported many cases on Dec. 20 after resolving technical issues that prevented the state from reporting updates for more than two weeks.
 2021-12-06,,,Maryland,USA-24,both,yes,,0,Maryland is unable to report new county-level cases and deaths because of a technical issue.
 2021-12-06,2021-12-07,,Wisconsin,USA-55,both,,,0,Wisconsin was unable to report new cases and deaths because of a technical issue.
 2021-12-07,,,Wisconsin,USA-55,cases,yes,,0,Wisconsin was unable to report new cases because of a technical issue. Some counties reported new data independently.
