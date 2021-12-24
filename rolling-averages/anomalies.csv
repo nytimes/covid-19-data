@@ -1194,4 +1194,5 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2021-12-14,,Suwannee,Florida,USA-12121,deaths,,,0,Florida added many deaths in Suwannee County.
 2021-12-16,,Saipan,Northern Mariana Islands,USA-69110,cases,yes,,0,"Northern Mariana Islands updated island-level data for the first time in a month, resulting in a one-day increase for Saipan."
 2021-12-20,,,Maryland,USA-24,cases,yes,,0,Maryland reported many cases on Dec. 20 after resolving technical issues that prevented the state from reporting updates for more than two weeks.
-2021-12-21,,Reynolds,Missouri,USA-29179,cases,yes,,0,"The Times began using state health department data for Reynolds County after the county stopped releasing its own data, resulting in a one-day decrease in cases."
+2021-12-23,,,Tennessee,USA-47,deaths,yes,yes,0,"Tennessee added about 2,000 deaths from previous months after reconciling records."
+2021-12-23,,Reynolds,Missouri,USA-29179,cases,yes,,0,"The Times began using state health department data for Reynolds County after the county stopped releasing its own data, resulting in a one-day decrease in cases."
