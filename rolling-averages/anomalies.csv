@@ -1178,7 +1178,7 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2021-12-01,,Wake,North Carolina,USA-37183,cases,,,1975,"Wake County stopped reporting data separately from the state health department, resulting in a one-day decrease in cases and deaths."
 2021-12-05,2021-12-19,,Maryland,USA-24,cases,yes,,0,Maryland was unable to report new cases data for more than two weeks. The state announced it was responding to a cyberattack that affected data systems.
 2021-12-05,2021-12-27,,Maryland,USA-24,deaths,yes,,0,Maryland was unable to report new deaths because of a technical issue.
-2021-12-06,,,Maryland,USA-24,both,yes,,0,Maryland has been unable to report new county-level cases and deaths because of a technical issue.
+2021-12-06,2021-12-27,,Maryland,USA-24,both,yes,,0,Maryland has been unable to report new county-level cases and deaths because of a technical issue.
 2021-12-06,2021-12-07,,Wisconsin,USA-55,both,,,0,Wisconsin was unable to report new cases and deaths because of a technical issue.
 2021-12-07,,,Wisconsin,USA-55,cases,yes,,0,Wisconsin was unable to report new cases because of a technical issue. Some counties reported new data independently.
 2021-12-08,,Washington,Rhode Island,USA-44009,both,yes,,0,Rhode Island was unable to report new county-level cases and deaths.
@@ -1230,27 +1230,27 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2021-12-25,,,Ohio,USA-39,both,,,0,Ohio did not announce new cases and deaths for the Christmas holiday.
 2021-12-25,,,Missouri,USA-29,both,,,0,Missouri did not announce new cases and deaths for the Christmas holiday.
 2021-12-28,,,Maryland,USA-24,deaths,yes,yes,0,Maryland reported many deaths from the previous month after resolving a technical issue.
-2021-12-28,,Allegany,Maryland,USA-24001,both,yes,,0,Maryland added many cases and deaths in Allegany County after resolving a technical issue.
-2021-12-28,,Anne Arundel,Maryland,USA-24003,both,yes,,0,Maryland added many cases and deaths in Anne Arundel County after resolving a technical issue.
-2021-12-28,,Baltimore,Maryland,USA-24005,both,yes,,0,Maryland added many cases and deaths in Baltimore County after resolving a technical issue.
-2021-12-28,,Baltimore city,Maryland,USA-24510,both,yes,,0,Maryland added many cases and deaths in Baltimore after resolving a technical issue.
-2021-12-28,,Calvert,Maryland,USA-24009,both,yes,,0,Maryland added many cases and deaths in Calvert County after resolving a technical issue.
-2021-12-28,,Caroline,Maryland,USA-24011,both,yes,,0,Maryland added many cases and deaths in Caroline County after resolving a technical issue.
-2021-12-28,,Carroll,Maryland,USA-24013,both,yes,,0,Maryland added many cases and deaths in Carroll County after resolving a technical issue.
-2021-12-28,,Cecil,Maryland,USA-24015,both,yes,,0,Maryland added many cases and deaths in Cecil County after resolving a technical issue.
-2021-12-28,,Charles,Maryland,USA-24017,both,yes,,0,Maryland added many cases and deaths in Charles County after resolving a technical issue.
-2021-12-28,,Dorchester,Maryland,USA-24019,both,yes,,0,Maryland added many cases and deaths in Dorchester County after resolving a technical issue.
-2021-12-28,,Frederick,Maryland,USA-24021,both,yes,,0,Maryland added many cases and deaths in Frederick County after resolving a technical issue.
-2021-12-28,,Garrett,Maryland,USA-24023,both,yes,,0,Maryland added many cases and deaths in Garrett County after resolving a technical issue.
-2021-12-28,,Harford,Maryland,USA-24025,both,yes,,0,Maryland added many cases and deaths in Harford County after resolving a technical issue.
-2021-12-28,,Howard,Maryland,USA-24027,both,yes,,0,Maryland added many cases and deaths in Howard County after resolving a technical issue.
-2021-12-28,,Kent,Maryland,USA-24029,both,yes,,0,Maryland added many cases and deaths in Kent County after resolving a technical issue.
-2021-12-28,,Montgomery,Maryland,USA-24031,both,yes,,0,Maryland added many cases and deaths in Montgomery County after resolving a technical issue.
-2021-12-28,,Prince George's,Maryland,USA-24033,both,yes,,0,Maryland added many cases and deaths in Prince George's County after resolving a technical issue.
-2021-12-28,,Queen Anne's,Maryland,USA-24035,both,yes,,0,Maryland added many cases and deaths in Queen Anne's County after resolving a technical issue.
-2021-12-28,,Somerset,Maryland,USA-24039,both,yes,,0,Maryland added many cases and deaths in Somerset County after resolving a technical issue.
-2021-12-28,,St. Mary's,Maryland,USA-24037,both,yes,,0,Maryland added many cases and deaths in St. Mary's County after resolving a technical issue.
-2021-12-28,,Talbot,Maryland,USA-24041,both,yes,,0,Maryland added many cases and deaths in Talbot County after resolving a technical issue.
-2021-12-28,,Washington,Maryland,USA-24043,both,yes,,0,Maryland added many cases and deaths in Washington County after resolving a technical issue.
-2021-12-28,,Wicomico,Maryland,USA-24045,both,yes,,0,Maryland added many cases and deaths in Wicomico County after resolving a technical issue.
-2021-12-28,,Worcester,Maryland,USA-24047,both,yes,,0,Maryland added many cases and deaths in Worcester County after resolving a technical issue.
+2021-12-28,,Allegany,Maryland,USA-24001,both,,,0,Maryland added many cases and deaths in Allegany County after resolving a technical issue.
+2021-12-28,,Anne Arundel,Maryland,USA-24003,both,,,0,Maryland added many cases and deaths in Anne Arundel County after resolving a technical issue.
+2021-12-28,,Baltimore,Maryland,USA-24005,both,,,0,Maryland added many cases and deaths in Baltimore County after resolving a technical issue.
+2021-12-28,,Baltimore city,Maryland,USA-24510,both,,,0,Maryland added many cases and deaths in Baltimore after resolving a technical issue.
+2021-12-28,,Calvert,Maryland,USA-24009,both,,,0,Maryland added many cases and deaths in Calvert County after resolving a technical issue.
+2021-12-28,,Caroline,Maryland,USA-24011,both,,,0,Maryland added many cases and deaths in Caroline County after resolving a technical issue.
+2021-12-28,,Carroll,Maryland,USA-24013,both,,,0,Maryland added many cases and deaths in Carroll County after resolving a technical issue.
+2021-12-28,,Cecil,Maryland,USA-24015,both,,,0,Maryland added many cases and deaths in Cecil County after resolving a technical issue.
+2021-12-28,,Charles,Maryland,USA-24017,both,,,0,Maryland added many cases and deaths in Charles County after resolving a technical issue.
+2021-12-28,,Dorchester,Maryland,USA-24019,both,,,0,Maryland added many cases and deaths in Dorchester County after resolving a technical issue.
+2021-12-28,,Frederick,Maryland,USA-24021,both,,,0,Maryland added many cases and deaths in Frederick County after resolving a technical issue.
+2021-12-28,,Garrett,Maryland,USA-24023,both,,,0,Maryland added many cases and deaths in Garrett County after resolving a technical issue.
+2021-12-28,,Harford,Maryland,USA-24025,both,,,0,Maryland added many cases and deaths in Harford County after resolving a technical issue.
+2021-12-28,,Howard,Maryland,USA-24027,both,,,0,Maryland added many cases and deaths in Howard County after resolving a technical issue.
+2021-12-28,,Kent,Maryland,USA-24029,both,,,0,Maryland added many cases and deaths in Kent County after resolving a technical issue.
+2021-12-28,,Montgomery,Maryland,USA-24031,both,,,0,Maryland added many cases and deaths in Montgomery County after resolving a technical issue.
+2021-12-28,,Prince George's,Maryland,USA-24033,both,,,0,Maryland added many cases and deaths in Prince George's County after resolving a technical issue.
+2021-12-28,,Queen Anne's,Maryland,USA-24035,both,,,0,Maryland added many cases and deaths in Queen Anne's County after resolving a technical issue.
+2021-12-28,,Somerset,Maryland,USA-24039,both,,,0,Maryland added many cases and deaths in Somerset County after resolving a technical issue.
+2021-12-28,,St. Mary's,Maryland,USA-24037,both,,,0,Maryland added many cases and deaths in St. Mary's County after resolving a technical issue.
+2021-12-28,,Talbot,Maryland,USA-24041,both,,,0,Maryland added many cases and deaths in Talbot County after resolving a technical issue.
+2021-12-28,,Washington,Maryland,USA-24043,both,,,0,Maryland added many cases and deaths in Washington County after resolving a technical issue.
+2021-12-28,,Wicomico,Maryland,USA-24045,both,,,0,Maryland added many cases and deaths in Wicomico County after resolving a technical issue.
+2021-12-28,,Worcester,Maryland,USA-24047,both,,,0,Maryland added many cases and deaths in Worcester County after resolving a technical issue.
