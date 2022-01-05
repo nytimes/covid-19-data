@@ -1655,7 +1655,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2022-01-01,USA-29197,Schuyler,Missouri,0,2.57,55.18,0,0,0
 2022-01-01,USA-29195,Saline,Missouri,0,11.57,50.84,0,0.14,0.63
 2022-01-01,USA-29181,Ripley,Missouri,0,2.57,19.35,0,0.17,1.25
-2022-01-01,USA-29179,Reynolds,Missouri,0,1.89,30.13,0,0.43,6.84
+2022-01-01,USA-29179,Reynolds,Missouri,0,2.43,38.73,0,0.43,6.84
 2022-01-01,USA-29177,Ray,Missouri,0,20.14,87.51,0,0.14,0.62
 2022-01-01,USA-29175,Randolph,Missouri,0,12.29,49.64,0,0.43,1.73
 2022-01-01,USA-29173,Ralls,Missouri,0,5.43,52.66,0,0,0
@@ -1729,7 +1729,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2022-01-01,USA-29037,Cass,Missouri,0,75.29,71.17,0,0.57,0.54
 2022-01-01,USA-29035,Carter,Missouri,0,1.88,31.34,0,0.14,2.39
 2022-01-01,USA-29033,Carroll,Missouri,0,7.86,90.53,0,0,0
-2022-01-01,USA-29031,Cape Girardeau,Missouri,0,0,0,0,0.14,0.18
+2022-01-01,USA-29031,Cape Girardeau,Missouri,0,24,30.43,0,0.14,0.18
 2022-01-01,USA-29029,Camden,Missouri,0,15.29,33.01,0,0.14,0.31
 2022-01-01,USA-29027,Callaway,Missouri,0,19.14,42.78,0,0,0
 2022-01-01,USA-29025,Caldwell,Missouri,0,4.14,45.93,0,0,0
@@ -4906,7 +4906,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2022-01-02,USA-29197,Schuyler,Missouri,0,2.57,55.18,0,0,0
 2022-01-02,USA-29195,Saline,Missouri,0,11.57,50.84,0,0.14,0.63
 2022-01-02,USA-29181,Ripley,Missouri,0,2.57,19.35,0,0.17,1.25
-2022-01-02,USA-29179,Reynolds,Missouri,0,1.89,30.13,0,0.43,6.84
+2022-01-02,USA-29179,Reynolds,Missouri,0,2.43,38.73,0,0.43,6.84
 2022-01-02,USA-29177,Ray,Missouri,0,20.14,87.51,0,0.14,0.62
 2022-01-02,USA-29175,Randolph,Missouri,0,12.29,49.64,0,0.43,1.73
 2022-01-02,USA-29173,Ralls,Missouri,0,5.43,52.66,0,0,0
@@ -4980,7 +4980,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2022-01-02,USA-29037,Cass,Missouri,0,75.29,71.17,0,0.57,0.54
 2022-01-02,USA-29035,Carter,Missouri,0,1.88,31.34,0,0.14,2.39
 2022-01-02,USA-29033,Carroll,Missouri,0,7.86,90.53,0,0,0
-2022-01-02,USA-29031,Cape Girardeau,Missouri,0,0,0,0,0.14,0.18
+2022-01-02,USA-29031,Cape Girardeau,Missouri,0,24,30.43,0,0.14,0.18
 2022-01-02,USA-29029,Camden,Missouri,0,15.29,33.01,0,0.14,0.31
 2022-01-02,USA-29027,Callaway,Missouri,0,19.14,42.78,0,0,0
 2022-01-02,USA-29025,Caldwell,Missouri,0,4.14,45.93,0,0,0
@@ -8231,7 +8231,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2022-01-03,USA-29037,Cass,Missouri,398,111.14,105.07,0,0.57,0.54
 2022-01-03,USA-29035,Carter,Missouri,1,1.29,21.49,0,0.14,2.39
 2022-01-03,USA-29033,Carroll,Missouri,30,9.14,105.34,0,0,0
-2022-01-03,USA-29031,Cape Girardeau,Missouri,7,1,1.27,0,0.14,0.18
+2022-01-03,USA-29031,Cape Girardeau,Missouri,117,32.57,41.3,0,0.14,0.18
 2022-01-03,USA-29029,Camden,Missouri,32,15.57,33.63,0,0.14,0.31
 2022-01-03,USA-29027,Callaway,Missouri,84,23.86,53.32,0,0,0
 2022-01-03,USA-29025,Caldwell,Missouri,9,4.29,47.51,0,0,0
@@ -9507,7 +9507,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2022-01-03,USA-06105,Trinity,California,0,1.14,9.3,0,0,0
 2022-01-03,USA-06103,Tehama,California,0,12.43,19.1,0,0.38,0.58
 2022-01-03,USA-06101,Sutter,California,248,60.57,62.46,7,0.82,0.84
-2022-01-03,USA-06099,Stanislaus,California,0,160.57,29.16,0,1.29,0.23
+2022-01-03,USA-06099,Stanislaus,California,1465,300.86,54.64,5,2,0.36
 2022-01-03,USA-06097,Sonoma,California,0,242.57,49.07,0,0,0
 2022-01-03,USA-06095,Solano,California,0,199,44.46,0,0.57,0.13
 2022-01-03,USA-06093,Siskiyou,California,28,10.43,23.95,0,0.33,0.77
