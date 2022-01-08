@@ -892,7 +892,7 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2021-09-06,,,Alaska,USA-02,both,,,0,The daily count could be artificially low because many jurisdictions did not announce new data on Labor Day.
 2021-09-06,,,Illinois,USA-17,both,,,0,The daily count could be artificially low because many jurisdictions did not announce new data on Labor Day.
 2021-09-06,,,Mississippi,USA-28,both,,,0,The daily count could be artificially low because many jurisdictions did not announce new data on Labor Day.
-2021-09-06,,,Tennessee,USA-47,both,,,0,The daily count could be artificially low because many jurisdictions did not announce new data on Labor Day.
+2021-09-06,,,Tennessee,USA-47,cases,,,16677,The daily count is artificially low because many jurisdictions did not announce new data on Labor Day. The average is adjusted on Sept. 6 and 7 to account for the holiday lag.
 2021-09-06,2021-09-07,,,USA,cases,,,0,The daily count is artificially low on Sept. 6 and high on Sept. 7 because many states and local jurisdictions did not announce new data on Labor Day.
 2021-09-06,,,Florida,USA-12,both,,,0,The daily count could be artificially low because many jurisdictions did not announce new data on Labor Day.
 2021-09-06,,,Indiana,USA-18,both,,,0,The daily count could be artificially low because many jurisdictions did not announce new data on Labor Day.
@@ -911,6 +911,7 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2021-09-06,,,Nevada,USA-32,both,,,0,The daily count could be artificially low because many jurisdictions did not announce new data on Labor Day.
 2021-09-06,,,Kansas,USA-20,both,,,0,The daily count could be artificially low because many jurisdictions did not announce new data on Labor Day.
 2021-09-06,,,New Mexico,USA-35,both,,,0,The daily count could be artificially low because many jurisdictions did not announce new data on Labor Day.
+2021-09-07,,,Tennessee,USA-47,cases,,,-16677,
 2021-09-10,2021-09-22,DeWitt,Texas,USA-48123,both,,,0,Officials are not regularly reporting case and death counts for DeWitt County.
 2021-09-11,,Coryell,Texas,USA-48099,cases,yes,,0,Texas removed many prison cases in Coryell County.
 2021-09-11,2021-09-13,Los Angeles,California,USA-06037,both,,,0,Los Angeles County announced data for several days on Sept. 13 after planned maintenance.
@@ -1288,3 +1289,4 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2022-01-03,,,Georgia,USA-13,both,,,0,Georgia was unable to announce new data because of technical issues.
 2022-01-03,,,South Carolina,USA-45,both,,,0,South Carolina did not announce new cases and deaths for the New Year's holiday.
 2022-01-05,,,Tennessee,USA-47,both,,,0,Tennessee reduced its data reporting schedule from all weekdays to once a week.
+2022-01-06,2022-01-07,,Georgia,USA-13,both,,,0,Georgia was unable to report new cases and deaths because of technical issues.
