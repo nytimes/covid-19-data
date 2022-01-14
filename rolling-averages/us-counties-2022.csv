@@ -101,6 +101,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2022-01-01,USA-56005,Campbell,Wyoming,0,12.86,27.74,0,0,0
 2022-01-01,USA-56003,Big Horn,Wyoming,0,1.57,13.33,0,0,0
 2022-01-01,USA-56001,Albany,Wyoming,0,16.29,41.89,0,0,0
+2022-01-01,USA-55999,Unknown,Wisconsin,0,0,,0,0,
 2022-01-01,USA-55141,Wood,Wisconsin,0,60,82.19,0,1.71,2.35
 2022-01-01,USA-55139,Winnebago,Wisconsin,0,163.57,95.15,0,0.89,0.52
 2022-01-01,USA-55137,Waushara,Wisconsin,0,14.57,59.61,0,0.43,1.75
@@ -3352,6 +3353,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2022-01-02,USA-56005,Campbell,Wyoming,0,12.86,27.74,0,0,0
 2022-01-02,USA-56003,Big Horn,Wyoming,0,1.57,13.33,0,0,0
 2022-01-02,USA-56001,Albany,Wyoming,0,16.29,41.89,0,0,0
+2022-01-02,USA-55999,Unknown,Wisconsin,0,0,,0,0,
 2022-01-02,USA-55141,Wood,Wisconsin,0,60,82.19,0,1.71,2.35
 2022-01-02,USA-55139,Winnebago,Wisconsin,0,163.57,95.15,0,0.89,0.52
 2022-01-02,USA-55137,Waushara,Wisconsin,0,14.57,59.61,0,0.43,1.75
@@ -6603,6 +6605,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2022-01-03,USA-56005,Campbell,Wyoming,42,14.57,31.44,0,0,0
 2022-01-03,USA-56003,Big Horn,Wyoming,2,0.71,6.06,0,0,0
 2022-01-03,USA-56001,Albany,Wyoming,102,27.43,70.55,0,0,0
+2022-01-03,USA-55999,Unknown,Wisconsin,0,0,,0,0,
 2022-01-03,USA-55141,Wood,Wisconsin,206,73.29,100.39,2,0.44,0.61
 2022-01-03,USA-55139,Winnebago,Wisconsin,587,219.71,127.81,0,0.89,0.52
 2022-01-03,USA-55137,Waushara,Wisconsin,11,15.86,64.87,1,0.57,2.34
@@ -9854,6 +9857,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2022-01-04,USA-56005,Campbell,Wyoming,35,15.71,33.91,0,0,0
 2022-01-04,USA-56003,Big Horn,Wyoming,2,0.86,7.27,0,0,0
 2022-01-04,USA-56001,Albany,Wyoming,99,37.71,97,1,0.14,0.37
+2022-01-04,USA-55999,Unknown,Wisconsin,0,0,,0,0,
 2022-01-04,USA-55141,Wood,Wisconsin,43,73,100,3,0.71,0.98
 2022-01-04,USA-55139,Winnebago,Wisconsin,191,223.29,129.89,0,0.89,0.52
 2022-01-04,USA-55137,Waushara,Wisconsin,70,25.14,102.86,0,0.57,2.34
@@ -13105,6 +13109,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2022-01-05,USA-56005,Campbell,Wyoming,43,19.57,42.23,0,0,0
 2022-01-05,USA-56003,Big Horn,Wyoming,1,0.86,7.27,0,0,0
 2022-01-05,USA-56001,Albany,Wyoming,109,48.57,124.93,0,0.14,0.37
+2022-01-05,USA-55999,Unknown,Wisconsin,0,0,,0,0,
 2022-01-05,USA-55141,Wood,Wisconsin,100,77,105.48,0,0.71,0.98
 2022-01-05,USA-55139,Winnebago,Wisconsin,479,268.14,155.98,3,0.43,0.25
 2022-01-05,USA-55137,Waushara,Wisconsin,30,23.43,95.85,0,0.57,2.34
@@ -16356,6 +16361,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2022-01-06,USA-56005,Campbell,Wyoming,31,21.57,46.55,0,0,0
 2022-01-06,USA-56003,Big Horn,Wyoming,2,1,8.48,0,0,0
 2022-01-06,USA-56001,Albany,Wyoming,105,59.29,152.48,0,0.14,0.37
+2022-01-06,USA-55999,Unknown,Wisconsin,0,0,,0,0,
 2022-01-06,USA-55141,Wood,Wisconsin,160,87.29,119.57,10,1.67,2.28
 2022-01-06,USA-55139,Winnebago,Wisconsin,620,318.29,185.15,3,0.75,0.44
 2022-01-06,USA-55137,Waushara,Wisconsin,38,25.71,105.2,1,0.29,1.17
@@ -19607,6 +19613,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2022-01-07,USA-56005,Campbell,Wyoming,29,22.5,48.55,0,0,0
 2022-01-07,USA-56003,Big Horn,Wyoming,2,1.13,9.54,0,0,0
 2022-01-07,USA-56001,Albany,Wyoming,72,60.88,156.57,0,0.14,0.37
+2022-01-07,USA-55999,Unknown,Wisconsin,0,0,,0,0,
 2022-01-07,USA-55141,Wood,Wisconsin,195,100.57,137.77,0,1.67,2.28
 2022-01-07,USA-55139,Winnebago,Wisconsin,577,350.57,203.93,0,0.75,0.44
 2022-01-07,USA-55137,Waushara,Wisconsin,50,28.43,116.31,0,0.29,1.17
@@ -22858,6 +22865,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2022-01-08,USA-56005,Campbell,Wyoming,0,22.5,48.55,0,0,0
 2022-01-08,USA-56003,Big Horn,Wyoming,0,1.13,9.54,0,0,0
 2022-01-08,USA-56001,Albany,Wyoming,0,60.88,156.57,0,0.14,0.37
+2022-01-08,USA-55999,Unknown,Wisconsin,0,0,,0,0,
 2022-01-08,USA-55141,Wood,Wisconsin,0,100.57,137.77,0,1.67,2.28
 2022-01-08,USA-55139,Winnebago,Wisconsin,0,350.57,203.93,0,0.75,0.44
 2022-01-08,USA-55137,Waushara,Wisconsin,0,28.43,116.31,0,0.29,1.17
@@ -26108,6 +26116,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2022-01-09,USA-56005,Campbell,Wyoming,0,22.5,48.55,0,0,0
 2022-01-09,USA-56003,Big Horn,Wyoming,0,1.13,9.54,0,0,0
 2022-01-09,USA-56001,Albany,Wyoming,0,60.88,156.57,0,0.14,0.37
+2022-01-09,USA-55999,Unknown,Wisconsin,0,0,,0,0,
 2022-01-09,USA-55141,Wood,Wisconsin,0,100.57,137.77,0,1.67,2.28
 2022-01-09,USA-55139,Winnebago,Wisconsin,0,350.57,203.93,0,0.75,0.44
 2022-01-09,USA-55137,Waushara,Wisconsin,0,28.43,116.31,0,0.29,1.17
@@ -29358,6 +29367,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2022-01-10,USA-56005,Campbell,Wyoming,98,33.71,72.75,0,0,0
 2022-01-10,USA-56003,Big Horn,Wyoming,7,2,16.96,0,0,0
 2022-01-10,USA-56001,Albany,Wyoming,224,87,223.77,0,0.14,0.37
+2022-01-10,USA-55999,Unknown,Wisconsin,0,0,,0,0,
 2022-01-10,USA-55141,Wood,Wisconsin,463,137.29,188.07,0,1.67,2.28
 2022-01-10,USA-55139,Winnebago,Wisconsin,1097,423.43,246.31,0,0.75,0.44
 2022-01-10,USA-55137,Waushara,Wisconsin,56,34.86,142.61,0,0.29,1.17
@@ -32608,6 +32618,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2022-01-11,USA-56005,Campbell,Wyoming,67,38.29,82.62,0,0,0
 2022-01-11,USA-56003,Big Horn,Wyoming,6,2.57,21.81,2,0.29,2.42
 2022-01-11,USA-56001,Albany,Wyoming,79,84.14,216.42,0,0,0
+2022-01-11,USA-55999,Unknown,Wisconsin,0,0,,0,0,
 2022-01-11,USA-55141,Wood,Wisconsin,135,150.43,206.07,3,1.86,2.54
 2022-01-11,USA-55139,Winnebago,Wisconsin,1189,566,329.25,3,0.69,0.4
 2022-01-11,USA-55137,Waushara,Wisconsin,130,43.43,177.67,0,0.29,1.17
@@ -35858,6 +35869,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2022-01-12,USA-56005,Campbell,Wyoming,58,40.43,87.24,0,0,0
 2022-01-12,USA-56003,Big Horn,Wyoming,7,3.43,29.08,0,0.29,2.42
 2022-01-12,USA-56001,Albany,Wyoming,102,83.14,213.84,0,0,0
+2022-01-12,USA-55999,Unknown,Wisconsin,0,0,,0,0,
 2022-01-12,USA-55141,Wood,Wisconsin,197,164.29,225.05,0,1.86,2.54
 2022-01-12,USA-55139,Winnebago,Wisconsin,642,589.29,342.79,0,0.69,0.4
 2022-01-12,USA-55137,Waushara,Wisconsin,65,48.43,198.13,0,0.29,1.17
