@@ -1382,3 +1382,9 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2022-01-05,,Williamson,Tennessee,USA-47187,cases,yes,,0,Tennessee reduced its data reporting schedule from all weekdays to once a week for county-level cases and deaths.
 2022-01-06,2022-01-07,,Georgia,USA-13,both,,,0,Georgia was unable to report new cases and deaths because of technical issues.
 2022-01-10,2022-01-11,,Vermont,USA-50,both,,,0,Vermont was unable to report new cases and deaths because of technical issues.
+2022-01-10,,McCreary,Kentucky,USA-21147,cases,,,0,Local health officials are temporarily unable to provide cumulative case updates for McCreary County.
+2022-01-10,,Pulaski,Kentucky,USA-21199,cases,,,0,Local health officials are temporarily unable to provide cumulative case updates for Pulaski County.
+2022-01-10,,Wayne,Kentucky,USA-21231,cases,,,0,Local health officials are temporarily unable to provide cumulative case updates for Wayne County.
+2022-01-13,2022-01-14,,Alabama,USA-01,both,,,0,Alabama was unable to report new cases and deaths because of technical issues.
+2022-01-14,,,Texas,USA-48,cases,,yes,0,"Texas audited cases data from previous years, which added about 26,000 cases to the state total and resulted in one-day increases or decreases in cumulative cases for many counties."
+2022-01-14,,,Texas,USA-48,cases,,,-26236,"Texas audited cases data from previous years, which resulted in the state total increasing by 26,236 cases."
