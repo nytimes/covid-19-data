@@ -228,6 +228,7 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2021-01-14,,Saginaw,Michigan,USA-26145,cases,yes,,0,Data from the Michigan Department of Corrections was added for recent weeks.
 2021-01-15,,Matagorda,Texas,USA-48321,cases,yes,,0,Texas announced many backlogged probable cases in Matagorda County.
 2021-01-17,,,Louisiana,USA-22,deaths,,,0,Louisiana announced deaths for several days at once after resolving a technical issue.
+2021-01-17,,,,USA,both,,,0,The daily count is artificially low on Jan. 17 because many states and local jurisdictions did not announce new data on the Martin Luther King Jr. Day holiday.
 2021-01-20,,,Nebraska,USA-31,both,,,0,Nebraska announced a large number of cases after completing data system maintenance.
 2021-01-22,,,Illinois,USA-17,cases,,,0,"Illinois began including probable deaths as probable cases, resulting in a one-day increase in cases."
 2021-01-22,,Tallapoosa,Alabama,USA-01123,cases,yes,,0,Alabama announced a backlog of cases for Tallapoosa County from testing that occurred between November and January.
