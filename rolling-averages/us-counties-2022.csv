@@ -1480,7 +1480,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2022-01-01,USA-32003,Clark,Nevada,0,1445.43,63.77,0,6.57,0.29
 2022-01-01,USA-32001,Churchill,Nevada,0,6,24.09,0,0.38,1.51
 2022-01-01,USA-32510,Carson City,Nevada,0,11.29,20.18,0,0.2,0.36
-2022-01-01,USA-31999,Unknown,Nebraska,0,224.29,,0,0,
+2022-01-01,USA-31999,Unknown,Nebraska,0,224.29,,0,2.14,
 2022-01-01,USA-31185,York,Nebraska,0,6,43.86,0,0,0
 2022-01-01,USA-31183,Wheeler,Nebraska,0,0.14,18.24,0,0,0
 2022-01-01,USA-31181,Webster,Nebraska,0,1.57,45.07,0,0,0
@@ -4733,7 +4733,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2022-01-02,USA-32003,Clark,Nevada,0,1445.43,63.77,0,6.57,0.29
 2022-01-02,USA-32001,Churchill,Nevada,0,6,24.09,0,0.38,1.51
 2022-01-02,USA-32510,Carson City,Nevada,0,11.29,20.18,0,0.2,0.36
-2022-01-02,USA-31999,Unknown,Nebraska,-307,224.29,,0,0,
+2022-01-02,USA-31999,Unknown,Nebraska,-307,224.29,,0,2.14,
 2022-01-02,USA-31185,York,Nebraska,0,6,43.86,0,0,0
 2022-01-02,USA-31183,Wheeler,Nebraska,0,0.14,18.24,0,0,0
 2022-01-02,USA-31181,Webster,Nebraska,0,1.57,45.07,0,0,0
@@ -7986,7 +7986,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2022-01-03,USA-32003,Clark,Nevada,12004,2636,116.29,0,6.57,0.29
 2022-01-03,USA-32001,Churchill,Nevada,12,6.43,25.81,0,0.38,1.51
 2022-01-03,USA-32510,Carson City,Nevada,23,13.43,24.02,3,0.57,1.02
-2022-01-03,USA-31999,Unknown,Nebraska,447,262.43,,0,0,
+2022-01-03,USA-31999,Unknown,Nebraska,447,262.43,,2,0.7,
 2022-01-03,USA-31185,York,Nebraska,12,4.91,35.89,0,0,0
 2022-01-03,USA-31183,Wheeler,Nebraska,2,0.3,38.31,0,0,0
 2022-01-03,USA-31181,Webster,Nebraska,4,1.36,39.11,0,0,0
@@ -11239,7 +11239,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2022-01-04,USA-32003,Clark,Nevada,2246,2751.29,121.38,38,9,0.4
 2022-01-04,USA-32001,Churchill,Nevada,41,11,44.16,0,0.38,1.51
 2022-01-04,USA-32510,Carson City,Nevada,70,17.57,31.42,0,0.57,1.02
-2022-01-04,USA-31999,Unknown,Nebraska,5,230.25,,0,0,
+2022-01-04,USA-31999,Unknown,Nebraska,5,230.25,,-4,0.7,
 2022-01-04,USA-31185,York,Nebraska,15,6.71,49.08,0,0,0
 2022-01-04,USA-31183,Wheeler,Nebraska,1,0.36,46.44,0,0,0
 2022-01-04,USA-31181,Webster,Nebraska,8,2.43,69.65,0,0,0
@@ -14492,7 +14492,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2022-01-05,USA-32003,Clark,Nevada,3044,2838.86,125.24,13,8.71,0.38
 2022-01-05,USA-32001,Churchill,Nevada,10,11.71,47.03,0,0.38,1.51
 2022-01-05,USA-32510,Carson City,Nevada,29,20,35.77,0,0.57,1.02
-2022-01-05,USA-31999,Unknown,Nebraska,13,206.11,,0,0,
+2022-01-05,USA-31999,Unknown,Nebraska,13,206.11,,12,2,
 2022-01-05,USA-31185,York,Nebraska,20,8,58.48,0,0,0
 2022-01-05,USA-31183,Wheeler,Nebraska,1,0.42,53.21,0,0,0
 2022-01-05,USA-31181,Webster,Nebraska,6,2.86,81.94,0,0,0
@@ -17745,7 +17745,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2022-01-06,USA-32003,Clark,Nevada,1815,2729.86,120.43,15,9.43,0.42
 2022-01-06,USA-32001,Churchill,Nevada,18,11.57,46.45,0,0,0
 2022-01-06,USA-32510,Carson City,Nevada,70,27.43,49.05,1,0.57,1.02
-2022-01-06,USA-31999,Unknown,Nebraska,44,189.9,,0,0,
+2022-01-06,USA-31999,Unknown,Nebraska,44,189.9,,-1,2,
 2022-01-06,USA-31185,York,Nebraska,16,9,65.79,0,0,0
 2022-01-06,USA-31183,Wheeler,Nebraska,1,0.71,91.22,0,0,0
 2022-01-06,USA-31181,Webster,Nebraska,1,2.71,77.84,0,0,0
@@ -20998,7 +20998,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2022-01-07,USA-32003,Clark,Nevada,3849,2869.75,126.6,2,8.5,0.37
 2022-01-07,USA-32001,Churchill,Nevada,25,13.25,53.19,0,0,0
 2022-01-07,USA-32510,Carson City,Nevada,86,34.75,62.15,0,0.57,1.02
-2022-01-07,USA-31999,Unknown,Nebraska,69,98.43,,0,0,
+2022-01-07,USA-31999,Unknown,Nebraska,69,98.43,,20,4.25,
 2022-01-07,USA-31185,York,Nebraska,13,9.5,69.45,0,0,0
 2022-01-07,USA-31183,Wheeler,Nebraska,-1,0.71,91.22,0,0,0
 2022-01-07,USA-31181,Webster,Nebraska,1,2.5,71.69,0,0,0
@@ -24251,7 +24251,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2022-01-08,USA-32003,Clark,Nevada,0,2869.75,126.6,0,8.5,0.37
 2022-01-08,USA-32001,Churchill,Nevada,0,13.25,53.19,0,0,0
 2022-01-08,USA-32510,Carson City,Nevada,0,34.75,62.15,0,0.57,1.02
-2022-01-08,USA-31999,Unknown,Nebraska,-73,98.43,,0,0,
+2022-01-08,USA-31999,Unknown,Nebraska,-73,98.43,,10,4.89,
 2022-01-08,USA-31185,York,Nebraska,0,9.5,69.45,0,0,0
 2022-01-08,USA-31183,Wheeler,Nebraska,0,0.71,91.22,0,0,0
 2022-01-08,USA-31181,Webster,Nebraska,0,2.5,71.69,0,0,0
@@ -27504,7 +27504,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2022-01-09,USA-32003,Clark,Nevada,0,2869.75,126.6,0,8.5,0.37
 2022-01-09,USA-32001,Churchill,Nevada,0,13.25,53.19,0,0,0
 2022-01-09,USA-32510,Carson City,Nevada,0,34.75,62.15,0,0.57,1.02
-2022-01-09,USA-31999,Unknown,Nebraska,-575,98.43,,0,0,
+2022-01-09,USA-31999,Unknown,Nebraska,-575,98.43,,0,4.89,
 2022-01-09,USA-31185,York,Nebraska,0,9.5,69.45,0,0,0
 2022-01-09,USA-31183,Wheeler,Nebraska,0,0.71,91.22,0,0,0
 2022-01-09,USA-31181,Webster,Nebraska,0,2.5,71.69,0,0,0
@@ -30757,7 +30757,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2022-01-10,USA-32003,Clark,Nevada,15448,3771.71,166.4,15,7.55,0.33
 2022-01-10,USA-32001,Churchill,Nevada,39,19,76.28,0,0,0
 2022-01-10,USA-32510,Carson City,Nevada,156,58.71,105,0,0.57,1.02
-2022-01-10,USA-31999,Unknown,Nebraska,687,180.71,,0,0,
+2022-01-10,USA-31999,Unknown,Nebraska,687,180.71,,-9,4.89,
 2022-01-10,USA-31185,York,Nebraska,23,12.43,90.86,0,0,0
 2022-01-10,USA-31183,Wheeler,Nebraska,1,0.6,76.63,0,0,0
 2022-01-10,USA-31181,Webster,Nebraska,4,2.86,81.94,0,0,0
@@ -34010,7 +34010,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2022-01-11,USA-32003,Clark,Nevada,3495,3950.14,174.27,27,10.29,0.45
 2022-01-11,USA-32001,Churchill,Nevada,63,22.14,88.9,0,0,0
 2022-01-11,USA-32510,Carson City,Nevada,261,86,153.8,1,0.25,0.45
-2022-01-11,USA-31999,Unknown,Nebraska,137,175.25,,0,0,
+2022-01-11,USA-31999,Unknown,Nebraska,137,175.25,,7,4.64,
 2022-01-11,USA-31185,York,Nebraska,27,14.14,103.39,0,0,0
 2022-01-11,USA-31183,Wheeler,Nebraska,0,0.6,76.63,0,0,0
 2022-01-11,USA-31181,Webster,Nebraska,10,3.14,90.13,0,0,0
@@ -37263,7 +37263,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2022-01-12,USA-32003,Clark,Nevada,5149,4250.86,187.53,17,10.86,0.48
 2022-01-12,USA-32001,Churchill,Nevada,9,22,88.32,0,0,0
 2022-01-12,USA-32510,Carson City,Nevada,75,92.57,165.55,0,0.25,0.45
-2022-01-12,USA-31999,Unknown,Nebraska,-97,175.25,,0,0,
+2022-01-12,USA-31999,Unknown,Nebraska,-97,175.25,,-2,4.64,
 2022-01-12,USA-31185,York,Nebraska,27,15.14,110.7,0,0,0
 2022-01-12,USA-31183,Wheeler,Nebraska,4,1,127.71,0,0,0
 2022-01-12,USA-31181,Webster,Nebraska,5,3,86.03,0,0,0
@@ -40516,7 +40516,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2022-01-13,USA-32003,Clark,Nevada,6023,4852,214.05,20,11.57,0.51
 2022-01-13,USA-32001,Churchill,Nevada,21,22.43,90.04,0,0,0
 2022-01-13,USA-32510,Carson City,Nevada,193,110.14,196.98,0,0.25,0.45
-2022-01-13,USA-31999,Unknown,Nebraska,61,145.14,,0,0,
+2022-01-13,USA-31999,Unknown,Nebraska,61,145.14,,22,6.08,
 2022-01-13,USA-31185,York,Nebraska,12,14.57,106.52,0,0,0
 2022-01-13,USA-31183,Wheeler,Nebraska,1,1,127.71,0,0,0
 2022-01-13,USA-31181,Webster,Nebraska,11,4.43,127,0,0,0
@@ -43769,7 +43769,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2022-01-14,USA-32003,Clark,Nevada,4917,5004.57,220.79,17,13.71,0.61
 2022-01-14,USA-32001,Churchill,Nevada,103,33.57,134.78,0,0,0
 2022-01-14,USA-32510,Carson City,Nevada,168,121.86,217.93,3,0.5,0.89
-2022-01-14,USA-31999,Unknown,Nebraska,33,149.14,,0,0,
+2022-01-14,USA-31999,Unknown,Nebraska,33,149.14,,6,11,
 2022-01-14,USA-31185,York,Nebraska,28,16.71,122.19,0,0,0
 2022-01-14,USA-31183,Wheeler,Nebraska,-1,1,127.71,0,0,0
 2022-01-14,USA-31181,Webster,Nebraska,-1,4.43,127,0,0,0
@@ -47022,7 +47022,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2022-01-15,USA-32003,Clark,Nevada,0,5004.57,220.79,0,13.71,0.61
 2022-01-15,USA-32001,Churchill,Nevada,0,33.57,134.78,0,0,0
 2022-01-15,USA-32510,Carson City,Nevada,0,121.86,217.93,0,0.5,0.89
-2022-01-15,USA-31999,Unknown,Nebraska,0,149.14,,0,0,
+2022-01-15,USA-31999,Unknown,Nebraska,0,149.14,,0,11,
 2022-01-15,USA-31185,York,Nebraska,0,16.71,122.19,0,0,0
 2022-01-15,USA-31183,Wheeler,Nebraska,0,1,127.71,0,0,0
 2022-01-15,USA-31181,Webster,Nebraska,0,4.43,127,0,0,0
@@ -50275,7 +50275,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2022-01-16,USA-32003,Clark,Nevada,0,5004.57,220.79,0,13.71,0.61
 2022-01-16,USA-32001,Churchill,Nevada,0,33.57,134.78,0,0,0
 2022-01-16,USA-32510,Carson City,Nevada,0,121.86,217.93,0,0.5,0.89
-2022-01-16,USA-31999,Unknown,Nebraska,0,149.14,,0,0,
+2022-01-16,USA-31999,Unknown,Nebraska,0,149.14,,0,11,
 2022-01-16,USA-31185,York,Nebraska,0,16.71,122.19,0,0,0
 2022-01-16,USA-31183,Wheeler,Nebraska,0,1,127.71,0,0,0
 2022-01-16,USA-31181,Webster,Nebraska,0,4.43,127,0,0,0
@@ -53528,7 +53528,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2022-01-17,USA-32003,Clark,Nevada,0,5004.57,220.79,0,13.71,0.61
 2022-01-17,USA-32001,Churchill,Nevada,0,33.57,134.78,0,0,0
 2022-01-17,USA-32510,Carson City,Nevada,0,121.86,217.93,0,0.5,0.89
-2022-01-17,USA-31999,Unknown,Nebraska,68,140.86,,0,0,
+2022-01-17,USA-31999,Unknown,Nebraska,68,140.86,,0,11,
 2022-01-17,USA-31185,York,Nebraska,71,23.57,172.32,0,0,0
 2022-01-17,USA-31183,Wheeler,Nebraska,3,1,127.71,0,0,0
 2022-01-17,USA-31181,Webster,Nebraska,5,3.89,111.53,0,0,0
@@ -56781,7 +56781,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2022-01-18,USA-32003,Clark,Nevada,18645,4962,218.91,21,10.71,0.47
 2022-01-18,USA-32001,Churchill,Nevada,143,39.43,158.29,0,0,0
 2022-01-18,USA-32510,Carson City,Nevada,175,87.29,156.1,0,0.5,0.89
-2022-01-18,USA-31999,Unknown,Nebraska,147,63.71,,0,0,
+2022-01-18,USA-31999,Unknown,Nebraska,147,63.71,,-5,11,
 2022-01-18,USA-31185,York,Nebraska,13,21.57,157.7,0,0,0
 2022-01-18,USA-31183,Wheeler,Nebraska,0,1,127.71,0,0,0
 2022-01-18,USA-31181,Webster,Nebraska,3,4.86,139.29,0,0,0
@@ -60034,7 +60034,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2022-01-19,USA-32003,Clark,Nevada,2848,4633.29,204.41,29,12.43,0.55
 2022-01-19,USA-32001,Churchill,Nevada,18,40.71,163.45,0,0,0
 2022-01-19,USA-32510,Carson City,Nevada,518,150.57,269.28,0,0.5,0.89
-2022-01-19,USA-31999,Unknown,Nebraska,-83,63.71,,320,0,
+2022-01-19,USA-31999,Unknown,Nebraska,-83,63.71,,-6,11,
 2022-01-19,USA-31185,York,Nebraska,71,27.86,203.65,0,0,0
 2022-01-19,USA-31183,Wheeler,Nebraska,3,1.38,175.61,0,0,0
 2022-01-19,USA-31181,Webster,Nebraska,9,4.71,135.2,0,0,0
@@ -60051,11 +60051,11 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2022-01-19,USA-31159,Seward,Nebraska,29,16.57,95.88,0,0,0
 2022-01-19,USA-31157,Scotts Bluff,Nebraska,265,79.71,223.8,0,0,0
 2022-01-19,USA-31155,Saunders,Nebraska,54,35.29,163.53,0,0.25,1.16
-2022-01-19,USA-31153,Sarpy,Nebraska,561,521,278.32,0,2.75,1.47
+2022-01-19,USA-31153,Sarpy,Nebraska,561,521,278.32,0,0,0
 2022-01-19,USA-31151,Saline,Nebraska,42,34.29,241.04,0,0,0
 2022-01-19,USA-31149,Rock,Nebraska,0,0,0,0,0,0
 2022-01-19,USA-31147,Richardson,Nebraska,17,14.86,188.9,0,0,0
-2022-01-19,USA-31145,Red Willow,Nebraska,9,7.29,67.94,0,0.14,1.33
+2022-01-19,USA-31145,Red Willow,Nebraska,9,7.29,67.94,0,0,0
 2022-01-19,USA-31143,Polk,Nebraska,24,11.29,216.49,0,0,0
 2022-01-19,USA-31141,Platte,Nebraska,95,68.14,203.59,0,1,2.99
 2022-01-19,USA-31139,Pierce,Nebraska,9,8.71,121.91,0,0,0
@@ -60069,22 +60069,22 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2022-01-19,USA-31123,Morrill,Nebraska,7,6,129.25,0,0,0
 2022-01-19,USA-31121,Merrick,Nebraska,21,14.14,182.37,0,0,0
 2022-01-19,USA-31117,McPherson,Nebraska,1,0.71,144.59,0,0,0
-2022-01-19,USA-31119,Madison,Nebraska,112,86.71,247.06,3,0,0
+2022-01-19,USA-31119,Madison,Nebraska,112,86.71,247.06,3,0.43,1.22
 2022-01-19,USA-31115,Loup,Nebraska,0,0.71,107.57,0,0,0
 2022-01-19,USA-31113,Logan,Nebraska,0,0.27,36.46,0,0,0
 2022-01-19,USA-31111,Lincoln,Nebraska,66,53.57,153.44,0,0,0
-2022-01-19,USA-31109,Lancaster,Nebraska,1068,914.14,286.48,4,1,0.31
+2022-01-19,USA-31109,Lancaster,Nebraska,1068,914.14,286.48,4,1.43,0.45
 2022-01-19,USA-31107,Knox,Nebraska,9,9.29,111.45,0,0,0
 2022-01-19,USA-31105,Kimball,Nebraska,15,4.57,125.87,0,0,0
 2022-01-19,USA-31103,Keya Paha,Nebraska,0,0,0,0,0,0
-2022-01-19,USA-31101,Keith,Nebraska,7,10,124.47,0,0.14,1.78
+2022-01-19,USA-31101,Keith,Nebraska,7,10,124.47,0,0,0
 2022-01-19,USA-31099,Kearney,Nebraska,19,6.14,94.58,0,0,0
 2022-01-19,USA-31097,Johnson,Nebraska,0,2.86,56.34,0,0,0
 2022-01-19,USA-31095,Jefferson,Nebraska,6,4.43,62.85,0,0,0
 2022-01-19,USA-31093,Howard,Nebraska,24,12.57,195.06,0,0,0
 2022-01-19,USA-31091,Hooker,Nebraska,1,0.33,48.88,0,0,0
 2022-01-19,USA-31089,Holt,Nebraska,21,10,99.33,0,0.14,1.42
-2022-01-19,USA-31087,Hitchcock,Nebraska,5,2.57,93.1,0,0.14,5.17
+2022-01-19,USA-31087,Hitchcock,Nebraska,5,2.57,93.1,0,0,0
 2022-01-19,USA-31085,Hayes,Nebraska,0,0.33,36.15,0,0,0
 2022-01-19,USA-31083,Harlan,Nebraska,2,1.25,36.98,0,0,0
 2022-01-19,USA-31081,Hamilton,Nebraska,11,18,193.05,0,0.14,1.53
@@ -60100,14 +60100,14 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2022-01-19,USA-31061,Franklin,Nebraska,2,1,33.57,0,0,0
 2022-01-19,USA-31059,Fillmore,Nebraska,19,10,183.08,0,0,0
 2022-01-19,USA-31057,Dundy,Nebraska,4,1.57,92.82,0,0,0
-2022-01-19,USA-31055,Douglas,Nebraska,1613,1456.71,254.97,3,1.71,0.3
+2022-01-19,USA-31055,Douglas,Nebraska,1613,1456.71,254.97,3,1.86,0.33
 2022-01-19,USA-31053,Dodge,Nebraska,120,57,155.89,0,0.14,0.39
 2022-01-19,USA-31051,Dixon,Nebraska,8,7,124.2,0,0,0
 2022-01-19,USA-31049,Deuel,Nebraska,1,1.57,87.59,0,0,0
-2022-01-19,USA-31047,Dawson,Nebraska,23,24.86,105.35,1,0.14,0.61
+2022-01-19,USA-31047,Dawson,Nebraska,23,24.86,105.35,1,0.17,0.71
 2022-01-19,USA-31045,Dawes,Nebraska,6,7,81.5,0,0,0
 2022-01-19,USA-31043,Dakota,Nebraska,78,73.43,366.67,0,0,0
-2022-01-19,USA-31041,Custer,Nebraska,20,13.57,125.93,3,0,0
+2022-01-19,USA-31041,Custer,Nebraska,20,13.57,125.93,3,0.43,3.98
 2022-01-19,USA-31039,Cuming,Nebraska,19,10.29,116.28,0,0,0
 2022-01-19,USA-31037,Colfax,Nebraska,14,21.14,197.43,0,0,0
 2022-01-19,USA-31035,Clay,Nebraska,5,9.14,147.39,0,0,0
@@ -60115,7 +60115,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2022-01-19,USA-31031,Cherry,Nebraska,2,1.57,27.62,0,0,0
 2022-01-19,USA-31029,Chase,Nebraska,4,1.86,47.33,0,0,0
 2022-01-19,USA-31027,Cedar,Nebraska,12,11,130.92,0,0,0
-2022-01-19,USA-31025,Cass,Nebraska,62,59.57,226.96,0,1,3.81
+2022-01-19,USA-31025,Cass,Nebraska,62,59.57,226.96,0,0,0
 2022-01-19,USA-31023,Butler,Nebraska,44,16.57,206.73,0,0,0
 2022-01-19,USA-31021,Burt,Nebraska,25,10.57,163.67,0,0,0
 2022-01-19,USA-31019,Buffalo,Nebraska,140,76.57,154.19,0,0.14,0.29
@@ -60123,7 +60123,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2022-01-19,USA-31015,Boyd,Nebraska,3,2.57,134,0,0,0
 2022-01-19,USA-31013,Box Butte,Nebraska,35,18.43,170.9,0,0,0
 2022-01-19,USA-31011,Boone,Nebraska,7,7,134.82,0,0,0
-2022-01-19,USA-31009,Blaine,Nebraska,0,0,0,1,0,0
+2022-01-19,USA-31009,Blaine,Nebraska,0,0,0,1,0.14,30.72
 2022-01-19,USA-31007,Banner,Nebraska,0,0.71,95.88,0,0,0
 2022-01-19,USA-31005,Arthur,Nebraska,0,0.14,30.85,0,0,0
 2022-01-19,USA-31003,Antelope,Nebraska,12,6.43,102.07,-4,0,0

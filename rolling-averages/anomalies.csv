@@ -998,6 +998,7 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2021-09-24,,Bedford,Virginia,USA-51019,cases,yes,,0,Virginia removed many cases in Bedford County.
 2021-09-24,,Danville city,Virginia,USA-51590,cases,yes,,0,Virginia removed many cases in Danville.
 2021-09-27,,,Connecticut,USA-09,deaths,yes,,0,Connecticut added about 90 deaths that occurred out-of-state in previous months.
+2021-09-28,,,Nebraska,USA-31,deaths,yes,,0,"Nebraska began reporting probable deaths, resulting in a one-day increase in deaths."
 2021-10-06,,,Nevada,USA-32,cases,yes,yes,0,Nevada began reporting cases indentified through antigen testing.
 2021-10-10,,,,USA,deaths,,,-289,Arkansas added many deaths. The state indicated that many of the 289 deaths announced were from previous months.
 2021-10-10,,,Arkansas,USA-05,deaths,yes,yes,0,Arkansas added many deaths after reconciling records.
@@ -1411,4 +1412,3 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2022-01-17,,,Nevada,USA-32,both,,,0,Nevada did not announce new cases and deaths for the Martin Luther King Jr. Day holiday.
 2022-01-17,,,Kansas,USA-20,both,,,0,Kansas did not announce new cases and deaths for the Martin Luther King Jr. Day holiday.
 2022-01-17,,,New Mexico,USA-35,both,,,0,New Mexico did not announce new cases and deaths for the Martin Luther King Jr. Day holiday.
-2022-01-19,,,Nebraska,USA-31,deaths,yes,yes,0,"Nebraska began reporting probable deaths, resulting in a one-day increase in total deaths."
