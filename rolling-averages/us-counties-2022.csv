@@ -267,6 +267,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2022-01-01,USA-53005,Benton,Washington,0,58.43,28.59,0,0.29,0.14
 2022-01-01,USA-53003,Asotin,Washington,0,5.57,24.67,0,0,0
 2022-01-01,USA-53001,Adams,Washington,0,1.86,9.29,0,0.14,0.71
+2022-01-01,USA-51999,Unknown,Virginia,0,0,,0,0,
 2022-01-01,USA-51199,York,Virginia,0,54.86,80.34,0,0.43,0.63
 2022-01-01,USA-51197,Wythe,Virginia,0,15.29,53.29,0,0.14,0.5
 2022-01-01,USA-51195,Wise,Virginia,0,27,72.23,0,0.5,1.34
@@ -3520,6 +3521,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2022-01-02,USA-53005,Benton,Washington,0,58.43,28.59,0,0.29,0.14
 2022-01-02,USA-53003,Asotin,Washington,0,5.57,24.67,0,0,0
 2022-01-02,USA-53001,Adams,Washington,0,1.86,9.29,0,0.14,0.71
+2022-01-02,USA-51999,Unknown,Virginia,0,0,,0,0,
 2022-01-02,USA-51199,York,Virginia,0,54.86,80.34,0,0.43,0.63
 2022-01-02,USA-51197,Wythe,Virginia,0,15.29,53.29,0,0.14,0.5
 2022-01-02,USA-51195,Wise,Virginia,0,27,72.23,0,0.5,1.34
@@ -6773,6 +6775,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2022-01-03,USA-53005,Benton,Washington,522,115.29,56.4,0,0.29,0.14
 2022-01-03,USA-53003,Asotin,Washington,9,4.71,20.88,0,0,0
 2022-01-03,USA-53001,Adams,Washington,14,3.43,17.16,0,0.14,0.71
+2022-01-03,USA-51999,Unknown,Virginia,0,0,,0,0,
 2022-01-03,USA-51199,York,Virginia,188,70.71,103.57,0,0.43,0.63
 2022-01-03,USA-51197,Wythe,Virginia,58,21.14,73.71,0,0.14,0.5
 2022-01-03,USA-51195,Wise,Virginia,74,33,88.28,0,0.5,1.34
@@ -10026,6 +10029,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2022-01-04,USA-53005,Benton,Washington,225,133.86,65.49,2,0.29,0.14
 2022-01-04,USA-53003,Asotin,Washington,4,4.63,20.48,2,0.29,1.27
 2022-01-04,USA-53001,Adams,Washington,15,5.14,25.74,0,0.14,0.71
+2022-01-04,USA-51999,Unknown,Virginia,0,0,,0,0,
 2022-01-04,USA-51199,York,Virginia,99,76.29,111.72,0,0.43,0.63
 2022-01-04,USA-51197,Wythe,Virginia,28,23.71,82.67,0,0.14,0.5
 2022-01-04,USA-51195,Wise,Virginia,62,36.57,97.83,1,0.29,0.76
@@ -13279,6 +13283,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2022-01-05,USA-53005,Benton,Washington,201,151.43,74.09,0,0.29,0.14
 2022-01-05,USA-53003,Asotin,Washington,14,6.29,27.84,0,0.29,1.27
 2022-01-05,USA-53001,Adams,Washington,8,5.57,27.88,0,0.14,0.71
+2022-01-05,USA-51999,Unknown,Virginia,0,0,,0,0,
 2022-01-05,USA-51199,York,Virginia,79,77.71,113.82,0,0.43,0.63
 2022-01-05,USA-51197,Wythe,Virginia,5,20.29,70.72,0,0.14,0.5
 2022-01-05,USA-51195,Wise,Virginia,27,32.29,86.36,0,0.29,0.76
@@ -16532,6 +16537,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2022-01-06,USA-53005,Benton,Washington,303,178.71,87.44,4,0.67,0.33
 2022-01-06,USA-53003,Asotin,Washington,31,8.29,36.69,0,0.29,1.27
 2022-01-06,USA-53001,Adams,Washington,36,10.43,52.19,0,0,0
+2022-01-06,USA-51999,Unknown,Virginia,0,0,,0,0,
 2022-01-06,USA-51199,York,Virginia,26,69,101.05,0,0,0
 2022-01-06,USA-51197,Wythe,Virginia,39,22.43,78.19,0,0.14,0.5
 2022-01-06,USA-51195,Wise,Virginia,53,36,96.3,0,0.29,0.76
@@ -19785,6 +19791,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2022-01-07,USA-53005,Benton,Washington,259,188.75,92.35,1,0.7,0.34
 2022-01-07,USA-53003,Asotin,Washington,15,9.13,40.41,0,0.29,1.27
 2022-01-07,USA-53001,Adams,Washington,41,14.25,71.31,0,0,0
+2022-01-07,USA-51999,Unknown,Virginia,0,0,,0,0,
 2022-01-07,USA-51199,York,Virginia,80,67.43,98.75,0,0,0
 2022-01-07,USA-51197,Wythe,Virginia,33,23.29,81.18,0,0,0
 2022-01-07,USA-51195,Wise,Virginia,45,37.29,99.74,0,0.29,0.76
@@ -23038,6 +23045,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2022-01-08,USA-53005,Benton,Washington,0,188.75,92.35,0,0.7,0.34
 2022-01-08,USA-53003,Asotin,Washington,0,9.13,40.41,0,0.29,1.27
 2022-01-08,USA-53001,Adams,Washington,0,14.25,71.31,0,0,0
+2022-01-08,USA-51999,Unknown,Virginia,0,0,,0,0,
 2022-01-08,USA-51199,York,Virginia,0,67.43,98.75,0,0,0
 2022-01-08,USA-51197,Wythe,Virginia,0,23.29,81.18,0,0,0
 2022-01-08,USA-51195,Wise,Virginia,0,37.29,99.74,0,0.29,0.76
@@ -26291,6 +26299,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2022-01-09,USA-53005,Benton,Washington,0,188.75,92.35,0,0.7,0.34
 2022-01-09,USA-53003,Asotin,Washington,0,9.13,40.41,0,0.29,1.27
 2022-01-09,USA-53001,Adams,Washington,0,14.25,71.31,0,0,0
+2022-01-09,USA-51999,Unknown,Virginia,0,0,,0,0,
 2022-01-09,USA-51199,York,Virginia,0,67.43,98.75,0,0,0
 2022-01-09,USA-51197,Wythe,Virginia,0,23.29,81.18,0,0,0
 2022-01-09,USA-51195,Wise,Virginia,0,37.29,99.74,0,0.29,0.76
@@ -29544,6 +29553,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2022-01-10,USA-53005,Benton,Washington,836,260.57,127.49,1,0.62,0.3
 2022-01-10,USA-53003,Asotin,Washington,60,17.71,78.44,0,0.29,1.27
 2022-01-10,USA-53001,Adams,Washington,89,27,135.11,0,0,0
+2022-01-10,USA-51999,Unknown,Virginia,0,0,,0,0,
 2022-01-10,USA-51199,York,Virginia,509,113.29,165.91,0,0,0
 2022-01-10,USA-51197,Wythe,Virginia,104,29.86,104.09,0,0,0
 2022-01-10,USA-51195,Wise,Virginia,96,40.43,108.15,1,0.2,0.54
@@ -32797,6 +32807,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2022-01-11,USA-53005,Benton,Washington,120,245.57,120.15,-1,0.62,0.3
 2022-01-11,USA-53003,Asotin,Washington,2,17.43,77.18,0,0,0
 2022-01-11,USA-53001,Adams,Washington,11,26.43,132.26,0,0,0
+2022-01-11,USA-51999,Unknown,Virginia,0,0,,0,0,
 2022-01-11,USA-51199,York,Virginia,94,112.57,164.87,0,0,0
 2022-01-11,USA-51197,Wythe,Virginia,29,30,104.59,1,0.14,0.5
 2022-01-11,USA-51195,Wise,Virginia,66,41,109.68,3,0.57,1.53
@@ -36050,6 +36061,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2022-01-12,USA-53005,Benton,Washington,352,267.14,130.7,4,1.43,0.7
 2022-01-12,USA-53003,Asotin,Washington,36,20.57,91.1,0,0,0
 2022-01-12,USA-53001,Adams,Washington,70,35.29,176.58,0,0,0
+2022-01-12,USA-51999,Unknown,Virginia,0,0,,0,0,
 2022-01-12,USA-51199,York,Virginia,118,118.14,173.03,0,0,0
 2022-01-12,USA-51197,Wythe,Virginia,33,34,118.53,1,0.29,1
 2022-01-12,USA-51195,Wise,Virginia,86,49.43,132.22,1,0.63,1.67
@@ -39303,6 +39315,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2022-01-13,USA-53005,Benton,Washington,813,340,166.35,1,1.38,0.67
 2022-01-13,USA-53003,Asotin,Washington,31,20.57,91.1,0,0,0
 2022-01-13,USA-53001,Adams,Washington,23,33.43,167.29,0,0,0
+2022-01-13,USA-51999,Unknown,Virginia,0,0,,0,0,
 2022-01-13,USA-51199,York,Virginia,129,132.86,194.58,0,0,0
 2022-01-13,USA-51197,Wythe,Virginia,74,39,135.96,0,0.29,1
 2022-01-13,USA-51195,Wise,Virginia,76,52.71,141.01,0,0.63,1.67
@@ -42556,6 +42569,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2022-01-14,USA-53005,Benton,Washington,648,395.57,193.54,-1,1.38,0.67
 2022-01-14,USA-53003,Asotin,Washington,37,23.71,105.01,0,0,0
 2022-01-14,USA-53001,Adams,Washington,53,35.14,175.86,0,0,0
+2022-01-14,USA-51999,Unknown,Virginia,0,0,,0,0,
 2022-01-14,USA-51199,York,Virginia,112,137.43,201.27,0,0,0
 2022-01-14,USA-51197,Wythe,Virginia,49,41.29,143.93,0,0.29,1
 2022-01-14,USA-51195,Wise,Virginia,43,52.43,140.25,1,0.6,1.61
@@ -45809,6 +45823,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2022-01-15,USA-53005,Benton,Washington,0,395.57,193.54,0,1.38,0.67
 2022-01-15,USA-53003,Asotin,Washington,0,23.71,105.01,0,0,0
 2022-01-15,USA-53001,Adams,Washington,0,35.14,175.86,0,0,0
+2022-01-15,USA-51999,Unknown,Virginia,0,0,,0,0,
 2022-01-15,USA-51199,York,Virginia,0,137.43,201.27,0,0,0
 2022-01-15,USA-51197,Wythe,Virginia,0,41.29,143.93,0,0.29,1
 2022-01-15,USA-51195,Wise,Virginia,0,52.43,140.25,0,0.6,1.61
@@ -49062,6 +49077,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2022-01-16,USA-53005,Benton,Washington,0,395.57,193.54,0,1.38,0.67
 2022-01-16,USA-53003,Asotin,Washington,0,23.71,105.01,0,0,0
 2022-01-16,USA-53001,Adams,Washington,0,35.14,175.86,0,0,0
+2022-01-16,USA-51999,Unknown,Virginia,0,0,,0,0,
 2022-01-16,USA-51199,York,Virginia,0,137.43,201.27,0,0,0
 2022-01-16,USA-51197,Wythe,Virginia,0,41.29,143.93,0,0.29,1
 2022-01-16,USA-51195,Wise,Virginia,0,52.43,140.25,0,0.6,1.61
@@ -52315,6 +52331,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2022-01-17,USA-53005,Benton,Washington,0,395.57,193.54,0,1.38,0.67
 2022-01-17,USA-53003,Asotin,Washington,0,23.71,105.01,0,0,0
 2022-01-17,USA-53001,Adams,Washington,0,35.14,175.86,0,0,0
+2022-01-17,USA-51999,Unknown,Virginia,0,0,,0,0,
 2022-01-17,USA-51199,York,Virginia,323,110.86,162.36,0,0,0
 2022-01-17,USA-51197,Wythe,Virginia,162,49.57,172.82,0,0.29,1
 2022-01-17,USA-51195,Wise,Virginia,162,61.86,165.47,0,0.6,1.61
@@ -55568,6 +55585,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2022-01-18,USA-53005,Benton,Washington,1666,497,243.16,1,0.78,0.38
 2022-01-18,USA-53003,Asotin,Washington,50,22,97.42,0,0,0
 2022-01-18,USA-53001,Adams,Washington,90,33.71,168.71,0,0,0
+2022-01-18,USA-51999,Unknown,Virginia,0,0,,0,0,
 2022-01-18,USA-51199,York,Virginia,92,110.57,161.94,0,0,0
 2022-01-18,USA-51197,Wythe,Virginia,15,47.57,165.85,0,0.29,1
 2022-01-18,USA-51195,Wise,Virginia,61,61.14,163.56,1,0.43,1.15
@@ -58821,6 +58839,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2022-01-19,USA-53005,Benton,Washington,382,501.29,245.26,0,0.78,0.38
 2022-01-19,USA-53003,Asotin,Washington,39,22.43,99.32,0,0,0
 2022-01-19,USA-53001,Adams,Washington,11,25.29,126.54,0,0,0
+2022-01-19,USA-51999,Unknown,Virginia,0,0,,0,0,
 2022-01-19,USA-51199,York,Virginia,66,103.14,151.06,0,0,0
 2022-01-19,USA-51197,Wythe,Virginia,46,49.43,172.32,0,0,0
 2022-01-19,USA-51195,Wise,Virginia,52,56.29,150.57,0,0.43,1.15
@@ -59950,6 +59969,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2022-01-19,USA-36007,Broome,New York,169,293,153.82,0,1,0.52
 2022-01-19,USA-36003,Allegany,New York,55,48.71,105.69,0,0,0
 2022-01-19,USA-36001,Albany,New York,298,543.43,177.88,2,2.43,0.79
+2022-01-19,USA-35999,Unknown,New Mexico,-78,12.22,,0,0,
 2022-01-19,USA-35061,Valencia,New Mexico,261,146.14,190.57,1,0.43,0.56
 2022-01-19,USA-35059,Union,New Mexico,5,6.43,158.38,0,0,0
 2022-01-19,USA-35057,Torrance,New Mexico,22,24.29,157.08,0,0.29,1.85
@@ -61797,6 +61817,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2022-01-19,USA-01003,Baldwin,Alabama,519,472.71,211.76,0,0.29,0.13
 2022-01-19,USA-01001,Autauga,Alabama,95,93.29,166.97,0,0.14,0.26
 2022-01-19,USA-60999,Unknown,American Samoa,0,0,,0,0,
+2022-01-19,USA-69999,Unknown,Northern Mariana Islands,53,45.14,,0,0.29,
 2022-01-19,USA-69120,Tinian,Northern Mariana Islands,0,0,0,0,0,0
 2022-01-19,USA-69110,Saipan,Northern Mariana Islands,0,0,0,0,0,0
 2022-01-19,USA-78999,Unknown,Virgin Islands,0,0,,0,0.43,
@@ -62071,6 +62092,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2022-01-20,USA-53005,Benton,Washington,567,466.14,228.07,3,0.71,0.35
 2022-01-20,USA-53003,Asotin,Washington,18,20.57,91.1,0,0,0
 2022-01-20,USA-53001,Adams,Washington,32,26.57,132.97,0,0,0
+2022-01-20,USA-51999,Unknown,Virginia,0,0,,0,0,
 2022-01-20,USA-51199,York,Virginia,116,101.29,148.34,0,0,0
 2022-01-20,USA-51197,Wythe,Virginia,93,52.14,181.78,0,0,0
 2022-01-20,USA-51195,Wise,Virginia,146,66.29,177.32,0,0.43,1.15
@@ -63200,6 +63222,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2022-01-20,USA-36007,Broome,New York,321,268.43,140.92,1,0.86,0.45
 2022-01-20,USA-36003,Allegany,New York,39,45.57,98.87,0,0,0
 2022-01-20,USA-36001,Albany,New York,474,504.43,165.11,2,2.43,0.79
+2022-01-20,USA-35999,Unknown,New Mexico,-32,12.22,,0,0,
 2022-01-20,USA-35061,Valencia,New Mexico,419,187.86,244.96,3,0.75,0.98
 2022-01-20,USA-35059,Union,New Mexico,9,6.43,158.38,0,0,0
 2022-01-20,USA-35057,Torrance,New Mexico,17,23.71,153.38,1,0.29,1.85
@@ -65047,6 +65070,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2022-01-20,USA-01003,Baldwin,Alabama,676,498.13,223.14,2,0.57,0.26
 2022-01-20,USA-01001,Autauga,Alabama,95,93.5,167.36,0,0.14,0.26
 2022-01-20,USA-60999,Unknown,American Samoa,0,0,,0,0,
+2022-01-20,USA-69999,Unknown,Northern Mariana Islands,-549,45.14,,-3,0.29,
 2022-01-20,USA-69120,Tinian,Northern Mariana Islands,10,1.43,45.55,0,0,0
 2022-01-20,USA-69110,Saipan,Northern Mariana Islands,583,83.29,172.72,3,0.43,0.89
 2022-01-20,USA-69100,Rota,Northern Mariana Islands,8,1.14,45.23,0,0,0
