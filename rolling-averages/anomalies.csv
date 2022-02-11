@@ -1429,3 +1429,7 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2022-02-05,2022-02-06,,Alabama,USA-01,both,,,0,Alabama did not report new cases and deaths during data system maintenance.
 2022-02-08,,,Pennsylvania,USA-42,cases,,,0,"Pennsylvania removed more than 4,000 previously reported cases across many counties."
 2022-02-09,,,Indiana,USA-18,both,,,0,Indiana was unable to report new cases and deaths because of a technical issue.
+2022-02-09,2022-02-10,San Mateo,California,USA-06081,cases,yes,,0,"California adjusted the case count in San Mateo County, resulting in an increase on Feb. 9 followed by a decrease on Feb. 10."
+2022-02-09,2022-02-10,Lake,California,USA-06033,cases,yes,,0,"California adjusted the case count in Lake County, resulting in an increase on Feb. 9 followed by a decrease on Feb. 10."
+2022-02-09,2022-02-10,Monterey,California,USA-06053,cases,yes,,0,"California adjusted the case count in Monterey County, resulting in an increase on Feb. 9 followed by a decrease on Feb. 10."
+2022-02-09,2022-02-10,San Francisco,California,USA-06075,cases,yes,,0,"California adjusted the case count in San Francisco County, resulting in an increase on Feb. 9 followed by a decrease on Feb. 10."
