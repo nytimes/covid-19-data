@@ -1425,6 +1425,7 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2022-01-29,2022-01-30,,Arkansas,USA-05,both,,,0,Arkansas did not report new cases and deaths during data system maintenance.
 2022-01-31,,,Mississippi,USA-28,deaths,,,0,Mississippi added many deaths from earlier in January after reviewing records.
 2022-02-01,,King,Washington,USA-53033,both,,,0,King County was unable to report new cases and deaths because of technical issues.
+2022-02-02,,Modoc,California,USA-06049,both,,,0,"The Times began using state health department data for Reynolds County after the county stopped releasing its own cumulative data, resulting in a one-day decrease in cases and deaths."
 2022-02-04,,Whitman,Washington,USA-53075,cases,,,0,Washington removed many cases in Whitman County after adding many cases the previous week.
 2022-02-05,2022-02-06,,Alabama,USA-01,both,,,0,Alabama did not report new cases and deaths during data system maintenance.
 2022-02-08,,,Pennsylvania,USA-42,cases,,,0,"Pennsylvania removed more than 4,000 previously reported cases across many counties."
@@ -1451,3 +1452,4 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2022-02-16,,Kittitas,Washington,USA-53037,cases,,,0,Washington removed many cases in Kittitas County.
 2022-02-16,,Mason,Washington,USA-53045,cases,,,0,Washington removed many cases in Mason County.
 2022-02-16,,Whatcom,Washington,USA-53073,cases,,,0,Washington removed many cases in Whatcom County.
+2022-02-18,,,Washington,USA-53,cases,yes,yes,0,"Washington removed many cases, resulting in one-day decreases in many counties."
