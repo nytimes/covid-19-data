@@ -12,6 +12,7 @@ t0 = time.perf_counter()
 
 import sys
 IN_COLAB = 'google.colab' in sys.modules
+IN_AZUREML = 'azureml' in sys.modules
 
 # DID YOU SET covid_ftp_pw?
 import os
@@ -29,6 +30,8 @@ if (os.name == 'nt'):
     basefolder = os.getcwd() + '\\'
 elif IN_COLAB:
     basefolder = os.getcwd() + '/drive/MyDrive/Colab Notebooks/covid-19-data-1/SampleNbsAndScripts/'
+elif IN_AZUREML:
+    basefolder = os.getcwd() + '/../'
 else: 
     basefolder = os.getcwd() + '/'
 
@@ -37,7 +40,7 @@ print('basefolder = ' + basefolder)
 
 # %%
 if (os.name != 'nt'):
-    !pip install sodapy
+    %pip install sodapy
 
 # %%
 import pandas as pd
@@ -554,12 +557,12 @@ html_graphs.write("  <object data=\""+'Chart_'+str(row)+'.html'+"\" width=" + st
 html_graphs.write("\n</div>\n")
 
 # %%
-if IN_COLAB: 
-  !pip install plotly==4.7.1 
+if IN_COLAB or IN_AZUREML: 
+  #%pip install plotly==4.7.1 I don't think we need to downgrade plotly. 
   !wget https://github.com/plotly/orca/releases/download/v1.2.1/orca-1.2.1-x86_64.AppImage -O /usr/local/bin/orca 
   !chmod +x /usr/local/bin/orca 
   !apt-get install xvfb libgtk2.0-0 libgconf-2-4
-  import plotly.graph_objects as go
+  #import plotly.graph_objects as go
 
 # %% [markdown]
 # **********************************************************************************************************
