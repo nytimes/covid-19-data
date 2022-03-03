@@ -1464,6 +1464,7 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2022-02-26,,,Arizona,USA-04,both,,,0,Arizona stopped daily data updates and transitioned to a weekly reporting schedule.
 2022-02-26,2022-03-01,,Louisiana,USA-22,both,,,0,Louisiana did not report new cases and deaths for the Mardi Gras holiday.
 2022-02-28,,,Nebraska,USA-31,cases,yes,yes,0,Nebraska added many cases from recent months representing people who were infected more than once.
+2022-03-01,,,Iowa,USA-19,cases,yes,,0,"Iowa added more than 5,000 previously unreported cases. "
 2022-03-01,,,Vermont,USA-50,both,,,0,"Vermont did not announce new cases and deaths for Town Meeting Day, a state holiday."
 2022-03-02,,Carlton,Minnesota,USA-27017,cases,,,0,Minnesota removed cases in Carlton County.
 2022-03-02,,Clay,Minnesota,USA-27027,cases,,,0,Minnesota removed cases in Clay County.
@@ -1471,3 +1472,17 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2022-03-02,,McLeod,Minnesota,USA-27085,cases,,,0,Minnesota removed cases in McLeod County.
 2022-03-02,,Scott,Minnesota,USA-27139,cases,,,0,Minnesota removed cases in Scott County.
 2022-03-02,,Washington,Minnesota,USA-27163,cases,,,0,Minnesota removed many cases in Washington County.
+2022-03-02,,Addison,Vermont,USA-50001,cases,yes,,0,Vermont reallocated many cases to Addison County.
+2022-03-02,,Bennington,Vermont,USA-50003,cases,yes,,0,Vermont reallocated many cases to Bennington County.
+2022-03-02,,Caledonia,Vermont,USA-50005,cases,yes,,0,Vermont reallocated many cases to Caledonia County.
+2022-03-02,,Chittenden,Vermont,USA-50007,cases,yes,,0,Vermont reallocated many cases to Chittenden County.
+2022-03-02,,Essex,Vermont,USA-50009,cases,yes,,0,Vermont reallocated many cases to Essex County.
+2022-03-02,,Franklin,Vermont,USA-50011,cases,yes,,0,Vermont reallocated many cases to Franklin County.
+2022-03-02,,Grand Isle,Vermont,USA-50013,cases,yes,,0,Vermont reallocated many cases to Grand Isle County.
+2022-03-02,,Lamoille,Vermont,USA-50015,cases,yes,,0,Vermont reallocated many cases to Lamoille County.
+2022-03-02,,Orange,Vermont,USA-50017,cases,yes,,0,Vermont reallocated many cases to Orange County.
+2022-03-02,,Orleans,Vermont,USA-50019,cases,yes,,0,Vermont reallocated many cases to Orleans County.
+2022-03-02,,Rutland,Vermont,USA-50021,cases,yes,,0,Vermont reallocated many cases to Rutland County.
+2022-03-02,,Washington,Vermont,USA-50023,cases,yes,,0,Vermont reallocated many cases to Washington County.
+2022-03-02,,Windham,Vermont,USA-50025,cases,yes,,0,Vermont reallocated many cases to Windham County.
+2022-03-02,,Windsor,Vermont,USA-50027,cases,yes,,0,Vermont reallocated many cases to Windsor County.
