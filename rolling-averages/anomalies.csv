@@ -1464,6 +1464,7 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2022-02-26,,,Arizona,USA-04,both,,,0,Arizona stopped daily data updates and transitioned to a weekly reporting schedule.
 2022-02-26,2022-03-01,,Louisiana,USA-22,both,,,0,Louisiana did not report new cases and deaths for the Mardi Gras holiday.
 2022-02-28,,,Nebraska,USA-31,cases,yes,yes,0,Nebraska added many cases from recent months representing people who were infected more than once.
+2022-02-28,2022-03-02,Bennington,Vermont,USA-50003,cases,yes,,0,Vermont reallocated many cases to Bennington County.
 2022-02-28,2022-03-03,Roanoke,Virginia,USA-51161,cases,yes,,0,"Virginia reallocated many cases, resulting in an increase in cases in Roanoke County."
 2022-03-01,,,Iowa,USA-19,cases,yes,,0,"Iowa added more than 5,000 previously unreported cases. "
 2022-03-01,,,Vermont,USA-50,both,,,0,"Vermont did not announce new cases and deaths for Town Meeting Day, a state holiday."
@@ -1474,7 +1475,6 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2022-03-02,,Scott,Minnesota,USA-27139,cases,,,0,Minnesota removed cases in Scott County.
 2022-03-02,,Washington,Minnesota,USA-27163,cases,,,0,Minnesota removed many cases in Washington County.
 2022-03-02,,Addison,Vermont,USA-50001,cases,yes,,0,Vermont reallocated many cases to Addison County.
-2022-03-02,,Bennington,Vermont,USA-50003,cases,yes,,0,Vermont reallocated many cases to Bennington County.
 2022-03-02,,Caledonia,Vermont,USA-50005,cases,yes,,0,Vermont reallocated many cases to Caledonia County.
 2022-03-02,,Chittenden,Vermont,USA-50007,cases,yes,,0,Vermont reallocated many cases to Chittenden County.
 2022-03-02,,Essex,Vermont,USA-50009,cases,yes,,0,Vermont reallocated many cases to Essex County.
@@ -1487,3 +1487,7 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2022-03-02,,Washington,Vermont,USA-50023,cases,yes,,0,Vermont reallocated many cases to Washington County.
 2022-03-02,,Windham,Vermont,USA-50025,cases,yes,,0,Vermont reallocated many cases to Windham County.
 2022-03-02,,Windsor,Vermont,USA-50027,cases,yes,,0,Vermont reallocated many cases to Windsor County.
+2022-03-07,,,Alabama,USA-01,cases,,,-2654,"Alabama added a backlog of 2,654 cases from testing that occurred in December 2021 through February 2022."
+2022-03-07,,Shelby,Alabama,USA-01117,cases,yes,,0,"Alabama added a backlog of cases from testing that occurred in December 2021 through February 2022, including many cases in Shelby County."
+2022-03-07,,Jefferson,Alabama,USA-01073,cases,yes,,0,"Alabama added a backlog of cases from testing that occurred in December 2021 through February 2022, including many cases in Jefferson County."
+2022-03-07,,St. Clair,Alabama,USA-01115,cases,yes,,0,"Alabama added a backlog of cases from testing that occurred in December 2021 through February 2022, including many cases in St. Clair County."
