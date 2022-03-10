@@ -1494,5 +1494,6 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2022-03-07,,St. Clair,Alabama,USA-01115,cases,yes,,0,"Alabama added a backlog of cases from testing that occurred in December 2021 through February 2022, including many cases in St. Clair County."
 2022-03-07,2022-03-08,New Haven,Connecticut,USA-09009,cases,yes,,0,"Connecticut added a backlog of cases from 2021, including many cases in New Haven County."
 2022-03-07,2022-03-08,Fairfield,Connecticut,USA-09001,cases,yes,,0,"Connecticut added a backlog of cases from 2021, including many cases in Fairfield County."
-2022-03-08,,,District of Columbia,USA-11,both,yes,,0,The District of Columbia did not update cases or deaths while transitioning to a weekly reporting schedule.
-2022-03-09,,,Oklahoma,USA-40,cases,,yes,0,Oklahoma did not update county data during a transition to a new weekly schedule.
+2022-03-08,2022-03-09,,District of Columbia,USA-11,both,yes,,0,The District of Columbia did not update cases or deaths while transitioning to a weekly reporting schedule.
+2022-03-09,,,Alaska,USA-02,cases,yes,yes,0,Alaska added a backlog of cases from testing that occurred in the Yukon-Kuskokwim region. 
+2022-03-09,,,Oklahoma,USA-40,both,yes,yes,0,Oklahoma did not update county data during a transition to a new weekly schedule.
