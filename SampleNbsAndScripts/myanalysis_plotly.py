@@ -14,6 +14,7 @@ import sys
 IN_COLAB = 'google.colab' in sys.modules
 IN_AZUREML = 'azureml' in sys.modules
 
+# %%
 # DID YOU SET covid_ftp_pw?
 import os
 os.environ['covid_ftp_pw'] = ''
@@ -37,10 +38,6 @@ else:
 
 print('basefolder = ' + basefolder)
 #display(HTML(F'<H1>Hello from <span style="color:{color};">' + str.upper(os.name) + '</span>!!!!</H1>'))
-
-# %%
-if (os.name != 'nt'):
-    %pip install sodapy
 
 # %%
 import pandas as pd

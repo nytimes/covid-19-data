@@ -1,0 +1,10 @@
+# This file may be used to create an environment using:
+# conda create --name <name> --file <this_file>y --channel default --channel ucd-dnp --channel plotly
+# platform: win-64
+pandas=1.2.3
+numpy=1.20.1
+plotly=4.9.0
+plotly-orca
+sodapy=2.1.0
+nbformat=5.1.2
+psutil=5.8.0
