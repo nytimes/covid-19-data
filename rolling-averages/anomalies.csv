@@ -1504,3 +1504,4 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2022-03-14,,,Massachusetts,USA-25,deaths,yes,yes,0,"Massachusetts changed its methodology for counting deaths to align with national guidance, resulting in a decrease of about 3,700 deaths."
 2022-03-14,,,,USA,deaths,,,0,The cumulative number of deaths decreased because Massachusetts removed many previously reported deaths.
 2022-03-14,,Douglas,Nebraska,USA-31055,cases,yes,,0,"Douglas County added about 1,300 cases representing people who were infected more than once."
+2022-03-16,,,New Jersey,USA-34,cases,,,-1182,"New Jersey added a backlog of about 1,200 cases from testing that occurred in December 2021 and January 2022."
