@@ -1469,6 +1469,7 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2022-02-28,2022-03-03,Roanoke,Virginia,USA-51161,cases,yes,,0,"Virginia reallocated many cases, resulting in an increase in cases in Roanoke County."
 2022-03-01,,,Iowa,USA-19,cases,yes,,0,"Iowa added more than 5,000 previously unreported cases. "
 2022-03-01,,,Vermont,USA-50,both,,,0,"Vermont did not announce new cases and deaths for Town Meeting Day, a state holiday."
+2022-03-01,,Lubbock,Texas,USA-48303,cases,yes,,0,"The Times began using the state’s count for Lubbock County after local officials stopped regularly reporting new cases, resulting in a one-day decrease in cases."
 2022-03-02,,Carlton,Minnesota,USA-27017,cases,,,0,Minnesota removed cases in Carlton County.
 2022-03-02,,Clay,Minnesota,USA-27027,cases,,,0,Minnesota removed cases in Clay County.
 2022-03-02,,Hennepin,Minnesota,USA-27053,cases,,,0,Minnesota removed many cases in Hennepin County.
@@ -1508,6 +1509,19 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2022-03-14,,Douglas,Nebraska,USA-31055,cases,yes,,0,"Douglas County added about 1,300 cases representing people who were infected more than once."
 2022-03-15,,,Nevada,USA-32,both,yes,,0,Nevada added many cases representing people who were infected more than once.
 2022-03-16,,,New Jersey,USA-34,cases,,,-1182,"New Jersey added a backlog of about 1,200 cases from testing that occurred in December 2021 and January 2022."
+2022-03-16,,Douglas,Nevada,USA-32005,cases,yes,,0,"Nevada changed its methodology for counting cases, resulting in a one-day increase in one-day increases in some counties and decreases in others."
+2022-03-16,,Lyon,Nevada,USA-32019,cases,yes,,0,"Nevada changed its methodology for counting cases, resulting in a one-day increase in one-day increases in some counties and decreases in others."
+2022-03-16,,Storey,Nevada,USA-32029,cases,yes,,0,"Nevada changed its methodology for counting cases, resulting in a one-day increase in one-day increases in some counties and decreases in others."
+2022-03-16,,Eureka,Nevada,USA-32011,cases,yes,,0,"Nevada changed its methodology for counting cases, resulting in a one-day increase in one-day increases in some counties and decreases in others."
+2022-03-16,,Humboldt,Nevada,USA-32013,cases,yes,,0,"Nevada changed its methodology for counting cases, resulting in a one-day increase in one-day increases in some counties and decreases in others."
+2022-03-16,,Lincoln,Nevada,USA-32017,cases,yes,,0,"Nevada changed its methodology for counting cases, resulting in a one-day increase in one-day increases in some counties and decreases in others."
+2022-03-16,,White Pine,Nevada,USA-32033,cases,yes,,0,"Nevada changed its methodology for counting cases, resulting in a one-day increase in one-day increases in some counties and decreases in others."
+2022-03-16,,Elko,Nevada,USA-32007,cases,yes,,0,"Nevada changed its methodology for counting cases, resulting in a one-day increase in one-day increases in some counties and decreases in others."
+2022-03-16,,Lander,Nevada,USA-32015,cases,yes,,0,"Nevada changed its methodology for counting cases, resulting in a one-day increase in one-day increases in some counties and decreases in others."
+2022-03-16,,Nye,Nevada,USA-32023,cases,yes,,0,"Nevada changed its methodology for counting cases, resulting in a one-day increase in one-day increases in some counties and decreases in others."
+2022-03-16,,Esmeralda,Nevada,USA-32009,cases,yes,,0,"Nevada changed its methodology for counting cases, resulting in a one-day increase in one-day increases in some counties and decreases in others."
+2022-03-16,,Mineral,Nevada,USA-32021,cases,yes,,0,"Nevada changed its methodology for counting cases, resulting in a one-day increase in one-day increases in some counties and decreases in others."
+2022-03-16,,Pershing,Nevada,USA-32027,cases,yes,,0,"Nevada changed its methodology for counting cases, resulting in a one-day increase in one-day increases in some counties and decreases in others."
 2022-03-18,,,Michigan,USA-26,cases,,,-825,Michigan added a backlog of about 825 older cases.
 2022-03-18,,Los Angeles,California,USA-06037,cases,,,-2051,"Los Angeles County added a backlog of 2,051 older cases."
 2022-03-19,,Los Angeles,California,USA-06037,cases,,,-2517,"Los Angeles County added a backlog of 2,517 older cases."
