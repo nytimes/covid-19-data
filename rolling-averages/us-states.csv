@@ -41585,7 +41585,7 @@ date,geoid,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,deaths_avg
 2022-03-25,USA-34,New Jersey,1176,946.29,10.65,5,6.86,0.08
 2022-03-25,USA-33,New Hampshire,90,119.43,8.78,0,2,0.15
 2022-03-25,USA-32,Nevada,403,168.63,5.47,12,10.44,0.34
-2022-03-25,USA-31,Nebraska,0,41.14,2.13,0,1,0.05
+2022-03-25,USA-31,Nebraska,-32,41.14,2.13,0,1,0.05
 2022-03-25,USA-30,Montana,41,42,3.93,2,1,0.09
 2022-03-25,USA-29,Missouri,572,405.43,6.61,4,26.86,0.44
 2022-03-25,USA-28,Mississippi,133,100.43,3.37,9,6.86,0.23
@@ -41641,7 +41641,7 @@ date,geoid,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,deaths_avg
 2022-03-26,USA-34,New Jersey,909,952,10.72,0,6.86,0.08
 2022-03-26,USA-33,New Hampshire,0,119.43,8.78,0,2,0.15
 2022-03-26,USA-32,Nevada,207,165,5.36,10,9.29,0.3
-2022-03-26,USA-31,Nebraska,0,41.14,2.13,0,1,0.05
+2022-03-26,USA-31,Nebraska,32,23.29,1.2,0,1,0.05
 2022-03-26,USA-30,Montana,0,42,3.93,0,1,0.09
 2022-03-26,USA-29,Missouri,-1,405.43,6.61,0,26.86,0.44
 2022-03-26,USA-28,Mississippi,0,100.43,3.37,0,6.86,0.23
@@ -41697,7 +41697,7 @@ date,geoid,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,deaths_avg
 2022-03-27,USA-34,New Jersey,941,1013.14,11.41,9,6,0.07
 2022-03-27,USA-33,New Hampshire,0,119.43,8.78,0,2,0.15
 2022-03-27,USA-32,Nevada,0,165,5.36,0,9.29,0.3
-2022-03-27,USA-31,Nebraska,0,41.14,2.13,0,1,0.05
+2022-03-27,USA-31,Nebraska,0,23.29,1.2,0,1,0.05
 2022-03-27,USA-30,Montana,0,42,3.93,0,1,0.09
 2022-03-27,USA-29,Missouri,0,405.43,6.61,0,26.86,0.44
 2022-03-27,USA-28,Mississippi,0,100.43,3.37,0,6.86,0.23
@@ -41753,7 +41753,7 @@ date,geoid,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,deaths_avg
 2022-03-28,USA-34,New Jersey,643,1026.14,11.55,7,5.71,0.06
 2022-03-28,USA-33,New Hampshire,404,124.71,9.17,2,1.57,0.12
 2022-03-28,USA-32,Nevada,0,165,5.36,0,9.29,0.3
-2022-03-28,USA-31,Nebraska,620,94.57,4.89,0,1,0.05
+2022-03-28,USA-31,Nebraska,620,99.29,5.13,0,1,0.05
 2022-03-28,USA-30,Montana,57,39,3.65,3,1.29,0.12
 2022-03-28,USA-29,Missouri,835,458.75,7.47,8,24.43,0.4
 2022-03-28,USA-28,Mississippi,132,84.29,2.83,5,6.71,0.23
@@ -41809,7 +41809,7 @@ date,geoid,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,deaths_avg
 2022-03-29,USA-34,New Jersey,1007,1047.29,11.79,6,5.57,0.06
 2022-03-29,USA-33,New Hampshire,72,124,9.12,4,1.29,0.09
 2022-03-29,USA-32,Nevada,234,169.57,5.51,3,5.71,0.19
-2022-03-29,USA-31,Nebraska,28,86.25,4.46,70,10.43,0.54
+2022-03-29,USA-31,Nebraska,28,103.14,5.33,70,10.43,0.54
 2022-03-29,USA-30,Montana,56,36.14,3.38,1,1.29,0.12
 2022-03-29,USA-29,Missouri,440,487.57,7.94,85,15.14,0.25
 2022-03-29,USA-28,Mississippi,67,78.71,2.64,13,4,0.13
@@ -41865,7 +41865,7 @@ date,geoid,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,deaths_avg
 2022-03-30,USA-34,New Jersey,1369,1070.86,12.06,5,5.43,0.06
 2022-03-30,USA-33,New Hampshire,130,121.29,8.92,1,1.29,0.09
 2022-03-30,USA-32,Nevada,345,169.86,5.51,35,8.57,0.28
-2022-03-30,USA-31,Nebraska,-1,86.25,4.46,21,13.29,0.69
+2022-03-30,USA-31,Nebraska,-37,103.14,5.33,21,13.29,0.69
 2022-03-30,USA-30,Montana,33,33.14,3.1,0,1.29,0.12
 2022-03-30,USA-29,Missouri,583,490.29,7.99,15,16.29,0.27
 2022-03-30,USA-28,Mississippi,135,79.57,2.67,0,4,0.13
@@ -41921,7 +41921,7 @@ date,geoid,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,deaths_avg
 2022-03-31,USA-34,New Jersey,1468,1073.29,12.08,2,4.86,0.05
 2022-03-31,USA-33,New Hampshire,158,122,8.97,0,1.29,0.09
 2022-03-31,USA-32,Nevada,146,166.88,5.42,0,8.57,0.28
-2022-03-31,USA-31,Nebraska,-69,86.25,4.46,17,15.43,0.8
+2022-03-31,USA-31,Nebraska,-33,103.14,5.33,17,15.43,0.8
 2022-03-31,USA-30,Montana,12,28.43,2.66,1,1,0.09
 2022-03-31,USA-29,Missouri,609,523.57,8.53,13,17.86,0.29
 2022-03-31,USA-28,Mississippi,131,85.43,2.87,1,3.5,0.12
@@ -41977,7 +41977,7 @@ date,geoid,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,deaths_avg
 2022-04-01,USA-34,New Jersey,1517,1122,12.63,6,5,0.06
 2022-04-01,USA-33,New Hampshire,137,128.71,9.47,0,1.29,0.09
 2022-04-01,USA-32,Nevada,158,155.71,5.06,16,9.14,0.3
-2022-04-01,USA-31,Nebraska,-37,86.25,4.46,1,13.63,0.7
+2022-04-01,USA-31,Nebraska,-37,103.14,5.33,1,13.63,0.7
 2022-04-01,USA-30,Montana,67,32.14,3.01,2,1,0.09
 2022-04-01,USA-29,Missouri,121,451.43,7.36,0,17.86,0.29
 2022-04-01,USA-28,Mississippi,163,89.71,3.01,2,3,0.1
@@ -42033,7 +42033,7 @@ date,geoid,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,deaths_avg
 2022-04-02,USA-34,New Jersey,1493,1205.43,13.57,8,5.38,0.06
 2022-04-02,USA-33,New Hampshire,0,128.71,9.47,0,1.29,0.09
 2022-04-02,USA-32,Nevada,218,157.29,5.11,18,10.29,0.33
-2022-04-02,USA-31,Nebraska,0,86.25,4.46,0,13.63,0.7
+2022-04-02,USA-31,Nebraska,0,103.14,5.33,0,13.63,0.7
 2022-04-02,USA-30,Montana,0,32.14,3.01,0,1,0.09
 2022-04-02,USA-29,Missouri,-2,451.43,7.36,0,17.86,0.29
 2022-04-02,USA-28,Mississippi,0,89.71,3.01,0,3,0.1
@@ -42089,7 +42089,7 @@ date,geoid,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,deaths_avg
 2022-04-03,USA-34,New Jersey,1019,1216.57,13.7,0,5.38,0.06
 2022-04-03,USA-33,New Hampshire,0,128.71,9.47,0,1.29,0.09
 2022-04-03,USA-32,Nevada,0,157.29,5.11,0,10.29,0.33
-2022-04-03,USA-31,Nebraska,0,86.25,4.46,0,13.63,0.7
+2022-04-03,USA-31,Nebraska,0,103.14,5.33,0,13.63,0.7
 2022-04-03,USA-30,Montana,0,32.14,3.01,0,1,0.09
 2022-04-03,USA-29,Missouri,0,451.43,7.36,0,17.86,0.29
 2022-04-03,USA-28,Mississippi,0,89.71,3.01,0,3,0.1
@@ -42145,7 +42145,7 @@ date,geoid,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,deaths_avg
 2022-04-04,USA-34,New Jersey,809,1240.29,13.96,13,5.71,0.06
 2022-04-04,USA-33,New Hampshire,332,118.43,8.71,0,1.29,0.09
 2022-04-04,USA-32,Nevada,0,157.29,5.11,0,10.29,0.33
-2022-04-04,USA-31,Nebraska,99,83,4.29,0,13.63,0.7
+2022-04-04,USA-31,Nebraska,99,97.38,5.03,0,13.63,0.7
 2022-04-04,USA-30,Montana,57,32.14,3.01,0,1,0.09
 2022-04-04,USA-29,Missouri,219,350.88,5.72,0,17.86,0.29
 2022-04-04,USA-28,Mississippi,443,134.14,4.51,3,2.71,0.09
@@ -42201,7 +42201,7 @@ date,geoid,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,deaths_avg
 2022-04-05,USA-34,New Jersey,1610,1326.43,14.93,5,5.57,0.06
 2022-04-05,USA-33,New Hampshire,124,125.86,9.26,3,0.57,0.04
 2022-04-05,USA-32,Nevada,192,151.29,4.91,7,10.86,0.35
-2022-04-05,USA-31,Nebraska,24,77.1,3.99,2,5.86,0.3
+2022-04-05,USA-31,Nebraska,24,110.14,5.69,2,5.86,0.3
 2022-04-05,USA-30,Montana,48,31,2.9,0,1,0.09
 2022-04-05,USA-29,Missouri,99,295.86,4.82,3,4.43,0.07
 2022-04-05,USA-28,Mississippi,134,143.71,4.83,5,1.57,0.05
@@ -42257,7 +42257,7 @@ date,geoid,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,deaths_avg
 2022-04-06,USA-34,New Jersey,1863,1397,15.73,16,7.14,0.08
 2022-04-06,USA-33,New Hampshire,134,126.43,9.3,2,0.71,0.05
 2022-04-06,USA-32,Nevada,483,171,5.55,4,6.43,0.21
-2022-04-06,USA-31,Nebraska,69,76.36,3.95,0,5.86,0.3
+2022-04-06,USA-31,Nebraska,69,105,5.43,0,5.86,0.3
 2022-04-06,USA-30,Montana,69,36.14,3.38,0,1,0.09
 2022-04-06,USA-29,Missouri,132,251.86,4.1,1,2.43,0.04
 2022-04-06,USA-28,Mississippi,110,140.14,4.71,3,1.75,0.06
@@ -42388,7 +42388,7 @@ date,geoid,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,deaths_avg
 2022-04-08,USA-15,Hawaii,0,162.57,11.48,0,0.43,0.03
 2022-04-08,USA-13,Georgia,430,401.43,3.76,64,39.29,0.37
 2022-04-08,USA-12,Florida,2161,1615,7.52,42,36.57,0.17
-2022-04-08,USA-11,District of Columbia,0,143.57,20.34,1,0.23,0.03
+2022-04-08,USA-11,District of Columbia,0,143.57,20.34,0,0.29,0.04
 2022-04-08,USA-10,Delaware,-1283,92,9.45,0,2.5,0.26
 2022-04-08,USA-09,Connecticut,691,516.86,14.5,6,3.14,0.09
 2022-04-08,USA-08,Colorado,2085,1492.43,25.92,2,4,0.07
@@ -42444,7 +42444,7 @@ date,geoid,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,deaths_avg
 2022-04-09,USA-15,Hawaii,0,162.57,11.48,0,0.43,0.03
 2022-04-09,USA-13,Georgia,0,401.43,3.76,0,39.29,0.37
 2022-04-09,USA-12,Florida,2049,1670.14,7.78,17,37.86,0.18
-2022-04-09,USA-11,District of Columbia,0,143.57,20.34,0,0.23,0.03
+2022-04-09,USA-11,District of Columbia,0,143.57,20.34,0,0.29,0.04
 2022-04-09,USA-10,Delaware,110,93.57,9.61,13,2,0.21
 2022-04-09,USA-09,Connecticut,0,516.86,14.5,0,3.14,0.09
 2022-04-09,USA-08,Colorado,0,1492.43,25.92,0,4,0.07
@@ -42500,7 +42500,7 @@ date,geoid,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,deaths_avg
 2022-04-10,USA-15,Hawaii,0,162.57,11.48,0,0.43,0.03
 2022-04-10,USA-13,Georgia,0,401.43,3.76,0,39.29,0.37
 2022-04-10,USA-12,Florida,0,1670.14,7.78,0,37.86,0.18
-2022-04-10,USA-11,District of Columbia,0,143.57,20.34,0,0.23,0.03
+2022-04-10,USA-11,District of Columbia,0,143.57,20.34,0,0.29,0.04
 2022-04-10,USA-10,Delaware,141,99.14,10.18,0,2,0.21
 2022-04-10,USA-09,Connecticut,0,516.86,14.5,0,3.14,0.09
 2022-04-10,USA-08,Colorado,0,1492.43,25.92,0,4,0.07
