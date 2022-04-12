@@ -1,6 +1,6 @@
 # Coronavirus (Covid-19) Data in the United States
 
-**UPDATE: The county-level data for cases and deaths that includes seven-day averages and per 100,000 counts is now available in year-based files [here](rolling-averages/). The us-counties.csv file in that directory containing county data since the beginning of the pandemic has been archived and will not be updated.**
+**UPDATE: County-level data for cases and deaths is now available in separate files for each year: [us-counties-2020.csv](us-counties-2020.csv), [us-counties-2021.csv](us-counties-2021.csv) and [us-counties-2022.csv](us-counties-2022.csv). The existing [us-counties.csv](us-counties.csv) file will no longer be updated once it reaches the Github file size limit of 100MB.**
 
 The primary data published here are the daily cumulative number of cases and deaths reported in each county and state across the U.S. since the beginning of the pandemic. We have also published these additional data sets:
 
@@ -58,7 +58,7 @@ date,cases,deaths
 
 #### State-Level Data
 
-State-level data can be found in the [states.csv](us-states.csv) file. ([Raw CSV file here.](https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-states.csv))
+State-level data can be found in the [us-states.csv](us-states.csv) file. ([Raw CSV file here.](https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-states.csv))
 
 ```
 date,state,fips,cases,deaths
@@ -68,7 +68,7 @@ date,state,fips,cases,deaths
 
 #### County-Level Data
 
-County-level data can be found in the [counties.csv](us-counties.csv) file. ([Raw CSV file here.](https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv))
+County-level data can be found in files for each year, starting with the [us-counties-2020.csv](us-counties-2020.csv) file. ([Raw CSV file here.](https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties-2020.csv))
 
 ```
 date,county,state,fips,cases,deaths
@@ -76,9 +76,10 @@ date,county,state,fips,cases,deaths
 ...
 ```
 
+Because this file has grown too large, data for [2021](us-counties-2021.csv) and [2022](us-counties-2022.csv) are in separate files. A smaller file with only the most recent 30 days of data is also available in the [us-counties-recent.csv](us-counties-recent.csv) file.  ([Raw CSV file here.](https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties-recent.csv))
+
 In some cases, the geographies where cases are reported do not map to standard county boundaries. See the list of [geographic exceptions](#geographic-exceptions) for more detail on these.
 
-A smaller file with only the most recent 30 days of data is also available in the [us-counties-recent.csv](us-counties-recent.csv) file.  ([Raw CSV file here.](https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties-recent.csv))
 
 ---
 
