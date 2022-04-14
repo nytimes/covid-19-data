@@ -1545,3 +1545,7 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2022-04-06,,,Washington,USA-53,cases,yes,,0,Washington added a backlog of cases from testing that occurred earlier in 2022.
 2022-04-08,,,Wisconsin,USA-55,cases,yes,,0,Wisconsin added a backlog of cases from testing that occurred earlier in 2022.
 2022-04-08,,,Delaware,USA-10,cases,yes,yes,0,"Delaware removed about 1,400 cases after verifying records."
+2022-04-13,,Carteret,North Carolina,USA-37031,deaths,yes,,0,North Carolina added many deaths in Carteret County.
+2022-04-13,,Nash,North Carolina,USA-37127,cases,yes,,0,North Carolina removed many cases from Nash County.
+2022-04-13,,Pitt,North Carolina,USA-37147,cases,yes,,0,North Carolina removed many cases from Pitt County.
+2022-04-13,,Stanly,North Carolina,USA-37167,cases,yes,,0,North Carolina removed many cases from Stanly County.
