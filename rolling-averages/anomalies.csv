@@ -1522,6 +1522,7 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2022-03-16,,Esmeralda,Nevada,USA-32009,cases,yes,,0,"Nevada changed its methodology for counting cases, resulting in a one-day increase in one-day increases in some counties and decreases in others."
 2022-03-16,,Mineral,Nevada,USA-32021,cases,yes,,0,"Nevada changed its methodology for counting cases, resulting in a one-day increase in one-day increases in some counties and decreases in others."
 2022-03-16,,Pershing,Nevada,USA-32027,cases,yes,,0,"Nevada changed its methodology for counting cases, resulting in a one-day increase in one-day increases in some counties and decreases in others."
+2022-03-16,,Clark,Nevada,USA-32003,cases,yes,,0,"Nevada changed its methodology for counting cases, resulting in a one-day increase in one-day increases in some counties and decreases in others."
 2022-03-18,,,Michigan,USA-26,cases,,,-825,Michigan added a backlog of about 825 older cases.
 2022-03-18,,Los Angeles,California,USA-06037,cases,,,-2051,"Los Angeles County added a backlog of 2,051 older cases."
 2022-03-19,,Los Angeles,California,USA-06037,cases,,,-2517,"Los Angeles County added a backlog of 2,517 older cases."
@@ -1539,6 +1540,8 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2022-03-30,,,Arizona,USA-04,cases,yes,,0,"Arizona added a backlog of several thousand cases, dating primarily from October 2021. "
 2022-03-30,,,Indiana,USA-18,cases,yes,yes,0,"Indiana transitioned to a new data publishing schedule and removed data about probable cases, resulting in a one-day decrease in cases."
 2022-03-30,,Maricopa,Arizona,USA-04013,cases,yes,,0,"Arizona added a backlog of cases, including many in Maricopa County."
+2022-03-30,2022-03-31,Cobb,Georgia,USA-13067,cases,yes,,0,"Georgia added a backlog of several thousand cases, including many in Cobb County."
+2022-03-30,2022-03-31,Fulton,Georgia,USA-13121,cases,yes,,0,"Georgia added a backlog of several thousand cases, including many in Fulton County."
 2022-03-30,,La Paz,Arizona,USA-04012,cases,yes,,0,"Arizona added a backlog of cases, including many in La Paz County."
 2022-03-30,,Pinal,Arizona,USA-04021,cases,yes,,0,"Arizona added a backlog of cases, including many in Pinal County."
 2022-03-30,,Coconino,Arizona,USA-04005,cases,yes,,0,"Arizona added a backlog of cases, including many in Coconino County."
@@ -1626,11 +1629,11 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2022-04-08,,,Wisconsin,USA-55,cases,yes,,0,Wisconsin added a backlog of cases from testing that occurred earlier in 2022.
 2022-04-08,,,Delaware,USA-10,cases,yes,yes,0,"Delaware removed about 1,400 cases after verifying records."
 2022-04-13,2022-04-15,,Nevada,USA-32,deaths,yes,,0,"Nevada added many deaths, primarily in Clark County."
+2022-04-13,,Clark,Nevada,USA-32003,deaths,yes,,0,Nevada added many deaths in Clark County.
 2022-04-13,,Carteret,North Carolina,USA-37031,deaths,yes,,0,North Carolina added many deaths in Carteret County.
 2022-04-13,,Nash,North Carolina,USA-37127,cases,yes,,0,North Carolina removed many cases from Nash County.
 2022-04-13,,Pitt,North Carolina,USA-37147,cases,yes,,0,North Carolina removed many cases from Pitt County.
 2022-04-13,,Stanly,North Carolina,USA-37167,cases,yes,,0,North Carolina removed many cases from Stanly County.
-2022-04-13,,Clark,Nevada,USA-32003,deaths,yes,,0,Nevada added many deaths in Clark County.
 2022-04-14,,,Louisiana,USA-22,cases,,,-338,Louisiana added a backlog of 338 cases. 
 2022-04-14,,Lucas,Ohio,USA-39095,cases,yes,,0,Ohio added a backlog of many cases in Lucas County.
 2022-04-15,2022-04-16,,Texas,USA-48,both,,,0,Texas did not report new data.
