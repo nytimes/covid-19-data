@@ -1534,6 +1534,7 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2022-03-28,,Dale,Alabama,USA-01045,cases,yes,,0,"Alabama added a backlog of cases from January and February 2022, including many in Dale County."
 2022-03-28,,Houston,Alabama,USA-01069,cases,yes,,0,"Alabama added a backlog of cases from January and February 2022, including many in Houston County."
 2022-03-28,,Geneva,Alabama,USA-01061,cases,yes,,0,"Alabama added a backlog of cases from January and February 2022, including many in Geneva County."
+2022-03-28,2022-04-18,Charlottesville city,Virginia,USA-51540,cases,,,0,Virginia removed many cases previous reported in Charlottesville.
 2022-03-30,,,Georgia,USA-13,cases,yes,,0,"Georgia added a backlog of several thousand cases, dating primarily from January 2022. "
 2022-03-30,,,Arizona,USA-04,cases,yes,,0,"Arizona added a backlog of several thousand cases, dating primarily from October 2021. "
 2022-03-30,,,Indiana,USA-18,cases,yes,yes,0,"Indiana transitioned to a new data publishing schedule and removed data about probable cases, resulting in a one-day decrease in cases."
@@ -1624,10 +1625,12 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2022-04-06,,,Washington,USA-53,cases,yes,,0,Washington added a backlog of cases from testing that occurred earlier in 2022.
 2022-04-08,,,Wisconsin,USA-55,cases,yes,,0,Wisconsin added a backlog of cases from testing that occurred earlier in 2022.
 2022-04-08,,,Delaware,USA-10,cases,yes,yes,0,"Delaware removed about 1,400 cases after verifying records."
+2022-04-13,2022-04-15,,Nevada,USA-32,deaths,yes,,0,"Nevada added many deaths, primarily in Clark County."
 2022-04-13,,Carteret,North Carolina,USA-37031,deaths,yes,,0,North Carolina added many deaths in Carteret County.
 2022-04-13,,Nash,North Carolina,USA-37127,cases,yes,,0,North Carolina removed many cases from Nash County.
 2022-04-13,,Pitt,North Carolina,USA-37147,cases,yes,,0,North Carolina removed many cases from Pitt County.
 2022-04-13,,Stanly,North Carolina,USA-37167,cases,yes,,0,North Carolina removed many cases from Stanly County.
+2022-04-13,,Clark,Nevada,USA-32003,deaths,yes,,0,Nevada added many deaths in Clark County.
 2022-04-14,,,Louisiana,USA-22,cases,,,-338,Louisiana added a backlog of 338 cases. 
 2022-04-14,,Lucas,Ohio,USA-39095,cases,yes,,0,Ohio added a backlog of many cases in Lucas County.
 2022-04-15,2022-04-16,,Texas,USA-48,both,,,0,Texas did not report new data.
