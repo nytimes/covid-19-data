@@ -1535,7 +1535,8 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2022-03-28,,Dale,Alabama,USA-01045,cases,yes,,0,"Alabama added a backlog of cases from January and February 2022, including many in Dale County."
 2022-03-28,,Houston,Alabama,USA-01069,cases,yes,,0,"Alabama added a backlog of cases from January and February 2022, including many in Houston County."
 2022-03-28,,Geneva,Alabama,USA-01061,cases,yes,,0,"Alabama added a backlog of cases from January and February 2022, including many in Geneva County."
-2022-03-28,2022-04-18,Charlottesville city,Virginia,USA-51540,cases,yes,,0,Virginia removed many cases previous reported in Charlottesville.
+2022-03-28,2022-04-18,Charlottesville city,Virginia,USA-51540,cases,yes,,0,Virginia removed many cases previously reported in Charlottesville.
+2022-03-29,2022-04-10,Nelson,Virginia,USA-51125,cases,yes,,0,Virginia removed many cases previously reported in Nelson County.
 2022-03-30,,,Georgia,USA-13,cases,yes,,0,"Georgia added a backlog of several thousand cases, dating primarily from January 2022. "
 2022-03-30,,,Arizona,USA-04,cases,yes,,0,"Arizona added a backlog of several thousand cases, dating primarily from October 2021. "
 2022-03-30,,,Indiana,USA-18,cases,yes,yes,0,"Indiana transitioned to a new data publishing schedule and removed data about probable cases, resulting in a one-day decrease in cases."
@@ -1634,6 +1635,9 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2022-04-13,,Nash,North Carolina,USA-37127,cases,yes,,0,North Carolina removed many cases from Nash County.
 2022-04-13,,Pitt,North Carolina,USA-37147,cases,yes,,0,North Carolina removed many cases from Pitt County.
 2022-04-13,,Stanly,North Carolina,USA-37167,cases,yes,,0,North Carolina removed many cases from Stanly County.
+2022-04-13,,Scotts Bluff,Nebraska,USA-31157,cases,yes,,0,"The Times began using a federal data source for Scotts Bluff County after the county stopped reporting data independently, resulting in a one-time decrease in cases."
 2022-04-14,,,Louisiana,USA-22,cases,,,-338,Louisiana added a backlog of 338 cases. 
 2022-04-14,,Lucas,Ohio,USA-39095,cases,yes,,0,Ohio added a backlog of many cases in Lucas County.
 2022-04-15,2022-04-16,,Texas,USA-48,both,,,0,Texas did not report new data.
+2022-04-20,2022-04-22,Waynesboro city,Virginia,USA-51820,cases,yes,,0,Virginia reallocated many cases from Augusta County into the city of Waynesboro.
+2022-04-20,2022-04-22,Augusta,Virginia,USA-51015,cases,yes,,0,Virginia reallocated many cases from Augusta County into the city of Waynesboro.
