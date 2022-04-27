@@ -1644,3 +1644,4 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2022-04-22,2022-04-25,Pacific,Washington,USA-53049,cases,yes,,0,Washington added many older cases in Pacific County.
 2022-04-25,,,Alabama,USA-01,cases,,,-354,Alabama added 354 cases from late 2021 and early 2022.
 2022-04-25,,,Louisiana,USA-22,cases,,,-189,Louisiana added a backlog of 189 cases.
+2022-04-25,,,Indiana,USA-18,cases,,yes,-1300,"Indiana added a backlog of 1,300 cases."
