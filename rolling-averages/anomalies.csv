@@ -1508,6 +1508,7 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2022-03-14,,,,USA,deaths,,,0,The cumulative number of deaths decreased because Massachusetts removed many previously reported deaths.
 2022-03-14,,Douglas,Nebraska,USA-31055,cases,yes,,0,"Douglas County added about 1,300 cases representing people who were infected more than once."
 2022-03-15,,,Nevada,USA-32,both,yes,,0,Nevada added many cases representing people who were infected more than once.
+2022-03-15,2022-04-21,Stanislaus,California,USA-06099,cases,yes,,0,Local officials stopped reporting cumulative cases and deaths regularly and state officials removed many cases in Stanislaus County.
 2022-03-16,,,New Jersey,USA-34,cases,,,-1182,"New Jersey added a backlog of about 1,200 cases from testing that occurred in December 2021 and January 2022."
 2022-03-16,,Douglas,Nevada,USA-32005,cases,yes,,0,"Nevada changed its methodology for counting cases, resulting in one-day increases in some counties and decreases in others."
 2022-03-16,,Lyon,Nevada,USA-32019,cases,yes,,0,"Nevada changed its methodology for counting cases, resulting in one-day increases in some counties and decreases in others."
@@ -1643,6 +1644,7 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2022-04-20,2022-04-22,Augusta,Virginia,USA-51015,cases,yes,,0,Virginia reallocated many cases from Augusta County into the city of Waynesboro.
 2022-04-22,2022-04-25,Pacific,Washington,USA-53049,cases,yes,,0,Washington added many older cases in Pacific County.
 2022-04-22,,,Nebraska,USA-31,cases,,yes,0,"Nebraska adjusted its case counts for many counties, resulting in one-day increases in some counties and decreases in others."
+2022-04-22,,Stanislaus,California,USA-06099,cases,yes,,0,"The Times began using state data for Stanislaus County after the county stopped reporting data regularly, resulting in a one-time decrease in cases."
 2022-04-25,,,Alabama,USA-01,cases,,,-354,Alabama added 354 cases from late 2021 and early 2022.
 2022-04-25,,,Louisiana,USA-22,cases,,,-189,Louisiana added a backlog of 189 cases.
 2022-04-25,,,Indiana,USA-18,cases,,yes,-1300,"Indiana added a backlog of 1,300 cases."
