@@ -207,7 +207,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2022-05-25,Los Angeles,California,06037,2946373,32095,2945669,31845,704,250
 2022-05-25,Madera,California,06039,44146,370,37867,370,6279,0
 2022-05-25,Marin,California,06041,40412,293,36890,293,3522,
-2022-05-25,Mariposa,California,06043,3224,35,3224,35,,
+2022-05-25,Mariposa,California,06043,3247,35,3247,35,,
 2022-05-25,Mendocino,California,06045,16898,124,13545,124,3353,0
 2022-05-25,Merced,California,06047,72268,823,63220,823,9048,
 2022-05-25,Modoc,California,06049,1005,8,750,8,255,
@@ -227,7 +227,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2022-05-25,San Joaquin,California,06077,181577,2238,170626,2238,10951,
 2022-05-25,San Luis Obispo,California,06079,58550,481,54342,481,4208,
 2022-05-25,San Mateo,California,06081,142569,758,135597,758,6972,
-2022-05-25,Santa Barbara,California,06083,94440,693,89426,693,5014,
+2022-05-25,Santa Barbara,California,06083,94440,693,89565,693,4875,
 2022-05-25,Santa Clara,California,06085,354984,2305,340868,2305,14116,
 2022-05-25,Santa Cruz,California,06087,53979,263,51644,263,2335,
 2022-05-25,Shasta,California,06089,37294,653,31072,653,6222,
@@ -262,7 +262,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2022-05-25,Delta,Colorado,08029,6242,139,,,,
 2022-05-25,Denver,Colorado,08031,179810,1361,,,,
 2022-05-25,Dolores,Colorado,08033,367,8,,,,
-2022-05-25,Douglas,Colorado,08035,83171,465,,,,
+2022-05-25,Douglas,Colorado,08035,83170,465,,,,
 2022-05-25,Eagle,Colorado,08037,16374,35,,,,
 2022-05-25,Elbert,Colorado,08039,4917,40,,,,
 2022-05-25,El Paso,Colorado,08041,192457,1695,,,,
@@ -306,7 +306,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2022-05-25,Summit,Colorado,08117,10168,14,,,,
 2022-05-25,Teller,Colorado,08119,4939,57,,,,
 2022-05-25,Washington,Colorado,08121,1069,28,,,,
-2022-05-25,Weld,Colorado,08123,86708,703,,662,,41
+2022-05-25,Weld,Colorado,08123,87360,703,,662,,41
 2022-05-25,Yuma,Colorado,08125,1887,23,,,,
 2022-05-25,Fairfield,Connecticut,09001,219825,2736,196300,2207,23525,529
 2022-05-25,Hartford,Connecticut,09003,193306,3162,175126,2580,18180,582
@@ -1509,7 +1509,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2022-05-25,Bates,Missouri,29013,3772,96,,,,
 2022-05-25,Benton,Missouri,29015,4264,107,,,,
 2022-05-25,Bollinger,Missouri,29017,2642,41,,,,
-2022-05-25,Boone,Missouri,29019,45444,255,45444,247,,8
+2022-05-25,Boone,Missouri,29019,45499,255,45499,247,,8
 2022-05-25,Buchanan,Missouri,29021,24863,318,17626,257,7237,61
 2022-05-25,Butler,Missouri,29023,10213,169,,,,
 2022-05-25,Caldwell,Missouri,29025,1708,39,,,,
@@ -1941,7 +1941,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2022-05-25,Davidson,North Carolina,37057,43821,426,,,,
 2022-05-25,Davie,North Carolina,37059,11412,104,,,,
 2022-05-25,Duplin,North Carolina,37061,16954,246,,,,
-2022-05-25,Durham,North Carolina,37063,78444,338,78444,330,,8
+2022-05-25,Durham,North Carolina,37063,78603,338,78603,330,,8
 2022-05-25,Edgecombe,North Carolina,37065,13683,154,,,,
 2022-05-25,Forsyth,North Carolina,37067,95219,823,,,,
 2022-05-25,Franklin,North Carolina,37069,20963,79,,,,
@@ -3105,7 +3105,7 @@ date,county,state,fips,cases,deaths,confirmed_cases,confirmed_deaths,probable_ca
 2022-05-25,Thurston,Washington,53067,50195,423,41814,,8381,
 2022-05-25,Unknown,Washington,,3265,0,0,0,3265,0
 2022-05-25,Wahkiakum,Washington,53069,538,7,353,,185,
-2022-05-25,Walla Walla,Washington,53071,16493,142,13293,137,3200,5
+2022-05-25,Walla Walla,Washington,53071,16518,142,13293,137,3225,5
 2022-05-25,Whatcom,Washington,53073,40166,304,35149,,5017,
 2022-05-25,Whitman,Washington,53075,8869,90,8291,,578,
 2022-05-25,Yakima,Washington,53077,74097,791,57904,,16193,
