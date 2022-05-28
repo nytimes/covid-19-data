@@ -530,13 +530,13 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2021-06-04,2021-09-13,,Florida,USA-12,deaths,,,0,"Florida stopped providing county-level deaths on June 4, and resumed reporting to the C.D.C. in September."
 2021-06-04,,Alameda,California,USA-06001,deaths,yes,,0,Alameda County removed many deaths from causes unrelated to Covid-19.
 2021-06-04,,Williamson,Texas,USA-48491,cases,yes,,0,Texas added about 300 older cases in Williamson County.
-2021-06-04,,Boone,Nebraska,USA-31011,deaths,,,0,State and local officials are no longer reporting deaths by county.
+2021-06-04,2021-09-28,Boone,Nebraska,USA-31011,deaths,,,0,State and local officials are no longer reporting deaths by county.
 2021-06-04,2021-09-19,Boone,Nebraska,USA-31011,cases,,,0,State and county officials stopped reporting county-level data for several months.
-2021-06-04,,Colfax,Nebraska,USA-31037,deaths,,,0,State and local officials are no longer reporting deaths by county.
+2021-06-04,2021-09-28,Colfax,Nebraska,USA-31037,deaths,,,0,State and local officials are no longer reporting deaths by county.
 2021-06-04,2021-09-19,Colfax,Nebraska,USA-31037,cases,,,0,State and county officials stopped reporting county-level data for several months.
-2021-06-04,,Nance,Nebraska,USA-31125,deaths,,,0,State and local officials are no longer reporting deaths by county.
+2021-06-04,2021-09-28,Nance,Nebraska,USA-31125,deaths,,,0,State and local officials are no longer reporting deaths by county.
 2021-06-04,2021-09-19,Nance,Nebraska,USA-31125,cases,,,0,State and county officials stopped reporting county-level data for several months.
-2021-06-04,,Platte,Nebraska,USA-31141,deaths,,,0,State and local officials are no longer reporting deaths by county.
+2021-06-04,2021-09-28,Platte,Nebraska,USA-31141,deaths,,,0,State and local officials are no longer reporting deaths by county.
 2021-06-04,2021-09-19,Platte,Nebraska,USA-31141,cases,,,0,State and county officials stopped reporting county-level data for several months.
 2021-06-05,,Maverick,Texas,USA-48323,cases,yes,,0,Texas added about 250 older cases in Maverick County.
 2021-06-06,,,California,USA-06,deaths,yes,,0,California added many San Mateo County deaths from previous months.
@@ -632,15 +632,15 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2021-06-30,,,West Virginia,USA-54,deaths,yes,,0,West Virginia added 11 deaths that occurred in late 2020 and early 2021. 
 2021-06-30,2021-07-02,Davidson,Tennessee,USA-47037,cases,yes,,0,Davidson County removed many cases.
 2021-06-30,2021-07-07,Richmond,Virginia,USA-51159,cases,yes,,0,Virginia removed many cases in Richmond County.
-2021-06-30,,Johnson,Nebraska,USA-31097,deaths,,,0,State and local officials are no longer reporting deaths by county.
+2021-06-30,2021-09-28,Johnson,Nebraska,USA-31097,deaths,,,0,State and local officials are no longer reporting deaths by county.
 2021-06-30,2021-09-19,Johnson,Nebraska,USA-31097,cases,,,0,State and county officials stopped reporting county-level data for several months.
-2021-06-30,,Nemaha,Nebraska,USA-31127,deaths,,,0,State and local officials are no longer reporting deaths by county.
+2021-06-30,2021-09-28,Nemaha,Nebraska,USA-31127,deaths,,,0,State and local officials are no longer reporting deaths by county.
 2021-06-30,2021-09-19,Nemaha,Nebraska,USA-31127,cases,,,0,State and county officials stopped reporting county-level data for several months.
-2021-06-30,,Otoe,Nebraska,USA-31131,deaths,,,0,State and local officials are no longer reporting deaths by county.
+2021-06-30,2021-09-28,Otoe,Nebraska,USA-31131,deaths,,,0,State and local officials are no longer reporting deaths by county.
 2021-06-30,2021-09-19,Otoe,Nebraska,USA-31131,cases,,,0,State and county officials stopped reporting county-level data for several months.
-2021-06-30,,Pawnee,Nebraska,USA-31133,deaths,,,0,State and local officials are no longer reporting deaths by county.
+2021-06-30,2021-09-28,Pawnee,Nebraska,USA-31133,deaths,,,0,State and local officials are no longer reporting deaths by county.
 2021-06-30,2021-09-19,Pawnee,Nebraska,USA-31133,cases,,,0,State and county officials stopped reporting county-level data for several months.
-2021-06-30,,Richardson,Nebraska,USA-31147,deaths,,,0,State and local officials are no longer reporting deaths by county.
+2021-06-30,2021-09-28,Richardson,Nebraska,USA-31147,deaths,,,0,State and local officials are no longer reporting deaths by county.
 2021-06-30,2021-09-19,Richardson,Nebraska,USA-31147,cases,,,0,State and county officials stopped reporting county-level data for several months.
 2021-07-01,,,,USA,cases,yes,,0,California began reporting probable cases based on antigen testing.
 2021-07-01,,,California,USA-06,cases,yes,,0,California began reporting probable cases based on antigen testing.
@@ -705,135 +705,135 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2021-07-19,,Trumbull,Ohio,USA-39155,cases,yes,,0,"Ohio added cases from recent weeks after resolving a technical issue, including many cases in Trumbull County."
 2021-07-23,,,Utah,USA-49,both,,,0,"Utah did not release data because of Pioneer Day, a state holiday."
 2021-07-24,,Anderson,Texas,USA-48001,cases,yes,,0,Texas removed about 30 prison cases in Anderson County.
-2021-07-24,,Arthur,Nebraska,USA-31005,deaths,,,0,State and local officials are no longer reporting deaths by county.
+2021-07-24,2021-09-28,Arthur,Nebraska,USA-31005,deaths,,,0,State and local officials are no longer reporting deaths by county.
 2021-07-24,2021-09-19,Arthur,Nebraska,USA-31005,cases,,,0,State and county officials stopped reporting county-level data for several months.
-2021-07-24,,Hooker,Nebraska,USA-31091,deaths,,,0,State and local officials are no longer reporting deaths by county.
+2021-07-24,2021-09-28,Hooker,Nebraska,USA-31091,deaths,,,0,State and local officials are no longer reporting deaths by county.
 2021-07-24,2021-09-19,Hooker,Nebraska,USA-31091,cases,,,0,State and county officials stopped reporting county-level data for several months.
-2021-07-24,,Lincoln,Nebraska,USA-31111,deaths,,,0,State and local officials are no longer reporting deaths by county.
+2021-07-24,2021-09-28,Lincoln,Nebraska,USA-31111,deaths,,,0,State and local officials are no longer reporting deaths by county.
 2021-07-24,2021-09-19,Lincoln,Nebraska,USA-31111,cases,,,0,State and county officials stopped reporting county-level data for several months.
-2021-07-24,,Logan,Nebraska,USA-31113,deaths,,,0,State and local officials are no longer reporting deaths by county.
+2021-07-24,2021-09-28,Logan,Nebraska,USA-31113,deaths,,,0,State and local officials are no longer reporting deaths by county.
 2021-07-24,2021-09-19,Logan,Nebraska,USA-31113,cases,,,0,State and county officials stopped reporting county-level data for several months.
-2021-07-24,,McPherson,Nebraska,USA-31117,deaths,,,0,State and local officials are no longer reporting deaths by county.
+2021-07-24,2021-09-28,McPherson,Nebraska,USA-31117,deaths,,,0,State and local officials are no longer reporting deaths by county.
 2021-07-24,2021-09-19,McPherson,Nebraska,USA-31117,cases,,,0,State and county officials stopped reporting county-level data for several months.
-2021-07-24,,Thomas,Nebraska,USA-31171,deaths,,,0,State and local officials are no longer reporting deaths by county.
+2021-07-24,2021-09-28,Thomas,Nebraska,USA-31171,deaths,,,0,State and local officials are no longer reporting deaths by county.
 2021-07-24,2021-09-19,Thomas,Nebraska,USA-31171,cases,,,0,State and county officials stopped reporting county-level data for several months.
-2021-07-28,,Cedar,Nebraska,USA-31027,deaths,,,0,State and local officials are no longer reporting deaths by county.
+2021-07-28,2021-09-28,Cedar,Nebraska,USA-31027,deaths,,,0,State and local officials are no longer reporting deaths by county.
 2021-07-28,2021-09-19,Cedar,Nebraska,USA-31027,cases,,,0,State and county officials stopped reporting county-level data for several months.
-2021-07-28,,Dixon,Nebraska,USA-31051,deaths,,,0,State and local officials are no longer reporting deaths by county.
+2021-07-28,2021-09-28,Dixon,Nebraska,USA-31051,deaths,,,0,State and local officials are no longer reporting deaths by county.
 2021-07-28,2021-09-19,Dixon,Nebraska,USA-31051,cases,,,0,State and county officials stopped reporting county-level data for several months.
-2021-07-28,,Thurston,Nebraska,USA-31173,deaths,,,0,State and local officials are no longer reporting deaths by county.
+2021-07-28,2021-09-28,Thurston,Nebraska,USA-31173,deaths,,,0,State and local officials are no longer reporting deaths by county.
 2021-07-28,2021-09-19,Thurston,Nebraska,USA-31173,cases,,,0,State and county officials stopped reporting county-level data for several months.
-2021-07-28,,Wayne,Nebraska,USA-31179,deaths,,,0,State and local officials are no longer reporting deaths by county.
+2021-07-28,2021-09-28,Wayne,Nebraska,USA-31179,deaths,,,0,State and local officials are no longer reporting deaths by county.
 2021-07-28,2021-09-19,Wayne,Nebraska,USA-31179,cases,,,0,State and county officials stopped reporting county-level data for several months.
 2021-07-30,,,Alabama,USA-01,both,,,0,Alabama was unable to announce new data because of a technical issue.
 2021-07-30,,,Delaware,USA-10,deaths,yes,yes,0,Delaware added 130 deaths from previous months after reviewing death certificates.
 2021-07-30,,,,USA,deaths,yes,,0,Delaware added many deaths from previous months.
 2021-07-30,2021-08-09,Webb,Texas,USA-48479,cases,,,0,State and local officials did not regularly report data for Webb County.
-2021-07-31,,Banner,Nebraska,USA-31007,deaths,,,0,State and local officials are no longer reporting deaths by county.
+2021-07-31,2021-09-28,Banner,Nebraska,USA-31007,deaths,,,0,State and local officials are no longer reporting deaths by county.
 2021-07-31,2021-09-19,Banner,Nebraska,USA-31007,cases,,,0,State and county officials stopped reporting county-level data for several months.
-2021-07-31,,Box Butte,Nebraska,USA-31013,deaths,,,0,State and local officials are no longer reporting deaths by county.
+2021-07-31,2021-09-28,Box Butte,Nebraska,USA-31013,deaths,,,0,State and local officials are no longer reporting deaths by county.
 2021-07-31,2021-09-19,Box Butte,Nebraska,USA-31013,cases,,,0,State and county officials stopped reporting county-level data for several months.
-2021-07-31,,Cheyenne,Nebraska,USA-31033,deaths,,,0,State and local officials are no longer reporting deaths by county.
+2021-07-31,2021-09-28,Cheyenne,Nebraska,USA-31033,deaths,,,0,State and local officials are no longer reporting deaths by county.
 2021-07-31,2021-09-19,Cheyenne,Nebraska,USA-31033,cases,,,0,State and county officials stopped reporting county-level data for several months.
 2021-07-31,,Dawes,Nebraska,USA-31045,deaths,,,0,State and local officials are no longer reporting deaths by county.
 2021-07-31,2021-09-19,Dawes,Nebraska,USA-31045,cases,,,0,State and county officials stopped reporting county-level data for several months.
-2021-07-31,,Deuel,Nebraska,USA-31049,deaths,,,0,State and local officials are no longer reporting deaths by county.
+2021-07-31,2021-09-28,Deuel,Nebraska,USA-31049,deaths,,,0,State and local officials are no longer reporting deaths by county.
 2021-07-31,2021-09-19,Deuel,Nebraska,USA-31049,cases,,,0,State and county officials stopped reporting county-level data for several months.
-2021-07-31,,Garden,Nebraska,USA-31069,deaths,,,0,State and local officials are no longer reporting deaths by county.
+2021-07-31,2021-09-28,Garden,Nebraska,USA-31069,deaths,,,0,State and local officials are no longer reporting deaths by county.
 2021-07-31,2021-09-19,Garden,Nebraska,USA-31069,cases,,,0,State and county officials stopped reporting county-level data for several months.
-2021-07-31,,Grant,Nebraska,USA-31075,deaths,,,0,State and local officials are no longer reporting deaths by county.
+2021-07-31,2021-09-28,Grant,Nebraska,USA-31075,deaths,,,0,State and local officials are no longer reporting deaths by county.
 2021-07-31,2021-09-19,Grant,Nebraska,USA-31075,cases,,,0,State and county officials stopped reporting county-level data for several months.
-2021-07-31,,Kimball,Nebraska,USA-31105,deaths,,,0,State and local officials are no longer reporting deaths by county.
+2021-07-31,2021-09-28,Kimball,Nebraska,USA-31105,deaths,,,0,State and local officials are no longer reporting deaths by county.
 2021-07-31,2021-09-19,Kimball,Nebraska,USA-31105,cases,,,0,State and county officials stopped reporting county-level data for several months.
-2021-07-31,,Morrill,Nebraska,USA-31123,deaths,,,0,State and local officials are no longer reporting deaths by county.
+2021-07-31,2021-09-28,Morrill,Nebraska,USA-31123,deaths,,,0,State and local officials are no longer reporting deaths by county.
 2021-07-31,2021-09-19,Morrill,Nebraska,USA-31123,cases,,,0,State and county officials stopped reporting county-level data for several months.
-2021-07-31,,Sheridan,Nebraska,USA-31161,deaths,,,0,State and local officials are no longer reporting deaths by county.
+2021-07-31,2021-09-28,Sheridan,Nebraska,USA-31161,deaths,,,0,State and local officials are no longer reporting deaths by county.
 2021-07-31,2021-09-19,Sheridan,Nebraska,USA-31161,cases,,,0,State and county officials stopped reporting county-level data for several months.
-2021-07-31,,Sioux,Nebraska,USA-31165,deaths,,,0,State and local officials are no longer reporting deaths by county.
+2021-07-31,2021-09-28,Sioux,Nebraska,USA-31165,deaths,,,0,State and local officials are no longer reporting deaths by county.
 2021-07-31,2021-09-19,Sioux,Nebraska,USA-31165,cases,,,0,State and county officials stopped reporting county-level data for several months.
-2021-07-31,,Butler,Nebraska,USA-31023,deaths,,,0,State and local officials are no longer reporting deaths by county.
+2021-07-31,2021-09-28,Butler,Nebraska,USA-31023,deaths,,,0,State and local officials are no longer reporting deaths by county.
 2021-07-31,2021-09-19,Butler,Nebraska,USA-31023,cases,,,0,State and county officials stopped reporting county-level data for several months.
-2021-07-31,,Polk,Nebraska,USA-31143,deaths,,,0,State and local officials are no longer reporting deaths by county.
+2021-07-31,2021-09-28,Polk,Nebraska,USA-31143,deaths,,,0,State and local officials are no longer reporting deaths by county.
 2021-07-31,2021-09-19,Polk,Nebraska,USA-31143,cases,,,0,State and county officials stopped reporting county-level data for several months.
-2021-07-31,,Seward,Nebraska,USA-31159,deaths,,,0,State and local officials are no longer reporting deaths by county.
+2021-07-31,2021-09-28,Seward,Nebraska,USA-31159,deaths,,,0,State and local officials are no longer reporting deaths by county.
 2021-07-31,2021-09-19,Seward,Nebraska,USA-31159,cases,,,0,State and county officials stopped reporting county-level data for several months.
-2021-07-31,,York,Nebraska,USA-31185,deaths,,,0,State and local officials are no longer reporting deaths by county.
+2021-07-31,2021-09-28,York,Nebraska,USA-31185,deaths,,,0,State and local officials are no longer reporting deaths by county.
 2021-07-31,2021-09-19,York,Nebraska,USA-31185,cases,,,0,State and county officials stopped reporting county-level data for several months.
-2021-07-31,,Chase,Nebraska,USA-31029,deaths,,,0,State and local officials are no longer reporting deaths by county.
+2021-07-31,2021-09-28,Chase,Nebraska,USA-31029,deaths,,,0,State and local officials are no longer reporting deaths by county.
 2021-07-31,2021-09-19,Chase,Nebraska,USA-31029,cases,,,0,State and county officials stopped reporting county-level data for several months.
-2021-07-31,,Dundy,Nebraska,USA-31057,deaths,,,0,State and local officials are no longer reporting deaths by county.
+2021-07-31,2021-09-28,Dundy,Nebraska,USA-31057,deaths,,,0,State and local officials are no longer reporting deaths by county.
 2021-07-31,2021-09-19,Dundy,Nebraska,USA-31057,cases,,,0,State and county officials stopped reporting county-level data for several months.
-2021-07-31,,Frontier,Nebraska,USA-31063,deaths,,,0,State and local officials are no longer reporting deaths by county.
+2021-07-31,2021-09-28,Frontier,Nebraska,USA-31063,deaths,,,0,State and local officials are no longer reporting deaths by county.
 2021-07-31,2021-09-19,Frontier,Nebraska,USA-31063,cases,,,0,State and county officials stopped reporting county-level data for several months.
-2021-07-31,,Furnas,Nebraska,USA-31065,deaths,,,0,State and local officials are no longer reporting deaths by county.
+2021-07-31,2021-09-28,Furnas,Nebraska,USA-31065,deaths,,,0,State and local officials are no longer reporting deaths by county.
 2021-07-31,2021-09-19,Furnas,Nebraska,USA-31065,cases,,,0,State and county officials stopped reporting county-level data for several months.
-2021-07-31,,Hayes,Nebraska,USA-31085,deaths,,,0,State and local officials are no longer reporting deaths by county.
+2021-07-31,2021-09-28,Hayes,Nebraska,USA-31085,deaths,,,0,State and local officials are no longer reporting deaths by county.
 2021-07-31,2021-09-19,Hayes,Nebraska,USA-31085,cases,,,0,State and county officials stopped reporting county-level data for several months.
-2021-07-31,,Hitchcock,Nebraska,USA-31087,deaths,,,0,State and local officials are no longer reporting deaths by county.
+2021-07-31,2021-09-28,Hitchcock,Nebraska,USA-31087,deaths,,,0,State and local officials are no longer reporting deaths by county.
 2021-07-31,2021-09-19,Hitchcock,Nebraska,USA-31087,cases,,,0,State and county officials stopped reporting county-level data for several months.
-2021-07-31,,Keith,Nebraska,USA-31101,deaths,,,0,State and local officials are no longer reporting deaths by county.
+2021-07-31,2021-09-28,Keith,Nebraska,USA-31101,deaths,,,0,State and local officials are no longer reporting deaths by county.
 2021-07-31,2021-09-19,Keith,Nebraska,USA-31101,cases,,,0,State and county officials stopped reporting county-level data for several months.
-2021-07-31,,Perkins,Nebraska,USA-31135,deaths,,,0,State and local officials are no longer reporting deaths by county.
+2021-07-31,2021-09-28,Perkins,Nebraska,USA-31135,deaths,,,0,State and local officials are no longer reporting deaths by county.
 2021-07-31,2021-09-19,Perkins,Nebraska,USA-31135,cases,,,0,State and county officials stopped reporting county-level data for several months.
-2021-07-31,,Red Willow,Nebraska,USA-31145,deaths,,,0,State and local officials are no longer reporting deaths by county.
+2021-07-31,2021-09-28,Red Willow,Nebraska,USA-31145,deaths,,,0,State and local officials are no longer reporting deaths by county.
 2021-07-31,2021-09-19,Red Willow,Nebraska,USA-31145,cases,,,0,State and county officials stopped reporting county-level data for several months.
-2021-07-31,,Dodge,Nebraska,USA-31053,deaths,,,0,State and local officials are no longer reporting deaths by county.
+2021-07-31,2021-09-28,Dodge,Nebraska,USA-31053,deaths,,,0,State and local officials are no longer reporting deaths by county.
 2021-07-31,2021-09-19,Dodge,Nebraska,USA-31053,cases,,,0,State and county officials stopped reporting county-level data for several months.
-2021-07-31,,Saunders,Nebraska,USA-31155,deaths,,,0,State and local officials are no longer reporting deaths by county.
+2021-07-31,2021-09-28,Saunders,Nebraska,USA-31155,deaths,,,0,State and local officials are no longer reporting deaths by county.
 2021-07-31,2021-09-19,Saunders,Nebraska,USA-31155,cases,,,0,State and county officials stopped reporting county-level data for several months.
-2021-07-31,,Washington,Nebraska,USA-31177,deaths,,,0,State and local officials are no longer reporting deaths by county.
+2021-07-31,2021-09-28,Washington,Nebraska,USA-31177,deaths,,,0,State and local officials are no longer reporting deaths by county.
 2021-07-31,2021-09-19,Washington,Nebraska,USA-31177,cases,,,0,State and county officials stopped reporting county-level data for several months.
-2021-07-31,,Hall,Nebraska,USA-31079,deaths,,,0,State and local officials are no longer reporting deaths by county.
+2021-07-31,2021-09-28,Hall,Nebraska,USA-31079,deaths,,,0,State and local officials are no longer reporting deaths by county.
 2021-07-31,2021-09-19,Hall,Nebraska,USA-31079,cases,,,0,State and county officials stopped reporting county-level data for several months.
-2021-07-31,,Hamilton,Nebraska,USA-31081,deaths,,,0,State and local officials are no longer reporting deaths by county.
+2021-07-31,2021-09-28,Hamilton,Nebraska,USA-31081,deaths,,,0,State and local officials are no longer reporting deaths by county.
 2021-07-31,2021-09-19,Hamilton,Nebraska,USA-31081,cases,,,0,State and county officials stopped reporting county-level data for several months.
-2021-07-31,,Merrick,Nebraska,USA-31121,deaths,,,0,State and local officials are no longer reporting deaths by county.
+2021-07-31,2021-09-28,Merrick,Nebraska,USA-31121,deaths,,,0,State and local officials are no longer reporting deaths by county.
 2021-07-31,2021-09-19,Merrick,Nebraska,USA-31121,cases,,,0,State and county officials stopped reporting county-level data for several months.
-2021-07-31,,Fillmore,Nebraska,USA-31059,deaths,,,0,State and local officials are no longer reporting deaths by county.
+2021-07-31,2021-09-28,Fillmore,Nebraska,USA-31059,deaths,,,0,State and local officials are no longer reporting deaths by county.
 2021-07-31,2021-09-19,Fillmore,Nebraska,USA-31059,cases,,,0,State and county officials stopped reporting county-level data for several months.
-2021-07-31,,Gage,Nebraska,USA-31067,deaths,,,0,State and local officials are no longer reporting deaths by county.
+2021-07-31,2021-09-28,Gage,Nebraska,USA-31067,deaths,,,0,State and local officials are no longer reporting deaths by county.
 2021-07-31,2021-09-19,Gage,Nebraska,USA-31067,cases,,,0,State and county officials stopped reporting county-level data for several months.
-2021-07-31,,Jefferson,Nebraska,USA-31095,deaths,,,0,State and local officials are no longer reporting deaths by county.
+2021-07-31,2021-09-28,Jefferson,Nebraska,USA-31095,deaths,,,0,State and local officials are no longer reporting deaths by county.
 2021-07-31,2021-09-19,Jefferson,Nebraska,USA-31095,cases,,,0,State and county officials stopped reporting county-level data for several months.
-2021-07-31,,Saline,Nebraska,USA-31151,deaths,,,0,State and local officials are no longer reporting deaths by county.
+2021-07-31,2021-09-28,Saline,Nebraska,USA-31151,deaths,,,0,State and local officials are no longer reporting deaths by county.
 2021-07-31,2021-09-19,Saline,Nebraska,USA-31151,cases,,,0,State and county officials stopped reporting county-level data for several months.
-2021-07-31,,Thayer,Nebraska,USA-31169,deaths,,,0,State and local officials are no longer reporting deaths by county.
+2021-07-31,2021-09-28,Thayer,Nebraska,USA-31169,deaths,,,0,State and local officials are no longer reporting deaths by county.
 2021-07-31,2021-09-19,Thayer,Nebraska,USA-31169,cases,,,0,State and county officials stopped reporting county-level data for several months.
-2021-07-31,,Blaine,Nebraska,USA-31009,deaths,,,0,State and local officials are no longer reporting deaths by county.
+2021-07-31,2021-09-28,Blaine,Nebraska,USA-31009,deaths,,,0,State and local officials are no longer reporting deaths by county.
 2021-07-31,2021-09-19,Blaine,Nebraska,USA-31009,cases,,,0,State and county officials stopped reporting county-level data for several months.
-2021-07-31,,Custer,Nebraska,USA-31041,deaths,,,0,State and local officials are no longer reporting deaths by county.
+2021-07-31,2021-09-28,Custer,Nebraska,USA-31041,deaths,,,0,State and local officials are no longer reporting deaths by county.
 2021-07-31,2021-09-19,Custer,Nebraska,USA-31041,cases,,,0,State and county officials stopped reporting county-level data for several months.
-2021-07-31,,Garfield,Nebraska,USA-31071,deaths,,,0,State and local officials are no longer reporting deaths by county.
+2021-07-31,2021-09-28,Garfield,Nebraska,USA-31071,deaths,,,0,State and local officials are no longer reporting deaths by county.
 2021-07-31,2021-09-19,Garfield,Nebraska,USA-31071,cases,,,0,State and county officials stopped reporting county-level data for several months.
-2021-07-31,,Greeley,Nebraska,USA-31077,deaths,,,0,State and local officials are no longer reporting deaths by county.
+2021-07-31,2021-09-28,Greeley,Nebraska,USA-31077,deaths,,,0,State and local officials are no longer reporting deaths by county.
 2021-07-31,2021-09-19,Greeley,Nebraska,USA-31077,cases,,,0,State and county officials stopped reporting county-level data for several months.
-2021-07-31,,Howard,Nebraska,USA-31093,deaths,,,0,State and local officials are no longer reporting deaths by county.
+2021-07-31,2021-09-28,Howard,Nebraska,USA-31093,deaths,,,0,State and local officials are no longer reporting deaths by county.
 2021-07-31,2021-09-19,Howard,Nebraska,USA-31093,cases,,,0,State and county officials stopped reporting county-level data for several months.
-2021-07-31,,Loup,Nebraska,USA-31115,deaths,,,0,State and local officials are no longer reporting deaths by county.
+2021-07-31,2021-09-28,Loup,Nebraska,USA-31115,deaths,,,0,State and local officials are no longer reporting deaths by county.
 2021-07-31,2021-09-19,Loup,Nebraska,USA-31115,cases,,,0,State and county officials stopped reporting county-level data for several months.
-2021-07-31,,Sherman,Nebraska,USA-31163,deaths,,,0,State and local officials are no longer reporting deaths by county.
+2021-07-31,2021-09-28,Sherman,Nebraska,USA-31163,deaths,,,0,State and local officials are no longer reporting deaths by county.
 2021-07-31,2021-09-19,Sherman,Nebraska,USA-31163,cases,,,0,State and county officials stopped reporting county-level data for several months.
-2021-07-31,,Valley,Nebraska,USA-31175,deaths,,,0,State and local officials are no longer reporting deaths by county.
+2021-07-31,2021-09-28,Valley,Nebraska,USA-31175,deaths,,,0,State and local officials are no longer reporting deaths by county.
 2021-07-31,2021-09-19,Valley,Nebraska,USA-31175,cases,,,0,State and county officials stopped reporting county-level data for several months.
-2021-07-31,,Wheeler,Nebraska,USA-31183,deaths,,,0,State and local officials are no longer reporting deaths by county.
+2021-07-31,2021-09-28,Wheeler,Nebraska,USA-31183,deaths,,,0,State and local officials are no longer reporting deaths by county.
 2021-07-31,2021-09-19,Wheeler,Nebraska,USA-31183,cases,,,0,State and county officials stopped reporting county-level data for several months.
-2021-07-31,,Antelope,Nebraska,USA-31003,deaths,,,0,State and local officials are no longer reporting deaths by county.
+2021-07-31,2021-09-28,Antelope,Nebraska,USA-31003,deaths,,,0,State and local officials are no longer reporting deaths by county.
 2021-07-31,2021-09-19,Antelope,Nebraska,USA-31003,cases,,,0,State and county officials stopped reporting county-level data for several months.
-2021-07-31,,Boyd,Nebraska,USA-31015,deaths,,,0,State and local officials are no longer reporting deaths by county.
+2021-07-31,2021-09-28,Boyd,Nebraska,USA-31015,deaths,,,0,State and local officials are no longer reporting deaths by county.
 2021-07-31,2021-09-19,Boyd,Nebraska,USA-31015,cases,,,0,State and county officials stopped reporting county-level data for several months.
-2021-07-31,,Brown,Nebraska,USA-31017,deaths,,,0,State and local officials are no longer reporting deaths by county.
+2021-07-31,2021-09-28,Brown,Nebraska,USA-31017,deaths,,,0,State and local officials are no longer reporting deaths by county.
 2021-07-31,2021-09-19,Brown,Nebraska,USA-31017,cases,,,0,State and county officials stopped reporting county-level data for several months.
-2021-07-31,,Cherry,Nebraska,USA-31031,deaths,,,0,State and local officials are no longer reporting deaths by county.
+2021-07-31,2021-09-28,Cherry,Nebraska,USA-31031,deaths,,,0,State and local officials are no longer reporting deaths by county.
 2021-07-31,2021-09-19,Cherry,Nebraska,USA-31031,cases,,,0,State and county officials stopped reporting county-level data for several months.
-2021-07-31,,Holt,Nebraska,USA-31089,deaths,,,0,State and local officials are no longer reporting deaths by county.
+2021-07-31,2021-09-28,Holt,Nebraska,USA-31089,deaths,,,0,State and local officials are no longer reporting deaths by county.
 2021-07-31,2021-09-19,Holt,Nebraska,USA-31089,cases,,,0,State and county officials stopped reporting county-level data for several months.
-2021-07-31,,Keya Paha,Nebraska,USA-31103,deaths,,,0,State and local officials are no longer reporting deaths by county.
+2021-07-31,2021-09-28,Keya Paha,Nebraska,USA-31103,deaths,,,0,State and local officials are no longer reporting deaths by county.
 2021-07-31,2021-09-19,Keya Paha,Nebraska,USA-31103,cases,,,0,State and county officials stopped reporting county-level data for several months.
-2021-07-31,,Knox,Nebraska,USA-31107,deaths,,,0,State and local officials are no longer reporting deaths by county.
+2021-07-31,2021-09-28,Knox,Nebraska,USA-31107,deaths,,,0,State and local officials are no longer reporting deaths by county.
 2021-07-31,2021-09-19,Knox,Nebraska,USA-31107,cases,,,0,State and county officials stopped reporting county-level data for several months.
-2021-07-31,,Pierce,Nebraska,USA-31139,deaths,,,0,State and local officials are no longer reporting deaths by county.
+2021-07-31,2021-09-28,Pierce,Nebraska,USA-31139,deaths,,,0,State and local officials are no longer reporting deaths by county.
 2021-07-31,2021-09-19,Pierce,Nebraska,USA-31139,cases,,,0,State and county officials stopped reporting county-level data for several months.
-2021-07-31,,Rock,Nebraska,USA-31149,deaths,,,0,State and local officials are no longer reporting deaths by county.
+2021-07-31,2021-09-28,Rock,Nebraska,USA-31149,deaths,,,0,State and local officials are no longer reporting deaths by county.
 2021-07-31,2021-09-19,Rock,Nebraska,USA-31149,cases,,,0,State and county officials stopped reporting county-level data for several months.
 2021-08-02,,Santa Clara,California,USA-06085,deaths,yes,,0,California added a backlog of deaths in Santa Clara County.
 2021-08-03,,Hood,Texas,USA-48221,cases,yes,,0,Texas added a backlog of 140 cases in Hood County.
@@ -845,14 +845,15 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2021-08-11,,,New York,USA-36,cases,,,0,"New York City released three days of data at once, resulting in a high one-day total for the state."
 2021-08-11,,,California,USA-06,deaths,yes,,0,California removed around 400 deaths in Santa Clara County after verifying records.
 2021-08-11,,Santa Clara,California,USA-06085,deaths,yes,,0,California removed around 400 deaths in Santa Clara County after verifying records.
-2021-08-11,,Adams,Nebraska,USA-31001,deaths,,,0,State and local officials are no longer reporting deaths by county.
+2021-08-11,2021-09-28,Adams,Nebraska,USA-31001,deaths,,,0,State and local officials are no longer reporting deaths by county.
 2021-08-11,2021-09-19,Adams,Nebraska,USA-31001,cases,,,0,State and county officials stopped reporting county-level data for several months.
-2021-08-11,,Clay,Nebraska,USA-31035,deaths,,,0,State and local officials are no longer reporting deaths by county.
+2021-08-11,2021-09-28,Clay,Nebraska,USA-31035,deaths,,,0,State and local officials are no longer reporting deaths by county.
 2021-08-11,2021-09-19,Clay,Nebraska,USA-31035,cases,,,0,State and county officials stopped reporting county-level data for several months.
-2021-08-11,,Nuckolls,Nebraska,USA-31129,deaths,,,0,State and local officials are no longer reporting deaths by county.
+2021-08-11,2021-09-28,Nuckolls,Nebraska,USA-31129,deaths,,,0,State and local officials are no longer reporting deaths by county.
 2021-08-11,2021-09-19,Nuckolls,Nebraska,USA-31129,cases,,,0,State and county officials stopped reporting county-level data for several months.
-2021-08-11,,Webster,Nebraska,USA-31181,deaths,,,0,State and local officials are no longer reporting deaths by county.
+2021-08-11,2021-09-28,Webster,Nebraska,USA-31181,deaths,,,0,State and local officials are no longer reporting deaths by county.
 2021-08-11,2021-09-19,Webster,Nebraska,USA-31181,cases,,,0,State and county officials stopped reporting county-level data for several weeks in September.
+2021-08-11,,Dakota,Nebraska,USA-31043,deaths,,,0,State and local officials are no longer reporting deaths by county.
 2021-08-12,,Lea,New Mexico,USA-35025,cases,yes,,0,New Mexico added a backlog of about 330 older cases from one facility in Lea County.
 2021-08-16,,,Florida,USA-12,both,,,0,"The daily count includes Florida's weekend update, which is typically announced on Tuesdays. The 7-day average is artificially high because of this atypical schedule."
 2021-08-16,,,Vermont,USA-50,both,,,0,"Vermont did not release data because of Bennington Battle Day, a state holiday."
@@ -868,19 +869,19 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2021-08-29,,,Hawaii,USA-15,cases,,,0,Hawaii added a backlog of cases from recent weeks from one testing facility.
 2021-08-30,2021-08-31,,Louisiana,USA-22,both,,,0,Louisiana announced several days of data on Sept. 1 after data interruptions related to Hurricane Ida.
 2021-08-31,,Baylor,Texas,USA-48023,cases,yes,,0,Texas added many older cases in Baylor County.
-2021-09-03,,Buffalo,Nebraska,USA-31019,deaths,,,0,State and local officials are no longer reporting deaths by county.
+2021-09-03,2021-09-19,Buffalo,Nebraska,USA-31019,deaths,,,0,State and local officials are no longer reporting deaths by county.
 2021-09-03,2021-09-19,Buffalo,Nebraska,USA-31019,cases,,,0,State and county officials stopped reporting county-level data for several weeks in September.
-2021-09-03,,Dawson,Nebraska,USA-31047,deaths,,,0,State and local officials are no longer reporting deaths by county.
+2021-09-03,2021-09-19,Dawson,Nebraska,USA-31047,deaths,,,0,State and local officials are no longer reporting deaths by county.
 2021-09-03,2021-09-19,Dawson,Nebraska,USA-31047,cases,,,0,State and county officials stopped reporting county-level data for several weeks in September.
-2021-09-03,,Franklin,Nebraska,USA-31061,deaths,,,0,State and local officials are no longer reporting deaths by county.
+2021-09-03,2021-09-19,Franklin,Nebraska,USA-31061,deaths,,,0,State and local officials are no longer reporting deaths by county.
 2021-09-03,2021-09-19,Franklin,Nebraska,USA-31061,cases,,,0,State and county officials stopped reporting county-level data for several weeks in September.
-2021-09-03,,Gosper,Nebraska,USA-31073,deaths,,,0,State and local officials are no longer reporting deaths by county.
+2021-09-03,2021-09-19,Gosper,Nebraska,USA-31073,deaths,,,0,State and local officials are no longer reporting deaths by county.
 2021-09-03,2021-09-19,Gosper,Nebraska,USA-31073,cases,,,0,State and county officials stopped reporting county-level data for several weeks in September.
-2021-09-03,,Harlan,Nebraska,USA-31083,deaths,,,0,State and local officials are no longer reporting deaths by county.
+2021-09-03,2021-09-19,Harlan,Nebraska,USA-31083,deaths,,,0,State and local officials are no longer reporting deaths by county.
 2021-09-03,2021-09-19,Harlan,Nebraska,USA-31083,cases,,,0,State and county officials stopped reporting county-level data for several weeks in September.
-2021-09-03,,Kearney,Nebraska,USA-31099,deaths,,,0,State and local officials are no longer reporting deaths by county.
+2021-09-03,2021-09-19,Kearney,Nebraska,USA-31099,deaths,,,0,State and local officials are no longer reporting deaths by county.
 2021-09-03,2021-09-19,Kearney,Nebraska,USA-31099,cases,,,0,State and county officials stopped reporting county-level data for several weeks in September.
-2021-09-03,,Phelps,Nebraska,USA-31137,deaths,,,0,State and local officials are no longer reporting deaths by county.
+2021-09-03,2021-09-19,Phelps,Nebraska,USA-31137,deaths,,,0,State and local officials are no longer reporting deaths by county.
 2021-09-03,2021-09-19,Phelps,Nebraska,USA-31137,cases,,,0,State and county officials stopped reporting county-level data for several weeks in September.
 2021-09-05,2021-09-22,Taylor,Texas,USA-48441,both,yes,,0,Taylor County reported many cases and deaths after several weeks when officials were unable to update cumulative counts.
 2021-09-06,,,Wyoming,USA-56,both,,,0,The daily count could be artificially low because many jurisdictions did not announce new data on Labor Day.
@@ -1178,6 +1179,7 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2021-12-01,,,Washington,USA-53,deaths,,,0,Washington was unable to report new data because of technical issue. Some counties updated independently.
 2021-12-01,,,North Carolina,USA-37,cases,,,1975,"The Times began using state health department data for Wake County, resulting in a one-day decrease for the county."
 2021-12-01,,Wake,North Carolina,USA-37183,cases,,,1975,"Wake County stopped reporting data separately from the state health department, resulting in a one-day decrease in cases and deaths."
+2021-12-01,,Scotts Bluff,Nebraska,USA-31157,deaths,,,0,State and local officials are no longer reporting deaths by county.
 2021-12-05,2021-12-19,,Maryland,USA-24,cases,yes,,0,Maryland was unable to report new cases data for more than two weeks. The state announced it was responding to a cyberattack that affected data systems.
 2021-12-05,2021-12-27,,Maryland,USA-24,deaths,yes,,0,Maryland was unable to report new deaths because of a technical issue.
 2021-12-06,2021-12-27,,Maryland,USA-24,both,,yes,0,Maryland was unable to report new county-level cases and deaths because of a technical issue.
@@ -1636,7 +1638,7 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2022-04-13,,Nash,North Carolina,USA-37127,cases,yes,,0,North Carolina removed many cases from Nash County.
 2022-04-13,,Pitt,North Carolina,USA-37147,cases,yes,,0,North Carolina removed many cases from Pitt County.
 2022-04-13,,Stanly,North Carolina,USA-37167,cases,yes,,0,North Carolina removed many cases from Stanly County.
-2022-04-13,,Scotts Bluff,Nebraska,USA-31157,cases,yes,,0,"The Times began using a federal data source for Scotts Bluff County after the county stopped reporting data independently, resulting in a one-time decrease in cases."
+2022-04-13,,Scotts Bluff,Nebraska,USA-31157,cases,yes,,0,"The Times began using a federal data source for Scotts Bluff County cases after the county stopped reporting data independently, resulting in a one-time decrease in cases."
 2022-04-14,,,Louisiana,USA-22,cases,,,-338,Louisiana added a backlog of 338 cases. 
 2022-04-14,,Lucas,Ohio,USA-39095,cases,yes,,0,Ohio added a backlog of many cases in Lucas County.
 2022-04-15,2022-04-16,,Texas,USA-48,both,,,0,Texas did not report new data.
