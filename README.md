@@ -1,6 +1,6 @@
 # Coronavirus (Covid-19) Data in the United States
 
-**UPDATE: County-level data for cases and deaths is now available in separate files for each year: [us-counties-2020.csv](us-counties-2020.csv), [us-counties-2021.csv](us-counties-2021.csv) and [us-counties-2022.csv](us-counties-2022.csv). The existing [us-counties.csv](us-counties.csv) file will no longer be updated once it reaches the Github file size limit of 100MB.**
+**UPDATE: Files in the [live/](live) directory no longer provide separate counts probable and confirmed cases and deaths, as those figures are not commonly reported separately anymore.**
 
 The primary data published here are the daily cumulative number of cases and deaths reported in each county and state across the U.S. since the beginning of the pandemic. We have also published these additional data sets:
 
@@ -85,22 +85,14 @@ In some cases, the geographies where cases are reported do not map to standard c
 
 ### Live Data
 
-The files in the [live/](live/) directory are also available at three geographic levels and contain all the fields the historical data files have, but with only data for the current day. We try to update these files multiple times per day. 
+The files in the [live/](live/) directory are also available at three geographic levels and contain all the fields the historical data files have, but with only data for the current day.  
 
 Because these are updated throughout the day, they can have inconsistent counts, are more likely to contain errors, and should be considered less reliable than the historical data. Different areas of the country update at different times and our data collection process can move at a different pace as well.
-
-In addition to the columns that are in the historical files, these files also include new columns that include detail on the number of confirmed and probable cases, separately.
 
 In the live files, the case and death fields have the following definitions:
 
 * **cases**: The total number of cases of Covid-19, including both confirmed and probable.
 * **deaths**: The total number of deaths from Covid-19, including both confirmed and probable.
-* **confirmed_cases**: The number of laboratory confirmed Covid-19 cases only, or blank if not available.
-* **confirmed_deaths**: The number of laboratory confirmed Covid-19 deaths only, or blank if not available.
-* **probable_cases**: The number of probable Covid-19 cases only, or blank if not available.
-* **probable_deaths**: The number of probable Covid-19 deaths only, or blank if not available.
-
-We understand this breakout would also be valuable historically, and are working toward providing that. Please bear with us as we roll out this new and more complicated data.
 
 The live data can be found in files at the U.S. level in the [us.csv](live/us.csv) file, at the state level in the [states.csv](live/us-states.csv) file, and at the county level in the [counties.csv](live/us-counties.csv) file.
 
