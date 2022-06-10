@@ -527,7 +527,7 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2021-06-04,,,,USA,cases,yes,,0,Florida stopped providing daily updates and removed many nonresident cases.
 2021-06-04,,,California,USA-06,deaths,yes,,0,Alameda County removed many deaths from causes unrelated to Covid-19.
 2021-06-04,,,Florida,USA-12,cases,yes,yes,0,"Florida changed its data format to a weekly report and stopped including nonresident cases, resulting in a one-day decrease in most counties."
-2021-06-04,2021-09-13,,Florida,USA-12,deaths,,,0,"Florida stopped providing county-level deaths on June 4, and resumed reporting to the C.D.C. in September."
+2021-06-04,2021-09-13,,Florida,USA-12,deaths,,yes,0,"Florida stopped providing county-level deaths on June 4, and resumed reporting to the C.D.C. in September."
 2021-06-04,,Alameda,California,USA-06001,deaths,yes,,0,Alameda County removed many deaths from causes unrelated to Covid-19.
 2021-06-04,,Williamson,Texas,USA-48491,cases,yes,,0,Texas added about 300 older cases in Williamson County.
 2021-06-04,2021-09-28,Boone,Nebraska,USA-31011,deaths,,,0,State and local officials are no longer reporting deaths by county.
