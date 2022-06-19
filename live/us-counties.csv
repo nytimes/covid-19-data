@@ -244,9 +244,9 @@ date,county,state,fips,cases,deaths
 2022-06-19,Ventura,California,06111,195990,1514
 2022-06-19,Yolo,California,06113,44787,323
 2022-06-19,Yuba,California,06115,18901,124
-2022-06-19,Adams,Colorado,08001,146387,1398
+2022-06-19,Adams,Colorado,08001,146571,1400
 2022-06-19,Alamosa,Colorado,08003,4824,62
-2022-06-19,Arapahoe,Colorado,08005,170841,1309
+2022-06-19,Arapahoe,Colorado,08005,171093,1312
 2022-06-19,Archuleta,Colorado,08007,3034,16
 2022-06-19,Baca,Colorado,08009,882,14
 2022-06-19,Bent,Colorado,08011,2610,47
@@ -262,7 +262,7 @@ date,county,state,fips,cases,deaths
 2022-06-19,Delta,Colorado,08029,6424,139
 2022-06-19,Denver,Colorado,08031,190613,1381
 2022-06-19,Dolores,Colorado,08033,372,8
-2022-06-19,Douglas,Colorado,08035,87922,470
+2022-06-19,Douglas,Colorado,08035,88039,470
 2022-06-19,Eagle,Colorado,08037,16974,35
 2022-06-19,Elbert,Colorado,08039,5081,40
 2022-06-19,El Paso,Colorado,08041,201988,1722
@@ -1057,7 +1057,7 @@ date,county,state,fips,cases,deaths
 2022-06-19,Hickman,Kentucky,21105,894,28
 2022-06-19,Hopkins,Kentucky,21107,15234,258
 2022-06-19,Jackson,Kentucky,21109,4351,82
-2022-06-19,Jefferson,Kentucky,21111,247713,2398
+2022-06-19,Jefferson,Kentucky,21111,247749,2398
 2022-06-19,Jessamine,Kentucky,21113,15760,144
 2022-06-19,Johnson,Kentucky,21115,6606,122
 2022-06-19,Kenton,Kentucky,21117,47511,429
@@ -2338,85 +2338,85 @@ date,county,state,fips,cases,deaths
 2022-06-19,Westmoreland,Pennsylvania,42129,84181,1402
 2022-06-19,Wyoming,Pennsylvania,42131,5547,110
 2022-06-19,York,Pennsylvania,42133,124420,1520
-2022-06-19,Adjuntas,Puerto Rico,72001,3878,
-2022-06-19,Aguada,Puerto Rico,72003,9034,
-2022-06-19,Aguadilla,Puerto Rico,72005,10793,
-2022-06-19,Aguas Buenas,Puerto Rico,72007,5677,
-2022-06-19,Aibonito,Puerto Rico,72009,5500,
-2022-06-19,Anasco,Puerto Rico,72011,5583,
-2022-06-19,Arecibo,Puerto Rico,72013,18367,
-2022-06-19,Arroyo,Puerto Rico,72015,3644,
-2022-06-19,Barceloneta,Puerto Rico,72017,5114,
-2022-06-19,Barranquitas,Puerto Rico,72019,6905,
-2022-06-19,Bayamon,Puerto Rico,72021,47373,
-2022-06-19,Cabo Rojo,Puerto Rico,72023,8599,
-2022-06-19,Caguas,Puerto Rico,72025,30572,
-2022-06-19,Camuy,Puerto Rico,72027,7406,
-2022-06-19,Canovanas,Puerto Rico,72029,9106,
-2022-06-19,Carolina,Puerto Rico,72031,38038,
-2022-06-19,Catano,Puerto Rico,72033,5487,
-2022-06-19,Cayey,Puerto Rico,72035,9522,
-2022-06-19,Ceiba,Puerto Rico,72037,2214,
-2022-06-19,Ciales,Puerto Rico,72039,3680,
-2022-06-19,Cidra,Puerto Rico,72041,9115,
-2022-06-19,Coamo,Puerto Rico,72043,8064,
-2022-06-19,Comerio,Puerto Rico,72045,4128,
-2022-06-19,Corozal,Puerto Rico,72047,8687,
-2022-06-19,Culebra,Puerto Rico,72049,340,
-2022-06-19,Dorado,Puerto Rico,72051,9285,
-2022-06-19,Fajardo,Puerto Rico,72053,6702,
-2022-06-19,Florida,Puerto Rico,72054,3416,
-2022-06-19,Guanica,Puerto Rico,72055,2340,
-2022-06-19,Guayama,Puerto Rico,72057,7906,
-2022-06-19,Guayanilla,Puerto Rico,72059,3836,
-2022-06-19,Guaynabo,Puerto Rico,72061,22188,
-2022-06-19,Gurabo,Puerto Rico,72063,10524,
-2022-06-19,Hatillo,Puerto Rico,72065,7693,
-2022-06-19,Hormigueros,Puerto Rico,72067,3239,
-2022-06-19,Humacao,Puerto Rico,72069,11421,
-2022-06-19,Isabela,Puerto Rico,72071,9654,
-2022-06-19,Jayuya,Puerto Rico,72073,3675,
-2022-06-19,Juana Diaz,Puerto Rico,72075,9741,
-2022-06-19,Juncos,Puerto Rico,72077,8861,
-2022-06-19,Lajas,Puerto Rico,72079,4385,
-2022-06-19,Lares,Puerto Rico,72081,6636,
-2022-06-19,Las Marias,Puerto Rico,72083,1931,
-2022-06-19,Las Piedras,Puerto Rico,72085,7975,
-2022-06-19,Loiza,Puerto Rico,72087,4384,
-2022-06-19,Luquillo,Puerto Rico,72089,3687,
-2022-06-19,Manati,Puerto Rico,72091,8751,
-2022-06-19,Maricao,Puerto Rico,72093,986,
-2022-06-19,Maunabo,Puerto Rico,72095,2109,
-2022-06-19,Mayaguez,Puerto Rico,72097,14727,
-2022-06-19,Moca,Puerto Rico,72099,9091,
-2022-06-19,Morovis,Puerto Rico,72101,6712,
-2022-06-19,Naguabo,Puerto Rico,72103,4877,
-2022-06-19,Naranjito,Puerto Rico,72105,7066,
-2022-06-19,Orocovis,Puerto Rico,72107,4543,
-2022-06-19,Patillas,Puerto Rico,72109,3548,
-2022-06-19,Penuelas,Puerto Rico,72111,3879,
-2022-06-19,Ponce,Puerto Rico,72113,27555,
-2022-06-19,Quebradillas,Puerto Rico,72115,5851,
-2022-06-19,Rincon,Puerto Rico,72117,3113,
-2022-06-19,Rio Grande,Puerto Rico,72119,10366,
-2022-06-19,Sabana Grande,Puerto Rico,72121,4100,
-2022-06-19,Salinas,Puerto Rico,72123,5371,
-2022-06-19,San German,Puerto Rico,72125,5945,
-2022-06-19,San Juan,Puerto Rico,72127,77596,
-2022-06-19,San Lorenzo,Puerto Rico,72129,7993,
-2022-06-19,San Sebastian,Puerto Rico,72131,9243,
-2022-06-19,Santa Isabel,Puerto Rico,72133,4434,
-2022-06-19,Toa Alta,Puerto Rico,72135,16343,
-2022-06-19,Toa Baja,Puerto Rico,72137,17445,
-2022-06-19,Trujillo Alto,Puerto Rico,72139,13992,
-2022-06-19,Unknown,Puerto Rico,,26388,4479
-2022-06-19,Utuado,Puerto Rico,72141,5455,
-2022-06-19,Vega Alta,Puerto Rico,72143,8647,
-2022-06-19,Vega Baja,Puerto Rico,72145,14284,
-2022-06-19,Vieques,Puerto Rico,72147,1188,
-2022-06-19,Villalba,Puerto Rico,72149,5325,
-2022-06-19,Yabucoa,Puerto Rico,72151,6908,
-2022-06-19,Yauco,Puerto Rico,72153,7279,
+2022-06-19,Adjuntas,Puerto Rico,72001,3909,
+2022-06-19,Aguada,Puerto Rico,72003,9083,
+2022-06-19,Aguadilla,Puerto Rico,72005,10872,
+2022-06-19,Aguas Buenas,Puerto Rico,72007,5723,
+2022-06-19,Aibonito,Puerto Rico,72009,5545,
+2022-06-19,Anasco,Puerto Rico,72011,5658,
+2022-06-19,Arecibo,Puerto Rico,72013,18533,
+2022-06-19,Arroyo,Puerto Rico,72015,3665,
+2022-06-19,Barceloneta,Puerto Rico,72017,5148,
+2022-06-19,Barranquitas,Puerto Rico,72019,6947,
+2022-06-19,Bayamon,Puerto Rico,72021,47724,
+2022-06-19,Cabo Rojo,Puerto Rico,72023,8707,
+2022-06-19,Caguas,Puerto Rico,72025,30812,
+2022-06-19,Camuy,Puerto Rico,72027,7455,
+2022-06-19,Canovanas,Puerto Rico,72029,9171,
+2022-06-19,Carolina,Puerto Rico,72031,38288,
+2022-06-19,Catano,Puerto Rico,72033,5524,
+2022-06-19,Cayey,Puerto Rico,72035,9633,
+2022-06-19,Ceiba,Puerto Rico,72037,2233,
+2022-06-19,Ciales,Puerto Rico,72039,3710,
+2022-06-19,Cidra,Puerto Rico,72041,9213,
+2022-06-19,Coamo,Puerto Rico,72043,8126,
+2022-06-19,Comerio,Puerto Rico,72045,4168,
+2022-06-19,Corozal,Puerto Rico,72047,8763,
+2022-06-19,Culebra,Puerto Rico,72049,341,
+2022-06-19,Dorado,Puerto Rico,72051,9365,
+2022-06-19,Fajardo,Puerto Rico,72053,6748,
+2022-06-19,Florida,Puerto Rico,72054,3438,
+2022-06-19,Guanica,Puerto Rico,72055,2347,
+2022-06-19,Guayama,Puerto Rico,72057,7950,
+2022-06-19,Guayanilla,Puerto Rico,72059,3858,
+2022-06-19,Guaynabo,Puerto Rico,72061,22378,
+2022-06-19,Gurabo,Puerto Rico,72063,10601,
+2022-06-19,Hatillo,Puerto Rico,72065,7790,
+2022-06-19,Hormigueros,Puerto Rico,72067,3259,
+2022-06-19,Humacao,Puerto Rico,72069,11489,
+2022-06-19,Isabela,Puerto Rico,72071,9732,
+2022-06-19,Jayuya,Puerto Rico,72073,3699,
+2022-06-19,Juana Diaz,Puerto Rico,72075,9847,
+2022-06-19,Juncos,Puerto Rico,72077,8912,
+2022-06-19,Lajas,Puerto Rico,72079,4427,
+2022-06-19,Lares,Puerto Rico,72081,6725,
+2022-06-19,Las Marias,Puerto Rico,72083,1961,
+2022-06-19,Las Piedras,Puerto Rico,72085,8025,
+2022-06-19,Loiza,Puerto Rico,72087,4413,
+2022-06-19,Luquillo,Puerto Rico,72089,3713,
+2022-06-19,Manati,Puerto Rico,72091,8821,
+2022-06-19,Maricao,Puerto Rico,72093,996,
+2022-06-19,Maunabo,Puerto Rico,72095,2135,
+2022-06-19,Mayaguez,Puerto Rico,72097,14826,
+2022-06-19,Moca,Puerto Rico,72099,9159,
+2022-06-19,Morovis,Puerto Rico,72101,6748,
+2022-06-19,Naguabo,Puerto Rico,72103,4909,
+2022-06-19,Naranjito,Puerto Rico,72105,7122,
+2022-06-19,Orocovis,Puerto Rico,72107,4563,
+2022-06-19,Patillas,Puerto Rico,72109,3575,
+2022-06-19,Penuelas,Puerto Rico,72111,3955,
+2022-06-19,Ponce,Puerto Rico,72113,27726,
+2022-06-19,Quebradillas,Puerto Rico,72115,5925,
+2022-06-19,Rincon,Puerto Rico,72117,3121,
+2022-06-19,Rio Grande,Puerto Rico,72119,10428,
+2022-06-19,Sabana Grande,Puerto Rico,72121,4141,
+2022-06-19,Salinas,Puerto Rico,72123,5433,
+2022-06-19,San German,Puerto Rico,72125,5997,
+2022-06-19,San Juan,Puerto Rico,72127,78083,
+2022-06-19,San Lorenzo,Puerto Rico,72129,8068,
+2022-06-19,San Sebastian,Puerto Rico,72131,9372,
+2022-06-19,Santa Isabel,Puerto Rico,72133,4468,
+2022-06-19,Toa Alta,Puerto Rico,72135,16467,
+2022-06-19,Toa Baja,Puerto Rico,72137,17585,
+2022-06-19,Trujillo Alto,Puerto Rico,72139,14111,
+2022-06-19,Unknown,Puerto Rico,,26733,4480
+2022-06-19,Utuado,Puerto Rico,72141,5506,
+2022-06-19,Vega Alta,Puerto Rico,72143,8733,
+2022-06-19,Vega Baja,Puerto Rico,72145,14429,
+2022-06-19,Vieques,Puerto Rico,72147,1208,
+2022-06-19,Villalba,Puerto Rico,72149,5389,
+2022-06-19,Yabucoa,Puerto Rico,72151,6949,
+2022-06-19,Yauco,Puerto Rico,72153,7327,
 2022-06-19,Bristol,Rhode Island,44001,15370,173
 2022-06-19,Kent,Rhode Island,44003,54107,518
 2022-06-19,Newport,Rhode Island,44005,22765,94
