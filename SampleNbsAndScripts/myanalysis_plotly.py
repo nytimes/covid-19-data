@@ -14,7 +14,6 @@ import sys
 IN_COLAB = 'google.colab' in sys.modules
 IN_AZUREML = 'azureml' in sys.modules
 
-print('in main')
 # %%
 # DID YOU SET covid_ftp_pw?
 import os
