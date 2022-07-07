@@ -1672,3 +1672,5 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2022-06-10,,Hays,Texas,USA-48209,both,yes,,0,"Hays County added about 1,300 older cases after reviewing records."
 2022-06-22,,,North Carolina,USA-37,cases,,,0,"North Carolina removed about 4,000 cases identified from home tests, which are not included in the state's case count."
 2022-06-23,,,Colorado,USA-08,cases,yes,yes,0,Colorado added many older cases.
+2022-07-06,,,Arizona,USA-04,cases,,,-3500,"Arizona added a backlog of about 3,500 older cases, primarily in Apache County."
+2022-07-06,,Apache,Arizona,USA-04001,cases,yes,,0,"Arizona added a backlog of about 3,500 older cases, primarily in Apache County."
