@@ -1702,3 +1702,5 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2022-09-15,,,Colorado,USA-08,cases,yes,yes,0,Colorado added many older cases.
 2022-09-26,2022-09-27,Doña Ana,New Mexico,USA-35013,cases,yes,,0,New Mexico removed many cases in Doña Ana County and added many cases in Otero County.
 2022-09-26,2022-09-27,Otero,New Mexico,USA-35035,cases,yes,,0,New Mexico removed many cases in Doña Ana County and added many cases in Otero County.
+2022-09-28,,,Hawaii,USA-15,cases,yes,yes,0,"Hawaii added more than 10,000 cases representing people who were infected twice, plus a backlog of many other older cases."
+2022-09-28,,,Kansas,USA-20,deaths,yes,,0,Kansas added a backlog of many deaths due to data reconciliation.
