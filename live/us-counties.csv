@@ -1,68 +1,102 @@
 date,county,state,fips,cases,deaths
-2022-10-13,Vilas,Wisconsin,55125,6106,100
-2022-10-13,Vernon,Wisconsin,55123,7180,110
-2022-10-13,Trempealeau,Wisconsin,55121,9455,67
-2022-10-13,Taylor,Wisconsin,55119,5436,74
-2022-10-13,St. Croix,Wisconsin,55109,29005,155
-2022-10-13,Sheboygan,Wisconsin,55117,37245,341
-2022-10-13,Shawano,Wisconsin,55115,13429,159
-2022-10-13,Sawyer,Wisconsin,55113,5543,63
-2022-10-13,Sauk,Wisconsin,55111,19515,146
-2022-10-13,Rusk,Wisconsin,55107,3974,61
-2022-10-13,Rock,Wisconsin,55105,51411,424
-2022-10-13,Richland,Wisconsin,55103,4660,52
-2022-10-13,Racine,Wisconsin,55101,66271,718
+2022-10-13,Miami,Indiana,18103,10274,168
+2022-10-13,Calhoun,Alabama,01015,38420,658
+2022-10-13,Butler,Alabama,01013,6055,130
+2022-10-13,Weston,Wyoming,56045,1818,21
+2022-10-13,Washakie,Wyoming,56043,2668,47
+2022-10-13,Uinta,Wyoming,56041,6163,43
+2022-10-13,Teton,Wyoming,56039,11771,16
+2022-10-13,Sweetwater,Wyoming,56037,12152,131
+2022-10-13,Sublette,Wyoming,56035,2230,28
+2022-10-13,Sheridan,Wyoming,56033,9300,82
+2022-10-13,Platte,Wyoming,56031,2157,43
+2022-10-13,Park,Wyoming,56029,7464,150
+2022-10-13,Niobrara,Wyoming,56027,752,10
+2022-10-13,Natrona,Wyoming,56025,24795,286
+2022-10-13,Lincoln,Wyoming,56023,4736,32
+2022-10-13,Laramie,Wyoming,56021,30161,307
+2022-10-13,Johnson,Wyoming,56019,2177,21
+2022-10-13,Hot Springs,Wyoming,56017,1357,19
+2022-10-13,Goshen,Wyoming,56015,4438,58
+2022-10-13,Fremont,Wyoming,56013,16058,200
+2022-10-13,Crook,Wyoming,56011,1508,30
+2022-10-13,Converse,Wyoming,56009,3507,56
+2022-10-13,Carbon,Wyoming,56007,4931,55
+2022-10-13,Campbell,Wyoming,56005,13369,153
+2022-10-13,Big Horn,Wyoming,56003,2930,64
+2022-10-13,Albany,Wyoming,56001,11193,52
+2022-10-13,Wood,Wisconsin,55141,25216,250
+2022-10-13,Winnebago,Wisconsin,55139,60083,405
+2022-10-13,Waushara,Wisconsin,55137,7270,89
+2022-10-13,Waupaca,Wisconsin,55135,15485,259
+2022-10-13,Waukesha,Wisconsin,55133,131382,1161
+2022-10-13,Washington,Wisconsin,55131,43993,353
+2022-10-13,Washburn,Wisconsin,55129,4700,48
+2022-10-13,Walworth,Wisconsin,55127,30970,297
+2022-10-13,Vilas,Wisconsin,55125,6111,101
+2022-10-13,Vernon,Wisconsin,55123,7186,110
+2022-10-13,Trempealeau,Wisconsin,55121,9462,67
+2022-10-13,Taylor,Wisconsin,55119,5437,75
+2022-10-13,St. Croix,Wisconsin,55109,29023,155
+2022-10-13,Sheboygan,Wisconsin,55117,37275,343
+2022-10-13,Shawano,Wisconsin,55115,13434,159
+2022-10-13,Sawyer,Wisconsin,55113,5546,63
+2022-10-13,Sauk,Wisconsin,55111,19526,146
+2022-10-13,Rusk,Wisconsin,55107,3976,61
+2022-10-13,Rock,Wisconsin,55105,51456,425
+2022-10-13,Richland,Wisconsin,55103,4669,52
+2022-10-13,Racine,Wisconsin,55101,66326,719
 2022-10-13,Price,Wisconsin,55099,3788,35
-2022-10-13,Portage,Wisconsin,55097,21403,166
-2022-10-13,Polk,Wisconsin,55095,14192,124
-2022-10-13,Pierce,Wisconsin,55093,12903,77
+2022-10-13,Portage,Wisconsin,55097,21418,166
+2022-10-13,Polk,Wisconsin,55095,14205,124
+2022-10-13,Pierce,Wisconsin,55093,12907,77
 2022-10-13,Pepin,Wisconsin,55091,2218,19
-2022-10-13,Ozaukee,Wisconsin,55089,26189,193
-2022-10-13,Outagamie,Wisconsin,55087,61375,425
-2022-10-13,Oneida,Wisconsin,55085,10133,145
-2022-10-13,Oconto,Wisconsin,55083,12758,126
-2022-10-13,Monroe,Wisconsin,55081,13894,104
-2022-10-13,Milwaukee,Wisconsin,55079,318630,2381
-2022-10-13,Menominee,Wisconsin,55078,2234,15
-2022-10-13,Marquette,Wisconsin,55077,4414,65
-2022-10-13,Marinette,Wisconsin,55075,13461,140
-2022-10-13,Marathon,Wisconsin,55073,46131,522
-2022-10-13,Manitowoc,Wisconsin,55071,23533,201
-2022-10-13,Lincoln,Wisconsin,55069,8422,154
-2022-10-13,Langlade,Wisconsin,55067,6164,102
-2022-10-13,Lafayette,Wisconsin,55065,4161,29
-2022-10-13,La Crosse,Wisconsin,55063,41313,198
-2022-10-13,Kewaunee,Wisconsin,55061,6488,62
-2022-10-13,Kenosha,Wisconsin,55059,52327,670
-2022-10-13,Juneau,Wisconsin,55057,8904,72
-2022-10-13,Jefferson,Wisconsin,55055,25116,251
-2022-10-13,Jackson,Wisconsin,55053,6580,45
-2022-10-13,Iron,Wisconsin,55051,1670,49
-2022-10-13,Iowa,Wisconsin,55049,6420,31
-2022-10-13,Green Lake,Wisconsin,55047,5928,67
-2022-10-13,Green,Wisconsin,55045,10862,60
-2022-10-13,Grant,Wisconsin,55043,14634,155
-2022-10-13,Forest,Wisconsin,55041,3161,52
-2022-10-13,Fond du Lac,Wisconsin,55039,36593,297
-2022-10-13,Florence,Wisconsin,55037,1258,17
-2022-10-13,Eau Claire,Wisconsin,55035,34780,202
-2022-10-13,Dunn,Wisconsin,55033,14868,80
-2022-10-13,Douglas,Wisconsin,55031,13599,84
-2022-10-13,Door,Wisconsin,55029,8212,79
-2022-10-13,Dodge,Wisconsin,55027,30403,352
-2022-10-13,Dane,Wisconsin,55025,166900,576
-2022-10-13,Crawford,Wisconsin,55023,5105,31
-2022-10-13,Columbia,Wisconsin,55021,18427,141
-2022-10-13,Clark,Wisconsin,55019,8537,127
-2022-10-13,Chippewa,Wisconsin,55017,21021,201
-2022-10-13,Calumet,Wisconsin,55015,16131,126
-2022-10-13,Burnett,Wisconsin,55013,4732,45
-2022-10-13,Buffalo,Wisconsin,55011,3999,12
-2022-10-13,Brown,Wisconsin,55009,97544,593
-2022-10-13,Bayfield,Wisconsin,55007,4107,43
-2022-10-13,Barron,Wisconsin,55005,15297,150
-2022-10-13,Ashland,Wisconsin,55003,3947,42
-2022-10-13,Adams,Wisconsin,55001,5445,66
+2022-10-13,Ozaukee,Wisconsin,55089,26209,193
+2022-10-13,Outagamie,Wisconsin,55087,61415,427
+2022-10-13,Oneida,Wisconsin,55085,10148,145
+2022-10-13,Oconto,Wisconsin,55083,12766,126
+2022-10-13,Monroe,Wisconsin,55081,13907,104
+2022-10-13,Milwaukee,Wisconsin,55079,318800,2382
+2022-10-13,Menominee,Wisconsin,55078,2235,15
+2022-10-13,Marquette,Wisconsin,55077,4415,65
+2022-10-13,Marinette,Wisconsin,55075,13473,140
+2022-10-13,Marathon,Wisconsin,55073,46169,522
+2022-10-13,Manitowoc,Wisconsin,55071,23543,201
+2022-10-13,Lincoln,Wisconsin,55069,8431,154
+2022-10-13,Langlade,Wisconsin,55067,6173,102
+2022-10-13,Lafayette,Wisconsin,55065,4164,29
+2022-10-13,La Crosse,Wisconsin,55063,41336,198
+2022-10-13,Kewaunee,Wisconsin,55061,6489,62
+2022-10-13,Kenosha,Wisconsin,55059,52356,671
+2022-10-13,Juneau,Wisconsin,55057,8909,73
+2022-10-13,Jefferson,Wisconsin,55055,25141,251
+2022-10-13,Jackson,Wisconsin,55053,6582,45
+2022-10-13,Iron,Wisconsin,55051,1671,49
+2022-10-13,Iowa,Wisconsin,55049,6428,31
+2022-10-13,Green Lake,Wisconsin,55047,5929,67
+2022-10-13,Green,Wisconsin,55045,10868,60
+2022-10-13,Grant,Wisconsin,55043,14640,155
+2022-10-13,Forest,Wisconsin,55041,3162,52
+2022-10-13,Fond du Lac,Wisconsin,55039,36622,297
+2022-10-13,Florence,Wisconsin,55037,1259,17
+2022-10-13,Eau Claire,Wisconsin,55035,34799,202
+2022-10-13,Dunn,Wisconsin,55033,14872,80
+2022-10-13,Douglas,Wisconsin,55031,13602,85
+2022-10-13,Door,Wisconsin,55029,8221,79
+2022-10-13,Dodge,Wisconsin,55027,30435,353
+2022-10-13,Dane,Wisconsin,55025,167035,576
+2022-10-13,Crawford,Wisconsin,55023,5107,31
+2022-10-13,Columbia,Wisconsin,55021,18440,141
+2022-10-13,Clark,Wisconsin,55019,8544,127
+2022-10-13,Chippewa,Wisconsin,55017,21031,201
+2022-10-13,Calumet,Wisconsin,55015,16137,126
+2022-10-13,Burnett,Wisconsin,55013,4737,45
+2022-10-13,Buffalo,Wisconsin,55011,4002,12
+2022-10-13,Brown,Wisconsin,55009,97583,593
+2022-10-13,Bayfield,Wisconsin,55007,4108,43
+2022-10-13,Barron,Wisconsin,55005,15300,150
+2022-10-13,Ashland,Wisconsin,55003,3950,42
+2022-10-13,Adams,Wisconsin,55001,5451,66
 2022-10-13,Wyoming,West Virginia,54109,8978,125
 2022-10-13,Wood,West Virginia,54107,26600,362
 2022-10-13,Wirt,West Virginia,54105,1699,26
@@ -79,6 +113,7 @@ date,county,state,fips,cases,deaths
 2022-10-13,Randolph,West Virginia,54083,11340,97
 2022-10-13,Raleigh,West Virginia,54081,28430,384
 2022-10-13,Putnam,West Virginia,54079,19870,203
+2022-10-13,Bullock,Alabama,01011,2813,54
 2022-10-13,Preston,West Virginia,54077,10560,141
 2022-10-13,Pocahontas,West Virginia,54075,2405,34
 2022-10-13,Pleasants,West Virginia,54073,2370,38
@@ -157,33 +192,33 @@ date,county,state,fips,cases,deaths
 2022-10-13,Benton,Washington,53005,59862,510
 2022-10-13,Asotin,Washington,53003,5192,77
 2022-10-13,Adams,Washington,53001,5529,43
-2022-10-13,Unknown,Virgin Islands,,26,0
+2022-10-13,Unknown,Virgin Islands,,31,0
 2022-10-13,St. Thomas,Virgin Islands,78030,10303,66
 2022-10-13,St. John,Virgin Islands,78020,1012,5
 2022-10-13,St. Croix,Virgin Islands,78010,11892,52
 2022-10-13,York,Virginia,51199,12504,119
-2022-10-13,Wythe,Virginia,51197,8969,163
-2022-10-13,Wise,Virginia,51195,13027,210
+2022-10-13,Wythe,Virginia,51197,8856,163
+2022-10-13,Wise,Virginia,51195,12800,210
 2022-10-13,Winchester city,Virginia,51840,7526,90
 2022-10-13,Williamsburg city,Virginia,51830,2133,23
 2022-10-13,Westmoreland,Virginia,51193,3869,57
 2022-10-13,Waynesboro city,Virginia,51820,6968,76
-2022-10-13,Washington,Virginia,51191,16669,230
+2022-10-13,Washington,Virginia,51191,16598,230
 2022-10-13,Warren,Virginia,51187,10458,167
 2022-10-13,Virginia Beach city,Virginia,51810,107390,904
-2022-10-13,Tazewell,Virginia,51185,12972,199
+2022-10-13,Tazewell,Virginia,51185,12820,199
 2022-10-13,Sussex,Virginia,51183,2711,44
 2022-10-13,Surry,Virginia,51181,1290,21
 2022-10-13,Suffolk city,Virginia,51800,22671,325
 2022-10-13,Staunton city,Virginia,51790,7269,129
 2022-10-13,Stafford,Virginia,51179,38544,188
-2022-10-13,Spotsylvania,Virginia,51177,32991,323
+2022-10-13,Spotsylvania,Virginia,51177,32991,320
 2022-10-13,Southampton,Virginia,51175,4158,97
 2022-10-13,Smyth,Virginia,51173,11049,189
 2022-10-13,Shenandoah,Virginia,51171,12745,246
 2022-10-13,Scott,Virginia,51169,6961,122
 2022-10-13,Salem city,Virginia,51775,6793,106
-2022-10-13,Russell,Virginia,51167,8555,126
+2022-10-13,Russell,Virginia,51167,8555,124
 2022-10-13,Rockingham,Virginia,51165,17854,255
 2022-10-13,Rockbridge,Virginia,51163,4707,90
 2022-10-13,Roanoke city,Virginia,51770,26147,406
@@ -201,11 +236,11 @@ date,county,state,fips,cases,deaths
 2022-10-13,Poquoson city,Virginia,51735,2744,31
 2022-10-13,Pittsylvania,Virginia,51143,17178,226
 2022-10-13,Petersburg city,Virginia,51730,9404,145
-2022-10-13,Patrick,Virginia,51141,4498,99
+2022-10-13,Patrick,Virginia,51141,4437,98
 2022-10-13,Page,Virginia,51139,6430,127
 2022-10-13,Orange,Virginia,51137,8447,102
 2022-10-13,Nottoway,Virginia,51135,5200,99
-2022-10-13,Norton city,Virginia,51720,1633,22
+2022-10-13,Norton city,Virginia,51720,1451,20
 2022-10-13,Northumberland,Virginia,51133,2522,44
 2022-10-13,Northampton,Virginia,51131,2681,71
 2022-10-13,Norfolk city,Virginia,51710,50353,506
@@ -216,7 +251,7 @@ date,county,state,fips,cases,deaths
 2022-10-13,Middlesex,Virginia,51119,2282,51
 2022-10-13,Mecklenburg,Virginia,51117,7246,138
 2022-10-13,Mathews,Virginia,51115,1850,27
-2022-10-13,Martinsville city,Virginia,51690,4029,129
+2022-10-13,Martinsville city,Virginia,51690,4003,129
 2022-10-13,Manassas Park city,Virginia,51685,4543,28
 2022-10-13,Manassas city,Virginia,51683,10950,76
 2022-10-13,Madison,Virginia,51113,2901,44
@@ -245,8 +280,8 @@ date,county,state,fips,cases,deaths
 2022-10-13,Grayson,Virginia,51077,5076,85
 2022-10-13,Goochland,Virginia,51075,5143,58
 2022-10-13,Gloucester,Virginia,51073,8784,110
-2022-10-13,Giles,Virginia,51071,4974,52
-2022-10-13,Galax city,Virginia,51640,3190,80
+2022-10-13,Giles,Virginia,51071,4955,52
+2022-10-13,Galax city,Virginia,51640,3011,80
 2022-10-13,Fredericksburg city,Virginia,51630,6640,42
 2022-10-13,Frederick,Virginia,51069,24661,266
 2022-10-13,Franklin city,Virginia,51620,2578,56
@@ -266,7 +301,7 @@ date,county,state,fips,cases,deaths
 2022-10-13,Culpeper,Virginia,51047,13414,165
 2022-10-13,Craig,Virginia,51045,1304,25
 2022-10-13,Covington city,Virginia,51580,1728,30
-2022-10-13,Colonial Heights city,Virginia,51570,5903,106
+2022-10-13,Colonial Heights city,Virginia,51570,5879,106
 2022-10-13,Clarke,Virginia,51043,3206,54
 2022-10-13,Chesterfield,Virginia,51041,91693,825
 2022-10-13,Chesapeake city,Virginia,51550,59589,538
@@ -282,9 +317,9 @@ date,county,state,fips,cases,deaths
 2022-10-13,Brunswick,Virginia,51025,3760,52
 2022-10-13,Bristol city,Virginia,51520,5643,96
 2022-10-13,Botetourt,Virginia,51023,9111,109
-2022-10-13,Bland,Virginia,51021,2163,26
+2022-10-13,Bland,Virginia,51021,2151,24
 2022-10-13,Bedford,Virginia,51019,20376,260
-2022-10-13,Bath,Virginia,51017,1049,22
+2022-10-13,Bath,Virginia,51017,1011,21
 2022-10-13,Augusta,Virginia,51015,22714,231
 2022-10-13,Arlington,Virginia,51013,61430,341
 2022-10-13,Appomattox,Virginia,51011,4561,58
@@ -309,35 +344,35 @@ date,county,state,fips,cases,deaths
 2022-10-13,Caledonia,Vermont,50005,6358,34
 2022-10-13,Bennington,Vermont,50003,11584,78
 2022-10-13,Addison,Vermont,50001,6576,22
-2022-10-13,Weber,Utah,49057,80735,464
-2022-10-13,Wayne,Utah,49055,504,0
-2022-10-13,Washington,Utah,49053,48899,483
-2022-10-13,Wasatch,Utah,49051,11735,37
-2022-10-13,Utah,Utah,49049,219186,843
-2022-10-13,Unknown,Utah,,5142,105
-2022-10-13,Uintah,Utah,49047,9138,76
-2022-10-13,Tooele,Utah,49045,23932,109
-2022-10-13,Summit,Utah,49043,15297,27
-2022-10-13,Sevier,Utah,49041,5750,31
-2022-10-13,Sanpete,Utah,49039,8775,57
-2022-10-13,San Juan,Utah,49037,4636,50
-2022-10-13,Salt Lake,Utah,49035,390712,1732
-2022-10-13,Rich,Utah,49033,363,0
-2022-10-13,Piute,Utah,49031,332,7
-2022-10-13,Morgan,Utah,49029,3118,15
-2022-10-13,Millard,Utah,49027,3541,36
-2022-10-13,Kane,Utah,49025,1517,15
-2022-10-13,Juab,Utah,49023,3140,27
-2022-10-13,Iron,Utah,49021,15883,95
-2022-10-13,Grand,Utah,49019,2662,6
-2022-10-13,Garfield,Utah,49017,1021,16
-2022-10-13,Emery,Utah,49015,2788,28
-2022-10-13,Duchesne,Utah,49013,4848,28
-2022-10-13,Davis,Utah,49011,113396,429
+2022-10-13,Weber,Utah,49057,80858,464
+2022-10-13,Wayne,Utah,49055,506,0
+2022-10-13,Washington,Utah,49053,48970,484
+2022-10-13,Wasatch,Utah,49051,11748,37
+2022-10-13,Utah,Utah,49049,219395,845
+2022-10-13,Unknown,Utah,,5163,105
+2022-10-13,Uintah,Utah,49047,9162,76
+2022-10-13,Tooele,Utah,49045,23976,110
+2022-10-13,Summit,Utah,49043,15315,27
+2022-10-13,Sevier,Utah,49041,5763,31
+2022-10-13,Sanpete,Utah,49039,8784,57
+2022-10-13,San Juan,Utah,49037,4648,50
+2022-10-13,Salt Lake,Utah,49035,391343,1734
+2022-10-13,Rich,Utah,49033,365,0
+2022-10-13,Piute,Utah,49031,333,7
+2022-10-13,Morgan,Utah,49029,3120,15
+2022-10-13,Millard,Utah,49027,3544,36
+2022-10-13,Kane,Utah,49025,1519,15
+2022-10-13,Juab,Utah,49023,3142,27
+2022-10-13,Iron,Utah,49021,15896,95
+2022-10-13,Grand,Utah,49019,2667,6
+2022-10-13,Garfield,Utah,49017,1028,16
+2022-10-13,Emery,Utah,49015,2795,28
+2022-10-13,Duchesne,Utah,49013,4856,28
+2022-10-13,Davis,Utah,49011,113586,429
 2022-10-13,Daggett,Utah,49009,165,0
-2022-10-13,Carbon,Utah,49007,5790,53
-2022-10-13,Cache,Utah,49005,40298,116
-2022-10-13,Box Elder,Utah,49003,15409,127
+2022-10-13,Carbon,Utah,49007,5798,53
+2022-10-13,Cache,Utah,49005,40343,116
+2022-10-13,Box Elder,Utah,49003,15430,127
 2022-10-13,Beaver,Utah,49001,1715,16
 2022-10-13,Zavala,Texas,48507,4407,70
 2022-10-13,Zapata,Texas,48505,4249,56
@@ -394,6 +429,7 @@ date,county,state,fips,cases,deaths
 2022-10-13,Sabine,Texas,48403,1466,90
 2022-10-13,Rusk,Texas,48401,11974,237
 2022-10-13,Runnels,Texas,48399,2623,69
+2022-10-13,Blount,Alabama,01009,17256,258
 2022-10-13,Rockwall,Texas,48397,30031,272
 2022-10-13,Robertson,Texas,48395,5093,79
 2022-10-13,Roberts,Texas,48393,187,2
@@ -416,7 +452,7 @@ date,county,state,fips,cases,deaths
 2022-10-13,Orange,Texas,48361,16729,371
 2022-10-13,Oldham,Texas,48359,612,6
 2022-10-13,Ochiltree,Texas,48357,2588,49
-2022-10-13,Nueces,Texas,48355,108927,1569
+2022-10-13,Nueces,Texas,48355,108941,1569
 2022-10-13,Nolan,Texas,48353,3403,101
 2022-10-13,Newton,Texas,48351,1677,63
 2022-10-13,Navarro,Texas,48349,13664,228
@@ -523,6 +559,7 @@ date,county,state,fips,cases,deaths
 2022-10-13,Fannin,Texas,48147,7710,190
 2022-10-13,Falls,Texas,48145,4252,68
 2022-10-13,Erath,Texas,48143,9445,126
+2022-10-13,Bibb,Alabama,01007,7547,108
 2022-10-13,El Paso,Texas,48141,238820,3821
 2022-10-13,Ellis,Texas,48139,55181,602
 2022-10-13,Edwards,Texas,48137,558,11
@@ -602,7 +639,7 @@ date,county,state,fips,cases,deaths
 2022-10-13,Washington,Tennessee,47179,45478,523
 2022-10-13,Warren,Tennessee,47177,14762,188
 2022-10-13,Van Buren,Tennessee,47175,2104,48
-2022-10-13,Unknown,Tennessee,,22273,271
+2022-10-13,Unknown,Tennessee,,23335,289
 2022-10-13,Union,Tennessee,47173,6555,80
 2022-10-13,Unicoi,Tennessee,47171,6170,101
 2022-10-13,Trousdale,Tennessee,47169,4531,47
@@ -657,7 +694,7 @@ date,county,state,fips,cases,deaths
 2022-10-13,Hardin,Tennessee,47071,10133,171
 2022-10-13,Hardeman,Tennessee,47069,8832,129
 2022-10-13,Hancock,Tennessee,47067,2432,41
-2022-10-13,Hamilton,Tennessee,47065,115760,1224
+2022-10-13,Hamilton,Tennessee,47065,115774,1224
 2022-10-13,Hamblen,Tennessee,47063,22806,377
 2022-10-13,Grundy,Tennessee,47061,4438,79
 2022-10-13,Greene,Tennessee,47059,25567,396
@@ -929,6 +966,7 @@ date,county,state,fips,cases,deaths
 2022-10-13,Franklin,Pennsylvania,42055,47099,745
 2022-10-13,Forest,Pennsylvania,42053,2453,36
 2022-10-13,Fayette,Pennsylvania,42051,36762,719
+2022-10-13,Barbour,Alabama,01005,6910,103
 2022-10-13,Erie,Pennsylvania,42049,67196,829
 2022-10-13,Elk,Pennsylvania,42047,8127,111
 2022-10-13,Delaware,Pennsylvania,42045,131328,1951
@@ -996,7 +1034,7 @@ date,county,state,fips,cases,deaths
 2022-10-13,Washita,Oklahoma,40149,3023,58
 2022-10-13,Washington,Oklahoma,40147,14599,270
 2022-10-13,Wagoner,Oklahoma,40145,25340,288
-2022-10-13,Unknown,Oklahoma,,110,0
+2022-10-13,Unknown,Oklahoma,,1181,0
 2022-10-13,Tulsa,Oklahoma,40143,198176,2254
 2022-10-13,Tillman,Oklahoma,40141,1714,36
 2022-10-13,Texas,Oklahoma,40139,6558,57
@@ -1032,6 +1070,7 @@ date,county,state,fips,cases,deaths
 2022-10-13,Le Flore,Oklahoma,40079,14626,111
 2022-10-13,Latimer,Oklahoma,40077,2558,38
 2022-10-13,Kiowa,Oklahoma,40075,2210,55
+2022-10-13,Baldwin,Alabama,01003,65819,715
 2022-10-13,Kingfisher,Oklahoma,40073,4618,71
 2022-10-13,Kay,Oklahoma,40071,14239,223
 2022-10-13,Johnston,Oklahoma,40069,3563,57
@@ -1316,134 +1355,134 @@ date,county,state,fips,cases,deaths
 2022-10-13,Alleghany,North Carolina,37005,3443,18
 2022-10-13,Alexander,North Carolina,37003,12000,152
 2022-10-13,Alamance,North Carolina,37001,56878,529
-2022-10-13,Yates,New York,36123,4181,40
-2022-10-13,Wyoming,New York,36121,9479,88
-2022-10-13,Westchester,New York,36119,307776,2842
-2022-10-13,Wayne,New York,36117,20533,197
-2022-10-13,Washington,New York,36115,14710,128
-2022-10-13,Warren,New York,36113,17449,140
-2022-10-13,Ulster,New York,36111,39604,390
-2022-10-13,Tompkins,New York,36109,24901,95
-2022-10-13,Tioga,New York,36107,13141,88
-2022-10-13,Sullivan,New York,36105,22487,137
-2022-10-13,Suffolk,New York,36103,518816,4622
-2022-10-13,St. Lawrence,New York,36089,25028,209
-2022-10-13,Steuben,New York,36101,23768,262
-2022-10-13,Seneca,New York,36099,7121,94
-2022-10-13,Schuyler,New York,36097,4114,29
-2022-10-13,Schoharie,New York,36095,6143,39
-2022-10-13,Schenectady,New York,36093,40929,335
-2022-10-13,Saratoga,New York,36091,57686,367
-2022-10-13,Rockland,New York,36087,109645,932
-2022-10-13,Rensselaer,New York,36083,39195,287
-2022-10-13,Putnam,New York,36079,28950,135
-2022-10-13,Otsego,New York,36077,12461,98
-2022-10-13,Oswego,New York,36075,32461,213
-2022-10-13,Orleans,New York,36073,9966,122
-2022-10-13,Orange,New York,36071,127924,1000
-2022-10-13,Ontario,New York,36069,24332,197
-2022-10-13,Onondaga,New York,36067,135217,1133
-2022-10-13,Oneida,New York,36065,65074,837
-2022-10-13,Niagara,New York,36063,56432,609
-2022-10-13,New York City,New York,,2896540,42095
-2022-10-13,Nassau,New York,36059,501298,4041
-2022-10-13,Montgomery,New York,36057,14163,220
-2022-10-13,Monroe,New York,36055,180500,1726
-2022-10-13,Madison,New York,36053,15893,134
-2022-10-13,Livingston,New York,36051,13576,129
-2022-10-13,Lewis,New York,36049,6961,53
-2022-10-13,Jefferson,New York,36045,24869,146
-2022-10-13,Herkimer,New York,36043,16516,202
-2022-10-13,Hamilton,New York,36041,1017,5
-2022-10-13,Greene,New York,36039,10199,139
-2022-10-13,Genesee,New York,36037,15694,203
-2022-10-13,Fulton,New York,36035,15570,179
-2022-10-13,Franklin,New York,36033,11414,51
-2022-10-13,Essex,New York,36031,7131,67
-2022-10-13,Erie,New York,36029,254007,2770
-2022-10-13,Dutchess,New York,36027,77835,702
-2022-10-13,Delaware,New York,36025,9473,84
-2022-10-13,Cortland,New York,36023,12607,129
-2022-10-13,Columbia,New York,36021,12773,158
-2022-10-13,Clinton,New York,36019,20966,105
-2022-10-13,Chenango,New York,36017,11113,127
-2022-10-13,Chemung,New York,36015,25010,244
-2022-10-13,Chautauqua,New York,36013,27831,317
-2022-10-13,Cayuga,New York,36011,19213,167
-2022-10-13,Cattaraugus,New York,36009,18266,238
-2022-10-13,Broome,New York,36007,54804,555
-2022-10-13,Allegany,New York,36003,10228,162
-2022-10-13,Albany,New York,36001,73619,560
-2022-10-13,Valencia,New Mexico,35061,22775,299
+2022-10-13,Yates,New York,36123,4185,40
+2022-10-13,Wyoming,New York,36121,9485,88
+2022-10-13,Westchester,New York,36119,307971,2843
+2022-10-13,Wayne,New York,36117,20548,197
+2022-10-13,Washington,New York,36115,14722,128
+2022-10-13,Warren,New York,36113,17473,140
+2022-10-13,Ulster,New York,36111,39636,390
+2022-10-13,Tompkins,New York,36109,24928,95
+2022-10-13,Tioga,New York,36107,13154,88
+2022-10-13,Sullivan,New York,36105,22504,137
+2022-10-13,Suffolk,New York,36103,519205,4626
+2022-10-13,St. Lawrence,New York,36089,25053,209
+2022-10-13,Steuben,New York,36101,23798,262
+2022-10-13,Seneca,New York,36099,7127,94
+2022-10-13,Schuyler,New York,36097,4122,29
+2022-10-13,Schoharie,New York,36095,6150,39
+2022-10-13,Schenectady,New York,36093,40968,335
+2022-10-13,Saratoga,New York,36091,57761,367
+2022-10-13,Rockland,New York,36087,109709,932
+2022-10-13,Rensselaer,New York,36083,39242,288
+2022-10-13,Putnam,New York,36079,28974,135
+2022-10-13,Otsego,New York,36077,12478,98
+2022-10-13,Oswego,New York,36075,32514,213
+2022-10-13,Orleans,New York,36073,9970,122
+2022-10-13,Orange,New York,36071,128017,1001
+2022-10-13,Ontario,New York,36069,24364,197
+2022-10-13,Onondaga,New York,36067,135327,1133
+2022-10-13,Oneida,New York,36065,65142,838
+2022-10-13,Niagara,New York,36063,56488,610
+2022-10-13,New York City,New York,,2898610,42125
+2022-10-13,Nassau,New York,36059,501629,4044
+2022-10-13,Montgomery,New York,36057,14173,221
+2022-10-13,Monroe,New York,36055,180655,1726
+2022-10-13,Madison,New York,36053,15917,135
+2022-10-13,Livingston,New York,36051,13591,129
+2022-10-13,Lewis,New York,36049,6966,53
+2022-10-13,Jefferson,New York,36045,24905,146
+2022-10-13,Herkimer,New York,36043,16534,202
+2022-10-13,Hamilton,New York,36041,1018,5
+2022-10-13,Greene,New York,36039,10204,139
+2022-10-13,Genesee,New York,36037,15710,203
+2022-10-13,Fulton,New York,36035,15581,179
+2022-10-13,Franklin,New York,36033,11431,51
+2022-10-13,Essex,New York,36031,7141,67
+2022-10-13,Erie,New York,36029,254200,2773
+2022-10-13,Dutchess,New York,36027,77897,702
+2022-10-13,Delaware,New York,36025,9481,84
+2022-10-13,Cortland,New York,36023,12616,129
+2022-10-13,Columbia,New York,36021,12789,158
+2022-10-13,Clinton,New York,36019,20999,106
+2022-10-13,Chenango,New York,36017,11121,127
+2022-10-13,Chemung,New York,36015,25029,244
+2022-10-13,Chautauqua,New York,36013,27865,317
+2022-10-13,Cayuga,New York,36011,19231,167
+2022-10-13,Cattaraugus,New York,36009,18287,239
+2022-10-13,Broome,New York,36007,54866,555
+2022-10-13,Allegany,New York,36003,10235,162
+2022-10-13,Albany,New York,36001,73725,560
+2022-10-13,Valencia,New Mexico,35061,22795,299
 2022-10-13,Unknown,New Mexico,,332,0
-2022-10-13,Union,New Mexico,35059,1093,19
+2022-10-13,Union,New Mexico,35059,1095,19
 2022-10-13,Torrance,New Mexico,35057,3549,59
-2022-10-13,Taos,New Mexico,35055,6667,99
+2022-10-13,Taos,New Mexico,35055,6675,99
 2022-10-13,Socorro,New Mexico,35053,4417,96
 2022-10-13,Sierra,New Mexico,35051,2349,85
-2022-10-13,Santa Fe,New Mexico,35049,37399,353
-2022-10-13,San Miguel,New Mexico,35047,7096,74
-2022-10-13,San Juan,New Mexico,35045,47508,830
-2022-10-13,Sandoval,New Mexico,35043,41547,482
-2022-10-13,Roosevelt,New Mexico,35041,5846,109
-2022-10-13,Rio Arriba,New Mexico,35039,12279,154
+2022-10-13,Santa Fe,New Mexico,35049,37438,353
+2022-10-13,San Miguel,New Mexico,35047,7101,74
+2022-10-13,San Juan,New Mexico,35045,47535,830
+2022-10-13,Sandoval,New Mexico,35043,41550,482
+2022-10-13,Roosevelt,New Mexico,35041,5845,109
+2022-10-13,Rio Arriba,New Mexico,35039,12293,154
 2022-10-13,Quay,New Mexico,35037,2378,68
-2022-10-13,Otero,New Mexico,35035,17991,215
+2022-10-13,Otero,New Mexico,35035,17998,215
 2022-10-13,Mora,New Mexico,35033,933,20
-2022-10-13,McKinley,New Mexico,35031,30467,630
-2022-10-13,Luna,New Mexico,35029,7661,147
-2022-10-13,Los Alamos,New Mexico,35028,4229,22
-2022-10-13,Lincoln,New Mexico,35027,6188,70
+2022-10-13,McKinley,New Mexico,35031,30480,630
+2022-10-13,Luna,New Mexico,35029,7664,147
+2022-10-13,Los Alamos,New Mexico,35028,4234,22
+2022-10-13,Lincoln,New Mexico,35027,6191,70
 2022-10-13,Lea,New Mexico,35025,22536,405
 2022-10-13,Hidalgo,New Mexico,35023,1247,16
 2022-10-13,Harding,New Mexico,35021,95,4
 2022-10-13,Guadalupe,New Mexico,35019,1627,18
-2022-10-13,Grant,New Mexico,35017,8666,106
-2022-10-13,Eddy,New Mexico,35015,18646,322
-2022-10-13,Doña Ana,New Mexico,35013,72689,909
+2022-10-13,Grant,New Mexico,35017,8676,106
+2022-10-13,Eddy,New Mexico,35015,18649,322
+2022-10-13,Doña Ana,New Mexico,35013,72706,909
 2022-10-13,De Baca,New Mexico,35011,651,6
-2022-10-13,Curry,New Mexico,35009,14520,231
-2022-10-13,Colfax,New Mexico,35007,2930,68
-2022-10-13,Cibola,New Mexico,35006,9467,204
-2022-10-13,Chaves,New Mexico,35005,24157,356
-2022-10-13,Catron,New Mexico,35003,480,22
-2022-10-13,Bernalillo,New Mexico,35001,181068,2103
-2022-10-13,Warren,New Jersey,34041,29090,355
+2022-10-13,Curry,New Mexico,35009,14524,231
+2022-10-13,Colfax,New Mexico,35007,2932,68
+2022-10-13,Cibola,New Mexico,35006,9472,204
+2022-10-13,Chaves,New Mexico,35005,24160,356
+2022-10-13,Catron,New Mexico,35003,482,22
+2022-10-13,Bernalillo,New Mexico,35001,181215,2103
+2022-10-13,Warren,New Jersey,34041,29119,355
 2022-10-13,Unknown,New Jersey,,2129,0
-2022-10-13,Union,New Jersey,34039,178661,2434
-2022-10-13,Sussex,New Jersey,34037,41525,508
-2022-10-13,Somerset,New Jersey,34035,88517,1004
-2022-10-13,Salem,New Jersey,34033,17036,259
-2022-10-13,Passaic,New Jersey,34031,175033,2398
-2022-10-13,Ocean,New Jersey,34029,196178,3139
-2022-10-13,Morris,New Jersey,34027,151025,1620
-2022-10-13,Monmouth,New Jersey,34025,203413,2292
-2022-10-13,Middlesex,New Jersey,34023,249540,2943
-2022-10-13,Mercer,New Jersey,34021,100435,1308
-2022-10-13,Hunterdon,New Jersey,34019,31368,289
-2022-10-13,Hudson,New Jersey,34017,216286,2788
-2022-10-13,Gloucester,New Jersey,34015,84376,1012
-2022-10-13,Essex,New Jersey,34013,265257,3675
-2022-10-13,Cumberland,New Jersey,34011,47840,643
-2022-10-13,Cape May,New Jersey,34009,27478,323
-2022-10-13,Camden,New Jersey,34007,154554,1896
-2022-10-13,Burlington,New Jersey,34005,128845,1299
-2022-10-13,Bergen,New Jersey,34003,291142,3573
-2022-10-13,Atlantic,New Jersey,34001,83614,1051
-2022-10-13,Unknown,New Hampshire,,2100,4
-2022-10-13,Sullivan,New Hampshire,33019,10967,73
-2022-10-13,Strafford,New Hampshire,33017,34749,230
-2022-10-13,Rockingham,New Hampshire,33015,79007,593
-2022-10-13,Merrimack,New Hampshire,33013,37404,257
-2022-10-13,Hillsborough,New Hampshire,33011,113507,966
-2022-10-13,Grafton,New Hampshire,33009,21882,81
-2022-10-13,Coos,New Hampshire,33007,7945,124
-2022-10-13,Cheshire,New Hampshire,33005,17780,124
-2022-10-13,Carroll,New Hampshire,33003,11439,68
-2022-10-13,Belknap,New Hampshire,33001,16090,193
+2022-10-13,Union,New Jersey,34039,178777,2434
+2022-10-13,Sussex,New Jersey,34037,41565,508
+2022-10-13,Somerset,New Jersey,34035,88600,1004
+2022-10-13,Salem,New Jersey,34033,17046,259
+2022-10-13,Passaic,New Jersey,34031,175137,2398
+2022-10-13,Ocean,New Jersey,34029,196303,3140
+2022-10-13,Morris,New Jersey,34027,151145,1620
+2022-10-13,Monmouth,New Jersey,34025,203548,2292
+2022-10-13,Middlesex,New Jersey,34023,249736,2943
+2022-10-13,Mercer,New Jersey,34021,100519,1307
+2022-10-13,Hunterdon,New Jersey,34019,31391,289
+2022-10-13,Hudson,New Jersey,34017,216467,2788
+2022-10-13,Gloucester,New Jersey,34015,84429,1013
+2022-10-13,Essex,New Jersey,34013,265464,3677
+2022-10-13,Cumberland,New Jersey,34011,47877,643
+2022-10-13,Cape May,New Jersey,34009,27502,323
+2022-10-13,Camden,New Jersey,34007,154673,1896
+2022-10-13,Burlington,New Jersey,34005,128954,1299
+2022-10-13,Bergen,New Jersey,34003,291421,3574
+2022-10-13,Atlantic,New Jersey,34001,83670,1051
+2022-10-13,Unknown,New Hampshire,,2105,4
+2022-10-13,Sullivan,New Hampshire,33019,10980,73
+2022-10-13,Strafford,New Hampshire,33017,34768,230
+2022-10-13,Rockingham,New Hampshire,33015,79058,593
+2022-10-13,Merrimack,New Hampshire,33013,37443,257
+2022-10-13,Hillsborough,New Hampshire,33011,113590,967
+2022-10-13,Grafton,New Hampshire,33009,21895,81
+2022-10-13,Coos,New Hampshire,33007,7948,124
+2022-10-13,Cheshire,New Hampshire,33005,17797,125
+2022-10-13,Carroll,New Hampshire,33003,11455,68
+2022-10-13,Belknap,New Hampshire,33001,16100,193
 2022-10-13,White Pine,Nevada,32033,1727,23
 2022-10-13,Washoe,Nevada,32031,122903,1274
-2022-10-13,Unknown,Nevada,,8245,0
+2022-10-13,Unknown,Nevada,,8519,0
 2022-10-13,Storey,Nevada,32029,174,14
 2022-10-13,Pershing,Nevada,32027,2304,32
 2022-10-13,Nye,Nevada,32023,8674,294
@@ -1465,7 +1504,7 @@ date,county,state,fips,cases,deaths
 2022-10-13,Wayne,Nebraska,31179,2013,17
 2022-10-13,Washington,Nebraska,31177,5146,49
 2022-10-13,Valley,Nebraska,31175,807,11
-2022-10-13,Unknown,Nebraska,,7959,23
+2022-10-13,Unknown,Nebraska,,8431,24
 2022-10-13,Thurston,Nebraska,31173,1993,32
 2022-10-13,Thomas,Nebraska,31171,108,1
 2022-10-13,Thayer,Nebraska,31169,1214,13
@@ -1626,7 +1665,7 @@ date,county,state,fips,cases,deaths
 2022-10-13,St. Francois,Missouri,29187,21971,313
 2022-10-13,Ste. Genevieve,Missouri,29186,4394,40
 2022-10-13,St. Clair,Missouri,29185,2431,42
-2022-10-13,St. Charles,Missouri,29183,121283,993
+2022-10-13,St. Charles,Missouri,29183,121348,993
 2022-10-13,Shelby,Missouri,29205,1915,15
 2022-10-13,Shannon,Missouri,29203,1841,42
 2022-10-13,Scott,Missouri,29201,13037,168
@@ -1716,7 +1755,7 @@ date,county,state,fips,cases,deaths
 2022-10-13,Caldwell,Missouri,29025,1942,40
 2022-10-13,Butler,Missouri,29023,11685,177
 2022-10-13,Buchanan,Missouri,29021,27932,333
-2022-10-13,Boone,Missouri,29019,52242,275
+2022-10-13,Boone,Missouri,29019,52273,275
 2022-10-13,Bollinger,Missouri,29017,2998,44
 2022-10-13,Benton,Missouri,29015,5059,111
 2022-10-13,Bates,Missouri,29013,4136,101
@@ -1898,9 +1937,9 @@ date,county,state,fips,cases,deaths
 2022-10-13,Aitkin,Minnesota,27001,3479,63
 2022-10-13,Wexford,Michigan,26165,8221,120
 2022-10-13,Wayne,Michigan,26163,492722,8489
-2022-10-13,Washtenaw,Michigan,26161,102202,592
+2022-10-13,Washtenaw,Michigan,26161,102302,595
 2022-10-13,Van Buren,Michigan,26159,19773,300
-2022-10-13,Unknown,Michigan,,23301,93
+2022-10-13,Unknown,Michigan,,23201,90
 2022-10-13,Tuscola,Michigan,26157,14902,297
 2022-10-13,St. Joseph,Michigan,26149,15373,222
 2022-10-13,St. Clair,Michigan,26147,47120,875
@@ -1980,21 +2019,21 @@ date,county,state,fips,cases,deaths
 2022-10-13,Allegan,Michigan,26005,30849,381
 2022-10-13,Alger,Michigan,26003,2176,16
 2022-10-13,Alcona,Michigan,26001,1850,74
-2022-10-13,Worcester,Massachusetts,25027,225155,2779
-2022-10-13,Unknown,Massachusetts,,175349,27
-2022-10-13,Suffolk,Massachusetts,25025,252735,2086
-2022-10-13,Plymouth,Massachusetts,25023,134041,1781
-2022-10-13,Norfolk,Massachusetts,25021,161854,2051
-2022-10-13,Nantucket,Massachusetts,25019,3747,0
-2022-10-13,Middlesex,Massachusetts,25017,407453,4312
-2022-10-13,Hampshire,Massachusetts,25015,36675,388
-2022-10-13,Hampden,Massachusetts,25013,158631,1917
-2022-10-13,Franklin,Massachusetts,25011,13466,167
-2022-10-13,Essex,Massachusetts,25009,239911,2911
-2022-10-13,Dukes,Massachusetts,25007,4152,0
-2022-10-13,Bristol,Massachusetts,25005,171152,2278
-2022-10-13,Berkshire,Massachusetts,25003,32072,414
-2022-10-13,Barnstable,Massachusetts,25001,44491,660
+2022-10-13,Worcester,Massachusetts,25027,226019,2789
+2022-10-13,Unknown,Massachusetts,,176455,27
+2022-10-13,Suffolk,Massachusetts,25025,253470,2087
+2022-10-13,Plymouth,Massachusetts,25023,134556,1782
+2022-10-13,Norfolk,Massachusetts,25021,162609,2063
+2022-10-13,Nantucket,Massachusetts,25019,3750,0
+2022-10-13,Middlesex,Massachusetts,25017,409142,4321
+2022-10-13,Hampshire,Massachusetts,25015,36887,389
+2022-10-13,Hampden,Massachusetts,25013,159431,1931
+2022-10-13,Franklin,Massachusetts,25011,13584,167
+2022-10-13,Essex,Massachusetts,25009,240895,2924
+2022-10-13,Dukes,Massachusetts,25007,4171,0
+2022-10-13,Bristol,Massachusetts,25005,171738,2286
+2022-10-13,Berkshire,Massachusetts,25003,32315,415
+2022-10-13,Barnstable,Massachusetts,25001,44826,660
 2022-10-13,Worcester,Maryland,24047,10190,173
 2022-10-13,Wicomico,Maryland,24045,23198,346
 2022-10-13,Washington,Maryland,24043,39278,606
@@ -2180,6 +2219,7 @@ date,county,state,fips,cases,deaths
 2022-10-13,Greenup,Kentucky,21089,15257,155
 2022-10-13,Green,Kentucky,21087,4403,49
 2022-10-13,Grayson,Kentucky,21085,9363,145
+2022-10-13,Autauga,Alabama,01001,18452,228
 2022-10-13,Graves,Kentucky,21083,12834,194
 2022-10-13,Grant,Kentucky,21081,9361,69
 2022-10-13,Garrard,Kentucky,21079,5628,87
@@ -2338,7 +2378,7 @@ date,county,state,fips,cases,deaths
 2022-10-13,Warren,Iowa,19181,13909,144
 2022-10-13,Wapello,Iowa,19179,9941,214
 2022-10-13,Van Buren,Iowa,19177,1582,27
-2022-10-13,Unknown,Iowa,,1,0
+2022-10-13,Unknown,Iowa,,131,0
 2022-10-13,Union,Iowa,19175,3048,54
 2022-10-13,Taylor,Iowa,19173,1454,23
 2022-10-13,Tama,Iowa,19171,4396,96
@@ -2427,202 +2467,201 @@ date,county,state,fips,cases,deaths
 2022-10-13,Allamakee,Iowa,19005,3106,62
 2022-10-13,Adams,Iowa,19003,898,14
 2022-10-13,Adair,Iowa,19001,1755,51
-2022-10-13,Whitley,Indiana,18183,10708,86
-2022-10-13,White,Indiana,18181,7815,98
-2022-10-13,Wells,Indiana,18179,7124,137
-2022-10-13,Wayne,Indiana,18177,21877,348
-2022-10-13,Washington,Indiana,18175,6696,90
-2022-10-13,Warrick,Indiana,18173,23338,249
-2022-10-13,Warren,Indiana,18171,2281,30
-2022-10-13,Wabash,Indiana,18169,9689,163
-2022-10-13,Vigo,Indiana,18167,33023,424
-2022-10-13,Vermillion,Indiana,18165,4646,80
-2022-10-13,Vanderburgh,Indiana,18163,66374,661
-2022-10-13,Unknown,Indiana,,0,139
-2022-10-13,Union,Indiana,18161,2206,22
-2022-10-13,Tipton,Indiana,18159,3824,89
-2022-10-13,Tippecanoe,Indiana,18157,57862,429
-2022-10-13,Switzerland,Indiana,18155,2515,20
-2022-10-13,Sullivan,Indiana,18153,5993,77
-2022-10-13,St. Joseph,Indiana,18141,79984,919
-2022-10-13,Steuben,Indiana,18151,10774,122
-2022-10-13,Starke,Indiana,18149,5310,107
-2022-10-13,Spencer,Indiana,18147,5784,62
-2022-10-13,Shelby,Indiana,18145,15654,185
-2022-10-13,Scott,Indiana,18143,8949,112
-2022-10-13,Rush,Indiana,18139,5584,59
-2022-10-13,Ripley,Indiana,18137,9397,143
-2022-10-13,Randolph,Indiana,18135,6605,155
-2022-10-13,Putnam,Indiana,18133,10511,132
-2022-10-13,Pulaski,Indiana,18131,3361,87
-2022-10-13,Posey,Indiana,18129,7399,60
-2022-10-13,Porter,Indiana,18127,44508,588
-2022-10-13,Pike,Indiana,18125,4188,52
-2022-10-13,Perry,Indiana,18123,5469,72
-2022-10-13,Parke,Indiana,18121,4060,49
-2022-10-13,Owen,Indiana,18119,6577,131
-2022-10-13,Orange,Indiana,18117,5596,100
-2022-10-13,Ohio,Indiana,18115,1647,19
-2022-10-13,Noble,Indiana,18113,14748,166
-2022-10-13,Newton,Indiana,18111,2935,72
-2022-10-13,Morgan,Indiana,18109,18481,292
-2022-10-13,Montgomery,Indiana,18107,11617,167
-2022-10-13,Monroe,Indiana,18105,32689,295
-2022-10-13,Miami,Indiana,18103,10255,168
-2022-10-13,Martin,Indiana,18101,2458,28
-2022-10-13,Marshall,Indiana,18099,13359,204
-2022-10-13,Marion,Indiana,18097,254265,3108
-2022-10-13,Madison,Indiana,18095,37113,670
-2022-10-13,Lawrence,Indiana,18093,13721,273
-2022-10-13,LaPorte,Indiana,18091,29764,383
-2022-10-13,Lake,Indiana,18089,124916,1899
-2022-10-13,LaGrange,Indiana,18087,6291,105
-2022-10-13,Kosciusko,Indiana,18085,21798,245
-2022-10-13,Knox,Indiana,18083,12863,160
-2022-10-13,Johnson,Indiana,18081,47981,643
-2022-10-13,Jennings,Indiana,18079,7788,118
-2022-10-13,Jefferson,Indiana,18077,10536,169
-2022-10-13,Jay,Indiana,18075,5467,84
-2022-10-13,Jasper,Indiana,18073,10377,156
-2022-10-13,Jackson,Indiana,18071,14187,137
-2022-10-13,Huntington,Indiana,18069,13275,170
-2022-10-13,Howard,Indiana,18067,28493,466
-2022-10-13,Henry,Indiana,18065,14942,242
-2022-10-13,Hendricks,Indiana,18063,45301,583
-2022-10-13,Harrison,Indiana,18061,12333,149
-2022-10-13,Hancock,Indiana,18059,23485,275
-2022-10-13,Hamilton,Indiana,18057,92166,695
-2022-10-13,Greene,Indiana,18055,8369,144
-2022-10-13,Grant,Indiana,18053,19599,374
-2022-10-13,Gibson,Indiana,18051,13402,154
-2022-10-13,Fulton,Indiana,18049,5412,109
-2022-10-13,Franklin,Indiana,18047,4924,69
-2022-10-13,Fountain,Indiana,18045,6093,107
-2022-10-13,Floyd,Indiana,18043,22310,317
-2022-10-13,Fayette,Indiana,18041,7718,153
-2022-10-13,Elkhart,Indiana,18039,58850,757
-2022-10-13,Dubois,Indiana,18037,14004,168
-2022-10-13,Delaware,Indiana,18035,28381,466
-2022-10-13,DeKalb,Indiana,18033,12742,157
-2022-10-13,Decatur,Indiana,18031,8012,151
-2022-10-13,Dearborn,Indiana,18029,15188,146
-2022-10-13,Daviess,Indiana,18027,8412,156
-2022-10-13,Crawford,Indiana,18025,2868,41
-2022-10-13,Clinton,Indiana,18023,10200,140
-2022-10-13,Clay,Indiana,18021,7719,95
-2022-10-13,Clark,Indiana,18019,37168,414
-2022-10-13,Cass,Indiana,18017,13180,177
-2022-10-13,Carroll,Indiana,18015,4687,72
-2022-10-13,Brown,Indiana,18013,2881,63
-2022-10-13,Boone,Indiana,18011,16855,197
-2022-10-13,Blackford,Indiana,18009,3469,73
-2022-10-13,Benton,Indiana,18007,2797,24
-2022-10-13,Bartholomew,Indiana,18005,24829,259
-2022-10-13,Allen,Indiana,18003,116540,1229
-2022-10-13,Adams,Indiana,18001,8104,118
-2022-10-13,Woodford,Illinois,17203,11851,129
-2022-10-13,Winnebago,Illinois,17201,92998,897
-2022-10-13,Williamson,Illinois,17199,26821,277
-2022-10-13,Will,Illinois,17197,200760,1697
-2022-10-13,Whiteside,Illinois,17195,18351,281
-2022-10-13,White,Illinois,17193,5097,63
-2022-10-13,Wayne,Illinois,17191,6265,90
+2022-10-13,Whitley,Indiana,18183,10741,86
+2022-10-13,White,Indiana,18181,7834,98
+2022-10-13,Wells,Indiana,18179,7137,137
+2022-10-13,Wayne,Indiana,18177,21947,349
+2022-10-13,Washington,Indiana,18175,6713,90
+2022-10-13,Warrick,Indiana,18173,23388,251
+2022-10-13,Warren,Indiana,18171,2284,30
+2022-10-13,Wabash,Indiana,18169,9720,164
+2022-10-13,Vigo,Indiana,18167,33088,427
+2022-10-13,Vermillion,Indiana,18165,4652,80
+2022-10-13,Vanderburgh,Indiana,18163,66537,661
+2022-10-13,Unknown,Indiana,,0,83
+2022-10-13,Union,Indiana,18161,2214,22
+2022-10-13,Tipton,Indiana,18159,3825,89
+2022-10-13,Tippecanoe,Indiana,18157,57958,428
+2022-10-13,Switzerland,Indiana,18155,2519,20
+2022-10-13,Sullivan,Indiana,18153,6006,77
+2022-10-13,St. Joseph,Indiana,18141,80145,920
+2022-10-13,Steuben,Indiana,18151,10792,122
+2022-10-13,Starke,Indiana,18149,5328,107
+2022-10-13,Spencer,Indiana,18147,5787,62
+2022-10-13,Shelby,Indiana,18145,15694,185
+2022-10-13,Scott,Indiana,18143,8965,112
+2022-10-13,Rush,Indiana,18139,5597,59
+2022-10-13,Ripley,Indiana,18137,9413,143
+2022-10-13,Randolph,Indiana,18135,6616,155
+2022-10-13,Putnam,Indiana,18133,10529,133
+2022-10-13,Pulaski,Indiana,18131,3364,88
+2022-10-13,Posey,Indiana,18129,7409,60
+2022-10-13,Porter,Indiana,18127,44598,590
+2022-10-13,Pike,Indiana,18125,4192,52
+2022-10-13,Perry,Indiana,18123,5473,72
+2022-10-13,Parke,Indiana,18121,4064,49
+2022-10-13,Owen,Indiana,18119,6588,131
+2022-10-13,Orange,Indiana,18117,5602,100
+2022-10-13,Ohio,Indiana,18115,1651,19
+2022-10-13,Noble,Indiana,18113,14772,167
+2022-10-13,Newton,Indiana,18111,2942,73
+2022-10-13,Morgan,Indiana,18109,18501,292
+2022-10-13,Montgomery,Indiana,18107,11634,167
+2022-10-13,Monroe,Indiana,18105,32752,297
+2022-10-13,Martin,Indiana,18101,2466,28
+2022-10-13,Marshall,Indiana,18099,13390,204
+2022-10-13,Marion,Indiana,18097,254745,3115
+2022-10-13,Madison,Indiana,18095,37176,670
+2022-10-13,Lawrence,Indiana,18093,13745,275
+2022-10-13,LaPorte,Indiana,18091,29820,383
+2022-10-13,Lake,Indiana,18089,125250,1906
+2022-10-13,LaGrange,Indiana,18087,6309,105
+2022-10-13,Kosciusko,Indiana,18085,21868,245
+2022-10-13,Knox,Indiana,18083,12922,160
+2022-10-13,Johnson,Indiana,18081,48166,644
+2022-10-13,Jennings,Indiana,18079,7810,119
+2022-10-13,Jefferson,Indiana,18077,10556,172
+2022-10-13,Jay,Indiana,18075,5490,84
+2022-10-13,Jasper,Indiana,18073,10417,156
+2022-10-13,Jackson,Indiana,18071,14213,137
+2022-10-13,Huntington,Indiana,18069,13338,171
+2022-10-13,Howard,Indiana,18067,28547,467
+2022-10-13,Henry,Indiana,18065,14991,243
+2022-10-13,Hendricks,Indiana,18063,45362,585
+2022-10-13,Harrison,Indiana,18061,12375,149
+2022-10-13,Hancock,Indiana,18059,23577,277
+2022-10-13,Hamilton,Indiana,18057,92340,697
+2022-10-13,Greene,Indiana,18055,8390,144
+2022-10-13,Grant,Indiana,18053,19642,374
+2022-10-13,Gibson,Indiana,18051,13448,154
+2022-10-13,Fulton,Indiana,18049,5422,109
+2022-10-13,Franklin,Indiana,18047,4932,69
+2022-10-13,Fountain,Indiana,18045,6110,107
+2022-10-13,Floyd,Indiana,18043,22382,318
+2022-10-13,Fayette,Indiana,18041,7736,154
+2022-10-13,Elkhart,Indiana,18039,58957,757
+2022-10-13,Dubois,Indiana,18037,14022,168
+2022-10-13,Delaware,Indiana,18035,28441,470
+2022-10-13,DeKalb,Indiana,18033,12775,157
+2022-10-13,Decatur,Indiana,18031,8063,151
+2022-10-13,Dearborn,Indiana,18029,15230,147
+2022-10-13,Daviess,Indiana,18027,8429,156
+2022-10-13,Crawford,Indiana,18025,2873,41
+2022-10-13,Clinton,Indiana,18023,10220,140
+2022-10-13,Clay,Indiana,18021,7737,95
+2022-10-13,Clark,Indiana,18019,37303,415
+2022-10-13,Cass,Indiana,18017,13210,177
+2022-10-13,Carroll,Indiana,18015,4695,72
+2022-10-13,Brown,Indiana,18013,2886,63
+2022-10-13,Boone,Indiana,18011,16882,197
+2022-10-13,Blackford,Indiana,18009,3475,73
+2022-10-13,Benton,Indiana,18007,2802,24
+2022-10-13,Bartholomew,Indiana,18005,24894,259
+2022-10-13,Allen,Indiana,18003,116831,1232
+2022-10-13,Adams,Indiana,18001,8117,118
+2022-10-13,Woodford,Illinois,17203,11856,129
+2022-10-13,Winnebago,Illinois,17201,93087,897
+2022-10-13,Williamson,Illinois,17199,26836,277
+2022-10-13,Will,Illinois,17197,200889,1698
+2022-10-13,Whiteside,Illinois,17195,18366,281
+2022-10-13,White,Illinois,17193,5099,63
+2022-10-13,Wayne,Illinois,17191,6266,90
 2022-10-13,Washington,Illinois,17189,3884,42
-2022-10-13,Warren,Illinois,17187,4705,90
-2022-10-13,Wabash,Illinois,17185,4427,32
-2022-10-13,Vermilion,Illinois,17183,32681,323
-2022-10-13,Unknown,Illinois,,0,2702
-2022-10-13,Union,Illinois,17181,6382,71
-2022-10-13,Tazewell,Illinois,17179,42912,524
-2022-10-13,Stephenson,Illinois,17177,13771,192
+2022-10-13,Warren,Illinois,17187,4709,90
+2022-10-13,Wabash,Illinois,17185,4430,32
+2022-10-13,Vermilion,Illinois,17183,32691,323
+2022-10-13,Unknown,Illinois,,0,2704
+2022-10-13,Union,Illinois,17181,6383,71
+2022-10-13,Tazewell,Illinois,17179,42932,524
+2022-10-13,Stephenson,Illinois,17177,13805,192
 2022-10-13,St. Clair,Illinois,17163,82626,812
-2022-10-13,Stark,Illinois,17175,1744,39
-2022-10-13,Shelby,Illinois,17173,7082,83
-2022-10-13,Scott,Illinois,17171,1441,14
+2022-10-13,Stark,Illinois,17175,1747,39
+2022-10-13,Shelby,Illinois,17173,7085,83
+2022-10-13,Scott,Illinois,17171,1443,14
 2022-10-13,Schuyler,Illinois,17169,2339,29
-2022-10-13,Sangamon,Illinois,17167,69736,463
-2022-10-13,Saline,Illinois,17165,9618,118
-2022-10-13,Rock Island,Illinois,17161,39673,545
-2022-10-13,Richland,Illinois,17159,5898,86
-2022-10-13,Randolph,Illinois,17157,12033,138
-2022-10-13,Putnam,Illinois,17155,1332,11
+2022-10-13,Sangamon,Illinois,17167,69793,463
+2022-10-13,Saline,Illinois,17165,9622,119
+2022-10-13,Rock Island,Illinois,17161,39705,545
+2022-10-13,Richland,Illinois,17159,5899,86
+2022-10-13,Randolph,Illinois,17157,12039,138
+2022-10-13,Putnam,Illinois,17155,1333,11
 2022-10-13,Pulaski,Illinois,17153,1956,24
 2022-10-13,Pope,Illinois,17151,1142,9
-2022-10-13,Pike,Illinois,17149,5708,73
-2022-10-13,Piatt,Illinois,17147,5144,29
-2022-10-13,Perry,Illinois,17145,8581,107
-2022-10-13,Peoria,Illinois,17143,55514,560
-2022-10-13,Ogle,Illinois,17141,16261,139
-2022-10-13,Moultrie,Illinois,17139,4653,58
-2022-10-13,Morgan,Illinois,17137,11422,153
-2022-10-13,Montgomery,Illinois,17135,11306,115
-2022-10-13,Monroe,Illinois,17133,10740,133
-2022-10-13,Mercer,Illinois,17131,4677,51
-2022-10-13,Menard,Illinois,17129,4176,29
-2022-10-13,McLean,Illinois,17113,60321,351
-2022-10-13,McHenry,Illinois,17111,91529,526
-2022-10-13,McDonough,Illinois,17109,8498,116
-2022-10-13,Massac,Illinois,17127,4393,74
+2022-10-13,Pike,Illinois,17149,5714,73
+2022-10-13,Piatt,Illinois,17147,5146,29
+2022-10-13,Perry,Illinois,17145,8582,107
+2022-10-13,Peoria,Illinois,17143,55558,560
+2022-10-13,Ogle,Illinois,17141,16273,139
+2022-10-13,Moultrie,Illinois,17139,4655,58
+2022-10-13,Morgan,Illinois,17137,11433,153
+2022-10-13,Montgomery,Illinois,17135,11312,115
+2022-10-13,Monroe,Illinois,17133,10745,133
+2022-10-13,Mercer,Illinois,17131,4682,51
+2022-10-13,Menard,Illinois,17129,4185,29
+2022-10-13,McLean,Illinois,17113,60353,352
+2022-10-13,McHenry,Illinois,17111,91583,528
+2022-10-13,McDonough,Illinois,17109,8508,116
+2022-10-13,Massac,Illinois,17127,4396,74
 2022-10-13,Mason,Illinois,17125,4503,66
-2022-10-13,Marshall,Illinois,17123,3246,35
-2022-10-13,Marion,Illinois,17121,13748,224
-2022-10-13,Madison,Illinois,17119,82460,895
-2022-10-13,Macoupin,Illinois,17117,14921,173
-2022-10-13,Macon,Illinois,17115,36759,369
-2022-10-13,Logan,Illinois,17107,11501,107
-2022-10-13,Livingston,Illinois,17105,12330,151
-2022-10-13,Lee,Illinois,17103,10614,123
+2022-10-13,Marshall,Illinois,17123,3248,35
+2022-10-13,Marion,Illinois,17121,13751,225
+2022-10-13,Madison,Illinois,17119,82487,896
+2022-10-13,Macoupin,Illinois,17117,14934,174
+2022-10-13,Macon,Illinois,17115,36789,369
+2022-10-13,Logan,Illinois,17107,11504,108
+2022-10-13,Livingston,Illinois,17105,12331,151
+2022-10-13,Lee,Illinois,17103,10622,123
 2022-10-13,Lawrence,Illinois,17101,6366,54
-2022-10-13,LaSalle,Illinois,17099,34428,456
-2022-10-13,Lake,Illinois,17097,193456,1547
-2022-10-13,Knox,Illinois,17095,14932,258
-2022-10-13,Kendall,Illinois,17093,38835,175
-2022-10-13,Kankakee,Illinois,17091,33883,386
-2022-10-13,Kane,Illinois,17089,154593,1224
-2022-10-13,Johnson,Illinois,17087,5261,48
-2022-10-13,Jo Daviess,Illinois,17085,4775,45
-2022-10-13,Jersey,Illinois,17083,7371,95
-2022-10-13,Jefferson,Illinois,17081,12713,181
-2022-10-13,Jasper,Illinois,17079,3049,34
-2022-10-13,Jackson,Illinois,17077,18967,140
-2022-10-13,Iroquois,Illinois,17075,8288,128
-2022-10-13,Henry,Illinois,17073,14844,154
+2022-10-13,LaSalle,Illinois,17099,34443,456
+2022-10-13,Lake,Illinois,17097,193594,1547
+2022-10-13,Knox,Illinois,17095,14941,258
+2022-10-13,Kendall,Illinois,17093,38861,175
+2022-10-13,Kankakee,Illinois,17091,33906,386
+2022-10-13,Kane,Illinois,17089,154706,1224
+2022-10-13,Johnson,Illinois,17087,5262,48
+2022-10-13,Jo Daviess,Illinois,17085,4778,45
+2022-10-13,Jersey,Illinois,17083,7377,95
+2022-10-13,Jefferson,Illinois,17081,12720,181
+2022-10-13,Jasper,Illinois,17079,3050,34
+2022-10-13,Jackson,Illinois,17077,18980,140
+2022-10-13,Iroquois,Illinois,17075,8293,128
+2022-10-13,Henry,Illinois,17073,14849,154
 2022-10-13,Henderson,Illinois,17071,1425,28
-2022-10-13,Hardin,Illinois,17069,1339,20
-2022-10-13,Hancock,Illinois,17067,5029,60
-2022-10-13,Hamilton,Illinois,17065,2480,35
-2022-10-13,Grundy,Illinois,17063,15021,148
-2022-10-13,Greene,Illinois,17061,4066,60
-2022-10-13,Gallatin,Illinois,17059,1728,21
-2022-10-13,Fulton,Illinois,17057,11975,141
-2022-10-13,Franklin,Illinois,17055,14413,187
+2022-10-13,Hardin,Illinois,17069,1340,20
+2022-10-13,Hancock,Illinois,17067,5031,60
+2022-10-13,Hamilton,Illinois,17065,2481,35
+2022-10-13,Grundy,Illinois,17063,15031,148
+2022-10-13,Greene,Illinois,17061,4070,60
+2022-10-13,Gallatin,Illinois,17059,1730,21
+2022-10-13,Fulton,Illinois,17057,11983,141
+2022-10-13,Franklin,Illinois,17055,14418,188
 2022-10-13,Ford,Illinois,17053,5136,77
-2022-10-13,Fayette,Illinois,17051,8168,104
-2022-10-13,Effingham,Illinois,17049,12143,154
-2022-10-13,Edwards,Illinois,17047,2015,29
-2022-10-13,Edgar,Illinois,17045,6097,80
-2022-10-13,DuPage,Illinois,17043,267840,1877
-2022-10-13,Douglas,Illinois,17041,7504,65
+2022-10-13,Fayette,Illinois,17051,8169,104
+2022-10-13,Effingham,Illinois,17049,12147,154
+2022-10-13,Edwards,Illinois,17047,2017,29
+2022-10-13,Edgar,Illinois,17045,6102,80
+2022-10-13,DuPage,Illinois,17043,268076,1878
+2022-10-13,Douglas,Illinois,17041,7507,65
 2022-10-13,De Witt,Illinois,17039,4934,48
-2022-10-13,DeKalb,Illinois,17037,29691,209
-2022-10-13,Cumberland,Illinois,17035,3805,51
-2022-10-13,Crawford,Illinois,17033,7393,63
-2022-10-13,Cook,Illinois,17031,1414255,15385
-2022-10-13,Coles,Illinois,17029,17858,184
-2022-10-13,Clinton,Illinois,17027,13479,124
-2022-10-13,Clay,Illinois,17025,5566,78
-2022-10-13,Clark,Illinois,17023,5582,61
-2022-10-13,Christian,Illinois,17021,12012,133
-2022-10-13,Champaign,Illinois,17019,80458,313
-2022-10-13,Cass,Illinois,17017,5276,46
-2022-10-13,Carroll,Illinois,17015,4821,52
-2022-10-13,Calhoun,Illinois,17013,1778,8
-2022-10-13,Bureau,Illinois,17011,9587,142
-2022-10-13,Brown,Illinois,17009,2681,23
-2022-10-13,Boone,Illinois,17007,16423,133
-2022-10-13,Bond,Illinois,17005,4956,37
-2022-10-13,Alexander,Illinois,17003,1504,16
-2022-10-13,Adams,Illinois,17001,25957,247
+2022-10-13,DeKalb,Illinois,17037,29714,209
+2022-10-13,Cumberland,Illinois,17035,3806,51
+2022-10-13,Crawford,Illinois,17033,7396,63
+2022-10-13,Cook,Illinois,17031,1414976,15393
+2022-10-13,Coles,Illinois,17029,17861,184
+2022-10-13,Clinton,Illinois,17027,13482,124
+2022-10-13,Clay,Illinois,17025,5568,78
+2022-10-13,Clark,Illinois,17023,5583,61
+2022-10-13,Christian,Illinois,17021,12019,133
+2022-10-13,Champaign,Illinois,17019,80498,313
+2022-10-13,Cass,Illinois,17017,5280,46
+2022-10-13,Carroll,Illinois,17015,4823,52
+2022-10-13,Calhoun,Illinois,17013,1779,8
+2022-10-13,Bureau,Illinois,17011,9595,142
+2022-10-13,Brown,Illinois,17009,2682,23
+2022-10-13,Boone,Illinois,17007,16432,133
+2022-10-13,Bond,Illinois,17005,4959,37
+2022-10-13,Alexander,Illinois,17003,1503,16
+2022-10-13,Adams,Illinois,17001,25968,247
 2022-10-13,Washington,Idaho,16087,2553,59
 2022-10-13,Valley,Idaho,16085,2998,17
 2022-10-13,Twin Falls,Idaho,16083,27302,307
@@ -2632,7 +2671,7 @@ date,county,state,fips,cases,deaths
 2022-10-13,Payette,Idaho,16075,6333,90
 2022-10-13,Owyhee,Idaho,16073,2509,53
 2022-10-13,Oneida,Idaho,16071,910,11
-2022-10-13,Nez Perce,Idaho,16069,10009,156
+2022-10-13,Nez Perce,Idaho,16069,10040,156
 2022-10-13,Minidoka,Idaho,16067,4637,66
 2022-10-13,Madison,Idaho,16065,13440,55
 2022-10-13,Lincoln,Idaho,16063,1215,15
@@ -2642,7 +2681,7 @@ date,county,state,fips,cases,deaths
 2022-10-13,Kootenai,Idaho,16055,45505,633
 2022-10-13,Jerome,Idaho,16053,6840,67
 2022-10-13,Jefferson,Idaho,16051,6548,66
-2022-10-13,Idaho,Idaho,16049,3431,57
+2022-10-13,Idaho,Idaho,16049,3436,57
 2022-10-13,Gooding,Idaho,16047,3734,59
 2022-10-13,Gem,Idaho,16045,4056,83
 2022-10-13,Fremont,Idaho,16043,2335,30
@@ -2652,7 +2691,7 @@ date,county,state,fips,cases,deaths
 2022-10-13,Clearwater,Idaho,16035,2527,36
 2022-10-13,Clark,Idaho,16033,115,1
 2022-10-13,Cassia,Idaho,16031,5368,55
-2022-10-13,Caribou,Idaho,16029,1610,36
+2022-10-13,Caribou,Idaho,16029,1611,36
 2022-10-13,Canyon,Idaho,16027,67636,712
 2022-10-13,Camas,Idaho,16025,170,2
 2022-10-13,Butte,Idaho,16023,528,12
@@ -2661,7 +2700,7 @@ date,county,state,fips,cases,deaths
 2022-10-13,Bonner,Idaho,16017,9904,193
 2022-10-13,Boise,Idaho,16015,1259,14
 2022-10-13,Blaine,Idaho,16013,6912,32
-2022-10-13,Bingham,Idaho,16011,10754,168
+2022-10-13,Bingham,Idaho,16011,10760,168
 2022-10-13,Benewah,Idaho,16009,2669,42
 2022-10-13,Bear Lake,Idaho,16007,1067,17
 2022-10-13,Bannock,Idaho,16005,23420,266
@@ -2838,7 +2877,7 @@ date,county,state,fips,cases,deaths
 2022-10-13,Walton,Florida,12131,18875,223
 2022-10-13,Wakulla,Florida,12129,11592,138
 2022-10-13,Volusia,Florida,12127,142429,2178
-2022-10-13,Unknown,Florida,,6969,668
+2022-10-13,Unknown,Florida,,8579,726
 2022-10-13,Union,Florida,12125,4900,122
 2022-10-13,Taylor,Florida,12123,7799,111
 2022-10-13,Suwannee,Florida,12121,15066,340
@@ -2902,83 +2941,83 @@ date,county,state,fips,cases,deaths
 2022-10-13,Bay,Florida,12005,52812,857
 2022-10-13,Baker,Florida,12003,10112,149
 2022-10-13,Alachua,Florida,12001,84134,748
-2022-10-13,District of Columbia,District of Columbia,11001,168760,1392
-2022-10-13,Unknown,Delaware,,1191,0
-2022-10-13,Sussex,Delaware,10005,72523,911
-2022-10-13,New Castle,Delaware,10003,176544,1510
-2022-10-13,Kent,Delaware,10001,60441,700
-2022-10-13,Windham,Connecticut,09015,29698,322
+2022-10-13,District of Columbia,District of Columbia,11001,168796,1392
+2022-10-13,Unknown,Delaware,,1193,0
+2022-10-13,Sussex,Delaware,10005,72544,911
+2022-10-13,New Castle,Delaware,10003,176622,1510
+2022-10-13,Kent,Delaware,10001,60460,700
+2022-10-13,Windham,Connecticut,09015,29716,322
 2022-10-13,Unknown,Connecticut,,2943,8
-2022-10-13,Tolland,Connecticut,09013,25731,298
-2022-10-13,New London,Connecticut,09011,68433,723
-2022-10-13,New Haven,Connecticut,09009,237982,2963
-2022-10-13,Middlesex,Connecticut,09007,35903,501
-2022-10-13,Litchfield,Connecticut,09005,38480,482
-2022-10-13,Hartford,Connecticut,09003,218986,3281
-2022-10-13,Fairfield,Connecticut,09001,245532,2824
+2022-10-13,Tolland,Connecticut,09013,25769,298
+2022-10-13,New London,Connecticut,09011,68479,723
+2022-10-13,New Haven,Connecticut,09009,238138,2963
+2022-10-13,Middlesex,Connecticut,09007,35935,501
+2022-10-13,Litchfield,Connecticut,09005,38512,482
+2022-10-13,Hartford,Connecticut,09003,219110,3281
+2022-10-13,Fairfield,Connecticut,09001,245656,2824
 2022-10-13,Yuma,Colorado,08125,2193,27
-2022-10-13,Weld,Colorado,08123,100059,742
+2022-10-13,Weld,Colorado,08123,100059,743
 2022-10-13,Washington,Colorado,08121,1177,32
-2022-10-13,Teller,Colorado,08119,5680,61
-2022-10-13,Summit,Colorado,08117,11581,15
+2022-10-13,Teller,Colorado,08119,5684,61
+2022-10-13,Summit,Colorado,08117,11584,15
 2022-10-13,Sedgwick,Colorado,08115,537,10
 2022-10-13,San Miguel,Colorado,08113,2606,8
 2022-10-13,San Juan,Colorado,08111,304,0
 2022-10-13,Saguache,Colorado,08109,1422,12
-2022-10-13,Routt,Colorado,08107,7500,33
-2022-10-13,Rio Grande,Colorado,08105,3389,46
+2022-10-13,Routt,Colorado,08107,7503,33
+2022-10-13,Rio Grande,Colorado,08105,3395,46
 2022-10-13,Rio Blanco,Colorado,08103,2050,14
-2022-10-13,Pueblo,Colorado,08101,57057,842
+2022-10-13,Pueblo,Colorado,08101,57090,842
 2022-10-13,Prowers,Colorado,08099,2954,51
-2022-10-13,Pitkin,Colorado,08097,7839,8
+2022-10-13,Pitkin,Colorado,08097,7844,8
 2022-10-13,Phillips,Colorado,08095,1017,19
-2022-10-13,Park,Colorado,08093,3348,22
+2022-10-13,Park,Colorado,08093,3349,22
 2022-10-13,Ouray,Colorado,08091,1060,6
-2022-10-13,Otero,Colorado,08089,4966,133
-2022-10-13,Morgan,Colorado,08087,6497,140
+2022-10-13,Otero,Colorado,08089,4968,133
+2022-10-13,Morgan,Colorado,08087,6498,140
 2022-10-13,Montrose,Colorado,08085,10639,174
-2022-10-13,Montezuma,Colorado,08083,7046,84
-2022-10-13,Moffat,Colorado,08081,3453,55
+2022-10-13,Montezuma,Colorado,08083,7051,85
+2022-10-13,Moffat,Colorado,08081,3454,55
 2022-10-13,Mineral,Colorado,08079,291,3
-2022-10-13,Mesa,Colorado,08077,48236,602
-2022-10-13,Logan,Colorado,08075,8193,115
+2022-10-13,Mesa,Colorado,08077,48263,602
+2022-10-13,Logan,Colorado,08075,8194,115
 2022-10-13,Lincoln,Colorado,08073,2347,11
-2022-10-13,Las Animas,Colorado,08071,4045,47
-2022-10-13,Larimer,Colorado,08069,100862,555
-2022-10-13,La Plata,Colorado,08067,14957,91
-2022-10-13,Lake,Colorado,08065,2120,2
+2022-10-13,Las Animas,Colorado,08071,4050,47
+2022-10-13,Larimer,Colorado,08069,100928,556
+2022-10-13,La Plata,Colorado,08067,14975,91
+2022-10-13,Lake,Colorado,08065,2123,2
 2022-10-13,Kit Carson,Colorado,08063,1807,33
 2022-10-13,Kiowa,Colorado,08061,362,6
-2022-10-13,Jefferson,Colorado,08059,152188,1449
+2022-10-13,Jefferson,Colorado,08059,152278,1450
 2022-10-13,Jackson,Colorado,08057,192,0
-2022-10-13,Huerfano,Colorado,08055,1671,38
+2022-10-13,Huerfano,Colorado,08055,1672,38
 2022-10-13,Hinsdale,Colorado,08053,153,0
 2022-10-13,Gunnison,Colorado,08051,3823,15
-2022-10-13,Grand,Colorado,08049,3878,30
-2022-10-13,Gilpin,Colorado,08047,1136,6
-2022-10-13,Garfield,Colorado,08045,17183,102
-2022-10-13,Fremont,Colorado,08043,17495,201
-2022-10-13,El Paso,Colorado,08041,222980,1802
-2022-10-13,Elbert,Colorado,08039,5555,45
-2022-10-13,Eagle,Colorado,08037,18097,37
+2022-10-13,Grand,Colorado,08049,3881,30
+2022-10-13,Gilpin,Colorado,08047,1137,6
+2022-10-13,Garfield,Colorado,08045,17194,102
+2022-10-13,Fremont,Colorado,08043,17506,201
+2022-10-13,El Paso,Colorado,08041,223116,1804
+2022-10-13,Elbert,Colorado,08039,5562,45
+2022-10-13,Eagle,Colorado,08037,18102,37
 2022-10-13,Douglas,Colorado,08035,97414,506
-2022-10-13,Dolores,Colorado,08033,396,8
-2022-10-13,Denver,Colorado,08031,211901,1440
-2022-10-13,Delta,Colorado,08029,6832,149
+2022-10-13,Dolores,Colorado,08033,397,8
+2022-10-13,Denver,Colorado,08031,211992,1441
+2022-10-13,Delta,Colorado,08029,6835,149
 2022-10-13,Custer,Colorado,08027,780,22
-2022-10-13,Crowley,Colorado,08025,3475,31
-2022-10-13,Costilla,Colorado,08023,883,19
-2022-10-13,Conejos,Colorado,08021,2152,57
+2022-10-13,Crowley,Colorado,08025,3476,31
+2022-10-13,Costilla,Colorado,08023,884,19
+2022-10-13,Conejos,Colorado,08021,2155,57
 2022-10-13,Clear Creek,Colorado,08019,1853,13
 2022-10-13,Cheyenne,Colorado,08017,362,11
-2022-10-13,Chaffee,Colorado,08015,5459,56
-2022-10-13,Broomfield,Colorado,08014,17218,123
+2022-10-13,Chaffee,Colorado,08015,5462,56
+2022-10-13,Broomfield,Colorado,08014,17231,123
 2022-10-13,Boulder,Colorado,08013,85811,406
 2022-10-13,Bent,Colorado,08011,2822,49
-2022-10-13,Baca,Colorado,08009,986,15
-2022-10-13,Archuleta,Colorado,08007,3349,18
+2022-10-13,Baca,Colorado,08009,987,15
+2022-10-13,Archuleta,Colorado,08007,3351,19
 2022-10-13,Arapahoe,Colorado,08005,189615,1386
-2022-10-13,Alamosa,Colorado,08003,5451,63
+2022-10-13,Alamosa,Colorado,08003,5456,63
 2022-10-13,Adams,Colorado,08001,160465,1462
 2022-10-13,Yuba,California,06115,20659,129
 2022-10-13,Yolo,California,06113,51935,343
@@ -3008,7 +3047,7 @@ date,county,state,fips,cases,deaths
 2022-10-13,Riverside,California,06065,731799,6561
 2022-10-13,Plumas,California,06063,4114,13
 2022-10-13,Placer,California,06061,85423,660
-2022-10-13,Orange,California,06059,730956,7473
+2022-10-13,Orange,California,06059,730956,7488
 2022-10-13,Nevada,California,06057,20889,132
 2022-10-13,Napa,California,06055,33758,161
 2022-10-13,Monterey,California,06053,115283,788
@@ -3019,7 +3058,7 @@ date,county,state,fips,cases,deaths
 2022-10-13,Mariposa,California,06043,4187,39
 2022-10-13,Marin,California,06041,50712,315
 2022-10-13,Madera,California,06039,52357,375
-2022-10-13,Los Angeles,California,06037,3468856,33785
+2022-10-13,Los Angeles,California,06037,3470367,33797
 2022-10-13,Lassen,California,06035,11414,69
 2022-10-13,Lake,California,06033,14023,146
 2022-10-13,Kings,California,06031,63655,459
@@ -3038,82 +3077,82 @@ date,county,state,fips,cases,deaths
 2022-10-13,Amador,California,06005,10941,93
 2022-10-13,Alpine,California,06003,136,0
 2022-10-13,Alameda,California,06001,368334,2031
-2022-10-13,Yell,Arkansas,05149,7379,111
-2022-10-13,Woodruff,Arkansas,05147,2143,32
-2022-10-13,White,Arkansas,05145,25613,323
-2022-10-13,Washington,Arkansas,05143,76927,674
-2022-10-13,Van Buren,Arkansas,05141,4024,65
-2022-10-13,Unknown,Arkansas,,31387,0
-2022-10-13,Union,Arkansas,05139,10771,192
-2022-10-13,Stone,Arkansas,05137,3431,72
-2022-10-13,St. Francis,Arkansas,05123,8209,104
-2022-10-13,Sharp,Arkansas,05135,5442,116
-2022-10-13,Sevier,Arkansas,05133,6820,80
-2022-10-13,Sebastian,Arkansas,05131,37467,561
-2022-10-13,Searcy,Arkansas,05129,2386,52
-2022-10-13,Scott,Arkansas,05127,2728,45
-2022-10-13,Saline,Arkansas,05125,35124,369
-2022-10-13,Randolph,Arkansas,05121,6014,99
-2022-10-13,Pulaski,Arkansas,05119,121467,1275
-2022-10-13,Prairie,Arkansas,05117,2289,46
-2022-10-13,Pope,Arkansas,05115,20308,222
-2022-10-13,Polk,Arkansas,05113,4504,155
-2022-10-13,Poinsett,Arkansas,05111,9358,135
+2022-10-13,Yell,Arkansas,05149,7380,111
+2022-10-13,Woodruff,Arkansas,05147,2146,32
+2022-10-13,White,Arkansas,05145,25623,323
+2022-10-13,Washington,Arkansas,05143,76943,675
+2022-10-13,Van Buren,Arkansas,05141,4025,65
+2022-10-13,Unknown,Arkansas,,31394,0
+2022-10-13,Union,Arkansas,05139,10782,192
+2022-10-13,Stone,Arkansas,05137,3436,72
+2022-10-13,St. Francis,Arkansas,05123,8215,104
+2022-10-13,Sharp,Arkansas,05135,5443,116
+2022-10-13,Sevier,Arkansas,05133,6821,80
+2022-10-13,Sebastian,Arkansas,05131,37483,561
+2022-10-13,Searcy,Arkansas,05129,2388,52
+2022-10-13,Scott,Arkansas,05127,2729,45
+2022-10-13,Saline,Arkansas,05125,35139,370
+2022-10-13,Randolph,Arkansas,05121,6017,99
+2022-10-13,Pulaski,Arkansas,05119,121522,1276
+2022-10-13,Prairie,Arkansas,05117,2291,46
+2022-10-13,Pope,Arkansas,05115,20311,222
+2022-10-13,Polk,Arkansas,05113,4507,156
+2022-10-13,Poinsett,Arkansas,05111,9363,135
 2022-10-13,Pike,Arkansas,05109,2808,47
-2022-10-13,Phillips,Arkansas,05107,5442,102
-2022-10-13,Perry,Arkansas,05105,2862,40
-2022-10-13,Ouachita,Arkansas,05103,6404,119
+2022-10-13,Phillips,Arkansas,05107,5445,102
+2022-10-13,Perry,Arkansas,05105,2863,40
+2022-10-13,Ouachita,Arkansas,05103,6410,119
 2022-10-13,Newton,Arkansas,05101,1937,51
-2022-10-13,Nevada,Arkansas,05099,2584,46
+2022-10-13,Nevada,Arkansas,05099,2585,46
 2022-10-13,Montgomery,Arkansas,05097,1718,63
 2022-10-13,Monroe,Arkansas,05095,2207,37
-2022-10-13,Mississippi,Arkansas,05093,15452,222
+2022-10-13,Mississippi,Arkansas,05093,15469,225
 2022-10-13,Miller,Arkansas,05091,11033,190
-2022-10-13,Marion,Arkansas,05089,3899,93
-2022-10-13,Madison,Arkansas,05087,4556,65
-2022-10-13,Lonoke,Arkansas,05085,22847,263
-2022-10-13,Logan,Arkansas,05083,5763,83
-2022-10-13,Little River,Arkansas,05081,3697,107
+2022-10-13,Marion,Arkansas,05089,3900,93
+2022-10-13,Madison,Arkansas,05087,4557,65
+2022-10-13,Lonoke,Arkansas,05085,22857,264
+2022-10-13,Logan,Arkansas,05083,5767,83
+2022-10-13,Little River,Arkansas,05081,3699,107
 2022-10-13,Lincoln,Arkansas,05079,5271,70
-2022-10-13,Lee,Arkansas,05077,3245,66
-2022-10-13,Lawrence,Arkansas,05075,6130,86
+2022-10-13,Lee,Arkansas,05077,3249,66
+2022-10-13,Lawrence,Arkansas,05075,6136,86
 2022-10-13,Lafayette,Arkansas,05073,1445,30
 2022-10-13,Johnson,Arkansas,05071,7761,93
-2022-10-13,Jefferson,Arkansas,05069,21452,304
-2022-10-13,Jackson,Arkansas,05067,6913,71
-2022-10-13,Izard,Arkansas,05065,4457,77
-2022-10-13,Independence,Arkansas,05063,12140,222
+2022-10-13,Jefferson,Arkansas,05069,21456,304
+2022-10-13,Jackson,Arkansas,05067,6915,71
+2022-10-13,Izard,Arkansas,05065,4462,77
+2022-10-13,Independence,Arkansas,05063,12146,223
 2022-10-13,Howard,Arkansas,05061,4404,56
-2022-10-13,Hot Spring,Arkansas,05059,12574,154
-2022-10-13,Hempstead,Arkansas,05057,5342,77
-2022-10-13,Greene,Arkansas,05055,18350,188
-2022-10-13,Grant,Arkansas,05053,4996,63
-2022-10-13,Garland,Arkansas,05051,26011,545
-2022-10-13,Fulton,Arkansas,05049,2988,97
-2022-10-13,Franklin,Arkansas,05047,4260,77
-2022-10-13,Faulkner,Arkansas,05045,40742,342
-2022-10-13,Drew,Arkansas,05043,5324,76
-2022-10-13,Desha,Arkansas,05041,3500,43
-2022-10-13,Dallas,Arkansas,05039,1991,38
-2022-10-13,Cross,Arkansas,05037,5489,95
-2022-10-13,Crittenden,Arkansas,05035,15920,236
-2022-10-13,Crawford,Arkansas,05033,17879,272
-2022-10-13,Craighead,Arkansas,05031,43918,360
-2022-10-13,Conway,Arkansas,05029,6116,73
+2022-10-13,Hot Spring,Arkansas,05059,12581,154
+2022-10-13,Hempstead,Arkansas,05057,5344,77
+2022-10-13,Greene,Arkansas,05055,18358,188
+2022-10-13,Grant,Arkansas,05053,4997,64
+2022-10-13,Garland,Arkansas,05051,26019,545
+2022-10-13,Fulton,Arkansas,05049,2989,97
+2022-10-13,Franklin,Arkansas,05047,4261,77
+2022-10-13,Faulkner,Arkansas,05045,40765,343
+2022-10-13,Drew,Arkansas,05043,5324,77
+2022-10-13,Desha,Arkansas,05041,3501,43
+2022-10-13,Dallas,Arkansas,05039,1993,38
+2022-10-13,Cross,Arkansas,05037,5492,95
+2022-10-13,Crittenden,Arkansas,05035,15925,236
+2022-10-13,Crawford,Arkansas,05033,17890,272
+2022-10-13,Craighead,Arkansas,05031,43939,360
+2022-10-13,Conway,Arkansas,05029,6118,73
 2022-10-13,Columbia,Arkansas,05027,6320,101
 2022-10-13,Cleveland,Arkansas,05025,2561,40
-2022-10-13,Cleburne,Arkansas,05023,7571,139
-2022-10-13,Clay,Arkansas,05021,4732,98
-2022-10-13,Clark,Arkansas,05019,6126,88
+2022-10-13,Cleburne,Arkansas,05023,7576,139
+2022-10-13,Clay,Arkansas,05021,4733,98
+2022-10-13,Clark,Arkansas,05019,6129,89
 2022-10-13,Chicot,Arkansas,05017,3032,61
-2022-10-13,Carroll,Arkansas,05015,6962,117
+2022-10-13,Carroll,Arkansas,05015,6965,117
 2022-10-13,Calhoun,Arkansas,05013,1151,14
 2022-10-13,Bradley,Arkansas,05011,3445,56
-2022-10-13,Boone,Arkansas,05009,10630,192
-2022-10-13,Benton,Arkansas,05007,73932,924
-2022-10-13,Baxter,Arkansas,05005,10202,271
-2022-10-13,Ashley,Arkansas,05003,5886,78
-2022-10-13,Arkansas,Arkansas,05001,6654,88
+2022-10-13,Boone,Arkansas,05009,10634,192
+2022-10-13,Benton,Arkansas,05007,73953,924
+2022-10-13,Baxter,Arkansas,05005,10206,271
+2022-10-13,Ashley,Arkansas,05003,5890,78
+2022-10-13,Arkansas,Arkansas,05001,6659,88
 2022-10-13,Yuma,Arizona,04027,67819,1215
 2022-10-13,Yavapai,Arizona,04025,55363,1288
 2022-10-13,Santa Cruz,Arizona,04023,18545,238
@@ -3217,42 +3256,3 @@ date,county,state,fips,cases,deaths
 2022-10-13,Chilton,Alabama,01021,12421,214
 2022-10-13,Cherokee,Alabama,01019,6029,87
 2022-10-13,Chambers,Alabama,01017,10008,169
-2022-10-13,Calhoun,Alabama,01015,38420,658
-2022-10-13,Butler,Alabama,01013,6055,130
-2022-10-13,Bullock,Alabama,01011,2813,54
-2022-10-13,Blount,Alabama,01009,17256,258
-2022-10-13,Bibb,Alabama,01007,7547,108
-2022-10-13,Barbour,Alabama,01005,6910,103
-2022-10-13,Baldwin,Alabama,01003,65819,715
-2022-10-13,Autauga,Alabama,01001,18452,228
-2022-10-13,Weston,Wyoming,56045,1818,21
-2022-10-13,Washakie,Wyoming,56043,2668,47
-2022-10-13,Uinta,Wyoming,56041,6163,43
-2022-10-13,Teton,Wyoming,56039,11771,16
-2022-10-13,Sweetwater,Wyoming,56037,12152,131
-2022-10-13,Sublette,Wyoming,56035,2230,28
-2022-10-13,Sheridan,Wyoming,56033,9300,82
-2022-10-13,Platte,Wyoming,56031,2157,43
-2022-10-13,Park,Wyoming,56029,7464,150
-2022-10-13,Niobrara,Wyoming,56027,752,10
-2022-10-13,Natrona,Wyoming,56025,24795,286
-2022-10-13,Lincoln,Wyoming,56023,4736,32
-2022-10-13,Laramie,Wyoming,56021,30161,307
-2022-10-13,Johnson,Wyoming,56019,2177,21
-2022-10-13,Hot Springs,Wyoming,56017,1357,19
-2022-10-13,Goshen,Wyoming,56015,4438,58
-2022-10-13,Fremont,Wyoming,56013,16058,200
-2022-10-13,Crook,Wyoming,56011,1508,30
-2022-10-13,Converse,Wyoming,56009,3507,56
-2022-10-13,Carbon,Wyoming,56007,4931,55
-2022-10-13,Campbell,Wyoming,56005,13369,153
-2022-10-13,Big Horn,Wyoming,56003,2930,64
-2022-10-13,Albany,Wyoming,56001,11193,52
-2022-10-13,Wood,Wisconsin,55141,25196,249
-2022-10-13,Winnebago,Wisconsin,55139,60032,403
-2022-10-13,Waushara,Wisconsin,55137,7264,89
-2022-10-13,Waupaca,Wisconsin,55135,15471,259
-2022-10-13,Waukesha,Wisconsin,55133,131291,1158
-2022-10-13,Washington,Wisconsin,55131,43974,353
-2022-10-13,Washburn,Wisconsin,55129,4697,48
-2022-10-13,Walworth,Wisconsin,55127,30944,296
