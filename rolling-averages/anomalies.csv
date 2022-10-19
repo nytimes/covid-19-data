@@ -1709,3 +1709,5 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2022-09-29,,San Francisco,California,USA-06075,cases,yes,,0,California added a backlog of cases in San Francisco from earlier in the month.
 2022-10-05,,,North Carolina,USA-37,deaths,yes,yes,0,North Carolina added many deaths. 
 2022-10-09,,,Virginia,USA-51,both,yes,,0,The Times adjusted cumulative counts for several Virginia counties to reflect decreases in the state's data.
+2022-10-18,,Danville city,Virginia,USA-51590,cases,yes,,0,Virginia removed many cases in Danville and added many cases in Pittsylvania County. 
+2022-10-18,,Pittsylvania,Virginia,USA-51143,cases,yes,,0,Virginia removed many cases in Danville and added many cases in Pittsylvania County. 
