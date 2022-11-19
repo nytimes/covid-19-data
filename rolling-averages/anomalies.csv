@@ -1708,7 +1708,9 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2022-09-28,,,Kansas,USA-20,deaths,yes,,0,Kansas added a backlog of many deaths due to data reconciliation.
 2022-09-29,,San Francisco,California,USA-06075,cases,yes,,0,California added a backlog of cases in San Francisco from earlier in the month.
 2022-10-05,,,North Carolina,USA-37,deaths,yes,yes,0,North Carolina added many deaths. 
+2022-10-08,,Tom Green,Texas,USA-48451,both,yes,,0,"The Times began using state data for Tom Green County after the county stopped reporting data regularly, resulting in a one-time decrease in cases and deaths."
 2022-10-09,,,Virginia,USA-51,both,yes,,0,The Times adjusted cumulative counts for several Virginia counties to reflect decreases in the state's data.
+2022-10-11,,Jefferson,Kentucky,USA-21111,cases,yes,,0,"The Times began using state data for Jefferson County after the county stopped reporting data regularly, resulting in a one-time decrease in cases."
 2022-10-18,,Danville city,Virginia,USA-51590,cases,yes,,0,Virginia removed many cases in Danville and added many cases in Pittsylvania County. 
 2022-10-18,,Pittsylvania,Virginia,USA-51143,cases,yes,,0,Virginia removed many cases in Danville and added many cases in Pittsylvania County. 
 2022-10-21,,New York City,New York,USA-36998,deaths,yes,,0,New York City added many deaths.
@@ -1718,6 +1720,7 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2022-10-26,,,New York,USA-36,deaths,yes,,0,New York City added many deaths.
 2022-10-28,,,Nebraska,USA-31,both,yes,,0,"In data reported to the federal government, Nebraska removed many cases and deaths that had not been assigned to a county. "
 2022-11-02,,,North Carolina,USA-37,deaths,yes,yes,0,North Carolina added many deaths. 
+2022-11-02,,Walla Walla,Washington,USA-53071,cases,yes,,0,"The Times began using state data for Walla Walla County after the county stopped reporting data regularly, resulting in a one-time decrease in cases."
 2022-11-03,,,Puerto Rico,USA-72,cases,,yes,0,Puerto Rico added recent cases in many municipalities.
 2022-11-11,,,Wyoming,USA-56,deaths,,,-1,"The Times began including death certificate data reconciled by the C.D.C., resulting in a one-day increase in total deaths."
 2022-11-11,,,Georgia,USA-13,deaths,,,-161,"The Times began including death certificate data reconciled by the C.D.C., resulting in a one-day increase in total deaths."
@@ -1739,6 +1742,7 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2022-11-11,,,Tennessee,USA-47,deaths,,,0,"The Times began including death certificate data reconciled by the C.D.C., resulting in a one-day increase in total deaths."
 2022-11-11,,,Texas,USA-48,deaths,,,-778,"The Times began including death certificate data reconciled by the C.D.C., resulting in a one-day increase in total deaths."
 2022-11-11,,,South Carolina,USA-45,deaths,,,-575,"The Times began including death certificate data reconciled by the C.D.C., resulting in a one-day increase in total deaths."
+2022-11-11,,,,USA,deaths,yes,,0,"The Times began including death certificate data reconciled by the C.D.C., resulting in a one-day increase in total deaths."
 2022-11-11,,,California,USA-06,deaths,,,-2363,"The Times began including death certificate data reconciled by the C.D.C., resulting in a one-day increase in total deaths."
 2022-11-11,,,Florida,USA-12,deaths,,,0,"The Times began including death certificate data reconciled by the C.D.C., resulting in a one-day increase in total deaths."
 2022-11-11,,,Indiana,USA-18,deaths,,,0,"The Times began including death certificate data reconciled by the C.D.C., resulting in a one-day increase in total deaths."
