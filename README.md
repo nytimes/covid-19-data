@@ -1,6 +1,6 @@
 # Coronavirus (Covid-19) Data in the United States
 
-**UPDATE: Files in the [live/](live) directory no longer provide separate counts probable and confirmed cases and deaths, as those figures are not commonly reported separately anymore.**
+**UPDATE: The [rolling-averages/](rolling-averages) files now report daily average deaths at the county-level as a 30-day average instead of a 7-day average as more places are reporting data less frequently.**
 
 The primary data published here are the daily cumulative number of cases and deaths reported in each county and state across the U.S. since the beginning of the pandemic. We have also published these additional data sets:
 

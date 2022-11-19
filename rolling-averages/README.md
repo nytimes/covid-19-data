@@ -16,10 +16,10 @@ The fields have the following definitions:
 
 * **geoid**: A unique geographic identifier for each place. For counties and states, the final five digits are the same as the FIPS code when possible. In instances where we have assigned a non-standard identifier, the geoid will end in `99[0-9]`.  
 * **cases**: The number of new cases of Covid-19 reported that day, including both confirmed and probable.  
-* **cases_avg**: The average number of new cases reported over the most recent seven days of data. In other words, the seven-day trailing average.  
+* **cases_avg**: The average number of new cases reported over the most recent seven days of data.  
 * **cases_avg_per_100k**: The `cases_avg` per 100,000 people.  
 * **deaths**: The total number of new deaths from Covid-19 reported that day, including both confirmed and probable.  
-* **deaths_avg**: The average number of new deaths reported over the most recent seven days of data. In other words, the seven-day trailing average.  
+* **deaths_avg**: The daily average number of new deaths reported over the most recent period. County-level deaths are averaged over 30 days. State, territory and national deaths are averaged over 7 days.  
 * **deaths_avg_per_100k**: The `deaths_avg` per 100,000 people.  
 
 Because many agencies do not report data every day, variation in the schedule on which cases or deaths are reported, such as around holidays, can cause irregular patterns in a simple seven-day trailing average.
