@@ -738,7 +738,7 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2021-07-31,2021-09-19,Box Butte,Nebraska,USA-31013,cases,,,0,State and county officials stopped reporting county-level data for several months.
 2021-07-31,2021-09-28,Cheyenne,Nebraska,USA-31033,deaths,,,0,State and local officials are no longer reporting deaths by county.
 2021-07-31,2021-09-19,Cheyenne,Nebraska,USA-31033,cases,,,0,State and county officials stopped reporting county-level data for several months.
-2021-07-31,,Dawes,Nebraska,USA-31045,deaths,,,0,State and local officials are no longer reporting deaths by county.
+2021-07-31,2022-11-01,Dawes,Nebraska,USA-31045,deaths,,,0,State and local officials are no longer reporting deaths by county.
 2021-07-31,2021-09-19,Dawes,Nebraska,USA-31045,cases,,,0,State and county officials stopped reporting county-level data for several months.
 2021-07-31,2021-09-28,Deuel,Nebraska,USA-31049,deaths,,,0,State and local officials are no longer reporting deaths by county.
 2021-07-31,2021-09-19,Deuel,Nebraska,USA-31049,cases,,,0,State and county officials stopped reporting county-level data for several months.
@@ -856,7 +856,7 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2021-08-11,2021-09-19,Nuckolls,Nebraska,USA-31129,cases,,,0,State and county officials stopped reporting county-level data for several months.
 2021-08-11,2021-09-28,Webster,Nebraska,USA-31181,deaths,,,0,State and local officials are no longer reporting deaths by county.
 2021-08-11,2021-09-19,Webster,Nebraska,USA-31181,cases,,,0,State and county officials stopped reporting county-level data for several weeks in September.
-2021-08-11,,Dakota,Nebraska,USA-31043,deaths,,,0,State and local officials are no longer reporting deaths by county.
+2021-08-11,2022-11-01,Dakota,Nebraska,USA-31043,deaths,,,0,State and local officials are no longer reporting deaths by county.
 2021-08-12,,Lea,New Mexico,USA-35025,cases,yes,,0,New Mexico added a backlog of about 330 older cases from one facility in Lea County.
 2021-08-16,,,Florida,USA-12,both,,,0,"The daily count includes Florida's weekend update, which is typically announced on Tuesdays. The 7-day average is artificially high because of this atypical schedule."
 2021-08-16,,,Vermont,USA-50,both,,,0,"Vermont did not release data because of Bennington Battle Day, a state holiday."
@@ -1182,7 +1182,7 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2021-12-01,,,Washington,USA-53,deaths,,,0,Washington was unable to report new data because of technical issue. Some counties updated independently.
 2021-12-01,,,North Carolina,USA-37,cases,,,1975,"The Times began using state health department data for Wake County, resulting in a one-day decrease for the county."
 2021-12-01,,Wake,North Carolina,USA-37183,cases,,,1975,"Wake County stopped reporting data separately from the state health department, resulting in a one-day decrease in cases and deaths."
-2021-12-01,,Scotts Bluff,Nebraska,USA-31157,deaths,,,0,State and local officials are no longer reporting deaths by county.
+2021-12-01,2022-12-01,Scotts Bluff,Nebraska,USA-31157,deaths,,,0,State and local officials are no longer reporting deaths by county.
 2021-12-05,2021-12-19,,Maryland,USA-24,cases,yes,,0,Maryland was unable to report new cases data for more than two weeks. The state announced it was responding to a cyberattack that affected data systems.
 2021-12-05,2021-12-27,,Maryland,USA-24,deaths,yes,,0,Maryland was unable to report new deaths because of a technical issue.
 2021-12-06,2021-12-27,,Maryland,USA-24,both,,yes,0,Maryland was unable to report new county-level cases and deaths because of a technical issue.
