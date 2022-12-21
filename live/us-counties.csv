@@ -1,8 +1,492 @@
 date,county,state,fips,cases,deaths
+2022-12-21,Burnett,Wisconsin,55013,4997,60
+2022-12-21,Buffalo,Wisconsin,55011,4121,23
+2022-12-21,Brown,Wisconsin,55009,100531,606
+2022-12-21,Bayfield,Wisconsin,55007,4255,44
+2022-12-21,Barron,Wisconsin,55005,15774,151
+2022-12-21,Ashland,Wisconsin,55003,4066,42
+2022-12-21,Adams,Wisconsin,55001,5693,69
+2022-12-21,Wyoming,West Virginia,54109,9278,134
+2022-12-21,Wood,West Virginia,54107,27353,371
+2022-12-21,Wirt,West Virginia,54105,1720,26
+2022-12-21,Wetzel,West Virginia,54103,5338,94
+2022-12-21,Webster,West Virginia,54101,2757,37
+2022-12-21,Wayne,West Virginia,54099,11444,154
+2022-12-21,Upshur,West Virginia,54097,8713,103
+2022-12-21,Tyler,West Virginia,54095,2650,33
+2022-12-21,Tucker,West Virginia,54093,2333,39
+2022-12-21,Taylor,West Virginia,54091,5719,82
+2022-12-21,Summers,West Virginia,54089,3602,63
+2022-12-21,Roane,West Virginia,54087,4334,47
+2022-12-21,Ritchie,West Virginia,54085,2947,32
+2022-12-21,Randolph,West Virginia,54083,11747,99
+2022-12-21,Raleigh,West Virginia,54081,29270,402
+2022-12-21,Putnam,West Virginia,54079,20343,208
+2022-12-21,Preston,West Virginia,54077,10810,141
+2022-12-21,Pocahontas,West Virginia,54075,2489,34
+2022-12-21,Pleasants,West Virginia,54073,2473,38
+2022-12-21,Pendleton,West Virginia,54071,2292,23
+2022-12-21,Ohio,West Virginia,54069,13597,193
+2022-12-21,Nicholas,West Virginia,54067,9143,109
+2022-12-21,Morgan,West Virginia,54065,5068,80
+2022-12-21,Monroe,West Virginia,54063,5542,57
+2022-12-21,Monongalia,West Virginia,54061,30516,211
+2022-12-21,Mingo,West Virginia,54059,9665,146
+2022-12-21,Mineral,West Virginia,54057,9952,172
+2022-12-21,Mercer,West Virginia,54055,22407,283
+2022-12-21,McDowell,West Virginia,54047,7159,96
+2022-12-21,Mason,West Virginia,54053,8605,106
+2022-12-21,Marshall,West Virginia,54051,10980,166
+2022-12-21,Marion,West Virginia,54049,19535,199
+2022-12-21,Logan,West Virginia,54045,12469,201
+2022-12-21,Lincoln,West Virginia,54043,6967,92
+2022-12-21,Lewis,West Virginia,54041,6803,95
+2022-12-21,Kanawha,West Virginia,54039,57606,837
+2022-12-21,Jefferson,West Virginia,54037,17761,151
+2022-12-21,Jackson,West Virginia,54035,8520,146
+2022-12-21,Harrison,West Virginia,54033,25231,279
+2022-12-21,Hardy,West Virginia,54031,5513,55
+2022-12-21,Hancock,West Virginia,54029,8169,171
+2022-12-21,Hampshire,West Virginia,54027,7106,92
+2022-12-21,Greenbrier,West Virginia,54025,12385,175
+2022-12-21,Grant,West Virginia,54023,4647,63
+2022-12-21,Gilmer,West Virginia,54021,2519,23
+2022-12-21,Fayette,West Virginia,54019,16231,222
+2022-12-21,Doddridge,West Virginia,54017,2463,19
+2022-12-21,Clay,West Virginia,54015,2667,53
+2022-12-21,Calhoun,West Virginia,54013,2248,15
+2022-12-21,Cabell,West Virginia,54011,33066,425
+2022-12-21,Brooke,West Virginia,54009,6179,118
+2022-12-21,Braxton,West Virginia,54007,4903,52
+2022-12-21,Boone,West Virginia,54005,8382,100
+2022-12-21,Berkeley,West Virginia,54003,43670,347
+2022-12-21,Barbour,West Virginia,54001,5831,77
+2022-12-21,Yakima,Washington,53077,82864,843
+2022-12-21,Whitman,Washington,53075,9910,98
+2022-12-21,Whatcom,Washington,53073,48136,351
+2022-12-21,Walla Walla,Washington,53071,18420,166
+2022-12-21,Wahkiakum,Washington,53069,627,11
+2022-12-21,Thurston,Washington,53067,61098,489
+2022-12-21,Stevens,Washington,53065,9798,161
+2022-12-21,Spokane,Washington,53063,149648,1606
+2022-12-21,Snohomish,Washington,53061,198416,1360
+2022-12-21,Skamania,Washington,53059,1767,16
+2022-12-21,Skagit,Washington,53057,27776,247
+2022-12-21,San Juan,Washington,53055,1909,3
+2022-12-21,Pierce,Washington,53053,237394,1554
+2022-12-21,Pend Oreille,Washington,53051,2898,42
+2022-12-21,Pacific,Washington,53049,4748,73
+2022-12-21,Okanogan,Washington,53047,10244,139
+2022-12-21,Mason,Washington,53045,15414,173
+2022-12-21,Lincoln,Washington,53043,2622,29
+2022-12-21,Lewis,Washington,53041,20395,287
+2022-12-21,Klickitat,Washington,53039,4234,58
+2022-12-21,Kittitas,Washington,53037,10134,89
+2022-12-21,Kitsap,Washington,53035,50917,395
+2022-12-21,King,Washington,53033,535172,3348
+2022-12-21,Jefferson,Washington,53031,4596,34
+2022-12-21,Island,Washington,53029,13244,107
+2022-12-21,Grays Harbor,Washington,53027,20046,242
+2022-12-21,Grant,Washington,53025,31839,267
+2022-12-21,Garfield,Washington,53023,487,7
+2022-12-21,Franklin,Washington,53021,36356,226
+2022-12-21,Ferry,Washington,53019,1759,32
+2022-12-21,Douglas,Washington,53017,13084,83
+2022-12-21,Cowlitz,Washington,53015,26756,387
+2022-12-21,Columbia,Washington,53013,726,17
+2022-12-21,Clark,Washington,53011,108900,977
+2022-12-21,Clallam,Washington,53009,15356,186
+2022-12-21,Chelan,Washington,53007,23748,191
+2022-12-21,Benton,Washington,53005,60791,521
+2022-12-21,Asotin,Washington,53003,5409,79
+2022-12-21,Adams,Washington,53001,5556,44
+2022-12-21,Unknown,Virgin Islands,,29,0
+2022-12-21,St. Thomas,Virgin Islands,78030,10460,69
+2022-12-21,St. John,Virgin Islands,78020,1019,5
+2022-12-21,St. Croix,Virgin Islands,78010,12213,53
+2022-12-21,York,Virginia,51199,13077,127
+2022-12-21,Wythe,Virginia,51197,9193,167
+2022-12-21,Wise,Virginia,51195,13309,223
+2022-12-21,Winchester city,Virginia,51840,7913,94
+2022-12-21,Williamsburg city,Virginia,51830,2202,24
+2022-12-21,Westmoreland,Virginia,51193,4091,58
+2022-12-21,Waynesboro city,Virginia,51820,7241,84
+2022-12-21,Washington,Virginia,51191,17345,240
+2022-12-21,Warren,Virginia,51187,10998,176
+2022-12-21,Virginia Beach city,Virginia,51810,110805,916
+2022-12-21,Tazewell,Virginia,51185,13174,206
+2022-12-21,Sussex,Virginia,51183,2790,49
+2022-12-21,Surry,Virginia,51181,1346,22
+2022-12-21,Suffolk city,Virginia,51800,23401,329
+2022-12-21,Staunton city,Virginia,51790,7517,132
+2022-12-21,Stafford,Virginia,51179,40089,193
+2022-12-21,Spotsylvania,Virginia,51177,33971,331
+2022-12-21,Southampton,Virginia,51175,4308,101
+2022-12-21,Smyth,Virginia,51173,11589,195
+2022-12-21,Shenandoah,Virginia,51171,13351,252
+2022-12-21,Scott,Virginia,51169,7278,125
+2022-12-21,Salem city,Virginia,51775,6991,110
+2022-12-21,Russell,Virginia,51167,8962,127
+2022-12-21,Rockingham,Virginia,51165,18335,289
+2022-12-21,Rockbridge,Virginia,51163,4884,100
+2022-12-21,Roanoke city,Virginia,51770,26957,420
+2022-12-21,Roanoke,Virginia,51161,26916,309
+2022-12-21,Richmond city,Virginia,51760,60119,552
+2022-12-21,Richmond,Virginia,51159,2853,29
+2022-12-21,Rappahannock,Virginia,51157,1312,18
+2022-12-21,Radford city,Virginia,51750,4877,49
+2022-12-21,Pulaski,Virginia,51155,10259,156
+2022-12-21,Prince William,Virginia,51153,121819,803
+2022-12-21,Prince George,Virginia,51149,11111,85
+2022-12-21,Prince Edward,Virginia,51147,6320,84
+2022-12-21,Powhatan,Virginia,51145,6189,68
+2022-12-21,Portsmouth city,Virginia,51740,25460,354
+2022-12-21,Poquoson city,Virginia,51735,2851,31
+2022-12-21,Pittsylvania,Virginia,51143,18014,231
+2022-12-21,Petersburg city,Virginia,51730,9779,149
+2022-12-21,Patrick,Virginia,51141,4693,107
+2022-12-21,Page,Virginia,51139,6759,127
+2022-12-21,Orange,Virginia,51137,8821,103
+2022-12-21,Nottoway,Virginia,51135,5461,100
+2022-12-21,Norton city,Virginia,51720,1522,20
+2022-12-21,Northumberland,Virginia,51133,2604,45
+2022-12-21,Northampton,Virginia,51131,2779,74
+2022-12-21,Norfolk city,Virginia,51710,51926,516
+2022-12-21,Newport News city,Virginia,51700,47062,443
+2022-12-21,New Kent,Virginia,51127,5694,42
+2022-12-21,Nelson,Virginia,51125,3142,46
+2022-12-21,Montgomery,Virginia,51121,23961,179
+2022-12-21,Middlesex,Virginia,51119,2376,52
+2022-12-21,Mecklenburg,Virginia,51117,7529,142
+2022-12-21,Mathews,Virginia,51115,1938,27
+2022-12-21,Martinsville city,Virginia,51690,4385,123
+2022-12-21,Manassas Park city,Virginia,51685,4685,28
+2022-12-21,Manassas city,Virginia,51683,11263,98
+2022-12-21,Madison,Virginia,51113,3048,47
+2022-12-21,Lynchburg city,Virginia,51680,23167,303
+2022-12-21,Lunenburg,Virginia,51111,3206,45
+2022-12-21,Louisa,Virginia,51109,8528,97
+2022-12-21,Loudoun,Virginia,51107,93272,427
+2022-12-21,Lexington city,Virginia,51678,2573,34
+2022-12-21,Lee,Virginia,51105,8071,118
+2022-12-21,Lancaster,Virginia,51103,2215,40
+2022-12-21,King William,Virginia,51101,4553,51
+2022-12-21,King George,Virginia,51099,6583,52
+2022-12-21,King and Queen,Virginia,51097,1407,15
+2022-12-21,James City,Virginia,51095,20292,141
+2022-12-21,Isle of Wight,Virginia,51093,8826,125
+2022-12-21,Hopewell city,Virginia,51670,7474,123
+2022-12-21,Highland,Virginia,51091,475,6
+2022-12-21,Henry,Virginia,51089,15366,310
+2022-12-21,Henrico,Virginia,51087,84874,1045
+2022-12-21,Harrisonburg city,Virginia,51660,14794,174
+2022-12-21,Hanover,Virginia,51085,27615,333
+2022-12-21,Hampton city,Virginia,51650,36561,361
+2022-12-21,Halifax,Virginia,51083,9146,182
+2022-12-21,Greensville,Virginia,51081,3726,45
+2022-12-21,Greene,Virginia,51079,4872,63
+2022-12-21,Grayson,Virginia,51077,5315,93
+2022-12-21,Goochland,Virginia,51075,5465,62
+2022-12-21,Gloucester,Virginia,51073,9112,114
+2022-12-21,Giles,Virginia,51071,5034,54
+2022-12-21,Galax city,Virginia,51640,3093,83
+2022-12-21,Fredericksburg city,Virginia,51630,6924,42
+2022-12-21,Frederick,Virginia,51069,25721,275
+2022-12-21,Franklin city,Virginia,51620,2616,58
+2022-12-21,Franklin,Virginia,51067,13512,214
+2022-12-21,Fluvanna,Virginia,51065,6672,52
+2022-12-21,Floyd,Virginia,51063,3517,53
+2022-12-21,Fauquier,Virginia,51061,15870,160
+2022-12-21,Falls Church city,Virginia,51610,3332,27
+2022-12-21,Fairfax city,Virginia,51600,2508,51
+2022-12-21,Fairfax,Virginia,51059,249195,1649
+2022-12-21,Essex,Virginia,51057,2720,41
+2022-12-21,Emporia city,Virginia,51595,1563,56
+2022-12-21,Dinwiddie,Virginia,51053,7090,105
+2022-12-21,Dickenson,Virginia,51051,4636,64
+2022-12-21,Danville city,Virginia,51590,13877,292
+2022-12-21,Cumberland,Virginia,51049,1740,29
+2022-12-21,Culpeper,Virginia,51047,13918,170
+2022-12-21,Craig,Virginia,51045,1401,24
+2022-12-21,Covington city,Virginia,51580,1791,35
+2022-12-21,Colonial Heights city,Virginia,51570,6066,109
+2022-12-21,Clarke,Virginia,51043,3321,55
+2022-12-21,Chesterfield,Virginia,51041,95060,855
+2022-12-21,Chesapeake city,Virginia,51550,61666,548
+2022-12-21,Charlottesville city,Virginia,51540,12127,85
+2022-12-21,Charlotte,Virginia,51037,3227,60
+2022-12-21,Charles City,Virginia,51036,1589,31
+2022-12-21,Carroll,Virginia,51035,9110,161
+2022-12-21,Caroline,Virginia,51033,8675,95
+2022-12-21,Campbell,Virginia,51031,16747,233
+2022-12-21,Buena Vista city,Virginia,51530,2188,46
+2022-12-21,Buckingham,Virginia,51029,4790,61
+2022-12-21,Buchanan,Virginia,51027,5985,138
+2022-12-21,Brunswick,Virginia,51025,3869,52
+2022-12-21,Bristol city,Virginia,51520,5860,100
+2022-12-21,Botetourt,Virginia,51023,9499,112
+2022-12-21,Bland,Virginia,51021,2297,25
+2022-12-21,Bedford,Virginia,51019,21115,274
+2022-12-21,Bath,Virginia,51017,1038,20
+2022-12-21,Augusta,Virginia,51015,23496,232
+2022-12-21,Arlington,Virginia,51013,64119,360
+2022-12-21,Appomattox,Virginia,51011,4801,59
+2022-12-21,Amherst,Virginia,51009,8967,105
+2022-12-21,Amelia,Virginia,51007,3384,63
+2022-12-21,Alleghany,Virginia,51005,4254,108
+2022-12-21,Alexandria city,Virginia,51510,43685,218
+2022-12-21,Albemarle,Virginia,51003,24107,198
+2022-12-21,Accomack,Virginia,51001,8616,115
+2022-12-21,Windsor,Vermont,50027,11491,64
+2022-12-21,Windham,Vermont,50025,8685,47
+2022-12-21,Washington,Vermont,50023,14008,67
+2022-12-21,Unknown,Vermont,,2945,3
+2022-12-21,Rutland,Vermont,50021,16409,87
+2022-12-21,Orleans,Vermont,50019,7099,43
+2022-12-21,Orange,Vermont,50017,5028,19
+2022-12-21,Lamoille,Vermont,50015,4289,22
+2022-12-21,Grand Isle,Vermont,50013,1263,11
+2022-12-21,Franklin,Vermont,50011,11372,75
+2022-12-21,Essex,Vermont,50009,1444,4
+2022-12-21,Chittenden,Vermont,50007,38819,200
+2022-12-21,Caledonia,Vermont,50005,6457,36
+2022-12-21,Bennington,Vermont,50003,11956,85
+2022-12-21,Addison,Vermont,50001,6766,28
+2022-12-21,Weber,Utah,49057,83833,464
+2022-12-21,Wayne,Utah,49055,526,0
+2022-12-21,Washington,Utah,49053,50338,496
+2022-12-21,Wasatch,Utah,49051,12019,39
+2022-12-21,Utah,Utah,49049,223276,866
+2022-12-21,Unknown,Utah,,5544,71
+2022-12-21,Uintah,Utah,49047,9372,79
+2022-12-21,Tooele,Utah,49045,24677,112
+2022-12-21,Summit,Utah,49043,15657,27
+2022-12-21,Sevier,Utah,49041,5957,31
+2022-12-21,Sanpete,Utah,49039,8914,58
+2022-12-21,San Juan,Utah,49037,5004,77
+2022-12-21,Salt Lake,Utah,49035,402195,1783
+2022-12-21,Rich,Utah,49033,374,0
+2022-12-21,Piute,Utah,49031,345,7
+2022-12-21,Morgan,Utah,49029,3196,15
+2022-12-21,Millard,Utah,49027,3641,40
+2022-12-21,Kane,Utah,49025,1579,16
+2022-12-21,Juab,Utah,49023,3239,27
+2022-12-21,Iron,Utah,49021,16351,97
+2022-12-21,Grand,Utah,49019,2757,6
+2022-12-21,Garfield,Utah,49017,1074,16
+2022-12-21,Emery,Utah,49015,2927,33
+2022-12-21,Duchesne,Utah,49013,5016,32
+2022-12-21,Davis,Utah,49011,117277,444
+2022-12-21,Daggett,Utah,49009,168,0
+2022-12-21,Carbon,Utah,49007,6001,54
+2022-12-21,Cache,Utah,49005,41164,122
+2022-12-21,Box Elder,Utah,49003,15810,132
+2022-12-21,Beaver,Utah,49001,1775,17
+2022-12-21,Zavala,Texas,48507,4453,70
+2022-12-21,Zapata,Texas,48505,4339,56
+2022-12-21,Young,Texas,48503,4362,98
+2022-12-21,Yoakum,Texas,48501,1641,42
+2022-12-21,Wood,Texas,48499,9403,300
+2022-12-21,Wise,Texas,48497,19048,291
+2022-12-21,Winkler,Texas,48495,2131,36
+2022-12-21,Wilson,Texas,48493,12558,173
+2022-12-21,Williamson,Texas,48491,163757,1010
+2022-12-21,Willacy,Texas,48489,8499,136
+2022-12-21,Wilbarger,Texas,48487,4035,90
+2022-12-21,Wichita,Texas,48485,39482,714
+2022-12-21,Wheeler,Texas,48483,1297,25
+2022-12-21,Wharton,Texas,48481,11113,226
+2022-12-21,Webb,Texas,48479,108855,1084
+2022-12-21,Washington,Texas,48477,10612,160
+2022-12-21,Ward,Texas,48475,3206,49
+2022-12-21,Waller,Texas,48473,11341,125
+2022-12-21,Walker,Texas,48471,21788,225
+2022-12-21,Victoria,Texas,48469,22210,424
+2022-12-21,Van Zandt,Texas,48467,12200,313
+2022-12-21,Val Verde,Texas,48465,15707,308
+2022-12-21,Uvalde,Texas,48463,11434,147
+2022-12-21,Upton,Texas,48461,924,18
+2022-12-21,Upshur,Texas,48459,8886,218
+2022-12-21,Tyler,Texas,48457,4869,93
+2022-12-21,Trinity,Texas,48455,3140,76
+2022-12-21,Travis,Texas,48453,284052,1811
+2022-12-21,Tom Green,Texas,48451,38403,485
+2022-12-21,Titus,Texas,48449,9974,145
+2022-12-21,Throckmorton,Texas,48447,292,10
+2022-12-21,Terry,Texas,48445,2902,85
+2022-12-21,Terrell,Texas,48443,135,3
+2022-12-21,Taylor,Texas,48441,42432,755
+2022-12-21,Tarrant,Texas,48439,665240,6200
+2022-12-21,Swisher,Texas,48437,2589,34
+2022-12-21,Sutton,Texas,48435,902,14
+2022-12-21,Stonewall,Texas,48433,386,7
+2022-12-21,Sterling,Texas,48431,315,9
+2022-12-21,Stephens,Texas,48429,2079,54
+2022-12-21,Starr,Texas,48427,23474,379
+2022-12-21,Somervell,Texas,48425,2203,39
+2022-12-21,Smith,Texas,48423,54810,995
+2022-12-21,Sherman,Texas,48421,517,19
+2022-12-21,Shelby,Texas,48419,5144,137
+2022-12-21,Shackelford,Texas,48417,1062,13
+2022-12-21,Scurry,Texas,48415,5753,107
+2022-12-21,Schleicher,Texas,48413,578,9
+2022-12-21,San Saba,Texas,48411,1434,39
+2022-12-21,San Patricio,Texas,48409,13919,358
+2022-12-21,San Jacinto,Texas,48407,6544,130
+2022-12-21,San Augustine,Texas,48405,1177,47
+2022-12-21,Sabine,Texas,48403,1492,91
+2022-12-21,Rusk,Texas,48401,12167,275
+2022-12-21,Runnels,Texas,48399,2687,69
+2022-12-21,Rockwall,Texas,48397,30562,273
+2022-12-21,Robertson,Texas,48395,5200,83
+2022-12-21,Roberts,Texas,48393,190,2
+2022-12-21,Refugio,Texas,48391,2179,40
+2022-12-21,Reeves,Texas,48389,5340,76
+2022-12-21,Red River,Texas,48387,2681,71
+2022-12-21,Real,Texas,48385,974,29
+2022-12-21,Reagan,Texas,48383,950,16
+2022-12-21,Randall,Texas,48381,43770,531
+2022-12-21,Rains,Texas,48379,2175,66
+2022-12-21,Presidio,Texas,48377,1139,42
+2022-12-21,Potter,Texas,48375,41307,757
+2022-12-21,Polk,Texas,48373,9102,269
+2022-12-21,Pending County Assignment,Texas,,65,0
+2022-12-21,Pecos,Texas,48371,3491,72
+2022-12-21,Parmer,Texas,48369,2614,53
+2022-12-21,Parker,Texas,48367,39350,512
+2022-12-21,Panola,Texas,48365,5363,142
+2022-12-21,Palo Pinto,Texas,48363,7843,156
+2022-12-21,Orange,Texas,48361,16862,373
+2022-12-21,Oldham,Texas,48359,622,6
+2022-12-21,Ochiltree,Texas,48357,2613,54
+2022-12-21,Nueces,Texas,48355,110603,1578
+2022-12-21,Nolan,Texas,48353,3421,102
+2022-12-21,Newton,Texas,48351,1700,77
+2022-12-21,Navarro,Texas,48349,13951,243
+2022-12-21,Nacogdoches,Texas,48347,14357,270
+2022-12-21,Motley,Texas,48345,310,14
+2022-12-21,Morris,Texas,48343,2922,75
+2022-12-21,Moore,Texas,48341,6214,115
+2022-12-21,Montgomery,Texas,48339,166979,1349
+2022-12-21,Montague,Texas,48337,5163,133
+2022-12-21,Mitchell,Texas,48335,2068,50
+2022-12-21,Mills,Texas,48333,1575,39
+2022-12-21,Milam,Texas,48331,5796,107
+2022-12-21,Midland,Texas,48329,46532,519
+2022-12-21,Menard,Texas,48327,614,12
+2022-12-21,Medina,Texas,48325,11836,211
+2022-12-21,McMullen,Texas,48311,182,10
+2022-12-21,McLennan,Texas,48309,72180,948
+2022-12-21,McCulloch,Texas,48307,1711,50
+2022-12-21,Maverick,Texas,48323,23670,476
+2022-12-21,Matagorda,Texas,48321,10035,185
+2022-12-21,Mason,Texas,48319,977,13
+2022-12-21,Martin,Texas,48317,1364,26
+2022-12-21,Marion,Texas,48315,1961,67
+2022-12-21,Madison,Texas,48313,4157,66
+2022-12-21,Lynn,Texas,48305,1660,41
+2022-12-21,Lubbock,Texas,48303,108962,1372
+2022-12-21,Loving,Texas,48301,361,1
+2022-12-21,Llano,Texas,48299,4877,101
+2022-12-21,Live Oak,Texas,48297,2358,51
+2022-12-21,Lipscomb,Texas,48295,794,19
+2022-12-21,Limestone,Texas,48293,5924,134
+2022-12-21,Liberty,Texas,48291,21517,411
+2022-12-21,Leon,Texas,48289,4176,95
+2022-12-21,Lee,Texas,48287,5066,64
+2022-12-21,Lavaca,Texas,48285,4725,123
+2022-12-21,La Salle,Texas,48283,2558,53
+2022-12-21,Lampasas,Texas,48281,6187,93
+2022-12-21,Lamb,Texas,48279,4969,127
+2022-12-21,Lamar,Texas,48277,14856,274
+2022-12-21,Knox,Texas,48275,607,25
+2022-12-21,Kleberg,Texas,48273,8933,152
+2022-12-21,Kinney,Texas,48271,814,13
+2022-12-21,King,Texas,48269,54,0
+2022-12-21,Kimble,Texas,48267,866,15
+2022-12-21,Kerr,Texas,48265,10679,200
+2022-12-21,Kent,Texas,48263,220,4
+2022-12-21,Kenedy,Texas,48261,100,2
+2022-12-21,Kendall,Texas,48259,9566,129
+2022-12-21,Kaufman,Texas,48257,41318,553
+2022-12-21,Karnes,Texas,48255,6348,75
+2022-12-21,Jones,Texas,48253,5203,116
+2022-12-21,Johnson,Texas,48251,50485,769
+2022-12-21,Jim Wells,Texas,48249,13662,225
+2022-12-21,Jim Hogg,Texas,48247,3689,22
+2022-12-21,Jefferson,Texas,48245,61152,870
+2022-12-21,Jeff Davis,Texas,48243,265,10
+2022-12-21,Jasper,Texas,48241,7923,206
+2022-12-21,Jackson,Texas,48239,3776,61
+2022-12-21,Jack,Texas,48237,1640,31
+2022-12-21,Irion,Texas,48235,583,3
+2022-12-21,Hutchinson,Texas,48233,7441,147
+2022-12-21,Hunt,Texas,48231,18940,392
+2022-12-21,Hudspeth,Texas,48229,1153,18
+2022-12-21,Howard,Texas,48227,7691,191
+2022-12-21,Houston,Texas,48225,4848,121
+2022-12-21,Hopkins,Texas,48223,8405,188
+2022-12-21,Hood,Texas,48221,14685,288
+2022-12-21,Hockley,Texas,48219,8979,169
+2022-12-21,Hill,Texas,48217,9889,200
+2022-12-21,Hidalgo,Texas,48215,256475,4032
+2022-12-21,Henderson,Texas,48213,17863,463
+2022-12-21,Hemphill,Texas,48211,1398,8
+2022-12-21,Hays,Texas,48209,75903,549
+2022-12-21,Haskell,Texas,48207,1057,40
+2022-12-21,Hartley,Texas,48205,1480,19
+2022-12-21,Harrison,Texas,48203,15409,296
+2022-12-21,Harris,Texas,48201,1233490,11403
+2022-12-21,Hardin,Texas,48199,14262,256
+2022-12-21,Hardeman,Texas,48197,624,21
+2022-12-21,Hansford,Texas,48195,2245,31
+2022-12-21,Hamilton,Texas,48193,2084,36
+2022-12-21,Hall,Texas,48191,1251,24
+2022-12-21,Hale,Texas,48189,8048,249
+2022-12-21,Guadalupe,Texas,48187,44403,438
+2022-12-21,Grimes,Texas,48185,9817,125
+2022-12-21,Gregg,Texas,48183,26186,716
+2022-12-21,Grayson,Texas,48181,30793,668
+2022-12-21,Gray,Texas,48179,6849,134
+2022-12-21,Gonzales,Texas,48177,5240,106
+2022-12-21,Goliad,Texas,48175,1492,33
+2022-12-21,Glasscock,Texas,48173,224,3
+2022-12-21,Gillespie,Texas,48171,6071,116
+2022-12-21,Garza,Texas,48169,1446,31
+2022-12-21,Galveston,Texas,48167,116278,883
+2022-12-21,Gaines,Texas,48165,2365,86
+2022-12-21,Frio,Texas,48163,6580,95
+2022-12-21,Freestone,Texas,48161,4220,87
+2022-12-21,Franklin,Texas,48159,2576,45
+2022-12-21,Fort Bend,Texas,48157,237695,1320
+2022-12-21,Foard,Texas,48155,247,11
+2022-12-21,Floyd,Texas,48153,2259,49
+2022-12-21,Fisher,Texas,48151,699,31
+2022-12-21,Fayette,Texas,48149,5383,115
+2022-12-21,Fannin,Texas,48147,7897,203
+2022-12-21,Falls,Texas,48145,4349,75
+2022-12-21,Erath,Texas,48143,9646,132
+2022-12-21,El Paso,Texas,48141,247719,3839
+2022-12-21,Ellis,Texas,48139,56131,605
+2022-12-21,Edwards,Texas,48137,561,11
+2022-12-21,Ector,Texas,48135,42345,724
+2022-12-21,Eastland,Texas,48133,3272,117
+2022-12-21,Duval,Texas,48131,4188,73
+2022-12-21,Donley,Texas,48129,1278,27
+2022-12-21,Dimmit,Texas,48127,6134,52
+2022-12-21,Dickens,Texas,48125,501,16
+2022-12-21,DeWitt,Texas,48123,7120,113
+2022-12-21,Denton,Texas,48121,217438,1417
+2022-12-21,Delta,Texas,48119,2011,27
+2022-12-21,Deaf Smith,Texas,48117,5604,119
+2022-12-21,Dawson,Texas,48115,3392,101
+2022-12-21,Dallas,Texas,48113,672853,6985
+2022-12-21,Dallam,Texas,48111,2350,43
+2022-12-21,Culberson,Texas,48109,538,15
+2022-12-21,Crosby,Texas,48107,2194,47
 2022-12-21,Crockett,Texas,48105,1322,20
 2022-12-21,Crane,Texas,48103,1491,24
 2022-12-21,Cottle,Texas,48101,367,9
-2022-12-21,Lee,Texas,48287,5066,64
 2022-12-21,Coryell,Texas,48099,20493,226
 2022-12-21,Cooke,Texas,48097,8301,153
 2022-12-21,Concho,Texas,48095,1310,12
@@ -18,17 +502,12 @@ date,county,state,fips,cases,deaths
 2022-12-21,Childress,Texas,48075,2910,34
 2022-12-21,Cherokee,Texas,48073,9372,279
 2022-12-21,Chambers,Texas,48071,14135,138
-2022-12-21,Leon,Texas,48289,4176,95
 2022-12-21,Castro,Texas,48069,2649,48
-2022-12-21,Liberty,Texas,48291,21517,411
-2022-12-21,Limestone,Texas,48293,5924,134
-2022-12-21,Lipscomb,Texas,48295,794,19
 2022-12-21,Cass,Texas,48067,8664,207
 2022-12-21,Carson,Texas,48065,1695,37
 2022-12-21,Camp,Texas,48063,3454,77
 2022-12-21,Cameron,Texas,48061,129400,2094
 2022-12-21,Callahan,Texas,48059,3383,77
-2022-12-21,Live Oak,Texas,48297,2358,51
 2022-12-21,Calhoun,Texas,48057,6750,53
 2022-12-21,Caldwell,Texas,48055,17191,185
 2022-12-21,Burnet,Texas,48053,13169,179
@@ -39,7 +518,6 @@ date,county,state,fips,cases,deaths
 2022-12-21,Brewster,Texas,48043,1307,33
 2022-12-21,Brazos,Texas,48041,72481,430
 2022-12-21,Brazoria,Texas,48039,113375,1023
-2022-12-21,Llano,Texas,48299,4877,101
 2022-12-21,Bowie,Texas,48037,23852,450
 2022-12-21,Bosque,Texas,48035,4754,75
 2022-12-21,Borden,Texas,48033,118,2
@@ -47,7 +525,6 @@ date,county,state,fips,cases,deaths
 2022-12-21,Bexar,Texas,48029,675629,6384
 2022-12-21,Bell,Texas,48027,82020,934
 2022-12-21,Bee,Texas,48025,9653,156
-2022-12-21,Loving,Texas,48301,361,1
 2022-12-21,Baylor,Texas,48023,919,33
 2022-12-21,Bastrop,Texas,48021,26323,248
 2022-12-21,Bandera,Texas,48019,4171,80
@@ -61,7 +538,6 @@ date,county,state,fips,cases,deaths
 2022-12-21,Andrews,Texas,48003,4847,73
 2022-12-21,Anderson,Texas,48001,10720,252
 2022-12-21,Wilson,Tennessee,47189,49305,520
-2022-12-21,Lubbock,Texas,48303,108962,1372
 2022-12-21,Williamson,Tennessee,47187,73095,435
 2022-12-21,White,Tennessee,47185,9533,140
 2022-12-21,Weakley,Tennessee,47183,11191,178
@@ -72,66 +548,44 @@ date,county,state,fips,cases,deaths
 2022-12-21,Unknown,Tennessee,,22102,254
 2022-12-21,Union,Tennessee,47173,6720,82
 2022-12-21,Unicoi,Tennessee,47171,6485,104
-2022-12-21,Lynn,Texas,48305,1660,41
 2022-12-21,Trousdale,Tennessee,47169,4613,47
-2022-12-21,Madison,Texas,48313,4157,66
-2022-12-21,Marion,Texas,48315,1961,67
 2022-12-21,Tipton,Tennessee,47167,21052,254
 2022-12-21,Sumner,Tennessee,47165,62752,787
 2022-12-21,Sullivan,Tennessee,47163,57014,788
 2022-12-21,Stewart,Tennessee,47161,3691,70
 2022-12-21,Smith,Tennessee,47159,7039,93
-2022-12-21,Martin,Texas,48317,1364,26
 2022-12-21,Shelby,Tennessee,47157,286255,3567
-2022-12-21,Mason,Texas,48319,977,13
-2022-12-21,Matagorda,Texas,48321,10035,185
 2022-12-21,Sevier,Tennessee,47155,35384,442
 2022-12-21,Sequatchie,Tennessee,47153,4924,72
 2022-12-21,Scott,Tennessee,47151,11425,136
-2022-12-21,Maverick,Texas,48323,23670,476
 2022-12-21,Rutherford,Tennessee,47149,112815,961
 2022-12-21,Robertson,Tennessee,47147,24942,325
 2022-12-21,Roane,Tennessee,47145,18595,262
 2022-12-21,Rhea,Tennessee,47143,11415,166
-2022-12-21,McCulloch,Texas,48307,1711,50
 2022-12-21,Putnam,Tennessee,47141,28811,318
-2022-12-21,McLennan,Texas,48309,72180,948
-2022-12-21,McMullen,Texas,48311,182,10
-2022-12-21,Medina,Texas,48325,11836,211
 2022-12-21,Polk,Tennessee,47139,5493,89
 2022-12-21,Pickett,Tennessee,47137,2083,38
 2022-12-21,Perry,Tennessee,47135,2682,59
 2022-12-21,Overton,Tennessee,47133,8322,132
-2022-12-21,Menard,Texas,48327,614,12
-2022-12-21,Midland,Texas,48329,46532,519
 2022-12-21,Obion,Tennessee,47131,12657,208
 2022-12-21,Morgan,Tennessee,47129,7477,95
-2022-12-21,Milam,Texas,48331,5796,107
 2022-12-21,Moore,Tennessee,47127,2630,41
 2022-12-21,Montgomery,Tennessee,47125,60818,621
 2022-12-21,Monroe,Tennessee,47123,17443,266
 2022-12-21,Meigs,Tennessee,47121,4017,62
-2022-12-21,Mills,Texas,48333,1575,39
 2022-12-21,McNairy,Tennessee,47109,9100,140
 2022-12-21,McMinn,Tennessee,47107,19286,281
-2022-12-21,Mitchell,Texas,48335,2068,50
 2022-12-21,Maury,Tennessee,47119,33845,372
 2022-12-21,Marshall,Tennessee,47117,12171,131
 2022-12-21,Marion,Tennessee,47115,10586,138
 2022-12-21,Madison,Tennessee,47113,37137,473
-2022-12-21,Montague,Texas,48337,5163,133
-2022-12-21,Montgomery,Texas,48339,166979,1349
 2022-12-21,Macon,Tennessee,47111,10011,158
-2022-12-21,Moore,Texas,48341,6214,115
 2022-12-21,Loudon,Tennessee,47105,17661,216
 2022-12-21,Lincoln,Tennessee,47103,11279,182
 2022-12-21,Lewis,Tennessee,47101,3975,67
 2022-12-21,Lawrence,Tennessee,47099,16498,225
 2022-12-21,Lauderdale,Tennessee,47097,8944,114
-2022-12-21,Morris,Texas,48343,2922,75
 2022-12-21,Lake,Tennessee,47095,3047,46
-2022-12-21,Motley,Texas,48345,310,14
-2022-12-21,Nacogdoches,Texas,48347,14357,270
 2022-12-21,Knox,Tennessee,47093,152812,1551
 2022-12-21,Johnson,Tennessee,47091,5891,107
 2022-12-21,Jefferson,Tennessee,47089,18833,300
@@ -140,39 +594,28 @@ date,county,state,fips,cases,deaths
 2022-12-21,Houston,Tennessee,47083,2963,63
 2022-12-21,Hickman,Tennessee,47081,8161,120
 2022-12-21,Henry,Tennessee,47079,9720,174
-2022-12-21,Navarro,Texas,48349,13951,243
 2022-12-21,Henderson,Tennessee,47077,10532,180
-2022-12-21,Newton,Texas,48351,1700,77
 2022-12-21,Haywood,Tennessee,47075,7529,108
 2022-12-21,Hawkins,Tennessee,47073,20449,356
 2022-12-21,Hardin,Tennessee,47071,10363,172
 2022-12-21,Hardeman,Tennessee,47069,9102,132
-2022-12-21,Nolan,Texas,48353,3421,102
-2022-12-21,Nueces,Texas,48355,110603,1578
 2022-12-21,Hancock,Tennessee,47067,2522,42
 2022-12-21,Hamilton,Tennessee,47065,118238,1253
 2022-12-21,Hamblen,Tennessee,47063,23412,382
 2022-12-21,Grundy,Tennessee,47061,4493,79
 2022-12-21,Greene,Tennessee,47059,26455,406
-2022-12-21,Ochiltree,Texas,48357,2613,54
 2022-12-21,Grainger,Tennessee,47057,7918,117
-2022-12-21,Oldham,Texas,48359,622,6
 2022-12-21,Giles,Tennessee,47055,11104,208
 2022-12-21,Gibson,Tennessee,47053,20756,288
 2022-12-21,Franklin,Tennessee,47051,15306,202
 2022-12-21,Fentress,Tennessee,47049,6777,138
-2022-12-21,Orange,Texas,48361,16862,373
 2022-12-21,Fayette,Tennessee,47047,13454,197
-2022-12-21,Palo Pinto,Texas,48363,7843,156
 2022-12-21,Dyer,Tennessee,47045,14979,222
 2022-12-21,Dickson,Tennessee,47043,19054,261
 2022-12-21,DeKalb,Tennessee,47041,7325,108
 2022-12-21,Decatur,Tennessee,47039,4283,72
-2022-12-21,Panola,Texas,48365,5363,142
 2022-12-21,Davidson,Tennessee,47037,246226,1796
 2022-12-21,Cumberland,Tennessee,47035,18996,344
-2022-12-21,Parker,Texas,48367,39350,512
-2022-12-21,Parmer,Texas,48369,2614,53
 2022-12-21,Crockett,Tennessee,47033,6116,89
 2022-12-21,Coffee,Tennessee,47031,20034,288
 2022-12-21,Cocke,Tennessee,47029,14085,239
@@ -190,17 +633,8 @@ date,county,state,fips,cases,deaths
 2022-12-21,Benton,Tennessee,47005,5424,103
 2022-12-21,Bedford,Tennessee,47003,17298,246
 2022-12-21,Anderson,Tennessee,47001,26624,381
-2022-12-21,Pecos,Texas,48371,3491,72
 2022-12-21,Ziebach,South Dakota,46137,706,12
 2022-12-21,Yankton,South Dakota,46135,6736,60
-2022-12-21,Pending County Assignment,Texas,,65,0
-2022-12-21,Polk,Texas,48373,9102,269
-2022-12-21,Potter,Texas,48375,41307,757
-2022-12-21,Presidio,Texas,48377,1139,42
-2022-12-21,Rains,Texas,48379,2175,66
-2022-12-21,Randall,Texas,48381,43770,531
-2022-12-21,Reagan,Texas,48383,950,16
-2022-12-21,Real,Texas,48385,974,29
 2022-12-21,Walworth,South Dakota,46129,1481,28
 2022-12-21,Union,South Dakota,46127,4290,55
 2022-12-21,Turner,South Dakota,46125,2160,64
@@ -211,26 +645,19 @@ date,county,state,fips,cases,deaths
 2022-12-21,Spink,South Dakota,46115,1674,36
 2022-12-21,Sanborn,South Dakota,46111,661,8
 2022-12-21,Roberts,South Dakota,46109,2764,56
-2022-12-21,Red River,Texas,48387,2681,71
 2022-12-21,Potter,South Dakota,46107,774,9
 2022-12-21,Perkins,South Dakota,46105,779,19
-2022-12-21,Reeves,Texas,48389,5340,76
 2022-12-21,Pennington,South Dakota,46103,37812,368
 2022-12-21,Oglala Lakota,South Dakota,46102,4773,62
 2022-12-21,Moody,South Dakota,46101,1657,29
-2022-12-21,Refugio,Texas,48391,2179,40
-2022-12-21,Roberts,Texas,48393,190,2
 2022-12-21,Minnehaha,South Dakota,46099,63548,549
 2022-12-21,Miner,South Dakota,46097,531,15
 2022-12-21,Mellette,South Dakota,46095,634,8
-2022-12-21,Robertson,Texas,48395,5200,83
-2022-12-21,Rockwall,Texas,48397,30562,273
 2022-12-21,Meade,South Dakota,46093,8187,68
 2022-12-21,McPherson,South Dakota,46089,523,15
 2022-12-21,McCook,South Dakota,46087,1475,32
 2022-12-21,Marshall,South Dakota,46091,917,15
 2022-12-21,Lyman,South Dakota,46085,1391,15
-2022-12-21,Runnels,Texas,48399,2687,69
 2022-12-21,Lincoln,South Dakota,46083,17073,110
 2022-12-21,Lawrence,South Dakota,46081,7633,88
 2022-12-21,Lake,South Dakota,46079,2577,28
@@ -244,17 +671,13 @@ date,county,state,fips,cases,deaths
 2022-12-21,Harding,South Dakota,46063,218,3
 2022-12-21,Hanson,South Dakota,46061,728,10
 2022-12-21,Hand,South Dakota,46059,647,13
-2022-12-21,Rusk,Texas,48401,12167,275
 2022-12-21,Hamlin,South Dakota,46057,1738,41
-2022-12-21,Sabine,Texas,48403,1492,91
 2022-12-21,Haakon,South Dakota,46055,510,13
 2022-12-21,Gregory,South Dakota,46053,1194,34
 2022-12-21,Grant,South Dakota,46051,2319,51
 2022-12-21,Faulk,South Dakota,46049,677,17
 2022-12-21,Fall River,South Dakota,46047,2381,44
 2022-12-21,Edmunds,South Dakota,46045,1039,17
-2022-12-21,San Augustine,Texas,48405,1177,47
-2022-12-21,San Jacinto,Texas,48407,6544,130
 2022-12-21,Douglas,South Dakota,46043,786,18
 2022-12-21,Dewey,South Dakota,46041,3346,46
 2022-12-21,Deuel,South Dakota,46039,1171,12
@@ -268,20 +691,15 @@ date,county,state,fips,cases,deaths
 2022-12-21,Charles Mix,South Dakota,46023,3426,37
 2022-12-21,Campbell,South Dakota,46021,304,7
 2022-12-21,Butte,South Dakota,46019,3166,48
-2022-12-21,San Patricio,Texas,48409,13919,358
 2022-12-21,Buffalo,South Dakota,46017,678,21
-2022-12-21,San Saba,Texas,48411,1434,39
 2022-12-21,Brule,South Dakota,46015,1650,27
 2022-12-21,Brown,South Dakota,46013,11741,132
 2022-12-21,Brookings,South Dakota,46011,9179,62
 2022-12-21,Bon Homme,South Dakota,46009,2494,41
-2022-12-21,Schleicher,Texas,48413,578,9
 2022-12-21,Bennett,South Dakota,46007,902,16
 2022-12-21,Beadle,South Dakota,46005,5436,64
 2022-12-21,Aurora,South Dakota,46003,886,18
-2022-12-21,Scurry,Texas,48415,5753,107
 2022-12-21,York,South Carolina,45091,92235,791
-2022-12-21,Shackelford,Texas,48417,1062,13
 2022-12-21,Williamsburg,South Carolina,45089,9916,168
 2022-12-21,Union,South Carolina,45087,9319,159
 2022-12-21,Sumter,South Carolina,45085,33852,421
@@ -289,32 +707,20 @@ date,county,state,fips,cases,deaths
 2022-12-21,Saluda,South Carolina,45081,4438,86
 2022-12-21,Richland,South Carolina,45079,153684,998
 2022-12-21,Pickens,South Carolina,45077,52633,661
-2022-12-21,Shelby,Texas,48419,5144,137
-2022-12-21,Sherman,Texas,48421,517,19
-2022-12-21,Smith,Texas,48423,54810,995
-2022-12-21,Somervell,Texas,48425,2203,39
-2022-12-21,Starr,Texas,48427,23474,379
 2022-12-21,Orangeburg,South Carolina,45075,28374,436
 2022-12-21,Oconee,South Carolina,45073,28237,369
-2022-12-21,Stephens,Texas,48429,2079,54
 2022-12-21,Newberry,South Carolina,45071,15799,213
 2022-12-21,McCormick,South Carolina,45065,2661,41
 2022-12-21,Marlboro,South Carolina,45069,9473,137
 2022-12-21,Marion,South Carolina,45067,10246,179
-2022-12-21,Sterling,Texas,48431,315,9
 2022-12-21,Lexington,South Carolina,45063,118302,928
 2022-12-21,Lee,South Carolina,45061,4884,118
-2022-12-21,Stonewall,Texas,48433,386,7
 2022-12-21,Laurens,South Carolina,45059,22196,318
-2022-12-21,Sutton,Texas,48435,902,14
-2022-12-21,Swisher,Texas,48437,2589,34
 2022-12-21,Lancaster,South Carolina,45057,30242,324
 2022-12-21,Kershaw,South Carolina,45055,26433,273
-2022-12-21,Tarrant,Texas,48439,665240,6200
 2022-12-21,Jasper,South Carolina,45053,6937,107
 2022-12-21,Horry,South Carolina,45051,116686,1245
 2022-12-21,Hampton,South Carolina,45049,5780,87
-2022-12-21,Taylor,Texas,48441,42432,755
 2022-12-21,Greenwood,South Carolina,45047,25870,322
 2022-12-21,Greenville,South Carolina,45045,200087,2089
 2022-12-21,Georgetown,South Carolina,45043,18932,262
@@ -324,7 +730,6 @@ date,county,state,fips,cases,deaths
 2022-12-21,Dorchester,South Carolina,45035,67607,540
 2022-12-21,Dillon,South Carolina,45033,11278,151
 2022-12-21,Darlington,South Carolina,45031,21518,336
-2022-12-21,Terrell,Texas,48443,135,3
 2022-12-21,Colleton,South Carolina,45029,10840,225
 2022-12-21,Clarendon,South Carolina,45027,10428,171
 2022-12-21,Chesterfield,South Carolina,45025,14284,216
@@ -335,9 +740,6 @@ date,county,state,fips,cases,deaths
 2022-12-21,Berkeley,South Carolina,45015,63785,516
 2022-12-21,Beaufort,South Carolina,45013,51845,404
 2022-12-21,Barnwell,South Carolina,45011,6585,105
-2022-12-21,Terry,Texas,48445,2902,85
-2022-12-21,Throckmorton,Texas,48447,292,10
-2022-12-21,Titus,Texas,48449,9974,145
 2022-12-21,Bamberg,South Carolina,45009,4138,76
 2022-12-21,Anderson,South Carolina,45007,67315,1063
 2022-12-21,Allendale,South Carolina,45005,2369,35
@@ -345,153 +747,116 @@ date,county,state,fips,cases,deaths
 2022-12-21,Abbeville,South Carolina,45001,7552,95
 2022-12-21,Washington,Rhode Island,44009,41390,266
 2022-12-21,Unknown,Rhode Island,,29424,0
-2022-12-21,Tom Green,Texas,48451,38403,485
 2022-12-21,Providence,Rhode Island,44007,266855,2666
 2022-12-21,Newport,Rhode Island,44005,25381,135
 2022-12-21,Kent,Rhode Island,44003,61543,549
 2022-12-21,Bristol,Rhode Island,44001,17099,192
-2022-12-21,Travis,Texas,48453,284052,1811
-2022-12-21,Yauco,Puerto Rico,72153,11064,
-2022-12-21,Yabucoa,Puerto Rico,72151,9951,
-2022-12-21,Villalba,Puerto Rico,72149,7346,
+2022-12-21,Yauco,Puerto Rico,72153,11069,
+2022-12-21,Yabucoa,Puerto Rico,72151,9961,
+2022-12-21,Villalba,Puerto Rico,72149,7347,
 2022-12-21,Vieques,Puerto Rico,72147,1810,
-2022-12-21,Vega Baja,Puerto Rico,72145,19694,
-2022-12-21,Vega Alta,Puerto Rico,72143,11981,
-2022-12-21,Trinity,Texas,48455,3140,76
-2022-12-21,Utuado,Puerto Rico,72141,7992,
-2022-12-21,Unknown,Puerto Rico,,27237,5485
-2022-12-21,Trujillo Alto,Puerto Rico,72139,19045,
-2022-12-21,Toa Baja,Puerto Rico,72137,24317,
-2022-12-21,Toa Alta,Puerto Rico,72135,21741,
-2022-12-21,Tyler,Texas,48457,4869,93
-2022-12-21,Santa Isabel,Puerto Rico,72133,6493,
-2022-12-21,Upshur,Texas,48459,8886,218
-2022-12-21,San Sebastian,Puerto Rico,72131,13640,
-2022-12-21,Upton,Texas,48461,924,18
-2022-12-21,San Lorenzo,Puerto Rico,72129,11574,
-2022-12-21,Uvalde,Texas,48463,11434,147
-2022-12-21,San Juan,Puerto Rico,72127,100940,
-2022-12-21,San German,Puerto Rico,72125,8920,
+2022-12-21,Vega Baja,Puerto Rico,72145,19721,
+2022-12-21,Vega Alta,Puerto Rico,72143,11988,
+2022-12-21,Utuado,Puerto Rico,72141,7998,
+2022-12-21,Unknown,Puerto Rico,,27257,5490
+2022-12-21,Trujillo Alto,Puerto Rico,72139,19053,
+2022-12-21,Toa Baja,Puerto Rico,72137,24341,
+2022-12-21,Toa Alta,Puerto Rico,72135,21755,
+2022-12-21,Santa Isabel,Puerto Rico,72133,6507,
+2022-12-21,San Sebastian,Puerto Rico,72131,13654,
+2022-12-21,San Lorenzo,Puerto Rico,72129,11585,
+2022-12-21,San Juan,Puerto Rico,72127,101003,
+2022-12-21,San German,Puerto Rico,72125,8927,
 2022-12-21,Salinas,Puerto Rico,72123,8380,
-2022-12-21,Sabana Grande,Puerto Rico,72121,6222,
-2022-12-21,Rio Grande,Puerto Rico,72119,13980,
-2022-12-21,Val Verde,Texas,48465,15707,308
-2022-12-21,Rincon,Puerto Rico,72117,4262,
-2022-12-21,Quebradillas,Puerto Rico,72115,8627,
-2022-12-21,Ponce,Puerto Rico,72113,40187,
-2022-12-21,Van Zandt,Texas,48467,12200,313
-2022-12-21,Penuelas,Puerto Rico,72111,5663,
-2022-12-21,Patillas,Puerto Rico,72109,5457,
-2022-12-21,Orocovis,Puerto Rico,72107,6475,
-2022-12-21,Victoria,Texas,48469,22210,424
-2022-12-21,Walker,Texas,48471,21788,225
-2022-12-21,Waller,Texas,48473,11341,125
-2022-12-21,Ward,Texas,48475,3206,49
-2022-12-21,Naranjito,Puerto Rico,72105,9712,
-2022-12-21,Naguabo,Puerto Rico,72103,7068,
-2022-12-21,Morovis,Puerto Rico,72101,9108,
-2022-12-21,Washington,Texas,48477,10612,160
-2022-12-21,Moca,Puerto Rico,72099,12841,
-2022-12-21,Mayaguez,Puerto Rico,72097,21590,
-2022-12-21,Webb,Texas,48479,108855,1084
-2022-12-21,Maunabo,Puerto Rico,72095,3224,
-2022-12-21,Maricao,Puerto Rico,72093,1531,
-2022-12-21,Wharton,Texas,48481,11113,226
-2022-12-21,Wheeler,Texas,48483,1297,25
-2022-12-21,Manati,Puerto Rico,72091,12413,
-2022-12-21,Luquillo,Puerto Rico,72089,5111,
-2022-12-21,Loiza,Puerto Rico,72087,5651,
-2022-12-21,Wichita,Texas,48485,39482,714
-2022-12-21,Las Piedras,Puerto Rico,72085,11838,
-2022-12-21,Las Marias,Puerto Rico,72083,2767,
-2022-12-21,Lares,Puerto Rico,72081,10612,
-2022-12-21,Wilbarger,Texas,48487,4035,90
-2022-12-21,Willacy,Texas,48489,8499,136
-2022-12-21,Lajas,Puerto Rico,72079,6640,
-2022-12-21,Williamson,Texas,48491,163757,1010
-2022-12-21,Juncos,Puerto Rico,72077,12529,
-2022-12-21,Juana Diaz,Puerto Rico,72075,14164,
-2022-12-21,Jayuya,Puerto Rico,72073,5497,
-2022-12-21,Wilson,Texas,48493,12558,173
-2022-12-21,Winkler,Texas,48495,2131,36
-2022-12-21,Wise,Texas,48497,19048,291
-2022-12-21,Wood,Texas,48499,9403,300
-2022-12-21,Isabela,Puerto Rico,72071,13784,
-2022-12-21,Humacao,Puerto Rico,72069,16779,
-2022-12-21,Hormigueros,Puerto Rico,72067,4840,
-2022-12-21,Hatillo,Puerto Rico,72065,11538,
-2022-12-21,Gurabo,Puerto Rico,72063,14450,
-2022-12-21,Guaynabo,Puerto Rico,72061,29870,
-2022-12-21,Guayanilla,Puerto Rico,72059,5695,
-2022-12-21,Guayama,Puerto Rico,72057,11625,
-2022-12-21,Guanica,Puerto Rico,72055,3779,
-2022-12-21,Yoakum,Texas,48501,1641,42
-2022-12-21,Florida,Puerto Rico,72054,4771,
-2022-12-21,Young,Texas,48503,4362,98
-2022-12-21,Zapata,Texas,48505,4339,56
-2022-12-21,Zavala,Texas,48507,4453,70
-2022-12-21,Fajardo,Puerto Rico,72053,9520,
-2022-12-21,Dorado,Puerto Rico,72051,12419,
+2022-12-21,Sabana Grande,Puerto Rico,72121,6228,
+2022-12-21,Rio Grande,Puerto Rico,72119,13982,
+2022-12-21,Rincon,Puerto Rico,72117,4264,
+2022-12-21,Quebradillas,Puerto Rico,72115,8640,
+2022-12-21,Ponce,Puerto Rico,72113,40234,
+2022-12-21,Penuelas,Puerto Rico,72111,5666,
+2022-12-21,Patillas,Puerto Rico,72109,5459,
+2022-12-21,Orocovis,Puerto Rico,72107,6482,
+2022-12-21,Naranjito,Puerto Rico,72105,9718,
+2022-12-21,Naguabo,Puerto Rico,72103,7081,
+2022-12-21,Morovis,Puerto Rico,72101,9120,
+2022-12-21,Moca,Puerto Rico,72099,12846,
+2022-12-21,Mayaguez,Puerto Rico,72097,21641,
+2022-12-21,Maunabo,Puerto Rico,72095,3227,
+2022-12-21,Maricao,Puerto Rico,72093,1532,
+2022-12-21,Manati,Puerto Rico,72091,12426,
+2022-12-21,Luquillo,Puerto Rico,72089,5113,
+2022-12-21,Loiza,Puerto Rico,72087,5656,
+2022-12-21,Las Piedras,Puerto Rico,72085,11847,
+2022-12-21,Las Marias,Puerto Rico,72083,2772,
+2022-12-21,Lares,Puerto Rico,72081,10632,
+2022-12-21,Lajas,Puerto Rico,72079,6648,
+2022-12-21,Juncos,Puerto Rico,72077,12538,
+2022-12-21,Juana Diaz,Puerto Rico,72075,14175,
+2022-12-21,Jayuya,Puerto Rico,72073,5498,
+2022-12-21,Isabela,Puerto Rico,72071,13804,
+2022-12-21,Humacao,Puerto Rico,72069,16793,
+2022-12-21,Hormigueros,Puerto Rico,72067,4848,
+2022-12-21,Hatillo,Puerto Rico,72065,11563,
+2022-12-21,Gurabo,Puerto Rico,72063,14455,
+2022-12-21,Guaynabo,Puerto Rico,72061,29896,
+2022-12-21,Guayanilla,Puerto Rico,72059,5702,
+2022-12-21,Guayama,Puerto Rico,72057,11630,
+2022-12-21,Guanica,Puerto Rico,72055,3780,
+2022-12-21,Florida,Puerto Rico,72054,4779,
+2022-12-21,Fajardo,Puerto Rico,72053,9525,
+2022-12-21,Dorado,Puerto Rico,72051,12424,
 2022-12-21,Culebra,Puerto Rico,72049,512,
 2022-12-21,Corozal,Puerto Rico,72047,12057,
-2022-12-21,Comerio,Puerto Rico,72045,5873,
-2022-12-21,Coamo,Puerto Rico,72043,11313,
-2022-12-21,Cidra,Puerto Rico,72041,13668,
-2022-12-21,Ciales,Puerto Rico,72039,5191,
-2022-12-21,Ceiba,Puerto Rico,72037,3201,
-2022-12-21,Cayey,Puerto Rico,72035,14111,
-2022-12-21,Catano,Puerto Rico,72033,7260,
-2022-12-21,Carolina,Puerto Rico,72031,50370,
-2022-12-21,Canovanas,Puerto Rico,72029,12760,
-2022-12-21,Camuy,Puerto Rico,72027,10893,
-2022-12-21,Caguas,Puerto Rico,72025,43258,
-2022-12-21,Cabo Rojo,Puerto Rico,72023,13490,
-2022-12-21,Bayamon,Puerto Rico,72021,65498,
-2022-12-21,Barranquitas,Puerto Rico,72019,9309,
-2022-12-21,Barceloneta,Puerto Rico,72017,7363,
-2022-12-21,Arroyo,Puerto Rico,72015,5464,
-2022-12-21,Arecibo,Puerto Rico,72013,28314,
-2022-12-21,Anasco,Puerto Rico,72011,7970,
-2022-12-21,Aibonito,Puerto Rico,72009,8076,
-2022-12-21,Aguas Buenas,Puerto Rico,72007,8061,
-2022-12-21,Aguadilla,Puerto Rico,72005,15771,
-2022-12-21,Aguada,Puerto Rico,72003,12368,
-2022-12-21,Adjuntas,Puerto Rico,72001,6432,
-2022-12-21,Beaver,Utah,49001,1775,17
+2022-12-21,Comerio,Puerto Rico,72045,5889,
+2022-12-21,Coamo,Puerto Rico,72043,11330,
+2022-12-21,Cidra,Puerto Rico,72041,13702,
+2022-12-21,Ciales,Puerto Rico,72039,5194,
+2022-12-21,Ceiba,Puerto Rico,72037,3203,
+2022-12-21,Cayey,Puerto Rico,72035,14134,
+2022-12-21,Catano,Puerto Rico,72033,7268,
+2022-12-21,Carolina,Puerto Rico,72031,50410,
+2022-12-21,Canovanas,Puerto Rico,72029,12771,
+2022-12-21,Camuy,Puerto Rico,72027,10916,
+2022-12-21,Caguas,Puerto Rico,72025,43303,
+2022-12-21,Cabo Rojo,Puerto Rico,72023,13512,
+2022-12-21,Bayamon,Puerto Rico,72021,65564,
+2022-12-21,Barranquitas,Puerto Rico,72019,9316,
+2022-12-21,Barceloneta,Puerto Rico,72017,7373,
+2022-12-21,Arroyo,Puerto Rico,72015,5465,
+2022-12-21,Arecibo,Puerto Rico,72013,28349,
+2022-12-21,Anasco,Puerto Rico,72011,7976,
+2022-12-21,Aibonito,Puerto Rico,72009,8082,
+2022-12-21,Aguas Buenas,Puerto Rico,72007,8073,
+2022-12-21,Aguadilla,Puerto Rico,72005,15775,
+2022-12-21,Aguada,Puerto Rico,72003,12377,
+2022-12-21,Adjuntas,Puerto Rico,72001,6436,
 2022-12-21,York,Pennsylvania,42133,141850,1614
 2022-12-21,Wyoming,Pennsylvania,42131,6296,119
 2022-12-21,Westmoreland,Pennsylvania,42129,96052,1504
 2022-12-21,Wayne,Pennsylvania,42127,12708,197
-2022-12-21,Box Elder,Utah,49003,15810,132
 2022-12-21,Washington,Pennsylvania,42125,61965,703
 2022-12-21,Warren,Pennsylvania,42123,9298,229
 2022-12-21,Venango,Pennsylvania,42121,13406,264
 2022-12-21,Union,Pennsylvania,42119,13223,159
 2022-12-21,Tioga,Pennsylvania,42117,9912,219
 2022-12-21,Susquehanna,Pennsylvania,42115,9725,124
-2022-12-21,Cache,Utah,49005,41164,122
 2022-12-21,Sullivan,Pennsylvania,42113,1332,38
 2022-12-21,Somerset,Pennsylvania,42111,21705,430
-2022-12-21,Carbon,Utah,49007,6001,54
 2022-12-21,Snyder,Pennsylvania,42109,9413,168
 2022-12-21,Schuylkill,Pennsylvania,42107,40875,737
 2022-12-21,Potter,Pennsylvania,42105,3771,99
 2022-12-21,Pike,Pennsylvania,42103,12744,167
 2022-12-21,Philadelphia,Pennsylvania,42101,378647,5405
-2022-12-21,Daggett,Utah,49009,168,0
 2022-12-21,Perry,Pennsylvania,42099,10122,196
 2022-12-21,Northumberland,Pennsylvania,42097,27462,573
 2022-12-21,Northampton,Pennsylvania,42095,96114,1193
 2022-12-21,Montour,Pennsylvania,42093,5672,96
-2022-12-21,Davis,Utah,49011,117277,444
 2022-12-21,Montgomery,Pennsylvania,42091,191636,2543
-2022-12-21,Duchesne,Utah,49013,5016,32
 2022-12-21,Monroe,Pennsylvania,42089,46061,573
 2022-12-21,Mifflin,Pennsylvania,42087,14586,300
 2022-12-21,Mercer,Pennsylvania,42085,27415,534
 2022-12-21,McKean,Pennsylvania,42083,9550,168
 2022-12-21,Lycoming,Pennsylvania,42081,33804,579
-2022-12-21,Emery,Utah,49015,2927,33
 2022-12-21,Luzerne,Pennsylvania,42079,90462,1532
 2022-12-21,Lehigh,Pennsylvania,42077,107233,1332
 2022-12-21,Lebanon,Pennsylvania,42075,43502,552
@@ -501,12 +866,10 @@ date,county,state,fips,cases,deaths
 2022-12-21,Juniata,Pennsylvania,42067,5591,189
 2022-12-21,Jefferson,Pennsylvania,42065,10758,257
 2022-12-21,Indiana,Pennsylvania,42063,21154,385
-2022-12-21,Garfield,Utah,49017,1074,16
 2022-12-21,Huntingdon,Pennsylvania,42061,13417,271
 2022-12-21,Greene,Pennsylvania,42059,10316,133
 2022-12-21,Fulton,Pennsylvania,42057,4915,71
 2022-12-21,Franklin,Pennsylvania,42055,49377,770
-2022-12-21,Grand,Utah,49019,2757,6
 2022-12-21,Forest,Pennsylvania,42053,2499,35
 2022-12-21,Fayette,Pennsylvania,42051,37903,738
 2022-12-21,Erie,Pennsylvania,42049,69712,866
@@ -518,13 +881,10 @@ date,county,state,fips,cases,deaths
 2022-12-21,Columbia,Pennsylvania,42037,18656,272
 2022-12-21,Clinton,Pennsylvania,42035,10783,139
 2022-12-21,Clearfield,Pennsylvania,42033,23327,386
-2022-12-21,Iron,Utah,49021,16351,97
 2022-12-21,Clarion,Pennsylvania,42031,9612,217
 2022-12-21,Chester,Pennsylvania,42029,113205,1281
 2022-12-21,Centre,Pennsylvania,42027,42683,384
 2022-12-21,Carbon,Pennsylvania,42025,19319,324
-2022-12-21,Juab,Utah,49023,3239,27
-2022-12-21,Kane,Utah,49025,1579,16
 2022-12-21,Cameron,Pennsylvania,42023,985,22
 2022-12-21,Cambria,Pennsylvania,42021,41825,793
 2022-12-21,Butler,Pennsylvania,42019,53335,815
@@ -537,27 +897,20 @@ date,county,state,fips,cases,deaths
 2022-12-21,Armstrong,Pennsylvania,42005,17816,378
 2022-12-21,Allegheny,Pennsylvania,42003,328971,3682
 2022-12-21,Adams,Pennsylvania,42001,30202,403
-2022-12-21,Millard,Utah,49027,3641,40
 2022-12-21,Yamhill,Oregon,41071,22062,248
 2022-12-21,Wheeler,Oregon,41069,300,3
-2022-12-21,Morgan,Utah,49029,3196,15
 2022-12-21,Washington,Oregon,41067,118763,737
 2022-12-21,Wasco,Oregon,41065,6557,77
 2022-12-21,Wallowa,Oregon,41063,1541,25
 2022-12-21,Unknown,Oregon,,4,0
 2022-12-21,Union,Oregon,41061,5738,94
 2022-12-21,Umatilla,Oregon,41059,25786,248
-2022-12-21,Piute,Utah,49031,345,7
-2022-12-21,Rich,Utah,49033,374,0
-2022-12-21,Salt Lake,Utah,49035,402195,1783
 2022-12-21,Tillamook,Oregon,41057,4865,75
 2022-12-21,Sherman,Oregon,41055,381,6
 2022-12-21,Polk,Oregon,41053,19828,160
 2022-12-21,Multnomah,Oregon,41051,166189,1424
 2022-12-21,Morrow,Oregon,41049,3307,37
-2022-12-21,San Juan,Utah,49037,5004,77
 2022-12-21,Marion,Oregon,41047,85431,812
-2022-12-21,Sanpete,Utah,49039,8914,58
 2022-12-21,Malheur,Oregon,41045,9430,124
 2022-12-21,Linn,Oregon,41043,32308,315
 2022-12-21,Lincoln,Oregon,41041,8937,109
@@ -567,9 +920,6 @@ date,county,state,fips,cases,deaths
 2022-12-21,Josephine,Oregon,41033,20325,390
 2022-12-21,Jefferson,Oregon,41031,8850,103
 2022-12-21,Jackson,Oregon,41029,53047,608
-2022-12-21,Sevier,Utah,49041,5957,31
-2022-12-21,Summit,Utah,49043,15657,27
-2022-12-21,Tooele,Utah,49045,24677,112
 2022-12-21,Hood River,Oregon,41027,4534,48
 2022-12-21,Harney,Oregon,41025,1933,41
 2022-12-21,Grant,Oregon,41023,2203,26
@@ -586,24 +936,17 @@ date,county,state,fips,cases,deaths
 2022-12-21,Baker,Oregon,41001,3754,63
 2022-12-21,Woodward,Oklahoma,40153,6034,86
 2022-12-21,Woods,Oklahoma,40151,2653,44
-2022-12-21,Uintah,Utah,49047,9372,79
-2022-12-21,Unknown,Utah,,5544,71
 2022-12-21,Washita,Oklahoma,40149,3152,65
 2022-12-21,Washington,Oklahoma,40147,15035,277
-2022-12-21,Utah,Utah,49049,223276,866
 2022-12-21,Wagoner,Oklahoma,40145,26133,294
 2022-12-21,Unknown,Oklahoma,,109,0
 2022-12-21,Tulsa,Oklahoma,40143,204620,2341
 2022-12-21,Tillman,Oklahoma,40141,1765,45
 2022-12-21,Texas,Oklahoma,40139,6650,77
-2022-12-21,Wasatch,Utah,49051,12019,39
-2022-12-21,Washington,Utah,49053,50338,496
 2022-12-21,Stephens,Oklahoma,40137,12860,215
-2022-12-21,Wayne,Utah,49055,526,0
 2022-12-21,Sequoyah,Oklahoma,40135,12539,192
 2022-12-21,Seminole,Oklahoma,40133,7410,142
 2022-12-21,Rogers,Oklahoma,40131,30336,406
-2022-12-21,Weber,Utah,49057,83833,464
 2022-12-21,Roger Mills,Oklahoma,40129,1059,20
 2022-12-21,Pushmataha,Oklahoma,40127,3129,60
 2022-12-21,Pottawatomie,Oklahoma,40125,25486,301
@@ -619,7 +962,6 @@ date,county,state,fips,cases,deaths
 2022-12-21,Nowata,Oklahoma,40105,3144,45
 2022-12-21,Noble,Oklahoma,40103,3511,48
 2022-12-21,Muskogee,Oklahoma,40101,23512,372
-2022-12-21,Addison,Vermont,50001,6741,27
 2022-12-21,Murray,Oklahoma,40099,5070,84
 2022-12-21,McIntosh,Oklahoma,40091,5568,129
 2022-12-21,McCurtain,Oklahoma,40089,9396,242
@@ -632,7 +974,6 @@ date,county,state,fips,cases,deaths
 2022-12-21,Lincoln,Oklahoma,40081,9463,147
 2022-12-21,Le Flore,Oklahoma,40079,14923,210
 2022-12-21,Latimer,Oklahoma,40077,2614,50
-2022-12-21,Bennington,Vermont,50003,11928,84
 2022-12-21,Kiowa,Oklahoma,40075,2308,56
 2022-12-21,Kingfisher,Oklahoma,40073,4710,71
 2022-12-21,Kay,Oklahoma,40071,14842,238
@@ -644,29 +985,23 @@ date,county,state,fips,cases,deaths
 2022-12-21,Harper,Oklahoma,40059,820,13
 2022-12-21,Harmon,Oklahoma,40057,812,14
 2022-12-21,Greer,Oklahoma,40055,1526,43
-2022-12-21,Caledonia,Vermont,50005,6445,36
 2022-12-21,Grant,Oklahoma,40053,1237,19
 2022-12-21,Grady,Oklahoma,40051,16371,260
-2022-12-21,Chittenden,Vermont,50007,38735,199
 2022-12-21,Garvin,Oklahoma,40049,8180,155
 2022-12-21,Garfield,Oklahoma,40047,17512,311
 2022-12-21,Ellis,Oklahoma,40045,990,17
 2022-12-21,Dewey,Oklahoma,40043,1199,35
-2022-12-21,Essex,Vermont,50009,1442,4
 2022-12-21,Delaware,Oklahoma,40041,13185,250
 2022-12-21,Custer,Oklahoma,40039,9335,175
 2022-12-21,Creek,Oklahoma,40037,21725,354
-2022-12-21,Franklin,Vermont,50011,11339,72
 2022-12-21,Craig,Oklahoma,40035,5797,64
 2022-12-21,Cotton,Oklahoma,40033,1616,39
 2022-12-21,Comanche,Oklahoma,40031,37955,422
 2022-12-21,Coal,Oklahoma,40029,1993,25
 2022-12-21,Cleveland,Oklahoma,40027,96320,876
 2022-12-21,Cimarron,Oklahoma,40025,677,12
-2022-12-21,Grand Isle,Vermont,50013,1262,11
 2022-12-21,Choctaw,Oklahoma,40023,4874,100
 2022-12-21,Cherokee,Oklahoma,40021,16845,165
-2022-12-21,Lamoille,Vermont,50015,4280,21
 2022-12-21,Carter,Oklahoma,40019,17923,255
 2022-12-21,Canadian,Oklahoma,40017,46764,421
 2022-12-21,Caddo,Oklahoma,40015,9694,195
@@ -674,31 +1009,24 @@ date,county,state,fips,cases,deaths
 2022-12-21,Blaine,Oklahoma,40011,2824,56
 2022-12-21,Beckham,Oklahoma,40009,6961,111
 2022-12-21,Beaver,Oklahoma,40007,1137,22
-2022-12-21,Orange,Vermont,50017,5022,19
 2022-12-21,Atoka,Oklahoma,40005,4429,68
 2022-12-21,Alfalfa,Oklahoma,40003,1842,20
 2022-12-21,Adair,Oklahoma,40001,9477,113
-2022-12-21,Orleans,Vermont,50019,7092,42
 2022-12-21,Wyandot,Ohio,39175,6397,108
 2022-12-21,Wood,Ohio,39173,37486,387
 2022-12-21,Williams,Ohio,39171,11464,170
 2022-12-21,Wayne,Ohio,39169,27802,470
 2022-12-21,Washington,Ohio,39167,14900,240
-2022-12-21,Rutland,Vermont,50021,16349,87
-2022-12-21,Unknown,Vermont,,2918,2
 2022-12-21,Warren,Ohio,39165,70133,648
 2022-12-21,Vinton,Ohio,39163,3554,59
-2022-12-21,Washington,Vermont,50023,13985,67
 2022-12-21,Van Wert,Ohio,39161,7949,160
 2022-12-21,Union,Ohio,39159,19284,111
 2022-12-21,Tuscarawas,Ohio,39157,24558,534
-2022-12-21,Windham,Vermont,50025,8660,47
 2022-12-21,Trumbull,Ohio,39155,51043,1007
 2022-12-21,Summit,Ohio,39153,137890,1816
 2022-12-21,Stark,Ohio,39151,94934,1798
 2022-12-21,Shelby,Ohio,39149,13003,199
 2022-12-21,Seneca,Ohio,39147,15226,243
-2022-12-21,Windsor,Vermont,50027,11459,63
 2022-12-21,Scioto,Ohio,39145,26469,273
 2022-12-21,Sandusky,Ohio,39143,16887,255
 2022-12-21,Ross,Ohio,39141,24054,319
@@ -717,13 +1045,9 @@ date,county,state,fips,cases,deaths
 2022-12-21,Morgan,Ohio,39115,4020,65
 2022-12-21,Montgomery,Ohio,39113,155656,2151
 2022-12-21,Monroe,Ohio,39111,4066,82
-2022-12-21,Accomack,Virginia,51001,8616,115
 2022-12-21,Miami,Ohio,39109,30759,498
 2022-12-21,Mercer,Ohio,39107,11062,146
 2022-12-21,Meigs,Ohio,39105,6056,100
-2022-12-21,Albemarle,Virginia,51003,24107,198
-2022-12-21,Alexandria city,Virginia,51510,43685,218
-2022-12-21,Alleghany,Virginia,51005,4254,108
 2022-12-21,Medina,Ohio,39103,48976,532
 2022-12-21,Marion,Ohio,39101,23740,284
 2022-12-21,Mahoning,Ohio,39099,65068,1158
@@ -751,28 +1075,21 @@ date,county,state,fips,cases,deaths
 2022-12-21,Geauga,Ohio,39055,19665,288
 2022-12-21,Gallia,Ohio,39053,9908,135
 2022-12-21,Fulton,Ohio,39051,12132,184
-2022-12-21,Amelia,Virginia,51007,3384,63
 2022-12-21,Franklin,Ohio,39049,354558,2760
 2022-12-21,Fayette,Ohio,39047,9091,132
 2022-12-21,Fairfield,Ohio,39045,46034,464
 2022-12-21,Erie,Ohio,39043,24039,283
-2022-12-21,Amherst,Virginia,51009,8967,105
 2022-12-21,Delaware,Ohio,39041,54307,302
-2022-12-21,Appomattox,Virginia,51011,4801,59
 2022-12-21,Defiance,Ohio,39039,12044,172
 2022-12-21,Darke,Ohio,39037,14628,251
 2022-12-21,Cuyahoga,Ohio,39035,336095,4027
 2022-12-21,Crawford,Ohio,39033,13761,223
-2022-12-21,Arlington,Virginia,51013,64119,360
-2022-12-21,Augusta,Virginia,51015,23496,232
 2022-12-21,Coshocton,Ohio,39031,9782,167
 2022-12-21,Columbiana,Ohio,39029,28923,503
-2022-12-21,Bath,Virginia,51017,1038,20
 2022-12-21,Clinton,Ohio,39027,12389,178
 2022-12-21,Clermont,Ohio,39025,63145,604
 2022-12-21,Clark,Ohio,39023,42053,610
 2022-12-21,Champaign,Ohio,39021,10460,161
-2022-12-21,Bedford,Virginia,51019,21115,274
 2022-12-21,Carroll,Ohio,39019,6190,138
 2022-12-21,Butler,Ohio,39017,112476,1219
 2022-12-21,Brown,Ohio,39015,13592,193
@@ -781,12 +1098,10 @@ date,county,state,fips,cases,deaths
 2022-12-21,Athens,Ohio,39009,19112,155
 2022-12-21,Ashtabula,Ohio,39007,24960,457
 2022-12-21,Ashland,Ohio,39005,14494,233
-2022-12-21,Bland,Virginia,51021,2297,25
 2022-12-21,Allen,Ohio,39003,32601,498
 2022-12-21,Adams,Ohio,39001,8561,158
 2022-12-21,Tinian,Northern Mariana Islands,69120,386,1
 2022-12-21,Saipan,Northern Mariana Islands,69110,12429,40
-2022-12-21,Botetourt,Virginia,51023,9499,112
 2022-12-21,Rota,Northern Mariana Islands,69100,421,0
 2022-12-21,Williams,North Dakota,38105,11963,73
 2022-12-21,Wells,North Dakota,38103,1177,13
@@ -801,14 +1116,10 @@ date,county,state,fips,cases,deaths
 2022-12-21,Slope,North Dakota,38087,71,0
 2022-12-21,Sioux,North Dakota,38085,1609,19
 2022-12-21,Sheridan,North Dakota,38083,327,7
-2022-12-21,Bristol city,Virginia,51520,5860,100
 2022-12-21,Sargent,North Dakota,38081,1248,9
 2022-12-21,Rolette,North Dakota,38079,7536,46
-2022-12-21,Brunswick,Virginia,51025,3869,52
-2022-12-21,Buchanan,Virginia,51027,5985,138
 2022-12-21,Richland,North Dakota,38077,4666,32
 2022-12-21,Renville,North Dakota,38075,646,15
-2022-12-21,Buckingham,Virginia,51029,4790,61
 2022-12-21,Ransom,North Dakota,38073,1854,28
 2022-12-21,Ramsey,North Dakota,38071,4195,57
 2022-12-21,Pierce,North Dakota,38069,1219,32
@@ -816,13 +1127,10 @@ date,county,state,fips,cases,deaths
 2022-12-21,Oliver,North Dakota,38065,368,5
 2022-12-21,Nelson,North Dakota,38063,890,18
 2022-12-21,Mountrail,North Dakota,38061,3780,38
-2022-12-21,Buena Vista city,Virginia,51530,2188,46
 2022-12-21,Morton,North Dakota,38059,12985,142
 2022-12-21,Mercer,North Dakota,38057,2932,24
-2022-12-21,Campbell,Virginia,51031,16747,233
 2022-12-21,McLean,North Dakota,38055,3104,49
 2022-12-21,McKenzie,North Dakota,38053,3602,34
-2022-12-21,Caroline,Virginia,51033,8675,95
 2022-12-21,McIntosh,North Dakota,38051,846,10
 2022-12-21,McHenry,North Dakota,38049,1549,31
 2022-12-21,Logan,North Dakota,38047,544,12
@@ -834,8 +1142,6 @@ date,county,state,fips,cases,deaths
 2022-12-21,Grand Forks,North Dakota,38035,26147,125
 2022-12-21,Golden Valley,North Dakota,38033,507,4
 2022-12-21,Foster,North Dakota,38031,1123,23
-2022-12-21,Carroll,Virginia,51035,9110,161
-2022-12-21,Charles City,Virginia,51036,1589,31
 2022-12-21,Emmons,North Dakota,38029,835,19
 2022-12-21,Eddy,North Dakota,38027,874,6
 2022-12-21,Dunn,North Dakota,38025,1174,12
@@ -845,156 +1151,131 @@ date,county,state,fips,cases,deaths
 2022-12-21,Cass,North Dakota,38017,69419,333
 2022-12-21,Burleigh,North Dakota,38015,40243,303
 2022-12-21,Burke,North Dakota,38013,481,3
-2022-12-21,Charlotte,Virginia,51037,3227,60
 2022-12-21,Bowman,North Dakota,38011,919,14
 2022-12-21,Bottineau,North Dakota,38009,1832,28
 2022-12-21,Billings,North Dakota,38007,167,1
 2022-12-21,Benson,North Dakota,38005,2241,23
 2022-12-21,Barnes,North Dakota,38003,3509,47
 2022-12-21,Adams,North Dakota,38001,681,10
-2022-12-21,Yancey,North Carolina,37199,6204,100
-2022-12-21,Charlottesville city,Virginia,51540,12127,85
-2022-12-21,Yadkin,North Carolina,37197,14212,153
-2022-12-21,Wilson,North Carolina,37195,26335,350
-2022-12-21,Wilkes,North Carolina,37193,21746,303
-2022-12-21,Wayne,North Carolina,37191,39445,444
-2022-12-21,Watauga,North Carolina,37189,14429,90
-2022-12-21,Washington,North Carolina,37187,3688,56
-2022-12-21,Warren,North Carolina,37185,5463,56
-2022-12-21,Chesapeake city,Virginia,51550,61666,548
-2022-12-21,Wake,North Carolina,37183,376080,1289
-2022-12-21,Vance,North Carolina,37181,14913,154
-2022-12-21,Union,North Carolina,37179,75598,520
-2022-12-21,Tyrrell,North Carolina,37177,1166,12
-2022-12-21,Transylvania,North Carolina,37175,7924,89
-2022-12-21,Swain,North Carolina,37173,4684,60
-2022-12-21,Surry,North Carolina,37171,26823,402
-2022-12-21,Stokes,North Carolina,37169,14440,200
-2022-12-21,Stanly,North Carolina,37167,22961,284
-2022-12-21,Scotland,North Carolina,37165,12105,160
-2022-12-21,Sampson,North Carolina,37163,22440,222
-2022-12-21,Rutherford,North Carolina,37161,20686,425
-2022-12-21,Rowan,North Carolina,37159,49286,626
-2022-12-21,Rockingham,North Carolina,37157,26316,337
-2022-12-21,Robeson,North Carolina,37155,49731,597
-2022-12-21,Chesterfield,Virginia,51041,95060,855
-2022-12-21,Richmond,North Carolina,37153,15630,208
-2022-12-21,Randolph,North Carolina,37151,42312,552
-2022-12-21,Clarke,Virginia,51043,3321,55
-2022-12-21,Polk,North Carolina,37149,4770,86
-2022-12-21,Pitt,North Carolina,37147,64202,378
-2022-12-21,Person,North Carolina,37145,11678,124
-2022-12-21,Perquimans,North Carolina,37143,3336,48
-2022-12-21,Pender,North Carolina,37141,17997,151
-2022-12-21,Pasquotank,North Carolina,37139,10126,134
-2022-12-21,Pamlico,North Carolina,37137,3302,36
-2022-12-21,Orange,North Carolina,37135,37242,152
-2022-12-21,Colonial Heights city,Virginia,51570,6066,109
-2022-12-21,Onslow,North Carolina,37133,62809,418
-2022-12-21,Covington city,Virginia,51580,1791,35
-2022-12-21,Northampton,North Carolina,37131,5549,107
-2022-12-21,New Hanover,North Carolina,37129,61501,450
-2022-12-21,Nash,North Carolina,37127,31252,354
-2022-12-21,Craig,Virginia,51045,1401,24
-2022-12-21,Moore,North Carolina,37125,30041,369
-2022-12-21,Montgomery,North Carolina,37123,8558,141
-2022-12-21,Mitchell,North Carolina,37121,4562,74
-2022-12-21,Mecklenburg,North Carolina,37119,350674,1833
-2022-12-21,McDowell,North Carolina,37111,16657,205
-2022-12-21,Martin,North Carolina,37117,7429,97
-2022-12-21,Culpeper,Virginia,51047,13918,170
-2022-12-21,Madison,North Carolina,37115,6114,87
-2022-12-21,Macon,North Carolina,37113,9421,145
-2022-12-21,Cumberland,Virginia,51049,1740,29
-2022-12-21,Lincoln,North Carolina,37109,29019,313
-2022-12-21,Lenoir,North Carolina,37107,19119,244
-2022-12-21,Lee,North Carolina,37105,19311,172
-2022-12-21,Jones,North Carolina,37103,2746,47
-2022-12-21,Johnston,North Carolina,37101,72327,490
-2022-12-21,Jackson,North Carolina,37099,11642,107
-2022-12-21,Iredell,North Carolina,37097,58836,560
-2022-12-21,Hyde,North Carolina,37095,1640,15
-2022-12-21,Hoke,North Carolina,37093,18498,154
-2022-12-21,Hertford,North Carolina,37091,6029,96
-2022-12-21,Henderson,North Carolina,37089,31397,363
-2022-12-21,Danville city,Virginia,51590,13877,292
-2022-12-21,Haywood,North Carolina,37087,16443,256
-2022-12-21,Harnett,North Carolina,37085,40755,367
-2022-12-21,Dickenson,Virginia,51051,4636,64
-2022-12-21,Dinwiddie,Virginia,51053,7090,105
-2022-12-21,Halifax,North Carolina,37083,17719,202
-2022-12-21,Guilford,North Carolina,37081,151612,1379
-2022-12-21,Greene,North Carolina,37079,6866,77
-2022-12-21,Granville,North Carolina,37077,18397,135
-2022-12-21,Emporia city,Virginia,51595,1563,56
-2022-12-21,Graham,North Carolina,37075,2834,31
-2022-12-21,Gates,North Carolina,37073,2299,41
-2022-12-21,Gaston,North Carolina,37071,78211,944
-2022-12-21,Franklin,North Carolina,37069,25337,143
-2022-12-21,Essex,Virginia,51057,2720,41
-2022-12-21,Forsyth,North Carolina,37067,118133,933
-2022-12-21,Edgecombe,North Carolina,37065,16751,185
-2022-12-21,Durham,North Carolina,37063,97592,380
-2022-12-21,Duplin,North Carolina,37061,19919,257
-2022-12-21,Fairfax,Virginia,51059,249195,1649
-2022-12-21,Fairfax city,Virginia,51600,2508,51
-2022-12-21,Davie,North Carolina,37059,13990,146
-2022-12-21,Davidson,North Carolina,37057,52982,596
-2022-12-21,Dare,North Carolina,37055,9487,42
-2022-12-21,Falls Church city,Virginia,51610,3332,27
-2022-12-21,Currituck,North Carolina,37053,6048,51
-2022-12-21,Cumberland,North Carolina,37051,109499,760
-2022-12-21,Craven,North Carolina,37049,30565,274
-2022-12-21,Columbus,North Carolina,37047,18444,287
-2022-12-21,Cleveland,North Carolina,37045,35223,488
-2022-12-21,Clay,North Carolina,37043,3211,64
-2022-12-21,Chowan,North Carolina,37041,4888,65
-2022-12-21,Cherokee,North Carolina,37039,8403,150
-2022-12-21,Chatham,North Carolina,37037,17070,128
-2022-12-21,Catawba,North Carolina,37035,57928,658
-2022-12-21,Caswell,North Carolina,37033,6356,77
-2022-12-21,Carteret,North Carolina,37031,17672,159
-2022-12-21,Fauquier,Virginia,51061,15870,160
-2022-12-21,Camden,North Carolina,37029,2111,22
-2022-12-21,Caldwell,North Carolina,37027,28407,372
-2022-12-21,Cabarrus,North Carolina,37025,68720,549
-2022-12-21,Burke,North Carolina,37023,30527,357
-2022-12-21,Buncombe,North Carolina,37021,67566,679
-2022-12-21,Floyd,Virginia,51063,3517,53
-2022-12-21,Brunswick,North Carolina,37019,38839,389
-2022-12-21,Bladen,North Carolina,37017,11294,151
-2022-12-21,Bertie,North Carolina,37015,5187,85
-2022-12-21,Beaufort,North Carolina,37013,15464,183
-2022-12-21,Avery,North Carolina,37011,5381,61
-2022-12-21,Ashe,North Carolina,37009,7341,124
-2022-12-21,Anson,North Carolina,37007,7996,127
-2022-12-21,Alleghany,North Carolina,37005,3544,27
-2022-12-21,Alexander,North Carolina,37003,12288,172
-2022-12-21,Alamance,North Carolina,37001,58438,548
+2022-12-21,Yancey,North Carolina,37199,6216,100
+2022-12-21,Yadkin,North Carolina,37197,14314,153
+2022-12-21,Wilson,North Carolina,37195,26460,349
+2022-12-21,Wilkes,North Carolina,37193,21928,303
+2022-12-21,Wayne,North Carolina,37191,39664,445
+2022-12-21,Watauga,North Carolina,37189,14537,90
+2022-12-21,Washington,North Carolina,37187,3706,56
+2022-12-21,Warren,North Carolina,37185,5490,56
+2022-12-21,Wake,North Carolina,37183,377649,1289
+2022-12-21,Vance,North Carolina,37181,14980,154
+2022-12-21,Union,North Carolina,37179,76036,520
+2022-12-21,Tyrrell,North Carolina,37177,1170,12
+2022-12-21,Transylvania,North Carolina,37175,7977,89
+2022-12-21,Swain,North Carolina,37173,4719,60
+2022-12-21,Surry,North Carolina,37171,27077,402
+2022-12-21,Stokes,North Carolina,37169,14561,200
+2022-12-21,Stanly,North Carolina,37167,23058,286
+2022-12-21,Scotland,North Carolina,37165,12155,160
+2022-12-21,Sampson,North Carolina,37163,22526,222
+2022-12-21,Rutherford,North Carolina,37161,20764,426
+2022-12-21,Rowan,North Carolina,37159,49458,626
+2022-12-21,Rockingham,North Carolina,37157,26462,337
+2022-12-21,Robeson,North Carolina,37155,49979,597
+2022-12-21,Richmond,North Carolina,37153,15692,209
+2022-12-21,Randolph,North Carolina,37151,42566,552
+2022-12-21,Polk,North Carolina,37149,4793,86
+2022-12-21,Pitt,North Carolina,37147,64408,378
+2022-12-21,Person,North Carolina,37145,11735,124
+2022-12-21,Perquimans,North Carolina,37143,3371,48
+2022-12-21,Pender,North Carolina,37141,18071,151
+2022-12-21,Pasquotank,North Carolina,37139,10157,134
+2022-12-21,Pamlico,North Carolina,37137,3311,36
+2022-12-21,Orange,North Carolina,37135,37465,152
+2022-12-21,Onslow,North Carolina,37133,63026,421
+2022-12-21,Northampton,North Carolina,37131,5579,107
+2022-12-21,New Hanover,North Carolina,37129,61803,449
+2022-12-21,Nash,North Carolina,37127,31382,355
+2022-12-21,Moore,North Carolina,37125,30206,371
+2022-12-21,Montgomery,North Carolina,37123,8581,141
+2022-12-21,Mitchell,North Carolina,37121,4574,74
+2022-12-21,Mecklenburg,North Carolina,37119,352637,1837
+2022-12-21,McDowell,North Carolina,37111,16714,205
+2022-12-21,Martin,North Carolina,37117,7442,97
+2022-12-21,Madison,North Carolina,37115,6130,87
+2022-12-21,Macon,North Carolina,37113,9467,145
+2022-12-21,Lincoln,North Carolina,37109,29163,313
+2022-12-21,Lenoir,North Carolina,37107,19213,243
+2022-12-21,Lee,North Carolina,37105,19405,171
+2022-12-21,Jones,North Carolina,37103,2759,47
+2022-12-21,Johnston,North Carolina,37101,72716,491
+2022-12-21,Jackson,North Carolina,37099,11678,107
+2022-12-21,Iredell,North Carolina,37097,59147,560
+2022-12-21,Hyde,North Carolina,37095,1643,15
+2022-12-21,Hoke,North Carolina,37093,18572,154
+2022-12-21,Hertford,North Carolina,37091,6047,95
+2022-12-21,Henderson,North Carolina,37089,31554,365
+2022-12-21,Haywood,North Carolina,37087,16529,256
+2022-12-21,Harnett,North Carolina,37085,40946,369
+2022-12-21,Halifax,North Carolina,37083,17805,202
+2022-12-21,Guilford,North Carolina,37081,152546,1385
+2022-12-21,Greene,North Carolina,37079,6888,77
+2022-12-21,Granville,North Carolina,37077,18488,135
+2022-12-21,Graham,North Carolina,37075,2838,31
+2022-12-21,Gates,North Carolina,37073,2303,41
+2022-12-21,Gaston,North Carolina,37071,78618,945
+2022-12-21,Franklin,North Carolina,37069,25433,143
+2022-12-21,Forsyth,North Carolina,37067,118839,936
+2022-12-21,Edgecombe,North Carolina,37065,16828,185
+2022-12-21,Durham,North Carolina,37063,98096,380
+2022-12-21,Duplin,North Carolina,37061,19982,257
+2022-12-21,Davie,North Carolina,37059,14070,146
+2022-12-21,Davidson,North Carolina,37057,53293,596
+2022-12-21,Dare,North Carolina,37055,9531,42
+2022-12-21,Currituck,North Carolina,37053,6066,51
+2022-12-21,Cumberland,North Carolina,37051,110134,760
+2022-12-21,Craven,North Carolina,37049,30687,274
+2022-12-21,Columbus,North Carolina,37047,18522,287
+2022-12-21,Cleveland,North Carolina,37045,35392,488
+2022-12-21,Clay,North Carolina,37043,3233,64
+2022-12-21,Chowan,North Carolina,37041,4903,66
+2022-12-21,Cherokee,North Carolina,37039,8437,150
+2022-12-21,Chatham,North Carolina,37037,17176,129
+2022-12-21,Catawba,North Carolina,37035,58213,659
+2022-12-21,Caswell,North Carolina,37033,6377,77
+2022-12-21,Carteret,North Carolina,37031,17751,159
+2022-12-21,Camden,North Carolina,37029,2119,22
+2022-12-21,Caldwell,North Carolina,37027,28593,372
+2022-12-21,Cabarrus,North Carolina,37025,69043,549
+2022-12-21,Burke,North Carolina,37023,30679,357
+2022-12-21,Buncombe,North Carolina,37021,67885,680
+2022-12-21,Brunswick,North Carolina,37019,39080,389
+2022-12-21,Bladen,North Carolina,37017,11360,151
+2022-12-21,Bertie,North Carolina,37015,5207,85
+2022-12-21,Beaufort,North Carolina,37013,15518,183
+2022-12-21,Avery,North Carolina,37011,5402,61
+2022-12-21,Ashe,North Carolina,37009,7361,124
+2022-12-21,Anson,North Carolina,37007,8033,127
+2022-12-21,Alleghany,North Carolina,37005,3578,27
+2022-12-21,Alexander,North Carolina,37003,12330,172
+2022-12-21,Alamance,North Carolina,37001,58809,548
 2022-12-21,Yates,New York,36123,4327,49
 2022-12-21,Wyoming,New York,36121,9762,104
 2022-12-21,Westchester,New York,36119,323189,3304
 2022-12-21,Wayne,New York,36117,21296,227
 2022-12-21,Washington,New York,36115,15306,149
-2022-12-21,Fluvanna,Virginia,51065,6672,52
 2022-12-21,Warren,New York,36113,18343,147
-2022-12-21,Franklin,Virginia,51067,13512,214
 2022-12-21,Ulster,New York,36111,41538,450
 2022-12-21,Tompkins,New York,36109,25850,103
 2022-12-21,Tioga,New York,36107,13725,149
 2022-12-21,Sullivan,New York,36105,23628,198
-2022-12-21,Franklin city,Virginia,51620,2616,58
 2022-12-21,Suffolk,New York,36103,548172,5450
 2022-12-21,St. Lawrence,New York,36089,25727,253
 2022-12-21,Steuben,New York,36101,24775,316
 2022-12-21,Seneca,New York,36099,7419,97
 2022-12-21,Schuyler,New York,36097,4260,36
 2022-12-21,Schoharie,New York,36095,6394,59
-2022-12-21,Frederick,Virginia,51069,25721,275
 2022-12-21,Schenectady,New York,36093,42377,360
 2022-12-21,Saratoga,New York,36091,59796,433
 2022-12-21,Rockland,New York,36087,114822,1261
-2022-12-21,Fredericksburg city,Virginia,51630,6924,42
 2022-12-21,Rensselaer,New York,36083,40621,315
 2022-12-21,Putnam,New York,36079,30427,206
 2022-12-21,Otsego,New York,36077,12869,135
@@ -1004,7 +1285,6 @@ date,county,state,fips,cases,deaths
 2022-12-21,Ontario,New York,36069,25349,232
 2022-12-21,Onondaga,New York,36067,138957,1189
 2022-12-21,Oneida,New York,36065,67038,853
-2022-12-21,Galax city,Virginia,51640,3093,83
 2022-12-21,Niagara,New York,36063,58117,779
 2022-12-21,New York City,New York,,3093048,43663
 2022-12-21,Nassau,New York,36059,530107,4691
@@ -1021,10 +1301,6 @@ date,county,state,fips,cases,deaths
 2022-12-21,Fulton,New York,36035,16137,221
 2022-12-21,Franklin,New York,36033,11800,73
 2022-12-21,Essex,New York,36031,7419,73
-2022-12-21,Giles,Virginia,51071,5034,54
-2022-12-21,Gloucester,Virginia,51073,9112,114
-2022-12-21,Goochland,Virginia,51075,5465,62
-2022-12-21,Grayson,Virginia,51077,5315,93
 2022-12-21,Erie,New York,36029,261963,3023
 2022-12-21,Dutchess,New York,36027,81710,765
 2022-12-21,Delaware,New York,36025,9803,121
@@ -1037,16 +1313,10 @@ date,county,state,fips,cases,deaths
 2022-12-21,Cayuga,New York,36011,19840,187
 2022-12-21,Cattaraugus,New York,36009,18796,267
 2022-12-21,Broome,New York,36007,56981,618
-2022-12-21,Greene,Virginia,51079,4872,63
 2022-12-21,Allegany,New York,36003,10494,176
-2022-12-21,Greensville,Virginia,51081,3726,45
 2022-12-21,Albany,New York,36001,76389,589
-2022-12-21,Halifax,Virginia,51083,9146,182
-2022-12-21,Hampton city,Virginia,51650,36561,361
 2022-12-21,Valencia,New Mexico,35061,24123,313
 2022-12-21,Unknown,New Mexico,,439,0
-2022-12-21,Hanover,Virginia,51085,27615,333
-2022-12-21,Harrisonburg city,Virginia,51660,14794,174
 2022-12-21,Union,New Mexico,35059,1145,20
 2022-12-21,Torrance,New Mexico,35057,3722,69
 2022-12-21,Taos,New Mexico,35055,7185,103
@@ -1055,14 +1325,12 @@ date,county,state,fips,cases,deaths
 2022-12-21,Santa Fe,New Mexico,35049,39768,377
 2022-12-21,San Miguel,New Mexico,35047,7519,78
 2022-12-21,San Juan,New Mexico,35045,51455,843
-2022-12-21,Henrico,Virginia,51087,84874,1045
 2022-12-21,Sandoval,New Mexico,35043,44034,492
 2022-12-21,Roosevelt,New Mexico,35041,6008,109
 2022-12-21,Rio Arriba,New Mexico,35039,13052,159
 2022-12-21,Quay,New Mexico,35037,2487,69
 2022-12-21,Otero,New Mexico,35035,18803,219
 2022-12-21,Mora,New Mexico,35033,977,21
-2022-12-21,Henry,Virginia,51089,15366,310
 2022-12-21,McKinley,New Mexico,35031,32278,639
 2022-12-21,Luna,New Mexico,35029,7873,147
 2022-12-21,Los Alamos,New Mexico,35028,4522,23
@@ -1075,24 +1343,17 @@ date,county,state,fips,cases,deaths
 2022-12-21,Eddy,New Mexico,35015,18969,322
 2022-12-21,Doña Ana,New Mexico,35013,75377,917
 2022-12-21,De Baca,New Mexico,35011,730,6
-2022-12-21,Highland,Virginia,51091,475,6
-2022-12-21,Hopewell city,Virginia,51670,7474,123
-2022-12-21,Isle of Wight,Virginia,51093,8826,125
 2022-12-21,Curry,New Mexico,35009,14904,233
 2022-12-21,Colfax,New Mexico,35007,3030,69
-2022-12-21,James City,Virginia,51095,20292,141
 2022-12-21,Cibola,New Mexico,35006,9911,208
 2022-12-21,Chaves,New Mexico,35005,24618,357
 2022-12-21,Catron,New Mexico,35003,518,22
 2022-12-21,Bernalillo,New Mexico,35001,193182,2160
 2022-12-21,Warren,New Jersey,34041,30672,355
 2022-12-21,Unknown,New Jersey,,1668,0
-2022-12-21,King and Queen,Virginia,51097,1407,15
 2022-12-21,Union,New Jersey,34039,187299,2464
-2022-12-21,King George,Virginia,51099,6583,52
 2022-12-21,Sussex,New Jersey,34037,43553,514
 2022-12-21,Somerset,New Jersey,34035,93107,1014
-2022-12-21,King William,Virginia,51101,4553,51
 2022-12-21,Salem,New Jersey,34033,17655,261
 2022-12-21,Passaic,New Jersey,34031,183856,2428
 2022-12-21,Ocean,New Jersey,34029,205603,3221
@@ -1100,12 +1361,10 @@ date,county,state,fips,cases,deaths
 2022-12-21,Monmouth,New Jersey,34025,213155,2335
 2022-12-21,Middlesex,New Jersey,34023,262056,2979
 2022-12-21,Mercer,New Jersey,34021,105038,1324
-2022-12-21,Lancaster,Virginia,51103,2215,40
 2022-12-21,Hunterdon,New Jersey,34019,32962,297
 2022-12-21,Hudson,New Jersey,34017,227634,2819
 2022-12-21,Gloucester,New Jersey,34015,87578,1032
 2022-12-21,Essex,New Jersey,34013,278741,3717
-2022-12-21,Lee,Virginia,51105,8071,118
 2022-12-21,Cumberland,New Jersey,34011,49537,653
 2022-12-21,Cape May,New Jersey,34009,28672,328
 2022-12-21,Camden,New Jersey,34007,161185,1937
@@ -1115,8 +1374,6 @@ date,county,state,fips,cases,deaths
 2022-12-21,Unknown,New Hampshire,,2101,0
 2022-12-21,Sullivan,New Hampshire,33019,11531,80
 2022-12-21,Strafford,New Hampshire,33017,35753,239
-2022-12-21,Lexington city,Virginia,51678,2573,34
-2022-12-21,Loudoun,Virginia,51107,93272,427
 2022-12-21,Rockingham,New Hampshire,33015,81650,616
 2022-12-21,Merrimack,New Hampshire,33013,38902,278
 2022-12-21,Hillsborough,New Hampshire,33011,117463,1001
@@ -1129,67 +1386,48 @@ date,county,state,fips,cases,deaths
 2022-12-21,Washoe,Nevada,32031,125335,1284
 2022-12-21,Unknown,Nevada,,10723,0
 2022-12-21,Storey,Nevada,32029,187,14
-2022-12-21,Louisa,Virginia,51109,8528,97
 2022-12-21,Pershing,Nevada,32027,2328,32
 2022-12-21,Nye,Nevada,32023,9027,339
 2022-12-21,Mineral,Nevada,32021,1457,23
 2022-12-21,Lyon,Nevada,32019,11949,226
-2022-12-21,Lunenburg,Virginia,51111,3206,45
 2022-12-21,Lincoln,Nevada,32017,667,10
 2022-12-21,Lander,Nevada,32015,1326,22
-2022-12-21,Lynchburg city,Virginia,51680,23167,303
 2022-12-21,Humboldt,Nevada,32013,2750,65
 2022-12-21,Eureka,Nevada,32011,188,2
 2022-12-21,Esmeralda,Nevada,32009,123,5
-2022-12-21,Madison,Virginia,51113,3048,47
 2022-12-21,Elko,Nevada,32007,12809,163
-2022-12-21,Manassas city,Virginia,51683,11263,98
 2022-12-21,Douglas,Nevada,32005,8625,121
 2022-12-21,Clark,Nevada,32003,657872,9126
-2022-12-21,Manassas Park city,Virginia,51685,4685,28
 2022-12-21,Churchill,Nevada,32001,7496,119
-2022-12-21,Martinsville city,Virginia,51690,4385,123
 2022-12-21,Carson City,Nevada,32510,17015,228
 2022-12-21,York,Nebraska,31185,4595,32
 2022-12-21,Wheeler,Nebraska,31183,138,2
 2022-12-21,Webster,Nebraska,31181,831,15
-2022-12-21,Mathews,Virginia,51115,1938,27
 2022-12-21,Wayne,Nebraska,31179,2098,18
-2022-12-21,Mecklenburg,Virginia,51117,7529,142
 2022-12-21,Washington,Nebraska,31177,5338,53
 2022-12-21,Valley,Nebraska,31175,858,12
 2022-12-21,Thurston,Nebraska,31173,2059,33
 2022-12-21,Thomas,Nebraska,31171,113,1
-2022-12-21,Middlesex,Virginia,51119,2376,52
 2022-12-21,Thayer,Nebraska,31169,1286,17
 2022-12-21,Stanton,Nebraska,31167,737,14
 2022-12-21,Sioux,Nebraska,31165,82,1
 2022-12-21,Sherman,Nebraska,31163,679,10
 2022-12-21,Sheridan,Nebraska,31161,1102,40
-2022-12-21,Montgomery,Virginia,51121,23961,179
 2022-12-21,Seward,Nebraska,31159,3686,50
 2022-12-21,Scotts Bluff,Nebraska,31157,11035,162
 2022-12-21,Saunders,Nebraska,31155,5507,55
-2022-12-21,Nelson,Virginia,51125,3142,46
 2022-12-21,Sarpy,Nebraska,31153,57427,326
 2022-12-21,Saline,Nebraska,31151,4313,18
-2022-12-21,New Kent,Virginia,51127,5694,42
 2022-12-21,Rock,Nebraska,31149,191,3
 2022-12-21,Richardson,Nebraska,31147,2188,32
-2022-12-21,Newport News city,Virginia,51700,47062,443
 2022-12-21,Red Willow,Nebraska,31145,2634,23
 2022-12-21,Polk,Nebraska,31143,1333,26
-2022-12-21,Norfolk city,Virginia,51710,51926,516
-2022-12-21,Northampton,Virginia,51131,2779,74
-2022-12-21,Northumberland,Virginia,51133,2604,45
 2022-12-21,Platte,Nebraska,31141,10005,91
-2022-12-21,Norton city,Virginia,51720,1522,20
 2022-12-21,Pierce,Nebraska,31139,1479,27
 2022-12-21,Phelps,Nebraska,31137,2711,26
 2022-12-21,Perkins,Nebraska,31135,570,13
 2022-12-21,Pawnee,Nebraska,31133,498,11
 2022-12-21,Otoe,Nebraska,31131,3793,27
-2022-12-21,Nottoway,Virginia,51135,5461,100
 2022-12-21,Nuckolls,Nebraska,31129,1092,19
 2022-12-21,Nemaha,Nebraska,31127,1570,30
 2022-12-21,Nance,Nebraska,31125,869,17
@@ -1197,7 +1435,6 @@ date,county,state,fips,cases,deaths
 2022-12-21,Merrick,Nebraska,31121,1989,28
 2022-12-21,McPherson,Nebraska,31117,77,1
 2022-12-21,Madison,Nebraska,31119,11278,79
-2022-12-21,Orange,Virginia,51137,8821,103
 2022-12-21,Loup,Nebraska,31115,92,0
 2022-12-21,Logan,Nebraska,31113,162,0
 2022-12-21,Lincoln,Nebraska,31111,10550,147
@@ -1210,34 +1447,27 @@ date,county,state,fips,cases,deaths
 2022-12-21,Johnson,Nebraska,31097,922,15
 2022-12-21,Jefferson,Nebraska,31095,1420,20
 2022-12-21,Howard,Nebraska,31093,1303,25
-2022-12-21,Page,Virginia,51139,6759,127
 2022-12-21,Hooker,Nebraska,31091,126,5
 2022-12-21,Holt,Nebraska,31089,2517,32
 2022-12-21,Hitchcock,Nebraska,31087,621,11
 2022-12-21,Hayes,Nebraska,31085,107,0
 2022-12-21,Harlan,Nebraska,31083,389,11
-2022-12-21,Patrick,Virginia,51141,4693,107
 2022-12-21,Hamilton,Nebraska,31081,2715,33
-2022-12-21,Petersburg city,Virginia,51730,9779,149
 2022-12-21,Hall,Nebraska,31079,18944,194
 2022-12-21,Greeley,Nebraska,31077,458,6
 2022-12-21,Grant,Nebraska,31075,112,6
 2022-12-21,Gosper,Nebraska,31073,440,9
 2022-12-21,Garfield,Nebraska,31071,466,10
-2022-12-21,Pittsylvania,Virginia,51143,18014,231
-2022-12-21,Poquoson city,Virginia,51735,2851,31
 2022-12-21,Garden,Nebraska,31069,462,5
 2022-12-21,Gage,Nebraska,31067,4398,78
-2022-12-21,Portsmouth city,Virginia,51740,25460,354
 2022-12-21,Furnas,Nebraska,31065,1279,18
 2022-12-21,Frontier,Nebraska,31063,609,4
 2022-12-21,Franklin,Nebraska,31061,491,14
 2022-12-21,Fillmore,Nebraska,31059,1291,20
 2022-12-21,Dundy,Nebraska,31057,384,6
-2022-12-21,Douglas,Nebraska,31055,176826,1239
+2022-12-21,Douglas,Nebraska,31055,177391,1243
 2022-12-21,Dodge,Nebraska,31053,11650,147
 2022-12-21,Dixon,Nebraska,31051,1378,19
-2022-12-21,Powhatan,Virginia,51145,6189,68
 2022-12-21,Deuel,Nebraska,31049,349,4
 2022-12-21,Dawson,Nebraska,31047,5838,87
 2022-12-21,Dawes,Nebraska,31045,1495,25
@@ -1245,23 +1475,16 @@ date,county,state,fips,cases,deaths
 2022-12-21,Custer,Nebraska,31041,2360,38
 2022-12-21,Cuming,Nebraska,31039,2011,23
 2022-12-21,Colfax,Nebraska,31037,2914,31
-2022-12-21,Prince Edward,Virginia,51147,6320,84
 2022-12-21,Clay,Nebraska,31035,1714,32
 2022-12-21,Cheyenne,Nebraska,31033,2349,33
 2022-12-21,Cherry,Nebraska,31031,624,23
 2022-12-21,Chase,Nebraska,31029,884,11
 2022-12-21,Cedar,Nebraska,31027,1711,35
-2022-12-21,Prince George,Virginia,51149,11111,85
 2022-12-21,Cass,Nebraska,31025,7082,56
 2022-12-21,Butler,Nebraska,31023,2242,18
-2022-12-21,Prince William,Virginia,51153,121819,803
-2022-12-21,Pulaski,Virginia,51155,10259,156
-2022-12-21,Radford city,Virginia,51750,4877,49
 2022-12-21,Burt,Nebraska,31021,1502,27
 2022-12-21,Buffalo,Nebraska,31019,13901,146
-2022-12-21,Rappahannock,Virginia,51157,1312,18
 2022-12-21,Brown,Nebraska,31017,643,10
-2022-12-21,Richmond,Virginia,51159,2853,29
 2022-12-21,Boyd,Nebraska,31015,469,13
 2022-12-21,Box Butte,Nebraska,31013,2461,26
 2022-12-21,Boone,Nebraska,31011,1240,15
@@ -1275,35 +1498,22 @@ date,county,state,fips,cases,deaths
 2022-12-21,Wheatland,Montana,30107,451,14
 2022-12-21,Valley,Montana,30105,2079,41
 2022-12-21,Treasure,Montana,30103,146,1
-2022-12-21,Richmond city,Virginia,51760,60119,552
 2022-12-21,Toole,Montana,30101,1390,25
 2022-12-21,Teton,Montana,30099,1515,27
 2022-12-21,Sweet Grass,Montana,30097,898,13
 2022-12-21,Stillwater,Montana,30095,1706,32
 2022-12-21,Silver Bow,Montana,30093,9705,139
-2022-12-21,Roanoke,Virginia,51161,26916,309
-2022-12-21,Roanoke city,Virginia,51770,26957,420
-2022-12-21,Rockbridge,Virginia,51163,4884,100
-2022-12-21,Rockingham,Virginia,51165,18335,289
 2022-12-21,Sheridan,Montana,30091,884,13
 2022-12-21,Sanders,Montana,30089,2388,57
 2022-12-21,Rosebud,Montana,30087,3084,62
 2022-12-21,Roosevelt,Montana,30085,3827,76
-2022-12-21,Russell,Virginia,51167,8962,127
-2022-12-21,Salem city,Virginia,51775,6991,110
-2022-12-21,Scott,Virginia,51169,7278,125
 2022-12-21,Richland,Montana,30083,2930,38
 2022-12-21,Ravalli,Montana,30081,8205,178
 2022-12-21,Prairie,Montana,30079,290,4
 2022-12-21,Powell,Montana,30077,2171,32
 2022-12-21,Powder River,Montana,30075,414,10
-2022-12-21,Shenandoah,Virginia,51171,13351,252
 2022-12-21,Pondera,Montana,30073,1450,11
-2022-12-21,Smyth,Virginia,51173,11589,195
-2022-12-21,Southampton,Virginia,51175,4308,101
 2022-12-21,Phillips,Montana,30071,1131,29
-2022-12-21,Spotsylvania,Virginia,51177,33971,331
-2022-12-21,Stafford,Virginia,51179,40089,193
 2022-12-21,Petroleum,Montana,30069,42,1
 2022-12-21,Park,Montana,30067,5043,39
 2022-12-21,Musselshell,Montana,30065,1077,31
@@ -1313,7 +1523,6 @@ date,county,state,fips,cases,deaths
 2022-12-21,McCone,Montana,30055,438,9
 2022-12-21,Madison,Montana,30057,2338,24
 2022-12-21,Lincoln,Montana,30053,5532,95
-2022-12-21,Staunton city,Virginia,51790,7517,132
 2022-12-21,Liberty,Montana,30051,521,4
 2022-12-21,Lewis and Clark,Montana,30049,21415,201
 2022-12-21,Lake,Montana,30047,8105,106
@@ -1338,50 +1547,36 @@ date,county,state,fips,cases,deaths
 2022-12-21,Carbon,Montana,30009,2410,29
 2022-12-21,Broadwater,Montana,30007,1502,24
 2022-12-21,Blaine,Montana,30005,2526,34
-2022-12-21,Suffolk city,Virginia,51800,23401,329
 2022-12-21,Big Horn,Montana,30003,5656,103
 2022-12-21,Beaverhead,Montana,30001,2431,32
 2022-12-21,Wright,Missouri,29229,4510,93
 2022-12-21,Worth,Missouri,29227,546,5
-2022-12-21,Surry,Virginia,51181,1346,22
 2022-12-21,Webster,Missouri,29225,10157,162
-2022-12-21,Sussex,Virginia,51183,2790,49
-2022-12-21,Tazewell,Virginia,51185,13174,206
-2022-12-21,Virginia Beach city,Virginia,51810,110805,916
-2022-12-21,Warren,Virginia,51187,10998,176
 2022-12-21,Wayne,Missouri,29223,2855,57
 2022-12-21,Washington,Missouri,29221,6907,152
 2022-12-21,Warren,Missouri,29219,9676,111
 2022-12-21,Vernon,Missouri,29217,5952,111
 2022-12-21,Texas,Missouri,29215,5506,112
 2022-12-21,Taney,Missouri,29213,15738,248
-2022-12-21,Washington,Virginia,51191,17345,240
 2022-12-21,Sullivan,Missouri,29211,1945,28
-2022-12-21,Waynesboro city,Virginia,51820,7241,84
 2022-12-21,Stone,Missouri,29209,6789,136
-2022-12-21,Westmoreland,Virginia,51193,4091,58
 2022-12-21,Stoddard,Missouri,29207,7034,147
 2022-12-21,St. Louis city,Missouri,29510,73662,837
 2022-12-21,St. Louis,Missouri,29189,284346,3629
 2022-12-21,St. Francois,Missouri,29187,22826,321
 2022-12-21,Ste. Genevieve,Missouri,29186,4636,45
 2022-12-21,St. Clair,Missouri,29185,2523,43
-2022-12-21,St. Charles,Missouri,29183,126257,1022
+2022-12-21,St. Charles,Missouri,29183,126264,1022
 2022-12-21,Shelby,Missouri,29205,2002,15
 2022-12-21,Shannon,Missouri,29203,1887,42
 2022-12-21,Scott,Missouri,29201,13391,168
 2022-12-21,Scotland,Missouri,29199,817,18
 2022-12-21,Schuyler,Missouri,29197,863,30
-2022-12-21,Williamsburg city,Virginia,51830,2202,24
-2022-12-21,Winchester city,Virginia,51840,7913,94
-2022-12-21,Wise,Virginia,51195,13309,223
 2022-12-21,Saline,Missouri,29195,7118,116
 2022-12-21,Ripley,Missouri,29181,3114,68
 2022-12-21,Reynolds,Missouri,29179,1353,27
 2022-12-21,Ray,Missouri,29177,6053,101
-2022-12-21,Wythe,Virginia,51197,9193,167
 2022-12-21,Randolph,Missouri,29175,6994,110
-2022-12-21,York,Virginia,51199,13077,127
 2022-12-21,Ralls,Missouri,29173,2854,35
 2022-12-21,Putnam,Missouri,29171,1161,26
 2022-12-21,Pulaski,Missouri,29169,10553,126
@@ -1392,19 +1587,15 @@ date,county,state,fips,cases,deaths
 2022-12-21,Pettis,Missouri,29159,14534,180
 2022-12-21,Perry,Missouri,29157,6141,51
 2022-12-21,Pemiscot,Missouri,29155,3561,87
-2022-12-21,St. Croix,Virgin Islands,78010,12213,53
 2022-12-21,Ozark,Missouri,29153,1988,64
 2022-12-21,Osage,Missouri,29151,3666,51
 2022-12-21,Oregon,Missouri,29149,2372,40
 2022-12-21,Nodaway,Missouri,29147,7421,50
 2022-12-21,Newton,Missouri,29145,13446,237
 2022-12-21,New Madrid,Missouri,29143,5847,89
-2022-12-21,St. John,Virgin Islands,78020,1019,5
 2022-12-21,Morgan,Missouri,29141,4790,121
-2022-12-21,St. Thomas,Virgin Islands,78030,10460,69
 2022-12-21,Montgomery,Missouri,29139,2997,63
 2022-12-21,Monroe,Missouri,29137,2470,50
-2022-12-21,Unknown,Virgin Islands,,20,0
 2022-12-21,Moniteau,Missouri,29135,4258,60
 2022-12-21,Mississippi,Missouri,29133,4290,63
 2022-12-21,Miller,Missouri,29131,6861,127
@@ -1417,10 +1608,8 @@ date,county,state,fips,cases,deaths
 2022-12-21,Livingston,Missouri,29117,4363,106
 2022-12-21,Linn,Missouri,29115,3009,70
 2022-12-21,Lincoln,Missouri,29113,18001,155
-2022-12-21,Adams,Washington,53001,5556,44
 2022-12-21,Lewis,Missouri,29111,3259,43
 2022-12-21,Lawrence,Missouri,29109,9055,183
-2022-12-21,Asotin,Washington,53003,5409,79
 2022-12-21,Lafayette,Missouri,29107,8980,143
 2022-12-21,Laclede,Missouri,29105,9425,190
 2022-12-21,Knox,Missouri,29103,1160,19
@@ -1435,8 +1624,6 @@ date,county,state,fips,cases,deaths
 2022-12-21,Howard,Missouri,29089,2872,35
 2022-12-21,Holt,Missouri,29087,1293,35
 2022-12-21,Hickory,Missouri,29085,2342,59
-2022-12-21,Benton,Washington,53005,60791,521
-2022-12-21,Chelan,Washington,53007,23748,191
 2022-12-21,Henry,Missouri,29083,6865,93
 2022-12-21,Harrison,Missouri,29081,2360,35
 2022-12-21,Grundy,Missouri,29079,3027,72
@@ -1451,7 +1638,6 @@ date,county,state,fips,cases,deaths
 2022-12-21,Daviess,Missouri,29061,1986,35
 2022-12-21,Dallas,Missouri,29059,4605,80
 2022-12-21,Dade,Missouri,29057,1765,46
-2022-12-21,Clallam,Washington,53009,15356,186
 2022-12-21,Crawford,Missouri,29055,6377,115
 2022-12-21,Cooper,Missouri,29053,4648,80
 2022-12-21,Cole,Missouri,29051,23195,299
@@ -1472,8 +1658,6 @@ date,county,state,fips,cases,deaths
 2022-12-21,Buchanan,Missouri,29021,29074,340
 2022-12-21,Boone,Missouri,29019,53719,287
 2022-12-21,Bollinger,Missouri,29017,3160,47
-2022-12-21,Clark,Washington,53011,108900,977
-2022-12-21,Columbia,Washington,53013,726,17
 2022-12-21,Benton,Missouri,29015,5244,113
 2022-12-21,Bates,Missouri,29013,4288,102
 2022-12-21,Barton,Missouri,29011,3270,56
@@ -1489,7 +1673,6 @@ date,county,state,fips,cases,deaths
 2022-12-21,Webster,Mississippi,28155,3862,73
 2022-12-21,Wayne,Mississippi,28153,6725,89
 2022-12-21,Washington,Mississippi,28151,12003,209
-2022-12-21,Cowlitz,Washington,53015,26756,387
 2022-12-21,Warren,Mississippi,28149,12220,218
 2022-12-21,Walthall,Mississippi,28147,4394,83
 2022-12-21,Union,Mississippi,28145,11107,130
@@ -1501,7 +1684,6 @@ date,county,state,fips,cases,deaths
 2022-12-21,Sunflower,Mississippi,28133,6594,131
 2022-12-21,Stone,Mississippi,28131,6458,80
 2022-12-21,Smith,Mississippi,28129,4808,72
-2022-12-21,Douglas,Washington,53017,13084,83
 2022-12-21,Simpson,Mississippi,28127,8250,158
 2022-12-21,Sharkey,Mississippi,28125,1112,27
 2022-12-21,Scott,Mississippi,28123,7590,122
@@ -1511,10 +1693,8 @@ date,county,state,fips,cases,deaths
 2022-12-21,Pontotoc,Mississippi,28115,12238,155
 2022-12-21,Pike,Mississippi,28113,12104,192
 2022-12-21,Perry,Mississippi,28111,3584,65
-2022-12-21,Ferry,Washington,53019,1759,32
 2022-12-21,Pearl River,Mississippi,28109,17303,286
 2022-12-21,Panola,Mississippi,28107,12114,178
-2022-12-21,Franklin,Washington,53021,36356,226
 2022-12-21,Oktibbeha,Mississippi,28105,13145,171
 2022-12-21,Noxubee,Mississippi,28103,3400,51
 2022-12-21,Newton,Mississippi,28101,6866,102
@@ -1549,18 +1729,15 @@ date,county,state,fips,cases,deaths
 2022-12-21,Grenada,Mississippi,28043,6225,137
 2022-12-21,Greene,Mississippi,28041,3742,60
 2022-12-21,George,Mississippi,28039,8413,90
-2022-12-21,Garfield,Washington,53023,487,7
 2022-12-21,Franklin,Mississippi,28037,2268,39
 2022-12-21,Forrest,Mississippi,28035,26220,320
 2022-12-21,DeSoto,Mississippi,28033,59204,572
 2022-12-21,Covington,Mississippi,28031,8234,118
-2022-12-21,Grant,Washington,53025,31839,267
 2022-12-21,Copiah,Mississippi,28029,8778,125
 2022-12-21,Coahoma,Mississippi,28027,7778,135
 2022-12-21,Clay,Mississippi,28025,5897,102
 2022-12-21,Clarke,Mississippi,28023,4730,112
 2022-12-21,Claiborne,Mississippi,28021,2486,49
-2022-12-21,Grays Harbor,Washington,53027,20046,242
 2022-12-21,Choctaw,Mississippi,28019,2725,36
 2022-12-21,Chickasaw,Mississippi,28017,6691,101
 2022-12-21,Carroll,Mississippi,28015,2965,58
@@ -1568,11 +1745,9 @@ date,county,state,fips,cases,deaths
 2022-12-21,Bolivar,Mississippi,28011,10936,189
 2022-12-21,Benton,Mississippi,28009,2691,51
 2022-12-21,Attala,Mississippi,28007,6516,121
-2022-12-21,Island,Washington,53029,13244,107
 2022-12-21,Amite,Mississippi,28005,3762,70
 2022-12-21,Alcorn,Mississippi,28003,12264,165
 2022-12-21,Adams,Mississippi,28001,8403,152
-2022-12-21,Jefferson,Washington,53031,4596,34
 2022-12-21,Yellow Medicine,Minnesota,27173,3020,36
 2022-12-21,Wright,Minnesota,27171,41830,330
 2022-12-21,Winona,Minnesota,27169,15445,80
@@ -1585,7 +1760,6 @@ date,county,state,fips,cases,deaths
 2022-12-21,Unknown,Minnesota,,786,349
 2022-12-21,Traverse,Minnesota,27155,985,12
 2022-12-21,Todd,Minnesota,27153,8192,72
-2022-12-21,King,Washington,53033,535172,3348
 2022-12-21,Swift,Minnesota,27151,2651,35
 2022-12-21,St. Louis,Minnesota,27137,58773,594
 2022-12-21,Stevens,Minnesota,27149,3229,16
@@ -1605,8 +1779,6 @@ date,county,state,fips,cases,deaths
 2022-12-21,Polk,Minnesota,27119,10362,126
 2022-12-21,Pipestone,Minnesota,27117,2296,35
 2022-12-21,Pine,Minnesota,27115,8298,76
-2022-12-21,Kitsap,Washington,53035,50917,395
-2022-12-21,Kittitas,Washington,53037,10134,89
 2022-12-21,Pennington,Minnesota,27113,4212,43
 2022-12-21,Otter Tail,Minnesota,27111,15790,179
 2022-12-21,Olmsted,Minnesota,27109,51652,213
@@ -1617,9 +1789,7 @@ date,county,state,fips,cases,deaths
 2022-12-21,Mower,Minnesota,27099,13534,79
 2022-12-21,Morrison,Minnesota,27097,10830,116
 2022-12-21,Mille Lacs,Minnesota,27095,8173,123
-2022-12-21,Klickitat,Washington,53039,4234,58
 2022-12-21,Meeker,Minnesota,27093,6949,81
-2022-12-21,Lewis,Washington,53041,20395,287
 2022-12-21,McLeod,Minnesota,27085,12657,120
 2022-12-21,Martin,Minnesota,27091,6511,71
 2022-12-21,Marshall,Minnesota,27089,2450,29
@@ -1630,7 +1800,6 @@ date,county,state,fips,cases,deaths
 2022-12-21,Lake of the Woods,Minnesota,27077,901,6
 2022-12-21,Lake,Minnesota,27075,2591,32
 2022-12-21,Lac qui Parle,Minnesota,27073,2122,30
-2022-12-21,Lincoln,Washington,53043,2622,29
 2022-12-21,Koochiching,Minnesota,27071,3554,42
 2022-12-21,Kittson,Minnesota,27069,1202,32
 2022-12-21,Kandiyohi,Minnesota,27067,15305,147
@@ -1649,18 +1818,15 @@ date,county,state,fips,cases,deaths
 2022-12-21,Douglas,Minnesota,27041,12883,131
 2022-12-21,Dodge,Minnesota,27039,6573,24
 2022-12-21,Dakota,Minnesota,27037,133095,868
-2022-12-21,Mason,Washington,53045,15414,173
 2022-12-21,Crow Wing,Minnesota,27035,18799,183
 2022-12-21,Cottonwood,Minnesota,27033,3679,42
 2022-12-21,Cook,Minnesota,27031,804,5
 2022-12-21,Clearwater,Minnesota,27029,2427,32
-2022-12-21,Okanogan,Washington,53047,10244,139
 2022-12-21,Clay,Minnesota,27027,23011,135
 2022-12-21,Chisago,Minnesota,27025,16907,130
 2022-12-21,Chippewa,Minnesota,27023,3654,53
 2022-12-21,Cass,Minnesota,27021,8326,92
 2022-12-21,Carver,Minnesota,27019,31250,132
-2022-12-21,Pacific,Washington,53049,4748,73
 2022-12-21,Carlton,Minnesota,27017,11094,116
 2022-12-21,Brown,Minnesota,27015,7783,88
 2022-12-21,Blue Earth,Minnesota,27013,20776,117
@@ -1679,7 +1845,6 @@ date,county,state,fips,cases,deaths
 2022-12-21,St. Joseph,Michigan,26149,15762,234
 2022-12-21,St. Clair,Michigan,26147,49385,915
 2022-12-21,Shiawassee,Michigan,26155,21584,255
-2022-12-21,Pend Oreille,Washington,53051,2898,42
 2022-12-21,Schoolcraft,Michigan,26153,2160,18
 2022-12-21,Sanilac,Michigan,26151,10315,219
 2022-12-21,Saginaw,Michigan,26145,60915,1063
@@ -1690,9 +1855,7 @@ date,county,state,fips,cases,deaths
 2022-12-21,Oscoda,Michigan,26135,1674,60
 2022-12-21,Osceola,Michigan,26133,5864,97
 2022-12-21,Ontonagon,Michigan,26131,1305,48
-2022-12-21,Pierce,Washington,53053,237394,1554
 2022-12-21,Ogemaw,Michigan,26129,4968,116
-2022-12-21,San Juan,Washington,53055,1909,3
 2022-12-21,Oceana,Michigan,26127,7530,103
 2022-12-21,Oakland,Michigan,26125,373348,4363
 2022-12-21,Newaygo,Michigan,26123,13409,180
@@ -1703,16 +1866,13 @@ date,county,state,fips,cases,deaths
 2022-12-21,Missaukee,Michigan,26113,3515,69
 2022-12-21,Midland,Michigan,26111,22990,250
 2022-12-21,Menominee,Michigan,26109,6877,77
-2022-12-21,Skagit,Washington,53057,27776,247
 2022-12-21,Mecosta,Michigan,26107,10001,123
 2022-12-21,Mason,Michigan,26105,8160,110
 2022-12-21,Marquette,Michigan,26103,19440,161
-2022-12-21,Skamania,Washington,53059,1767,16
 2022-12-21,Manistee,Michigan,26101,5524,108
 2022-12-21,Macomb,Michigan,26099,291972,4449
 2022-12-21,Mackinac,Michigan,26097,2920,38
 2022-12-21,Luce,Michigan,26095,2495,21
-2022-12-21,Snohomish,Washington,53061,198416,1360
 2022-12-21,Livingston,Michigan,26093,56335,516
 2022-12-21,Lenawee,Michigan,26091,31547,363
 2022-12-21,Leelanau,Michigan,26089,4336,66
@@ -1725,7 +1885,6 @@ date,county,state,fips,cases,deaths
 2022-12-21,Jackson,Michigan,26075,54316,657
 2022-12-21,Isabella,Michigan,26073,17660,231
 2022-12-21,Iron,Michigan,26071,3455,99
-2022-12-21,Spokane,Washington,53063,149648,1606
 2022-12-21,Iosco,Michigan,26069,5573,169
 2022-12-21,Ionia,Michigan,26067,22483,207
 2022-12-21,Ingham,Michigan,26065,82288,876
@@ -1741,13 +1900,10 @@ date,county,state,fips,cases,deaths
 2022-12-21,Eaton,Michigan,26045,34014,452
 2022-12-21,Dickinson,Michigan,26043,9195,126
 2022-12-21,Delta,Michigan,26041,12157,179
-2022-12-21,Stevens,Washington,53065,9798,161
 2022-12-21,Crawford,Michigan,26039,3130,37
-2022-12-21,Thurston,Washington,53067,61098,489
 2022-12-21,Clinton,Michigan,26037,27280,230
 2022-12-21,Clare,Michigan,26035,7984,178
 2022-12-21,Chippewa,Michigan,26033,13163,133
-2022-12-21,Wahkiakum,Washington,53069,627,11
 2022-12-21,Cheboygan,Michigan,26031,5648,128
 2022-12-21,Charlevoix,Michigan,26029,5773,68
 2022-12-21,Cass,Michigan,26027,12831,172
@@ -1762,9 +1918,6 @@ date,county,state,fips,cases,deaths
 2022-12-21,Antrim,Michigan,26009,5164,76
 2022-12-21,Alpena,Michigan,26007,6375,154
 2022-12-21,Allegan,Michigan,26005,31572,390
-2022-12-21,Walla Walla,Washington,53071,18420,166
-2022-12-21,Whatcom,Washington,53073,48136,351
-2022-12-21,Whitman,Washington,53075,9910,98
 2022-12-21,Alger,Michigan,26003,2229,18
 2022-12-21,Alcona,Michigan,26001,1892,76
 2022-12-21,Worcester,Massachusetts,25027,232346,2897
@@ -1772,7 +1925,6 @@ date,county,state,fips,cases,deaths
 2022-12-21,Suffolk,Massachusetts,25025,259908,2135
 2022-12-21,Plymouth,Massachusetts,25023,138146,1840
 2022-12-21,Norfolk,Massachusetts,25021,167405,2152
-2022-12-21,Yakima,Washington,53077,82864,843
 2022-12-21,Nantucket,Massachusetts,25019,3831,0
 2022-12-21,Middlesex,Massachusetts,25017,421256,4477
 2022-12-21,Hampshire,Massachusetts,25015,38194,417
@@ -1783,121 +1935,112 @@ date,county,state,fips,cases,deaths
 2022-12-21,Bristol,Massachusetts,25005,176174,2379
 2022-12-21,Berkshire,Massachusetts,25003,33682,437
 2022-12-21,Barnstable,Massachusetts,25001,46796,710
-2022-12-21,Worcester,Maryland,24047,10455,177
-2022-12-21,Wicomico,Maryland,24045,23920,348
-2022-12-21,Washington,Maryland,24043,40105,616
-2022-12-21,Talbot,Maryland,24041,6971,107
-2022-12-21,St. Mary's,Maryland,24037,23679,237
-2022-12-21,Somerset,Maryland,24039,6014,78
-2022-12-21,Barbour,West Virginia,54001,5823,77
-2022-12-21,Queen Anne's,Maryland,24035,8593,128
-2022-12-21,Prince George's,Maryland,24033,219011,2388
-2022-12-21,Montgomery,Maryland,24031,234931,2266
-2022-12-21,Kent,Maryland,24029,3828,74
-2022-12-21,Howard,Maryland,24027,61118,427
-2022-12-21,Harford,Maryland,24025,47949,649
-2022-12-21,Garrett,Maryland,24023,6870,124
-2022-12-21,Frederick,Maryland,24021,56173,579
-2022-12-21,Dorchester,Maryland,24019,9223,114
-2022-12-21,Charles,Maryland,24017,36919,403
-2022-12-21,Cecil,Maryland,24015,19488,302
-2022-12-21,Carroll,Maryland,24013,26901,451
-2022-12-21,Caroline,Maryland,24011,7098,104
-2022-12-21,Calvert,Maryland,24009,14199,162
-2022-12-21,Baltimore city,Maryland,24510,143375,1909
-2022-12-21,Baltimore,Maryland,24005,164982,2709
-2022-12-21,Anne Arundel,Maryland,24003,115006,1228
-2022-12-21,Allegany,Maryland,24001,20943,380
-2022-12-21,York,Maine,23031,49950,357
-2022-12-21,Washington,Maine,23029,5558,67
-2022-12-21,Waldo,Maine,23027,7774,77
+2022-12-21,Worcester,Maryland,24047,10468,177
+2022-12-21,Wicomico,Maryland,24045,23944,348
+2022-12-21,Washington,Maryland,24043,40121,616
+2022-12-21,Talbot,Maryland,24041,6983,107
+2022-12-21,St. Mary's,Maryland,24037,23716,237
+2022-12-21,Somerset,Maryland,24039,6021,78
+2022-12-21,Queen Anne's,Maryland,24035,8597,128
+2022-12-21,Prince George's,Maryland,24033,219332,2388
+2022-12-21,Montgomery,Maryland,24031,235258,2267
+2022-12-21,Kent,Maryland,24029,3830,74
+2022-12-21,Howard,Maryland,24027,61195,427
+2022-12-21,Harford,Maryland,24025,48004,649
+2022-12-21,Garrett,Maryland,24023,6882,124
+2022-12-21,Frederick,Maryland,24021,56224,579
+2022-12-21,Dorchester,Maryland,24019,9234,114
+2022-12-21,Charles,Maryland,24017,36974,403
+2022-12-21,Cecil,Maryland,24015,19509,302
+2022-12-21,Carroll,Maryland,24013,26931,451
+2022-12-21,Caroline,Maryland,24011,7100,104
+2022-12-21,Calvert,Maryland,24009,14221,162
+2022-12-21,Baltimore city,Maryland,24510,143539,1912
+2022-12-21,Baltimore,Maryland,24005,165196,2713
+2022-12-21,Anne Arundel,Maryland,24003,115126,1229
+2022-12-21,Allegany,Maryland,24001,20961,380
+2022-12-21,York,Maine,23031,50003,357
+2022-12-21,Washington,Maine,23029,5562,67
+2022-12-21,Waldo,Maine,23027,7776,77
 2022-12-21,Unknown,Maine,,7,0
-2022-12-21,Somerset,Maine,23025,12318,121
-2022-12-21,Sagadahoc,Maine,23023,6747,42
-2022-12-21,Berkeley,West Virginia,54003,43624,347
-2022-12-21,Piscataquis,Maine,23021,3765,51
-2022-12-21,Penobscot,Maine,23019,35661,376
-2022-12-21,Oxford,Maine,23017,14110,172
-2022-12-21,Lincoln,Maine,23015,6693,43
-2022-12-21,Knox,Maine,23013,7782,49
-2022-12-21,Kennebec,Maine,23011,29022,290
-2022-12-21,Hancock,Maine,23009,9768,112
-2022-12-21,Franklin,Maine,23007,7090,71
-2022-12-21,Cumberland,Maine,23005,63581,465
-2022-12-21,Aroostook,Maine,23003,17620,192
-2022-12-21,Androscoggin,Maine,23001,27351,318
-2022-12-21,Winn,Louisiana,22127,5316,69
-2022-12-21,West Feliciana,Louisiana,22125,3128,48
-2022-12-21,West Carroll,Louisiana,22123,4500,71
-2022-12-21,West Baton Rouge,Louisiana,22121,8654,93
-2022-12-21,Webster,Louisiana,22119,14057,198
-2022-12-21,Washington,Louisiana,22117,15548,265
-2022-12-21,Vernon,Louisiana,22115,11336,200
-2022-12-21,Vermilion,Louisiana,22113,18322,242
-2022-12-21,Boone,West Virginia,54005,8373,100
-2022-12-21,Unknown,Louisiana,,1179,0
-2022-12-21,Braxton,West Virginia,54007,4902,52
-2022-12-21,Union,Louisiana,22111,8537,142
-2022-12-21,Terrebonne,Louisiana,22109,37266,435
-2022-12-21,Tensas,Louisiana,22107,1271,13
-2022-12-21,Tangipahoa,Louisiana,22105,42084,656
-2022-12-21,St. Tammany,Louisiana,22103,87752,922
-2022-12-21,St. Mary,Louisiana,22101,14784,283
-2022-12-21,St. Martin,Louisiana,22099,14714,197
-2022-12-21,St. Landry,Louisiana,22097,26583,428
-2022-12-21,St. John the Baptist,Louisiana,22095,12696,189
-2022-12-21,St. James,Louisiana,22093,7051,79
-2022-12-21,St. Helena,Louisiana,22091,2153,25
-2022-12-21,Brooke,West Virginia,54009,6177,118
-2022-12-21,St. Charles,Louisiana,22089,16491,153
-2022-12-21,St. Bernard,Louisiana,22087,13742,117
-2022-12-21,Sabine,Louisiana,22085,7799,125
-2022-12-21,Richland,Louisiana,22083,8467,107
-2022-12-21,Red River,Louisiana,22081,2477,59
-2022-12-21,Rapides,Louisiana,22079,38724,607
-2022-12-21,Pointe Coupee,Louisiana,22077,7537,97
-2022-12-21,Plaquemines,Louisiana,22075,7540,48
-2022-12-21,Ouachita,Louisiana,22073,60690,829
-2022-12-21,Orleans,Louisiana,22071,108698,1181
-2022-12-21,Natchitoches,Louisiana,22069,12521,184
-2022-12-21,Morehouse,Louisiana,22067,8295,144
-2022-12-21,Madison,Louisiana,22065,3756,64
-2022-12-21,Livingston,Louisiana,22063,42293,481
-2022-12-21,Lincoln,Louisiana,22061,14902,157
-2022-12-21,LaSalle,Louisiana,22059,4936,68
-2022-12-21,Lafourche,Louisiana,22057,33046,398
-2022-12-21,Lafayette,Louisiana,22055,74322,527
-2022-12-21,Jefferson Davis,Louisiana,22053,7972,174
-2022-12-21,Jefferson,Louisiana,22051,136153,1425
-2022-12-21,Jackson,Louisiana,22049,5340,82
-2022-12-21,Cabell,West Virginia,54011,33048,425
-2022-12-21,Calhoun,West Virginia,54013,2246,15
-2022-12-21,Clay,West Virginia,54015,2667,53
-2022-12-21,Iberville,Louisiana,22047,11078,156
-2022-12-21,Iberia,Louisiana,22045,23305,271
-2022-12-21,Grant,Louisiana,22043,7002,99
-2022-12-21,Franklin,Louisiana,22041,8584,191
-2022-12-21,Evangeline,Louisiana,22039,9990,162
-2022-12-21,East Feliciana,Louisiana,22037,7956,179
-2022-12-21,East Carroll,Louisiana,22035,3138,38
-2022-12-21,East Baton Rouge,Louisiana,22033,131048,1402
-2022-12-21,De Soto,Louisiana,22031,9278,141
-2022-12-21,Concordia,Louisiana,22029,5994,91
-2022-12-21,Claiborne,Louisiana,22027,3931,82
-2022-12-21,Catahoula,Louisiana,22025,3025,59
-2022-12-21,Cameron,Louisiana,22023,1338,10
-2022-12-21,Caldwell,Louisiana,22021,4328,55
-2022-12-21,Calcasieu,Louisiana,22019,63958,733
-2022-12-21,Doddridge,West Virginia,54017,2463,19
-2022-12-21,Caddo,Louisiana,22017,83845,1241
-2022-12-21,Bossier,Louisiana,22015,48296,532
-2022-12-21,Bienville,Louisiana,22013,4788,116
-2022-12-21,Beauregard,Louisiana,22011,10803,145
-2022-12-21,Avoyelles,Louisiana,22009,13741,216
-2022-12-21,Assumption,Louisiana,22007,6453,72
-2022-12-21,Ascension,Louisiana,22005,40499,302
-2022-12-21,Allen,Louisiana,22003,8887,143
-2022-12-21,Acadia,Louisiana,22001,18372,306
+2022-12-21,Somerset,Maine,23025,12329,121
+2022-12-21,Sagadahoc,Maine,23023,6750,42
+2022-12-21,Piscataquis,Maine,23021,3767,51
+2022-12-21,Penobscot,Maine,23019,35688,376
+2022-12-21,Oxford,Maine,23017,14115,172
+2022-12-21,Lincoln,Maine,23015,6695,43
+2022-12-21,Knox,Maine,23013,7786,49
+2022-12-21,Kennebec,Maine,23011,29055,290
+2022-12-21,Hancock,Maine,23009,9772,112
+2022-12-21,Franklin,Maine,23007,7092,71
+2022-12-21,Cumberland,Maine,23005,63635,465
+2022-12-21,Aroostook,Maine,23003,17636,192
+2022-12-21,Androscoggin,Maine,23001,27364,318
+2022-12-21,Winn,Louisiana,22127,5335,69
+2022-12-21,West Feliciana,Louisiana,22125,3180,48
+2022-12-21,West Carroll,Louisiana,22123,4538,71
+2022-12-21,West Baton Rouge,Louisiana,22121,9023,93
+2022-12-21,Webster,Louisiana,22119,14091,199
+2022-12-21,Washington,Louisiana,22117,15609,265
+2022-12-21,Vernon,Louisiana,22115,11396,200
+2022-12-21,Vermilion,Louisiana,22113,18457,242
+2022-12-21,Unknown,Louisiana,,1184,0
+2022-12-21,Union,Louisiana,22111,8608,142
+2022-12-21,Terrebonne,Louisiana,22109,37428,437
+2022-12-21,Tensas,Louisiana,22107,1281,13
+2022-12-21,Tangipahoa,Louisiana,22105,43070,658
+2022-12-21,St. Tammany,Louisiana,22103,88462,922
+2022-12-21,St. Mary,Louisiana,22101,14821,283
+2022-12-21,St. Martin,Louisiana,22099,15362,198
+2022-12-21,St. Landry,Louisiana,22097,26853,429
+2022-12-21,St. John the Baptist,Louisiana,22095,12758,189
+2022-12-21,St. James,Louisiana,22093,7118,79
+2022-12-21,St. Helena,Louisiana,22091,2180,25
+2022-12-21,St. Charles,Louisiana,22089,16574,153
+2022-12-21,St. Bernard,Louisiana,22087,13819,117
+2022-12-21,Sabine,Louisiana,22085,7813,125
+2022-12-21,Richland,Louisiana,22083,8533,107
+2022-12-21,Red River,Louisiana,22081,2485,59
+2022-12-21,Rapides,Louisiana,22079,40220,607
+2022-12-21,Pointe Coupee,Louisiana,22077,7612,97
+2022-12-21,Plaquemines,Louisiana,22075,7651,48
+2022-12-21,Ouachita,Louisiana,22073,62227,830
+2022-12-21,Orleans,Louisiana,22071,109711,1182
+2022-12-21,Natchitoches,Louisiana,22069,12577,184
+2022-12-21,Morehouse,Louisiana,22067,8334,144
+2022-12-21,Madison,Louisiana,22065,3762,64
+2022-12-21,Livingston,Louisiana,22063,44711,482
+2022-12-21,Lincoln,Louisiana,22061,14971,157
+2022-12-21,LaSalle,Louisiana,22059,4949,68
+2022-12-21,Lafourche,Louisiana,22057,33447,398
+2022-12-21,Lafayette,Louisiana,22055,76699,527
+2022-12-21,Jefferson Davis,Louisiana,22053,8013,174
+2022-12-21,Jefferson,Louisiana,22051,137633,1428
+2022-12-21,Jackson,Louisiana,22049,5351,82
+2022-12-21,Iberville,Louisiana,22047,11248,156
+2022-12-21,Iberia,Louisiana,22045,23451,271
+2022-12-21,Grant,Louisiana,22043,7168,99
+2022-12-21,Franklin,Louisiana,22041,8621,191
+2022-12-21,Evangeline,Louisiana,22039,10021,163
+2022-12-21,East Feliciana,Louisiana,22037,8110,179
+2022-12-21,East Carroll,Louisiana,22035,3173,38
+2022-12-21,East Baton Rouge,Louisiana,22033,135303,1403
+2022-12-21,De Soto,Louisiana,22031,9328,141
+2022-12-21,Concordia,Louisiana,22029,6223,91
+2022-12-21,Claiborne,Louisiana,22027,3947,82
+2022-12-21,Catahoula,Louisiana,22025,3068,59
+2022-12-21,Cameron,Louisiana,22023,1361,10
+2022-12-21,Caldwell,Louisiana,22021,4344,55
+2022-12-21,Calcasieu,Louisiana,22019,65723,734
+2022-12-21,Caddo,Louisiana,22017,84212,1245
+2022-12-21,Bossier,Louisiana,22015,48491,532
+2022-12-21,Bienville,Louisiana,22013,4797,116
+2022-12-21,Beauregard,Louisiana,22011,10858,145
+2022-12-21,Avoyelles,Louisiana,22009,13837,216
+2022-12-21,Assumption,Louisiana,22007,6499,72
+2022-12-21,Ascension,Louisiana,22005,42680,302
+2022-12-21,Allen,Louisiana,22003,8921,143
+2022-12-21,Acadia,Louisiana,22001,18477,307
 2022-12-21,Woodford,Kentucky,21239,9074,60
 2022-12-21,Wolfe,Kentucky,21237,3424,30
 2022-12-21,Whitley,Kentucky,21235,16666,230
@@ -1911,18 +2054,15 @@ date,county,state,fips,cases,deaths
 2022-12-21,Todd,Kentucky,21219,3449,47
 2022-12-21,Taylor,Kentucky,21217,11406,139
 2022-12-21,Spencer,Kentucky,21215,6745,66
-2022-12-21,Fayette,West Virginia,54019,16222,222
 2022-12-21,Simpson,Kentucky,21213,7050,102
 2022-12-21,Shelby,Kentucky,21211,16385,178
 2022-12-21,Scott,Kentucky,21209,22186,121
 2022-12-21,Russell,Kentucky,21207,8053,99
 2022-12-21,Rowan,Kentucky,21205,9317,80
-2022-12-21,Gilmer,West Virginia,54021,2518,23
 2022-12-21,Rockcastle,Kentucky,21203,6384,67
 2022-12-21,Robertson,Kentucky,21201,842,22
 2022-12-21,Pulaski,Kentucky,21199,21513,325
 2022-12-21,Powell,Kentucky,21197,6183,49
-2022-12-21,Grant,West Virginia,54023,4645,63
 2022-12-21,Pike,Kentucky,21195,24107,357
 2022-12-21,Perry,Kentucky,21193,15311,205
 2022-12-21,Pendleton,Kentucky,21191,4204,43
@@ -1941,11 +2081,9 @@ date,county,state,fips,cases,deaths
 2022-12-21,Menifee,Kentucky,21165,2267,35
 2022-12-21,Meade,Kentucky,21163,7223,87
 2022-12-21,McLean,Kentucky,21149,3213,58
-2022-12-21,Greenbrier,West Virginia,54025,12375,175
 2022-12-21,McCreary,Kentucky,21147,7513,89
 2022-12-21,McCracken,Kentucky,21145,23351,305
 2022-12-21,Mason,Kentucky,21161,6104,115
-2022-12-21,Hampshire,West Virginia,54027,7098,92
 2022-12-21,Martin,Kentucky,21159,4100,51
 2022-12-21,Marshall,Kentucky,21157,9906,125
 2022-12-21,Marion,Kentucky,21155,7831,91
@@ -1955,7 +2093,6 @@ date,county,state,fips,cases,deaths
 2022-12-21,Logan,Kentucky,21141,9960,135
 2022-12-21,Livingston,Kentucky,21139,3013,65
 2022-12-21,Lincoln,Kentucky,21137,8496,145
-2022-12-21,Hancock,West Virginia,54029,8167,171
 2022-12-21,Lewis,Kentucky,21135,5513,92
 2022-12-21,Letcher,Kentucky,21133,9540,135
 2022-12-21,Leslie,Kentucky,21131,5010,58
@@ -1968,15 +2105,12 @@ date,county,state,fips,cases,deaths
 2022-12-21,Kenton,Kentucky,21117,55247,465
 2022-12-21,Johnson,Kentucky,21115,8641,134
 2022-12-21,Jessamine,Kentucky,21113,18413,161
-2022-12-21,Hardy,West Virginia,54031,5503,55
 2022-12-21,Jefferson,Kentucky,21111,278380,2596
-2022-12-21,Harrison,West Virginia,54033,25217,279
 2022-12-21,Jackson,Kentucky,21109,5059,84
 2022-12-21,Hopkins,Kentucky,21107,18915,275
 2022-12-21,Hickman,Kentucky,21105,1060,31
 2022-12-21,Henry,Kentucky,21103,6190,56
 2022-12-21,Henderson,Kentucky,21101,16948,181
-2022-12-21,Jackson,West Virginia,54035,8509,146
 2022-12-21,Hart,Kentucky,21099,6628,109
 2022-12-21,Harrison,Kentucky,21097,8302,87
 2022-12-21,Harlan,Kentucky,21095,12214,228
@@ -1987,18 +2121,14 @@ date,county,state,fips,cases,deaths
 2022-12-21,Grayson,Kentucky,21085,9775,149
 2022-12-21,Graves,Kentucky,21083,13231,201
 2022-12-21,Grant,Kentucky,21081,9832,70
-2022-12-21,Jefferson,West Virginia,54037,17739,151
 2022-12-21,Garrard,Kentucky,21079,5745,89
 2022-12-21,Gallatin,Kentucky,21077,2667,57
-2022-12-21,Kanawha,West Virginia,54039,57563,837
 2022-12-21,Fulton,Kentucky,21075,1426,42
-2022-12-21,Lewis,West Virginia,54041,6802,95
 2022-12-21,Franklin,Kentucky,21073,17768,185
 2022-12-21,Floyd,Kentucky,21071,16215,241
 2022-12-21,Fleming,Kentucky,21069,4820,71
 2022-12-21,Fayette,Kentucky,21067,117647,694
 2022-12-21,Estill,Kentucky,21065,5083,58
-2022-12-21,Lincoln,West Virginia,54043,6958,92
 2022-12-21,Elliott,Kentucky,21063,3354,22
 2022-12-21,Edmonson,Kentucky,21061,3150,68
 2022-12-21,Daviess,Kentucky,21059,37545,429
@@ -2010,7 +2140,6 @@ date,county,state,fips,cases,deaths
 2022-12-21,Christian,Kentucky,21047,19469,233
 2022-12-21,Casey,Kentucky,21045,5202,85
 2022-12-21,Carter,Kentucky,21043,11546,121
-2022-12-21,Logan,West Virginia,54045,12465,201
 2022-12-21,Carroll,Kentucky,21041,4207,54
 2022-12-21,Carlisle,Kentucky,21039,1311,25
 2022-12-21,Campbell,Kentucky,21037,30170,204
@@ -2023,10 +2152,8 @@ date,county,state,fips,cases,deaths
 2022-12-21,Bracken,Kentucky,21023,2680,37
 2022-12-21,Boyle,Kentucky,21021,10911,156
 2022-12-21,Boyd,Kentucky,21019,21608,202
-2022-12-21,Marion,West Virginia,54049,19507,199
 2022-12-21,Bourbon,Kentucky,21017,7551,70
 2022-12-21,Boone,Kentucky,21015,47610,341
-2022-12-21,Marshall,West Virginia,54051,10975,166
 2022-12-21,Bell,Kentucky,21013,10699,169
 2022-12-21,Bath,Kentucky,21011,4382,52
 2022-12-21,Barren,Kentucky,21009,16261,236
@@ -2035,7 +2162,6 @@ date,county,state,fips,cases,deaths
 2022-12-21,Allen,Kentucky,21003,8145,122
 2022-12-21,Adair,Kentucky,21001,7461,114
 2022-12-21,Wyandotte,Kansas,20209,53427,540
-2022-12-21,Mason,West Virginia,54053,8599,106
 2022-12-21,Woodson,Kansas,20207,993,17
 2022-12-21,Wilson,Kansas,20205,3373,54
 2022-12-21,Wichita,Kansas,20203,581,12
@@ -2052,7 +2178,6 @@ date,county,state,fips,cases,deaths
 2022-12-21,Sherman,Kansas,20181,1771,23
 2022-12-21,Sheridan,Kansas,20179,892,19
 2022-12-21,Shawnee,Kansas,20177,58722,712
-2022-12-21,McDowell,West Virginia,54047,7157,96
 2022-12-21,Seward,Kansas,20175,7918,67
 2022-12-21,Sedgwick,Kansas,20173,166909,1636
 2022-12-21,Scott,Kansas,20171,1517,35
@@ -2065,7 +2190,6 @@ date,county,state,fips,cases,deaths
 2022-12-21,Republic,Kansas,20157,1521,21
 2022-12-21,Reno,Kansas,20155,22066,266
 2022-12-21,Rawlins,Kansas,20153,757,10
-2022-12-21,Mercer,West Virginia,54055,22387,283
 2022-12-21,Pratt,Kansas,20151,2205,38
 2022-12-21,Pottawatomie,Kansas,20149,6912,70
 2022-12-21,Phillips,Kansas,20147,1640,33
@@ -2075,7 +2199,6 @@ date,county,state,fips,cases,deaths
 2022-12-21,Osage,Kansas,20139,4700,66
 2022-12-21,Norton,Kansas,20137,2417,38
 2022-12-21,Ness,Kansas,20135,881,19
-2022-12-21,Mineral,West Virginia,54057,9945,172
 2022-12-21,Neosho,Kansas,20133,5979,77
 2022-12-21,Nemaha,Kansas,20131,3726,64
 2022-12-21,Morton,Kansas,20129,705,11
@@ -2088,14 +2211,11 @@ date,county,state,fips,cases,deaths
 2022-12-21,Marshall,Kansas,20117,2890,48
 2022-12-21,Marion,Kansas,20115,3903,52
 2022-12-21,Lyon,Kansas,20111,11644,130
-2022-12-21,Mingo,West Virginia,54059,9658,146
-2022-12-21,Monongalia,West Virginia,54061,30496,211
 2022-12-21,Logan,Kansas,20109,992,13
 2022-12-21,Linn,Kansas,20107,3360,39
 2022-12-21,Lincoln,Kansas,20105,717,12
 2022-12-21,Leavenworth,Kansas,20103,23481,207
 2022-12-21,Lane,Kansas,20101,364,12
-2022-12-21,Monroe,West Virginia,54063,5535,57
 2022-12-21,Labette,Kansas,20099,7725,87
 2022-12-21,Kiowa,Kansas,20097,743,13
 2022-12-21,Kingman,Kansas,20095,2259,78
@@ -2122,7 +2242,6 @@ date,county,state,fips,cases,deaths
 2022-12-21,Ellsworth,Kansas,20053,2383,33
 2022-12-21,Ellis,Kansas,20051,8244,90
 2022-12-21,Elk,Kansas,20049,672,14
-2022-12-21,Morgan,West Virginia,54065,5064,80
 2022-12-21,Edwards,Kansas,20047,664,24
 2022-12-21,Douglas,Kansas,20045,33343,167
 2022-12-21,Doniphan,Kansas,20043,2790,39
@@ -2140,8 +2259,6 @@ date,county,state,fips,cases,deaths
 2022-12-21,Chautauqua,Kansas,20019,976,22
 2022-12-21,Chase,Kansas,20017,781,9
 2022-12-21,Butler,Kansas,20015,21915,231
-2022-12-21,Nicholas,West Virginia,54067,9142,109
-2022-12-21,Ohio,West Virginia,54069,13590,193
 2022-12-21,Brown,Kansas,20013,3108,51
 2022-12-21,Bourbon,Kansas,20011,5401,63
 2022-12-21,Barton,Kansas,20009,7508,123
@@ -2168,7 +2285,6 @@ date,county,state,fips,cases,deaths
 2022-12-21,Sioux,Iowa,19167,8735,93
 2022-12-21,Shelby,Iowa,19165,3074,53
 2022-12-21,Scott,Iowa,19163,47679,428
-2022-12-21,Pendleton,West Virginia,54071,2290,23
 2022-12-21,Sac,Iowa,19161,2805,42
 2022-12-21,Ringgold,Iowa,19159,1293,39
 2022-12-21,Poweshiek,Iowa,19157,4479,65
@@ -2180,7 +2296,6 @@ date,county,state,fips,cases,deaths
 2022-12-21,Page,Iowa,19145,3748,52
 2022-12-21,Osceola,Iowa,19143,1526,22
 2022-12-21,O'Brien,Iowa,19141,3806,73
-2022-12-21,Pleasants,West Virginia,54073,2470,38
 2022-12-21,Muscatine,Iowa,19139,11056,140
 2022-12-21,Montgomery,Iowa,19137,2524,58
 2022-12-21,Monroe,Iowa,19135,2142,52
@@ -2205,8 +2320,6 @@ date,county,state,fips,cases,deaths
 2022-12-21,Jackson,Iowa,19097,5426,73
 2022-12-21,Iowa,Iowa,19095,4236,51
 2022-12-21,Ida,Iowa,19093,2062,50
-2022-12-21,Pocahontas,West Virginia,54075,2487,34
-2022-12-21,Preston,West Virginia,54077,10805,141
 2022-12-21,Humboldt,Iowa,19091,3005,41
 2022-12-21,Howard,Iowa,19089,2281,37
 2022-12-21,Henry,Iowa,19087,6367,81
@@ -2219,7 +2332,6 @@ date,county,state,fips,cases,deaths
 2022-12-21,Greene,Iowa,19073,2000,27
 2022-12-21,Fremont,Iowa,19071,1595,28
 2022-12-21,Franklin,Iowa,19069,2857,48
-2022-12-21,Putnam,West Virginia,54079,20324,208
 2022-12-21,Floyd,Iowa,19067,4127,68
 2022-12-21,Fayette,Iowa,19065,4811,85
 2022-12-21,Emmet,Iowa,19063,2623,55
@@ -2243,7 +2355,6 @@ date,county,state,fips,cases,deaths
 2022-12-21,Carroll,Iowa,19027,5589,80
 2022-12-21,Calhoun,Iowa,19025,2989,26
 2022-12-21,Butler,Iowa,19023,3728,57
-2022-12-21,Raleigh,West Virginia,54081,29237,402
 2022-12-21,Buena Vista,Iowa,19021,6823,64
 2022-12-21,Buchanan,Iowa,19019,5382,66
 2022-12-21,Bremer,Iowa,19017,6240,86
@@ -2260,7 +2371,6 @@ date,county,state,fips,cases,deaths
 2022-12-21,Wells,Indiana,18179,7387,143
 2022-12-21,Wayne,Indiana,18177,22694,357
 2022-12-21,Washington,Indiana,18175,6997,101
-2022-12-21,Randolph,West Virginia,54083,11730,99
 2022-12-21,Warrick,Indiana,18173,24040,253
 2022-12-21,Warren,Indiana,18171,2343,30
 2022-12-21,Wabash,Indiana,18169,10052,166
@@ -2292,7 +2402,6 @@ date,county,state,fips,cases,deaths
 2022-12-21,Owen,Indiana,18119,6733,134
 2022-12-21,Orange,Indiana,18117,5721,103
 2022-12-21,Ohio,Indiana,18115,1705,27
-2022-12-21,Ritchie,West Virginia,54085,2946,32
 2022-12-21,Noble,Indiana,18113,15339,168
 2022-12-21,Newton,Indiana,18111,3020,74
 2022-12-21,Morgan,Indiana,18109,19030,296
@@ -2300,7 +2409,6 @@ date,county,state,fips,cases,deaths
 2022-12-21,Monroe,Indiana,18105,33514,305
 2022-12-21,Miami,Indiana,18103,10566,171
 2022-12-21,Martin,Indiana,18101,2532,30
-2022-12-21,Roane,West Virginia,54087,4329,47
 2022-12-21,Marshall,Indiana,18099,13716,206
 2022-12-21,Marion,Indiana,18097,261041,3162
 2022-12-21,Madison,Indiana,18095,38433,678
@@ -2325,11 +2433,8 @@ date,county,state,fips,cases,deaths
 2022-12-21,Hamilton,Indiana,18057,94458,708
 2022-12-21,Greene,Indiana,18055,8745,151
 2022-12-21,Grant,Indiana,18053,20336,375
-2022-12-21,Summers,West Virginia,54089,3598,63
-2022-12-21,Taylor,West Virginia,54091,5707,82
 2022-12-21,Gibson,Indiana,18051,13818,156
 2022-12-21,Fulton,Indiana,18049,5587,110
-2022-12-21,Tucker,West Virginia,54093,2333,39
 2022-12-21,Franklin,Indiana,18047,5083,83
 2022-12-21,Fountain,Indiana,18045,6277,108
 2022-12-21,Floyd,Indiana,18043,23247,322
@@ -2343,7 +2448,6 @@ date,county,state,fips,cases,deaths
 2022-12-21,Daviess,Indiana,18027,8721,160
 2022-12-21,Crawford,Indiana,18025,2960,45
 2022-12-21,Clinton,Indiana,18023,10378,140
-2022-12-21,Tyler,West Virginia,54095,2645,33
 2022-12-21,Clay,Indiana,18021,7937,97
 2022-12-21,Clark,Indiana,18019,39379,421
 2022-12-21,Cass,Indiana,18017,13644,179
@@ -2353,13 +2457,10 @@ date,county,state,fips,cases,deaths
 2022-12-21,Blackford,Indiana,18009,3579,75
 2022-12-21,Benton,Indiana,18007,2889,27
 2022-12-21,Bartholomew,Indiana,18005,25660,265
-2022-12-21,Upshur,West Virginia,54097,8711,103
 2022-12-21,Allen,Indiana,18003,120806,1258
 2022-12-21,Adams,Indiana,18001,8456,119
-2022-12-21,Wayne,West Virginia,54099,11438,154
 2022-12-21,Woodford,Illinois,17203,12300,131
 2022-12-21,Winnebago,Illinois,17201,97806,909
-2022-12-21,Webster,West Virginia,54101,2755,37
 2022-12-21,Williamson,Illinois,17199,27975,281
 2022-12-21,Will,Illinois,17197,208967,1729
 2022-12-21,Whiteside,Illinois,17195,18966,284
@@ -2371,31 +2472,21 @@ date,county,state,fips,cases,deaths
 2022-12-21,Vermilion,Illinois,17183,34079,331
 2022-12-21,Unknown,Illinois,,0,2613
 2022-12-21,Union,Illinois,17181,6649,71
-2022-12-21,Wetzel,West Virginia,54103,5334,94
 2022-12-21,Tazewell,Illinois,17179,44895,540
 2022-12-21,Stephenson,Illinois,17177,14452,221
 2022-12-21,St. Clair,Illinois,17163,85781,824
-2022-12-21,Wirt,West Virginia,54105,1719,26
-2022-12-21,Wood,West Virginia,54107,27325,371
-2022-12-21,Wyoming,West Virginia,54109,9264,134
 2022-12-21,Stark,Illinois,17175,1847,39
-2022-12-21,Adams,Wisconsin,55001,5693,69
-2022-12-21,Ashland,Wisconsin,55003,4066,42
 2022-12-21,Shelby,Illinois,17173,7444,104
 2022-12-21,Scott,Illinois,17171,1511,15
 2022-12-21,Schuyler,Illinois,17169,2420,29
 2022-12-21,Sangamon,Illinois,17167,73798,473
 2022-12-21,Saline,Illinois,17165,10104,125
-2022-12-21,Barron,Wisconsin,55005,15774,151
-2022-12-21,Bayfield,Wisconsin,55007,4255,44
 2022-12-21,Rock Island,Illinois,17161,41115,552
 2022-12-21,Richland,Illinois,17159,6115,86
 2022-12-21,Randolph,Illinois,17157,12503,139
-2022-12-21,Brown,Wisconsin,55009,100531,606
 2022-12-21,Putnam,Illinois,17155,1384,12
 2022-12-21,Pulaski,Illinois,17153,2003,30
 2022-12-21,Pope,Illinois,17151,1225,19
-2022-12-21,Buffalo,Wisconsin,55011,4121,23
 2022-12-21,Pike,Illinois,17149,6026,91
 2022-12-21,Piatt,Illinois,17147,5397,29
 2022-12-21,Perry,Illinois,17145,8852,107
@@ -2405,8 +2496,6 @@ date,county,state,fips,cases,deaths
 2022-12-21,Morgan,Illinois,17137,11875,155
 2022-12-21,Montgomery,Illinois,17135,11847,118
 2022-12-21,Monroe,Illinois,17133,11151,135
-2022-12-21,Burnett,Wisconsin,55013,4997,60
-2022-12-21,Calumet,Wisconsin,55015,16565,129
 2022-12-21,Mercer,Illinois,17131,4836,51
 2022-12-21,Menard,Illinois,17129,4445,38
 2022-12-21,McLean,Illinois,17113,62508,362
@@ -2415,14 +2504,12 @@ date,county,state,fips,cases,deaths
 2022-12-21,Massac,Illinois,17127,4514,75
 2022-12-21,Mason,Illinois,17125,4648,67
 2022-12-21,Marshall,Illinois,17123,3389,37
-2022-12-21,Chippewa,Wisconsin,55017,21663,208
 2022-12-21,Marion,Illinois,17121,14081,226
 2022-12-21,Madison,Illinois,17119,85079,913
 2022-12-21,Macoupin,Illinois,17117,15572,176
 2022-12-21,Macon,Illinois,17115,38860,373
 2022-12-21,Logan,Illinois,17107,11998,110
 2022-12-21,Livingston,Illinois,17105,12816,154
-2022-12-21,Clark,Wisconsin,55019,8797,129
 2022-12-21,Lee,Illinois,17103,11139,128
 2022-12-21,Lawrence,Illinois,17101,6636,59
 2022-12-21,LaSalle,Illinois,17099,35886,465
@@ -2430,7 +2517,6 @@ date,county,state,fips,cases,deaths
 2022-12-21,Knox,Illinois,17095,15698,269
 2022-12-21,Kendall,Illinois,17093,40349,179
 2022-12-21,Kankakee,Illinois,17091,35590,390
-2022-12-21,Columbia,Wisconsin,55021,19093,146
 2022-12-21,Kane,Illinois,17089,160506,1238
 2022-12-21,Johnson,Illinois,17087,5470,57
 2022-12-21,Jo Daviess,Illinois,17085,5031,52
@@ -2449,7 +2535,6 @@ date,county,state,fips,cases,deaths
 2022-12-21,Gallatin,Illinois,17059,1794,24
 2022-12-21,Fulton,Illinois,17057,12343,145
 2022-12-21,Franklin,Illinois,17055,14890,190
-2022-12-21,Crawford,Wisconsin,55023,5256,31
 2022-12-21,Ford,Illinois,17053,5342,78
 2022-12-21,Fayette,Illinois,17051,8424,104
 2022-12-21,Effingham,Illinois,17049,12588,157
@@ -2464,7 +2549,6 @@ date,county,state,fips,cases,deaths
 2022-12-21,Cook,Illinois,17031,1476145,15566
 2022-12-21,Coles,Illinois,17029,18533,187
 2022-12-21,Clinton,Illinois,17027,13825,127
-2022-12-21,Dane,Wisconsin,55025,174076,606
 2022-12-21,Clay,Illinois,17025,5801,80
 2022-12-21,Clark,Illinois,17023,5751,63
 2022-12-21,Christian,Illinois,17021,12625,134
@@ -2491,8 +2575,6 @@ date,county,state,fips,cases,deaths
 2022-12-21,Minidoka,Idaho,16067,4707,68
 2022-12-21,Madison,Idaho,16065,13646,55
 2022-12-21,Lincoln,Idaho,16063,1267,15
-2022-12-21,Dodge,Wisconsin,55027,31954,361
-2022-12-21,Door,Wisconsin,55029,8551,82
 2022-12-21,Lewis,Idaho,16061,1357,30
 2022-12-21,Lemhi,Idaho,16059,1719,28
 2022-12-21,Latah,Idaho,16057,7586,55
@@ -2507,9 +2589,7 @@ date,county,state,fips,cases,deaths
 2022-12-21,Elmore,Idaho,16039,8803,72
 2022-12-21,Custer,Idaho,16037,691,13
 2022-12-21,Clearwater,Idaho,16035,2601,38
-2022-12-21,Douglas,Wisconsin,55031,14113,112
 2022-12-21,Clark,Idaho,16033,116,1
-2022-12-21,Dunn,Wisconsin,55033,15268,80
 2022-12-21,Cassia,Idaho,16031,5473,55
 2022-12-21,Caribou,Idaho,16029,1660,36
 2022-12-21,Canyon,Idaho,16027,68923,716
@@ -2525,7 +2605,6 @@ date,county,state,fips,cases,deaths
 2022-12-21,Bear Lake,Idaho,16007,1146,19
 2022-12-21,Bannock,Idaho,16005,24101,270
 2022-12-21,Adams,Idaho,16003,794,16
-2022-12-21,Eau Claire,Wisconsin,55035,35812,210
 2022-12-21,Ada,Idaho,16001,156596,1104
 2022-12-21,Unknown,Hawaii,,0,10
 2022-12-21,Maui,Hawaii,15009,44256,170
@@ -2545,7 +2624,6 @@ date,county,state,fips,cases,deaths
 2022-12-21,Wayne,Georgia,13305,8674,221
 2022-12-21,Washington,Georgia,13303,4993,141
 2022-12-21,Warren,Georgia,13301,1265,35
-2022-12-21,Florence,Wisconsin,55037,1316,21
 2022-12-21,Ware,Georgia,13299,11168,299
 2022-12-21,Walton,Georgia,13297,25384,469
 2022-12-21,Walker,Georgia,13295,19584,300
@@ -2556,8 +2634,6 @@ date,county,state,fips,cases,deaths
 2022-12-21,Turner,Georgia,13287,3048,65
 2022-12-21,Troup,Georgia,13285,18192,412
 2022-12-21,Treutlen,Georgia,13283,1832,69
-2022-12-21,Fond du Lac,Wisconsin,55039,38295,305
-2022-12-21,Forest,Wisconsin,55041,3271,54
 2022-12-21,Towns,Georgia,13281,2958,122
 2022-12-21,Toombs,Georgia,13279,7842,212
 2022-12-21,Tift,Georgia,13277,13329,236
@@ -2566,7 +2642,6 @@ date,county,state,fips,cases,deaths
 2022-12-21,Telfair,Georgia,13271,3433,88
 2022-12-21,Taylor,Georgia,13269,2333,51
 2022-12-21,Tattnall,Georgia,13267,5645,143
-2022-12-21,Grant,Wisconsin,55043,15156,160
 2022-12-21,Taliaferro,Georgia,13265,325,4
 2022-12-21,Talbot,Georgia,13263,1330,34
 2022-12-21,Sumter,Georgia,13261,8328,182
@@ -2602,17 +2677,13 @@ date,county,state,fips,cases,deaths
 2022-12-21,Meriwether,Georgia,13199,5355,157
 2022-12-21,McIntosh,Georgia,13191,2774,40
 2022-12-21,McDuffie,Georgia,13189,6011,110
-2022-12-21,Green,Wisconsin,55045,11294,60
 2022-12-21,Marion,Georgia,13197,1810,55
 2022-12-21,Madison,Georgia,13195,7775,119
 2022-12-21,Macon,Georgia,13193,2601,53
 2022-12-21,Lumpkin,Georgia,13187,8627,136
-2022-12-21,Green Lake,Wisconsin,55047,6218,71
 2022-12-21,Lowndes,Georgia,13185,35798,427
 2022-12-21,Long,Georgia,13183,3390,36
 2022-12-21,Lincoln,Georgia,13181,1791,38
-2022-12-21,Iowa,Wisconsin,55049,6702,32
-2022-12-21,Iron,Wisconsin,55051,1773,49
 2022-12-21,Liberty,Georgia,13179,15254,162
 2022-12-21,Lee,Georgia,13177,8511,111
 2022-12-21,Laurens,Georgia,13175,15793,322
@@ -2634,37 +2705,26 @@ date,county,state,fips,cases,deaths
 2022-12-21,Haralson,Georgia,13143,6143,183
 2022-12-21,Hancock,Georgia,13141,1886,91
 2022-12-21,Hall,Georgia,13139,62420,909
-2022-12-21,Jackson,Wisconsin,55053,6727,45
 2022-12-21,Habersham,Georgia,13137,11343,282
 2022-12-21,Gwinnett,Georgia,13135,248635,2051
 2022-12-21,Greene,Georgia,13133,4614,90
 2022-12-21,Grady,Georgia,13131,6730,112
-2022-12-21,Jefferson,Wisconsin,55055,26118,257
-2022-12-21,Juneau,Wisconsin,55057,9219,75
 2022-12-21,Gordon,Georgia,13129,19373,295
 2022-12-21,Glynn,Georgia,13127,26570,430
 2022-12-21,Glascock,Georgia,13125,694,29
 2022-12-21,Gilmer,Georgia,13123,7992,190
 2022-12-21,Fulton,Georgia,13121,267404,2589
-2022-12-21,Kenosha,Wisconsin,55059,54678,693
 2022-12-21,Franklin,Georgia,13119,6028,112
 2022-12-21,Forsyth,Georgia,13117,65850,450
 2022-12-21,Floyd,Georgia,13115,31315,555
 2022-12-21,Fayette,Georgia,13113,28299,368
 2022-12-21,Fannin,Georgia,13111,5673,178
-2022-12-21,Kewaunee,Wisconsin,55061,6667,63
-2022-12-21,La Crosse,Wisconsin,55063,42559,205
-2022-12-21,Lafayette,Wisconsin,55065,4351,30
-2022-12-21,Langlade,Wisconsin,55067,6502,103
 2022-12-21,Evans,Georgia,13109,2776,69
-2022-12-21,Lincoln,Wisconsin,55069,8756,157
 2022-12-21,Emanuel,Georgia,13107,6661,165
 2022-12-21,Elbert,Georgia,13105,5140,118
 2022-12-21,Effingham,Georgia,13103,15928,210
-2022-12-21,Manitowoc,Wisconsin,55071,24507,210
 2022-12-21,Echols,Georgia,13101,1040,12
 2022-12-21,Early,Georgia,13099,3078,65
-2022-12-21,Marathon,Wisconsin,55073,48013,537
 2022-12-21,Douglas,Georgia,13097,41908,452
 2022-12-21,Dougherty,Georgia,13095,23345,549
 2022-12-21,Dooly,Georgia,13093,2750,74
@@ -2679,7 +2739,6 @@ date,county,state,fips,cases,deaths
 2022-12-21,Cook,Georgia,13075,5554,80
 2022-12-21,Columbia,Georgia,13073,42022,422
 2022-12-21,Colquitt,Georgia,13071,13309,272
-2022-12-21,Marinette,Wisconsin,55075,14073,147
 2022-12-21,Coffee,Georgia,13069,11629,303
 2022-12-21,Cobb,Georgia,13067,209370,2020
 2022-12-21,Clinch,Georgia,13065,2407,45
@@ -2697,10 +2756,8 @@ date,county,state,fips,cases,deaths
 2022-12-21,Camden,Georgia,13039,13362,137
 2022-12-21,Calhoun,Georgia,13037,1530,25
 2022-12-21,Butts,Georgia,13035,7441,172
-2022-12-21,Marquette,Wisconsin,55077,4536,67
 2022-12-21,Burke,Georgia,13033,6113,121
 2022-12-21,Bulloch,Georgia,13031,17473,280
-2022-12-21,Menominee,Wisconsin,55078,2275,20
 2022-12-21,Bryan,Georgia,13029,10784,107
 2022-12-21,Brooks,Georgia,13027,3938,95
 2022-12-21,Brantley,Georgia,13025,4609,115
@@ -2708,7 +2765,6 @@ date,county,state,fips,cases,deaths
 2022-12-21,Bibb,Georgia,13021,43704,819
 2022-12-21,Berrien,Georgia,13019,5657,94
 2022-12-21,Ben Hill,Georgia,13017,4913,123
-2022-12-21,Milwaukee,Wisconsin,55079,330894,2423
 2022-12-21,Bartow,Georgia,13015,34318,474
 2022-12-21,Barrow,Georgia,13013,25213,280
 2022-12-21,Banks,Georgia,13011,4487,100
@@ -2725,7 +2781,6 @@ date,county,state,fips,cases,deaths
 2022-12-21,Union,Florida,12125,4966,124
 2022-12-21,Taylor,Florida,12123,7879,115
 2022-12-21,Suwannee,Florida,12121,15261,352
-2022-12-21,Monroe,Wisconsin,55081,14293,106
 2022-12-21,Sumter,Florida,12119,28716,673
 2022-12-21,St. Lucie,Florida,12111,92443,1373
 2022-12-21,St. Johns,Florida,12109,75865,659
@@ -2735,7 +2790,6 @@ date,county,state,fips,cases,deaths
 2022-12-21,Putnam,Florida,12107,20661,458
 2022-12-21,Polk,Florida,12105,250532,3340
 2022-12-21,Pinellas,Florida,12103,265352,3898
-2022-12-21,Oconto,Wisconsin,55083,13099,129
 2022-12-21,Pasco,Florida,12101,153863,2185
 2022-12-21,Palm Beach,Florida,12099,460429,5790
 2022-12-21,Osceola,Florida,12097,139286,1238
@@ -2753,8 +2807,6 @@ date,county,state,fips,cases,deaths
 2022-12-21,Levy,Florida,12075,12330,184
 2022-12-21,Leon,Florida,12073,108664,760
 2022-12-21,Lee,Florida,12071,232500,2458
-2022-12-21,Oneida,Wisconsin,55085,10620,148
-2022-12-21,Outagamie,Wisconsin,55087,63396,438
 2022-12-21,Lake,Florida,12069,105037,1731
 2022-12-21,Lafayette,Florida,12067,3065,63
 2022-12-21,Jefferson,Florida,12065,4811,69
@@ -2782,19 +2834,15 @@ date,county,state,fips,cases,deaths
 2022-12-21,Clay,Florida,12019,64775,945
 2022-12-21,Citrus,Florida,12017,37671,1101
 2022-12-21,Charlotte,Florida,12015,46183,960
-2022-12-21,Ozaukee,Wisconsin,55089,27097,199
 2022-12-21,Calhoun,Florida,12013,4752,107
 2022-12-21,Broward,Florida,12011,746512,6521
 2022-12-21,Brevard,Florida,12009,168824,2429
 2022-12-21,Bradford,Florida,12007,8859,173
 2022-12-21,Bay,Florida,12005,53685,879
 2022-12-21,Baker,Florida,12003,10410,151
-2022-12-21,Alachua,Florida,12001,85571,785
 2022-12-21,District of Columbia,District of Columbia,11001,172626,1407
-2022-12-21,Pepin,Wisconsin,55091,2266,19
 2022-12-21,Unknown,Delaware,,1126,0
 2022-12-21,Sussex,Delaware,10005,74757,941
-2022-12-21,Pierce,Wisconsin,55093,13234,77
 2022-12-21,New Castle,Delaware,10003,181358,1535
 2022-12-21,Kent,Delaware,10001,62236,709
 2022-12-21,Windham,Connecticut,09015,30592,336
@@ -2806,12 +2854,9 @@ date,county,state,fips,cases,deaths
 2022-12-21,Litchfield,Connecticut,09005,40105,501
 2022-12-21,Hartford,Connecticut,09003,228374,3367
 2022-12-21,Fairfield,Connecticut,09001,255285,2893
-2022-12-21,Polk,Wisconsin,55095,14779,126
-2022-12-21,Portage,Wisconsin,55097,22164,171
 2022-12-21,Yuma,Colorado,08125,2281,27
 2022-12-21,Weld,Colorado,08123,104053,760
 2022-12-21,Washington,Colorado,08121,1220,33
-2022-12-21,Price,Wisconsin,55099,3938,37
 2022-12-21,Teller,Colorado,08119,5832,62
 2022-12-21,Summit,Colorado,08117,11934,15
 2022-12-21,Sedgwick,Colorado,08115,569,13
@@ -2822,20 +2867,17 @@ date,county,state,fips,cases,deaths
 2022-12-21,Rio Grande,Colorado,08105,3509,46
 2022-12-21,Rio Blanco,Colorado,08103,2178,16
 2022-12-21,Pueblo,Colorado,08101,60700,865
-2022-12-21,Racine,Wisconsin,55101,69177,733
 2022-12-21,Prowers,Colorado,08099,3164,52
 2022-12-21,Pitkin,Colorado,08097,7950,8
 2022-12-21,Phillips,Colorado,08095,1074,19
 2022-12-21,Park,Colorado,08093,3435,24
-2022-12-21,Richland,Wisconsin,55103,4870,53
 2022-12-21,Ouray,Colorado,08091,1095,6
 2022-12-21,Otero,Colorado,08089,5213,135
 2022-12-21,Morgan,Colorado,08087,6799,142
-2022-12-21,Rock,Wisconsin,55105,53868,437
 2022-12-21,Montrose,Colorado,08085,10980,178
 2022-12-21,Montezuma,Colorado,08083,7477,89
 2022-12-21,Moffat,Colorado,08081,3634,58
-2022-12-21,Johnson,Texas,48251,50485,769
+2022-12-21,Mineral,Colorado,08079,294,4
 2022-12-21,Mesa,Colorado,08077,50634,619
 2022-12-21,Logan,Colorado,08075,8533,119
 2022-12-21,Lincoln,Colorado,08073,2374,11
@@ -2847,11 +2889,9 @@ date,county,state,fips,cases,deaths
 2022-12-21,Kiowa,Colorado,08061,386,6
 2022-12-21,Jefferson,Colorado,08059,157647,1507
 2022-12-21,Jackson,Colorado,08057,194,1
-2022-12-21,Rusk,Wisconsin,55107,4085,61
 2022-12-21,Huerfano,Colorado,08055,1739,40
 2022-12-21,Hinsdale,Colorado,08053,157,0
 2022-12-21,Gunnison,Colorado,08051,3914,16
-2022-12-21,Sauk,Wisconsin,55111,20449,157
 2022-12-21,Grand,Colorado,08049,3986,30
 2022-12-21,Gilpin,Colorado,08047,1160,7
 2022-12-21,Garfield,Colorado,08045,17724,103
@@ -2861,15 +2901,11 @@ date,county,state,fips,cases,deaths
 2022-12-21,Eagle,Colorado,08037,18482,39
 2022-12-21,Douglas,Colorado,08035,99280,485
 2022-12-21,Dolores,Colorado,08033,412,8
-2022-12-21,Sawyer,Wisconsin,55113,5829,65
-2022-12-21,Shawano,Wisconsin,55115,13878,163
 2022-12-21,Denver,Colorado,08031,219770,1484
-2022-12-21,Sheboygan,Wisconsin,55117,38548,351
 2022-12-21,Delta,Colorado,08029,7101,153
 2022-12-21,Custer,Colorado,08027,827,25
 2022-12-21,Crowley,Colorado,08025,3520,32
 2022-12-21,Costilla,Colorado,08023,927,19
-2022-12-21,St. Croix,Wisconsin,55109,30087,160
 2022-12-21,Conejos,Colorado,08021,2252,60
 2022-12-21,Clear Creek,Colorado,08019,1898,13
 2022-12-21,Cheyenne,Colorado,08017,378,12
@@ -2883,7 +2919,6 @@ date,county,state,fips,cases,deaths
 2022-12-21,Alamosa,Colorado,08003,5755,66
 2022-12-21,Adams,Colorado,08001,163095,1439
 2022-12-21,Yuba,California,06115,21241,151
-2022-12-21,Taylor,Wisconsin,55119,5649,78
 2022-12-21,Yolo,California,06113,53463,416
 2022-12-21,Ventura,California,06111,230541,1597
 2022-12-21,Tuolumne,California,06109,17543,209
@@ -2908,7 +2943,6 @@ date,county,state,fips,cases,deaths
 2022-12-21,San Bernardino,California,06071,721630,8136
 2022-12-21,San Benito,California,06069,18012,110
 2022-12-21,Sacramento,California,06067,393655,3569
-2022-12-21,Trempealeau,Wisconsin,55121,9699,71
 2022-12-21,Riverside,California,06065,749867,7863
 2022-12-21,Plumas,California,06063,4201,47
 2022-12-21,Placer,California,06061,88202,666
@@ -2934,7 +2968,6 @@ date,county,state,fips,cases,deaths
 2022-12-21,Glenn,California,06021,7612,99
 2022-12-21,Fresno,California,06019,314673,2905
 2022-12-21,El Dorado,California,06017,37930,301
-2022-12-21,Vernon,Wisconsin,55123,7453,115
 2022-12-21,Del Norte,California,06015,7992,61
 2022-12-21,Contra Costa,California,06013,282180,1491
 2022-12-21,Colusa,California,06011,5200,50
@@ -2942,11 +2975,9 @@ date,county,state,fips,cases,deaths
 2022-12-21,Butte,California,06007,50012,527
 2022-12-21,Amador,California,06005,11164,96
 2022-12-21,Alpine,California,06003,140,0
-2022-12-21,Alameda,California,06001,383629,2084
-2022-12-21,Vilas,Wisconsin,55125,6349,103
+2022-12-21,Alameda,California,06001,383629,2089
 2022-12-21,Yell,Arkansas,05149,7502,117
 2022-12-21,Woodruff,Arkansas,05147,2238,33
-2022-12-21,Walworth,Wisconsin,55127,32412,300
 2022-12-21,White,Arkansas,05145,26439,332
 2022-12-21,Washington,Arkansas,05143,78826,693
 2022-12-21,Van Buren,Arkansas,05141,4196,65
@@ -2962,11 +2993,9 @@ date,county,state,fips,cases,deaths
 2022-12-21,Saline,Arkansas,05125,36075,384
 2022-12-21,Randolph,Arkansas,05121,6227,102
 2022-12-21,Pulaski,Arkansas,05119,124482,1293
-2022-12-21,Washburn,Wisconsin,55129,4913,51
 2022-12-21,Prairie,Arkansas,05117,2364,46
 2022-12-21,Pope,Arkansas,05115,20668,225
 2022-12-21,Polk,Arkansas,05113,4590,160
-2022-12-21,Washington,Wisconsin,55131,45620,358
 2022-12-21,Poinsett,Arkansas,05111,9668,138
 2022-12-21,Pike,Arkansas,05109,2851,52
 2022-12-21,Phillips,Arkansas,05107,5807,103
@@ -3001,8 +3030,6 @@ date,county,state,fips,cases,deaths
 2022-12-21,Fulton,Arkansas,05049,3058,99
 2022-12-21,Franklin,Arkansas,05047,4398,80
 2022-12-21,Faulkner,Arkansas,05045,41721,349
-2022-12-21,Waukesha,Wisconsin,55133,136128,1202
-2022-12-21,Waupaca,Wisconsin,55135,16037,262
 2022-12-21,Drew,Arkansas,05043,5431,79
 2022-12-21,Desha,Arkansas,05041,3580,44
 2022-12-21,Dallas,Arkansas,05039,2019,38
@@ -3025,23 +3052,21 @@ date,county,state,fips,cases,deaths
 2022-12-21,Baxter,Arkansas,05005,10437,278
 2022-12-21,Ashley,Arkansas,05003,5989,80
 2022-12-21,Arkansas,Arkansas,05001,6803,93
-2022-12-21,Yuma,Arizona,04027,69419,1223
-2022-12-21,Yavapai,Arizona,04025,58321,1323
-2022-12-21,Santa Cruz,Arizona,04023,19179,240
-2022-12-21,Pinal,Arizona,04021,152958,1750
-2022-12-21,Pima,Arizona,04019,307309,4092
-2022-12-21,Navajo,Arizona,04017,47016,951
-2022-12-21,Mohave,Arizona,04015,65809,1589
-2022-12-21,Maricopa,Arizona,04013,1477037,18222
-2022-12-21,La Paz,Arizona,04012,5863,153
-2022-12-21,Greenlee,Arizona,04011,2641,39
-2022-12-21,Waushara,Wisconsin,55137,7516,92
-2022-12-21,Graham,Arizona,04009,13832,184
-2022-12-21,Gila,Arizona,04007,20912,405
-2022-12-21,Coconino,Arizona,04005,51894,512
-2022-12-21,Cochise,Arizona,04003,38030,614
-2022-12-21,Apache,Arizona,04001,34860,632
-2022-12-21,Winnebago,Wisconsin,55139,62342,410
+2022-12-21,Yuma,Arizona,04027,69733,1223
+2022-12-21,Yavapai,Arizona,04025,58650,1323
+2022-12-21,Santa Cruz,Arizona,04023,19249,241
+2022-12-21,Pinal,Arizona,04021,153468,1757
+2022-12-21,Pima,Arizona,04019,308692,4123
+2022-12-21,Navajo,Arizona,04017,47163,954
+2022-12-21,Mohave,Arizona,04015,66011,1596
+2022-12-21,Maricopa,Arizona,04013,1481719,18273
+2022-12-21,La Paz,Arizona,04012,5879,154
+2022-12-21,Greenlee,Arizona,04011,2656,39
+2022-12-21,Graham,Arizona,04009,13871,184
+2022-12-21,Gila,Arizona,04007,20978,406
+2022-12-21,Coconino,Arizona,04005,51999,512
+2022-12-21,Cochise,Arizona,04003,38210,618
+2022-12-21,Apache,Arizona,04001,35083,635
 2022-12-21,Unknown,American Samoa,,8262,34
 2022-12-21,Yukon-Koyukuk Census Area,Alaska,02290,1706,12
 2022-12-21,Yakutat plus Hoonah-Angoon,Alaska,,939,5
@@ -3060,7 +3085,6 @@ date,county,state,fips,cases,deaths
 2022-12-21,Kusilvak Census Area,Alaska,02158,4756,15
 2022-12-21,Kodiak Island Borough,Alaska,02150,5735,12
 2022-12-21,Ketchikan Gateway Borough,Alaska,02130,5050,24
-2022-12-21,Wood,Wisconsin,55141,26117,258
 2022-12-21,Kenai Peninsula Borough,Alaska,02122,22139,118
 2022-12-21,Juneau City and Borough,Alaska,02110,11660,27
 2022-12-21,Haines Borough,Alaska,02100,791,1
@@ -3072,183 +3096,159 @@ date,county,state,fips,cases,deaths
 2022-12-21,Anchorage,Alaska,02020,121470,579
 2022-12-21,Aleutians West Census Area,Alaska,02016,1889,2
 2022-12-21,Aleutians East Borough,Alaska,02013,1306,5
-2022-12-21,Winston,Alabama,01133,8991,138
-2022-12-21,Wilcox,Alabama,01131,3496,57
-2022-12-21,Washington,Alabama,01129,4238,69
-2022-12-21,Walker,Alabama,01127,22776,476
-2022-12-21,Tuscaloosa,Alabama,01125,67412,834
-2022-12-21,Tallapoosa,Alabama,01123,13874,251
-2022-12-21,Talladega,Alabama,01121,27285,401
-2022-12-21,Sumter,Alabama,01119,3022,58
-2022-12-21,St. Clair,Alabama,01115,31159,436
-2022-12-21,Shelby,Alabama,01117,73360,476
-2022-12-21,Russell,Alabama,01113,12292,253
-2022-12-21,Randolph,Alabama,01111,6129,133
-2022-12-21,Pike,Alabama,01109,8873,141
-2022-12-21,Pickens,Alabama,01107,6104,118
-2022-12-21,Perry,Alabama,01105,2547,50
-2022-12-21,Morgan,Alabama,01103,44187,544
-2022-12-21,Montgomery,Alabama,01101,68918,1001
-2022-12-21,Monroe,Alabama,01099,6323,104
-2022-12-21,Mobile,Alabama,01097,130103,1758
-2022-12-21,Marshall,Alabama,01095,31501,406
-2022-12-21,Marion,Alabama,01093,9640,156
-2022-12-21,Marengo,Alabama,01091,5884,115
-2022-12-21,Madison,Alabama,01089,110626,1041
-2022-12-21,Macon,Alabama,01087,4914,90
-2022-12-21,Lowndes,Alabama,01085,3128,82
-2022-12-21,Limestone,Alabama,01083,30541,310
-2022-12-21,Lee,Alabama,01081,45120,397
-2022-12-21,Lawrence,Alabama,01079,9072,185
-2022-12-21,Lauderdale,Alabama,01077,29006,414
-2022-12-21,Lamar,Alabama,01075,4550,94
-2022-12-21,Jefferson,Alabama,01073,224817,2485
-2022-12-21,Jackson,Alabama,01071,17441,276
-2022-12-21,Houston,Alabama,01069,30877,526
-2022-12-21,Henry,Alabama,01067,5555,79
-2022-12-21,Hale,Alabama,01065,5481,109
-2022-12-21,Greene,Alabama,01063,2183,52
-2022-12-21,Albany,Wyoming,56001,11405,54
-2022-12-21,Geneva,Alabama,01061,7561,171
-2022-12-21,Franklin,Alabama,01059,11537,149
-2022-12-21,Fayette,Alabama,01057,5676,99
-2022-12-21,Big Horn,Wyoming,56003,3037,64
-2022-12-21,Etowah,Alabama,01055,32989,685
-2022-12-21,Campbell,Wyoming,56005,13654,156
-2022-12-21,Escambia,Alabama,01053,11827,191
-2022-12-21,Elmore,Alabama,01051,28364,359
-2022-12-21,DeKalb,Alabama,01049,21660,350
-2022-12-21,Carbon,Wyoming,56007,4974,55
-2022-12-21,Dallas,Alabama,01047,10312,256
-2022-12-21,Dale,Alabama,01045,15738,244
-2022-12-21,Cullman,Alabama,01043,30016,389
-2022-12-21,Crenshaw,Alabama,01041,4469,108
-2022-12-21,Covington,Alabama,01039,11208,266
-2022-12-21,Coosa,Alabama,01037,3622,62
-2022-12-21,Conecuh,Alabama,01035,3396,75
-2022-12-21,Colbert,Alabama,01033,20053,274
-2022-12-21,Coffee,Alabama,01031,16288,243
-2022-12-21,Cleburne,Alabama,01029,4207,74
-2022-12-21,Clay,Alabama,01027,4906,90
-2022-12-21,Clarke,Alabama,01025,8167,113
-2022-12-21,Choctaw,Alabama,01023,2203,63
-2022-12-21,Chilton,Alabama,01021,12561,223
-2022-12-21,Cherokee,Alabama,01019,6397,133
-2022-12-21,Chambers,Alabama,01017,10264,174
-2022-12-21,Calhoun,Alabama,01015,39296,662
-2022-12-21,Butler,Alabama,01013,6153,130
-2022-12-21,Bullock,Alabama,01011,2871,54
-2022-12-21,Blount,Alabama,01009,17648,260
-2022-12-21,Bibb,Alabama,01007,7668,108
-2022-12-21,Barbour,Alabama,01005,7007,111
-2022-12-21,Baldwin,Alabama,01003,67221,717
-2022-12-21,Autauga,Alabama,01001,18847,230
-2022-12-21,Converse,Wyoming,56009,3635,57
-2022-12-21,Crook,Wyoming,56011,1543,32
-2022-12-21,Fremont,Wyoming,56013,16614,203
-2022-12-21,Goshen,Wyoming,56015,4580,62
-2022-12-21,Hot Springs,Wyoming,56017,1420,20
-2022-12-21,Johnson,Wyoming,56019,2302,21
-2022-12-21,Laramie,Wyoming,56021,31069,318
-2022-12-21,Lincoln,Wyoming,56023,4843,35
-2022-12-21,Natrona,Wyoming,56025,25510,298
-2022-12-21,Niobrara,Wyoming,56027,858,11
-2022-12-21,Park,Wyoming,56029,7603,151
-2022-12-21,Platte,Wyoming,56031,2243,44
-2022-12-21,Sheridan,Wyoming,56033,9711,86
-2022-12-21,Sublette,Wyoming,56035,2294,28
-2022-12-21,Sweetwater,Wyoming,56037,12394,136
-2022-12-21,Teton,Wyoming,56039,11997,16
-2022-12-21,Uinta,Wyoming,56041,6303,43
-2022-12-21,Washakie,Wyoming,56043,2716,47
+2022-12-21,Winston,Alabama,01133,9030,139
+2022-12-21,Wilcox,Alabama,01131,3516,57
+2022-12-21,Washington,Alabama,01129,4252,69
+2022-12-21,Walker,Alabama,01127,22885,476
+2022-12-21,Tuscaloosa,Alabama,01125,67772,837
+2022-12-21,Tallapoosa,Alabama,01123,13948,251
+2022-12-21,Talladega,Alabama,01121,27380,401
+2022-12-21,Sumter,Alabama,01119,3024,58
+2022-12-21,St. Clair,Alabama,01115,31345,439
+2022-12-21,Shelby,Alabama,01117,73695,476
+2022-12-21,Russell,Alabama,01113,12377,253
+2022-12-21,Randolph,Alabama,01111,6161,133
+2022-12-21,Pike,Alabama,01109,8902,141
+2022-12-21,Pickens,Alabama,01107,6122,118
+2022-12-21,Perry,Alabama,01105,2563,50
+2022-12-21,Morgan,Alabama,01103,44434,544
+2022-12-21,Montgomery,Alabama,01101,69442,1001
+2022-12-21,Monroe,Alabama,01099,6355,104
+2022-12-21,Mobile,Alabama,01097,130646,1762
+2022-12-21,Marshall,Alabama,01095,31626,406
+2022-12-21,Marion,Alabama,01093,9689,156
+2022-12-21,Marengo,Alabama,01091,5895,115
+2022-12-21,Madison,Alabama,01089,111206,1046
+2022-12-21,Macon,Alabama,01087,4941,90
+2022-12-21,Lowndes,Alabama,01085,3148,82
+2022-12-21,Limestone,Alabama,01083,30685,311
+2022-12-21,Lee,Alabama,01081,45351,397
+2022-12-21,Lawrence,Alabama,01079,9102,185
+2022-12-21,Lauderdale,Alabama,01077,29121,414
+2022-12-21,Lamar,Alabama,01075,4572,94
+2022-12-21,Jefferson,Alabama,01073,225876,2485
+2022-12-21,Jackson,Alabama,01071,17525,276
+2022-12-21,Houston,Alabama,01069,31004,526
+2022-12-21,Henry,Alabama,01067,5574,79
+2022-12-21,Hale,Alabama,01065,5523,110
+2022-12-21,Greene,Alabama,01063,2194,53
+2022-12-21,Geneva,Alabama,01061,7591,171
+2022-12-21,Franklin,Alabama,01059,11566,149
+2022-12-21,Fayette,Alabama,01057,5694,99
+2022-12-21,Etowah,Alabama,01055,33129,686
+2022-12-21,Escambia,Alabama,01053,11863,191
+2022-12-21,Elmore,Alabama,01051,28545,360
+2022-12-21,DeKalb,Alabama,01049,21738,350
+2022-12-21,Dallas,Alabama,01047,10357,256
+2022-12-21,Dale,Alabama,01045,15789,245
+2022-12-21,Cullman,Alabama,01043,30119,391
+2022-12-21,Crenshaw,Alabama,01041,4516,108
+2022-12-21,Covington,Alabama,01039,11250,266
+2022-12-21,Coosa,Alabama,01037,3643,62
+2022-12-21,Conecuh,Alabama,01035,3410,75
+2022-12-21,Colbert,Alabama,01033,20165,275
+2022-12-21,Coffee,Alabama,01031,16328,243
+2022-12-21,Cleburne,Alabama,01029,4222,74
+2022-12-21,Clay,Alabama,01027,4941,90
+2022-12-21,Clarke,Alabama,01025,8184,113
+2022-12-21,Choctaw,Alabama,01023,2204,63
+2022-12-21,Chilton,Alabama,01021,12596,223
+2022-12-21,Cherokee,Alabama,01019,6456,133
+2022-12-21,Chambers,Alabama,01017,10311,174
+2022-12-21,Calhoun,Alabama,01015,39458,665
+2022-12-21,Butler,Alabama,01013,6185,130
+2022-12-21,Bullock,Alabama,01011,2886,54
+2022-12-21,Blount,Alabama,01009,17731,260
+2022-12-21,Bibb,Alabama,01007,7692,108
+2022-12-21,Barbour,Alabama,01005,7027,111
+2022-12-21,Baldwin,Alabama,01003,67496,719
+2022-12-21,Autauga,Alabama,01001,18961,230
+2022-12-21,Alachua,Florida,12001,85571,785
 2022-12-21,Weston,Wyoming,56045,1876,22
-2022-12-21,Mineral,Colorado,08079,294,4
-2022-12-21,Jim Wells,Texas,48249,13662,225
-2022-12-21,Jim Hogg,Texas,48247,3689,22
-2022-12-21,Jefferson,Texas,48245,61152,870
-2022-12-21,Jeff Davis,Texas,48243,265,10
-2022-12-21,Jasper,Texas,48241,7923,206
-2022-12-21,Jackson,Texas,48239,3776,61
-2022-12-21,Jack,Texas,48237,1640,31
-2022-12-21,Jones,Texas,48253,5203,116
-2022-12-21,Karnes,Texas,48255,6348,75
-2022-12-21,Irion,Texas,48235,583,3
-2022-12-21,Hutchinson,Texas,48233,7441,147
-2022-12-21,Hunt,Texas,48231,18940,392
-2022-12-21,Hudspeth,Texas,48229,1153,18
-2022-12-21,Howard,Texas,48227,7691,191
-2022-12-21,Houston,Texas,48225,4848,121
-2022-12-21,Kaufman,Texas,48257,41318,553
-2022-12-21,Hopkins,Texas,48223,8405,188
-2022-12-21,Hood,Texas,48221,14685,288
-2022-12-21,Hockley,Texas,48219,8979,169
-2022-12-21,Hill,Texas,48217,9889,200
-2022-12-21,Hidalgo,Texas,48215,256475,4032
-2022-12-21,Henderson,Texas,48213,17863,463
-2022-12-21,Hemphill,Texas,48211,1398,8
-2022-12-21,Hays,Texas,48209,75903,549
-2022-12-21,Haskell,Texas,48207,1057,40
-2022-12-21,Kendall,Texas,48259,9566,129
-2022-12-21,Hartley,Texas,48205,1480,19
-2022-12-21,Kenedy,Texas,48261,100,2
-2022-12-21,Harrison,Texas,48203,15409,296
-2022-12-21,Harris,Texas,48201,1233490,11403
-2022-12-21,Kent,Texas,48263,220,4
-2022-12-21,Hardin,Texas,48199,14262,256
-2022-12-21,Hardeman,Texas,48197,624,21
-2022-12-21,Hansford,Texas,48195,2245,31
-2022-12-21,Hamilton,Texas,48193,2084,36
-2022-12-21,Hall,Texas,48191,1251,24
-2022-12-21,Kerr,Texas,48265,10679,200
-2022-12-21,Kimble,Texas,48267,866,15
-2022-12-21,King,Texas,48269,54,0
-2022-12-21,Kinney,Texas,48271,814,13
-2022-12-21,Hale,Texas,48189,8048,249
-2022-12-21,Guadalupe,Texas,48187,44403,438
-2022-12-21,Kleberg,Texas,48273,8933,152
-2022-12-21,Grimes,Texas,48185,9817,125
-2022-12-21,Gregg,Texas,48183,26186,716
-2022-12-21,Grayson,Texas,48181,30793,668
-2022-12-21,Gray,Texas,48179,6849,134
-2022-12-21,Gonzales,Texas,48177,5240,106
-2022-12-21,Goliad,Texas,48175,1492,33
-2022-12-21,Knox,Texas,48275,607,25
-2022-12-21,Glasscock,Texas,48173,224,3
-2022-12-21,Lamar,Texas,48277,14856,274
-2022-12-21,Gillespie,Texas,48171,6071,116
-2022-12-21,Garza,Texas,48169,1446,31
-2022-12-21,Lamb,Texas,48279,4969,127
-2022-12-21,Galveston,Texas,48167,116278,883
-2022-12-21,Lampasas,Texas,48281,6187,93
-2022-12-21,Gaines,Texas,48165,2365,86
-2022-12-21,Frio,Texas,48163,6580,95
-2022-12-21,Freestone,Texas,48161,4220,87
-2022-12-21,Franklin,Texas,48159,2576,45
-2022-12-21,La Salle,Texas,48283,2558,53
-2022-12-21,Fort Bend,Texas,48157,237695,1320
-2022-12-21,Lavaca,Texas,48285,4725,123
-2022-12-21,Foard,Texas,48155,247,11
-2022-12-21,Floyd,Texas,48153,2259,49
-2022-12-21,Fisher,Texas,48151,699,31
-2022-12-21,Fayette,Texas,48149,5383,115
-2022-12-21,Fannin,Texas,48147,7897,203
-2022-12-21,Falls,Texas,48145,4349,75
-2022-12-21,Erath,Texas,48143,9646,132
-2022-12-21,El Paso,Texas,48141,247719,3839
-2022-12-21,Ellis,Texas,48139,56131,605
-2022-12-21,Edwards,Texas,48137,561,11
-2022-12-21,Ector,Texas,48135,42345,724
-2022-12-21,Eastland,Texas,48133,3272,117
-2022-12-21,Duval,Texas,48131,4188,73
-2022-12-21,Donley,Texas,48129,1278,27
-2022-12-21,Dimmit,Texas,48127,6134,52
-2022-12-21,Dickens,Texas,48125,501,16
-2022-12-21,DeWitt,Texas,48123,7120,113
-2022-12-21,Denton,Texas,48121,217438,1417
-2022-12-21,Delta,Texas,48119,2011,27
-2022-12-21,Deaf Smith,Texas,48117,5604,119
-2022-12-21,Dawson,Texas,48115,3392,101
-2022-12-21,Dallas,Texas,48113,672853,6985
-2022-12-21,Dallam,Texas,48111,2350,43
-2022-12-21,Culberson,Texas,48109,538,15
-2022-12-21,Crosby,Texas,48107,2194,47
+2022-12-21,Washakie,Wyoming,56043,2716,47
+2022-12-21,Uinta,Wyoming,56041,6303,43
+2022-12-21,Teton,Wyoming,56039,11997,16
+2022-12-21,Sweetwater,Wyoming,56037,12394,136
+2022-12-21,Sublette,Wyoming,56035,2294,28
+2022-12-21,Sheridan,Wyoming,56033,9711,86
+2022-12-21,Platte,Wyoming,56031,2243,44
+2022-12-21,Park,Wyoming,56029,7603,151
+2022-12-21,Niobrara,Wyoming,56027,858,11
+2022-12-21,Natrona,Wyoming,56025,25510,298
+2022-12-21,Lincoln,Wyoming,56023,4843,35
+2022-12-21,Laramie,Wyoming,56021,31069,318
+2022-12-21,Johnson,Wyoming,56019,2302,21
+2022-12-21,Hot Springs,Wyoming,56017,1420,20
+2022-12-21,Goshen,Wyoming,56015,4580,62
+2022-12-21,Fremont,Wyoming,56013,16614,203
+2022-12-21,Crook,Wyoming,56011,1543,32
+2022-12-21,Converse,Wyoming,56009,3635,57
+2022-12-21,Carbon,Wyoming,56007,4974,55
+2022-12-21,Campbell,Wyoming,56005,13654,156
+2022-12-21,Big Horn,Wyoming,56003,3037,64
+2022-12-21,Albany,Wyoming,56001,11405,54
+2022-12-21,Wood,Wisconsin,55141,26117,258
+2022-12-21,Winnebago,Wisconsin,55139,62342,410
+2022-12-21,Waushara,Wisconsin,55137,7516,92
+2022-12-21,Waupaca,Wisconsin,55135,16037,262
+2022-12-21,Waukesha,Wisconsin,55133,136128,1202
+2022-12-21,Washington,Wisconsin,55131,45620,358
+2022-12-21,Washburn,Wisconsin,55129,4913,51
+2022-12-21,Walworth,Wisconsin,55127,32412,300
+2022-12-21,Vilas,Wisconsin,55125,6349,103
+2022-12-21,Vernon,Wisconsin,55123,7453,115
+2022-12-21,Trempealeau,Wisconsin,55121,9699,71
+2022-12-21,Taylor,Wisconsin,55119,5649,78
+2022-12-21,St. Croix,Wisconsin,55109,30087,160
+2022-12-21,Sheboygan,Wisconsin,55117,38548,351
+2022-12-21,Shawano,Wisconsin,55115,13878,163
+2022-12-21,Sawyer,Wisconsin,55113,5829,65
+2022-12-21,Sauk,Wisconsin,55111,20449,157
+2022-12-21,Rusk,Wisconsin,55107,4085,61
+2022-12-21,Rock,Wisconsin,55105,53868,437
+2022-12-21,Richland,Wisconsin,55103,4870,53
+2022-12-21,Racine,Wisconsin,55101,69177,733
+2022-12-21,Price,Wisconsin,55099,3938,37
+2022-12-21,Portage,Wisconsin,55097,22164,171
+2022-12-21,Polk,Wisconsin,55095,14779,126
+2022-12-21,Pierce,Wisconsin,55093,13234,77
+2022-12-21,Pepin,Wisconsin,55091,2266,19
+2022-12-21,Ozaukee,Wisconsin,55089,27097,199
+2022-12-21,Outagamie,Wisconsin,55087,63396,438
+2022-12-21,Oneida,Wisconsin,55085,10620,148
+2022-12-21,Oconto,Wisconsin,55083,13099,129
+2022-12-21,Monroe,Wisconsin,55081,14293,106
+2022-12-21,Milwaukee,Wisconsin,55079,330894,2423
+2022-12-21,Menominee,Wisconsin,55078,2275,20
+2022-12-21,Marquette,Wisconsin,55077,4536,67
+2022-12-21,Marinette,Wisconsin,55075,14073,147
+2022-12-21,Marathon,Wisconsin,55073,48013,537
+2022-12-21,Manitowoc,Wisconsin,55071,24507,210
+2022-12-21,Lincoln,Wisconsin,55069,8756,157
+2022-12-21,Langlade,Wisconsin,55067,6502,103
+2022-12-21,Lafayette,Wisconsin,55065,4351,30
+2022-12-21,La Crosse,Wisconsin,55063,42559,205
+2022-12-21,Kewaunee,Wisconsin,55061,6667,63
+2022-12-21,Kenosha,Wisconsin,55059,54678,693
+2022-12-21,Juneau,Wisconsin,55057,9219,75
+2022-12-21,Jefferson,Wisconsin,55055,26118,257
+2022-12-21,Jackson,Wisconsin,55053,6727,45
+2022-12-21,Iron,Wisconsin,55051,1773,49
+2022-12-21,Iowa,Wisconsin,55049,6702,32
+2022-12-21,Green Lake,Wisconsin,55047,6218,71
+2022-12-21,Green,Wisconsin,55045,11294,60
+2022-12-21,Grant,Wisconsin,55043,15156,160
+2022-12-21,Forest,Wisconsin,55041,3271,54
+2022-12-21,Fond du Lac,Wisconsin,55039,38295,305
+2022-12-21,Florence,Wisconsin,55037,1316,21
+2022-12-21,Eau Claire,Wisconsin,55035,35812,210
+2022-12-21,Dunn,Wisconsin,55033,15268,80
+2022-12-21,Douglas,Wisconsin,55031,14113,112
+2022-12-21,Door,Wisconsin,55029,8551,82
+2022-12-21,Dodge,Wisconsin,55027,31954,361
+2022-12-21,Dane,Wisconsin,55025,174076,606
+2022-12-21,Crawford,Wisconsin,55023,5256,31
+2022-12-21,Columbia,Wisconsin,55021,19093,146
+2022-12-21,Clark,Wisconsin,55019,8797,129
+2022-12-21,Chippewa,Wisconsin,55017,21663,208
+2022-12-21,Calumet,Wisconsin,55015,16565,129
