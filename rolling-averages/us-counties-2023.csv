@@ -5272,7 +5272,6 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-02,USA-25005,Bristol,Massachusetts,0,97,17.16,0,1.83,0.32
 2023-01-02,USA-25003,Berkshire,Massachusetts,0,25.71,20.58,0,0.39,0.31
 2023-01-02,USA-25001,Barnstable,Massachusetts,0,41.29,19.38,0,1.06,0.5
-2023-01-02,USA-24999,Unknown,Maryland,0,0.13,,0,1.4,
 2023-01-02,USA-24047,Worcester,Maryland,0,9.14,17.49,0,0.09,0.17
 2023-01-02,USA-24045,Wicomico,Maryland,0,18.71,18.06,0,0.05,0.05
 2023-01-02,USA-24043,Washington,Maryland,0,13.71,9.08,0,0.27,0.18
@@ -6910,7 +6909,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-03,USA-51510,Alexandria city,Virginia,209,34.43,21.6,0,0.2,0.13
 2023-01-03,USA-51003,Albemarle,Virginia,126,22,20.12,-1,0.08,0.08
 2023-01-03,USA-51001,Accomack,Virginia,90,13.86,42.88,0,0.05,0.15
-2023-01-03,USA-50999,Unknown,Vermont,0,5.14,,0,0.13,
+2023-01-03,USA-50999,Unknown,Vermont,56,7.08,,0,0.13,
 2023-01-03,USA-50027,Windsor,Vermont,0,3.71,6.75,0,0.02,0.04
 2023-01-03,USA-50025,Windham,Vermont,0,3.86,9.14,0,0.03,0.07
 2023-01-03,USA-50023,Washington,Vermont,0,4,6.85,0,0.06,0.1
@@ -8140,24 +8139,24 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-03,USA-30005,Blaine,Montana,0,1.29,19.24,0,0,0
 2023-01-03,USA-30003,Big Horn,Montana,0,1.14,8.58,0,0.02,0.13
 2023-01-03,USA-30001,Beaverhead,Montana,0,0.71,7.56,0,0.07,0.71
-2023-01-03,USA-29998,Kansas City,Missouri,593,84.71,17.1,1,0.17,0.03
-2023-01-03,USA-29997,Joplin,Missouri,81,11.57,22.72,1,0.03,0.07
+2023-01-03,USA-29998,Kansas City,Missouri,600,85.71,17.3,1,0.17,0.03
+2023-01-03,USA-29997,Joplin,Missouri,84,12,23.56,1,0.03,0.07
 2023-01-03,USA-29229,Wright,Missouri,9,1.29,7.03,0,0.02,0.13
 2023-01-03,USA-29227,Worth,Missouri,3,0.43,21.29,0,0.06,2.84
 2023-01-03,USA-29225,Webster,Missouri,35,5,12.63,0,0.03,0.08
 2023-01-03,USA-29223,Wayne,Missouri,8,1.14,8.88,0,0.02,0.13
 2023-01-03,USA-29221,Washington,Missouri,20,2.86,11.55,0,0.03,0.13
-2023-01-03,USA-29219,Warren,Missouri,33,4.71,13.22,1,0.17,0.47
-2023-01-03,USA-29217,Vernon,Missouri,28,4,19.45,0,0,0
+2023-01-03,USA-29219,Warren,Missouri,35,5,14.03,1,0.17,0.47
+2023-01-03,USA-29217,Vernon,Missouri,30,4.29,20.84,0,0,0
 2023-01-03,USA-29215,Texas,Missouri,23,3.29,12.94,0,0.04,0.17
 2023-01-03,USA-29213,Taney,Missouri,38,5.43,9.71,1,0.06,0.1
 2023-01-03,USA-29211,Sullivan,Missouri,5,0.36,5.87,0,0,0
 2023-01-03,USA-29209,Stone,Missouri,16,2.29,7.15,0,0,0
-2023-01-03,USA-29207,Stoddard,Missouri,15,2.14,7.38,0,0.02,0.06
-2023-01-03,USA-29186,Ste. Genevieve,Missouri,28,4,22.35,0,0,0
-2023-01-03,USA-29510,St. Louis city,Missouri,297,42.43,14.12,2,0.2,0.07
+2023-01-03,USA-29207,Stoddard,Missouri,16,2.29,7.87,0,0.02,0.06
+2023-01-03,USA-29186,Ste. Genevieve,Missouri,29,4.14,23.15,0,0,0
+2023-01-03,USA-29510,St. Louis city,Missouri,304,43.43,14.45,2,0.2,0.07
 2023-01-03,USA-29189,St. Louis,Missouri,0,170.86,17.19,0,1.94,0.19
-2023-01-03,USA-29187,St. Francois,Missouri,100,14.29,21.25,0,0.09,0.14
+2023-01-03,USA-29187,St. Francois,Missouri,101,14.43,21.47,0,0.09,0.14
 2023-01-03,USA-29185,St. Clair,Missouri,12,1.71,18.24,0,0,0
 2023-01-03,USA-29183,St. Charles,Missouri,0,78,19.4,0,0.41,0.1
 2023-01-03,USA-29205,Shelby,Missouri,5,0.71,12.05,1,0.03,0.56
@@ -8169,7 +8168,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-03,USA-29181,Ripley,Missouri,1,0.14,1.08,0,0.03,0.25
 2023-01-03,USA-29179,Reynolds,Missouri,3,0.43,6.84,0,0,0
 2023-01-03,USA-29177,Ray,Missouri,32,4.57,19.86,0,0,0
-2023-01-03,USA-29175,Randolph,Missouri,25,3.57,14.43,0,0,0
+2023-01-03,USA-29175,Randolph,Missouri,26,3.71,15.01,0,0,0
 2023-01-03,USA-29173,Ralls,Missouri,18,2.57,24.94,0,0,0
 2023-01-03,USA-29171,Putnam,Missouri,0,0.57,12.17,0,0,0
 2023-01-03,USA-29169,Pulaski,Missouri,24,3.43,6.52,0,0.04,0.09
@@ -8185,10 +8184,10 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-03,USA-29149,Oregon,Missouri,5,0.71,6.78,0,0.05,0.45
 2023-01-03,USA-29147,Nodaway,Missouri,0,3.5,15.84,0,0,0
 2023-01-03,USA-29145,Newton,Missouri,33,4.71,9.04,0,0,0
-2023-01-03,USA-29143,New Madrid,Missouri,22,3.14,18.41,0,0.02,0.14
+2023-01-03,USA-29143,New Madrid,Missouri,24,3.43,20.08,0,0.02,0.14
 2023-01-03,USA-29141,Morgan,Missouri,24,3.43,16.62,0,0,0
 2023-01-03,USA-29139,Montgomery,Missouri,13,1.86,16.08,0,0.07,0.58
-2023-01-03,USA-29137,Monroe,Missouri,5,0.71,8.26,0,0,0
+2023-01-03,USA-29137,Monroe,Missouri,6,0.86,9.92,0,0,0
 2023-01-03,USA-29135,Moniteau,Missouri,25,3.57,22.14,0,0,0
 2023-01-03,USA-29133,Mississippi,Missouri,16,2.29,17.34,0,0,0
 2023-01-03,USA-29131,Miller,Missouri,54,7.71,30.11,0,0.03,0.11
@@ -8199,30 +8198,30 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-03,USA-29123,Madison,Missouri,7,1,8.27,0,0,0
 2023-01-03,USA-29121,Macon,Missouri,12,1.71,11.34,0,0.03,0.19
 2023-01-03,USA-29117,Livingston,Missouri,16,2.29,15.01,1,0.03,0.19
-2023-01-03,USA-29115,Linn,Missouri,38,5.43,45.54,0,0,0
-2023-01-03,USA-29113,Lincoln,Missouri,76,10.86,18.4,0,0.17,0.29
+2023-01-03,USA-29115,Linn,Missouri,39,5.57,46.74,0,0,0
+2023-01-03,USA-29113,Lincoln,Missouri,81,11.57,19.61,0,0.17,0.29
 2023-01-03,USA-29111,Lewis,Missouri,20,2.86,29.23,0,0,0
-2023-01-03,USA-29109,Lawrence,Missouri,34,4.86,12.66,0,0.05,0.14
-2023-01-03,USA-29107,Lafayette,Missouri,32,4.57,13.98,0,0.02,0.06
+2023-01-03,USA-29109,Lawrence,Missouri,35,5,13.04,0,0.05,0.14
+2023-01-03,USA-29107,Lafayette,Missouri,34,4.86,14.85,0,0.02,0.06
 2023-01-03,USA-29105,Laclede,Missouri,18,2.57,7.2,1,0.07,0.2
 2023-01-03,USA-29103,Knox,Missouri,4,0.57,14.43,0,0.03,0.87
 2023-01-03,USA-29101,Johnson,Missouri,55,7.86,14.53,0,0,0
-2023-01-03,USA-29099,Jefferson,Missouri,294,42,18.66,2,0.29,0.13
+2023-01-03,USA-29099,Jefferson,Missouri,309,44.14,19.61,2,0.29,0.13
 2023-01-03,USA-29097,Jasper,Missouri,63,9,11.77,0,0.07,0.09
-2023-01-03,USA-29095,Jackson,Missouri,524,74.86,19.53,0,0.23,0.06
+2023-01-03,USA-29095,Jackson,Missouri,535,76.43,19.94,0,0.23,0.06
 2023-01-03,USA-29093,Iron,Missouri,34,4.86,47.97,0,0.03,0.33
-2023-01-03,USA-29091,Howell,Missouri,23,3.29,8.19,0,0.03,0.08
+2023-01-03,USA-29091,Howell,Missouri,24,3.43,8.55,0,0.03,0.08
 2023-01-03,USA-29089,Howard,Missouri,6,0.86,8.57,0,0.04,0.41
 2023-01-03,USA-29087,Holt,Missouri,4,0.57,12.98,0,0.05,1.23
 2023-01-03,USA-29085,Hickory,Missouri,10,1.43,14.97,0,0,0
 2023-01-03,USA-29083,Henry,Missouri,26,3.71,17.02,0,0,0
-2023-01-03,USA-29081,Harrison,Missouri,33,4.71,56.44,0,0.06,0.75
+2023-01-03,USA-29081,Harrison,Missouri,34,4.86,58.16,0,0.06,0.75
 2023-01-03,USA-29079,Grundy,Missouri,14,2,20.3,0,0,0
-2023-01-03,USA-29077,Greene,Missouri,265,37.86,12.92,1,0.31,0.11
+2023-01-03,USA-29077,Greene,Missouri,282,40.29,13.75,1,0.31,0.11
 2023-01-03,USA-29075,Gentry,Missouri,4,0.57,8.7,0,0.09,1.43
-2023-01-03,USA-29073,Gasconade,Missouri,29,4.14,28.17,0,0.04,0.28
-2023-01-03,USA-29071,Franklin,Missouri,126,18,17.31,3,0.31,0.3
-2023-01-03,USA-29069,Dunklin,Missouri,20,2.86,9.81,0,0,0
+2023-01-03,USA-29073,Gasconade,Missouri,30,4.29,29.14,0,0.04,0.28
+2023-01-03,USA-29071,Franklin,Missouri,127,18.14,17.45,3,0.31,0.3
+2023-01-03,USA-29069,Dunklin,Missouri,23,3.29,11.28,0,0,0
 2023-01-03,USA-29067,Douglas,Missouri,9,1.29,9.75,0,0,0
 2023-01-03,USA-29065,Dent,Missouri,11,1.57,10.09,0,0,0
 2023-01-03,USA-29063,DeKalb,Missouri,1,0.14,1.14,0,0.06,0.48
@@ -8232,27 +8231,27 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-03,USA-29055,Crawford,Missouri,26,3.71,15.53,1,0.02,0.07
 2023-01-03,USA-29053,Cooper,Missouri,39,5.57,31.46,0,0,0
 2023-01-03,USA-29051,Cole,Missouri,199,28.43,37.04,0,0.06,0.07
-2023-01-03,USA-29049,Clinton,Missouri,26,3.71,18.22,1,0.17,0.82
+2023-01-03,USA-29049,Clinton,Missouri,27,3.86,18.92,1,0.17,0.82
 2023-01-03,USA-29047,Clay,Missouri,177,25.29,20.83,0,0.13,0.11
 2023-01-03,USA-29045,Clark,Missouri,7,1,14.71,0,0.03,0.49
-2023-01-03,USA-29043,Christian,Missouri,67,9.57,10.8,1,0.1,0.12
+2023-01-03,USA-29043,Christian,Missouri,68,9.71,10.96,1,0.1,0.12
 2023-01-03,USA-29041,Chariton,Missouri,6,0.86,11.54,0,0.02,0.25
 2023-01-03,USA-29039,Cedar,Missouri,9,1.29,8.96,0,0.03,0.19
 2023-01-03,USA-29037,Cass,Missouri,133,19,17.96,1,0.06,0.05
 2023-01-03,USA-29035,Carter,Missouri,3,0.43,7.16,0,0,0
 2023-01-03,USA-29033,Carroll,Missouri,11,1.57,18.11,0,0.02,0.21
-2023-01-03,USA-29031,Cape Girardeau,Missouri,98,14,17.75,1,0.11,0.14
+2023-01-03,USA-29031,Cape Girardeau,Missouri,99,14.14,17.93,1,0.11,0.14
 2023-01-03,USA-29029,Camden,Missouri,28,4,8.64,0,0.07,0.14
-2023-01-03,USA-29027,Callaway,Missouri,90,12.86,28.74,0,0.02,0.04
+2023-01-03,USA-29027,Callaway,Missouri,91,13,29.05,0,0.02,0.04
 2023-01-03,USA-29025,Caldwell,Missouri,9,1.29,14.25,0,0,0
 2023-01-03,USA-29023,Butler,Missouri,51,7.29,17.15,0,0.03,0.08
-2023-01-03,USA-29021,Buchanan,Missouri,89,12.71,14.55,0,0.12,0.14
+2023-01-03,USA-29021,Buchanan,Missouri,90,12.86,14.72,0,0.12,0.14
 2023-01-03,USA-29019,Boone,Missouri,97,29.43,16.31,1,0.11,0.06
-2023-01-03,USA-29017,Bollinger,Missouri,13,1.86,15.31,0,0.02,0.17
+2023-01-03,USA-29017,Bollinger,Missouri,14,2,16.48,0,0.02,0.17
 2023-01-03,USA-29015,Benton,Missouri,28,4,20.57,0,0.08,0.41
 2023-01-03,USA-29013,Bates,Missouri,39,5.57,34.45,0,0.03,0.21
 2023-01-03,USA-29011,Barton,Missouri,8,1.14,9.72,0,0.03,0.24
-2023-01-03,USA-29009,Barry,Missouri,39,5.57,15.57,0,0.05,0.15
+2023-01-03,USA-29009,Barry,Missouri,42,6,16.76,0,0.05,0.15
 2023-01-03,USA-29007,Audrain,Missouri,29,4.14,16.32,0,0.02,0.09
 2023-01-03,USA-29005,Atchison,Missouri,3,0.43,8.33,0,0,0
 2023-01-03,USA-29003,Andrew,Missouri,15,2.14,12.1,0,0.04,0.25
@@ -8526,7 +8525,6 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-03,USA-25005,Bristol,Massachusetts,0,97,17.16,0,1.83,0.32
 2023-01-03,USA-25003,Berkshire,Massachusetts,0,25.71,20.58,0,0.39,0.31
 2023-01-03,USA-25001,Barnstable,Massachusetts,0,41.29,19.38,0,1.06,0.5
-2023-01-03,USA-24999,Unknown,Maryland,0,0.13,,0,1.4,
 2023-01-03,USA-24047,Worcester,Maryland,10,6.73,12.87,0,0.09,0.17
 2023-01-03,USA-24045,Wicomico,Maryland,22,13.91,13.42,1,0.07,0.06
 2023-01-03,USA-24043,Washington,Maryland,16,10.18,6.74,0,0.27,0.18
@@ -8551,7 +8549,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-03,USA-24005,Baltimore,Maryland,157,89,10.76,2,1.44,0.17
 2023-01-03,USA-24003,Anne Arundel,Maryland,106,63.27,10.92,2,0.65,0.11
 2023-01-03,USA-24001,Allegany,Maryland,16,8.82,12.52,0,0.05,0.07
-2023-01-03,USA-23999,Unknown,Maine,0,1.63,,0,0,
+2023-01-03,USA-23999,Unknown,Maine,1,1,,0,0,
 2023-01-03,USA-23031,York,Maine,0,29,13.97,0,0.13,0.06
 2023-01-03,USA-23029,Washington,Maine,0,2,6.37,0,0.09,0.29
 2023-01-03,USA-23027,Waldo,Maine,0,3.43,8.63,0,0.13,0.31
@@ -9686,7 +9684,6 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-03,USA-02020,Anchorage,Alaska,169,24.14,8.38,0,0.09,0.03
 2023-01-03,USA-02016,Aleutians West Census Area,Alaska,1,0.14,2.54,0,0,0
 2023-01-03,USA-02013,Aleutians East Borough,Alaska,1,0.08,2.31,0,0.03,0.81
-2023-01-03,USA-01999,Unknown,Alabama,0,335.93,,0,0,
 2023-01-03,USA-01133,Winston,Alabama,0,5.57,23.58,0,0.03,0.11
 2023-01-03,USA-01131,Wilcox,Alabama,0,2.86,27.54,0,0,0
 2023-01-03,USA-01129,Washington,Alabama,0,2,12.25,0,0,0
