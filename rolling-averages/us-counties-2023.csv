@@ -3726,7 +3726,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-02,USA-48463,Uvalde,Texas,0,2,7.48,0,0,0
 2023-01-02,USA-48461,Upton,Texas,0,0.14,3.91,0,0,0
 2023-01-02,USA-48459,Upshur,Texas,0,2.71,6.5,0,0,0
-2023-01-02,USA-48999,Unknown,Texas,0,724.78,,0,0,
+2023-01-02,USA-48999,Unknown,Texas,-1402,724.78,,0,0,
 2023-01-02,USA-48457,Tyler,Texas,0,3,13.84,0,0.02,0.09
 2023-01-02,USA-48455,Trinity,Texas,0,1.29,8.78,0,0.02,0.15
 2023-01-02,USA-48453,Travis,Texas,0,220,17.27,0,0.15,0.01
@@ -6979,7 +6979,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-03,USA-48463,Uvalde,Texas,0,2,7.48,0,0,0
 2023-01-03,USA-48461,Upton,Texas,0,0.14,3.91,0,0,0
 2023-01-03,USA-48459,Upshur,Texas,0,2.71,6.5,0,0,0
-2023-01-03,USA-48999,Unknown,Texas,-1402,724.78,,0,0,
+2023-01-03,USA-48999,Unknown,Texas,0,724.78,,0,0,
 2023-01-03,USA-48457,Tyler,Texas,0,3,13.84,0,0.02,0.09
 2023-01-03,USA-48455,Trinity,Texas,0,1.29,8.78,0,0.02,0.15
 2023-01-03,USA-48453,Travis,Texas,0,220,17.27,0,0.15,0.01
@@ -8856,7 +8856,6 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-03,USA-20005,Atchison,Kansas,0,3.14,19.55,0,0,0
 2023-01-03,USA-20003,Anderson,Kansas,0,1.43,18.18,0,0,0
 2023-01-03,USA-20001,Allen,Kansas,0,2.57,20.79,0,0,0
-2023-01-03,USA-19999,Unknown,Iowa,0,0.22,,0,0.7,
 2023-01-03,USA-19197,Wright,Iowa,0,0.57,4.55,0,0.02,0.18
 2023-01-03,USA-19195,Worth,Iowa,0,1.29,17.42,0,0,0
 2023-01-03,USA-19193,Woodbury,Iowa,0,8,7.76,0,0.06,0.06
