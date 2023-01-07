@@ -472,7 +472,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-01,USA-48463,Uvalde,Texas,0,2,7.48,0,0,0
 2023-01-01,USA-48461,Upton,Texas,0,0.14,3.91,0,0,0
 2023-01-01,USA-48459,Upshur,Texas,0,2.71,6.5,0,0,0
-2023-01-01,USA-48999,Unknown,Texas,0,1037,,0,0,
+2023-01-01,USA-48999,Unknown,Texas,0,385.6,,0,0,
 2023-01-01,USA-48457,Tyler,Texas,0,3,13.84,0,0.02,0.09
 2023-01-01,USA-48455,Trinity,Texas,0,1.29,8.78,0,0.02,0.15
 2023-01-01,USA-48453,Travis,Texas,0,220,17.27,0,0.15,0.01
@@ -2186,7 +2186,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-01,USA-21123,Larue,Kentucky,0,1.88,13.02,0,0.02,0.12
 2023-01-01,USA-21121,Knox,Kentucky,0,11.5,36.92,0,0.14,0.45
 2023-01-01,USA-21119,Knott,Kentucky,0,2.88,19.42,0,0.02,0.16
-2023-01-01,USA-21117,Kenton,Kentucky,0,30.29,18.14,0,0.17,0.1
+2023-01-01,USA-21117,Kenton,Kentucky,0,39.31,23.54,0,0.17,0.1
 2023-01-01,USA-21115,Johnson,Kentucky,0,13,58.59,0,0.06,0.25
 2023-01-01,USA-21113,Jessamine,Kentucky,0,10,18.48,0,0.06,0.11
 2023-01-01,USA-21111,Jefferson,Kentucky,0,10.88,1.42,0,0.81,0.11
@@ -2204,7 +2204,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-01,USA-21087,Green,Kentucky,0,4.5,41.13,0,0.04,0.37
 2023-01-01,USA-21085,Grayson,Kentucky,0,7.75,29.33,0,0.13,0.5
 2023-01-01,USA-21083,Graves,Kentucky,0,13.75,36.9,0,0.12,0.32
-2023-01-01,USA-21081,Grant,Kentucky,0,6.29,25.07,0,0.03,0.13
+2023-01-01,USA-21081,Grant,Kentucky,0,9.31,37.13,0,0.03,0.13
 2023-01-01,USA-21079,Garrard,Kentucky,0,3.5,19.81,0,0.03,0.16
 2023-01-01,USA-21077,Gallatin,Kentucky,0,1.13,12.68,0,0.03,0.38
 2023-01-01,USA-21075,Fulton,Kentucky,0,0.5,8.38,0,0,0
@@ -2226,7 +2226,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-01,USA-21043,Carter,Kentucky,0,8.88,33.12,0,0.17,0.64
 2023-01-01,USA-21041,Carroll,Kentucky,0,2.88,27.04,0,0.05,0.45
 2023-01-01,USA-21039,Carlisle,Kentucky,0,0.5,10.5,0,0.02,0.4
-2023-01-01,USA-21037,Campbell,Kentucky,0,18.43,19.69,0,0.04,0.04
+2023-01-01,USA-21037,Campbell,Kentucky,0,22.15,23.67,0,0.04,0.04
 2023-01-01,USA-21035,Calloway,Kentucky,0,12.25,31.41,0,0.03,0.09
 2023-01-01,USA-21033,Caldwell,Kentucky,0,4.38,34.32,0,0,0
 2023-01-01,USA-21031,Butler,Kentucky,0,4.88,37.85,0,0.03,0.26
@@ -2237,7 +2237,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-01,USA-21021,Boyle,Kentucky,0,8.88,29.52,0,0.08,0.27
 2023-01-01,USA-21019,Boyd,Kentucky,0,17.13,36.66,0,0.04,0.09
 2023-01-01,USA-21017,Bourbon,Kentucky,0,6.63,33.48,0,0.03,0.17
-2023-01-01,USA-21015,Boone,Kentucky,0,27.57,20.64,0,0.23,0.17
+2023-01-01,USA-21015,Boone,Kentucky,0,34.23,25.63,0,0.23,0.17
 2023-01-01,USA-21013,Bell,Kentucky,0,7.5,28.81,0,0.03,0.11
 2023-01-01,USA-21011,Bath,Kentucky,0,8,64,0,0,0
 2023-01-01,USA-21009,Barren,Kentucky,0,16.75,37.85,0,0.06,0.13
@@ -3726,7 +3726,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-02,USA-48463,Uvalde,Texas,0,2,7.48,0,0,0
 2023-01-02,USA-48461,Upton,Texas,0,0.14,3.91,0,0,0
 2023-01-02,USA-48459,Upshur,Texas,0,2.71,6.5,0,0,0
-2023-01-02,USA-48999,Unknown,Texas,-1402,1037,,0,0,
+2023-01-02,USA-48999,Unknown,Texas,1467,133.36,,0,0,
 2023-01-02,USA-48457,Tyler,Texas,0,3,13.84,0,0.02,0.09
 2023-01-02,USA-48455,Trinity,Texas,0,1.29,8.78,0,0.02,0.15
 2023-01-02,USA-48453,Travis,Texas,0,220,17.27,0,0.15,0.01
@@ -5439,7 +5439,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-02,USA-21123,Larue,Kentucky,0,1.88,13.02,0,0.02,0.12
 2023-01-02,USA-21121,Knox,Kentucky,0,11.5,36.92,0,0.14,0.45
 2023-01-02,USA-21119,Knott,Kentucky,0,2.88,19.42,0,0.02,0.16
-2023-01-02,USA-21117,Kenton,Kentucky,0,30.29,18.14,0,0.17,0.1
+2023-01-02,USA-21117,Kenton,Kentucky,0,39.31,23.54,0,0.17,0.1
 2023-01-02,USA-21115,Johnson,Kentucky,0,13,58.59,0,0.06,0.25
 2023-01-02,USA-21113,Jessamine,Kentucky,0,10,18.48,0,0.06,0.11
 2023-01-02,USA-21111,Jefferson,Kentucky,0,10.88,1.42,0,0.81,0.11
@@ -5457,7 +5457,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-02,USA-21087,Green,Kentucky,0,4.5,41.13,0,0.04,0.37
 2023-01-02,USA-21085,Grayson,Kentucky,0,7.75,29.33,0,0.13,0.5
 2023-01-02,USA-21083,Graves,Kentucky,0,13.75,36.9,0,0.12,0.32
-2023-01-02,USA-21081,Grant,Kentucky,0,6.29,25.07,0,0.03,0.13
+2023-01-02,USA-21081,Grant,Kentucky,0,9.31,37.13,0,0.03,0.13
 2023-01-02,USA-21079,Garrard,Kentucky,0,3.5,19.81,0,0.03,0.16
 2023-01-02,USA-21077,Gallatin,Kentucky,0,1.13,12.68,0,0.03,0.38
 2023-01-02,USA-21075,Fulton,Kentucky,0,0.5,8.38,0,0,0
@@ -5479,7 +5479,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-02,USA-21043,Carter,Kentucky,0,8.88,33.12,0,0.17,0.64
 2023-01-02,USA-21041,Carroll,Kentucky,0,2.88,27.04,0,0.05,0.45
 2023-01-02,USA-21039,Carlisle,Kentucky,0,0.5,10.5,0,0.02,0.4
-2023-01-02,USA-21037,Campbell,Kentucky,0,18.43,19.69,0,0.04,0.04
+2023-01-02,USA-21037,Campbell,Kentucky,0,22.15,23.67,0,0.04,0.04
 2023-01-02,USA-21035,Calloway,Kentucky,0,12.25,31.41,0,0.03,0.09
 2023-01-02,USA-21033,Caldwell,Kentucky,0,4.38,34.32,0,0,0
 2023-01-02,USA-21031,Butler,Kentucky,0,4.88,37.85,0,0.03,0.26
@@ -5490,7 +5490,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-02,USA-21021,Boyle,Kentucky,0,8.88,29.52,0,0.08,0.27
 2023-01-02,USA-21019,Boyd,Kentucky,0,17.13,36.66,0,0.04,0.09
 2023-01-02,USA-21017,Bourbon,Kentucky,0,6.63,33.48,0,0.03,0.17
-2023-01-02,USA-21015,Boone,Kentucky,0,27.57,20.64,0,0.23,0.17
+2023-01-02,USA-21015,Boone,Kentucky,0,34.23,25.63,0,0.23,0.17
 2023-01-02,USA-21013,Bell,Kentucky,0,7.5,28.81,0,0.03,0.11
 2023-01-02,USA-21011,Bath,Kentucky,0,8,64,0,0,0
 2023-01-02,USA-21009,Barren,Kentucky,0,16.75,37.85,0,0.06,0.13
@@ -6979,7 +6979,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-03,USA-48463,Uvalde,Texas,0,2,7.48,0,0,0
 2023-01-03,USA-48461,Upton,Texas,0,0.14,3.91,0,0,0
 2023-01-03,USA-48459,Upshur,Texas,0,2.71,6.5,0,0,0
-2023-01-03,USA-48999,Unknown,Texas,0,1037,,0,0,
+2023-01-03,USA-48999,Unknown,Texas,-660,133.36,,0,0,
 2023-01-03,USA-48457,Tyler,Texas,0,3,13.84,0,0.02,0.09
 2023-01-03,USA-48455,Trinity,Texas,0,1.29,8.78,0,0.02,0.15
 2023-01-03,USA-48453,Travis,Texas,0,220,17.27,0,0.15,0.01
@@ -8692,7 +8692,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-03,USA-21123,Larue,Kentucky,13,1.86,12.9,0,0.02,0.12
 2023-01-03,USA-21121,Knox,Kentucky,34,4.86,15.6,0,0.14,0.45
 2023-01-03,USA-21119,Knott,Kentucky,12,1.71,11.58,0,0.02,0.16
-2023-01-03,USA-21117,Kenton,Kentucky,0,0,0,0,0.17,0.1
+2023-01-03,USA-21117,Kenton,Kentucky,207,29.57,17.71,0,0.17,0.1
 2023-01-03,USA-21115,Johnson,Kentucky,44,6.29,28.33,0,0.06,0.25
 2023-01-03,USA-21113,Jessamine,Kentucky,32,4.57,8.45,0,0.06,0.11
 2023-01-03,USA-21111,Jefferson,Kentucky,-1162,10.88,1.42,3,0.64,0.08
@@ -8710,7 +8710,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-03,USA-21087,Green,Kentucky,13,1.86,16.97,0,0.04,0.37
 2023-01-03,USA-21085,Grayson,Kentucky,31,4.43,16.76,0,0.13,0.5
 2023-01-03,USA-21083,Graves,Kentucky,31,4.43,11.88,1,0.04,0.11
-2023-01-03,USA-21081,Grant,Kentucky,0,0,0,0,0.03,0.13
+2023-01-03,USA-21081,Grant,Kentucky,29,4.14,16.53,0,0.03,0.13
 2023-01-03,USA-21079,Garrard,Kentucky,22,3.14,17.79,0,0.03,0.16
 2023-01-03,USA-21077,Gallatin,Kentucky,14,2,22.55,0,0.03,0.38
 2023-01-03,USA-21075,Fulton,Kentucky,2,0.29,4.79,0,0,0
@@ -8732,7 +8732,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-03,USA-21043,Carter,Kentucky,38,5.43,20.26,0,0.17,0.64
 2023-01-03,USA-21041,Carroll,Kentucky,3,0.43,4.03,0,0.05,0.45
 2023-01-03,USA-21039,Carlisle,Kentucky,6,0.86,18.01,0,0.02,0.4
-2023-01-03,USA-21037,Campbell,Kentucky,0,0,0,0,0.04,0.04
+2023-01-03,USA-21037,Campbell,Kentucky,100,14.29,15.27,0,0.04,0.04
 2023-01-03,USA-21035,Calloway,Kentucky,47,6.71,17.22,0,0.03,0.09
 2023-01-03,USA-21033,Caldwell,Kentucky,25,3.57,28.02,0,0,0
 2023-01-03,USA-21031,Butler,Kentucky,11,1.57,12.2,0,0.03,0.26
@@ -8743,7 +8743,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-03,USA-21021,Boyle,Kentucky,60,8.57,28.51,0,0.08,0.27
 2023-01-03,USA-21019,Boyd,Kentucky,73,10.43,22.32,0,0.04,0.09
 2023-01-03,USA-21017,Bourbon,Kentucky,28,4,20.21,0,0.03,0.17
-2023-01-03,USA-21015,Boone,Kentucky,0,0,0,1,0.06,0.04
+2023-01-03,USA-21015,Boone,Kentucky,139,19.86,14.87,1,0.06,0.04
 2023-01-03,USA-21013,Bell,Kentucky,51,7.29,27.99,0,0.03,0.11
 2023-01-03,USA-21011,Bath,Kentucky,28,4,32,0,0,0
 2023-01-03,USA-21009,Barren,Kentucky,60,8.57,19.37,0,0.06,0.13
@@ -10230,7 +10230,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-04,USA-48463,Uvalde,Texas,17,2.43,9.08,1,0.03,0.12
 2023-01-04,USA-48461,Upton,Texas,6,0.86,23.44,0,0,0
 2023-01-04,USA-48459,Upshur,Texas,17,2.43,5.82,2,0.07,0.16
-2023-01-04,USA-48999,Unknown,Texas,6852,2062.86,,0,0,
+2023-01-04,USA-48999,Unknown,Texas,-807,133.36,,0,0,
 2023-01-04,USA-48457,Tyler,Texas,64,9.14,42.19,1,0.03,0.12
 2023-01-04,USA-48455,Trinity,Texas,9,1.29,8.78,1,0.03,0.18
 2023-01-04,USA-48453,Travis,Texas,1797,256.71,20.15,7,0.28,0.02
@@ -11943,7 +11943,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-04,USA-21123,Larue,Kentucky,0,1.86,12.9,0,0.02,0.12
 2023-01-04,USA-21121,Knox,Kentucky,0,4.86,15.6,0,0.14,0.45
 2023-01-04,USA-21119,Knott,Kentucky,0,1.71,11.58,0,0.02,0.16
-2023-01-04,USA-21117,Kenton,Kentucky,0,0,0,0,0.17,0.1
+2023-01-04,USA-21117,Kenton,Kentucky,0,29.57,17.71,0,0.17,0.1
 2023-01-04,USA-21115,Johnson,Kentucky,0,6.29,28.33,0,0.06,0.25
 2023-01-04,USA-21113,Jessamine,Kentucky,0,4.57,8.45,0,0.06,0.11
 2023-01-04,USA-21111,Jefferson,Kentucky,0,10.88,1.42,0,0.64,0.08
@@ -11961,7 +11961,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-04,USA-21087,Green,Kentucky,0,1.86,16.97,0,0.04,0.37
 2023-01-04,USA-21085,Grayson,Kentucky,0,4.43,16.76,0,0.13,0.5
 2023-01-04,USA-21083,Graves,Kentucky,0,4.43,11.88,0,0.04,0.11
-2023-01-04,USA-21081,Grant,Kentucky,0,0,0,0,0.03,0.13
+2023-01-04,USA-21081,Grant,Kentucky,0,4.14,16.53,0,0.03,0.13
 2023-01-04,USA-21079,Garrard,Kentucky,0,3.14,17.79,0,0.03,0.16
 2023-01-04,USA-21077,Gallatin,Kentucky,0,2,22.55,0,0.03,0.38
 2023-01-04,USA-21075,Fulton,Kentucky,0,0.29,4.79,0,0,0
@@ -11983,7 +11983,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-04,USA-21043,Carter,Kentucky,0,5.43,20.26,0,0.17,0.64
 2023-01-04,USA-21041,Carroll,Kentucky,0,0.43,4.03,0,0.05,0.45
 2023-01-04,USA-21039,Carlisle,Kentucky,0,0.86,18.01,0,0.02,0.4
-2023-01-04,USA-21037,Campbell,Kentucky,0,0,0,0,0.04,0.04
+2023-01-04,USA-21037,Campbell,Kentucky,0,14.29,15.27,0,0.04,0.04
 2023-01-04,USA-21035,Calloway,Kentucky,0,6.71,17.22,4,0.07,0.18
 2023-01-04,USA-21033,Caldwell,Kentucky,0,3.57,28.02,0,0,0
 2023-01-04,USA-21031,Butler,Kentucky,0,1.57,12.2,0,0.03,0.26
@@ -11994,7 +11994,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-04,USA-21021,Boyle,Kentucky,0,8.57,28.51,0,0.08,0.27
 2023-01-04,USA-21019,Boyd,Kentucky,0,10.43,22.32,0,0.04,0.09
 2023-01-04,USA-21017,Bourbon,Kentucky,0,4,20.21,0,0.03,0.17
-2023-01-04,USA-21015,Boone,Kentucky,0,0,0,0,0.06,0.04
+2023-01-04,USA-21015,Boone,Kentucky,0,19.86,14.87,0,0.06,0.04
 2023-01-04,USA-21013,Bell,Kentucky,0,7.29,27.99,0,0.03,0.11
 2023-01-04,USA-21011,Bath,Kentucky,0,4,32,0,0,0
 2023-01-04,USA-21009,Barren,Kentucky,0,8.57,19.37,0,0.06,0.13
@@ -13481,7 +13481,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-05,USA-48463,Uvalde,Texas,0,2.43,9.08,0,0.03,0.12
 2023-01-05,USA-48461,Upton,Texas,0,0.86,23.44,0,0,0
 2023-01-05,USA-48459,Upshur,Texas,0,2.43,5.82,0,0.07,0.16
-2023-01-05,USA-48999,Unknown,Texas,-6852,2062.86,,0,0,
+2023-01-05,USA-48999,Unknown,Texas,5693,596.67,,0,0,
 2023-01-05,USA-48457,Tyler,Texas,0,9.14,42.19,0,0.03,0.12
 2023-01-05,USA-48455,Trinity,Texas,0,1.29,8.78,0,0.03,0.18
 2023-01-05,USA-48453,Travis,Texas,0,256.71,20.15,0,0.28,0.02
@@ -15194,7 +15194,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-05,USA-21123,Larue,Kentucky,0,1.86,12.9,0,0.02,0.12
 2023-01-05,USA-21121,Knox,Kentucky,0,4.86,15.6,0,0.14,0.45
 2023-01-05,USA-21119,Knott,Kentucky,0,1.71,11.58,0,0.02,0.16
-2023-01-05,USA-21117,Kenton,Kentucky,0,0,0,0,0.17,0.1
+2023-01-05,USA-21117,Kenton,Kentucky,0,29.57,17.71,0,0.17,0.1
 2023-01-05,USA-21115,Johnson,Kentucky,0,6.29,28.33,0,0.06,0.25
 2023-01-05,USA-21113,Jessamine,Kentucky,0,4.57,8.45,0,0.06,0.11
 2023-01-05,USA-21111,Jefferson,Kentucky,0,10.88,1.42,0,0.64,0.08
@@ -15212,7 +15212,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-05,USA-21087,Green,Kentucky,0,1.86,16.97,0,0.04,0.37
 2023-01-05,USA-21085,Grayson,Kentucky,0,4.43,16.76,0,0.13,0.5
 2023-01-05,USA-21083,Graves,Kentucky,0,4.43,11.88,0,0.04,0.11
-2023-01-05,USA-21081,Grant,Kentucky,0,0,0,0,0.03,0.13
+2023-01-05,USA-21081,Grant,Kentucky,0,4.14,16.53,0,0.03,0.13
 2023-01-05,USA-21079,Garrard,Kentucky,0,3.14,17.79,0,0.03,0.16
 2023-01-05,USA-21077,Gallatin,Kentucky,0,2,22.55,0,0.03,0.38
 2023-01-05,USA-21075,Fulton,Kentucky,0,0.29,4.79,0,0,0
@@ -15234,7 +15234,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-05,USA-21043,Carter,Kentucky,0,5.43,20.26,0,0.17,0.64
 2023-01-05,USA-21041,Carroll,Kentucky,0,0.43,4.03,0,0.05,0.45
 2023-01-05,USA-21039,Carlisle,Kentucky,0,0.86,18.01,0,0.02,0.4
-2023-01-05,USA-21037,Campbell,Kentucky,0,0,0,0,0.04,0.04
+2023-01-05,USA-21037,Campbell,Kentucky,0,14.29,15.27,0,0.04,0.04
 2023-01-05,USA-21035,Calloway,Kentucky,0,6.71,17.22,0,0.07,0.18
 2023-01-05,USA-21033,Caldwell,Kentucky,0,3.57,28.02,0,0,0
 2023-01-05,USA-21031,Butler,Kentucky,0,1.57,12.2,0,0.03,0.26
@@ -15245,7 +15245,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-05,USA-21021,Boyle,Kentucky,0,8.57,28.51,0,0.08,0.27
 2023-01-05,USA-21019,Boyd,Kentucky,0,10.43,22.32,0,0.04,0.09
 2023-01-05,USA-21017,Bourbon,Kentucky,0,4,20.21,0,0.03,0.17
-2023-01-05,USA-21015,Boone,Kentucky,0,0,0,0,0.06,0.04
+2023-01-05,USA-21015,Boone,Kentucky,0,19.86,14.87,0,0.06,0.04
 2023-01-05,USA-21013,Bell,Kentucky,0,7.29,27.99,0,0.03,0.11
 2023-01-05,USA-21011,Bath,Kentucky,0,4,32,0,0,0
 2023-01-05,USA-21009,Barren,Kentucky,0,8.57,19.37,0,0.06,0.13
