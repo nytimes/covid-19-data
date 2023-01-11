@@ -3250,6 +3250,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-01,USA-69120,Tinian,Northern Mariana Islands,0,0,0,0,0,0
 2023-01-01,USA-69110,Saipan,Northern Mariana Islands,0,0.82,1.7,0,0,0
 2023-01-01,USA-69100,Rota,Northern Mariana Islands,0,0,0,0,0,0
+2023-01-01,USA-78999,Unknown,Virgin Islands,-35,6.86,,0,0,
 2023-01-01,USA-78030,St. Thomas,Virgin Islands,4,0.57,1.11,0,0.04,0.09
 2023-01-01,USA-78020,St. John,Virgin Islands,1,0.08,1.84,0,0,0
 2023-01-01,USA-78010,St. Croix,Virgin Islands,30,4.29,8.47,0,0.03,0.07
@@ -6503,6 +6504,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-02,USA-69120,Tinian,Northern Mariana Islands,0,0,0,0,0,0
 2023-01-02,USA-69110,Saipan,Northern Mariana Islands,0,0,0,0,0,0
 2023-01-02,USA-69100,Rota,Northern Mariana Islands,0,0,0,0,0,0
+2023-01-02,USA-78999,Unknown,Virgin Islands,0,6.86,,0,0,
 2023-01-02,USA-78030,St. Thomas,Virgin Islands,0,0.57,1.11,0,0.04,0.09
 2023-01-02,USA-78020,St. John,Virgin Islands,0,0.08,1.84,0,0,0
 2023-01-02,USA-78010,St. Croix,Virgin Islands,0,4.29,8.47,0,0.03,0.07
@@ -6979,7 +6981,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-03,USA-48463,Uvalde,Texas,0,2,7.48,0,0,0
 2023-01-03,USA-48461,Upton,Texas,0,0.14,3.91,0,0,0
 2023-01-03,USA-48459,Upshur,Texas,0,2.71,6.5,0,0,0
-2023-01-03,USA-48999,Unknown,Texas,807,989.71,,0,0,
+2023-01-03,USA-48999,Unknown,Texas,807,1155.14,,0,0,
 2023-01-03,USA-48457,Tyler,Texas,0,3,13.84,0,0.02,0.09
 2023-01-03,USA-48455,Trinity,Texas,0,1.29,8.78,0,0.02,0.15
 2023-01-03,USA-48453,Travis,Texas,0,220,17.27,0,0.15,0.01
@@ -9754,6 +9756,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-03,USA-69120,Tinian,Northern Mariana Islands,0,0,0,0,0,0
 2023-01-03,USA-69110,Saipan,Northern Mariana Islands,0,0,0,0,0,0
 2023-01-03,USA-69100,Rota,Northern Mariana Islands,0,0,0,0,0,0
+2023-01-03,USA-78999,Unknown,Virgin Islands,0,6.86,,0,0,
 2023-01-03,USA-78030,St. Thomas,Virgin Islands,0,0.57,1.11,0,0.04,0.09
 2023-01-03,USA-78020,St. John,Virgin Islands,0,0.08,1.84,0,0,0
 2023-01-03,USA-78010,St. Croix,Virgin Islands,0,4.29,8.47,0,0.03,0.07
@@ -10230,7 +10233,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-04,USA-48463,Uvalde,Texas,17,2.43,9.08,1,0.03,0.12
 2023-01-04,USA-48461,Upton,Texas,6,0.86,23.44,0,0,0
 2023-01-04,USA-48459,Upshur,Texas,17,2.43,5.82,2,0.07,0.16
-2023-01-04,USA-48999,Unknown,Texas,6110,1629.75,,0,0,
+2023-01-04,USA-48999,Unknown,Texas,6110,1862.57,,0,0,
 2023-01-04,USA-48457,Tyler,Texas,64,9.14,42.19,1,0.03,0.12
 2023-01-04,USA-48455,Trinity,Texas,9,1.29,8.78,1,0.03,0.18
 2023-01-04,USA-48453,Travis,Texas,1797,256.71,20.15,7,0.28,0.02
@@ -13005,6 +13008,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-04,USA-69120,Tinian,Northern Mariana Islands,0,0,0,0,0,0
 2023-01-04,USA-69110,Saipan,Northern Mariana Islands,0,0,0,0,0,0
 2023-01-04,USA-69100,Rota,Northern Mariana Islands,0,0,0,0,0,0
+2023-01-04,USA-78999,Unknown,Virgin Islands,0,6.86,,0,0,
 2023-01-04,USA-78030,St. Thomas,Virgin Islands,0,0.57,1.11,0,0.04,0.09
 2023-01-04,USA-78020,St. John,Virgin Islands,0,0.08,1.84,0,0,0
 2023-01-04,USA-78010,St. Croix,Virgin Islands,0,4.29,8.47,0,0.03,0.07
@@ -13481,7 +13485,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-05,USA-48463,Uvalde,Texas,0,2.43,9.08,0,0.03,0.12
 2023-01-05,USA-48461,Upton,Texas,0,0.86,23.44,0,0,0
 2023-01-05,USA-48459,Upshur,Texas,0,2.43,5.82,0,0.07,0.16
-2023-01-05,USA-48999,Unknown,Texas,-1224,1629.75,,0,0,
+2023-01-05,USA-48999,Unknown,Texas,-1224,1862.57,,0,0,
 2023-01-05,USA-48457,Tyler,Texas,0,9.14,42.19,0,0.03,0.12
 2023-01-05,USA-48455,Trinity,Texas,0,1.29,8.78,0,0.03,0.18
 2023-01-05,USA-48453,Travis,Texas,0,256.71,20.15,0,0.28,0.02
@@ -16256,6 +16260,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-05,USA-69120,Tinian,Northern Mariana Islands,0,0,0,0,0,0
 2023-01-05,USA-69110,Saipan,Northern Mariana Islands,0,0,0,0,0,0
 2023-01-05,USA-69100,Rota,Northern Mariana Islands,0,0,0,0,0,0
+2023-01-05,USA-78999,Unknown,Virgin Islands,0,6.86,,0,0,
 2023-01-05,USA-78030,St. Thomas,Virgin Islands,0,0.57,1.11,0,0.04,0.09
 2023-01-05,USA-78020,St. John,Virgin Islands,0,0.08,1.84,0,0,0
 2023-01-05,USA-78010,St. Croix,Virgin Islands,0,4.29,8.47,0,0.03,0.07
@@ -16732,7 +16737,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-06,USA-48463,Uvalde,Texas,0,2.43,9.08,0,0.03,0.12
 2023-01-06,USA-48461,Upton,Texas,0,0.86,23.44,0,0,0
 2023-01-06,USA-48459,Upshur,Texas,0,2.43,5.82,0,0.07,0.16
-2023-01-06,USA-48999,Unknown,Texas,-2132,1629.75,,0,0,
+2023-01-06,USA-48999,Unknown,Texas,-2132,1862.57,,0,0,
 2023-01-06,USA-48457,Tyler,Texas,0,9.14,42.19,0,0.03,0.12
 2023-01-06,USA-48455,Trinity,Texas,0,1.29,8.78,0,0.03,0.18
 2023-01-06,USA-48453,Travis,Texas,0,256.71,20.15,0,0.28,0.02
@@ -19507,6 +19512,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-06,USA-69120,Tinian,Northern Mariana Islands,0,0,0,0,0,0
 2023-01-06,USA-69110,Saipan,Northern Mariana Islands,0,0,0,0,0,0
 2023-01-06,USA-69100,Rota,Northern Mariana Islands,0,0,0,0,0,0
+2023-01-06,USA-78999,Unknown,Virgin Islands,0,6.86,,0,0,
 2023-01-06,USA-78030,St. Thomas,Virgin Islands,0,0.57,1.11,0,0.04,0.09
 2023-01-06,USA-78020,St. John,Virgin Islands,0,0.08,1.84,0,0,0
 2023-01-06,USA-78010,St. Croix,Virgin Islands,0,4.29,8.47,0,0.03,0.07
@@ -19983,7 +19989,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-07,USA-48463,Uvalde,Texas,0,2.43,9.08,0,0.03,0.12
 2023-01-07,USA-48461,Upton,Texas,0,0.86,23.44,0,0,0
 2023-01-07,USA-48459,Upshur,Texas,0,2.43,5.82,0,0.07,0.16
-2023-01-07,USA-48999,Unknown,Texas,-3496,1629.75,,0,0,
+2023-01-07,USA-48999,Unknown,Texas,-3496,1862.57,,0,0,
 2023-01-07,USA-48457,Tyler,Texas,0,9.14,42.19,0,0.03,0.12
 2023-01-07,USA-48455,Trinity,Texas,0,1.29,8.78,0,0.03,0.18
 2023-01-07,USA-48453,Travis,Texas,0,256.71,20.15,0,0.28,0.02
@@ -22758,6 +22764,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-07,USA-69120,Tinian,Northern Mariana Islands,0,0,0,0,0,0
 2023-01-07,USA-69110,Saipan,Northern Mariana Islands,0,0,0,0,0,0
 2023-01-07,USA-69100,Rota,Northern Mariana Islands,0,0,0,0,0,0
+2023-01-07,USA-78999,Unknown,Virgin Islands,0,6.86,,0,0,
 2023-01-07,USA-78030,St. Thomas,Virgin Islands,0,0.57,1.11,0,0.04,0.09
 2023-01-07,USA-78020,St. John,Virgin Islands,0,0.08,1.84,0,0,0
 2023-01-07,USA-78010,St. Croix,Virgin Islands,0,4.29,8.47,0,0.03,0.07
@@ -23234,7 +23241,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-08,USA-48463,Uvalde,Texas,0,2.43,9.08,0,0.03,0.12
 2023-01-08,USA-48461,Upton,Texas,0,0.86,23.44,0,0,0
 2023-01-08,USA-48459,Upshur,Texas,0,2.43,5.82,0,0.07,0.16
-2023-01-08,USA-48999,Unknown,Texas,0,1629.75,,0,0,
+2023-01-08,USA-48999,Unknown,Texas,0,1862.57,,0,0,
 2023-01-08,USA-48457,Tyler,Texas,0,9.14,42.19,0,0.03,0.12
 2023-01-08,USA-48455,Trinity,Texas,0,1.29,8.78,0,0.03,0.18
 2023-01-08,USA-48453,Travis,Texas,0,256.71,20.15,0,0.28,0.02
@@ -26009,6 +26016,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-08,USA-69120,Tinian,Northern Mariana Islands,13,1.86,59.22,0,0,0
 2023-01-08,USA-69110,Saipan,Northern Mariana Islands,145,20.71,42.96,0,0,0
 2023-01-08,USA-69100,Rota,Northern Mariana Islands,1,0.14,5.65,0,0,0
+2023-01-08,USA-78999,Unknown,Virgin Islands,0,6.86,,0,0,
 2023-01-08,USA-78030,St. Thomas,Virgin Islands,0,0.57,1.11,0,0.04,0.09
 2023-01-08,USA-78020,St. John,Virgin Islands,0,0.08,1.84,0,0,0
 2023-01-08,USA-78010,St. Croix,Virgin Islands,0,4.29,8.47,0,0.03,0.07
@@ -26484,7 +26492,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-09,USA-48463,Uvalde,Texas,0,2.43,9.08,0,0.03,0.12
 2023-01-09,USA-48461,Upton,Texas,0,0.86,23.44,0,0,0
 2023-01-09,USA-48459,Upshur,Texas,0,2.43,5.82,0,0.07,0.16
-2023-01-09,USA-48999,Unknown,Texas,0,1629.75,,0,0,
+2023-01-09,USA-48999,Unknown,Texas,1168,1864,,0,0,
 2023-01-09,USA-48457,Tyler,Texas,0,9.14,42.19,0,0.03,0.12
 2023-01-09,USA-48455,Trinity,Texas,0,1.29,8.78,0,0.03,0.18
 2023-01-09,USA-48453,Travis,Texas,0,256.71,20.15,0,0.28,0.02
@@ -29259,6 +29267,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-09,USA-69120,Tinian,Northern Mariana Islands,0,1.86,59.22,0,0,0
 2023-01-09,USA-69110,Saipan,Northern Mariana Islands,0,20.71,42.96,0,0,0
 2023-01-09,USA-69100,Rota,Northern Mariana Islands,0,0.14,5.65,0,0,0
+2023-01-09,USA-78999,Unknown,Virgin Islands,0,6.86,,0,0,
 2023-01-09,USA-78030,St. Thomas,Virgin Islands,44,5.5,10.65,0,0.04,0.09
 2023-01-09,USA-78020,St. John,Virgin Islands,7,0.88,20.98,0,0,0
 2023-01-09,USA-78010,St. Croix,Virgin Islands,57,7.13,14.08,0,0.03,0.07
