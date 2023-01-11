@@ -26289,6 +26289,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-09,USA-53005,Benton,Washington,0,17.14,8.39,0,0.22,0.11
 2023-01-09,USA-53003,Asotin,Washington,0,9.29,41.12,0,0.08,0.35
 2023-01-09,USA-53001,Adams,Washington,0,0.29,1.43,0,0.02,0.09
+2023-01-09,USA-51999,Unknown,Virginia,5274,2256.11,,0,0,
 2023-01-09,USA-51199,York,Virginia,0,13,19.04,0,0.13,0.18
 2023-01-09,USA-51197,Wythe,Virginia,0,6.14,21.42,0,0.06,0.19
 2023-01-09,USA-51195,Wise,Virginia,0,10,26.75,0,0.27,0.72
@@ -26492,7 +26493,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-09,USA-48463,Uvalde,Texas,0,2.43,9.08,0,0.03,0.12
 2023-01-09,USA-48461,Upton,Texas,0,0.86,23.44,0,0,0
 2023-01-09,USA-48459,Upshur,Texas,0,2.43,5.82,0,0.07,0.16
-2023-01-09,USA-48999,Unknown,Texas,0,530.45,,0,0,
+2023-01-09,USA-48999,Unknown,Texas,1168,538.69,,0,0,
 2023-01-09,USA-48457,Tyler,Texas,0,9.14,42.19,0,0.03,0.12
 2023-01-09,USA-48455,Trinity,Texas,0,1.29,8.78,0,0.03,0.18
 2023-01-09,USA-48453,Travis,Texas,0,256.71,20.15,0,0.28,0.02
@@ -29540,6 +29541,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-10,USA-53005,Benton,Washington,0,17.14,8.39,0,0.22,0.11
 2023-01-10,USA-53003,Asotin,Washington,0,9.29,41.12,0,0.08,0.35
 2023-01-10,USA-53001,Adams,Washington,0,0.29,1.43,0,0.02,0.09
+2023-01-10,USA-51999,Unknown,Virginia,-15794,2256.11,,0,0,
 2023-01-10,USA-51199,York,Virginia,120,17.14,25.11,3,0.11,0.16
 2023-01-10,USA-51197,Wythe,Virginia,73,10.43,36.36,0,0.06,0.19
 2023-01-10,USA-51195,Wise,Virginia,90,12.86,34.39,1,0.03,0.07
@@ -29743,7 +29745,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-10,USA-48463,Uvalde,Texas,0,2.43,9.08,0,0.03,0.12
 2023-01-10,USA-48461,Upton,Texas,0,0.86,23.44,0,0,0
 2023-01-10,USA-48459,Upshur,Texas,0,2.43,5.82,0,0.07,0.16
-2023-01-10,USA-48999,Unknown,Texas,406,682,,0,0,
+2023-01-10,USA-48999,Unknown,Texas,-762,538.69,,0,0,
 2023-01-10,USA-48457,Tyler,Texas,0,9.14,42.19,0,0.03,0.12
 2023-01-10,USA-48455,Trinity,Texas,0,1.29,8.78,0,0.03,0.18
 2023-01-10,USA-48453,Travis,Texas,0,256.71,20.15,0,0.28,0.02
