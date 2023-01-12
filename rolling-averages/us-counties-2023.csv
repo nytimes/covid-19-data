@@ -472,7 +472,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-01,USA-48463,Uvalde,Texas,0,2,7.48,0,0,0
 2023-01-01,USA-48461,Upton,Texas,0,0.14,3.91,0,0,0
 2023-01-01,USA-48459,Upshur,Texas,0,2.71,6.5,0,0,0
-2023-01-01,USA-48999,Unknown,Texas,0,209.57,,0,0,
+2023-01-01,USA-48999,Unknown,Texas,-1467,365.55,,0,0,
 2023-01-01,USA-48457,Tyler,Texas,0,3,13.84,0,0.02,0.09
 2023-01-01,USA-48455,Trinity,Texas,0,1.29,8.78,0,0.02,0.15
 2023-01-01,USA-48453,Travis,Texas,0,220,17.27,0,0.15,0.01
@@ -2125,6 +2125,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-01,USA-22005,Ascension,Louisiana,0,28.69,22.66,0,0.07,0.05
 2023-01-01,USA-22003,Allen,Louisiana,0,1.23,4.8,0,0,0
 2023-01-01,USA-22001,Acadia,Louisiana,0,2.69,4.34,0,0.05,0.08
+2023-01-01,USA-21999,Unknown,Kentucky,0,0,,0,0,
 2023-01-01,USA-21239,Woodford,Kentucky,0,7.25,27.12,0,0.04,0.15
 2023-01-01,USA-21237,Wolfe,Kentucky,0,0.75,10.48,0,0,0
 2023-01-01,USA-21235,Whitley,Kentucky,0,10.5,28.95,0,0.2,0.55
@@ -3727,7 +3728,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-02,USA-48463,Uvalde,Texas,0,2,7.48,0,0,0
 2023-01-02,USA-48461,Upton,Texas,0,0.14,3.91,0,0,0
 2023-01-02,USA-48459,Upshur,Texas,0,2.71,6.5,0,0,0
-2023-01-02,USA-48999,Unknown,Texas,-1467,209.57,,0,0,
+2023-01-02,USA-48999,Unknown,Texas,0,365.55,,0,0,
 2023-01-02,USA-48457,Tyler,Texas,0,3,13.84,0,0.02,0.09
 2023-01-02,USA-48455,Trinity,Texas,0,1.29,8.78,0,0.02,0.15
 2023-01-02,USA-48453,Travis,Texas,0,220,17.27,0,0.15,0.01
@@ -5379,6 +5380,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-02,USA-22005,Ascension,Louisiana,0,28.69,22.66,0,0.07,0.05
 2023-01-02,USA-22003,Allen,Louisiana,0,1.23,4.8,0,0,0
 2023-01-02,USA-22001,Acadia,Louisiana,0,2.69,4.34,0,0.05,0.08
+2023-01-02,USA-21999,Unknown,Kentucky,0,0,,0,0,
 2023-01-02,USA-21239,Woodford,Kentucky,0,7.25,27.12,0,0.04,0.15
 2023-01-02,USA-21237,Wolfe,Kentucky,0,0.75,10.48,0,0,0
 2023-01-02,USA-21235,Whitley,Kentucky,0,10.5,28.95,0,0.2,0.55
@@ -6981,7 +6983,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-03,USA-48463,Uvalde,Texas,0,2,7.48,0,0,0
 2023-01-03,USA-48461,Upton,Texas,0,0.14,3.91,0,0,0
 2023-01-03,USA-48459,Upshur,Texas,0,2.71,6.5,0,0,0
-2023-01-03,USA-48999,Unknown,Texas,807,252.67,,0,0,
+2023-01-03,USA-48999,Unknown,Texas,0,365.55,,0,0,
 2023-01-03,USA-48457,Tyler,Texas,0,3,13.84,0,0.02,0.09
 2023-01-03,USA-48455,Trinity,Texas,0,1.29,8.78,0,0.02,0.15
 2023-01-03,USA-48453,Travis,Texas,0,220,17.27,0,0.15,0.01
@@ -8633,6 +8635,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-03,USA-22005,Ascension,Louisiana,0,28.69,22.66,0,0.07,0.05
 2023-01-03,USA-22003,Allen,Louisiana,0,1.23,4.8,0,0,0
 2023-01-03,USA-22001,Acadia,Louisiana,0,2.69,4.34,0,0.05,0.08
+2023-01-03,USA-21999,Unknown,Kentucky,0,0,,0,0,
 2023-01-03,USA-21239,Woodford,Kentucky,35,5,18.7,0,0.04,0.15
 2023-01-03,USA-21237,Wolfe,Kentucky,5,0.71,9.98,0,0,0
 2023-01-03,USA-21235,Whitley,Kentucky,17,2.43,6.7,1,0.03,0.08
@@ -10233,7 +10236,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-04,USA-48463,Uvalde,Texas,17,2.43,9.08,1,0.03,0.12
 2023-01-04,USA-48461,Upton,Texas,6,0.86,23.44,0,0,0
 2023-01-04,USA-48459,Upshur,Texas,17,2.43,5.82,2,0.07,0.16
-2023-01-04,USA-48999,Unknown,Texas,-807,252.67,,0,0,
+2023-01-04,USA-48999,Unknown,Texas,6917,980.44,,0,0,
 2023-01-04,USA-48457,Tyler,Texas,64,9.14,42.19,1,0.03,0.12
 2023-01-04,USA-48455,Trinity,Texas,9,1.29,8.78,1,0.03,0.18
 2023-01-04,USA-48453,Travis,Texas,1797,256.71,20.15,7,0.28,0.02
@@ -11226,24 +11229,24 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-04,USA-33005,Cheshire,New Hampshire,2,10.71,14.08,0,0.11,0.14
 2023-01-04,USA-33003,Carroll,New Hampshire,11,8.43,17.23,1,0.08,0.16
 2023-01-04,USA-33001,Belknap,New Hampshire,12,7.71,12.58,1,0.18,0.29
-2023-01-04,USA-32999,Unknown,Nevada,-4021,372.83,,0,0,
-2023-01-04,USA-32033,White Pine,Nevada,58,4.14,43.24,0,0.07,0.7
-2023-01-04,USA-32031,Washoe,Nevada,524,74.86,15.88,6,0.33,0.07
-2023-01-04,USA-32029,Storey,Nevada,-36,0,0,0,0,0
-2023-01-04,USA-32027,Pershing,Nevada,40,5.71,84.97,0,0,0
-2023-01-04,USA-32023,Nye,Nevada,-208,3.71,7.98,6,0.11,0.24
-2023-01-04,USA-32021,Mineral,Nevada,-3,0.29,6.34,0,0,0
-2023-01-04,USA-32019,Lyon,Nevada,-76,3.29,5.71,1,0.09,0.15
-2023-01-04,USA-32017,Lincoln,Nevada,-80,0.86,16.54,1,0.02,0.43
-2023-01-04,USA-32015,Lander,Nevada,-25,0.43,7.75,0,0.03,0.6
-2023-01-04,USA-32013,Humboldt,Nevada,6,0.86,5.09,0,0,0
-2023-01-04,USA-32011,Eureka,Nevada,-23,0,0,0,0,0
-2023-01-04,USA-32009,Esmeralda,Nevada,-3,0.14,16.36,0,0,0
-2023-01-04,USA-32007,Elko,Nevada,-86,1.29,2.44,2,0.04,0.08
-2023-01-04,USA-32005,Douglas,Nevada,-126,3.71,7.59,2,0.05,0.1
-2023-01-04,USA-32003,Clark,Nevada,4556,650.86,28.71,13,3.29,0.14
-2023-01-04,USA-32001,Churchill,Nevada,-56,2.29,9.18,0,0.09,0.34
-2023-01-04,USA-32510,Carson City,Nevada,-441,7,12.52,6,0.23,0.42
+2023-01-04,USA-32999,Unknown,Nevada,0,372.83,,0,0,
+2023-01-04,USA-32033,White Pine,Nevada,0,0,0,0,0.07,0.7
+2023-01-04,USA-32031,Washoe,Nevada,0,38.71,8.21,6,0.33,0.07
+2023-01-04,USA-32029,Storey,Nevada,0,0,0,0,0,0
+2023-01-04,USA-32027,Pershing,Nevada,0,0.29,4.25,0,0,0
+2023-01-04,USA-32023,Nye,Nevada,0,3.71,7.98,6,0.11,0.24
+2023-01-04,USA-32021,Mineral,Nevada,0,0.29,6.34,0,0,0
+2023-01-04,USA-32019,Lyon,Nevada,0,3.29,5.71,1,0.09,0.15
+2023-01-04,USA-32017,Lincoln,Nevada,0,0,0,1,0.02,0.43
+2023-01-04,USA-32015,Lander,Nevada,0,0.43,7.75,0,0.03,0.6
+2023-01-04,USA-32013,Humboldt,Nevada,0,0.43,2.55,0,0,0
+2023-01-04,USA-32011,Eureka,Nevada,0,0,0,0,0,0
+2023-01-04,USA-32009,Esmeralda,Nevada,0,0.14,16.36,0,0,0
+2023-01-04,USA-32007,Elko,Nevada,0,1.29,2.44,2,0.04,0.08
+2023-01-04,USA-32005,Douglas,Nevada,0,3.71,7.59,2,0.05,0.1
+2023-01-04,USA-32003,Clark,Nevada,0,218.14,9.62,13,3.29,0.14
+2023-01-04,USA-32001,Churchill,Nevada,0,2.29,9.18,0,0.09,0.34
+2023-01-04,USA-32510,Carson City,Nevada,0,7,12.52,6,0.23,0.42
 2023-01-04,USA-31185,York,Nebraska,0,2.14,15.67,0,0.03,0.19
 2023-01-04,USA-31183,Wheeler,Nebraska,0,0.07,9.12,0,0,0
 2023-01-04,USA-31181,Webster,Nebraska,0,0.29,8.19,0,0.03,0.75
@@ -11885,6 +11888,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-04,USA-22005,Ascension,Louisiana,192,27.43,21.66,1,0.1,0.08
 2023-01-04,USA-22003,Allen,Louisiana,12,1.71,6.69,0,0,0
 2023-01-04,USA-22001,Acadia,Louisiana,38,5.43,8.75,0,0.05,0.08
+2023-01-04,USA-21999,Unknown,Kentucky,0,0,,0,0,
 2023-01-04,USA-21239,Woodford,Kentucky,0,5,18.7,0,0.04,0.15
 2023-01-04,USA-21237,Wolfe,Kentucky,0,0.71,9.98,0,0,0
 2023-01-04,USA-21235,Whitley,Kentucky,0,2.43,6.7,0,0.03,0.08
@@ -13485,7 +13489,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-05,USA-48463,Uvalde,Texas,0,2.43,9.08,0,0.03,0.12
 2023-01-05,USA-48461,Upton,Texas,0,0.86,23.44,0,0,0
 2023-01-05,USA-48459,Upshur,Texas,0,2.43,5.82,0,0.07,0.16
-2023-01-05,USA-48999,Unknown,Texas,0,252.67,,0,0,
+2023-01-05,USA-48999,Unknown,Texas,-1224,980.44,,0,0,
 2023-01-05,USA-48457,Tyler,Texas,0,9.14,42.19,0,0.03,0.12
 2023-01-05,USA-48455,Trinity,Texas,0,1.29,8.78,0,0.03,0.18
 2023-01-05,USA-48453,Travis,Texas,0,256.71,20.15,0,0.28,0.02
@@ -14479,21 +14483,21 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-05,USA-33003,Carroll,New Hampshire,13,8.57,17.52,0,0.08,0.16
 2023-01-05,USA-33001,Belknap,New Hampshire,25,9.29,15.15,0,0.18,0.29
 2023-01-05,USA-32999,Unknown,Nevada,0,372.83,,0,0,
-2023-01-05,USA-32033,White Pine,Nevada,0,4.14,43.24,0,0.07,0.7
-2023-01-05,USA-32031,Washoe,Nevada,0,74.86,15.88,0,0.33,0.07
+2023-01-05,USA-32033,White Pine,Nevada,0,0,0,0,0.07,0.7
+2023-01-05,USA-32031,Washoe,Nevada,0,38.71,8.21,0,0.33,0.07
 2023-01-05,USA-32029,Storey,Nevada,0,0,0,0,0,0
-2023-01-05,USA-32027,Pershing,Nevada,0,5.71,84.97,0,0,0
+2023-01-05,USA-32027,Pershing,Nevada,0,0.29,4.25,0,0,0
 2023-01-05,USA-32023,Nye,Nevada,0,3.71,7.98,0,0.11,0.24
 2023-01-05,USA-32021,Mineral,Nevada,0,0.29,6.34,0,0,0
 2023-01-05,USA-32019,Lyon,Nevada,0,3.29,5.71,0,0.09,0.15
 2023-01-05,USA-32017,Lincoln,Nevada,0,0,0,0,0.02,0.43
 2023-01-05,USA-32015,Lander,Nevada,0,0.43,7.75,0,0.03,0.6
-2023-01-05,USA-32013,Humboldt,Nevada,0,0.86,5.09,0,0,0
+2023-01-05,USA-32013,Humboldt,Nevada,0,0.43,2.55,0,0,0
 2023-01-05,USA-32011,Eureka,Nevada,0,0,0,0,0,0
 2023-01-05,USA-32009,Esmeralda,Nevada,0,0.14,16.36,0,0,0
 2023-01-05,USA-32007,Elko,Nevada,0,1.29,2.44,0,0.04,0.08
 2023-01-05,USA-32005,Douglas,Nevada,0,3.71,7.59,0,0.05,0.1
-2023-01-05,USA-32003,Clark,Nevada,0,650.86,28.71,0,3.29,0.14
+2023-01-05,USA-32003,Clark,Nevada,0,218.14,9.62,0,3.29,0.14
 2023-01-05,USA-32001,Churchill,Nevada,0,2.29,9.18,0,0.09,0.34
 2023-01-05,USA-32510,Carson City,Nevada,0,7,12.52,0,0.23,0.42
 2023-01-05,USA-31185,York,Nebraska,0,2.14,15.67,0,0.03,0.19
@@ -15137,6 +15141,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-05,USA-22005,Ascension,Louisiana,0,27.43,21.66,0,0.1,0.08
 2023-01-05,USA-22003,Allen,Louisiana,0,1.71,6.69,0,0,0
 2023-01-05,USA-22001,Acadia,Louisiana,0,5.43,8.75,0,0.05,0.08
+2023-01-05,USA-21999,Unknown,Kentucky,0,0,,0,0,
 2023-01-05,USA-21239,Woodford,Kentucky,0,5,18.7,0,0.04,0.15
 2023-01-05,USA-21237,Wolfe,Kentucky,0,0.71,9.98,0,0,0
 2023-01-05,USA-21235,Whitley,Kentucky,0,2.43,6.7,0,0.03,0.08
@@ -16737,7 +16742,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-06,USA-48463,Uvalde,Texas,0,2.43,9.08,0,0.03,0.12
 2023-01-06,USA-48461,Upton,Texas,0,0.86,23.44,0,0,0
 2023-01-06,USA-48459,Upshur,Texas,0,2.43,5.82,0,0.07,0.16
-2023-01-06,USA-48999,Unknown,Texas,3561,530.45,,0,0,
+2023-01-06,USA-48999,Unknown,Texas,-2132,980.44,,0,0,
 2023-01-06,USA-48457,Tyler,Texas,0,9.14,42.19,0,0.03,0.12
 2023-01-06,USA-48455,Trinity,Texas,0,1.29,8.78,0,0.03,0.18
 2023-01-06,USA-48453,Travis,Texas,0,256.71,20.15,0,0.28,0.02
@@ -17731,21 +17736,21 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-06,USA-33003,Carroll,New Hampshire,12,7.14,14.6,0,0.08,0.16
 2023-01-06,USA-33001,Belknap,New Hampshire,13,10.29,16.78,0,0.18,0.29
 2023-01-06,USA-32999,Unknown,Nevada,0,372.83,,0,0,
-2023-01-06,USA-32033,White Pine,Nevada,0,4.14,43.24,0,0.07,0.7
-2023-01-06,USA-32031,Washoe,Nevada,0,74.86,15.88,0,0.33,0.07
+2023-01-06,USA-32033,White Pine,Nevada,0,0,0,0,0.07,0.7
+2023-01-06,USA-32031,Washoe,Nevada,0,38.71,8.21,0,0.33,0.07
 2023-01-06,USA-32029,Storey,Nevada,0,0,0,0,0,0
-2023-01-06,USA-32027,Pershing,Nevada,0,5.71,84.97,0,0,0
+2023-01-06,USA-32027,Pershing,Nevada,0,0.29,4.25,0,0,0
 2023-01-06,USA-32023,Nye,Nevada,0,3.71,7.98,0,0.11,0.24
 2023-01-06,USA-32021,Mineral,Nevada,0,0.29,6.34,0,0,0
 2023-01-06,USA-32019,Lyon,Nevada,0,3.29,5.71,0,0.09,0.15
 2023-01-06,USA-32017,Lincoln,Nevada,0,0,0,0,0.02,0.43
 2023-01-06,USA-32015,Lander,Nevada,0,0.43,7.75,0,0.03,0.6
-2023-01-06,USA-32013,Humboldt,Nevada,0,0.86,5.09,0,0,0
+2023-01-06,USA-32013,Humboldt,Nevada,0,0.43,2.55,0,0,0
 2023-01-06,USA-32011,Eureka,Nevada,0,0,0,0,0,0
 2023-01-06,USA-32009,Esmeralda,Nevada,0,0.14,16.36,0,0,0
 2023-01-06,USA-32007,Elko,Nevada,0,1.29,2.44,0,0.04,0.08
 2023-01-06,USA-32005,Douglas,Nevada,0,3.71,7.59,0,0.05,0.1
-2023-01-06,USA-32003,Clark,Nevada,0,650.86,28.71,0,3.29,0.14
+2023-01-06,USA-32003,Clark,Nevada,0,218.14,9.62,0,3.29,0.14
 2023-01-06,USA-32001,Churchill,Nevada,0,2.29,9.18,0,0.09,0.34
 2023-01-06,USA-32510,Carson City,Nevada,0,7,12.52,0,0.23,0.42
 2023-01-06,USA-31185,York,Nebraska,19,2.71,19.84,0,0.03,0.19
@@ -18389,6 +18394,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-06,USA-22005,Ascension,Louisiana,0,27.43,21.66,0,0.1,0.08
 2023-01-06,USA-22003,Allen,Louisiana,0,1.71,6.69,0,0,0
 2023-01-06,USA-22001,Acadia,Louisiana,0,5.43,8.75,0,0.05,0.08
+2023-01-06,USA-21999,Unknown,Kentucky,0,0,,0,0,
 2023-01-06,USA-21239,Woodford,Kentucky,0,5,18.7,0,0.04,0.15
 2023-01-06,USA-21237,Wolfe,Kentucky,0,0.71,9.98,0,0,0
 2023-01-06,USA-21235,Whitley,Kentucky,0,2.43,6.7,0,0.03,0.08
@@ -18450,7 +18456,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-06,USA-21123,Larue,Kentucky,0,1.86,12.9,0,0.02,0.12
 2023-01-06,USA-21121,Knox,Kentucky,0,4.86,15.6,0,0.14,0.45
 2023-01-06,USA-21119,Knott,Kentucky,0,1.71,11.58,0,0.02,0.16
-2023-01-06,USA-21117,Kenton,Kentucky,2648,285.5,170.96,0,0.17,0.1
+2023-01-06,USA-21117,Kenton,Kentucky,0,29.57,17.71,0,0.17,0.1
 2023-01-06,USA-21115,Johnson,Kentucky,0,6.29,28.33,0,0.06,0.25
 2023-01-06,USA-21113,Jessamine,Kentucky,0,4.57,8.45,0,0.06,0.11
 2023-01-06,USA-21111,Jefferson,Kentucky,0,10.88,1.42,0,0.64,0.08
@@ -18468,7 +18474,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-06,USA-21087,Green,Kentucky,0,1.86,16.97,0,0.04,0.37
 2023-01-06,USA-21085,Grayson,Kentucky,0,4.43,16.76,0,0.13,0.5
 2023-01-06,USA-21083,Graves,Kentucky,0,4.43,11.88,0,0.04,0.11
-2023-01-06,USA-21081,Grant,Kentucky,140,16.9,67.41,0,0,0
+2023-01-06,USA-21081,Grant,Kentucky,0,4.14,16.53,0,0,0
 2023-01-06,USA-21079,Garrard,Kentucky,0,3.14,17.79,0,0.03,0.16
 2023-01-06,USA-21077,Gallatin,Kentucky,0,2,22.55,0,0.03,0.38
 2023-01-06,USA-21075,Fulton,Kentucky,0,0.29,4.79,0,0,0
@@ -18490,7 +18496,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-06,USA-21043,Carter,Kentucky,0,5.43,20.26,0,0.17,0.64
 2023-01-06,USA-21041,Carroll,Kentucky,0,0.43,4.03,0,0.05,0.45
 2023-01-06,USA-21039,Carlisle,Kentucky,0,0.86,18.01,0,0.02,0.4
-2023-01-06,USA-21037,Campbell,Kentucky,755,85.5,91.36,0,0.04,0.04
+2023-01-06,USA-21037,Campbell,Kentucky,0,14.29,15.27,0,0.04,0.04
 2023-01-06,USA-21035,Calloway,Kentucky,0,6.71,17.22,0,0.07,0.18
 2023-01-06,USA-21033,Caldwell,Kentucky,0,3.57,28.02,0,0,0
 2023-01-06,USA-21031,Butler,Kentucky,0,1.57,12.2,0,0.03,0.26
@@ -18501,7 +18507,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-06,USA-21021,Boyle,Kentucky,0,8.57,28.51,0,0.08,0.27
 2023-01-06,USA-21019,Boyd,Kentucky,0,10.43,22.32,0,0.04,0.09
 2023-01-06,USA-21017,Bourbon,Kentucky,0,4,20.21,0,0.03,0.17
-2023-01-06,USA-21015,Boone,Kentucky,1938,207.7,155.49,0,0.06,0.04
+2023-01-06,USA-21015,Boone,Kentucky,0,19.86,14.87,0,0.06,0.04
 2023-01-06,USA-21013,Bell,Kentucky,0,7.29,27.99,0,0.03,0.11
 2023-01-06,USA-21011,Bath,Kentucky,0,4,32,0,0,0
 2023-01-06,USA-21009,Barren,Kentucky,0,8.57,19.37,0,0.06,0.13
@@ -19989,7 +19995,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-07,USA-48463,Uvalde,Texas,0,2.43,9.08,0,0.03,0.12
 2023-01-07,USA-48461,Upton,Texas,0,0.86,23.44,0,0,0
 2023-01-07,USA-48459,Upshur,Texas,0,2.43,5.82,0,0.07,0.16
-2023-01-07,USA-48999,Unknown,Texas,-3496,530.45,,0,0,
+2023-01-07,USA-48999,Unknown,Texas,0,980.44,,0,0,
 2023-01-07,USA-48457,Tyler,Texas,0,9.14,42.19,0,0.03,0.12
 2023-01-07,USA-48455,Trinity,Texas,0,1.29,8.78,0,0.03,0.18
 2023-01-07,USA-48453,Travis,Texas,0,256.71,20.15,0,0.28,0.02
@@ -20983,21 +20989,21 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-07,USA-33003,Carroll,New Hampshire,0,7.14,14.6,0,0.08,0.16
 2023-01-07,USA-33001,Belknap,New Hampshire,0,10.29,16.78,0,0.18,0.29
 2023-01-07,USA-32999,Unknown,Nevada,0,372.83,,0,0,
-2023-01-07,USA-32033,White Pine,Nevada,0,4.14,43.24,0,0.07,0.7
-2023-01-07,USA-32031,Washoe,Nevada,0,74.86,15.88,0,0.33,0.07
+2023-01-07,USA-32033,White Pine,Nevada,0,0,0,0,0.07,0.7
+2023-01-07,USA-32031,Washoe,Nevada,0,38.71,8.21,0,0.33,0.07
 2023-01-07,USA-32029,Storey,Nevada,0,0,0,0,0,0
-2023-01-07,USA-32027,Pershing,Nevada,0,5.71,84.97,0,0,0
+2023-01-07,USA-32027,Pershing,Nevada,0,0.29,4.25,0,0,0
 2023-01-07,USA-32023,Nye,Nevada,0,3.71,7.98,0,0.11,0.24
 2023-01-07,USA-32021,Mineral,Nevada,0,0.29,6.34,0,0,0
 2023-01-07,USA-32019,Lyon,Nevada,0,3.29,5.71,0,0.09,0.15
 2023-01-07,USA-32017,Lincoln,Nevada,0,0,0,0,0.02,0.43
 2023-01-07,USA-32015,Lander,Nevada,0,0.43,7.75,0,0.03,0.6
-2023-01-07,USA-32013,Humboldt,Nevada,0,0.86,5.09,0,0,0
+2023-01-07,USA-32013,Humboldt,Nevada,0,0.43,2.55,0,0,0
 2023-01-07,USA-32011,Eureka,Nevada,0,0,0,0,0,0
 2023-01-07,USA-32009,Esmeralda,Nevada,0,0.14,16.36,0,0,0
 2023-01-07,USA-32007,Elko,Nevada,0,1.29,2.44,0,0.04,0.08
 2023-01-07,USA-32005,Douglas,Nevada,0,3.71,7.59,0,0.05,0.1
-2023-01-07,USA-32003,Clark,Nevada,0,650.86,28.71,0,3.29,0.14
+2023-01-07,USA-32003,Clark,Nevada,0,218.14,9.62,0,3.29,0.14
 2023-01-07,USA-32001,Churchill,Nevada,0,2.29,9.18,0,0.09,0.34
 2023-01-07,USA-32510,Carson City,Nevada,0,7,12.52,0,0.23,0.42
 2023-01-07,USA-31185,York,Nebraska,0,2.71,19.84,0,0.03,0.19
@@ -21641,6 +21647,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-07,USA-22005,Ascension,Louisiana,0,27.43,21.66,0,0.1,0.08
 2023-01-07,USA-22003,Allen,Louisiana,0,1.71,6.69,0,0,0
 2023-01-07,USA-22001,Acadia,Louisiana,0,5.43,8.75,0,0.05,0.08
+2023-01-07,USA-21999,Unknown,Kentucky,0,0,,0,0,
 2023-01-07,USA-21239,Woodford,Kentucky,0,5,18.7,0,0.04,0.15
 2023-01-07,USA-21237,Wolfe,Kentucky,0,0.71,9.98,0,0,0
 2023-01-07,USA-21235,Whitley,Kentucky,0,2.43,6.7,0,0.03,0.08
@@ -21702,7 +21709,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-07,USA-21123,Larue,Kentucky,0,1.86,12.9,0,0.02,0.12
 2023-01-07,USA-21121,Knox,Kentucky,0,4.86,15.6,0,0.14,0.45
 2023-01-07,USA-21119,Knott,Kentucky,0,1.71,11.58,0,0.02,0.16
-2023-01-07,USA-21117,Kenton,Kentucky,0,285.5,170.96,0,0.17,0.1
+2023-01-07,USA-21117,Kenton,Kentucky,0,29.57,17.71,0,0.17,0.1
 2023-01-07,USA-21115,Johnson,Kentucky,0,6.29,28.33,0,0.06,0.25
 2023-01-07,USA-21113,Jessamine,Kentucky,0,4.57,8.45,0,0.06,0.11
 2023-01-07,USA-21111,Jefferson,Kentucky,0,10.88,1.42,0,0.64,0.08
@@ -21720,7 +21727,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-07,USA-21087,Green,Kentucky,0,1.86,16.97,0,0.04,0.37
 2023-01-07,USA-21085,Grayson,Kentucky,0,4.43,16.76,0,0.13,0.5
 2023-01-07,USA-21083,Graves,Kentucky,0,4.43,11.88,0,0.04,0.11
-2023-01-07,USA-21081,Grant,Kentucky,0,16.9,67.41,0,0,0
+2023-01-07,USA-21081,Grant,Kentucky,0,4.14,16.53,0,0,0
 2023-01-07,USA-21079,Garrard,Kentucky,0,3.14,17.79,0,0.03,0.16
 2023-01-07,USA-21077,Gallatin,Kentucky,0,2,22.55,0,0.03,0.38
 2023-01-07,USA-21075,Fulton,Kentucky,0,0.29,4.79,0,0,0
@@ -21742,7 +21749,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-07,USA-21043,Carter,Kentucky,0,5.43,20.26,0,0.17,0.64
 2023-01-07,USA-21041,Carroll,Kentucky,0,0.43,4.03,0,0.05,0.45
 2023-01-07,USA-21039,Carlisle,Kentucky,0,0.86,18.01,0,0.02,0.4
-2023-01-07,USA-21037,Campbell,Kentucky,0,85.5,91.36,0,0.04,0.04
+2023-01-07,USA-21037,Campbell,Kentucky,0,14.29,15.27,0,0.04,0.04
 2023-01-07,USA-21035,Calloway,Kentucky,0,6.71,17.22,0,0.07,0.18
 2023-01-07,USA-21033,Caldwell,Kentucky,0,3.57,28.02,0,0,0
 2023-01-07,USA-21031,Butler,Kentucky,0,1.57,12.2,0,0.03,0.26
@@ -21753,7 +21760,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-07,USA-21021,Boyle,Kentucky,0,8.57,28.51,0,0.08,0.27
 2023-01-07,USA-21019,Boyd,Kentucky,0,10.43,22.32,0,0.04,0.09
 2023-01-07,USA-21017,Bourbon,Kentucky,0,4,20.21,0,0.03,0.17
-2023-01-07,USA-21015,Boone,Kentucky,0,207.7,155.49,0,0.06,0.04
+2023-01-07,USA-21015,Boone,Kentucky,0,19.86,14.87,0,0.06,0.04
 2023-01-07,USA-21013,Bell,Kentucky,0,7.29,27.99,0,0.03,0.11
 2023-01-07,USA-21011,Bath,Kentucky,0,4,32,0,0,0
 2023-01-07,USA-21009,Barren,Kentucky,0,8.57,19.37,0,0.06,0.13
@@ -23241,7 +23248,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-08,USA-48463,Uvalde,Texas,0,2.43,9.08,0,0.03,0.12
 2023-01-08,USA-48461,Upton,Texas,0,0.86,23.44,0,0,0
 2023-01-08,USA-48459,Upshur,Texas,0,2.43,5.82,0,0.07,0.16
-2023-01-08,USA-48999,Unknown,Texas,0,530.45,,0,0,
+2023-01-08,USA-48999,Unknown,Texas,-1053,980.44,,0,0,
 2023-01-08,USA-48457,Tyler,Texas,0,9.14,42.19,0,0.03,0.12
 2023-01-08,USA-48455,Trinity,Texas,0,1.29,8.78,0,0.03,0.18
 2023-01-08,USA-48453,Travis,Texas,0,256.71,20.15,0,0.28,0.02
@@ -24235,21 +24242,21 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-08,USA-33003,Carroll,New Hampshire,0,7.14,14.6,0,0.08,0.16
 2023-01-08,USA-33001,Belknap,New Hampshire,0,10.29,16.78,0,0.18,0.29
 2023-01-08,USA-32999,Unknown,Nevada,0,372.83,,0,0,
-2023-01-08,USA-32033,White Pine,Nevada,0,4.14,43.24,0,0.07,0.7
-2023-01-08,USA-32031,Washoe,Nevada,0,74.86,15.88,0,0.33,0.07
+2023-01-08,USA-32033,White Pine,Nevada,0,0,0,0,0.07,0.7
+2023-01-08,USA-32031,Washoe,Nevada,0,38.71,8.21,0,0.33,0.07
 2023-01-08,USA-32029,Storey,Nevada,0,0,0,0,0,0
-2023-01-08,USA-32027,Pershing,Nevada,0,5.71,84.97,0,0,0
+2023-01-08,USA-32027,Pershing,Nevada,0,0.29,4.25,0,0,0
 2023-01-08,USA-32023,Nye,Nevada,0,3.71,7.98,0,0.11,0.24
 2023-01-08,USA-32021,Mineral,Nevada,0,0.29,6.34,0,0,0
 2023-01-08,USA-32019,Lyon,Nevada,0,3.29,5.71,0,0.09,0.15
 2023-01-08,USA-32017,Lincoln,Nevada,0,0,0,0,0.02,0.43
 2023-01-08,USA-32015,Lander,Nevada,0,0.43,7.75,0,0.03,0.6
-2023-01-08,USA-32013,Humboldt,Nevada,0,0.86,5.09,0,0,0
+2023-01-08,USA-32013,Humboldt,Nevada,0,0.43,2.55,0,0,0
 2023-01-08,USA-32011,Eureka,Nevada,0,0,0,0,0,0
 2023-01-08,USA-32009,Esmeralda,Nevada,0,0.14,16.36,0,0,0
 2023-01-08,USA-32007,Elko,Nevada,0,1.29,2.44,0,0.04,0.08
 2023-01-08,USA-32005,Douglas,Nevada,0,3.71,7.59,0,0.05,0.1
-2023-01-08,USA-32003,Clark,Nevada,0,650.86,28.71,0,3.29,0.14
+2023-01-08,USA-32003,Clark,Nevada,0,218.14,9.62,0,3.29,0.14
 2023-01-08,USA-32001,Churchill,Nevada,0,2.29,9.18,0,0.09,0.34
 2023-01-08,USA-32510,Carson City,Nevada,0,7,12.52,0,0.23,0.42
 2023-01-08,USA-31185,York,Nebraska,0,2.71,19.84,0,0.03,0.19
@@ -24893,6 +24900,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-08,USA-22005,Ascension,Louisiana,0,27.43,21.66,0,0.1,0.08
 2023-01-08,USA-22003,Allen,Louisiana,0,1.71,6.69,0,0,0
 2023-01-08,USA-22001,Acadia,Louisiana,0,5.43,8.75,0,0.05,0.08
+2023-01-08,USA-21999,Unknown,Kentucky,0,0,,0,0,
 2023-01-08,USA-21239,Woodford,Kentucky,0,5,18.7,0,0.04,0.15
 2023-01-08,USA-21237,Wolfe,Kentucky,0,0.71,9.98,0,0,0
 2023-01-08,USA-21235,Whitley,Kentucky,0,2.43,6.7,0,0.03,0.08
@@ -24954,7 +24962,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-08,USA-21123,Larue,Kentucky,0,1.86,12.9,0,0.02,0.12
 2023-01-08,USA-21121,Knox,Kentucky,0,4.86,15.6,0,0.14,0.45
 2023-01-08,USA-21119,Knott,Kentucky,0,1.71,11.58,0,0.02,0.16
-2023-01-08,USA-21117,Kenton,Kentucky,0,285.5,170.96,0,0.17,0.1
+2023-01-08,USA-21117,Kenton,Kentucky,0,29.57,17.71,0,0.17,0.1
 2023-01-08,USA-21115,Johnson,Kentucky,0,6.29,28.33,0,0.06,0.25
 2023-01-08,USA-21113,Jessamine,Kentucky,0,4.57,8.45,0,0.06,0.11
 2023-01-08,USA-21111,Jefferson,Kentucky,0,10.88,1.42,0,0.64,0.08
@@ -24972,7 +24980,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-08,USA-21087,Green,Kentucky,0,1.86,16.97,0,0.04,0.37
 2023-01-08,USA-21085,Grayson,Kentucky,0,4.43,16.76,0,0.13,0.5
 2023-01-08,USA-21083,Graves,Kentucky,0,4.43,11.88,0,0.04,0.11
-2023-01-08,USA-21081,Grant,Kentucky,0,16.9,67.41,0,0,0
+2023-01-08,USA-21081,Grant,Kentucky,0,4.14,16.53,0,0,0
 2023-01-08,USA-21079,Garrard,Kentucky,0,3.14,17.79,0,0.03,0.16
 2023-01-08,USA-21077,Gallatin,Kentucky,0,2,22.55,0,0.03,0.38
 2023-01-08,USA-21075,Fulton,Kentucky,0,0.29,4.79,0,0,0
@@ -24994,7 +25002,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-08,USA-21043,Carter,Kentucky,0,5.43,20.26,0,0.17,0.64
 2023-01-08,USA-21041,Carroll,Kentucky,0,0.43,4.03,0,0.05,0.45
 2023-01-08,USA-21039,Carlisle,Kentucky,0,0.86,18.01,0,0.02,0.4
-2023-01-08,USA-21037,Campbell,Kentucky,0,85.5,91.36,0,0.04,0.04
+2023-01-08,USA-21037,Campbell,Kentucky,0,14.29,15.27,0,0.04,0.04
 2023-01-08,USA-21035,Calloway,Kentucky,0,6.71,17.22,0,0.07,0.18
 2023-01-08,USA-21033,Caldwell,Kentucky,0,3.57,28.02,0,0,0
 2023-01-08,USA-21031,Butler,Kentucky,0,1.57,12.2,0,0.03,0.26
@@ -25005,7 +25013,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-08,USA-21021,Boyle,Kentucky,0,8.57,28.51,0,0.08,0.27
 2023-01-08,USA-21019,Boyd,Kentucky,0,10.43,22.32,0,0.04,0.09
 2023-01-08,USA-21017,Bourbon,Kentucky,0,4,20.21,0,0.03,0.17
-2023-01-08,USA-21015,Boone,Kentucky,0,207.7,155.49,0,0.06,0.04
+2023-01-08,USA-21015,Boone,Kentucky,0,19.86,14.87,0,0.06,0.04
 2023-01-08,USA-21013,Bell,Kentucky,0,7.29,27.99,0,0.03,0.11
 2023-01-08,USA-21011,Bath,Kentucky,0,4,32,0,0,0
 2023-01-08,USA-21009,Barren,Kentucky,0,8.57,19.37,0,0.06,0.13
@@ -26493,7 +26501,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-09,USA-48463,Uvalde,Texas,0,2.43,9.08,0,0.03,0.12
 2023-01-09,USA-48461,Upton,Texas,0,0.86,23.44,0,0,0
 2023-01-09,USA-48459,Upshur,Texas,0,2.43,5.82,0,0.07,0.16
-2023-01-09,USA-48999,Unknown,Texas,1168,538.69,,0,0,
+2023-01-09,USA-48999,Unknown,Texas,-1275,980.44,,0,0,
 2023-01-09,USA-48457,Tyler,Texas,0,9.14,42.19,0,0.03,0.12
 2023-01-09,USA-48455,Trinity,Texas,0,1.29,8.78,0,0.03,0.18
 2023-01-09,USA-48453,Travis,Texas,0,256.71,20.15,0,0.28,0.02
@@ -27487,21 +27495,21 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-09,USA-33003,Carroll,New Hampshire,28,7.8,15.95,0,0.08,0.16
 2023-01-09,USA-33001,Belknap,New Hampshire,51,12.3,20.06,1,0.16,0.26
 2023-01-09,USA-32999,Unknown,Nevada,0,372.83,,0,0,
-2023-01-09,USA-32033,White Pine,Nevada,0,4.14,43.24,0,0.07,0.7
-2023-01-09,USA-32031,Washoe,Nevada,0,74.86,15.88,0,0.33,0.07
+2023-01-09,USA-32033,White Pine,Nevada,0,0,0,0,0.07,0.7
+2023-01-09,USA-32031,Washoe,Nevada,0,38.71,8.21,0,0.33,0.07
 2023-01-09,USA-32029,Storey,Nevada,0,0,0,0,0,0
-2023-01-09,USA-32027,Pershing,Nevada,0,5.71,84.97,0,0,0
+2023-01-09,USA-32027,Pershing,Nevada,0,0.29,4.25,0,0,0
 2023-01-09,USA-32023,Nye,Nevada,0,3.71,7.98,0,0.11,0.24
 2023-01-09,USA-32021,Mineral,Nevada,0,0.29,6.34,0,0,0
 2023-01-09,USA-32019,Lyon,Nevada,0,3.29,5.71,0,0.09,0.15
 2023-01-09,USA-32017,Lincoln,Nevada,0,0,0,0,0.02,0.43
 2023-01-09,USA-32015,Lander,Nevada,0,0.43,7.75,0,0.03,0.6
-2023-01-09,USA-32013,Humboldt,Nevada,0,0.86,5.09,0,0,0
+2023-01-09,USA-32013,Humboldt,Nevada,0,0.43,2.55,0,0,0
 2023-01-09,USA-32011,Eureka,Nevada,0,0,0,0,0,0
 2023-01-09,USA-32009,Esmeralda,Nevada,0,0.14,16.36,0,0,0
 2023-01-09,USA-32007,Elko,Nevada,0,1.29,2.44,0,0.04,0.08
 2023-01-09,USA-32005,Douglas,Nevada,0,3.71,7.59,0,0.05,0.1
-2023-01-09,USA-32003,Clark,Nevada,0,650.86,28.71,0,3.29,0.14
+2023-01-09,USA-32003,Clark,Nevada,0,218.14,9.62,0,3.29,0.14
 2023-01-09,USA-32001,Churchill,Nevada,0,2.29,9.18,0,0.09,0.34
 2023-01-09,USA-32510,Carson City,Nevada,0,7,12.52,0,0.23,0.42
 2023-01-09,USA-31185,York,Nebraska,0,2.71,19.84,0,0.03,0.19
@@ -28145,6 +28153,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-09,USA-22005,Ascension,Louisiana,0,27.43,21.66,0,0.1,0.08
 2023-01-09,USA-22003,Allen,Louisiana,0,1.71,6.69,0,0,0
 2023-01-09,USA-22001,Acadia,Louisiana,0,5.43,8.75,0,0.05,0.08
+2023-01-09,USA-21999,Unknown,Kentucky,0,0,,0,0,
 2023-01-09,USA-21239,Woodford,Kentucky,42,5.92,22.16,0,0.04,0.15
 2023-01-09,USA-21237,Wolfe,Kentucky,7,0.92,12.9,0,0,0
 2023-01-09,USA-21235,Whitley,Kentucky,43,4.62,12.73,0,0.03,0.08
@@ -28206,7 +28215,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-09,USA-21123,Larue,Kentucky,14,2.08,14.43,0,0.02,0.12
 2023-01-09,USA-21121,Knox,Kentucky,64,7.54,24.2,0,0.14,0.45
 2023-01-09,USA-21119,Knott,Kentucky,24,2.77,18.7,0,0.02,0.16
-2023-01-09,USA-21117,Kenton,Kentucky,0,285.5,170.96,0,0.17,0.1
+2023-01-09,USA-21117,Kenton,Kentucky,220,32.85,19.67,0,0.17,0.1
 2023-01-09,USA-21115,Johnson,Kentucky,66,8.46,38.14,0,0.06,0.25
 2023-01-09,USA-21113,Jessamine,Kentucky,71,7.92,14.64,0,0.06,0.11
 2023-01-09,USA-21111,Jefferson,Kentucky,-84,10.88,1.42,7,0.8,0.1
@@ -28224,7 +28233,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-09,USA-21087,Green,Kentucky,27,3.08,28.12,0,0.04,0.37
 2023-01-09,USA-21085,Grayson,Kentucky,34,5,18.92,0,0.13,0.5
 2023-01-09,USA-21083,Graves,Kentucky,57,6.77,18.16,0,0.04,0.11
-2023-01-09,USA-21081,Grant,Kentucky,0,16.9,67.41,0,0,0
+2023-01-09,USA-21081,Grant,Kentucky,51,6.15,24.55,0,0,0
 2023-01-09,USA-21079,Garrard,Kentucky,26,3.69,20.9,0,0.03,0.16
 2023-01-09,USA-21077,Gallatin,Kentucky,19,2.54,28.62,0,0.03,0.38
 2023-01-09,USA-21075,Fulton,Kentucky,5,0.54,9.02,0,0,0
@@ -28246,7 +28255,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-09,USA-21043,Carter,Kentucky,79,9,33.59,0,0.17,0.64
 2023-01-09,USA-21041,Carroll,Kentucky,19,1.69,15.92,0,0.05,0.45
 2023-01-09,USA-21039,Carlisle,Kentucky,8,1.08,22.62,0,0.02,0.4
-2023-01-09,USA-21037,Campbell,Kentucky,0,85.5,91.36,0,0.04,0.04
+2023-01-09,USA-21037,Campbell,Kentucky,129,17.62,18.82,0,0.04,0.04
 2023-01-09,USA-21035,Calloway,Kentucky,68,8.85,22.68,0,0.07,0.18
 2023-01-09,USA-21033,Caldwell,Kentucky,36,4.69,36.81,0,0,0
 2023-01-09,USA-21031,Butler,Kentucky,19,2.31,17.92,0,0.03,0.26
@@ -28257,7 +28266,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-09,USA-21021,Boyle,Kentucky,65,9.62,31.99,0,0.08,0.27
 2023-01-09,USA-21019,Boyd,Kentucky,160,17.92,38.36,1,0.05,0.1
 2023-01-09,USA-21017,Bourbon,Kentucky,27,4.23,21.38,0,0.03,0.17
-2023-01-09,USA-21015,Boone,Kentucky,0,207.7,155.49,2,0.09,0.06
+2023-01-09,USA-21015,Boone,Kentucky,154,22.54,16.87,2,0.09,0.06
 2023-01-09,USA-21013,Bell,Kentucky,55,8.15,31.32,0,0.03,0.11
 2023-01-09,USA-21011,Bath,Kentucky,37,5,40,0,0,0
 2023-01-09,USA-21009,Barren,Kentucky,100,12.31,27.81,0,0.06,0.13
@@ -29745,7 +29754,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-10,USA-48463,Uvalde,Texas,0,2.43,9.08,0,0.03,0.12
 2023-01-10,USA-48461,Upton,Texas,0,0.86,23.44,0,0,0
 2023-01-10,USA-48459,Upshur,Texas,0,2.43,5.82,0,0.07,0.16
-2023-01-10,USA-48999,Unknown,Texas,-762,538.69,,0,0,
+2023-01-10,USA-48999,Unknown,Texas,-762,980.44,,0,0,
 2023-01-10,USA-48457,Tyler,Texas,0,9.14,42.19,0,0.03,0.12
 2023-01-10,USA-48455,Trinity,Texas,0,1.29,8.78,0,0.03,0.18
 2023-01-10,USA-48453,Travis,Texas,0,256.71,20.15,0,0.28,0.02
@@ -30739,21 +30748,21 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-10,USA-33003,Carroll,New Hampshire,3,9.57,19.57,0,0.08,0.16
 2023-01-10,USA-33001,Belknap,New Hampshire,10,15.86,25.87,0,0.16,0.26
 2023-01-10,USA-32999,Unknown,Nevada,0,372.83,,0,0,
-2023-01-10,USA-32033,White Pine,Nevada,0,4.14,43.24,0,0.07,0.7
-2023-01-10,USA-32031,Washoe,Nevada,0,74.86,15.88,0,0.33,0.07
+2023-01-10,USA-32033,White Pine,Nevada,0,0,0,0,0.07,0.7
+2023-01-10,USA-32031,Washoe,Nevada,0,38.71,8.21,0,0.33,0.07
 2023-01-10,USA-32029,Storey,Nevada,0,0,0,0,0,0
-2023-01-10,USA-32027,Pershing,Nevada,0,5.71,84.97,0,0,0
+2023-01-10,USA-32027,Pershing,Nevada,0,0.29,4.25,0,0,0
 2023-01-10,USA-32023,Nye,Nevada,0,3.71,7.98,0,0.11,0.24
 2023-01-10,USA-32021,Mineral,Nevada,0,0.29,6.34,0,0,0
 2023-01-10,USA-32019,Lyon,Nevada,0,3.29,5.71,0,0.09,0.15
 2023-01-10,USA-32017,Lincoln,Nevada,0,0,0,0,0.02,0.43
 2023-01-10,USA-32015,Lander,Nevada,0,0.43,7.75,0,0.03,0.6
-2023-01-10,USA-32013,Humboldt,Nevada,0,0.86,5.09,0,0,0
+2023-01-10,USA-32013,Humboldt,Nevada,0,0.43,2.55,0,0,0
 2023-01-10,USA-32011,Eureka,Nevada,0,0,0,0,0,0
 2023-01-10,USA-32009,Esmeralda,Nevada,0,0.14,16.36,0,0,0
 2023-01-10,USA-32007,Elko,Nevada,0,1.29,2.44,0,0.04,0.08
 2023-01-10,USA-32005,Douglas,Nevada,0,3.71,7.59,0,0.05,0.1
-2023-01-10,USA-32003,Clark,Nevada,0,650.86,28.71,0,3.29,0.14
+2023-01-10,USA-32003,Clark,Nevada,0,218.14,9.62,0,3.29,0.14
 2023-01-10,USA-32001,Churchill,Nevada,0,2.29,9.18,0,0.09,0.34
 2023-01-10,USA-32510,Carson City,Nevada,0,7,12.52,0,0.23,0.42
 2023-01-10,USA-31185,York,Nebraska,0,2.71,19.84,0,0,0
@@ -31397,6 +31406,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-10,USA-22005,Ascension,Louisiana,0,27.43,21.66,0,0.1,0.08
 2023-01-10,USA-22003,Allen,Louisiana,0,1.71,6.69,0,0,0
 2023-01-10,USA-22001,Acadia,Louisiana,0,5.43,8.75,0,0.05,0.08
+2023-01-10,USA-21999,Unknown,Kentucky,0,0,,0,0,
 2023-01-10,USA-21239,Woodford,Kentucky,0,5.92,22.16,0,0.04,0.15
 2023-01-10,USA-21237,Wolfe,Kentucky,0,0.92,12.9,0,0,0
 2023-01-10,USA-21235,Whitley,Kentucky,0,4.62,12.73,0,0.03,0.08
@@ -31458,7 +31468,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-10,USA-21123,Larue,Kentucky,0,2.08,14.43,0,0.02,0.12
 2023-01-10,USA-21121,Knox,Kentucky,0,7.54,24.2,0,0.14,0.45
 2023-01-10,USA-21119,Knott,Kentucky,0,2.77,18.7,0,0.02,0.16
-2023-01-10,USA-21117,Kenton,Kentucky,0,285.5,170.96,0,0.17,0.1
+2023-01-10,USA-21117,Kenton,Kentucky,0,32.85,19.67,0,0.17,0.1
 2023-01-10,USA-21115,Johnson,Kentucky,0,8.46,38.14,0,0.06,0.25
 2023-01-10,USA-21113,Jessamine,Kentucky,0,7.92,14.64,0,0.06,0.11
 2023-01-10,USA-21111,Jefferson,Kentucky,0,10.88,1.42,0,0.8,0.1
@@ -31476,7 +31486,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-10,USA-21087,Green,Kentucky,0,3.08,28.12,0,0.04,0.37
 2023-01-10,USA-21085,Grayson,Kentucky,0,5,18.92,0,0.13,0.5
 2023-01-10,USA-21083,Graves,Kentucky,0,6.77,18.16,0,0.04,0.11
-2023-01-10,USA-21081,Grant,Kentucky,0,16.9,67.41,0,0,0
+2023-01-10,USA-21081,Grant,Kentucky,0,6.15,24.55,0,0,0
 2023-01-10,USA-21079,Garrard,Kentucky,0,3.69,20.9,0,0.03,0.16
 2023-01-10,USA-21077,Gallatin,Kentucky,0,2.54,28.62,0,0.03,0.38
 2023-01-10,USA-21075,Fulton,Kentucky,0,0.54,9.02,0,0,0
@@ -31498,7 +31508,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-10,USA-21043,Carter,Kentucky,0,9,33.59,0,0.17,0.64
 2023-01-10,USA-21041,Carroll,Kentucky,0,1.69,15.92,0,0.05,0.45
 2023-01-10,USA-21039,Carlisle,Kentucky,0,1.08,22.62,0,0.02,0.4
-2023-01-10,USA-21037,Campbell,Kentucky,0,85.5,91.36,0,0.04,0.04
+2023-01-10,USA-21037,Campbell,Kentucky,0,17.62,18.82,0,0.04,0.04
 2023-01-10,USA-21035,Calloway,Kentucky,0,8.85,22.68,0,0.07,0.18
 2023-01-10,USA-21033,Caldwell,Kentucky,0,4.69,36.81,0,0,0
 2023-01-10,USA-21031,Butler,Kentucky,0,2.31,17.92,0,0.03,0.26
@@ -31509,7 +31519,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-10,USA-21021,Boyle,Kentucky,0,9.62,31.99,0,0.08,0.27
 2023-01-10,USA-21019,Boyd,Kentucky,0,17.92,38.36,0,0.05,0.1
 2023-01-10,USA-21017,Bourbon,Kentucky,0,4.23,21.38,0,0.03,0.17
-2023-01-10,USA-21015,Boone,Kentucky,0,207.7,155.49,0,0.09,0.06
+2023-01-10,USA-21015,Boone,Kentucky,0,22.54,16.87,0,0.09,0.06
 2023-01-10,USA-21013,Bell,Kentucky,0,8.15,31.32,0,0.03,0.11
 2023-01-10,USA-21011,Bath,Kentucky,0,5,40,0,0,0
 2023-01-10,USA-21009,Barren,Kentucky,0,12.31,27.81,0,0.06,0.13
