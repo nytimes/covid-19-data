@@ -472,7 +472,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-01,USA-48463,Uvalde,Texas,0,2,7.48,0,0,0
 2023-01-01,USA-48461,Upton,Texas,0,0.14,3.91,0,0,0
 2023-01-01,USA-48459,Upshur,Texas,0,2.71,6.5,0,0,0
-2023-01-01,USA-48999,Unknown,Texas,1467,632.33,,0,0,
+2023-01-01,USA-48999,Unknown,Texas,0,868.33,,0,0,
 2023-01-01,USA-48457,Tyler,Texas,0,3,13.84,0,0.02,0.09
 2023-01-01,USA-48455,Trinity,Texas,0,1.29,8.78,0,0.02,0.15
 2023-01-01,USA-48453,Travis,Texas,0,220,17.27,0,0.15,0.01
@@ -1919,7 +1919,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-01,USA-27005,Becker,Minnesota,0,3.14,9.13,0,0,0
 2023-01-01,USA-27003,Anoka,Minnesota,0,54.86,15.37,0,0.33,0.09
 2023-01-01,USA-27001,Aitkin,Minnesota,0,1.57,9.89,0,0,0
-2023-01-01,USA-26999,Unknown,Michigan,0,1795.1,,0,9.72,
+2023-01-01,USA-26999,Unknown,Michigan,0,45.2,,0,9.72,
 2023-01-01,USA-26165,Wexford,Michigan,0,5,14.87,0,0.07,0.21
 2023-01-01,USA-26163,Wayne,Michigan,0,352.14,20.13,0,4.97,0.28
 2023-01-01,USA-26161,Washtenaw,Michigan,0,47.71,12.98,0,0.37,0.1
@@ -3728,7 +3728,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-02,USA-48463,Uvalde,Texas,0,2,7.48,0,0,0
 2023-01-02,USA-48461,Upton,Texas,0,0.14,3.91,0,0,0
 2023-01-02,USA-48459,Upshur,Texas,0,2.71,6.5,0,0,0
-2023-01-02,USA-48999,Unknown,Texas,0,632.33,,0,0,
+2023-01-02,USA-48999,Unknown,Texas,-1467,868.33,,0,0,
 2023-01-02,USA-48457,Tyler,Texas,0,3,13.84,0,0.02,0.09
 2023-01-02,USA-48455,Trinity,Texas,0,1.29,8.78,0,0.02,0.15
 2023-01-02,USA-48453,Travis,Texas,0,220,17.27,0,0.15,0.01
@@ -5175,7 +5175,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-02,USA-27005,Becker,Minnesota,0,3.14,9.13,0,0,0
 2023-01-02,USA-27003,Anoka,Minnesota,0,54.86,15.37,0,0.33,0.09
 2023-01-02,USA-27001,Aitkin,Minnesota,0,1.57,9.89,0,0,0
-2023-01-02,USA-26999,Unknown,Michigan,0,1795.1,,0,9.72,
+2023-01-02,USA-26999,Unknown,Michigan,0,45.2,,0,9.72,
 2023-01-02,USA-26165,Wexford,Michigan,0,5,14.87,0,0.07,0.21
 2023-01-02,USA-26163,Wayne,Michigan,0,352.14,20.13,0,4.97,0.28
 2023-01-02,USA-26161,Washtenaw,Michigan,0,47.71,12.98,0,0.37,0.1
@@ -6983,7 +6983,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-03,USA-48463,Uvalde,Texas,0,2,7.48,0,0,0
 2023-01-03,USA-48461,Upton,Texas,0,0.14,3.91,0,0,0
 2023-01-03,USA-48459,Upshur,Texas,0,2.71,6.5,0,0,0
-2023-01-03,USA-48999,Unknown,Texas,-660,632.33,,0,0,
+2023-01-03,USA-48999,Unknown,Texas,807,1136.43,,0,0,
 2023-01-03,USA-48457,Tyler,Texas,0,3,13.84,0,0.02,0.09
 2023-01-03,USA-48455,Trinity,Texas,0,1.29,8.78,0,0.02,0.15
 2023-01-03,USA-48453,Travis,Texas,0,220,17.27,0,0.15,0.01
@@ -8430,7 +8430,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-03,USA-27005,Becker,Minnesota,0,3.14,9.13,0,0,0
 2023-01-03,USA-27003,Anoka,Minnesota,0,54.86,15.37,0,0.33,0.09
 2023-01-03,USA-27001,Aitkin,Minnesota,0,1.57,9.89,0,0,0
-2023-01-03,USA-26999,Unknown,Michigan,240,930.5,,-52,9.72,
+2023-01-03,USA-26999,Unknown,Michigan,167,37.4,,-52,9.72,
 2023-01-03,USA-26165,Wexford,Michigan,18,2.57,7.65,0,0.07,0.21
 2023-01-03,USA-26163,Wayne,Michigan,2013,287.57,16.44,11,4.71,0.27
 2023-01-03,USA-26161,Washtenaw,Michigan,223,48.29,13.14,2,0.36,0.1
@@ -10236,7 +10236,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-04,USA-48463,Uvalde,Texas,17,2.43,9.08,1,0.03,0.12
 2023-01-04,USA-48461,Upton,Texas,6,0.86,23.44,0,0,0
 2023-01-04,USA-48459,Upshur,Texas,17,2.43,5.82,2,0.07,0.16
-2023-01-04,USA-48999,Unknown,Texas,6110,978.43,,0,0,
+2023-01-04,USA-48999,Unknown,Texas,-807,1136.43,,0,0,
 2023-01-04,USA-48457,Tyler,Texas,64,9.14,42.19,1,0.03,0.12
 2023-01-04,USA-48455,Trinity,Texas,9,1.29,8.78,1,0.03,0.18
 2023-01-04,USA-48453,Travis,Texas,1797,256.71,20.15,7,0.28,0.02
@@ -11683,7 +11683,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-04,USA-27005,Becker,Minnesota,0,3.14,9.13,0,0,0
 2023-01-04,USA-27003,Anoka,Minnesota,0,54.86,15.37,0,0.33,0.09
 2023-01-04,USA-27001,Aitkin,Minnesota,0,1.57,9.89,0,0,0
-2023-01-04,USA-26999,Unknown,Michigan,-63,930.5,,0,9.72,
+2023-01-04,USA-26999,Unknown,Michigan,-63,37.4,,0,9.72,
 2023-01-04,USA-26165,Wexford,Michigan,0,2.57,7.65,0,0.07,0.21
 2023-01-04,USA-26163,Wayne,Michigan,0,287.57,16.44,0,4.71,0.27
 2023-01-04,USA-26161,Washtenaw,Michigan,63,53,14.42,0,0.36,0.1
@@ -13489,7 +13489,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-05,USA-48463,Uvalde,Texas,0,2.43,9.08,0,0.03,0.12
 2023-01-05,USA-48461,Upton,Texas,0,0.86,23.44,0,0,0
 2023-01-05,USA-48459,Upshur,Texas,0,2.43,5.82,0,0.07,0.16
-2023-01-05,USA-48999,Unknown,Texas,-1224,978.43,,0,0,
+2023-01-05,USA-48999,Unknown,Texas,0,1136.43,,0,0,
 2023-01-05,USA-48457,Tyler,Texas,0,9.14,42.19,0,0.03,0.12
 2023-01-05,USA-48455,Trinity,Texas,0,1.29,8.78,0,0.03,0.18
 2023-01-05,USA-48453,Travis,Texas,0,256.71,20.15,0,0.28,0.02
@@ -14936,7 +14936,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-05,USA-27005,Becker,Minnesota,12,1.71,4.98,0,0,0
 2023-01-05,USA-27003,Anoka,Minnesota,361,51.57,14.45,1,0.34,0.1
 2023-01-05,USA-27001,Aitkin,Minnesota,12,1.71,10.79,0,0,0
-2023-01-05,USA-26999,Unknown,Michigan,-95,930.5,,52,9.69,
+2023-01-05,USA-26999,Unknown,Michigan,-95,37.4,,52,9.69,
 2023-01-05,USA-26165,Wexford,Michigan,0,2.57,7.65,0,0.07,0.21
 2023-01-05,USA-26163,Wayne,Michigan,0,287.57,16.44,0,4.71,0.27
 2023-01-05,USA-26161,Washtenaw,Michigan,95,54.43,14.81,0,0.36,0.1
@@ -16742,7 +16742,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-06,USA-48463,Uvalde,Texas,0,2.43,9.08,0,0.03,0.12
 2023-01-06,USA-48461,Upton,Texas,0,0.86,23.44,0,0,0
 2023-01-06,USA-48459,Upshur,Texas,0,2.43,5.82,0,0.07,0.16
-2023-01-06,USA-48999,Unknown,Texas,-5693,978.43,,0,0,
+2023-01-06,USA-48999,Unknown,Texas,0,1136.43,,0,0,
 2023-01-06,USA-48457,Tyler,Texas,0,9.14,42.19,0,0.03,0.12
 2023-01-06,USA-48455,Trinity,Texas,0,1.29,8.78,0,0.03,0.18
 2023-01-06,USA-48453,Travis,Texas,0,256.71,20.15,0,0.28,0.02
@@ -18189,7 +18189,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-06,USA-27005,Becker,Minnesota,0,1.71,4.98,0,0,0
 2023-01-06,USA-27003,Anoka,Minnesota,0,51.57,14.45,0,0.34,0.1
 2023-01-06,USA-27001,Aitkin,Minnesota,0,1.71,10.79,0,0,0
-2023-01-06,USA-26999,Unknown,Michigan,-41,930.5,,0,9.69,
+2023-01-06,USA-26999,Unknown,Michigan,-41,37.4,,0,9.69,
 2023-01-06,USA-26165,Wexford,Michigan,0,2.57,7.65,0,0.07,0.21
 2023-01-06,USA-26163,Wayne,Michigan,0,287.57,16.44,0,4.71,0.27
 2023-01-06,USA-26161,Washtenaw,Michigan,41,52.75,14.35,0,0.36,0.1
@@ -19995,7 +19995,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-07,USA-48463,Uvalde,Texas,0,2.43,9.08,0,0.03,0.12
 2023-01-07,USA-48461,Upton,Texas,0,0.86,23.44,0,0,0
 2023-01-07,USA-48459,Upshur,Texas,0,2.43,5.82,0,0.07,0.16
-2023-01-07,USA-48999,Unknown,Texas,3561,1150.6,,0,0,
+2023-01-07,USA-48999,Unknown,Texas,0,1136.43,,0,0,
 2023-01-07,USA-48457,Tyler,Texas,0,9.14,42.19,0,0.03,0.12
 2023-01-07,USA-48455,Trinity,Texas,0,1.29,8.78,0,0.03,0.18
 2023-01-07,USA-48453,Travis,Texas,0,256.71,20.15,0,0.28,0.02
@@ -21442,7 +21442,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-07,USA-27005,Becker,Minnesota,0,1.71,4.98,0,0,0
 2023-01-07,USA-27003,Anoka,Minnesota,0,51.57,14.45,0,0.34,0.1
 2023-01-07,USA-27001,Aitkin,Minnesota,0,1.71,10.79,0,0,0
-2023-01-07,USA-26999,Unknown,Michigan,0,930.5,,0,9.69,
+2023-01-07,USA-26999,Unknown,Michigan,0,37.4,,0,9.69,
 2023-01-07,USA-26165,Wexford,Michigan,0,2.57,7.65,0,0.07,0.21
 2023-01-07,USA-26163,Wayne,Michigan,0,287.57,16.44,0,4.71,0.27
 2023-01-07,USA-26161,Washtenaw,Michigan,0,52.75,14.35,0,0.36,0.1
@@ -23248,7 +23248,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-08,USA-48463,Uvalde,Texas,0,2.43,9.08,0,0.03,0.12
 2023-01-08,USA-48461,Upton,Texas,0,0.86,23.44,0,0,0
 2023-01-08,USA-48459,Upshur,Texas,0,2.43,5.82,0,0.07,0.16
-2023-01-08,USA-48999,Unknown,Texas,-3561,1150.6,,0,0,
+2023-01-08,USA-48999,Unknown,Texas,2508,597.75,,0,0,
 2023-01-08,USA-48457,Tyler,Texas,0,9.14,42.19,0,0.03,0.12
 2023-01-08,USA-48455,Trinity,Texas,0,1.29,8.78,0,0.03,0.18
 2023-01-08,USA-48453,Travis,Texas,0,256.71,20.15,0,0.28,0.02
@@ -24695,7 +24695,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-08,USA-27005,Becker,Minnesota,0,1.71,4.98,0,0,0
 2023-01-08,USA-27003,Anoka,Minnesota,0,51.57,14.45,0,0.34,0.1
 2023-01-08,USA-27001,Aitkin,Minnesota,0,1.71,10.79,0,0,0
-2023-01-08,USA-26999,Unknown,Michigan,0,930.5,,0,9.69,
+2023-01-08,USA-26999,Unknown,Michigan,0,37.4,,0,9.69,
 2023-01-08,USA-26165,Wexford,Michigan,0,2.57,7.65,0,0.07,0.21
 2023-01-08,USA-26163,Wayne,Michigan,0,287.57,16.44,0,4.71,0.27
 2023-01-08,USA-26161,Washtenaw,Michigan,0,52.75,14.35,0,0.36,0.1
@@ -26501,7 +26501,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-09,USA-48463,Uvalde,Texas,0,2.43,9.08,0,0.03,0.12
 2023-01-09,USA-48461,Upton,Texas,0,0.86,23.44,0,0,0
 2023-01-09,USA-48459,Upshur,Texas,0,2.43,5.82,0,0.07,0.16
-2023-01-09,USA-48999,Unknown,Texas,1233,2476.29,,0,0,
+2023-01-09,USA-48999,Unknown,Texas,-1275,597.75,,0,0,
 2023-01-09,USA-48457,Tyler,Texas,0,9.14,42.19,0,0.03,0.12
 2023-01-09,USA-48455,Trinity,Texas,0,1.29,8.78,0,0.03,0.18
 2023-01-09,USA-48453,Travis,Texas,0,256.71,20.15,0,0.28,0.02
@@ -27948,7 +27948,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-09,USA-27005,Becker,Minnesota,0,1.71,4.98,0,0,0
 2023-01-09,USA-27003,Anoka,Minnesota,0,51.57,14.45,0,0.34,0.1
 2023-01-09,USA-27001,Aitkin,Minnesota,0,1.71,10.79,0,0,0
-2023-01-09,USA-26999,Unknown,Michigan,-114,930.5,,-6,9.69,
+2023-01-09,USA-26999,Unknown,Michigan,-114,37.4,,-6,9.69,
 2023-01-09,USA-26165,Wexford,Michigan,0,2.57,7.65,0,0.07,0.21
 2023-01-09,USA-26163,Wayne,Michigan,0,287.57,16.44,0,4.71,0.27
 2023-01-09,USA-26161,Washtenaw,Michigan,114,48.73,13.26,6,0.5,0.14
@@ -29754,7 +29754,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-10,USA-48463,Uvalde,Texas,0,2.43,9.08,0,0.03,0.12
 2023-01-10,USA-48461,Upton,Texas,0,0.86,23.44,0,0,0
 2023-01-10,USA-48459,Upshur,Texas,0,2.43,5.82,0,0.07,0.16
-2023-01-10,USA-48999,Unknown,Texas,-762,2476.29,,0,0,
+2023-01-10,USA-48999,Unknown,Texas,-1233,597.75,,0,0,
 2023-01-10,USA-48457,Tyler,Texas,0,9.14,42.19,0,0.03,0.12
 2023-01-10,USA-48455,Trinity,Texas,0,1.29,8.78,0,0.03,0.18
 2023-01-10,USA-48453,Travis,Texas,0,256.71,20.15,0,0.28,0.02
@@ -31201,7 +31201,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-10,USA-27005,Becker,Minnesota,0,1.71,4.98,0,0,0
 2023-01-10,USA-27003,Anoka,Minnesota,0,51.57,14.45,0,0.34,0.1
 2023-01-10,USA-27001,Aitkin,Minnesota,0,1.71,10.79,0,0,0
-2023-01-10,USA-26999,Unknown,Michigan,-8780,930.5,,-46,9.69,
+2023-01-10,USA-26999,Unknown,Michigan,443,76.25,,-46,9.69,
 2023-01-10,USA-26165,Wexford,Michigan,23,3.29,9.77,0,0.07,0.21
 2023-01-10,USA-26163,Wayne,Michigan,2078,296.86,16.97,35,4.14,0.24
 2023-01-10,USA-26161,Washtenaw,Michigan,42,50.71,13.8,1,0.52,0.14
@@ -33007,7 +33007,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-11,USA-48463,Uvalde,Texas,9,1.29,4.81,0,0.03,0.12
 2023-01-11,USA-48461,Upton,Texas,5,0.71,19.53,0,0,0
 2023-01-11,USA-48459,Upshur,Texas,25,3.57,8.55,0,0.07,0.16
-2023-01-11,USA-48999,Unknown,Texas,4671,3080.71,,0,0,
+2023-01-11,USA-48999,Unknown,Texas,5142,1208.14,,0,0,
 2023-01-11,USA-48457,Tyler,Texas,56,8,36.91,0,0.03,0.12
 2023-01-11,USA-48455,Trinity,Texas,12,1.71,11.7,0,0.03,0.18
 2023-01-11,USA-48453,Travis,Texas,1392,198.86,15.61,4,0.46,0.04
@@ -34454,7 +34454,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-11,USA-27005,Becker,Minnesota,0,1.71,4.98,0,0,0
 2023-01-11,USA-27003,Anoka,Minnesota,0,51.57,14.45,0,0.34,0.1
 2023-01-11,USA-27001,Aitkin,Minnesota,0,1.71,10.79,0,0,0
-2023-01-11,USA-26999,Unknown,Michigan,-45,930.5,,0,9.69,
+2023-01-11,USA-26999,Unknown,Michigan,-45,76.25,,0,9.69,
 2023-01-11,USA-26165,Wexford,Michigan,0,3.29,9.77,0,0.07,0.21
 2023-01-11,USA-26163,Wayne,Michigan,0,296.86,16.97,0,4.14,0.24
 2023-01-11,USA-26161,Washtenaw,Michigan,45,48.14,13.1,0,0.52,0.14
