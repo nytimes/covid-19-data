@@ -472,7 +472,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-01,USA-48463,Uvalde,Texas,0,2,7.48,0,0,0
 2023-01-01,USA-48461,Upton,Texas,0,0.14,3.91,0,0,0
 2023-01-01,USA-48459,Upshur,Texas,0,2.71,6.5,0,0,0
-2023-01-01,USA-48999,Unknown,Texas,-1467,811.67,,0,0,
+2023-01-01,USA-48999,Unknown,Texas,0,198.71,,0,0,
 2023-01-01,USA-48457,Tyler,Texas,0,3,13.84,0,0.02,0.09
 2023-01-01,USA-48455,Trinity,Texas,0,1.29,8.78,0,0.02,0.15
 2023-01-01,USA-48453,Travis,Texas,0,220,17.27,0,0.15,0.01
@@ -3728,7 +3728,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-02,USA-48463,Uvalde,Texas,0,2,7.48,0,0,0
 2023-01-02,USA-48461,Upton,Texas,0,0.14,3.91,0,0,0
 2023-01-02,USA-48459,Upshur,Texas,0,2.71,6.5,0,0,0
-2023-01-02,USA-48999,Unknown,Texas,0,811.67,,0,0,
+2023-01-02,USA-48999,Unknown,Texas,0,198.71,,0,0,
 2023-01-02,USA-48457,Tyler,Texas,0,3,13.84,0,0.02,0.09
 2023-01-02,USA-48455,Trinity,Texas,0,1.29,8.78,0,0.02,0.15
 2023-01-02,USA-48453,Travis,Texas,0,220,17.27,0,0.15,0.01
@@ -6984,7 +6984,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-03,USA-48463,Uvalde,Texas,0,2,7.48,0,0,0
 2023-01-03,USA-48461,Upton,Texas,0,0.14,3.91,0,0,0
 2023-01-03,USA-48459,Upshur,Texas,0,2.71,6.5,0,0,0
-2023-01-03,USA-48999,Unknown,Texas,0,811.67,,0,0,
+2023-01-03,USA-48999,Unknown,Texas,0,198.71,,0,0,
 2023-01-03,USA-48457,Tyler,Texas,0,3,13.84,0,0.02,0.09
 2023-01-03,USA-48455,Trinity,Texas,0,1.29,8.78,0,0.02,0.15
 2023-01-03,USA-48453,Travis,Texas,0,220,17.27,0,0.15,0.01
@@ -10239,7 +10239,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-04,USA-48463,Uvalde,Texas,17,2.43,9.08,1,0.03,0.12
 2023-01-04,USA-48461,Upton,Texas,6,0.86,23.44,0,0,0
 2023-01-04,USA-48459,Upshur,Texas,17,2.43,5.82,2,0.07,0.16
-2023-01-04,USA-48999,Unknown,Texas,0,811.67,,0,0,
+2023-01-04,USA-48999,Unknown,Texas,6917,691.7,,0,0,
 2023-01-04,USA-48457,Tyler,Texas,64,9.14,42.19,1,0.03,0.12
 2023-01-04,USA-48455,Trinity,Texas,9,1.29,8.78,1,0.03,0.18
 2023-01-04,USA-48453,Travis,Texas,1797,256.71,20.15,7,0.28,0.02
@@ -13494,7 +13494,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-05,USA-48463,Uvalde,Texas,0,2.43,9.08,0,0.03,0.12
 2023-01-05,USA-48461,Upton,Texas,0,0.86,23.44,0,0,0
 2023-01-05,USA-48459,Upshur,Texas,0,2.43,5.82,0,0.07,0.16
-2023-01-05,USA-48999,Unknown,Texas,0,811.67,,0,0,
+2023-01-05,USA-48999,Unknown,Texas,-1224,691.7,,0,0,
 2023-01-05,USA-48457,Tyler,Texas,0,9.14,42.19,0,0.03,0.12
 2023-01-05,USA-48455,Trinity,Texas,0,1.29,8.78,0,0.03,0.18
 2023-01-05,USA-48453,Travis,Texas,0,256.71,20.15,0,0.28,0.02
@@ -16749,7 +16749,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-06,USA-48463,Uvalde,Texas,0,2.43,9.08,0,0.03,0.12
 2023-01-06,USA-48461,Upton,Texas,0,0.86,23.44,0,0,0
 2023-01-06,USA-48459,Upshur,Texas,0,2.43,5.82,0,0.07,0.16
-2023-01-06,USA-48999,Unknown,Texas,3561,1154.86,,0,0,
+2023-01-06,USA-48999,Unknown,Texas,-5693,691.7,,0,0,
 2023-01-06,USA-48457,Tyler,Texas,0,9.14,42.19,0,0.03,0.12
 2023-01-06,USA-48455,Trinity,Texas,0,1.29,8.78,0,0.03,0.18
 2023-01-06,USA-48453,Travis,Texas,0,256.71,20.15,0,0.28,0.02
@@ -20004,7 +20004,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-07,USA-48463,Uvalde,Texas,0,2.43,9.08,0,0.03,0.12
 2023-01-07,USA-48461,Upton,Texas,0,0.86,23.44,0,0,0
 2023-01-07,USA-48459,Upshur,Texas,0,2.43,5.82,0,0.07,0.16
-2023-01-07,USA-48999,Unknown,Texas,-3561,1154.86,,0,0,
+2023-01-07,USA-48999,Unknown,Texas,0,691.7,,0,0,
 2023-01-07,USA-48457,Tyler,Texas,0,9.14,42.19,0,0.03,0.12
 2023-01-07,USA-48455,Trinity,Texas,0,1.29,8.78,0,0.03,0.18
 2023-01-07,USA-48453,Travis,Texas,0,256.71,20.15,0,0.28,0.02
@@ -23259,7 +23259,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-08,USA-48463,Uvalde,Texas,0,2.43,9.08,0,0.03,0.12
 2023-01-08,USA-48461,Upton,Texas,0,0.86,23.44,0,0,0
 2023-01-08,USA-48459,Upshur,Texas,0,2.43,5.82,0,0.07,0.16
-2023-01-08,USA-48999,Unknown,Texas,2508,867,,0,0,
+2023-01-08,USA-48999,Unknown,Texas,0,691.7,,0,0,
 2023-01-08,USA-48457,Tyler,Texas,0,9.14,42.19,0,0.03,0.12
 2023-01-08,USA-48455,Trinity,Texas,0,1.29,8.78,0,0.03,0.18
 2023-01-08,USA-48453,Travis,Texas,0,256.71,20.15,0,0.28,0.02
@@ -26514,7 +26514,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-09,USA-48463,Uvalde,Texas,0,2.43,9.08,0,0.03,0.12
 2023-01-09,USA-48461,Upton,Texas,0,0.86,23.44,0,0,0
 2023-01-09,USA-48459,Upshur,Texas,0,2.43,5.82,0,0.07,0.16
-2023-01-09,USA-48999,Unknown,Texas,-2508,867,,0,0,
+2023-01-09,USA-48999,Unknown,Texas,0,691.7,,0,0,
 2023-01-09,USA-48457,Tyler,Texas,0,9.14,42.19,0,0.03,0.12
 2023-01-09,USA-48455,Trinity,Texas,0,1.29,8.78,0,0.03,0.18
 2023-01-09,USA-48453,Travis,Texas,0,256.71,20.15,0,0.28,0.02
@@ -29769,7 +29769,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-10,USA-48463,Uvalde,Texas,0,2.43,9.08,0,0.03,0.12
 2023-01-10,USA-48461,Upton,Texas,0,0.86,23.44,0,0,0
 2023-01-10,USA-48459,Upshur,Texas,0,2.43,5.82,0,0.07,0.16
-2023-01-10,USA-48999,Unknown,Texas,471,817.5,,0,0,
+2023-01-10,USA-48999,Unknown,Texas,471,527.71,,0,0,
 2023-01-10,USA-48457,Tyler,Texas,0,9.14,42.19,0,0.03,0.12
 2023-01-10,USA-48455,Trinity,Texas,0,1.29,8.78,0,0.03,0.18
 2023-01-10,USA-48453,Travis,Texas,0,256.71,20.15,0,0.28,0.02
@@ -33024,7 +33024,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-11,USA-48463,Uvalde,Texas,9,1.29,4.81,0,0.03,0.12
 2023-01-11,USA-48461,Upton,Texas,5,0.71,19.53,0,0,0
 2023-01-11,USA-48459,Upshur,Texas,25,3.57,8.55,0,0.07,0.16
-2023-01-11,USA-48999,Unknown,Texas,-471,817.5,,0,0,
+2023-01-11,USA-48999,Unknown,Texas,-471,527.71,,0,0,
 2023-01-11,USA-48457,Tyler,Texas,56,8,36.91,0,0.03,0.12
 2023-01-11,USA-48455,Trinity,Texas,12,1.71,11.7,0,0.03,0.18
 2023-01-11,USA-48453,Travis,Texas,1392,198.86,15.61,4,0.46,0.04
@@ -36279,7 +36279,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-12,USA-48463,Uvalde,Texas,0,1.29,4.81,0,0.03,0.12
 2023-01-12,USA-48461,Upton,Texas,0,0.71,19.53,0,0,0
 2023-01-12,USA-48459,Upshur,Texas,0,3.57,8.55,0,0.07,0.16
-2023-01-12,USA-48999,Unknown,Texas,65,733.89,,0,0,
+2023-01-12,USA-48999,Unknown,Texas,0,527.71,,0,0,
 2023-01-12,USA-48457,Tyler,Texas,0,8,36.91,0,0.03,0.12
 2023-01-12,USA-48455,Trinity,Texas,0,1.71,11.7,0,0.03,0.18
 2023-01-12,USA-48453,Travis,Texas,0,198.86,15.61,0,0.46,0.04
@@ -39053,7 +39053,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-12,USA-01005,Barbour,Alabama,0,9.71,39.35,0,0.03,0.11
 2023-01-12,USA-01003,Baldwin,Alabama,0,48,21.5,0,0.11,0.05
 2023-01-12,USA-01001,Autauga,Alabama,0,16.14,28.89,0,0.04,0.07
-2023-01-12,USA-60999,Unknown,American Samoa,0,0,,0,0,
+2023-01-12,USA-60999,Unknown,American Samoa,43,6.14,,0,0,
 2023-01-12,USA-69120,Tinian,Northern Mariana Islands,0,1.86,59.22,0,0,0
 2023-01-12,USA-69110,Saipan,Northern Mariana Islands,0,20.71,42.96,0,0,0
 2023-01-12,USA-69100,Rota,Northern Mariana Islands,0,0.14,5.65,0,0,0
@@ -39534,7 +39534,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-13,USA-48463,Uvalde,Texas,0,1.29,4.81,0,0.03,0.12
 2023-01-13,USA-48461,Upton,Texas,0,0.71,19.53,0,0,0
 2023-01-13,USA-48459,Upshur,Texas,0,3.57,8.55,0,0.07,0.16
-2023-01-13,USA-48999,Unknown,Texas,2580,918.5,,0,0,
+2023-01-13,USA-48999,Unknown,Texas,0,527.71,,0,0,
 2023-01-13,USA-48457,Tyler,Texas,0,8,36.91,0,0.03,0.12
 2023-01-13,USA-48455,Trinity,Texas,0,1.71,11.7,0,0.03,0.18
 2023-01-13,USA-48453,Travis,Texas,0,198.86,15.61,0,0.46,0.04
@@ -40248,7 +40248,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-13,USA-39005,Ashland,Ohio,0,6.57,12.29,0,0.11,0.21
 2023-01-13,USA-39003,Allen,Ohio,0,15.43,15.07,0,0.2,0.2
 2023-01-13,USA-39001,Adams,Ohio,0,4.14,14.96,0,0.08,0.29
-2023-01-13,USA-38999,Unknown,North Dakota,0,77.14,,0,0.54,
+2023-01-13,USA-38999,Unknown,North Dakota,612,47.08,,0,0.54,
 2023-01-13,USA-38105,Williams,North Dakota,0,4,10.64,0,0.07,0.18
 2023-01-13,USA-38103,Wells,North Dakota,0,0.29,7.45,0,0,0
 2023-01-13,USA-38101,Ward,North Dakota,0,5.07,7.5,0,0,0
@@ -42308,7 +42308,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-13,USA-01005,Barbour,Alabama,0,9.71,39.35,0,0.03,0.11
 2023-01-13,USA-01003,Baldwin,Alabama,0,48,21.5,0,0.11,0.05
 2023-01-13,USA-01001,Autauga,Alabama,0,16.14,28.89,0,0.04,0.07
-2023-01-13,USA-60999,Unknown,American Samoa,0,0,,0,0,
+2023-01-13,USA-60999,Unknown,American Samoa,0,6.14,,0,0,
 2023-01-13,USA-69120,Tinian,Northern Mariana Islands,0,1.86,59.22,0,0,0
 2023-01-13,USA-69110,Saipan,Northern Mariana Islands,0,20.71,42.96,0,0,0
 2023-01-13,USA-69100,Rota,Northern Mariana Islands,0,0.14,5.65,0,0,0
@@ -42789,7 +42789,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-14,USA-48463,Uvalde,Texas,0,1.29,4.81,0,0.03,0.12
 2023-01-14,USA-48461,Upton,Texas,0,0.71,19.53,0,0,0
 2023-01-14,USA-48459,Upshur,Texas,0,3.57,8.55,0,0.07,0.16
-2023-01-14,USA-48999,Unknown,Texas,0,918.5,,0,0,
+2023-01-14,USA-48999,Unknown,Texas,0,527.71,,0,0,
 2023-01-14,USA-48457,Tyler,Texas,0,8,36.91,0,0.03,0.12
 2023-01-14,USA-48455,Trinity,Texas,0,1.71,11.7,0,0.03,0.18
 2023-01-14,USA-48453,Travis,Texas,0,198.86,15.61,0,0.46,0.04
@@ -43503,7 +43503,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-14,USA-39005,Ashland,Ohio,0,6.57,12.29,0,0.11,0.21
 2023-01-14,USA-39003,Allen,Ohio,0,15.43,15.07,0,0.2,0.2
 2023-01-14,USA-39001,Adams,Ohio,0,4.14,14.96,0,0.08,0.29
-2023-01-14,USA-38999,Unknown,North Dakota,0,0,,0,0.54,
+2023-01-14,USA-38999,Unknown,North Dakota,0,47.08,,0,0.54,
 2023-01-14,USA-38105,Williams,North Dakota,0,4,10.64,0,0.07,0.18
 2023-01-14,USA-38103,Wells,North Dakota,0,0.29,7.45,0,0,0
 2023-01-14,USA-38101,Ward,North Dakota,0,5.07,7.5,0,0,0
@@ -45563,7 +45563,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-14,USA-01005,Barbour,Alabama,0,9.71,39.35,0,0.03,0.11
 2023-01-14,USA-01003,Baldwin,Alabama,0,48,21.5,0,0.11,0.05
 2023-01-14,USA-01001,Autauga,Alabama,0,16.14,28.89,0,0.04,0.07
-2023-01-14,USA-60999,Unknown,American Samoa,0,0,,0,0,
+2023-01-14,USA-60999,Unknown,American Samoa,0,6.14,,0,0,
 2023-01-14,USA-69120,Tinian,Northern Mariana Islands,0,1.86,59.22,0,0,0
 2023-01-14,USA-69110,Saipan,Northern Mariana Islands,0,20.71,42.96,0,0,0
 2023-01-14,USA-69100,Rota,Northern Mariana Islands,0,0.14,5.65,0,0,0
@@ -46044,7 +46044,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-15,USA-48463,Uvalde,Texas,0,1.29,4.81,0,0.03,0.12
 2023-01-15,USA-48461,Upton,Texas,0,0.71,19.53,0,0,0
 2023-01-15,USA-48459,Upshur,Texas,0,3.57,8.55,0,0.07,0.16
-2023-01-15,USA-48999,Unknown,Texas,-2580,918.5,,0,0,
+2023-01-15,USA-48999,Unknown,Texas,2645,389.5,,0,0,
 2023-01-15,USA-48457,Tyler,Texas,0,8,36.91,0,0.03,0.12
 2023-01-15,USA-48455,Trinity,Texas,0,1.71,11.7,0,0.03,0.18
 2023-01-15,USA-48453,Travis,Texas,0,198.86,15.61,0,0.46,0.04
@@ -46758,7 +46758,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-15,USA-39005,Ashland,Ohio,0,6.57,12.29,0,0.11,0.21
 2023-01-15,USA-39003,Allen,Ohio,0,15.43,15.07,0,0.2,0.2
 2023-01-15,USA-39001,Adams,Ohio,0,4.14,14.96,0,0.08,0.29
-2023-01-15,USA-38999,Unknown,North Dakota,0,0,,0,0.54,
+2023-01-15,USA-38999,Unknown,North Dakota,0,47.08,,0,0.54,
 2023-01-15,USA-38105,Williams,North Dakota,0,4,10.64,0,0.07,0.18
 2023-01-15,USA-38103,Wells,North Dakota,0,0.29,7.45,0,0,0
 2023-01-15,USA-38101,Ward,North Dakota,0,5.07,7.5,0,0,0
@@ -48818,7 +48818,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-15,USA-01005,Barbour,Alabama,0,9.71,39.35,0,0.03,0.11
 2023-01-15,USA-01003,Baldwin,Alabama,0,48,21.5,0,0.11,0.05
 2023-01-15,USA-01001,Autauga,Alabama,0,16.14,28.89,0,0.04,0.07
-2023-01-15,USA-60999,Unknown,American Samoa,0,0,,0,0,
+2023-01-15,USA-60999,Unknown,American Samoa,0,6.14,,0,0,
 2023-01-15,USA-69120,Tinian,Northern Mariana Islands,0,1.86,59.22,0,0,0
 2023-01-15,USA-69110,Saipan,Northern Mariana Islands,0,20.71,42.96,0,0,0
 2023-01-15,USA-69100,Rota,Northern Mariana Islands,0,0.14,5.65,0,0,0
@@ -49299,7 +49299,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-16,USA-48463,Uvalde,Texas,0,1.29,4.81,0,0.03,0.12
 2023-01-16,USA-48461,Upton,Texas,0,0.71,19.53,0,0,0
 2023-01-16,USA-48459,Upshur,Texas,0,3.57,8.55,0,0.07,0.16
-2023-01-16,USA-48999,Unknown,Texas,2580,980.42,,0,0,
+2023-01-16,USA-48999,Unknown,Texas,0,389.5,,0,0,
 2023-01-16,USA-48457,Tyler,Texas,0,8,36.91,0,0.03,0.12
 2023-01-16,USA-48455,Trinity,Texas,0,1.71,11.7,0,0.03,0.18
 2023-01-16,USA-48453,Travis,Texas,0,198.86,15.61,0,0.46,0.04
@@ -50013,7 +50013,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-16,USA-39005,Ashland,Ohio,0,6.57,12.29,0,0.11,0.21
 2023-01-16,USA-39003,Allen,Ohio,0,15.43,15.07,0,0.2,0.2
 2023-01-16,USA-39001,Adams,Ohio,0,4.14,14.96,0,0.08,0.29
-2023-01-16,USA-38999,Unknown,North Dakota,0,0,,0,0.54,
+2023-01-16,USA-38999,Unknown,North Dakota,0,47.08,,0,0.54,
 2023-01-16,USA-38105,Williams,North Dakota,0,4,10.64,0,0.07,0.18
 2023-01-16,USA-38103,Wells,North Dakota,0,0.29,7.45,0,0,0
 2023-01-16,USA-38101,Ward,North Dakota,0,5.07,7.5,0,0,0
@@ -52073,7 +52073,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-16,USA-01005,Barbour,Alabama,0,9.71,39.35,0,0.03,0.11
 2023-01-16,USA-01003,Baldwin,Alabama,0,48,21.5,0,0.11,0.05
 2023-01-16,USA-01001,Autauga,Alabama,0,16.14,28.89,0,0.04,0.07
-2023-01-16,USA-60999,Unknown,American Samoa,0,0,,0,0,
+2023-01-16,USA-60999,Unknown,American Samoa,0,6.14,,0,0,
 2023-01-16,USA-69120,Tinian,Northern Mariana Islands,0,1.86,59.22,0,0,0
 2023-01-16,USA-69110,Saipan,Northern Mariana Islands,0,20.71,42.96,0,0,0
 2023-01-16,USA-69100,Rota,Northern Mariana Islands,0,0.14,5.65,0,0,0
@@ -52484,7 +52484,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-17,USA-51510,Alexandria city,Virginia,260,37.14,23.3,2,0.19,0.12
 2023-01-17,USA-51003,Albemarle,Virginia,138,19.71,18.03,3,0.12,0.11
 2023-01-17,USA-51001,Accomack,Virginia,29,4.14,12.82,0,0.05,0.15
-2023-01-17,USA-50999,Unknown,Vermont,0,5.5,,0,0.39,
+2023-01-17,USA-50999,Unknown,Vermont,43,6.21,,0,0.39,
 2023-01-17,USA-50027,Windsor,Vermont,0,5.14,9.34,0,0.07,0.13
 2023-01-17,USA-50025,Windham,Vermont,0,5.14,12.18,0,0.12,0.28
 2023-01-17,USA-50023,Washington,Vermont,0,5.86,10.03,0,0.23,0.39
@@ -52554,7 +52554,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-17,USA-48463,Uvalde,Texas,0,1.29,4.81,0,0.03,0.12
 2023-01-17,USA-48461,Upton,Texas,0,0.71,19.53,0,0,0
 2023-01-17,USA-48459,Upshur,Texas,0,3.57,8.55,0,0.07,0.16
-2023-01-17,USA-48999,Unknown,Texas,-2580,980.42,,0,0,
+2023-01-17,USA-48999,Unknown,Texas,-698,389.5,,0,0,
 2023-01-17,USA-48457,Tyler,Texas,0,8,36.91,0,0.03,0.12
 2023-01-17,USA-48455,Trinity,Texas,0,1.71,11.7,0,0.03,0.18
 2023-01-17,USA-48453,Travis,Texas,0,198.86,15.61,0,0.46,0.04
@@ -53268,7 +53268,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-17,USA-39005,Ashland,Ohio,0,6.57,12.29,0,0.11,0.21
 2023-01-17,USA-39003,Allen,Ohio,0,15.43,15.07,0,0.2,0.2
 2023-01-17,USA-39001,Adams,Ohio,0,4.14,14.96,0,0.08,0.29
-2023-01-17,USA-38999,Unknown,North Dakota,0,0,,0,0.54,
+2023-01-17,USA-38999,Unknown,North Dakota,0,47.08,,0,0.54,
 2023-01-17,USA-38105,Williams,North Dakota,0,4,10.64,0,0.07,0.18
 2023-01-17,USA-38103,Wells,North Dakota,0,0.29,7.45,0,0,0
 2023-01-17,USA-38101,Ward,North Dakota,0,5.07,7.5,0,0,0
@@ -55024,66 +55024,66 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-17,USA-08123,Weld,Colorado,60,23.29,7.18,0,0.42,0.13
 2023-01-17,USA-08121,Washington,Colorado,0,0.18,3.7,0,0.02,0.37
 2023-01-17,USA-08119,Teller,Colorado,0,0.86,3.38,0,0.07,0.29
-2023-01-17,USA-08117,Summit,Colorado,0,2.14,6.91,0,0,0
+2023-01-17,USA-08117,Summit,Colorado,2,2,6.45,0,0,0
 2023-01-17,USA-08115,Sedgwick,Colorado,0,0.13,5.93,0,0.05,2.22
-2023-01-17,USA-08113,San Miguel,Colorado,0,2,24.45,0,0,0
+2023-01-17,USA-08113,San Miguel,Colorado,1,0.57,6.99,0,0,0
 2023-01-17,USA-08111,San Juan,Colorado,0,0.07,9.81,0,0,0
 2023-01-17,USA-08109,Saguache,Colorado,0,0.25,3.66,0,0,0
-2023-01-17,USA-08107,Routt,Colorado,0,2.86,11.14,0,0,0
+2023-01-17,USA-08107,Routt,Colorado,2,2.71,10.59,0,0,0
 2023-01-17,USA-08105,Rio Grande,Colorado,0,0.27,2.42,0,0.03,0.3
 2023-01-17,USA-08103,Rio Blanco,Colorado,0,1,15.81,0,0,0
-2023-01-17,USA-08101,Pueblo,Colorado,0,14.71,8.74,0,0.27,0.16
+2023-01-17,USA-08101,Pueblo,Colorado,7,13.86,8.23,0,0.27,0.16
 2023-01-17,USA-08099,Prowers,Colorado,0,0.71,5.87,0,0,0
 2023-01-17,USA-08097,Pitkin,Colorado,0,2.71,15.28,0,0.02,0.11
 2023-01-17,USA-08095,Phillips,Colorado,0,0.55,12.79,0,0.03,0.78
 2023-01-17,USA-08093,Park,Colorado,0,1,5.31,0,0.06,0.29
 2023-01-17,USA-08091,Ouray,Colorado,0,0.86,17.31,0,0,0
-2023-01-17,USA-08089,Otero,Colorado,0,2,10.94,0,0.04,0.23
-2023-01-17,USA-08087,Morgan,Colorado,0,1.57,5.41,0,0.07,0.24
-2023-01-17,USA-08085,Montrose,Colorado,0,4.14,9.69,0,0.06,0.15
+2023-01-17,USA-08089,Otero,Colorado,1,2.14,11.72,0,0.04,0.23
+2023-01-17,USA-08087,Morgan,Colorado,1,0.86,2.95,0,0.07,0.24
+2023-01-17,USA-08085,Montrose,Colorado,2,4,9.35,0,0.06,0.15
 2023-01-17,USA-08083,Montezuma,Colorado,0,1.71,6.55,0,0.07,0.28
-2023-01-17,USA-08081,Moffat,Colorado,0,1.86,13.98,0,0,0
+2023-01-17,USA-08081,Moffat,Colorado,2,1.71,12.91,0,0,0
 2023-01-17,USA-08079,Mineral,Colorado,0,0.14,18.58,0,0,0
-2023-01-17,USA-08077,Mesa,Colorado,0,12.29,7.97,0,0.42,0.28
-2023-01-17,USA-08075,Logan,Colorado,0,0.89,3.97,0,0.07,0.32
+2023-01-17,USA-08077,Mesa,Colorado,7,12.43,8.06,0,0.42,0.28
+2023-01-17,USA-08075,Logan,Colorado,2,1.14,5.1,0,0.07,0.32
 2023-01-17,USA-08073,Lincoln,Colorado,0,0,0,0,0,0
-2023-01-17,USA-08071,Las Animas,Colorado,0,3,20.68,0,0.07,0.48
-2023-01-17,USA-08069,Larimer,Colorado,0,35.86,10.05,0,0.24,0.07
+2023-01-17,USA-08071,Las Animas,Colorado,4,3.14,21.67,0,0.07,0.48
+2023-01-17,USA-08069,Larimer,Colorado,23,32.86,9.21,0,0.24,0.07
 2023-01-17,USA-08065,Lake,Colorado,0,0.18,2.24,0,0,0
 2023-01-17,USA-08067,La Plata,Colorado,0,3.14,5.59,0,0.07,0.12
 2023-01-17,USA-08063,Kit Carson,Colorado,0,0,0,0,0.02,0.27
 2023-01-17,USA-08061,Kiowa,Colorado,0,0.14,10.16,0,0,0
-2023-01-17,USA-08059,Jefferson,Colorado,0,46,7.89,0,0.73,0.13
+2023-01-17,USA-08059,Jefferson,Colorado,24,45.57,7.82,1,0.74,0.13
 2023-01-17,USA-08057,Jackson,Colorado,0,0,0,0,0.03,2.39
 2023-01-17,USA-08055,Huerfano,Colorado,0,0.31,4.46,0,0,0
-2023-01-17,USA-08053,Hinsdale,Colorado,0,0.13,15.24,0,0,0
-2023-01-17,USA-08051,Gunnison,Colorado,0,1.2,6.87,0,0,0
-2023-01-17,USA-08049,Grand,Colorado,0,1.14,7.26,0,0,0
+2023-01-17,USA-08053,Hinsdale,Colorado,1,0.08,9.38,0,0,0
+2023-01-17,USA-08051,Gunnison,Colorado,1,0.57,3.27,0,0,0
+2023-01-17,USA-08049,Grand,Colorado,2,1.25,7.94,0,0,0
 2023-01-17,USA-08047,Gilpin,Colorado,0,0.29,4.58,0,0.02,0.38
-2023-01-17,USA-08045,Garfield,Colorado,0,4.57,7.61,0,0,0
+2023-01-17,USA-08045,Garfield,Colorado,2,4.57,7.61,0,0,0
 2023-01-17,USA-08043,Fremont,Colorado,0,4.43,9.26,0,0.09,0.19
 2023-01-17,USA-08039,Elbert,Colorado,0,0.43,1.6,0,0.02,0.06
-2023-01-17,USA-08041,El Paso,Colorado,0,55.71,7.73,0,0.82,0.11
+2023-01-17,USA-08041,El Paso,Colorado,36,51.71,7.18,0,0.82,0.11
 2023-01-17,USA-08037,Eagle,Colorado,0,6,10.88,0,0.07,0.12
-2023-01-17,USA-08035,Douglas,Colorado,0,20.86,5.94,0,0.09,0.03
+2023-01-17,USA-08035,Douglas,Colorado,6,18.86,5.37,0,0.09,0.03
 2023-01-17,USA-08033,Dolores,Colorado,0,0.08,4.06,0,0,0
-2023-01-17,USA-08031,Denver,Colorado,0,61,8.39,0,0.74,0.1
-2023-01-17,USA-08029,Delta,Colorado,0,0.57,1.83,0,0.12,0.38
+2023-01-17,USA-08031,Denver,Colorado,22,53.43,7.35,0,0.74,0.1
+2023-01-17,USA-08029,Delta,Colorado,1,0.63,2.01,0,0.12,0.38
 2023-01-17,USA-08027,Custer,Colorado,0,0.71,14.09,0,0.03,0.53
-2023-01-17,USA-08025,Crowley,Colorado,0,0.7,11.55,0,0.03,0.55
+2023-01-17,USA-08025,Crowley,Colorado,3,0.91,15,0,0.03,0.55
 2023-01-17,USA-08023,Costilla,Colorado,0,1,25.73,0,0,0
 2023-01-17,USA-08021,Conejos,Colorado,0,0.57,6.96,0,0,0
 2023-01-17,USA-08019,Clear Creek,Colorado,0,0.14,1.47,0,0,0
 2023-01-17,USA-08017,Cheyenne,Colorado,0,0.36,19.51,0,0,0
-2023-01-17,USA-08015,Chaffee,Colorado,0,1.86,9.12,0,0,0
-2023-01-17,USA-08014,Broomfield,Colorado,0,5.57,7.91,0,0.05,0.07
+2023-01-17,USA-08015,Chaffee,Colorado,4,2,9.83,0,0,0
+2023-01-17,USA-08014,Broomfield,Colorado,3,5.71,8.11,0,0.05,0.07
 2023-01-17,USA-08013,Boulder,Colorado,0,61.57,18.88,0,0.45,0.14
 2023-01-17,USA-08011,Bent,Colorado,0,0.82,14.67,0,0.03,0.5
 2023-01-17,USA-08009,Baca,Colorado,0,0.25,6.98,0,0,0
-2023-01-17,USA-08007,Archuleta,Colorado,0,2.43,17.31,0,0,0
-2023-01-17,USA-08005,Arapahoe,Colorado,0,51.29,7.81,0,0.57,0.09
+2023-01-17,USA-08007,Archuleta,Colorado,2,1.86,13.24,0,0,0
+2023-01-17,USA-08005,Arapahoe,Colorado,28,46,7.01,0,0.57,0.09
 2023-01-17,USA-08003,Alamosa,Colorado,0,1.86,11.44,0,0.06,0.36
-2023-01-17,USA-08001,Adams,Colorado,0,37.29,7.21,0,0.7,0.14
+2023-01-17,USA-08001,Adams,Colorado,20,35.43,6.85,0,0.7,0.14
 2023-01-17,USA-06115,Yuba,California,0,11.14,14.16,0,0.04,0.06
 2023-01-17,USA-06113,Yolo,California,0,20.71,9.39,0,0.49,0.22
 2023-01-17,USA-06111,Ventura,California,0,158.86,18.78,0,1.03,0.12
@@ -55328,7 +55328,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-17,USA-01005,Barbour,Alabama,0,9.71,39.35,0,0.03,0.11
 2023-01-17,USA-01003,Baldwin,Alabama,0,48,21.5,0,0.11,0.05
 2023-01-17,USA-01001,Autauga,Alabama,0,16.14,28.89,0,0.04,0.07
-2023-01-17,USA-60999,Unknown,American Samoa,0,0,,0,0,
+2023-01-17,USA-60999,Unknown,American Samoa,0,6.14,,0,0,
 2023-01-17,USA-69120,Tinian,Northern Mariana Islands,0,1.86,59.22,0,0,0
 2023-01-17,USA-69110,Saipan,Northern Mariana Islands,0,20.71,42.96,0,0,0
 2023-01-17,USA-69100,Rota,Northern Mariana Islands,0,0.14,5.65,0,0,0
