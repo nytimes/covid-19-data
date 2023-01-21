@@ -472,7 +472,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-01,USA-48463,Uvalde,Texas,0,2,7.48,0,0,0
 2023-01-01,USA-48461,Upton,Texas,0,0.14,3.91,0,0,0
 2023-01-01,USA-48459,Upshur,Texas,0,2.71,6.5,0,0,0
-2023-01-01,USA-48999,Unknown,Texas,-1467,1316,,0,0,
+2023-01-01,USA-48999,Unknown,Texas,0,795.09,,0,0,
 2023-01-01,USA-48457,Tyler,Texas,0,3,13.84,0,0.02,0.09
 2023-01-01,USA-48455,Trinity,Texas,0,1.29,8.78,0,0.02,0.15
 2023-01-01,USA-48453,Travis,Texas,0,220,17.27,0,0.15,0.01
@@ -666,7 +666,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-01,USA-48077,Clay,Texas,0,0.57,5.46,0,0,0
 2023-01-01,USA-48075,Childress,Texas,0,3,41.06,0,0,0
 2023-01-01,USA-48073,Cherokee,Texas,0,6.43,12.21,0,0.03,0.06
-2023-01-01,USA-48071,Chambers,Texas,0,0,0,0,0,0
+2023-01-01,USA-48071,Chambers,Texas,0,6,13.69,0,0,0
 2023-01-01,USA-48069,Castro,Texas,0,2.71,36.05,0,0,0
 2023-01-01,USA-48067,Cass,Texas,0,3.43,11.42,0,0.09,0.3
 2023-01-01,USA-48065,Carson,Texas,0,0.86,14.46,0,0,0
@@ -779,7 +779,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-01,USA-47043,Dickson,Tennessee,0,10.86,20.13,0,0.05,0.1
 2023-01-01,USA-47041,DeKalb,Tennessee,0,5.71,27.89,0,0.03,0.16
 2023-01-01,USA-47039,Decatur,Tennessee,0,3.29,28.17,0,0.03,0.29
-2023-01-01,USA-47037,Davidson,Tennessee,0,102.86,14.82,0,0.31,0.04
+2023-01-01,USA-47037,Davidson,Tennessee,-18255,102.86,14.82,0,0.31,0.04
 2023-01-01,USA-47035,Cumberland,Tennessee,0,5.57,9.21,0,0.11,0.19
 2023-01-01,USA-47033,Crockett,Tennessee,0,4.43,31.12,0,0,0
 2023-01-01,USA-47031,Coffee,Tennessee,0,10.29,18.2,0,0.08,0.14
@@ -3729,7 +3729,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-02,USA-48463,Uvalde,Texas,0,2,7.48,0,0,0
 2023-01-02,USA-48461,Upton,Texas,0,0.14,3.91,0,0,0
 2023-01-02,USA-48459,Upshur,Texas,0,2.71,6.5,0,0,0
-2023-01-02,USA-48999,Unknown,Texas,0,1316,,0,0,
+2023-01-02,USA-48999,Unknown,Texas,0,795.09,,0,0,
 2023-01-02,USA-48457,Tyler,Texas,0,3,13.84,0,0.02,0.09
 2023-01-02,USA-48455,Trinity,Texas,0,1.29,8.78,0,0.02,0.15
 2023-01-02,USA-48453,Travis,Texas,0,220,17.27,0,0.15,0.01
@@ -3923,7 +3923,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-02,USA-48077,Clay,Texas,0,0.57,5.46,0,0,0
 2023-01-02,USA-48075,Childress,Texas,0,3,41.06,0,0,0
 2023-01-02,USA-48073,Cherokee,Texas,0,6.43,12.21,0,0.03,0.06
-2023-01-02,USA-48071,Chambers,Texas,0,0,0,0,0,0
+2023-01-02,USA-48071,Chambers,Texas,0,6,13.69,0,0,0
 2023-01-02,USA-48069,Castro,Texas,0,2.71,36.05,0,0,0
 2023-01-02,USA-48067,Cass,Texas,0,3.43,11.42,0,0.09,0.3
 2023-01-02,USA-48065,Carson,Texas,0,0.86,14.46,0,0,0
@@ -6986,7 +6986,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-03,USA-48463,Uvalde,Texas,0,2,7.48,0,0,0
 2023-01-03,USA-48461,Upton,Texas,0,0.14,3.91,0,0,0
 2023-01-03,USA-48459,Upshur,Texas,0,2.71,6.5,0,0,0
-2023-01-03,USA-48999,Unknown,Texas,0,1316,,0,0,
+2023-01-03,USA-48999,Unknown,Texas,-1467,795.09,,0,0,
 2023-01-03,USA-48457,Tyler,Texas,0,3,13.84,0,0.02,0.09
 2023-01-03,USA-48455,Trinity,Texas,0,1.29,8.78,0,0.02,0.15
 2023-01-03,USA-48453,Travis,Texas,0,220,17.27,0,0.15,0.01
@@ -7180,7 +7180,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-03,USA-48077,Clay,Texas,0,0.57,5.46,0,0,0
 2023-01-03,USA-48075,Childress,Texas,0,3,41.06,0,0,0
 2023-01-03,USA-48073,Cherokee,Texas,0,6.43,12.21,0,0.03,0.06
-2023-01-03,USA-48071,Chambers,Texas,0,0,0,0,0,0
+2023-01-03,USA-48071,Chambers,Texas,0,6,13.69,0,0,0
 2023-01-03,USA-48069,Castro,Texas,0,2.71,36.05,0,0,0
 2023-01-03,USA-48067,Cass,Texas,0,3.43,11.42,0,0.09,0.3
 2023-01-03,USA-48065,Carson,Texas,0,0.86,14.46,0,0,0
@@ -10242,7 +10242,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-04,USA-48463,Uvalde,Texas,17,2.43,9.08,1,0.03,0.12
 2023-01-04,USA-48461,Upton,Texas,6,0.86,23.44,0,0,0
 2023-01-04,USA-48459,Upshur,Texas,17,2.43,5.82,2,0.07,0.16
-2023-01-04,USA-48999,Unknown,Texas,0,1316,,0,0,
+2023-01-04,USA-48999,Unknown,Texas,0,795.09,,0,0,
 2023-01-04,USA-48457,Tyler,Texas,64,9.14,42.19,1,0.03,0.12
 2023-01-04,USA-48455,Trinity,Texas,9,1.29,8.78,1,0.03,0.18
 2023-01-04,USA-48453,Travis,Texas,1797,256.71,20.15,7,0.28,0.02
@@ -10436,7 +10436,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-04,USA-48077,Clay,Texas,14,2,19.1,0,0,0
 2023-01-04,USA-48075,Childress,Texas,15,2.14,29.33,0,0,0
 2023-01-04,USA-48073,Cherokee,Texas,72,10.29,19.54,0,0.03,0.06
-2023-01-04,USA-48071,Chambers,Texas,0,0,0,2,0.07,0.15
+2023-01-04,USA-48071,Chambers,Texas,75,10.71,24.44,2,0.07,0.15
 2023-01-04,USA-48069,Castro,Texas,19,2.71,36.05,0,0,0
 2023-01-04,USA-48067,Cass,Texas,39,5.57,18.56,0,0.09,0.3
 2023-01-04,USA-48065,Carson,Texas,2,0.29,4.82,1,0.03,0.56
@@ -10549,7 +10549,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-04,USA-47043,Dickson,Tennessee,157,22.43,41.57,0,0.05,0.1
 2023-01-04,USA-47041,DeKalb,Tennessee,84,12,58.57,0,0.03,0.16
 2023-01-04,USA-47039,Decatur,Tennessee,21,3,25.72,0,0.03,0.29
-2023-01-04,USA-47037,Davidson,Tennessee,0,102.86,14.82,5,0.49,0.07
+2023-01-04,USA-47037,Davidson,Tennessee,757,113.62,16.37,5,0.49,0.07
 2023-01-04,USA-47035,Cumberland,Tennessee,48,6.86,11.33,0,0.11,0.19
 2023-01-04,USA-47033,Crockett,Tennessee,58,8.29,58.23,0,0,0
 2023-01-04,USA-47031,Coffee,Tennessee,96,13.71,24.26,0,0.08,0.14
@@ -13498,7 +13498,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-05,USA-48463,Uvalde,Texas,0,2.43,9.08,0,0.03,0.12
 2023-01-05,USA-48461,Upton,Texas,0,0.86,23.44,0,0,0
 2023-01-05,USA-48459,Upshur,Texas,0,2.43,5.82,0,0.07,0.16
-2023-01-05,USA-48999,Unknown,Texas,0,1316,,0,0,
+2023-01-05,USA-48999,Unknown,Texas,0,795.09,,0,0,
 2023-01-05,USA-48457,Tyler,Texas,0,9.14,42.19,0,0.03,0.12
 2023-01-05,USA-48455,Trinity,Texas,0,1.29,8.78,0,0.03,0.18
 2023-01-05,USA-48453,Travis,Texas,0,256.71,20.15,0,0.28,0.02
@@ -13692,7 +13692,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-05,USA-48077,Clay,Texas,0,2,19.1,0,0,0
 2023-01-05,USA-48075,Childress,Texas,0,2.14,29.33,0,0,0
 2023-01-05,USA-48073,Cherokee,Texas,0,10.29,19.54,0,0.03,0.06
-2023-01-05,USA-48071,Chambers,Texas,0,0,0,0,0.07,0.15
+2023-01-05,USA-48071,Chambers,Texas,0,10.71,24.44,0,0.07,0.15
 2023-01-05,USA-48069,Castro,Texas,0,2.71,36.05,0,0,0
 2023-01-05,USA-48067,Cass,Texas,0,5.57,18.56,0,0.09,0.3
 2023-01-05,USA-48065,Carson,Texas,0,0.29,4.82,0,0.03,0.56
@@ -13805,7 +13805,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-05,USA-47043,Dickson,Tennessee,0,22.43,41.57,0,0.05,0.1
 2023-01-05,USA-47041,DeKalb,Tennessee,0,12,58.57,0,0.03,0.16
 2023-01-05,USA-47039,Decatur,Tennessee,0,3,25.72,0,0.03,0.29
-2023-01-05,USA-47037,Davidson,Tennessee,0,102.86,14.82,0,0.49,0.07
+2023-01-05,USA-47037,Davidson,Tennessee,0,113.62,16.37,0,0.49,0.07
 2023-01-05,USA-47035,Cumberland,Tennessee,0,6.86,11.33,0,0.11,0.19
 2023-01-05,USA-47033,Crockett,Tennessee,0,8.29,58.23,0,0,0
 2023-01-05,USA-47031,Coffee,Tennessee,0,13.71,24.26,0,0.08,0.14
@@ -16754,7 +16754,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-06,USA-48463,Uvalde,Texas,0,2.43,9.08,0,0.03,0.12
 2023-01-06,USA-48461,Upton,Texas,0,0.86,23.44,0,0,0
 2023-01-06,USA-48459,Upshur,Texas,0,2.43,5.82,0,0.07,0.16
-2023-01-06,USA-48999,Unknown,Texas,0,1316,,0,0,
+2023-01-06,USA-48999,Unknown,Texas,3561,1248.88,,0,0,
 2023-01-06,USA-48457,Tyler,Texas,0,9.14,42.19,0,0.03,0.12
 2023-01-06,USA-48455,Trinity,Texas,0,1.29,8.78,0,0.03,0.18
 2023-01-06,USA-48453,Travis,Texas,0,256.71,20.15,0,0.28,0.02
@@ -16948,7 +16948,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-06,USA-48077,Clay,Texas,0,2,19.1,0,0,0
 2023-01-06,USA-48075,Childress,Texas,0,2.14,29.33,0,0,0
 2023-01-06,USA-48073,Cherokee,Texas,0,10.29,19.54,0,0.03,0.06
-2023-01-06,USA-48071,Chambers,Texas,0,0,0,0,0.07,0.15
+2023-01-06,USA-48071,Chambers,Texas,0,10.71,24.44,0,0.07,0.15
 2023-01-06,USA-48069,Castro,Texas,0,2.71,36.05,0,0,0
 2023-01-06,USA-48067,Cass,Texas,0,5.57,18.56,0,0.09,0.3
 2023-01-06,USA-48065,Carson,Texas,0,0.29,4.82,0,0.03,0.56
@@ -17061,7 +17061,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-06,USA-47043,Dickson,Tennessee,0,22.43,41.57,0,0.05,0.1
 2023-01-06,USA-47041,DeKalb,Tennessee,0,12,58.57,0,0.03,0.16
 2023-01-06,USA-47039,Decatur,Tennessee,0,3,25.72,0,0.03,0.29
-2023-01-06,USA-47037,Davidson,Tennessee,0,102.86,14.82,0,0.49,0.07
+2023-01-06,USA-47037,Davidson,Tennessee,0,113.62,16.37,0,0.49,0.07
 2023-01-06,USA-47035,Cumberland,Tennessee,0,6.86,11.33,0,0.11,0.19
 2023-01-06,USA-47033,Crockett,Tennessee,0,8.29,58.23,0,0,0
 2023-01-06,USA-47031,Coffee,Tennessee,0,13.71,24.26,0,0.08,0.14
@@ -20010,7 +20010,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-07,USA-48463,Uvalde,Texas,0,2.43,9.08,0,0.03,0.12
 2023-01-07,USA-48461,Upton,Texas,0,0.86,23.44,0,0,0
 2023-01-07,USA-48459,Upshur,Texas,0,2.43,5.82,0,0.07,0.16
-2023-01-07,USA-48999,Unknown,Texas,3561,628.5,,0,0,
+2023-01-07,USA-48999,Unknown,Texas,0,1248.88,,0,0,
 2023-01-07,USA-48457,Tyler,Texas,0,9.14,42.19,0,0.03,0.12
 2023-01-07,USA-48455,Trinity,Texas,0,1.29,8.78,0,0.03,0.18
 2023-01-07,USA-48453,Travis,Texas,0,256.71,20.15,0,0.28,0.02
@@ -20204,7 +20204,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-07,USA-48077,Clay,Texas,0,2,19.1,0,0,0
 2023-01-07,USA-48075,Childress,Texas,0,2.14,29.33,0,0,0
 2023-01-07,USA-48073,Cherokee,Texas,0,10.29,19.54,0,0.03,0.06
-2023-01-07,USA-48071,Chambers,Texas,0,0,0,0,0.07,0.15
+2023-01-07,USA-48071,Chambers,Texas,0,10.71,24.44,0,0.07,0.15
 2023-01-07,USA-48069,Castro,Texas,0,2.71,36.05,0,0,0
 2023-01-07,USA-48067,Cass,Texas,0,5.57,18.56,0,0.09,0.3
 2023-01-07,USA-48065,Carson,Texas,0,0.29,4.82,0,0.03,0.56
@@ -20317,7 +20317,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-07,USA-47043,Dickson,Tennessee,0,22.43,41.57,0,0.05,0.1
 2023-01-07,USA-47041,DeKalb,Tennessee,0,12,58.57,0,0.03,0.16
 2023-01-07,USA-47039,Decatur,Tennessee,0,3,25.72,0,0.03,0.29
-2023-01-07,USA-47037,Davidson,Tennessee,0,102.86,14.82,0,0.49,0.07
+2023-01-07,USA-47037,Davidson,Tennessee,0,113.62,16.37,0,0.49,0.07
 2023-01-07,USA-47035,Cumberland,Tennessee,0,6.86,11.33,0,0.11,0.19
 2023-01-07,USA-47033,Crockett,Tennessee,0,8.29,58.23,0,0,0
 2023-01-07,USA-47031,Coffee,Tennessee,0,13.71,24.26,0,0.08,0.14
@@ -23266,7 +23266,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-08,USA-48463,Uvalde,Texas,0,2.43,9.08,0,0.03,0.12
 2023-01-08,USA-48461,Upton,Texas,0,0.86,23.44,0,0,0
 2023-01-08,USA-48459,Upshur,Texas,0,2.43,5.82,0,0.07,0.16
-2023-01-08,USA-48999,Unknown,Texas,-3561,628.5,,0,0,
+2023-01-08,USA-48999,Unknown,Texas,-3561,1248.88,,0,0,
 2023-01-08,USA-48457,Tyler,Texas,0,9.14,42.19,0,0.03,0.12
 2023-01-08,USA-48455,Trinity,Texas,0,1.29,8.78,0,0.03,0.18
 2023-01-08,USA-48453,Travis,Texas,0,256.71,20.15,0,0.28,0.02
@@ -23460,7 +23460,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-08,USA-48077,Clay,Texas,0,2,19.1,0,0,0
 2023-01-08,USA-48075,Childress,Texas,0,2.14,29.33,0,0,0
 2023-01-08,USA-48073,Cherokee,Texas,0,10.29,19.54,0,0.03,0.06
-2023-01-08,USA-48071,Chambers,Texas,0,0,0,0,0.07,0.15
+2023-01-08,USA-48071,Chambers,Texas,0,10.71,24.44,0,0.07,0.15
 2023-01-08,USA-48069,Castro,Texas,0,2.71,36.05,0,0,0
 2023-01-08,USA-48067,Cass,Texas,0,5.57,18.56,0,0.09,0.3
 2023-01-08,USA-48065,Carson,Texas,0,0.29,4.82,0,0.03,0.56
@@ -23573,7 +23573,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-08,USA-47043,Dickson,Tennessee,0,22.43,41.57,0,0.05,0.1
 2023-01-08,USA-47041,DeKalb,Tennessee,0,12,58.57,0,0.03,0.16
 2023-01-08,USA-47039,Decatur,Tennessee,0,3,25.72,0,0.03,0.29
-2023-01-08,USA-47037,Davidson,Tennessee,0,102.86,14.82,0,0.49,0.07
+2023-01-08,USA-47037,Davidson,Tennessee,0,113.62,16.37,0,0.49,0.07
 2023-01-08,USA-47035,Cumberland,Tennessee,0,6.86,11.33,0,0.11,0.19
 2023-01-08,USA-47033,Crockett,Tennessee,0,8.29,58.23,0,0,0
 2023-01-08,USA-47031,Coffee,Tennessee,0,13.71,24.26,0,0.08,0.14
@@ -26716,7 +26716,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-09,USA-48077,Clay,Texas,0,2,19.1,0,0,0
 2023-01-09,USA-48075,Childress,Texas,0,2.14,29.33,0,0,0
 2023-01-09,USA-48073,Cherokee,Texas,0,10.29,19.54,0,0.03,0.06
-2023-01-09,USA-48071,Chambers,Texas,0,0,0,0,0.07,0.15
+2023-01-09,USA-48071,Chambers,Texas,0,10.71,24.44,0,0.07,0.15
 2023-01-09,USA-48069,Castro,Texas,0,2.71,36.05,0,0,0
 2023-01-09,USA-48067,Cass,Texas,0,5.57,18.56,0,0.09,0.3
 2023-01-09,USA-48065,Carson,Texas,0,0.29,4.82,0,0.03,0.56
@@ -26829,7 +26829,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-09,USA-47043,Dickson,Tennessee,0,22.43,41.57,0,0.05,0.1
 2023-01-09,USA-47041,DeKalb,Tennessee,0,12,58.57,0,0.03,0.16
 2023-01-09,USA-47039,Decatur,Tennessee,0,3,25.72,0,0.03,0.29
-2023-01-09,USA-47037,Davidson,Tennessee,0,102.86,14.82,0,0.49,0.07
+2023-01-09,USA-47037,Davidson,Tennessee,0,113.62,16.37,0,0.49,0.07
 2023-01-09,USA-47035,Cumberland,Tennessee,0,6.86,11.33,0,0.11,0.19
 2023-01-09,USA-47033,Crockett,Tennessee,0,8.29,58.23,0,0,0
 2023-01-09,USA-47031,Coffee,Tennessee,0,13.71,24.26,0,0.08,0.14
@@ -29778,7 +29778,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-10,USA-48463,Uvalde,Texas,0,2.43,9.08,0,0.03,0.12
 2023-01-10,USA-48461,Upton,Texas,0,0.86,23.44,0,0,0
 2023-01-10,USA-48459,Upshur,Texas,0,2.43,5.82,0,0.07,0.16
-2023-01-10,USA-48999,Unknown,Texas,-1233,684.86,,0,0,
+2023-01-10,USA-48999,Unknown,Texas,-762,684.86,,0,0,
 2023-01-10,USA-48457,Tyler,Texas,0,9.14,42.19,0,0.03,0.12
 2023-01-10,USA-48455,Trinity,Texas,0,1.29,8.78,0,0.03,0.18
 2023-01-10,USA-48453,Travis,Texas,0,256.71,20.15,0,0.28,0.02
@@ -29972,7 +29972,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-10,USA-48077,Clay,Texas,0,2,19.1,0,0,0
 2023-01-10,USA-48075,Childress,Texas,0,2.14,29.33,0,0,0
 2023-01-10,USA-48073,Cherokee,Texas,0,10.29,19.54,0,0.03,0.06
-2023-01-10,USA-48071,Chambers,Texas,0,0,0,0,0.07,0.15
+2023-01-10,USA-48071,Chambers,Texas,0,10.71,24.44,0,0.07,0.15
 2023-01-10,USA-48069,Castro,Texas,0,2.71,36.05,0,0,0
 2023-01-10,USA-48067,Cass,Texas,0,5.57,18.56,0,0.09,0.3
 2023-01-10,USA-48065,Carson,Texas,0,0.29,4.82,0,0.03,0.56
@@ -30085,7 +30085,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-10,USA-47043,Dickson,Tennessee,0,22.43,41.57,0,0.05,0.1
 2023-01-10,USA-47041,DeKalb,Tennessee,0,12,58.57,0,0.03,0.16
 2023-01-10,USA-47039,Decatur,Tennessee,0,3,25.72,0,0.03,0.29
-2023-01-10,USA-47037,Davidson,Tennessee,0,102.86,14.82,0,0.49,0.07
+2023-01-10,USA-47037,Davidson,Tennessee,0,113.62,16.37,0,0.49,0.07
 2023-01-10,USA-47035,Cumberland,Tennessee,0,6.86,11.33,0,0.11,0.19
 2023-01-10,USA-47033,Crockett,Tennessee,0,8.29,58.23,0,0,0
 2023-01-10,USA-47031,Coffee,Tennessee,0,13.71,24.26,0,0.08,0.14
@@ -33034,7 +33034,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-11,USA-48463,Uvalde,Texas,9,1.29,4.81,0,0.03,0.12
 2023-01-11,USA-48461,Upton,Texas,5,0.71,19.53,0,0,0
 2023-01-11,USA-48459,Upshur,Texas,25,3.57,8.55,0,0.07,0.16
-2023-01-11,USA-48999,Unknown,Texas,0,684.86,,0,0,
+2023-01-11,USA-48999,Unknown,Texas,4671,1183.13,,0,0,
 2023-01-11,USA-48457,Tyler,Texas,56,8,36.91,0,0.03,0.12
 2023-01-11,USA-48455,Trinity,Texas,12,1.71,11.7,0,0.03,0.18
 2023-01-11,USA-48453,Travis,Texas,1392,198.86,15.61,4,0.46,0.04
@@ -33228,7 +33228,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-11,USA-48077,Clay,Texas,21,3,28.65,0,0,0
 2023-01-11,USA-48075,Childress,Texas,36,5.14,70.39,0,0,0
 2023-01-11,USA-48073,Cherokee,Texas,61,8.71,16.55,0,0.03,0.06
-2023-01-11,USA-48071,Chambers,Texas,0,0,0,0,0.07,0.15
+2023-01-11,USA-48071,Chambers,Texas,82,11.71,26.72,0,0.07,0.15
 2023-01-11,USA-48069,Castro,Texas,28,4,53.12,0,0,0
 2023-01-11,USA-48067,Cass,Texas,24,3.43,11.42,0,0.09,0.3
 2023-01-11,USA-48065,Carson,Texas,3,0.43,7.23,0,0.03,0.56
@@ -33341,7 +33341,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-11,USA-47043,Dickson,Tennessee,104,14.86,27.54,0,0.05,0.1
 2023-01-11,USA-47041,DeKalb,Tennessee,60,8.57,41.83,0,0.03,0.16
 2023-01-11,USA-47039,Decatur,Tennessee,28,4,34.3,0,0.03,0.29
-2023-01-11,USA-47037,Davidson,Tennessee,0,0,0,9,0.71,0.1
+2023-01-11,USA-47037,Davidson,Tennessee,783,111.86,16.11,9,0.71,0.1
 2023-01-11,USA-47035,Cumberland,Tennessee,71,10.14,16.76,2,0.06,0.09
 2023-01-11,USA-47033,Crockett,Tennessee,50,7.14,50.2,0,0,0
 2023-01-11,USA-47031,Coffee,Tennessee,110,15.71,27.8,2,0.09,0.15
@@ -36290,7 +36290,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-12,USA-48463,Uvalde,Texas,0,1.29,4.81,0,0.03,0.12
 2023-01-12,USA-48461,Upton,Texas,0,0.71,19.53,0,0,0
 2023-01-12,USA-48459,Upshur,Texas,0,3.57,8.55,0,0.07,0.16
-2023-01-12,USA-48999,Unknown,Texas,0,684.86,,0,0,
+2023-01-12,USA-48999,Unknown,Texas,-5142,1183.13,,0,0,
 2023-01-12,USA-48457,Tyler,Texas,0,8,36.91,0,0.03,0.12
 2023-01-12,USA-48455,Trinity,Texas,0,1.71,11.7,0,0.03,0.18
 2023-01-12,USA-48453,Travis,Texas,0,198.86,15.61,0,0.46,0.04
@@ -36484,7 +36484,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-12,USA-48077,Clay,Texas,0,3,28.65,0,0,0
 2023-01-12,USA-48075,Childress,Texas,0,5.14,70.39,0,0,0
 2023-01-12,USA-48073,Cherokee,Texas,0,8.71,16.55,0,0.03,0.06
-2023-01-12,USA-48071,Chambers,Texas,0,0,0,0,0.07,0.15
+2023-01-12,USA-48071,Chambers,Texas,0,11.71,26.72,0,0.07,0.15
 2023-01-12,USA-48069,Castro,Texas,0,4,53.12,0,0,0
 2023-01-12,USA-48067,Cass,Texas,0,3.43,11.42,0,0.09,0.3
 2023-01-12,USA-48065,Carson,Texas,0,0.43,7.23,0,0.03,0.56
@@ -36597,7 +36597,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-12,USA-47043,Dickson,Tennessee,0,14.86,27.54,0,0.05,0.1
 2023-01-12,USA-47041,DeKalb,Tennessee,0,8.57,41.83,0,0.03,0.16
 2023-01-12,USA-47039,Decatur,Tennessee,0,4,34.3,0,0.03,0.29
-2023-01-12,USA-47037,Davidson,Tennessee,0,0,0,0,0.71,0.1
+2023-01-12,USA-47037,Davidson,Tennessee,0,111.86,16.11,0,0.71,0.1
 2023-01-12,USA-47035,Cumberland,Tennessee,0,10.14,16.76,0,0.06,0.09
 2023-01-12,USA-47033,Crockett,Tennessee,0,7.14,50.2,0,0,0
 2023-01-12,USA-47031,Coffee,Tennessee,0,15.71,27.8,0,0.09,0.15
@@ -39546,7 +39546,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-13,USA-48463,Uvalde,Texas,0,1.29,4.81,0,0.03,0.12
 2023-01-13,USA-48461,Upton,Texas,0,0.71,19.53,0,0,0
 2023-01-13,USA-48459,Upshur,Texas,0,3.57,8.55,0,0.07,0.16
-2023-01-13,USA-48999,Unknown,Texas,0,684.86,,0,0,
+2023-01-13,USA-48999,Unknown,Texas,2645,1345.56,,0,0,
 2023-01-13,USA-48457,Tyler,Texas,0,8,36.91,0,0.03,0.12
 2023-01-13,USA-48455,Trinity,Texas,0,1.71,11.7,0,0.03,0.18
 2023-01-13,USA-48453,Travis,Texas,0,198.86,15.61,0,0.46,0.04
@@ -39740,7 +39740,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-13,USA-48077,Clay,Texas,0,3,28.65,0,0,0
 2023-01-13,USA-48075,Childress,Texas,0,5.14,70.39,0,0,0
 2023-01-13,USA-48073,Cherokee,Texas,0,8.71,16.55,0,0.03,0.06
-2023-01-13,USA-48071,Chambers,Texas,0,0,0,0,0.07,0.15
+2023-01-13,USA-48071,Chambers,Texas,0,11.71,26.72,0,0.07,0.15
 2023-01-13,USA-48069,Castro,Texas,0,4,53.12,0,0,0
 2023-01-13,USA-48067,Cass,Texas,0,3.43,11.42,0,0.09,0.3
 2023-01-13,USA-48065,Carson,Texas,0,0.43,7.23,0,0.03,0.56
@@ -39853,7 +39853,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-13,USA-47043,Dickson,Tennessee,0,14.86,27.54,0,0.05,0.1
 2023-01-13,USA-47041,DeKalb,Tennessee,0,8.57,41.83,0,0.03,0.16
 2023-01-13,USA-47039,Decatur,Tennessee,0,4,34.3,0,0.03,0.29
-2023-01-13,USA-47037,Davidson,Tennessee,0,0,0,0,0.71,0.1
+2023-01-13,USA-47037,Davidson,Tennessee,0,111.86,16.11,0,0.71,0.1
 2023-01-13,USA-47035,Cumberland,Tennessee,0,10.14,16.76,0,0.06,0.09
 2023-01-13,USA-47033,Crockett,Tennessee,0,7.14,50.2,0,0,0
 2023-01-13,USA-47031,Coffee,Tennessee,0,15.71,27.8,0,0.09,0.15
@@ -42802,7 +42802,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-14,USA-48463,Uvalde,Texas,0,1.29,4.81,0,0.03,0.12
 2023-01-14,USA-48461,Upton,Texas,0,0.71,19.53,0,0,0
 2023-01-14,USA-48459,Upshur,Texas,0,3.57,8.55,0,0.07,0.16
-2023-01-14,USA-48999,Unknown,Texas,0,684.86,,0,0,
+2023-01-14,USA-48999,Unknown,Texas,-2645,1345.56,,0,0,
 2023-01-14,USA-48457,Tyler,Texas,0,8,36.91,0,0.03,0.12
 2023-01-14,USA-48455,Trinity,Texas,0,1.71,11.7,0,0.03,0.18
 2023-01-14,USA-48453,Travis,Texas,0,198.86,15.61,0,0.46,0.04
@@ -42996,7 +42996,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-14,USA-48077,Clay,Texas,0,3,28.65,0,0,0
 2023-01-14,USA-48075,Childress,Texas,0,5.14,70.39,0,0,0
 2023-01-14,USA-48073,Cherokee,Texas,0,8.71,16.55,0,0.03,0.06
-2023-01-14,USA-48071,Chambers,Texas,0,0,0,0,0.07,0.15
+2023-01-14,USA-48071,Chambers,Texas,0,11.71,26.72,0,0.07,0.15
 2023-01-14,USA-48069,Castro,Texas,0,4,53.12,0,0,0
 2023-01-14,USA-48067,Cass,Texas,0,3.43,11.42,0,0.09,0.3
 2023-01-14,USA-48065,Carson,Texas,0,0.43,7.23,0,0.03,0.56
@@ -43109,7 +43109,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-14,USA-47043,Dickson,Tennessee,0,14.86,27.54,0,0.05,0.1
 2023-01-14,USA-47041,DeKalb,Tennessee,0,8.57,41.83,0,0.03,0.16
 2023-01-14,USA-47039,Decatur,Tennessee,0,4,34.3,0,0.03,0.29
-2023-01-14,USA-47037,Davidson,Tennessee,0,0,0,0,0.71,0.1
+2023-01-14,USA-47037,Davidson,Tennessee,0,111.86,16.11,0,0.71,0.1
 2023-01-14,USA-47035,Cumberland,Tennessee,0,10.14,16.76,0,0.06,0.09
 2023-01-14,USA-47033,Crockett,Tennessee,0,7.14,50.2,0,0,0
 2023-01-14,USA-47031,Coffee,Tennessee,0,15.71,27.8,0,0.09,0.15
@@ -46058,7 +46058,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-15,USA-48463,Uvalde,Texas,0,1.29,4.81,0,0.03,0.12
 2023-01-15,USA-48461,Upton,Texas,0,0.71,19.53,0,0,0
 2023-01-15,USA-48459,Upshur,Texas,0,3.57,8.55,0,0.07,0.16
-2023-01-15,USA-48999,Unknown,Texas,2645,619.92,,0,0,
+2023-01-15,USA-48999,Unknown,Texas,2645,1475.5,,0,0,
 2023-01-15,USA-48457,Tyler,Texas,0,8,36.91,0,0.03,0.12
 2023-01-15,USA-48455,Trinity,Texas,0,1.71,11.7,0,0.03,0.18
 2023-01-15,USA-48453,Travis,Texas,0,198.86,15.61,0,0.46,0.04
@@ -46252,7 +46252,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-15,USA-48077,Clay,Texas,0,3,28.65,0,0,0
 2023-01-15,USA-48075,Childress,Texas,0,5.14,70.39,0,0,0
 2023-01-15,USA-48073,Cherokee,Texas,0,8.71,16.55,0,0.03,0.06
-2023-01-15,USA-48071,Chambers,Texas,0,0,0,0,0.07,0.15
+2023-01-15,USA-48071,Chambers,Texas,0,11.71,26.72,0,0.07,0.15
 2023-01-15,USA-48069,Castro,Texas,0,4,53.12,0,0,0
 2023-01-15,USA-48067,Cass,Texas,0,3.43,11.42,0,0.09,0.3
 2023-01-15,USA-48065,Carson,Texas,0,0.43,7.23,0,0.03,0.56
@@ -46365,7 +46365,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-15,USA-47043,Dickson,Tennessee,0,14.86,27.54,0,0.05,0.1
 2023-01-15,USA-47041,DeKalb,Tennessee,0,8.57,41.83,0,0.03,0.16
 2023-01-15,USA-47039,Decatur,Tennessee,0,4,34.3,0,0.03,0.29
-2023-01-15,USA-47037,Davidson,Tennessee,0,0,0,0,0.71,0.1
+2023-01-15,USA-47037,Davidson,Tennessee,0,111.86,16.11,0,0.71,0.1
 2023-01-15,USA-47035,Cumberland,Tennessee,0,10.14,16.76,0,0.06,0.09
 2023-01-15,USA-47033,Crockett,Tennessee,0,7.14,50.2,0,0,0
 2023-01-15,USA-47031,Coffee,Tennessee,0,15.71,27.8,0,0.09,0.15
@@ -49314,7 +49314,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-16,USA-48463,Uvalde,Texas,0,1.29,4.81,0,0.03,0.12
 2023-01-16,USA-48461,Upton,Texas,0,0.71,19.53,0,0,0
 2023-01-16,USA-48459,Upshur,Texas,0,3.57,8.55,0,0.07,0.16
-2023-01-16,USA-48999,Unknown,Texas,0,619.92,,0,0,
+2023-01-16,USA-48999,Unknown,Texas,0,1475.5,,0,0,
 2023-01-16,USA-48457,Tyler,Texas,0,8,36.91,0,0.03,0.12
 2023-01-16,USA-48455,Trinity,Texas,0,1.71,11.7,0,0.03,0.18
 2023-01-16,USA-48453,Travis,Texas,0,198.86,15.61,0,0.46,0.04
@@ -49508,7 +49508,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-16,USA-48077,Clay,Texas,0,3,28.65,0,0,0
 2023-01-16,USA-48075,Childress,Texas,0,5.14,70.39,0,0,0
 2023-01-16,USA-48073,Cherokee,Texas,0,8.71,16.55,0,0.03,0.06
-2023-01-16,USA-48071,Chambers,Texas,0,0,0,0,0.07,0.15
+2023-01-16,USA-48071,Chambers,Texas,0,11.71,26.72,0,0.07,0.15
 2023-01-16,USA-48069,Castro,Texas,0,4,53.12,0,0,0
 2023-01-16,USA-48067,Cass,Texas,0,3.43,11.42,0,0.09,0.3
 2023-01-16,USA-48065,Carson,Texas,0,0.43,7.23,0,0.03,0.56
@@ -49621,7 +49621,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-16,USA-47043,Dickson,Tennessee,0,14.86,27.54,0,0.05,0.1
 2023-01-16,USA-47041,DeKalb,Tennessee,0,8.57,41.83,0,0.03,0.16
 2023-01-16,USA-47039,Decatur,Tennessee,0,4,34.3,0,0.03,0.29
-2023-01-16,USA-47037,Davidson,Tennessee,0,0,0,0,0.71,0.1
+2023-01-16,USA-47037,Davidson,Tennessee,0,111.86,16.11,0,0.71,0.1
 2023-01-16,USA-47035,Cumberland,Tennessee,0,10.14,16.76,0,0.06,0.09
 2023-01-16,USA-47033,Crockett,Tennessee,0,7.14,50.2,0,0,0
 2023-01-16,USA-47031,Coffee,Tennessee,0,15.71,27.8,0,0.09,0.15
@@ -52570,7 +52570,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-17,USA-48463,Uvalde,Texas,0,1.29,4.81,0,0.03,0.12
 2023-01-17,USA-48461,Upton,Texas,0,0.71,19.53,0,0,0
 2023-01-17,USA-48459,Upshur,Texas,0,3.57,8.55,0,0.07,0.16
-2023-01-17,USA-48999,Unknown,Texas,-698,619.92,,0,0,
+2023-01-17,USA-48999,Unknown,Texas,-698,1475.5,,0,0,
 2023-01-17,USA-48457,Tyler,Texas,0,8,36.91,0,0.03,0.12
 2023-01-17,USA-48455,Trinity,Texas,0,1.71,11.7,0,0.03,0.18
 2023-01-17,USA-48453,Travis,Texas,0,198.86,15.61,0,0.46,0.04
@@ -52764,7 +52764,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-17,USA-48077,Clay,Texas,0,3,28.65,0,0,0
 2023-01-17,USA-48075,Childress,Texas,0,5.14,70.39,0,0,0
 2023-01-17,USA-48073,Cherokee,Texas,0,8.71,16.55,0,0.03,0.06
-2023-01-17,USA-48071,Chambers,Texas,0,0,0,0,0.07,0.15
+2023-01-17,USA-48071,Chambers,Texas,0,11.71,26.72,0,0.07,0.15
 2023-01-17,USA-48069,Castro,Texas,0,4,53.12,0,0,0
 2023-01-17,USA-48067,Cass,Texas,0,3.43,11.42,0,0.09,0.3
 2023-01-17,USA-48065,Carson,Texas,0,0.43,7.23,0,0.03,0.56
@@ -52877,7 +52877,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-17,USA-47043,Dickson,Tennessee,0,14.86,27.54,0,0.05,0.1
 2023-01-17,USA-47041,DeKalb,Tennessee,0,8.57,41.83,0,0.03,0.16
 2023-01-17,USA-47039,Decatur,Tennessee,0,4,34.3,0,0.03,0.29
-2023-01-17,USA-47037,Davidson,Tennessee,0,0,0,0,0.71,0.1
+2023-01-17,USA-47037,Davidson,Tennessee,0,111.86,16.11,0,0.71,0.1
 2023-01-17,USA-47035,Cumberland,Tennessee,0,10.14,16.76,0,0.06,0.09
 2023-01-17,USA-47033,Crockett,Tennessee,0,7.14,50.2,0,0,0
 2023-01-17,USA-47031,Coffee,Tennessee,0,15.71,27.8,0,0.09,0.15
@@ -55826,7 +55826,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-18,USA-48463,Uvalde,Texas,7,1,3.74,1,0.07,0.25
 2023-01-18,USA-48461,Upton,Texas,2,0.29,7.81,0,0,0
 2023-01-18,USA-48459,Upshur,Texas,17,2.43,5.82,0,0.07,0.16
-2023-01-18,USA-48999,Unknown,Texas,3663,901.14,,0,0,
+2023-01-18,USA-48999,Unknown,Texas,3663,2122.43,,0,0,
 2023-01-18,USA-48457,Tyler,Texas,26,3.71,17.14,0,0.03,0.12
 2023-01-18,USA-48455,Trinity,Texas,8,1.14,7.8,1,0.05,0.33
 2023-01-18,USA-48453,Travis,Texas,1303,186.14,14.61,1,0.43,0.03
@@ -56020,7 +56020,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-18,USA-48077,Clay,Texas,15,2.14,20.46,0,0,0
 2023-01-18,USA-48075,Childress,Texas,13,1.86,25.42,0,0,0
 2023-01-18,USA-48073,Cherokee,Texas,40,5.71,10.85,0,0.03,0.06
-2023-01-18,USA-48071,Chambers,Texas,0,0,0,0,0.07,0.15
+2023-01-18,USA-48071,Chambers,Texas,63,9,20.53,0,0.07,0.15
 2023-01-18,USA-48069,Castro,Texas,13,1.86,24.66,0,0,0
 2023-01-18,USA-48067,Cass,Texas,13,1.86,6.19,0,0.09,0.3
 2023-01-18,USA-48065,Carson,Texas,3,0.43,7.23,0,0.03,0.56
@@ -56133,7 +56133,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-18,USA-47043,Dickson,Tennessee,85,12.14,22.51,7,0.17,0.31
 2023-01-18,USA-47041,DeKalb,Tennessee,33,4.71,23.01,1,0.03,0.14
 2023-01-18,USA-47039,Decatur,Tennessee,29,4.14,35.52,0,0.03,0.29
-2023-01-18,USA-47037,Davidson,Tennessee,0,0,0,5,0.71,0.1
+2023-01-18,USA-47037,Davidson,Tennessee,498,71.14,10.25,5,0.71,0.1
 2023-01-18,USA-47035,Cumberland,Tennessee,30,4.29,7.08,0,0.06,0.09
 2023-01-18,USA-47033,Crockett,Tennessee,28,4,28.11,0,0,0
 2023-01-18,USA-47031,Coffee,Tennessee,104,14.86,26.29,4,0.17,0.3
@@ -59081,7 +59081,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-19,USA-48463,Uvalde,Texas,0,1,3.74,0,0.07,0.25
 2023-01-19,USA-48461,Upton,Texas,0,0.29,7.81,0,0,0
 2023-01-19,USA-48459,Upshur,Texas,0,2.43,5.82,0,0.07,0.16
-2023-01-19,USA-48999,Unknown,Texas,-5545,901.14,,0,0,
+2023-01-19,USA-48999,Unknown,Texas,-796,2122.43,,0,0,
 2023-01-19,USA-48457,Tyler,Texas,0,3.71,17.14,0,0.03,0.12
 2023-01-19,USA-48455,Trinity,Texas,0,1.14,7.8,0,0.05,0.33
 2023-01-19,USA-48453,Travis,Texas,0,186.14,14.61,0,0.43,0.03
@@ -59275,7 +59275,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-19,USA-48077,Clay,Texas,0,2.14,20.46,0,0,0
 2023-01-19,USA-48075,Childress,Texas,0,1.86,25.42,0,0,0
 2023-01-19,USA-48073,Cherokee,Texas,0,5.71,10.85,0,0.03,0.06
-2023-01-19,USA-48071,Chambers,Texas,0,0,0,0,0.07,0.15
+2023-01-19,USA-48071,Chambers,Texas,0,9,20.53,0,0.07,0.15
 2023-01-19,USA-48069,Castro,Texas,0,1.86,24.66,0,0,0
 2023-01-19,USA-48067,Cass,Texas,0,1.86,6.19,0,0.09,0.3
 2023-01-19,USA-48065,Carson,Texas,0,0.43,7.23,0,0.03,0.56
@@ -59388,7 +59388,7 @@ date,geoid,county,state,cases,cases_avg,cases_avg_per_100k,deaths,deaths_avg,dea
 2023-01-19,USA-47043,Dickson,Tennessee,0,12.14,22.51,0,0.17,0.31
 2023-01-19,USA-47041,DeKalb,Tennessee,0,4.71,23.01,0,0.03,0.14
 2023-01-19,USA-47039,Decatur,Tennessee,0,4.14,35.52,0,0.03,0.29
-2023-01-19,USA-47037,Davidson,Tennessee,0,0,0,0,0.71,0.1
+2023-01-19,USA-47037,Davidson,Tennessee,0,71.14,10.25,0,0.71,0.1
 2023-01-19,USA-47035,Cumberland,Tennessee,0,4.29,7.08,0,0.06,0.09
 2023-01-19,USA-47033,Crockett,Tennessee,0,4,28.11,0,0,0
 2023-01-19,USA-47031,Coffee,Tennessee,0,14.86,26.29,0,0.17,0.3
