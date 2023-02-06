@@ -99,7 +99,7 @@ When deciding whether to exclude an anomaly from our rolling averages, we use ou
 
 We sometimes remove a day’s numbers from the rolling average at the state level, but not at the county level or vice versa, because county- and state-level data can come from different sources, or a state may provide a more detailed explanation of cases at the state level than it does at the county level.
 
-Population data used to calculate per capita figures comes from the U.S. Census Bureau 2019 population estimate.
+Population data used to calculate per capita figures comes from the 2020 U.S. Census.
 
 
 ## License and Attribution
