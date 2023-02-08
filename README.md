@@ -1,6 +1,6 @@
 # Coronavirus (Covid-19) Data in the United States
 
-**UPDATE: The [rolling-averages/](rolling-averages) files now report daily average deaths at the county-level as a 30-day average instead of a 7-day average as more places are reporting data less frequently.**
+**FEB. 8, 2023 UPDATE: In the coming weeks, most likely in March, the data for daily cases and deaths will no longer be updated. The Times plans to change its Covid tracking pages to use data from the federal government. This GitHub repo will serve as an archive of the daily case and death reporting that The Times has done since early 2020. For more information, please see [this issue](https://github.com/nytimes/covid-19-data/issues/702).**
 
 The primary data published here are the daily cumulative number of cases and deaths reported in each county and state across the U.S. since the beginning of the pandemic. We have also published these additional data sets:
 
