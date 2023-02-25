@@ -1,5 +1,358 @@
 date,county,state,fips,cases,deaths
+2023-02-24,Livingston,Missouri,29117,4449,108
+2023-02-24,Linn,Missouri,29115,3165,75
+2023-02-24,Lincoln,Missouri,29113,18428,162
+2023-02-24,Lewis,Missouri,29111,3350,44
+2023-02-24,Lawrence,Missouri,29109,9270,184
+2023-02-24,Lafayette,Missouri,29107,9221,145
+2023-02-24,Laclede,Missouri,29105,9588,193
+2023-02-24,Knox,Missouri,29103,1184,19
+2023-02-24,Kansas City,Missouri,,139296,1344
+2023-02-24,Joplin,Missouri,,16397,236
+2023-02-24,Johnson,Missouri,29101,14680,152
+2023-02-24,Jefferson,Missouri,29099,67598,745
+2023-02-24,Jasper,Missouri,29097,24281,473
+2023-02-24,Jackson,Missouri,29095,117800,1850
+2023-02-24,Iron,Missouri,29093,2687,50
+2023-02-24,Howell,Missouri,29091,10959,233
+2023-02-24,Howard,Missouri,29089,2949,37
+2023-02-24,Holt,Missouri,29087,1314,35
+2023-02-24,Hickory,Missouri,29085,2397,59
+2023-02-24,Henry,Missouri,29083,7051,95
+2023-02-24,Harrison,Missouri,29081,2463,36
+2023-02-24,Grundy,Missouri,29079,3127,75
+2023-02-24,Greene,Missouri,29077,84680,1152
+2023-02-24,Gentry,Missouri,29075,2683,37
+2023-02-24,Gasconade,Missouri,29073,4081,114
+2023-02-24,Franklin,Missouri,29071,31317,414
+2023-02-24,Dunklin,Missouri,29069,9677,138
+2023-02-24,Douglas,Missouri,29067,3056,87
+2023-02-24,Dent,Missouri,29065,3944,97
+2023-02-24,DeKalb,Missouri,29063,2545,51
+2023-02-24,Daviess,Missouri,29061,2022,36
+2023-02-24,Dallas,Missouri,29059,4685,83
+2023-02-24,Madison,Missouri,29123,4247,60
+2023-02-24,Winston,Mississippi,28159,6683,104
+2023-02-24,Maries,Missouri,29125,1955,42
+2023-02-24,Wilkinson,Mississippi,28157,1941,47
+2023-02-24,Marion,Missouri,29127,9761,135
+2023-02-24,McDonald,Missouri,29119,6623,83
+2023-02-24,Webster,Mississippi,28155,4026,74
+2023-02-24,Wayne,Mississippi,28153,6933,90
+2023-02-24,Mercer,Missouri,29129,901,17
+2023-02-24,Washington,Mississippi,28151,12540,210
+2023-02-24,Miller,Missouri,29131,7033,128
+2023-02-24,Mississippi,Missouri,29133,4406,64
+2023-02-24,Warren,Mississippi,28149,12606,219
+2023-02-24,Walthall,Mississippi,28147,4619,83
+2023-02-24,Moniteau,Missouri,29135,4364,61
+2023-02-24,Monroe,Missouri,29137,2500,51
+2023-02-24,Montgomery,Missouri,29139,3097,63
+2023-02-24,Morgan,Missouri,29141,4902,124
+2023-02-24,New Madrid,Missouri,29143,6089,91
+2023-02-24,Newton,Missouri,29145,13773,239
+2023-02-24,Nodaway,Missouri,29147,7637,51
+2023-02-24,Oregon,Missouri,29149,2421,41
+2023-02-24,Osage,Missouri,29151,3761,51
+2023-02-24,Ozark,Missouri,29153,2033,66
+2023-02-24,Pemiscot,Missouri,29155,3774,88
+2023-02-24,Perry,Missouri,29157,6318,51
+2023-02-24,Pettis,Missouri,29159,14892,191
+2023-02-24,Phelps,Missouri,29161,12844,263
+2023-02-24,Pike,Missouri,29163,5197,65
+2023-02-24,Platte,Missouri,29165,12774,216
+2023-02-24,Unknown,Mississippi,,6085,71
+2023-02-24,Autauga,Alabama,01001,19732,230
+2023-02-24,Baldwin,Alabama,01003,69641,724
+2023-02-24,Barbour,Alabama,01005,7451,112
+2023-02-24,Union,Mississippi,28145,11574,132
+2023-02-24,Bibb,Alabama,01007,8067,109
+2023-02-24,Blount,Alabama,01009,18616,261
+2023-02-24,Tunica,Mississippi,28143,3038,50
+2023-02-24,Bullock,Alabama,01011,3020,54
+2023-02-24,Dade,Missouri,29057,1806,49
+2023-02-24,Crawford,Missouri,29055,6536,117
+2023-02-24,Cooper,Missouri,29053,4773,80
+2023-02-24,Cole,Missouri,29051,23893,305
+2023-02-24,Clinton,Missouri,29049,5739,130
+2023-02-24,Clay,Missouri,29047,33437,625
+2023-02-24,Clark,Missouri,29045,1915,49
+2023-02-24,Christian,Missouri,29043,24886,290
+2023-02-24,Chariton,Missouri,29041,1995,43
+2023-02-24,Cedar,Missouri,29039,3718,63
+2023-02-24,Macon,Missouri,29121,4262,68
+2023-02-24,Cass,Missouri,29037,30114,347
+2023-02-24,Carter,Missouri,29035,1725,24
+2023-02-24,Carroll,Missouri,29033,2676,48
+2023-02-24,Cape Girardeau,Missouri,29031,23374,272
+2023-02-24,Camden,Missouri,29029,10848,196
+2023-02-24,Callaway,Missouri,29027,14359,148
+2023-02-24,Caldwell,Missouri,29025,2071,42
+2023-02-24,Butler,Missouri,29023,12357,182
+2023-02-24,Buchanan,Missouri,29021,29662,348
+2023-02-24,Boone,Missouri,29019,55288,299
+2023-02-24,Bollinger,Missouri,29017,3250,48
+2023-02-24,Benton,Missouri,29015,5476,113
+2023-02-24,Bates,Missouri,29013,4449,103
+2023-02-24,Barton,Missouri,29011,3359,56
+2023-02-24,Barry,Missouri,29009,7929,151
+2023-02-24,Audrain,Missouri,29007,6840,125
+2023-02-24,Atchison,Missouri,29005,1810,24
+2023-02-24,Andrew,Missouri,29003,5647,66
+2023-02-24,Adair,Missouri,29001,6706,71
+2023-02-24,Yazoo,Mississippi,28163,9941,116
+2023-02-24,Yalobusha,Mississippi,28161,4816,63
+2023-02-24,Tishomingo,Mississippi,28141,7653,123
+2023-02-24,Tippah,Mississippi,28139,8908,120
+2023-02-24,Tate,Mississippi,28137,8682,158
+2023-02-24,Humphreys,Mississippi,28053,2340,50
+2023-02-24,Tallahatchie,Mississippi,28135,3837,68
+2023-02-24,Holmes,Mississippi,28051,5204,105
+2023-02-24,Lauderdale,Mississippi,28075,21879,384
+2023-02-24,Sunflower,Mississippi,28133,7009,133
+2023-02-24,Stone,Mississippi,28131,6690,82
+2023-02-24,Forrest,Mississippi,28035,27258,325
+2023-02-24,Lamar,Mississippi,28073,21786,169
+2023-02-24,Smith,Mississippi,28129,5033,72
+2023-02-24,Simpson,Mississippi,28127,8574,160
+2023-02-24,Marion,Mississippi,28091,8682,144
+2023-02-24,Sharkey,Mississippi,28125,1157,28
+2023-02-24,Scott,Mississippi,28123,7822,122
+2023-02-24,Rankin,Mississippi,28121,46437,526
+2023-02-24,Quitman,Mississippi,28119,1825,36
+2023-02-24,Greene,Mississippi,28041,3864,61
+2023-02-24,Madison,Mississippi,28089,31295,350
+2023-02-24,Hancock,Mississippi,28045,14878,162
+2023-02-24,Lowndes,Mississippi,28087,21170,254
+2023-02-24,Prentiss,Mississippi,28117,10187,113
+2023-02-24,Lafayette,Mississippi,28071,18771,188
+2023-02-24,Pontotoc,Mississippi,28115,12773,158
+2023-02-24,Pike,Mississippi,28113,12695,192
+2023-02-24,Perry,Mississippi,28111,3726,66
+2023-02-24,Kemper,Mississippi,28069,2597,51
+2023-02-24,Jones,Mississippi,28067,26284,313
+2023-02-24,Hinds,Mississippi,28049,67141,849
+2023-02-24,Jefferson Davis,Mississippi,28065,3636,57
+2023-02-24,Pearl River,Mississippi,28109,17732,289
+2023-02-24,Harrison,Mississippi,28047,65507,709
+2023-02-24,Jefferson,Mississippi,28063,1786,40
+2023-02-24,Panola,Mississippi,28107,12357,179
+2023-02-24,Oktibbeha,Mississippi,28105,13660,173
+2023-02-24,Noxubee,Mississippi,28103,3612,51
+2023-02-24,Newton,Mississippi,28101,7078,103
+2023-02-24,Lincoln,Mississippi,28085,10416,164
+2023-02-24,Grenada,Mississippi,28043,6373,141
+2023-02-24,Leflore,Mississippi,28083,8603,182
+2023-02-24,Jasper,Mississippi,28061,6117,85
+2023-02-24,George,Mississippi,28039,8710,91
+2023-02-24,Lee,Mississippi,28081,33724,327
+2023-02-24,Neshoba,Mississippi,28099,12682,247
+2023-02-24,Leake,Mississippi,28079,7602,133
+2023-02-24,Jackson,Mississippi,28059,45547,497
+2023-02-24,Lawrence,Mississippi,28077,4500,59
+2023-02-24,Montgomery,Mississippi,28097,3672,89
+2023-02-24,Monroe,Mississippi,28095,13648,231
+2023-02-24,Franklin,Mississippi,28037,2332,39
+2023-02-24,Itawamba,Mississippi,28057,9373,150
+2023-02-24,Issaquena,Mississippi,28055,304,9
+2023-02-24,Marshall,Mississippi,28093,11967,187
+2023-02-24,Calhoun,Alabama,01015,41228,675
+2023-02-24,Weston,Wyoming,56045,1903,23
+2023-02-24,Washakie,Wyoming,56043,2748,50
+2023-02-24,Uinta,Wyoming,56041,6378,43
+2023-02-24,Teton,Wyoming,56039,12123,16
+2023-02-24,Sweetwater,Wyoming,56037,12484,139
+2023-02-24,Sublette,Wyoming,56035,2312,28
+2023-02-24,Sheridan,Wyoming,56033,9935,90
+2023-02-24,Platte,Wyoming,56031,2273,44
+2023-02-24,Park,Wyoming,56029,7691,153
+2023-02-24,Niobrara,Wyoming,56027,864,12
+2023-02-24,Natrona,Wyoming,56025,25791,307
+2023-02-24,Lincoln,Wyoming,56023,4899,38
+2023-02-24,Laramie,Wyoming,56021,31523,320
+2023-02-24,Johnson,Wyoming,56019,2348,21
+2023-02-24,Hot Springs,Wyoming,56017,1440,20
+2023-02-24,Goshen,Wyoming,56015,4622,65
+2023-02-24,Fremont,Wyoming,56013,16775,204
+2023-02-24,Crook,Wyoming,56011,1571,32
+2023-02-24,Converse,Wyoming,56009,3674,58
+2023-02-24,Carbon,Wyoming,56007,5010,55
+2023-02-24,Campbell,Wyoming,56005,13851,160
+2023-02-24,Big Horn,Wyoming,56003,3077,66
+2023-02-24,Albany,Wyoming,56001,11524,54
+2023-02-24,Wood,Wisconsin,55141,26924,267
+2023-02-24,Winnebago,Wisconsin,55139,63697,416
+2023-02-24,Waushara,Wisconsin,55137,7645,94
+2023-02-24,Waupaca,Wisconsin,55135,16307,265
+2023-02-24,Waukesha,Wisconsin,55133,139375,1241
+2023-02-24,Washington,Wisconsin,55131,46708,368
+2023-02-24,Washburn,Wisconsin,55129,5021,52
+2023-02-24,Walworth,Wisconsin,55127,33260,308
+2023-02-24,Vilas,Wisconsin,55125,6486,108
+2023-02-24,Vernon,Wisconsin,55123,7640,119
+2023-02-24,Trempealeau,Wisconsin,55121,9909,75
+2023-02-24,Taylor,Wisconsin,55119,5767,83
+2023-02-24,St. Croix,Wisconsin,55109,30595,167
+2023-02-24,Sheboygan,Wisconsin,55117,39299,362
+2023-02-24,Shawano,Wisconsin,55115,14280,166
+2023-02-24,Sawyer,Wisconsin,55113,6037,70
+2023-02-24,Sauk,Wisconsin,55111,20912,165
+2023-02-24,Rusk,Wisconsin,55107,4171,62
+2023-02-24,Rock,Wisconsin,55105,55173,461
+2023-02-24,Richland,Wisconsin,55103,4967,56
+2023-02-24,Racine,Wisconsin,55101,71147,757
+2023-02-24,Price,Wisconsin,55099,4046,41
+2023-02-24,Portage,Wisconsin,55097,22787,177
+2023-02-24,Polk,Wisconsin,55095,15115,131
+2023-02-24,Pierce,Wisconsin,55093,13492,78
+2023-02-24,Pepin,Wisconsin,55091,2299,20
+2023-02-24,Ozaukee,Wisconsin,55089,27772,212
+2023-02-24,Outagamie,Wisconsin,55087,64475,449
+2023-02-24,Oneida,Wisconsin,55085,10907,153
+2023-02-24,Oconto,Wisconsin,55083,13338,134
+2023-02-24,Monroe,Wisconsin,55081,14725,111
+2023-02-24,Milwaukee,Wisconsin,55079,340324,2489
+2023-02-24,Menominee,Wisconsin,55078,2374,20
+2023-02-24,Marquette,Wisconsin,55077,4633,71
+2023-02-24,Marinette,Wisconsin,55075,14485,149
+2023-02-24,Marathon,Wisconsin,55073,49270,548
+2023-02-24,Manitowoc,Wisconsin,55071,25104,220
+2023-02-24,Lincoln,Wisconsin,55069,8978,160
+2023-02-24,Langlade,Wisconsin,55067,6728,107
+2023-02-24,Lafayette,Wisconsin,55065,4423,33
+2023-02-24,La Crosse,Wisconsin,55063,43514,218
+2023-02-24,Kewaunee,Wisconsin,55061,6825,70
+2023-02-24,Kenosha,Wisconsin,55059,56414,720
+2023-02-24,Juneau,Wisconsin,55057,9391,76
+2023-02-24,Jefferson,Wisconsin,55055,26852,268
+2023-02-24,Jackson,Wisconsin,55053,6903,46
+2023-02-24,Iron,Wisconsin,55051,1808,50
+2023-02-24,Iowa,Wisconsin,55049,6867,34
+2023-02-24,Green Lake,Wisconsin,55047,6351,72
+2023-02-24,Green,Wisconsin,55045,11604,64
+2023-02-24,Grant,Wisconsin,55043,15435,162
+2023-02-24,Forest,Wisconsin,55041,3326,56
+2023-02-24,Fond du Lac,Wisconsin,55039,39150,317
+2023-02-24,Florence,Wisconsin,55037,1347,21
+2023-02-24,Eau Claire,Wisconsin,55035,36560,214
+2023-02-24,Dunn,Wisconsin,55033,15564,83
+2023-02-24,Douglas,Wisconsin,55031,14425,116
+2023-02-24,Door,Wisconsin,55029,8757,91
+2023-02-24,Dodge,Wisconsin,55027,32872,375
+2023-02-24,Dane,Wisconsin,55025,178640,638
+2023-02-24,Crawford,Wisconsin,55023,5341,32
+2023-02-24,Columbia,Wisconsin,55021,19589,148
+2023-02-24,Clark,Wisconsin,55019,9011,133
+2023-02-24,Chippewa,Wisconsin,55017,22163,217
+2023-02-24,Calumet,Wisconsin,55015,16884,137
+2023-02-24,Burnett,Wisconsin,55013,5124,61
+2023-02-24,Buffalo,Wisconsin,55011,4186,23
+2023-02-24,Brown,Wisconsin,55009,102723,624
+2023-02-24,Bayfield,Wisconsin,55007,4375,48
+2023-02-24,Barron,Wisconsin,55005,16085,154
+2023-02-24,Ashland,Wisconsin,55003,4145,43
+2023-02-24,Adams,Wisconsin,55001,5837,70
+2023-02-24,Wyoming,West Virginia,54109,9681,135
+2023-02-24,Wood,West Virginia,54107,28018,380
+2023-02-24,Wirt,West Virginia,54105,1740,28
+2023-02-24,Wetzel,West Virginia,54103,5447,97
+2023-02-24,Webster,West Virginia,54101,2855,38
+2023-02-24,Wayne,West Virginia,54099,11688,154
+2023-02-24,Upshur,West Virginia,54097,8972,105
+2023-02-24,Tyler,West Virginia,54095,2724,33
+2023-02-24,Tucker,West Virginia,54093,2440,39
+2023-02-24,Taylor,West Virginia,54091,5935,84
+2023-02-24,Summers,West Virginia,54089,3856,66
+2023-02-24,Roane,West Virginia,54087,4503,51
+2023-02-24,Ritchie,West Virginia,54085,3042,34
+2023-02-24,Randolph,West Virginia,54083,12067,99
+2023-02-24,Raleigh,West Virginia,54081,30560,423
+2023-02-24,Putnam,West Virginia,54079,20854,221
+2023-02-24,Preston,West Virginia,54077,11066,145
+2023-02-24,Pocahontas,West Virginia,54075,2570,36
+2023-02-24,Pleasants,West Virginia,54073,2502,39
+2023-02-24,Pendleton,West Virginia,54071,2355,24
+2023-02-24,Ohio,West Virginia,54069,13856,199
+2023-02-24,Nicholas,West Virginia,54067,9353,113
+2023-02-24,Morgan,West Virginia,54065,5221,80
+2023-02-24,Monroe,West Virginia,54063,5873,57
+2023-02-24,Monongalia,West Virginia,54061,31329,218
+2023-02-24,Mingo,West Virginia,54059,9992,147
+2023-02-24,Mineral,West Virginia,54057,10239,173
+2023-02-24,Mercer,West Virginia,54055,23334,290
+2023-02-24,McDowell,West Virginia,54047,7436,98
+2023-02-24,Mason,West Virginia,54053,8911,111
+2023-02-24,Marshall,West Virginia,54051,11213,171
+2023-02-24,Marion,West Virginia,54049,20307,208
+2023-02-24,Logan,West Virginia,54045,12909,204
+2023-02-24,Lincoln,West Virginia,54043,7279,97
+2023-02-24,Lewis,West Virginia,54041,6956,96
+2023-02-24,Kanawha,West Virginia,54039,59136,879
+2023-02-24,Jefferson,West Virginia,54037,18352,151
+2023-02-24,Jackson,West Virginia,54035,8780,159
+2023-02-24,Harrison,West Virginia,54033,26031,290
+2023-02-24,Hardy,West Virginia,54031,5713,56
+2023-02-24,Hancock,West Virginia,54029,8369,172
+2023-02-24,Hampshire,West Virginia,54027,7309,92
+2023-02-24,Greenbrier,West Virginia,54025,12867,184
+2023-02-24,Grant,West Virginia,54023,4806,63
+2023-02-24,Gilmer,West Virginia,54021,2538,23
+2023-02-24,Fayette,West Virginia,54019,16736,235
+2023-02-24,Doddridge,West Virginia,54017,2503,20
+2023-02-24,Clay,West Virginia,54015,2712,54
+2023-02-24,Calhoun,West Virginia,54013,2262,15
+2023-02-24,Cabell,West Virginia,54011,33922,442
+2023-02-24,Brooke,West Virginia,54009,6286,118
+2023-02-24,Braxton,West Virginia,54007,4986,52
+2023-02-24,Boone,West Virginia,54005,8694,102
+2023-02-24,Berkeley,West Virginia,54003,45097,350
+2023-02-24,Barbour,West Virginia,54001,5968,77
+2023-02-24,Yakima,Washington,53077,83554,858
+2023-02-24,Whitman,Washington,53075,10093,102
+2023-02-24,Whatcom,Washington,53073,49150,374
+2023-02-24,Walla Walla,Washington,53071,18983,176
+2023-02-24,Wahkiakum,Washington,53069,640,12
+2023-02-24,Unknown,Washington,,2013,0
+2023-02-24,Thurston,Washington,53067,63152,520
+2023-02-24,Stevens,Washington,53065,10077,166
+2023-02-24,Spokane,Washington,53063,153872,1681
+2023-02-24,Snohomish,Washington,53061,204681,1439
+2023-02-24,Skamania,Washington,53059,1798,17
+2023-02-24,Skagit,Washington,53057,28725,268
+2023-02-24,San Juan,Washington,53055,1985,3
+2023-02-24,Pierce,Washington,53053,245017,1612
+2023-02-24,Pend Oreille,Washington,53051,2970,44
+2023-02-24,Pacific,Washington,53049,4840,78
+2023-02-24,Okanogan,Washington,53047,10585,139
+2023-02-24,Mason,Washington,53045,15772,181
+2023-02-24,Lincoln,Washington,53043,2669,30
+2023-02-24,Lewis,Washington,53041,20804,297
+2023-02-24,Klickitat,Washington,53039,4313,60
+2023-02-24,Kittitas,Washington,53037,10364,92
+2023-02-24,Kitsap,Washington,53035,52480,411
+2023-02-24,King,Washington,53033,548843,3520
+2023-02-24,Jefferson,Washington,53031,4877,34
+2023-02-24,Island,Washington,53029,13768,124
+2023-02-24,Grays Harbor,Washington,53027,20406,251
+2023-02-24,Grant,Washington,53025,32709,267
+2023-02-24,Garfield,Washington,53023,503,7
+2023-02-24,Franklin,Washington,53021,36789,227
+2023-02-24,Ferry,Washington,53019,1808,34
+2023-02-24,Douglas,Washington,53017,13317,86
+2023-02-24,Cowlitz,Washington,53015,27306,422
+2023-02-24,Columbia,Washington,53013,750,18
+2023-02-24,Clark,Washington,53011,111743,1046
+2023-02-24,Clallam,Washington,53009,15762,207
+2023-02-24,Chelan,Washington,53007,24121,197
+2023-02-24,Benton,Washington,53005,61953,536
+2023-02-24,Asotin,Washington,53003,5595,86
+2023-02-24,Adams,Washington,53001,5631,45
+2023-02-24,Unknown,Virgin Islands,,51,0
+2023-02-24,St. Thomas,Virgin Islands,78030,10728,71
+2023-02-24,St. John,Virgin Islands,78020,1045,5
+2023-02-24,St. Croix,Virgin Islands,78010,12932,54
 2023-02-24,York,Virginia,51199,13771,136
+2023-02-24,Wythe,Virginia,51197,9657,173
 2023-02-24,Wise,Virginia,51195,13902,236
 2023-02-24,Winchester city,Virginia,51840,8149,101
 2023-02-24,Williamsburg city,Virginia,51830,2312,25
@@ -202,7 +555,7 @@ date,county,state,fips,cases,deaths
 2023-02-24,Uvalde,Texas,48463,11531,152
 2023-02-24,Upton,Texas,48461,961,19
 2023-02-24,Upshur,Texas,48459,9082,220
-2023-02-24,Unknown,Texas,,2038,0
+2023-02-24,Unknown,Texas,,1492,0
 2023-02-24,Tyler,Texas,48457,5164,94
 2023-02-24,Trinity,Texas,48455,3253,79
 2023-02-24,Travis,Texas,48453,295527,1842
@@ -255,7 +608,7 @@ date,county,state,fips,cases,deaths
 2023-02-24,Orange,Texas,48361,17222,381
 2023-02-24,Oldham,Texas,48359,649,6
 2023-02-24,Ochiltree,Texas,48357,2674,54
-2023-02-24,Nueces,Texas,48355,114011,1599
+2023-02-24,Nueces,Texas,48355,114193,1603
 2023-02-24,Nolan,Texas,48353,3539,108
 2023-02-24,Newton,Texas,48351,1739,77
 2023-02-24,Navarro,Texas,48349,14445,246
@@ -372,7 +725,7 @@ date,county,state,fips,cases,deaths
 2023-02-24,Dimmit,Texas,48127,6194,52
 2023-02-24,Dickens,Texas,48125,522,16
 2023-02-24,DeWitt,Texas,48123,7310,114
-2023-02-24,Denton,Texas,48121,224083,1443
+2023-02-24,Denton,Texas,48121,224447,1443
 2023-02-24,Delta,Texas,48119,2063,27
 2023-02-24,Deaf Smith,Texas,48117,5802,120
 2023-02-24,Dawson,Texas,48115,3565,101
@@ -1153,120 +1506,121 @@ date,county,state,fips,cases,deaths
 2023-02-24,Alleghany,North Carolina,37005,3753,27
 2023-02-24,Alexander,North Carolina,37003,12747,174
 2023-02-24,Alamance,North Carolina,37001,61623,567
-2023-02-24,Yates,New York,36123,4459,50
-2023-02-24,Wyoming,New York,36121,9961,104
-2023-02-24,Westchester,New York,36119,335857,3341
-2023-02-24,Wayne,New York,36117,21979,228
-2023-02-24,Washington,New York,36115,15935,153
-2023-02-24,Warren,New York,36113,19003,157
-2023-02-24,Ulster,New York,36111,43367,452
-2023-02-24,Tompkins,New York,36109,26702,106
-2023-02-24,Tioga,New York,36107,14121,153
-2023-02-24,Sullivan,New York,36105,24743,201
-2023-02-24,Suffolk,New York,36103,568463,5500
-2023-02-24,St. Lawrence,New York,36089,26394,254
-2023-02-24,Steuben,New York,36101,25385,322
-2023-02-24,Seneca,New York,36099,7700,97
+2023-02-24,Yates,New York,36123,4461,50
+2023-02-24,Wyoming,New York,36121,9964,104
+2023-02-24,Westchester,New York,36119,335950,3341
+2023-02-24,Wayne,New York,36117,21987,228
+2023-02-24,Washington,New York,36115,15945,153
+2023-02-24,Warren,New York,36113,19011,157
+2023-02-24,Ulster,New York,36111,43382,452
+2023-02-24,Tompkins,New York,36109,26715,106
+2023-02-24,Tioga,New York,36107,14127,153
+2023-02-24,Sullivan,New York,36105,24757,201
+2023-02-24,Suffolk,New York,36103,568588,5500
+2023-02-24,St. Lawrence,New York,36089,26404,254
+2023-02-24,Steuben,New York,36101,25397,322
+2023-02-24,Seneca,New York,36099,7703,97
 2023-02-24,Schuyler,New York,36097,4339,36
-2023-02-24,Schoharie,New York,36095,6616,59
-2023-02-24,Schenectady,New York,36093,43871,376
-2023-02-24,Saratoga,New York,36091,61757,440
-2023-02-24,Rockland,New York,36087,118949,1275
-2023-02-24,Rensselaer,New York,36083,41935,318
-2023-02-24,Putnam,New York,36079,31710,207
-2023-02-24,Otsego,New York,36077,13376,138
-2023-02-24,Oswego,New York,36075,34792,250
-2023-02-24,Orleans,New York,36073,10611,130
-2023-02-24,Orange,New York,36071,140339,1208
-2023-02-24,Ontario,New York,36069,26276,234
-2023-02-24,Onondaga,New York,36067,143109,1202
-2023-02-24,Oneida,New York,36065,69383,874
-2023-02-24,Niagara,New York,36063,59803,789
-2023-02-24,New York City,New York,,3237762,45074
-2023-02-24,Nassau,New York,36059,549687,4736
-2023-02-24,Montgomery,New York,36057,15105,237
-2023-02-24,Monroe,New York,36055,192741,1930
-2023-02-24,Madison,New York,36053,16892,178
-2023-02-24,Livingston,New York,36051,14437,142
-2023-02-24,Lewis,New York,36049,7377,65
-2023-02-24,Jefferson,New York,36045,27326,160
-2023-02-24,Herkimer,New York,36043,17555,219
-2023-02-24,Hamilton,New York,36041,1100,5
-2023-02-24,Greene,New York,36039,11078,153
-2023-02-24,Genesee,New York,36037,16646,223
-2023-02-24,Fulton,New York,36035,16664,221
-2023-02-24,Franklin,New York,36033,12132,74
-2023-02-24,Essex,New York,36031,7749,80
-2023-02-24,Erie,New York,36029,270119,3040
-2023-02-24,Dutchess,New York,36027,85193,775
-2023-02-24,Delaware,New York,36025,10212,121
-2023-02-24,Cortland,New York,36023,13461,135
-2023-02-24,Columbia,New York,36021,13977,173
-2023-02-24,Clinton,New York,36019,22734,131
-2023-02-24,Chenango,New York,36017,11858,148
-2023-02-24,Chemung,New York,36015,26704,285
-2023-02-24,Chautauqua,New York,36013,29561,434
-2023-02-24,Cayuga,New York,36011,20554,190
-2023-02-24,Cattaraugus,New York,36009,19320,270
-2023-02-24,Broome,New York,36007,58901,623
-2023-02-24,Allegany,New York,36003,10826,178
-2023-02-24,Albany,New York,36001,79074,610
-2023-02-24,Valencia,New Mexico,35061,24469,325
-2023-02-24,Unknown,New Mexico,,500,0
+2023-02-24,Schoharie,New York,36095,6618,59
+2023-02-24,Schenectady,New York,36093,43892,376
+2023-02-24,Saratoga,New York,36091,61797,440
+2023-02-24,Rockland,New York,36087,118967,1275
+2023-02-24,Rensselaer,New York,36083,41953,318
+2023-02-24,Putnam,New York,36079,31714,207
+2023-02-24,Otsego,New York,36077,13379,138
+2023-02-24,Oswego,New York,36075,34804,250
+2023-02-24,Orleans,New York,36073,10619,130
+2023-02-24,Orange,New York,36071,140374,1208
+2023-02-24,Ontario,New York,36069,26280,234
+2023-02-24,Onondaga,New York,36067,143162,1202
+2023-02-24,Oneida,New York,36065,69417,874
+2023-02-24,Niagara,New York,36063,59823,789
+2023-02-24,New York City,New York,,3238686,45076
+2023-02-24,Nassau,New York,36059,549809,4736
+2023-02-24,Montgomery,New York,36057,15107,237
+2023-02-24,Monroe,New York,36055,192821,1930
+2023-02-24,Madison,New York,36053,16903,178
+2023-02-24,Livingston,New York,36051,14446,142
+2023-02-24,Lewis,New York,36049,7379,65
+2023-02-24,Jefferson,New York,36045,27337,160
+2023-02-24,Herkimer,New York,36043,17558,219
+2023-02-24,Hamilton,New York,36041,1101,5
+2023-02-24,Greene,New York,36039,11085,153
+2023-02-24,Genesee,New York,36037,16653,223
+2023-02-24,Fulton,New York,36035,16675,221
+2023-02-24,Franklin,New York,36033,12139,74
+2023-02-24,Essex,New York,36031,7754,80
+2023-02-24,Erie,New York,36029,270202,3040
+2023-02-24,Dutchess,New York,36027,85223,775
+2023-02-24,Delaware,New York,36025,10214,121
+2023-02-24,Cortland,New York,36023,13466,135
+2023-02-24,Columbia,New York,36021,13986,173
+2023-02-24,Clinton,New York,36019,22754,131
+2023-02-24,Chenango,New York,36017,11864,148
+2023-02-24,Chemung,New York,36015,26725,285
+2023-02-24,Chautauqua,New York,36013,29570,434
+2023-02-24,Cayuga,New York,36011,20564,190
+2023-02-24,Cattaraugus,New York,36009,19330,270
+2023-02-24,Broome,New York,36007,58945,623
+2023-02-24,Allegany,New York,36003,10832,178
+2023-02-24,Albany,New York,36001,79098,610
+2023-02-24,Valencia,New Mexico,35061,24477,325
+2023-02-24,Unknown,New Mexico,,502,0
 2023-02-24,Union,New Mexico,35059,1153,20
-2023-02-24,Torrance,New Mexico,35057,3765,70
+2023-02-24,Torrance,New Mexico,35057,3766,70
 2023-02-24,Taos,New Mexico,35055,7274,107
-2023-02-24,Socorro,New Mexico,35053,4737,102
+2023-02-24,Socorro,New Mexico,35053,4738,102
 2023-02-24,Sierra,New Mexico,35051,2490,87
-2023-02-24,Santa Fe,New Mexico,35049,40409,398
-2023-02-24,San Miguel,New Mexico,35047,7642,84
-2023-02-24,San Juan,New Mexico,35045,52280,862
-2023-02-24,Sandoval,New Mexico,35043,44851,511
-2023-02-24,Roosevelt,New Mexico,35041,6201,110
-2023-02-24,Rio Arriba,New Mexico,35039,13299,165
+2023-02-24,Santa Fe,New Mexico,35049,40421,398
+2023-02-24,San Miguel,New Mexico,35047,7643,84
+2023-02-24,San Juan,New Mexico,35045,52290,862
+2023-02-24,Sandoval,New Mexico,35043,44860,511
+2023-02-24,Roosevelt,New Mexico,35041,6202,110
+2023-02-24,Rio Arriba,New Mexico,35039,13304,165
 2023-02-24,Quay,New Mexico,35037,2555,70
-2023-02-24,Otero,New Mexico,35035,19231,228
+2023-02-24,Otero,New Mexico,35035,19236,228
 2023-02-24,Mora,New Mexico,35033,985,22
-2023-02-24,McKinley,New Mexico,35031,33038,653
+2023-02-24,McKinley,New Mexico,35031,33057,653
 2023-02-24,Luna,New Mexico,35029,8006,151
 2023-02-24,Los Alamos,New Mexico,35028,4582,25
-2023-02-24,Lincoln,New Mexico,35027,6583,77
-2023-02-24,Lea,New Mexico,35025,23856,411
+2023-02-24,Lincoln,New Mexico,35027,6584,77
+2023-02-24,Lea,New Mexico,35025,23862,411
 2023-02-24,Hidalgo,New Mexico,35023,1338,17
 2023-02-24,Harding,New Mexico,35021,103,4
-2023-02-24,Guadalupe,New Mexico,35019,1737,18
-2023-02-24,Grant,New Mexico,35017,9834,115
-2023-02-24,Eddy,New Mexico,35015,19250,327
-2023-02-24,Doña Ana,New Mexico,35013,76965,934
+2023-02-24,Guadalupe,New Mexico,35019,1739,18
+2023-02-24,Grant,New Mexico,35017,9840,115
+2023-02-24,Eddy,New Mexico,35015,19252,327
+2023-02-24,Butler,Alabama,01013,6518,132
+2023-02-24,Doña Ana,New Mexico,35013,76978,934
 2023-02-24,De Baca,New Mexico,35011,753,6
-2023-02-24,Curry,New Mexico,35009,15336,235
+2023-02-24,Curry,New Mexico,35009,15337,235
 2023-02-24,Colfax,New Mexico,35007,3075,71
-2023-02-24,Cibola,New Mexico,35006,10145,213
-2023-02-24,Chaves,New Mexico,35005,25062,361
+2023-02-24,Cibola,New Mexico,35006,10147,213
+2023-02-24,Chaves,New Mexico,35005,25064,361
 2023-02-24,Catron,New Mexico,35003,530,23
-2023-02-24,Bernalillo,New Mexico,35001,196484,2231
-2023-02-24,Warren,New Jersey,34041,32002,366
-2023-02-24,Unknown,New Jersey,,3012,0
-2023-02-24,Union,New Jersey,34039,195822,2495
-2023-02-24,Sussex,New Jersey,34037,45502,520
-2023-02-24,Somerset,New Jersey,34035,97844,1030
-2023-02-24,Salem,New Jersey,34033,18472,263
-2023-02-24,Passaic,New Jersey,34031,192908,2459
-2023-02-24,Ocean,New Jersey,34029,215146,3287
-2023-02-24,Morris,New Jersey,34027,165229,1681
-2023-02-24,Monmouth,New Jersey,34025,222745,2380
-2023-02-24,Middlesex,New Jersey,34023,274583,3031
-2023-02-24,Mercer,New Jersey,34021,111001,1344
-2023-02-24,Hunterdon,New Jersey,34019,34528,306
-2023-02-24,Hudson,New Jersey,34017,237544,2852
-2023-02-24,Gloucester,New Jersey,34015,91128,1048
-2023-02-24,Essex,New Jersey,34013,290924,3771
-2023-02-24,Cumberland,New Jersey,34011,52600,664
-2023-02-24,Cape May,New Jersey,34009,30356,333
-2023-02-24,Camden,New Jersey,34007,168704,1971
-2023-02-24,Burlington,New Jersey,34005,141140,1372
-2023-02-24,Bergen,New Jersey,34003,325206,3724
-2023-02-24,Atlantic,New Jersey,34001,91213,1080
+2023-02-24,Bernalillo,New Mexico,35001,196534,2231
+2023-02-24,Warren,New Jersey,34041,32026,366
+2023-02-24,Unknown,New Jersey,,1637,0
+2023-02-24,Union,New Jersey,34039,195899,2497
+2023-02-24,Sussex,New Jersey,34037,45517,520
+2023-02-24,Somerset,New Jersey,34035,97881,1030
+2023-02-24,Salem,New Jersey,34033,18487,263
+2023-02-24,Passaic,New Jersey,34031,192981,2459
+2023-02-24,Ocean,New Jersey,34029,215228,3285
+2023-02-24,Morris,New Jersey,34027,165304,1682
+2023-02-24,Monmouth,New Jersey,34025,222865,2381
+2023-02-24,Middlesex,New Jersey,34023,274697,3032
+2023-02-24,Mercer,New Jersey,34021,111048,1345
+2023-02-24,Hunterdon,New Jersey,34019,34539,306
+2023-02-24,Hudson,New Jersey,34017,237634,2852
+2023-02-24,Gloucester,New Jersey,34015,91197,1048
+2023-02-24,Essex,New Jersey,34013,291027,3771
+2023-02-24,Cumberland,New Jersey,34011,52645,664
+2023-02-24,Cape May,New Jersey,34009,30379,333
+2023-02-24,Camden,New Jersey,34007,168804,1971
+2023-02-24,Burlington,New Jersey,34005,141219,1374
+2023-02-24,Bergen,New Jersey,34003,325329,3725
+2023-02-24,Atlantic,New Jersey,34001,91266,1081
 2023-02-24,Unknown,New Hampshire,,2315,0
 2023-02-24,Sullivan,New Hampshire,33019,11852,82
 2023-02-24,Strafford,New Hampshire,33017,36940,249
@@ -1462,7 +1816,7 @@ date,county,state,fips,cases,deaths
 2023-02-24,St. Francois,Missouri,29187,23400,330
 2023-02-24,Ste. Genevieve,Missouri,29186,4833,46
 2023-02-24,St. Clair,Missouri,29185,2613,44
-2023-02-24,St. Charles,Missouri,29183,129637,1052
+2023-02-24,St. Charles,Missouri,29183,129713,1052
 2023-02-24,Shelby,Missouri,29205,2067,18
 2023-02-24,Shannon,Missouri,29203,1914,42
 2023-02-24,Scott,Missouri,29201,13821,172
@@ -1477,157 +1831,6 @@ date,county,state,fips,cases,deaths
 2023-02-24,Putnam,Missouri,29171,1174,26
 2023-02-24,Pulaski,Missouri,29169,10746,132
 2023-02-24,Polk,Missouri,29167,9903,121
-2023-02-24,Platte,Missouri,29165,12774,216
-2023-02-24,Pike,Missouri,29163,5197,65
-2023-02-24,Phelps,Missouri,29161,12844,263
-2023-02-24,Pettis,Missouri,29159,14892,191
-2023-02-24,Perry,Missouri,29157,6318,51
-2023-02-24,Pemiscot,Missouri,29155,3774,88
-2023-02-24,Ozark,Missouri,29153,2033,66
-2023-02-24,Osage,Missouri,29151,3761,51
-2023-02-24,Oregon,Missouri,29149,2421,41
-2023-02-24,Nodaway,Missouri,29147,7637,51
-2023-02-24,Newton,Missouri,29145,13773,239
-2023-02-24,New Madrid,Missouri,29143,6089,91
-2023-02-24,Morgan,Missouri,29141,4902,124
-2023-02-24,Montgomery,Missouri,29139,3097,63
-2023-02-24,Monroe,Missouri,29137,2500,51
-2023-02-24,Moniteau,Missouri,29135,4364,61
-2023-02-24,Mississippi,Missouri,29133,4406,64
-2023-02-24,Miller,Missouri,29131,7033,128
-2023-02-24,Mercer,Missouri,29129,901,17
-2023-02-24,McDonald,Missouri,29119,6623,83
-2023-02-24,Marion,Missouri,29127,9761,135
-2023-02-24,Maries,Missouri,29125,1955,42
-2023-02-24,Madison,Missouri,29123,4247,60
-2023-02-24,Macon,Missouri,29121,4262,68
-2023-02-24,Livingston,Missouri,29117,4449,108
-2023-02-24,Linn,Missouri,29115,3165,75
-2023-02-24,Lincoln,Missouri,29113,18428,162
-2023-02-24,Lewis,Missouri,29111,3350,44
-2023-02-24,Lawrence,Missouri,29109,9270,184
-2023-02-24,Lafayette,Missouri,29107,9221,145
-2023-02-24,Laclede,Missouri,29105,9588,193
-2023-02-24,Knox,Missouri,29103,1184,19
-2023-02-24,Kansas City,Missouri,,139296,1344
-2023-02-24,Joplin,Missouri,,16397,236
-2023-02-24,Johnson,Missouri,29101,14680,152
-2023-02-24,Jefferson,Missouri,29099,67598,745
-2023-02-24,Jasper,Missouri,29097,24281,473
-2023-02-24,Jackson,Missouri,29095,117800,1850
-2023-02-24,Iron,Missouri,29093,2687,50
-2023-02-24,Howell,Missouri,29091,10959,233
-2023-02-24,Howard,Missouri,29089,2949,37
-2023-02-24,Holt,Missouri,29087,1314,35
-2023-02-24,Hickory,Missouri,29085,2397,59
-2023-02-24,Henry,Missouri,29083,7051,95
-2023-02-24,Harrison,Missouri,29081,2463,36
-2023-02-24,Grundy,Missouri,29079,3127,75
-2023-02-24,Greene,Missouri,29077,84680,1152
-2023-02-24,Gentry,Missouri,29075,2683,37
-2023-02-24,Gasconade,Missouri,29073,4081,114
-2023-02-24,Franklin,Missouri,29071,31317,414
-2023-02-24,Dunklin,Missouri,29069,9677,138
-2023-02-24,Douglas,Missouri,29067,3056,87
-2023-02-24,Dent,Missouri,29065,3944,97
-2023-02-24,DeKalb,Missouri,29063,2545,51
-2023-02-24,Daviess,Missouri,29061,2022,36
-2023-02-24,Dallas,Missouri,29059,4685,83
-2023-02-24,Dade,Missouri,29057,1806,49
-2023-02-24,Crawford,Missouri,29055,6536,117
-2023-02-24,Cooper,Missouri,29053,4773,80
-2023-02-24,Cole,Missouri,29051,23893,305
-2023-02-24,Clinton,Missouri,29049,5739,130
-2023-02-24,Clay,Missouri,29047,33437,625
-2023-02-24,Clark,Missouri,29045,1915,49
-2023-02-24,Christian,Missouri,29043,24886,290
-2023-02-24,Chariton,Missouri,29041,1995,43
-2023-02-24,Cedar,Missouri,29039,3718,63
-2023-02-24,Cass,Missouri,29037,30114,347
-2023-02-24,Carter,Missouri,29035,1725,24
-2023-02-24,Carroll,Missouri,29033,2676,48
-2023-02-24,Cape Girardeau,Missouri,29031,23374,272
-2023-02-24,Camden,Missouri,29029,10848,196
-2023-02-24,Callaway,Missouri,29027,14359,148
-2023-02-24,Caldwell,Missouri,29025,2071,42
-2023-02-24,Butler,Missouri,29023,12357,182
-2023-02-24,Buchanan,Missouri,29021,29662,348
-2023-02-24,Boone,Missouri,29019,55261,299
-2023-02-24,Bollinger,Missouri,29017,3250,48
-2023-02-24,Benton,Missouri,29015,5476,113
-2023-02-24,Bates,Missouri,29013,4449,103
-2023-02-24,Barton,Missouri,29011,3359,56
-2023-02-24,Barry,Missouri,29009,7929,151
-2023-02-24,Audrain,Missouri,29007,6840,125
-2023-02-24,Atchison,Missouri,29005,1810,24
-2023-02-24,Andrew,Missouri,29003,5647,66
-2023-02-24,Adair,Missouri,29001,6706,71
-2023-02-24,Yazoo,Mississippi,28163,9941,116
-2023-02-24,Yalobusha,Mississippi,28161,4816,63
-2023-02-24,Winston,Mississippi,28159,6683,104
-2023-02-24,Wilkinson,Mississippi,28157,1941,47
-2023-02-24,Webster,Mississippi,28155,4026,74
-2023-02-24,Wayne,Mississippi,28153,6933,90
-2023-02-24,Washington,Mississippi,28151,12540,210
-2023-02-24,Warren,Mississippi,28149,12606,219
-2023-02-24,Walthall,Mississippi,28147,4619,83
-2023-02-24,Unknown,Mississippi,,6085,71
-2023-02-24,Union,Mississippi,28145,11574,132
-2023-02-24,Tunica,Mississippi,28143,3038,50
-2023-02-24,Tishomingo,Mississippi,28141,7653,123
-2023-02-24,Tippah,Mississippi,28139,8908,120
-2023-02-24,Tate,Mississippi,28137,8682,158
-2023-02-24,Tallahatchie,Mississippi,28135,3837,68
-2023-02-24,Sunflower,Mississippi,28133,7009,133
-2023-02-24,Stone,Mississippi,28131,6690,82
-2023-02-24,Smith,Mississippi,28129,5033,72
-2023-02-24,Simpson,Mississippi,28127,8574,160
-2023-02-24,Sharkey,Mississippi,28125,1157,28
-2023-02-24,Scott,Mississippi,28123,7822,122
-2023-02-24,Rankin,Mississippi,28121,46437,526
-2023-02-24,Quitman,Mississippi,28119,1825,36
-2023-02-24,Prentiss,Mississippi,28117,10187,113
-2023-02-24,Pontotoc,Mississippi,28115,12773,158
-2023-02-24,Pike,Mississippi,28113,12695,192
-2023-02-24,Perry,Mississippi,28111,3726,66
-2023-02-24,Pearl River,Mississippi,28109,17732,289
-2023-02-24,Panola,Mississippi,28107,12357,179
-2023-02-24,Oktibbeha,Mississippi,28105,13660,173
-2023-02-24,Noxubee,Mississippi,28103,3612,51
-2023-02-24,Newton,Mississippi,28101,7078,103
-2023-02-24,Neshoba,Mississippi,28099,12682,247
-2023-02-24,Montgomery,Mississippi,28097,3672,89
-2023-02-24,Monroe,Mississippi,28095,13648,231
-2023-02-24,Marshall,Mississippi,28093,11967,187
-2023-02-24,Marion,Mississippi,28091,8682,144
-2023-02-24,Madison,Mississippi,28089,31295,350
-2023-02-24,Lowndes,Mississippi,28087,21170,254
-2023-02-24,Lincoln,Mississippi,28085,10416,164
-2023-02-24,Leflore,Mississippi,28083,8603,182
-2023-02-24,Lee,Mississippi,28081,33724,327
-2023-02-24,Leake,Mississippi,28079,7602,133
-2023-02-24,Lawrence,Mississippi,28077,4500,59
-2023-02-24,Lauderdale,Mississippi,28075,21879,384
-2023-02-24,Lamar,Mississippi,28073,21786,169
-2023-02-24,Lafayette,Mississippi,28071,18771,188
-2023-02-24,Kemper,Mississippi,28069,2597,51
-2023-02-24,Jones,Mississippi,28067,26284,313
-2023-02-24,Jefferson Davis,Mississippi,28065,3636,57
-2023-02-24,Jefferson,Mississippi,28063,1786,40
-2023-02-24,Jasper,Mississippi,28061,6117,85
-2023-02-24,Jackson,Mississippi,28059,45547,497
-2023-02-24,Itawamba,Mississippi,28057,9373,150
-2023-02-24,Issaquena,Mississippi,28055,304,9
-2023-02-24,Humphreys,Mississippi,28053,2340,50
-2023-02-24,Holmes,Mississippi,28051,5204,105
-2023-02-24,Hinds,Mississippi,28049,67141,849
-2023-02-24,Harrison,Mississippi,28047,65507,709
-2023-02-24,Hancock,Mississippi,28045,14878,162
-2023-02-24,Grenada,Mississippi,28043,6373,141
-2023-02-24,Greene,Mississippi,28041,3864,61
-2023-02-24,George,Mississippi,28039,8710,91
-2023-02-24,Franklin,Mississippi,28037,2332,39
-2023-02-24,Forrest,Mississippi,28035,27258,325
 2023-02-24,DeSoto,Mississippi,28033,61190,580
 2023-02-24,Covington,Mississippi,28031,8599,122
 2023-02-24,Copiah,Mississippi,28029,9146,127
@@ -1735,9 +1938,9 @@ date,county,state,fips,cases,deaths
 2023-02-24,Aitkin,Minnesota,27001,3679,65
 2023-02-24,Wexford,Michigan,26165,8652,128
 2023-02-24,Wayne,Michigan,26163,533746,9068
-2023-02-24,Washtenaw,Michigan,26161,109724,650
+2023-02-24,Washtenaw,Michigan,26161,109823,651
 2023-02-24,Van Buren,Michigan,26159,20746,332
-2023-02-24,Unknown,Michigan,,16346,36
+2023-02-24,Unknown,Michigan,,16247,35
 2023-02-24,Tuscola,Michigan,26157,15662,315
 2023-02-24,St. Joseph,Michigan,26149,16049,238
 2023-02-24,St. Clair,Michigan,26147,50408,943
@@ -1970,7 +2173,6 @@ date,county,state,fips,cases,deaths
 2023-02-24,Ohio,Kentucky,21183,8946,122
 2023-02-24,Nicholas,Kentucky,21181,2715,35
 2023-02-24,Nelson,Kentucky,21179,19180,171
-2023-02-24,Atchison,Kansas,20005,5035,45
 2023-02-24,Muhlenberg,Kentucky,21177,13269,135
 2023-02-24,Morgan,Kentucky,21175,6685,36
 2023-02-24,Montgomery,Kentucky,21173,11321,128
@@ -2162,1099 +2364,897 @@ date,county,state,fips,cases,deaths
 2023-02-24,Bourbon,Kansas,20011,5594,64
 2023-02-24,Barton,Kansas,20009,7644,124
 2023-02-24,Barber,Kansas,20007,1229,17
-2023-02-24,Weston,Wyoming,56045,1903,23
-2023-02-24,Washakie,Wyoming,56043,2748,50
-2023-02-24,Uinta,Wyoming,56041,6378,43
-2023-02-24,Teton,Wyoming,56039,12123,16
-2023-02-24,Sweetwater,Wyoming,56037,12484,139
-2023-02-24,Sublette,Wyoming,56035,2312,28
-2023-02-24,Sheridan,Wyoming,56033,9935,90
-2023-02-24,Platte,Wyoming,56031,2273,44
-2023-02-24,Park,Wyoming,56029,7691,153
-2023-02-24,Niobrara,Wyoming,56027,864,12
-2023-02-24,Natrona,Wyoming,56025,25791,307
-2023-02-24,Lincoln,Wyoming,56023,4899,38
-2023-02-24,Laramie,Wyoming,56021,31523,320
-2023-02-24,Johnson,Wyoming,56019,2348,21
-2023-02-24,Hot Springs,Wyoming,56017,1440,20
-2023-02-24,Goshen,Wyoming,56015,4622,65
-2023-02-24,Fremont,Wyoming,56013,16775,204
-2023-02-24,Crook,Wyoming,56011,1571,32
-2023-02-24,Converse,Wyoming,56009,3674,58
-2023-02-24,Carbon,Wyoming,56007,5010,55
-2023-02-24,Campbell,Wyoming,56005,13851,160
-2023-02-24,Big Horn,Wyoming,56003,3077,66
-2023-02-24,Albany,Wyoming,56001,11524,54
-2023-02-24,Wood,Wisconsin,55141,26918,267
-2023-02-24,Winnebago,Wisconsin,55139,63687,416
-2023-02-24,Waushara,Wisconsin,55137,7644,94
-2023-02-24,Waupaca,Wisconsin,55135,16305,265
-2023-02-24,Waukesha,Wisconsin,55133,139330,1241
-2023-02-24,Washington,Wisconsin,55131,46691,368
-2023-02-24,Washburn,Wisconsin,55129,5018,52
-2023-02-24,Walworth,Wisconsin,55127,33240,308
-2023-02-24,Vilas,Wisconsin,55125,6484,108
-2023-02-24,Vernon,Wisconsin,55123,7637,119
-2023-02-24,Trempealeau,Wisconsin,55121,9907,75
-2023-02-24,Taylor,Wisconsin,55119,5766,83
-2023-02-24,St. Croix,Wisconsin,55109,30588,167
-2023-02-24,Sheboygan,Wisconsin,55117,39288,362
-2023-02-24,Shawano,Wisconsin,55115,14278,166
-2023-02-24,Sawyer,Wisconsin,55113,6035,70
-2023-02-24,Sauk,Wisconsin,55111,20908,165
-2023-02-24,Rusk,Wisconsin,55107,4171,62
-2023-02-24,Rock,Wisconsin,55105,55162,461
-2023-02-24,Richland,Wisconsin,55103,4967,56
-2023-02-24,Racine,Wisconsin,55101,71125,757
-2023-02-24,Price,Wisconsin,55099,4043,41
-2023-02-24,Portage,Wisconsin,55097,22780,177
-2023-02-24,Polk,Wisconsin,55095,15111,131
-2023-02-24,Pierce,Wisconsin,55093,13487,78
-2023-02-24,Pepin,Wisconsin,55091,2298,20
-2023-02-24,Ozaukee,Wisconsin,55089,27768,212
-2023-02-24,Outagamie,Wisconsin,55087,64469,449
-2023-02-24,Oneida,Wisconsin,55085,10904,153
-2023-02-24,Oconto,Wisconsin,55083,13337,134
-2023-02-24,Monroe,Wisconsin,55081,14719,111
-2023-02-24,Milwaukee,Wisconsin,55079,340216,2489
-2023-02-24,Menominee,Wisconsin,55078,2374,20
-2023-02-24,Marquette,Wisconsin,55077,4632,71
-2023-02-24,Marinette,Wisconsin,55075,14482,149
-2023-02-24,Marathon,Wisconsin,55073,49248,547
-2023-02-24,Manitowoc,Wisconsin,55071,25102,220
-2023-02-24,Lincoln,Wisconsin,55069,8973,160
-2023-02-24,Langlade,Wisconsin,55067,6727,107
-2023-02-24,Lafayette,Wisconsin,55065,4422,33
-2023-02-24,La Crosse,Wisconsin,55063,43489,218
-2023-02-24,Kewaunee,Wisconsin,55061,6824,70
-2023-02-24,Kenosha,Wisconsin,55059,56398,720
-2023-02-24,Juneau,Wisconsin,55057,9390,76
-2023-02-24,Jefferson,Wisconsin,55055,26838,268
-2023-02-24,Jackson,Wisconsin,55053,6900,46
-2023-02-24,Iron,Wisconsin,55051,1808,50
-2023-02-24,Iowa,Wisconsin,55049,6866,34
-2023-02-24,Green Lake,Wisconsin,55047,6349,72
-2023-02-24,Green,Wisconsin,55045,11601,63
-2023-02-24,Grant,Wisconsin,55043,15429,162
-2023-02-24,Forest,Wisconsin,55041,3326,56
-2023-02-24,Fond du Lac,Wisconsin,55039,39139,317
-2023-02-24,Florence,Wisconsin,55037,1347,21
-2023-02-24,Eau Claire,Wisconsin,55035,36553,214
-2023-02-24,Dunn,Wisconsin,55033,15556,83
-2023-02-24,Douglas,Wisconsin,55031,14421,116
-2023-02-24,Door,Wisconsin,55029,8755,91
-2023-02-24,Dodge,Wisconsin,55027,32848,375
-2023-02-24,Dane,Wisconsin,55025,178594,636
-2023-02-24,Crawford,Wisconsin,55023,5341,32
-2023-02-24,Columbia,Wisconsin,55021,19575,148
-2023-02-24,Clark,Wisconsin,55019,9006,133
-2023-02-24,Chippewa,Wisconsin,55017,22154,217
-2023-02-24,Calumet,Wisconsin,55015,16879,137
-2023-02-24,Burnett,Wisconsin,55013,5114,61
-2023-02-24,Buffalo,Wisconsin,55011,4180,23
-2023-02-24,Brown,Wisconsin,55009,102705,625
-2023-02-24,Bayfield,Wisconsin,55007,4374,48
-2023-02-24,Barron,Wisconsin,55005,16076,154
-2023-02-24,Ashland,Wisconsin,55003,4144,43
-2023-02-24,Adams,Wisconsin,55001,5835,70
-2023-02-24,Wyoming,West Virginia,54109,9681,135
-2023-02-24,Wood,West Virginia,54107,28018,380
-2023-02-24,Wirt,West Virginia,54105,1740,28
-2023-02-24,Wetzel,West Virginia,54103,5447,97
-2023-02-24,Webster,West Virginia,54101,2855,38
-2023-02-24,Wayne,West Virginia,54099,11688,154
-2023-02-24,Upshur,West Virginia,54097,8972,105
-2023-02-24,Tyler,West Virginia,54095,2724,33
-2023-02-24,Tucker,West Virginia,54093,2440,39
-2023-02-24,Taylor,West Virginia,54091,5935,84
-2023-02-24,Summers,West Virginia,54089,3856,66
-2023-02-24,Roane,West Virginia,54087,4503,51
-2023-02-24,Ritchie,West Virginia,54085,3042,34
-2023-02-24,Randolph,West Virginia,54083,12067,99
-2023-02-24,Raleigh,West Virginia,54081,30560,423
-2023-02-24,Putnam,West Virginia,54079,20854,221
-2023-02-24,Preston,West Virginia,54077,11066,145
-2023-02-24,Pocahontas,West Virginia,54075,2570,36
-2023-02-24,Pleasants,West Virginia,54073,2502,39
-2023-02-24,Pendleton,West Virginia,54071,2355,24
-2023-02-24,Ohio,West Virginia,54069,13856,199
-2023-02-24,Nicholas,West Virginia,54067,9353,113
-2023-02-24,Morgan,West Virginia,54065,5221,80
-2023-02-24,Monroe,West Virginia,54063,5873,57
-2023-02-24,Monongalia,West Virginia,54061,31329,218
-2023-02-24,Mingo,West Virginia,54059,9992,147
-2023-02-24,Mineral,West Virginia,54057,10239,173
-2023-02-24,Mercer,West Virginia,54055,23334,290
-2023-02-24,McDowell,West Virginia,54047,7436,98
-2023-02-24,Mason,West Virginia,54053,8911,111
-2023-02-24,Marshall,West Virginia,54051,11213,171
-2023-02-24,Marion,West Virginia,54049,20307,208
-2023-02-24,Logan,West Virginia,54045,12909,204
-2023-02-24,Lincoln,West Virginia,54043,7279,97
-2023-02-24,Lewis,West Virginia,54041,6956,96
-2023-02-24,Kanawha,West Virginia,54039,59136,879
-2023-02-24,Jefferson,West Virginia,54037,18352,151
-2023-02-24,Jackson,West Virginia,54035,8780,159
-2023-02-24,Harrison,West Virginia,54033,26031,290
-2023-02-24,Hardy,West Virginia,54031,5713,56
-2023-02-24,Hancock,West Virginia,54029,8369,172
-2023-02-24,Hampshire,West Virginia,54027,7309,92
-2023-02-24,Greenbrier,West Virginia,54025,12867,184
-2023-02-24,Grant,West Virginia,54023,4806,63
-2023-02-24,Gilmer,West Virginia,54021,2538,23
-2023-02-24,Fayette,West Virginia,54019,16736,235
-2023-02-24,Doddridge,West Virginia,54017,2503,20
-2023-02-24,Clay,West Virginia,54015,2712,54
-2023-02-24,Calhoun,West Virginia,54013,2262,15
-2023-02-24,Cabell,West Virginia,54011,33922,442
-2023-02-24,Brooke,West Virginia,54009,6286,118
-2023-02-24,Braxton,West Virginia,54007,4986,52
-2023-02-24,Boone,West Virginia,54005,8694,102
-2023-02-24,Berkeley,West Virginia,54003,45097,350
-2023-02-24,Barbour,West Virginia,54001,5968,77
-2023-02-24,Yakima,Washington,53077,83554,858
-2023-02-24,Whitman,Washington,53075,10093,102
-2023-02-24,Whatcom,Washington,53073,49150,374
-2023-02-24,Walla Walla,Washington,53071,18983,176
-2023-02-24,Wahkiakum,Washington,53069,640,12
-2023-02-24,Unknown,Washington,,2147,0
-2023-02-24,Thurston,Washington,53067,63152,520
-2023-02-24,Stevens,Washington,53065,10077,166
-2023-02-24,Spokane,Washington,53063,153872,1681
-2023-02-24,Snohomish,Washington,53061,204681,1439
-2023-02-24,Skamania,Washington,53059,1798,17
-2023-02-24,Skagit,Washington,53057,28725,268
-2023-02-24,San Juan,Washington,53055,1985,3
-2023-02-24,Pierce,Washington,53053,245017,1612
-2023-02-24,Pend Oreille,Washington,53051,2970,44
-2023-02-24,Pacific,Washington,53049,4840,78
-2023-02-24,Okanogan,Washington,53047,10585,139
-2023-02-24,Mason,Washington,53045,15772,181
-2023-02-24,Lincoln,Washington,53043,2669,30
-2023-02-24,Lewis,Washington,53041,20804,297
-2023-02-24,Klickitat,Washington,53039,4313,60
-2023-02-24,Kittitas,Washington,53037,10364,92
-2023-02-24,Kitsap,Washington,53035,52480,411
-2023-02-24,King,Washington,53033,548843,3520
-2023-02-24,Jefferson,Washington,53031,4877,34
-2023-02-24,Island,Washington,53029,13768,124
-2023-02-24,Grays Harbor,Washington,53027,20406,251
-2023-02-24,Grant,Washington,53025,32575,267
-2023-02-24,Garfield,Washington,53023,503,7
-2023-02-24,Franklin,Washington,53021,36789,227
-2023-02-24,Ferry,Washington,53019,1808,34
-2023-02-24,Douglas,Washington,53017,13317,86
-2023-02-24,Cowlitz,Washington,53015,27306,422
-2023-02-24,Columbia,Washington,53013,750,18
-2023-02-24,Clark,Washington,53011,111743,1046
-2023-02-24,Clallam,Washington,53009,15762,207
-2023-02-24,Chelan,Washington,53007,24121,197
-2023-02-24,Benton,Washington,53005,61953,536
-2023-02-24,Asotin,Washington,53003,5595,86
-2023-02-24,Adams,Washington,53001,5631,45
-2023-02-24,Unknown,Virgin Islands,,51,0
-2023-02-24,St. Thomas,Virgin Islands,78030,10728,71
-2023-02-24,St. John,Virgin Islands,78020,1045,5
-2023-02-24,St. Croix,Virgin Islands,78010,12932,54
-2023-02-24,Wythe,Virginia,51197,9657,173
-2023-02-24,Decatur,Indiana,18031,8546,155
-2023-02-24,Autauga,Alabama,01001,19732,230
-2023-02-24,Baldwin,Alabama,01003,69641,724
-2023-02-24,Barbour,Alabama,01005,7451,112
-2023-02-24,Bibb,Alabama,01007,8067,109
-2023-02-24,Blount,Alabama,01009,18616,261
-2023-02-24,Bullock,Alabama,01011,3020,54
-2023-02-24,Butler,Alabama,01013,6518,132
-2023-02-24,Calhoun,Alabama,01015,41228,675
-2023-02-24,Chambers,Alabama,01017,10812,176
-2023-02-24,Cherokee,Alabama,01019,6732,134
-2023-02-24,Chilton,Alabama,01021,12956,225
-2023-02-24,Choctaw,Alabama,01023,2255,63
-2023-02-24,Clarke,Alabama,01025,8529,114
-2023-02-24,Clay,Alabama,01027,5134,92
-2023-02-24,Cleburne,Alabama,01029,4393,74
-2023-02-24,Coffee,Alabama,01031,17094,245
-2023-02-24,Colbert,Alabama,01033,21197,276
-2023-02-24,Conecuh,Alabama,01035,3589,76
-2023-02-24,Coosa,Alabama,01037,3755,64
-2023-02-24,Covington,Alabama,01039,11765,269
-2023-02-24,Crenshaw,Alabama,01041,4730,110
-2023-02-24,Cullman,Alabama,01043,31438,395
-2023-02-24,Dale,Alabama,01045,16436,245
-2023-02-24,Dallas,Alabama,01047,10935,258
-2023-02-24,DeKalb,Alabama,01049,22466,351
-2023-02-24,Elmore,Alabama,01051,29745,361
-2023-02-24,Escambia,Alabama,01053,12347,191
-2023-02-24,Etowah,Alabama,01055,34137,690
-2023-02-24,Fayette,Alabama,01057,5871,99
-2023-02-24,Franklin,Alabama,01059,11996,152
-2023-02-24,Geneva,Alabama,01061,7907,171
-2023-02-24,Greene,Alabama,01063,2292,54
-2023-02-24,Hale,Alabama,01065,5705,110
-2023-02-24,Henry,Alabama,01067,5837,79
-2023-02-24,Houston,Alabama,01069,32514,529
-2023-02-24,Jackson,Alabama,01071,18311,278
-2023-02-24,Jefferson,Alabama,01073,237792,2526
-2023-02-24,Lamar,Alabama,01075,4716,94
-2023-02-24,Lauderdale,Alabama,01077,30323,420
-2023-02-24,Lawrence,Alabama,01079,9368,187
-2023-02-24,Lee,Alabama,01081,47500,398
+2023-02-24,Atchison,Kansas,20005,5035,45
 2023-02-24,Anderson,Kansas,20003,2581,40
-2023-02-24,Limestone,Alabama,01083,32058,316
-2023-02-24,Lowndes,Alabama,01085,3358,82
-2023-02-24,Macon,Alabama,01087,5267,90
-2023-02-24,Madison,Alabama,01089,115627,1058
-2023-02-24,Marengo,Alabama,01091,6078,116
-2023-02-24,Marion,Alabama,01093,10094,159
-2023-02-24,Marshall,Alabama,01095,32869,408
-2023-02-24,Mobile,Alabama,01097,134503,1781
-2023-02-24,Monroe,Alabama,01099,6720,105
-2023-02-24,Montgomery,Alabama,01101,73524,1006
-2023-02-24,Morgan,Alabama,01103,46347,550
-2023-02-24,Perry,Alabama,01105,2659,50
-2023-02-24,Pickens,Alabama,01107,6317,122
-2023-02-24,Pike,Alabama,01109,9241,142
-2023-02-24,Randolph,Alabama,01111,6500,134
-2023-02-24,Russell,Alabama,01113,12995,254
-2023-02-24,Shelby,Alabama,01117,77846,480
-2023-02-24,St. Clair,Alabama,01115,33164,439
-2023-02-24,Sumter,Alabama,01119,3164,58
-2023-02-24,Talladega,Alabama,01121,28482,401
-2023-02-24,Tallapoosa,Alabama,01123,14566,252
-2023-02-24,Tuscaloosa,Alabama,01125,70636,850
-2023-02-24,Walker,Alabama,01127,24045,478
-2023-02-24,Washington,Alabama,01129,4388,69
-2023-02-24,Wilcox,Alabama,01131,3645,57
-2023-02-24,Winston,Alabama,01133,9405,140
-2023-02-24,Aleutians East Borough,Alaska,02013,1316,5
-2023-02-24,Aleutians West Census Area,Alaska,02016,1994,2
-2023-02-24,Anchorage,Alaska,02020,123414,593
-2023-02-24,Bethel Census Area,Alaska,02050,12908,47
-2023-02-24,Bristol Bay plus Lake and Peninsula,Alaska,,1233,1
-2023-02-24,Denali Borough,Alaska,02068,1792,2
-2023-02-24,Dillingham Census Area,Alaska,02070,2262,14
-2023-02-24,Fairbanks North Star Borough,Alaska,02090,33335,172
-2023-02-24,Haines Borough,Alaska,02100,801,1
-2023-02-24,Juneau City and Borough,Alaska,02110,11855,27
-2023-02-24,Kenai Peninsula Borough,Alaska,02122,22434,122
-2023-02-24,Ketchikan Gateway Borough,Alaska,02130,5099,24
-2023-02-24,Kodiak Island Borough,Alaska,02150,5845,13
-2023-02-24,Kusilvak Census Area,Alaska,02158,4905,15
-2023-02-24,Matanuska-Susitna Borough,Alaska,02170,40527,265
-2023-02-24,Nome Census Area,Alaska,02180,7596,7
-2023-02-24,North Slope Borough,Alaska,02185,5496,17
-2023-02-24,Northwest Arctic Borough,Alaska,02188,5776,21
-2023-02-24,Petersburg Borough,Alaska,02195,910,7
-2023-02-24,Prince of Wales-Hyder Census Area,Alaska,02198,1820,10
-2023-02-24,Sitka City and Borough,Alaska,02220,3477,9
-2023-02-24,Skagway Municipality,Alaska,02230,664,0
-2023-02-24,Southeast Fairbanks Census Area,Alaska,02240,2456,21
-2023-02-24,Unknown,Alaska,,1822,0
-2023-02-24,Valdez-Cordova Census Area,Alaska,02261,3690,23
-2023-02-24,Wrangell City and Borough,Alaska,02275,795,2
-2023-02-24,Yakutat plus Hoonah-Angoon,Alaska,,961,5
-2023-02-24,Yukon-Koyukuk Census Area,Alaska,02290,1745,13
-2023-02-24,Unknown,American Samoa,,8309,34
-2023-02-24,Apache,Arizona,04001,35848,639
-2023-02-24,Cochise,Arizona,04003,38971,643
-2023-02-24,Coconino,Arizona,04005,52627,526
-2023-02-24,Gila,Arizona,04007,21354,415
-2023-02-24,Graham,Arizona,04009,14078,188
-2023-02-24,Greenlee,Arizona,04011,2711,40
-2023-02-24,La Paz,Arizona,04012,5937,158
-2023-02-24,Maricopa,Arizona,04013,1526029,18812
-2023-02-24,Mohave,Arizona,04015,67042,1665
-2023-02-24,Navajo,Arizona,04017,48052,970
-2023-02-24,Pima,Arizona,04019,315154,4292
-2023-02-24,Pinal,Arizona,04021,156407,1813
-2023-02-24,Santa Cruz,Arizona,04023,19585,245
-2023-02-24,Yavapai,Arizona,04025,59992,1383
-2023-02-24,Yuma,Arizona,04027,70844,1253
-2023-02-24,Arkansas,Arkansas,05001,7001,95
-2023-02-24,Ashley,Arkansas,05003,6231,82
-2023-02-24,Baxter,Arkansas,05005,10688,283
-2023-02-24,Benton,Arkansas,05007,77191,995
-2023-02-24,Boone,Arkansas,05009,11239,203
-2023-02-24,Bradley,Arkansas,05011,3591,57
-2023-02-24,Calhoun,Arkansas,05013,1192,14
-2023-02-24,Carroll,Arkansas,05015,7261,122
-2023-02-24,Chicot,Arkansas,05017,3124,65
-2023-02-24,Clark,Arkansas,05019,6401,92
-2023-02-24,Clay,Arkansas,05021,5125,101
-2023-02-24,Cleburne,Arkansas,05023,8021,146
-2023-02-24,Cleveland,Arkansas,05025,2669,41
-2023-02-24,Columbia,Arkansas,05027,6759,105
-2023-02-24,Conway,Arkansas,05029,6572,84
-2023-02-24,Craighead,Arkansas,05031,47141,385
-2023-02-24,Crawford,Arkansas,05033,18616,294
-2023-02-24,Crittenden,Arkansas,05035,16669,245
-2023-02-24,Cross,Arkansas,05037,5733,104
-2023-02-24,Dallas,Arkansas,05039,2069,41
-2023-02-24,Desha,Arkansas,05041,3644,44
-2023-02-24,Drew,Arkansas,05043,5619,84
-2023-02-24,Faulkner,Arkansas,05045,42862,357
-2023-02-24,Franklin,Arkansas,05047,4478,82
-2023-02-24,Fulton,Arkansas,05049,3100,99
-2023-02-24,Garland,Arkansas,05051,26984,580
-2023-02-24,Grant,Arkansas,05053,5235,65
-2023-02-24,Greene,Arkansas,05055,19701,198
-2023-02-24,Hempstead,Arkansas,05057,5623,82
-2023-02-24,Hot Spring,Arkansas,05059,13032,160
-2023-02-24,Howard,Arkansas,05061,4651,64
-2023-02-24,Independence,Arkansas,05063,12750,231
-2023-02-24,Izard,Arkansas,05065,4701,78
-2023-02-24,Jackson,Arkansas,05067,7254,76
-2023-02-24,Jefferson,Arkansas,05069,22315,315
-2023-02-24,Johnson,Arkansas,05071,8184,102
-2023-02-24,Lafayette,Arkansas,05073,1503,30
-2023-02-24,Lawrence,Arkansas,05075,6503,89
-2023-02-24,Lee,Arkansas,05077,3335,67
-2023-02-24,Lincoln,Arkansas,05079,5494,70
-2023-02-24,Little River,Arkansas,05081,3881,108
-2023-02-24,Logan,Arkansas,05083,6060,91
-2023-02-24,Lonoke,Arkansas,05085,23921,270
-2023-02-24,Madison,Arkansas,05087,4843,68
-2023-02-24,Marion,Arkansas,05089,4083,94
-2023-02-24,Miller,Arkansas,05091,11602,210
-2023-02-24,Mississippi,Arkansas,05093,16358,235
-2023-02-24,Monroe,Arkansas,05095,2309,38
-2023-02-24,Montgomery,Arkansas,05097,1769,67
-2023-02-24,Nevada,Arkansas,05099,2764,47
-2023-02-24,Newton,Arkansas,05101,2041,54
-2023-02-24,Ouachita,Arkansas,05103,6758,126
-2023-02-24,Perry,Arkansas,05105,3005,42
-2023-02-24,Phillips,Arkansas,05107,5876,106
-2023-02-24,Pike,Arkansas,05109,2957,52
-2023-02-24,Poinsett,Arkansas,05111,10064,139
-2023-02-24,Polk,Arkansas,05113,4642,160
-2023-02-24,Pope,Arkansas,05115,20940,229
-2023-02-24,Prairie,Arkansas,05117,2414,46
-2023-02-24,Pulaski,Arkansas,05119,127566,1315
-2023-02-24,Randolph,Arkansas,05121,6421,106
-2023-02-24,Saline,Arkansas,05125,37010,394
-2023-02-24,Scott,Arkansas,05127,2845,49
-2023-02-24,Searcy,Arkansas,05129,2548,53
-2023-02-24,Sebastian,Arkansas,05131,39259,583
-2023-02-24,Sevier,Arkansas,05133,7111,84
-2023-02-24,Sharp,Arkansas,05135,5701,122
-2023-02-24,St. Francis,Arkansas,05123,8555,108
-2023-02-24,Stone,Arkansas,05137,3692,80
-2023-02-24,Union,Arkansas,05139,11258,204
-2023-02-24,Unknown,Arkansas,,33418,0
-2023-02-24,Van Buren,Arkansas,05141,4333,66
-2023-02-24,Washington,Arkansas,05143,80643,702
-2023-02-24,White,Arkansas,05145,27042,340
-2023-02-24,Woodruff,Arkansas,05147,2268,33
-2023-02-24,Yell,Arkansas,05149,7591,118
-2023-02-24,Alameda,California,06001,399812,2180
-2023-02-24,Alpine,California,06003,143,0
-2023-02-24,Amador,California,06005,11506,99
-2023-02-24,Butte,California,06007,51819,534
-2023-02-24,Calaveras,California,06009,9613,140
-2023-02-24,Colusa,California,06011,5318,52
-2023-02-24,Contra Costa,California,06013,293710,1552
-2023-02-24,Del Norte,California,06015,8389,61
-2023-02-24,El Dorado,California,06017,39039,305
-2023-02-24,Fresno,California,06019,328236,2991
-2023-02-24,Glenn,California,06021,7793,99
-2023-02-24,Humboldt,California,06023,29203,169
-2023-02-24,Imperial,California,06025,88598,1024
-2023-02-24,Inyo,California,06027,6061,63
-2023-02-24,Kern,California,06029,309529,2619
-2023-02-24,Kings,California,06031,67230,478
-2023-02-24,Lake,California,06033,14900,160
-2023-02-24,Lassen,California,06035,11678,101
-2023-02-24,Los Angeles,California,06037,3700892,35631
-2023-02-24,Madera,California,06039,55031,513
-2023-02-24,Marin,California,06041,54600,317
-2023-02-24,Mariposa,California,06043,4533,44
-2023-02-24,Mendocino,California,06045,21670,144
-2023-02-24,Merced,California,06047,89019,903
-2023-02-24,Modoc,California,06049,1323,25
-2023-02-24,Mono,California,06051,3623,17
-2023-02-24,Monterey,California,06053,121537,825
-2023-02-24,Napa,California,06055,35846,165
-2023-02-24,Nevada,California,06057,22430,166
-2023-02-24,Orange,California,06059,785616,7936
-2023-02-24,Placer,California,06061,90999,682
-2023-02-24,Plumas,California,06063,4285,47
-2023-02-24,Riverside,California,06065,774528,7941
-2023-02-24,Sacramento,California,06067,407116,3705
-2023-02-24,San Benito,California,06069,18728,116
-2023-02-24,San Bernardino,California,06071,743344,8171
-2023-02-24,San Diego,California,06073,1064156,5885
-2023-02-24,San Francisco,California,06075,208545,1168
-2023-02-24,San Joaquin,California,06077,226173,2417
-2023-02-24,San Luis Obispo,California,06079,74424,561
-2023-02-24,San Mateo,California,06081,193639,912
-2023-02-24,Santa Barbara,California,06083,119604,761
-2023-02-24,Santa Clara,California,06085,495009,2699
-2023-02-24,Santa Cruz,California,06087,72083,348
-2023-02-24,Shasta,California,06089,44707,690
-2023-02-24,Sierra,California,06091,372,5
-2023-02-24,Siskiyou,California,06093,8886,124
-2023-02-24,Solano,California,06095,122060,707
-2023-02-24,Sonoma,California,06097,119050,564
-2023-02-24,Stanislaus,California,06099,167774,1843
-2023-02-24,Sutter,California,06101,28229,247
-2023-02-24,Tehama,California,06103,17843,222
-2023-02-24,Trinity,California,06105,1977,30
-2023-02-24,Tulare,California,06107,168140,1567
-2023-02-24,Tuolumne,California,06109,18106,210
-2023-02-24,Ventura,California,06111,238577,1665
-2023-02-24,Yolo,California,06113,54784,442
-2023-02-24,Yuba,California,06115,21846,153
-2023-02-24,Adams,Colorado,08001,165940,1462
-2023-02-24,Alamosa,Colorado,08003,5930,68
-2023-02-24,Arapahoe,Colorado,08005,196601,1361
-2023-02-24,Archuleta,Colorado,08007,3531,24
-2023-02-24,Baca,Colorado,08009,1025,17
-2023-02-24,Bent,Colorado,08011,3000,50
-2023-02-24,Boulder,Colorado,08013,91195,446
-2023-02-24,Broomfield,Colorado,08014,18333,132
-2023-02-24,Chaffee,Colorado,08015,5658,56
-2023-02-24,Cheyenne,Colorado,08017,393,12
-2023-02-24,Clear Creek,Colorado,08019,1927,13
-2023-02-24,Conejos,Colorado,08021,2300,60
-2023-02-24,Costilla,Colorado,08023,954,19
-2023-02-24,Crowley,Colorado,08025,3557,33
-2023-02-24,Custer,Colorado,08027,835,25
-2023-02-24,Delta,Colorado,08029,7179,160
-2023-02-24,Denver,Colorado,08031,224303,1518
-2023-02-24,Dolores,Colorado,08033,424,8
-2023-02-24,Douglas,Colorado,08035,100801,496
-2023-02-24,Eagle,Colorado,08037,18798,39
-2023-02-24,Elbert,Colorado,08039,5821,48
-2023-02-24,El Paso,Colorado,08041,236576,1891
-2023-02-24,Fremont,Colorado,08043,18729,209
-2023-02-24,Garfield,Colorado,08045,18013,103
-2023-02-24,Gilpin,Colorado,08047,1169,7
-2023-02-24,Grand,Colorado,08049,4049,30
-2023-02-24,Gunnison,Colorado,08051,3973,16
-2023-02-24,Hinsdale,Colorado,08053,159,0
-2023-02-24,Huerfano,Colorado,08055,1763,40
-2023-02-24,Jackson,Colorado,08057,195,0
-2023-02-24,Jefferson,Colorado,08059,160291,1542
-2023-02-24,Kiowa,Colorado,08061,391,6
-2023-02-24,Kit Carson,Colorado,08063,1875,32
-2023-02-24,Lake,Colorado,08065,2201,2
-2023-02-24,La Plata,Colorado,08067,15795,99
-2023-02-24,Larimer,Colorado,08069,108927,597
-2023-02-24,Las Animas,Colorado,08071,4392,51
-2023-02-24,Lincoln,Colorado,08073,2382,11
-2023-02-24,Logan,Colorado,08075,8644,119
-2023-02-24,Mesa,Colorado,08077,51706,636
-2023-02-24,Mineral,Colorado,08079,302,4
-2023-02-24,Moffat,Colorado,08081,3730,58
-2023-02-24,Montezuma,Colorado,08083,7643,90
-2023-02-24,Montrose,Colorado,08085,11175,183
-2023-02-24,Morgan,Colorado,08087,6950,148
-2023-02-24,Otero,Colorado,08089,5311,137
-2023-02-24,Ouray,Colorado,08091,1117,6
-2023-02-24,Park,Colorado,08093,3492,25
-2023-02-24,Phillips,Colorado,08095,1119,20
-2023-02-24,Pitkin,Colorado,08097,8070,9
-2023-02-24,Prowers,Colorado,08099,3213,52
-2023-02-24,Pueblo,Colorado,08101,61816,875
-2023-02-24,Rio Blanco,Colorado,08103,2232,16
-2023-02-24,Rio Grande,Colorado,08105,3626,47
-2023-02-24,Routt,Colorado,08107,7862,34
-2023-02-24,Saguache,Colorado,08109,1517,18
-2023-02-24,San Juan,Colorado,08111,316,0
-2023-02-24,San Miguel,Colorado,08113,2711,8
-2023-02-24,Sedgwick,Colorado,08115,582,12
-2023-02-24,Summit,Colorado,08117,12066,15
-2023-02-24,Teller,Colorado,08119,5907,67
-2023-02-24,Unknown,Colorado,,0,5
-2023-02-24,Washington,Colorado,08121,1258,35
-2023-02-24,Weld,Colorado,08123,105850,777
-2023-02-24,Yuma,Colorado,08125,2337,27
-2023-02-24,Fairfield,Connecticut,09001,263857,2996
-2023-02-24,Hartford,Connecticut,09003,236488,3476
-2023-02-24,Litchfield,Connecticut,09005,41689,529
-2023-02-24,Middlesex,Connecticut,09007,38748,547
-2023-02-24,New Haven,Connecticut,09009,257238,3145
-2023-02-24,New London,Connecticut,09011,73704,771
-2023-02-24,Tolland,Connecticut,09013,27834,315
-2023-02-24,Unknown,Connecticut,,3257,13
-2023-02-24,Windham,Connecticut,09015,31328,353
-2023-02-24,Kent,Delaware,10001,64330,722
-2023-02-24,New Castle,Delaware,10003,186739,1598
-2023-02-24,Sussex,Delaware,10005,78150,989
-2023-02-24,Unknown,Delaware,,1113,0
-2023-02-24,District of Columbia,District of Columbia,11001,177504,1427
-2023-02-24,Alachua,Florida,12001,88755,833
-2023-02-24,Baker,Florida,12003,10650,154
-2023-02-24,Bay,Florida,12005,54974,894
-2023-02-24,Bradford,Florida,12007,9148,177
-2023-02-24,Brevard,Florida,12009,173316,2508
-2023-02-24,Broward,Florida,12011,766482,6756
-2023-02-24,Calhoun,Florida,12013,4891,111
-2023-02-24,Charlotte,Florida,12015,48122,1007
-2023-02-24,Citrus,Florida,12017,38680,1146
-2023-02-24,Clay,Florida,12019,66660,977
-2023-02-24,Collier,Florida,12021,104335,1172
-2023-02-24,Columbia,Florida,12023,25498,465
-2023-02-24,DeSoto,Florida,12027,11203,176
-2023-02-24,Dixie,Florida,12029,4901,87
-2023-02-24,Duval,Florida,12031,315250,3860
-2023-02-24,Escambia,Florida,12033,93779,1477
-2023-02-24,Flagler,Florida,12035,28728,439
-2023-02-24,Franklin,Florida,12037,3517,58
-2023-02-24,Gadsden,Florida,12039,17572,243
-2023-02-24,Gilchrist,Florida,12041,5598,110
-2023-02-24,Glades,Florida,12043,2284,38
-2023-02-24,Gulf,Florida,12045,4987,89
-2023-02-24,Hamilton,Florida,12047,4526,61
-2023-02-24,Hardee,Florida,12049,10274,141
-2023-02-24,Hendry,Florida,12051,13692,174
-2023-02-24,Hernando,Florida,12053,53360,1282
-2023-02-24,Highlands,Florida,12055,30451,807
-2023-02-24,Hillsborough,Florida,12057,475020,4391
-2023-02-24,Holmes,Florida,12059,6310,107
-2023-02-24,Indian River,Florida,12061,42267,764
-2023-02-24,Jackson,Florida,12063,18064,302
-2023-02-24,Jefferson,Florida,12065,4976,70
-2023-02-24,Lafayette,Florida,12067,3133,65
-2023-02-24,Lake,Florida,12069,108065,1810
-2023-02-24,Lee,Florida,12071,238903,2550
-2023-02-24,Leon,Florida,12073,112384,792
-2023-02-24,Levy,Florida,12075,12672,191
-2023-02-24,Liberty,Florida,12077,2975,37
-2023-02-24,Madison,Florida,12079,6979,108
-2023-02-24,Manatee,Florida,12081,121836,1739
-2023-02-24,Marion,Florida,12083,104701,2495
-2023-02-24,Martin,Florida,12085,40147,765
-2023-02-24,Miami-Dade,Florida,12086,1531478,12283
-2023-02-24,Monroe,Florida,12087,22365,138
-2023-02-24,Nassau,Florida,12089,27063,352
-2023-02-24,Okaloosa,Florida,12091,61528,766
-2023-02-24,Okeechobee,Florida,12093,12379,200
-2023-02-24,Orange,Florida,12095,470873,3295
-2023-02-24,Osceola,Florida,12097,142763,1272
-2023-02-24,Palm Beach,Florida,12099,475077,6022
-2023-02-24,Pasco,Florida,12101,158158,2277
-2023-02-24,Pinellas,Florida,12103,272832,4052
-2023-02-24,Polk,Florida,12105,257616,3447
-2023-02-24,Putnam,Florida,12107,21077,467
-2023-02-24,Santa Rosa,Florida,12113,58656,695
-2023-02-24,Sarasota,Florida,12115,119643,2058
-2023-02-24,Seminole,Florida,12117,130983,1279
-2023-02-24,St. Johns,Florida,12109,77928,702
-2023-02-24,St. Lucie,Florida,12111,95115,1407
-2023-02-24,Sumter,Florida,12119,29852,712
-2023-02-24,Suwannee,Florida,12121,15833,362
-2023-02-24,Taylor,Florida,12123,8049,115
-2023-02-24,Union,Florida,12125,5096,126
-2023-02-24,Unknown,Florida,,329,0
-2023-02-24,Volusia,Florida,12127,149275,2336
-2023-02-24,Wakulla,Florida,12129,12088,144
-2023-02-24,Walton,Florida,12131,19586,236
-2023-02-24,Washington,Florida,12133,7664,123
-2023-02-24,Appling,Georgia,13001,5287,135
-2023-02-24,Atkinson,Georgia,13003,2460,57
-2023-02-24,Bacon,Georgia,13005,4104,82
-2023-02-24,Baker,Georgia,13007,652,15
-2023-02-24,Baldwin,Georgia,13009,11178,262
-2023-02-24,Banks,Georgia,13011,4610,101
-2023-02-24,Barrow,Georgia,13013,26037,291
-2023-02-24,Bartow,Georgia,13015,35463,485
-2023-02-24,Ben Hill,Georgia,13017,5014,125
-2023-02-24,Berrien,Georgia,13019,5865,96
-2023-02-24,Bibb,Georgia,13021,45384,832
-2023-02-24,Bleckley,Georgia,13023,3941,110
-2023-02-24,Brantley,Georgia,13025,4707,115
-2023-02-24,Brooks,Georgia,13027,4059,99
-2023-02-24,Bryan,Georgia,13029,11200,111
-2023-02-24,Bulloch,Georgia,13031,17942,283
-2023-02-24,Burke,Georgia,13033,6297,124
-2023-02-24,Butts,Georgia,13035,7674,180
-2023-02-24,Calhoun,Georgia,13037,1594,25
-2023-02-24,Camden,Georgia,13039,13659,139
-2023-02-24,Candler,Georgia,13043,2598,110
-2023-02-24,Carroll,Georgia,13045,28414,500
-2023-02-24,Catoosa,Georgia,13047,17072,267
-2023-02-24,Charlton,Georgia,13049,3491,77
-2023-02-24,Chatham,Georgia,13051,79623,1032
-2023-02-24,Chattahoochee,Georgia,13053,7901,24
-2023-02-24,Chattooga,Georgia,13055,7603,152
-2023-02-24,Cherokee,Georgia,13057,75741,710
-2023-02-24,Clarke,Georgia,13059,35263,263
-2023-02-24,Clay,Georgia,13061,626,13
-2023-02-24,Clayton,Georgia,13063,77848,1088
-2023-02-24,Clinch,Georgia,13065,2459,46
-2023-02-24,Cobb,Georgia,13067,216538,2089
-2023-02-24,Coffee,Georgia,13069,11864,305
-2023-02-24,Colquitt,Georgia,13071,13650,277
-2023-02-24,Columbia,Georgia,13073,43228,437
-2023-02-24,Cook,Georgia,13075,5702,83
-2023-02-24,Coweta,Georgia,13077,41178,527
-2023-02-24,Crawford,Georgia,13079,2223,64
-2023-02-24,Crisp,Georgia,13081,5601,145
-2023-02-24,Dade,Georgia,13083,3962,56
-2023-02-24,Dawson,Georgia,13085,8390,108
-2023-02-24,Decatur,Georgia,13087,8600,143
-2023-02-24,DeKalb,Georgia,13089,193070,1972
-2023-02-24,Dodge,Georgia,13091,5953,174
-2023-02-24,Dooly,Georgia,13093,2852,76
-2023-02-24,Dougherty,Georgia,13095,24445,569
-2023-02-24,Douglas,Georgia,13097,43425,461
-2023-02-24,Early,Georgia,13099,3151,65
-2023-02-24,Echols,Georgia,13101,1058,12
-2023-02-24,Effingham,Georgia,13103,16399,217
-2023-02-24,Elbert,Georgia,13105,5339,120
-2023-02-24,Emanuel,Georgia,13107,6792,168
-2023-02-24,Evans,Georgia,13109,2864,70
-2023-02-24,Fannin,Georgia,13111,5780,180
-2023-02-24,Fayette,Georgia,13113,29570,384
-2023-02-24,Floyd,Georgia,13115,32165,570
-2023-02-24,Forsyth,Georgia,13117,67972,465
-2023-02-24,Franklin,Georgia,13119,6237,115
-2023-02-24,Fulton,Georgia,13121,276225,2658
-2023-02-24,Gilmer,Georgia,13123,8258,199
-2023-02-24,Glascock,Georgia,13125,727,31
-2023-02-24,Glynn,Georgia,13127,27236,441
-2023-02-24,Gordon,Georgia,13129,19865,303
-2023-02-24,Grady,Georgia,13131,6888,114
-2023-02-24,Greene,Georgia,13133,4755,91
-2023-02-24,Gwinnett,Georgia,13135,256987,2116
-2023-02-24,Habersham,Georgia,13137,11605,288
-2023-02-24,Hall,Georgia,13139,64518,929
-2023-02-24,Hancock,Georgia,13141,1950,91
-2023-02-24,Haralson,Georgia,13143,6319,186
-2023-02-24,Harris,Georgia,13145,7112,124
-2023-02-24,Hart,Georgia,13147,5647,111
-2023-02-24,Heard,Georgia,13149,2585,61
-2023-02-24,Henry,Georgia,13151,71891,757
-2023-02-24,Houston,Georgia,13153,49351,542
-2023-02-24,Irwin,Georgia,13155,2231,57
-2023-02-24,Jackson,Georgia,13157,24960,314
-2023-02-24,Jasper,Georgia,13159,3764,82
-2023-02-24,Jeff Davis,Georgia,13161,4372,77
-2023-02-24,Jefferson,Georgia,13163,4251,121
-2023-02-24,Jenkins,Georgia,13165,1779,69
-2023-02-24,Johnson,Georgia,13167,2647,86
-2023-02-24,Jones,Georgia,13169,6033,127
-2023-02-24,Lamar,Georgia,13171,5839,131
-2023-02-24,Lanier,Georgia,13173,2697,32
-2023-02-24,Laurens,Georgia,13175,16428,328
-2023-02-24,Lee,Georgia,13177,8799,113
-2023-02-24,Liberty,Georgia,13179,15772,166
-2023-02-24,Lincoln,Georgia,13181,1840,40
-2023-02-24,Long,Georgia,13183,3488,36
-2023-02-24,Lowndes,Georgia,13185,36911,434
-2023-02-24,Lumpkin,Georgia,13187,9004,139
-2023-02-24,Macon,Georgia,13193,2735,54
-2023-02-24,Madison,Georgia,13195,8024,123
-2023-02-24,Marion,Georgia,13197,1869,57
-2023-02-24,McDuffie,Georgia,13189,6171,114
-2023-02-24,McIntosh,Georgia,13191,2858,40
-2023-02-24,Meriwether,Georgia,13199,5571,158
-2023-02-24,Miller,Georgia,13201,2050,32
-2023-02-24,Mitchell,Georgia,13205,6315,127
-2023-02-24,Monroe,Georgia,13207,7061,185
-2023-02-24,Montgomery,Georgia,13209,2332,56
-2023-02-24,Morgan,Georgia,13211,5637,75
-2023-02-24,Murray,Georgia,13213,13527,205
-2023-02-24,Muscogee,Georgia,13215,45839,925
-2023-02-24,Newton,Georgia,13217,30693,497
-2023-02-24,Oconee,Georgia,13219,10547,116
-2023-02-24,Oglethorpe,Georgia,13221,3758,65
-2023-02-24,Paulding,Georgia,13223,46665,476
-2023-02-24,Peach,Georgia,13225,7915,151
-2023-02-24,Pickens,Georgia,13227,10117,194
-2023-02-24,Pierce,Georgia,13229,6445,144
-2023-02-24,Pike,Georgia,13231,6488,108
-2023-02-24,Polk,Georgia,13233,13754,214
-2023-02-24,Pulaski,Georgia,13235,2698,84
-2023-02-24,Putnam,Georgia,13237,5259,114
-2023-02-24,Quitman,Georgia,13239,551,16
-2023-02-24,Rabun,Georgia,13241,4129,106
-2023-02-24,Randolph,Georgia,13243,1831,50
-2023-02-24,Richmond,Georgia,13245,60536,971
-2023-02-24,Rockdale,Georgia,13247,23708,350
-2023-02-24,Schley,Georgia,13249,1415,12
-2023-02-24,Screven,Georgia,13251,3183,76
-2023-02-24,Seminole,Georgia,13253,2532,47
-2023-02-24,Spalding,Georgia,13255,19296,450
-2023-02-24,Stephens,Georgia,13257,7323,183
-2023-02-24,Stewart,Georgia,13259,3284,36
-2023-02-24,Sumter,Georgia,13261,8724,188
-2023-02-24,Talbot,Georgia,13263,1376,35
-2023-02-24,Taliaferro,Georgia,13265,338,4
-2023-02-24,Tattnall,Georgia,13267,5753,144
-2023-02-24,Taylor,Georgia,13269,2436,53
-2023-02-24,Telfair,Georgia,13271,3529,90
-2023-02-24,Terrell,Georgia,13273,2552,71
-2023-02-24,Thomas,Georgia,13275,14055,235
-2023-02-24,Tift,Georgia,13277,13825,238
-2023-02-24,Toombs,Georgia,13279,8031,216
-2023-02-24,Towns,Georgia,13281,3088,127
-2023-02-24,Treutlen,Georgia,13283,1883,71
-2023-02-24,Troup,Georgia,13285,18742,425
-2023-02-24,Turner,Georgia,13287,3184,65
-2023-02-24,Twiggs,Georgia,13289,1846,74
-2023-02-24,Union,Georgia,13291,6148,181
-2023-02-24,Unknown,Georgia,,12629,0
-2023-02-24,Upson,Georgia,13293,9624,259
-2023-02-24,Walker,Georgia,13295,20070,303
-2023-02-24,Walton,Georgia,13297,26672,479
-2023-02-24,Ware,Georgia,13299,11392,304
-2023-02-24,Warren,Georgia,13301,1295,35
-2023-02-24,Washington,Georgia,13303,5135,141
-2023-02-24,Wayne,Georgia,13305,8874,222
-2023-02-24,Webster,Georgia,13307,544,10
-2023-02-24,Wheeler,Georgia,13309,1592,39
-2023-02-24,White,Georgia,13311,8338,185
-2023-02-24,Whitfield,Georgia,13313,39194,492
-2023-02-24,Wilcox,Georgia,13315,2418,73
-2023-02-24,Wilkes,Georgia,13317,2627,55
-2023-02-24,Wilkinson,Georgia,13319,2673,67
-2023-02-24,Worth,Georgia,13321,5570,128
-2023-02-24,Unknown,Guam,,61916,420
-2023-02-24,Hawaii,Hawaii,15001,42399,227
-2023-02-24,Honolulu,Hawaii,15003,263167,1321
-2023-02-24,Kalawao,Hawaii,15005,1,0
-2023-02-24,Kauai,Hawaii,15007,19063,47
-2023-02-24,Maui,Hawaii,15009,45353,173
-2023-02-24,Unknown,Hawaii,,0,51
-2023-02-24,Ada,Idaho,16001,159699,1137
-2023-02-24,Adams,Idaho,16003,814,16
-2023-02-24,Bannock,Idaho,16005,24359,272
-2023-02-24,Bear Lake,Idaho,16007,1152,19
-2023-02-24,Benewah,Idaho,16009,2740,45
-2023-02-24,Bingham,Idaho,16011,11139,174
-2023-02-24,Blaine,Idaho,16013,7252,33
-2023-02-24,Boise,Idaho,16015,1292,16
-2023-02-24,Bonner,Idaho,16017,10237,199
-2023-02-24,Bonneville,Idaho,16019,35375,302
-2023-02-24,Boundary,Idaho,16021,2411,69
-2023-02-24,Butte,Idaho,16023,551,12
-2023-02-24,Camas,Idaho,16025,180,2
-2023-02-24,Canyon,Idaho,16027,70280,735
-2023-02-24,Caribou,Idaho,16029,1667,37
-2023-02-24,Cassia,Idaho,16031,5579,57
-2023-02-24,Clark,Idaho,16033,117,1
-2023-02-24,Clearwater,Idaho,16035,2675,40
-2023-02-24,Custer,Idaho,16037,705,13
-2023-02-24,Elmore,Idaho,16039,8995,73
-2023-02-24,Franklin,Idaho,16041,2581,31
-2023-02-24,Fremont,Idaho,16043,2411,30
-2023-02-24,Gem,Idaho,16045,4249,86
-2023-02-24,Gooding,Idaho,16047,3913,60
-2023-02-24,Idaho,Idaho,16049,3600,60
-2023-02-24,Jefferson,Idaho,16051,6822,69
-2023-02-24,Jerome,Idaho,16053,7086,68
-2023-02-24,Kootenai,Idaho,16055,47102,666
-2023-02-24,Latah,Idaho,16057,7687,56
-2023-02-24,Lemhi,Idaho,16059,1750,28
-2023-02-24,Lewis,Idaho,16061,1397,32
-2023-02-24,Lincoln,Idaho,16063,1294,15
-2023-02-24,Madison,Idaho,16065,13770,58
-2023-02-24,Minidoka,Idaho,16067,4781,71
-2023-02-24,Nez Perce,Idaho,16069,10604,161
-2023-02-24,Oneida,Idaho,16071,959,12
-2023-02-24,Owyhee,Idaho,16073,2598,56
-2023-02-24,Payette,Idaho,16075,6713,92
-2023-02-24,Power,Idaho,16077,1689,23
-2023-02-24,Shoshone,Idaho,16079,3117,80
-2023-02-24,Teton,Idaho,16081,2935,9
-2023-02-24,Twin Falls,Idaho,16083,28538,313
-2023-02-24,Valley,Idaho,16085,3140,18
-2023-02-24,Washington,Idaho,16087,2618,60
-2023-02-24,Adams,Illinois,17001,27857,262
-2023-02-24,Alexander,Illinois,17003,1569,32
-2023-02-24,Bond,Illinois,17005,5287,54
-2023-02-24,Boone,Illinois,17007,17482,139
-2023-02-24,Brown,Illinois,17009,2869,23
-2023-02-24,Bureau,Illinois,17011,10230,147
-2023-02-24,Calhoun,Illinois,17013,1889,16
-2023-02-24,Carroll,Illinois,17015,5011,58
-2023-02-24,Cass,Illinois,17017,5609,48
-2023-02-24,Champaign,Illinois,17019,85660,321
-2023-02-24,Christian,Illinois,17021,12989,137
-2023-02-24,Clark,Illinois,17023,5915,63
-2023-02-24,Clay,Illinois,17025,5903,81
-2023-02-24,Clinton,Illinois,17027,14336,127
-2023-02-24,Coles,Illinois,17029,18933,189
-2023-02-24,Cook,Illinois,17031,1524936,15809
-2023-02-24,Crawford,Illinois,17033,7846,73
-2023-02-24,Cumberland,Illinois,17035,3997,52
-2023-02-24,DeKalb,Illinois,17037,32414,220
-2023-02-24,De Witt,Illinois,17039,5196,53
-2023-02-24,Douglas,Illinois,17041,7904,69
-2023-02-24,DuPage,Illinois,17043,288431,1940
-2023-02-24,Edgar,Illinois,17045,6600,93
-2023-02-24,Edwards,Illinois,17047,2121,38
-2023-02-24,Effingham,Illinois,17049,12797,157
-2023-02-24,Fayette,Illinois,17051,8730,108
-2023-02-24,Ford,Illinois,17053,5471,78
-2023-02-24,Franklin,Illinois,17055,15354,198
-2023-02-24,Fulton,Illinois,17057,12735,147
-2023-02-24,Gallatin,Illinois,17059,1845,25
-2023-02-24,Greene,Illinois,17061,4259,62
-2023-02-24,Grundy,Illinois,17063,16232,158
-2023-02-24,Hamilton,Illinois,17065,2660,40
-2023-02-24,Hancock,Illinois,17067,5374,72
-2023-02-24,Hardin,Illinois,17069,1445,28
-2023-02-24,Henderson,Illinois,17071,1573,29
-2023-02-24,Henry,Illinois,17073,15819,164
-2023-02-24,Iroquois,Illinois,17075,8862,133
-2023-02-24,Jackson,Illinois,17077,20076,172
-2023-02-24,Jasper,Illinois,17079,3217,35
-2023-02-24,Jefferson,Illinois,17081,13504,185
-2023-02-24,Jersey,Illinois,17083,7833,99
-2023-02-24,Jo Daviess,Illinois,17085,5151,52
-2023-02-24,Johnson,Illinois,17087,5564,58
-2023-02-24,Kane,Illinois,17089,165409,1265
-2023-02-24,Kankakee,Illinois,17091,36649,393
-2023-02-24,Kendall,Illinois,17093,41622,183
-2023-02-24,Knox,Illinois,17095,16163,276
-2023-02-24,Lake,Illinois,17097,209370,1611
-2023-02-24,LaSalle,Illinois,17099,36972,475
-2023-02-24,Lawrence,Illinois,17101,6828,60
-2023-02-24,Lee,Illinois,17103,11553,131
-2023-02-24,Livingston,Illinois,17105,13154,157
-2023-02-24,Logan,Illinois,17107,12626,114
-2023-02-24,Macon,Illinois,17115,40008,382
-2023-02-24,Macoupin,Illinois,17117,15988,178
-2023-02-24,Madison,Illinois,17119,87282,927
-2023-02-24,Marion,Illinois,17121,14553,229
-2023-02-24,Marshall,Illinois,17123,3471,37
-2023-02-24,Mason,Illinois,17125,4726,67
-2023-02-24,Massac,Illinois,17127,4641,75
-2023-02-24,McDonough,Illinois,17109,9024,120
-2023-02-24,McHenry,Illinois,17111,97848,550
-2023-02-24,McLean,Illinois,17113,63949,367
-2023-02-24,Menard,Illinois,17129,4578,39
-2023-02-24,Mercer,Illinois,17131,4909,51
-2023-02-24,Monroe,Illinois,17133,11412,135
-2023-02-24,Montgomery,Illinois,17135,12128,119
-2023-02-24,Morgan,Illinois,17137,12292,156
-2023-02-24,Moultrie,Illinois,17139,4916,59
-2023-02-24,Ogle,Illinois,17141,17410,147
-2023-02-24,Peoria,Illinois,17143,59597,590
-2023-02-24,Perry,Illinois,17145,9113,110
-2023-02-24,Piatt,Illinois,17147,5563,29
-2023-02-24,Pike,Illinois,17149,6138,95
-2023-02-24,Pope,Illinois,17151,1261,19
-2023-02-24,Pulaski,Illinois,17153,2049,30
-2023-02-24,Putnam,Illinois,17155,1418,12
-2023-02-24,Randolph,Illinois,17157,12892,141
-2023-02-24,Richland,Illinois,17159,6305,86
-2023-02-24,Rock Island,Illinois,17161,42234,562
-2023-02-24,Saline,Illinois,17165,10311,125
-2023-02-24,Sangamon,Illinois,17167,76182,485
-2023-02-24,Schuyler,Illinois,17169,2470,30
-2023-02-24,Scott,Illinois,17171,1567,15
-2023-02-24,Shelby,Illinois,17173,7589,104
-2023-02-24,Stark,Illinois,17175,1883,39
-2023-02-24,St. Clair,Illinois,17163,87987,844
-2023-02-24,Stephenson,Illinois,17177,14936,223
-2023-02-24,Tazewell,Illinois,17179,45952,548
-2023-02-24,Union,Illinois,17181,6839,73
-2023-02-24,Unknown,Illinois,,0,2785
-2023-02-24,Vermilion,Illinois,17183,35082,338
-2023-02-24,Wabash,Illinois,17185,4819,40
-2023-02-24,Warren,Illinois,17187,5046,96
-2023-02-24,Washington,Illinois,17189,4127,47
-2023-02-24,Wayne,Illinois,17191,6590,95
-2023-02-24,White,Illinois,17193,5423,74
-2023-02-24,Whiteside,Illinois,17195,19414,286
-2023-02-24,Will,Illinois,17197,215914,1763
-2023-02-24,Williamson,Illinois,17199,28813,285
-2023-02-24,Winnebago,Illinois,17201,100231,929
-2023-02-24,Woodford,Illinois,17203,12578,134
-2023-02-24,Adams,Indiana,18001,8710,120
-2023-02-24,Allen,Indiana,18003,123852,1279
-2023-02-24,Bartholomew,Indiana,18005,26734,270
-2023-02-24,Benton,Indiana,18007,2968,28
-2023-02-24,Blackford,Indiana,18009,3684,82
-2023-02-24,Boone,Indiana,18011,17361,204
-2023-02-24,Brown,Indiana,18013,2980,63
-2023-02-24,Carroll,Indiana,18015,4906,74
-2023-02-24,Cass,Indiana,18017,14053,182
-2023-02-24,Clark,Indiana,18019,41026,433
-2023-02-24,Clay,Indiana,18021,8139,101
-2023-02-24,Clinton,Indiana,18023,10601,146
-2023-02-24,Crawford,Indiana,18025,3085,45
-2023-02-24,Daviess,Indiana,18027,9036,165
-2023-02-24,Dearborn,Indiana,18029,16199,180
-2023-02-24,DeKalb,Indiana,18033,13604,164
-2023-02-24,Delaware,Indiana,18035,30095,499
-2023-02-24,Dubois,Indiana,18037,15024,179
-2023-02-24,Elkhart,Indiana,18039,61282,793
-2023-02-24,Fayette,Indiana,18041,8325,162
-2023-02-24,Floyd,Indiana,18043,24081,330
-2023-02-24,Fountain,Indiana,18045,6404,110
-2023-02-24,Franklin,Indiana,18047,5186,83
-2023-02-24,Fulton,Indiana,18049,5759,114
-2023-02-24,Gibson,Indiana,18051,14324,159
-2023-02-24,Grant,Indiana,18053,20951,391
-2023-02-24,Greene,Indiana,18055,9046,152
-2023-02-24,Hamilton,Indiana,18057,96612,721
-2023-02-24,Hancock,Indiana,18059,25138,300
-2023-02-24,Harrison,Indiana,18061,13289,165
-2023-02-24,Hendricks,Indiana,18063,47656,612
-2023-02-24,Henry,Indiana,18065,16141,258
-2023-02-24,Howard,Indiana,18067,29984,487
-2023-02-24,Huntington,Indiana,18069,14314,174
-2023-02-24,Jackson,Indiana,18071,15126,144
-2023-02-24,Jasper,Indiana,18073,11019,163
-2023-02-24,Jay,Indiana,18075,5836,86
-2023-02-24,Jefferson,Indiana,18077,11199,179
-2023-02-24,Jennings,Indiana,18079,8141,119
-2023-02-24,Johnson,Indiana,18081,50859,660
-2023-02-24,Knox,Indiana,18083,14168,166
-2023-02-24,Kosciusko,Indiana,18085,22861,255
-2023-02-24,LaGrange,Indiana,18087,6530,114
-2023-02-24,Lake,Indiana,18089,133875,2002
-2023-02-24,LaPorte,Indiana,18091,31688,405
-2023-02-24,Lawrence,Indiana,18093,14452,284
-2023-02-24,Madison,Indiana,18095,39550,700
-2023-02-24,Marion,Indiana,18097,267680,3234
-2023-02-24,Marshall,Indiana,18099,14029,216
-2023-02-24,Martin,Indiana,18101,2607,30
-2023-02-24,Miami,Indiana,18103,10870,175
-2023-02-24,Monroe,Indiana,18105,34346,322
-2023-02-24,Montgomery,Indiana,18107,12268,173
-2023-02-24,Morgan,Indiana,18109,19529,304
-2023-02-24,Newton,Indiana,18111,3088,74
-2023-02-24,Noble,Indiana,18113,15700,177
-2023-02-24,Ohio,Indiana,18115,1755,27
-2023-02-24,Orange,Indiana,18117,5908,105
-2023-02-24,Owen,Indiana,18119,6886,137
-2023-02-24,Parke,Indiana,18121,4328,57
-2023-02-24,Perry,Indiana,18123,5869,73
-2023-02-24,Pike,Indiana,18125,4486,55
-2023-02-24,Porter,Indiana,18127,47503,627
-2023-02-24,Posey,Indiana,18129,7883,63
-2023-02-24,Pulaski,Indiana,18131,3528,92
-2023-02-24,Putnam,Indiana,18133,11166,138
-2023-02-24,Randolph,Indiana,18135,6999,163
-2023-02-24,Ripley,Indiana,18137,10040,160
-2023-02-24,Rush,Indiana,18139,6063,61
-2023-02-24,Scott,Indiana,18143,9432,116
-2023-02-24,Shelby,Indiana,18145,17056,191
-2023-02-24,Spencer,Indiana,18147,6139,64
-2023-02-24,Starke,Indiana,18149,5609,111
-2023-02-24,Steuben,Indiana,18151,11449,126
-2023-02-24,St. Joseph,Indiana,18141,84547,967
-2023-02-24,Sullivan,Indiana,18153,6386,85
-2023-02-24,Switzerland,Indiana,18155,2659,31
-2023-02-24,Tippecanoe,Indiana,18157,60747,460
-2023-02-24,Tipton,Indiana,18159,3983,94
-2023-02-24,Union,Indiana,18161,2337,30
-2023-02-24,Unknown,Indiana,,0,166
-2023-02-24,Vanderburgh,Indiana,18163,70614,687
-2023-02-24,Vermillion,Indiana,18165,4907,82
-2023-02-24,Vigo,Indiana,18167,35028,453
-2023-02-24,Wabash,Indiana,18169,10403,172
-2023-02-24,Warren,Indiana,18171,2373,30
-2023-02-24,Warrick,Indiana,18173,24794,261
-2023-02-24,Washington,Indiana,18175,7160,101
-2023-02-24,Wayne,Indiana,18177,23357,361
-2023-02-24,Wells,Indiana,18179,7547,144
-2023-02-24,White,Indiana,18181,8219,102
-2023-02-24,Whitley,Indiana,18183,11393,91
-2023-02-24,Adair,Iowa,19001,1799,52
-2023-02-24,Adams,Iowa,19003,936,15
-2023-02-24,Allamakee,Iowa,19005,3231,67
-2023-02-24,Appanoose,Iowa,19007,3425,80
-2023-02-24,Audubon,Iowa,19009,1309,25
-2023-02-24,Benton,Iowa,19011,7214,82
-2023-02-24,Black Hawk,Iowa,19013,38803,525
-2023-02-24,Boone,Iowa,19015,6505,70
-2023-02-24,Bremer,Iowa,19017,6351,88
-2023-02-24,Buchanan,Iowa,19019,5511,67
-2023-02-24,Buena Vista,Iowa,19021,6978,66
-2023-02-24,Butler,Iowa,19023,3800,62
-2023-02-24,Calhoun,Iowa,19025,3063,26
-2023-02-24,Carroll,Iowa,19027,5653,83
-2023-02-24,Cass,Iowa,19029,3313,87
-2023-02-24,Cedar,Iowa,19031,5025,49
-2023-02-24,Cerro Gordo,Iowa,19033,12747,181
-2023-02-24,Cherokee,Iowa,19035,3569,74
-2023-02-24,Chickasaw,Iowa,19037,3152,37
-2023-02-24,Clarke,Iowa,19039,2690,43
-2023-02-24,Clay,Iowa,19041,4807,53
-2023-02-24,Clayton,Iowa,19043,4018,80
-2023-02-24,Clinton,Iowa,19045,13827,172
-2023-02-24,Crawford,Iowa,19047,5020,59
-2023-02-24,Dallas,Iowa,19049,26794,159
-2023-02-24,Davis,Iowa,19051,1821,35
-2023-02-24,Decatur,Iowa,19053,1840,29
-2023-02-24,Delaware,Iowa,19055,4756,71
-2023-02-24,Des Moines,Iowa,19057,11234,165
-2023-02-24,Dickinson,Iowa,19059,4723,78
-2023-02-24,Dubuque,Iowa,19061,30896,329
-2023-02-24,Emmet,Iowa,19063,2677,56
-2023-02-24,Fayette,Iowa,19065,4931,87
 2023-02-24,Allen,Kansas,20001,5113,66
-2023-02-24,Floyd,Iowa,19067,4177,69
-2023-02-24,Franklin,Iowa,19069,2943,50
-2023-02-24,Fremont,Iowa,19071,1634,29
-2023-02-24,Greene,Iowa,19073,2047,28
-2023-02-24,Grundy,Iowa,19075,3042,50
-2023-02-24,Guthrie,Iowa,19077,2769,48
-2023-02-24,Hamilton,Iowa,19079,3988,89
-2023-02-24,Hancock,Iowa,19081,3277,51
-2023-02-24,Hardin,Iowa,19083,5050,71
-2023-02-24,Harrison,Iowa,19085,3834,101
-2023-02-24,Henry,Iowa,19087,6500,84
-2023-02-24,Howard,Iowa,19089,2308,37
-2023-02-24,Humboldt,Iowa,19091,3055,44
-2023-02-24,Ida,Iowa,19093,2136,51
-2023-02-24,Iowa,Iowa,19095,4323,53
-2023-02-24,Jackson,Iowa,19097,5511,75
-2023-02-24,Jasper,Iowa,19099,10403,124
-2023-02-24,Jefferson,Iowa,19101,4361,62
-2023-02-24,Johnson,Iowa,19103,44831,182
-2023-02-24,Jones,Iowa,19105,6452,84
-2023-02-24,Keokuk,Iowa,19107,2476,55
-2023-02-24,Kossuth,Iowa,19109,4341,98
-2023-02-24,Lee,Iowa,19111,9187,148
-2023-02-24,Linn,Iowa,19113,64506,662
-2023-02-24,Louisa,Iowa,19115,2944,67
-2023-02-24,Lucas,Iowa,19117,2177,34
-2023-02-24,Lyon,Iowa,19119,3150,55
-2023-02-24,Madison,Iowa,19121,3689,45
-2023-02-24,Mahaska,Iowa,19123,5780,95
-2023-02-24,Marion,Iowa,19125,8864,134
-2023-02-24,Marshall,Iowa,19127,11391,134
-2023-02-24,Mills,Iowa,19129,3993,47
-2023-02-24,Mitchell,Iowa,19131,2819,51
-2023-02-24,Monona,Iowa,19133,2083,53
-2023-02-24,Monroe,Iowa,19135,2187,52
-2023-02-24,Montgomery,Iowa,19137,2586,59
-2023-02-24,Muscatine,Iowa,19139,11221,141
-2023-02-24,O'Brien,Iowa,19141,3869,73
-2023-02-24,Osceola,Iowa,19143,1573,23
-2023-02-24,Page,Iowa,19145,3836,55
-2023-02-24,Palo Alto,Iowa,19147,2397,41
 2023-02-24,Wright,Iowa,19197,4032,71
 2023-02-24,Worth,Iowa,19195,2044,17
-2023-02-24,Plymouth,Iowa,19149,7121,113
-2023-02-24,Pocahontas,Iowa,19151,1935,31
-2023-02-24,Polk,Iowa,19153,147032,1222
-2023-02-24,Pottawattamie,Iowa,19155,27888,353
-2023-02-24,Poweshiek,Iowa,19157,4623,65
-2023-02-24,Ringgold,Iowa,19159,1317,42
-2023-02-24,Sac,Iowa,19161,2872,43
-2023-02-24,Scott,Iowa,19163,48742,445
-2023-02-24,Shelby,Iowa,19165,3165,59
-2023-02-24,Sioux,Iowa,19167,8924,97
-2023-02-24,Story,Iowa,19169,23244,104
-2023-02-24,Tama,Iowa,19171,4646,101
-2023-02-24,Taylor,Iowa,19173,1531,25
 2023-02-24,Woodbury,Iowa,19193,33014,357
-2023-02-24,Union,Iowa,19175,3161,56
-2023-02-24,Unknown,Iowa,,1,0
-2023-02-24,Van Buren,Iowa,19177,1695,28
-2023-02-24,Wapello,Iowa,19179,10413,222
-2023-02-24,Warren,Iowa,19181,14470,154
-2023-02-24,Washington,Iowa,19183,6800,89
-2023-02-24,Wayne,Iowa,19185,1516,35
-2023-02-24,Webster,Iowa,19187,12086,186
-2023-02-24,Winnebago,Iowa,19189,3459,47
 2023-02-24,Winneshiek,Iowa,19191,4484,55
+2023-02-24,Winnebago,Iowa,19189,3459,47
+2023-02-24,Webster,Iowa,19187,12086,186
+2023-02-24,Wayne,Iowa,19185,1516,35
+2023-02-24,Washington,Iowa,19183,6800,89
+2023-02-24,Warren,Iowa,19181,14470,154
+2023-02-24,Wapello,Iowa,19179,10413,222
+2023-02-24,Van Buren,Iowa,19177,1695,28
+2023-02-24,Unknown,Iowa,,1,0
+2023-02-24,Union,Iowa,19175,3161,56
+2023-02-24,Taylor,Iowa,19173,1531,25
+2023-02-24,Tama,Iowa,19171,4646,101
+2023-02-24,Story,Iowa,19169,23244,104
+2023-02-24,Sioux,Iowa,19167,8924,97
+2023-02-24,Shelby,Iowa,19165,3165,59
+2023-02-24,Scott,Iowa,19163,48742,445
+2023-02-24,Sac,Iowa,19161,2872,43
+2023-02-24,Ringgold,Iowa,19159,1317,42
+2023-02-24,Poweshiek,Iowa,19157,4623,65
+2023-02-24,Pottawattamie,Iowa,19155,27888,353
+2023-02-24,Polk,Iowa,19153,147032,1222
+2023-02-24,Pocahontas,Iowa,19151,1935,31
+2023-02-24,Plymouth,Iowa,19149,7121,113
+2023-02-24,Palo Alto,Iowa,19147,2397,41
+2023-02-24,Page,Iowa,19145,3836,55
+2023-02-24,Osceola,Iowa,19143,1573,23
+2023-02-24,O'Brien,Iowa,19141,3869,73
+2023-02-24,Muscatine,Iowa,19139,11221,141
+2023-02-24,Montgomery,Iowa,19137,2586,59
+2023-02-24,Monroe,Iowa,19135,2187,52
+2023-02-24,Monona,Iowa,19133,2083,53
+2023-02-24,Mitchell,Iowa,19131,2819,51
+2023-02-24,Mills,Iowa,19129,3993,47
+2023-02-24,Marshall,Iowa,19127,11391,134
+2023-02-24,Marion,Iowa,19125,8864,134
+2023-02-24,Mahaska,Iowa,19123,5780,95
+2023-02-24,Madison,Iowa,19121,3689,45
+2023-02-24,Lyon,Iowa,19119,3150,55
+2023-02-24,Lucas,Iowa,19117,2177,34
+2023-02-24,Louisa,Iowa,19115,2944,67
+2023-02-24,Linn,Iowa,19113,64506,662
+2023-02-24,Lee,Iowa,19111,9187,148
+2023-02-24,Kossuth,Iowa,19109,4341,98
+2023-02-24,Keokuk,Iowa,19107,2476,55
+2023-02-24,Jones,Iowa,19105,6452,84
+2023-02-24,Johnson,Iowa,19103,44831,182
+2023-02-24,Jefferson,Iowa,19101,4361,62
+2023-02-24,Jasper,Iowa,19099,10403,124
+2023-02-24,Jackson,Iowa,19097,5511,75
+2023-02-24,Iowa,Iowa,19095,4323,53
+2023-02-24,Ida,Iowa,19093,2136,51
+2023-02-24,Humboldt,Iowa,19091,3055,44
+2023-02-24,Howard,Iowa,19089,2308,37
+2023-02-24,Henry,Iowa,19087,6500,84
+2023-02-24,Harrison,Iowa,19085,3834,101
+2023-02-24,Hardin,Iowa,19083,5050,71
+2023-02-24,Hancock,Iowa,19081,3277,51
+2023-02-24,Hamilton,Iowa,19079,3988,89
+2023-02-24,Guthrie,Iowa,19077,2769,48
+2023-02-24,Grundy,Iowa,19075,3042,50
+2023-02-24,Greene,Iowa,19073,2047,28
+2023-02-24,Fremont,Iowa,19071,1634,29
+2023-02-24,Franklin,Iowa,19069,2943,50
+2023-02-24,Floyd,Iowa,19067,4177,69
+2023-02-24,Fayette,Iowa,19065,4931,87
+2023-02-24,Emmet,Iowa,19063,2677,56
+2023-02-24,Dubuque,Iowa,19061,30896,329
+2023-02-24,Dickinson,Iowa,19059,4723,78
+2023-02-24,Des Moines,Iowa,19057,11234,165
+2023-02-24,Delaware,Iowa,19055,4756,71
+2023-02-24,Decatur,Iowa,19053,1840,29
+2023-02-24,Davis,Iowa,19051,1821,35
+2023-02-24,Dallas,Iowa,19049,26794,159
+2023-02-24,Crawford,Iowa,19047,5020,59
+2023-02-24,Clinton,Iowa,19045,13827,172
+2023-02-24,Clayton,Iowa,19043,4018,80
+2023-02-24,Clay,Iowa,19041,4807,53
+2023-02-24,Clarke,Iowa,19039,2690,43
+2023-02-24,Chickasaw,Iowa,19037,3152,37
+2023-02-24,Cherokee,Iowa,19035,3569,74
+2023-02-24,Cerro Gordo,Iowa,19033,12747,181
+2023-02-24,Cedar,Iowa,19031,5025,49
+2023-02-24,Cass,Iowa,19029,3313,87
+2023-02-24,Carroll,Iowa,19027,5653,83
+2023-02-24,Calhoun,Iowa,19025,3063,26
+2023-02-24,Butler,Iowa,19023,3800,62
+2023-02-24,Buena Vista,Iowa,19021,6978,66
+2023-02-24,Buchanan,Iowa,19019,5511,67
+2023-02-24,Bremer,Iowa,19017,6351,88
+2023-02-24,Boone,Iowa,19015,6505,70
+2023-02-24,Black Hawk,Iowa,19013,38803,525
+2023-02-24,Benton,Iowa,19011,7214,82
+2023-02-24,Audubon,Iowa,19009,1309,25
+2023-02-24,Appanoose,Iowa,19007,3425,80
+2023-02-24,Allamakee,Iowa,19005,3231,67
+2023-02-24,Adams,Iowa,19003,936,15
+2023-02-24,Adair,Iowa,19001,1799,52
+2023-02-24,Whitley,Indiana,18183,11393,91
+2023-02-24,White,Indiana,18181,8219,102
+2023-02-24,Wells,Indiana,18179,7547,144
+2023-02-24,Wayne,Indiana,18177,23357,361
+2023-02-24,Washington,Indiana,18175,7160,101
+2023-02-24,Warrick,Indiana,18173,24794,261
+2023-02-24,Warren,Indiana,18171,2373,30
+2023-02-24,Wabash,Indiana,18169,10403,172
+2023-02-24,Vigo,Indiana,18167,35028,453
+2023-02-24,Vermillion,Indiana,18165,4907,82
+2023-02-24,Vanderburgh,Indiana,18163,70614,687
+2023-02-24,Unknown,Indiana,,0,166
+2023-02-24,Union,Indiana,18161,2337,30
+2023-02-24,Tipton,Indiana,18159,3983,94
+2023-02-24,Tippecanoe,Indiana,18157,60747,460
+2023-02-24,Switzerland,Indiana,18155,2659,31
+2023-02-24,Sullivan,Indiana,18153,6386,85
+2023-02-24,St. Joseph,Indiana,18141,84547,967
+2023-02-24,Steuben,Indiana,18151,11449,126
+2023-02-24,Starke,Indiana,18149,5609,111
+2023-02-24,Spencer,Indiana,18147,6139,64
+2023-02-24,Shelby,Indiana,18145,17056,191
+2023-02-24,Scott,Indiana,18143,9432,116
+2023-02-24,Rush,Indiana,18139,6063,61
+2023-02-24,Ripley,Indiana,18137,10040,160
+2023-02-24,Randolph,Indiana,18135,6999,163
+2023-02-24,Putnam,Indiana,18133,11166,138
+2023-02-24,Pulaski,Indiana,18131,3528,92
+2023-02-24,Posey,Indiana,18129,7883,63
+2023-02-24,Porter,Indiana,18127,47503,627
+2023-02-24,Pike,Indiana,18125,4486,55
+2023-02-24,Perry,Indiana,18123,5869,73
+2023-02-24,Parke,Indiana,18121,4328,57
+2023-02-24,Owen,Indiana,18119,6886,137
+2023-02-24,Orange,Indiana,18117,5908,105
+2023-02-24,Ohio,Indiana,18115,1755,27
+2023-02-24,Noble,Indiana,18113,15700,177
+2023-02-24,Newton,Indiana,18111,3088,74
+2023-02-24,Morgan,Indiana,18109,19529,304
+2023-02-24,Montgomery,Indiana,18107,12268,173
+2023-02-24,Monroe,Indiana,18105,34346,322
+2023-02-24,Miami,Indiana,18103,10870,175
+2023-02-24,Martin,Indiana,18101,2607,30
+2023-02-24,Marshall,Indiana,18099,14029,216
+2023-02-24,Marion,Indiana,18097,267680,3234
+2023-02-24,Madison,Indiana,18095,39550,700
+2023-02-24,Lawrence,Indiana,18093,14452,284
+2023-02-24,LaPorte,Indiana,18091,31688,405
+2023-02-24,Lake,Indiana,18089,133875,2002
+2023-02-24,LaGrange,Indiana,18087,6530,114
+2023-02-24,Kosciusko,Indiana,18085,22861,255
+2023-02-24,Knox,Indiana,18083,14168,166
+2023-02-24,Johnson,Indiana,18081,50859,660
+2023-02-24,Jennings,Indiana,18079,8141,119
+2023-02-24,Jefferson,Indiana,18077,11199,179
+2023-02-24,Jay,Indiana,18075,5836,86
+2023-02-24,Jasper,Indiana,18073,11019,163
+2023-02-24,Jackson,Indiana,18071,15126,144
+2023-02-24,Huntington,Indiana,18069,14314,174
+2023-02-24,Howard,Indiana,18067,29984,487
+2023-02-24,Henry,Indiana,18065,16141,258
+2023-02-24,Hendricks,Indiana,18063,47656,612
+2023-02-24,Harrison,Indiana,18061,13289,165
+2023-02-24,Hancock,Indiana,18059,25138,300
+2023-02-24,Hamilton,Indiana,18057,96612,721
+2023-02-24,Greene,Indiana,18055,9046,152
+2023-02-24,Grant,Indiana,18053,20951,391
+2023-02-24,Gibson,Indiana,18051,14324,159
+2023-02-24,Fulton,Indiana,18049,5759,114
+2023-02-24,Franklin,Indiana,18047,5186,83
+2023-02-24,Fountain,Indiana,18045,6404,110
+2023-02-24,Floyd,Indiana,18043,24081,330
+2023-02-24,Fayette,Indiana,18041,8325,162
+2023-02-24,Elkhart,Indiana,18039,61282,793
+2023-02-24,Dubois,Indiana,18037,15024,179
+2023-02-24,Delaware,Indiana,18035,30095,499
+2023-02-24,DeKalb,Indiana,18033,13604,164
+2023-02-24,Decatur,Indiana,18031,8546,155
+2023-02-24,Dearborn,Indiana,18029,16199,180
+2023-02-24,Daviess,Indiana,18027,9036,165
+2023-02-24,Crawford,Indiana,18025,3085,45
+2023-02-24,Clinton,Indiana,18023,10601,146
+2023-02-24,Clay,Indiana,18021,8139,101
+2023-02-24,Clark,Indiana,18019,41026,433
+2023-02-24,Cass,Indiana,18017,14053,182
+2023-02-24,Carroll,Indiana,18015,4906,74
+2023-02-24,Brown,Indiana,18013,2980,63
+2023-02-24,Boone,Indiana,18011,17361,204
+2023-02-24,Blackford,Indiana,18009,3684,82
+2023-02-24,Benton,Indiana,18007,2968,28
+2023-02-24,Bartholomew,Indiana,18005,26734,270
+2023-02-24,Allen,Indiana,18003,123852,1279
+2023-02-24,Adams,Indiana,18001,8710,120
+2023-02-24,Woodford,Illinois,17203,12578,134
+2023-02-24,Winnebago,Illinois,17201,100231,929
+2023-02-24,Williamson,Illinois,17199,28813,285
+2023-02-24,Will,Illinois,17197,215914,1763
+2023-02-24,Whiteside,Illinois,17195,19414,286
+2023-02-24,White,Illinois,17193,5423,74
+2023-02-24,Wayne,Illinois,17191,6590,95
+2023-02-24,Washington,Illinois,17189,4127,47
+2023-02-24,Warren,Illinois,17187,5046,96
+2023-02-24,Wabash,Illinois,17185,4819,40
+2023-02-24,Vermilion,Illinois,17183,35082,338
+2023-02-24,Unknown,Illinois,,0,2785
+2023-02-24,Union,Illinois,17181,6839,73
+2023-02-24,Tazewell,Illinois,17179,45952,548
+2023-02-24,Stephenson,Illinois,17177,14936,223
+2023-02-24,St. Clair,Illinois,17163,87987,844
+2023-02-24,Stark,Illinois,17175,1883,39
+2023-02-24,Shelby,Illinois,17173,7589,104
+2023-02-24,Scott,Illinois,17171,1567,15
+2023-02-24,Schuyler,Illinois,17169,2470,30
+2023-02-24,Sangamon,Illinois,17167,76182,485
+2023-02-24,Saline,Illinois,17165,10311,125
+2023-02-24,Rock Island,Illinois,17161,42234,562
+2023-02-24,Richland,Illinois,17159,6305,86
+2023-02-24,Randolph,Illinois,17157,12892,141
+2023-02-24,Putnam,Illinois,17155,1418,12
+2023-02-24,Pulaski,Illinois,17153,2049,30
+2023-02-24,Pope,Illinois,17151,1261,19
+2023-02-24,Pike,Illinois,17149,6138,95
+2023-02-24,Piatt,Illinois,17147,5563,29
+2023-02-24,Perry,Illinois,17145,9113,110
+2023-02-24,Peoria,Illinois,17143,59597,590
+2023-02-24,Ogle,Illinois,17141,17410,147
+2023-02-24,Moultrie,Illinois,17139,4916,59
+2023-02-24,Morgan,Illinois,17137,12292,156
+2023-02-24,Montgomery,Illinois,17135,12128,119
+2023-02-24,Monroe,Illinois,17133,11412,135
+2023-02-24,Mercer,Illinois,17131,4909,51
+2023-02-24,Menard,Illinois,17129,4578,39
+2023-02-24,McLean,Illinois,17113,63949,367
+2023-02-24,McHenry,Illinois,17111,97848,550
+2023-02-24,McDonough,Illinois,17109,9024,120
+2023-02-24,Massac,Illinois,17127,4641,75
+2023-02-24,Mason,Illinois,17125,4726,67
+2023-02-24,Marshall,Illinois,17123,3471,37
+2023-02-24,Marion,Illinois,17121,14553,229
+2023-02-24,Madison,Illinois,17119,87282,927
+2023-02-24,Macoupin,Illinois,17117,15988,178
+2023-02-24,Macon,Illinois,17115,40008,382
+2023-02-24,Logan,Illinois,17107,12626,114
+2023-02-24,Livingston,Illinois,17105,13154,157
+2023-02-24,Lee,Illinois,17103,11553,131
+2023-02-24,Lawrence,Illinois,17101,6828,60
+2023-02-24,LaSalle,Illinois,17099,36972,475
+2023-02-24,Lake,Illinois,17097,209370,1611
+2023-02-24,Knox,Illinois,17095,16163,276
+2023-02-24,Kendall,Illinois,17093,41622,183
+2023-02-24,Kankakee,Illinois,17091,36649,393
+2023-02-24,Kane,Illinois,17089,165409,1265
+2023-02-24,Johnson,Illinois,17087,5564,58
+2023-02-24,Jo Daviess,Illinois,17085,5151,52
+2023-02-24,Jersey,Illinois,17083,7833,99
+2023-02-24,Jefferson,Illinois,17081,13504,185
+2023-02-24,Jasper,Illinois,17079,3217,35
+2023-02-24,Jackson,Illinois,17077,20076,172
+2023-02-24,Iroquois,Illinois,17075,8862,133
+2023-02-24,Henry,Illinois,17073,15819,164
+2023-02-24,Henderson,Illinois,17071,1573,29
+2023-02-24,Hardin,Illinois,17069,1445,28
+2023-02-24,Hancock,Illinois,17067,5374,72
+2023-02-24,Hamilton,Illinois,17065,2660,40
+2023-02-24,Grundy,Illinois,17063,16232,158
+2023-02-24,Greene,Illinois,17061,4259,62
+2023-02-24,Gallatin,Illinois,17059,1845,25
+2023-02-24,Fulton,Illinois,17057,12735,147
+2023-02-24,Franklin,Illinois,17055,15354,198
+2023-02-24,Ford,Illinois,17053,5471,78
+2023-02-24,Fayette,Illinois,17051,8730,108
+2023-02-24,Effingham,Illinois,17049,12797,157
+2023-02-24,Edwards,Illinois,17047,2121,38
+2023-02-24,Edgar,Illinois,17045,6600,93
+2023-02-24,DuPage,Illinois,17043,288431,1940
+2023-02-24,Douglas,Illinois,17041,7904,69
+2023-02-24,De Witt,Illinois,17039,5196,53
+2023-02-24,DeKalb,Illinois,17037,32414,220
+2023-02-24,Cumberland,Illinois,17035,3997,52
+2023-02-24,Crawford,Illinois,17033,7846,73
+2023-02-24,Cook,Illinois,17031,1524936,15809
+2023-02-24,Coles,Illinois,17029,18933,189
+2023-02-24,Clinton,Illinois,17027,14336,127
+2023-02-24,Clay,Illinois,17025,5903,81
+2023-02-24,Clark,Illinois,17023,5915,63
+2023-02-24,Christian,Illinois,17021,12989,137
+2023-02-24,Champaign,Illinois,17019,85660,321
+2023-02-24,Cass,Illinois,17017,5609,48
+2023-02-24,Carroll,Illinois,17015,5011,58
+2023-02-24,Calhoun,Illinois,17013,1889,16
+2023-02-24,Bureau,Illinois,17011,10230,147
+2023-02-24,Brown,Illinois,17009,2869,23
+2023-02-24,Boone,Illinois,17007,17482,139
+2023-02-24,Bond,Illinois,17005,5287,54
+2023-02-24,Alexander,Illinois,17003,1569,32
+2023-02-24,Adams,Illinois,17001,27857,262
+2023-02-24,Washington,Idaho,16087,2618,60
+2023-02-24,Valley,Idaho,16085,3140,18
+2023-02-24,Twin Falls,Idaho,16083,28538,313
+2023-02-24,Teton,Idaho,16081,2935,9
+2023-02-24,Shoshone,Idaho,16079,3117,80
+2023-02-24,Power,Idaho,16077,1689,23
+2023-02-24,Payette,Idaho,16075,6713,92
+2023-02-24,Owyhee,Idaho,16073,2598,56
+2023-02-24,Oneida,Idaho,16071,959,12
+2023-02-24,Nez Perce,Idaho,16069,10604,161
+2023-02-24,Minidoka,Idaho,16067,4781,71
+2023-02-24,Madison,Idaho,16065,13770,58
+2023-02-24,Lincoln,Idaho,16063,1294,15
+2023-02-24,Lewis,Idaho,16061,1397,32
+2023-02-24,Lemhi,Idaho,16059,1750,28
+2023-02-24,Latah,Idaho,16057,7687,56
+2023-02-24,Kootenai,Idaho,16055,47102,666
+2023-02-24,Jerome,Idaho,16053,7086,68
+2023-02-24,Jefferson,Idaho,16051,6822,69
+2023-02-24,Idaho,Idaho,16049,3600,60
+2023-02-24,Gooding,Idaho,16047,3913,60
+2023-02-24,Gem,Idaho,16045,4249,86
+2023-02-24,Fremont,Idaho,16043,2411,30
+2023-02-24,Franklin,Idaho,16041,2581,31
+2023-02-24,Elmore,Idaho,16039,8995,73
+2023-02-24,Custer,Idaho,16037,705,13
+2023-02-24,Clearwater,Idaho,16035,2675,40
+2023-02-24,Clark,Idaho,16033,117,1
+2023-02-24,Cassia,Idaho,16031,5579,57
+2023-02-24,Caribou,Idaho,16029,1667,37
+2023-02-24,Canyon,Idaho,16027,70280,735
+2023-02-24,Camas,Idaho,16025,180,2
+2023-02-24,Butte,Idaho,16023,551,12
+2023-02-24,Boundary,Idaho,16021,2411,69
+2023-02-24,Bonneville,Idaho,16019,35375,302
+2023-02-24,Bonner,Idaho,16017,10237,199
+2023-02-24,Boise,Idaho,16015,1292,16
+2023-02-24,Blaine,Idaho,16013,7252,33
+2023-02-24,Bingham,Idaho,16011,11145,174
+2023-02-24,Benewah,Idaho,16009,2740,45
+2023-02-24,Bear Lake,Idaho,16007,1152,19
+2023-02-24,Bannock,Idaho,16005,24359,272
+2023-02-24,Adams,Idaho,16003,814,16
+2023-02-24,Ada,Idaho,16001,159699,1137
+2023-02-24,Unknown,Hawaii,,0,51
+2023-02-24,Maui,Hawaii,15009,45353,173
+2023-02-24,Kauai,Hawaii,15007,19063,47
+2023-02-24,Kalawao,Hawaii,15005,1,0
+2023-02-24,Honolulu,Hawaii,15003,263167,1321
+2023-02-24,Hawaii,Hawaii,15001,42399,227
+2023-02-24,Unknown,Guam,,61916,420
+2023-02-24,Worth,Georgia,13321,5570,128
+2023-02-24,Wilkinson,Georgia,13319,2673,67
+2023-02-24,Wilkes,Georgia,13317,2627,55
+2023-02-24,Wilcox,Georgia,13315,2418,73
+2023-02-24,Whitfield,Georgia,13313,39194,492
+2023-02-24,White,Georgia,13311,8338,185
+2023-02-24,Wheeler,Georgia,13309,1592,39
+2023-02-24,Webster,Georgia,13307,544,10
+2023-02-24,Wayne,Georgia,13305,8874,222
+2023-02-24,Washington,Georgia,13303,5135,141
+2023-02-24,Warren,Georgia,13301,1295,35
+2023-02-24,Ware,Georgia,13299,11392,304
+2023-02-24,Walton,Georgia,13297,26672,479
+2023-02-24,Walker,Georgia,13295,20070,303
+2023-02-24,Upson,Georgia,13293,9624,259
+2023-02-24,Unknown,Georgia,,12629,0
+2023-02-24,Union,Georgia,13291,6148,181
+2023-02-24,Twiggs,Georgia,13289,1846,74
+2023-02-24,Turner,Georgia,13287,3184,65
+2023-02-24,Troup,Georgia,13285,18742,425
+2023-02-24,Treutlen,Georgia,13283,1883,71
+2023-02-24,Towns,Georgia,13281,3088,127
+2023-02-24,Toombs,Georgia,13279,8031,216
+2023-02-24,Tift,Georgia,13277,13825,238
+2023-02-24,Thomas,Georgia,13275,14055,235
+2023-02-24,Terrell,Georgia,13273,2552,71
+2023-02-24,Telfair,Georgia,13271,3529,90
+2023-02-24,Taylor,Georgia,13269,2436,53
+2023-02-24,Tattnall,Georgia,13267,5753,144
+2023-02-24,Taliaferro,Georgia,13265,338,4
+2023-02-24,Talbot,Georgia,13263,1376,35
+2023-02-24,Sumter,Georgia,13261,8724,188
+2023-02-24,Stewart,Georgia,13259,3284,36
+2023-02-24,Stephens,Georgia,13257,7323,183
+2023-02-24,Spalding,Georgia,13255,19296,450
+2023-02-24,Seminole,Georgia,13253,2532,47
+2023-02-24,Screven,Georgia,13251,3183,76
+2023-02-24,Schley,Georgia,13249,1415,12
+2023-02-24,Rockdale,Georgia,13247,23708,350
+2023-02-24,Richmond,Georgia,13245,60536,971
+2023-02-24,Randolph,Georgia,13243,1831,50
+2023-02-24,Rabun,Georgia,13241,4129,106
+2023-02-24,Quitman,Georgia,13239,551,16
+2023-02-24,Putnam,Georgia,13237,5259,114
+2023-02-24,Pulaski,Georgia,13235,2698,84
+2023-02-24,Polk,Georgia,13233,13754,214
+2023-02-24,Pike,Georgia,13231,6488,108
+2023-02-24,Pierce,Georgia,13229,6445,144
+2023-02-24,Pickens,Georgia,13227,10117,194
+2023-02-24,Peach,Georgia,13225,7915,151
+2023-02-24,Paulding,Georgia,13223,46665,476
+2023-02-24,Oglethorpe,Georgia,13221,3758,65
+2023-02-24,Oconee,Georgia,13219,10547,116
+2023-02-24,Newton,Georgia,13217,30693,497
+2023-02-24,Muscogee,Georgia,13215,45839,925
+2023-02-24,Murray,Georgia,13213,13527,205
+2023-02-24,Morgan,Georgia,13211,5637,75
+2023-02-24,Montgomery,Georgia,13209,2332,56
+2023-02-24,Monroe,Georgia,13207,7061,185
+2023-02-24,Mitchell,Georgia,13205,6315,127
+2023-02-24,Miller,Georgia,13201,2050,32
+2023-02-24,Meriwether,Georgia,13199,5571,158
+2023-02-24,McIntosh,Georgia,13191,2858,40
+2023-02-24,McDuffie,Georgia,13189,6171,114
+2023-02-24,Marion,Georgia,13197,1869,57
+2023-02-24,Madison,Georgia,13195,8024,123
+2023-02-24,Macon,Georgia,13193,2735,54
+2023-02-24,Lumpkin,Georgia,13187,9004,139
+2023-02-24,Lowndes,Georgia,13185,36911,434
+2023-02-24,Long,Georgia,13183,3488,36
+2023-02-24,Lincoln,Georgia,13181,1840,40
+2023-02-24,Liberty,Georgia,13179,15772,166
+2023-02-24,Lee,Georgia,13177,8799,113
+2023-02-24,Laurens,Georgia,13175,16428,328
+2023-02-24,Lanier,Georgia,13173,2697,32
+2023-02-24,Lamar,Georgia,13171,5839,131
+2023-02-24,Jones,Georgia,13169,6033,127
+2023-02-24,Johnson,Georgia,13167,2647,86
+2023-02-24,Jenkins,Georgia,13165,1779,69
+2023-02-24,Jefferson,Georgia,13163,4251,121
+2023-02-24,Jeff Davis,Georgia,13161,4372,77
+2023-02-24,Jasper,Georgia,13159,3764,82
+2023-02-24,Jackson,Georgia,13157,24960,314
+2023-02-24,Irwin,Georgia,13155,2231,57
+2023-02-24,Houston,Georgia,13153,49351,542
+2023-02-24,Henry,Georgia,13151,71891,757
+2023-02-24,Heard,Georgia,13149,2585,61
+2023-02-24,Hart,Georgia,13147,5647,111
+2023-02-24,Harris,Georgia,13145,7112,124
+2023-02-24,Haralson,Georgia,13143,6319,186
+2023-02-24,Hancock,Georgia,13141,1950,91
+2023-02-24,Hall,Georgia,13139,64518,929
+2023-02-24,Habersham,Georgia,13137,11605,288
+2023-02-24,Gwinnett,Georgia,13135,256987,2116
+2023-02-24,Greene,Georgia,13133,4755,91
+2023-02-24,Grady,Georgia,13131,6888,114
+2023-02-24,Gordon,Georgia,13129,19865,303
+2023-02-24,Glynn,Georgia,13127,27236,441
+2023-02-24,Glascock,Georgia,13125,727,31
+2023-02-24,Gilmer,Georgia,13123,8258,199
+2023-02-24,Fulton,Georgia,13121,276225,2658
+2023-02-24,Franklin,Georgia,13119,6237,115
+2023-02-24,Forsyth,Georgia,13117,67972,465
+2023-02-24,Floyd,Georgia,13115,32165,570
+2023-02-24,Fayette,Georgia,13113,29570,384
+2023-02-24,Fannin,Georgia,13111,5780,180
+2023-02-24,Evans,Georgia,13109,2864,70
+2023-02-24,Emanuel,Georgia,13107,6792,168
+2023-02-24,Elbert,Georgia,13105,5339,120
+2023-02-24,Effingham,Georgia,13103,16399,217
+2023-02-24,Echols,Georgia,13101,1058,12
+2023-02-24,Early,Georgia,13099,3151,65
+2023-02-24,Douglas,Georgia,13097,43425,461
+2023-02-24,Dougherty,Georgia,13095,24445,569
+2023-02-24,Dooly,Georgia,13093,2852,76
+2023-02-24,Dodge,Georgia,13091,5953,174
+2023-02-24,DeKalb,Georgia,13089,193070,1972
+2023-02-24,Decatur,Georgia,13087,8600,143
+2023-02-24,Dawson,Georgia,13085,8390,108
+2023-02-24,Dade,Georgia,13083,3962,56
+2023-02-24,Crisp,Georgia,13081,5601,145
+2023-02-24,Crawford,Georgia,13079,2223,64
+2023-02-24,Coweta,Georgia,13077,41178,527
+2023-02-24,Cook,Georgia,13075,5702,83
+2023-02-24,Columbia,Georgia,13073,43228,437
+2023-02-24,Colquitt,Georgia,13071,13650,277
+2023-02-24,Coffee,Georgia,13069,11864,305
+2023-02-24,Cobb,Georgia,13067,216538,2089
+2023-02-24,Clinch,Georgia,13065,2459,46
+2023-02-24,Clayton,Georgia,13063,77848,1088
+2023-02-24,Clay,Georgia,13061,626,13
+2023-02-24,Clarke,Georgia,13059,35263,263
+2023-02-24,Cherokee,Georgia,13057,75741,710
+2023-02-24,Chattooga,Georgia,13055,7603,152
+2023-02-24,Chattahoochee,Georgia,13053,7901,24
+2023-02-24,Chatham,Georgia,13051,79623,1032
+2023-02-24,Charlton,Georgia,13049,3491,77
+2023-02-24,Catoosa,Georgia,13047,17072,267
+2023-02-24,Carroll,Georgia,13045,28414,500
+2023-02-24,Candler,Georgia,13043,2598,110
+2023-02-24,Camden,Georgia,13039,13659,139
+2023-02-24,Calhoun,Georgia,13037,1594,25
+2023-02-24,Butts,Georgia,13035,7674,180
+2023-02-24,Burke,Georgia,13033,6297,124
+2023-02-24,Bulloch,Georgia,13031,17942,283
+2023-02-24,Bryan,Georgia,13029,11200,111
+2023-02-24,Brooks,Georgia,13027,4059,99
+2023-02-24,Brantley,Georgia,13025,4707,115
+2023-02-24,Bleckley,Georgia,13023,3941,110
+2023-02-24,Bibb,Georgia,13021,45384,832
+2023-02-24,Berrien,Georgia,13019,5865,96
+2023-02-24,Ben Hill,Georgia,13017,5014,125
+2023-02-24,Bartow,Georgia,13015,35463,485
+2023-02-24,Barrow,Georgia,13013,26037,291
+2023-02-24,Banks,Georgia,13011,4610,101
+2023-02-24,Baldwin,Georgia,13009,11178,262
+2023-02-24,Baker,Georgia,13007,652,15
+2023-02-24,Bacon,Georgia,13005,4104,82
+2023-02-24,Atkinson,Georgia,13003,2460,57
+2023-02-24,Appling,Georgia,13001,5287,135
+2023-02-24,Washington,Florida,12133,7664,123
+2023-02-24,Walton,Florida,12131,19586,236
+2023-02-24,Wakulla,Florida,12129,12088,144
+2023-02-24,Volusia,Florida,12127,149275,2336
+2023-02-24,Unknown,Florida,,329,0
+2023-02-24,Union,Florida,12125,5096,126
+2023-02-24,Taylor,Florida,12123,8049,115
+2023-02-24,Suwannee,Florida,12121,15833,362
+2023-02-24,Sumter,Florida,12119,29852,712
+2023-02-24,St. Lucie,Florida,12111,95115,1407
+2023-02-24,St. Johns,Florida,12109,77928,702
+2023-02-24,Seminole,Florida,12117,130983,1279
+2023-02-24,Sarasota,Florida,12115,119643,2058
+2023-02-24,Santa Rosa,Florida,12113,58656,695
+2023-02-24,Putnam,Florida,12107,21077,467
+2023-02-24,Polk,Florida,12105,257616,3447
+2023-02-24,Pinellas,Florida,12103,272832,4052
+2023-02-24,Pasco,Florida,12101,158158,2277
+2023-02-24,Palm Beach,Florida,12099,475077,6022
+2023-02-24,Osceola,Florida,12097,142763,1272
+2023-02-24,Orange,Florida,12095,470873,3295
+2023-02-24,Okeechobee,Florida,12093,12379,200
+2023-02-24,Okaloosa,Florida,12091,61528,766
+2023-02-24,Nassau,Florida,12089,27063,352
+2023-02-24,Monroe,Florida,12087,22365,138
+2023-02-24,Miami-Dade,Florida,12086,1531478,12283
+2023-02-24,Martin,Florida,12085,40147,765
+2023-02-24,Marion,Florida,12083,104701,2495
+2023-02-24,Manatee,Florida,12081,121836,1739
+2023-02-24,Madison,Florida,12079,6979,108
+2023-02-24,Liberty,Florida,12077,2975,37
+2023-02-24,Levy,Florida,12075,12672,191
+2023-02-24,Leon,Florida,12073,112384,792
+2023-02-24,Lee,Florida,12071,238903,2550
+2023-02-24,Lake,Florida,12069,108065,1810
+2023-02-24,Lafayette,Florida,12067,3133,65
+2023-02-24,Jefferson,Florida,12065,4976,70
+2023-02-24,Jackson,Florida,12063,18064,302
+2023-02-24,Indian River,Florida,12061,42267,764
+2023-02-24,Holmes,Florida,12059,6310,107
+2023-02-24,Hillsborough,Florida,12057,475020,4391
+2023-02-24,Highlands,Florida,12055,30451,807
+2023-02-24,Hernando,Florida,12053,53360,1282
+2023-02-24,Hendry,Florida,12051,13692,174
+2023-02-24,Hardee,Florida,12049,10274,141
+2023-02-24,Hamilton,Florida,12047,4526,61
+2023-02-24,Gulf,Florida,12045,4987,89
+2023-02-24,Glades,Florida,12043,2284,38
+2023-02-24,Gilchrist,Florida,12041,5598,110
+2023-02-24,Gadsden,Florida,12039,17572,243
+2023-02-24,Franklin,Florida,12037,3517,58
+2023-02-24,Flagler,Florida,12035,28728,439
+2023-02-24,Escambia,Florida,12033,93779,1477
+2023-02-24,Duval,Florida,12031,315250,3860
+2023-02-24,Dixie,Florida,12029,4901,87
+2023-02-24,DeSoto,Florida,12027,11203,176
+2023-02-24,Columbia,Florida,12023,25498,465
+2023-02-24,Collier,Florida,12021,104335,1172
+2023-02-24,Clay,Florida,12019,66660,977
+2023-02-24,Citrus,Florida,12017,38680,1146
+2023-02-24,Charlotte,Florida,12015,48122,1007
+2023-02-24,Calhoun,Florida,12013,4891,111
+2023-02-24,Broward,Florida,12011,766482,6756
+2023-02-24,Brevard,Florida,12009,173316,2508
+2023-02-24,Bradford,Florida,12007,9148,177
+2023-02-24,Bay,Florida,12005,54974,894
+2023-02-24,Baker,Florida,12003,10650,154
+2023-02-24,Alachua,Florida,12001,88755,833
+2023-02-24,District of Columbia,District of Columbia,11001,177504,1427
+2023-02-24,Unknown,Delaware,,1113,0
+2023-02-24,Sussex,Delaware,10005,78150,989
+2023-02-24,New Castle,Delaware,10003,186739,1598
+2023-02-24,Kent,Delaware,10001,64330,722
+2023-02-24,Windham,Connecticut,09015,31335,353
+2023-02-24,Unknown,Connecticut,,3263,13
+2023-02-24,Tolland,Connecticut,09013,27841,315
+2023-02-24,New London,Connecticut,09011,73737,771
+2023-02-24,New Haven,Connecticut,09009,257281,3145
+2023-02-24,Middlesex,Connecticut,09007,38757,547
+2023-02-24,Litchfield,Connecticut,09005,41707,529
+2023-02-24,Hartford,Connecticut,09003,236553,3476
+2023-02-24,Fairfield,Connecticut,09001,263900,2996
+2023-02-24,Yuma,Colorado,08125,2337,27
+2023-02-24,Weld,Colorado,08123,105850,777
+2023-02-24,Washington,Colorado,08121,1258,35
+2023-02-24,Unknown,Colorado,,0,5
+2023-02-24,Teller,Colorado,08119,5907,67
+2023-02-24,Summit,Colorado,08117,12066,15
+2023-02-24,Sedgwick,Colorado,08115,582,12
+2023-02-24,San Miguel,Colorado,08113,2711,8
+2023-02-24,San Juan,Colorado,08111,316,0
+2023-02-24,Saguache,Colorado,08109,1517,18
+2023-02-24,Routt,Colorado,08107,7862,34
+2023-02-24,Rio Grande,Colorado,08105,3626,47
+2023-02-24,Rio Blanco,Colorado,08103,2232,16
+2023-02-24,Pueblo,Colorado,08101,61816,875
+2023-02-24,Prowers,Colorado,08099,3213,52
+2023-02-24,Pitkin,Colorado,08097,8070,9
+2023-02-24,Phillips,Colorado,08095,1119,20
+2023-02-24,Park,Colorado,08093,3492,25
+2023-02-24,Ouray,Colorado,08091,1117,6
+2023-02-24,Otero,Colorado,08089,5311,137
+2023-02-24,Morgan,Colorado,08087,6950,148
+2023-02-24,Montrose,Colorado,08085,11175,183
+2023-02-24,Montezuma,Colorado,08083,7643,90
+2023-02-24,Moffat,Colorado,08081,3730,58
+2023-02-24,Mineral,Colorado,08079,302,4
+2023-02-24,Mesa,Colorado,08077,51706,636
+2023-02-24,Logan,Colorado,08075,8644,119
+2023-02-24,Lincoln,Colorado,08073,2382,11
+2023-02-24,Las Animas,Colorado,08071,4392,51
+2023-02-24,Larimer,Colorado,08069,108927,597
+2023-02-24,La Plata,Colorado,08067,15795,99
+2023-02-24,Lake,Colorado,08065,2201,2
+2023-02-24,Kit Carson,Colorado,08063,1875,32
+2023-02-24,Kiowa,Colorado,08061,391,6
+2023-02-24,Jefferson,Colorado,08059,160291,1542
+2023-02-24,Jackson,Colorado,08057,195,0
+2023-02-24,Huerfano,Colorado,08055,1763,40
+2023-02-24,Hinsdale,Colorado,08053,159,0
+2023-02-24,Gunnison,Colorado,08051,3973,16
+2023-02-24,Grand,Colorado,08049,4049,30
+2023-02-24,Gilpin,Colorado,08047,1169,7
+2023-02-24,Garfield,Colorado,08045,18013,103
+2023-02-24,Fremont,Colorado,08043,18729,209
+2023-02-24,El Paso,Colorado,08041,236576,1891
+2023-02-24,Elbert,Colorado,08039,5821,48
+2023-02-24,Eagle,Colorado,08037,18798,39
+2023-02-24,Douglas,Colorado,08035,100801,496
+2023-02-24,Dolores,Colorado,08033,424,8
+2023-02-24,Denver,Colorado,08031,224303,1518
+2023-02-24,Delta,Colorado,08029,7179,160
+2023-02-24,Custer,Colorado,08027,835,25
+2023-02-24,Crowley,Colorado,08025,3557,33
+2023-02-24,Costilla,Colorado,08023,954,19
+2023-02-24,Conejos,Colorado,08021,2300,60
+2023-02-24,Clear Creek,Colorado,08019,1927,13
+2023-02-24,Cheyenne,Colorado,08017,393,12
+2023-02-24,Chaffee,Colorado,08015,5658,56
+2023-02-24,Broomfield,Colorado,08014,18333,132
+2023-02-24,Boulder,Colorado,08013,91195,446
+2023-02-24,Bent,Colorado,08011,3000,50
+2023-02-24,Baca,Colorado,08009,1025,17
+2023-02-24,Archuleta,Colorado,08007,3531,24
+2023-02-24,Arapahoe,Colorado,08005,196601,1361
+2023-02-24,Alamosa,Colorado,08003,5930,68
+2023-02-24,Adams,Colorado,08001,165940,1462
+2023-02-24,Yuba,California,06115,21846,153
+2023-02-24,Yolo,California,06113,54784,442
+2023-02-24,Ventura,California,06111,238577,1665
+2023-02-24,Tuolumne,California,06109,18106,210
+2023-02-24,Tulare,California,06107,168140,1567
+2023-02-24,Trinity,California,06105,1977,30
+2023-02-24,Tehama,California,06103,17843,222
+2023-02-24,Sutter,California,06101,28229,247
+2023-02-24,Stanislaus,California,06099,167774,1843
+2023-02-24,Sonoma,California,06097,119050,564
+2023-02-24,Solano,California,06095,122060,707
+2023-02-24,Siskiyou,California,06093,8886,124
+2023-02-24,Sierra,California,06091,372,5
+2023-02-24,Shasta,California,06089,44707,690
+2023-02-24,Santa Cruz,California,06087,72083,348
+2023-02-24,Santa Clara,California,06085,495009,2699
+2023-02-24,Santa Barbara,California,06083,119604,761
+2023-02-24,San Mateo,California,06081,193639,912
+2023-02-24,San Luis Obispo,California,06079,74424,561
+2023-02-24,San Joaquin,California,06077,226173,2417
+2023-02-24,San Francisco,California,06075,208545,1168
+2023-02-24,San Diego,California,06073,1064156,5885
+2023-02-24,San Bernardino,California,06071,743344,8171
+2023-02-24,San Benito,California,06069,18728,116
+2023-02-24,Sacramento,California,06067,407116,3705
+2023-02-24,Riverside,California,06065,774528,7941
+2023-02-24,Plumas,California,06063,4285,47
+2023-02-24,Placer,California,06061,90999,682
+2023-02-24,Orange,California,06059,785616,7936
+2023-02-24,Nevada,California,06057,22430,166
+2023-02-24,Napa,California,06055,35846,165
+2023-02-24,Monterey,California,06053,121537,825
+2023-02-24,Mono,California,06051,3623,17
+2023-02-24,Modoc,California,06049,1323,25
+2023-02-24,Merced,California,06047,89019,903
+2023-02-24,Mendocino,California,06045,21670,144
+2023-02-24,Mariposa,California,06043,4533,44
+2023-02-24,Marin,California,06041,54600,317
+2023-02-24,Madera,California,06039,55031,513
+2023-02-24,Los Angeles,California,06037,3700892,35631
+2023-02-24,Lassen,California,06035,11678,101
+2023-02-24,Lake,California,06033,14900,160
+2023-02-24,Kings,California,06031,67230,478
+2023-02-24,Kern,California,06029,309529,2619
+2023-02-24,Inyo,California,06027,6061,63
+2023-02-24,Imperial,California,06025,88598,1024
+2023-02-24,Humboldt,California,06023,29203,169
+2023-02-24,Glenn,California,06021,7793,99
+2023-02-24,Fresno,California,06019,328236,2991
+2023-02-24,El Dorado,California,06017,39039,305
+2023-02-24,Del Norte,California,06015,8389,61
+2023-02-24,Contra Costa,California,06013,293710,1552
+2023-02-24,Colusa,California,06011,5318,52
+2023-02-24,Calaveras,California,06009,9613,140
+2023-02-24,Butte,California,06007,51819,534
+2023-02-24,Amador,California,06005,11506,99
+2023-02-24,Alpine,California,06003,143,0
+2023-02-24,Alameda,California,06001,399812,2185
+2023-02-24,Yell,Arkansas,05149,7591,118
+2023-02-24,Woodruff,Arkansas,05147,2268,33
+2023-02-24,White,Arkansas,05145,27042,340
+2023-02-24,Washington,Arkansas,05143,80643,702
+2023-02-24,Van Buren,Arkansas,05141,4333,66
+2023-02-24,Unknown,Arkansas,,33418,0
+2023-02-24,Union,Arkansas,05139,11258,204
+2023-02-24,Stone,Arkansas,05137,3692,80
+2023-02-24,St. Francis,Arkansas,05123,8555,108
+2023-02-24,Sharp,Arkansas,05135,5701,122
+2023-02-24,Sevier,Arkansas,05133,7111,84
+2023-02-24,Sebastian,Arkansas,05131,39259,583
+2023-02-24,Searcy,Arkansas,05129,2548,53
+2023-02-24,Scott,Arkansas,05127,2845,49
+2023-02-24,Saline,Arkansas,05125,37010,394
+2023-02-24,Randolph,Arkansas,05121,6421,106
+2023-02-24,Pulaski,Arkansas,05119,127566,1315
+2023-02-24,Prairie,Arkansas,05117,2414,46
+2023-02-24,Pope,Arkansas,05115,20940,229
+2023-02-24,Polk,Arkansas,05113,4642,160
+2023-02-24,Poinsett,Arkansas,05111,10064,139
+2023-02-24,Pike,Arkansas,05109,2957,52
+2023-02-24,Phillips,Arkansas,05107,5876,106
+2023-02-24,Perry,Arkansas,05105,3005,42
+2023-02-24,Ouachita,Arkansas,05103,6758,126
+2023-02-24,Newton,Arkansas,05101,2041,54
+2023-02-24,Nevada,Arkansas,05099,2764,47
+2023-02-24,Montgomery,Arkansas,05097,1769,67
+2023-02-24,Monroe,Arkansas,05095,2309,38
+2023-02-24,Mississippi,Arkansas,05093,16358,235
+2023-02-24,Miller,Arkansas,05091,11602,210
+2023-02-24,Marion,Arkansas,05089,4083,94
+2023-02-24,Madison,Arkansas,05087,4843,68
+2023-02-24,Lonoke,Arkansas,05085,23921,270
+2023-02-24,Logan,Arkansas,05083,6060,91
+2023-02-24,Little River,Arkansas,05081,3881,108
+2023-02-24,Lincoln,Arkansas,05079,5494,70
+2023-02-24,Lee,Arkansas,05077,3335,67
+2023-02-24,Lawrence,Arkansas,05075,6503,89
+2023-02-24,Lafayette,Arkansas,05073,1503,30
+2023-02-24,Johnson,Arkansas,05071,8184,102
+2023-02-24,Jefferson,Arkansas,05069,22315,315
+2023-02-24,Jackson,Arkansas,05067,7254,76
+2023-02-24,Izard,Arkansas,05065,4701,78
+2023-02-24,Independence,Arkansas,05063,12750,231
+2023-02-24,Howard,Arkansas,05061,4651,64
+2023-02-24,Hot Spring,Arkansas,05059,13032,160
+2023-02-24,Hempstead,Arkansas,05057,5623,82
+2023-02-24,Greene,Arkansas,05055,19701,198
+2023-02-24,Grant,Arkansas,05053,5235,65
+2023-02-24,Garland,Arkansas,05051,26984,580
+2023-02-24,Fulton,Arkansas,05049,3100,99
+2023-02-24,Franklin,Arkansas,05047,4478,82
+2023-02-24,Faulkner,Arkansas,05045,42862,357
+2023-02-24,Drew,Arkansas,05043,5619,84
+2023-02-24,Desha,Arkansas,05041,3644,44
+2023-02-24,Dallas,Arkansas,05039,2069,41
+2023-02-24,Cross,Arkansas,05037,5733,104
+2023-02-24,Crittenden,Arkansas,05035,16669,245
+2023-02-24,Crawford,Arkansas,05033,18616,294
+2023-02-24,Craighead,Arkansas,05031,47141,385
+2023-02-24,Conway,Arkansas,05029,6572,84
+2023-02-24,Columbia,Arkansas,05027,6759,105
+2023-02-24,Cleveland,Arkansas,05025,2669,41
+2023-02-24,Cleburne,Arkansas,05023,8021,146
+2023-02-24,Clay,Arkansas,05021,5125,101
+2023-02-24,Clark,Arkansas,05019,6401,92
+2023-02-24,Chicot,Arkansas,05017,3124,65
+2023-02-24,Carroll,Arkansas,05015,7261,122
+2023-02-24,Calhoun,Arkansas,05013,1192,14
+2023-02-24,Bradley,Arkansas,05011,3591,57
+2023-02-24,Boone,Arkansas,05009,11239,203
+2023-02-24,Benton,Arkansas,05007,77191,995
+2023-02-24,Baxter,Arkansas,05005,10688,283
+2023-02-24,Ashley,Arkansas,05003,6231,82
+2023-02-24,Arkansas,Arkansas,05001,7001,95
+2023-02-24,Yuma,Arizona,04027,70844,1253
+2023-02-24,Yavapai,Arizona,04025,59992,1383
+2023-02-24,Santa Cruz,Arizona,04023,19585,245
+2023-02-24,Pinal,Arizona,04021,156407,1813
+2023-02-24,Pima,Arizona,04019,315154,4292
+2023-02-24,Navajo,Arizona,04017,48052,970
+2023-02-24,Mohave,Arizona,04015,67042,1665
+2023-02-24,Maricopa,Arizona,04013,1526029,18812
+2023-02-24,La Paz,Arizona,04012,5937,158
+2023-02-24,Greenlee,Arizona,04011,2711,40
+2023-02-24,Graham,Arizona,04009,14078,188
+2023-02-24,Gila,Arizona,04007,21354,415
+2023-02-24,Coconino,Arizona,04005,52627,526
+2023-02-24,Cochise,Arizona,04003,38971,643
+2023-02-24,Apache,Arizona,04001,35848,639
+2023-02-24,Unknown,American Samoa,,8309,34
+2023-02-24,Yukon-Koyukuk Census Area,Alaska,02290,1745,13
+2023-02-24,Yakutat plus Hoonah-Angoon,Alaska,,961,5
+2023-02-24,Wrangell City and Borough,Alaska,02275,795,2
+2023-02-24,Valdez-Cordova Census Area,Alaska,02261,3690,23
+2023-02-24,Unknown,Alaska,,1822,0
+2023-02-24,Southeast Fairbanks Census Area,Alaska,02240,2456,21
+2023-02-24,Skagway Municipality,Alaska,02230,664,0
+2023-02-24,Sitka City and Borough,Alaska,02220,3477,9
+2023-02-24,Prince of Wales-Hyder Census Area,Alaska,02198,1820,10
+2023-02-24,Petersburg Borough,Alaska,02195,910,7
+2023-02-24,Northwest Arctic Borough,Alaska,02188,5776,21
+2023-02-24,North Slope Borough,Alaska,02185,5496,17
+2023-02-24,Nome Census Area,Alaska,02180,7596,7
+2023-02-24,Matanuska-Susitna Borough,Alaska,02170,40527,265
+2023-02-24,Kusilvak Census Area,Alaska,02158,4905,15
+2023-02-24,Kodiak Island Borough,Alaska,02150,5845,13
+2023-02-24,Ketchikan Gateway Borough,Alaska,02130,5099,24
+2023-02-24,Kenai Peninsula Borough,Alaska,02122,22434,122
+2023-02-24,Juneau City and Borough,Alaska,02110,11855,27
+2023-02-24,Haines Borough,Alaska,02100,801,1
+2023-02-24,Fairbanks North Star Borough,Alaska,02090,33335,172
+2023-02-24,Dillingham Census Area,Alaska,02070,2262,14
+2023-02-24,Denali Borough,Alaska,02068,1792,2
+2023-02-24,Bristol Bay plus Lake and Peninsula,Alaska,,1233,1
+2023-02-24,Bethel Census Area,Alaska,02050,12908,47
+2023-02-24,Anchorage,Alaska,02020,123414,593
+2023-02-24,Aleutians West Census Area,Alaska,02016,1994,2
+2023-02-24,Aleutians East Borough,Alaska,02013,1316,5
+2023-02-24,Winston,Alabama,01133,9405,140
+2023-02-24,Wilcox,Alabama,01131,3645,57
+2023-02-24,Washington,Alabama,01129,4388,69
+2023-02-24,Walker,Alabama,01127,24045,478
+2023-02-24,Tuscaloosa,Alabama,01125,70636,850
+2023-02-24,Tallapoosa,Alabama,01123,14566,252
+2023-02-24,Talladega,Alabama,01121,28482,401
+2023-02-24,Sumter,Alabama,01119,3164,58
+2023-02-24,St. Clair,Alabama,01115,33164,439
+2023-02-24,Shelby,Alabama,01117,77846,480
+2023-02-24,Russell,Alabama,01113,12995,254
+2023-02-24,Randolph,Alabama,01111,6500,134
+2023-02-24,Pike,Alabama,01109,9241,142
+2023-02-24,Pickens,Alabama,01107,6317,122
+2023-02-24,Perry,Alabama,01105,2659,50
+2023-02-24,Morgan,Alabama,01103,46347,550
+2023-02-24,Montgomery,Alabama,01101,73524,1006
+2023-02-24,Monroe,Alabama,01099,6720,105
+2023-02-24,Mobile,Alabama,01097,134503,1781
+2023-02-24,Marshall,Alabama,01095,32869,408
+2023-02-24,Marion,Alabama,01093,10094,159
+2023-02-24,Marengo,Alabama,01091,6078,116
+2023-02-24,Madison,Alabama,01089,115627,1058
+2023-02-24,Macon,Alabama,01087,5267,90
+2023-02-24,Lowndes,Alabama,01085,3358,82
+2023-02-24,Limestone,Alabama,01083,32058,316
+2023-02-24,Lee,Alabama,01081,47500,398
+2023-02-24,Lawrence,Alabama,01079,9368,187
+2023-02-24,Lauderdale,Alabama,01077,30323,420
+2023-02-24,Lamar,Alabama,01075,4716,94
+2023-02-24,Jefferson,Alabama,01073,237792,2526
+2023-02-24,Jackson,Alabama,01071,18311,278
+2023-02-24,Houston,Alabama,01069,32514,529
+2023-02-24,Henry,Alabama,01067,5837,79
+2023-02-24,Hale,Alabama,01065,5705,110
+2023-02-24,Greene,Alabama,01063,2292,54
+2023-02-24,Geneva,Alabama,01061,7907,171
+2023-02-24,Franklin,Alabama,01059,11996,152
+2023-02-24,Fayette,Alabama,01057,5871,99
+2023-02-24,Etowah,Alabama,01055,34137,690
+2023-02-24,Escambia,Alabama,01053,12347,191
+2023-02-24,Elmore,Alabama,01051,29745,361
+2023-02-24,DeKalb,Alabama,01049,22466,351
+2023-02-24,Dallas,Alabama,01047,10935,258
+2023-02-24,Dale,Alabama,01045,16436,245
+2023-02-24,Cullman,Alabama,01043,31438,395
+2023-02-24,Crenshaw,Alabama,01041,4730,110
+2023-02-24,Covington,Alabama,01039,11765,269
+2023-02-24,Coosa,Alabama,01037,3755,64
+2023-02-24,Conecuh,Alabama,01035,3589,76
+2023-02-24,Colbert,Alabama,01033,21197,276
+2023-02-24,Coffee,Alabama,01031,17094,245
+2023-02-24,Cleburne,Alabama,01029,4393,74
+2023-02-24,Clay,Alabama,01027,5134,92
+2023-02-24,Clarke,Alabama,01025,8529,114
+2023-02-24,Choctaw,Alabama,01023,2255,63
+2023-02-24,Chilton,Alabama,01021,12956,225
+2023-02-24,Cherokee,Alabama,01019,6732,134
+2023-02-24,Chambers,Alabama,01017,10812,176
