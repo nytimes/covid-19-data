@@ -2506,3 +2506,6 @@ date,end_date,county,state,geoid,type,omit_from_rolling_average,omit_from_rollin
 2023-02-28,,,,USA,deaths,,,0,The Times is using C.D.C. data based on death certificates for locations that do not report deaths regularly or comprehensively. The federal data updates approximately once a month and appears as a spike in deaths on the day it updates.
 2023-02-28,,,California,USA-06,deaths,,,0,The Times is using C.D.C. data based on death certificates for locations that do not report deaths regularly or comprehensively. The federal data updates approximately once a month and appears as a spike in deaths on the day it updates.
 2023-03-15,,,Texas,USA-48,cases,yes,yes,0,"Texas finalized case and death counts for 2021, resulting in a total increase in cases after adding previously unreported probable cases and removing duplicates. Total case counts increased or decreased significantly in many counties."
+2023-03-22,,DeWitt,Texas,USA-48123,cases,yes,,0,Texas removed many cases in DeWitt County
+2023-03-22,,Polk,Texas,USA-48373,cases,yes,,0,Texas removed many cases in Polk County.
+2023-03-22,,Angelina,Texas,USA-48005,cases,yes,,0,Texas removed many cases in Angelina County.
