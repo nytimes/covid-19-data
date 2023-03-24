@@ -1,6 +1,6 @@
-# Coronavirus (Covid-19) Data in the United States
+# Coronavirus (Covid-19) Data in the United States (Archived)
 
-**FEB. 8, 2023 UPDATE: In the coming weeks, most likely in March, the data for daily cases and deaths will no longer be updated. The Times plans to change its Covid tracking pages to use data from the federal government. This GitHub repo will serve as an archive of the daily case and death reporting that The Times has done since early 2020. For more information, please see [this issue](https://github.com/nytimes/covid-19-data/issues/702).**
+**March 24, 2023 UPDATE: The data for daily cases and deaths will no longer be updated. The Times has updated its [Covid tracking pages]([url](https://www.nytimes.com/interactive/2023/us/covid-cases.html)) to use data from the federal government for cases and deaths. This GitHub repo will serve as an archive of the virus data reporting from The Times since 2020. For more information about this change, please see [this story](https://www.nytimes.com/2023/03/22/us/covid-data-cdc.html).**
 
 The primary data published here are the daily cumulative number of cases and deaths reported in each county and state across the U.S. since the beginning of the pandemic. We have also published these additional data sets:
 
