@@ -1,5 +1,4 @@
----
-name: Question
+-what is being done about the lack of medical insurance coverage for the average american people who do not have private insurance or qaulify for medicare?
 about: Ask a question about the data or methodology
 title: 'Question:  '
 labels: question
