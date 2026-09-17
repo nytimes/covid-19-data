@@ -1,0 +1,7917 @@
+{
+ "reports": [
+  {
+   "id": "BR0001",
+   "company": "삼성전자",
+   "fiscal_year": 2024,
+   "sector": "전자·반도체·전기장비"
+  },
+  {
+   "id": "BR0016",
+   "company": "선바이오",
+   "fiscal_year": 2021,
+   "sector": "제약·바이오·의료(중소)"
+  },
+  {
+   "id": "BR0020",
+   "company": "NH프라임리츠",
+   "fiscal_year": 2021,
+   "sector": "리츠"
+  },
+  {
+   "id": "BR0044",
+   "company": "DB손해보험",
+   "fiscal_year": 2023,
+   "sector": "금융(보험)"
+  },
+  {
+   "id": "BR0053",
+   "company": "셀트리온",
+   "fiscal_year": 2023,
+   "sector": "제약·바이오·의료"
+  }
+ ],
+ "levels": {},
+ "rows": [
+  {
+   "node": "DT.A001.COVER",
+   "level": 1,
+   "title": "표지",
+   "scope": "common",
+   "present": [
+    "BR0001",
+    "BR0016",
+    "BR0020",
+    "BR0044",
+    "BR0053"
+   ],
+   "absent": [],
+   "coverage": "5/5",
+   "class": "공통",
+   "title_variants": [
+    {
+     "text": "사 업 보 고 서",
+     "n": 5
+    }
+   ],
+   "per_report": {
+    "BR0001": {
+     "title": "사 업 보 고 서",
+     "order": 0,
+     "level": 1,
+     "tables": 4,
+     "cells": 41,
+     "paragraphs": 1,
+     "subheads": 0,
+     "occurrences": 1
+    },
+    "BR0016": {
+     "title": "사 업 보 고 서",
+     "order": 0,
+     "level": 1,
+     "tables": 4,
+     "cells": 41,
+     "paragraphs": 1,
+     "subheads": 0,
+     "occurrences": 1
+    },
+    "BR0020": {
+     "title": "사 업 보 고 서",
+     "order": 0,
+     "level": 1,
+     "tables": 4,
+     "cells": 41,
+     "paragraphs": 1,
+     "subheads": 0,
+     "occurrences": 1
+    },
+    "BR0044": {
+     "title": "사 업 보 고 서",
+     "order": 0,
+     "level": 1,
+     "tables": 4,
+     "cells": 41,
+     "paragraphs": 1,
+     "subheads": 0,
+     "occurrences": 1
+    },
+    "BR0053": {
+     "title": "사 업 보 고 서",
+     "order": 0,
+     "level": 1,
+     "tables": 4,
+     "cells": 41,
+     "paragraphs": 1,
+     "subheads": 0,
+     "occurrences": 1
+    }
+   },
+   "order_consistent": true,
+   "order_conflict": []
+  },
+  {
+   "node": "DT.A001.CONF",
+   "level": 1,
+   "title": "대표이사 등의 확인",
+   "scope": "common",
+   "present": [
+    "BR0001",
+    "BR0016",
+    "BR0020",
+    "BR0044",
+    "BR0053"
+   ],
+   "absent": [],
+   "coverage": "5/5",
+   "class": "공통",
+   "title_variants": [
+    {
+     "text": "【 대표이사 등의 확인 】",
+     "n": 5
+    }
+   ],
+   "per_report": {
+    "BR0001": {
+     "title": "【 대표이사 등의 확인 】",
+     "order": 1,
+     "level": 1,
+     "tables": 1,
+     "cells": 2,
+     "paragraphs": 1,
+     "subheads": 0,
+     "occurrences": 1
+    },
+    "BR0016": {
+     "title": "【 대표이사 등의 확인 】",
+     "order": 1,
+     "level": 1,
+     "tables": 1,
+     "cells": 2,
+     "paragraphs": 1,
+     "subheads": 0,
+     "occurrences": 1
+    },
+    "BR0020": {
+     "title": "【 대표이사 등의 확인 】",
+     "order": 1,
+     "level": 1,
+     "tables": 1,
+     "cells": 2,
+     "paragraphs": 1,
+     "subheads": 0,
+     "occurrences": 1
+    },
+    "BR0044": {
+     "title": "【 대표이사 등의 확인 】",
+     "order": 1,
+     "level": 1,
+     "tables": 1,
+     "cells": 2,
+     "paragraphs": 1,
+     "subheads": 0,
+     "occurrences": 1
+    },
+    "BR0053": {
+     "title": "【 대표이사 등의 확인 】",
+     "order": 1,
+     "level": 1,
+     "tables": 1,
+     "cells": 2,
+     "paragraphs": 1,
+     "subheads": 0,
+     "occurrences": 1
+    }
+   },
+   "order_consistent": true,
+   "order_conflict": []
+  },
+  {
+   "node": "DT.A001.I",
+   "level": 1,
+   "title": "회사의 개요",
+   "scope": "common",
+   "present": [
+    "BR0001",
+    "BR0016",
+    "BR0020",
+    "BR0044",
+    "BR0053"
+   ],
+   "absent": [],
+   "coverage": "5/5",
+   "class": "공통",
+   "title_variants": [
+    {
+     "text": "I. 회사의 개요",
+     "n": 5
+    }
+   ],
+   "per_report": {
+    "BR0001": {
+     "title": "I. 회사의 개요",
+     "order": 2,
+     "level": 1,
+     "tables": 34,
+     "cells": 1166,
+     "paragraphs": 131,
+     "subheads": 13,
+     "occurrences": 1
+    },
+    "BR0016": {
+     "title": "I. 회사의 개요",
+     "order": 2,
+     "level": 1,
+     "tables": 14,
+     "cells": 521,
+     "paragraphs": 16,
+     "subheads": 10,
+     "occurrences": 1
+    },
+    "BR0020": {
+     "title": "I. 회사의 개요",
+     "order": 2,
+     "level": 1,
+     "tables": 16,
+     "cells": 272,
+     "paragraphs": 23,
+     "subheads": 4,
+     "occurrences": 1
+    },
+    "BR0044": {
+     "title": "I. 회사의 개요",
+     "order": 2,
+     "level": 1,
+     "tables": 29,
+     "cells": 836,
+     "paragraphs": 88,
+     "subheads": 40,
+     "occurrences": 1
+    },
+    "BR0053": {
+     "title": "I. 회사의 개요",
+     "order": 2,
+     "level": 1,
+     "tables": 26,
+     "cells": 786,
+     "paragraphs": 55,
+     "subheads": 18,
+     "occurrences": 1
+    }
+   },
+   "order_consistent": true,
+   "order_conflict": []
+  },
+  {
+   "node": "DT.A001.I.1",
+   "level": 2,
+   "title": "회사의 개요",
+   "scope": "common",
+   "present": [
+    "BR0001",
+    "BR0016",
+    "BR0020",
+    "BR0044",
+    "BR0053"
+   ],
+   "absent": [],
+   "coverage": "5/5",
+   "class": "공통",
+   "title_variants": [
+    {
+     "text": "1. 회사의 개요",
+     "n": 5
+    }
+   ],
+   "per_report": {
+    "BR0001": {
+     "title": "1. 회사의 개요",
+     "order": 3,
+     "level": 2,
+     "tables": 10,
+     "cells": 167,
+     "paragraphs": 81,
+     "subheads": 5,
+     "occurrences": 1
+    },
+    "BR0016": {
+     "title": "1. 회사의 개요",
+     "order": 3,
+     "level": 2,
+     "tables": 6,
+     "cells": 55,
+     "paragraphs": 4,
+     "subheads": 3,
+     "occurrences": 1
+    },
+    "BR0020": {
+     "title": "1. 회사의 개요",
+     "order": 3,
+     "level": 2,
+     "tables": 6,
+     "cells": 55,
+     "paragraphs": 6,
+     "subheads": 1,
+     "occurrences": 1
+    },
+    "BR0044": {
+     "title": "1. 회사의 개요",
+     "order": 3,
+     "level": 2,
+     "tables": 10,
+     "cells": 176,
+     "paragraphs": 30,
+     "subheads": 20,
+     "occurrences": 1
+    },
+    "BR0053": {
+     "title": "1. 회사의 개요",
+     "order": 3,
+     "level": 2,
+     "tables": 6,
+     "cells": 115,
+     "paragraphs": 6,
+     "subheads": 3,
+     "occurrences": 1
+    }
+   },
+   "order_consistent": true,
+   "order_conflict": []
+  },
+  {
+   "node": "DT.A001.I.2",
+   "level": 2,
+   "title": "회사의 연혁",
+   "scope": "common",
+   "present": [
+    "BR0001",
+    "BR0016",
+    "BR0020",
+    "BR0044",
+    "BR0053"
+   ],
+   "absent": [],
+   "coverage": "5/5",
+   "class": "공통",
+   "title_variants": [
+    {
+     "text": "2. 회사의 연혁",
+     "n": 5
+    }
+   ],
+   "per_report": {
+    "BR0001": {
+     "title": "2. 회사의 연혁",
+     "order": 4,
+     "level": 2,
+     "tables": 7,
+     "cells": 155,
+     "paragraphs": 23,
+     "subheads": 6,
+     "occurrences": 1
+    },
+    "BR0016": {
+     "title": "2. 회사의 연혁",
+     "order": 4,
+     "level": 2,
+     "tables": 2,
+     "cells": 203,
+     "paragraphs": 3,
+     "subheads": 3,
+     "occurrences": 1
+    },
+    "BR0020": {
+     "title": "2. 회사의 연혁",
+     "order": 4,
+     "level": 2,
+     "tables": 5,
+     "cells": 96,
+     "paragraphs": 9,
+     "subheads": 2,
+     "occurrences": 1
+    },
+    "BR0044": {
+     "title": "2. 회사의 연혁",
+     "order": 4,
+     "level": 2,
+     "tables": 8,
+     "cells": 327,
+     "paragraphs": 19,
+     "subheads": 14,
+     "occurrences": 1
+    },
+    "BR0053": {
+     "title": "2. 회사의 연혁",
+     "order": 4,
+     "level": 2,
+     "tables": 2,
+     "cells": 43,
+     "paragraphs": 9,
+     "subheads": 3,
+     "occurrences": 1
+    }
+   },
+   "order_consistent": true,
+   "order_conflict": []
+  },
+  {
+   "node": "DT.A001.I.3",
+   "level": 2,
+   "title": "자본금 변동사항",
+   "scope": "common",
+   "present": [
+    "BR0001",
+    "BR0016",
+    "BR0020",
+    "BR0044",
+    "BR0053"
+   ],
+   "absent": [],
+   "coverage": "5/5",
+   "class": "공통",
+   "title_variants": [
+    {
+     "text": "3. 자본금 변동사항",
+     "n": 5
+    }
+   ],
+   "per_report": {
+    "BR0001": {
+     "title": "3. 자본금 변동사항",
+     "order": 5,
+     "level": 2,
+     "tables": 2,
+     "cells": 22,
+     "paragraphs": 1,
+     "subheads": 0,
+     "occurrences": 1
+    },
+    "BR0016": {
+     "title": "3. 자본금 변동사항",
+     "order": 5,
+     "level": 2,
+     "tables": 2,
+     "cells": 51,
+     "paragraphs": 1,
+     "subheads": 1,
+     "occurrences": 1
+    },
+    "BR0020": {
+     "title": "3. 자본금 변동사항",
+     "order": 5,
+     "level": 2,
+     "tables": 2,
+     "cells": 51,
+     "paragraphs": 1,
+     "subheads": 0,
+     "occurrences": 1
+    },
+    "BR0044": {
+     "title": "3. 자본금 변동사항",
+     "order": 5,
+     "level": 2,
+     "tables": 2,
+     "cells": 51,
+     "paragraphs": 1,
+     "subheads": 0,
+     "occurrences": 1
+    },
+    "BR0053": {
+     "title": "3. 자본금 변동사항",
+     "order": 5,
+     "level": 2,
+     "tables": 2,
+     "cells": 73,
+     "paragraphs": 1,
+     "subheads": 1,
+     "occurrences": 1
+    }
+   },
+   "order_consistent": true,
+   "order_conflict": []
+  },
+  {
+   "node": "DT.A001.I.4",
+   "level": 2,
+   "title": "주식의 총수 등",
+   "scope": "common",
+   "present": [
+    "BR0001",
+    "BR0016",
+    "BR0020",
+    "BR0044",
+    "BR0053"
+   ],
+   "absent": [],
+   "coverage": "5/5",
+   "class": "공통",
+   "title_variants": [
+    {
+     "text": "4. 주식의 총수 등",
+     "n": 5
+    }
+   ],
+   "per_report": {
+    "BR0001": {
+     "title": "4. 주식의 총수 등",
+     "order": 6,
+     "level": 2,
+     "tables": 13,
+     "cells": 724,
+     "paragraphs": 6,
+     "subheads": 1,
+     "occurrences": 1
+    },
+    "BR0016": {
+     "title": "4. 주식의 총수 등",
+     "order": 6,
+     "level": 2,
+     "tables": 4,
+     "cells": 212,
+     "paragraphs": 2,
+     "subheads": 2,
+     "occurrences": 1
+    },
+    "BR0020": {
+     "title": "4. 주식의 총수 등",
+     "order": 6,
+     "level": 2,
+     "tables": 2,
+     "cells": 50,
+     "paragraphs": 1,
+     "subheads": 1,
+     "occurrences": 1
+    },
+    "BR0044": {
+     "title": "4. 주식의 총수 등",
+     "order": 6,
+     "level": 2,
+     "tables": 6,
+     "cells": 238,
+     "paragraphs": 5,
+     "subheads": 3,
+     "occurrences": 1
+    },
+    "BR0053": {
+     "title": "4. 주식의 총수 등",
+     "order": 6,
+     "level": 2,
+     "tables": 6,
+     "cells": 283,
+     "paragraphs": 6,
+     "subheads": 3,
+     "occurrences": 1
+    }
+   },
+   "order_consistent": true,
+   "order_conflict": []
+  },
+  {
+   "node": "DT.A001.I.5",
+   "level": 2,
+   "title": "정관에 관한 사항",
+   "scope": "common",
+   "present": [
+    "BR0001",
+    "BR0016",
+    "BR0020",
+    "BR0044",
+    "BR0053"
+   ],
+   "absent": [],
+   "coverage": "5/5",
+   "class": "공통",
+   "title_variants": [
+    {
+     "text": "5. 정관에 관한 사항",
+     "n": 5
+    }
+   ],
+   "per_report": {
+    "BR0001": {
+     "title": "5. 정관에 관한 사항",
+     "order": 7,
+     "level": 2,
+     "tables": 2,
+     "cells": 98,
+     "paragraphs": 15,
+     "subheads": 1,
+     "occurrences": 1
+    },
+    "BR0016": {
+     "title": "5. 정관에 관한 사항",
+     "order": 7,
+     "level": 2,
+     "tables": 0,
+     "cells": 0,
+     "paragraphs": 1,
+     "subheads": 1,
+     "occurrences": 1
+    },
+    "BR0020": {
+     "title": "5. 정관에 관한 사항",
+     "order": 7,
+     "level": 2,
+     "tables": 1,
+     "cells": 20,
+     "paragraphs": 1,
+     "subheads": 0,
+     "occurrences": 1
+    },
+    "BR0044": {
+     "title": "5. 정관에 관한 사항",
+     "order": 7,
+     "level": 2,
+     "tables": 3,
+     "cells": 44,
+     "paragraphs": 28,
+     "subheads": 3,
+     "occurrences": 1
+    },
+    "BR0053": {
+     "title": "5. 정관에 관한 사항",
+     "order": 7,
+     "level": 2,
+     "tables": 10,
+     "cells": 272,
+     "paragraphs": 28,
+     "subheads": 8,
+     "occurrences": 1
+    }
+   },
+   "order_consistent": true,
+   "order_conflict": []
+  },
+  {
+   "node": "DT.A001.II",
+   "level": 1,
+   "title": "사업의 내용",
+   "scope": "common",
+   "present": [
+    "BR0001",
+    "BR0016",
+    "BR0020",
+    "BR0044",
+    "BR0053"
+   ],
+   "absent": [],
+   "coverage": "5/5",
+   "class": "공통",
+   "title_variants": [
+    {
+     "text": "II. 사업의 내용",
+     "n": 5
+    }
+   ],
+   "per_report": {
+    "BR0001": {
+     "title": "II. 사업의 내용",
+     "order": 8,
+     "level": 1,
+     "tables": 86,
+     "cells": 1044,
+     "paragraphs": 163,
+     "subheads": 26,
+     "occurrences": 1
+    },
+    "BR0016": {
+     "title": "II. 사업의 내용",
+     "order": 8,
+     "level": 1,
+     "tables": 79,
+     "cells": 1552,
+     "paragraphs": 1221,
+     "subheads": 89,
+     "occurrences": 1
+    },
+    "BR0020": {
+     "title": "II. 사업의 내용",
+     "order": 8,
+     "level": 1,
+     "tables": 17,
+     "cells": 177,
+     "paragraphs": 154,
+     "subheads": 13,
+     "occurrences": 1
+    },
+    "BR0044": {
+     "title": "II. 사업의 내용",
+     "order": 8,
+     "level": 1,
+     "tables": 110,
+     "cells": 2878,
+     "paragraphs": 155,
+     "subheads": 52,
+     "occurrences": 1
+    },
+    "BR0053": {
+     "title": "II. 사업의 내용",
+     "order": 8,
+     "level": 1,
+     "tables": 94,
+     "cells": 2675,
+     "paragraphs": 181,
+     "subheads": 61,
+     "occurrences": 1
+    }
+   },
+   "order_consistent": true,
+   "order_conflict": []
+  },
+  {
+   "node": "DT.A001.II.1",
+   "level": 2,
+   "title": "사업의 개요",
+   "scope": "common",
+   "present": [
+    "BR0001",
+    "BR0016",
+    "BR0020",
+    "BR0044",
+    "BR0053"
+   ],
+   "absent": [],
+   "coverage": "5/5",
+   "class": "공통",
+   "title_variants": [
+    {
+     "text": "1. 사업의 개요",
+     "n": 5
+    }
+   ],
+   "per_report": {
+    "BR0001": {
+     "title": "1. 사업의 개요",
+     "order": 9,
+     "level": 2,
+     "tables": 0,
+     "cells": 0,
+     "paragraphs": 6,
+     "subheads": 0,
+     "occurrences": 1
+    },
+    "BR0016": {
+     "title": "1. 사업의 개요",
+     "order": 9,
+     "level": 2,
+     "tables": 22,
+     "cells": 192,
+     "paragraphs": 336,
+     "subheads": 12,
+     "occurrences": 1
+    },
+    "BR0020": {
+     "title": "1. 사업의 개요",
+     "order": 9,
+     "level": 2,
+     "tables": 17,
+     "cells": 177,
+     "paragraphs": 141,
+     "subheads": 13,
+     "occurrences": 1
+    },
+    "BR0044": {
+     "title": "1. 사업의 개요",
+     "order": 9,
+     "level": 2,
+     "tables": 0,
+     "cells": 0,
+     "paragraphs": 1,
+     "subheads": 0,
+     "occurrences": 1
+    },
+    "BR0053": {
+     "title": "1. 사업의 개요",
+     "order": 9,
+     "level": 2,
+     "tables": 0,
+     "cells": 0,
+     "paragraphs": 3,
+     "subheads": 0,
+     "occurrences": 1
+    }
+   },
+   "order_consistent": true,
+   "order_conflict": []
+  },
+  {
+   "node": "DT.A001.II.2",
+   "level": 2,
+   "title": "주요 제품 및 서비스",
+   "scope": "common",
+   "present": [
+    "BR0001",
+    "BR0016",
+    "BR0020",
+    "BR0053"
+   ],
+   "absent": [
+    "BR0044"
+   ],
+   "coverage": "4/5",
+   "class": "일부",
+   "title_variants": [
+    {
+     "text": "2. 주요 제품 및 서비스",
+     "n": 4
+    }
+   ],
+   "per_report": {
+    "BR0001": {
+     "title": "2. 주요 제품 및 서비스",
+     "order": 10,
+     "level": 2,
+     "tables": 3,
+     "cells": 32,
+     "paragraphs": 2,
+     "subheads": 0,
+     "occurrences": 1
+    },
+    "BR0016": {
+     "title": "2. 주요 제품 및 서비스",
+     "order": 10,
+     "level": 2,
+     "tables": 7,
+     "cells": 59,
+     "paragraphs": 47,
+     "subheads": 5,
+     "occurrences": 1
+    },
+    "BR0020": {
+     "title": "2. 주요 제품 및 서비스",
+     "order": 10,
+     "level": 2,
+     "tables": 0,
+     "cells": 0,
+     "paragraphs": 1,
+     "subheads": 0,
+     "occurrences": 1
+    },
+    "BR0053": {
+     "title": "2. 주요 제품 및 서비스",
+     "order": 10,
+     "level": 2,
+     "tables": 2,
+     "cells": 46,
+     "paragraphs": 2,
+     "subheads": 1,
+     "occurrences": 1
+    }
+   },
+   "order_consistent": true,
+   "order_conflict": []
+  },
+  {
+   "node": "DT.A001.II.3",
+   "level": 2,
+   "title": "원재료 및 생산설비",
+   "scope": "common",
+   "present": [
+    "BR0001",
+    "BR0016",
+    "BR0020",
+    "BR0053"
+   ],
+   "absent": [
+    "BR0044"
+   ],
+   "coverage": "4/5",
+   "class": "일부",
+   "title_variants": [
+    {
+     "text": "3. 원재료 및 생산설비",
+     "n": 4
+    }
+   ],
+   "per_report": {
+    "BR0001": {
+     "title": "3. 원재료 및 생산설비",
+     "order": 11,
+     "level": 2,
+     "tables": 23,
+     "cells": 394,
+     "paragraphs": 14,
+     "subheads": 1,
+     "occurrences": 1
+    },
+    "BR0016": {
+     "title": "3. 원재료 및 생산설비",
+     "order": 11,
+     "level": 2,
+     "tables": 16,
+     "cells": 350,
+     "paragraphs": 127,
+     "subheads": 20,
+     "occurrences": 1
+    },
+    "BR0020": {
+     "title": "3. 원재료 및 생산설비",
+     "order": 11,
+     "level": 2,
+     "tables": 0,
+     "cells": 0,
+     "paragraphs": 1,
+     "subheads": 0,
+     "occurrences": 1
+    },
+    "BR0053": {
+     "title": "3. 원재료 및 생산설비",
+     "order": 11,
+     "level": 2,
+     "tables": 6,
+     "cells": 203,
+     "paragraphs": 7,
+     "subheads": 2,
+     "occurrences": 1
+    }
+   },
+   "order_consistent": true,
+   "order_conflict": []
+  },
+  {
+   "node": "DT.A001.II.4",
+   "level": 2,
+   "title": "매출 및 수주상황",
+   "scope": "common",
+   "present": [
+    "BR0001",
+    "BR0016",
+    "BR0020",
+    "BR0053"
+   ],
+   "absent": [
+    "BR0044"
+   ],
+   "coverage": "4/5",
+   "class": "일부",
+   "title_variants": [
+    {
+     "text": "4. 매출 및 수주상황",
+     "n": 4
+    }
+   ],
+   "per_report": {
+    "BR0001": {
+     "title": "4. 매출 및 수주상황",
+     "order": 12,
+     "level": 2,
+     "tables": 17,
+     "cells": 195,
+     "paragraphs": 16,
+     "subheads": 11,
+     "occurrences": 1
+    },
+    "BR0016": {
+     "title": "4. 매출 및 수주상황",
+     "order": 12,
+     "level": 2,
+     "tables": 11,
+     "cells": 292,
+     "paragraphs": 107,
+     "subheads": 8,
+     "occurrences": 1
+    },
+    "BR0020": {
+     "title": "4. 매출 및 수주상황",
+     "order": 12,
+     "level": 2,
+     "tables": 0,
+     "cells": 0,
+     "paragraphs": 1,
+     "subheads": 0,
+     "occurrences": 1
+    },
+    "BR0053": {
+     "title": "4. 매출 및 수주상황",
+     "order": 12,
+     "level": 2,
+     "tables": 4,
+     "cells": 73,
+     "paragraphs": 3,
+     "subheads": 1,
+     "occurrences": 1
+    }
+   },
+   "order_consistent": true,
+   "order_conflict": []
+  },
+  {
+   "node": "DT.A001.II.5",
+   "level": 2,
+   "title": "위험관리 및 파생거래",
+   "scope": "common",
+   "present": [
+    "BR0001",
+    "BR0016",
+    "BR0020",
+    "BR0053"
+   ],
+   "absent": [
+    "BR0044"
+   ],
+   "coverage": "4/5",
+   "class": "일부",
+   "title_variants": [
+    {
+     "text": "5. 위험관리 및 파생거래",
+     "n": 4
+    }
+   ],
+   "per_report": {
+    "BR0001": {
+     "title": "5. 위험관리 및 파생거래",
+     "order": 13,
+     "level": 2,
+     "tables": 14,
+     "cells": 95,
+     "paragraphs": 28,
+     "subheads": 7,
+     "occurrences": 1
+    },
+    "BR0016": {
+     "title": "5. 위험관리 및 파생거래",
+     "order": 13,
+     "level": 2,
+     "tables": 0,
+     "cells": 0,
+     "paragraphs": 1,
+     "subheads": 0,
+     "occurrences": 1
+    },
+    "BR0020": {
+     "title": "5. 위험관리 및 파생거래",
+     "order": 13,
+     "level": 2,
+     "tables": 0,
+     "cells": 0,
+     "paragraphs": 1,
+     "subheads": 0,
+     "occurrences": 1
+    },
+    "BR0053": {
+     "title": "5. 위험관리 및 파생거래",
+     "order": 13,
+     "level": 2,
+     "tables": 14,
+     "cells": 245,
+     "paragraphs": 29,
+     "subheads": 7,
+     "occurrences": 1
+    }
+   },
+   "order_consistent": true,
+   "order_conflict": []
+  },
+  {
+   "node": "DT.A001.II.6",
+   "level": 2,
+   "title": "주요계약 및 연구개발활동",
+   "scope": "common",
+   "present": [
+    "BR0001",
+    "BR0016",
+    "BR0020",
+    "BR0053"
+   ],
+   "absent": [
+    "BR0044"
+   ],
+   "coverage": "4/5",
+   "class": "일부",
+   "title_variants": [
+    {
+     "text": "6. 주요계약 및 연구개발활동",
+     "n": 4
+    }
+   ],
+   "per_report": {
+    "BR0001": {
+     "title": "6. 주요계약 및 연구개발활동",
+     "order": 14,
+     "level": 2,
+     "tables": 9,
+     "cells": 136,
+     "paragraphs": 15,
+     "subheads": 2,
+     "occurrences": 1
+    },
+    "BR0016": {
+     "title": "6. 주요계약 및 연구개발활동",
+     "order": 14,
+     "level": 2,
+     "tables": 22,
+     "cells": 386,
+     "paragraphs": 340,
+     "subheads": 42,
+     "occurrences": 1
+    },
+    "BR0020": {
+     "title": "6. 주요계약 및 연구개발활동",
+     "order": 14,
+     "level": 2,
+     "tables": 0,
+     "cells": 0,
+     "paragraphs": 1,
+     "subheads": 0,
+     "occurrences": 1
+    },
+    "BR0053": {
+     "title": "6. 주요계약 및 연구개발활동",
+     "order": 14,
+     "level": 2,
+     "tables": 42,
+     "cells": 1433,
+     "paragraphs": 90,
+     "subheads": 38,
+     "occurrences": 1
+    }
+   },
+   "order_consistent": true,
+   "order_conflict": []
+  },
+  {
+   "node": "DT.A001.II.7",
+   "level": 2,
+   "title": "기타 참고사항",
+   "scope": "common",
+   "present": [
+    "BR0001",
+    "BR0016",
+    "BR0020",
+    "BR0053"
+   ],
+   "absent": [
+    "BR0044"
+   ],
+   "coverage": "4/5",
+   "class": "일부",
+   "title_variants": [
+    {
+     "text": "7. 기타 참고사항",
+     "n": 4
+    }
+   ],
+   "per_report": {
+    "BR0001": {
+     "title": "7. 기타 참고사항",
+     "order": 15,
+     "level": 2,
+     "tables": 20,
+     "cells": 192,
+     "paragraphs": 75,
+     "subheads": 5,
+     "occurrences": 1
+    },
+    "BR0016": {
+     "title": "7. 기타 참고사항",
+     "order": 15,
+     "level": 2,
+     "tables": 1,
+     "cells": 273,
+     "paragraphs": 256,
+     "subheads": 2,
+     "occurrences": 1
+    },
+    "BR0020": {
+     "title": "7. 기타 참고사항",
+     "order": 15,
+     "level": 2,
+     "tables": 0,
+     "cells": 0,
+     "paragraphs": 1,
+     "subheads": 0,
+     "occurrences": 1
+    },
+    "BR0053": {
+     "title": "7. 기타 참고사항",
+     "order": 15,
+     "level": 2,
+     "tables": 26,
+     "cells": 675,
+     "paragraphs": 40,
+     "subheads": 12,
+     "occurrences": 1
+    }
+   },
+   "order_consistent": true,
+   "order_conflict": []
+  },
+  {
+   "node": "DT.A001.II.F1",
+   "level": 2,
+   "title": "영업의 현황(금융업)",
+   "scope": "industry:금융",
+   "present": [
+    "BR0044"
+   ],
+   "absent": [
+    "BR0001",
+    "BR0016",
+    "BR0020",
+    "BR0053"
+   ],
+   "coverage": "1/5",
+   "class": "단독",
+   "title_variants": [
+    {
+     "text": "2. 영업의 현황",
+     "n": 1
+    }
+   ],
+   "per_report": {
+    "BR0044": {
+     "title": "2. 영업의 현황",
+     "order": 10,
+     "level": 2,
+     "tables": 28,
+     "cells": 848,
+     "paragraphs": 40,
+     "subheads": 7,
+     "occurrences": 1
+    }
+   },
+   "order_consistent": true,
+   "order_conflict": []
+  },
+  {
+   "node": "DT.A001.II.F2",
+   "level": 2,
+   "title": "파생상품거래 현황(금융업)",
+   "scope": "industry:금융",
+   "present": [
+    "BR0044"
+   ],
+   "absent": [
+    "BR0001",
+    "BR0016",
+    "BR0020",
+    "BR0053"
+   ],
+   "coverage": "1/5",
+   "class": "단독",
+   "title_variants": [
+    {
+     "text": "3. 파생상품거래 현황",
+     "n": 1
+    }
+   ],
+   "per_report": {
+    "BR0044": {
+     "title": "3. 파생상품거래 현황",
+     "order": 11,
+     "level": 2,
+     "tables": 6,
+     "cells": 110,
+     "paragraphs": 3,
+     "subheads": 2,
+     "occurrences": 1
+    }
+   },
+   "order_consistent": true,
+   "order_conflict": []
+  },
+  {
+   "node": "DT.A001.II.F3",
+   "level": 2,
+   "title": "영업설비(금융업)",
+   "scope": "industry:금융",
+   "present": [
+    "BR0044"
+   ],
+   "absent": [
+    "BR0001",
+    "BR0016",
+    "BR0020",
+    "BR0053"
+   ],
+   "coverage": "1/5",
+   "class": "단독",
+   "title_variants": [
+    {
+     "text": "4. 영업설비",
+     "n": 1
+    }
+   ],
+   "per_report": {
+    "BR0044": {
+     "title": "4. 영업설비",
+     "order": 12,
+     "level": 2,
+     "tables": 3,
+     "cells": 67,
+     "paragraphs": 8,
+     "subheads": 1,
+     "occurrences": 1
+    }
+   },
+   "order_consistent": true,
+   "order_conflict": []
+  },
+  {
+   "node": "DT.A001.II.F4",
+   "level": 2,
+   "title": "재무건전성 등 기타 참고사항(금융업)",
+   "scope": "industry:금융",
+   "present": [
+    "BR0044"
+   ],
+   "absent": [
+    "BR0001",
+    "BR0016",
+    "BR0020",
+    "BR0053"
+   ],
+   "coverage": "1/5",
+   "class": "단독",
+   "title_variants": [
+    {
+     "text": "5. 재무건전성 등 기타 참고사항",
+     "n": 1
+    }
+   ],
+   "per_report": {
+    "BR0044": {
+     "title": "5. 재무건전성 등 기타 참고사항",
+     "order": 13,
+     "level": 2,
+     "tables": 73,
+     "cells": 1853,
+     "paragraphs": 98,
+     "subheads": 42,
+     "occurrences": 1
+    }
+   },
+   "order_consistent": true,
+   "order_conflict": []
+  },
+  {
+   "node": "DT.A001.III",
+   "level": 1,
+   "title": "재무에 관한 사항",
+   "scope": "common",
+   "present": [
+    "BR0001",
+    "BR0016",
+    "BR0020",
+    "BR0044",
+    "BR0053"
+   ],
+   "absent": [],
+   "coverage": "5/5",
+   "class": "공통",
+   "title_variants": [
+    {
+     "text": "III. 재무에 관한 사항",
+     "n": 5
+    }
+   ],
+   "per_report": {
+    "BR0001": {
+     "title": "III. 재무에 관한 사항",
+     "order": 16,
+     "level": 1,
+     "tables": 1601,
+     "cells": 20223,
+     "paragraphs": 11856,
+     "subheads": 112,
+     "occurrences": 1
+    },
+    "BR0016": {
+     "title": "III. 재무에 관한 사항",
+     "order": 16,
+     "level": 1,
+     "tables": 119,
+     "cells": 3328,
+     "paragraphs": 299,
+     "subheads": 78,
+     "occurrences": 1
+    },
+    "BR0020": {
+     "title": "III. 재무에 관한 사항",
+     "order": 16,
+     "level": 1,
+     "tables": 83,
+     "cells": 1608,
+     "paragraphs": 468,
+     "subheads": 24,
+     "occurrences": 1
+    },
+    "BR0044": {
+     "title": "III. 재무에 관한 사항",
+     "order": 14,
+     "level": 1,
+     "tables": 1062,
+     "cells": 34407,
+     "paragraphs": 3966,
+     "subheads": 90,
+     "occurrences": 1
+    },
+    "BR0053": {
+     "title": "III. 재무에 관한 사항",
+     "order": 16,
+     "level": 1,
+     "tables": 2184,
+     "cells": 21429,
+     "paragraphs": 16904,
+     "subheads": 70,
+     "occurrences": 1
+    }
+   },
+   "order_consistent": true,
+   "order_conflict": []
+  },
+  {
+   "node": "DT.A001.III.1",
+   "level": 2,
+   "title": "요약재무정보",
+   "scope": "common",
+   "present": [
+    "BR0001",
+    "BR0016",
+    "BR0020",
+    "BR0044",
+    "BR0053"
+   ],
+   "absent": [],
+   "coverage": "5/5",
+   "class": "공통",
+   "title_variants": [
+    {
+     "text": "1. 요약재무정보",
+     "n": 5
+    }
+   ],
+   "per_report": {
+    "BR0001": {
+     "title": "1. 요약재무정보",
+     "order": 17,
+     "level": 2,
+     "tables": 6,
+     "cells": 270,
+     "paragraphs": 4,
+     "subheads": 2,
+     "occurrences": 1
+    },
+    "BR0016": {
+     "title": "1. 요약재무정보",
+     "order": 17,
+     "level": 2,
+     "tables": 1,
+     "cells": 103,
+     "paragraphs": 33,
+     "subheads": 8,
+     "occurrences": 1
+    },
+    "BR0020": {
+     "title": "1. 요약재무정보",
+     "order": 17,
+     "level": 2,
+     "tables": 4,
+     "cells": 90,
+     "paragraphs": 6,
+     "subheads": 0,
+     "occurrences": 1
+    },
+    "BR0044": {
+     "title": "1. 요약재무정보",
+     "order": 15,
+     "level": 2,
+     "tables": 4,
+     "cells": 566,
+     "paragraphs": 4,
+     "subheads": 2,
+     "occurrences": 1
+    },
+    "BR0053": {
+     "title": "1. 요약재무정보",
+     "order": 17,
+     "level": 2,
+     "tables": 4,
+     "cells": 340,
+     "paragraphs": 4,
+     "subheads": 2,
+     "occurrences": 1
+    }
+   },
+   "order_consistent": true,
+   "order_conflict": []
+  },
+  {
+   "node": "DT.A001.III.2",
+   "level": 2,
+   "title": "연결재무제표",
+   "scope": "common",
+   "present": [
+    "BR0001",
+    "BR0016",
+    "BR0020",
+    "BR0044",
+    "BR0053"
+   ],
+   "absent": [],
+   "coverage": "5/5",
+   "class": "공통",
+   "title_variants": [
+    {
+     "text": "2. 연결재무제표",
+     "n": 5
+    }
+   ],
+   "per_report": {
+    "BR0001": {
+     "title": "2. 연결재무제표",
+     "order": 18,
+     "level": 2,
+     "tables": 10,
+     "cells": 875,
+     "paragraphs": 845,
+     "subheads": 6,
+     "occurrences": 1
+    },
+    "BR0016": {
+     "title": "2. 연결재무제표",
+     "order": 18,
+     "level": 2,
+     "tables": 0,
+     "cells": 0,
+     "paragraphs": 1,
+     "subheads": 0,
+     "occurrences": 1
+    },
+    "BR0020": {
+     "title": "2. 연결재무제표",
+     "order": 18,
+     "level": 2,
+     "tables": 0,
+     "cells": 0,
+     "paragraphs": 1,
+     "subheads": 0,
+     "occurrences": 1
+    },
+    "BR0044": {
+     "title": "2. 연결재무제표",
+     "order": 16,
+     "level": 2,
+     "tables": 8,
+     "cells": 1452,
+     "paragraphs": 1424,
+     "subheads": 4,
+     "occurrences": 1
+    },
+    "BR0053": {
+     "title": "2. 연결재무제표",
+     "order": 18,
+     "level": 2,
+     "tables": 10,
+     "cells": 1035,
+     "paragraphs": 1014,
+     "subheads": 5,
+     "occurrences": 1
+    }
+   },
+   "order_consistent": true,
+   "order_conflict": []
+  },
+  {
+   "node": "DT.A001.III.2.01",
+   "level": 3,
+   "title": "연결 재무상태표",
+   "scope": "common",
+   "present": [
+    "BR0001",
+    "BR0044",
+    "BR0053"
+   ],
+   "absent": [
+    "BR0016",
+    "BR0020"
+   ],
+   "coverage": "3/5",
+   "class": "일부",
+   "title_variants": [
+    {
+     "text": "2-1. 연결 재무상태표",
+     "n": 3
+    }
+   ],
+   "per_report": {
+    "BR0001": {
+     "title": "2-1. 연결 재무상태표",
+     "order": 19,
+     "level": 3,
+     "tables": 2,
+     "cells": 229,
+     "paragraphs": 219,
+     "subheads": 0,
+     "occurrences": 1
+    },
+    "BR0044": {
+     "title": "2-1. 연결 재무상태표",
+     "order": 17,
+     "level": 3,
+     "tables": 2,
+     "cells": 245,
+     "paragraphs": 235,
+     "subheads": 1,
+     "occurrences": 1
+    },
+    "BR0053": {
+     "title": "2-1. 연결 재무상태표",
+     "order": 19,
+     "level": 3,
+     "tables": 2,
+     "cells": 189,
+     "paragraphs": 180,
+     "subheads": 1,
+     "occurrences": 1
+    }
+   },
+   "order_consistent": true
+  },
+  {
+   "node": "DT.A001.III.2.02",
+   "level": 3,
+   "title": "연결 손익계산서",
+   "scope": "conditional",
+   "present": [
+    "BR0001",
+    "BR0053"
+   ],
+   "absent": [
+    "BR0016",
+    "BR0020",
+    "BR0044"
+   ],
+   "coverage": "2/5",
+   "class": "일부",
+   "title_variants": [
+    {
+     "text": "2-2. 연결 손익계산서",
+     "n": 2
+    }
+   ],
+   "per_report": {
+    "BR0001": {
+     "title": "2-2. 연결 손익계산서",
+     "order": 20,
+     "level": 3,
+     "tables": 2,
+     "cells": 85,
+     "paragraphs": 78,
+     "subheads": 0,
+     "occurrences": 1
+    },
+    "BR0053": {
+     "title": "2-2. 연결 손익계산서",
+     "order": 20,
+     "level": 3,
+     "tables": 2,
+     "cells": 121,
+     "paragraphs": 115,
+     "subheads": 1,
+     "occurrences": 1
+    }
+   },
+   "order_consistent": true
+  },
+  {
+   "node": "DT.A001.III.2.03",
+   "level": 3,
+   "title": "연결 포괄손익계산서",
+   "scope": "common",
+   "present": [
+    "BR0001",
+    "BR0044",
+    "BR0053"
+   ],
+   "absent": [
+    "BR0016",
+    "BR0020"
+   ],
+   "coverage": "3/5",
+   "class": "일부",
+   "title_variants": [
+    {
+     "text": "2-3. 연결 포괄손익계산서",
+     "n": 2
+    },
+    {
+     "text": "2-2. 연결 포괄손익계산서",
+     "n": 1
+    }
+   ],
+   "per_report": {
+    "BR0001": {
+     "title": "2-3. 연결 포괄손익계산서",
+     "order": 21,
+     "level": 3,
+     "tables": 2,
+     "cells": 65,
+     "paragraphs": 61,
+     "subheads": 0,
+     "occurrences": 1
+    },
+    "BR0044": {
+     "title": "2-2. 연결 포괄손익계산서",
+     "order": 18,
+     "level": 3,
+     "tables": 2,
+     "cells": 361,
+     "paragraphs": 348,
+     "subheads": 1,
+     "occurrences": 1
+    },
+    "BR0053": {
+     "title": "2-3. 연결 포괄손익계산서",
+     "order": 21,
+     "level": 3,
+     "tables": 2,
+     "cells": 65,
+     "paragraphs": 62,
+     "subheads": 1,
+     "occurrences": 1
+    }
+   },
+   "order_consistent": true
+  },
+  {
+   "node": "DT.A001.III.2.04",
+   "level": 3,
+   "title": "연결 자본변동표",
+   "scope": "common",
+   "present": [
+    "BR0001",
+    "BR0044",
+    "BR0053"
+   ],
+   "absent": [
+    "BR0016",
+    "BR0020"
+   ],
+   "coverage": "3/5",
+   "class": "일부",
+   "title_variants": [
+    {
+     "text": "2-4. 연결 자본변동표",
+     "n": 2
+    },
+    {
+     "text": "2-3. 연결 자본변동표",
+     "n": 1
+    }
+   ],
+   "per_report": {
+    "BR0001": {
+     "title": "2-4. 연결 자본변동표",
+     "order": 22,
+     "level": 3,
+     "tables": 2,
+     "cells": 327,
+     "paragraphs": 314,
+     "subheads": 0,
+     "occurrences": 1
+    },
+    "BR0044": {
+     "title": "2-3. 연결 자본변동표",
+     "order": 19,
+     "level": 3,
+     "tables": 2,
+     "cells": 625,
+     "paragraphs": 627,
+     "subheads": 1,
+     "occurrences": 1
+    },
+    "BR0053": {
+     "title": "2-4. 연결 자본변동표",
+     "order": 22,
+     "level": 3,
+     "tables": 2,
+     "cells": 475,
+     "paragraphs": 472,
+     "subheads": 1,
+     "occurrences": 1
+    }
+   },
+   "order_consistent": true
+  },
+  {
+   "node": "DT.A001.III.2.05",
+   "level": 3,
+   "title": "연결 현금흐름표",
+   "scope": "common",
+   "present": [
+    "BR0001",
+    "BR0044",
+    "BR0053"
+   ],
+   "absent": [
+    "BR0016",
+    "BR0020"
+   ],
+   "coverage": "3/5",
+   "class": "일부",
+   "title_variants": [
+    {
+     "text": "2-5. 연결 현금흐름표",
+     "n": 2
+    },
+    {
+     "text": "2-4. 연결 현금흐름표",
+     "n": 1
+    }
+   ],
+   "per_report": {
+    "BR0001": {
+     "title": "2-5. 연결 현금흐름표",
+     "order": 23,
+     "level": 3,
+     "tables": 2,
+     "cells": 169,
+     "paragraphs": 168,
+     "subheads": 1,
+     "occurrences": 1
+    },
+    "BR0044": {
+     "title": "2-4. 연결 현금흐름표",
+     "order": 20,
+     "level": 3,
+     "tables": 2,
+     "cells": 221,
+     "paragraphs": 214,
+     "subheads": 1,
+     "occurrences": 1
+    },
+    "BR0053": {
+     "title": "2-5. 연결 현금흐름표",
+     "order": 23,
+     "level": 3,
+     "tables": 2,
+     "cells": 185,
+     "paragraphs": 185,
+     "subheads": 1,
+     "occurrences": 1
+    }
+   },
+   "order_consistent": true
+  },
+  {
+   "node": "DT.A001.III.3",
+   "level": 2,
+   "title": "연결재무제표 주석",
+   "scope": "common",
+   "present": [
+    "BR0001",
+    "BR0016",
+    "BR0020",
+    "BR0044",
+    "BR0053"
+   ],
+   "absent": [],
+   "coverage": "5/5",
+   "class": "공통",
+   "title_variants": [
+    {
+     "text": "3. 연결재무제표 주석",
+     "n": 5
+    }
+   ],
+   "per_report": {
+    "BR0001": {
+     "title": "3. 연결재무제표 주석",
+     "order": 24,
+     "level": 2,
+     "tables": 803,
+     "cells": 9082,
+     "paragraphs": 5497,
+     "subheads": 42,
+     "occurrences": 1
+    },
+    "BR0016": {
+     "title": "3. 연결재무제표 주석",
+     "order": 19,
+     "level": 2,
+     "tables": 0,
+     "cells": 0,
+     "paragraphs": 1,
+     "subheads": 0,
+     "occurrences": 1
+    },
+    "BR0020": {
+     "title": "3. 연결재무제표 주석",
+     "order": 19,
+     "level": 2,
+     "tables": 0,
+     "cells": 0,
+     "paragraphs": 1,
+     "subheads": 0,
+     "occurrences": 1
+    },
+    "BR0044": {
+     "title": "3. 연결재무제표 주석",
+     "order": 21,
+     "level": 2,
+     "tables": 523,
+     "cells": 16429,
+     "paragraphs": 654,
+     "subheads": 21,
+     "occurrences": 1
+    },
+    "BR0053": {
+     "title": "3. 연결재무제표 주석",
+     "order": 24,
+     "level": 2,
+     "tables": 1080,
+     "cells": 9261,
+     "paragraphs": 7974,
+     "subheads": 14,
+     "occurrences": 1
+    }
+   },
+   "order_consistent": true,
+   "order_conflict": []
+  },
+  {
+   "node": "DT.A001.III.3.N01",
+   "level": 3,
+   "title": "일반사항·연결범위 (연결)",
+   "scope": "common",
+   "present": [
+    "BR0001",
+    "BR0053"
+   ],
+   "absent": [
+    "BR0016",
+    "BR0020",
+    "BR0044"
+   ],
+   "coverage": "2/5",
+   "class": "일부",
+   "title_variants": [
+    {
+     "text": "1. 일반적 사항 (연결)",
+     "n": 1
+    },
+    {
+     "text": "1. 일반사항 (연결)",
+     "n": 1
+    }
+   ],
+   "per_report": {
+    "BR0001": {
+     "title": "1. 일반적 사항 (연결)",
+     "order": 25,
+     "level": 3,
+     "tables": 23,
+     "cells": 1045,
+     "paragraphs": 8,
+     "subheads": 6,
+     "occurrences": 1
+    },
+    "BR0053": {
+     "title": "1. 일반사항 (연결)",
+     "order": 25,
+     "level": 3,
+     "tables": 24,
+     "cells": 648,
+     "paragraphs": 538,
+     "subheads": 0,
+     "occurrences": 1
+    }
+   },
+   "order_consistent": true
+  },
+  {
+   "node": "DT.A001.III.3.N02",
+   "level": 3,
+   "title": "회계정책·기준서 적용 (연결)",
+   "scope": "common",
+   "present": [
+    "BR0001",
+    "BR0053"
+   ],
+   "absent": [
+    "BR0016",
+    "BR0020",
+    "BR0044"
+   ],
+   "coverage": "2/5",
+   "class": "일부",
+   "title_variants": [
+    {
+     "text": "2. 중요한 회계처리방침 (연결)",
+     "n": 1
+    },
+    {
+     "text": "2. 중요한 회계정책 (연결)",
+     "n": 1
+    }
+   ],
+   "per_report": {
+    "BR0001": {
+     "title": "2. 중요한 회계처리방침 (연결)",
+     "order": 26,
+     "level": 3,
+     "tables": 3,
+     "cells": 14,
+     "paragraphs": 67,
+     "subheads": 8,
+     "occurrences": 1
+    },
+    "BR0053": {
+     "title": "2. 중요한 회계정책 (연결)",
+     "order": 26,
+     "level": 3,
+     "tables": 86,
+     "cells": 400,
+     "paragraphs": 359,
+     "subheads": 3,
+     "occurrences": 1
+    }
+   },
+   "order_consistent": true
+  },
+  {
+   "node": "DT.A001.III.3.N03",
+   "level": 3,
+   "title": "회계추정·가정 (연결)",
+   "scope": "common",
+   "present": [
+    "BR0001",
+    "BR0053"
+   ],
+   "absent": [
+    "BR0016",
+    "BR0020",
+    "BR0044"
+   ],
+   "coverage": "2/5",
+   "class": "일부",
+   "title_variants": [
+    {
+     "text": "3. 중요한 회계추정 및 가정 (연결)",
+     "n": 2
+    }
+   ],
+   "per_report": {
+    "BR0001": {
+     "title": "3. 중요한 회계추정 및 가정 (연결)",
+     "order": 27,
+     "level": 3,
+     "tables": 2,
+     "cells": 2,
+     "paragraphs": 16,
+     "subheads": 7,
+     "occurrences": 1
+    },
+    "BR0053": {
+     "title": "3. 중요한 회계추정 및 가정 (연결)",
+     "order": 27,
+     "level": 3,
+     "tables": 12,
+     "cells": 21,
+     "paragraphs": 20,
+     "subheads": 9,
+     "occurrences": 1
+    }
+   },
+   "order_consistent": true
+  },
+  {
+   "node": "DT.A001.III.3.N04",
+   "level": 3,
+   "title": "재무위험관리·자본관리 (연결)",
+   "scope": "common",
+   "present": [
+    "BR0001",
+    "BR0053"
+   ],
+   "absent": [
+    "BR0016",
+    "BR0020",
+    "BR0044"
+   ],
+   "coverage": "2/5",
+   "class": "일부",
+   "title_variants": [
+    {
+     "text": "28. 재무위험관리 (연결)",
+     "n": 1
+    },
+    {
+     "text": "4. 재무위험관리 (연결)",
+     "n": 1
+    }
+   ],
+   "per_report": {
+    "BR0001": {
+     "title": "28. 재무위험관리 (연결)",
+     "order": 52,
+     "level": 3,
+     "tables": 119,
+     "cells": 1773,
+     "paragraphs": 1241,
+     "subheads": 1,
+     "occurrences": 1
+    },
+    "BR0053": {
+     "title": "4. 재무위험관리 (연결)",
+     "order": 28,
+     "level": 3,
+     "tables": 53,
+     "cells": 475,
+     "paragraphs": 383,
+     "subheads": 0,
+     "occurrences": 1
+    }
+   },
+   "order_consistent": true
+  },
+  {
+   "node": "DT.A001.III.3.N05",
+   "level": 3,
+   "title": "금융상품 범주·공정가치 (연결)",
+   "scope": "common",
+   "present": [
+    "BR0001",
+    "BR0053"
+   ],
+   "absent": [
+    "BR0016",
+    "BR0020",
+    "BR0044"
+   ],
+   "coverage": "2/5",
+   "class": "일부",
+   "title_variants": [
+    {
+     "text": "4. 범주별 금융상품 (연결)",
+     "n": 1
+    },
+    {
+     "text": "6. 범주별 금융상품 (연결)",
+     "n": 1
+    }
+   ],
+   "per_report": {
+    "BR0001": {
+     "title": "4. 범주별 금융상품 (연결)",
+     "order": 28,
+     "level": 3,
+     "tables": 32,
+     "cells": 506,
+     "paragraphs": 414,
+     "subheads": 0,
+     "occurrences": 1
+    },
+    "BR0053": {
+     "title": "6. 범주별 금융상품 (연결)",
+     "order": 29,
+     "level": 3,
+     "tables": 78,
+     "cells": 759,
+     "paragraphs": 615,
+     "subheads": 0,
+     "occurrences": 2
+    }
+   },
+   "order_consistent": true
+  },
+  {
+   "node": "DT.A001.III.3.N06",
+   "level": 3,
+   "title": "현금·금융자산·금융자산 양도 (연결)",
+   "scope": "common",
+   "present": [
+    "BR0001",
+    "BR0053"
+   ],
+   "absent": [
+    "BR0016",
+    "BR0020",
+    "BR0044"
+   ],
+   "coverage": "2/5",
+   "class": "일부",
+   "title_variants": [
+    {
+     "text": "6. 공정가치금융자산 (연결)",
+     "n": 1
+    },
+    {
+     "text": "8. 금융자산 (연결)",
+     "n": 1
+    }
+   ],
+   "per_report": {
+    "BR0001": {
+     "title": "6. 공정가치금융자산 (연결)",
+     "order": 29,
+     "level": 3,
+     "tables": 60,
+     "cells": 462,
+     "paragraphs": 292,
+     "subheads": 0,
+     "occurrences": 2
+    },
+    "BR0053": {
+     "title": "8. 금융자산 (연결)",
+     "order": 31,
+     "level": 3,
+     "tables": 39,
+     "cells": 205,
+     "paragraphs": 160,
+     "subheads": 0,
+     "occurrences": 2
+    }
+   },
+   "order_consistent": true
+  },
+  {
+   "node": "DT.A001.III.3.N07",
+   "level": 3,
+   "title": "매출채권·기타채권 (연결)",
+   "scope": "common",
+   "present": [
+    "BR0001",
+    "BR0053"
+   ],
+   "absent": [
+    "BR0016",
+    "BR0020",
+    "BR0044"
+   ],
+   "coverage": "2/5",
+   "class": "일부",
+   "title_variants": [
+    {
+     "text": "7. 매출채권 및 미수금 (연결)",
+     "n": 1
+    },
+    {
+     "text": "9. 매출채권 및 기타채권 (연결)",
+     "n": 1
+    }
+   ],
+   "per_report": {
+    "BR0001": {
+     "title": "7. 매출채권 및 미수금 (연결)",
+     "order": 31,
+     "level": 3,
+     "tables": 29,
+     "cells": 286,
+     "paragraphs": 206,
+     "subheads": 0,
+     "occurrences": 1
+    },
+    "BR0053": {
+     "title": "9. 매출채권 및 기타채권 (연결)",
+     "order": 33,
+     "level": 3,
+     "tables": 30,
+     "cells": 303,
+     "paragraphs": 254,
+     "subheads": 0,
+     "occurrences": 1
+    }
+   },
+   "order_consistent": true
+  },
+  {
+   "node": "DT.A001.III.3.N08",
+   "level": 3,
+   "title": "재고자산 (연결)",
+   "scope": "common",
+   "present": [
+    "BR0001",
+    "BR0053"
+   ],
+   "absent": [
+    "BR0016",
+    "BR0020",
+    "BR0044"
+   ],
+   "coverage": "2/5",
+   "class": "일부",
+   "title_variants": [
+    {
+     "text": "8. 재고자산 (연결)",
+     "n": 1
+    },
+    {
+     "text": "10. 재고자산 (연결)",
+     "n": 1
+    }
+   ],
+   "per_report": {
+    "BR0001": {
+     "title": "8. 재고자산 (연결)",
+     "order": 32,
+     "level": 3,
+     "tables": 9,
+     "cells": 71,
+     "paragraphs": 59,
+     "subheads": 0,
+     "occurrences": 1
+    },
+    "BR0053": {
+     "title": "10. 재고자산 (연결)",
+     "order": 34,
+     "level": 3,
+     "tables": 16,
+     "cells": 104,
+     "paragraphs": 94,
+     "subheads": 0,
+     "occurrences": 1
+    }
+   },
+   "order_consistent": true
+  },
+  {
+   "node": "DT.A001.III.3.N09",
+   "level": 3,
+   "title": "관계기업·공동기업·종속기업 투자 (연결)",
+   "scope": "common",
+   "present": [
+    "BR0001",
+    "BR0053"
+   ],
+   "absent": [
+    "BR0016",
+    "BR0020",
+    "BR0044"
+   ],
+   "coverage": "2/5",
+   "class": "일부",
+   "title_variants": [
+    {
+     "text": "9. 관계기업 및 공동기업 투자 (연결)",
+     "n": 1
+    },
+    {
+     "text": "11. 관계기업투자 및 공동기업투자 (연결)",
+     "n": 1
+    }
+   ],
+   "per_report": {
+    "BR0001": {
+     "title": "9. 관계기업 및 공동기업 투자 (연결)",
+     "order": 33,
+     "level": 3,
+     "tables": 33,
+     "cells": 611,
+     "paragraphs": 14,
+     "subheads": 12,
+     "occurrences": 1
+    },
+    "BR0053": {
+     "title": "11. 관계기업투자 및 공동기업투자 (연결)",
+     "order": 35,
+     "level": 3,
+     "tables": 29,
+     "cells": 415,
+     "paragraphs": 387,
+     "subheads": 0,
+     "occurrences": 1
+    }
+   },
+   "order_consistent": true
+  },
+  {
+   "node": "DT.A001.III.3.N10",
+   "level": 3,
+   "title": "유형자산·사용권자산 (연결)",
+   "scope": "common",
+   "present": [
+    "BR0001",
+    "BR0053"
+   ],
+   "absent": [
+    "BR0016",
+    "BR0020",
+    "BR0044"
+   ],
+   "coverage": "2/5",
+   "class": "일부",
+   "title_variants": [
+    {
+     "text": "10. 유형자산 (연결)",
+     "n": 1
+    },
+    {
+     "text": "12. 유형자산 (연결)",
+     "n": 1
+    }
+   ],
+   "per_report": {
+    "BR0001": {
+     "title": "10. 유형자산 (연결)",
+     "order": 34,
+     "level": 3,
+     "tables": 46,
+     "cells": 511,
+     "paragraphs": 441,
+     "subheads": 2,
+     "occurrences": 1
+    },
+    "BR0053": {
+     "title": "12. 유형자산 (연결)",
+     "order": 36,
+     "level": 3,
+     "tables": 54,
+     "cells": 737,
+     "paragraphs": 668,
+     "subheads": 1,
+     "occurrences": 1
+    }
+   },
+   "order_consistent": true
+  },
+  {
+   "node": "DT.A001.III.3.N11",
+   "level": 3,
+   "title": "무형자산·영업권 (연결)",
+   "scope": "common",
+   "present": [
+    "BR0001",
+    "BR0053"
+   ],
+   "absent": [
+    "BR0016",
+    "BR0020",
+    "BR0044"
+   ],
+   "coverage": "2/5",
+   "class": "일부",
+   "title_variants": [
+    {
+     "text": "11. 무형자산 (연결)",
+     "n": 1
+    },
+    {
+     "text": "13. 무형자산 (연결)",
+     "n": 1
+    }
+   ],
+   "per_report": {
+    "BR0001": {
+     "title": "11. 무형자산 (연결)",
+     "order": 35,
+     "level": 3,
+     "tables": 23,
+     "cells": 247,
+     "paragraphs": 199,
+     "subheads": 2,
+     "occurrences": 1
+    },
+    "BR0053": {
+     "title": "13. 무형자산 (연결)",
+     "order": 37,
+     "level": 3,
+     "tables": 71,
+     "cells": 794,
+     "paragraphs": 713,
+     "subheads": 1,
+     "occurrences": 1
+    }
+   },
+   "order_consistent": true
+  },
+  {
+   "node": "DT.A001.III.3.N12",
+   "level": 3,
+   "title": "투자부동산 (연결)",
+   "scope": "common",
+   "present": [
+    "BR0053"
+   ],
+   "absent": [
+    "BR0001",
+    "BR0016",
+    "BR0020",
+    "BR0044"
+   ],
+   "coverage": "1/5",
+   "class": "단독",
+   "title_variants": [
+    {
+     "text": "14. 투자부동산 (연결)",
+     "n": 1
+    }
+   ],
+   "per_report": {
+    "BR0053": {
+     "title": "14. 투자부동산 (연결)",
+     "order": 38,
+     "level": 3,
+     "tables": 15,
+     "cells": 51,
+     "paragraphs": 39,
+     "subheads": 0,
+     "occurrences": 1
+    }
+   },
+   "order_consistent": true
+  },
+  {
+   "node": "DT.A001.III.3.N13",
+   "level": 3,
+   "title": "기타자산·매각예정·중단영업 (연결)",
+   "scope": "common",
+   "present": [
+    "BR0001",
+    "BR0053"
+   ],
+   "absent": [
+    "BR0016",
+    "BR0020",
+    "BR0044"
+   ],
+   "coverage": "2/5",
+   "class": "일부",
+   "title_variants": [
+    {
+     "text": "32. 매각예정분류(처분자산집단) (연결)",
+     "n": 1
+    },
+    {
+     "text": "39. 중단영업 (연결)",
+     "n": 1
+    }
+   ],
+   "per_report": {
+    "BR0001": {
+     "title": "32. 매각예정분류(처분자산집단) (연결)",
+     "order": 56,
+     "level": 3,
+     "tables": 14,
+     "cells": 60,
+     "paragraphs": 45,
+     "subheads": 0,
+     "occurrences": 1
+    },
+    "BR0053": {
+     "title": "39. 중단영업 (연결)",
+     "order": 39,
+     "level": 3,
+     "tables": 26,
+     "cells": 118,
+     "paragraphs": 94,
+     "subheads": 0,
+     "occurrences": 3
+    }
+   },
+   "order_consistent": true
+  },
+  {
+   "node": "DT.A001.III.3.N14",
+   "level": 3,
+   "title": "매입채무·기타채무·계약부채 (연결)",
+   "scope": "common",
+   "present": [
+    "BR0001",
+    "BR0053"
+   ],
+   "absent": [
+    "BR0016",
+    "BR0020",
+    "BR0044"
+   ],
+   "coverage": "2/5",
+   "class": "일부",
+   "title_variants": [
+    {
+     "text": "17. 계약부채 (연결)",
+     "n": 1
+    },
+    {
+     "text": "21. 기타부채 (연결)",
+     "n": 1
+    }
+   ],
+   "per_report": {
+    "BR0001": {
+     "title": "17. 계약부채 (연결)",
+     "order": 41,
+     "level": 3,
+     "tables": 10,
+     "cells": 24,
+     "paragraphs": 16,
+     "subheads": 0,
+     "occurrences": 1
+    },
+    "BR0053": {
+     "title": "21. 기타부채 (연결)",
+     "order": 41,
+     "level": 3,
+     "tables": 25,
+     "cells": 137,
+     "paragraphs": 113,
+     "subheads": 0,
+     "occurrences": 2
+    }
+   },
+   "order_consistent": true
+  },
+  {
+   "node": "DT.A001.III.3.N15",
+   "level": 3,
+   "title": "차입금·사채·금융부채·리스부채 (연결)",
+   "scope": "common",
+   "present": [
+    "BR0001",
+    "BR0053"
+   ],
+   "absent": [
+    "BR0016",
+    "BR0020",
+    "BR0044"
+   ],
+   "coverage": "2/5",
+   "class": "일부",
+   "title_variants": [
+    {
+     "text": "13. 사채 (연결)",
+     "n": 1
+    },
+    {
+     "text": "18. 금융부채 (연결)",
+     "n": 1
+    }
+   ],
+   "per_report": {
+    "BR0001": {
+     "title": "13. 사채 (연결)",
+     "order": 36,
+     "level": 3,
+     "tables": 43,
+     "cells": 623,
+     "paragraphs": 340,
+     "subheads": 0,
+     "occurrences": 2
+    },
+    "BR0053": {
+     "title": "18. 금융부채 (연결)",
+     "order": 42,
+     "level": 3,
+     "tables": 18,
+     "cells": 528,
+     "paragraphs": 506,
+     "subheads": 0,
+     "occurrences": 1
+    }
+   },
+   "order_consistent": true
+  },
+  {
+   "node": "DT.A001.III.3.N16",
+   "level": 3,
+   "title": "충당부채·배출부채·우발부채·약정 (연결)",
+   "scope": "common",
+   "present": [
+    "BR0001",
+    "BR0053"
+   ],
+   "absent": [
+    "BR0016",
+    "BR0020",
+    "BR0044"
+   ],
+   "coverage": "2/5",
+   "class": "일부",
+   "title_variants": [
+    {
+     "text": "16. 우발부채와 약정사항 (연결)",
+     "n": 1
+    },
+    {
+     "text": "36. 우발상황과 약정사항 (연결)",
+     "n": 1
+    }
+   ],
+   "per_report": {
+    "BR0001": {
+     "title": "16. 우발부채와 약정사항 (연결)",
+     "order": 39,
+     "level": 3,
+     "tables": 39,
+     "cells": 170,
+     "paragraphs": 130,
+     "subheads": 0,
+     "occurrences": 2
+    },
+    "BR0053": {
+     "title": "36. 우발상황과 약정사항 (연결)",
+     "order": 43,
+     "level": 3,
+     "tables": 53,
+     "cells": 438,
+     "paragraphs": 343,
+     "subheads": 0,
+     "occurrences": 2
+    }
+   },
+   "order_consistent": true
+  },
+  {
+   "node": "DT.A001.III.3.N17",
+   "level": 3,
+   "title": "종업원급여·퇴직급여·주식기준보상 (연결)",
+   "scope": "common",
+   "present": [
+    "BR0001",
+    "BR0053"
+   ],
+   "absent": [
+    "BR0016",
+    "BR0020",
+    "BR0044"
+   ],
+   "coverage": "2/5",
+   "class": "일부",
+   "title_variants": [
+    {
+     "text": "14. 순확정급여부채(자산) (연결)",
+     "n": 1
+    },
+    {
+     "text": "33. 종업원급여 (연결)",
+     "n": 1
+    }
+   ],
+   "per_report": {
+    "BR0001": {
+     "title": "14. 순확정급여부채(자산) (연결)",
+     "order": 38,
+     "level": 3,
+     "tables": 49,
+     "cells": 395,
+     "paragraphs": 261,
+     "subheads": 0,
+     "occurrences": 1
+    },
+    "BR0053": {
+     "title": "33. 종업원급여 (연결)",
+     "order": 51,
+     "level": 3,
+     "tables": 43,
+     "cells": 236,
+     "paragraphs": 205,
+     "subheads": 0,
+     "occurrences": 2
+    }
+   },
+   "order_consistent": true
+  },
+  {
+   "node": "DT.A001.III.3.N18",
+   "level": 3,
+   "title": "정부보조금 (연결)",
+   "scope": "common",
+   "present": [
+    "BR0053"
+   ],
+   "absent": [
+    "BR0001",
+    "BR0016",
+    "BR0020",
+    "BR0044"
+   ],
+   "coverage": "1/5",
+   "class": "단독",
+   "title_variants": [
+    {
+     "text": "22. 정부보조금 (연결)",
+     "n": 1
+    }
+   ],
+   "per_report": {
+    "BR0053": {
+     "title": "22. 정부보조금 (연결)",
+     "order": 46,
+     "level": 3,
+     "tables": 23,
+     "cells": 155,
+     "paragraphs": 140,
+     "subheads": 0,
+     "occurrences": 1
+    }
+   },
+   "order_consistent": true
+  },
+  {
+   "node": "DT.A001.III.3.N19",
+   "level": 3,
+   "title": "법인세·이연법인세 (연결)",
+   "scope": "common",
+   "present": [
+    "BR0001",
+    "BR0053"
+   ],
+   "absent": [
+    "BR0016",
+    "BR0020",
+    "BR0044"
+   ],
+   "coverage": "2/5",
+   "class": "일부",
+   "title_variants": [
+    {
+     "text": "25. 법인세비용 (연결)",
+     "n": 1
+    },
+    {
+     "text": "23. 법인세비용과 이연법인세 (연결)",
+     "n": 1
+    }
+   ],
+   "per_report": {
+    "BR0001": {
+     "title": "25. 법인세비용 (연결)",
+     "order": 49,
+     "level": 3,
+     "tables": 57,
+     "cells": 400,
+     "paragraphs": 327,
+     "subheads": 0,
+     "occurrences": 1
+    },
+    "BR0053": {
+     "title": "23. 법인세비용과 이연법인세 (연결)",
+     "order": 47,
+     "level": 3,
+     "tables": 60,
+     "cells": 485,
+     "paragraphs": 433,
+     "subheads": 0,
+     "occurrences": 1
+    }
+   },
+   "order_consistent": true
+  },
+  {
+   "node": "DT.A001.III.3.N20",
+   "level": 3,
+   "title": "자본금·잉여금·기타자본·비지배지분 (연결)",
+   "scope": "common",
+   "present": [
+    "BR0001",
+    "BR0053"
+   ],
+   "absent": [
+    "BR0016",
+    "BR0020",
+    "BR0044"
+   ],
+   "coverage": "2/5",
+   "class": "일부",
+   "title_variants": [
+    {
+     "text": "31. 비지배지분 (연결)",
+     "n": 1
+    },
+    {
+     "text": "38. 비지배지분 (연결)",
+     "n": 1
+    }
+   ],
+   "per_report": {
+    "BR0001": {
+     "title": "31. 비지배지분 (연결)",
+     "order": 42,
+     "level": 3,
+     "tables": 52,
+     "cells": 488,
+     "paragraphs": 253,
+     "subheads": 4,
+     "occurrences": 4
+    },
+    "BR0053": {
+     "title": "38. 비지배지분 (연결)",
+     "order": 48,
+     "level": 3,
+     "tables": 62,
+     "cells": 320,
+     "paragraphs": 268,
+     "subheads": 0,
+     "occurrences": 4
+    }
+   },
+   "order_consistent": true
+  },
+  {
+   "node": "DT.A001.III.3.N21",
+   "level": 3,
+   "title": "매출·매출원가·수익인식 (연결)",
+   "scope": "common",
+   "present": [
+    "BR0053"
+   ],
+   "absent": [
+    "BR0001",
+    "BR0016",
+    "BR0020",
+    "BR0044"
+   ],
+   "coverage": "1/5",
+   "class": "단독",
+   "title_variants": [
+    {
+     "text": "28. 매출액 및 매출원가 (연결)",
+     "n": 1
+    }
+   ],
+   "per_report": {
+    "BR0053": {
+     "title": "28. 매출액 및 매출원가 (연결)",
+     "order": 52,
+     "level": 3,
+     "tables": 39,
+     "cells": 137,
+     "paragraphs": 111,
+     "subheads": 0,
+     "occurrences": 1
+    }
+   },
+   "order_consistent": true
+  },
+  {
+   "node": "DT.A001.III.3.N22",
+   "level": 3,
+   "title": "비용의 성격별 분류·판매비와관리비 (연결)",
+   "scope": "common",
+   "present": [
+    "BR0001",
+    "BR0053"
+   ],
+   "absent": [
+    "BR0016",
+    "BR0020",
+    "BR0044"
+   ],
+   "coverage": "2/5",
+   "class": "일부",
+   "title_variants": [
+    {
+     "text": "22. 판매비와관리비 (연결)",
+     "n": 1
+    },
+    {
+     "text": "32. 비용의 성격별 분류 (연결)",
+     "n": 1
+    }
+   ],
+   "per_report": {
+    "BR0001": {
+     "title": "22. 판매비와관리비 (연결)",
+     "order": 45,
+     "level": 3,
+     "tables": 17,
+     "cells": 144,
+     "paragraphs": 126,
+     "subheads": 0,
+     "occurrences": 2
+    },
+    "BR0053": {
+     "title": "32. 비용의 성격별 분류 (연결)",
+     "order": 53,
+     "level": 3,
+     "tables": 18,
+     "cells": 142,
+     "paragraphs": 130,
+     "subheads": 0,
+     "occurrences": 2
+    }
+   },
+   "order_consistent": true
+  },
+  {
+   "node": "DT.A001.III.3.N23",
+   "level": 3,
+   "title": "기타손익·금융손익 (연결)",
+   "scope": "common",
+   "present": [
+    "BR0001",
+    "BR0053"
+   ],
+   "absent": [
+    "BR0016",
+    "BR0020",
+    "BR0044"
+   ],
+   "coverage": "2/5",
+   "class": "일부",
+   "title_variants": [
+    {
+     "text": "24. 금융수익 및 금융비용 (연결)",
+     "n": 1
+    },
+    {
+     "text": "31. 금융손익 (연결)",
+     "n": 1
+    }
+   ],
+   "per_report": {
+    "BR0001": {
+     "title": "24. 금융수익 및 금융비용 (연결)",
+     "order": 47,
+     "level": 3,
+     "tables": 17,
+     "cells": 130,
+     "paragraphs": 112,
+     "subheads": 0,
+     "occurrences": 2
+    },
+    "BR0053": {
+     "title": "31. 금융손익 (연결)",
+     "order": 54,
+     "level": 3,
+     "tables": 32,
+     "cells": 236,
+     "paragraphs": 214,
+     "subheads": 0,
+     "occurrences": 2
+    }
+   },
+   "order_consistent": true
+  },
+  {
+   "node": "DT.A001.III.3.N24",
+   "level": 3,
+   "title": "주당이익 (연결)",
+   "scope": "common",
+   "present": [
+    "BR0001",
+    "BR0053"
+   ],
+   "absent": [
+    "BR0016",
+    "BR0020",
+    "BR0044"
+   ],
+   "coverage": "2/5",
+   "class": "일부",
+   "title_variants": [
+    {
+     "text": "26. 주당이익 (연결)",
+     "n": 1
+    },
+    {
+     "text": "34. 주당순이익 (연결)",
+     "n": 1
+    }
+   ],
+   "per_report": {
+    "BR0001": {
+     "title": "26. 주당이익 (연결)",
+     "order": 50,
+     "level": 3,
+     "tables": 10,
+     "cells": 60,
+     "paragraphs": 41,
+     "subheads": 0,
+     "occurrences": 1
+    },
+    "BR0053": {
+     "title": "34. 주당순이익 (연결)",
+     "order": 58,
+     "level": 3,
+     "tables": 25,
+     "cells": 163,
+     "paragraphs": 142,
+     "subheads": 0,
+     "occurrences": 1
+    }
+   },
+   "order_consistent": true
+  },
+  {
+   "node": "DT.A001.III.3.N25",
+   "level": 3,
+   "title": "현금흐름 보충정보 (연결)",
+   "scope": "common",
+   "present": [
+    "BR0001",
+    "BR0053"
+   ],
+   "absent": [
+    "BR0016",
+    "BR0020",
+    "BR0044"
+   ],
+   "coverage": "2/5",
+   "class": "일부",
+   "title_variants": [
+    {
+     "text": "27. 현금흐름표 (연결)",
+     "n": 1
+    },
+    {
+     "text": "35. 영업으로부터 창출된 현금 (연결)",
+     "n": 1
+    }
+   ],
+   "per_report": {
+    "BR0001": {
+     "title": "27. 현금흐름표 (연결)",
+     "order": 51,
+     "level": 3,
+     "tables": 34,
+     "cells": 251,
+     "paragraphs": 224,
+     "subheads": 0,
+     "occurrences": 1
+    },
+    "BR0053": {
+     "title": "35. 영업으로부터 창출된 현금 (연결)",
+     "order": 59,
+     "level": 3,
+     "tables": 25,
+     "cells": 456,
+     "paragraphs": 406,
+     "subheads": 0,
+     "occurrences": 1
+    }
+   },
+   "order_consistent": true
+  },
+  {
+   "node": "DT.A001.III.3.N26",
+   "level": 3,
+   "title": "부문별 보고 (연결)",
+   "scope": "common",
+   "present": [
+    "BR0001"
+   ],
+   "absent": [
+    "BR0016",
+    "BR0020",
+    "BR0044",
+    "BR0053"
+   ],
+   "coverage": "1/5",
+   "class": "단독",
+   "title_variants": [
+    {
+     "text": "29. 부문별 보고 (연결)",
+     "n": 1
+    }
+   ],
+   "per_report": {
+    "BR0001": {
+     "title": "29. 부문별 보고 (연결)",
+     "order": 53,
+     "level": 3,
+     "tables": 25,
+     "cells": 230,
+     "paragraphs": 175,
+     "subheads": 0,
+     "occurrences": 1
+    }
+   },
+   "order_consistent": true
+  },
+  {
+   "node": "DT.A001.III.3.N27",
+   "level": 3,
+   "title": "특수관계자 (연결)",
+   "scope": "common",
+   "present": [
+    "BR0001",
+    "BR0053"
+   ],
+   "absent": [
+    "BR0016",
+    "BR0020",
+    "BR0044"
+   ],
+   "coverage": "2/5",
+   "class": "일부",
+   "title_variants": [
+    {
+     "text": "30. 특수관계자와의 거래 (연결)",
+     "n": 1
+    },
+    {
+     "text": "37. 특수관계자 (연결)",
+     "n": 1
+    }
+   ],
+   "per_report": {
+    "BR0001": {
+     "title": "30. 특수관계자와의 거래 (연결)",
+     "order": 54,
+     "level": 3,
+     "tables": 51,
+     "cells": 550,
+     "paragraphs": 439,
+     "subheads": 0,
+     "occurrences": 1
+    },
+    "BR0053": {
+     "title": "37. 특수관계자 (연결)",
+     "order": 61,
+     "level": 3,
+     "tables": 59,
+     "cells": 469,
+     "paragraphs": 371,
+     "subheads": 0,
+     "occurrences": 1
+    }
+   },
+   "order_consistent": true
+  },
+  {
+   "node": "DT.A001.III.3.N28",
+   "level": 3,
+   "title": "사업결합 (연결)",
+   "scope": "common",
+   "present": [
+    "BR0053"
+   ],
+   "absent": [
+    "BR0001",
+    "BR0016",
+    "BR0020",
+    "BR0044"
+   ],
+   "coverage": "1/5",
+   "class": "단독",
+   "title_variants": [
+    {
+     "text": "40. 사업결합 (연결)",
+     "n": 1
+    }
+   ],
+   "per_report": {
+    "BR0053": {
+     "title": "40. 사업결합 (연결)",
+     "order": 64,
+     "level": 3,
+     "tables": 30,
+     "cells": 149,
+     "paragraphs": 120,
+     "subheads": 0,
+     "occurrences": 1
+    }
+   },
+   "order_consistent": true
+  },
+  {
+   "node": "DT.A001.III.3.N29",
+   "level": 3,
+   "title": "보고기간 후 사건 (연결)",
+   "scope": "common",
+   "present": [
+    "BR0001",
+    "BR0053"
+   ],
+   "absent": [
+    "BR0016",
+    "BR0020",
+    "BR0044"
+   ],
+   "coverage": "2/5",
+   "class": "일부",
+   "title_variants": [
+    {
+     "text": "33. 보고기간 후 사건 (연결)",
+     "n": 1
+    },
+    {
+     "text": "41. 보고기간 후 사건 (연결)",
+     "n": 1
+    }
+   ],
+   "per_report": {
+    "BR0001": {
+     "title": "33. 보고기간 후 사건 (연결)",
+     "order": 57,
+     "level": 3,
+     "tables": 6,
+     "cells": 29,
+     "paragraphs": 18,
+     "subheads": 0,
+     "occurrences": 1
+    },
+    "BR0053": {
+     "title": "41. 보고기간 후 사건 (연결)",
+     "order": 65,
+     "level": 3,
+     "tables": 6,
+     "cells": 10,
+     "paragraphs": 4,
+     "subheads": 0,
+     "occurrences": 1
+    }
+   },
+   "order_consistent": true
+  },
+  {
+   "node": "DT.A001.III.3.N31",
+   "level": 3,
+   "title": "온실가스·기타 환경부채 (연결)",
+   "scope": "common",
+   "present": [
+    "BR0053"
+   ],
+   "absent": [
+    "BR0001",
+    "BR0016",
+    "BR0020",
+    "BR0044"
+   ],
+   "coverage": "1/5",
+   "class": "단독",
+   "title_variants": [
+    {
+     "text": "20. 온실가스 배출부채 (연결)",
+     "n": 1
+    }
+   ],
+   "per_report": {
+    "BR0053": {
+     "title": "20. 온실가스 배출부채 (연결)",
+     "order": 44,
+     "level": 3,
+     "tables": 29,
+     "cells": 170,
+     "paragraphs": 144,
+     "subheads": 0,
+     "occurrences": 1
+    }
+   },
+   "order_consistent": true
+  },
+  {
+   "node": "DT.A001.III.4",
+   "level": 2,
+   "title": "재무제표",
+   "scope": "common",
+   "present": [
+    "BR0001",
+    "BR0016",
+    "BR0020",
+    "BR0044",
+    "BR0053"
+   ],
+   "absent": [],
+   "coverage": "5/5",
+   "class": "공통",
+   "title_variants": [
+    {
+     "text": "4. 재무제표",
+     "n": 5
+    }
+   ],
+   "per_report": {
+    "BR0001": {
+     "title": "4. 재무제표",
+     "order": 58,
+     "level": 2,
+     "tables": 10,
+     "cells": 574,
+     "paragraphs": 558,
+     "subheads": 5,
+     "occurrences": 1
+    },
+    "BR0016": {
+     "title": "4. 재무제표",
+     "order": 20,
+     "level": 2,
+     "tables": 14,
+     "cells": 541,
+     "paragraphs": 0,
+     "subheads": 0,
+     "occurrences": 1
+    },
+    "BR0020": {
+     "title": "4. 재무제표",
+     "order": 20,
+     "level": 2,
+     "tables": 8,
+     "cells": 377,
+     "paragraphs": 321,
+     "subheads": 0,
+     "occurrences": 1
+    },
+    "BR0044": {
+     "title": "4. 재무제표",
+     "order": 22,
+     "level": 2,
+     "tables": 8,
+     "cells": 1112,
+     "paragraphs": 1089,
+     "subheads": 4,
+     "occurrences": 1
+    },
+    "BR0053": {
+     "title": "4. 재무제표",
+     "order": 66,
+     "level": 2,
+     "tables": 10,
+     "cells": 676,
+     "paragraphs": 664,
+     "subheads": 5,
+     "occurrences": 1
+    }
+   },
+   "order_consistent": true,
+   "order_conflict": []
+  },
+  {
+   "node": "DT.A001.III.4.01",
+   "level": 3,
+   "title": "재무상태표",
+   "scope": "common",
+   "present": [
+    "BR0001",
+    "BR0044",
+    "BR0053"
+   ],
+   "absent": [
+    "BR0016",
+    "BR0020"
+   ],
+   "coverage": "3/5",
+   "class": "일부",
+   "title_variants": [
+    {
+     "text": "4-1. 재무상태표",
+     "n": 3
+    }
+   ],
+   "per_report": {
+    "BR0001": {
+     "title": "4-1. 재무상태표",
+     "order": 59,
+     "level": 3,
+     "tables": 2,
+     "cells": 197,
+     "paragraphs": 187,
+     "subheads": 0,
+     "occurrences": 1
+    },
+    "BR0044": {
+     "title": "4-1. 재무상태표",
+     "order": 23,
+     "level": 3,
+     "tables": 2,
+     "cells": 217,
+     "paragraphs": 207,
+     "subheads": 1,
+     "occurrences": 1
+    },
+    "BR0053": {
+     "title": "4-1. 재무상태표",
+     "order": 67,
+     "level": 3,
+     "tables": 2,
+     "cells": 169,
+     "paragraphs": 160,
+     "subheads": 1,
+     "occurrences": 1
+    }
+   },
+   "order_consistent": true
+  },
+  {
+   "node": "DT.A001.III.4.02",
+   "level": 3,
+   "title": "손익계산서",
+   "scope": "conditional",
+   "present": [
+    "BR0001",
+    "BR0053"
+   ],
+   "absent": [
+    "BR0016",
+    "BR0020",
+    "BR0044"
+   ],
+   "coverage": "2/5",
+   "class": "일부",
+   "title_variants": [
+    {
+     "text": "4-2. 손익계산서",
+     "n": 2
+    }
+   ],
+   "per_report": {
+    "BR0001": {
+     "title": "4-2. 손익계산서",
+     "order": 60,
+     "level": 3,
+     "tables": 2,
+     "cells": 69,
+     "paragraphs": 65,
+     "subheads": 0,
+     "occurrences": 1
+    },
+    "BR0053": {
+     "title": "4-2. 손익계산서",
+     "order": 68,
+     "level": 3,
+     "tables": 2,
+     "cells": 69,
+     "paragraphs": 66,
+     "subheads": 1,
+     "occurrences": 1
+    }
+   },
+   "order_consistent": true
+  },
+  {
+   "node": "DT.A001.III.4.03",
+   "level": 3,
+   "title": "포괄손익계산서",
+   "scope": "common",
+   "present": [
+    "BR0001",
+    "BR0044",
+    "BR0053"
+   ],
+   "absent": [
+    "BR0016",
+    "BR0020"
+   ],
+   "coverage": "3/5",
+   "class": "일부",
+   "title_variants": [
+    {
+     "text": "4-3. 포괄손익계산서",
+     "n": 2
+    },
+    {
+     "text": "4-2. 포괄손익계산서",
+     "n": 1
+    }
+   ],
+   "per_report": {
+    "BR0001": {
+     "title": "4-3. 포괄손익계산서",
+     "order": 61,
+     "level": 3,
+     "tables": 2,
+     "cells": 37,
+     "paragraphs": 36,
+     "subheads": 0,
+     "occurrences": 1
+    },
+    "BR0044": {
+     "title": "4-2. 포괄손익계산서",
+     "order": 24,
+     "level": 3,
+     "tables": 2,
+     "cells": 321,
+     "paragraphs": 313,
+     "subheads": 1,
+     "occurrences": 1
+    },
+    "BR0053": {
+     "title": "4-3. 포괄손익계산서",
+     "order": 69,
+     "level": 3,
+     "tables": 2,
+     "cells": 37,
+     "paragraphs": 37,
+     "subheads": 1,
+     "occurrences": 1
+    }
+   },
+   "order_consistent": true
+  },
+  {
+   "node": "DT.A001.III.4.04",
+   "level": 3,
+   "title": "자본변동표",
+   "scope": "common",
+   "present": [
+    "BR0001",
+    "BR0044",
+    "BR0053"
+   ],
+   "absent": [
+    "BR0016",
+    "BR0020"
+   ],
+   "coverage": "3/5",
+   "class": "일부",
+   "title_variants": [
+    {
+     "text": "4-4. 자본변동표",
+     "n": 2
+    },
+    {
+     "text": "4-3. 자본변동표",
+     "n": 1
+    }
+   ],
+   "per_report": {
+    "BR0001": {
+     "title": "4-4. 자본변동표",
+     "order": 62,
+     "level": 3,
+     "tables": 2,
+     "cells": 138,
+     "paragraphs": 133,
+     "subheads": 0,
+     "occurrences": 1
+    },
+    "BR0044": {
+     "title": "4-3. 자본변동표",
+     "order": 25,
+     "level": 3,
+     "tables": 2,
+     "cells": 385,
+     "paragraphs": 387,
+     "subheads": 1,
+     "occurrences": 1
+    },
+    "BR0053": {
+     "title": "4-4. 자본변동표",
+     "order": 70,
+     "level": 3,
+     "tables": 2,
+     "cells": 244,
+     "paragraphs": 244,
+     "subheads": 1,
+     "occurrences": 1
+    }
+   },
+   "order_consistent": true
+  },
+  {
+   "node": "DT.A001.III.4.05",
+   "level": 3,
+   "title": "현금흐름표",
+   "scope": "common",
+   "present": [
+    "BR0001",
+    "BR0044",
+    "BR0053"
+   ],
+   "absent": [
+    "BR0016",
+    "BR0020"
+   ],
+   "coverage": "3/5",
+   "class": "일부",
+   "title_variants": [
+    {
+     "text": "4-5. 현금흐름표",
+     "n": 2
+    },
+    {
+     "text": "4-4. 현금흐름표",
+     "n": 1
+    }
+   ],
+   "per_report": {
+    "BR0001": {
+     "title": "4-5. 현금흐름표",
+     "order": 63,
+     "level": 3,
+     "tables": 2,
+     "cells": 133,
+     "paragraphs": 132,
+     "subheads": 0,
+     "occurrences": 1
+    },
+    "BR0044": {
+     "title": "4-4. 현금흐름표",
+     "order": 26,
+     "level": 3,
+     "tables": 2,
+     "cells": 189,
+     "paragraphs": 182,
+     "subheads": 1,
+     "occurrences": 1
+    },
+    "BR0053": {
+     "title": "4-5. 현금흐름표",
+     "order": 71,
+     "level": 3,
+     "tables": 2,
+     "cells": 157,
+     "paragraphs": 157,
+     "subheads": 1,
+     "occurrences": 1
+    }
+   },
+   "order_consistent": true
+  },
+  {
+   "node": "DT.A001.III.5",
+   "level": 2,
+   "title": "재무제표 주석",
+   "scope": "common",
+   "present": [
+    "BR0001",
+    "BR0016",
+    "BR0020",
+    "BR0044",
+    "BR0053"
+   ],
+   "absent": [],
+   "coverage": "5/5",
+   "class": "공통",
+   "title_variants": [
+    {
+     "text": "5. 재무제표 주석",
+     "n": 5
+    }
+   ],
+   "per_report": {
+    "BR0001": {
+     "title": "5. 재무제표 주석",
+     "order": 64,
+     "level": 2,
+     "tables": 683,
+     "cells": 7402,
+     "paragraphs": 4852,
+     "subheads": 23,
+     "occurrences": 1
+    },
+    "BR0016": {
+     "title": "5. 재무제표 주석",
+     "order": 21,
+     "level": 2,
+     "tables": 75,
+     "cells": 2151,
+     "paragraphs": 233,
+     "subheads": 63,
+     "occurrences": 1
+    },
+    "BR0020": {
+     "title": "5. 재무제표 주석",
+     "order": 21,
+     "level": 2,
+     "tables": 39,
+     "cells": 505,
+     "paragraphs": 96,
+     "subheads": 14,
+     "occurrences": 1
+    },
+    "BR0044": {
+     "title": "5. 재무제표 주석",
+     "order": 27,
+     "level": 2,
+     "tables": 455,
+     "cells": 12716,
+     "paragraphs": 567,
+     "subheads": 23,
+     "occurrences": 1
+    },
+    "BR0053": {
+     "title": "5. 재무제표 주석",
+     "order": 72,
+     "level": 2,
+     "tables": 1004,
+     "cells": 8299,
+     "paragraphs": 7149,
+     "subheads": 13,
+     "occurrences": 1
+    }
+   },
+   "order_consistent": true,
+   "order_conflict": []
+  },
+  {
+   "node": "DT.A001.III.5.N01",
+   "level": 3,
+   "title": "일반사항·연결범위 (별도)",
+   "scope": "common",
+   "present": [
+    "BR0001",
+    "BR0053"
+   ],
+   "absent": [
+    "BR0016",
+    "BR0020",
+    "BR0044"
+   ],
+   "coverage": "2/5",
+   "class": "일부",
+   "title_variants": [
+    {
+     "text": "1. 일반적 사항",
+     "n": 1
+    },
+    {
+     "text": "1. 일반사항",
+     "n": 1
+    }
+   ],
+   "per_report": {
+    "BR0001": {
+     "title": "1. 일반적 사항",
+     "order": 65,
+     "level": 3,
+     "tables": 2,
+     "cells": 2,
+     "paragraphs": 0,
+     "subheads": 0,
+     "occurrences": 1
+    },
+    "BR0053": {
+     "title": "1. 일반사항",
+     "order": 73,
+     "level": 3,
+     "tables": 11,
+     "cells": 59,
+     "paragraphs": 51,
+     "subheads": 0,
+     "occurrences": 1
+    }
+   },
+   "order_consistent": true
+  },
+  {
+   "node": "DT.A001.III.5.N02",
+   "level": 3,
+   "title": "회계정책·기준서 적용 (별도)",
+   "scope": "common",
+   "present": [
+    "BR0001",
+    "BR0053"
+   ],
+   "absent": [
+    "BR0016",
+    "BR0020",
+    "BR0044"
+   ],
+   "coverage": "2/5",
+   "class": "일부",
+   "title_variants": [
+    {
+     "text": "2. 중요한 회계처리방침",
+     "n": 1
+    },
+    {
+     "text": "2. 중요한 회계정책",
+     "n": 1
+    }
+   ],
+   "per_report": {
+    "BR0001": {
+     "title": "2. 중요한 회계처리방침",
+     "order": 66,
+     "level": 3,
+     "tables": 3,
+     "cells": 14,
+     "paragraphs": 65,
+     "subheads": 7,
+     "occurrences": 1
+    },
+    "BR0053": {
+     "title": "2. 중요한 회계정책",
+     "order": 74,
+     "level": 3,
+     "tables": 54,
+     "cells": 196,
+     "paragraphs": 174,
+     "subheads": 0,
+     "occurrences": 1
+    }
+   },
+   "order_consistent": true
+  },
+  {
+   "node": "DT.A001.III.5.N03",
+   "level": 3,
+   "title": "회계추정·가정 (별도)",
+   "scope": "common",
+   "present": [
+    "BR0001",
+    "BR0053"
+   ],
+   "absent": [
+    "BR0016",
+    "BR0020",
+    "BR0044"
+   ],
+   "coverage": "2/5",
+   "class": "일부",
+   "title_variants": [
+    {
+     "text": "3. 중요한 회계추정 및 가정",
+     "n": 2
+    }
+   ],
+   "per_report": {
+    "BR0001": {
+     "title": "3. 중요한 회계추정 및 가정",
+     "order": 67,
+     "level": 3,
+     "tables": 2,
+     "cells": 2,
+     "paragraphs": 16,
+     "subheads": 8,
+     "occurrences": 1
+    },
+    "BR0053": {
+     "title": "3. 중요한 회계추정 및 가정",
+     "order": 75,
+     "level": 3,
+     "tables": 13,
+     "cells": 23,
+     "paragraphs": 22,
+     "subheads": 10,
+     "occurrences": 1
+    }
+   },
+   "order_consistent": true
+  },
+  {
+   "node": "DT.A001.III.5.N04",
+   "level": 3,
+   "title": "재무위험관리·자본관리 (별도)",
+   "scope": "common",
+   "present": [
+    "BR0001",
+    "BR0053"
+   ],
+   "absent": [
+    "BR0016",
+    "BR0020",
+    "BR0044"
+   ],
+   "coverage": "2/5",
+   "class": "일부",
+   "title_variants": [
+    {
+     "text": "28. 재무위험관리",
+     "n": 1
+    },
+    {
+     "text": "4. 재무위험관리",
+     "n": 1
+    }
+   ],
+   "per_report": {
+    "BR0001": {
+     "title": "28. 재무위험관리",
+     "order": 92,
+     "level": 3,
+     "tables": 91,
+     "cells": 835,
+     "paragraphs": 584,
+     "subheads": 0,
+     "occurrences": 1
+    },
+    "BR0053": {
+     "title": "4. 재무위험관리",
+     "order": 76,
+     "level": 3,
+     "tables": 53,
+     "cells": 471,
+     "paragraphs": 379,
+     "subheads": 0,
+     "occurrences": 1
+    }
+   },
+   "order_consistent": true
+  },
+  {
+   "node": "DT.A001.III.5.N05",
+   "level": 3,
+   "title": "금융상품 범주·공정가치 (별도)",
+   "scope": "common",
+   "present": [
+    "BR0001",
+    "BR0053"
+   ],
+   "absent": [
+    "BR0016",
+    "BR0020",
+    "BR0044"
+   ],
+   "coverage": "2/5",
+   "class": "일부",
+   "title_variants": [
+    {
+     "text": "4. 범주별 금융상품",
+     "n": 1
+    },
+    {
+     "text": "6. 범주별 금융상품",
+     "n": 1
+    }
+   ],
+   "per_report": {
+    "BR0001": {
+     "title": "4. 범주별 금융상품",
+     "order": 68,
+     "level": 3,
+     "tables": 31,
+     "cells": 370,
+     "paragraphs": 291,
+     "subheads": 0,
+     "occurrences": 1
+    },
+    "BR0053": {
+     "title": "6. 범주별 금융상품",
+     "order": 77,
+     "level": 3,
+     "tables": 78,
+     "cells": 770,
+     "paragraphs": 628,
+     "subheads": 0,
+     "occurrences": 2
+    }
+   },
+   "order_consistent": true
+  },
+  {
+   "node": "DT.A001.III.5.N06",
+   "level": 3,
+   "title": "현금·금융자산·금융자산 양도 (별도)",
+   "scope": "common",
+   "present": [
+    "BR0001",
+    "BR0053"
+   ],
+   "absent": [
+    "BR0016",
+    "BR0020",
+    "BR0044"
+   ],
+   "coverage": "2/5",
+   "class": "일부",
+   "title_variants": [
+    {
+     "text": "6. 공정가치금융자산",
+     "n": 1
+    },
+    {
+     "text": "8. 금융자산",
+     "n": 1
+    }
+   ],
+   "per_report": {
+    "BR0001": {
+     "title": "6. 공정가치금융자산",
+     "order": 69,
+     "level": 3,
+     "tables": 53,
+     "cells": 636,
+     "paragraphs": 366,
+     "subheads": 1,
+     "occurrences": 2
+    },
+    "BR0053": {
+     "title": "8. 금융자산",
+     "order": 79,
+     "level": 3,
+     "tables": 39,
+     "cells": 189,
+     "paragraphs": 142,
+     "subheads": 0,
+     "occurrences": 2
+    }
+   },
+   "order_consistent": true
+  },
+  {
+   "node": "DT.A001.III.5.N07",
+   "level": 3,
+   "title": "매출채권·기타채권 (별도)",
+   "scope": "common",
+   "present": [
+    "BR0001",
+    "BR0053"
+   ],
+   "absent": [
+    "BR0016",
+    "BR0020",
+    "BR0044"
+   ],
+   "coverage": "2/5",
+   "class": "일부",
+   "title_variants": [
+    {
+     "text": "7. 매출채권 및 미수금",
+     "n": 1
+    },
+    {
+     "text": "9. 매출채권 및 기타채권",
+     "n": 1
+    }
+   ],
+   "per_report": {
+    "BR0001": {
+     "title": "7. 매출채권 및 미수금",
+     "order": 71,
+     "level": 3,
+     "tables": 29,
+     "cells": 280,
+     "paragraphs": 200,
+     "subheads": 0,
+     "occurrences": 1
+    },
+    "BR0053": {
+     "title": "9. 매출채권 및 기타채권",
+     "order": 81,
+     "level": 3,
+     "tables": 31,
+     "cells": 279,
+     "paragraphs": 221,
+     "subheads": 0,
+     "occurrences": 1
+    }
+   },
+   "order_consistent": true
+  },
+  {
+   "node": "DT.A001.III.5.N08",
+   "level": 3,
+   "title": "재고자산 (별도)",
+   "scope": "common",
+   "present": [
+    "BR0001",
+    "BR0053"
+   ],
+   "absent": [
+    "BR0016",
+    "BR0020",
+    "BR0044"
+   ],
+   "coverage": "2/5",
+   "class": "일부",
+   "title_variants": [
+    {
+     "text": "8. 재고자산",
+     "n": 1
+    },
+    {
+     "text": "10. 재고자산",
+     "n": 1
+    }
+   ],
+   "per_report": {
+    "BR0001": {
+     "title": "8. 재고자산",
+     "order": 72,
+     "level": 3,
+     "tables": 9,
+     "cells": 71,
+     "paragraphs": 59,
+     "subheads": 0,
+     "occurrences": 1
+    },
+    "BR0053": {
+     "title": "10. 재고자산",
+     "order": 82,
+     "level": 3,
+     "tables": 16,
+     "cells": 104,
+     "paragraphs": 94,
+     "subheads": 0,
+     "occurrences": 1
+    }
+   },
+   "order_consistent": true
+  },
+  {
+   "node": "DT.A001.III.5.N09",
+   "level": 3,
+   "title": "관계기업·공동기업·종속기업 투자 (별도)",
+   "scope": "common",
+   "present": [
+    "BR0001",
+    "BR0053"
+   ],
+   "absent": [
+    "BR0016",
+    "BR0020",
+    "BR0044"
+   ],
+   "coverage": "2/5",
+   "class": "일부",
+   "title_variants": [
+    {
+     "text": "9. 종속기업, 관계기업 및 공동기업 투자",
+     "n": 1
+    },
+    {
+     "text": "11. 종속기업, 관계기업 및 공동기업 투자",
+     "n": 1
+    }
+   ],
+   "per_report": {
+    "BR0001": {
+     "title": "9. 종속기업, 관계기업 및 공동기업 투자",
+     "order": 73,
+     "level": 3,
+     "tables": 19,
+     "cells": 387,
+     "paragraphs": 6,
+     "subheads": 5,
+     "occurrences": 1
+    },
+    "BR0053": {
+     "title": "11. 종속기업, 관계기업 및 공동기업 투자",
+     "order": 83,
+     "level": 3,
+     "tables": 31,
+     "cells": 347,
+     "paragraphs": 311,
+     "subheads": 0,
+     "occurrences": 1
+    }
+   },
+   "order_consistent": true
+  },
+  {
+   "node": "DT.A001.III.5.N10",
+   "level": 3,
+   "title": "유형자산·사용권자산 (별도)",
+   "scope": "common",
+   "present": [
+    "BR0001",
+    "BR0053"
+   ],
+   "absent": [
+    "BR0016",
+    "BR0020",
+    "BR0044"
+   ],
+   "coverage": "2/5",
+   "class": "일부",
+   "title_variants": [
+    {
+     "text": "10. 유형자산",
+     "n": 1
+    },
+    {
+     "text": "12. 유형자산",
+     "n": 1
+    }
+   ],
+   "per_report": {
+    "BR0001": {
+     "title": "10. 유형자산",
+     "order": 74,
+     "level": 3,
+     "tables": 44,
+     "cells": 443,
+     "paragraphs": 396,
+     "subheads": 1,
+     "occurrences": 1
+    },
+    "BR0053": {
+     "title": "12. 유형자산",
+     "order": 84,
+     "level": 3,
+     "tables": 54,
+     "cells": 664,
+     "paragraphs": 593,
+     "subheads": 2,
+     "occurrences": 1
+    }
+   },
+   "order_consistent": true
+  },
+  {
+   "node": "DT.A001.III.5.N11",
+   "level": 3,
+   "title": "무형자산·영업권 (별도)",
+   "scope": "common",
+   "present": [
+    "BR0001",
+    "BR0053"
+   ],
+   "absent": [
+    "BR0016",
+    "BR0020",
+    "BR0044"
+   ],
+   "coverage": "2/5",
+   "class": "일부",
+   "title_variants": [
+    {
+     "text": "11. 무형자산",
+     "n": 1
+    },
+    {
+     "text": "13. 무형자산",
+     "n": 1
+    }
+   ],
+   "per_report": {
+    "BR0001": {
+     "title": "11. 무형자산",
+     "order": 75,
+     "level": 3,
+     "tables": 15,
+     "cells": 141,
+     "paragraphs": 120,
+     "subheads": 0,
+     "occurrences": 1
+    },
+    "BR0053": {
+     "title": "13. 무형자산",
+     "order": 85,
+     "level": 3,
+     "tables": 67,
+     "cells": 753,
+     "paragraphs": 673,
+     "subheads": 1,
+     "occurrences": 1
+    }
+   },
+   "order_consistent": true
+  },
+  {
+   "node": "DT.A001.III.5.N12",
+   "level": 3,
+   "title": "투자부동산 (별도)",
+   "scope": "common",
+   "present": [
+    "BR0053"
+   ],
+   "absent": [
+    "BR0001",
+    "BR0016",
+    "BR0020",
+    "BR0044"
+   ],
+   "coverage": "1/5",
+   "class": "단독",
+   "title_variants": [
+    {
+     "text": "14. 투자부동산",
+     "n": 1
+    }
+   ],
+   "per_report": {
+    "BR0053": {
+     "title": "14. 투자부동산",
+     "order": 86,
+     "level": 3,
+     "tables": 16,
+     "cells": 52,
+     "paragraphs": 35,
+     "subheads": 0,
+     "occurrences": 1
+    }
+   },
+   "order_consistent": true
+  },
+  {
+   "node": "DT.A001.III.5.N13",
+   "level": 3,
+   "title": "기타자산·매각예정·중단영업 (별도)",
+   "scope": "common",
+   "present": [
+    "BR0053"
+   ],
+   "absent": [
+    "BR0001",
+    "BR0016",
+    "BR0020",
+    "BR0044"
+   ],
+   "coverage": "1/5",
+   "class": "단독",
+   "title_variants": [
+    {
+     "text": "15. 기타자산",
+     "n": 1
+    }
+   ],
+   "per_report": {
+    "BR0053": {
+     "title": "15. 기타자산",
+     "order": 87,
+     "level": 3,
+     "tables": 9,
+     "cells": 63,
+     "paragraphs": 52,
+     "subheads": 0,
+     "occurrences": 1
+    }
+   },
+   "order_consistent": true
+  },
+  {
+   "node": "DT.A001.III.5.N14",
+   "level": 3,
+   "title": "매입채무·기타채무·계약부채 (별도)",
+   "scope": "common",
+   "present": [
+    "BR0001",
+    "BR0053"
+   ],
+   "absent": [
+    "BR0016",
+    "BR0020",
+    "BR0044"
+   ],
+   "coverage": "2/5",
+   "class": "일부",
+   "title_variants": [
+    {
+     "text": "17. 계약부채",
+     "n": 1
+    },
+    {
+     "text": "19. 기타부채",
+     "n": 1
+    }
+   ],
+   "per_report": {
+    "BR0001": {
+     "title": "17. 계약부채",
+     "order": 81,
+     "level": 3,
+     "tables": 10,
+     "cells": 24,
+     "paragraphs": 16,
+     "subheads": 0,
+     "occurrences": 1
+    },
+    "BR0053": {
+     "title": "19. 기타부채",
+     "order": 88,
+     "level": 3,
+     "tables": 25,
+     "cells": 133,
+     "paragraphs": 109,
+     "subheads": 0,
+     "occurrences": 2
+    }
+   },
+   "order_consistent": true
+  },
+  {
+   "node": "DT.A001.III.5.N15",
+   "level": 3,
+   "title": "차입금·사채·금융부채·리스부채 (별도)",
+   "scope": "common",
+   "present": [
+    "BR0001",
+    "BR0053"
+   ],
+   "absent": [
+    "BR0016",
+    "BR0020",
+    "BR0044"
+   ],
+   "coverage": "2/5",
+   "class": "일부",
+   "title_variants": [
+    {
+     "text": "13. 사채",
+     "n": 1
+    },
+    {
+     "text": "17. 금융부채",
+     "n": 1
+    }
+   ],
+   "per_report": {
+    "BR0001": {
+     "title": "13. 사채",
+     "order": 76,
+     "level": 3,
+     "tables": 43,
+     "cells": 257,
+     "paragraphs": 178,
+     "subheads": 0,
+     "occurrences": 2
+    },
+    "BR0053": {
+     "title": "17. 금융부채",
+     "order": 89,
+     "level": 3,
+     "tables": 18,
+     "cells": 287,
+     "paragraphs": 265,
+     "subheads": 0,
+     "occurrences": 1
+    }
+   },
+   "order_consistent": true
+  },
+  {
+   "node": "DT.A001.III.5.N16",
+   "level": 3,
+   "title": "충당부채·배출부채·우발부채·약정 (별도)",
+   "scope": "common",
+   "present": [
+    "BR0001",
+    "BR0053"
+   ],
+   "absent": [
+    "BR0016",
+    "BR0020",
+    "BR0044"
+   ],
+   "coverage": "2/5",
+   "class": "일부",
+   "title_variants": [
+    {
+     "text": "16. 우발부채와 약정사항",
+     "n": 1
+    },
+    {
+     "text": "34. 우발상황과 약정사항",
+     "n": 1
+    }
+   ],
+   "per_report": {
+    "BR0001": {
+     "title": "16. 우발부채와 약정사항",
+     "order": 79,
+     "level": 3,
+     "tables": 50,
+     "cells": 247,
+     "paragraphs": 175,
+     "subheads": 0,
+     "occurrences": 2
+    },
+    "BR0053": {
+     "title": "34. 우발상황과 약정사항",
+     "order": 106,
+     "level": 3,
+     "tables": 48,
+     "cells": 611,
+     "paragraphs": 540,
+     "subheads": 0,
+     "occurrences": 1
+    }
+   },
+   "order_consistent": true
+  },
+  {
+   "node": "DT.A001.III.5.N17",
+   "level": 3,
+   "title": "종업원급여·퇴직급여·주식기준보상 (별도)",
+   "scope": "common",
+   "present": [
+    "BR0001",
+    "BR0053"
+   ],
+   "absent": [
+    "BR0016",
+    "BR0020",
+    "BR0044"
+   ],
+   "coverage": "2/5",
+   "class": "일부",
+   "title_variants": [
+    {
+     "text": "14. 순확정급여부채(자산)",
+     "n": 1
+    },
+    {
+     "text": "31. 종업원급여",
+     "n": 1
+    }
+   ],
+   "per_report": {
+    "BR0001": {
+     "title": "14. 순확정급여부채(자산)",
+     "order": 78,
+     "level": 3,
+     "tables": 42,
+     "cells": 271,
+     "paragraphs": 202,
+     "subheads": 0,
+     "occurrences": 1
+    },
+    "BR0053": {
+     "title": "31. 종업원급여",
+     "order": 97,
+     "level": 3,
+     "tables": 44,
+     "cells": 237,
+     "paragraphs": 204,
+     "subheads": 0,
+     "occurrences": 2
+    }
+   },
+   "order_consistent": true
+  },
+  {
+   "node": "DT.A001.III.5.N18",
+   "level": 3,
+   "title": "정부보조금 (별도)",
+   "scope": "common",
+   "present": [
+    "BR0053"
+   ],
+   "absent": [
+    "BR0001",
+    "BR0016",
+    "BR0020",
+    "BR0044"
+   ],
+   "coverage": "1/5",
+   "class": "단독",
+   "title_variants": [
+    {
+     "text": "20. 정부보조금",
+     "n": 1
+    }
+   ],
+   "per_report": {
+    "BR0053": {
+     "title": "20. 정부보조금",
+     "order": 92,
+     "level": 3,
+     "tables": 19,
+     "cells": 127,
+     "paragraphs": 115,
+     "subheads": 0,
+     "occurrences": 1
+    }
+   },
+   "order_consistent": true
+  },
+  {
+   "node": "DT.A001.III.5.N19",
+   "level": 3,
+   "title": "법인세·이연법인세 (별도)",
+   "scope": "common",
+   "present": [
+    "BR0001",
+    "BR0053"
+   ],
+   "absent": [
+    "BR0016",
+    "BR0020",
+    "BR0044"
+   ],
+   "coverage": "2/5",
+   "class": "일부",
+   "title_variants": [
+    {
+     "text": "25. 법인세비용",
+     "n": 1
+    },
+    {
+     "text": "21. 법인세비용과 이연법인세",
+     "n": 1
+    }
+   ],
+   "per_report": {
+    "BR0001": {
+     "title": "25. 법인세비용",
+     "order": 89,
+     "level": 3,
+     "tables": 31,
+     "cells": 286,
+     "paragraphs": 232,
+     "subheads": 0,
+     "occurrences": 1
+    },
+    "BR0053": {
+     "title": "21. 법인세비용과 이연법인세",
+     "order": 93,
+     "level": 3,
+     "tables": 60,
+     "cells": 485,
+     "paragraphs": 432,
+     "subheads": 0,
+     "occurrences": 1
+    }
+   },
+   "order_consistent": true
+  },
+  {
+   "node": "DT.A001.III.5.N20",
+   "level": 3,
+   "title": "자본금·잉여금·기타자본·비지배지분 (별도)",
+   "scope": "common",
+   "present": [
+    "BR0001",
+    "BR0053"
+   ],
+   "absent": [
+    "BR0016",
+    "BR0020",
+    "BR0044"
+   ],
+   "coverage": "2/5",
+   "class": "일부",
+   "title_variants": [
+    {
+     "text": "20. 기타자본항목",
+     "n": 1
+    },
+    {
+     "text": "24. 기타포괄손익누계액 및 기타자본항목",
+     "n": 1
+    }
+   ],
+   "per_report": {
+    "BR0001": {
+     "title": "20. 기타자본항목",
+     "order": 82,
+     "level": 3,
+     "tables": 50,
+     "cells": 497,
+     "paragraphs": 343,
+     "subheads": 0,
+     "occurrences": 3
+    },
+    "BR0053": {
+     "title": "24. 기타포괄손익누계액 및 기타자본항목",
+     "order": 94,
+     "level": 3,
+     "tables": 66,
+     "cells": 344,
+     "paragraphs": 285,
+     "subheads": 0,
+     "occurrences": 3
+    }
+   },
+   "order_consistent": true
+  },
+  {
+   "node": "DT.A001.III.5.N21",
+   "level": 3,
+   "title": "매출·매출원가·수익인식 (별도)",
+   "scope": "common",
+   "present": [
+    "BR0053"
+   ],
+   "absent": [
+    "BR0001",
+    "BR0016",
+    "BR0020",
+    "BR0044"
+   ],
+   "coverage": "1/5",
+   "class": "단독",
+   "title_variants": [
+    {
+     "text": "26. 매출액 및 매출원가",
+     "n": 1
+    }
+   ],
+   "per_report": {
+    "BR0053": {
+     "title": "26. 매출액 및 매출원가",
+     "order": 98,
+     "level": 3,
+     "tables": 39,
+     "cells": 137,
+     "paragraphs": 111,
+     "subheads": 0,
+     "occurrences": 1
+    }
+   },
+   "order_consistent": true
+  },
+  {
+   "node": "DT.A001.III.5.N22",
+   "level": 3,
+   "title": "비용의 성격별 분류·판매비와관리비 (별도)",
+   "scope": "common",
+   "present": [
+    "BR0001",
+    "BR0053"
+   ],
+   "absent": [
+    "BR0016",
+    "BR0020",
+    "BR0044"
+   ],
+   "coverage": "2/5",
+   "class": "일부",
+   "title_variants": [
+    {
+     "text": "22. 판매비와관리비",
+     "n": 1
+    },
+    {
+     "text": "30. 비용의 성격별 분류",
+     "n": 1
+    }
+   ],
+   "per_report": {
+    "BR0001": {
+     "title": "22. 판매비와관리비",
+     "order": 85,
+     "level": 3,
+     "tables": 17,
+     "cells": 144,
+     "paragraphs": 126,
+     "subheads": 0,
+     "occurrences": 2
+    },
+    "BR0053": {
+     "title": "30. 비용의 성격별 분류",
+     "order": 99,
+     "level": 3,
+     "tables": 18,
+     "cells": 142,
+     "paragraphs": 129,
+     "subheads": 0,
+     "occurrences": 2
+    }
+   },
+   "order_consistent": true
+  },
+  {
+   "node": "DT.A001.III.5.N23",
+   "level": 3,
+   "title": "기타손익·금융손익 (별도)",
+   "scope": "common",
+   "present": [
+    "BR0001",
+    "BR0053"
+   ],
+   "absent": [
+    "BR0016",
+    "BR0020",
+    "BR0044"
+   ],
+   "coverage": "2/5",
+   "class": "일부",
+   "title_variants": [
+    {
+     "text": "24. 금융수익 및 금융비용",
+     "n": 1
+    },
+    {
+     "text": "29. 금융손익",
+     "n": 1
+    }
+   ],
+   "per_report": {
+    "BR0001": {
+     "title": "24. 금융수익 및 금융비용",
+     "order": 87,
+     "level": 3,
+     "tables": 17,
+     "cells": 126,
+     "paragraphs": 108,
+     "subheads": 0,
+     "occurrences": 2
+    },
+    "BR0053": {
+     "title": "29. 금융손익",
+     "order": 100,
+     "level": 3,
+     "tables": 31,
+     "cells": 243,
+     "paragraphs": 214,
+     "subheads": 0,
+     "occurrences": 2
+    }
+   },
+   "order_consistent": true
+  },
+  {
+   "node": "DT.A001.III.5.N24",
+   "level": 3,
+   "title": "주당이익 (별도)",
+   "scope": "common",
+   "present": [
+    "BR0001",
+    "BR0053"
+   ],
+   "absent": [
+    "BR0016",
+    "BR0020",
+    "BR0044"
+   ],
+   "coverage": "2/5",
+   "class": "일부",
+   "title_variants": [
+    {
+     "text": "26. 주당이익",
+     "n": 1
+    },
+    {
+     "text": "32. 주당순이익",
+     "n": 1
+    }
+   ],
+   "per_report": {
+    "BR0001": {
+     "title": "26. 주당이익",
+     "order": 90,
+     "level": 3,
+     "tables": 10,
+     "cells": 60,
+     "paragraphs": 41,
+     "subheads": 0,
+     "occurrences": 1
+    },
+    "BR0053": {
+     "title": "32. 주당순이익",
+     "order": 104,
+     "level": 3,
+     "tables": 25,
+     "cells": 121,
+     "paragraphs": 101,
+     "subheads": 0,
+     "occurrences": 1
+    }
+   },
+   "order_consistent": true
+  },
+  {
+   "node": "DT.A001.III.5.N25",
+   "level": 3,
+   "title": "현금흐름 보충정보 (별도)",
+   "scope": "common",
+   "present": [
+    "BR0001",
+    "BR0053"
+   ],
+   "absent": [
+    "BR0016",
+    "BR0020",
+    "BR0044"
+   ],
+   "coverage": "2/5",
+   "class": "일부",
+   "title_variants": [
+    {
+     "text": "27. 현금흐름표",
+     "n": 1
+    },
+    {
+     "text": "33. 영업으로부터 창출된 현금",
+     "n": 1
+    }
+   ],
+   "per_report": {
+    "BR0001": {
+     "title": "27. 현금흐름표",
+     "order": 91,
+     "level": 3,
+     "tables": 34,
+     "cells": 243,
+     "paragraphs": 216,
+     "subheads": 0,
+     "occurrences": 1
+    },
+    "BR0053": {
+     "title": "33. 영업으로부터 창출된 현금",
+     "order": 105,
+     "level": 3,
+     "tables": 25,
+     "cells": 448,
+     "paragraphs": 397,
+     "subheads": 0,
+     "occurrences": 1
+    }
+   },
+   "order_consistent": true
+  },
+  {
+   "node": "DT.A001.III.5.N26",
+   "level": 3,
+   "title": "부문별 보고 (별도)",
+   "scope": "common",
+   "present": [
+    "BR0001"
+   ],
+   "absent": [
+    "BR0016",
+    "BR0020",
+    "BR0044",
+    "BR0053"
+   ],
+   "coverage": "1/5",
+   "class": "단독",
+   "title_variants": [
+    {
+     "text": "29. 부문별 보고",
+     "n": 1
+    }
+   ],
+   "per_report": {
+    "BR0001": {
+     "title": "29. 부문별 보고",
+     "order": 93,
+     "level": 3,
+     "tables": 10,
+     "cells": 68,
+     "paragraphs": 53,
+     "subheads": 0,
+     "occurrences": 1
+    }
+   },
+   "order_consistent": true
+  },
+  {
+   "node": "DT.A001.III.5.N27",
+   "level": 3,
+   "title": "특수관계자 (별도)",
+   "scope": "common",
+   "present": [
+    "BR0001",
+    "BR0053"
+   ],
+   "absent": [
+    "BR0016",
+    "BR0020",
+    "BR0044"
+   ],
+   "coverage": "2/5",
+   "class": "일부",
+   "title_variants": [
+    {
+     "text": "30. 특수관계자와의 거래",
+     "n": 1
+    },
+    {
+     "text": "35. 특수관계자",
+     "n": 1
+    }
+   ],
+   "per_report": {
+    "BR0001": {
+     "title": "30. 특수관계자와의 거래",
+     "order": 94,
+     "level": 3,
+     "tables": 65,
+     "cells": 1969,
+     "paragraphs": 1010,
+     "subheads": 1,
+     "occurrences": 1
+    },
+    "BR0053": {
+     "title": "35. 특수관계자",
+     "order": 107,
+     "level": 3,
+     "tables": 49,
+     "cells": 692,
+     "paragraphs": 610,
+     "subheads": 0,
+     "occurrences": 1
+    }
+   },
+   "order_consistent": true
+  },
+  {
+   "node": "DT.A001.III.5.N28",
+   "level": 3,
+   "title": "사업결합 (별도)",
+   "scope": "common",
+   "present": [
+    "BR0053"
+   ],
+   "absent": [
+    "BR0001",
+    "BR0016",
+    "BR0020",
+    "BR0044"
+   ],
+   "coverage": "1/5",
+   "class": "단독",
+   "title_variants": [
+    {
+     "text": "36. 사업결합",
+     "n": 1
+    }
+   ],
+   "per_report": {
+    "BR0053": {
+     "title": "36. 사업결합",
+     "order": 108,
+     "level": 3,
+     "tables": 30,
+     "cells": 143,
+     "paragraphs": 115,
+     "subheads": 0,
+     "occurrences": 1
+    }
+   },
+   "order_consistent": true
+  },
+  {
+   "node": "DT.A001.III.5.N29",
+   "level": 3,
+   "title": "보고기간 후 사건 (별도)",
+   "scope": "common",
+   "present": [
+    "BR0001",
+    "BR0053"
+   ],
+   "absent": [
+    "BR0016",
+    "BR0020",
+    "BR0044"
+   ],
+   "coverage": "2/5",
+   "class": "일부",
+   "title_variants": [
+    {
+     "text": "31. 보고기간 후 사건",
+     "n": 1
+    },
+    {
+     "text": "37. 보고기간 후 사건",
+     "n": 1
+    }
+   ],
+   "per_report": {
+    "BR0001": {
+     "title": "31. 보고기간 후 사건",
+     "order": 95,
+     "level": 3,
+     "tables": 6,
+     "cells": 29,
+     "paragraphs": 18,
+     "subheads": 0,
+     "occurrences": 1
+    },
+    "BR0053": {
+     "title": "37. 보고기간 후 사건",
+     "order": 109,
+     "level": 3,
+     "tables": 6,
+     "cells": 10,
+     "paragraphs": 4,
+     "subheads": 0,
+     "occurrences": 1
+    }
+   },
+   "order_consistent": true
+  },
+  {
+   "node": "DT.A001.III.5.N31",
+   "level": 3,
+   "title": "온실가스·기타 환경부채 (별도)",
+   "scope": "common",
+   "present": [
+    "BR0053"
+   ],
+   "absent": [
+    "BR0001",
+    "BR0016",
+    "BR0020",
+    "BR0044"
+   ],
+   "coverage": "1/5",
+   "class": "단독",
+   "title_variants": [
+    {
+     "text": "18. 온실가스 배출부채",
+     "n": 1
+    }
+   ],
+   "per_report": {
+    "BR0053": {
+     "title": "18. 온실가스 배출부채",
+     "order": 90,
+     "level": 3,
+     "tables": 29,
+     "cells": 169,
+     "paragraphs": 143,
+     "subheads": 0,
+     "occurrences": 1
+    }
+   },
+   "order_consistent": true
+  },
+  {
+   "node": "DT.A001.III.6",
+   "level": 2,
+   "title": "배당에 관한 사항",
+   "scope": "common",
+   "present": [
+    "BR0001",
+    "BR0016",
+    "BR0020",
+    "BR0044",
+    "BR0053"
+   ],
+   "absent": [],
+   "coverage": "5/5",
+   "class": "공통",
+   "title_variants": [
+    {
+     "text": "6. 배당에 관한 사항",
+     "n": 5
+    }
+   ],
+   "per_report": {
+    "BR0001": {
+     "title": "6. 배당에 관한 사항",
+     "order": 96,
+     "level": 2,
+     "tables": 11,
+     "cells": 128,
+     "paragraphs": 12,
+     "subheads": 4,
+     "occurrences": 1
+    },
+    "BR0016": {
+     "title": "6. 배당에 관한 사항",
+     "order": 22,
+     "level": 2,
+     "tables": 2,
+     "cells": 73,
+     "paragraphs": 2,
+     "subheads": 2,
+     "occurrences": 1
+    },
+    "BR0020": {
+     "title": "6. 배당에 관한 사항",
+     "order": 22,
+     "level": 2,
+     "tables": 3,
+     "cells": 84,
+     "paragraphs": 4,
+     "subheads": 2,
+     "occurrences": 1
+    },
+    "BR0044": {
+     "title": "6. 배당에 관한 사항",
+     "order": 28,
+     "level": 2,
+     "tables": 4,
+     "cells": 85,
+     "paragraphs": 26,
+     "subheads": 8,
+     "occurrences": 1
+    },
+    "BR0053": {
+     "title": "6. 배당에 관한 사항",
+     "order": 110,
+     "level": 2,
+     "tables": 4,
+     "cells": 85,
+     "paragraphs": 6,
+     "subheads": 2,
+     "occurrences": 1
+    }
+   },
+   "order_consistent": true,
+   "order_conflict": []
+  },
+  {
+   "node": "DT.A001.III.7",
+   "level": 2,
+   "title": "증권의 발행을 통한 자금조달에 관한 사항",
+   "scope": "common",
+   "present": [
+    "BR0001",
+    "BR0016",
+    "BR0020",
+    "BR0044",
+    "BR0053"
+   ],
+   "absent": [],
+   "coverage": "5/5",
+   "class": "공통",
+   "title_variants": [
+    {
+     "text": "7. 증권의 발행을 통한 자금조달에 관한 사항",
+     "n": 5
+    }
+   ],
+   "per_report": {
+    "BR0001": {
+     "title": "7. 증권의 발행을 통한 자금조달에 관한 사항",
+     "order": 97,
+     "level": 2,
+     "tables": 26,
+     "cells": 415,
+     "paragraphs": 15,
+     "subheads": 9,
+     "occurrences": 1
+    },
+    "BR0016": {
+     "title": "7. 증권의 발행을 통한 자금조달에 관한 사항",
+     "order": 23,
+     "level": 2,
+     "tables": 16,
+     "cells": 300,
+     "paragraphs": 11,
+     "subheads": 4,
+     "occurrences": 1
+    },
+    "BR0020": {
+     "title": "7. 증권의 발행을 통한 자금조달에 관한 사항",
+     "order": 23,
+     "level": 2,
+     "tables": 18,
+     "cells": 356,
+     "paragraphs": 16,
+     "subheads": 3,
+     "occurrences": 1
+    },
+    "BR0044": {
+     "title": "7. 증권의 발행을 통한 자금조달에 관한 사항",
+     "order": 29,
+     "level": 2,
+     "tables": 33,
+     "cells": 1066,
+     "paragraphs": 23,
+     "subheads": 20,
+     "occurrences": 1
+    },
+    "BR0053": {
+     "title": "7. 증권의 발행을 통한 자금조달에 관한 사항",
+     "order": 111,
+     "level": 2,
+     "tables": 28,
+     "cells": 851,
+     "paragraphs": 19,
+     "subheads": 5,
+     "occurrences": 1
+    }
+   },
+   "order_consistent": true,
+   "order_conflict": []
+  },
+  {
+   "node": "DT.A001.III.8",
+   "level": 2,
+   "title": "기타 재무에 관한 사항",
+   "scope": "common",
+   "present": [
+    "BR0001",
+    "BR0016",
+    "BR0020",
+    "BR0044",
+    "BR0053"
+   ],
+   "absent": [],
+   "coverage": "5/5",
+   "class": "공통",
+   "title_variants": [
+    {
+     "text": "8. 기타 재무에 관한 사항",
+     "n": 5
+    }
+   ],
+   "per_report": {
+    "BR0001": {
+     "title": "8. 기타 재무에 관한 사항",
+     "order": 98,
+     "level": 2,
+     "tables": 52,
+     "cells": 1477,
+     "paragraphs": 65,
+     "subheads": 21,
+     "occurrences": 1
+    },
+    "BR0016": {
+     "title": "8. 기타 재무에 관한 사항",
+     "order": 24,
+     "level": 2,
+     "tables": 11,
+     "cells": 160,
+     "paragraphs": 10,
+     "subheads": 1,
+     "occurrences": 1
+    },
+    "BR0020": {
+     "title": "8. 기타 재무에 관한 사항",
+     "order": 24,
+     "level": 2,
+     "tables": 11,
+     "cells": 196,
+     "paragraphs": 15,
+     "subheads": 5,
+     "occurrences": 1
+    },
+    "BR0044": {
+     "title": "8. 기타 재무에 관한 사항",
+     "order": 30,
+     "level": 2,
+     "tables": 27,
+     "cells": 981,
+     "paragraphs": 171,
+     "subheads": 8,
+     "occurrences": 1
+    },
+    "BR0053": {
+     "title": "8. 기타 재무에 관한 사항",
+     "order": 112,
+     "level": 2,
+     "tables": 44,
+     "cells": 882,
+     "paragraphs": 66,
+     "subheads": 24,
+     "occurrences": 1
+    }
+   },
+   "order_consistent": true,
+   "order_conflict": []
+  },
+  {
+   "node": "DT.A001.IV",
+   "level": 1,
+   "title": "이사의 경영진단 및 분석의견",
+   "scope": "common",
+   "present": [
+    "BR0001",
+    "BR0016",
+    "BR0020",
+    "BR0044",
+    "BR0053"
+   ],
+   "absent": [],
+   "coverage": "5/5",
+   "class": "공통",
+   "title_variants": [
+    {
+     "text": "IV. 이사의 경영진단 및 분석의견",
+     "n": 5
+    }
+   ],
+   "per_report": {
+    "BR0001": {
+     "title": "IV. 이사의 경영진단 및 분석의견",
+     "order": 99,
+     "level": 1,
+     "tables": 28,
+     "cells": 522,
+     "paragraphs": 48,
+     "subheads": 8,
+     "occurrences": 1
+    },
+    "BR0016": {
+     "title": "IV. 이사의 경영진단 및 분석의견",
+     "order": 25,
+     "level": 1,
+     "tables": 7,
+     "cells": 206,
+     "paragraphs": 47,
+     "subheads": 12,
+     "occurrences": 1
+    },
+    "BR0020": {
+     "title": "IV. 이사의 경영진단 및 분석의견",
+     "order": 25,
+     "level": 1,
+     "tables": 2,
+     "cells": 66,
+     "paragraphs": 6,
+     "subheads": 0,
+     "occurrences": 1
+    },
+    "BR0044": {
+     "title": "IV. 이사의 경영진단 및 분석의견",
+     "order": 31,
+     "level": 1,
+     "tables": 55,
+     "cells": 1749,
+     "paragraphs": 211,
+     "subheads": 37,
+     "occurrences": 1
+    },
+    "BR0053": {
+     "title": "IV. 이사의 경영진단 및 분석의견",
+     "order": 113,
+     "level": 1,
+     "tables": 26,
+     "cells": 831,
+     "paragraphs": 45,
+     "subheads": 9,
+     "occurrences": 1
+    }
+   },
+   "order_consistent": true,
+   "order_conflict": []
+  },
+  {
+   "node": "DT.A001.IV.01",
+   "level": 2,
+   "title": "예측정보에 대한 주의사항",
+   "scope": "common",
+   "present": [],
+   "absent": [
+    "BR0001",
+    "BR0016",
+    "BR0020",
+    "BR0044",
+    "BR0053"
+   ],
+   "coverage": "0/5",
+   "class": "미관찰",
+   "title_variants": [],
+   "per_report": {},
+   "order_consistent": true,
+   "order_conflict": []
+  },
+  {
+   "node": "DT.A001.IV.02",
+   "level": 2,
+   "title": "개요",
+   "scope": "common",
+   "present": [],
+   "absent": [
+    "BR0001",
+    "BR0016",
+    "BR0020",
+    "BR0044",
+    "BR0053"
+   ],
+   "coverage": "0/5",
+   "class": "미관찰",
+   "title_variants": [],
+   "per_report": {},
+   "order_consistent": true,
+   "order_conflict": []
+  },
+  {
+   "node": "DT.A001.IV.03",
+   "level": 2,
+   "title": "재무상태 및 영업실적 분석",
+   "scope": "common",
+   "present": [],
+   "absent": [
+    "BR0001",
+    "BR0016",
+    "BR0020",
+    "BR0044",
+    "BR0053"
+   ],
+   "coverage": "0/5",
+   "class": "미관찰",
+   "title_variants": [],
+   "per_report": {},
+   "order_consistent": true,
+   "order_conflict": []
+  },
+  {
+   "node": "DT.A001.IV.04",
+   "level": 2,
+   "title": "유동성 및 자금조달·지출",
+   "scope": "common",
+   "present": [],
+   "absent": [
+    "BR0001",
+    "BR0016",
+    "BR0020",
+    "BR0044",
+    "BR0053"
+   ],
+   "coverage": "0/5",
+   "class": "미관찰",
+   "title_variants": [],
+   "per_report": {},
+   "order_consistent": true,
+   "order_conflict": []
+  },
+  {
+   "node": "DT.A001.IV.05",
+   "level": 2,
+   "title": "부외거래",
+   "scope": "common",
+   "present": [],
+   "absent": [
+    "BR0001",
+    "BR0016",
+    "BR0020",
+    "BR0044",
+    "BR0053"
+   ],
+   "coverage": "0/5",
+   "class": "미관찰",
+   "title_variants": [],
+   "per_report": {},
+   "order_consistent": true,
+   "order_conflict": []
+  },
+  {
+   "node": "DT.A001.IV.06",
+   "level": 2,
+   "title": "그 밖에 투자의사결정에 필요한 사항",
+   "scope": "common",
+   "present": [],
+   "absent": [
+    "BR0001",
+    "BR0016",
+    "BR0020",
+    "BR0044",
+    "BR0053"
+   ],
+   "coverage": "0/5",
+   "class": "미관찰",
+   "title_variants": [],
+   "per_report": {},
+   "order_consistent": true,
+   "order_conflict": []
+  },
+  {
+   "node": "DT.A001.V",
+   "level": 1,
+   "title": "회계감사인의 감사의견 등",
+   "scope": "common",
+   "present": [
+    "BR0001",
+    "BR0016",
+    "BR0020",
+    "BR0044",
+    "BR0053"
+   ],
+   "absent": [],
+   "coverage": "5/5",
+   "class": "공통",
+   "title_variants": [
+    {
+     "text": "V. 회계감사인의 감사의견 등",
+     "n": 5
+    }
+   ],
+   "per_report": {
+    "BR0001": {
+     "title": "V. 회계감사인의 감사의견 등",
+     "order": 100,
+     "level": 1,
+     "tables": 27,
+     "cells": 828,
+     "paragraphs": 353,
+     "subheads": 0,
+     "occurrences": 1
+    },
+    "BR0016": {
+     "title": "V. 회계감사인의 감사의견 등",
+     "order": 26,
+     "level": 1,
+     "tables": 4,
+     "cells": 89,
+     "paragraphs": 7,
+     "subheads": 0,
+     "occurrences": 1
+    },
+    "BR0020": {
+     "title": "V. 회계감사인의 감사의견 등",
+     "order": 26,
+     "level": 1,
+     "tables": 4,
+     "cells": 104,
+     "paragraphs": 7,
+     "subheads": 0,
+     "occurrences": 1
+    },
+    "BR0044": {
+     "title": "V. 회계감사인의 감사의견 등",
+     "order": 32,
+     "level": 1,
+     "tables": 11,
+     "cells": 170,
+     "paragraphs": 168,
+     "subheads": 9,
+     "occurrences": 1
+    },
+    "BR0053": {
+     "title": "V. 회계감사인의 감사의견 등",
+     "order": 114,
+     "level": 1,
+     "tables": 8,
+     "cells": 147,
+     "paragraphs": 16,
+     "subheads": 8,
+     "occurrences": 1
+    }
+   },
+   "order_consistent": true,
+   "order_conflict": []
+  },
+  {
+   "node": "DT.A001.V.1",
+   "level": 2,
+   "title": "외부감사에 관한 사항",
+   "scope": "common",
+   "present": [
+    "BR0001",
+    "BR0016",
+    "BR0020",
+    "BR0044",
+    "BR0053"
+   ],
+   "absent": [],
+   "coverage": "5/5",
+   "class": "공통",
+   "title_variants": [
+    {
+     "text": "1. 외부감사에 관한 사항",
+     "n": 5
+    }
+   ],
+   "per_report": {
+    "BR0001": {
+     "title": "1. 외부감사에 관한 사항",
+     "order": 101,
+     "level": 2,
+     "tables": 17,
+     "cells": 602,
+     "paragraphs": 351,
+     "subheads": 0,
+     "occurrences": 1
+    },
+    "BR0016": {
+     "title": "1. 외부감사에 관한 사항",
+     "order": 27,
+     "level": 2,
+     "tables": 4,
+     "cells": 89,
+     "paragraphs": 4,
+     "subheads": 0,
+     "occurrences": 1
+    },
+    "BR0020": {
+     "title": "1. 외부감사에 관한 사항",
+     "order": 27,
+     "level": 2,
+     "tables": 4,
+     "cells": 104,
+     "paragraphs": 4,
+     "subheads": 0,
+     "occurrences": 1
+    },
+    "BR0044": {
+     "title": "1. 외부감사에 관한 사항",
+     "order": 33,
+     "level": 2,
+     "tables": 10,
+     "cells": 158,
+     "paragraphs": 163,
+     "subheads": 6,
+     "occurrences": 1
+    },
+    "BR0053": {
+     "title": "1. 외부감사에 관한 사항",
+     "order": 115,
+     "level": 2,
+     "tables": 7,
+     "cells": 131,
+     "paragraphs": 11,
+     "subheads": 6,
+     "occurrences": 1
+    }
+   },
+   "order_consistent": true,
+   "order_conflict": []
+  },
+  {
+   "node": "DT.A001.V.2",
+   "level": 2,
+   "title": "내부통제에 관한 사항",
+   "scope": "common",
+   "present": [
+    "BR0001",
+    "BR0016",
+    "BR0020",
+    "BR0044",
+    "BR0053"
+   ],
+   "absent": [],
+   "coverage": "5/5",
+   "class": "공통",
+   "title_variants": [
+    {
+     "text": "2. 내부통제에 관한 사항",
+     "n": 5
+    }
+   ],
+   "per_report": {
+    "BR0001": {
+     "title": "2. 내부통제에 관한 사항",
+     "order": 102,
+     "level": 2,
+     "tables": 10,
+     "cells": 226,
+     "paragraphs": 0,
+     "subheads": 0,
+     "occurrences": 1
+    },
+    "BR0016": {
+     "title": "2. 내부통제에 관한 사항",
+     "order": 28,
+     "level": 2,
+     "tables": 0,
+     "cells": 0,
+     "paragraphs": 1,
+     "subheads": 0,
+     "occurrences": 1
+    },
+    "BR0020": {
+     "title": "2. 내부통제에 관한 사항",
+     "order": 28,
+     "level": 2,
+     "tables": 0,
+     "cells": 0,
+     "paragraphs": 1,
+     "subheads": 0,
+     "occurrences": 1
+    },
+    "BR0044": {
+     "title": "2. 내부통제에 관한 사항",
+     "order": 34,
+     "level": 2,
+     "tables": 1,
+     "cells": 12,
+     "paragraphs": 3,
+     "subheads": 3,
+     "occurrences": 1
+    },
+    "BR0053": {
+     "title": "2. 내부통제에 관한 사항",
+     "order": 116,
+     "level": 2,
+     "tables": 1,
+     "cells": 16,
+     "paragraphs": 3,
+     "subheads": 2,
+     "occurrences": 1
+    }
+   },
+   "order_consistent": true,
+   "order_conflict": []
+  },
+  {
+   "node": "DT.A001.VI",
+   "level": 1,
+   "title": "이사회 등 회사의 기관에 관한 사항",
+   "scope": "common",
+   "present": [
+    "BR0001",
+    "BR0016",
+    "BR0020",
+    "BR0044",
+    "BR0053"
+   ],
+   "absent": [],
+   "coverage": "5/5",
+   "class": "공통",
+   "title_variants": [
+    {
+     "text": "VI. 이사회 등 회사의 기관에 관한 사항",
+     "n": 5
+    }
+   ],
+   "per_report": {
+    "BR0001": {
+     "title": "VI. 이사회 등 회사의 기관에 관한 사항",
+     "order": 103,
+     "level": 1,
+     "tables": 64,
+     "cells": 1230,
+     "paragraphs": 1153,
+     "subheads": 91,
+     "occurrences": 1
+    },
+    "BR0016": {
+     "title": "VI. 이사회 등 회사의 기관에 관한 사항",
+     "order": 29,
+     "level": 1,
+     "tables": 14,
+     "cells": 228,
+     "paragraphs": 90,
+     "subheads": 19,
+     "occurrences": 1
+    },
+    "BR0020": {
+     "title": "VI. 이사회 등 회사의 기관에 관한 사항",
+     "order": 29,
+     "level": 1,
+     "tables": 20,
+     "cells": 210,
+     "paragraphs": 69,
+     "subheads": 17,
+     "occurrences": 1
+    },
+    "BR0044": {
+     "title": "VI. 이사회 등 회사의 기관에 관한 사항",
+     "order": 35,
+     "level": 1,
+     "tables": 30,
+     "cells": 1225,
+     "paragraphs": 185,
+     "subheads": 22,
+     "occurrences": 1
+    },
+    "BR0053": {
+     "title": "VI. 이사회 등 회사의 기관에 관한 사항",
+     "order": 117,
+     "level": 1,
+     "tables": 25,
+     "cells": 1167,
+     "paragraphs": 73,
+     "subheads": 19,
+     "occurrences": 1
+    }
+   },
+   "order_consistent": true,
+   "order_conflict": []
+  },
+  {
+   "node": "DT.A001.VI.1",
+   "level": 2,
+   "title": "이사회에 관한 사항",
+   "scope": "common",
+   "present": [
+    "BR0001",
+    "BR0016",
+    "BR0020",
+    "BR0044",
+    "BR0053"
+   ],
+   "absent": [],
+   "coverage": "5/5",
+   "class": "공통",
+   "title_variants": [
+    {
+     "text": "1. 이사회에 관한 사항",
+     "n": 5
+    }
+   ],
+   "per_report": {
+    "BR0001": {
+     "title": "1. 이사회에 관한 사항",
+     "order": 104,
+     "level": 2,
+     "tables": 33,
+     "cells": 790,
+     "paragraphs": 883,
+     "subheads": 78,
+     "occurrences": 1
+    },
+    "BR0016": {
+     "title": "1. 이사회에 관한 사항",
+     "order": 30,
+     "level": 2,
+     "tables": 5,
+     "cells": 122,
+     "paragraphs": 27,
+     "subheads": 3,
+     "occurrences": 1
+    },
+    "BR0020": {
+     "title": "1. 이사회에 관한 사항",
+     "order": 30,
+     "level": 2,
+     "tables": 7,
+     "cells": 74,
+     "paragraphs": 30,
+     "subheads": 3,
+     "occurrences": 1
+    },
+    "BR0044": {
+     "title": "1. 이사회에 관한 사항",
+     "order": 36,
+     "level": 2,
+     "tables": 14,
+     "cells": 897,
+     "paragraphs": 19,
+     "subheads": 7,
+     "occurrences": 1
+    },
+    "BR0053": {
+     "title": "1. 이사회에 관한 사항",
+     "order": 118,
+     "level": 2,
+     "tables": 10,
+     "cells": 748,
+     "paragraphs": 14,
+     "subheads": 6,
+     "occurrences": 1
+    }
+   },
+   "order_consistent": true,
+   "order_conflict": []
+  },
+  {
+   "node": "DT.A001.VI.2",
+   "level": 2,
+   "title": "감사제도에 관한 사항",
+   "scope": "common",
+   "present": [
+    "BR0001",
+    "BR0016",
+    "BR0020",
+    "BR0044",
+    "BR0053"
+   ],
+   "absent": [],
+   "coverage": "5/5",
+   "class": "공통",
+   "title_variants": [
+    {
+     "text": "2. 감사제도에 관한 사항",
+     "n": 5
+    }
+   ],
+   "per_report": {
+    "BR0001": {
+     "title": "2. 감사제도에 관한 사항",
+     "order": 105,
+     "level": 2,
+     "tables": 21,
+     "cells": 307,
+     "paragraphs": 178,
+     "subheads": 8,
+     "occurrences": 1
+    },
+    "BR0016": {
+     "title": "2. 감사제도에 관한 사항",
+     "order": 31,
+     "level": 2,
+     "tables": 5,
+     "cells": 41,
+     "paragraphs": 57,
+     "subheads": 14,
+     "occurrences": 1
+    },
+    "BR0020": {
+     "title": "2. 감사제도에 관한 사항",
+     "order": 31,
+     "level": 2,
+     "tables": 6,
+     "cells": 42,
+     "paragraphs": 14,
+     "subheads": 6,
+     "occurrences": 1
+    },
+    "BR0044": {
+     "title": "2. 감사제도에 관한 사항",
+     "order": 37,
+     "level": 2,
+     "tables": 9,
+     "cells": 213,
+     "paragraphs": 135,
+     "subheads": 8,
+     "occurrences": 1
+    },
+    "BR0053": {
+     "title": "2. 감사제도에 관한 사항",
+     "order": 119,
+     "level": 2,
+     "tables": 9,
+     "cells": 316,
+     "paragraphs": 22,
+     "subheads": 6,
+     "occurrences": 1
+    }
+   },
+   "order_consistent": true,
+   "order_conflict": []
+  },
+  {
+   "node": "DT.A001.VI.3",
+   "level": 2,
+   "title": "주주총회 등에 관한 사항",
+   "scope": "common",
+   "present": [
+    "BR0001",
+    "BR0016",
+    "BR0020",
+    "BR0044",
+    "BR0053"
+   ],
+   "absent": [],
+   "coverage": "5/5",
+   "class": "공통",
+   "title_variants": [
+    {
+     "text": "3. 주주총회 등에 관한 사항",
+     "n": 5
+    }
+   ],
+   "per_report": {
+    "BR0001": {
+     "title": "3. 주주총회 등에 관한 사항",
+     "order": 106,
+     "level": 2,
+     "tables": 10,
+     "cells": 133,
+     "paragraphs": 89,
+     "subheads": 5,
+     "occurrences": 1
+    },
+    "BR0016": {
+     "title": "3. 주주총회 등에 관한 사항",
+     "order": 32,
+     "level": 2,
+     "tables": 4,
+     "cells": 65,
+     "paragraphs": 3,
+     "subheads": 2,
+     "occurrences": 1
+    },
+    "BR0020": {
+     "title": "3. 주주총회 등에 관한 사항",
+     "order": 32,
+     "level": 2,
+     "tables": 7,
+     "cells": 94,
+     "paragraphs": 22,
+     "subheads": 8,
+     "occurrences": 1
+    },
+    "BR0044": {
+     "title": "3. 주주총회 등에 관한 사항",
+     "order": 38,
+     "level": 2,
+     "tables": 7,
+     "cells": 115,
+     "paragraphs": 28,
+     "subheads": 7,
+     "occurrences": 1
+    },
+    "BR0053": {
+     "title": "3. 주주총회 등에 관한 사항",
+     "order": 120,
+     "level": 2,
+     "tables": 6,
+     "cells": 103,
+     "paragraphs": 34,
+     "subheads": 7,
+     "occurrences": 1
+    }
+   },
+   "order_consistent": true,
+   "order_conflict": []
+  },
+  {
+   "node": "DT.A001.VII",
+   "level": 1,
+   "title": "주주에 관한 사항",
+   "scope": "common",
+   "present": [
+    "BR0001",
+    "BR0016",
+    "BR0020",
+    "BR0044",
+    "BR0053"
+   ],
+   "absent": [],
+   "coverage": "5/5",
+   "class": "공통",
+   "title_variants": [
+    {
+     "text": "VII. 주주에 관한 사항",
+     "n": 5
+    }
+   ],
+   "per_report": {
+    "BR0001": {
+     "title": "VII. 주주에 관한 사항",
+     "order": 107,
+     "level": 1,
+     "tables": 35,
+     "cells": 702,
+     "paragraphs": 79,
+     "subheads": 18,
+     "occurrences": 1
+    },
+    "BR0016": {
+     "title": "VII. 주주에 관한 사항",
+     "order": 33,
+     "level": 1,
+     "tables": 10,
+     "cells": 487,
+     "paragraphs": 51,
+     "subheads": 10,
+     "occurrences": 1
+    },
+    "BR0020": {
+     "title": "VII. 주주에 관한 사항",
+     "order": 33,
+     "level": 1,
+     "tables": 16,
+     "cells": 276,
+     "paragraphs": 17,
+     "subheads": 11,
+     "occurrences": 1
+    },
+    "BR0044": {
+     "title": "VII. 주주에 관한 사항",
+     "order": 39,
+     "level": 1,
+     "tables": 14,
+     "cells": 589,
+     "paragraphs": 25,
+     "subheads": 3,
+     "occurrences": 1
+    },
+    "BR0053": {
+     "title": "VII. 주주에 관한 사항",
+     "order": 121,
+     "level": 1,
+     "tables": 16,
+     "cells": 852,
+     "paragraphs": 22,
+     "subheads": 8,
+     "occurrences": 1
+    }
+   },
+   "order_consistent": true,
+   "order_conflict": []
+  },
+  {
+   "node": "DT.A001.VII.01",
+   "level": 2,
+   "title": "최대주주 및 특수관계인의 주식소유 현황",
+   "scope": "common",
+   "present": [],
+   "absent": [
+    "BR0001",
+    "BR0016",
+    "BR0020",
+    "BR0044",
+    "BR0053"
+   ],
+   "coverage": "0/5",
+   "class": "미관찰",
+   "title_variants": [],
+   "per_report": {},
+   "order_consistent": true,
+   "order_conflict": []
+  },
+  {
+   "node": "DT.A001.VII.02",
+   "level": 2,
+   "title": "최대주주의 주요경력 및 개요 / 최대주주(법인)의 기본정보·최근 결산기 재무현황·최대주주의 최대주주 개요",
+   "scope": "common",
+   "present": [],
+   "absent": [
+    "BR0001",
+    "BR0016",
+    "BR0020",
+    "BR0044",
+    "BR0053"
+   ],
+   "coverage": "0/5",
+   "class": "미관찰",
+   "title_variants": [],
+   "per_report": {},
+   "order_consistent": true,
+   "order_conflict": []
+  },
+  {
+   "node": "DT.A001.VII.03",
+   "level": 2,
+   "title": "최대주주 변동현황",
+   "scope": "conditional",
+   "present": [],
+   "absent": [
+    "BR0001",
+    "BR0016",
+    "BR0020",
+    "BR0044",
+    "BR0053"
+   ],
+   "coverage": "0/5",
+   "class": "미관찰",
+   "title_variants": [],
+   "per_report": {},
+   "order_consistent": true,
+   "order_conflict": []
+  },
+  {
+   "node": "DT.A001.VII.04",
+   "level": 2,
+   "title": "주식 소유현황(5% 이상 주주·우리사주조합)",
+   "scope": "common",
+   "present": [],
+   "absent": [
+    "BR0001",
+    "BR0016",
+    "BR0020",
+    "BR0044",
+    "BR0053"
+   ],
+   "coverage": "0/5",
+   "class": "미관찰",
+   "title_variants": [],
+   "per_report": {},
+   "order_consistent": true,
+   "order_conflict": []
+  },
+  {
+   "node": "DT.A001.VII.05",
+   "level": 2,
+   "title": "소액주주현황",
+   "scope": "common",
+   "present": [],
+   "absent": [
+    "BR0001",
+    "BR0016",
+    "BR0020",
+    "BR0044",
+    "BR0053"
+   ],
+   "coverage": "0/5",
+   "class": "미관찰",
+   "title_variants": [],
+   "per_report": {},
+   "order_consistent": true,
+   "order_conflict": []
+  },
+  {
+   "node": "DT.A001.VII.06",
+   "level": 2,
+   "title": "주가 및 주식거래실적",
+   "scope": "common",
+   "present": [],
+   "absent": [
+    "BR0001",
+    "BR0016",
+    "BR0020",
+    "BR0044",
+    "BR0053"
+   ],
+   "coverage": "0/5",
+   "class": "미관찰",
+   "title_variants": [],
+   "per_report": {},
+   "order_consistent": true,
+   "order_conflict": []
+  },
+  {
+   "node": "DT.A001.VIII",
+   "level": 1,
+   "title": "임원 및 직원 등에 관한 사항",
+   "scope": "common",
+   "present": [
+    "BR0001",
+    "BR0016",
+    "BR0020",
+    "BR0044",
+    "BR0053"
+   ],
+   "absent": [],
+   "coverage": "5/5",
+   "class": "공통",
+   "title_variants": [
+    {
+     "text": "VIII. 임원 및 직원 등에 관한 사항",
+     "n": 5
+    }
+   ],
+   "per_report": {
+    "BR0001": {
+     "title": "VIII. 임원 및 직원 등에 관한 사항",
+     "order": 108,
+     "level": 1,
+     "tables": 68,
+     "cells": 12423,
+     "paragraphs": 369,
+     "subheads": 19,
+     "occurrences": 1
+    },
+    "BR0016": {
+     "title": "VIII. 임원 및 직원 등에 관한 사항",
+     "order": 34,
+     "level": 1,
+     "tables": 27,
+     "cells": 499,
+     "paragraphs": 27,
+     "subheads": 5,
+     "occurrences": 1
+    },
+    "BR0020": {
+     "title": "VIII. 임원 및 직원 등에 관한 사항",
+     "order": 34,
+     "level": 1,
+     "tables": 19,
+     "cells": 224,
+     "paragraphs": 19,
+     "subheads": 2,
+     "occurrences": 1
+    },
+    "BR0044": {
+     "title": "VIII. 임원 및 직원 등에 관한 사항",
+     "order": 40,
+     "level": 1,
+     "tables": 33,
+     "cells": 1266,
+     "paragraphs": 23,
+     "subheads": 6,
+     "occurrences": 1
+    },
+    "BR0053": {
+     "title": "VIII. 임원 및 직원 등에 관한 사항",
+     "order": 122,
+     "level": 1,
+     "tables": 42,
+     "cells": 3039,
+     "paragraphs": 55,
+     "subheads": 19,
+     "occurrences": 1
+    }
+   },
+   "order_consistent": true,
+   "order_conflict": []
+  },
+  {
+   "node": "DT.A001.VIII.1",
+   "level": 2,
+   "title": "임원 및 직원 등의 현황",
+   "scope": "common",
+   "present": [
+    "BR0001",
+    "BR0016",
+    "BR0020",
+    "BR0044",
+    "BR0053"
+   ],
+   "absent": [],
+   "coverage": "5/5",
+   "class": "공통",
+   "title_variants": [
+    {
+     "text": "1. 임원 및 직원 등의 현황",
+     "n": 5
+    }
+   ],
+   "per_report": {
+    "BR0001": {
+     "title": "1. 임원 및 직원 등의 현황",
+     "order": 109,
+     "level": 2,
+     "tables": 25,
+     "cells": 11999,
+     "paragraphs": 101,
+     "subheads": 8,
+     "occurrences": 1
+    },
+    "BR0016": {
+     "title": "1. 임원 및 직원 등의 현황",
+     "order": 35,
+     "level": 2,
+     "tables": 6,
+     "cells": 155,
+     "paragraphs": 15,
+     "subheads": 3,
+     "occurrences": 1
+    },
+    "BR0020": {
+     "title": "1. 임원 및 직원 등의 현황",
+     "order": 35,
+     "level": 2,
+     "tables": 6,
+     "cells": 142,
+     "paragraphs": 5,
+     "subheads": 0,
+     "occurrences": 1
+    },
+    "BR0044": {
+     "title": "1. 임원 및 직원 등의 현황",
+     "order": 41,
+     "level": 2,
+     "tables": 8,
+     "cells": 1008,
+     "paragraphs": 9,
+     "subheads": 4,
+     "occurrences": 1
+    },
+    "BR0053": {
+     "title": "1. 임원 및 직원 등의 현황",
+     "order": 123,
+     "level": 2,
+     "tables": 8,
+     "cells": 1205,
+     "paragraphs": 23,
+     "subheads": 4,
+     "occurrences": 1
+    }
+   },
+   "order_consistent": true,
+   "order_conflict": []
+  },
+  {
+   "node": "DT.A001.VIII.2",
+   "level": 2,
+   "title": "임원의 보수 등",
+   "scope": "common",
+   "present": [
+    "BR0001",
+    "BR0016",
+    "BR0020",
+    "BR0044",
+    "BR0053"
+   ],
+   "absent": [],
+   "coverage": "5/5",
+   "class": "공통",
+   "title_variants": [
+    {
+     "text": "2. 임원의 보수 등",
+     "n": 5
+    }
+   ],
+   "per_report": {
+    "BR0001": {
+     "title": "2. 임원의 보수 등",
+     "order": 110,
+     "level": 2,
+     "tables": 43,
+     "cells": 424,
+     "paragraphs": 266,
+     "subheads": 11,
+     "occurrences": 1
+    },
+    "BR0016": {
+     "title": "2. 임원의 보수 등",
+     "order": 36,
+     "level": 2,
+     "tables": 21,
+     "cells": 344,
+     "paragraphs": 10,
+     "subheads": 2,
+     "occurrences": 1
+    },
+    "BR0020": {
+     "title": "2. 임원의 보수 등",
+     "order": 36,
+     "level": 2,
+     "tables": 13,
+     "cells": 82,
+     "paragraphs": 12,
+     "subheads": 2,
+     "occurrences": 1
+    },
+    "BR0044": {
+     "title": "2. 임원의 보수 등",
+     "order": 42,
+     "level": 2,
+     "tables": 25,
+     "cells": 258,
+     "paragraphs": 12,
+     "subheads": 2,
+     "occurrences": 1
+    },
+    "BR0053": {
+     "title": "2. 임원의 보수 등",
+     "order": 124,
+     "level": 2,
+     "tables": 34,
+     "cells": 1834,
+     "paragraphs": 30,
+     "subheads": 15,
+     "occurrences": 1
+    }
+   },
+   "order_consistent": true,
+   "order_conflict": []
+  },
+  {
+   "node": "DT.A001.IX",
+   "level": 1,
+   "title": "계열회사 등에 관한 사항",
+   "scope": "common",
+   "present": [
+    "BR0001",
+    "BR0016",
+    "BR0020",
+    "BR0044",
+    "BR0053"
+   ],
+   "absent": [],
+   "coverage": "5/5",
+   "class": "공통",
+   "title_variants": [
+    {
+     "text": "IX. 계열회사 등에 관한 사항",
+     "n": 5
+    }
+   ],
+   "per_report": {
+    "BR0001": {
+     "title": "IX. 계열회사 등에 관한 사항",
+     "order": 111,
+     "level": 1,
+     "tables": 26,
+     "cells": 3636,
+     "paragraphs": 7,
+     "subheads": 4,
+     "occurrences": 1
+    },
+    "BR0016": {
+     "title": "IX. 계열회사 등에 관한 사항",
+     "order": 37,
+     "level": 1,
+     "tables": 6,
+     "cells": 62,
+     "paragraphs": 2,
+     "subheads": 2,
+     "occurrences": 1
+    },
+    "BR0020": {
+     "title": "IX. 계열회사 등에 관한 사항",
+     "order": 37,
+     "level": 1,
+     "tables": 6,
+     "cells": 62,
+     "paragraphs": 3,
+     "subheads": 0,
+     "occurrences": 1
+    },
+    "BR0044": {
+     "title": "IX. 계열회사 등에 관한 사항",
+     "order": 43,
+     "level": 1,
+     "tables": 9,
+     "cells": 97,
+     "paragraphs": 6,
+     "subheads": 0,
+     "occurrences": 1
+    },
+    "BR0053": {
+     "title": "IX. 계열회사 등에 관한 사항",
+     "order": 125,
+     "level": 1,
+     "tables": 11,
+     "cells": 233,
+     "paragraphs": 21,
+     "subheads": 2,
+     "occurrences": 1
+    }
+   },
+   "order_consistent": true,
+   "order_conflict": []
+  },
+  {
+   "node": "DT.A001.IX.01",
+   "level": 2,
+   "title": "계열회사 현황(요약)",
+   "scope": "common",
+   "present": [],
+   "absent": [
+    "BR0001",
+    "BR0016",
+    "BR0020",
+    "BR0044",
+    "BR0053"
+   ],
+   "coverage": "0/5",
+   "class": "미관찰",
+   "title_variants": [],
+   "per_report": {},
+   "order_consistent": true,
+   "order_conflict": []
+  },
+  {
+   "node": "DT.A001.IX.02",
+   "level": 2,
+   "title": "계열회사간 출자현황(국내·해외)",
+   "scope": "common",
+   "present": [],
+   "absent": [
+    "BR0001",
+    "BR0016",
+    "BR0020",
+    "BR0044",
+    "BR0053"
+   ],
+   "coverage": "0/5",
+   "class": "미관찰",
+   "title_variants": [],
+   "per_report": {},
+   "order_consistent": true,
+   "order_conflict": []
+  },
+  {
+   "node": "DT.A001.IX.03",
+   "level": 2,
+   "title": "회사와 계열회사 간 임원 겸직 현황",
+   "scope": "common",
+   "present": [],
+   "absent": [
+    "BR0001",
+    "BR0016",
+    "BR0020",
+    "BR0044",
+    "BR0053"
+   ],
+   "coverage": "0/5",
+   "class": "미관찰",
+   "title_variants": [],
+   "per_report": {},
+   "order_consistent": true,
+   "order_conflict": []
+  },
+  {
+   "node": "DT.A001.IX.04",
+   "level": 2,
+   "title": "타법인출자 현황(요약)",
+   "scope": "common",
+   "present": [],
+   "absent": [
+    "BR0001",
+    "BR0016",
+    "BR0020",
+    "BR0044",
+    "BR0053"
+   ],
+   "coverage": "0/5",
+   "class": "미관찰",
+   "title_variants": [],
+   "per_report": {},
+   "order_consistent": true,
+   "order_conflict": []
+  },
+  {
+   "node": "DT.A001.X",
+   "level": 1,
+   "title": "대주주 등과의 거래내용",
+   "scope": "common",
+   "present": [
+    "BR0001",
+    "BR0016",
+    "BR0020",
+    "BR0044",
+    "BR0053"
+   ],
+   "absent": [],
+   "coverage": "5/5",
+   "class": "공통",
+   "title_variants": [
+    {
+     "text": "X. 대주주 등과의 거래내용",
+     "n": 5
+    }
+   ],
+   "per_report": {
+    "BR0001": {
+     "title": "X. 대주주 등과의 거래내용",
+     "order": 112,
+     "level": 1,
+     "tables": 13,
+     "cells": 707,
+     "paragraphs": 5,
+     "subheads": 0,
+     "occurrences": 1
+    },
+    "BR0016": {
+     "title": "X. 대주주 등과의 거래내용",
+     "order": 38,
+     "level": 1,
+     "tables": 0,
+     "cells": 0,
+     "paragraphs": 1,
+     "subheads": 0,
+     "occurrences": 1
+    },
+    "BR0020": {
+     "title": "X. 대주주 등과의 거래내용",
+     "order": 38,
+     "level": 1,
+     "tables": 8,
+     "cells": 58,
+     "paragraphs": 11,
+     "subheads": 8,
+     "occurrences": 1
+    },
+    "BR0044": {
+     "title": "X. 대주주 등과의 거래내용",
+     "order": 44,
+     "level": 1,
+     "tables": 4,
+     "cells": 81,
+     "paragraphs": 5,
+     "subheads": 0,
+     "occurrences": 1
+    },
+    "BR0053": {
+     "title": "X. 대주주 등과의 거래내용",
+     "order": 126,
+     "level": 1,
+     "tables": 4,
+     "cells": 199,
+     "paragraphs": 13,
+     "subheads": 1,
+     "occurrences": 1
+    }
+   },
+   "order_consistent": true,
+   "order_conflict": []
+  },
+  {
+   "node": "DT.A001.X.01",
+   "level": 2,
+   "title": "대주주 등에 대한 신용공여 등",
+   "scope": "common",
+   "present": [],
+   "absent": [
+    "BR0001",
+    "BR0016",
+    "BR0020",
+    "BR0044",
+    "BR0053"
+   ],
+   "coverage": "0/5",
+   "class": "미관찰",
+   "title_variants": [],
+   "per_report": {},
+   "order_consistent": true,
+   "order_conflict": []
+  },
+  {
+   "node": "DT.A001.X.02",
+   "level": 2,
+   "title": "대주주와의 자산양수도 등",
+   "scope": "common",
+   "present": [],
+   "absent": [
+    "BR0001",
+    "BR0016",
+    "BR0020",
+    "BR0044",
+    "BR0053"
+   ],
+   "coverage": "0/5",
+   "class": "미관찰",
+   "title_variants": [],
+   "per_report": {},
+   "order_consistent": true,
+   "order_conflict": []
+  },
+  {
+   "node": "DT.A001.X.03",
+   "level": 2,
+   "title": "대주주와의 영업거래",
+   "scope": "common",
+   "present": [],
+   "absent": [
+    "BR0001",
+    "BR0016",
+    "BR0020",
+    "BR0044",
+    "BR0053"
+   ],
+   "coverage": "0/5",
+   "class": "미관찰",
+   "title_variants": [],
+   "per_report": {},
+   "order_consistent": true,
+   "order_conflict": []
+  },
+  {
+   "node": "DT.A001.X.04",
+   "level": 2,
+   "title": "대주주 이외의 이해관계자와의 거래",
+   "scope": "common",
+   "present": [],
+   "absent": [
+    "BR0001",
+    "BR0016",
+    "BR0020",
+    "BR0044",
+    "BR0053"
+   ],
+   "coverage": "0/5",
+   "class": "미관찰",
+   "title_variants": [],
+   "per_report": {},
+   "order_consistent": true,
+   "order_conflict": []
+  },
+  {
+   "node": "DT.A001.X.05",
+   "level": 2,
+   "title": "특수관계자 현황·거래·채권채무·경영진 보상(주석 인용형)",
+   "scope": "conditional",
+   "present": [],
+   "absent": [
+    "BR0001",
+    "BR0016",
+    "BR0020",
+    "BR0044",
+    "BR0053"
+   ],
+   "coverage": "0/5",
+   "class": "미관찰",
+   "title_variants": [],
+   "per_report": {},
+   "order_consistent": true,
+   "order_conflict": []
+  },
+  {
+   "node": "DT.A001.XI",
+   "level": 1,
+   "title": "그 밖에 투자자 보호를 위하여 필요한 사항",
+   "scope": "common",
+   "present": [
+    "BR0001",
+    "BR0016",
+    "BR0020",
+    "BR0044",
+    "BR0053"
+   ],
+   "absent": [],
+   "coverage": "5/5",
+   "class": "공통",
+   "title_variants": [
+    {
+     "text": "XI. 그 밖에 투자자 보호를 위하여 필요한 사항",
+     "n": 5
+    }
+   ],
+   "per_report": {
+    "BR0001": {
+     "title": "XI. 그 밖에 투자자 보호를 위하여 필요한 사항",
+     "order": 113,
+     "level": 1,
+     "tables": 17,
+     "cells": 875,
+     "paragraphs": 201,
+     "subheads": 8,
+     "occurrences": 1
+    },
+    "BR0016": {
+     "title": "XI. 그 밖에 투자자 보호를 위하여 필요한 사항",
+     "order": 39,
+     "level": 1,
+     "tables": 7,
+     "cells": 56,
+     "paragraphs": 18,
+     "subheads": 5,
+     "occurrences": 1
+    },
+    "BR0020": {
+     "title": "XI. 그 밖에 투자자 보호를 위하여 필요한 사항",
+     "order": 39,
+     "level": 1,
+     "tables": 2,
+     "cells": 4,
+     "paragraphs": 19,
+     "subheads": 7,
+     "occurrences": 1
+    },
+    "BR0044": {
+     "title": "XI. 그 밖에 투자자 보호를 위하여 필요한 사항",
+     "order": 45,
+     "level": 1,
+     "tables": 11,
+     "cells": 336,
+     "paragraphs": 30,
+     "subheads": 3,
+     "occurrences": 1
+    },
+    "BR0053": {
+     "title": "XI. 그 밖에 투자자 보호를 위하여 필요한 사항",
+     "order": 127,
+     "level": 1,
+     "tables": 39,
+     "cells": 681,
+     "paragraphs": 75,
+     "subheads": 21,
+     "occurrences": 1
+    }
+   },
+   "order_consistent": true,
+   "order_conflict": []
+  },
+  {
+   "node": "DT.A001.XI.1",
+   "level": 2,
+   "title": "공시내용 진행 및 변경사항",
+   "scope": "common",
+   "present": [
+    "BR0001",
+    "BR0016",
+    "BR0020",
+    "BR0044",
+    "BR0053"
+   ],
+   "absent": [],
+   "coverage": "5/5",
+   "class": "공통",
+   "title_variants": [
+    {
+     "text": "1. 공시내용 진행 및 변경사항",
+     "n": 5
+    }
+   ],
+   "per_report": {
+    "BR0001": {
+     "title": "1. 공시내용 진행 및 변경사항",
+     "order": 114,
+     "level": 2,
+     "tables": 0,
+     "cells": 0,
+     "paragraphs": 1,
+     "subheads": 0,
+     "occurrences": 1
+    },
+    "BR0016": {
+     "title": "1. 공시내용 진행 및 변경사항",
+     "order": 40,
+     "level": 2,
+     "tables": 1,
+     "cells": 12,
+     "paragraphs": 3,
+     "subheads": 1,
+     "occurrences": 1
+    },
+    "BR0020": {
+     "title": "1. 공시내용 진행 및 변경사항",
+     "order": 40,
+     "level": 2,
+     "tables": 0,
+     "cells": 0,
+     "paragraphs": 1,
+     "subheads": 1,
+     "occurrences": 1
+    },
+    "BR0044": {
+     "title": "1. 공시내용 진행 및 변경사항",
+     "order": 46,
+     "level": 2,
+     "tables": 0,
+     "cells": 0,
+     "paragraphs": 1,
+     "subheads": 0,
+     "occurrences": 1
+    },
+    "BR0053": {
+     "title": "1. 공시내용 진행 및 변경사항",
+     "order": 128,
+     "level": 2,
+     "tables": 0,
+     "cells": 0,
+     "paragraphs": 1,
+     "subheads": 0,
+     "occurrences": 1
+    }
+   },
+   "order_consistent": true,
+   "order_conflict": []
+  },
+  {
+   "node": "DT.A001.XI.2",
+   "level": 2,
+   "title": "우발부채 등에 관한 사항",
+   "scope": "common",
+   "present": [
+    "BR0001",
+    "BR0016",
+    "BR0020",
+    "BR0044",
+    "BR0053"
+   ],
+   "absent": [],
+   "coverage": "5/5",
+   "class": "공통",
+   "title_variants": [
+    {
+     "text": "2. 우발부채 등에 관한 사항",
+     "n": 5
+    }
+   ],
+   "per_report": {
+    "BR0001": {
+     "title": "2. 우발부채 등에 관한 사항",
+     "order": 115,
+     "level": 2,
+     "tables": 4,
+     "cells": 579,
+     "paragraphs": 3,
+     "subheads": 2,
+     "occurrences": 1
+    },
+    "BR0016": {
+     "title": "2. 우발부채 등에 관한 사항",
+     "order": 41,
+     "level": 2,
+     "tables": 2,
+     "cells": 22,
+     "paragraphs": 5,
+     "subheads": 3,
+     "occurrences": 1
+    },
+    "BR0020": {
+     "title": "2. 우발부채 등에 관한 사항",
+     "order": 41,
+     "level": 2,
+     "tables": 0,
+     "cells": 0,
+     "paragraphs": 5,
+     "subheads": 2,
+     "occurrences": 1
+    },
+    "BR0044": {
+     "title": "2. 우발부채 등에 관한 사항",
+     "order": 47,
+     "level": 2,
+     "tables": 7,
+     "cells": 72,
+     "paragraphs": 8,
+     "subheads": 2,
+     "occurrences": 1
+    },
+    "BR0053": {
+     "title": "2. 우발부채 등에 관한 사항",
+     "order": 129,
+     "level": 2,
+     "tables": 15,
+     "cells": 291,
+     "paragraphs": 21,
+     "subheads": 8,
+     "occurrences": 1
+    }
+   },
+   "order_consistent": true,
+   "order_conflict": []
+  },
+  {
+   "node": "DT.A001.XI.3",
+   "level": 2,
+   "title": "제재 등과 관련된 사항",
+   "scope": "common",
+   "present": [
+    "BR0001",
+    "BR0016",
+    "BR0020",
+    "BR0044",
+    "BR0053"
+   ],
+   "absent": [],
+   "coverage": "5/5",
+   "class": "공통",
+   "title_variants": [
+    {
+     "text": "3. 제재 등과 관련된 사항",
+     "n": 5
+    }
+   ],
+   "per_report": {
+    "BR0001": {
+     "title": "3. 제재 등과 관련된 사항",
+     "order": 116,
+     "level": 2,
+     "tables": 6,
+     "cells": 165,
+     "paragraphs": 76,
+     "subheads": 4,
+     "occurrences": 1
+    },
+    "BR0016": {
+     "title": "3. 제재 등과 관련된 사항",
+     "order": 42,
+     "level": 2,
+     "tables": 0,
+     "cells": 0,
+     "paragraphs": 1,
+     "subheads": 0,
+     "occurrences": 1
+    },
+    "BR0020": {
+     "title": "3. 제재 등과 관련된 사항",
+     "order": 42,
+     "level": 2,
+     "tables": 0,
+     "cells": 0,
+     "paragraphs": 4,
+     "subheads": 3,
+     "occurrences": 1
+    },
+    "BR0044": {
+     "title": "3. 제재 등과 관련된 사항",
+     "order": 48,
+     "level": 2,
+     "tables": 3,
+     "cells": 254,
+     "paragraphs": 13,
+     "subheads": 1,
+     "occurrences": 1
+    },
+    "BR0053": {
+     "title": "3. 제재 등과 관련된 사항",
+     "order": 130,
+     "level": 2,
+     "tables": 10,
+     "cells": 136,
+     "paragraphs": 10,
+     "subheads": 4,
+     "occurrences": 1
+    }
+   },
+   "order_consistent": true,
+   "order_conflict": []
+  },
+  {
+   "node": "DT.A001.XI.4",
+   "level": 2,
+   "title": "작성기준일 이후 발생한 주요사항 등 기타사항",
+   "scope": "common",
+   "present": [
+    "BR0001",
+    "BR0016",
+    "BR0020",
+    "BR0044",
+    "BR0053"
+   ],
+   "absent": [],
+   "coverage": "5/5",
+   "class": "공통",
+   "title_variants": [
+    {
+     "text": "4. 작성기준일 이후 발생한 주요사항 등 기타사항",
+     "n": 5
+    }
+   ],
+   "per_report": {
+    "BR0001": {
+     "title": "4. 작성기준일 이후 발생한 주요사항 등 기타사항",
+     "order": 117,
+     "level": 2,
+     "tables": 7,
+     "cells": 131,
+     "paragraphs": 117,
+     "subheads": 2,
+     "occurrences": 1
+    },
+    "BR0016": {
+     "title": "4. 작성기준일 이후 발생한 주요사항 등 기타사항",
+     "order": 43,
+     "level": 2,
+     "tables": 4,
+     "cells": 22,
+     "paragraphs": 5,
+     "subheads": 1,
+     "occurrences": 1
+    },
+    "BR0020": {
+     "title": "4. 작성기준일 이후 발생한 주요사항 등 기타사항",
+     "order": 43,
+     "level": 2,
+     "tables": 2,
+     "cells": 4,
+     "paragraphs": 5,
+     "subheads": 1,
+     "occurrences": 1
+    },
+    "BR0044": {
+     "title": "4. 작성기준일 이후 발생한 주요사항 등 기타사항",
+     "order": 49,
+     "level": 2,
+     "tables": 1,
+     "cells": 10,
+     "paragraphs": 4,
+     "subheads": 0,
+     "occurrences": 1
+    },
+    "BR0053": {
+     "title": "4. 작성기준일 이후 발생한 주요사항 등 기타사항",
+     "order": 131,
+     "level": 2,
+     "tables": 14,
+     "cells": 254,
+     "paragraphs": 39,
+     "subheads": 9,
+     "occurrences": 1
+    }
+   },
+   "order_consistent": true,
+   "order_conflict": []
+  },
+  {
+   "node": "DT.A001.XII",
+   "level": 1,
+   "title": "상세표",
+   "scope": "common",
+   "present": [
+    "BR0001",
+    "BR0016",
+    "BR0020",
+    "BR0044",
+    "BR0053"
+   ],
+   "absent": [],
+   "coverage": "5/5",
+   "class": "공통",
+   "title_variants": [
+    {
+     "text": "XII. 상세표",
+     "n": 5
+    }
+   ],
+   "per_report": {
+    "BR0001": {
+     "title": "XII. 상세표",
+     "order": 118,
+     "level": 1,
+     "tables": 18,
+     "cells": 5963,
+     "paragraphs": 877,
+     "subheads": 3,
+     "occurrences": 1
+    },
+    "BR0016": {
+     "title": "XII. 상세표",
+     "order": 44,
+     "level": 1,
+     "tables": 9,
+     "cells": 122,
+     "paragraphs": 3,
+     "subheads": 0,
+     "occurrences": 1
+    },
+    "BR0020": {
+     "title": "XII. 상세표",
+     "order": 44,
+     "level": 1,
+     "tables": 11,
+     "cells": 145,
+     "paragraphs": 64,
+     "subheads": 0,
+     "occurrences": 1
+    },
+    "BR0044": {
+     "title": "XII. 상세표",
+     "order": 50,
+     "level": 1,
+     "tables": 12,
+     "cells": 2364,
+     "paragraphs": 8,
+     "subheads": 0,
+     "occurrences": 1
+    },
+    "BR0053": {
+     "title": "XII. 상세표",
+     "order": 132,
+     "level": 1,
+     "tables": 9,
+     "cells": 997,
+     "paragraphs": 11,
+     "subheads": 0,
+     "occurrences": 1
+    }
+   },
+   "order_consistent": true,
+   "order_conflict": []
+  },
+  {
+   "node": "DT.A001.XII.1",
+   "level": 2,
+   "title": "연결대상 종속회사 현황(상세)",
+   "scope": "common",
+   "present": [
+    "BR0001",
+    "BR0016",
+    "BR0020",
+    "BR0044",
+    "BR0053"
+   ],
+   "absent": [],
+   "coverage": "5/5",
+   "class": "공통",
+   "title_variants": [
+    {
+     "text": "1. 연결대상 종속회사 현황(상세)",
+     "n": 5
+    }
+   ],
+   "per_report": {
+    "BR0001": {
+     "title": "1. 연결대상 종속회사 현황(상세)",
+     "order": 119,
+     "level": 2,
+     "tables": 7,
+     "cells": 1694,
+     "paragraphs": 2,
+     "subheads": 0,
+     "occurrences": 1
+    },
+    "BR0016": {
+     "title": "1. 연결대상 종속회사 현황(상세)",
+     "order": 45,
+     "level": 2,
+     "tables": 3,
+     "cells": 31,
+     "paragraphs": 0,
+     "subheads": 0,
+     "occurrences": 1
+    },
+    "BR0020": {
+     "title": "1. 연결대상 종속회사 현황(상세)",
+     "order": 45,
+     "level": 2,
+     "tables": 3,
+     "cells": 17,
+     "paragraphs": 0,
+     "subheads": 0,
+     "occurrences": 1
+    },
+    "BR0044": {
+     "title": "1. 연결대상 종속회사 현황(상세)",
+     "order": 51,
+     "level": 2,
+     "tables": 3,
+     "cells": 773,
+     "paragraphs": 1,
+     "subheads": 0,
+     "occurrences": 1
+    },
+    "BR0053": {
+     "title": "1. 연결대상 종속회사 현황(상세)",
+     "order": 133,
+     "level": 2,
+     "tables": 3,
+     "cells": 290,
+     "paragraphs": 8,
+     "subheads": 0,
+     "occurrences": 1
+    }
+   },
+   "order_consistent": true,
+   "order_conflict": []
+  },
+  {
+   "node": "DT.A001.XII.2",
+   "level": 2,
+   "title": "계열회사 현황(상세)",
+   "scope": "common",
+   "present": [
+    "BR0001",
+    "BR0016",
+    "BR0020",
+    "BR0044",
+    "BR0053"
+   ],
+   "absent": [],
+   "coverage": "5/5",
+   "class": "공통",
+   "title_variants": [
+    {
+     "text": "2. 계열회사 현황(상세)",
+     "n": 5
+    }
+   ],
+   "per_report": {
+    "BR0001": {
+     "title": "2. 계열회사 현황(상세)",
+     "order": 120,
+     "level": 2,
+     "tables": 5,
+     "cells": 1861,
+     "paragraphs": 2,
+     "subheads": 1,
+     "occurrences": 1
+    },
+    "BR0016": {
+     "title": "2. 계열회사 현황(상세)",
+     "order": 46,
+     "level": 2,
+     "tables": 3,
+     "cells": 21,
+     "paragraphs": 0,
+     "subheads": 0,
+     "occurrences": 1
+    },
+    "BR0020": {
+     "title": "2. 계열회사 현황(상세)",
+     "order": 46,
+     "level": 2,
+     "tables": 3,
+     "cells": 21,
+     "paragraphs": 0,
+     "subheads": 0,
+     "occurrences": 1
+    },
+    "BR0044": {
+     "title": "2. 계열회사 현황(상세)",
+     "order": 52,
+     "level": 2,
+     "tables": 3,
+     "cells": 59,
+     "paragraphs": 0,
+     "subheads": 0,
+     "occurrences": 1
+    },
+    "BR0053": {
+     "title": "2. 계열회사 현황(상세)",
+     "order": 134,
+     "level": 2,
+     "tables": 3,
+     "cells": 29,
+     "paragraphs": 0,
+     "subheads": 0,
+     "occurrences": 1
+    }
+   },
+   "order_consistent": true,
+   "order_conflict": []
+  },
+  {
+   "node": "DT.A001.XII.3",
+   "level": 2,
+   "title": "타법인출자 현황(상세)",
+   "scope": "common",
+   "present": [
+    "BR0001",
+    "BR0016",
+    "BR0020",
+    "BR0044",
+    "BR0053"
+   ],
+   "absent": [],
+   "coverage": "5/5",
+   "class": "공통",
+   "title_variants": [
+    {
+     "text": "3. 타법인출자 현황(상세)",
+     "n": 5
+    }
+   ],
+   "per_report": {
+    "BR0001": {
+     "title": "3. 타법인출자 현황(상세)",
+     "order": 121,
+     "level": 2,
+     "tables": 4,
+     "cells": 2231,
+     "paragraphs": 0,
+     "subheads": 0,
+     "occurrences": 1
+    },
+    "BR0016": {
+     "title": "3. 타법인출자 현황(상세)",
+     "order": 47,
+     "level": 2,
+     "tables": 3,
+     "cells": 70,
+     "paragraphs": 0,
+     "subheads": 0,
+     "occurrences": 1
+    },
+    "BR0020": {
+     "title": "3. 타법인출자 현황(상세)",
+     "order": 47,
+     "level": 2,
+     "tables": 5,
+     "cells": 107,
+     "paragraphs": 61,
+     "subheads": 0,
+     "occurrences": 1
+    },
+    "BR0044": {
+     "title": "3. 타법인출자 현황(상세)",
+     "order": 53,
+     "level": 2,
+     "tables": 3,
+     "cells": 1158,
+     "paragraphs": 1,
+     "subheads": 0,
+     "occurrences": 1
+    },
+    "BR0053": {
+     "title": "3. 타법인출자 현황(상세)",
+     "order": 135,
+     "level": 2,
+     "tables": 3,
+     "cells": 678,
+     "paragraphs": 0,
+     "subheads": 0,
+     "occurrences": 1
+    }
+   },
+   "order_consistent": true,
+   "order_conflict": []
+  },
+  {
+   "node": "DT.A001.XII.4",
+   "level": 2,
+   "title": "연구개발실적(상세) / 업종별 상세표",
+   "scope": "common",
+   "present": [],
+   "absent": [
+    "BR0001",
+    "BR0016",
+    "BR0020",
+    "BR0044",
+    "BR0053"
+   ],
+   "coverage": "0/5",
+   "class": "미관찰",
+   "title_variants": [],
+   "per_report": {},
+   "order_consistent": true,
+   "order_conflict": []
+  },
+  {
+   "node": "DT.A001.XII.4.01",
+   "level": 3,
+   "title": "연구개발실적 상세",
+   "scope": "industry:제조",
+   "present": [
+    "BR0001"
+   ],
+   "absent": [
+    "BR0016",
+    "BR0020",
+    "BR0044",
+    "BR0053"
+   ],
+   "coverage": "1/5",
+   "class": "단독",
+   "title_variants": [
+    {
+     "text": "4. 연구개발실적(상세)",
+     "n": 1
+    }
+   ],
+   "per_report": {
+    "BR0001": {
+     "title": "4. 연구개발실적(상세)",
+     "order": 122,
+     "level": 2,
+     "tables": 2,
+     "cells": 177,
+     "paragraphs": 869,
+     "subheads": 2,
+     "occurrences": 1
+    }
+   },
+   "order_consistent": true
+  },
+  {
+   "node": "DT.A001.XII.4.02",
+   "level": 3,
+   "title": "모집형태별 원수보험료(상세)",
+   "scope": "industry:보험",
+   "present": [
+    "BR0044"
+   ],
+   "absent": [
+    "BR0001",
+    "BR0016",
+    "BR0020",
+    "BR0053"
+   ],
+   "coverage": "1/5",
+   "class": "단독",
+   "title_variants": [
+    {
+     "text": "4. 모집형태별 원수보험료(상세)",
+     "n": 1
+    }
+   ],
+   "per_report": {
+    "BR0044": {
+     "title": "4. 모집형태별 원수보험료(상세)",
+     "order": 54,
+     "level": 2,
+     "tables": 3,
+     "cells": 374,
+     "paragraphs": 2,
+     "subheads": 0,
+     "occurrences": 1
+    }
+   },
+   "order_consistent": true
+  },
+  {
+   "node": "DT.A001.EXP",
+   "level": 1,
+   "title": "전문가의 확인",
+   "scope": "common",
+   "present": [
+    "BR0001",
+    "BR0016",
+    "BR0020",
+    "BR0044",
+    "BR0053"
+   ],
+   "absent": [],
+   "coverage": "5/5",
+   "class": "공통",
+   "title_variants": [
+    {
+     "text": "【 전문가의 확인 】",
+     "n": 5
+    }
+   ],
+   "per_report": {
+    "BR0001": {
+     "title": "【 전문가의 확인 】",
+     "order": 123,
+     "level": 1,
+     "tables": 0,
+     "cells": 0,
+     "paragraphs": 2,
+     "subheads": 0,
+     "occurrences": 1
+    },
+    "BR0016": {
+     "title": "【 전문가의 확인 】",
+     "order": 48,
+     "level": 1,
+     "tables": 0,
+     "cells": 0,
+     "paragraphs": 4,
+     "subheads": 0,
+     "occurrences": 1
+    },
+    "BR0020": {
+     "title": "【 전문가의 확인 】",
+     "order": 48,
+     "level": 1,
+     "tables": 0,
+     "cells": 0,
+     "paragraphs": 4,
+     "subheads": 0,
+     "occurrences": 1
+    },
+    "BR0044": {
+     "title": "【 전문가의 확인 】",
+     "order": 55,
+     "level": 1,
+     "tables": 0,
+     "cells": 0,
+     "paragraphs": 4,
+     "subheads": 0,
+     "occurrences": 1
+    },
+    "BR0053": {
+     "title": "【 전문가의 확인 】",
+     "order": 136,
+     "level": 1,
+     "tables": 0,
+     "cells": 0,
+     "paragraphs": 4,
+     "subheads": 0,
+     "occurrences": 1
+    }
+   },
+   "order_consistent": true,
+   "order_conflict": []
+  },
+  {
+   "node": "DT.A001.EXP.1",
+   "level": 2,
+   "title": "전문가의 확인",
+   "scope": "common",
+   "present": [
+    "BR0001",
+    "BR0016",
+    "BR0020",
+    "BR0044",
+    "BR0053"
+   ],
+   "absent": [],
+   "coverage": "5/5",
+   "class": "공통",
+   "title_variants": [
+    {
+     "text": "1. 전문가의 확인",
+     "n": 5
+    }
+   ],
+   "per_report": {
+    "BR0001": {
+     "title": "1. 전문가의 확인",
+     "order": 124,
+     "level": 2,
+     "tables": 0,
+     "cells": 0,
+     "paragraphs": 0,
+     "subheads": 0,
+     "occurrences": 1
+    },
+    "BR0016": {
+     "title": "1. 전문가의 확인",
+     "order": 49,
+     "level": 2,
+     "tables": 0,
+     "cells": 0,
+     "paragraphs": 1,
+     "subheads": 0,
+     "occurrences": 1
+    },
+    "BR0020": {
+     "title": "1. 전문가의 확인",
+     "order": 49,
+     "level": 2,
+     "tables": 0,
+     "cells": 0,
+     "paragraphs": 1,
+     "subheads": 0,
+     "occurrences": 1
+    },
+    "BR0044": {
+     "title": "1. 전문가의 확인",
+     "order": 56,
+     "level": 2,
+     "tables": 0,
+     "cells": 0,
+     "paragraphs": 1,
+     "subheads": 0,
+     "occurrences": 1
+    },
+    "BR0053": {
+     "title": "1. 전문가의 확인",
+     "order": 137,
+     "level": 2,
+     "tables": 0,
+     "cells": 0,
+     "paragraphs": 1,
+     "subheads": 0,
+     "occurrences": 1
+    }
+   },
+   "order_consistent": true,
+   "order_conflict": []
+  },
+  {
+   "node": "DT.A001.EXP.2",
+   "level": 2,
+   "title": "전문가와의 이해관계",
+   "scope": "common",
+   "present": [
+    "BR0001",
+    "BR0016",
+    "BR0020",
+    "BR0044",
+    "BR0053"
+   ],
+   "absent": [],
+   "coverage": "5/5",
+   "class": "공통",
+   "title_variants": [
+    {
+     "text": "2. 전문가와의 이해관계",
+     "n": 5
+    }
+   ],
+   "per_report": {
+    "BR0001": {
+     "title": "2. 전문가와의 이해관계",
+     "order": 125,
+     "level": 2,
+     "tables": 0,
+     "cells": 0,
+     "paragraphs": 0,
+     "subheads": 0,
+     "occurrences": 1
+    },
+    "BR0016": {
+     "title": "2. 전문가와의 이해관계",
+     "order": 50,
+     "level": 2,
+     "tables": 0,
+     "cells": 0,
+     "paragraphs": 1,
+     "subheads": 0,
+     "occurrences": 1
+    },
+    "BR0020": {
+     "title": "2. 전문가와의 이해관계",
+     "order": 50,
+     "level": 2,
+     "tables": 0,
+     "cells": 0,
+     "paragraphs": 1,
+     "subheads": 0,
+     "occurrences": 1
+    },
+    "BR0044": {
+     "title": "2. 전문가와의 이해관계",
+     "order": 57,
+     "level": 2,
+     "tables": 0,
+     "cells": 0,
+     "paragraphs": 1,
+     "subheads": 0,
+     "occurrences": 1
+    },
+    "BR0053": {
+     "title": "2. 전문가와의 이해관계",
+     "order": 138,
+     "level": 2,
+     "tables": 0,
+     "cells": 0,
+     "paragraphs": 1,
+     "subheads": 0,
+     "occurrences": 1
+    }
+   },
+   "order_consistent": true,
+   "order_conflict": []
+  }
+ ],
+ "unmatched": {},
+ "summary": {
+  "L1": {
+   "공통": 15,
+   "일부": 0,
+   "단독": 0,
+   "미관찰": 0,
+   "총": 15
+  },
+  "L2": {
+   "공통": 30,
+   "일부": 6,
+   "단독": 4,
+   "미관찰": 22,
+   "총": 62
+  },
+  "L3": {
+   "공통": 0,
+   "일부": 57,
+   "단독": 15,
+   "미관찰": 0,
+   "총": 72
+  }
+ }
+}

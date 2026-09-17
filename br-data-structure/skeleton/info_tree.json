@@ -1,0 +1,1130 @@
+{
+ "root": {
+  "code": "IT",
+  "title": "기업정보 정보 트리 v0",
+  "desc": "단일 부모·MECE 형제 원칙. 기업·기간·통화·단위는 노드가 아니라 관측의 문맥 조건.",
+  "skills": [],
+  "external": false,
+  "children": [
+   {
+    "code": "1",
+    "title": "기업 식별·개요",
+    "desc": null,
+    "skills": [],
+    "external": false,
+    "children": [
+     {
+      "code": "1.1",
+      "title": "법인 식별(명칭·코드·고유번호·설립일·소재지·업종)",
+      "desc": null,
+      "skills": [
+       "overview"
+      ],
+      "external": false,
+      "children": [],
+      "id": "IT.1.1",
+      "level": 2
+     },
+     {
+      "code": "1.2",
+      "title": "상장·시장 정보(시장·특례상장)",
+      "desc": null,
+      "skills": [
+       "overview",
+       "val"
+      ],
+      "external": false,
+      "children": [],
+      "id": "IT.1.2",
+      "level": 2
+     },
+     {
+      "code": "1.3",
+      "title": "기업 규모·분류(중소기업·벤처·중견)",
+      "desc": null,
+      "skills": [
+       "overview"
+      ],
+      "external": false,
+      "children": [],
+      "id": "IT.1.3",
+      "level": 2
+     },
+     {
+      "code": "1.4",
+      "title": "신용등급",
+      "desc": null,
+      "skills": [
+       "overview",
+       "fdd"
+      ],
+      "external": false,
+      "children": [],
+      "id": "IT.1.4",
+      "level": 2
+     },
+     {
+      "code": "1.5",
+      "title": "연혁·기업 사건 이력(상호·본점·경영진·최대주주 변동, 합병·분할)",
+      "desc": null,
+      "skills": [
+       "overview",
+       "ts"
+      ],
+      "external": false,
+      "children": [],
+      "id": "IT.1.5",
+      "level": 2
+     }
+    ],
+    "id": "IT.1",
+    "level": 1
+   },
+   {
+    "code": "2",
+    "title": "지배구조·조직·인력",
+    "desc": null,
+    "skills": [],
+    "external": false,
+    "children": [
+     {
+      "code": "2.1",
+      "title": "이사회(구성·의결사항·위원회·독립성·사외이사)",
+      "desc": null,
+      "skills": [
+       "overview",
+       "fdd"
+      ],
+      "external": false,
+      "children": [],
+      "id": "IT.2.1",
+      "level": 2
+     },
+     {
+      "code": "2.2",
+      "title": "감사기구(감사위원회·감사·준법지원인)",
+      "desc": null,
+      "skills": [
+       "overview"
+      ],
+      "external": false,
+      "children": [],
+      "id": "IT.2.2",
+      "level": 2
+     },
+     {
+      "code": "2.3",
+      "title": "주주총회·의결권·투표제도·주식사무",
+      "desc": null,
+      "skills": [
+       "overview"
+      ],
+      "external": false,
+      "children": [],
+      "id": "IT.2.3",
+      "level": 2
+     },
+     {
+      "code": "2.4",
+      "title": "정관(사업목적·정관 변경)",
+      "desc": null,
+      "skills": [
+       "overview"
+      ],
+      "external": false,
+      "children": [],
+      "id": "IT.2.4",
+      "level": 2
+     },
+     {
+      "code": "2.5",
+      "title": "임원(등기·미등기 현황·겸직·후보)",
+      "desc": null,
+      "skills": [
+       "overview",
+       "fdd"
+      ],
+      "external": false,
+      "children": [],
+      "id": "IT.2.5",
+      "level": 2
+     },
+     {
+      "code": "2.6",
+      "title": "직원(인원·근속·급여)",
+      "desc": null,
+      "skills": [
+       "overview",
+       "peer"
+      ],
+      "external": false,
+      "children": [],
+      "id": "IT.2.6",
+      "level": 2
+     },
+     {
+      "code": "2.7",
+      "title": "보수(이사·감사 보수·개인별·미등기임원·주식기준보상·스톡옵션)",
+      "desc": null,
+      "skills": [
+       "overview",
+       "fdd"
+      ],
+      "external": false,
+      "children": [],
+      "id": "IT.2.7",
+      "level": 2
+     }
+    ],
+    "id": "IT.2",
+    "level": 1
+   },
+   {
+    "code": "3",
+    "title": "주주·자본·주식",
+    "desc": null,
+    "skills": [],
+    "external": false,
+    "children": [
+     {
+      "code": "3.1",
+      "title": "주식 총수·종류·유통주식",
+      "desc": null,
+      "skills": [
+       "val"
+      ],
+      "external": false,
+      "children": [],
+      "id": "IT.3.1",
+      "level": 2
+     },
+     {
+      "code": "3.2",
+      "title": "자본금 변동(증자·감자)",
+      "desc": null,
+      "skills": [
+       "ts",
+       "val"
+      ],
+      "external": false,
+      "children": [],
+      "id": "IT.3.2",
+      "level": 2
+     },
+     {
+      "code": "3.3",
+      "title": "자기주식(보유·취득·처분·소각·계획)",
+      "desc": null,
+      "skills": [
+       "val",
+       "fdd"
+      ],
+      "external": false,
+      "children": [],
+      "id": "IT.3.3",
+      "level": 2
+     },
+     {
+      "code": "3.4",
+      "title": "주주 구성(최대주주·특수관계인·5%·소액주주·우리사주)",
+      "desc": null,
+      "skills": [
+       "overview",
+       "fdd"
+      ],
+      "external": false,
+      "children": [],
+      "id": "IT.3.4",
+      "level": 2
+     },
+     {
+      "code": "3.5",
+      "title": "최대주주 정보·변동",
+      "desc": null,
+      "skills": [
+       "overview"
+      ],
+      "external": false,
+      "children": [],
+      "id": "IT.3.5",
+      "level": 2
+     },
+     {
+      "code": "3.6",
+      "title": "배당(정책·지표·이력·절차)",
+      "desc": null,
+      "skills": [
+       "ts",
+       "peer",
+       "val"
+      ],
+      "external": false,
+      "children": [],
+      "id": "IT.3.6",
+      "level": 2
+     },
+     {
+      "code": "3.7",
+      "title": "주가·주식거래실적(공시 기재)",
+      "desc": null,
+      "skills": [
+       "val"
+      ],
+      "external": false,
+      "children": [],
+      "id": "IT.3.7",
+      "level": 2
+     }
+    ],
+    "id": "IT.3",
+    "level": 1
+   },
+   {
+    "code": "4",
+    "title": "사업",
+    "desc": null,
+    "skills": [],
+    "external": false,
+    "children": [
+     {
+      "code": "4.1",
+      "title": "사업 개요·사업부문 구성",
+      "desc": null,
+      "skills": [
+       "overview",
+       "peer"
+      ],
+      "external": false,
+      "children": [],
+      "id": "IT.4.1",
+      "level": 2
+     },
+     {
+      "code": "4.2",
+      "title": "제품·서비스(현황·가격)",
+      "desc": null,
+      "skills": [
+       "overview",
+       "peer"
+      ],
+      "external": false,
+      "children": [],
+      "id": "IT.4.2",
+      "level": 2
+     },
+     {
+      "code": "4.3",
+      "title": "원재료·매입",
+      "desc": null,
+      "skills": [
+       "overview",
+       "fdd"
+      ],
+      "external": false,
+      "children": [],
+      "id": "IT.4.3",
+      "level": 2
+     },
+     {
+      "code": "4.4",
+      "title": "생산(능력·실적·가동률·설비·투자계획)",
+      "desc": null,
+      "skills": [
+       "overview",
+       "fdd"
+      ],
+      "external": false,
+      "children": [],
+      "id": "IT.4.4",
+      "level": 2
+     },
+     {
+      "code": "4.5",
+      "title": "매출(실적·유형·지역·매출처·판매경로)",
+      "desc": null,
+      "skills": [
+       "overview",
+       "ts",
+       "peer",
+       "fdd"
+      ],
+      "external": false,
+      "children": [],
+      "id": "IT.4.5",
+      "level": 2
+     },
+     {
+      "code": "4.6",
+      "title": "수주",
+      "desc": null,
+      "skills": [
+       "fdd"
+      ],
+      "external": false,
+      "children": [],
+      "id": "IT.4.6",
+      "level": 2
+     },
+     {
+      "code": "4.7",
+      "title": "연구개발(조직·비용·실적)",
+      "desc": null,
+      "skills": [
+       "overview",
+       "peer"
+      ],
+      "external": false,
+      "children": [],
+      "id": "IT.4.7",
+      "level": 2
+     },
+     {
+      "code": "4.8",
+      "title": "주요 계약(라이선스·공급·기술이전)",
+      "desc": null,
+      "skills": [
+       "overview",
+       "fdd"
+      ],
+      "external": false,
+      "children": [],
+      "id": "IT.4.8",
+      "level": 2
+     },
+     {
+      "code": "4.9",
+      "title": "지식재산권",
+      "desc": null,
+      "skills": [
+       "overview"
+      ],
+      "external": false,
+      "children": [],
+      "id": "IT.4.9",
+      "level": 2
+     },
+     {
+      "code": "4.10",
+      "title": "산업·시장 환경(특성·규제·경쟁·점유율)",
+      "desc": null,
+      "skills": [
+       "overview",
+       "peer"
+      ],
+      "external": false,
+      "children": [],
+      "id": "IT.4.10",
+      "level": 2
+     },
+     {
+      "code": "4.11",
+      "title": "환경·안전·ESG(온실가스·인증)",
+      "desc": null,
+      "skills": [
+       "overview"
+      ],
+      "external": false,
+      "children": [],
+      "id": "IT.4.11",
+      "level": 2
+     },
+     {
+      "code": "4.12",
+      "title": "금융업 영업지표(보험료·보험금·운용자산·건전성·영업설비)",
+      "desc": null,
+      "skills": [
+       "overview",
+       "peer"
+      ],
+      "external": false,
+      "children": [],
+      "id": "IT.4.12",
+      "level": 2
+     },
+     {
+      "code": "4.13",
+      "title": "투자자산 운용(리츠·투자회사의 기초자산·임차·운용사)",
+      "desc": null,
+      "skills": [
+       "overview"
+      ],
+      "external": false,
+      "children": [],
+      "id": "IT.4.13",
+      "level": 2
+     }
+    ],
+    "id": "IT.4",
+    "level": 1
+   },
+   {
+    "code": "5",
+    "title": "재무",
+    "desc": null,
+    "skills": [],
+    "external": false,
+    "children": [
+     {
+      "code": "5.1",
+      "title": "재무상태(자산·부채·자본 계정)",
+      "desc": null,
+      "skills": [
+       "ts",
+       "peer",
+       "fdd",
+       "val"
+      ],
+      "external": false,
+      "children": [],
+      "id": "IT.5.1",
+      "level": 2
+     },
+     {
+      "code": "5.2",
+      "title": "손익(매출·원가·판관비·영업이익·금융손익·법인세·순이익·포괄손익)",
+      "desc": null,
+      "skills": [
+       "ts",
+       "peer",
+       "fdd",
+       "val"
+      ],
+      "external": false,
+      "children": [],
+      "id": "IT.5.2",
+      "level": 2
+     },
+     {
+      "code": "5.3",
+      "title": "현금흐름",
+      "desc": null,
+      "skills": [
+       "ts",
+       "fdd",
+       "val"
+      ],
+      "external": false,
+      "children": [],
+      "id": "IT.5.3",
+      "level": 2
+     },
+     {
+      "code": "5.4",
+      "title": "자본변동",
+      "desc": null,
+      "skills": [
+       "ts"
+      ],
+      "external": false,
+      "children": [],
+      "id": "IT.5.4",
+      "level": 2
+     },
+     {
+      "code": "5.5",
+      "title": "주당지표(EPS 등)",
+      "desc": null,
+      "skills": [
+       "peer",
+       "val"
+      ],
+      "external": false,
+      "children": [],
+      "id": "IT.5.5",
+      "level": 2
+     },
+     {
+      "code": "5.6",
+      "title": "회계정책·추정·기준서 적용",
+      "desc": null,
+      "skills": [
+       "fdd",
+       "peer"
+      ],
+      "external": false,
+      "children": [],
+      "id": "IT.5.6",
+      "level": 2
+     },
+     {
+      "code": "5.7",
+      "title": "금융상품 범주·공정가치·재무위험관리",
+      "desc": null,
+      "skills": [
+       "fdd"
+      ],
+      "external": false,
+      "children": [],
+      "id": "IT.5.7",
+      "level": 2
+     },
+     {
+      "code": "5.8",
+      "title": "자산 세부(채권·재고·투자·유형·무형·투자부동산·매각예정)",
+      "desc": null,
+      "skills": [
+       "fdd",
+       "val"
+      ],
+      "external": false,
+      "children": [],
+      "id": "IT.5.8",
+      "level": 2
+     },
+     {
+      "code": "5.9",
+      "title": "부채 세부(차입·사채·리스·충당·종업원급여·계약부채)",
+      "desc": null,
+      "skills": [
+       "fdd",
+       "val"
+      ],
+      "external": false,
+      "children": [],
+      "id": "IT.5.9",
+      "level": 2
+     },
+     {
+      "code": "5.10",
+      "title": "자본 세부(자본금·잉여금·기타자본·비지배지분·이익잉여금 처분)",
+      "desc": null,
+      "skills": [
+       "fdd",
+       "val"
+      ],
+      "external": false,
+      "children": [],
+      "id": "IT.5.10",
+      "level": 2
+     },
+     {
+      "code": "5.11",
+      "title": "수익·비용 세부(수익인식·비용 성격별·주식기준보상·정부보조금)",
+      "desc": null,
+      "skills": [
+       "fdd"
+      ],
+      "external": false,
+      "children": [],
+      "id": "IT.5.11",
+      "level": 2
+     },
+     {
+      "code": "5.12",
+      "title": "부문정보",
+      "desc": null,
+      "skills": [
+       "peer",
+       "val"
+      ],
+      "external": false,
+      "children": [],
+      "id": "IT.5.12",
+      "level": 2
+     },
+     {
+      "code": "5.13",
+      "title": "사업결합·중단영업",
+      "desc": null,
+      "skills": [
+       "fdd",
+       "val"
+      ],
+      "external": false,
+      "children": [],
+      "id": "IT.5.13",
+      "level": 2
+     },
+     {
+      "code": "5.14",
+      "title": "요약 재무정보(3개년)",
+      "desc": null,
+      "skills": [
+       "ts",
+       "peer"
+      ],
+      "external": false,
+      "children": [],
+      "id": "IT.5.14",
+      "level": 2
+     },
+     {
+      "code": "5.15",
+      "title": "대손충당금·재고·수주계약 현황(기타 재무사항)",
+      "desc": null,
+      "skills": [
+       "fdd"
+      ],
+      "external": false,
+      "children": [],
+      "id": "IT.5.15",
+      "level": 2
+     },
+     {
+      "code": "5.16",
+      "title": "재무제표 재작성·오류수정·기준 전환 영향",
+      "desc": null,
+      "skills": [
+       "ts",
+       "fdd"
+      ],
+      "external": false,
+      "children": [],
+      "id": "IT.5.16",
+      "level": 2
+     },
+     {
+      "code": "5.17",
+      "title": "보험계약 회계(보험업)",
+      "desc": null,
+      "skills": [
+       "peer",
+       "fdd"
+      ],
+      "external": false,
+      "children": [],
+      "id": "IT.5.17",
+      "level": 2
+     }
+    ],
+    "id": "IT.5",
+    "level": 1
+   },
+   {
+    "code": "6",
+    "title": "자금조달·증권",
+    "desc": null,
+    "skills": [],
+    "external": false,
+    "children": [
+     {
+      "code": "6.1",
+      "title": "증권 발행 실적(지분·채무)",
+      "desc": null,
+      "skills": [
+       "fdd",
+       "val"
+      ],
+      "external": false,
+      "children": [],
+      "id": "IT.6.1",
+      "level": 2
+     },
+     {
+      "code": "6.2",
+      "title": "미상환 증권 잔액(CB·BW·CP·단기사채·회사채·신종·조건부)",
+      "desc": null,
+      "skills": [
+       "fdd",
+       "val"
+      ],
+      "external": false,
+      "children": [],
+      "id": "IT.6.2",
+      "level": 2
+     },
+     {
+      "code": "6.3",
+      "title": "사채관리계약·재무약정(covenants)",
+      "desc": null,
+      "skills": [
+       "fdd"
+      ],
+      "external": false,
+      "children": [],
+      "id": "IT.6.3",
+      "level": 2
+     },
+     {
+      "code": "6.4",
+      "title": "조달자금 사용실적(계획 vs 실제)",
+      "desc": null,
+      "skills": [
+       "fdd"
+      ],
+      "external": false,
+      "children": [],
+      "id": "IT.6.4",
+      "level": 2
+     },
+     {
+      "code": "6.5",
+      "title": "파생상품·풋백옵션 거래",
+      "desc": null,
+      "skills": [
+       "fdd"
+      ],
+      "external": false,
+      "children": [],
+      "id": "IT.6.5",
+      "level": 2
+     }
+    ],
+    "id": "IT.6",
+    "level": 1
+   },
+   {
+    "code": "7",
+    "title": "관계·거래",
+    "desc": null,
+    "skills": [],
+    "external": false,
+    "children": [
+     {
+      "code": "7.1",
+      "title": "연결범위·종속기업(현황·변동)",
+      "desc": null,
+      "skills": [
+       "overview",
+       "fdd",
+       "val"
+      ],
+      "external": false,
+      "children": [],
+      "id": "IT.7.1",
+      "level": 2
+     },
+     {
+      "code": "7.2",
+      "title": "계열회사·기업집단(현황·출자·임원겸직)",
+      "desc": null,
+      "skills": [
+       "overview",
+       "fdd"
+      ],
+      "external": false,
+      "children": [],
+      "id": "IT.7.2",
+      "level": 2
+     },
+     {
+      "code": "7.3",
+      "title": "관계·공동기업·타법인 출자",
+      "desc": null,
+      "skills": [
+       "fdd",
+       "val"
+      ],
+      "external": false,
+      "children": [],
+      "id": "IT.7.3",
+      "level": 2
+     },
+     {
+      "code": "7.4",
+      "title": "특수관계자 거래(거래·채권채무·경영진 보상)",
+      "desc": null,
+      "skills": [
+       "fdd"
+      ],
+      "external": false,
+      "children": [],
+      "id": "IT.7.4",
+      "level": 2
+     },
+     {
+      "code": "7.5",
+      "title": "대주주 등과의 거래(신용공여·자산양수도·영업거래)",
+      "desc": null,
+      "skills": [
+       "fdd"
+      ],
+      "external": false,
+      "children": [],
+      "id": "IT.7.5",
+      "level": 2
+     },
+     {
+      "code": "7.6",
+      "title": "채무보증·담보제공(제공/수취)",
+      "desc": null,
+      "skills": [
+       "fdd",
+       "val"
+      ],
+      "external": false,
+      "children": [],
+      "id": "IT.7.6",
+      "level": 2
+     }
+    ],
+    "id": "IT.7",
+    "level": 1
+   },
+   {
+    "code": "8",
+    "title": "리스크·우발·법규",
+    "desc": null,
+    "skills": [],
+    "external": false,
+    "children": [
+     {
+      "code": "8.1",
+      "title": "우발부채·소송",
+      "desc": null,
+      "skills": [
+       "fdd"
+      ],
+      "external": false,
+      "children": [],
+      "id": "IT.8.1",
+      "level": 2
+     },
+     {
+      "code": "8.2",
+      "title": "약정사항(여신한도·자본지출·어음수표 담보)",
+      "desc": null,
+      "skills": [
+       "fdd"
+      ],
+      "external": false,
+      "children": [],
+      "id": "IT.8.2",
+      "level": 2
+     },
+     {
+      "code": "8.3",
+      "title": "제재·법규 위반·단기매매차익",
+      "desc": null,
+      "skills": [
+       "overview",
+       "fdd"
+      ],
+      "external": false,
+      "children": [],
+      "id": "IT.8.3",
+      "level": 2
+     },
+     {
+      "code": "8.4",
+      "title": "후속사건(보고기간 후·작성기준일 이후)",
+      "desc": null,
+      "skills": [
+       "ts",
+       "fdd"
+      ],
+      "external": false,
+      "children": [],
+      "id": "IT.8.4",
+      "level": 2
+     },
+     {
+      "code": "8.5",
+      "title": "공시 진행·변경사항",
+      "desc": null,
+      "skills": [
+       "overview"
+      ],
+      "external": false,
+      "children": [],
+      "id": "IT.8.5",
+      "level": 2
+     },
+     {
+      "code": "8.6",
+      "title": "기타 투자자 보호(보호예수·인증·후원)",
+      "desc": null,
+      "skills": [
+       "overview"
+      ],
+      "external": false,
+      "children": [],
+      "id": "IT.8.6",
+      "level": 2
+     }
+    ],
+    "id": "IT.8",
+    "level": 1
+   },
+   {
+    "code": "9",
+    "title": "감사·내부통제",
+    "desc": null,
+    "skills": [],
+    "external": false,
+    "children": [
+     {
+      "code": "9.1",
+      "title": "외부감사인·감사의견·핵심감사사항",
+      "desc": null,
+      "skills": [
+       "overview",
+       "fdd"
+      ],
+      "external": false,
+      "children": [],
+      "id": "IT.9.1",
+      "level": 2
+     },
+     {
+      "code": "9.2",
+      "title": "감사보수·비감사용역·감사인 논의사항",
+      "desc": null,
+      "skills": [
+       "overview"
+      ],
+      "external": false,
+      "children": [],
+      "id": "IT.9.2",
+      "level": 2
+     },
+     {
+      "code": "9.3",
+      "title": "내부회계관리제도·내부통제 평가",
+      "desc": null,
+      "skills": [
+       "fdd"
+      ],
+      "external": false,
+      "children": [],
+      "id": "IT.9.3",
+      "level": 2
+     },
+     {
+      "code": "9.4",
+      "title": "감사인 변경",
+      "desc": null,
+      "skills": [
+       "overview"
+      ],
+      "external": false,
+      "children": [],
+      "id": "IT.9.4",
+      "level": 2
+     }
+    ],
+    "id": "IT.9",
+    "level": 1
+   },
+   {
+    "code": "10",
+    "title": "경영진 분석·전망(MD&A)",
+    "desc": null,
+    "skills": [],
+    "external": false,
+    "children": [
+     {
+      "code": "10.1",
+      "title": "예측정보 주의·전망 진술",
+      "desc": null,
+      "skills": [
+       "overview"
+      ],
+      "external": false,
+      "children": [],
+      "id": "IT.10.1",
+      "level": 2
+     },
+     {
+      "code": "10.2",
+      "title": "경영진의 실적·재무상태 분석",
+      "desc": null,
+      "skills": [
+       "overview",
+       "fdd"
+      ],
+      "external": false,
+      "children": [],
+      "id": "IT.10.2",
+      "level": 2
+     },
+     {
+      "code": "10.3",
+      "title": "유동성·자금조달 분석",
+      "desc": null,
+      "skills": [
+       "fdd",
+       "val"
+      ],
+      "external": false,
+      "children": [],
+      "id": "IT.10.3",
+      "level": 2
+     },
+     {
+      "code": "10.4",
+      "title": "부외거래",
+      "desc": null,
+      "skills": [
+       "fdd"
+      ],
+      "external": false,
+      "children": [],
+      "id": "IT.10.4",
+      "level": 2
+     },
+     {
+      "code": "10.5",
+      "title": "기타 투자의사결정 필요사항(회계정책 판단·리스크 관리 서술)",
+      "desc": null,
+      "skills": [
+       "fdd"
+      ],
+      "external": false,
+      "children": [],
+      "id": "IT.10.5",
+      "level": 2
+     }
+    ],
+    "id": "IT.10",
+    "level": 1
+   },
+   {
+    "code": "11",
+    "title": "시장·외부 데이터(DART 외 원천)",
+    "desc": null,
+    "skills": [],
+    "external": true,
+    "children": [
+     {
+      "code": "11.1",
+      "title": "주가·수정주가·시가총액(시장 데이터)",
+      "desc": null,
+      "skills": [
+       "val"
+      ],
+      "external": true,
+      "children": [],
+      "id": "IT.11.1",
+      "level": 2
+     },
+     {
+      "code": "11.2",
+      "title": "금리·환율·지수",
+      "desc": null,
+      "skills": [
+       "val"
+      ],
+      "external": true,
+      "children": [],
+      "id": "IT.11.2",
+      "level": 2
+     },
+     {
+      "code": "11.3",
+      "title": "IR·증권사 리서치 정성 정보(OKF)",
+      "desc": null,
+      "skills": [
+       "overview"
+      ],
+      "external": true,
+      "children": [],
+      "id": "IT.11.3",
+      "level": 2
+     }
+    ],
+    "id": "IT.11",
+    "level": 1
+   }
+  ],
+  "id": "IT",
+  "level": 0
+ },
+ "skills": {
+  "overview": "기업 종합분석",
+  "ts": "시계열",
+  "peer": "기업 간 비교",
+  "fdd": "재무실사(FDD)",
+  "val": "가치평가"
+ }
+}

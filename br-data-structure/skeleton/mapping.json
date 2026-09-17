@@ -1,0 +1,2250 @@
+{
+ "levels": {
+  "topic": "주제 연결: 해당 원문 범위에 관련 정보가 존재함을 안내. 하위 셀의 의미 확정·계산 투입 허용은 보장하지 않음(TGT 4.3).",
+  "item": "항목 대응 후보: 이 표 유형의 셀이 해당 정보항목의 관측을 담는다는 서식 수준 대응. 개별 셀 매핑은 문맥 검사를 통과한 뒤 인스턴스에서 확정."
+ },
+ "rules": [
+  "대응 간선은 sameAs·합산·계산 관계를 내포하지 않는다.",
+  "정보 트리는 단일 부모지만 데이터 노드 하나가 여러 정보 노드에 대응할 수 있다(N:M).",
+  "동일 정보의 반복 발생(예: 증자현황이 I.3과 III.7에 모두 기재)은 별개 원문 발생으로 보존하고 합산하지 않는다."
+ ],
+ "edges": [
+  {
+   "data": "DT.A001.COVER",
+   "info": [
+    "IT.1.1"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.CONF",
+   "info": [
+    "IT.9.3"
+   ],
+   "level": "topic",
+   "note": "대표이사 확인은 내부통제·책임 진술"
+  },
+  {
+   "data": "DT.A001.I.1",
+   "info": [
+    "IT.1.1",
+    "IT.1.2",
+    "IT.1.3",
+    "IT.1.4",
+    "IT.7.1"
+   ],
+   "level": "topic",
+   "note": null
+  },
+  {
+   "data": "DT.A001.I.1.01",
+   "info": [
+    "IT.7.1"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.I.1.02",
+   "info": [
+    "IT.7.1"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.I.1.03",
+   "info": [
+    "IT.1.1"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.I.1.04",
+   "info": [
+    "IT.1.1"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.I.1.05",
+   "info": [
+    "IT.1.1"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.I.1.06",
+   "info": [
+    "IT.1.3"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.I.1.07",
+   "info": [
+    "IT.4.1"
+   ],
+   "level": "topic",
+   "note": null
+  },
+  {
+   "data": "DT.A001.I.1.08",
+   "info": [
+    "IT.1.4"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.I.1.09",
+   "info": [
+    "IT.1.2"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.I.2",
+   "info": [
+    "IT.1.5"
+   ],
+   "level": "topic",
+   "note": null
+  },
+  {
+   "data": "DT.A001.I.2.02",
+   "info": [
+    "IT.2.5",
+    "IT.1.5"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.I.2.03",
+   "info": [
+    "IT.3.5",
+    "IT.1.5"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.I.2.06",
+   "info": [
+    "IT.5.13",
+    "IT.1.5"
+   ],
+   "level": "item",
+   "note": "합병 사건은 사건 상태(결의/승인/효력)를 보존"
+  },
+  {
+   "data": "DT.A001.I.3",
+   "info": [
+    "IT.3.2"
+   ],
+   "level": "topic",
+   "note": null
+  },
+  {
+   "data": "DT.A001.I.3.01",
+   "info": [
+    "IT.3.2"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.I.4",
+   "info": [
+    "IT.3.1",
+    "IT.3.3"
+   ],
+   "level": "topic",
+   "note": null
+  },
+  {
+   "data": "DT.A001.I.4.01",
+   "info": [
+    "IT.3.1"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.I.4.02",
+   "info": [
+    "IT.3.3"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.I.4.03",
+   "info": [
+    "IT.3.3"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.I.4.04",
+   "info": [
+    "IT.3.1"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.I.5",
+   "info": [
+    "IT.2.4"
+   ],
+   "level": "topic",
+   "note": null
+  },
+  {
+   "data": "DT.A001.I.5.01",
+   "info": [
+    "IT.2.4"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.I.5.02",
+   "info": [
+    "IT.2.4",
+    "IT.4.1"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.I.5.03",
+   "info": [
+    "IT.2.4"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.I.5.04",
+   "info": [
+    "IT.2.4",
+    "IT.4.1"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.II.1",
+   "info": [
+    "IT.4.1"
+   ],
+   "level": "topic",
+   "note": null
+  },
+  {
+   "data": "DT.A001.II.1.02",
+   "info": [
+    "IT.4.1",
+    "IT.5.12"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.II.1.03",
+   "info": [
+    "IT.4.13"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.II.2",
+   "info": [
+    "IT.4.2"
+   ],
+   "level": "topic",
+   "note": null
+  },
+  {
+   "data": "DT.A001.II.2.01",
+   "info": [
+    "IT.4.2",
+    "IT.4.5"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.II.2.02",
+   "info": [
+    "IT.4.2"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.II.3",
+   "info": [
+    "IT.4.3",
+    "IT.4.4"
+   ],
+   "level": "topic",
+   "note": null
+  },
+  {
+   "data": "DT.A001.II.3.01",
+   "info": [
+    "IT.4.3"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.II.3.02",
+   "info": [
+    "IT.4.3"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.II.3.03",
+   "info": [
+    "IT.4.4"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.II.3.04",
+   "info": [
+    "IT.4.4"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.II.3.05",
+   "info": [
+    "IT.4.4",
+    "IT.5.8"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.II.3.06",
+   "info": [
+    "IT.4.4"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.II.4",
+   "info": [
+    "IT.4.5",
+    "IT.4.6"
+   ],
+   "level": "topic",
+   "note": null
+  },
+  {
+   "data": "DT.A001.II.4.01",
+   "info": [
+    "IT.4.5"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.II.4.02",
+   "info": [
+    "IT.4.5"
+   ],
+   "level": "topic",
+   "note": null
+  },
+  {
+   "data": "DT.A001.II.4.03",
+   "info": [
+    "IT.4.5"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.II.4.04",
+   "info": [
+    "IT.4.6"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.II.5",
+   "info": [
+    "IT.5.7",
+    "IT.6.5"
+   ],
+   "level": "topic",
+   "note": null
+  },
+  {
+   "data": "DT.A001.II.5.01",
+   "info": [
+    "IT.5.7"
+   ],
+   "level": "topic",
+   "note": null
+  },
+  {
+   "data": "DT.A001.II.5.02",
+   "info": [
+    "IT.6.5"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.II.6",
+   "info": [
+    "IT.4.7",
+    "IT.4.8"
+   ],
+   "level": "topic",
+   "note": null
+  },
+  {
+   "data": "DT.A001.II.6.01",
+   "info": [
+    "IT.4.8"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.II.6.02",
+   "info": [
+    "IT.4.7"
+   ],
+   "level": "topic",
+   "note": null
+  },
+  {
+   "data": "DT.A001.II.6.03",
+   "info": [
+    "IT.4.7"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.II.6.04",
+   "info": [
+    "IT.4.7"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.II.7",
+   "info": [
+    "IT.4.10",
+    "IT.4.9",
+    "IT.4.11"
+   ],
+   "level": "topic",
+   "note": null
+  },
+  {
+   "data": "DT.A001.II.7.01",
+   "info": [
+    "IT.4.10"
+   ],
+   "level": "topic",
+   "note": null
+  },
+  {
+   "data": "DT.A001.II.7.02",
+   "info": [
+    "IT.4.9"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.II.7.03",
+   "info": [
+    "IT.4.10"
+   ],
+   "level": "topic",
+   "note": null
+  },
+  {
+   "data": "DT.A001.II.7.04",
+   "info": [
+    "IT.4.11"
+   ],
+   "level": "topic",
+   "note": null
+  },
+  {
+   "data": "DT.A001.II.7.05",
+   "info": [
+    "IT.6.1",
+    "IT.5.9"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.II.F1",
+   "info": [
+    "IT.4.12"
+   ],
+   "level": "topic",
+   "note": null
+  },
+  {
+   "data": "DT.A001.II.F1.02",
+   "info": [
+    "IT.4.12"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.II.F1.03",
+   "info": [
+    "IT.4.12"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.II.F1.04",
+   "info": [
+    "IT.4.12",
+    "IT.5.8"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.II.F2",
+   "info": [
+    "IT.6.5"
+   ],
+   "level": "topic",
+   "note": null
+  },
+  {
+   "data": "DT.A001.II.F2.01",
+   "info": [
+    "IT.6.5"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.II.F3",
+   "info": [
+    "IT.4.12"
+   ],
+   "level": "topic",
+   "note": null
+  },
+  {
+   "data": "DT.A001.II.F4",
+   "info": [
+    "IT.4.12",
+    "IT.5.17"
+   ],
+   "level": "topic",
+   "note": null
+  },
+  {
+   "data": "DT.A001.II.F4.01",
+   "info": [
+    "IT.4.12"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.II.F4.03",
+   "info": [
+    "IT.5.8",
+    "IT.4.12"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.III.1",
+   "info": [
+    "IT.5.14"
+   ],
+   "level": "topic",
+   "note": null
+  },
+  {
+   "data": "DT.A001.III.1.01",
+   "info": [
+    "IT.5.14"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.III.1.02",
+   "info": [
+    "IT.5.14"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.III.1.03",
+   "info": [
+    "IT.5.16",
+    "IT.5.6"
+   ],
+   "level": "topic",
+   "note": null
+  },
+  {
+   "data": "DT.A001.III.2",
+   "info": [
+    "IT.5.1",
+    "IT.5.2",
+    "IT.5.3",
+    "IT.5.4"
+   ],
+   "level": "topic",
+   "note": null
+  },
+  {
+   "data": "DT.A001.III.2.01",
+   "info": [
+    "IT.5.1"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.III.2.02",
+   "info": [
+    "IT.5.2"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.III.2.03",
+   "info": [
+    "IT.5.2"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.III.2.04",
+   "info": [
+    "IT.5.4"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.III.2.05",
+   "info": [
+    "IT.5.3"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.III.4",
+   "info": [
+    "IT.5.1",
+    "IT.5.2",
+    "IT.5.3",
+    "IT.5.4"
+   ],
+   "level": "topic",
+   "note": null
+  },
+  {
+   "data": "DT.A001.III.4.01",
+   "info": [
+    "IT.5.1"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.III.4.02",
+   "info": [
+    "IT.5.2"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.III.4.03",
+   "info": [
+    "IT.5.2"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.III.4.04",
+   "info": [
+    "IT.5.4"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.III.4.05",
+   "info": [
+    "IT.5.3"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.III.4.06",
+   "info": [
+    "IT.5.10",
+    "IT.3.6"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.III.3",
+   "info": [
+    "IT.5.6",
+    "IT.5.7",
+    "IT.5.8",
+    "IT.5.9",
+    "IT.5.10",
+    "IT.5.11",
+    "IT.5.12",
+    "IT.5.13",
+    "IT.7.1",
+    "IT.7.3",
+    "IT.7.4",
+    "IT.8.1",
+    "IT.8.4"
+   ],
+   "level": "topic",
+   "note": null
+  },
+  {
+   "data": "DT.A001.III.3.N01",
+   "info": [
+    "IT.7.1",
+    "IT.1.1"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.III.3.N02",
+   "info": [
+    "IT.5.6"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.III.3.N03",
+   "info": [
+    "IT.5.6"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.III.3.N04",
+   "info": [
+    "IT.5.7"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.III.3.N05",
+   "info": [
+    "IT.5.7"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.III.3.N06",
+   "info": [
+    "IT.5.8"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.III.3.N07",
+   "info": [
+    "IT.5.8"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.III.3.N08",
+   "info": [
+    "IT.5.8"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.III.3.N09",
+   "info": [
+    "IT.7.3",
+    "IT.7.1"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.III.3.N10",
+   "info": [
+    "IT.5.8"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.III.3.N11",
+   "info": [
+    "IT.5.8"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.III.3.N12",
+   "info": [
+    "IT.5.8"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.III.3.N13",
+   "info": [
+    "IT.5.8",
+    "IT.5.13"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.III.3.N14",
+   "info": [
+    "IT.5.9"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.III.3.N15",
+   "info": [
+    "IT.5.9"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.III.3.N16",
+   "info": [
+    "IT.5.9",
+    "IT.8.1",
+    "IT.8.2",
+    "IT.7.6"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.III.3.N17",
+   "info": [
+    "IT.5.9",
+    "IT.2.7"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.III.3.N18",
+   "info": [
+    "IT.5.11"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.III.3.N19",
+   "info": [
+    "IT.5.2"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.III.3.N20",
+   "info": [
+    "IT.5.10"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.III.3.N21",
+   "info": [
+    "IT.5.2",
+    "IT.5.11",
+    "IT.4.5"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.III.3.N22",
+   "info": [
+    "IT.5.11",
+    "IT.5.2"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.III.3.N23",
+   "info": [
+    "IT.5.2"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.III.3.N24",
+   "info": [
+    "IT.5.5"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.III.3.N25",
+   "info": [
+    "IT.5.3"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.III.3.N26",
+   "info": [
+    "IT.5.12"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.III.3.N27",
+   "info": [
+    "IT.7.4",
+    "IT.2.7"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.III.3.N28",
+   "info": [
+    "IT.5.13"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.III.3.N29",
+   "info": [
+    "IT.8.4"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.III.3.N30",
+   "info": [
+    "IT.5.17"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.III.3.N31",
+   "info": [
+    "IT.4.11",
+    "IT.5.9"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.III.5",
+   "info": [
+    "IT.5.6",
+    "IT.5.7",
+    "IT.5.8",
+    "IT.5.9",
+    "IT.5.10",
+    "IT.5.11",
+    "IT.5.12",
+    "IT.5.13",
+    "IT.7.1",
+    "IT.7.3",
+    "IT.7.4",
+    "IT.8.1",
+    "IT.8.4"
+   ],
+   "level": "topic",
+   "note": null
+  },
+  {
+   "data": "DT.A001.III.5.N01",
+   "info": [
+    "IT.7.1",
+    "IT.1.1"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.III.5.N02",
+   "info": [
+    "IT.5.6"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.III.5.N03",
+   "info": [
+    "IT.5.6"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.III.5.N04",
+   "info": [
+    "IT.5.7"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.III.5.N05",
+   "info": [
+    "IT.5.7"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.III.5.N06",
+   "info": [
+    "IT.5.8"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.III.5.N07",
+   "info": [
+    "IT.5.8"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.III.5.N08",
+   "info": [
+    "IT.5.8"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.III.5.N09",
+   "info": [
+    "IT.7.3",
+    "IT.7.1"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.III.5.N10",
+   "info": [
+    "IT.5.8"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.III.5.N11",
+   "info": [
+    "IT.5.8"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.III.5.N12",
+   "info": [
+    "IT.5.8"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.III.5.N13",
+   "info": [
+    "IT.5.8",
+    "IT.5.13"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.III.5.N14",
+   "info": [
+    "IT.5.9"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.III.5.N15",
+   "info": [
+    "IT.5.9"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.III.5.N16",
+   "info": [
+    "IT.5.9",
+    "IT.8.1",
+    "IT.8.2",
+    "IT.7.6"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.III.5.N17",
+   "info": [
+    "IT.5.9",
+    "IT.2.7"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.III.5.N18",
+   "info": [
+    "IT.5.11"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.III.5.N19",
+   "info": [
+    "IT.5.2"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.III.5.N20",
+   "info": [
+    "IT.5.10"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.III.5.N21",
+   "info": [
+    "IT.5.2",
+    "IT.5.11",
+    "IT.4.5"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.III.5.N22",
+   "info": [
+    "IT.5.11",
+    "IT.5.2"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.III.5.N23",
+   "info": [
+    "IT.5.2"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.III.5.N24",
+   "info": [
+    "IT.5.5"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.III.5.N25",
+   "info": [
+    "IT.5.3"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.III.5.N26",
+   "info": [
+    "IT.5.12"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.III.5.N27",
+   "info": [
+    "IT.7.4",
+    "IT.2.7"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.III.5.N28",
+   "info": [
+    "IT.5.13"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.III.5.N29",
+   "info": [
+    "IT.8.4"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.III.5.N30",
+   "info": [
+    "IT.5.17"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.III.5.N31",
+   "info": [
+    "IT.4.11",
+    "IT.5.9"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.III.6",
+   "info": [
+    "IT.3.6"
+   ],
+   "level": "topic",
+   "note": null
+  },
+  {
+   "data": "DT.A001.III.6.01",
+   "info": [
+    "IT.3.6"
+   ],
+   "level": "topic",
+   "note": null
+  },
+  {
+   "data": "DT.A001.III.6.02",
+   "info": [
+    "IT.3.6",
+    "IT.5.5"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.III.6.03",
+   "info": [
+    "IT.3.6"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.III.6.04",
+   "info": [
+    "IT.3.6"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.III.7",
+   "info": [
+    "IT.6.1",
+    "IT.6.2",
+    "IT.6.3",
+    "IT.6.4"
+   ],
+   "level": "topic",
+   "note": null
+  },
+  {
+   "data": "DT.A001.III.7.01",
+   "info": [
+    "IT.3.2",
+    "IT.6.1"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.III.7.02",
+   "info": [
+    "IT.6.2"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.III.7.03",
+   "info": [
+    "IT.6.1"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.III.7.04",
+   "info": [
+    "IT.6.2"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.III.7.05",
+   "info": [
+    "IT.6.3"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.III.7.06",
+   "info": [
+    "IT.6.4"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.III.8",
+   "info": [
+    "IT.5.15",
+    "IT.5.16",
+    "IT.5.7"
+   ],
+   "level": "topic",
+   "note": null
+  },
+  {
+   "data": "DT.A001.III.8.01",
+   "info": [
+    "IT.5.16"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.III.8.02",
+   "info": [
+    "IT.5.15",
+    "IT.5.8"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.III.8.03",
+   "info": [
+    "IT.5.15",
+    "IT.5.8"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.III.8.04",
+   "info": [
+    "IT.5.15",
+    "IT.4.6"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.III.8.05",
+   "info": [
+    "IT.5.7"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.IV",
+   "info": [
+    "IT.10.1",
+    "IT.10.2",
+    "IT.10.3",
+    "IT.10.4",
+    "IT.10.5"
+   ],
+   "level": "topic",
+   "note": null
+  },
+  {
+   "data": "DT.A001.IV.01",
+   "info": [
+    "IT.10.1"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.IV.02",
+   "info": [
+    "IT.10.2"
+   ],
+   "level": "topic",
+   "note": null
+  },
+  {
+   "data": "DT.A001.IV.03",
+   "info": [
+    "IT.10.2"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.IV.04",
+   "info": [
+    "IT.10.3"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.IV.05",
+   "info": [
+    "IT.10.4"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.IV.06",
+   "info": [
+    "IT.10.5"
+   ],
+   "level": "topic",
+   "note": null
+  },
+  {
+   "data": "DT.A001.V.1",
+   "info": [
+    "IT.9.1",
+    "IT.9.2",
+    "IT.9.4"
+   ],
+   "level": "topic",
+   "note": null
+  },
+  {
+   "data": "DT.A001.V.1.01",
+   "info": [
+    "IT.9.1"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.V.1.02",
+   "info": [
+    "IT.9.2"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.V.1.03",
+   "info": [
+    "IT.9.2"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.V.1.04",
+   "info": [
+    "IT.9.2"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.V.1.05",
+   "info": [
+    "IT.9.4"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.V.1.06",
+   "info": [
+    "IT.9.4"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.V.2",
+   "info": [
+    "IT.9.3"
+   ],
+   "level": "topic",
+   "note": null
+  },
+  {
+   "data": "DT.A001.V.2.01",
+   "info": [
+    "IT.9.3"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.VI.1",
+   "info": [
+    "IT.2.1"
+   ],
+   "level": "topic",
+   "note": null
+  },
+  {
+   "data": "DT.A001.VI.1.01",
+   "info": [
+    "IT.2.1"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.VI.1.02",
+   "info": [
+    "IT.2.1"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.VI.1.03",
+   "info": [
+    "IT.2.1"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.VI.1.04",
+   "info": [
+    "IT.2.1"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.VI.1.05",
+   "info": [
+    "IT.2.1"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.VI.1.06",
+   "info": [
+    "IT.2.1"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.VI.1.07",
+   "info": [
+    "IT.2.1"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.VI.2",
+   "info": [
+    "IT.2.2"
+   ],
+   "level": "topic",
+   "note": null
+  },
+  {
+   "data": "DT.A001.VI.2.01",
+   "info": [
+    "IT.2.2"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.VI.2.02",
+   "info": [
+    "IT.2.2"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.VI.2.03",
+   "info": [
+    "IT.2.2"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.VI.2.04",
+   "info": [
+    "IT.2.2"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.VI.2.05",
+   "info": [
+    "IT.2.2"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.VI.3",
+   "info": [
+    "IT.2.3"
+   ],
+   "level": "topic",
+   "note": null
+  },
+  {
+   "data": "DT.A001.VI.3.01",
+   "info": [
+    "IT.2.3"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.VI.3.02",
+   "info": [
+    "IT.2.3"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.VI.3.03",
+   "info": [
+    "IT.2.3"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.VI.3.04",
+   "info": [
+    "IT.2.3"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.VI.3.05",
+   "info": [
+    "IT.2.3"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.VII",
+   "info": [
+    "IT.3.4",
+    "IT.3.5",
+    "IT.3.7"
+   ],
+   "level": "topic",
+   "note": null
+  },
+  {
+   "data": "DT.A001.VII.01",
+   "info": [
+    "IT.3.4"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.VII.02",
+   "info": [
+    "IT.3.5"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.VII.03",
+   "info": [
+    "IT.3.5"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.VII.04",
+   "info": [
+    "IT.3.4"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.VII.05",
+   "info": [
+    "IT.3.4"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.VII.06",
+   "info": [
+    "IT.3.7"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.VIII.1",
+   "info": [
+    "IT.2.5",
+    "IT.2.6",
+    "IT.2.7"
+   ],
+   "level": "topic",
+   "note": null
+  },
+  {
+   "data": "DT.A001.VIII.1.01",
+   "info": [
+    "IT.2.5"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.VIII.1.02",
+   "info": [
+    "IT.2.5"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.VIII.1.03",
+   "info": [
+    "IT.2.5",
+    "IT.7.2"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.VIII.1.04",
+   "info": [
+    "IT.2.5"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.VIII.1.05",
+   "info": [
+    "IT.2.6"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.VIII.1.06",
+   "info": [
+    "IT.2.7"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.VIII.1.07",
+   "info": [
+    "IT.2.6"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.VIII.2",
+   "info": [
+    "IT.2.7"
+   ],
+   "level": "topic",
+   "note": null
+  },
+  {
+   "data": "DT.A001.VIII.2.01",
+   "info": [
+    "IT.2.7"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.VIII.2.02",
+   "info": [
+    "IT.2.7"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.VIII.2.03",
+   "info": [
+    "IT.2.7"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.VIII.2.04",
+   "info": [
+    "IT.2.7"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.VIII.2.05",
+   "info": [
+    "IT.2.7"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.IX",
+   "info": [
+    "IT.7.2",
+    "IT.7.3"
+   ],
+   "level": "topic",
+   "note": null
+  },
+  {
+   "data": "DT.A001.IX.01",
+   "info": [
+    "IT.7.2"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.IX.02",
+   "info": [
+    "IT.7.2"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.IX.03",
+   "info": [
+    "IT.7.2",
+    "IT.2.5"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.IX.04",
+   "info": [
+    "IT.7.3"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.X",
+   "info": [
+    "IT.7.5",
+    "IT.7.4"
+   ],
+   "level": "topic",
+   "note": null
+  },
+  {
+   "data": "DT.A001.X.01",
+   "info": [
+    "IT.7.5"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.X.02",
+   "info": [
+    "IT.7.5"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.X.03",
+   "info": [
+    "IT.7.5"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.X.04",
+   "info": [
+    "IT.7.5"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.X.05",
+   "info": [
+    "IT.7.4"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.XI.1",
+   "info": [
+    "IT.8.5"
+   ],
+   "level": "topic",
+   "note": null
+  },
+  {
+   "data": "DT.A001.XI.1.01",
+   "info": [
+    "IT.8.5"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.XI.2",
+   "info": [
+    "IT.8.1",
+    "IT.8.2",
+    "IT.7.6"
+   ],
+   "level": "topic",
+   "note": null
+  },
+  {
+   "data": "DT.A001.XI.2.01",
+   "info": [
+    "IT.8.1"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.XI.2.02",
+   "info": [
+    "IT.8.2"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.XI.2.03",
+   "info": [
+    "IT.7.6"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.XI.2.04",
+   "info": [
+    "IT.7.6"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.XI.2.05",
+   "info": [
+    "IT.8.2"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.XI.3",
+   "info": [
+    "IT.8.3"
+   ],
+   "level": "topic",
+   "note": null
+  },
+  {
+   "data": "DT.A001.XI.3.01",
+   "info": [
+    "IT.8.3"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.XI.3.02",
+   "info": [
+    "IT.8.3"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.XI.4",
+   "info": [
+    "IT.8.4",
+    "IT.8.6",
+    "IT.5.13",
+    "IT.4.11"
+   ],
+   "level": "topic",
+   "note": null
+  },
+  {
+   "data": "DT.A001.XI.4.01",
+   "info": [
+    "IT.8.4"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.XI.4.02",
+   "info": [
+    "IT.7.1"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.XI.4.03",
+   "info": [
+    "IT.5.13"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.XI.4.04",
+   "info": [
+    "IT.4.11"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.XI.4.05",
+   "info": [
+    "IT.8.6"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.XI.4.06",
+   "info": [
+    "IT.8.6"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.XI.4.07",
+   "info": [
+    "IT.8.6"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.XII.1",
+   "info": [
+    "IT.7.1"
+   ],
+   "level": "topic",
+   "note": null
+  },
+  {
+   "data": "DT.A001.XII.1.01",
+   "info": [
+    "IT.7.1"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.XII.2",
+   "info": [
+    "IT.7.2"
+   ],
+   "level": "topic",
+   "note": null
+  },
+  {
+   "data": "DT.A001.XII.2.01",
+   "info": [
+    "IT.7.2"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.XII.3",
+   "info": [
+    "IT.7.3"
+   ],
+   "level": "topic",
+   "note": null
+  },
+  {
+   "data": "DT.A001.XII.3.01",
+   "info": [
+    "IT.7.3"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.XII.4",
+   "info": [
+    "IT.4.7",
+    "IT.4.12"
+   ],
+   "level": "topic",
+   "note": null
+  },
+  {
+   "data": "DT.A001.XII.4.01",
+   "info": [
+    "IT.4.7"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.XII.4.02",
+   "info": [
+    "IT.4.12"
+   ],
+   "level": "item",
+   "note": null
+  },
+  {
+   "data": "DT.A001.EXP",
+   "info": [
+    "IT.9.1"
+   ],
+   "level": "topic",
+   "note": null
+  }
+ ]
+}

@@ -1,0 +1,5 @@
+{"id": "a0002/issue/scope", "kind": "user_scope_and_stop", "summary": "현재3건paused·기존2건blocked·15건미착수. G01미완료. 사용자재개명시전조사중지. 새기업·다음배치금지.", "authorized_ids": ["BR0001", "BR0044", "BR0053"]}
+{"id": "a0002/issue/old-regression", "kind": "regression_pending", "prior_dictionary": "a0001", "affected_reports": ["BR0001", "BR0044", "BR0053", "BR0020", "BR0016"], "whole_report_rechecked": 0, "summary": "이전판7후보는유지하되새조건으로전체검증한것처럼승계하지않음"}
+{"id": "a0002/issue/open-causes", "kind": "unresolved_source_conflicts", "refs": ["BR0001/r0001/finding/SEM0046_prior_debt_conflict", "BR0053/r0001/finding/F0045", "BR0053/r0001/finding/F0047", "BR0053/r0001/finding/F0049", "BR0044/r0001/finding/F0242"], "action": "기존정본·추가원천·원시측정정의가필요. 임의정정금지."}
+{"id": "a0002/issue/acquisition", "kind": "unacquired_or_unread", "summary": "단건첨부/API/XBRL/정정계보미완. 미취득과접근실패구분. BR0016/20원천장애보존."}
+{"id": "a0002/issue/architecture", "kind": "proposal_not_implementation", "summary": "기업별·3사통합논리구조제안. 실제DB/마트/API/분석서비스구현·성능평가아님."}

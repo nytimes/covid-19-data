@@ -1,0 +1,33 @@
+{
+ "note": "각 보고서 results/BRxxxx/r0001/manifest.json 과 G01 중지 보고에서 옮긴 상태 요약. 전수 의미조사 완료 건은 0이다.",
+ "reports": {
+  "BR0001": {"company": "삼성전자", "fiscal_year": 2024, "receipt_id": "20250311001085", "period": "2024-01-01~2024-12-31", "filing_date": "2025-03-11", "sector": "전자·반도체·전기장비", "work_state": "paused",
+             "coverage": {"physical_cell": [34171, 49362], "table": [1753, 2029], "prose_span": [12887, 15968], "image": [2, 2]},
+             "outputs": {"nodes": 77785, "structures": 1997, "occurrences": 6371, "contexts": 14505, "findings": 652, "checks": 216},
+             "resume": "SEM0047 다음 E0043270 (IV 환율표). VI~VIII 독립 메모 미통합."},
+  "BR0044": {"company": "DB손해보험", "fiscal_year": 2023, "receipt_id": "20240314001788", "period": "2023-01-01~2023-12-31", "filing_date": "2024-03-14", "sector": "금융(보험)", "work_state": "paused",
+             "coverage": {"physical_cell": [11, 46041], "table": [0, 1385], "prose_span": [0, 6053], "image": [4, 4]},
+             "outputs": {"nodes": 62632, "structures": 801, "occurrences": 4148, "contexts": 21613, "findings": 251, "checks": 277},
+             "resume": "part0034 다음 E0007116 (연결 자본변동표). 본문 첫 읽기는 EOF까지 완료. 엄격한 leaf 완료 기준이라 reviewed 셀 수가 매우 작게 표시됨."},
+  "BR0053": {"company": "셀트리온", "fiscal_year": 2023, "receipt_id": "20240318000913", "period": "2023-01-01~2023-12-31", "filing_date": "2024-03-18", "sector": "제약·바이오·의료", "work_state": "paused",
+             "coverage": {"physical_cell": [24933, 33079], "table": [2310, 2490], "prose_span": [17313, 17799], "image": [2, 2]},
+             "outputs": {"nodes": 62024, "structures": 2310, "occurrences": 13567, "contexts": 17249, "findings": 51, "checks": 245},
+             "resume": "SG057/E0051970 (IV 경영진단)부터. E0052501 이후 미열람. 첨부 7건 미확보."},
+  "BR0016": {"company": "선바이오", "fiscal_year": 2021, "receipt_id": "20220318000845", "period": "2021-01-01~2021-12-31", "filing_date": "2022-03-18", "sector": "제약·바이오·의료(중소, 코넥스→코스닥)", "work_state": "blocked",
+             "coverage": {"physical_cell": [7227, 7227], "table": [303, 303], "prose_span": [2137, 2137], "image": [17, 19]},
+             "outputs": {"nodes": 11453, "structures": 303, "occurrences": 4424, "contexts": 4929, "findings": 31, "checks": 194},
+             "resume": "본문 전수 판별 저장. IMG0004/0009 미세문구 판독 한계, 첨부 6건 미확보로 blocked."},
+  "BR0020": {"company": "NH프라임리츠", "fiscal_year": 2021, "receipt_id": "20220210000432", "period": "2021-06-01~2021-11-30 (6개월)", "filing_date": "2022-02-10", "sector": "리츠", "work_state": "blocked",
+             "coverage": {"physical_cell": [3321, 3321], "table": [213, 213], "prose_span": [1066, 1066], "image": [13, 15]},
+             "outputs": {"nodes": 5535, "structures": 276, "occurrences": 2165, "contexts": 3405, "findings": 28, "checks": 177},
+             "resume": "본문 전수 판별 저장. 이미지 2건 판독불가, 각주 목표 누락, 첨부 5건 미확보로 blocked."}
+ },
+ "batch": {"G01_total": 20, "attempted": 5, "paused": 3, "blocked": 2, "not_started": 15, "fully_reviewed": 0, "sample_plan": "80개 법인 100개 보고서(2021~2025 각 20건), G01~G05 20건 배치"},
+ "context_type_counts": {
+  "BR0020": {"header": 1138, "unit": 909, "scope": 596, "time": 435, "dimension": 186, "entity_role": 116, "contract_clause": 6, "required_context_review": 5, "cross_reference": 5, "condition": 4, "execution_state": 3, "footnote": 2},
+  "BR0016": {"header": 2050, "unit": 1372, "scope": 664, "time": 653, "entity_role": 179, "contract_clause": 11},
+  "BR0001": {"header": 7143, "time": 2104, "scope": 2100, "entity_role": 1452, "unit": 655, "relation_or_clause": 290, "basis": 230, "condition": 230, "entity": 161, "cross_reference": 93, "dimension": 40, "exception": 3, "footnote": 2, "continuation": 2},
+  "BR0044": {"governing_clause": 8499, "subject_entity": 4104, "measurement_time": 2878, "unit": 2695, "measurement_basis": 1337, "source_scope": 1130, "aggregation_scope": 312, "execution_state": 287, "formula_scope": 132, "sign_convention": 110, "return_calculation": 48, "measurement_role": 45, "reclassification_scope": 36},
+  "BR0053": {"header": 9721, "scope": 2608, "unit": 2542, "time": 1947, "entity_role": 431}
+ }
+}

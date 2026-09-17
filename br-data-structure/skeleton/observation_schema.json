@@ -1,0 +1,195 @@
+{
+ "minimum_description": [
+  {
+   "field": "source_occurrence",
+   "ko": "원문 발생",
+   "desc": "파일 해시·원문 위치(문자 span/XPath)·병합·머리글·각주 참조. 하나의 값은 하나의 발생 ID를 가진다."
+  },
+  {
+   "field": "subject_role",
+   "ko": "주체·역할",
+   "desc": "보고회사/종속/관계/거래상대방/보증인/피보증인/피투자회사 등 역할과 유효기간."
+  },
+  {
+   "field": "measure",
+   "ko": "측정량",
+   "desc": "무엇을 잰 값인가(매출액, 지급보증 공시금액, 지분율 등). 라벨 문자열과 구별."
+  },
+  {
+   "field": "time",
+   "ko": "시간",
+   "desc": "시점(기말)/기간(사업연도)/사건일(결의·승인·효력)/공시일/평균 등 역할을 구분한 시간."
+  },
+  {
+   "field": "scope",
+   "ko": "범위",
+   "desc": "연결/별도, 부문, 법인 범위, 내부거래 포함 여부, 모집단(명부/재직/보수대상)."
+  },
+  {
+   "field": "unit",
+   "ko": "단위",
+   "desc": "통화·배율(원/천원/백만원/천USD)·수량(주)·비율(%)·부호 관례(괄호·삼각)·표시 정밀도."
+  },
+  {
+   "field": "basis",
+   "ko": "측정기준",
+   "desc": "장부/공정가치, 원금/충당금 차감 후/할인·이연 반영 후, 회계기준 조합(IFRS17×IFRS9 등), 산식 정의(분모)."
+  },
+  {
+   "field": "status",
+   "ko": "상태",
+   "desc": "실제/계획/예정/잠정/가정/승인전/미산출/해당없음/판독불확실/추출실패."
+  },
+  {
+   "field": "condition",
+   "ko": "조건·예외",
+   "desc": "각주 조건, 조건부 보증, 적용 제외, 정관 예외 등 의미를 뒤집을 수 있는 단서."
+  },
+  {
+   "field": "evidence",
+   "ko": "근거",
+   "desc": "판정에 사용한 원문 구간·검사 ID·독립 대조 여부."
+  },
+  {
+   "field": "derivation",
+   "ko": "파생 이력",
+   "desc": "정규화·산식·차이 계산은 원시값과 분리된 파생 레코드로 보존."
+  }
+ ],
+ "tgt_six_attributes": [
+  "내용",
+  "주체·대상 역할",
+  "시간 역할",
+  "단위·적용 범위",
+  "원천 출처 위치",
+  "검증 수준"
+ ],
+ "context_relation_types": [
+  {
+   "canonical": "header",
+   "ko": "행·열 머리글",
+   "observed_synonyms": [
+    "header"
+   ],
+   "observed_count": null
+  },
+  {
+   "canonical": "subject_role",
+   "ko": "주체·역할",
+   "observed_synonyms": [
+    "entity_role",
+    "entity",
+    "subject_entity"
+   ],
+   "observed_count": null
+  },
+  {
+   "canonical": "time",
+   "ko": "시간",
+   "observed_synonyms": [
+    "time",
+    "measurement_time"
+   ],
+   "observed_count": null
+  },
+  {
+   "canonical": "unit",
+   "ko": "단위·정밀도",
+   "observed_synonyms": [
+    "unit",
+    "sign_convention"
+   ],
+   "observed_count": null
+  },
+  {
+   "canonical": "scope",
+   "ko": "범위",
+   "observed_synonyms": [
+    "scope",
+    "source_scope",
+    "aggregation_scope",
+    "formula_scope",
+    "reclassification_scope"
+   ],
+   "observed_count": null
+  },
+  {
+   "canonical": "basis",
+   "ko": "측정기준·산식",
+   "observed_synonyms": [
+    "basis",
+    "measurement_basis",
+    "measurement_role",
+    "return_calculation"
+   ],
+   "observed_count": null
+  },
+  {
+   "canonical": "condition",
+   "ko": "조건·각주·예외",
+   "observed_synonyms": [
+    "condition",
+    "governing_clause",
+    "contract_clause",
+    "exception",
+    "footnote"
+   ],
+   "observed_count": null
+  },
+  {
+   "canonical": "dimension",
+   "ko": "차원(부문·지역·종류)",
+   "observed_synonyms": [
+    "dimension"
+   ],
+   "observed_count": null
+  },
+  {
+   "canonical": "status",
+   "ko": "상태",
+   "observed_synonyms": [
+    "execution_state"
+   ],
+   "observed_count": null
+  },
+  {
+   "canonical": "reference",
+   "ko": "참조·연속",
+   "observed_synonyms": [
+    "cross_reference",
+    "continuation",
+    "relation_or_clause",
+    "required_context_review"
+   ],
+   "observed_count": null
+  }
+ ],
+ "context_states": [
+  "satisfied(충족)",
+  "conflicted(상충)",
+  "unverified(미확인)"
+ ],
+ "value_status_vocab": [
+  "actual(실제)",
+  "planned(계획)",
+  "scheduled(예정)",
+  "provisional(잠정)",
+  "hypothetical(가정)",
+  "pre_approval(승인전)",
+  "not_computed(미산출)",
+  "not_applicable(해당없음)",
+  "dash(대시 원시기호)",
+  "blank(공란)",
+  "explicit_zero(명시0)",
+  "unreadable(판독불확실)",
+  "extraction_failed(추출실패)"
+ ],
+ "comparability_order": [
+  "주체와 역할 확인",
+  "측정량·기간/시점·연결범위·회계기준·단위 대조",
+  "차이를 설명하는 원문 조정항목·변환 조건 확인",
+  "양립하면 비교 / 조건부면 가정 표시 / 미확정이면 별개 표시",
+  "원시값 유지, 계산값·판단은 파생 이력"
+ ],
+ "note": "공통 필드명은 설명용이며 물리 스키마 확정이 아니다. 관측된 문맥 유형은 두 작성자가 서로 다른 어휘(BR0044 작성자 vs 나머지)를 사용해 정규화가 필요함을 보여준다."
+}

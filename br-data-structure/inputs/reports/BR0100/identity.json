@@ -1,0 +1,26 @@
+{
+ "sample_id": "BR0100",
+ "company": "엑세스바이오",
+ "fiscal_year": 2025,
+ "period": "2025-01-01~2025-12-31",
+ "sector": "제약·바이오·의료(외국법인)",
+ "sampling_reason": "외국법인·기업별 기재 변형 조사 후보",
+ "receipt_id": null,
+ "acquisition": {
+  "state": "not_acquired",
+  "reason": "이 실행환경에서 dart.fss.or.kr·opendart.fss.or.kr 접속이 조직 egress 정책으로 차단됨(403 CONNECT). 우회하지 않음.",
+  "path": "OpenDART API: build/acquire_opendart.py all (OPENDART_API_KEY 환경변수 필요) → 공시서류 원본 XML → survey_structure.py --xml",
+  "needed": [
+   "OPENDART_API_KEY 가 있는 접속 가능 환경에서 실행"
+  ]
+ },
+ "planned_depth": "structural_survey (목차 정렬·절별 구조 통계·소제목·표 카탈로그). 셀 단위 의미 판별은 이번 범위 밖.",
+ "expected_variants": [
+  "외국법인 특례 기재(외국지주회사 자회사 현황 XI.4.02, 설립 준거법·소재지) 존재 가능",
+  "회계기준(K-IFRS vs 본국 GAAP) 병기 여부와 통화 단위(USD) 문맥"
+ ],
+ "status": "pending",
+ "stock_code": "950130",
+ "stock_code_source": "참고값(작성자 지식). acquire_opendart.py resolve 가 corpCode.xml 로 검증·갱신",
+ "identity_note": "외국법인(미국 법인 상장). 종목코드 950130."
+}

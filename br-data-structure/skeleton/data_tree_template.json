@@ -1,0 +1,5976 @@
+{
+ "root": {
+  "code": "A001",
+  "title": "사업보고서",
+  "structures": [
+   "document"
+  ],
+  "grain": null,
+  "contexts": [],
+  "api": [],
+  "xbrl": null,
+  "scope": "common",
+  "aliases": [],
+  "note": "정기공시. 사업연도 종료 후 90일 이내 제출. DART 서식 dart3.xsd 기준 목차.",
+  "children": [
+   {
+    "code": "COVER",
+    "title": "표지",
+    "structures": [
+     "table"
+    ],
+    "grain": "항목-값(사업연도, 제출대상법인 유형, 면제사유, 회사명, 대표이사, 본점소재지, 작성책임자)",
+    "contexts": [
+     "사업연도 시작·종료일",
+     "제출일",
+     "제출대상법인 유형"
+    ],
+    "api": [],
+    "xbrl": null,
+    "scope": "common",
+    "aliases": [],
+    "note": "사업기간이 12개월이 아닐 수 있다(NH프라임리츠 6개월). 기간을 연환산하지 않는다.",
+    "children": [],
+    "id": "DT.A001.COVER",
+    "level": 1
+   },
+   {
+    "code": "CONF",
+    "title": "대표이사 등의 확인",
+    "structures": [
+     "paragraph",
+     "image"
+    ],
+    "grain": "확인 문언과 서명 이미지",
+    "contexts": [],
+    "api": [],
+    "xbrl": null,
+    "scope": "common",
+    "aliases": [],
+    "note": "원문 이미지는 판독 상태를 별도로 보존한다.",
+    "children": [],
+    "id": "DT.A001.CONF",
+    "level": 1
+   },
+   {
+    "code": "I",
+    "title": "회사의 개요",
+    "structures": [
+     "section"
+    ],
+    "grain": null,
+    "contexts": [],
+    "api": [],
+    "xbrl": null,
+    "scope": "common",
+    "aliases": [],
+    "note": null,
+    "children": [
+     {
+      "code": "1",
+      "title": "회사의 개요",
+      "structures": [
+       "table"
+      ],
+      "grain": null,
+      "contexts": [],
+      "api": [],
+      "xbrl": null,
+      "scope": "common",
+      "aliases": [],
+      "note": null,
+      "children": [
+       {
+        "code": "01",
+        "title": "연결대상 종속회사 개황",
+        "structures": [
+         "table"
+        ],
+        "grain": "행=구분(연결대상회사 수·주요종속회사 수), 열=기초/증가/감소/기말",
+        "contexts": [
+         "기준일",
+         "연결/별도",
+         "법인 역할(보고회사/종속/관계/상대방)"
+        ],
+        "api": [],
+        "xbrl": null,
+        "scope": "common",
+        "aliases": [],
+        "note": "상세 명단은 XII.1 상세표. 연결회사 수와 종속기업 수는 모회사 포함 여부가 다르다(BR0001 발견).",
+        "children": [],
+        "id": "DT.A001.I.1.01",
+        "level": 3
+       },
+       {
+        "code": "02",
+        "title": "연결대상회사의 변동내용",
+        "structures": [
+         "table"
+        ],
+        "grain": "행=신규연결/연결제외 회사, 열=사유",
+        "contexts": [
+         "기준일",
+         "연결/별도",
+         "법인 역할(보고회사/종속/관계/상대방)"
+        ],
+        "api": [],
+        "xbrl": null,
+        "scope": "common",
+        "aliases": [],
+        "note": null,
+        "children": [],
+        "id": "DT.A001.I.1.02",
+        "level": 3
+       },
+       {
+        "code": "03",
+        "title": "회사의 법적·상업적 명칭",
+        "structures": [
+         "paragraph"
+        ],
+        "grain": "명칭 문자열(국문·영문·약칭)",
+        "contexts": [],
+        "api": [],
+        "xbrl": null,
+        "scope": "common",
+        "aliases": [],
+        "note": null,
+        "children": [],
+        "id": "DT.A001.I.1.03",
+        "level": 3
+       },
+       {
+        "code": "04",
+        "title": "설립일자 및 존속기간",
+        "structures": [
+         "paragraph"
+        ],
+        "grain": "설립일(등기/법인설립/사업개시 구분 필요)",
+        "contexts": [],
+        "api": [],
+        "xbrl": null,
+        "scope": "common",
+        "aliases": [],
+        "note": "개요·연혁·주석의 설립일이 서로 다를 수 있다(BR0016 F0001).",
+        "children": [],
+        "id": "DT.A001.I.1.04",
+        "level": 3
+       },
+       {
+        "code": "05",
+        "title": "본사의 주소·전화번호·홈페이지",
+        "structures": [
+         "paragraph"
+        ],
+        "grain": null,
+        "contexts": [],
+        "api": [],
+        "xbrl": null,
+        "scope": "common",
+        "aliases": [],
+        "note": null,
+        "children": [],
+        "id": "DT.A001.I.1.05",
+        "level": 3
+       },
+       {
+        "code": "06",
+        "title": "중소기업 등 해당 여부",
+        "structures": [
+         "table"
+        ],
+        "grain": "행=중소기업/벤처기업/중견기업, 열=해당여부·근거",
+        "contexts": [],
+        "api": [],
+        "xbrl": null,
+        "scope": "common",
+        "aliases": [
+         "중소기업 해당 여부"
+        ],
+        "note": null,
+        "children": [],
+        "id": "DT.A001.I.1.06",
+        "level": 3
+       },
+       {
+        "code": "07",
+        "title": "주요 사업의 내용 및 향후 추진하려는 신규사업",
+        "structures": [
+         "paragraph"
+        ],
+        "grain": null,
+        "contexts": [],
+        "api": [],
+        "xbrl": null,
+        "scope": "common",
+        "aliases": [],
+        "note": null,
+        "children": [],
+        "id": "DT.A001.I.1.07",
+        "level": 3
+       },
+       {
+        "code": "08",
+        "title": "신용평가에 관한 사항",
+        "structures": [
+         "table"
+        ],
+        "grain": "행=평가일·평가대상·신용등급·평가회사, 별도 표=등급체계 정의",
+        "contexts": [],
+        "api": [],
+        "xbrl": null,
+        "scope": "common",
+        "aliases": [],
+        "note": "평가 관측과 등급 정의표는 인접하지만 grain이 다르다(BR0001 F0003).",
+        "children": [],
+        "id": "DT.A001.I.1.08",
+        "level": 3
+       },
+       {
+        "code": "09",
+        "title": "회사의 주권상장(또는 등록·지정) 여부 및 특례상장에 관한 사항",
+        "structures": [
+         "table"
+        ],
+        "grain": "행=시장, 열=상장일·특례상장 유형",
+        "contexts": [],
+        "api": [],
+        "xbrl": null,
+        "scope": "common",
+        "aliases": [],
+        "note": null,
+        "children": [],
+        "id": "DT.A001.I.1.09",
+        "level": 3
+       }
+      ],
+      "id": "DT.A001.I.1",
+      "level": 2
+     },
+     {
+      "code": "2",
+      "title": "회사의 연혁",
+      "structures": [
+       "table"
+      ],
+      "grain": null,
+      "contexts": [],
+      "api": [],
+      "xbrl": null,
+      "scope": "common",
+      "aliases": [],
+      "note": null,
+      "children": [
+       {
+        "code": "01",
+        "title": "회사의 본점소재지 및 그 변경",
+        "structures": [
+         "table",
+         "paragraph"
+        ],
+        "grain": "행=변경일·주소",
+        "contexts": [],
+        "api": [],
+        "xbrl": null,
+        "scope": "common",
+        "aliases": [],
+        "note": null,
+        "children": [],
+        "id": "DT.A001.I.2.01",
+        "level": 3
+       },
+       {
+        "code": "02",
+        "title": "경영진 및 감사의 중요한 변동",
+        "structures": [
+         "table"
+        ],
+        "grain": "행=변동일, 열=선임/해임·직위·성명",
+        "contexts": [
+         "변동일",
+         "사건 역할(선임/사임/해임)"
+        ],
+        "api": [],
+        "xbrl": null,
+        "scope": "common",
+        "aliases": [],
+        "note": "같은 날짜에 여러 역할 사건이 있어 날짜 단독 키로 정규화할 수 없다(BR0001 F0004).",
+        "children": [],
+        "id": "DT.A001.I.2.02",
+        "level": 3
+       },
+       {
+        "code": "03",
+        "title": "최대주주의 변동",
+        "structures": [
+         "table",
+         "paragraph"
+        ],
+        "grain": "행=변동일·변동 전후 최대주주",
+        "contexts": [],
+        "api": [],
+        "xbrl": null,
+        "scope": "common",
+        "aliases": [],
+        "note": null,
+        "children": [],
+        "id": "DT.A001.I.2.03",
+        "level": 3
+       },
+       {
+        "code": "04",
+        "title": "상호의 변경",
+        "structures": [
+         "table",
+         "paragraph"
+        ],
+        "grain": null,
+        "contexts": [],
+        "api": [],
+        "xbrl": null,
+        "scope": "common",
+        "aliases": [],
+        "note": null,
+        "children": [],
+        "id": "DT.A001.I.2.04",
+        "level": 3
+       },
+       {
+        "code": "05",
+        "title": "회사정리절차·화의 등 여부",
+        "structures": [
+         "paragraph"
+        ],
+        "grain": null,
+        "contexts": [],
+        "api": [],
+        "xbrl": null,
+        "scope": "common",
+        "aliases": [],
+        "note": null,
+        "children": [],
+        "id": "DT.A001.I.2.05",
+        "level": 3
+       },
+       {
+        "code": "06",
+        "title": "합병·분할·영업양수도 등",
+        "structures": [
+         "table",
+         "paragraph"
+        ],
+        "grain": "행=사건, 열=일자·상대방·내용",
+        "contexts": [
+         "이사회 결의일/승인일/효력일/상장일 구분"
+        ],
+        "api": [],
+        "xbrl": null,
+        "scope": "common",
+        "aliases": [],
+        "note": "셀트리온 2023: 합병 관련 일자가 여러 개이며 각각 다른 사건 역할이다.",
+        "children": [],
+        "id": "DT.A001.I.2.06",
+        "level": 3
+       },
+       {
+        "code": "07",
+        "title": "회사의 업종 또는 주된 사업의 변화",
+        "structures": [
+         "paragraph"
+        ],
+        "grain": null,
+        "contexts": [],
+        "api": [],
+        "xbrl": null,
+        "scope": "common",
+        "aliases": [],
+        "note": null,
+        "children": [],
+        "id": "DT.A001.I.2.07",
+        "level": 3
+       },
+       {
+        "code": "08",
+        "title": "그 밖에 경영활동과 관련된 중요한 사항(연혁 연표)",
+        "structures": [
+         "table"
+        ],
+        "grain": "행=연월, 열=내용",
+        "contexts": [
+         "연월 정밀도(월 단위)"
+        ],
+        "api": [],
+        "xbrl": null,
+        "scope": "common",
+        "aliases": [],
+        "note": null,
+        "children": [],
+        "id": "DT.A001.I.2.08",
+        "level": 3
+       }
+      ],
+      "id": "DT.A001.I.2",
+      "level": 2
+     },
+     {
+      "code": "3",
+      "title": "자본금 변동사항",
+      "structures": [
+       "table"
+      ],
+      "grain": null,
+      "contexts": [],
+      "api": [],
+      "xbrl": null,
+      "scope": "common",
+      "aliases": [],
+      "note": null,
+      "children": [
+       {
+        "code": "01",
+        "title": "자본금 변동추이 / 증자(감자) 현황",
+        "structures": [
+         "table"
+        ],
+        "grain": "행=주식발행(감소)일자, 열=발행(감소)형태·종류·수량·주당액면가액·발행(감소)가액·비고",
+        "contexts": [
+         "일자",
+         "주식 종류",
+         "액면/발행가 단위(원)"
+        ],
+        "api": [
+         "증자(감자)현황"
+        ],
+        "xbrl": null,
+        "scope": "common",
+        "aliases": [],
+        "note": "액면총액과 납입자본금을 구별한다(BR0001 F0002).",
+        "children": [],
+        "id": "DT.A001.I.3.01",
+        "level": 3
+       }
+      ],
+      "id": "DT.A001.I.3",
+      "level": 2
+     },
+     {
+      "code": "4",
+      "title": "주식의 총수 등",
+      "structures": [
+       "table"
+      ],
+      "grain": null,
+      "contexts": [],
+      "api": [],
+      "xbrl": null,
+      "scope": "common",
+      "aliases": [],
+      "note": null,
+      "children": [
+       {
+        "code": "01",
+        "title": "주식의 총수 현황",
+        "structures": [
+         "table"
+        ],
+        "grain": "행=발행할 주식총수/발행주식 총수/감소 주식수/자기주식수/유통주식수, 열=보통주·우선주·합계",
+        "contexts": [
+         "기준일",
+         "주식 종류"
+        ],
+        "api": [
+         "주식의 총수 현황"
+        ],
+        "xbrl": null,
+        "scope": "common",
+        "aliases": [],
+        "note": null,
+        "children": [],
+        "id": "DT.A001.I.4.01",
+        "level": 3
+       },
+       {
+        "code": "02",
+        "title": "자기주식 취득 및 처분 현황",
+        "structures": [
+         "table"
+        ],
+        "grain": "행=취득방법(배당가능이익 범위 내/기타/신탁), 열=기초·취득·처분·소각·기말",
+        "contexts": [
+         "기준일",
+         "주식 종류",
+         "취득 방법"
+        ],
+        "api": [
+         "자기주식 취득 및 처분 현황"
+        ],
+        "xbrl": null,
+        "scope": "common",
+        "aliases": [],
+        "note": "계획·기말 보유·결산일 후 소각은 시점과 상태가 다르다(BR0001 F0006).",
+        "children": [],
+        "id": "DT.A001.I.4.02",
+        "level": 3
+       },
+       {
+        "code": "03",
+        "title": "자기주식 직접 취득·처분 이행현황",
+        "structures": [
+         "table"
+        ],
+        "grain": "행=결의·취득 건, 열=예정/이행 수량·기간",
+        "contexts": [
+         "계획 vs 이행 상태"
+        ],
+        "api": [],
+        "xbrl": null,
+        "scope": "common",
+        "aliases": [
+         "자기주식 직접 취득ㆍ처분 이행현황"
+        ],
+        "note": null,
+        "children": [],
+        "id": "DT.A001.I.4.03",
+        "level": 3
+       },
+       {
+        "code": "04",
+        "title": "다양한 종류의 주식(종류주식 발행 현황)",
+        "structures": [
+         "table"
+        ],
+        "grain": "행=종류주식, 열=발행일·수량·이익배당 조건·상환/전환 조건",
+        "contexts": [],
+        "api": [],
+        "xbrl": null,
+        "scope": "conditional",
+        "aliases": [],
+        "note": null,
+        "children": [],
+        "id": "DT.A001.I.4.04",
+        "level": 3
+       }
+      ],
+      "id": "DT.A001.I.4",
+      "level": 2
+     },
+     {
+      "code": "5",
+      "title": "정관에 관한 사항",
+      "structures": [
+       "table"
+      ],
+      "grain": null,
+      "contexts": [],
+      "api": [],
+      "xbrl": null,
+      "scope": "common",
+      "aliases": [],
+      "note": null,
+      "children": [
+       {
+        "code": "01",
+        "title": "정관 변경 이력",
+        "structures": [
+         "table"
+        ],
+        "grain": "행=정관변경일, 열=해당 주주총회·변경사항·변경이유",
+        "contexts": [],
+        "api": [],
+        "xbrl": null,
+        "scope": "common",
+        "aliases": [],
+        "note": null,
+        "children": [],
+        "id": "DT.A001.I.5.01",
+        "level": 3
+       },
+       {
+        "code": "02",
+        "title": "사업목적 현황",
+        "structures": [
+         "table"
+        ],
+        "grain": "행=사업목적, 열=사업영위 여부",
+        "contexts": [],
+        "api": [],
+        "xbrl": null,
+        "scope": "common",
+        "aliases": [],
+        "note": "정관 사업목적과 실제 영위·매출 발생은 별도 상태(BR0001 F0009).",
+        "children": [],
+        "id": "DT.A001.I.5.02",
+        "level": 3
+       },
+       {
+        "code": "03",
+        "title": "사업목적 변경 내용",
+        "structures": [
+         "table"
+        ],
+        "grain": "행=구분(추가/삭제/수정), 열=변경 전·후",
+        "contexts": [],
+        "api": [],
+        "xbrl": null,
+        "scope": "common",
+        "aliases": [],
+        "note": null,
+        "children": [],
+        "id": "DT.A001.I.5.03",
+        "level": 3
+       },
+       {
+        "code": "04",
+        "title": "정관상 사업목적 추가 현황표",
+        "structures": [
+         "table"
+        ],
+        "grain": "행=추가 사업목적, 열=추가일자·추진현황·미추진 사유·향후 계획",
+        "contexts": [],
+        "api": [],
+        "xbrl": null,
+        "scope": "common",
+        "aliases": [],
+        "note": null,
+        "children": [],
+        "id": "DT.A001.I.5.04",
+        "level": 3
+       }
+      ],
+      "id": "DT.A001.I.5",
+      "level": 2
+     }
+    ],
+    "id": "DT.A001.I",
+    "level": 1
+   },
+   {
+    "code": "II",
+    "title": "사업의 내용",
+    "structures": [
+     "section"
+    ],
+    "grain": null,
+    "contexts": [],
+    "api": [],
+    "xbrl": null,
+    "scope": "common",
+    "aliases": [],
+    "note": "제조·일반업 서식(1~7)과 금융업 서식(업종별 절 구성)이 다르다. 아래 1~7은 일반업, F1~F4는 금융업 변형(보험 DB손해보험 2023에서 관찰; 증권·은행·여신 등도 같은 절 명칭을 쓰는 것으로 예상하며 신영증권 도착 시 검증).",
+    "children": [
+     {
+      "code": "1",
+      "title": "사업의 개요",
+      "structures": [
+       "table"
+      ],
+      "grain": null,
+      "contexts": [],
+      "api": [],
+      "xbrl": null,
+      "scope": "common",
+      "aliases": [],
+      "note": null,
+      "children": [
+       {
+        "code": "01",
+        "title": "사업 개요 서술",
+        "structures": [
+         "paragraph"
+        ],
+        "grain": "문단(주체·조건·시점 표현 보존)",
+        "contexts": [],
+        "api": [],
+        "xbrl": null,
+        "scope": "common",
+        "aliases": [],
+        "note": null,
+        "children": [],
+        "id": "DT.A001.II.1.01",
+        "level": 3
+       },
+       {
+        "code": "02",
+        "title": "사업부문별 현황·재무정보",
+        "structures": [
+         "table"
+        ],
+        "grain": "행=사업부문, 열=매출·자산 등",
+        "contexts": [
+         "부문 정의와 조직개편 전후 대응",
+         "내부거래 포함 여부"
+        ],
+        "api": [],
+        "xbrl": null,
+        "scope": "conditional",
+        "aliases": [],
+        "note": "부문합을 연결총계로 간주하지 않는다. 조직개편 전후는 다대일/일대다 대응(BR0001 F0005).",
+        "children": [],
+        "id": "DT.A001.II.1.02",
+        "level": 3
+       },
+       {
+        "code": "03",
+        "title": "투자대상 자산 개요(리츠·투자회사)",
+        "structures": [
+         "table",
+         "paragraph",
+         "image"
+        ],
+        "grain": "행=투자 부동산/자산, 열=위치·면적·취득가·임차인",
+        "contexts": [],
+        "api": [],
+        "xbrl": null,
+        "scope": "industry:리츠",
+        "aliases": [],
+        "note": "직접 보유 증권·투자기구·기초 부동산·운용사를 역할로 구분(BR0020 F0004).",
+        "children": [],
+        "id": "DT.A001.II.1.03",
+        "level": 3
+       }
+      ],
+      "id": "DT.A001.II.1",
+      "level": 2
+     },
+     {
+      "code": "2",
+      "title": "주요 제품 및 서비스",
+      "structures": [
+       "table"
+      ],
+      "grain": null,
+      "contexts": [],
+      "api": [],
+      "xbrl": null,
+      "scope": "common",
+      "aliases": [],
+      "note": null,
+      "children": [
+       {
+        "code": "01",
+        "title": "주요 제품 등의 현황",
+        "structures": [
+         "table"
+        ],
+        "grain": "행=사업부문×매출유형×품목, 열=구체적 용도·주요 상표·매출액·비율",
+        "contexts": [
+         "연결/별도",
+         "내부거래 포함 여부",
+         "기간"
+        ],
+        "api": [],
+        "xbrl": null,
+        "scope": "common",
+        "aliases": [],
+        "note": "같은 매출액에 다른 비중이 반복 기재될 수 있다(BR0001 F0010).",
+        "children": [],
+        "id": "DT.A001.II.2.01",
+        "level": 3
+       },
+       {
+        "code": "02",
+        "title": "주요 제품 등의 가격변동 추이",
+        "structures": [
+         "table"
+        ],
+        "grain": "행=품목, 열=연도별 가격(단위 각기 다름)",
+        "contexts": [
+         "가격 단위·기준(평균/기말)",
+         "통화"
+        ],
+        "api": [],
+        "xbrl": null,
+        "scope": "common",
+        "aliases": [],
+        "note": null,
+        "children": [],
+        "id": "DT.A001.II.2.02",
+        "level": 3
+       }
+      ],
+      "id": "DT.A001.II.2",
+      "level": 2
+     },
+     {
+      "code": "3",
+      "title": "원재료 및 생산설비",
+      "structures": [
+       "table"
+      ],
+      "grain": null,
+      "contexts": [],
+      "api": [],
+      "xbrl": null,
+      "scope": "common",
+      "aliases": [],
+      "note": null,
+      "children": [
+       {
+        "code": "01",
+        "title": "주요 원재료 등의 현황",
+        "structures": [
+         "table"
+        ],
+        "grain": "행=사업부문×매입유형×품목, 열=구체적 용도·매입액·비율·주요 매입처",
+        "contexts": [
+         "내부거래 제외 여부"
+        ],
+        "api": [],
+        "xbrl": null,
+        "scope": "common",
+        "aliases": [],
+        "note": "제품 매출은 내부거래 포함, 원재료 매입은 제외 등 표별 범위 차이(BR0001 F0011).",
+        "children": [],
+        "id": "DT.A001.II.3.01",
+        "level": 3
+       },
+       {
+        "code": "02",
+        "title": "주요 원재료 등의 가격변동 추이",
+        "structures": [
+         "table"
+        ],
+        "grain": "행=품목, 열=연도별 가격",
+        "contexts": [],
+        "api": [],
+        "xbrl": null,
+        "scope": "common",
+        "aliases": [],
+        "note": null,
+        "children": [],
+        "id": "DT.A001.II.3.02",
+        "level": 3
+       },
+       {
+        "code": "03",
+        "title": "생산능력 및 산출근거",
+        "structures": [
+         "table",
+         "paragraph"
+        ],
+        "grain": "행=사업부문×품목, 열=연도별 생산능력; 산출근거 문단",
+        "contexts": [],
+        "api": [],
+        "xbrl": null,
+        "scope": "common",
+        "aliases": [],
+        "note": null,
+        "children": [],
+        "id": "DT.A001.II.3.03",
+        "level": 3
+       },
+       {
+        "code": "04",
+        "title": "생산실적 및 가동률",
+        "structures": [
+         "table"
+        ],
+        "grain": "행=사업부문×품목, 열=생산실적/가동률",
+        "contexts": [
+         "가동률 정의(수량비 vs 시간비)"
+        ],
+        "api": [],
+        "xbrl": null,
+        "scope": "common",
+        "aliases": [],
+        "note": "DX 수량비와 DS/SDC 시간비가 공존(BR0001 F0012).",
+        "children": [],
+        "id": "DT.A001.II.3.04",
+        "level": 3
+       },
+       {
+        "code": "05",
+        "title": "생산설비의 현황",
+        "structures": [
+         "table"
+        ],
+        "grain": "행=자산 종류(토지·건물·기계 등)×소재지, 열=기초·취득·처분·감가상각·기말",
+        "contexts": [
+         "연결/별도",
+         "단위"
+        ],
+        "api": [],
+        "xbrl": null,
+        "scope": "common",
+        "aliases": [],
+        "note": null,
+        "children": [],
+        "id": "DT.A001.II.3.05",
+        "level": 3
+       },
+       {
+        "code": "06",
+        "title": "설비의 신설·매입 계획",
+        "structures": [
+         "table"
+        ],
+        "grain": "행=투자 건, 열=투자기간·투자대상·투자금액·효과",
+        "contexts": [
+         "계획 vs 실행 상태"
+        ],
+        "api": [],
+        "xbrl": null,
+        "scope": "common",
+        "aliases": [],
+        "note": null,
+        "children": [],
+        "id": "DT.A001.II.3.06",
+        "level": 3
+       }
+      ],
+      "id": "DT.A001.II.3",
+      "level": 2
+     },
+     {
+      "code": "4",
+      "title": "매출 및 수주상황",
+      "structures": [
+       "table"
+      ],
+      "grain": null,
+      "contexts": [],
+      "api": [],
+      "xbrl": null,
+      "scope": "common",
+      "aliases": [],
+      "note": null,
+      "children": [
+       {
+        "code": "01",
+        "title": "매출실적(제품별·유형별·지역별)",
+        "structures": [
+         "table"
+        ],
+        "grain": "행=사업부문×매출유형×품목(또는 지역), 열=연도별 매출액(수출/내수)",
+        "contexts": [
+         "연결/별도",
+         "기간",
+         "단위",
+         "내부거래 포함 여부"
+        ],
+        "api": [],
+        "xbrl": null,
+        "scope": "common",
+        "aliases": [],
+        "note": "용역 252 = 용역 136 + 기타 116처럼 반복 숫자에 포함 범위가 있다(BR0053 F0004).",
+        "children": [],
+        "id": "DT.A001.II.4.01",
+        "level": 3
+       },
+       {
+        "code": "02",
+        "title": "판매경로·판매방법·조건·판매전략",
+        "structures": [
+         "paragraph",
+         "table"
+        ],
+        "grain": "문단; 판매경로별 매출액 비중 표",
+        "contexts": [],
+        "api": [],
+        "xbrl": null,
+        "scope": "common",
+        "aliases": [],
+        "note": "비중의 분모가 연도마다 바뀔 수 있다(BR0016 F0007).",
+        "children": [],
+        "id": "DT.A001.II.4.02",
+        "level": 3
+       },
+       {
+        "code": "03",
+        "title": "주요 매출처",
+        "structures": [
+         "paragraph",
+         "table"
+        ],
+        "grain": "행=매출처(익명 A사/B사 가능), 열=매출액·비중",
+        "contexts": [],
+        "api": [],
+        "xbrl": null,
+        "scope": "common",
+        "aliases": [],
+        "note": "익명 고객을 실명 거래처와 연결할 직접 근거가 없으면 연결하지 않는다(BR0016 F0017).",
+        "children": [],
+        "id": "DT.A001.II.4.03",
+        "level": 3
+       },
+       {
+        "code": "04",
+        "title": "수주상황",
+        "structures": [
+         "table"
+        ],
+        "grain": "행=품목×수주일, 열=납기·수주총액·기납품액·수주잔고(수량/금액)",
+        "contexts": [
+         "통화·환율",
+         "수량/금액 단위"
+        ],
+        "api": [],
+        "xbrl": null,
+        "scope": "common",
+        "aliases": [],
+        "note": "기납품액과 잔고의 환율 적용이 다를 수 있다(BR0016 F0008).",
+        "children": [],
+        "id": "DT.A001.II.4.04",
+        "level": 3
+       }
+      ],
+      "id": "DT.A001.II.4",
+      "level": 2
+     },
+     {
+      "code": "5",
+      "title": "위험관리 및 파생거래",
+      "structures": [
+       "table"
+      ],
+      "grain": null,
+      "contexts": [],
+      "api": [],
+      "xbrl": null,
+      "scope": "common",
+      "aliases": [],
+      "note": null,
+      "children": [
+       {
+        "code": "01",
+        "title": "시장위험과 위험관리(환·이자율·가격·신용·유동성·자본)",
+        "structures": [
+         "paragraph",
+         "table"
+        ],
+        "grain": "위험 유형별 서술과 민감도·노출 표",
+        "contexts": [
+         "기준일",
+         "연결/별도",
+         "충격 가정"
+        ],
+        "api": [],
+        "xbrl": null,
+        "scope": "common",
+        "aliases": [],
+        "note": null,
+        "children": [],
+        "id": "DT.A001.II.5.01",
+        "level": 3
+       },
+       {
+        "code": "02",
+        "title": "파생상품 및 풋백옵션 등 거래 현황",
+        "structures": [
+         "table"
+        ],
+        "grain": "행=계약 건, 열=거래목적·상대방·계약금액·평가손익",
+        "contexts": [
+         "기준일",
+         "통화",
+         "계약/공정가치 구분"
+        ],
+        "api": [],
+        "xbrl": null,
+        "scope": "common",
+        "aliases": [],
+        "note": null,
+        "children": [],
+        "id": "DT.A001.II.5.02",
+        "level": 3
+       }
+      ],
+      "id": "DT.A001.II.5",
+      "level": 2
+     },
+     {
+      "code": "6",
+      "title": "주요계약 및 연구개발활동",
+      "structures": [
+       "table"
+      ],
+      "grain": null,
+      "contexts": [],
+      "api": [],
+      "xbrl": null,
+      "scope": "common",
+      "aliases": [],
+      "note": null,
+      "children": [
+       {
+        "code": "01",
+        "title": "경영상의 주요계약",
+        "structures": [
+         "table",
+         "paragraph"
+        ],
+        "grain": "행=계약 건, 열=계약상대방·계약내용·계약기간·계약금액·수취/지급 조건",
+        "contexts": [
+         "계약일/시행일/개정일 구분",
+         "통화",
+         "조건부 금액(마일스톤)과 실제 수취 구분"
+        ],
+        "api": [],
+        "xbrl": null,
+        "scope": "common",
+        "aliases": [],
+        "note": "기술료는 수취·조건부 마일스톤·실제매출을 분리한다(BR0016).",
+        "children": [],
+        "id": "DT.A001.II.6.01",
+        "level": 3
+       },
+       {
+        "code": "02",
+        "title": "연구개발활동의 개요 및 조직",
+        "structures": [
+         "paragraph",
+         "table"
+        ],
+        "grain": null,
+        "contexts": [],
+        "api": [],
+        "xbrl": null,
+        "scope": "common",
+        "aliases": [],
+        "note": null,
+        "children": [],
+        "id": "DT.A001.II.6.02",
+        "level": 3
+       },
+       {
+        "code": "03",
+        "title": "연구개발비용",
+        "structures": [
+         "table"
+        ],
+        "grain": "행=비용 항목(원재료비·인건비·감가상각·위탁용역 등)·정부보조금·합계·매출액 대비 비율, 열=연도",
+        "contexts": [
+         "보조금 차감 전/후",
+         "비율 분모"
+        ],
+        "api": [],
+        "xbrl": null,
+        "scope": "common",
+        "aliases": [],
+        "note": "연구개발비 비율은 정부보조금 차감 전 총액을 분자로 쓴다(BR0001).",
+        "children": [],
+        "id": "DT.A001.II.6.03",
+        "level": 3
+       },
+       {
+        "code": "04",
+        "title": "연구개발실적",
+        "structures": [
+         "table",
+         "paragraph"
+        ],
+        "grain": "행=과제/품목, 열=진행단계·연구기관·기대효과",
+        "contexts": [],
+        "api": [],
+        "xbrl": null,
+        "scope": "common",
+        "aliases": [],
+        "note": "상세는 XII.4로 분리될 수 있다.",
+        "children": [],
+        "id": "DT.A001.II.6.04",
+        "level": 3
+       }
+      ],
+      "id": "DT.A001.II.6",
+      "level": 2
+     },
+     {
+      "code": "7",
+      "title": "기타 참고사항",
+      "structures": [
+       "table"
+      ],
+      "grain": null,
+      "contexts": [],
+      "api": [],
+      "xbrl": null,
+      "scope": "common",
+      "aliases": [],
+      "note": null,
+      "children": [
+       {
+        "code": "01",
+        "title": "산업의 특성·성장성·경기변동·경쟁요소·시장점유율",
+        "structures": [
+         "paragraph",
+         "table"
+        ],
+        "grain": "업종별 서술; 시장규모·점유율 표",
+        "contexts": [
+         "출처·기준연도",
+         "추정치 여부"
+        ],
+        "api": [],
+        "xbrl": null,
+        "scope": "common",
+        "aliases": [],
+        "note": "시장 통계는 회사 기재 출처를 보존하고 외부 검증하지 않는다.",
+        "children": [],
+        "id": "DT.A001.II.7.01",
+        "level": 3
+       },
+       {
+        "code": "02",
+        "title": "지식재산권 현황",
+        "structures": [
+         "table"
+        ],
+        "grain": "행=특허·상표, 열=등록일·등록국가·존속기간",
+        "contexts": [
+         "등록일 vs 출원일"
+        ],
+        "api": [],
+        "xbrl": null,
+        "scope": "common",
+        "aliases": [],
+        "note": null,
+        "children": [],
+        "id": "DT.A001.II.7.02",
+        "level": 3
+       },
+       {
+        "code": "03",
+        "title": "법률·규제 환경 및 정부 규제·지원",
+        "structures": [
+         "paragraph"
+        ],
+        "grain": null,
+        "contexts": [],
+        "api": [],
+        "xbrl": null,
+        "scope": "common",
+        "aliases": [],
+        "note": null,
+        "children": [],
+        "id": "DT.A001.II.7.03",
+        "level": 3
+       },
+       {
+        "code": "04",
+        "title": "환경·안전 관련 사항",
+        "structures": [
+         "paragraph",
+         "table"
+        ],
+        "grain": null,
+        "contexts": [],
+        "api": [],
+        "xbrl": null,
+        "scope": "conditional",
+        "aliases": [],
+        "note": null,
+        "children": [],
+        "id": "DT.A001.II.7.04",
+        "level": 3
+       },
+       {
+        "code": "05",
+        "title": "외부자금조달 요약표",
+        "structures": [
+         "table"
+        ],
+        "grain": "행=조달원천(은행·회사채·주식 등), 열=연도별 금액",
+        "contexts": [
+         "연결/별도"
+        ],
+        "api": [],
+        "xbrl": null,
+        "scope": "conditional",
+        "aliases": [],
+        "note": null,
+        "children": [],
+        "id": "DT.A001.II.7.05",
+        "level": 3
+       }
+      ],
+      "id": "DT.A001.II.7",
+      "level": 2
+     },
+     {
+      "code": "F1",
+      "title": "영업의 현황(금융업)",
+      "structures": [
+       "table"
+      ],
+      "grain": null,
+      "contexts": [],
+      "api": [],
+      "xbrl": null,
+      "scope": "industry:금융",
+      "aliases": [
+       "2. 영업의 현황"
+      ],
+      "note": "보험(관찰)·증권·은행·여신전문 등 금융업 서식의 II장 2절. 하위 표는 업종별로 다르다(아래 01~04는 보험 관찰).",
+      "children": [
+       {
+        "code": "01",
+        "title": "영업 종류별 현황 / 주요 상품·서비스",
+        "structures": [
+         "paragraph",
+         "table"
+        ],
+        "grain": null,
+        "contexts": [],
+        "api": [],
+        "xbrl": null,
+        "scope": "common",
+        "aliases": [],
+        "note": null,
+        "children": [],
+        "id": "DT.A001.II.F1.01",
+        "level": 3
+       },
+       {
+        "code": "02",
+        "title": "보험종목별 수입보험료·보험금 내역",
+        "structures": [
+         "table"
+        ],
+        "grain": "행=보험종목, 열=연도별 수입보험료/보험금",
+        "contexts": [
+         "보험회계 기준(IFRS17/IFRS4) 및 업무보고서 기준",
+         "경과/보유/수입 구분"
+        ],
+        "api": [],
+        "xbrl": null,
+        "scope": "common",
+        "aliases": [],
+        "note": "같은 보고서 안에서도 종전 기준(1104·1039) 업무보고서 수치가 병존한다(BR0044).",
+        "children": [],
+        "id": "DT.A001.II.F1.02",
+        "level": 3
+       },
+       {
+        "code": "03",
+        "title": "모집형태별 원수보험료",
+        "structures": [
+         "table"
+        ],
+        "grain": "행=모집형태(임직원·설계사·대리점·방카 등), 열=원수보험료·비중",
+        "contexts": [],
+        "api": [],
+        "xbrl": null,
+        "scope": "common",
+        "aliases": [],
+        "note": null,
+        "children": [],
+        "id": "DT.A001.II.F1.03",
+        "level": 3
+       },
+       {
+        "code": "04",
+        "title": "자산운용 현황·운용자산",
+        "structures": [
+         "table"
+        ],
+        "grain": "행=자산 종류, 열=잔액·구성비·수익률",
+        "contexts": [
+         "비율의 분모(평잔/기말)",
+         "수익률 정의"
+        ],
+        "api": [],
+        "xbrl": null,
+        "scope": "common",
+        "aliases": [],
+        "note": "'비율' 열 이름만으로 분모를 알 수 없다(BR0044).",
+        "children": [],
+        "id": "DT.A001.II.F1.04",
+        "level": 3
+       }
+      ],
+      "id": "DT.A001.II.F1",
+      "level": 2
+     },
+     {
+      "code": "F2",
+      "title": "파생상품거래 현황(금융업)",
+      "structures": [
+       "table"
+      ],
+      "grain": null,
+      "contexts": [],
+      "api": [],
+      "xbrl": null,
+      "scope": "industry:금융",
+      "aliases": [
+       "3. 파생상품거래 현황"
+      ],
+      "note": null,
+      "children": [
+       {
+        "code": "01",
+        "title": "파생상품 거래현황·신용파생상품 상세",
+        "structures": [
+         "table"
+        ],
+        "grain": "행=거래목적×상품종류, 열=계약금액·평가손익",
+        "contexts": [],
+        "api": [],
+        "xbrl": null,
+        "scope": "common",
+        "aliases": [],
+        "note": "같은 금액이 목적별·거래형태별·상품별 분해에 반복되어 합산 금지(BR0044 캐피탈 파생 5,230).",
+        "children": [],
+        "id": "DT.A001.II.F2.01",
+        "level": 3
+       }
+      ],
+      "id": "DT.A001.II.F2",
+      "level": 2
+     },
+     {
+      "code": "F3",
+      "title": "영업설비(금융업)",
+      "structures": [
+       "table"
+      ],
+      "grain": null,
+      "contexts": [],
+      "api": [],
+      "xbrl": null,
+      "scope": "industry:금융",
+      "aliases": [
+       "4. 영업설비"
+      ],
+      "note": null,
+      "children": [
+       {
+        "code": "01",
+        "title": "영업점·사업단 현황 및 부동산",
+        "structures": [
+         "table"
+        ],
+        "grain": "행=지역/사업단, 열=점포 수·면적",
+        "contexts": [],
+        "api": [],
+        "xbrl": null,
+        "scope": "common",
+        "aliases": [],
+        "note": null,
+        "children": [],
+        "id": "DT.A001.II.F3.01",
+        "level": 3
+       }
+      ],
+      "id": "DT.A001.II.F3",
+      "level": 2
+     },
+     {
+      "code": "F4",
+      "title": "재무건전성 등 기타 참고사항(금융업)",
+      "structures": [
+       "table"
+      ],
+      "grain": null,
+      "contexts": [],
+      "api": [],
+      "xbrl": null,
+      "scope": "industry:금융",
+      "aliases": [
+       "5. 재무건전성 등 기타 참고사항"
+      ],
+      "note": "보험: K-ICS·보험계약·대출 운용(관찰). 증권: 순자본비율(NCR)·영업용순자본 등이 들어올 것으로 예상(미검증).",
+      "children": [
+       {
+        "code": "01",
+        "title": "지급여력비율(K-ICS/RBC)",
+        "structures": [
+         "table"
+        ],
+        "grain": "행=가용자본·요구자본·비율, 열=연도",
+        "contexts": [
+         "잠정/확정 상태",
+         "산출 기준(감독 규정)"
+        ],
+        "api": [],
+        "xbrl": null,
+        "scope": "common",
+        "aliases": [],
+        "note": "잠정 산출치와 미산출 대시는 서로 다른 상태(BR0044).",
+        "children": [],
+        "id": "DT.A001.II.F4.01",
+        "level": 3
+       },
+       {
+        "code": "02",
+        "title": "보험계약 현황·순사업비",
+        "structures": [
+         "table"
+        ],
+        "grain": "행=보험종목, 열=보유계약·순사업비",
+        "contexts": [],
+        "api": [],
+        "xbrl": null,
+        "scope": "common",
+        "aliases": [],
+        "note": null,
+        "children": [],
+        "id": "DT.A001.II.F4.02",
+        "level": 3
+       },
+       {
+        "code": "03",
+        "title": "대출금 운용내역·잔존기간별 잔액",
+        "structures": [
+         "table"
+        ],
+        "grain": "행=대출 종류/잔존기간, 열=금액",
+        "contexts": [
+         "원금/충당금 차감/할인·이연 반영 등 측정기준",
+         "기준일"
+        ],
+        "api": [],
+        "xbrl": null,
+        "scope": "common",
+        "aliases": [],
+        "note": "원금−손실충당금=만기표, −할인·이연=투자현황(BR0044 대출 bridge).",
+        "children": [],
+        "id": "DT.A001.II.F4.03",
+        "level": 3
+       },
+       {
+        "code": "04",
+        "title": "신용등급·관계법령·규제 및 지원",
+        "structures": [
+         "table",
+         "paragraph"
+        ],
+        "grain": null,
+        "contexts": [],
+        "api": [],
+        "xbrl": null,
+        "scope": "common",
+        "aliases": [],
+        "note": null,
+        "children": [],
+        "id": "DT.A001.II.F4.04",
+        "level": 3
+       },
+       {
+        "code": "05",
+        "title": "주요 종속회사(생명·캐피탈) 영업 현황",
+        "structures": [
+         "table",
+         "paragraph"
+        ],
+        "grain": "종속 금융회사별 동일 구조 반복",
+        "contexts": [
+         "법인별 작성 기준"
+        ],
+        "api": [],
+        "xbrl": null,
+        "scope": "common",
+        "aliases": [],
+        "note": null,
+        "children": [],
+        "id": "DT.A001.II.F4.05",
+        "level": 3
+       }
+      ],
+      "id": "DT.A001.II.F4",
+      "level": 2
+     }
+    ],
+    "id": "DT.A001.II",
+    "level": 1
+   },
+   {
+    "code": "III",
+    "title": "재무에 관한 사항",
+    "structures": [
+     "section"
+    ],
+    "grain": null,
+    "contexts": [],
+    "api": [],
+    "xbrl": null,
+    "scope": "common",
+    "aliases": [],
+    "note": null,
+    "children": [
+     {
+      "code": "1",
+      "title": "요약재무정보",
+      "structures": [
+       "table"
+      ],
+      "grain": null,
+      "contexts": [],
+      "api": [],
+      "xbrl": null,
+      "scope": "common",
+      "aliases": [],
+      "note": null,
+      "children": [
+       {
+        "code": "01",
+        "title": "요약연결재무정보",
+        "structures": [
+         "table"
+        ],
+        "grain": "행=요약 계정(유동자산…자본총계, 매출액…당기순이익, 주당순이익 등), 열=최근 3개 사업연도",
+        "contexts": [
+         "연결",
+         "표시 단위(백만원 등)",
+         "회계기준 조합(연도별)",
+         "재작성 여부"
+        ],
+        "api": [
+         "단일회사 주요계정",
+         "다중회사 주요계정"
+        ],
+        "xbrl": null,
+        "scope": "common",
+        "aliases": [],
+        "note": "표시 단위 반올림으로 하위 합과 소계가 1 차이날 수 있다(BR0044). 연도별 회계기준 조합이 다를 수 있다.",
+        "children": [],
+        "id": "DT.A001.III.1.01",
+        "level": 3
+       },
+       {
+        "code": "02",
+        "title": "요약재무정보(별도)",
+        "structures": [
+         "table"
+        ],
+        "grain": "동일 구조, 별도 기준",
+        "contexts": [
+         "별도"
+        ],
+        "api": [],
+        "xbrl": null,
+        "scope": "common",
+        "aliases": [],
+        "note": null,
+        "children": [],
+        "id": "DT.A001.III.1.02",
+        "level": 3
+       },
+       {
+        "code": "03",
+        "title": "요약 정보 각주(작성기준·재작성·기준 전환)",
+        "structures": [
+         "paragraph"
+        ],
+        "grain": null,
+        "contexts": [],
+        "api": [],
+        "xbrl": null,
+        "scope": "common",
+        "aliases": [],
+        "note": null,
+        "children": [],
+        "id": "DT.A001.III.1.03",
+        "level": 3
+       }
+      ],
+      "id": "DT.A001.III.1",
+      "level": 2
+     },
+     {
+      "code": "2",
+      "title": "연결재무제표",
+      "structures": [
+       "table"
+      ],
+      "grain": null,
+      "contexts": [],
+      "api": [],
+      "xbrl": null,
+      "scope": "common",
+      "aliases": [],
+      "note": "XBRL 재무제표와 대응. 손익계산서·포괄손익계산서 분리 여부는 회사 표시 선택.",
+      "children": [
+       {
+        "code": "01",
+        "title": "연결 재무상태표",
+        "structures": [
+         "table"
+        ],
+        "grain": "행=계정과목(주석번호 열 포함), 열=당기말·전기말(·전전기말)",
+        "contexts": [
+         "기준일(기말)",
+         "단위(원)",
+         "연결"
+        ],
+        "api": [],
+        "xbrl": true,
+        "scope": "common",
+        "aliases": [],
+        "note": null,
+        "children": [],
+        "id": "DT.A001.III.2.01",
+        "level": 3
+       },
+       {
+        "code": "02",
+        "title": "연결 손익계산서",
+        "structures": [
+         "table"
+        ],
+        "grain": "행=계정과목, 열=당기·전기(·전전기)",
+        "contexts": [
+         "기간",
+         "단위",
+         "연결"
+        ],
+        "api": [],
+        "xbrl": true,
+        "scope": "conditional",
+        "aliases": [],
+        "note": null,
+        "children": [],
+        "id": "DT.A001.III.2.02",
+        "level": 3
+       },
+       {
+        "code": "03",
+        "title": "연결 포괄손익계산서",
+        "structures": [
+         "table"
+        ],
+        "grain": "행=계정과목, 열=기간",
+        "contexts": [
+         "기간"
+        ],
+        "api": [],
+        "xbrl": true,
+        "scope": "common",
+        "aliases": [],
+        "note": null,
+        "children": [],
+        "id": "DT.A001.III.2.03",
+        "level": 3
+       },
+       {
+        "code": "04",
+        "title": "연결 자본변동표",
+        "structures": [
+         "table"
+        ],
+        "grain": "행=변동 항목, 열=자본 구성요소(자본금·잉여금·기타·비지배지분·합계)",
+        "contexts": [
+         "기간",
+         "귀속(지배/비지배)"
+        ],
+        "api": [],
+        "xbrl": true,
+        "scope": "common",
+        "aliases": [],
+        "note": null,
+        "children": [],
+        "id": "DT.A001.III.2.04",
+        "level": 3
+       },
+       {
+        "code": "05",
+        "title": "연결 현금흐름표",
+        "structures": [
+         "table"
+        ],
+        "grain": "행=활동별 항목, 열=기간",
+        "contexts": [
+         "기간"
+        ],
+        "api": [],
+        "xbrl": true,
+        "scope": "common",
+        "aliases": [],
+        "note": null,
+        "children": [],
+        "id": "DT.A001.III.2.05",
+        "level": 3
+       }
+      ],
+      "id": "DT.A001.III.2",
+      "level": 2
+     },
+     {
+      "code": "3",
+      "title": "연결재무제표 주석",
+      "structures": [
+       "table"
+      ],
+      "grain": null,
+      "contexts": [],
+      "api": [],
+      "xbrl": null,
+      "scope": "common",
+      "aliases": [],
+      "note": "주석 번호·제목은 회사마다 다르다. 아래 L3는 '주석 주제 유형'이며 실제 주석 제목은 인스턴스에서 대응한다.",
+      "children": [
+       {
+        "code": "N01",
+        "title": "일반사항·연결범위 (연결)",
+        "structures": [
+         "table",
+         "paragraph"
+        ],
+        "grain": "연결 대상 종속기업 목록·지분율·변동, 회사 개요",
+        "contexts": [
+         "기준일",
+         "지분율 분모(발행/유통/의결권)"
+        ],
+        "api": [],
+        "xbrl": "partial",
+        "scope": "common",
+        "aliases": [],
+        "note": "주제 유형. 실제 주석 제목은 회사별로 다르며 키워드로 대응: 일반, 연결대상, 종속기업의 현황",
+        "children": [],
+        "id": "DT.A001.III.3.N01",
+        "level": 3
+       },
+       {
+        "code": "N02",
+        "title": "회계정책·기준서 적용 (연결)",
+        "structures": [
+         "table",
+         "paragraph"
+        ],
+        "grain": "적용 기준서, 신규·개정 기준서 영향, 미적용 정책",
+        "contexts": [
+         "기준서 적용 연도(열별 기준 조합)",
+         "현재 적용/미래 예정 상태"
+        ],
+        "api": [],
+        "xbrl": "partial",
+        "scope": "common",
+        "aliases": [],
+        "note": "주제 유형. 실제 주석 제목은 회사별로 다르며 키워드로 대응: 회계정책, 회계처리방침, 제정, 개정",
+        "children": [],
+        "id": "DT.A001.III.3.N02",
+        "level": 3
+       },
+       {
+        "code": "N03",
+        "title": "회계추정·가정 (연결)",
+        "structures": [
+         "table",
+         "paragraph"
+        ],
+        "grain": "추정 불확실성 원천(손상·충당·세무 등)",
+        "contexts": [
+         "최빈값/기대값 등 추정 방법"
+        ],
+        "api": [],
+        "xbrl": "partial",
+        "scope": "common",
+        "aliases": [],
+        "note": "주제 유형. 실제 주석 제목은 회사별로 다르며 키워드로 대응: 추정, 가정",
+        "children": [],
+        "id": "DT.A001.III.3.N03",
+        "level": 3
+       },
+       {
+        "code": "N04",
+        "title": "재무위험관리·자본관리 (연결)",
+        "structures": [
+         "table",
+         "paragraph"
+        ],
+        "grain": "시장·신용·유동성 위험, 민감도, 만기분석, 자본관리 지표",
+        "contexts": [
+         "충격 가정",
+         "미할인/장부금액 구분"
+        ],
+        "api": [],
+        "xbrl": "partial",
+        "scope": "common",
+        "aliases": [],
+        "note": "주제 유형. 실제 주석 제목은 회사별로 다르며 키워드로 대응: 재무위험, 위험관리, 자본관리, 자본위험",
+        "children": [],
+        "id": "DT.A001.III.3.N04",
+        "level": 3
+       },
+       {
+        "code": "N05",
+        "title": "금융상품 범주·공정가치 (연결)",
+        "structures": [
+         "table",
+         "paragraph"
+        ],
+        "grain": "범주별 장부금액, 공정가치 서열체계, 평가기법",
+        "contexts": [
+         "범주(분류) 정의",
+         "수준1/2/3",
+         "기준일"
+        ],
+        "api": [],
+        "xbrl": "partial",
+        "scope": "common",
+        "aliases": [],
+        "note": "주제 유형. 실제 주석 제목은 회사별로 다르며 키워드로 대응: 범주별, 공정가치, 금융상품",
+        "children": [],
+        "id": "DT.A001.III.3.N05",
+        "level": 3
+       },
+       {
+        "code": "N06",
+        "title": "현금·금융자산·금융자산 양도 (연결)",
+        "structures": [
+         "table",
+         "paragraph"
+        ],
+        "grain": "현금성자산, 상각후원가·FVOCI·FVPL 자산, 팩토링 등 양도",
+        "contexts": [
+         "제거/미제거 판정",
+         "담보 여부"
+        ],
+        "api": [],
+        "xbrl": "partial",
+        "scope": "common",
+        "aliases": [],
+        "note": "주제 유형. 실제 주석 제목은 회사별로 다르며 키워드로 대응: 현금및현금성, 금융자산, 양도, 단기금융",
+        "children": [],
+        "id": "DT.A001.III.3.N06",
+        "level": 3
+       },
+       {
+        "code": "N07",
+        "title": "매출채권·기타채권 (연결)",
+        "structures": [
+         "table",
+         "paragraph"
+        ],
+        "grain": "채권 총액·손실충당금·연령분석",
+        "contexts": [
+         "총액/순액",
+         "연령 구간",
+         "손실충당금 부호"
+        ],
+        "api": [],
+        "xbrl": "partial",
+        "scope": "common",
+        "aliases": [],
+        "note": "주제 유형. 실제 주석 제목은 회사별로 다르며 키워드로 대응: 매출채권, 기타채권, 미수금, 채권",
+        "children": [],
+        "id": "DT.A001.III.3.N07",
+        "level": 3
+       },
+       {
+        "code": "N08",
+        "title": "재고자산 (연결)",
+        "structures": [
+         "table",
+         "paragraph"
+        ],
+        "grain": "재고 종류별 잔액·평가충당금·비용 인식액",
+        "contexts": [
+         "잔액 vs 흐름(비용 인식) 구분"
+        ],
+        "api": [],
+        "xbrl": "partial",
+        "scope": "common",
+        "aliases": [],
+        "note": "주제 유형. 실제 주석 제목은 회사별로 다르며 키워드로 대응: 재고",
+        "children": [],
+        "id": "DT.A001.III.3.N08",
+        "level": 3
+       },
+       {
+        "code": "N09",
+        "title": "관계기업·공동기업·종속기업 투자 (연결)",
+        "structures": [
+         "table",
+         "paragraph"
+        ],
+        "grain": "지분율, 장부금액, 지분법 손익, 요약 재무정보",
+        "contexts": [
+         "지분율 분모",
+         "순자산지분 vs 피투자회사 전체 재무"
+        ],
+        "api": [],
+        "xbrl": "partial",
+        "scope": "common",
+        "aliases": [],
+        "note": "주제 유형. 실제 주석 제목은 회사별로 다르며 키워드로 대응: 관계기업, 공동기업, 종속기업, 지분법",
+        "children": [],
+        "id": "DT.A001.III.3.N09",
+        "level": 3
+       },
+       {
+        "code": "N10",
+        "title": "유형자산·사용권자산 (연결)",
+        "structures": [
+         "table",
+         "paragraph"
+        ],
+        "grain": "취득·처분·감가상각·손상, 건설중자산, 담보",
+        "contexts": [
+         "취득(대체 포함) vs 현금 CAPEX",
+         "ROU 포함 관계"
+        ],
+        "api": [],
+        "xbrl": "partial",
+        "scope": "common",
+        "aliases": [],
+        "note": "주제 유형. 실제 주석 제목은 회사별로 다르며 키워드로 대응: 유형자산, 사용권",
+        "children": [],
+        "id": "DT.A001.III.3.N10",
+        "level": 3
+       },
+       {
+        "code": "N11",
+        "title": "무형자산·영업권 (연결)",
+        "structures": [
+         "table",
+         "paragraph"
+        ],
+        "grain": "무형자산 변동, 영업권 배분·손상검사 가정",
+        "contexts": [
+         "CGU 배분",
+         "예측 기간·성장률 가정"
+        ],
+        "api": [],
+        "xbrl": "partial",
+        "scope": "common",
+        "aliases": [],
+        "note": "주제 유형. 실제 주석 제목은 회사별로 다르며 키워드로 대응: 무형자산, 영업권",
+        "children": [],
+        "id": "DT.A001.III.3.N11",
+        "level": 3
+       },
+       {
+        "code": "N12",
+        "title": "투자부동산 (연결)",
+        "structures": [
+         "table",
+         "paragraph"
+        ],
+        "grain": "투자부동산 변동·공정가치",
+        "contexts": [
+         "표시 단위(만원/백만원 혼재 가능)"
+        ],
+        "api": [],
+        "xbrl": "partial",
+        "scope": "common",
+        "aliases": [],
+        "note": "주제 유형. 실제 주석 제목은 회사별로 다르며 키워드로 대응: 투자부동산",
+        "children": [],
+        "id": "DT.A001.III.3.N12",
+        "level": 3
+       },
+       {
+        "code": "N13",
+        "title": "기타자산·매각예정·중단영업 (연결)",
+        "structures": [
+         "table",
+         "paragraph"
+        ],
+        "grain": "기타자산, 매각예정자산·부채, 중단영업 손익",
+        "contexts": [
+         "분류 시점"
+        ],
+        "api": [],
+        "xbrl": "partial",
+        "scope": "common",
+        "aliases": [],
+        "note": "주제 유형. 실제 주석 제목은 회사별로 다르며 키워드로 대응: 기타자산, 매각예정, 중단영업, 처분자산집단",
+        "children": [],
+        "id": "DT.A001.III.3.N13",
+        "level": 3
+       },
+       {
+        "code": "N14",
+        "title": "매입채무·기타채무·계약부채 (연결)",
+        "structures": [
+         "table",
+         "paragraph"
+        ],
+        "grain": "매입채무, 미지급금, 계약부채(선수금 등)",
+        "contexts": [
+         "BS 표시 계정과의 대응"
+        ],
+        "api": [],
+        "xbrl": "partial",
+        "scope": "common",
+        "aliases": [],
+        "note": "주제 유형. 실제 주석 제목은 회사별로 다르며 키워드로 대응: 매입채무, 지급채무, 계약부채, 기타부채, 미지급",
+        "children": [],
+        "id": "DT.A001.III.3.N14",
+        "level": 3
+       },
+       {
+        "code": "N15",
+        "title": "차입금·사채·금융부채·리스부채 (연결)",
+        "structures": [
+         "table",
+         "paragraph"
+        ],
+        "grain": "차입 상대방·이자율·만기, 사채 조건, 리스부채",
+        "contexts": [
+         "명목(외화)/장부금액",
+         "미할인 만기금액 vs 장부",
+         "이자율 범위"
+        ],
+        "api": [],
+        "xbrl": "partial",
+        "scope": "common",
+        "aliases": [],
+        "note": "주제 유형. 실제 주석 제목은 회사별로 다르며 키워드로 대응: 차입금, 차입부채, 차입, 사채, 금융부채, 리스",
+        "children": [],
+        "id": "DT.A001.III.3.N15",
+        "level": 3
+       },
+       {
+        "code": "N16",
+        "title": "충당부채·배출부채·우발부채·약정 (연결)",
+        "structures": [
+         "table",
+         "paragraph"
+        ],
+        "grain": "충당부채 변동, 배출권, 소송·보증·약정",
+        "contexts": [
+         "한도 vs 잔액",
+         "조건부 여부",
+         "추정 시점"
+        ],
+        "api": [],
+        "xbrl": "partial",
+        "scope": "common",
+        "aliases": [],
+        "note": "주제 유형. 실제 주석 제목은 회사별로 다르며 키워드로 대응: 충당부채, 배출부채, 우발, 약정, 우발상황",
+        "children": [],
+        "id": "DT.A001.III.3.N16",
+        "level": 3
+       },
+       {
+        "code": "N17",
+        "title": "종업원급여·퇴직급여·주식기준보상 (연결)",
+        "structures": [
+         "table",
+         "paragraph"
+        ],
+        "grain": "확정급여채무, 사외적립자산, 보험수리 가정, 주식기준보상",
+        "contexts": [
+         "부호 관례(자산/부채 순액)",
+         "민감도 라벨"
+        ],
+        "api": [],
+        "xbrl": "partial",
+        "scope": "common",
+        "aliases": [],
+        "note": "주제 유형. 실제 주석 제목은 회사별로 다르며 키워드로 대응: 종업원급여, 퇴직급여, 확정급여, 주식기준보상, 순확정급여",
+        "children": [],
+        "id": "DT.A001.III.3.N17",
+        "level": 3
+       },
+       {
+        "code": "N18",
+        "title": "정부보조금 (연결)",
+        "structures": [
+         "table",
+         "paragraph"
+        ],
+        "grain": "보조금 수령·차감",
+        "contexts": [
+         "보조금 차감 전/후"
+        ],
+        "api": [],
+        "xbrl": "partial",
+        "scope": "common",
+        "aliases": [],
+        "note": "주제 유형. 실제 주석 제목은 회사별로 다르며 키워드로 대응: 정부보조금",
+        "children": [],
+        "id": "DT.A001.III.3.N18",
+        "level": 3
+       },
+       {
+        "code": "N19",
+        "title": "법인세·이연법인세 (연결)",
+        "structures": [
+         "table",
+         "paragraph"
+        ],
+        "grain": "법인세비용 구성, 이연법인세 자산·부채, 유효세율",
+        "contexts": [
+         "세전/세후",
+         "부호(환급 시 음수)"
+        ],
+        "api": [],
+        "xbrl": "partial",
+        "scope": "common",
+        "aliases": [],
+        "note": "주제 유형. 실제 주석 제목은 회사별로 다르며 키워드로 대응: 법인세",
+        "children": [],
+        "id": "DT.A001.III.3.N19",
+        "level": 3
+       },
+       {
+        "code": "N20",
+        "title": "자본금·잉여금·기타자본·비지배지분 (연결)",
+        "structures": [
+         "table",
+         "paragraph"
+        ],
+        "grain": "자본금·주식수, 이익잉여금 변동·처분, 기타자본, 비지배지분",
+        "contexts": [
+         "주식수 단위(주) vs 금액 단위",
+         "괄호 부호",
+         "처분예정/확정"
+        ],
+        "api": [],
+        "xbrl": "partial",
+        "scope": "common",
+        "aliases": [],
+        "note": "주제 유형. 실제 주석 제목은 회사별로 다르며 키워드로 대응: 자본금, 납입자본, 이익잉여금, 기타자본, 기타포괄손익누계액, 비지배지분, 자본",
+        "children": [],
+        "id": "DT.A001.III.3.N20",
+        "level": 3
+       },
+       {
+        "code": "N21",
+        "title": "매출·매출원가·수익인식 (연결)",
+        "structures": [
+         "table",
+         "paragraph"
+        ],
+        "grain": "수익 유형·지역·시기별 분해, 계약자산·부채",
+        "contexts": [
+         "수익 인식 시점",
+         "부문/유형 분해 범위"
+        ],
+        "api": [],
+        "xbrl": "partial",
+        "scope": "common",
+        "aliases": [],
+        "note": "주제 유형. 실제 주석 제목은 회사별로 다르며 키워드로 대응: 매출, 수익",
+        "children": [],
+        "id": "DT.A001.III.3.N21",
+        "level": 3
+       },
+       {
+        "code": "N22",
+        "title": "비용의 성격별 분류·판매비와관리비 (연결)",
+        "structures": [
+         "table",
+         "paragraph"
+        ],
+        "grain": "비용 성격별 분해, 판관비 항목",
+        "contexts": [
+         "단위 미명시 가능(BR0016 F0016)"
+        ],
+        "api": [],
+        "xbrl": "partial",
+        "scope": "common",
+        "aliases": [],
+        "note": "주제 유형. 실제 주석 제목은 회사별로 다르며 키워드로 대응: 성격별, 판매비, 판관비",
+        "children": [],
+        "id": "DT.A001.III.3.N22",
+        "level": 3
+       },
+       {
+        "code": "N23",
+        "title": "기타손익·금융손익 (연결)",
+        "structures": [
+         "table",
+         "paragraph"
+        ],
+        "grain": "기타·금융 손익 항목, 파생 평가손익",
+        "contexts": [
+         "배율·분류 충돌 가능(BR0053 파생 평가손익)"
+        ],
+        "api": [],
+        "xbrl": "partial",
+        "scope": "common",
+        "aliases": [],
+        "note": "주제 유형. 실제 주석 제목은 회사별로 다르며 키워드로 대응: 기타수익, 기타비용, 기타손익, 금융수익, 금융비용, 금융손익, 파생",
+        "children": [],
+        "id": "DT.A001.III.3.N23",
+        "level": 3
+       },
+       {
+        "code": "N24",
+        "title": "주당이익 (연결)",
+        "structures": [
+         "table",
+         "paragraph"
+        ],
+        "grain": "기본·희석 EPS, 가중평균유통주식수",
+        "contexts": [
+         "분모(가중평균주식수) 표 간 일치 여부(BR0053 F0020)"
+        ],
+        "api": [],
+        "xbrl": "partial",
+        "scope": "common",
+        "aliases": [],
+        "note": "주제 유형. 실제 주석 제목은 회사별로 다르며 키워드로 대응: 주당, 주당순이익, 주당이익",
+        "children": [],
+        "id": "DT.A001.III.3.N24",
+        "level": 3
+       },
+       {
+        "code": "N25",
+        "title": "현금흐름 보충정보 (연결)",
+        "structures": [
+         "table",
+         "paragraph"
+        ],
+        "grain": "비현금 조정, 영업활동 현금 창출, 비현금 투자·재무",
+        "contexts": [
+         "비현금 거래 vs 현금흐름"
+        ],
+        "api": [],
+        "xbrl": "partial",
+        "scope": "common",
+        "aliases": [],
+        "note": "주제 유형. 실제 주석 제목은 회사별로 다르며 키워드로 대응: 현금흐름, 영업으로부터 창출된 현금",
+        "children": [],
+        "id": "DT.A001.III.3.N25",
+        "level": 3
+       },
+       {
+        "code": "N26",
+        "title": "부문별 보고 (연결)",
+        "structures": [
+         "table",
+         "paragraph"
+        ],
+        "grain": "부문별 매출·영업이익·자산, 지역별 정보",
+        "contexts": [
+         "부문 정의",
+         "내부거래 제거 전/후"
+        ],
+        "api": [],
+        "xbrl": "partial",
+        "scope": "common",
+        "aliases": [],
+        "note": "주제 유형. 실제 주석 제목은 회사별로 다르며 키워드로 대응: 부문",
+        "children": [],
+        "id": "DT.A001.III.3.N26",
+        "level": 3
+       },
+       {
+        "code": "N27",
+        "title": "특수관계자 (연결)",
+        "structures": [
+         "table",
+         "paragraph"
+        ],
+        "grain": "특수관계자 범위, 거래, 채권·채무, 주요 경영진 보상",
+        "contexts": [
+         "'매출 등'과 손익계산서 매출의 측정범위 차이(BR0001 SEM0043)",
+         "관계 유효기간(합병 전후)"
+        ],
+        "api": [],
+        "xbrl": "partial",
+        "scope": "common",
+        "aliases": [],
+        "note": "주제 유형. 실제 주석 제목은 회사별로 다르며 키워드로 대응: 특수관계자, 특수관계",
+        "children": [],
+        "id": "DT.A001.III.3.N27",
+        "level": 3
+       },
+       {
+        "code": "N28",
+        "title": "사업결합 (연결)",
+        "structures": [
+         "table",
+         "paragraph"
+        ],
+        "grain": "취득 대가, 식별가능 자산·부채, 영업권, 가정 실적",
+        "contexts": [
+         "잠정 배분 상태",
+         "실제 포함기간 vs 가정 시작일",
+         "연결/별도 영업권 차이"
+        ],
+        "api": [],
+        "xbrl": "partial",
+        "scope": "common",
+        "aliases": [],
+        "note": "주제 유형. 실제 주석 제목은 회사별로 다르며 키워드로 대응: 사업결합, 합병",
+        "children": [],
+        "id": "DT.A001.III.3.N28",
+        "level": 3
+       },
+       {
+        "code": "N29",
+        "title": "보고기간 후 사건 (연결)",
+        "structures": [
+         "table",
+         "paragraph"
+        ],
+        "grain": "결산일 이후 사건(소각·배당·취득 등)",
+        "contexts": [
+         "사건일 vs 기말"
+        ],
+        "api": [],
+        "xbrl": "partial",
+        "scope": "common",
+        "aliases": [],
+        "note": "주제 유형. 실제 주석 제목은 회사별로 다르며 키워드로 대응: 보고기간 후, 보고기간후, 후속사건",
+        "children": [],
+        "id": "DT.A001.III.3.N29",
+        "level": 3
+       },
+       {
+        "code": "N30",
+        "title": "보험계약·재보험(보험업) (연결)",
+        "structures": [
+         "table",
+         "paragraph"
+        ],
+        "grain": "보험계약자산·부채, CSM, 위험조정, 재보험, 보험수익·비용",
+        "contexts": [
+         "IFRS17/IFRS4 기준 조합",
+         "보험료 vs 보험수익"
+        ],
+        "api": [],
+        "xbrl": "partial",
+        "scope": "common",
+        "aliases": [],
+        "note": "주제 유형. 실제 주석 제목은 회사별로 다르며 키워드로 대응: 보험계약, 보험, 재보험, 보험금융",
+        "children": [],
+        "id": "DT.A001.III.3.N30",
+        "level": 3
+       },
+       {
+        "code": "N31",
+        "title": "온실가스·기타 환경부채 (연결)",
+        "structures": [
+         "table",
+         "paragraph"
+        ],
+        "grain": "배출권·배출부채 수량과 금액",
+        "contexts": [
+         "수량(톤) vs 금액"
+        ],
+        "api": [],
+        "xbrl": "partial",
+        "scope": "common",
+        "aliases": [],
+        "note": "주제 유형. 실제 주석 제목은 회사별로 다르며 키워드로 대응: 온실가스",
+        "children": [],
+        "id": "DT.A001.III.3.N31",
+        "level": 3
+       }
+      ],
+      "id": "DT.A001.III.3",
+      "level": 2
+     },
+     {
+      "code": "4",
+      "title": "재무제표",
+      "structures": [
+       "table"
+      ],
+      "grain": null,
+      "contexts": [],
+      "api": [],
+      "xbrl": null,
+      "scope": "common",
+      "aliases": [],
+      "note": "별도(개별) 재무제표. 구조는 III.2와 같다.",
+      "children": [
+       {
+        "code": "01",
+        "title": "재무상태표",
+        "structures": [
+         "table"
+        ],
+        "grain": "행=계정과목, 열=당기말·전기말",
+        "contexts": [
+         "기준일",
+         "단위",
+         "별도"
+        ],
+        "api": [],
+        "xbrl": true,
+        "scope": "common",
+        "aliases": [],
+        "note": null,
+        "children": [],
+        "id": "DT.A001.III.4.01",
+        "level": 3
+       },
+       {
+        "code": "02",
+        "title": "손익계산서",
+        "structures": [
+         "table"
+        ],
+        "grain": "행=계정과목, 열=기간",
+        "contexts": [],
+        "api": [],
+        "xbrl": true,
+        "scope": "conditional",
+        "aliases": [],
+        "note": null,
+        "children": [],
+        "id": "DT.A001.III.4.02",
+        "level": 3
+       },
+       {
+        "code": "03",
+        "title": "포괄손익계산서",
+        "structures": [
+         "table"
+        ],
+        "grain": "행=계정과목, 열=기간",
+        "contexts": [],
+        "api": [],
+        "xbrl": true,
+        "scope": "common",
+        "aliases": [],
+        "note": null,
+        "children": [],
+        "id": "DT.A001.III.4.03",
+        "level": 3
+       },
+       {
+        "code": "04",
+        "title": "자본변동표",
+        "structures": [
+         "table"
+        ],
+        "grain": "행=변동 항목, 열=자본 구성요소",
+        "contexts": [],
+        "api": [],
+        "xbrl": true,
+        "scope": "common",
+        "aliases": [],
+        "note": null,
+        "children": [],
+        "id": "DT.A001.III.4.04",
+        "level": 3
+       },
+       {
+        "code": "05",
+        "title": "현금흐름표",
+        "structures": [
+         "table"
+        ],
+        "grain": "행=활동별 항목, 열=기간",
+        "contexts": [],
+        "api": [],
+        "xbrl": true,
+        "scope": "common",
+        "aliases": [],
+        "note": null,
+        "children": [],
+        "id": "DT.A001.III.4.05",
+        "level": 3
+       },
+       {
+        "code": "06",
+        "title": "이익잉여금처분계산서(결손금처리계산서)",
+        "structures": [
+         "table"
+        ],
+        "grain": "행=처분 항목, 열=당기(처분예정)·전기(처분확정)",
+        "contexts": [
+         "처분예정일/확정일",
+         "승인 상태"
+        ],
+        "api": [],
+        "xbrl": null,
+        "scope": "conditional",
+        "aliases": [],
+        "note": "총액과 표시 구성항목 합이 다를 수 있으며 임의로 하나를 정답으로 택하지 않는다(BR0053 F0045).",
+        "children": [],
+        "id": "DT.A001.III.4.06",
+        "level": 3
+       }
+      ],
+      "id": "DT.A001.III.4",
+      "level": 2
+     },
+     {
+      "code": "5",
+      "title": "재무제표 주석",
+      "structures": [
+       "table"
+      ],
+      "grain": null,
+      "contexts": [],
+      "api": [],
+      "xbrl": null,
+      "scope": "common",
+      "aliases": [],
+      "note": "별도 주석. 주제 유형은 III.3과 같고 '종속기업 투자' 주제가 추가된다.",
+      "children": [
+       {
+        "code": "N01",
+        "title": "일반사항·연결범위 (별도)",
+        "structures": [
+         "table",
+         "paragraph"
+        ],
+        "grain": "연결 대상 종속기업 목록·지분율·변동, 회사 개요",
+        "contexts": [
+         "기준일",
+         "지분율 분모(발행/유통/의결권)"
+        ],
+        "api": [],
+        "xbrl": "partial",
+        "scope": "common",
+        "aliases": [],
+        "note": "주제 유형. 실제 주석 제목은 회사별로 다르며 키워드로 대응: 일반, 연결대상, 종속기업의 현황",
+        "children": [],
+        "id": "DT.A001.III.5.N01",
+        "level": 3
+       },
+       {
+        "code": "N02",
+        "title": "회계정책·기준서 적용 (별도)",
+        "structures": [
+         "table",
+         "paragraph"
+        ],
+        "grain": "적용 기준서, 신규·개정 기준서 영향, 미적용 정책",
+        "contexts": [
+         "기준서 적용 연도(열별 기준 조합)",
+         "현재 적용/미래 예정 상태"
+        ],
+        "api": [],
+        "xbrl": "partial",
+        "scope": "common",
+        "aliases": [],
+        "note": "주제 유형. 실제 주석 제목은 회사별로 다르며 키워드로 대응: 회계정책, 회계처리방침, 제정, 개정",
+        "children": [],
+        "id": "DT.A001.III.5.N02",
+        "level": 3
+       },
+       {
+        "code": "N03",
+        "title": "회계추정·가정 (별도)",
+        "structures": [
+         "table",
+         "paragraph"
+        ],
+        "grain": "추정 불확실성 원천(손상·충당·세무 등)",
+        "contexts": [
+         "최빈값/기대값 등 추정 방법"
+        ],
+        "api": [],
+        "xbrl": "partial",
+        "scope": "common",
+        "aliases": [],
+        "note": "주제 유형. 실제 주석 제목은 회사별로 다르며 키워드로 대응: 추정, 가정",
+        "children": [],
+        "id": "DT.A001.III.5.N03",
+        "level": 3
+       },
+       {
+        "code": "N04",
+        "title": "재무위험관리·자본관리 (별도)",
+        "structures": [
+         "table",
+         "paragraph"
+        ],
+        "grain": "시장·신용·유동성 위험, 민감도, 만기분석, 자본관리 지표",
+        "contexts": [
+         "충격 가정",
+         "미할인/장부금액 구분"
+        ],
+        "api": [],
+        "xbrl": "partial",
+        "scope": "common",
+        "aliases": [],
+        "note": "주제 유형. 실제 주석 제목은 회사별로 다르며 키워드로 대응: 재무위험, 위험관리, 자본관리, 자본위험",
+        "children": [],
+        "id": "DT.A001.III.5.N04",
+        "level": 3
+       },
+       {
+        "code": "N05",
+        "title": "금융상품 범주·공정가치 (별도)",
+        "structures": [
+         "table",
+         "paragraph"
+        ],
+        "grain": "범주별 장부금액, 공정가치 서열체계, 평가기법",
+        "contexts": [
+         "범주(분류) 정의",
+         "수준1/2/3",
+         "기준일"
+        ],
+        "api": [],
+        "xbrl": "partial",
+        "scope": "common",
+        "aliases": [],
+        "note": "주제 유형. 실제 주석 제목은 회사별로 다르며 키워드로 대응: 범주별, 공정가치, 금융상품",
+        "children": [],
+        "id": "DT.A001.III.5.N05",
+        "level": 3
+       },
+       {
+        "code": "N06",
+        "title": "현금·금융자산·금융자산 양도 (별도)",
+        "structures": [
+         "table",
+         "paragraph"
+        ],
+        "grain": "현금성자산, 상각후원가·FVOCI·FVPL 자산, 팩토링 등 양도",
+        "contexts": [
+         "제거/미제거 판정",
+         "담보 여부"
+        ],
+        "api": [],
+        "xbrl": "partial",
+        "scope": "common",
+        "aliases": [],
+        "note": "주제 유형. 실제 주석 제목은 회사별로 다르며 키워드로 대응: 현금및현금성, 금융자산, 양도, 단기금융",
+        "children": [],
+        "id": "DT.A001.III.5.N06",
+        "level": 3
+       },
+       {
+        "code": "N07",
+        "title": "매출채권·기타채권 (별도)",
+        "structures": [
+         "table",
+         "paragraph"
+        ],
+        "grain": "채권 총액·손실충당금·연령분석",
+        "contexts": [
+         "총액/순액",
+         "연령 구간",
+         "손실충당금 부호"
+        ],
+        "api": [],
+        "xbrl": "partial",
+        "scope": "common",
+        "aliases": [],
+        "note": "주제 유형. 실제 주석 제목은 회사별로 다르며 키워드로 대응: 매출채권, 기타채권, 미수금, 채권",
+        "children": [],
+        "id": "DT.A001.III.5.N07",
+        "level": 3
+       },
+       {
+        "code": "N08",
+        "title": "재고자산 (별도)",
+        "structures": [
+         "table",
+         "paragraph"
+        ],
+        "grain": "재고 종류별 잔액·평가충당금·비용 인식액",
+        "contexts": [
+         "잔액 vs 흐름(비용 인식) 구분"
+        ],
+        "api": [],
+        "xbrl": "partial",
+        "scope": "common",
+        "aliases": [],
+        "note": "주제 유형. 실제 주석 제목은 회사별로 다르며 키워드로 대응: 재고",
+        "children": [],
+        "id": "DT.A001.III.5.N08",
+        "level": 3
+       },
+       {
+        "code": "N09",
+        "title": "관계기업·공동기업·종속기업 투자 (별도)",
+        "structures": [
+         "table",
+         "paragraph"
+        ],
+        "grain": "지분율, 장부금액, 지분법 손익, 요약 재무정보",
+        "contexts": [
+         "지분율 분모",
+         "순자산지분 vs 피투자회사 전체 재무"
+        ],
+        "api": [],
+        "xbrl": "partial",
+        "scope": "common",
+        "aliases": [],
+        "note": "주제 유형. 실제 주석 제목은 회사별로 다르며 키워드로 대응: 관계기업, 공동기업, 종속기업, 지분법",
+        "children": [],
+        "id": "DT.A001.III.5.N09",
+        "level": 3
+       },
+       {
+        "code": "N10",
+        "title": "유형자산·사용권자산 (별도)",
+        "structures": [
+         "table",
+         "paragraph"
+        ],
+        "grain": "취득·처분·감가상각·손상, 건설중자산, 담보",
+        "contexts": [
+         "취득(대체 포함) vs 현금 CAPEX",
+         "ROU 포함 관계"
+        ],
+        "api": [],
+        "xbrl": "partial",
+        "scope": "common",
+        "aliases": [],
+        "note": "주제 유형. 실제 주석 제목은 회사별로 다르며 키워드로 대응: 유형자산, 사용권",
+        "children": [],
+        "id": "DT.A001.III.5.N10",
+        "level": 3
+       },
+       {
+        "code": "N11",
+        "title": "무형자산·영업권 (별도)",
+        "structures": [
+         "table",
+         "paragraph"
+        ],
+        "grain": "무형자산 변동, 영업권 배분·손상검사 가정",
+        "contexts": [
+         "CGU 배분",
+         "예측 기간·성장률 가정"
+        ],
+        "api": [],
+        "xbrl": "partial",
+        "scope": "common",
+        "aliases": [],
+        "note": "주제 유형. 실제 주석 제목은 회사별로 다르며 키워드로 대응: 무형자산, 영업권",
+        "children": [],
+        "id": "DT.A001.III.5.N11",
+        "level": 3
+       },
+       {
+        "code": "N12",
+        "title": "투자부동산 (별도)",
+        "structures": [
+         "table",
+         "paragraph"
+        ],
+        "grain": "투자부동산 변동·공정가치",
+        "contexts": [
+         "표시 단위(만원/백만원 혼재 가능)"
+        ],
+        "api": [],
+        "xbrl": "partial",
+        "scope": "common",
+        "aliases": [],
+        "note": "주제 유형. 실제 주석 제목은 회사별로 다르며 키워드로 대응: 투자부동산",
+        "children": [],
+        "id": "DT.A001.III.5.N12",
+        "level": 3
+       },
+       {
+        "code": "N13",
+        "title": "기타자산·매각예정·중단영업 (별도)",
+        "structures": [
+         "table",
+         "paragraph"
+        ],
+        "grain": "기타자산, 매각예정자산·부채, 중단영업 손익",
+        "contexts": [
+         "분류 시점"
+        ],
+        "api": [],
+        "xbrl": "partial",
+        "scope": "common",
+        "aliases": [],
+        "note": "주제 유형. 실제 주석 제목은 회사별로 다르며 키워드로 대응: 기타자산, 매각예정, 중단영업, 처분자산집단",
+        "children": [],
+        "id": "DT.A001.III.5.N13",
+        "level": 3
+       },
+       {
+        "code": "N14",
+        "title": "매입채무·기타채무·계약부채 (별도)",
+        "structures": [
+         "table",
+         "paragraph"
+        ],
+        "grain": "매입채무, 미지급금, 계약부채(선수금 등)",
+        "contexts": [
+         "BS 표시 계정과의 대응"
+        ],
+        "api": [],
+        "xbrl": "partial",
+        "scope": "common",
+        "aliases": [],
+        "note": "주제 유형. 실제 주석 제목은 회사별로 다르며 키워드로 대응: 매입채무, 지급채무, 계약부채, 기타부채, 미지급",
+        "children": [],
+        "id": "DT.A001.III.5.N14",
+        "level": 3
+       },
+       {
+        "code": "N15",
+        "title": "차입금·사채·금융부채·리스부채 (별도)",
+        "structures": [
+         "table",
+         "paragraph"
+        ],
+        "grain": "차입 상대방·이자율·만기, 사채 조건, 리스부채",
+        "contexts": [
+         "명목(외화)/장부금액",
+         "미할인 만기금액 vs 장부",
+         "이자율 범위"
+        ],
+        "api": [],
+        "xbrl": "partial",
+        "scope": "common",
+        "aliases": [],
+        "note": "주제 유형. 실제 주석 제목은 회사별로 다르며 키워드로 대응: 차입금, 차입부채, 차입, 사채, 금융부채, 리스",
+        "children": [],
+        "id": "DT.A001.III.5.N15",
+        "level": 3
+       },
+       {
+        "code": "N16",
+        "title": "충당부채·배출부채·우발부채·약정 (별도)",
+        "structures": [
+         "table",
+         "paragraph"
+        ],
+        "grain": "충당부채 변동, 배출권, 소송·보증·약정",
+        "contexts": [
+         "한도 vs 잔액",
+         "조건부 여부",
+         "추정 시점"
+        ],
+        "api": [],
+        "xbrl": "partial",
+        "scope": "common",
+        "aliases": [],
+        "note": "주제 유형. 실제 주석 제목은 회사별로 다르며 키워드로 대응: 충당부채, 배출부채, 우발, 약정, 우발상황",
+        "children": [],
+        "id": "DT.A001.III.5.N16",
+        "level": 3
+       },
+       {
+        "code": "N17",
+        "title": "종업원급여·퇴직급여·주식기준보상 (별도)",
+        "structures": [
+         "table",
+         "paragraph"
+        ],
+        "grain": "확정급여채무, 사외적립자산, 보험수리 가정, 주식기준보상",
+        "contexts": [
+         "부호 관례(자산/부채 순액)",
+         "민감도 라벨"
+        ],
+        "api": [],
+        "xbrl": "partial",
+        "scope": "common",
+        "aliases": [],
+        "note": "주제 유형. 실제 주석 제목은 회사별로 다르며 키워드로 대응: 종업원급여, 퇴직급여, 확정급여, 주식기준보상, 순확정급여",
+        "children": [],
+        "id": "DT.A001.III.5.N17",
+        "level": 3
+       },
+       {
+        "code": "N18",
+        "title": "정부보조금 (별도)",
+        "structures": [
+         "table",
+         "paragraph"
+        ],
+        "grain": "보조금 수령·차감",
+        "contexts": [
+         "보조금 차감 전/후"
+        ],
+        "api": [],
+        "xbrl": "partial",
+        "scope": "common",
+        "aliases": [],
+        "note": "주제 유형. 실제 주석 제목은 회사별로 다르며 키워드로 대응: 정부보조금",
+        "children": [],
+        "id": "DT.A001.III.5.N18",
+        "level": 3
+       },
+       {
+        "code": "N19",
+        "title": "법인세·이연법인세 (별도)",
+        "structures": [
+         "table",
+         "paragraph"
+        ],
+        "grain": "법인세비용 구성, 이연법인세 자산·부채, 유효세율",
+        "contexts": [
+         "세전/세후",
+         "부호(환급 시 음수)"
+        ],
+        "api": [],
+        "xbrl": "partial",
+        "scope": "common",
+        "aliases": [],
+        "note": "주제 유형. 실제 주석 제목은 회사별로 다르며 키워드로 대응: 법인세",
+        "children": [],
+        "id": "DT.A001.III.5.N19",
+        "level": 3
+       },
+       {
+        "code": "N20",
+        "title": "자본금·잉여금·기타자본·비지배지분 (별도)",
+        "structures": [
+         "table",
+         "paragraph"
+        ],
+        "grain": "자본금·주식수, 이익잉여금 변동·처분, 기타자본, 비지배지분",
+        "contexts": [
+         "주식수 단위(주) vs 금액 단위",
+         "괄호 부호",
+         "처분예정/확정"
+        ],
+        "api": [],
+        "xbrl": "partial",
+        "scope": "common",
+        "aliases": [],
+        "note": "주제 유형. 실제 주석 제목은 회사별로 다르며 키워드로 대응: 자본금, 납입자본, 이익잉여금, 기타자본, 기타포괄손익누계액, 비지배지분, 자본",
+        "children": [],
+        "id": "DT.A001.III.5.N20",
+        "level": 3
+       },
+       {
+        "code": "N21",
+        "title": "매출·매출원가·수익인식 (별도)",
+        "structures": [
+         "table",
+         "paragraph"
+        ],
+        "grain": "수익 유형·지역·시기별 분해, 계약자산·부채",
+        "contexts": [
+         "수익 인식 시점",
+         "부문/유형 분해 범위"
+        ],
+        "api": [],
+        "xbrl": "partial",
+        "scope": "common",
+        "aliases": [],
+        "note": "주제 유형. 실제 주석 제목은 회사별로 다르며 키워드로 대응: 매출, 수익",
+        "children": [],
+        "id": "DT.A001.III.5.N21",
+        "level": 3
+       },
+       {
+        "code": "N22",
+        "title": "비용의 성격별 분류·판매비와관리비 (별도)",
+        "structures": [
+         "table",
+         "paragraph"
+        ],
+        "grain": "비용 성격별 분해, 판관비 항목",
+        "contexts": [
+         "단위 미명시 가능(BR0016 F0016)"
+        ],
+        "api": [],
+        "xbrl": "partial",
+        "scope": "common",
+        "aliases": [],
+        "note": "주제 유형. 실제 주석 제목은 회사별로 다르며 키워드로 대응: 성격별, 판매비, 판관비",
+        "children": [],
+        "id": "DT.A001.III.5.N22",
+        "level": 3
+       },
+       {
+        "code": "N23",
+        "title": "기타손익·금융손익 (별도)",
+        "structures": [
+         "table",
+         "paragraph"
+        ],
+        "grain": "기타·금융 손익 항목, 파생 평가손익",
+        "contexts": [
+         "배율·분류 충돌 가능(BR0053 파생 평가손익)"
+        ],
+        "api": [],
+        "xbrl": "partial",
+        "scope": "common",
+        "aliases": [],
+        "note": "주제 유형. 실제 주석 제목은 회사별로 다르며 키워드로 대응: 기타수익, 기타비용, 기타손익, 금융수익, 금융비용, 금융손익, 파생",
+        "children": [],
+        "id": "DT.A001.III.5.N23",
+        "level": 3
+       },
+       {
+        "code": "N24",
+        "title": "주당이익 (별도)",
+        "structures": [
+         "table",
+         "paragraph"
+        ],
+        "grain": "기본·희석 EPS, 가중평균유통주식수",
+        "contexts": [
+         "분모(가중평균주식수) 표 간 일치 여부(BR0053 F0020)"
+        ],
+        "api": [],
+        "xbrl": "partial",
+        "scope": "common",
+        "aliases": [],
+        "note": "주제 유형. 실제 주석 제목은 회사별로 다르며 키워드로 대응: 주당, 주당순이익, 주당이익",
+        "children": [],
+        "id": "DT.A001.III.5.N24",
+        "level": 3
+       },
+       {
+        "code": "N25",
+        "title": "현금흐름 보충정보 (별도)",
+        "structures": [
+         "table",
+         "paragraph"
+        ],
+        "grain": "비현금 조정, 영업활동 현금 창출, 비현금 투자·재무",
+        "contexts": [
+         "비현금 거래 vs 현금흐름"
+        ],
+        "api": [],
+        "xbrl": "partial",
+        "scope": "common",
+        "aliases": [],
+        "note": "주제 유형. 실제 주석 제목은 회사별로 다르며 키워드로 대응: 현금흐름, 영업으로부터 창출된 현금",
+        "children": [],
+        "id": "DT.A001.III.5.N25",
+        "level": 3
+       },
+       {
+        "code": "N26",
+        "title": "부문별 보고 (별도)",
+        "structures": [
+         "table",
+         "paragraph"
+        ],
+        "grain": "부문별 매출·영업이익·자산, 지역별 정보",
+        "contexts": [
+         "부문 정의",
+         "내부거래 제거 전/후"
+        ],
+        "api": [],
+        "xbrl": "partial",
+        "scope": "common",
+        "aliases": [],
+        "note": "주제 유형. 실제 주석 제목은 회사별로 다르며 키워드로 대응: 부문",
+        "children": [],
+        "id": "DT.A001.III.5.N26",
+        "level": 3
+       },
+       {
+        "code": "N27",
+        "title": "특수관계자 (별도)",
+        "structures": [
+         "table",
+         "paragraph"
+        ],
+        "grain": "특수관계자 범위, 거래, 채권·채무, 주요 경영진 보상",
+        "contexts": [
+         "'매출 등'과 손익계산서 매출의 측정범위 차이(BR0001 SEM0043)",
+         "관계 유효기간(합병 전후)"
+        ],
+        "api": [],
+        "xbrl": "partial",
+        "scope": "common",
+        "aliases": [],
+        "note": "주제 유형. 실제 주석 제목은 회사별로 다르며 키워드로 대응: 특수관계자, 특수관계",
+        "children": [],
+        "id": "DT.A001.III.5.N27",
+        "level": 3
+       },
+       {
+        "code": "N28",
+        "title": "사업결합 (별도)",
+        "structures": [
+         "table",
+         "paragraph"
+        ],
+        "grain": "취득 대가, 식별가능 자산·부채, 영업권, 가정 실적",
+        "contexts": [
+         "잠정 배분 상태",
+         "실제 포함기간 vs 가정 시작일",
+         "연결/별도 영업권 차이"
+        ],
+        "api": [],
+        "xbrl": "partial",
+        "scope": "common",
+        "aliases": [],
+        "note": "주제 유형. 실제 주석 제목은 회사별로 다르며 키워드로 대응: 사업결합, 합병",
+        "children": [],
+        "id": "DT.A001.III.5.N28",
+        "level": 3
+       },
+       {
+        "code": "N29",
+        "title": "보고기간 후 사건 (별도)",
+        "structures": [
+         "table",
+         "paragraph"
+        ],
+        "grain": "결산일 이후 사건(소각·배당·취득 등)",
+        "contexts": [
+         "사건일 vs 기말"
+        ],
+        "api": [],
+        "xbrl": "partial",
+        "scope": "common",
+        "aliases": [],
+        "note": "주제 유형. 실제 주석 제목은 회사별로 다르며 키워드로 대응: 보고기간 후, 보고기간후, 후속사건",
+        "children": [],
+        "id": "DT.A001.III.5.N29",
+        "level": 3
+       },
+       {
+        "code": "N30",
+        "title": "보험계약·재보험(보험업) (별도)",
+        "structures": [
+         "table",
+         "paragraph"
+        ],
+        "grain": "보험계약자산·부채, CSM, 위험조정, 재보험, 보험수익·비용",
+        "contexts": [
+         "IFRS17/IFRS4 기준 조합",
+         "보험료 vs 보험수익"
+        ],
+        "api": [],
+        "xbrl": "partial",
+        "scope": "common",
+        "aliases": [],
+        "note": "주제 유형. 실제 주석 제목은 회사별로 다르며 키워드로 대응: 보험계약, 보험, 재보험, 보험금융",
+        "children": [],
+        "id": "DT.A001.III.5.N30",
+        "level": 3
+       },
+       {
+        "code": "N31",
+        "title": "온실가스·기타 환경부채 (별도)",
+        "structures": [
+         "table",
+         "paragraph"
+        ],
+        "grain": "배출권·배출부채 수량과 금액",
+        "contexts": [
+         "수량(톤) vs 금액"
+        ],
+        "api": [],
+        "xbrl": "partial",
+        "scope": "common",
+        "aliases": [],
+        "note": "주제 유형. 실제 주석 제목은 회사별로 다르며 키워드로 대응: 온실가스",
+        "children": [],
+        "id": "DT.A001.III.5.N31",
+        "level": 3
+       }
+      ],
+      "id": "DT.A001.III.5",
+      "level": 2
+     },
+     {
+      "code": "6",
+      "title": "배당에 관한 사항",
+      "structures": [
+       "table"
+      ],
+      "grain": null,
+      "contexts": [],
+      "api": [],
+      "xbrl": null,
+      "scope": "common",
+      "aliases": [],
+      "note": null,
+      "children": [
+       {
+        "code": "01",
+        "title": "배당에 관한 회사의 정책 및 정관 기재사항",
+        "structures": [
+         "paragraph"
+        ],
+        "grain": "정책 서술, 정관 조문 인용",
+        "contexts": [],
+        "api": [],
+        "xbrl": null,
+        "scope": "common",
+        "aliases": [],
+        "note": null,
+        "children": [],
+        "id": "DT.A001.III.6.01",
+        "level": 3
+       },
+       {
+        "code": "02",
+        "title": "주요배당지표",
+        "structures": [
+         "table"
+        ],
+        "grain": "행=주당액면가액·당기순이익·주당순이익·현금배당금총액·주식배당금총액·현금배당성향·현금배당수익률·주식배당수익률·주당 현금배당금·주당 주식배당, 열=최근 3개 사업연도(주식 종류별)",
+        "contexts": [
+         "연결/별도(당기순이익 기준)",
+         "주식 종류",
+         "지배주주 귀속 여부"
+        ],
+        "api": [
+         "배당에 관한 사항"
+        ],
+        "xbrl": null,
+        "scope": "common",
+        "aliases": [],
+        "note": "총이익·EPS와 '지배주주 귀속' 각주가 충돌할 수 있다(BR0044).",
+        "children": [],
+        "id": "DT.A001.III.6.02",
+        "level": 3
+       },
+       {
+        "code": "03",
+        "title": "과거 배당 이력",
+        "structures": [
+         "table"
+        ],
+        "grain": "행=연속 배당횟수·평균 배당수익률(3년/5년), 열=분기(중간)배당/결산배당",
+        "contexts": [
+         "평균 산정 기간 범위(직전 연도까지)",
+         "반기 배당의 연환산 여부"
+        ],
+        "api": [],
+        "xbrl": null,
+        "scope": "common",
+        "aliases": [],
+        "note": "3년·5년 평균의 범위가 보고 사업연도를 포함하지 않는다(BR0001 SEM0044). 반기 배당률은 연환산 수식(BR0020 F0011).",
+        "children": [],
+        "id": "DT.A001.III.6.03",
+        "level": 3
+       },
+       {
+        "code": "04",
+        "title": "배당관련 예측가능성 제공에 관한 사항",
+        "structures": [
+         "table"
+        ],
+        "grain": "행=정관상 배당절차 개선방안 이행 가부·기말 배당액 확정일·배당기준일",
+        "contexts": [],
+        "api": [],
+        "xbrl": null,
+        "scope": "conditional",
+        "aliases": [],
+        "note": "2023년 이후 서식 신설. 구 서식(2021)에는 없음.",
+        "children": [],
+        "id": "DT.A001.III.6.04",
+        "level": 3
+       }
+      ],
+      "id": "DT.A001.III.6",
+      "level": 2
+     },
+     {
+      "code": "7",
+      "title": "증권의 발행을 통한 자금조달에 관한 사항",
+      "structures": [
+       "table"
+      ],
+      "grain": null,
+      "contexts": [],
+      "api": [],
+      "xbrl": null,
+      "scope": "common",
+      "aliases": [],
+      "note": null,
+      "children": [
+       {
+        "code": "01",
+        "title": "증자(감자)현황",
+        "structures": [
+         "table"
+        ],
+        "grain": "행=주식발행(감소)일자, 열=발행형태·종류·수량·주당액면·발행가액",
+        "contexts": [],
+        "api": [
+         "증자(감자)현황"
+        ],
+        "xbrl": null,
+        "scope": "common",
+        "aliases": [],
+        "note": "I.3 자본금 변동추이와 동일 정보의 반복 발생일 수 있다(중복 합산 금지).",
+        "children": [],
+        "id": "DT.A001.III.7.01",
+        "level": 3
+       },
+       {
+        "code": "02",
+        "title": "미상환 전환사채·신주인수권부사채·전환형 조건부자본증권 발행현황",
+        "structures": [
+         "table"
+        ],
+        "grain": "행=종류×회차, 열=발행일·만기일·권면총액·전환대상·전환청구기간·전환조건·미상환사채",
+        "contexts": [],
+        "api": [],
+        "xbrl": null,
+        "scope": "conditional",
+        "aliases": [],
+        "note": null,
+        "children": [],
+        "id": "DT.A001.III.7.02",
+        "level": 3
+       },
+       {
+        "code": "03",
+        "title": "채무증권 발행실적",
+        "structures": [
+         "table"
+        ],
+        "grain": "행=발행 건(발행회사·증권종류·발행방법·발행일자), 열=권면총액·이자율·평가등급·만기일·상환여부·주관회사",
+        "contexts": [
+         "연결/별도 기준 표시",
+         "발행주체"
+        ],
+        "api": [
+         "채무증권 발행실적"
+        ],
+        "xbrl": null,
+        "scope": "common",
+        "aliases": [],
+        "note": null,
+        "children": [],
+        "id": "DT.A001.III.7.03",
+        "level": 3
+       },
+       {
+        "code": "04",
+        "title": "기업어음증권·단기사채·회사채·신종자본증권·조건부자본증권 미상환 잔액",
+        "structures": [
+         "table"
+        ],
+        "grain": "행=잔여만기 구간, 열=잔액(공모/사모/합계)",
+        "contexts": [
+         "액면가액 기준",
+         "연결/별도"
+        ],
+        "api": [
+         "기업어음증권 미상환 잔액",
+         "단기사채 미상환 잔액",
+         "회사채 미상환 잔액",
+         "신종자본증권 미상환 잔액",
+         "조건부 자본증권 미상환 잔액"
+        ],
+        "xbrl": null,
+        "scope": "common",
+        "aliases": [],
+        "note": null,
+        "children": [],
+        "id": "DT.A001.III.7.04",
+        "level": 3
+       },
+       {
+        "code": "05",
+        "title": "사채관리계약 주요내용 및 충족여부",
+        "structures": [
+         "table"
+        ],
+        "grain": "행=계약 건, 열=재무비율 유지·담보권 설정 제한·자산처분 제한·지배구조 변경 제한 조건과 충족 여부",
+        "contexts": [
+         "약정 기준일",
+         "충족 판정 상태"
+        ],
+        "api": [],
+        "xbrl": null,
+        "scope": "conditional",
+        "aliases": [],
+        "note": null,
+        "children": [],
+        "id": "DT.A001.III.7.05",
+        "level": 3
+       },
+       {
+        "code": "06",
+        "title": "증권의 발행을 통해 조달된 자금의 사용실적",
+        "structures": [
+         "table"
+        ],
+        "grain": "행=공모/사모 자금 건, 열=납입일·조달금액·사용계획·실제 사용내역·차이 사유",
+        "contexts": [
+         "계획 vs 실제 사용 상태"
+        ],
+        "api": [],
+        "xbrl": null,
+        "scope": "common",
+        "aliases": [],
+        "note": null,
+        "children": [],
+        "id": "DT.A001.III.7.06",
+        "level": 3
+       }
+      ],
+      "id": "DT.A001.III.7",
+      "level": 2
+     },
+     {
+      "code": "8",
+      "title": "기타 재무에 관한 사항",
+      "structures": [
+       "table"
+      ],
+      "grain": null,
+      "contexts": [],
+      "api": [],
+      "xbrl": null,
+      "scope": "common",
+      "aliases": [],
+      "note": null,
+      "children": [
+       {
+        "code": "01",
+        "title": "재무제표 재작성 등 유의사항",
+        "structures": [
+         "paragraph",
+         "table"
+        ],
+        "grain": "재작성·합병·분할·자산양수도·자산유동화·기준서 최초 적용 영향",
+        "contexts": [
+         "재작성 범위와 원 공시값과의 관계"
+        ],
+        "api": [],
+        "xbrl": null,
+        "scope": "common",
+        "aliases": [],
+        "note": "비교재무제표 재작성 시 현재 표시값과 당시 공시값이 다를 수 있다(BR0016 F0018).",
+        "children": [],
+        "id": "DT.A001.III.8.01",
+        "level": 3
+       },
+       {
+        "code": "02",
+        "title": "대손충당금 설정현황",
+        "structures": [
+         "table"
+        ],
+        "grain": "행=계정과목×연도, 열=채권총액·대손충당금·설정률; 변동 표; 경과기간별 채권잔액",
+        "contexts": [
+         "연결/별도",
+         "기준일",
+         "설정률 분모"
+        ],
+        "api": [],
+        "xbrl": null,
+        "scope": "common",
+        "aliases": [],
+        "note": "충당금 203백만원에도 0.0%가 표시된다. 0.0%에서 금액 0을 역산하지 않는다(BR0001 SEM0045).",
+        "children": [],
+        "id": "DT.A001.III.8.02",
+        "level": 3
+       },
+       {
+        "code": "03",
+        "title": "재고자산 현황",
+        "structures": [
+         "table"
+        ],
+        "grain": "행=사업부문×품목, 열=연도별 재고자산; 재고자산 실사; 회전율",
+        "contexts": [
+         "회전율 산식(매출원가/평균재고 등)"
+        ],
+        "api": [],
+        "xbrl": null,
+        "scope": "common",
+        "aliases": [],
+        "note": "표시 산식과 수치가 불일치할 수 있으며 원인을 확정하지 않는다(BR0016 F0019, BR0001 SEM0047).",
+        "children": [],
+        "id": "DT.A001.III.8.03",
+        "level": 3
+       },
+       {
+        "code": "04",
+        "title": "수주계약 현황(진행률 등)",
+        "structures": [
+         "table"
+        ],
+        "grain": "행=계약, 열=계약금액·진행률·미청구공사·공사미수금",
+        "contexts": [],
+        "api": [],
+        "xbrl": null,
+        "scope": "conditional",
+        "aliases": [],
+        "note": null,
+        "children": [],
+        "id": "DT.A001.III.8.04",
+        "level": 3
+       },
+       {
+        "code": "05",
+        "title": "공정가치평가 내역",
+        "structures": [
+         "table"
+        ],
+        "grain": "행=금융상품 종류, 열=장부금액·공정가치·서열체계(수준1/2/3)·평가기법·투입변수",
+        "contexts": [
+         "기준일",
+         "연결/별도",
+         "범주(분류) 정의"
+        ],
+        "api": [],
+        "xbrl": null,
+        "scope": "common",
+        "aliases": [],
+        "note": "범주별 표와 장부금액 표의 합계가 다를 수 있다. 두 발생을 각각 보존(BR0001 SEM0046).",
+        "children": [],
+        "id": "DT.A001.III.8.05",
+        "level": 3
+       }
+      ],
+      "id": "DT.A001.III.8",
+      "level": 2
+     }
+    ],
+    "id": "DT.A001.III",
+    "level": 1
+   },
+   {
+    "code": "IV",
+    "title": "이사의 경영진단 및 분석의견",
+    "structures": [
+     "section"
+    ],
+    "grain": null,
+    "contexts": [],
+    "api": [],
+    "xbrl": null,
+    "scope": "common",
+    "aliases": [],
+    "note": "서식상 하위 절 없음. 아래는 내용 항목 유형.",
+    "children": [
+     {
+      "code": "01",
+      "title": "예측정보에 대한 주의사항",
+      "structures": [
+       "paragraph"
+      ],
+      "grain": null,
+      "contexts": [],
+      "api": [],
+      "xbrl": null,
+      "scope": "common",
+      "aliases": [],
+      "note": null,
+      "children": [],
+      "id": "DT.A001.IV.01",
+      "level": 2
+     },
+     {
+      "code": "02",
+      "title": "개요",
+      "structures": [
+       "paragraph"
+      ],
+      "grain": null,
+      "contexts": [],
+      "api": [],
+      "xbrl": null,
+      "scope": "common",
+      "aliases": [],
+      "note": null,
+      "children": [],
+      "id": "DT.A001.IV.02",
+      "level": 2
+     },
+     {
+      "code": "03",
+      "title": "재무상태 및 영업실적 분석",
+      "structures": [
+       "paragraph",
+       "table"
+      ],
+      "grain": "경영진 서술 + 재무비율·실적 표",
+      "contexts": [
+       "연결/별도",
+       "비율 산식과 분모",
+       "출처 표(재무사항 vs 경영진단)"
+      ],
+      "api": [],
+      "xbrl": null,
+      "scope": "common",
+      "aliases": [],
+      "note": "같은 지표가 재무사항 표와 경영진단 표에서 다르게 기재될 수 있다(재고회전율 3.5 vs 4.1, BR0001 SEM0047).",
+      "children": [],
+      "id": "DT.A001.IV.03",
+      "level": 2
+     },
+     {
+      "code": "04",
+      "title": "유동성 및 자금조달·지출",
+      "structures": [
+       "paragraph",
+       "table"
+      ],
+      "grain": "현금흐름·차입·자금조달 서술과 표",
+      "contexts": [
+       "기준일",
+       "단위"
+      ],
+      "api": [],
+      "xbrl": null,
+      "scope": "common",
+      "aliases": [],
+      "note": "단기차입 표에 시점 없이 과거 시설차입이 혼재할 수 있다(BR0016 F0020).",
+      "children": [],
+      "id": "DT.A001.IV.04",
+      "level": 2
+     },
+     {
+      "code": "05",
+      "title": "부외거래",
+      "structures": [
+       "paragraph"
+      ],
+      "grain": null,
+      "contexts": [],
+      "api": [],
+      "xbrl": null,
+      "scope": "common",
+      "aliases": [],
+      "note": null,
+      "children": [],
+      "id": "DT.A001.IV.05",
+      "level": 2
+     },
+     {
+      "code": "06",
+      "title": "그 밖에 투자의사결정에 필요한 사항",
+      "structures": [
+       "paragraph",
+       "table"
+      ],
+      "grain": "중요 회계정책·추정, 환율, 리스크 관리, 자산손상, 법규 규제 등",
+      "contexts": [
+       "실제/계획/전망 구분"
+      ],
+      "api": [],
+      "xbrl": null,
+      "scope": "common",
+      "aliases": [],
+      "note": null,
+      "children": [],
+      "id": "DT.A001.IV.06",
+      "level": 2
+     }
+    ],
+    "id": "DT.A001.IV",
+    "level": 1
+   },
+   {
+    "code": "V",
+    "title": "회계감사인의 감사의견 등",
+    "structures": [
+     "section"
+    ],
+    "grain": null,
+    "contexts": [],
+    "api": [],
+    "xbrl": null,
+    "scope": "common",
+    "aliases": [],
+    "note": null,
+    "children": [
+     {
+      "code": "1",
+      "title": "외부감사에 관한 사항",
+      "structures": [
+       "table"
+      ],
+      "grain": null,
+      "contexts": [],
+      "api": [],
+      "xbrl": null,
+      "scope": "common",
+      "aliases": [],
+      "note": null,
+      "children": [
+       {
+        "code": "01",
+        "title": "회계감사인의 명칭 및 감사의견",
+        "structures": [
+         "table"
+        ],
+        "grain": "행=사업연도(연결/별도 각각), 열=감사인·감사의견·강조사항·핵심감사사항",
+        "contexts": [
+         "연결/별도",
+         "사업연도"
+        ],
+        "api": [
+         "회계감사인의 명칭 및 감사의견"
+        ],
+        "xbrl": null,
+        "scope": "common",
+        "aliases": [],
+        "note": null,
+        "children": [],
+        "id": "DT.A001.V.1.01",
+        "level": 3
+       },
+       {
+        "code": "02",
+        "title": "감사용역 체결현황",
+        "structures": [
+         "table"
+        ],
+        "grain": "행=사업연도, 열=감사인·내용·감사계약내역(보수·시간)·실제수행내역(보수·시간)",
+        "contexts": [],
+        "api": [
+         "감사용역체결현황"
+        ],
+        "xbrl": null,
+        "scope": "common",
+        "aliases": [],
+        "note": null,
+        "children": [],
+        "id": "DT.A001.V.1.02",
+        "level": 3
+       },
+       {
+        "code": "03",
+        "title": "회계감사인과의 비감사용역 계약체결 현황",
+        "structures": [
+         "table"
+        ],
+        "grain": "행=사업연도×계약, 열=계약체결일·용역내용·용역수행기간·용역보수",
+        "contexts": [],
+        "api": [
+         "회계감사인과의 비감사용역 계약체결 현황"
+        ],
+        "xbrl": null,
+        "scope": "common",
+        "aliases": [],
+        "note": null,
+        "children": [],
+        "id": "DT.A001.V.1.03",
+        "level": 3
+       },
+       {
+        "code": "04",
+        "title": "내부감사기구와 회계감사인 간 논의사항",
+        "structures": [
+         "table"
+        ],
+        "grain": "행=구분(일자·참석자·방식·주요 논의내용)",
+        "contexts": [],
+        "api": [],
+        "xbrl": null,
+        "scope": "common",
+        "aliases": [],
+        "note": null,
+        "children": [],
+        "id": "DT.A001.V.1.04",
+        "level": 3
+       },
+       {
+        "code": "05",
+        "title": "회계감사인의 변경",
+        "structures": [
+         "paragraph",
+         "table"
+        ],
+        "grain": null,
+        "contexts": [],
+        "api": [],
+        "xbrl": null,
+        "scope": "conditional",
+        "aliases": [],
+        "note": null,
+        "children": [],
+        "id": "DT.A001.V.1.05",
+        "level": 3
+       },
+       {
+        "code": "06",
+        "title": "종속회사의 회계감사인 변경 현황",
+        "structures": [
+         "table"
+        ],
+        "grain": null,
+        "contexts": [],
+        "api": [],
+        "xbrl": null,
+        "scope": "conditional",
+        "aliases": [],
+        "note": null,
+        "children": [],
+        "id": "DT.A001.V.1.06",
+        "level": 3
+       }
+      ],
+      "id": "DT.A001.V.1",
+      "level": 2
+     },
+     {
+      "code": "2",
+      "title": "내부통제에 관한 사항",
+      "structures": [
+       "table"
+      ],
+      "grain": null,
+      "contexts": [],
+      "api": [],
+      "xbrl": null,
+      "scope": "common",
+      "aliases": [],
+      "note": null,
+      "children": [
+       {
+        "code": "01",
+        "title": "내부통제구조의 평가 / 내부회계관리제도 운영·검토(감사)의견",
+        "structures": [
+         "paragraph",
+         "table"
+        ],
+        "grain": "행=사업연도, 열=감사인·검토(감사)의견·지적사항",
+        "contexts": [
+         "검토 vs 감사 구분"
+        ],
+        "api": [],
+        "xbrl": null,
+        "scope": "common",
+        "aliases": [],
+        "note": null,
+        "children": [],
+        "id": "DT.A001.V.2.01",
+        "level": 3
+       }
+      ],
+      "id": "DT.A001.V.2",
+      "level": 2
+     }
+    ],
+    "id": "DT.A001.V",
+    "level": 1
+   },
+   {
+    "code": "VI",
+    "title": "이사회 등 회사의 기관에 관한 사항",
+    "structures": [
+     "section"
+    ],
+    "grain": null,
+    "contexts": [],
+    "api": [],
+    "xbrl": null,
+    "scope": "common",
+    "aliases": [],
+    "note": null,
+    "children": [
+     {
+      "code": "1",
+      "title": "이사회에 관한 사항",
+      "structures": [
+       "table"
+      ],
+      "grain": null,
+      "contexts": [],
+      "api": [],
+      "xbrl": null,
+      "scope": "common",
+      "aliases": [],
+      "note": null,
+      "children": [
+       {
+        "code": "01",
+        "title": "이사회 구성 개요",
+        "structures": [
+         "paragraph",
+         "table"
+        ],
+        "grain": "이사 수·사외이사 수·의장",
+        "contexts": [],
+        "api": [],
+        "xbrl": null,
+        "scope": "common",
+        "aliases": [],
+        "note": null,
+        "children": [],
+        "id": "DT.A001.VI.1.01",
+        "level": 3
+       },
+       {
+        "code": "02",
+        "title": "중요의결사항 등",
+        "structures": [
+         "table"
+        ],
+        "grain": "행=회차×개최일자×의안내용, 열=가결여부·사내이사/사외이사별 참석·찬반",
+        "contexts": [
+         "개최일",
+         "안건 유형(보고/결의)"
+        ],
+        "api": [],
+        "xbrl": null,
+        "scope": "common",
+        "aliases": [],
+        "note": "안건별 승인 예외와 사건 상태를 구분(BR0016 F0024).",
+        "children": [],
+        "id": "DT.A001.VI.1.02",
+        "level": 3
+       },
+       {
+        "code": "03",
+        "title": "이사회 내 위원회",
+        "structures": [
+         "table"
+        ],
+        "grain": "행=위원회명, 열=구성·소속 이사명·설치목적 및 권한사항·비고",
+        "contexts": [],
+        "api": [],
+        "xbrl": null,
+        "scope": "common",
+        "aliases": [],
+        "note": null,
+        "children": [],
+        "id": "DT.A001.VI.1.03",
+        "level": 3
+       },
+       {
+        "code": "04",
+        "title": "위원회 활동내역",
+        "structures": [
+         "table"
+        ],
+        "grain": "행=위원회×회차×개최일자×의안, 열=가결여부·위원별 찬반",
+        "contexts": [],
+        "api": [],
+        "xbrl": null,
+        "scope": "common",
+        "aliases": [],
+        "note": null,
+        "children": [],
+        "id": "DT.A001.VI.1.04",
+        "level": 3
+       },
+       {
+        "code": "05",
+        "title": "이사의 독립성",
+        "structures": [
+         "table",
+         "paragraph"
+        ],
+        "grain": "행=이사, 열=선임배경·추천인·활동분야·회사와의 거래·최대주주와의 관계·임기",
+        "contexts": [],
+        "api": [],
+        "xbrl": null,
+        "scope": "common",
+        "aliases": [],
+        "note": null,
+        "children": [],
+        "id": "DT.A001.VI.1.05",
+        "level": 3
+       },
+       {
+        "code": "06",
+        "title": "사외이사 및 그 변동현황",
+        "structures": [
+         "table"
+        ],
+        "grain": "행=이사의 수·사외이사 수·변동(선임/해임/중도퇴임)",
+        "contexts": [],
+        "api": [
+         "사외이사 및 그 변동현황"
+        ],
+        "xbrl": null,
+        "scope": "common",
+        "aliases": [],
+        "note": null,
+        "children": [],
+        "id": "DT.A001.VI.1.06",
+        "level": 3
+       },
+       {
+        "code": "07",
+        "title": "사외이사 교육실시 현황·지원조직",
+        "structures": [
+         "table"
+        ],
+        "grain": "행=교육일자, 열=교육실시주체·참석 사외이사·불참시 사유·주요 교육내용",
+        "contexts": [],
+        "api": [],
+        "xbrl": null,
+        "scope": "common",
+        "aliases": [],
+        "note": null,
+        "children": [],
+        "id": "DT.A001.VI.1.07",
+        "level": 3
+       }
+      ],
+      "id": "DT.A001.VI.1",
+      "level": 2
+     },
+     {
+      "code": "2",
+      "title": "감사제도에 관한 사항",
+      "structures": [
+       "table"
+      ],
+      "grain": null,
+      "contexts": [],
+      "api": [],
+      "xbrl": null,
+      "scope": "common",
+      "aliases": [],
+      "note": null,
+      "children": [
+       {
+        "code": "01",
+        "title": "감사위원회(감사) 설치여부·구성",
+        "structures": [
+         "table"
+        ],
+        "grain": "행=위원, 열=사외이사 여부·경력·회계·재무전문가 해당 여부·전문가 유형",
+        "contexts": [
+         "기준일"
+        ],
+        "api": [],
+        "xbrl": null,
+        "scope": "common",
+        "aliases": [],
+        "note": null,
+        "children": [],
+        "id": "DT.A001.VI.2.01",
+        "level": 3
+       },
+       {
+        "code": "02",
+        "title": "감사위원회(감사)의 독립성",
+        "structures": [
+         "table",
+         "paragraph"
+        ],
+        "grain": null,
+        "contexts": [],
+        "api": [],
+        "xbrl": null,
+        "scope": "common",
+        "aliases": [],
+        "note": null,
+        "children": [],
+        "id": "DT.A001.VI.2.02",
+        "level": 3
+       },
+       {
+        "code": "03",
+        "title": "감사위원회(감사) 주요 활동내역",
+        "structures": [
+         "table"
+        ],
+        "grain": "행=회차×개최일자×의안, 열=가결여부·위원별 찬반",
+        "contexts": [],
+        "api": [],
+        "xbrl": null,
+        "scope": "common",
+        "aliases": [],
+        "note": null,
+        "children": [],
+        "id": "DT.A001.VI.2.03",
+        "level": 3
+       },
+       {
+        "code": "04",
+        "title": "감사위원회(감사) 교육실시 현황·지원조직 현황",
+        "structures": [
+         "table"
+        ],
+        "grain": "행=교육일자/부서, 열=내용/직원 수·경력",
+        "contexts": [],
+        "api": [],
+        "xbrl": null,
+        "scope": "common",
+        "aliases": [],
+        "note": null,
+        "children": [],
+        "id": "DT.A001.VI.2.04",
+        "level": 3
+       },
+       {
+        "code": "05",
+        "title": "준법지원인 등 지원조직 현황",
+        "structures": [
+         "table"
+        ],
+        "grain": "행=준법지원인(인적사항·주요경력), 주요 활동내역, 지원조직",
+        "contexts": [],
+        "api": [],
+        "xbrl": null,
+        "scope": "conditional",
+        "aliases": [],
+        "note": "자산 5천억 이상 상장회사 의무.",
+        "children": [],
+        "id": "DT.A001.VI.2.05",
+        "level": 3
+       }
+      ],
+      "id": "DT.A001.VI.2",
+      "level": 2
+     },
+     {
+      "code": "3",
+      "title": "주주총회 등에 관한 사항",
+      "structures": [
+       "table"
+      ],
+      "grain": null,
+      "contexts": [],
+      "api": [],
+      "xbrl": null,
+      "scope": "common",
+      "aliases": [],
+      "note": null,
+      "children": [
+       {
+        "code": "01",
+        "title": "투표제도 현황",
+        "structures": [
+         "table"
+        ],
+        "grain": "행=집중투표제·서면투표제·전자투표제, 열=도입여부·실시여부",
+        "contexts": [],
+        "api": [],
+        "xbrl": null,
+        "scope": "common",
+        "aliases": [],
+        "note": null,
+        "children": [],
+        "id": "DT.A001.VI.3.01",
+        "level": 3
+       },
+       {
+        "code": "02",
+        "title": "소수주주권 행사 여부 / 경영권 경쟁",
+        "structures": [
+         "paragraph"
+        ],
+        "grain": null,
+        "contexts": [],
+        "api": [],
+        "xbrl": null,
+        "scope": "common",
+        "aliases": [],
+        "note": null,
+        "children": [],
+        "id": "DT.A001.VI.3.02",
+        "level": 3
+       },
+       {
+        "code": "03",
+        "title": "의결권 현황",
+        "structures": [
+         "table"
+        ],
+        "grain": "행=발행주식총수·의결권없는 주식수·정관에 의한 제한·법률에 의한 제한·의결권 행사 가능 주식수, 열=보통주·우선주",
+        "contexts": [
+         "기준일",
+         "주식 종류"
+        ],
+        "api": [],
+        "xbrl": null,
+        "scope": "common",
+        "aliases": [],
+        "note": null,
+        "children": [],
+        "id": "DT.A001.VI.3.03",
+        "level": 3
+       },
+       {
+        "code": "04",
+        "title": "주식사무",
+        "structures": [
+         "table",
+         "paragraph"
+        ],
+        "grain": "정관상 신주인수권 내용·결산일·정기주주총회·주주명부폐쇄·명의개서대리인·공고방법",
+        "contexts": [],
+        "api": [],
+        "xbrl": null,
+        "scope": "common",
+        "aliases": [],
+        "note": "일부 보고서(BR0016·BR0020)는 VII 주주 절에 배치.",
+        "children": [],
+        "id": "DT.A001.VI.3.04",
+        "level": 3
+       },
+       {
+        "code": "05",
+        "title": "주주총회 의사록 요약",
+        "structures": [
+         "table"
+        ],
+        "grain": "행=주총 일자, 열=안건·결의내용·비고",
+        "contexts": [
+         "승인일",
+         "안건 상태(가결/부결)"
+        ],
+        "api": [],
+        "xbrl": null,
+        "scope": "common",
+        "aliases": [],
+        "note": null,
+        "children": [],
+        "id": "DT.A001.VI.3.05",
+        "level": 3
+       }
+      ],
+      "id": "DT.A001.VI.3",
+      "level": 2
+     }
+    ],
+    "id": "DT.A001.VI",
+    "level": 1
+   },
+   {
+    "code": "VII",
+    "title": "주주에 관한 사항",
+    "structures": [
+     "section"
+    ],
+    "grain": null,
+    "contexts": [],
+    "api": [],
+    "xbrl": null,
+    "scope": "common",
+    "aliases": [],
+    "note": "서식상 하위 절 없음. 아래는 표 유형.",
+    "children": [
+     {
+      "code": "01",
+      "title": "최대주주 및 특수관계인의 주식소유 현황",
+      "structures": [
+       "table"
+      ],
+      "grain": "행=성명×관계×주식의 종류, 열=기초 주식수·지분율, 기말 주식수·지분율, 비고",
+      "contexts": [
+       "기준일",
+       "지분율 분모(발행주식총수/의결권)",
+       "합산 대상 각주"
+      ],
+      "api": [
+       "최대주주 현황"
+      ],
+      "xbrl": null,
+      "scope": "common",
+      "aliases": [],
+      "note": "최대주주 행의 회사명은 수치 귀속 범위 전체와 같지 않다. 합산 대상·의결권 기준 각주가 필수(BR0001 F0001).",
+      "children": [],
+      "id": "DT.A001.VII.01",
+      "level": 2
+     },
+     {
+      "code": "02",
+      "title": "최대주주의 주요경력 및 개요 / 최대주주(법인)의 기본정보·최근 결산기 재무현황·최대주주의 최대주주 개요",
+      "structures": [
+       "table",
+       "paragraph"
+      ],
+      "grain": "법인 최대주주: 명칭·대표이사·업무집행자·최대주주와 지분율; 재무현황(자산총계·부채·자본·매출·순이익)",
+      "contexts": [
+       "최대주주 법인의 결산기",
+       "연결/별도"
+      ],
+      "api": [],
+      "xbrl": null,
+      "scope": "common",
+      "aliases": [],
+      "note": null,
+      "children": [],
+      "id": "DT.A001.VII.02",
+      "level": 2
+     },
+     {
+      "code": "03",
+      "title": "최대주주 변동현황",
+      "structures": [
+       "table"
+      ],
+      "grain": "행=변동일, 열=최대주주명·소유주식수·지분율·변동원인",
+      "contexts": [],
+      "api": [
+       "최대주주 변동현황"
+      ],
+      "xbrl": null,
+      "scope": "conditional",
+      "aliases": [],
+      "note": "주식 수 자릿수 표기 차이(60,000 vs 600,000)가 원문에 있을 수 있다(BR0020 F0003).",
+      "children": [],
+      "id": "DT.A001.VII.03",
+      "level": 2
+     },
+     {
+      "code": "04",
+      "title": "주식 소유현황(5% 이상 주주·우리사주조합)",
+      "structures": [
+       "table"
+      ],
+      "grain": "행=구분(5%이상 주주/우리사주조합), 열=주주명·소유주식수·지분율·비고",
+      "contexts": [
+       "기준일",
+       "지분율 분모"
+      ],
+      "api": [],
+      "xbrl": null,
+      "scope": "common",
+      "aliases": [],
+      "note": "동일 수량 반복은 복사 오류로 단정하지 않는다(BR0016 F0022).",
+      "children": [],
+      "id": "DT.A001.VII.04",
+      "level": 2
+     },
+     {
+      "code": "05",
+      "title": "소액주주현황",
+      "structures": [
+       "table"
+      ],
+      "grain": "행=소액주주, 열=주주 수(소액/전체·비율)·보유주식(소액/총발행·비율)",
+      "contexts": [],
+      "api": [
+       "소액주주 현황"
+      ],
+      "xbrl": null,
+      "scope": "common",
+      "aliases": [],
+      "note": null,
+      "children": [],
+      "id": "DT.A001.VII.05",
+      "level": 2
+     },
+     {
+      "code": "06",
+      "title": "주가 및 주식거래실적",
+      "structures": [
+       "table"
+      ],
+      "grain": "행=종류(보통주 최고/최저/평균, 거래량 최고/최저/월간), 열=최근 6개월",
+      "contexts": [
+       "월",
+       "시장(유가/코스닥/코넥스)",
+       "단위(원/주)"
+      ],
+      "api": [],
+      "xbrl": null,
+      "scope": "common",
+      "aliases": [],
+      "note": null,
+      "children": [],
+      "id": "DT.A001.VII.06",
+      "level": 2
+     }
+    ],
+    "id": "DT.A001.VII",
+    "level": 1
+   },
+   {
+    "code": "VIII",
+    "title": "임원 및 직원 등에 관한 사항",
+    "structures": [
+     "section"
+    ],
+    "grain": null,
+    "contexts": [],
+    "api": [],
+    "xbrl": null,
+    "scope": "common",
+    "aliases": [],
+    "note": null,
+    "children": [
+     {
+      "code": "1",
+      "title": "임원 및 직원 등의 현황",
+      "structures": [
+       "table"
+      ],
+      "grain": null,
+      "contexts": [],
+      "api": [],
+      "xbrl": null,
+      "scope": "common",
+      "aliases": [],
+      "note": null,
+      "children": [
+       {
+        "code": "01",
+        "title": "임원 현황(등기임원)",
+        "structures": [
+         "table"
+        ],
+        "grain": "행=임원, 열=성명·성별·출생년월·직위·등기임원 여부·상근 여부·담당업무·주요경력·소유주식수(의결권 있음/없음)·최대주주와의 관계·재직기간·임기만료일",
+        "contexts": [
+         "기준일",
+         "명부 vs 보수 대상 vs 재직자 모집단 구분"
+        ],
+        "api": [
+         "임원 현황"
+        ],
+        "xbrl": null,
+        "scope": "common",
+        "aliases": [],
+        "note": null,
+        "children": [],
+        "id": "DT.A001.VIII.1.01",
+        "level": 3
+       },
+       {
+        "code": "02",
+        "title": "등기임원 선임 후보자 및 해임 대상자 현황",
+        "structures": [
+         "table"
+        ],
+        "grain": "행=후보자, 열=성별·출생년월·사외이사 후보 여부·주요경력·선임(해임)예정일",
+        "contexts": [],
+        "api": [],
+        "xbrl": null,
+        "scope": "conditional",
+        "aliases": [],
+        "note": null,
+        "children": [],
+        "id": "DT.A001.VIII.1.02",
+        "level": 3
+       },
+       {
+        "code": "03",
+        "title": "등기임원의 타회사 임원겸직 현황",
+        "structures": [
+         "table"
+        ],
+        "grain": "행=성명×겸직회사, 열=직위·재직기간",
+        "contexts": [],
+        "api": [],
+        "xbrl": null,
+        "scope": "common",
+        "aliases": [],
+        "note": null,
+        "children": [],
+        "id": "DT.A001.VIII.1.03",
+        "level": 3
+       },
+       {
+        "code": "04",
+        "title": "미등기임원 현황(명부)",
+        "structures": [
+         "table"
+        ],
+        "grain": "행=미등기임원, 열=직위·담당업무·주요경력·소유주식수·재직기간 등",
+        "contexts": [],
+        "api": [],
+        "xbrl": null,
+        "scope": "common",
+        "aliases": [],
+        "note": "같은 이름 37그룹 76행을 이름만으로 동일인 병합하지 않는다(BR0001 SEM0013). 삼성전자 1,134명.",
+        "children": [],
+        "id": "DT.A001.VIII.1.04",
+        "level": 3
+       },
+       {
+        "code": "05",
+        "title": "직원 등 현황",
+        "structures": [
+         "table"
+        ],
+        "grain": "행=사업부문×성별, 열=직원 수(기간의 정함이 없는/있는 근로자, 단시간)·합계·평균 근속연수·연간급여총액·1인평균 급여액·비고",
+        "contexts": [
+         "기준일 vs 연평균 인원",
+         "급여 총액 기간"
+        ],
+        "api": [
+         "직원 현황"
+        ],
+        "xbrl": null,
+        "scope": "common",
+        "aliases": [],
+        "note": "명부 인원·기말 보수 대상·연평균 재직자는 다른 모집단.",
+        "children": [],
+        "id": "DT.A001.VIII.1.05",
+        "level": 3
+       },
+       {
+        "code": "06",
+        "title": "미등기임원 보수 현황",
+        "structures": [
+         "table"
+        ],
+        "grain": "행=미등기임원, 열=인원수·연간급여 총액·1인평균 급여액",
+        "contexts": [],
+        "api": [
+         "미등기임원 보수현황"
+        ],
+        "xbrl": null,
+        "scope": "common",
+        "aliases": [],
+        "note": null,
+        "children": [],
+        "id": "DT.A001.VIII.1.06",
+        "level": 3
+       },
+       {
+        "code": "07",
+        "title": "육아지원제도 및 유연근무제도 사용 현황",
+        "structures": [
+         "table"
+        ],
+        "grain": null,
+        "contexts": [],
+        "api": [],
+        "xbrl": null,
+        "scope": "conditional",
+        "aliases": [],
+        "note": "최근 서식 신설 항목.",
+        "children": [],
+        "id": "DT.A001.VIII.1.07",
+        "level": 3
+       }
+      ],
+      "id": "DT.A001.VIII.1",
+      "level": 2
+     },
+     {
+      "code": "2",
+      "title": "임원의 보수 등",
+      "structures": [
+       "table"
+      ],
+      "grain": null,
+      "contexts": [],
+      "api": [],
+      "xbrl": null,
+      "scope": "common",
+      "aliases": [],
+      "note": null,
+      "children": [
+       {
+        "code": "01",
+        "title": "이사·감사 전체의 보수현황(주주총회 승인금액·보수지급금액: 전체/유형별)",
+        "structures": [
+         "table"
+        ],
+        "grain": "행=구분(등기이사/사외이사/감사위원회 위원/감사), 열=인원수·보수총액·1인당 평균보수액",
+        "contexts": [
+         "인원수 기준일(승인일/기말)",
+         "보수 기간"
+        ],
+        "api": [
+         "이사·감사 전체의 보수현황"
+        ],
+        "xbrl": null,
+        "scope": "common",
+        "aliases": [],
+        "note": null,
+        "children": [],
+        "id": "DT.A001.VIII.2.01",
+        "level": 3
+       },
+       {
+        "code": "02",
+        "title": "이사·감사의 개인별 보수현황(5억원 이상)",
+        "structures": [
+         "table"
+        ],
+        "grain": "행=개인, 열=직위·보수총액·보수 산정기준 및 방법(급여·상여·퇴직소득 등)",
+        "contexts": [],
+        "api": [
+         "이사·감사의 개인별 보수현황",
+         "개인별 보수지급금액(5억이상 상위5인)"
+        ],
+        "xbrl": null,
+        "scope": "conditional",
+        "aliases": [],
+        "note": null,
+        "children": [],
+        "id": "DT.A001.VIII.2.02",
+        "level": 3
+       },
+       {
+        "code": "03",
+        "title": "보수지급금액 5억원 이상 상위 5인",
+        "structures": [
+         "table"
+        ],
+        "grain": "행=개인, 열=직위·보수총액·산정기준",
+        "contexts": [],
+        "api": [],
+        "xbrl": null,
+        "scope": "conditional",
+        "aliases": [],
+        "note": null,
+        "children": [],
+        "id": "DT.A001.VIII.2.03",
+        "level": 3
+       },
+       {
+        "code": "04",
+        "title": "주식매수선택권의 부여 및 행사 현황",
+        "structures": [
+         "table"
+        ],
+        "grain": "행=부여받은자×부여일, 열=관계·부여수량·행사수량·취소수량·미행사수량·행사기간·행사가격·변동수량",
+        "contexts": [
+         "부여/행사/취소/만료 사건 구분",
+         "무상증자 조정 전후"
+        ],
+        "api": [],
+        "xbrl": null,
+        "scope": "common",
+        "aliases": [],
+        "note": "만료 수량과 총변동/기말 수량의 범위 차이(BR0016 F0021, F0026).",
+        "children": [],
+        "id": "DT.A001.VIII.2.04",
+        "level": 3
+       },
+       {
+        "code": "05",
+        "title": "주식매수선택권을 제외한 주식기준보상제도 운영 현황",
+        "structures": [
+         "table"
+        ],
+        "grain": null,
+        "contexts": [],
+        "api": [],
+        "xbrl": null,
+        "scope": "conditional",
+        "aliases": [],
+        "note": null,
+        "children": [],
+        "id": "DT.A001.VIII.2.05",
+        "level": 3
+       }
+      ],
+      "id": "DT.A001.VIII.2",
+      "level": 2
+     }
+    ],
+    "id": "DT.A001.VIII",
+    "level": 1
+   },
+   {
+    "code": "IX",
+    "title": "계열회사 등에 관한 사항",
+    "structures": [
+     "section"
+    ],
+    "grain": null,
+    "contexts": [],
+    "api": [],
+    "xbrl": null,
+    "scope": "common",
+    "aliases": [],
+    "note": null,
+    "children": [
+     {
+      "code": "01",
+      "title": "계열회사 현황(요약)",
+      "structures": [
+       "table"
+      ],
+      "grain": "행=기업집단 명칭, 열=계열회사 수(상장/비상장/합계)",
+      "contexts": [],
+      "api": [],
+      "xbrl": null,
+      "scope": "common",
+      "aliases": [],
+      "note": "상세 명단은 XII.2.",
+      "children": [],
+      "id": "DT.A001.IX.01",
+      "level": 2
+     },
+     {
+      "code": "02",
+      "title": "계열회사간 출자현황(국내·해외)",
+      "structures": [
+       "table"
+      ],
+      "grain": "행=출자회사×피출자회사 매트릭스, 셀=지분율",
+      "contexts": [
+       "기준일",
+       "지분율 분모"
+      ],
+      "api": [],
+      "xbrl": null,
+      "scope": "common",
+      "aliases": [],
+      "note": null,
+      "children": [],
+      "id": "DT.A001.IX.02",
+      "level": 2
+     },
+     {
+      "code": "03",
+      "title": "회사와 계열회사 간 임원 겸직 현황",
+      "structures": [
+       "table"
+      ],
+      "grain": "행=성명×겸직회사, 열=직위·선임일",
+      "contexts": [],
+      "api": [],
+      "xbrl": null,
+      "scope": "common",
+      "aliases": [],
+      "note": null,
+      "children": [],
+      "id": "DT.A001.IX.03",
+      "level": 2
+     },
+     {
+      "code": "04",
+      "title": "타법인출자 현황(요약)",
+      "structures": [
+       "table"
+      ],
+      "grain": "행=출자목적(경영참여/일반투자/단순투자), 열=출자회사 수·총 출자금액(기초/증가/감소/평가손익/기말)",
+      "contexts": [],
+      "api": [
+       "타법인 출자현황"
+      ],
+      "xbrl": null,
+      "scope": "common",
+      "aliases": [],
+      "note": "상세는 XII.3.",
+      "children": [],
+      "id": "DT.A001.IX.04",
+      "level": 2
+     }
+    ],
+    "id": "DT.A001.IX",
+    "level": 1
+   },
+   {
+    "code": "X",
+    "title": "대주주 등과의 거래내용",
+    "structures": [
+     "section"
+    ],
+    "grain": null,
+    "contexts": [],
+    "api": [],
+    "xbrl": null,
+    "scope": "common",
+    "aliases": [],
+    "note": null,
+    "children": [
+     {
+      "code": "01",
+      "title": "대주주 등에 대한 신용공여 등",
+      "structures": [
+       "table"
+      ],
+      "grain": "행=성명(법인명)×관계×계정과목, 열=기초·기말·증감·거래일·만기일·신용공여기간·적용금리·내부통제절차",
+      "contexts": [],
+      "api": [],
+      "xbrl": null,
+      "scope": "common",
+      "aliases": [],
+      "note": null,
+      "children": [],
+      "id": "DT.A001.X.01",
+      "level": 2
+     },
+     {
+      "code": "02",
+      "title": "대주주와의 자산양수도 등",
+      "structures": [
+       "table",
+       "paragraph"
+      ],
+      "grain": "행=거래 건, 열=상대방·자산·거래금액·일자",
+      "contexts": [],
+      "api": [],
+      "xbrl": null,
+      "scope": "common",
+      "aliases": [],
+      "note": null,
+      "children": [],
+      "id": "DT.A001.X.02",
+      "level": 2
+     },
+     {
+      "code": "03",
+      "title": "대주주와의 영업거래",
+      "structures": [
+       "table",
+       "paragraph"
+      ],
+      "grain": "행=상대방×거래 종류, 열=금액·비중",
+      "contexts": [],
+      "api": [],
+      "xbrl": null,
+      "scope": "common",
+      "aliases": [],
+      "note": null,
+      "children": [],
+      "id": "DT.A001.X.03",
+      "level": 2
+     },
+     {
+      "code": "04",
+      "title": "대주주 이외의 이해관계자와의 거래",
+      "structures": [
+       "table",
+       "paragraph"
+      ],
+      "grain": null,
+      "contexts": [],
+      "api": [],
+      "xbrl": null,
+      "scope": "common",
+      "aliases": [],
+      "note": null,
+      "children": [],
+      "id": "DT.A001.X.04",
+      "level": 2
+     },
+     {
+      "code": "05",
+      "title": "특수관계자 현황·거래·채권채무·경영진 보상(주석 인용형)",
+      "structures": [
+       "table",
+       "paragraph"
+      ],
+      "grain": "주석 특수관계자 표의 반복 발생",
+      "contexts": [],
+      "api": [],
+      "xbrl": null,
+      "scope": "conditional",
+      "aliases": [],
+      "note": "주석 표를 이 절에 반복 기재하는 경우 별도 발생으로 보존하되 합산하지 않는다(BR0020 F0009).",
+      "children": [],
+      "id": "DT.A001.X.05",
+      "level": 2
+     }
+    ],
+    "id": "DT.A001.X",
+    "level": 1
+   },
+   {
+    "code": "XI",
+    "title": "그 밖에 투자자 보호를 위하여 필요한 사항",
+    "structures": [
+     "section"
+    ],
+    "grain": null,
+    "contexts": [],
+    "api": [],
+    "xbrl": null,
+    "scope": "common",
+    "aliases": [],
+    "note": null,
+    "children": [
+     {
+      "code": "1",
+      "title": "공시내용 진행 및 변경사항",
+      "structures": [
+       "table"
+      ],
+      "grain": null,
+      "contexts": [],
+      "api": [],
+      "xbrl": null,
+      "scope": "common",
+      "aliases": [],
+      "note": null,
+      "children": [
+       {
+        "code": "01",
+        "title": "공시사항의 진행·변경상황",
+        "structures": [
+         "table"
+        ],
+        "grain": "행=신고일자×제목, 열=신고내용·신고사항의 진행상황",
+        "contexts": [
+         "원 공시일",
+         "진행 상태"
+        ],
+        "api": [],
+        "xbrl": null,
+        "scope": "common",
+        "aliases": [],
+        "note": null,
+        "children": [],
+        "id": "DT.A001.XI.1.01",
+        "level": 3
+       }
+      ],
+      "id": "DT.A001.XI.1",
+      "level": 2
+     },
+     {
+      "code": "2",
+      "title": "우발부채 등에 관한 사항",
+      "structures": [
+       "table"
+      ],
+      "grain": null,
+      "contexts": [],
+      "api": [],
+      "xbrl": null,
+      "scope": "common",
+      "aliases": [],
+      "note": null,
+      "children": [
+       {
+        "code": "01",
+        "title": "중요한 소송사건",
+        "structures": [
+         "table",
+         "paragraph"
+        ],
+        "grain": "행=소송 건, 열=원고·피고·소송내용·소송가액·진행상황·향후 영향",
+        "contexts": [
+         "기준일",
+         "진행 상태",
+         "청구금액 vs 계상 충당부채"
+        ],
+        "api": [],
+        "xbrl": null,
+        "scope": "common",
+        "aliases": [],
+        "note": null,
+        "children": [],
+        "id": "DT.A001.XI.2.01",
+        "level": 3
+       },
+       {
+        "code": "02",
+        "title": "견질 또는 담보용 어음·수표 현황",
+        "structures": [
+         "table"
+        ],
+        "grain": "행=제출처, 열=매수·금액",
+        "contexts": [],
+        "api": [],
+        "xbrl": null,
+        "scope": "common",
+        "aliases": [],
+        "note": null,
+        "children": [],
+        "id": "DT.A001.XI.2.02",
+        "level": 3
+       },
+       {
+        "code": "03",
+        "title": "채무보증 현황(제공/제공받은)",
+        "structures": [
+         "table"
+        ],
+        "grain": "행=보증 건, 열=보증받는 회사·보증금액·보증기간·보증내용·상대방",
+        "contexts": [
+         "보증 주체와 상대방 역할",
+         "통화(천USD 등)",
+         "연결/본사 범위",
+         "조건부 여부",
+         "병합셀 공유 범위"
+        ],
+        "api": [],
+        "xbrl": null,
+        "scope": "common",
+        "aliases": [],
+        "note": "연결 보증 15,462,055천USD = 본사 8,102,270 + SDN 584,785 + SAS 340,000 + 정부 조건부 6,435,000(BR0001 SEM0045). 공유 보증을 병합셀 펼치며 두 번 합산 금지.",
+        "children": [],
+        "id": "DT.A001.XI.2.03",
+        "level": 3
+       },
+       {
+        "code": "04",
+        "title": "채무인수약정 현황",
+        "structures": [
+         "table"
+        ],
+        "grain": "행=약정 건",
+        "contexts": [],
+        "api": [],
+        "xbrl": null,
+        "scope": "conditional",
+        "aliases": [],
+        "note": null,
+        "children": [],
+        "id": "DT.A001.XI.2.04",
+        "level": 3
+       },
+       {
+        "code": "05",
+        "title": "그 밖의 우발채무·약정사항(여신한도약정·자본적지출 약정 등)",
+        "structures": [
+         "table",
+         "paragraph"
+        ],
+        "grain": null,
+        "contexts": [
+         "한도 vs 실행액 구분"
+        ],
+        "api": [],
+        "xbrl": null,
+        "scope": "common",
+        "aliases": [],
+        "note": "약정 한도는 부채 잔액이 아니다(BR0001 연결주석16).",
+        "children": [],
+        "id": "DT.A001.XI.2.05",
+        "level": 3
+       }
+      ],
+      "id": "DT.A001.XI.2",
+      "level": 2
+     },
+     {
+      "code": "3",
+      "title": "제재 등과 관련된 사항",
+      "structures": [
+       "table"
+      ],
+      "grain": null,
+      "contexts": [],
+      "api": [],
+      "xbrl": null,
+      "scope": "common",
+      "aliases": [],
+      "note": null,
+      "children": [
+       {
+        "code": "01",
+        "title": "제재현황(수사·사법기관 / 행정기관 / 한국거래소 등)",
+        "structures": [
+         "table",
+         "paragraph"
+        ],
+        "grain": "행=일자×제재기관, 열=처벌 또는 조치대상자·처벌 또는 조치내용·사유·근거법령·재발방지대책",
+        "contexts": [],
+        "api": [],
+        "xbrl": null,
+        "scope": "common",
+        "aliases": [],
+        "note": null,
+        "children": [],
+        "id": "DT.A001.XI.3.01",
+        "level": 3
+       },
+       {
+        "code": "02",
+        "title": "단기매매차익의 발생 및 반환에 관한 사항",
+        "structures": [
+         "paragraph",
+         "table"
+        ],
+        "grain": null,
+        "contexts": [],
+        "api": [],
+        "xbrl": null,
+        "scope": "common",
+        "aliases": [],
+        "note": null,
+        "children": [],
+        "id": "DT.A001.XI.3.02",
+        "level": 3
+       }
+      ],
+      "id": "DT.A001.XI.3",
+      "level": 2
+     },
+     {
+      "code": "4",
+      "title": "작성기준일 이후 발생한 주요사항 등 기타사항",
+      "structures": [
+       "table"
+      ],
+      "grain": null,
+      "contexts": [],
+      "api": [],
+      "xbrl": null,
+      "scope": "common",
+      "aliases": [],
+      "note": null,
+      "children": [
+       {
+        "code": "01",
+        "title": "작성기준일 이후 발생한 주요사항",
+        "structures": [
+         "paragraph",
+         "table"
+        ],
+        "grain": null,
+        "contexts": [
+         "사건일 vs 작성기준일 vs 제출일"
+        ],
+        "api": [],
+        "xbrl": null,
+        "scope": "common",
+        "aliases": [],
+        "note": null,
+        "children": [],
+        "id": "DT.A001.XI.4.01",
+        "level": 3
+       },
+       {
+        "code": "02",
+        "title": "외국지주회사의 자회사 현황",
+        "structures": [
+         "table"
+        ],
+        "grain": null,
+        "contexts": [],
+        "api": [],
+        "xbrl": null,
+        "scope": "conditional",
+        "aliases": [],
+        "note": null,
+        "children": [],
+        "id": "DT.A001.XI.4.02",
+        "level": 3
+       },
+       {
+        "code": "03",
+        "title": "합병 등의 사후정보",
+        "structures": [
+         "table"
+        ],
+        "grain": "행=거래상대방(피합병회사)·이전대가·식별가능 취득자산과 인수부채·영업권·진행 경과·주요 일정",
+        "contexts": [
+         "잠정/확정 배분 상태",
+         "합병 효력일"
+        ],
+        "api": [],
+        "xbrl": null,
+        "scope": "conditional",
+        "aliases": [],
+        "note": "셀트리온 2023 흡수합병 사후정보. 평가액이 잠정임을 상태로 보존.",
+        "children": [],
+        "id": "DT.A001.XI.4.03",
+        "level": 3
+       },
+       {
+        "code": "04",
+        "title": "녹색경영(온실가스 배출량·에너지 사용량)",
+        "structures": [
+         "table"
+        ],
+        "grain": "행=연도, 열=온실가스 배출량·에너지 사용량",
+        "contexts": [],
+        "api": [],
+        "xbrl": null,
+        "scope": "conditional",
+        "aliases": [],
+        "note": null,
+        "children": [],
+        "id": "DT.A001.XI.4.04",
+        "level": 3
+       },
+       {
+        "code": "05",
+        "title": "정부의 인증 및 그 취소에 관한 사항",
+        "structures": [
+         "table"
+        ],
+        "grain": null,
+        "contexts": [],
+        "api": [],
+        "xbrl": null,
+        "scope": "conditional",
+        "aliases": [],
+        "note": null,
+        "children": [],
+        "id": "DT.A001.XI.4.05",
+        "level": 3
+       },
+       {
+        "code": "06",
+        "title": "보호예수 현황",
+        "structures": [
+         "table"
+        ],
+        "grain": "행=주식의 종류, 열=예수주식수·예수일·반환예정일·보호예수기간·사유",
+        "contexts": [],
+        "api": [],
+        "xbrl": null,
+        "scope": "conditional",
+        "aliases": [],
+        "note": null,
+        "children": [],
+        "id": "DT.A001.XI.4.06",
+        "level": 3
+       },
+       {
+        "code": "07",
+        "title": "대외후원·기타 사항",
+        "structures": [
+         "paragraph",
+         "table"
+        ],
+        "grain": null,
+        "contexts": [],
+        "api": [],
+        "xbrl": null,
+        "scope": "conditional",
+        "aliases": [],
+        "note": null,
+        "children": [],
+        "id": "DT.A001.XI.4.07",
+        "level": 3
+       }
+      ],
+      "id": "DT.A001.XI.4",
+      "level": 2
+     }
+    ],
+    "id": "DT.A001.XI",
+    "level": 1
+   },
+   {
+    "code": "XII",
+    "title": "상세표",
+    "structures": [
+     "section"
+    ],
+    "grain": null,
+    "contexts": [],
+    "api": [],
+    "xbrl": null,
+    "scope": "common",
+    "aliases": [],
+    "note": null,
+    "children": [
+     {
+      "code": "1",
+      "title": "연결대상 종속회사 현황(상세)",
+      "structures": [
+       "table"
+      ],
+      "grain": null,
+      "contexts": [],
+      "api": [],
+      "xbrl": null,
+      "scope": "common",
+      "aliases": [],
+      "note": null,
+      "children": [
+       {
+        "code": "01",
+        "title": "연결대상 종속회사 명단",
+        "structures": [
+         "table"
+        ],
+        "grain": "행=종속회사, 열=상호·설립일·주소·주요사업·직전사업연도말 자산총액·지배관계 근거·주요종속회사 여부",
+        "contexts": [
+         "기준일",
+         "자산총액 단위·기준(별도/중간지배 연결)"
+        ],
+        "api": [],
+        "xbrl": null,
+        "scope": "common",
+        "aliases": [],
+        "note": "Harman 행만 중간지배기업 연결 기준(BR0001). 같은 표 안에서도 행별 기준이 다를 수 있다.",
+        "children": [],
+        "id": "DT.A001.XII.1.01",
+        "level": 3
+       }
+      ],
+      "id": "DT.A001.XII.1",
+      "level": 2
+     },
+     {
+      "code": "2",
+      "title": "계열회사 현황(상세)",
+      "structures": [
+       "table"
+      ],
+      "grain": null,
+      "contexts": [],
+      "api": [],
+      "xbrl": null,
+      "scope": "common",
+      "aliases": [],
+      "note": null,
+      "children": [
+       {
+        "code": "01",
+        "title": "국내·해외 계열회사 명단",
+        "structures": [
+         "table"
+        ],
+        "grain": "행=계열회사, 열=상호·상장여부·법인등록번호(국내)/소재국(해외)",
+        "contexts": [],
+        "api": [],
+        "xbrl": null,
+        "scope": "common",
+        "aliases": [],
+        "note": null,
+        "children": [],
+        "id": "DT.A001.XII.2.01",
+        "level": 3
+       }
+      ],
+      "id": "DT.A001.XII.2",
+      "level": 2
+     },
+     {
+      "code": "3",
+      "title": "타법인출자 현황(상세)",
+      "structures": [
+       "table"
+      ],
+      "grain": null,
+      "contexts": [],
+      "api": [],
+      "xbrl": null,
+      "scope": "common",
+      "aliases": [],
+      "note": null,
+      "children": [
+       {
+        "code": "01",
+        "title": "타법인출자 명단",
+        "structures": [
+         "table"
+        ],
+        "grain": "행=법인명×출자목적, 열=최초취득일자·최초취득금액·기초잔액(수량·지분율·장부가액)·증가(감소)(취득·처분 수량·금액, 평가손익)·기말잔액·최근사업연도 재무현황(총자산·당기순손익)",
+        "contexts": [
+         "평가 기준(장부가)",
+         "피출자회사 결산기"
+        ],
+        "api": [
+         "타법인 출자현황"
+        ],
+        "xbrl": null,
+        "scope": "common",
+        "aliases": [],
+        "note": null,
+        "children": [],
+        "id": "DT.A001.XII.3.01",
+        "level": 3
+       }
+      ],
+      "id": "DT.A001.XII.3",
+      "level": 2
+     },
+     {
+      "code": "4",
+      "title": "연구개발실적(상세) / 업종별 상세표",
+      "structures": [
+       "table"
+      ],
+      "grain": null,
+      "contexts": [],
+      "api": [],
+      "xbrl": null,
+      "scope": "common",
+      "aliases": [],
+      "note": null,
+      "children": [
+       {
+        "code": "01",
+        "title": "연구개발실적 상세",
+        "structures": [
+         "table"
+        ],
+        "grain": "행=과제, 열=연구기관·연구결과·기대효과·상품화 내용",
+        "contexts": [],
+        "api": [],
+        "xbrl": null,
+        "scope": "industry:제조",
+        "aliases": [
+         "4. 연구개발실적(상세)"
+        ],
+        "note": null,
+        "children": [],
+        "id": "DT.A001.XII.4.01",
+        "level": 3
+       },
+       {
+        "code": "02",
+        "title": "모집형태별 원수보험료(상세)",
+        "structures": [
+         "table"
+        ],
+        "grain": "행=모집형태×보험종목, 열=원수보험료",
+        "contexts": [],
+        "api": [],
+        "xbrl": null,
+        "scope": "industry:보험",
+        "aliases": [
+         "4. 모집형태별 원수보험료(상세)"
+        ],
+        "note": null,
+        "children": [],
+        "id": "DT.A001.XII.4.02",
+        "level": 3
+       }
+      ],
+      "id": "DT.A001.XII.4",
+      "level": 2
+     }
+    ],
+    "id": "DT.A001.XII",
+    "level": 1
+   },
+   {
+    "code": "EXP",
+    "title": "전문가의 확인",
+    "structures": [
+     "section"
+    ],
+    "grain": null,
+    "contexts": [],
+    "api": [],
+    "xbrl": null,
+    "scope": "common",
+    "aliases": [],
+    "note": null,
+    "children": [
+     {
+      "code": "1",
+      "title": "전문가의 확인",
+      "structures": [
+       "paragraph"
+      ],
+      "grain": null,
+      "contexts": [],
+      "api": [],
+      "xbrl": null,
+      "scope": "common",
+      "aliases": [],
+      "note": null,
+      "children": [],
+      "id": "DT.A001.EXP.1",
+      "level": 2
+     },
+     {
+      "code": "2",
+      "title": "전문가와의 이해관계",
+      "structures": [
+       "paragraph"
+      ],
+      "grain": null,
+      "contexts": [],
+      "api": [],
+      "xbrl": null,
+      "scope": "common",
+      "aliases": [],
+      "note": null,
+      "children": [],
+      "id": "DT.A001.EXP.2",
+      "level": 2
+     }
+    ],
+    "id": "DT.A001.EXP",
+    "level": 1
+   }
+  ],
+  "id": "DT.A001",
+  "level": 0
+ },
+ "structure_layers": {
+  "L4_structure": {
+   "table": "표(다단 머리글·병합셀·각주 포함)",
+   "paragraph": "문단(문장·조건절)",
+   "image": "그림(판독 상태 포함)",
+   "list": "목록"
+  },
+  "L5_minimum_unit": {
+   "cell": "표의 물리 셀 = 값 + 행/열 머리글 문맥",
+   "sentence": "의미가 완결된 문장",
+   "image_region": "그림 영역과 전사 텍스트"
+  },
+  "note": "TGT 5.1: 해석 최소 단위는 '의미가 완결되는 범위'다. 셀 하나가 아니라 셀+머리글+각주 묶음이 관측 단위가 될 수 있다."
+ },
+ "note_topics": [
+  {
+   "code": "N01",
+   "title": "일반사항·연결범위",
+   "keywords": [
+    "일반",
+    "연결대상",
+    "종속기업의 현황"
+   ],
+   "desc": "연결 대상 종속기업 목록·지분율·변동, 회사 개요",
+   "contexts": [
+    "기준일",
+    "지분율 분모(발행/유통/의결권)"
+   ]
+  },
+  {
+   "code": "N02",
+   "title": "회계정책·기준서 적용",
+   "keywords": [
+    "회계정책",
+    "회계처리방침",
+    "제정",
+    "개정"
+   ],
+   "desc": "적용 기준서, 신규·개정 기준서 영향, 미적용 정책",
+   "contexts": [
+    "기준서 적용 연도(열별 기준 조합)",
+    "현재 적용/미래 예정 상태"
+   ]
+  },
+  {
+   "code": "N03",
+   "title": "회계추정·가정",
+   "keywords": [
+    "추정",
+    "가정"
+   ],
+   "desc": "추정 불확실성 원천(손상·충당·세무 등)",
+   "contexts": [
+    "최빈값/기대값 등 추정 방법"
+   ]
+  },
+  {
+   "code": "N04",
+   "title": "재무위험관리·자본관리",
+   "keywords": [
+    "재무위험",
+    "위험관리",
+    "자본관리",
+    "자본위험"
+   ],
+   "desc": "시장·신용·유동성 위험, 민감도, 만기분석, 자본관리 지표",
+   "contexts": [
+    "충격 가정",
+    "미할인/장부금액 구분"
+   ]
+  },
+  {
+   "code": "N05",
+   "title": "금융상품 범주·공정가치",
+   "keywords": [
+    "범주별",
+    "공정가치",
+    "금융상품"
+   ],
+   "desc": "범주별 장부금액, 공정가치 서열체계, 평가기법",
+   "contexts": [
+    "범주(분류) 정의",
+    "수준1/2/3",
+    "기준일"
+   ]
+  },
+  {
+   "code": "N06",
+   "title": "현금·금융자산·금융자산 양도",
+   "keywords": [
+    "현금및현금성",
+    "금융자산",
+    "양도",
+    "단기금융"
+   ],
+   "desc": "현금성자산, 상각후원가·FVOCI·FVPL 자산, 팩토링 등 양도",
+   "contexts": [
+    "제거/미제거 판정",
+    "담보 여부"
+   ]
+  },
+  {
+   "code": "N07",
+   "title": "매출채권·기타채권",
+   "keywords": [
+    "매출채권",
+    "기타채권",
+    "미수금",
+    "채권"
+   ],
+   "desc": "채권 총액·손실충당금·연령분석",
+   "contexts": [
+    "총액/순액",
+    "연령 구간",
+    "손실충당금 부호"
+   ]
+  },
+  {
+   "code": "N08",
+   "title": "재고자산",
+   "keywords": [
+    "재고"
+   ],
+   "desc": "재고 종류별 잔액·평가충당금·비용 인식액",
+   "contexts": [
+    "잔액 vs 흐름(비용 인식) 구분"
+   ]
+  },
+  {
+   "code": "N09",
+   "title": "관계기업·공동기업·종속기업 투자",
+   "keywords": [
+    "관계기업",
+    "공동기업",
+    "종속기업",
+    "지분법"
+   ],
+   "desc": "지분율, 장부금액, 지분법 손익, 요약 재무정보",
+   "contexts": [
+    "지분율 분모",
+    "순자산지분 vs 피투자회사 전체 재무"
+   ]
+  },
+  {
+   "code": "N10",
+   "title": "유형자산·사용권자산",
+   "keywords": [
+    "유형자산",
+    "사용권"
+   ],
+   "desc": "취득·처분·감가상각·손상, 건설중자산, 담보",
+   "contexts": [
+    "취득(대체 포함) vs 현금 CAPEX",
+    "ROU 포함 관계"
+   ]
+  },
+  {
+   "code": "N11",
+   "title": "무형자산·영업권",
+   "keywords": [
+    "무형자산",
+    "영업권"
+   ],
+   "desc": "무형자산 변동, 영업권 배분·손상검사 가정",
+   "contexts": [
+    "CGU 배분",
+    "예측 기간·성장률 가정"
+   ]
+  },
+  {
+   "code": "N12",
+   "title": "투자부동산",
+   "keywords": [
+    "투자부동산"
+   ],
+   "desc": "투자부동산 변동·공정가치",
+   "contexts": [
+    "표시 단위(만원/백만원 혼재 가능)"
+   ]
+  },
+  {
+   "code": "N13",
+   "title": "기타자산·매각예정·중단영업",
+   "keywords": [
+    "기타자산",
+    "매각예정",
+    "중단영업",
+    "처분자산집단"
+   ],
+   "desc": "기타자산, 매각예정자산·부채, 중단영업 손익",
+   "contexts": [
+    "분류 시점"
+   ]
+  },
+  {
+   "code": "N14",
+   "title": "매입채무·기타채무·계약부채",
+   "keywords": [
+    "매입채무",
+    "지급채무",
+    "계약부채",
+    "기타부채",
+    "미지급"
+   ],
+   "desc": "매입채무, 미지급금, 계약부채(선수금 등)",
+   "contexts": [
+    "BS 표시 계정과의 대응"
+   ]
+  },
+  {
+   "code": "N15",
+   "title": "차입금·사채·금융부채·리스부채",
+   "keywords": [
+    "차입금",
+    "차입부채",
+    "차입",
+    "사채",
+    "금융부채",
+    "리스"
+   ],
+   "desc": "차입 상대방·이자율·만기, 사채 조건, 리스부채",
+   "contexts": [
+    "명목(외화)/장부금액",
+    "미할인 만기금액 vs 장부",
+    "이자율 범위"
+   ]
+  },
+  {
+   "code": "N16",
+   "title": "충당부채·배출부채·우발부채·약정",
+   "keywords": [
+    "충당부채",
+    "배출부채",
+    "우발",
+    "약정",
+    "우발상황"
+   ],
+   "desc": "충당부채 변동, 배출권, 소송·보증·약정",
+   "contexts": [
+    "한도 vs 잔액",
+    "조건부 여부",
+    "추정 시점"
+   ]
+  },
+  {
+   "code": "N17",
+   "title": "종업원급여·퇴직급여·주식기준보상",
+   "keywords": [
+    "종업원급여",
+    "퇴직급여",
+    "확정급여",
+    "주식기준보상",
+    "순확정급여"
+   ],
+   "desc": "확정급여채무, 사외적립자산, 보험수리 가정, 주식기준보상",
+   "contexts": [
+    "부호 관례(자산/부채 순액)",
+    "민감도 라벨"
+   ]
+  },
+  {
+   "code": "N18",
+   "title": "정부보조금",
+   "keywords": [
+    "정부보조금"
+   ],
+   "desc": "보조금 수령·차감",
+   "contexts": [
+    "보조금 차감 전/후"
+   ]
+  },
+  {
+   "code": "N19",
+   "title": "법인세·이연법인세",
+   "keywords": [
+    "법인세"
+   ],
+   "desc": "법인세비용 구성, 이연법인세 자산·부채, 유효세율",
+   "contexts": [
+    "세전/세후",
+    "부호(환급 시 음수)"
+   ]
+  },
+  {
+   "code": "N20",
+   "title": "자본금·잉여금·기타자본·비지배지분",
+   "keywords": [
+    "자본금",
+    "납입자본",
+    "이익잉여금",
+    "기타자본",
+    "기타포괄손익누계액",
+    "비지배지분",
+    "자본"
+   ],
+   "desc": "자본금·주식수, 이익잉여금 변동·처분, 기타자본, 비지배지분",
+   "contexts": [
+    "주식수 단위(주) vs 금액 단위",
+    "괄호 부호",
+    "처분예정/확정"
+   ]
+  },
+  {
+   "code": "N21",
+   "title": "매출·매출원가·수익인식",
+   "keywords": [
+    "매출",
+    "수익"
+   ],
+   "desc": "수익 유형·지역·시기별 분해, 계약자산·부채",
+   "contexts": [
+    "수익 인식 시점",
+    "부문/유형 분해 범위"
+   ]
+  },
+  {
+   "code": "N22",
+   "title": "비용의 성격별 분류·판매비와관리비",
+   "keywords": [
+    "성격별",
+    "판매비",
+    "판관비"
+   ],
+   "desc": "비용 성격별 분해, 판관비 항목",
+   "contexts": [
+    "단위 미명시 가능(BR0016 F0016)"
+   ]
+  },
+  {
+   "code": "N23",
+   "title": "기타손익·금융손익",
+   "keywords": [
+    "기타수익",
+    "기타비용",
+    "기타손익",
+    "금융수익",
+    "금융비용",
+    "금융손익",
+    "파생"
+   ],
+   "desc": "기타·금융 손익 항목, 파생 평가손익",
+   "contexts": [
+    "배율·분류 충돌 가능(BR0053 파생 평가손익)"
+   ]
+  },
+  {
+   "code": "N24",
+   "title": "주당이익",
+   "keywords": [
+    "주당",
+    "주당순이익",
+    "주당이익"
+   ],
+   "desc": "기본·희석 EPS, 가중평균유통주식수",
+   "contexts": [
+    "분모(가중평균주식수) 표 간 일치 여부(BR0053 F0020)"
+   ]
+  },
+  {
+   "code": "N25",
+   "title": "현금흐름 보충정보",
+   "keywords": [
+    "현금흐름",
+    "영업으로부터 창출된 현금"
+   ],
+   "desc": "비현금 조정, 영업활동 현금 창출, 비현금 투자·재무",
+   "contexts": [
+    "비현금 거래 vs 현금흐름"
+   ]
+  },
+  {
+   "code": "N26",
+   "title": "부문별 보고",
+   "keywords": [
+    "부문"
+   ],
+   "desc": "부문별 매출·영업이익·자산, 지역별 정보",
+   "contexts": [
+    "부문 정의",
+    "내부거래 제거 전/후"
+   ]
+  },
+  {
+   "code": "N27",
+   "title": "특수관계자",
+   "keywords": [
+    "특수관계자",
+    "특수관계"
+   ],
+   "desc": "특수관계자 범위, 거래, 채권·채무, 주요 경영진 보상",
+   "contexts": [
+    "'매출 등'과 손익계산서 매출의 측정범위 차이(BR0001 SEM0043)",
+    "관계 유효기간(합병 전후)"
+   ]
+  },
+  {
+   "code": "N28",
+   "title": "사업결합",
+   "keywords": [
+    "사업결합",
+    "합병"
+   ],
+   "desc": "취득 대가, 식별가능 자산·부채, 영업권, 가정 실적",
+   "contexts": [
+    "잠정 배분 상태",
+    "실제 포함기간 vs 가정 시작일",
+    "연결/별도 영업권 차이"
+   ]
+  },
+  {
+   "code": "N29",
+   "title": "보고기간 후 사건",
+   "keywords": [
+    "보고기간 후",
+    "보고기간후",
+    "후속사건"
+   ],
+   "desc": "결산일 이후 사건(소각·배당·취득 등)",
+   "contexts": [
+    "사건일 vs 기말"
+   ]
+  },
+  {
+   "code": "N30",
+   "title": "보험계약·재보험(보험업)",
+   "keywords": [
+    "보험계약",
+    "보험",
+    "재보험",
+    "보험금융"
+   ],
+   "desc": "보험계약자산·부채, CSM, 위험조정, 재보험, 보험수익·비용",
+   "contexts": [
+    "IFRS17/IFRS4 기준 조합",
+    "보험료 vs 보험수익"
+   ]
+  },
+  {
+   "code": "N31",
+   "title": "온실가스·기타 환경부채",
+   "keywords": [
+    "온실가스"
+   ],
+   "desc": "배출권·배출부채 수량과 금액",
+   "contexts": [
+    "수량(톤) vs 금액"
+   ]
+  }
+ ]
+}

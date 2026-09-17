@@ -1,0 +1,8 @@
+#!/bin/sh
+# 초기 5건(원문 패키지가 있는 경우)의 구조 조사를 재실행한다. E=원문 패키지 위치
+E=${E:-/tmp/claude-0/-home-user-covid-19-data/71c6555c-5ad7-5ce5-9b0d-de7d474d7846/scratchpad/extract}
+python3 build/survey_structure.py BR0001 --html "$E/55476b91-BR0001_saved_results/html/BR0001_2024_005930_삼성전자.html" --wrapper "$E/55476b91-BR0001_saved_results/evidence/BR0001/wrapper.html" --company 삼성전자 --year 2024 --receipt 20250311001085 --sector "전자·반도체·전기장비" --period "2024-01-01~2024-12-31"
+python3 build/survey_structure.py BR0044 --html "$E/92693749-BR0044_saved_results/html/BR0044_2023_005830_DB손해보험.html" --wrapper "$E/92693749-BR0044_saved_results/evidence/BR0044/wrapper.html" --company DB손해보험 --year 2023 --receipt 20240314001788 --sector "금융(보험)" --period "2023-01-01~2023-12-31"
+python3 build/survey_structure.py BR0053 --html "$E/baf04e5d-BR0053_saved_results/html/BR0053_2023_068270_셀트리온.html" --wrapper "$E/baf04e5d-BR0053_saved_results/evidence/BR0053/wrapper.html" --company 셀트리온 --year 2023 --receipt 20240318000913 --sector "제약·바이오·의료" --period "2023-01-01~2023-12-31"
+python3 build/survey_structure.py BR0016 --html "$E/b62cd757-BR0016_saved_results/html/BR0016_2021_067370_선바이오.html" --wrapper "$E/b62cd757-BR0016_saved_results/evidence/BR0016/wrapper.html" --company 선바이오 --year 2021 --receipt 20220318000845 --sector "제약·바이오·의료(중소)" --period "2021-01-01~2021-12-31"
+python3 build/survey_structure.py BR0020 --html "$E/9cce2f74-BR0020_saved_results/html/BR0020_2021_338100_NH프라임리츠.html" --wrapper "$E/9cce2f74-BR0020_saved_results/evidence/BR0020/wrapper.html" --company NH프라임리츠 --year 2021 --receipt 20220210000432 --sector "리츠" --period "2021-06-01~2021-11-30"
